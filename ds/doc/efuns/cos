@@ -1,0 +1,15 @@
+
+	cos(3)			MudOS v21c2		(5 Sep 1994)
+
+	嘿:
+		cos() - 肚疊翴计緇┒ (cosine)
+	粂猭:
+		float cos( float f );
+
+		疊翴计 cos( 疊翴计 f );
+	ノ猭:
+		肚把计 f 緇┒, f  褃 (radians) 虫.
+	把σ:
+		acos(3), asin(3), atan(3), sin(3), tan(3)
+	陆亩:
+		Spock @ FF	97.Jan.27.		(printed 3/16/95)

@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["mud_age":39,"talk_point":3,"DS_DATA_VERSION":19991107,"addition_shield":10,"gender":"男性","name":"心情","heart_beat_rate":6,"addition_armor":10,"guild_gifts":({5,5,5,5,}),"id":"heartisdie","race":"human","channels":({"chat","rumor","tchat",}),"level":1,"addition_damage":10,"unit":"位","birthday":1124985895,"max_hp":80,"hp":80,"exp":777,"attitude":"peaceful","dex":2,"startroom":"/open/world1/tmr/area/hotel","int":2,"con":2,"newbie":1,"volume":7,"max_mp":60,"str":2,"default_actions":,"mp":60,"evil":-1,"Merits":(["sou":0,"tec":0,"bio":0,"wit":0,"bar":0,]),"max_ap":60,"supply_point":6,"age":14,"ap":60,"actions":,"cure_count":3,])
+autoload ({})

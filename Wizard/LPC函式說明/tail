@@ -1,0 +1,16 @@
+
+	tail(3)			LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		tail() - 顯示一個檔案的最後一部份.
+	函數語法:
+		int tail( string path );
+
+		整數 tail( 字串 path );
+	函數用法:
+		此超越函式 (efun) 顯示檔案 path 的最後一部份. 成功則
+		傳回 1, 不成功傳回 0. (例如檔案讀取權限不夠)
+	參考函數:
+		read_file(3), read_buffer(3), file_size(3)
+	手冊翻譯:
+		Phoebus@ZH	97.Jul.24.		(Writen 5/23/97)

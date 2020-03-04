@@ -1,0 +1,2867 @@
+[Fri Aug  2 18:52:58 2002] u/h/hiko/mob.c line 33: parse error before the end of file
+
+[Fri Aug  2 19:18:24 2002] u/h/hiko/workroom.c line 16: parse error before ]));                
+
+[Fri Aug  2 19:20:18 2002] u/h/hiko/workroom.c line 16: parse error before ]));                
+
+[Fri Aug  2 20:23:51 2002] u/h/hiko/workroom.c line 16: parse error before ]));                
+
+[Fri Aug  2 21:46:00 2002] u/h/hiko/npc/tmb1.c line 28: Undefined variable 'org' before "com")
+
+[Sat Aug  3 00:38:36 2002] u/h/hiko/item/tpil.c line 23: Undefined variable 'str' before sscanf(str, "%s", am
+
+[Sat Aug  3 00:38:36 2002] u/h/hiko/item/tpil.c line 25: Undefined variable 'combat_exp' before amount);
+
+[Sat Aug  3 00:43:28 2002] u/h/hiko/item/tpil.c line 23: Undefined variable 'str' before sscanf(str, "%s %d",
+
+[Sat Aug  3 00:45:26 2002] u/h/hiko/item/tpil.c line 27: Undefined variable 'str' before sscanf(str, "%s %d",
+
+[Sat Aug  3 01:13:55 2002] u/h/hiko/item/tpil.c line 7: parse error before the end of line
+
+[Sat Aug  3 01:13:55 2002] u/h/hiko/item/tpil.c line 13: Illegal terminator before Áû¥Rº¡¯«¯µ®ð®§ªºÃÄ¤Y
+
+[Sat Aug  3 01:15:09 2002] u/h/hiko/item/tpil.c line 8: parse error before pill" }));
+
+[Sat Aug  3 01:15:09 2002] u/h/hiko/item/tpil.c line 13: Illegal terminator before Áû¥Rº¡¯«¯µ®ð®§ªºÃÄ¤Y
+
+[Sat Aug  3 13:55:15 2002] u/h/hiko/workroom.c line 18: parse error before ();
+
+[Sat Aug  3 13:56:02 2002] u/h/hiko/workroom.c line 18: parse error before ();
+
+[Sat Aug  3 13:56:22 2002] u/h/hiko/workroom.c line 18: parse error before ()
+
+[Sat Aug  3 13:56:42 2002] u/h/hiko/workroom.c line 18: parse error before ()
+
+[Sat Aug  3 16:46:30 2002] u/h/hiko/npc/tmb1.c line 27: Undefined variable 'org' before "com")
+
+[Sat Aug  3 18:50:17 2002] u/h/hiko/npc/tmb1.c line 29: parse error before  { if(arg=="pop")
+
+[Sun Aug  4 19:29:58 2002] u/h/hiko/workroom.c line 19: parse error before ();
+
+[Mon Aug  5 18:07:23 2002] u/h/hiko/npc/tmb1.c line 32: parse error before  1;}
+
+[Mon Aug  5 18:07:23 2002] u/h/hiko/npc/tmb1.c line 38: Illegal LHS before the end of line
+
+[Mon Aug  5 18:07:23 2002] u/h/hiko/npc/tmb1.c line 38: parse error before the end of line
+
+[Mon Aug  5 18:07:23 2002] u/h/hiko/npc/tmb1.c line 39: Illegal LHS before the end of line
+
+[Mon Aug  5 18:07:23 2002] u/h/hiko/npc/tmb1.c line 39: parse error before the end of line
+
+[Mon Aug  5 18:07:23 2002] u/h/hiko/npc/tmb1.c line 40: Illegal LHS before the end of line
+
+[Mon Aug  5 18:48:17 2002] u/h/hiko/npc/tmb1.c line 32: parse error before  1;}
+
+[Mon Aug  5 18:48:17 2002] u/h/hiko/npc/tmb1.c line 33: parse error before  1;}
+
+[Tue Aug 13 18:39:39 2002] u/h/hiko/npc/guard.c line 2: parse error before  create()
+
+[Tue Aug 13 18:40:07 2002] u/h/hiko/npc/guard.c line 2: parse error before  create()
+
+[Tue Aug 13 18:43:36 2002] u/h/hiko/npc/guard.c line 2: parse error before  create()
+
+[Tue Aug 13 18:46:21 2002] u/h/hiko/npc/guard.c line 3: parse error before  create()
+
+[Tue Aug 13 19:00:17 2002] u/h/hiko/npc/tmb1.c line 31: parse error before [32m [0m   [32mme 
+
+[Tue Aug 13 19:00:17 2002] u/h/hiko/npc/tmb1.c line 31: Illegal LHS before [0m
+
+[Tue Aug 13 19:00:17 2002] u/h/hiko/npc/tmb1.c line 31: parse error before [0m
+
+[Tue Aug 13 19:00:17 2002] u/h/hiko/npc/tmb1.c line 32: Illegal LHS before   [0m
+
+[Tue Aug 13 19:00:17 2002] u/h/hiko/npc/tmb1.c line 32: parse error before [0m
+
+[Tue Aug 13 19:03:12 2002] u/h/hiko/npc/tmb1.c line 31: parse error before [32m [0m   [32mme 
+
+[Tue Aug 13 19:03:12 2002] u/h/hiko/npc/tmb1.c line 31: Illegal LHS before [0m
+
+[Tue Aug 13 19:03:12 2002] u/h/hiko/npc/tmb1.c line 31: parse error before [0m
+
+[Tue Aug 13 19:03:12 2002] u/h/hiko/npc/tmb1.c line 32: Illegal LHS before   [0m
+
+[Tue Aug 13 19:03:12 2002] u/h/hiko/npc/tmb1.c line 32: parse error before [0m
+
+[Tue Aug 13 19:08:50 2002] u/h/hiko/npc/tmb1.c line 30: parse error before [32m [0m   [32mme 
+
+[Tue Aug 13 19:08:50 2002] u/h/hiko/npc/tmb1.c line 30: Illegal LHS before [0m
+
+[Tue Aug 13 19:08:50 2002] u/h/hiko/npc/tmb1.c line 30: parse error before [0m
+
+[Tue Aug 13 19:08:50 2002] u/h/hiko/npc/tmb1.c line 31: Illegal LHS before   [0m
+
+[Tue Aug 13 19:08:50 2002] u/h/hiko/npc/tmb1.c line 31: parse error before [0m
+
+[Tue Aug 13 19:10:06 2002] u/h/hiko/npc/tmb1.c line 30: parse error before [32m [0m   [32mme 
+
+[Tue Aug 13 19:10:06 2002] u/h/hiko/npc/tmb1.c line 30: Illegal LHS before [0m
+
+[Tue Aug 13 19:10:06 2002] u/h/hiko/npc/tmb1.c line 30: parse error before [0m
+
+[Tue Aug 13 19:10:06 2002] u/h/hiko/npc/tmb1.c line 31: Illegal LHS before   [0m
+
+[Tue Aug 13 19:10:06 2002] u/h/hiko/npc/tmb1.c line 31: parse error before [0m
+
+[Fri Aug 16 19:36:35 2002] u/h/hiko/npc/tmb2.c line 2: parse error before  create()
+
+[Fri Aug 16 19:37:21 2002] u/h/hiko/npc/tmb2.c line 65: parse error before  1;
+
+[Fri Sep  6 17:17:06 2002] u/h/hiko/item/rumoring.c line 19: parse error before n"NOR); 
+
+[Fri Sep  6 17:17:06 2002] u/h/hiko/item/rumoring.c line 24: End of file in string before nhide/pool/""npc/she
+
+[Sat Sep  7 17:06:25 2002] u/h/hiko/poleg/po7.c line 14: parse error before  __DIR__"po8"
+
+[Sat Sep  7 19:33:19 2002] u/h/hiko/item/cloak.c line 198: Warning: Unknown \ escape. before O, Åý"+ob1->name()+"
+
+[Sat Sep  7 19:33:19 2002] u/h/hiko/item/cloak.c line 276: parse error before  1;
+
+[Sat Sep  7 19:35:22 2002] u/h/hiko/item/cloak.c line 198: Warning: Unknown \ escape. before O, Åý"+ob1->name()+"
+
+[Sat Sep  7 19:35:22 2002] u/h/hiko/item/cloak.c line 276: parse error before  1;
+
+[Sat Sep  7 19:37:41 2002] u/h/hiko/item/cloak.c line 198: Warning: Unknown \ escape. before O, Åý"+ob1->name()+"
+
+[Sat Sep  7 19:37:41 2002] u/h/hiko/item/cloak.c line 276: parse error before  1;
+
+[Sat Sep  7 19:38:55 2002] u/h/hiko/item/cloak.c line 198: Warning: Unknown \ escape. before O,Åý"+ob1->name()+"¸
+
+[Sat Sep  7 19:38:55 2002] u/h/hiko/item/cloak.c line 276: parse error before  1;
+
+[Sat Sep  7 19:46:45 2002] u/h/hiko/item/cloak.c line 196: Warning: Unknown \ escape. before O, Åý"+ob1->name()+"
+
+[Sat Sep  7 19:46:45 2002] u/h/hiko/item/cloak.c line 260: parse error before  1;
+
+[Sat Sep  7 22:14:35 2002] u/h/hiko/poleg/npc/sellsman.c line 14: parse error before the end of line
+
+[Sat Sep  7 22:14:35 2002] u/h/hiko/poleg/npc/sellsman.c line 28: Illegal LHS before  && !is_fighting() )
+
+[Sat Sep  7 22:14:35 2002] u/h/hiko/poleg/npc/sellsman.c line 28: parse error before  && !is_fighting() )
+
+[Sat Sep  7 22:16:29 2002] u/h/hiko/poleg/npc/sellsman.c line 14: parse error before the end of line
+
+[Sat Sep  7 22:16:29 2002] u/h/hiko/poleg/npc/sellsman.c line 28: Illegal LHS before  && !is_fighting() )
+
+[Sat Sep  7 22:16:29 2002] u/h/hiko/poleg/npc/sellsman.c line 28: parse error before  && !is_fighting() )
+
+[Sat Sep  7 22:20:35 2002] u/h/hiko/poleg/npc/sellsman.c line 1: parse error before ansi.h>
+
+[Sat Sep  7 22:21:17 2002] u/h/hiko/poleg/npc/sellsman.c line 14: parse error before the end of line
+
+[Sat Sep  7 22:21:17 2002] u/h/hiko/poleg/npc/sellsman.c line 28: Illegal LHS before  && !is_fighting() )
+
+[Sat Sep  7 22:21:17 2002] u/h/hiko/poleg/npc/sellsman.c line 28: parse error before  && !is_fighting() )
+
+[Sat Sep  7 22:23:19 2002] u/h/hiko/poleg/npc/sellsman.c line 14: parse error before the end of line
+
+[Sat Sep  7 22:23:19 2002] u/h/hiko/poleg/npc/sellsman.c line 28: Illegal LHS before  && !is_fighting() )
+
+[Sat Sep  7 22:23:19 2002] u/h/hiko/poleg/npc/sellsman.c line 28: parse error before  && !is_fighting() )
+
+[Sat Sep  7 22:25:40 2002] u/h/hiko/poleg/npc/sellsman.c line 14: parse error before the end of line
+
+[Sat Sep  7 22:25:40 2002] u/h/hiko/poleg/npc/sellsman.c line 28: Illegal LHS before  && !is_fighting() )
+
+[Sat Sep  7 22:25:40 2002] u/h/hiko/poleg/npc/sellsman.c line 28: parse error before  && !is_fighting() )
+
+[Sat Sep  7 22:28:53 2002] u/h/hiko/poleg/npc/sellsman.c line 49: parse error before the end of file
+
+[Sat Sep  7 22:31:14 2002] u/h/hiko/poleg/npc/sellsman.c line 49: parse error before the end of file
+
+[Sat Sep  7 22:52:14 2002] u/h/hiko/poleg/npc/sellsman.c line 49: parse error before the end of file
+
+[Sat Sep  7 23:02:23 2002] u/h/hiko/poleg/npc/sellsman.c line 49: parse error before the end of file
+
+[Sat Sep  7 23:03:30 2002] u/h/hiko/poleg/npc/sellsman.c line 50: parse error before the end of file
+
+[Sat Sep  7 23:03:56 2002] u/h/hiko/poleg/npc/sellsman.c line 50: parse error before the end of file
+
+[Sat Sep  7 23:05:32 2002] u/h/hiko/poleg/npc/sellsman.c line 50: parse error before the end of file
+
+[Sat Sep  7 23:33:15 2002] u/h/hiko/poleg/npc/sellsman.c line 50: parse error before the end of file
+
+[Tue Sep 17 20:38:45 2002] u/h/hiko/poleg/npc/drool.c line 222: parse error before  reset(
+
+[Wed Sep 18 18:40:01 2002] u/h/hiko/poleg/npc/fix-smith.c line 122: End of file in text block before [1;32m"        ;
+
+[Wed Sep 18 18:40:01 2002] u/h/hiko/poleg/npc/fix-smith.c line 122: parse error before [1;32m"        ;
+
+[Wed Sep 18 18:40:53 2002] u/h/hiko/poleg/npc/fix-smith.c line 122: End of file in text block before [1;32m"        ;
+
+[Wed Sep 18 18:40:53 2002] u/h/hiko/poleg/npc/fix-smith.c line 122: parse error before [1;32m"        ;
+
+[Wed Sep 18 18:43:22 2002] u/h/hiko/poleg/npc/fix-smith.c line 122: End of file in text block before coming[ info["NAME"]
+
+[Wed Sep 18 18:43:22 2002] u/h/hiko/poleg/npc/fix-smith.c line 122: parse error before coming[ info["NAME"]
+
+[Wed Sep 18 18:49:16 2002] u/h/hiko/poleg/npc/fix-smith.c line 125: End of file in text block before "/adm/daemons/securi
+
+[Wed Sep 18 18:49:16 2002] u/h/hiko/poleg/npc/fix-smith.c line 125: parse error before "/adm/daemons/securi
+
+[Wed Sep 18 19:14:03 2002] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Thu Sep 19 20:22:29 2002] u/h/hiko/poleg/npc/tmb2.c line 43: parse error before  1;}
+
+[Thu Sep 19 20:22:29 2002] u/h/hiko/poleg/npc/tmb2.c line 44: parse error before  1;}      
+
+[Thu Sep 19 20:23:03 2002] u/h/hiko/poleg/npc/tmb2.c line 43: parse error before  1;}
+
+[Thu Sep 19 20:23:03 2002] u/h/hiko/poleg/npc/tmb2.c line 44: parse error before  1;}      
+
+[Sat Sep 21 01:57:42 2002] u/h/hiko/poleg/npc/tmb2.c line 130: Undefined variable 'q' before  new("/open/world1/f
+
+[Sat Sep 21 01:58:42 2002] u/h/hiko/poleg/npc/tmb2.c line 130: Undefined variable 'q' before  new("/open/world1/f
+
+[Sat Sep 21 02:05:37 2002] u/h/hiko/poleg/npc/tmb2.c line 31: Bad assignment ( object vs string ). before the end of line
+
+[Mon Sep 23 00:06:38 2002] u/h/hiko/item/tmb1.c line 31: Undefined variable 'p' before  new("/open/world1/a
+
+[Mon Sep 23 00:06:38 2002] u/h/hiko/item/tmb1.c line 32: Undefined variable 'q' before  new("/open/world1/f
+
+[Tue Sep 24 18:52:45 2002] u/h/hiko/poleg/po12.c line 12: parse error before  __DIR__"po11",
+
+[Tue Sep 24 18:53:41 2002] u/h/hiko/poleg/po12.c line 12: parse error before the end of line
+
+[Wed Sep 25 20:46:35 2002] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Wed Sep 25 21:00:37 2002] u/h/hiko/poleg/npc/item/wood-rob.c line 2: parse error before ;
+
+[Wed Sep 25 21:03:20 2002] u/h/hiko/poleg/npc/item/wood-rod.c line 2: parse error before ;
+
+[Thu Sep 26 20:26:50 2002] u/h/hiko/poleg/npc/bou.c line 7: parse error before ]¦¹§ø¸Ì¤j¤j¤p¤pªº¨Æ¥
+
+[Thu Sep 26 20:26:50 2002] u/h/hiko/poleg/npc/bou.c line 22: Illegal terminator before °ª¤â¦í¦b¦¹¦a¡A¤£¹L²{
+
+[Thu Sep 26 20:30:36 2002] u/h/hiko/poleg/npc/bou.c line 7: parse error before ]¦¹§ø¸Ì¤j¤j¤p¤pªº¨Æ¥
+
+[Thu Sep 26 20:30:36 2002] u/h/hiko/poleg/npc/bou.c line 23: Illegal terminator before °ª¤â¦í¦b¦¹¦a¡A¤£¹L²{
+
+[Thu Sep 26 20:34:45 2002] u/h/hiko/poleg/npc/bou.c line 40: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Thu Sep 26 20:34:45 2002] u/h/hiko/poleg/npc/bou.c line 40: Illegal to redefine 'nomask' function "query_busy" before the end of line
+
+[Thu Sep 26 20:34:45 2002] u/h/hiko/poleg/npc/bou.c line 40: Illegal to redefine 'nomask' function "is_busy" before the end of line
+
+[Thu Sep 26 20:34:45 2002] u/h/hiko/poleg/npc/bou.c line 40: Illegal to redefine 'nomask' function "is_block" before the end of line
+
+[Thu Sep 26 20:34:45 2002] u/h/hiko/poleg/npc/bou.c line 40: Illegal to redefine 'nomask' function "command_hook" before the end of line
+
+[Thu Sep 26 20:34:45 2002] u/h/hiko/poleg/npc/bou.c line 40: Illegal to redefine 'nomask' function "set_path" before the end of line
+
+[Thu Sep 26 20:53:31 2002] u/h/hiko/poleg/npc/villager.c line 17: parse error before ("chat_chance", 10);
+
+[Thu Sep 26 20:53:31 2002] u/h/hiko/poleg/npc/villager.c line 21: Warning: Unknown \ escape. before hÁô¥@°ª¤âªº¦a¤è¾ÇÃÀ¦
+
+[Thu Sep 26 20:55:21 2002] u/h/hiko/poleg/npc/villager.c line 17: parse error before ("chat_chance", 10);
+
+[Thu Sep 26 20:55:21 2002] u/h/hiko/poleg/npc/villager.c line 21: Warning: Unknown \ escape. before hÁô¥@°ª¤âªº¦a¤è¾ÇÃÀ¦
+
+[Thu Sep 26 20:56:32 2002] u/h/hiko/poleg/npc/villager.c line 20: Warning: Unknown \ escape. before hÁô¥@°ª¤âªº¦a¤è¾ÇÃÀ¦
+
+[Thu Sep 26 20:56:52 2002] u/h/hiko/poleg/npc/villager.c line 20: Warning: Unknown \ escape. before hÁô¥@°ª¤âªº¦a¤è¾ÇÃÀ¦
+
+[Fri Sep 27 18:46:56 2002] u/h/hiko/item/test.c line 4: Undefined function set before ;
+
+[Fri Sep 27 18:46:56 2002] u/h/hiko/item/test.c line 15: parse error before " : __DIR__"city8",
+
+[Fri Sep 27 18:46:56 2002] u/h/hiko/item/test.c line 33: End of file in string before ");
+
+[Fri Sep 27 18:47:44 2002] u/h/hiko/item/test.c line 16: parse error before " : __DIR__"city8",
+
+[Fri Sep 27 18:47:44 2002] u/h/hiko/item/test.c line 34: End of file in string before 	
+
+[Fri Sep 27 20:37:01 2002] u/h/hiko/poleg/npc/bou.c line 31: Illegal to redeclare local name 'me' before ;      
+
+[Fri Sep 27 20:49:47 2002] u/h/hiko/poleg/npc/bou.c line 37: Arguments to > do not have compatible types : ( string vs int ) before )
+
+[Fri Sep 27 20:53:16 2002] u/h/hiko/poleg/npc/bou.c line 37: Arguments to > do not have compatible types : ( string vs int ) before )
+
+[Fri Sep 27 20:54:04 2002] u/h/hiko/poleg/npc/bou.c line 37: parse error before the end of line
+
+[Fri Sep 27 21:00:14 2002] u/h/hiko/poleg/npc/bou.c line 37: parse error before the end of line
+
+[Tue Oct  1 18:42:14 2002] u/h/hiko/poleg/npc/bou.c line 37: parse error before  
+
+[Tue Oct  1 18:42:14 2002] u/h/hiko/poleg/npc/bou.c line 48: Illegal LHS before the end of line
+
+[Tue Oct  1 18:42:14 2002] u/h/hiko/poleg/npc/bou.c line 48: parse error before the end of line
+
+[Tue Oct  1 18:43:05 2002] u/h/hiko/poleg/npc/bou.c line 1: parse error before );
+
+[Tue Oct  1 18:47:38 2002] u/h/hiko/poleg/npc/bou.c line 37: parse error before  
+
+[Tue Oct  1 18:47:38 2002] u/h/hiko/poleg/npc/bou.c line 48: Illegal LHS before the end of line
+
+[Tue Oct  1 18:47:38 2002] u/h/hiko/poleg/npc/bou.c line 48: parse error before the end of line
+
+[Tue Oct  1 20:36:07 2002] u/h/hiko/gan-zen.c line 41: parse error before ³¦ó¶Q·F§r?§Ú­Ì®¼¦£ªº
+
+[Tue Oct  1 20:36:07 2002] u/h/hiko/gan-zen.c line 50: $var illegal outside of function pointer. before N»¡¡G" + arg +?"\n"N
+
+[Tue Oct  1 20:36:07 2002] u/h/hiko/gan-zen.c line 51: $var illegal outside of function pointer. before N»¡¹D¡G©ö®ü³o¤p¤l¡A¦
+
+[Tue Oct  1 20:36:07 2002] u/h/hiko/gan-zen.c line 51: Illegal terminator before ¨Ç¥\¤Ò¡A³ºµM¤£§â§Ú¬Ý
+
+[Tue Oct  1 20:39:18 2002] u/h/hiko/gan-zen.c line 41: parse error before ³¦ó¶Q¨Æ§r?§Ú­Ì®¼¦£ªº
+
+[Tue Oct  1 20:39:18 2002] u/h/hiko/gan-zen.c line 50: $var illegal outside of function pointer. before N»¡¡G" + arg +?"\n"N
+
+[Tue Oct  1 20:39:18 2002] u/h/hiko/gan-zen.c line 51: $var illegal outside of function pointer. before N»¡¹D¡G©ö®ü³o¤p¤l¡A¦
+
+[Tue Oct  1 20:39:18 2002] u/h/hiko/gan-zen.c line 51: Illegal terminator before ¨Ç¥\¤Ò¡A³ºµM¤£§â§Ú¬Ý
+
+[Tue Oct  1 20:42:15 2002] u/h/hiko/gan-zen.c line 50: Warning: Unknown \ escape. before Ò¡A³ºµM¤£§â§Ú¬Ý¦b²´¸
+
+[Tue Oct  1 20:42:15 2002] u/h/hiko/gan-zen.c line 62: Warning: Unknown \ escape. before i¦¨¤§¤é«K¤£»·¤F¡C\n"
+
+[Tue Oct  1 20:42:15 2002] u/h/hiko/gan-zen.c line 68: $var illegal outside of function pointer. before N»¡¡G"¦b¤U¥i¯àµLªkµª
+
+[Tue Oct  1 20:42:15 2002] u/h/hiko/gan-zen.c line 68: parse error before N»¡¡G"¦b¤U¥i¯àµLªkµª
+
+[Tue Oct  1 20:47:12 2002] u/h/hiko/gan-zen.c line 50: Warning: Unknown \ escape. before Ò¡A³ºµM¤£§â§Ú¬Ý¦b²´¸
+
+[Tue Oct  1 20:47:12 2002] u/h/hiko/gan-zen.c line 62: Warning: Unknown \ escape. before i¦¨¤§¤é«K¤£»·¤F¡C\n"
+
+[Tue Oct  1 20:47:12 2002] u/h/hiko/gan-zen.c line 68: $var illegal outside of function pointer. before N»¡¡G"¦b¤U¥i¯àµLªkµª
+
+[Tue Oct  1 20:47:12 2002] u/h/hiko/gan-zen.c line 68: parse error before N»¡¡G"¦b¤U¥i¯àµLªkµª
+
+[Tue Oct  1 20:51:16 2002] u/h/hiko/gan-zen.c line 50: Warning: Unknown \ escape. before Ò¡A´N¤£§â§Ú¬Ý¦b²´¸Ì\
+
+[Tue Oct  1 20:51:16 2002] u/h/hiko/gan-zen.c line 62: Warning: Unknown \ escape. before ¹¦¨¤§¤é«K¤£»·¤F¡C\n"
+
+[Tue Oct  1 20:51:16 2002] u/h/hiko/gan-zen.c line 68: $var illegal outside of function pointer. before N»¡¡G¦b¤U¥i¯àµLªkµªÀ
+
+[Tue Oct  1 20:51:16 2002] u/h/hiko/gan-zen.c line 68: parse error before N»¡¡G¦b¤U¥i¯àµLªkµªÀ
+
+[Tue Oct  1 20:53:20 2002] u/h/hiko/gan-zen.c line 50: Warning: Unknown \ escape. before Ò¡A´N¤£§â§Ú¬Ý¦b²´¸Ì\
+
+[Tue Oct  1 20:53:20 2002] u/h/hiko/gan-zen.c line 62: Warning: Unknown \ escape. before ¹¦¨¤§¤é«K¤£»·¤F¡C\n"
+
+[Tue Oct  1 20:53:20 2002] u/h/hiko/gan-zen.c line 68: $var illegal outside of function pointer. before N»¡¡G¦b¤UµLªkÀ°§A³oº
+
+[Tue Oct  1 20:53:20 2002] u/h/hiko/gan-zen.c line 68: parse error before N»¡¡G¦b¤UµLªkÀ°§A³oº
+
+[Tue Oct  1 20:56:37 2002] u/h/hiko/gan-zen.c line 50: Warning: Unknown \ escape. before Ò¡A´N¤£§â§Ú¬Ý¦b²´¸Ì\
+
+[Tue Oct  1 20:56:37 2002] u/h/hiko/gan-zen.c line 68: $var illegal outside of function pointer. before N»¡¡G¦b¤UµLªkÀ°§A\n"
+
+[Tue Oct  1 20:56:37 2002] u/h/hiko/gan-zen.c line 68: parse error before N»¡¡G¦b¤UµLªkÀ°§A\n"
+
+[Tue Oct  1 20:56:37 2002] u/h/hiko/gan-zen.c line 69: Illegal terminator before °Æ¤£Ä@²z¤Hªº¼Ë¤l¡C\n
+
+[Tue Oct  1 20:59:24 2002] u/h/hiko/gan-zen.c line 50: Warning: Unknown \ escape. before Ò¡A´N¤£§â§Ú¬Ý¦b²´¸Ì\
+
+[Tue Oct  1 20:59:24 2002] u/h/hiko/gan-zen.c line 68: $var illegal outside of function pointer. before N»¡¡G¦b¤UµLªkÀ°§A\n"
+
+[Tue Oct  1 20:59:24 2002] u/h/hiko/gan-zen.c line 68: parse error before N»¡¡G¦b¤UµLªkÀ°§A\n"
+
+[Tue Oct  1 20:59:24 2002] u/h/hiko/gan-zen.c line 69: Illegal terminator before °Æ¤£Ä@²z¤Hªº¼Ë¤l¡C\n
+
+[Wed Oct  2 22:47:47 2002] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Sat Oct  5 12:35:42 2002] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Sat Oct  5 17:46:22 2002] u/h/hiko/poleg/ski.c line 17: parse error before @"damage": 50,
+
+[Sat Oct  5 17:46:22 2002] u/h/hiko/poleg/ski.c line 17: Illegal terminator before "damage": 50,
+
+[Sat Oct  5 17:49:51 2002] u/h/hiko/poleg/ski.c line 17: parse error before @"damage": 50,
+
+[Sat Oct  5 17:49:51 2002] u/h/hiko/poleg/ski.c line 17: Illegal terminator before "damage": 50,
+
+[Sat Oct  5 17:50:01 2002] u/h/hiko/poleg/ski.c line 17: parse error before @"damage": 50,
+
+[Sat Oct  5 17:50:01 2002] u/h/hiko/poleg/ski.c line 17: Illegal terminator before "damage": 50,
+
+[Sat Oct  5 17:50:13 2002] u/h/hiko/poleg/ski.c line 17: parse error before @"damage": 50,
+
+[Sat Oct  5 17:50:13 2002] u/h/hiko/poleg/ski.c line 17: Illegal terminator before "damage": 50,
+
+[Sat Oct  5 17:53:00 2002] u/h/hiko/poleg/ski.c line 17: parse error before @"damage": 50,
+
+[Sat Oct  5 17:53:00 2002] u/h/hiko/poleg/ski.c line 17: Illegal terminator before "damage": 50,
+
+[Sat Oct  5 17:55:27 2002] u/h/hiko/poleg/ski.c line 116: Left argument of -> is not a class before -target->query_armor
+
+[Sat Oct  5 17:55:27 2002] u/h/hiko/poleg/ski.c line 116: parse error before ;
+
+[Sat Oct  5 17:55:27 2002] u/h/hiko/poleg/ski.c line 117: Illegal LHS before the end of line
+
+[Sat Oct  5 17:59:04 2002] u/h/hiko/poleg/ski.c line 116: Left argument of -> is not a class before -target->query_armor
+
+[Sat Oct  5 18:01:05 2002] u/h/hiko/poleg/ski.c line 116: Left argument of -> is not a class before -(target->query_armo
+
+[Sat Oct  5 18:03:01 2002] u/h/hiko/poleg/ski.c line 117: Left argument of -> is not a class before -target->query_armor
+
+[Sat Oct  5 18:47:13 2002] u/h/hiko/poleg/po10.c line 2: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Sat Oct  5 18:47:13 2002] u/h/hiko/poleg/po10.c line 2: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Sat Oct  5 18:47:13 2002] u/h/hiko/poleg/po10.c line 2: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Sat Oct  5 18:47:13 2002] u/h/hiko/poleg/po10.c line 2: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Sat Oct  5 18:47:13 2002] u/h/hiko/poleg/po10.c line 2: Illegal to redefine 'nomask' function "add_light" before the end of line
+
+[Sat Oct  5 18:47:13 2002] u/h/hiko/poleg/po10.c line 48: Redeclaration of function create. before the end of line
+
+[Sat Oct  5 18:47:23 2002] u/h/hiko/poleg/po10.c line 2: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Sat Oct  5 18:47:23 2002] u/h/hiko/poleg/po10.c line 2: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Sat Oct  5 18:47:23 2002] u/h/hiko/poleg/po10.c line 2: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Sat Oct  5 18:47:23 2002] u/h/hiko/poleg/po10.c line 2: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Sat Oct  5 18:47:23 2002] u/h/hiko/poleg/po10.c line 2: Illegal to redefine 'nomask' function "add_light" before the end of line
+
+[Sat Oct  5 18:47:23 2002] u/h/hiko/poleg/po10.c line 48: Redeclaration of function create. before the end of line
+
+[Sat Oct  5 19:31:36 2002] u/h/hiko/poleg/po11.c line 2: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Sat Oct  5 19:31:36 2002] u/h/hiko/poleg/po11.c line 2: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Sat Oct  5 19:31:36 2002] u/h/hiko/poleg/po11.c line 2: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Sat Oct  5 19:31:36 2002] u/h/hiko/poleg/po11.c line 2: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Sat Oct  5 19:31:36 2002] u/h/hiko/poleg/po11.c line 2: Illegal to redefine 'nomask' function "add_light" before the end of line
+
+[Sat Oct  5 19:31:36 2002] u/h/hiko/poleg/po11.c line 48: Redeclaration of function create. before the end of line
+
+[Sat Oct  5 19:34:31 2002] u/h/hiko/poleg/po12.c line 2: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Sat Oct  5 19:34:31 2002] u/h/hiko/poleg/po12.c line 2: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Sat Oct  5 19:34:31 2002] u/h/hiko/poleg/po12.c line 2: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Sat Oct  5 19:34:31 2002] u/h/hiko/poleg/po12.c line 2: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Sat Oct  5 19:34:31 2002] u/h/hiko/poleg/po12.c line 2: Illegal to redefine 'nomask' function "add_light" before the end of line
+
+[Sat Oct  5 19:34:31 2002] u/h/hiko/poleg/po12.c line 46: Redeclaration of function create. before the end of line
+
+[Sat Oct  5 19:47:49 2002] u/h/hiko/poleg/po15.c line 2: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Sat Oct  5 19:47:49 2002] u/h/hiko/poleg/po15.c line 2: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Sat Oct  5 19:47:49 2002] u/h/hiko/poleg/po15.c line 2: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Sat Oct  5 19:47:49 2002] u/h/hiko/poleg/po15.c line 2: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Sat Oct  5 19:47:49 2002] u/h/hiko/poleg/po15.c line 2: Illegal to redefine 'nomask' function "add_light" before the end of line
+
+[Sat Oct  5 19:47:49 2002] u/h/hiko/poleg/po15.c line 49: Redeclaration of function create. before the end of line
+
+[Sat Oct  5 23:52:46 2002] u/h/hiko/npc/hie-ie.c line 114: End of file in text block before 37m"  	""+"[1;37m" 
+
+[Sat Oct  5 23:52:46 2002] u/h/hiko/npc/hie-ie.c line 114: parse error before 37m"  	""+"[1;37m" 
+
+[Sat Oct  5 23:53:38 2002] u/h/hiko/npc/hie-ie.c line 115: End of file in text block before m"  	""+"[1;37m"   
+
+[Sat Oct  5 23:53:38 2002] u/h/hiko/npc/hie-ie.c line 115: parse error before m"  	""+"[1;37m"   
+
+[Sat Oct  5 23:54:00 2002] u/h/hiko/npc/hie-ie.c line 114: End of file in text block before the end of line
+
+[Sat Oct  5 23:54:00 2002] u/h/hiko/npc/hie-ie.c line 114: parse error before the end of line
+
+[Sat Oct  5 23:55:47 2002] u/h/hiko/npc/hie-ie.c line 112: End of file in text block before the end of line
+
+[Sat Oct  5 23:55:47 2002] u/h/hiko/npc/hie-ie.c line 112: parse error before the end of line
+
+[Sat Oct  5 23:58:21 2002] u/h/hiko/npc/hie-ie.c line 110: End of file in text block before turn;
+
+[Sat Oct  5 23:58:21 2002] u/h/hiko/npc/hie-ie.c line 110: parse error before turn;
+
+[Sun Oct  6 00:00:44 2002] u/h/hiko/npc/hie-ie.c line 110: End of file in text block before turn;
+
+[Sun Oct  6 00:00:44 2002] u/h/hiko/npc/hie-ie.c line 110: parse error before turn;
+
+[Sun Oct  6 00:02:19 2002] u/h/hiko/npc/hie-ie.c line 110: End of file in text block before turn;
+
+[Sun Oct  6 00:02:19 2002] u/h/hiko/npc/hie-ie.c line 110: parse error before turn;
+
+[Sun Oct  6 00:22:59 2002] u/h/hiko/item/hie-ie.c line 113: End of file in text block before ;
+
+[Sun Oct  6 00:22:59 2002] u/h/hiko/item/hie-ie.c line 113: parse error before ;
+
+[Sun Oct  6 00:25:00 2002] u/h/hiko/item/hie-ie.c line 111: End of file in text block before gshow        ::die()
+
+[Sun Oct  6 00:25:00 2002] u/h/hiko/item/hie-ie.c line 111: parse error before gshow        ::die()
+
+[Sun Oct  6 00:27:14 2002] u/h/hiko/item/hie-ie.c line 24: parse error before    
+
+[Sun Oct  6 00:27:14 2002] u/h/hiko/item/hie-ie.c line 34: Warning: Unknown \ escape. before ¿¦bºò\­nÃöÀY") :),
+
+[Sun Oct  6 00:27:14 2002] u/h/hiko/item/hie-ie.c line 34: Warning: Unknown \ escape. before nÃöÀY") :),
+
+[Sun Oct  6 00:27:14 2002] u/h/hiko/item/hie-ie.c line 54: Illegal LHS before the end of line
+
+[Sun Oct  6 00:27:14 2002] u/h/hiko/item/hie-ie.c line 54: parse error before the end of line
+
+[Sun Oct  6 00:27:14 2002] u/h/hiko/item/hie-ie.c line 55: Undefined variable 'me' before query_temp("weapon")
+
+[Sun Oct  6 00:27:14 2002] u/h/hiko/item/hie-ie.c line 55: Illegal LHS before the end of line
+
+[Sun Oct  6 00:27:14 2002] u/h/hiko/item/hie-ie.c line 55: parse error before the end of line
+
+[Sun Oct  6 00:27:14 2002] u/h/hiko/item/hie-ie.c line 66: Warning: Unknown \ escape. before h¨B\n\n"+NOR,me,targ
+
+[Sun Oct  6 00:29:33 2002] u/h/hiko/item/hie-ie.c line 24: parse error before    
+
+[Sun Oct  6 00:29:33 2002] u/h/hiko/item/hie-ie.c line 34: Warning: Unknown \ escape. before ¿¦b\ºò­nÃöÀY") :),
+
+[Sun Oct  6 00:29:33 2002] u/h/hiko/item/hie-ie.c line 34: Warning: Unknown \ escape. before ò­nÃöÀY") :),
+
+[Sun Oct  6 00:29:33 2002] u/h/hiko/item/hie-ie.c line 54: Illegal LHS before the end of line
+
+[Sun Oct  6 00:29:33 2002] u/h/hiko/item/hie-ie.c line 54: parse error before the end of line
+
+[Sun Oct  6 00:29:33 2002] u/h/hiko/item/hie-ie.c line 55: Undefined variable 'me' before query_temp("weapon")
+
+[Sun Oct  6 00:29:33 2002] u/h/hiko/item/hie-ie.c line 55: Illegal LHS before the end of line
+
+[Sun Oct  6 00:29:33 2002] u/h/hiko/item/hie-ie.c line 55: parse error before the end of line
+
+[Sun Oct  6 00:29:33 2002] u/h/hiko/item/hie-ie.c line 66: Warning: Unknown \ escape. before h\¨B\n\n"+NOR,me,tar
+
+[Sun Oct  6 00:29:33 2002] u/h/hiko/item/hie-ie.c line 66: Warning: Unknown \ escape. before B\n\n"+NOR,me,target
+
+[Sun Oct  6 00:32:20 2002] u/h/hiko/item/hie-ie.c line 24: parse error before    
+
+[Sun Oct  6 00:32:20 2002] u/h/hiko/item/hie-ie.c line 34: Warning: Unknown \ escape. before ¿\¦bºò­nÃöÀY") :),
+
+[Sun Oct  6 00:32:20 2002] u/h/hiko/item/hie-ie.c line 34: Warning: Unknown \ escape. before bºò­nÃöÀY") :),
+
+[Sun Oct  6 00:32:20 2002] u/h/hiko/item/hie-ie.c line 54: Illegal LHS before the end of line
+
+[Sun Oct  6 00:32:20 2002] u/h/hiko/item/hie-ie.c line 54: parse error before the end of line
+
+[Sun Oct  6 00:32:20 2002] u/h/hiko/item/hie-ie.c line 55: Undefined variable 'ob' before query_temp("weapon")
+
+[Sun Oct  6 00:32:20 2002] u/h/hiko/item/hie-ie.c line 55: Illegal LHS before the end of line
+
+[Sun Oct  6 00:32:20 2002] u/h/hiko/item/hie-ie.c line 55: parse error before the end of line
+
+[Sun Oct  6 00:33:42 2002] u/h/hiko/item/hie-ie.c line 24: parse error before    
+
+[Sun Oct  6 00:33:42 2002] u/h/hiko/item/hie-ie.c line 34: Warning: Unknown \ escape. before ¿\¦bºò­nÃöÀY") :),
+
+[Sun Oct  6 00:33:42 2002] u/h/hiko/item/hie-ie.c line 34: Warning: Unknown \ escape. before bºò­nÃöÀY") :),
+
+[Sun Oct  6 00:33:42 2002] u/h/hiko/item/hie-ie.c line 54: Illegal LHS before the end of line
+
+[Sun Oct  6 00:33:42 2002] u/h/hiko/item/hie-ie.c line 54: parse error before the end of line
+
+[Sun Oct  6 00:33:42 2002] u/h/hiko/item/hie-ie.c line 55: Undefined variable 'ob' before query_temp("weapon")
+
+[Sun Oct  6 00:33:42 2002] u/h/hiko/item/hie-ie.c line 55: Illegal LHS before the end of line
+
+[Sun Oct  6 00:33:42 2002] u/h/hiko/item/hie-ie.c line 55: parse error before the end of line
+
+[Sun Oct  6 00:35:31 2002] u/h/hiko/item/hie-ie.c line 25: parse error before    
+
+[Sun Oct  6 00:35:31 2002] u/h/hiko/item/hie-ie.c line 35: Warning: Unknown \ escape. before b\ºò­nÃöÀY") :),
+
+[Sun Oct  6 00:35:31 2002] u/h/hiko/item/hie-ie.c line 35: Warning: Unknown \ escape. before ò­nÃöÀY") :),
+
+[Sun Oct  6 00:35:31 2002] u/h/hiko/item/hie-ie.c line 55: Illegal LHS before the end of line
+
+[Sun Oct  6 00:35:31 2002] u/h/hiko/item/hie-ie.c line 55: parse error before the end of line
+
+[Sun Oct  6 00:35:31 2002] u/h/hiko/item/hie-ie.c line 56: Undefined variable 'ob' before query_temp("weapon")
+
+[Sun Oct  6 00:35:31 2002] u/h/hiko/item/hie-ie.c line 56: Illegal LHS before the end of line
+
+[Sun Oct  6 00:35:31 2002] u/h/hiko/item/hie-ie.c line 56: parse error before the end of line
+
+[Sun Oct  6 00:35:31 2002] u/h/hiko/item/hie-ie.c line 67: Warning: Unknown \ escape. before F\³\\¦h¨B\n\n"+NOR,m
+
+[Sun Oct  6 00:35:31 2002] u/h/hiko/item/hie-ie.c line 67: Warning: Unknown \ escape. before \\¦h¨B\n\n"+NOR,me,t
+
+[Sun Oct  6 00:35:31 2002] u/h/hiko/item/hie-ie.c line 146: Warning: Unknown \ escape. before ¿\¦bºò­nÃöÀY") :),
+
+[Sun Oct  6 00:35:31 2002] u/h/hiko/item/hie-ie.c line 146: Warning: Unknown \ escape. before bºò­nÃöÀY") :),
+
+[Sun Oct  6 00:37:01 2002] u/h/hiko/item/hie-ie.c line 24: parse error before    
+
+[Sun Oct  6 00:37:01 2002] u/h/hiko/item/hie-ie.c line 34: Warning: Unknown \ escape. before w¨ìºò­nÃöÀY") :),
+
+[Sun Oct  6 00:37:01 2002] u/h/hiko/item/hie-ie.c line 54: Illegal LHS before the end of line
+
+[Sun Oct  6 00:37:01 2002] u/h/hiko/item/hie-ie.c line 54: parse error before the end of line
+
+[Sun Oct  6 00:37:01 2002] u/h/hiko/item/hie-ie.c line 55: Undefined variable 'ob' before query_temp("weapon")
+
+[Sun Oct  6 00:37:01 2002] u/h/hiko/item/hie-ie.c line 55: Illegal LHS before the end of line
+
+[Sun Oct  6 00:37:01 2002] u/h/hiko/item/hie-ie.c line 55: parse error before the end of line
+
+[Sun Oct  6 00:46:08 2002] u/h/hiko/item/hie-ie.c line 35: Warning: Unknown \ escape. before ¿\¦bºò­nÃöÀY") :),
+
+[Sun Oct  6 00:46:08 2002] u/h/hiko/item/hie-ie.c line 35: Warning: Unknown \ escape. before bºò­nÃöÀY") :),
+
+[Sun Oct  6 00:46:08 2002] u/h/hiko/item/hie-ie.c line 55: Bad assignment ( int vs object ). before the end of line
+
+[Sun Oct  6 00:46:08 2002] u/h/hiko/item/hie-ie.c line 56: Bad assignment ( int vs object ). before the end of line
+
+[Sun Oct  6 00:46:08 2002] u/h/hiko/item/hie-ie.c line 68: Undefined variable 'target' before ;       target->rece
+
+[Sun Oct  6 00:46:08 2002] u/h/hiko/item/hie-ie.c line 88: Undefined variable 'target' before ;
+
+[Sun Oct  6 00:46:08 2002] u/h/hiko/item/hie-ie.c line 113: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Sun Oct  6 00:46:08 2002] u/h/hiko/item/hie-ie.c line 113: Illegal to redefine 'nomask' function "query_busy" before the end of line
+
+[Sun Oct  6 00:46:08 2002] u/h/hiko/item/hie-ie.c line 145: Warning: Unknown \ escape. before w¨ìºò­nÃöÀY") :),
+
+[Sun Oct  6 00:51:54 2002] u/h/hiko/item/hie-ie.c line 110: $var illegal outside of function pointer. before N"HIC"ÅS¥XÅå²§²´¯«»¡
+
+[Sun Oct  6 00:51:54 2002] u/h/hiko/item/hie-ie.c line 110: parse error before "HIC"ÅS¥XÅå²§²´¯«»¡¡
+
+[Sun Oct  6 00:51:54 2002] u/h/hiko/item/hie-ie.c line 123: Warning: Unknown \ escape. before Ò¡A´¿¿W¦ÛÀ»­Ë³\®ü¸é¡
+
+[Sun Oct  6 00:51:54 2002] u/h/hiko/item/hie-ie.c line 123: Warning: Unknown \ escape. before ü¸é¡A¥ç´¿°Ñ¥[¹L
+
+[Sun Oct  6 00:51:54 2002] u/h/hiko/item/hie-ie.c line 124: Warning: Unknown \ escape. before A¦]¦¹¸û¤Ö
+
+[Sun Oct  6 00:51:54 2002] u/h/hiko/item/hie-ie.c line 125: Warning: Unknown \ escape. before h
+
+[Sun Oct  6 00:51:54 2002] u/h/hiko/item/hie-ie.c line 177: $var illegal outside of function pointer. before N"HIR"«ã§q¤@Án¡A¹B°_
+
+[Sun Oct  6 00:51:54 2002] u/h/hiko/item/hie-ie.c line 177: Illegal terminator before Án¡A¹B°_"HIY"µ´®ö¤ß³
+
+[Sun Oct  6 01:03:15 2002] u/h/hiko/item/hie-ie.c line 30: Undefined variable 'do_heal' before  :),
+
+[Sun Oct  6 01:03:15 2002] u/h/hiko/item/hie-ie.c line 30: parse error before  :),
+
+[Sun Oct  6 01:03:15 2002] u/h/hiko/item/hie-ie.c line 52: Illegal LHS before ob=this_object();
+
+[Sun Oct  6 01:03:15 2002] u/h/hiko/item/hie-ie.c line 52: Undefined variable 'ob' before this_object();
+
+[Sun Oct  6 01:03:15 2002] u/h/hiko/item/hie-ie.c line 52: parse error before the end of line
+
+[Sun Oct  6 01:03:15 2002] u/h/hiko/item/hie-ie.c line 54: Illegal LHS before the end of line
+
+[Sun Oct  6 01:11:58 2002] u/h/hiko/item/hie-ie.c line 111: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Sun Oct  6 01:11:58 2002] u/h/hiko/item/hie-ie.c line 111: Illegal to redefine 'nomask' function "query_busy" before the end of line
+
+[Sun Oct  6 01:11:58 2002] u/h/hiko/item/hie-ie.c line 111: Illegal to redefine 'nomask' function "is_busy" before the end of line
+
+[Sun Oct  6 01:11:58 2002] u/h/hiko/item/hie-ie.c line 111: Illegal to redefine 'nomask' function "is_block" before the end of line
+
+[Sun Oct  6 01:11:58 2002] u/h/hiko/item/hie-ie.c line 111: Illegal to redefine 'nomask' function "command_hook" before the end of line
+
+[Sun Oct  6 01:11:58 2002] u/h/hiko/item/hie-ie.c line 111: Illegal to redefine 'nomask' function "set_path" before the end of line
+
+[Sun Oct  6 01:23:54 2002] u/h/hiko/item/hie-ie.c line 85: Undefined variable 'liu' before query("max_hp") ) &&
+
+[Sun Oct  6 01:23:54 2002] u/h/hiko/item/hie-ie.c line 86: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Oct  6 01:24:34 2002] u/h/hiko/item/hie-ie.c line 86: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Oct  6 15:02:02 2002] u/h/hiko/poleg/npc/hie-ie.c line 53: Illegal to redeclare local name 'me' before ,target,wp;
+
+[Sun Oct  6 15:02:02 2002] u/h/hiko/poleg/npc/hie-ie.c line 53: Illegal to redeclare local name 'target' before ,wp;
+
+[Sun Oct  6 15:02:02 2002] u/h/hiko/poleg/npc/hie-ie.c line 54: Undefined function offensive_target before ;  // ¼Ä¤H
+
+[Sun Oct  6 15:02:02 2002] u/h/hiko/poleg/npc/hie-ie.c line 54: Bad assignment ( object vs unknown ). before   // ¼Ä¤H
+
+[Sun Oct  6 15:02:02 2002] u/h/hiko/poleg/npc/hie-ie.c line 56: Undefined variable 'ob' before query_temp("weapon")
+
+[Sun Oct  6 15:03:59 2002] u/h/hiko/poleg/npc/hie-ie.c line 53: Illegal to redeclare local name 'me' before ,target,wp;
+
+[Sun Oct  6 15:03:59 2002] u/h/hiko/poleg/npc/hie-ie.c line 53: Illegal to redeclare local name 'target' before ,wp;
+
+[Sun Oct  6 15:03:59 2002] u/h/hiko/poleg/npc/hie-ie.c line 54: Undefined function offensive_target before ;  // ¼Ä¤H
+
+[Sun Oct  6 15:03:59 2002] u/h/hiko/poleg/npc/hie-ie.c line 54: Bad assignment ( object vs unknown ). before   // ¼Ä¤H
+
+[Sun Oct  6 15:07:04 2002] u/h/hiko/poleg/npc/hie-ie.c line 54: Illegal to redeclare local name 'me' before ,target,wp;
+
+[Sun Oct  6 15:07:04 2002] u/h/hiko/poleg/npc/hie-ie.c line 54: Illegal to redeclare local name 'target' before ,wp;
+
+[Sun Oct  6 15:15:50 2002] u/h/hiko/poleg/npc/hie-ie.c line 54: Illegal to redeclare local name 'target' before ;
+
+[Sun Oct  6 15:18:57 2002] u/h/hiko/poleg/npc/hie-ie.c line 54: Illegal to redeclare local name 'me' before ,target;
+
+[Sun Oct  6 15:18:57 2002] u/h/hiko/poleg/npc/hie-ie.c line 54: Illegal to redeclare local name 'target' before ;
+
+[Sun Oct  6 15:59:46 2002] u/h/hiko/poleg/npc/hie-ie.c line 127: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Sun Oct  6 15:59:46 2002] u/h/hiko/poleg/npc/hie-ie.c line 127: Illegal to redefine 'nomask' function "query_busy" before the end of line
+
+[Sun Oct  6 15:59:46 2002] u/h/hiko/poleg/npc/hie-ie.c line 127: Illegal to redefine 'nomask' function "is_busy" before the end of line
+
+[Sun Oct  6 15:59:46 2002] u/h/hiko/poleg/npc/hie-ie.c line 127: Illegal to redefine 'nomask' function "is_block" before the end of line
+
+[Sun Oct  6 15:59:46 2002] u/h/hiko/poleg/npc/hie-ie.c line 127: Illegal to redefine 'nomask' function "command_hook" before the end of line
+
+[Sun Oct  6 15:59:46 2002] u/h/hiko/poleg/npc/hie-ie.c line 127: Illegal to redefine 'nomask' function "set_path" before the end of line
+
+[Sun Oct  6 16:19:50 2002] u/h/hiko/poleg/npc/hie-ie.c line 113: parse error before ( !ob ) 
+
+[Sun Oct  6 17:11:12 2002] u/h/hiko/poleg/npc/ski.c line 132: parse error before ->start_busy(3);
+
+[Sun Oct  6 17:11:12 2002] u/h/hiko/poleg/npc/ski.c line 140: Illegal LHS before the end of line
+
+[Sun Oct  6 17:11:12 2002] u/h/hiko/poleg/npc/ski.c line 141: Undefined variable 'damege' before  random(60)+me->quer
+
+[Sun Oct  6 17:11:12 2002] u/h/hiko/poleg/npc/ski.c line 152: parse error before  {
+
+[Sun Oct  6 17:14:45 2002] u/h/hiko/poleg/npc/ski.c line 155: parse error before  }
+
+[Sun Oct  6 17:14:45 2002] u/h/hiko/poleg/npc/ski.c line 156: Illegal LHS before the end of line
+
+[Sun Oct  6 17:14:45 2002] u/h/hiko/poleg/npc/ski.c line 156: parse error before the end of line
+
+[Sun Oct  6 17:14:45 2002] u/h/hiko/poleg/npc/ski.c line 173: Illegal LHS before the end of line
+
+[Sun Oct  6 17:14:45 2002] u/h/hiko/poleg/npc/ski.c line 173: parse error before the end of line
+
+[Sun Oct  6 17:16:45 2002] u/h/hiko/poleg/npc/ski.c line 203: parse error before (me->query_temp("use
+
+[Sun Oct  6 17:44:17 2002] u/h/hiko/poleg/npc/hie-ie.c line 136: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Sun Oct  6 17:44:17 2002] u/h/hiko/poleg/npc/hie-ie.c line 136: Illegal to redefine 'nomask' function "query_busy" before the end of line
+
+[Sun Oct  6 17:44:17 2002] u/h/hiko/poleg/npc/hie-ie.c line 136: Illegal to redefine 'nomask' function "is_busy" before the end of line
+
+[Sun Oct  6 17:44:17 2002] u/h/hiko/poleg/npc/hie-ie.c line 136: Illegal to redefine 'nomask' function "is_block" before the end of line
+
+[Sun Oct  6 17:44:17 2002] u/h/hiko/poleg/npc/hie-ie.c line 136: Illegal to redefine 'nomask' function "command_hook" before the end of line
+
+[Sun Oct  6 17:44:17 2002] u/h/hiko/poleg/npc/hie-ie.c line 136: Illegal to redefine 'nomask' function "set_path" before the end of line
+
+[Sun Oct  6 18:19:37 2002] u/h/hiko/poleg/npc/hie-ie.c line 54: parse error before  
+
+[Sun Oct  6 18:19:37 2002] u/h/hiko/poleg/npc/hie-ie.c line 60: Undefined variable 'me' before ;  // ¼Ä¤H
+
+[Sun Oct  6 18:19:37 2002] u/h/hiko/poleg/npc/hie-ie.c line 60: Illegal LHS before   // ¼Ä¤H
+
+[Sun Oct  6 18:19:37 2002] u/h/hiko/poleg/npc/hie-ie.c line 62: Undefined variable 'wp' before me->query_temp("weap
+
+[Sun Oct  6 18:19:37 2002] u/h/hiko/poleg/npc/hie-ie.c line 63: Undefined variable 'target' before  return 0;
+
+[Sun Oct  6 18:19:37 2002] u/h/hiko/poleg/npc/hie-ie.c line 66: Undefined variable 'z' before target->query_dex();
+
+[Sun Oct  6 18:19:59 2002] u/h/hiko/poleg/npc/hie-ie.c line 54: parse error before  
+
+[Sun Oct  6 18:19:59 2002] u/h/hiko/poleg/npc/hie-ie.c line 60: Undefined variable 'me' before ;  // ¼Ä¤H
+
+[Sun Oct  6 18:19:59 2002] u/h/hiko/poleg/npc/hie-ie.c line 60: Illegal LHS before   // ¼Ä¤H
+
+[Sun Oct  6 18:19:59 2002] u/h/hiko/poleg/npc/hie-ie.c line 62: Undefined variable 'wp' before me->query_temp("weap
+
+[Sun Oct  6 18:19:59 2002] u/h/hiko/poleg/npc/hie-ie.c line 63: Undefined variable 'target' before  return 0;
+
+[Sun Oct  6 18:19:59 2002] u/h/hiko/poleg/npc/hie-ie.c line 66: Undefined variable 'z' before target->query_dex();
+
+[Sun Oct  6 18:25:29 2002] u/h/hiko/npc/hie-ie.c line 110: End of file in text block before urn 0;
+
+[Sun Oct  6 18:25:29 2002] u/h/hiko/npc/hie-ie.c line 110: parse error before urn 0;
+
+[Sun Oct  6 18:25:31 2002] u/h/hiko/npc/hie-ie.c line 110: End of file in text block before urn 0;
+
+[Sun Oct  6 18:25:31 2002] u/h/hiko/npc/hie-ie.c line 110: parse error before urn 0;
+
+[Sun Oct  6 18:27:16 2002] u/h/hiko/poleg/npc/hie-ie.c line 54: parse error before  
+
+[Sun Oct  6 18:27:16 2002] u/h/hiko/poleg/npc/hie-ie.c line 60: Undefined variable 'me' before ;  // ¼Ä¤H
+
+[Sun Oct  6 18:27:16 2002] u/h/hiko/poleg/npc/hie-ie.c line 60: Illegal LHS before   // ¼Ä¤H
+
+[Sun Oct  6 18:27:16 2002] u/h/hiko/poleg/npc/hie-ie.c line 62: Undefined variable 'wp' before me->query_temp("weap
+
+[Sun Oct  6 18:27:16 2002] u/h/hiko/poleg/npc/hie-ie.c line 63: Undefined variable 'target' before  return 0;
+
+[Sun Oct  6 18:27:16 2002] u/h/hiko/poleg/npc/hie-ie.c line 66: Undefined variable 'z' before target->query_dex();
+
+[Sun Oct  6 18:29:10 2002] u/h/hiko/poleg/npc/hie-ie.c line 136: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Sun Oct  6 18:29:10 2002] u/h/hiko/poleg/npc/hie-ie.c line 136: Illegal to redefine 'nomask' function "query_busy" before the end of line
+
+[Sun Oct  6 18:29:10 2002] u/h/hiko/poleg/npc/hie-ie.c line 136: Illegal to redefine 'nomask' function "is_busy" before the end of line
+
+[Sun Oct  6 18:29:10 2002] u/h/hiko/poleg/npc/hie-ie.c line 136: Illegal to redefine 'nomask' function "is_block" before the end of line
+
+[Sun Oct  6 18:29:10 2002] u/h/hiko/poleg/npc/hie-ie.c line 136: Illegal to redefine 'nomask' function "command_hook" before the end of line
+
+[Sun Oct  6 18:29:10 2002] u/h/hiko/poleg/npc/hie-ie.c line 136: Illegal to redefine 'nomask' function "set_path" before the end of line
+
+[Sun Oct  6 20:46:55 2002] u/h/hiko/poleg/npc/hie-ie.c line 34: Warning: Unknown \ escape. before ¿\¦bºò­nÃöÀY") :),
+
+[Sun Oct  6 20:46:55 2002] u/h/hiko/poleg/npc/hie-ie.c line 34: Warning: Unknown \ escape. before bºò­nÃöÀY") :),
+
+[Sun Oct  6 20:46:55 2002] u/h/hiko/poleg/npc/hie-ie.c line 54: Bad assignment ( int vs object ). before the end of line
+
+[Sun Oct  6 20:46:55 2002] u/h/hiko/poleg/npc/hie-ie.c line 55: Bad assignment ( int vs object ). before the end of line
+
+[Sun Oct  6 20:46:55 2002] u/h/hiko/poleg/npc/hie-ie.c line 67: Undefined variable 'target' before ;        target->rec
+
+[Sun Oct  6 20:46:55 2002] u/h/hiko/poleg/npc/hie-ie.c line 88: Undefined variable 'target' before ;
+
+[Sun Oct  6 20:46:55 2002] u/h/hiko/poleg/npc/hie-ie.c line 110: parse error before  
+
+[Wed Oct  9 20:44:47 2002] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Mon Oct 14 20:17:49 2002] u/h/hiko/item/mimi-soul.c line 28: parse error before ");       
+
+[Mon Oct 14 20:17:49 2002] u/h/hiko/item/mimi-soul.c line 78: End of file in string before o his/her link objec
+
+[Mon Oct 14 20:28:00 2002] u/h/hiko/item/mimi-soul.c line 28: parse error before ");       
+
+[Mon Oct 14 20:28:00 2002] u/h/hiko/item/mimi-soul.c line 81: End of file in string before mp("call_boss",1); 
+
+[Mon Oct 14 20:46:09 2002] u/h/hiko/item/objs.c line 6: parse error before "}));
+
+[Mon Oct 14 20:46:09 2002] u/h/hiko/item/objs.c line 77: End of file in string before 7m"        "¥»¨t²Î¥Ñ
+
+[Mon Oct 14 20:46:35 2002] u/h/hiko/item/objs.c line 5: parse error before "}));
+
+[Mon Oct 14 20:46:35 2002] u/h/hiko/item/objs.c line 39: End of file in string before turn 1;  }
+
+[Fri Oct 18 20:39:19 2002] u/h/hiko/test.c line 109: End of file in text block before ost <¼ÐÃD>      §â§A
+
+[Fri Oct 18 20:39:19 2002] u/h/hiko/test.c line 109: parse error before ost <¼ÐÃD>      §â§A
+
+[Fri Oct 18 20:40:59 2002] u/h/hiko/test.c line 108: End of file in text block before t <¼ÐÃD>      §â§Aªº
+
+[Fri Oct 18 20:40:59 2002] u/h/hiko/test.c line 108: parse error before t <¼ÐÃD>      §â§Aªº
+
+[Fri Oct 18 20:43:46 2002] u/h/hiko/test.c line 105: End of file in text block before ;
+
+[Fri Oct 18 20:43:46 2002] u/h/hiko/test.c line 105: parse error before ;
+
+[Fri Oct 18 20:46:45 2002] u/h/hiko/test.c line 1: parse error before  k,a
+
+[Fri Oct 18 20:47:41 2002] u/h/hiko/test.c line 107: End of file in text block before the end of line
+
+[Fri Oct 18 20:47:41 2002] u/h/hiko/test.c line 107: parse error before the end of line
+
+[Fri Oct 18 20:47:58 2002] u/h/hiko/test.c line 106: End of file in text block before the end of file
+
+[Fri Oct 18 20:47:58 2002] u/h/hiko/test.c line 106: parse error before the end of file
+
+[Sun Oct 20 00:11:07 2002] u/h/hiko/sha-ie.c line 36: parse error before " : { me->add("bank/
+
+[Sun Oct 20 00:11:07 2002] u/h/hiko/sha-ie.c line 105: End of file in string before  if(query("p1/id") &
+
+[Sun Oct 20 17:53:01 2002] u/h/hiko/poleg/npc/item/fish-seller.c line 9: Warning: Unknown \ escape. before h·sÂA®ü²£¡C\n");
+
+[Sun Oct 20 17:53:55 2002] u/h/hiko/poleg/npc/item/fish-seller.c line 9: Warning: Unknown \ escape. before h\·sÂA®ü²£¡C\n");
+
+[Sun Oct 20 17:53:55 2002] u/h/hiko/poleg/npc/item/fish-seller.c line 9: Warning: Unknown \ escape. before sÂA®ü²£¡C\n");
+
+[Sun Oct 20 21:50:46 2002] u/h/hiko/sha-ie.c line 26: parse error before (arg)  {    
+
+[Sun Oct 20 21:50:46 2002] u/h/hiko/sha-ie.c line 55: Illegal LHS before the end of line
+
+[Sun Oct 20 21:50:46 2002] u/h/hiko/sha-ie.c line 55: parse error before the end of line
+
+[Sun Oct 20 21:50:46 2002] u/h/hiko/sha-ie.c line 56: Illegal LHS before the end of line
+
+[Sun Oct 20 21:50:46 2002] u/h/hiko/sha-ie.c line 56: parse error before the end of line
+
+[Sun Oct 20 21:50:46 2002] u/h/hiko/sha-ie.c line 57: Illegal LHS before the end of line
+
+[Mon Oct 21 21:19:26 2002] u/h/hiko/soul.c line 3: Cannot #include net/daemon.h before inherit ITEM;
+
+[Mon Oct 21 21:30:35 2002] u/h/hiko/item/mimi-soul.c line 1: parse error before  a,k
+
+[Wed Oct 23 18:46:19 2002] u/h/hiko/item/shugin-pinpan.c line 5: Undefined variable 'HIY' before NOR, ({ "shugin pinp
+
+[Wed Oct 23 18:46:19 2002] u/h/hiko/item/shugin-pinpan.c line 5: parse error before NOR, ({ "shugin pinp
+
+[Wed Oct 23 18:50:26 2002] u/h/hiko/item/fire-furnace.c line 41: parse error before  = all_inventory(ob)
+
+[Wed Oct 23 18:50:26 2002] u/h/hiko/item/fire-furnace.c line 41: Illegal LHS before the end of line
+
+[Wed Oct 23 18:50:26 2002] u/h/hiko/item/fire-furnace.c line 64: parse error before ->add("exp",20+rando
+
+[Wed Oct 23 18:50:26 2002] u/h/hiko/item/fire-furnace.c line 78: $var illegal outside of function pointer. before N¤£Â_§V¤O¹Á¸Õ¤U¡A§@¥
+
+[Wed Oct 23 18:50:26 2002] u/h/hiko/item/fire-furnace.c line 78: Illegal terminator before ¥X¤F¤@¹D"+ RED"³Â»¶³
+
+[Wed Oct 23 18:54:17 2002] u/h/hiko/item/fire-furnace.c line 41: Invalid types to '*' ( object vs object * ) before the end of line
+
+[Wed Oct 23 18:54:17 2002] u/h/hiko/item/fire-furnace.c line 65: parse error before ;
+
+[Wed Oct 23 18:54:17 2002] u/h/hiko/item/fire-furnace.c line 78: $var illegal outside of function pointer. before N¤£Â_§V¤O¹Á¸Õ¤U¡A§@¥
+
+[Wed Oct 23 18:54:17 2002] u/h/hiko/item/fire-furnace.c line 78: Illegal terminator before ¥X¤F¤@¹D"+ RED"³Â»¶³
+
+[Wed Oct 23 19:01:01 2002] u/h/hiko/item/fire-furnace.c line 74: parse error before ("$N¥Î¥X¤F®a¶Ç¯µ¤è¡A
+
+[Wed Oct 23 19:01:01 2002] u/h/hiko/item/fire-furnace.c line 79: $var illegal outside of function pointer. before N¤£Â_§V¤O¬ã¨s¤U¡A§@¥
+
+[Wed Oct 23 19:01:01 2002] u/h/hiko/item/fire-furnace.c line 79: Illegal terminator before ¥X¤F¤@¹D"+ RED"³Â»¶³
+
+[Wed Oct 23 19:02:36 2002] u/h/hiko/item/fire-furnace.c line 74: parse error before C \n"NOR,me);
+
+[Wed Oct 23 19:02:36 2002] u/h/hiko/item/fire-furnace.c line 79: $var illegal outside of function pointer. before N¤£Â_§V¤O¬ã¨s¤U¡A§@¥
+
+[Wed Oct 23 19:02:36 2002] u/h/hiko/item/fire-furnace.c line 79: Illegal terminator before ¥X¤F¤@¹D"+ RED"³Â»¶³
+
+[Wed Oct 23 19:04:16 2002] u/h/hiko/item/fire-furnace.c line 74: parse error before C \n"NOR,me);
+
+[Wed Oct 23 19:04:16 2002] u/h/hiko/item/fire-furnace.c line 79: $var illegal outside of function pointer. before N¤£Â_§V¤O¬ã¨s¤U¡A§@¥
+
+[Wed Oct 23 19:04:16 2002] u/h/hiko/item/fire-furnace.c line 79: Illegal terminator before ¥X¤F¤@¹D"+ RED"³Â»¶³
+
+[Wed Oct 23 19:05:21 2002] u/h/hiko/item/fire-furnace.c line 74: parse error before C \n"NOR,me);
+
+[Wed Oct 23 19:05:21 2002] u/h/hiko/item/fire-furnace.c line 79: $var illegal outside of function pointer. before N¥þ¤O§V¤O¬ã¨s¤U¡A§¹¦
+
+[Wed Oct 23 19:05:21 2002] u/h/hiko/item/fire-furnace.c line 79: Illegal terminator before ¹D"+ RED"³Â»¶³½¤ù"\n
+
+[Wed Oct 23 20:08:30 2002] u/h/hiko/item/fire-furnace.c line 107: parse error before C \n\n",me);
+
+[Wed Oct 23 20:08:30 2002] u/h/hiko/item/fire-furnace.c line 118: End of file in string before the end of line
+
+[Wed Oct 23 21:05:49 2002] u/h/hiko/poleg/npc/item/fire-furnace.c line 43: Undefined variable 'ap' before <40)
+
+[Wed Oct 23 21:18:11 2002] u/h/hiko/poleg/npc/item/food/failfood.c line 13: parse error before ("unit","ºÐ");
+
+[Wed Oct 23 21:20:38 2002] u/h/hiko/poleg/npc/item/food/hungsa-tantsu.c line 30: parse error before the end of file
+
+[Wed Oct 23 21:21:48 2002] u/h/hiko/poleg/npc/item/food/inyelongment-fish.c line 12: Warning: Unknown \ escape. before ¢¤Q¤ÀµØ¬üªº®Æ²z¡A®ÇÃ
+
+[Wed Oct 23 21:21:48 2002] u/h/hiko/poleg/npc/item/food/inyelongment-fish.c line 13: Warning: Unknown \ escape. before hªº³½§@¥Dµæ¡Aµæ¦â¤Q¤
+
+[Wed Oct 23 21:22:53 2002] u/h/hiko/poleg/npc/item/food/inyelongment-fish.c line 12: Warning: Unknown \ escape. before ¢\¤Q¤ÀµØ¬üªº®Æ²z¡A®Ç
+
+[Wed Oct 23 21:22:53 2002] u/h/hiko/poleg/npc/item/food/inyelongment-fish.c line 12: Warning: Unknown \ escape. before Q¤ÀµØ¬üªº®Æ²z¡A®ÇÃä°
+
+[Wed Oct 23 21:22:53 2002] u/h/hiko/poleg/npc/item/food/inyelongment-fish.c line 13: Warning: Unknown \ escape. before hªº³½§@¥Dµæ¡Aµæ¦â¤Q¤
+
+[Wed Oct 23 21:24:07 2002] u/h/hiko/poleg/npc/item/food/inyelongment-fish.c line 12: Warning: Unknown \ escape. before ¢¤Q\¤ÀµØ¬üªº®Æ²z¡A®Ç
+
+[Wed Oct 23 21:24:07 2002] u/h/hiko/poleg/npc/item/food/inyelongment-fish.c line 12: Warning: Unknown \ escape. before ÀµØ¬üªº®Æ²z¡A®ÇÃä°t¤
+
+[Wed Oct 23 21:24:07 2002] u/h/hiko/poleg/npc/item/food/inyelongment-fish.c line 13: Warning: Unknown \ escape. before hªº³½§@¥Dµæ¡Aµæ¦â¦h¦
+
+[Wed Oct 23 21:24:07 2002] u/h/hiko/poleg/npc/item/food/inyelongment-fish.c line 32: parse error before the end of line
+
+[Wed Oct 23 21:25:03 2002] u/h/hiko/poleg/npc/item/food/inyelongment-fish.c line 13: Warning: Unknown \ escape. before \¦hªº³½§@¥Dµæ¡Aµæ¦â¦
+
+[Wed Oct 23 21:25:03 2002] u/h/hiko/poleg/npc/item/food/inyelongment-fish.c line 13: Warning: Unknown \ escape. before hªº³½§@¥Dµæ¡Aµæ¦â¦h¦
+
+[Wed Oct 23 21:26:08 2002] u/h/hiko/poleg/npc/item/food/inyelongment-fish.c line 13: Warning: Unknown \ escape. before h\ªº³½§@¥Dµæ¡Aµæ¦â¦h
+
+[Wed Oct 23 21:26:08 2002] u/h/hiko/poleg/npc/item/food/inyelongment-fish.c line 13: Warning: Unknown \ escape. before º³½§@¥Dµæ¡Aµæ¦â¦h\¦Ó
+
+[Wed Oct 23 21:26:08 2002] u/h/hiko/poleg/npc/item/food/inyelongment-fish.c line 13: Warning: Unknown \ escape. before ÓÂ×´I¡A·PÄ±°_¨Ó´N¬O\
+
+[Wed Oct 23 21:27:10 2002] u/h/hiko/poleg/npc/item/food/inyelongment-fish.c line 13: Warning: Unknown \ escape. before Û³\¦hªº³½§@¥Dµæ¡Aµæ¦
+
+[Wed Oct 23 21:27:10 2002] u/h/hiko/poleg/npc/item/food/inyelongment-fish.c line 13: Warning: Unknown \ escape. before hªº³½§@¥Dµæ¡Aµæ¦â¦h¦
+
+[Wed Oct 23 21:27:54 2002] u/h/hiko/poleg/npc/item/food/inyelongment-fish.c line 13: Warning: Unknown \ escape. before ÎµÛ³\¦hªº³½§@¥Dµæ¡Aµ
+
+[Wed Oct 23 21:27:54 2002] u/h/hiko/poleg/npc/item/food/inyelongment-fish.c line 13: Warning: Unknown \ escape. before hªº³½§@¥Dµæ¡Aµæ¦â¦h¥
+
+[Thu Oct 24 22:08:08 2002] u/h/hiko/item/mimi-soul.c line 124: Warning: Unknown \ escape. before O, Åý"+ob1->name()+"
+
+[Thu Oct 24 22:14:21 2002] u/h/hiko/item/soul.c line 128: Warning: Unknown \ escape. before O, Åý"+ob1->name()+"
+
+[Tue Oct 29 19:59:46 2002] u/h/hiko/poleg/npc/fire furnace.c line 102: Undefined variable 'index' before  
+
+[Tue Oct 29 19:59:46 2002] u/h/hiko/poleg/npc/fire furnace.c line 107: Undefined variable 'ob' before ; 
+
+[Tue Oct 29 19:59:46 2002] u/h/hiko/poleg/npc/fire furnace.c line 155: Undefined variable 'i' before 0;i<sizeof(obs);i++)
+
+[Tue Oct 29 19:59:46 2002] u/h/hiko/poleg/npc/fire furnace.c line 155: Undefined variable 'obs' before ;i++)
+
+[Tue Oct 29 19:59:46 2002] u/h/hiko/poleg/npc/fire furnace.c line 157: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Tue Oct 29 19:59:46 2002] u/h/hiko/poleg/npc/fire furnace.c line 167: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Tue Oct 29 20:03:25 2002] u/h/hiko/poleg/npc/fire furnace.c line 100: Illegal to redeclare local name 'me' before ;
+
+[Tue Oct 29 20:03:25 2002] u/h/hiko/poleg/npc/fire furnace.c line 172: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Tue Oct 29 20:03:25 2002] u/h/hiko/poleg/npc/fire furnace.c line 182: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Tue Oct 29 20:04:37 2002] u/h/hiko/poleg/npc/fire furnace.c line 100: Illegal to redeclare local name 'me' before ;
+
+[Tue Oct 29 21:23:53 2002] u/h/hiko/poleg/npc/item/food/gontinmi-fish.c line 13: Warning: Unknown \ escape. before A¦]¦¹\n"
+
+[Tue Oct 29 21:24:19 2002] u/h/hiko/poleg/npc/item/food/gontinmi-fish.c line 13: Warning: Unknown \ escape. before A\¦]¦¹\n"
+
+[Tue Oct 29 21:24:19 2002] u/h/hiko/poleg/npc/item/food/gontinmi-fish.c line 13: Warning: Unknown \ escape. before ]¦¹\n"
+
+[Thu Oct 31 20:37:05 2002] u/h/hiko/poleg/npc/old-yang.c line 10: parse error before £¹L°O±o·Ç³Æ¦n§÷®Æ¡D\
+
+[Thu Oct 31 20:37:05 2002] u/h/hiko/poleg/npc/old-yang.c line 21: Illegal terminator before ¦¸3000¤å¿ú¡ã¡I\n",
+
+[Thu Oct 31 20:38:56 2002] u/h/hiko/poleg/npc/old-yang.c line 66: Undefined variable 'cook' before the end of line
+
+[Thu Oct 31 21:22:57 2002] u/h/hiko/poleg/po2e-e.c line 32: Illegal lvalue before > 1)
+
+[Thu Oct 31 21:22:57 2002] u/h/hiko/poleg/po2e-e.c line 32: parse error before  1)
+
+[Thu Oct 31 21:43:05 2002] u/h/hiko/poleg/po0.c line 2: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Thu Oct 31 21:43:05 2002] u/h/hiko/poleg/po0.c line 2: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Thu Oct 31 21:43:05 2002] u/h/hiko/poleg/po0.c line 2: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Thu Oct 31 21:43:05 2002] u/h/hiko/poleg/po0.c line 2: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Thu Oct 31 21:43:05 2002] u/h/hiko/poleg/po0.c line 2: Illegal to redefine 'nomask' function "add_light" before the end of line
+
+[Thu Oct 31 21:43:05 2002] u/h/hiko/poleg/po0.c line 60: Redeclaration of function create. before the end of line
+
+[Thu Oct 31 21:59:02 2002] u/h/hiko/poleg/po2e.c line 61: Reserved type name unexpected. before obs = all_inventory(
+
+[Thu Oct 31 21:59:02 2002] u/h/hiko/poleg/po2e.c line 61: parse error before obs = all_inventory(
+
+[Thu Oct 31 21:59:02 2002] u/h/hiko/poleg/po2e.c line 61: Undefined variable 'me' before ;
+
+[Thu Oct 31 21:59:02 2002] u/h/hiko/poleg/po2e.c line 61: Illegal LHS before the end of line
+
+[Thu Oct 31 21:59:02 2002] u/h/hiko/poleg/po2e.c line 62: Undefined variable 'i' before 0; i<sizeof(obs); i+
+
+[Thu Oct 31 21:59:02 2002] u/h/hiko/poleg/po2e.c line 62: Undefined variable 'obs' before ; i++)
+
+[Thu Oct 31 22:24:28 2002] u/h/hiko/poleg/po15.c line 2: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Thu Oct 31 22:24:28 2002] u/h/hiko/poleg/po15.c line 2: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Thu Oct 31 22:24:28 2002] u/h/hiko/poleg/po15.c line 2: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Thu Oct 31 22:24:28 2002] u/h/hiko/poleg/po15.c line 2: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Thu Oct 31 22:24:28 2002] u/h/hiko/poleg/po15.c line 2: Illegal to redefine 'nomask' function "add_light" before the end of line
+
+[Thu Oct 31 22:24:28 2002] u/h/hiko/poleg/po15.c line 46: Redeclaration of function create. before the end of line
+
+[Thu Oct 31 22:29:28 2002] u/h/hiko/poleg/npc/in-chen.c line 32: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Thu Oct 31 22:29:28 2002] u/h/hiko/poleg/npc/in-chen.c line 32: Illegal to redefine 'nomask' function "query_busy" before the end of line
+
+[Thu Oct 31 22:29:28 2002] u/h/hiko/poleg/npc/in-chen.c line 32: Illegal to redefine 'nomask' function "is_busy" before the end of line
+
+[Thu Oct 31 22:29:28 2002] u/h/hiko/poleg/npc/in-chen.c line 32: Illegal to redefine 'nomask' function "is_block" before the end of line
+
+[Thu Oct 31 22:29:28 2002] u/h/hiko/poleg/npc/in-chen.c line 32: Illegal to redefine 'nomask' function "command_hook" before the end of line
+
+[Thu Oct 31 22:29:28 2002] u/h/hiko/poleg/npc/in-chen.c line 32: Illegal to redefine 'nomask' function "set_path" before the end of line
+
+[Mon Nov  4 18:30:13 2002] u/h/hiko/poleg/sha-ie.c line 12: parse error before [32mvoid init()[0m
+
+[Mon Nov  4 19:02:35 2002] u/h/hiko/poleg/npc/item/food/wealfish-soup.c line 14: Undefined variable 'HIG' before  NOR );
+
+[Mon Nov  4 19:02:35 2002] u/h/hiko/poleg/npc/item/food/wealfish-soup.c line 14: parse error before  NOR );
+
+[Wed Nov  6 19:00:05 2002] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Thu Nov  7 22:06:03 2002] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Thu Nov 14 18:24:19 2002] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Mon Nov 18 12:21:18 2002] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Tue Nov 19 21:07:06 2002] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Thu Nov 21 18:19:40 2002] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Wed Nov 27 18:16:07 2002] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Wed Nov 27 22:48:20 2002] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Thu Nov 28 18:21:43 2002] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Sat Nov 30 14:00:02 2002] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Sat Nov 30 14:17:01 2002] u/h/hiko/npc/uo-evil.c line 1: parse error before  k,
+
+[Sun Dec  1 17:38:14 2002] u/h/hiko/npc/eee.c line 2: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Sun Dec  1 17:38:14 2002] u/h/hiko/npc/eee.c line 2: Illegal to redefine 'nomask' function "query_busy" before the end of line
+
+[Sun Dec  1 17:38:14 2002] u/h/hiko/npc/eee.c line 2: Illegal to redefine 'nomask' function "is_busy" before the end of line
+
+[Sun Dec  1 17:38:14 2002] u/h/hiko/npc/eee.c line 2: Illegal to redefine 'nomask' function "is_block" before the end of line
+
+[Sun Dec  1 17:38:14 2002] u/h/hiko/npc/eee.c line 2: Illegal to redefine 'nomask' function "command_hook" before the end of line
+
+[Sun Dec  1 17:38:14 2002] u/h/hiko/npc/eee.c line 2: Illegal to redefine 'nomask' function "set_path" before the end of line
+
+[Sun Dec  1 17:38:14 2002] u/h/hiko/npc/eee.c line 2: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Sun Dec  1 17:38:14 2002] u/h/hiko/npc/eee.c line 2: Illegal to redefine 'nomask' function "query_busy" before the end of line
+
+[Sun Dec  1 17:38:14 2002] u/h/hiko/npc/eee.c line 2: Illegal to redefine 'nomask' function "is_busy" before the end of line
+
+[Sun Dec  1 17:38:14 2002] u/h/hiko/npc/eee.c line 2: Illegal to redefine 'nomask' function "is_block" before the end of line
+
+[Sun Dec  1 17:38:14 2002] u/h/hiko/npc/eee.c line 2: Illegal to redefine 'nomask' function "command_hook" before the end of line
+
+[Sun Dec  1 17:38:14 2002] u/h/hiko/npc/eee.c line 2: Illegal to redefine 'nomask' function "set_path" before the end of line
+
+[Tue Dec  3 19:19:24 2002] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Thu Dec  5 19:46:53 2002] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Fri Dec  6 22:48:00 2002] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Sat Dec  7 15:40:08 2002] u/h/hiko/fongevil/npc/zombieking.c line 26: Undefined variable 'ghost_kill' before this_object() :),
+
+[Sat Dec  7 15:40:08 2002] u/h/hiko/fongevil/npc/zombieking.c line 50: Too few arguments to message before ;
+
+[Sat Dec  7 15:41:08 2002] u/h/hiko/fongevil/npc/zombieking.c line 50: Too few arguments to message before ;
+
+[Sat Dec  7 15:42:15 2002] u/h/hiko/fongevil/npc/zombieking.c line 50: Too few arguments to message before ;
+
+[Sat Dec  7 15:43:45 2002] u/h/hiko/fongevil/npc/zombieking.c line 49: Too few arguments to message before ;
+
+[Sat Dec  7 15:45:42 2002] u/h/hiko/fongevil/npc/zombieking.c line 49: Undefined function this_objest before );
+
+[Sat Dec  7 15:45:42 2002] u/h/hiko/fongevil/npc/zombieking.c line 49: Too few arguments to message before ;
+
+[Sat Dec  7 15:47:20 2002] u/h/hiko/fongevil/npc/zombieking.c line 50: Undefined function this_objest before );
+
+[Sat Dec  7 15:47:20 2002] u/h/hiko/fongevil/npc/zombieking.c line 50: Too few arguments to message before ;
+
+[Sat Dec  7 15:50:27 2002] u/h/hiko/fongevil/npc/zombieking.c line 49: Too few arguments to message before ; 
+
+[Sat Dec  7 15:53:28 2002] u/h/hiko/fongevil/npc/zombieking.c line 48: Too few arguments to message before ; 
+
+[Sat Dec  7 17:30:32 2002] u/h/hiko/item/mimi-soul.c line 194: parse error before the end of line
+
+[Tue Dec 10 07:42:07 2002] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Tue Dec 10 19:50:56 2002] u/h/hiko/trm1.c line 7: Warning: Unknown \ escape. before h¤ß¦åªºµ²´¹³£¬O¦b¦¹½
+
+[Tue Dec 10 19:50:56 2002] u/h/hiko/trm1.c line 8: Warning: Unknown \ escape. before h§ï¹Lªº¯ó½Z¡A¬Ý\n"
+
+[Tue Dec 10 19:52:24 2002] u/h/hiko/trm1.c line 7: Warning: Unknown \ escape. before h¤ß¦åªºµ²´¹³£¬O¦b¦¹½
+
+[Tue Dec 10 19:52:24 2002] u/h/hiko/trm1.c line 8: Warning: Unknown \ escape. before h§ï¹Lªº¯ó½Z¡A¬Ý\n"
+
+[Tue Dec 10 19:53:45 2002] u/h/hiko/trm1.c line 7: Warning: Unknown \ escape. before h\¤ß¦åªºµ²´¹³£¬O¦b¦¹
+
+[Tue Dec 10 19:53:45 2002] u/h/hiko/trm1.c line 7: Warning: Unknown \ escape. before ß¦åªºµ²´¹³£¬O¦b¦¹½Ï¥
+
+[Tue Dec 10 19:53:45 2002] u/h/hiko/trm1.c line 8: Warning: Unknown \ escape. before h§ï¹Lªº¯ó½Z¡A¬Ý\n"
+
+[Tue Dec 10 19:55:17 2002] u/h/hiko/trm1.c line 8: Warning: Unknown \ escape. before h§ï¹Lªº¯ó½Z¡A¬Ý\n"
+
+[Tue Dec 10 19:56:08 2002] u/h/hiko/trm1.c line 8: Warning: Unknown \ escape. before \¦h§ï¹Lªº¯ó½Z¡A¬Ý\n"
+
+[Tue Dec 10 19:56:08 2002] u/h/hiko/trm1.c line 8: Warning: Unknown \ escape. before h§ï¹Lªº¯ó½Z¡A¬Ý\n"
+
+[Tue Dec 10 19:57:28 2002] u/h/hiko/trm1.c line 7: Warning: Unknown \ escape. before \¦h¤ß¦åªºµ²´¹³£¬O¦b¦
+
+[Tue Dec 10 19:57:28 2002] u/h/hiko/trm1.c line 7: Warning: Unknown \ escape. before h¤ß¦åªºµ²´¹³£¬O¦b¦¹½
+
+[Tue Dec 10 19:57:28 2002] u/h/hiko/trm1.c line 8: Warning: Unknown \ escape. before \¦h§ï¹Lªº¯ó½Z¡A¬Ý\n"
+
+[Tue Dec 10 19:57:28 2002] u/h/hiko/trm1.c line 8: Warning: Unknown \ escape. before h§ï¹Lªº¯ó½Z¡A¬Ý\n"
+
+[Tue Dec 10 21:42:40 2002] u/h/hiko/fongevil/wp/corpse_fist.c line 16: Wrong number of arguments to set
+    Expected: 2  Got: 1 before ;
+
+[Tue Dec 10 21:43:54 2002] u/h/hiko/fongevil/wp/corpse_fist.c line 15: parse error before ]¦¹«K´N¦W¬°«Í¤ö¡A¤ö¤
+
+[Tue Dec 10 21:43:54 2002] u/h/hiko/fongevil/wp/corpse_fist.c line 27: End of file in string before max;
+
+[Tue Dec 10 21:44:51 2002] u/h/hiko/fongevil/wp/corpse_fist.c line 15: parse error before í¤H§t«è¦Ó¦º®É¡A¦b³±®
+
+[Tue Dec 10 21:44:51 2002] u/h/hiko/fongevil/wp/corpse_fist.c line 27: End of file in string before ¡A¤£§«¥i¥H¸ÕµÛÃkª¦(c
+
+[Tue Dec 10 21:47:19 2002] u/h/hiko/corpse_fist.c line 15: parse error before í¤H§t«è¦Ó¦º®É¡A¦b³±®
+
+[Tue Dec 10 21:47:19 2002] u/h/hiko/corpse_fist.c line 28: End of file in string before Ü¤@Án¡A¨³³t¨Ï¥X¡u¤ºÀ
+
+[Tue Dec 10 22:08:36 2002] u/h/hiko/fongevil/wp/corpse_fist.c line 24: Undefined function nit_fist before ;
+
+[Tue Dec 10 22:32:43 2002] u/h/hiko/fongevil/npc/xxx.c line 47: parse error before n    ©Ñµ´"WHT"¦º«e¤j
+
+[Tue Dec 10 22:32:43 2002] u/h/hiko/fongevil/npc/xxx.c line 59: End of file in string before ( !mapp(lrn) ) lrn =
+
+[Wed Dec 11 20:01:52 2002] u/h/hiko/item/mimi-soul.c line 172: parse error before (string str)
+
+[Wed Dec 11 20:55:12 2002] u/h/hiko/fongevil/npc/zombiekill.c line 32: Undefined variable 'me' before query_str()));   
+
+[Wed Dec 11 20:55:12 2002] u/h/hiko/fongevil/npc/zombiekill.c line 42: Undefined function offensive_target before ;  // ¼Ä¤H
+
+[Wed Dec 11 20:55:12 2002] u/h/hiko/fongevil/npc/zombiekill.c line 42: Bad assignment ( object vs unknown ). before   // ¼Ä¤H
+
+[Wed Dec 11 20:57:34 2002] u/h/hiko/fongevil/npc/zombiekill.c line 42: Undefined function offensive_target before ;  // ¼Ä¤H
+
+[Wed Dec 11 20:57:34 2002] u/h/hiko/fongevil/npc/zombiekill.c line 42: Bad assignment ( object vs unknown ). before   // ¼Ä¤H
+
+[Wed Dec 11 20:59:03 2002] u/h/hiko/fongevil/npc/zombiekill.c line 4: parse error before  zombie_heal(object 
+
+[Wed Dec 11 21:31:43 2002] u/h/hiko/fongevil/npc/zombiekill.c line 20: Undefined variable 'target' before  offensive_target(ob
+
+[Wed Dec 11 23:05:21 2002] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Thu Dec 12 21:18:52 2002] u/h/hiko/fongevil/npc/zombieking.c line 38: Undefined variable 'combat_action' before random(sizeof(action
+
+[Thu Dec 12 21:35:01 2002] u/h/hiko/fongevil/npc/zombieking.c line 2: Missing leading " or < in #include before inherit NPC;
+
+[Thu Dec 12 21:35:01 2002] u/h/hiko/fongevil/npc/zombieking.c line 26: Undefined variable 'zombie_kill' before this_object() :),
+
+[Thu Dec 12 21:35:01 2002] u/h/hiko/fongevil/npc/zombieking.c line 27: Undefined variable 'zombie_heal' before this_object() :),   
+
+[Thu Dec 12 21:35:01 2002] u/h/hiko/fongevil/npc/zombieking.c line 38: Undefined variable 's_action' before random(sizeof(s_acti
+
+[Thu Dec 12 21:43:01 2002] u/h/hiko/fongevil/npc/zombiekill.c line 10: Undefined variable 's_action' before random(sizeof(s_acti
+
+[Thu Dec 12 22:25:50 2002] u/h/hiko/fongevil/npc/zombiekill.c line 50: parse error before ( ob->is_busy() )   
+
+[Thu Dec 12 22:28:09 2002] u/h/hiko/fongevil/npc/zombiekill.c line 50: parse error before ( ob->is_busy() )   
+
+[Fri Dec 13 23:01:47 2002] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Sat Dec 14 15:52:36 2002] u/h/hiko/fongevil/npc/xxx.c line 65: Undefined variable 'zombie_kill' before this_object() :),
+
+[Sat Dec 14 15:52:36 2002] u/h/hiko/fongevil/npc/xxx.c line 66: Undefined variable 'zombie_heal' before this_object() :),   
+
+[Sat Dec 14 16:16:58 2002] u/h/hiko/fongevil/npc/zombiekill.c line 64: $var illegal outside of function pointer. before N©¿µMÂù¤ö³s¥X¡A³sÄòÀ
+
+[Sat Dec 14 16:16:58 2002] u/h/hiko/fongevil/npc/zombiekill.c line 64: parse error before N©¿µMÂù¤ö³s¥X¡A³sÄòÀ
+
+[Sat Dec 14 16:16:58 2002] u/h/hiko/fongevil/npc/zombiekill.c line 69: $var illegal outside of function pointer. before N©¿µM¤@°}²r§ð¡A¥O§A¥
+
+[Sat Dec 14 16:16:58 2002] u/h/hiko/fongevil/npc/zombiekill.c line 69: Illegal terminator before °}²r§ð¡A¥O§A¥u±o°±¤U
+
+[Sat Dec 14 22:49:30 2002] u/h/hiko/npc/uo-evil.c line 7: Undefined variable 'beast' before ;
+
+[Sat Dec 14 22:49:30 2002] u/h/hiko/npc/uo-evil.c line 9: parse error before ¦);
+
+[Sat Dec 14 22:49:30 2002] u/h/hiko/npc/uo-evil.c line 25: Illegal LHS before the end of line
+
+[Sat Dec 14 22:49:30 2002] u/h/hiko/npc/uo-evil.c line 25: parse error before the end of line
+
+[Sat Dec 14 22:49:30 2002] u/h/hiko/npc/uo-evil.c line 26: Illegal LHS before   
+
+[Sat Dec 14 22:49:30 2002] u/h/hiko/npc/uo-evil.c line 26: parse error before   
+
+[Sat Dec 14 23:04:37 2002] u/h/hiko/fongevil/wp/bone_blade.c line 7: parse error before Ý°©¤M, ({ "bone blad
+
+[Sat Dec 14 23:16:17 2002] u/h/hiko/fongevil/wp/funeral_pike.c line 24: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Sat Dec 14 23:16:17 2002] u/h/hiko/fongevil/wp/funeral_pike.c line 24: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Sat Dec 14 23:16:17 2002] u/h/hiko/fongevil/wp/funeral_pike.c line 24: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Sat Dec 14 23:16:17 2002] u/h/hiko/fongevil/wp/funeral_pike.c line 24: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Sat Dec 14 23:16:17 2002] u/h/hiko/fongevil/wp/funeral_pike.c line 24: Illegal to redefine 'nomask' function "query_encumbrance" before the end of line
+
+[Sat Dec 14 23:16:17 2002] u/h/hiko/fongevil/wp/funeral_pike.c line 24: Illegal to redefine 'nomask' function "over_encumbranced" before the end of line
+
+[Sat Dec 14 23:37:37 2002] u/h/hiko/fongevil/npc/new_zombie.c line 25: parse error before the end of line
+
+[Sat Dec 14 23:37:37 2002] u/h/hiko/fongevil/npc/new_zombie.c line 52: Illegal LHS before the end of line
+
+[Sat Dec 14 23:37:37 2002] u/h/hiko/fongevil/npc/new_zombie.c line 52: parse error before the end of line
+
+[Sat Dec 14 23:37:37 2002] u/h/hiko/fongevil/npc/new_zombie.c line 53: Illegal LHS before the end of line
+
+[Sat Dec 14 23:37:37 2002] u/h/hiko/fongevil/npc/new_zombie.c line 53: parse error before the end of line
+
+[Sat Dec 14 23:41:26 2002] u/h/hiko/fongevil/npc/new_zombie.c line 25: parse error before the end of line
+
+[Sat Dec 14 23:41:26 2002] u/h/hiko/fongevil/npc/new_zombie.c line 52: Illegal LHS before the end of line
+
+[Sat Dec 14 23:41:26 2002] u/h/hiko/fongevil/npc/new_zombie.c line 52: parse error before the end of line
+
+[Sat Dec 14 23:41:26 2002] u/h/hiko/fongevil/npc/new_zombie.c line 53: Illegal LHS before the end of line
+
+[Sat Dec 14 23:41:26 2002] u/h/hiko/fongevil/npc/new_zombie.c line 53: parse error before the end of line
+
+[Sun Dec 15 00:18:39 2002] u/h/hiko/fongevil/npc/lost_zombie.c line 30: Left argument of -> is not a class before the end of line
+
+[Sun Dec 15 00:50:57 2002] u/h/hiko/fongevil/npc/new_zombie.c line 25: parse error before the end of line
+
+[Sun Dec 15 00:50:57 2002] u/h/hiko/fongevil/npc/new_zombie.c line 52: Illegal LHS before the end of line
+
+[Sun Dec 15 00:50:57 2002] u/h/hiko/fongevil/npc/new_zombie.c line 52: parse error before the end of line
+
+[Sun Dec 15 00:50:57 2002] u/h/hiko/fongevil/npc/new_zombie.c line 53: Illegal LHS before the end of line
+
+[Sun Dec 15 00:50:57 2002] u/h/hiko/fongevil/npc/new_zombie.c line 53: parse error before the end of line
+
+[Sun Dec 15 00:51:37 2002] u/h/hiko/fongevil/npc/new_zombie.c line 25: parse error before the end of line
+
+[Sun Dec 15 00:51:37 2002] u/h/hiko/fongevil/npc/new_zombie.c line 52: Illegal LHS before the end of line
+
+[Sun Dec 15 00:51:37 2002] u/h/hiko/fongevil/npc/new_zombie.c line 52: parse error before the end of line
+
+[Sun Dec 15 00:51:37 2002] u/h/hiko/fongevil/npc/new_zombie.c line 53: Illegal LHS before the end of line
+
+[Sun Dec 15 00:51:37 2002] u/h/hiko/fongevil/npc/new_zombie.c line 53: parse error before the end of line
+
+[Tue Dec 17 08:09:53 2002] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Wed Dec 18 21:42:33 2002] u/h/hiko/fongevil/npc/fongevil-gravestone.c line 116: End of file in text block before d an ENDMSG, then we
+
+[Wed Dec 18 21:42:33 2002] u/h/hiko/fongevil/npc/fongevil-gravestone.c line 116: parse error before d an ENDMSG, then we
+
+[Wed Dec 18 21:48:09 2002] u/h/hiko/fongevil/npc/gravestone.c line 112: End of file in text block before        me->map_skill
+
+[Wed Dec 18 21:48:09 2002] u/h/hiko/fongevil/npc/gravestone.c line 112: parse error before        me->map_skill
+
+[Wed Dec 18 22:01:51 2002] u/h/hiko/fongevil/npc/gravestone.c line 112: End of file in text block before 36m"   	""+"[1;33m"
+
+[Wed Dec 18 22:01:51 2002] u/h/hiko/fongevil/npc/gravestone.c line 112: parse error before 36m"   	""+"[1;33m"
+
+[Wed Dec 18 22:04:02 2002] u/h/hiko/fongevil/npc/gravestone.c line 112: End of file in text block before 36m"   	""+"[1;33m"
+
+[Wed Dec 18 22:04:02 2002] u/h/hiko/fongevil/npc/gravestone.c line 112: parse error before 36m"   	""+"[1;33m"
+
+[Wed Dec 18 22:05:16 2002] u/h/hiko/fongevil/npc/gravestone.c line 112: End of file in text block before (y > 0 && c==a[x][y-
+
+[Wed Dec 18 22:05:16 2002] u/h/hiko/fongevil/npc/gravestone.c line 112: parse error before (y > 0 && c==a[x][y-
+
+[Wed Dec 18 22:07:45 2002] u/h/hiko/fongevil/npc/gravestone.c line 112: End of file in text block before        "\n\n\t¢w¢w ¦
+
+[Wed Dec 18 22:07:45 2002] u/h/hiko/fongevil/npc/gravestone.c line 112: parse error before        "\n\n\t¢w¢w ¦
+
+[Wed Dec 18 22:07:55 2002] u/h/hiko/fongevil/npc/gravestone.c line 112: End of file in text block before        "\n\n\t¢w¢w ¦
+
+[Wed Dec 18 22:07:55 2002] u/h/hiko/fongevil/npc/gravestone.c line 112: parse error before        "\n\n\t¢w¢w ¦
+
+[Thu Dec 19 08:28:31 2002] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Thu Dec 19 19:14:56 2002] u/h/hiko/fongevil/npc/gravestone.c line 113: End of file in text block before d = random(sizeof(ms
+
+[Thu Dec 19 19:14:56 2002] u/h/hiko/fongevil/npc/gravestone.c line 113: parse error before d = random(sizeof(ms
+
+[Thu Dec 19 19:19:09 2002] u/h/hiko/fongevil/npc/gravestone.c line 113: End of file in text block before , info["PORTUDP"]);
+
+[Thu Dec 19 19:19:09 2002] u/h/hiko/fongevil/npc/gravestone.c line 113: parse error before , info["PORTUDP"]);
+
+[Thu Dec 19 19:20:40 2002] u/h/hiko/gravestone.c line 111: End of file in text block before lse return 0;
+
+[Thu Dec 19 19:20:40 2002] u/h/hiko/gravestone.c line 111: parse error before lse return 0;
+
+[Thu Dec 19 19:24:47 2002] u/h/hiko/gravestone.c line 111: End of file in text block before )
+
+[Thu Dec 19 19:24:47 2002] u/h/hiko/gravestone.c line 111: parse error before )
+
+[Thu Dec 19 19:40:02 2002] u/h/hiko/fongevil/item/jade.c line 11: Warning: Unknown \ escape. before Ä¡C\n");
+
+[Thu Dec 19 19:40:48 2002] u/h/hiko/fongevil/item/jade.c line 11: Warning: Unknown \ escape. before Ä¡C\n");
+
+[Thu Dec 19 19:41:06 2002] u/h/hiko/fongevil/item/jade.c line 11: Warning: Unknown \ escape. before ®Ä¡C\n");
+
+[Thu Dec 19 19:42:44 2002] u/h/hiko/fongevil/item/jade.c line 11: Warning: Unknown \ escape. before Ä\n");
+
+[Thu Dec 19 19:44:01 2002] u/h/hiko/fongevil/item/jade.c line 11: Warning: Unknown \ escape. before º\¥\®Ä\n");
+
+[Thu Dec 19 19:44:01 2002] u/h/hiko/fongevil/item/jade.c line 11: Warning: Unknown \ escape. before \®Ä\n");
+
+[Thu Dec 19 19:44:01 2002] u/h/hiko/fongevil/item/jade.c line 11: Warning: Unknown \ escape. before Ä\n");
+
+[Thu Dec 19 19:44:33 2002] u/h/hiko/fongevil/item/jade.c line 11: Warning: Unknown \ escape. before º¥\®Ä\n");
+
+[Thu Dec 19 19:44:33 2002] u/h/hiko/fongevil/item/jade.c line 11: Warning: Unknown \ escape. before Ä\n");
+
+[Thu Dec 19 19:44:55 2002] u/h/hiko/fongevil/item/jade.c line 11: Warning: Unknown \ escape. before \®Ä\n");
+
+[Thu Dec 19 19:44:55 2002] u/h/hiko/fongevil/item/jade.c line 11: Warning: Unknown \ escape. before Ä\n");
+
+[Thu Dec 19 21:40:40 2002] u/h/hiko/fongevil/npc/new_zombie.c line 34: Left argument of -> is not a class before        set_living_na
+
+[Thu Dec 19 23:06:50 2002] u/h/hiko/fongevil/item/jade.c line 11: Warning: Unknown \ escape. before \®Ä\n");
+
+[Thu Dec 19 23:06:50 2002] u/h/hiko/fongevil/item/jade.c line 11: Warning: Unknown \ escape. before Ä\n");
+
+[Fri Dec 20 20:02:30 2002] u/h/hiko/fongevil/item/jade.c line 11: Warning: Unknown \ escape. before \®Ä\n");
+
+[Fri Dec 20 20:02:30 2002] u/h/hiko/fongevil/item/jade.c line 11: Warning: Unknown \ escape. before Ä\n");
+
+[Fri Dec 20 20:09:18 2002] u/h/hiko/fongevil/npc/xxx.c line 91: Undefined variable 'ob' before ;
+
+[Fri Dec 20 20:20:13 2002] u/h/hiko/fongevil/npc/xxx.c line 89: Illegal to redeclare local name 'me' before =this_player();
+
+[Sat Dec 21 10:36:17 2002] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Sat Dec 21 16:54:24 2002] u/h/hiko/item/mimi-soul.c line 197: Warning: Non-void functions must return a value. before the end of line
+
+[Sun Dec 22 11:42:47 2002] u/h/hiko/fongevil/npc/xxx.c line 91: parse error before ;
+
+[Sun Dec 22 11:42:47 2002] u/h/hiko/fongevil/npc/xxx.c line 93: Illegal LHS before i<=12;i++)
+
+[Sun Dec 22 11:42:47 2002] u/h/hiko/fongevil/npc/xxx.c line 93: Warning: Value of conditional expression is unused before i++)
+
+[Sun Dec 22 11:42:47 2002] u/h/hiko/fongevil/npc/xxx.c line 93: parse error before the end of line
+
+[Sun Dec 22 11:42:47 2002] u/h/hiko/fongevil/npc/xxx.c line 95: Illegal LHS before the end of line
+
+[Sun Dec 22 11:42:47 2002] u/h/hiko/fongevil/npc/xxx.c line 99: parse error before ,180);
+
+[Sun Dec 22 11:45:46 2002] u/h/hiko/fongevil/npc/xxx.c line 92: parse error before ;
+
+[Sun Dec 22 11:45:46 2002] u/h/hiko/fongevil/npc/xxx.c line 94: Illegal LHS before i<=12;i++)
+
+[Sun Dec 22 11:45:46 2002] u/h/hiko/fongevil/npc/xxx.c line 94: Warning: Value of conditional expression is unused before i++)
+
+[Sun Dec 22 11:45:46 2002] u/h/hiko/fongevil/npc/xxx.c line 94: parse error before the end of line
+
+[Sun Dec 22 11:45:46 2002] u/h/hiko/fongevil/npc/xxx.c line 96: Illegal LHS before the end of line
+
+[Sun Dec 22 11:45:46 2002] u/h/hiko/fongevil/npc/xxx.c line 100: parse error before ,180);
+
+[Sun Dec 22 11:47:43 2002] u/h/hiko/fongevil/item/jade.c line 11: Warning: Unknown \ escape. before \®Ä\n");
+
+[Sun Dec 22 11:47:43 2002] u/h/hiko/fongevil/item/jade.c line 11: Warning: Unknown \ escape. before Ä\n");
+
+[Mon Dec 23 20:32:48 2002] u/h/hiko/fongevil/xxx.c line 206: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Mon Dec 23 20:32:48 2002] u/h/hiko/fongevil/xxx.c line 206: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Mon Dec 23 20:32:48 2002] u/h/hiko/fongevil/xxx.c line 206: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Mon Dec 23 20:32:48 2002] u/h/hiko/fongevil/xxx.c line 206: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Mon Dec 23 20:32:48 2002] u/h/hiko/fongevil/xxx.c line 206: Illegal to redefine 'nomask' function "query_encumbrance" before the end of line
+
+[Mon Dec 23 20:32:48 2002] u/h/hiko/fongevil/xxx.c line 206: Illegal to redefine 'nomask' function "over_encumbranced" before the end of line
+
+[Tue Dec 24 08:27:17 2002] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Sat Dec 28 22:00:31 2002] u/h/hiko/fongevil/mu20.c line 17: parse error before ", 0);
+
+[Sat Dec 28 22:00:31 2002] u/h/hiko/fongevil/mu20.c line 30: End of file in string before L©¹ªº¤H¸s¡C\n¸õ¤U¥h(
+
+[Sat Dec 28 22:01:03 2002] u/h/hiko/fongevil/mu20.c line 17: parse error before ", 0);
+
+[Sat Dec 28 22:01:03 2002] u/h/hiko/fongevil/mu20.c line 30: End of file in string before t(arg, environment(m
+
+[Sat Dec 28 22:01:39 2002] u/h/hiko/fongevil/mu20.c line 17: parse error before ", 0);
+
+[Sat Dec 28 22:01:39 2002] u/h/hiko/fongevil/mu20.c line 30: End of file in string before command("say ¥»©±ªºÂ
+
+[Sat Dec 28 22:52:19 2002] u/h/hiko/fongevil/mu22.c line 43: No such inherited function ::do_drink before ;
+
+[Sat Dec 28 22:54:07 2002] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Tue Dec 31 00:22:01 2002] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Wed Jan  1 00:05:23 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Wed Jan  1 15:26:17 2003] u/h/hiko/fongevil/npc/black_bear.c line 25: parse error before ,this_object(),this_
+
+[Wed Jan  1 15:31:27 2003] u/h/hiko/fongevil/npc/black_bear.c line 25: parse error before ,this_object(),this_
+
+[Wed Jan  1 15:32:49 2003] u/h/hiko/fongevil/npc/black_bear.c line 25: parse error before ,this_object(),this_
+
+[Wed Jan  1 15:48:32 2003] u/h/hiko/fongevil/npc/mountain-man.c line 98: parse error before ->set_temp("home_rig
+
+[Wed Jan  1 16:04:19 2003] u/h/hiko/fongevil/npc/mountain-man.c line 98: parse error before ->set_temp("home_rig
+
+[Thu Jan  2 15:25:06 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Thu Jan  2 18:44:47 2003] u/h/hiko/bar-game.c line 58: parse error before   
+
+[Thu Jan  2 18:44:47 2003] u/h/hiko/bar-game.c line 63: Illegal LHS before  
+
+[Thu Jan  2 18:44:47 2003] u/h/hiko/bar-game.c line 64: Illegal LHS before the end of line
+
+[Thu Jan  2 18:44:47 2003] u/h/hiko/bar-game.c line 219: Reserved type name unexpected. before (string what)
+
+[Thu Jan  2 18:44:47 2003] u/h/hiko/bar-game.c line 219: parse error before (string what)
+
+[Thu Jan  2 18:47:44 2003] u/h/hiko/bar-game.c line 58: parse error before   
+
+[Thu Jan  2 18:47:44 2003] u/h/hiko/bar-game.c line 63: Illegal LHS before  
+
+[Thu Jan  2 18:47:44 2003] u/h/hiko/bar-game.c line 64: Illegal LHS before the end of line
+
+[Thu Jan  2 18:47:44 2003] u/h/hiko/bar-game.c line 219: Reserved type name unexpected. before (string what)
+
+[Thu Jan  2 18:47:44 2003] u/h/hiko/bar-game.c line 219: parse error before (string what)
+
+[Thu Jan  2 22:54:36 2003] u/h/hiko/item/flyboat.c line 28: Illegal to inherit after defining global variables. before the end of line
+
+[Thu Jan  2 22:54:36 2003] u/h/hiko/item/flyboat.c line 28: Illegal to inherit after defining global variables. before the end of line
+
+[Thu Jan  2 22:56:06 2003] u/h/hiko/item/flyboat.c line 28: Illegal to inherit after defining global variables. before the end of line
+
+[Thu Jan  2 22:57:10 2003] u/h/hiko/item/flyboat.c line 28: Illegal to inherit after defining global variables. before the end of line
+
+[Thu Jan  2 23:00:15 2003] u/h/hiko/item/flyboat.c line 28: Illegal to inherit after defining global variables. before the end of line
+
+[Thu Jan  2 23:00:44 2003] u/h/hiko/item/flyboat.c line 28: Illegal to inherit after defining global variables. before the end of line
+
+[Thu Jan  2 23:02:26 2003] u/h/hiko/item/flyboat.c line 25: Type mismatch ( mapping * vs mapping ) when initializing default_dirs before the end of line
+
+[Thu Jan  2 23:02:26 2003] u/h/hiko/item/flyboat.c line 28: Illegal to inherit after defining global variables. before the end of line
+
+[Thu Jan  2 23:02:26 2003] u/h/hiko/item/flyboat.c line 198: Bad type of index: "string " before ) )
+
+[Thu Jan  2 23:02:26 2003] u/h/hiko/item/flyboat.c line 199: Bad type of index: "string " before ;
+
+[Thu Jan  2 23:02:26 2003] u/h/hiko/item/flyboat.c line 199: Bad assignment ( string vs mapping ). before the end of line
+
+[Thu Jan  2 23:02:26 2003] u/h/hiko/item/flyboat.c line 238: parse error before  notify_fail("³o¬O§Y
+
+[Sat Jan  4 14:07:15 2003] u/h/hiko/item/mimi-soul.c line 215: Wrong number of arguments to snoop
+    Expected: 2  Got: 1 before ;
+
+[Sat Jan  4 14:07:15 2003] u/h/hiko/item/mimi-soul.c line 225: Bad type for argument 2 of snoop ( string vs object ) before ;
+
+[Sat Jan  4 14:10:42 2003] u/h/hiko/item/mimi-soul.c line 216: Bad type for argument 1 of snoop ( string vs object ) before ;
+
+[Sat Jan  4 14:10:42 2003] u/h/hiko/item/mimi-soul.c line 226: Wrong number of arguments to snoop
+    Expected: 1  Got: 2 before ;
+
+[Sat Jan  4 14:10:42 2003] u/h/hiko/item/mimi-soul.c line 226: Bad type for argument 1 of snoop ( string vs object ) before ;
+
+[Sat Jan  4 14:14:00 2003] u/h/hiko/item/mimi-soul.c line 216: Bad type for argument 1 of snoop ( string vs object ) before ;
+
+[Sat Jan  4 14:14:00 2003] u/h/hiko/item/mimi-soul.c line 226: Wrong number of arguments to snoop
+    Expected: 1  Got: 2 before ;
+
+[Sat Jan  4 14:14:00 2003] u/h/hiko/item/mimi-soul.c line 226: Bad type for argument 1 of snoop ( string vs object ) before ;
+
+[Sat Jan  4 17:59:42 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Sat Jan  4 20:48:52 2003] u/h/hiko/item/ship_in.c line 235: parse error before (this_player()->quer
+
+[Sat Jan  4 20:48:52 2003] u/h/hiko/item/ship_in.c line 239: Illegal LHS before the end of line
+
+[Sat Jan  4 20:48:52 2003] u/h/hiko/item/ship_in.c line 239: parse error before the end of line
+
+[Sat Jan  4 20:54:17 2003] u/h/hiko/item/ship_in.c line 235: parse error before (this_player()->quer
+
+[Sat Jan  4 20:54:17 2003] u/h/hiko/item/ship_in.c line 239: Illegal LHS before the end of line
+
+[Sat Jan  4 20:54:17 2003] u/h/hiko/item/ship_in.c line 239: parse error before the end of line
+
+[Sat Jan  4 20:57:04 2003] u/h/hiko/item/ship_in.c line 215: parse error before the end of line
+
+[Sat Jan  4 20:57:04 2003] u/h/hiko/item/ship_in.c line 231: Illegal LHS before the end of line
+
+[Sat Jan  4 20:57:04 2003] u/h/hiko/item/ship_in.c line 231: parse error before the end of line
+
+[Sat Jan  4 20:57:04 2003] u/h/hiko/item/ship_in.c line 240: Illegal LHS before )
+
+[Sat Jan  4 20:57:04 2003] u/h/hiko/item/ship_in.c line 240: parse error before the end of line
+
+[Sat Jan  4 21:23:58 2003] u/h/hiko/item/ship_in.c line 209: parse error before  1;
+
+[Sat Jan  4 21:27:31 2003] u/h/hiko/npc/lady.c line 14: Undefined function level before ;
+
+[Sat Jan  4 21:48:54 2003] u/h/hiko/item/ship_in.c line 221: Undefined variable 'me' before  where, 1);         
+
+[Sat Jan  4 22:35:42 2003] u/h/hiko/item/ship_in.c line 93: Undefined variable 'ancient' before );
+
+[Sat Jan  4 22:35:42 2003] u/h/hiko/item/ship_in.c line 93: parse error before );
+
+[Sat Jan  4 22:35:42 2003] u/h/hiko/item/ship_in.c line 109: parse error before );
+
+[Sat Jan  4 22:35:42 2003] u/h/hiko/item/ship_in.c line 140: parse error before );
+
+[Sat Jan  4 22:35:42 2003] u/h/hiko/item/ship_in.c line 169: parse error before );
+
+[Sat Jan  4 22:35:42 2003] u/h/hiko/item/ship_in.c line 170: Undefined variable 'boat' before ;
+
+[Sun Jan  5 00:10:57 2003] u/h/hiko/item/ship_in.c line 218: parse error before );
+
+[Sun Jan  5 00:10:57 2003] u/h/hiko/item/ship_in.c line 230: Illegal LHS before the end of line
+
+[Sun Jan  5 00:10:57 2003] u/h/hiko/item/ship_in.c line 230: parse error before the end of line
+
+[Sun Jan  5 00:10:57 2003] u/h/hiko/item/ship_in.c line 238: Illegal LHS before )
+
+[Sun Jan  5 00:10:57 2003] u/h/hiko/item/ship_in.c line 238: parse error before the end of line
+
+[Sun Jan  5 00:28:20 2003] u/h/hiko/item/ship_in.c line 218: Undefined variable 'ob' before query("boat")) )
+
+[Sun Jan  5 00:37:07 2003] u/h/hiko/item/ship_in.c line 70: parse error before ;
+
+[Sun Jan  5 00:37:07 2003] u/h/hiko/item/ship_in.c line 93: Illegal LHS before the end of line
+
+[Sun Jan  5 00:37:07 2003] u/h/hiko/item/ship_in.c line 93: parse error before the end of line
+
+[Sun Jan  5 00:37:07 2003] u/h/hiko/item/ship_in.c line 94: Undefined variable 'me' before query("boat");
+
+[Sun Jan  5 00:37:07 2003] u/h/hiko/item/ship_in.c line 94: Illegal LHS before the end of line
+
+[Sun Jan  5 00:37:07 2003] u/h/hiko/item/ship_in.c line 94: parse error before the end of line
+
+[Sun Jan  5 00:42:16 2003] u/h/hiko/item/ship_in.c line 72: Undefined function welcome before ;
+
+[Sun Jan  5 00:42:16 2003] u/h/hiko/item/ship_in.c line 92: Redeclaration of function welcome. before the end of line
+
+[Sun Jan  5 00:46:22 2003] u/h/hiko/item/ship_in.c line 90: parse error before the end of line
+
+[Sun Jan  5 00:46:22 2003] u/h/hiko/item/ship_in.c line 98: Illegal LHS before the end of line
+
+[Sun Jan  5 00:46:22 2003] u/h/hiko/item/ship_in.c line 98: parse error before the end of line
+
+[Sun Jan  5 00:46:22 2003] u/h/hiko/item/ship_in.c line 99: Undefined variable 'me' before query("boat");
+
+[Sun Jan  5 00:46:22 2003] u/h/hiko/item/ship_in.c line 99: Illegal LHS before the end of line
+
+[Sun Jan  5 00:46:22 2003] u/h/hiko/item/ship_in.c line 99: parse error before the end of line
+
+[Sun Jan  5 13:50:31 2003] u/h/hiko/fongevil/light_grass.c line 10: Wrong number of arguments to set
+    Expected: 2  Got: 5 before ;
+
+[Sun Jan  5 13:50:31 2003] u/h/hiko/fongevil/light_grass.c line 29: Undefined variable 'flower' before  new(__DIR__"item/gr
+
+[Sun Jan  5 13:50:31 2003] u/h/hiko/fongevil/light_grass.c line 48: Undefined variable 'this_object' before the end of line
+
+[Sun Jan  5 13:55:57 2003] u/h/hiko/fongevil/light_grass.c line 10: Wrong number of arguments to set
+    Expected: 2  Got: 5 before ;
+
+[Sun Jan  5 13:55:57 2003] u/h/hiko/fongevil/light_grass.c line 29: Undefined variable 'flower' before  new(__DIR__"item/gr
+
+[Sun Jan  5 13:55:57 2003] u/h/hiko/fongevil/light_grass.c line 48: Undefined variable 'this_object' before the end of line
+
+[Sun Jan  5 13:57:29 2003] u/h/hiko/fongevil/light_grass.c line 10: Wrong number of arguments to set
+    Expected: 2  Got: 5 before ;
+
+[Sun Jan  5 13:57:29 2003] u/h/hiko/fongevil/light_grass.c line 48: Undefined variable 'this_object' before the end of line
+
+[Sun Jan  5 15:04:26 2003] u/h/hiko/fongevil/npc/boy-yu.c line 91: == always false because of incompatible types ( int vs string ). before the end of line
+
+[Sun Jan  5 15:30:04 2003] u/h/hiko/fongevil/home_2.c line 19: parse error before ("no_clean_up",0);
+
+[Sun Jan  5 16:27:47 2003] u/h/hiko/fongevil/item/test.c line 26: parse error before ")¤jÁn³ÛµÛ"NOR":"HIC
+
+[Sun Jan  5 16:57:32 2003] u/h/hiko/fongevil/npc/mountain-man.c line 59: parse error before i" && me->query_temp
+
+[Sun Jan  5 16:57:32 2003] u/h/hiko/fongevil/npc/mountain-man.c line 64: $var illegal outside of function pointer. before N»¡¡G¦b¤UµLªkÀ°§A\n"
+
+[Sun Jan  5 16:57:32 2003] u/h/hiko/fongevil/npc/mountain-man.c line 74: Illegal terminator before ¤Á¦w¦n¡A¦hÁÂÃö¤ß¡C")
+
+[Sun Jan  5 19:07:00 2003] u/h/hiko/fongevil/animal/leopard.c line 5: parse error before " }) );
+
+[Sun Jan  5 19:07:00 2003] u/h/hiko/fongevil/animal/leopard.c line 9: Illegal terminator before °¦¥¿¦b°Ù­¹°Êª««ÍÅéªº
+
+[Sun Jan  5 19:08:52 2003] u/h/hiko/fongevil/animal/leopard.c line 5: parse error before " }) );
+
+[Sun Jan  5 19:08:52 2003] u/h/hiko/fongevil/animal/leopard.c line 9: Illegal terminator before °¦¥¿¦b°Ù­¹°Êª««ÍÅéªº
+
+[Sun Jan  5 19:10:11 2003] u/h/hiko/fongevil/animal/leopard.c line 5: parse error before "}));
+
+[Sun Jan  5 19:10:11 2003] u/h/hiko/fongevil/animal/leopard.c line 9: Illegal terminator before °¦¥¿¦b°Ù­¹°Êª««ÍÅéªº
+
+[Sun Jan  5 19:11:45 2003] u/h/hiko/fongevil/animal/leopard.c line 5: parse error before "}));
+
+[Sun Jan  5 19:11:45 2003] u/h/hiko/fongevil/animal/leopard.c line 9: Illegal terminator before °¦¥¿¦b°Ù­¹°Êª««ÍÅéªº
+
+[Sun Jan  5 19:14:30 2003] u/h/hiko/fongevil/animal/leopard.c line 5: parse error before " }) );
+
+[Sun Jan  5 19:14:30 2003] u/h/hiko/fongevil/animal/leopard.c line 9: Illegal terminator before °¦¥¿¦b¦YµÛ°Êª««ÍÅéªº
+
+[Sun Jan  5 19:15:16 2003] u/h/hiko/fongevil/animal/leopard.c line 5: parse error before " }) );
+
+[Sun Jan  5 19:15:16 2003] u/h/hiko/fongevil/animal/leopard.c line 9: Illegal terminator before °¦¥¿¦b¦YµÛ°Êª««ÍÅéªº
+
+[Sun Jan  5 19:50:53 2003] u/h/hiko/fongevil/mu22.c line 15: parse error before  3 }) );
+
+[Sun Jan  5 19:50:53 2003] u/h/hiko/fongevil/mu22.c line 33: Illegal LHS before the end of line
+
+[Sun Jan  5 19:50:53 2003] u/h/hiko/fongevil/mu22.c line 33: parse error before the end of line
+
+[Sun Jan  5 19:51:58 2003] u/h/hiko/fongevil/mu22.c line 15: parse error before  3 }) );
+
+[Sun Jan  5 19:51:58 2003] u/h/hiko/fongevil/mu22.c line 33: Illegal LHS before the end of line
+
+[Sun Jan  5 19:51:58 2003] u/h/hiko/fongevil/mu22.c line 33: parse error before the end of line
+
+[Sun Jan  5 19:53:06 2003] u/h/hiko/fongevil/mu22.c line 15: parse error before  3 }) );
+
+[Sun Jan  5 19:53:06 2003] u/h/hiko/fongevil/mu22.c line 33: Illegal LHS before the end of line
+
+[Sun Jan  5 19:53:06 2003] u/h/hiko/fongevil/mu22.c line 33: parse error before the end of line
+
+[Sun Jan  5 20:02:53 2003] u/h/hiko/fongevil/mu21.c line 19: parse error before  4,
+
+[Sun Jan  5 20:02:53 2003] u/h/hiko/fongevil/mu21.c line 33: Illegal LHS before  me = this_player();
+
+[Sun Jan  5 20:02:53 2003] u/h/hiko/fongevil/mu21.c line 33: Undefined variable 'me' before  this_player();
+
+[Sun Jan  5 20:02:53 2003] u/h/hiko/fongevil/mu21.c line 33: parse error before the end of line
+
+[Sun Jan  5 20:02:53 2003] u/h/hiko/fongevil/mu21.c line 39: Illegal LHS before  return notify_fail(
+
+[Sun Jan  5 20:02:53 2003] u/h/hiko/fongevil/mu21.c line 39: parse error before  return notify_fail(
+
+[Sun Jan  5 20:03:07 2003] u/h/hiko/fongevil/mu21.c line 19: parse error before  4,
+
+[Sun Jan  5 20:03:07 2003] u/h/hiko/fongevil/mu21.c line 33: Illegal LHS before  me = this_player();
+
+[Sun Jan  5 20:03:07 2003] u/h/hiko/fongevil/mu21.c line 33: Undefined variable 'me' before  this_player();
+
+[Sun Jan  5 20:03:07 2003] u/h/hiko/fongevil/mu21.c line 33: parse error before the end of line
+
+[Sun Jan  5 20:03:07 2003] u/h/hiko/fongevil/mu21.c line 39: Illegal LHS before  return notify_fail(
+
+[Sun Jan  5 20:03:07 2003] u/h/hiko/fongevil/mu21.c line 39: parse error before  return notify_fail(
+
+[Sun Jan  5 20:03:43 2003] u/h/hiko/fongevil/mu21.c line 19: parse error before  4,
+
+[Sun Jan  5 20:03:43 2003] u/h/hiko/fongevil/mu21.c line 33: Illegal LHS before  me = this_player();
+
+[Sun Jan  5 20:03:43 2003] u/h/hiko/fongevil/mu21.c line 33: Undefined variable 'me' before  this_player();
+
+[Sun Jan  5 20:03:43 2003] u/h/hiko/fongevil/mu21.c line 33: parse error before the end of line
+
+[Sun Jan  5 20:03:43 2003] u/h/hiko/fongevil/mu21.c line 39: Illegal LHS before  return notify_fail(
+
+[Sun Jan  5 20:03:43 2003] u/h/hiko/fongevil/mu21.c line 39: parse error before  return notify_fail(
+
+[Sun Jan  5 20:09:37 2003] u/h/hiko/fongevil/gravestone.c line 69: Too few arguments to message before ;           
+
+[Tue Jan  7 08:34:04 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Thu Jan  9 11:57:49 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Fri Jan 10 22:24:22 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Tue Jan 14 08:17:05 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Tue Jan 14 17:35:00 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Thu Jan 16 08:02:59 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Sat Jan 18 18:22:35 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Tue Jan 21 08:14:21 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Thu Jan 23 18:00:04 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Sat Jan 25 16:37:22 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Tue Jan 28 08:21:41 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Thu Feb  6 08:18:43 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Mon Feb 10 08:32:52 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Tue Feb 11 08:15:53 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Thu Feb 13 08:19:01 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Fri Feb 14 08:19:09 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Sat Feb 15 08:58:57 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Tue Feb 18 08:04:14 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Thu Feb 20 08:17:13 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Sat Feb 22 13:49:51 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Mon Feb 24 08:48:03 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Tue Feb 25 08:17:33 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Thu Feb 27 08:16:04 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Mon Mar  3 08:19:14 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Tue Mar  4 08:18:52 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Thu Mar  6 08:48:22 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Sat Mar  8 09:11:47 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Sun Mar  9 08:20:57 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Tue Mar 11 08:16:50 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Thu Mar 13 08:16:06 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Sat Mar 15 11:11:31 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Tue Mar 18 08:19:36 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Thu Mar 20 08:05:28 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Mon Mar 24 08:13:28 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Tue Mar 25 08:16:59 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Thu Mar 27 08:12:11 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Sat Mar 29 13:24:14 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Sun Mar 30 12:41:07 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Tue Apr  1 08:07:08 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Mon Apr  7 08:21:29 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Tue Apr  8 08:15:45 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Thu Apr 10 08:06:52 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Fri Apr 11 08:14:14 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Sat Apr 12 12:39:06 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Sat Apr 12 13:30:20 2003] u/h/hiko/fongevil/idle-force.c line 24: parse error before ( interactive(this_o
+
+[Mon Apr 14 11:34:36 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Mon Apr 14 20:16:42 2003] u/h/hiko/fongevil/npc/mountain-man.c line 123: parse error before  +who->query("id")+ 
+
+[Mon Apr 14 20:16:42 2003] u/h/hiko/fongevil/npc/mountain-man.c line 155: End of file in string before e->query("id")+ " ja
+
+[Mon Apr 14 20:17:31 2003] u/h/hiko/fongevil/npc/mountain-man.c line 123: parse error before  "+who->query("id")+
+
+[Mon Apr 14 20:17:31 2003] u/h/hiko/fongevil/npc/mountain-man.c line 155: End of file in string before >query("id")+ " jade
+
+[Mon Apr 14 20:24:43 2003] u/h/hiko/fongevil/npc/mountain-man.c line 123: parse error before  " +who->query("id")
+
+[Mon Apr 14 20:24:43 2003] u/h/hiko/fongevil/npc/mountain-man.c line 145: End of file in string before e " +me->query("id")
+
+[Mon Apr 14 20:33:07 2003] u/h/hiko/fongevil/npc/alienbeast-stone.c line 13: Warning: Unknown \ escape. before Ó§ä¤HÂ½Ä¶¬Ý¬Ý¤W­±±o¥
+
+[Mon Apr 14 20:33:07 2003] u/h/hiko/fongevil/npc/alienbeast-stone.c line 14: Warning: Unknown \ escape. before i¥H±N¨ä¤À¶}\n");
+
+[Mon Apr 14 20:33:50 2003] u/h/hiko/fongevil/npc/alienbeast-stone.c line 13: Warning: Unknown \ escape. before \¸Ó§ä¤HÂ½Ä¶¬Ý¬Ý¤W­±±
+
+[Mon Apr 14 20:33:50 2003] u/h/hiko/fongevil/npc/alienbeast-stone.c line 13: Warning: Unknown \ escape. before Ó§ä¤HÂ½Ä¶¬Ý¬Ý¤W­±±o¥
+
+[Mon Apr 14 20:34:26 2003] u/h/hiko/fongevil/npc/alienbeast-stone.c line 14: Warning: Unknown \ escape. before ]³\¸Ó§ä¤HÂ½Ä¶¬Ý¬Ý¤W­
+
+[Mon Apr 14 20:34:26 2003] u/h/hiko/fongevil/npc/alienbeast-stone.c line 14: Warning: Unknown \ escape. before Ó§ä¤HÂ½Ä¶¬Ý¬Ý¤W­±±o¥
+
+[Mon Apr 14 20:34:26 2003] u/h/hiko/fongevil/npc/alienbeast-stone.c line 15: Warning: Unknown \ escape. before ]³\¥i¥H±N¨ä¤À¶}\n");
+
+[Mon Apr 14 20:34:26 2003] u/h/hiko/fongevil/npc/alienbeast-stone.c line 15: Warning: Unknown \ escape. before i¥H±N¨ä¤À¶}\n");
+
+[Mon Apr 14 20:34:26 2003] u/h/hiko/fongevil/npc/alienbeast-stone.c line 26: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Mon Apr 14 20:34:26 2003] u/h/hiko/fongevil/npc/alienbeast-stone.c line 26: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Mon Apr 14 20:34:26 2003] u/h/hiko/fongevil/npc/alienbeast-stone.c line 26: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Mon Apr 14 20:34:26 2003] u/h/hiko/fongevil/npc/alienbeast-stone.c line 26: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Mon Apr 14 20:34:26 2003] u/h/hiko/fongevil/npc/alienbeast-stone.c line 26: Illegal to redefine 'nomask' function "query_encumbrance" before the end of line
+
+[Mon Apr 14 20:34:26 2003] u/h/hiko/fongevil/npc/alienbeast-stone.c line 26: Illegal to redefine 'nomask' function "over_encumbranced" before the end of line
+
+[Mon Apr 14 20:34:26 2003] u/h/hiko/fongevil/npc/alienbeast-stone.c line 36: Warning: Unknown \ escape. before \¸Ó§ä¤HÂ½Ä¶¬Ý¬Ý¤W­±±
+
+[Mon Apr 14 20:34:26 2003] u/h/hiko/fongevil/npc/alienbeast-stone.c line 36: Warning: Unknown \ escape. before Ó§ä¤HÂ½Ä¶¬Ý¬Ý¤W­±±o¥
+
+[Mon Apr 14 20:35:46 2003] u/h/hiko/fongevil/npc/alienbeast-stone.c line 27: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Mon Apr 14 20:35:46 2003] u/h/hiko/fongevil/npc/alienbeast-stone.c line 27: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Mon Apr 14 20:35:46 2003] u/h/hiko/fongevil/npc/alienbeast-stone.c line 27: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Mon Apr 14 20:35:46 2003] u/h/hiko/fongevil/npc/alienbeast-stone.c line 27: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Mon Apr 14 20:35:46 2003] u/h/hiko/fongevil/npc/alienbeast-stone.c line 27: Illegal to redefine 'nomask' function "query_encumbrance" before the end of line
+
+[Mon Apr 14 20:35:46 2003] u/h/hiko/fongevil/npc/alienbeast-stone.c line 27: Illegal to redefine 'nomask' function "over_encumbranced" before the end of line
+
+[Mon Apr 14 20:35:46 2003] u/h/hiko/fongevil/npc/alienbeast-stone.c line 37: Warning: Unknown \ escape. before ]³\¸Ó§ä¤HÂ½Ä¶¬Ý¬Ý¤W­
+
+[Mon Apr 14 20:35:46 2003] u/h/hiko/fongevil/npc/alienbeast-stone.c line 37: Warning: Unknown \ escape. before Ó§ä¤HÂ½Ä¶¬Ý¬Ý¤W­±±o¥
+
+[Mon Apr 14 20:35:46 2003] u/h/hiko/fongevil/npc/alienbeast-stone.c line 38: Warning: Unknown \ escape. before ]³\¥i¥H±N¨ä¤À¶}\n");
+
+[Mon Apr 14 20:35:46 2003] u/h/hiko/fongevil/npc/alienbeast-stone.c line 38: Warning: Unknown \ escape. before i¥H±N¨ä¤À¶}\n");
+
+[Mon Apr 14 20:35:46 2003] u/h/hiko/fongevil/npc/alienbeast-stone.c line 59: Warning: Unknown \ escape. before \¸Ó§ä¤HÂ½Ä¶¬Ý¬Ý¤W­±±
+
+[Mon Apr 14 20:35:46 2003] u/h/hiko/fongevil/npc/alienbeast-stone.c line 59: Warning: Unknown \ escape. before Ó§ä¤HÂ½Ä¶¬Ý¬Ý¤W­±±o¥
+
+[Mon Apr 14 21:44:47 2003] u/h/hiko/fongevil/item/halttiger-stone.c line 6: parse error before bªê¥Û, ({ "half-tige
+
+[Tue Apr 15 08:14:38 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Wed Apr 16 20:43:48 2003] u/h/hiko/fongevil/npc/sun-rock.c line 37: parse error before  notify_fail("¤W­±¦³
+
+[Wed Apr 16 20:43:48 2003] u/h/hiko/fongevil/npc/sun-rock.c line 38: Illegal LHS before the end of line
+
+[Wed Apr 16 20:53:41 2003] u/h/hiko/fongevil/npc/sun-rock.c line 20: parse error before (100);
+
+[Wed Apr 16 21:18:23 2003] u/h/hiko/fongevil/sun-rock.c line 44: Undefined variable 'man' before find_living("inlayed
+
+[Wed Apr 16 21:33:23 2003] u/h/hiko/fongevil/sun-rock.c line 10: Undefined variable 'this_object' before query("inlay_msg")+"
+
+[Wed Apr 16 21:33:23 2003] u/h/hiko/fongevil/sun-rock.c line 49: parse error before W­±¦³µÛ¤@¶ô©Ç²§ªº¥ÛÀ
+
+[Wed Apr 16 21:33:23 2003] u/h/hiko/fongevil/sun-rock.c line 49: Illegal terminator before ¶ô©Ç²§ªº¥ÛÀY");
+
+[Wed Apr 16 21:43:10 2003] u/h/hiko/fongevil/sun-rock.c line 18: Undefined variable 'rex' before ;        
+
+[Wed Apr 16 21:43:10 2003] u/h/hiko/fongevil/sun-rock.c line 49: Undefined variable 'rex' before ;
+
+[Wed Apr 16 21:51:37 2003] u/h/hiko/fongevil/sun-rock.c line 10: Undefined function slong before +""NOR"             
+
+[Wed Apr 16 21:51:37 2003] u/h/hiko/fongevil/sun-rock.c line 10: Invalid argument types to '+' ( string vs unknown ) before ""NOR"              
+
+[Wed Apr 16 21:51:37 2003] u/h/hiko/fongevil/sun-rock.c line 70: Undefined variable 'rerurn' before W­±¦³µÛ¤@Áû©Ç²§ªº¥ÛÀ
+
+[Wed Apr 16 21:51:37 2003] u/h/hiko/fongevil/sun-rock.c line 70: parse error before W­±¦³µÛ¤@Áû©Ç²§ªº¥ÛÀ
+
+[Wed Apr 16 21:51:37 2003] u/h/hiko/fongevil/sun-rock.c line 70: Illegal terminator before Áû©Ç²§ªº¥ÛÀY;
+
+[Wed Apr 16 21:53:52 2003] u/h/hiko/fongevil/sun-rock.c line 11: Invalid argument types to '+' ( string vs void ) before ""NOR"              
+
+[Wed Apr 16 21:53:52 2003] u/h/hiko/fongevil/sun-rock.c line 71: Undefined variable 'rerurn' before ;
+
+[Wed Apr 16 21:53:52 2003] u/h/hiko/fongevil/sun-rock.c line 71: parse error before ;
+
+[Wed Apr 16 21:55:10 2003] u/h/hiko/fongevil/sun-rock.c line 11: Invalid argument types to '+' ( string vs function ) before ""NOR"              
+
+[Wed Apr 16 21:55:10 2003] u/h/hiko/fongevil/sun-rock.c line 71: Type of returned value doesn't match function return type ( string vs void ) before the end of line
+
+[Wed Apr 16 21:55:10 2003] u/h/hiko/fongevil/sun-rock.c line 72: Undefined variable 'retnrn' before ;
+
+[Wed Apr 16 21:55:10 2003] u/h/hiko/fongevil/sun-rock.c line 72: parse error before ;
+
+[Thu Apr 17 07:46:50 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Sat Apr 19 14:12:09 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Sat Apr 19 14:53:26 2003] u/h/hiko/fongevil/del_man.c line 5: Undefined variable 'HIC' before NOR,({ "delete man",
+
+[Sat Apr 19 14:53:26 2003] u/h/hiko/fongevil/del_man.c line 5: parse error before NOR,({ "delete man",
+
+[Sat Apr 19 14:53:26 2003] u/h/hiko/fongevil/del_man.c line 47: End of file in string before ì¥|©PÅ	""+	""+"[1;
+
+[Sat Apr 19 14:55:18 2003] u/h/hiko/fongevil/del_man.c line 4: Undefined variable 'HIC' before NOR,({ "delete man",
+
+[Sat Apr 19 14:55:18 2003] u/h/hiko/fongevil/del_man.c line 4: parse error before NOR,({ "delete man",
+
+[Sat Apr 19 14:55:18 2003] u/h/hiko/fongevil/del_man.c line 23: Illegal LHS before obj;
+
+[Sat Apr 19 14:55:18 2003] u/h/hiko/fongevil/del_man.c line 23: Undefined variable 'obj' before the end of line
+
+[Sat Apr 19 14:55:18 2003] u/h/hiko/fongevil/del_man.c line 23: parse error before the end of line
+
+[Sat Apr 19 14:55:18 2003] u/h/hiko/fongevil/del_man.c line 24: Undefined variable 'str' before me)) && !obj->query(
+
+[Sat Apr 19 15:31:51 2003] u/h/hiko/fongevil/xxx.c line 7: parse error before ;
+
+[Sat Apr 19 17:11:46 2003] u/h/hiko/fongevil/sun-rock.c line 43: parse error before ("slong",0);
+
+[Sat Apr 19 17:11:46 2003] u/h/hiko/fongevil/sun-rock.c line 74: parse error before this_object();
+
+[Sat Apr 19 17:12:31 2003] u/h/hiko/fongevil/sun-rock.c line 74: parse error before this_object();
+
+[Sat Apr 19 17:18:02 2003] u/h/hiko/fongevil/sun-rock.c line 21: parse error before ("slong",0);
+
+[Sun Apr 20 09:50:24 2003] u/h/hiko/fongevil/zk23.c line 45: Warning: Unknown \ escape. before A¨³±¶ªºª¦¤F¤W¨Ó¡C\n"
+
+[Sun Apr 20 09:50:54 2003] u/h/hiko/fongevil/zk23.c line 45: Warning: Unknown \ escape. before A\¨³±¶ªºª¦¤F¤W¨Ó¡C\n
+
+[Sun Apr 20 09:50:54 2003] u/h/hiko/fongevil/zk23.c line 45: Warning: Unknown \ escape. before ³±¶ªºª¦¤F¤W¨Ó¡C\n",m
+
+[Sun Apr 20 09:51:44 2003] u/h/hiko/fongevil/zk23.c line 45: Warning: Unknown \ escape. before \¡A¨³±¶ªºª¦¤F¤W¨Ó¡C\
+
+[Sun Apr 20 09:51:44 2003] u/h/hiko/fongevil/zk23.c line 45: Warning: Unknown \ escape. before A¨³±¶ªºª¦¤F¤W¨Ó¡C\n"
+
+[Sun Apr 20 09:52:23 2003] u/h/hiko/fongevil/zk23.c line 45: Warning: Unknown \ escape. before ³±¶ªºª¦¤F¤W¨Ó¡C\n",m
+
+[Sun Apr 20 10:29:24 2003] u/h/hiko/fongevil/zk23.c line 45: Warning: Unknown \ escape. before A¨³±¶ªºª¦¤F¤W¨Ó¡C\n"
+
+[Sun Apr 20 10:29:24 2003] u/h/hiko/fongevil/zk23.c line 45: Too few arguments to message before ;
+
+[Sun Apr 20 10:29:58 2003] u/h/hiko/fongevil/zk23.c line 45: Too few arguments to message before ;
+
+[Mon Apr 21 18:34:02 2003] u/h/hiko/fongevil/zk20.c line 20: Warning: Unknown \ escape. before i¥H§äªF¦è¨Ó¦X¨Ö(meld
+
+[Mon Apr 21 18:34:02 2003] u/h/hiko/fongevil/zk20.c line 65: parse error before  return
+
+[Mon Apr 21 18:34:02 2003] u/h/hiko/fongevil/zk20.c line 67: Warning: Unknown \ escape. before i¥H§äªF¦è¨Ó¦X¨Ö(meld
+
+[Mon Apr 21 18:34:58 2003] u/h/hiko/fongevil/zk20.c line 65: parse error before  return;
+
+[Mon Apr 21 20:21:50 2003] u/h/hiko/fongevil/fodoor.c line 42: parse error before  1;
+
+[Mon Apr 21 20:21:50 2003] u/h/hiko/fongevil/fodoor.c line 54: Undefined variable 'me' before ;
+
+[Tue Apr 22 08:06:37 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Wed Apr 23 18:40:04 2003] u/h/hiko/fongevil/home_3.c line 34: Undefined variable 'go_home' before ) destruct(npc);
+
+[Wed Apr 23 21:48:23 2003] u/h/hiko/fongevil/foin.c line 30: Undefined variable 'me' before this_player();
+
+[Wed Apr 23 21:48:23 2003] u/h/hiko/fongevil/foin.c line 32: Undefined function query_test before +HIY"-----");       
+
+[Wed Apr 23 21:48:23 2003] u/h/hiko/fongevil/foin.c line 32: Invalid argument types to '+' ( string vs unknown ) before HIY"-----");        
+
+[Wed Apr 23 21:48:23 2003] u/h/hiko/fongevil/foin.c line 46: Type of returned value doesn't match function return type ( string vs void ) before the end of line
+
+[Wed Apr 23 21:48:23 2003] u/h/hiko/fongevil/foin.c line 47: Redeclaration of function query_test. before the end of line
+
+[Wed Apr 23 21:50:28 2003] u/h/hiko/fongevil/foin.c line 34: Undefined function query_test before +HIY"-----");       
+
+[Wed Apr 23 21:50:28 2003] u/h/hiko/fongevil/foin.c line 34: Invalid argument types to '+' ( string vs unknown ) before HIY"-----");        
+
+[Wed Apr 23 21:50:28 2003] u/h/hiko/fongevil/foin.c line 49: Redeclaration of function query_test. before the end of line
+
+[Wed Apr 23 21:52:34 2003] u/h/hiko/fongevil/foin.c line 49: Type of returned value doesn't match function return type ( string vs int ) before the end of line
+
+[Wed Apr 23 21:53:14 2003] u/h/hiko/fongevil/foin.c line 50: Warning: Return type doesn't match prototype ( string vs int ) before the end of line
+
+[Wed Apr 23 21:54:05 2003] u/h/hiko/fongevil/foin.c line 50: Warning: Return type doesn't match prototype ( string vs int ) before the end of line
+
+[Wed Apr 23 21:56:17 2003] u/h/hiko/fongevil/foin.c line 46: parse error before  3 : tesg+=HIB+"¤ô(w
+
+[Wed Apr 23 21:56:17 2003] u/h/hiko/fongevil/foin.c line 46: Illegal LHS before the end of line
+
+[Wed Apr 23 21:56:17 2003] u/h/hiko/fongevil/foin.c line 50: Warning: Return type doesn't match prototype ( string vs int ) before the end of line
+
+[Wed Apr 23 21:57:02 2003] u/h/hiko/fongevil/foin.c line 50: Warning: Return type doesn't match prototype ( string vs int ) before the end of line
+
+[Wed Apr 23 22:00:51 2003] u/h/hiko/fongevil/foin.c line 50: Warning: Return type doesn't match prototype ( string vs int ) before the end of line
+
+[Wed Apr 23 22:02:35 2003] u/h/hiko/fongevil/foin.c line 50: Warning: Return type doesn't match prototype ( string vs int ) before the end of line
+
+[Wed Apr 23 22:13:11 2003] u/h/hiko/fongevil/foin.c line 41: Undefined variable 'tesin' before the end of line
+
+[Wed Apr 23 22:13:11 2003] u/h/hiko/fongevil/foin.c line 49: Warning: Return type doesn't match prototype ( string vs int ) before the end of line
+
+[Wed Apr 23 22:13:47 2003] u/h/hiko/fongevil/foin.c line 49: Warning: Return type doesn't match prototype ( string vs int ) before the end of line
+
+[Wed Apr 23 22:16:28 2003] u/h/hiko/fongevil/foin.c line 49: Warning: Return type doesn't match prototype ( string vs int ) before the end of line
+
+[Wed Apr 23 22:52:21 2003] u/h/hiko/fongevil/foin.c line 41: Wrong number of arguments to set
+    Expected: 2  Got: 1 before ;
+
+[Wed Apr 23 22:52:21 2003] u/h/hiko/fongevil/foin.c line 49: Wrong number of arguments to set
+    Expected: 2  Got: 1 before ;
+
+[Wed Apr 23 22:52:21 2003] u/h/hiko/fongevil/foin.c line 57: Wrong number of arguments to set
+    Expected: 2  Got: 1 before ;
+
+[Wed Apr 23 22:52:21 2003] u/h/hiko/fongevil/foin.c line 64: Wrong number of arguments to set
+    Expected: 2  Got: 1 before ;
+
+[Thu Apr 24 07:57:57 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Thu Apr 24 21:26:09 2003] u/h/hiko/fongevil/foin.c line 97: Illegal to inherit after defining global variables. before the end of line
+
+[Thu Apr 24 21:26:09 2003] u/h/hiko/fongevil/foin.c line 97: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Thu Apr 24 21:26:09 2003] u/h/hiko/fongevil/foin.c line 97: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Thu Apr 24 21:26:09 2003] u/h/hiko/fongevil/foin.c line 97: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Thu Apr 24 21:26:09 2003] u/h/hiko/fongevil/foin.c line 97: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Thu Apr 24 21:26:09 2003] u/h/hiko/fongevil/foin.c line 97: Illegal to redefine 'nomask' function "add_light" before the end of line
+
+[Sat Apr 26 13:57:34 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Sun Apr 27 10:08:56 2003] u/h/hiko/fongevil/fireroom.c line 6: Bad assignment ( object vs int ). before the end of line
+
+[Sun Apr 27 10:08:56 2003] u/h/hiko/fongevil/fireroom.c line 7: Bad left argument to '>' : "object " before the end of line
+
+[Sun Apr 27 10:08:56 2003] u/h/hiko/fongevil/fireroom.c line 9: Bad left argument to '>' : "object " before the end of line
+
+[Sun Apr 27 10:08:56 2003] u/h/hiko/fongevil/fireroom.c line 11: Bad left argument to '>' : "object " before the end of line
+
+[Sun Apr 27 10:08:56 2003] u/h/hiko/fongevil/fireroom.c line 13: Bad left argument to '>' : "object " before the end of line
+
+[Sun Apr 27 10:08:56 2003] u/h/hiko/fongevil/fireroom.c line 15: Bad left argument to '>' : "object " before the end of line
+
+[Sun Apr 27 10:10:07 2003] u/h/hiko/fongevil/fireroom.c line 50: Invalid types to '/' ( object vs int ) before >60) fst=60;
+
+[Sun Apr 27 10:10:07 2003] u/h/hiko/fongevil/fireroom.c line 50: Bad assignment ( object vs int ). before the end of line
+
+[Sun Apr 27 10:10:07 2003] u/h/hiko/fongevil/fireroom.c line 51: Bad left argument to '>' : "object " before  return 0;
+
+[Sun Apr 27 10:10:07 2003] u/h/hiko/fongevil/fireroom.c line 52: Undefined variable 'exits' before  ) return 0;
+
+[Sun Apr 27 10:10:57 2003] u/h/hiko/fongevil/fireroom.c line 53: Undefined variable 'exits' before  ) return 0;
+
+[Sun Apr 27 11:11:13 2003] u/h/hiko/fongevil/fireroom.c line 69: Undefined variable 'exit' before dir])) return 0;
+
+[Sun Apr 27 11:11:13 2003] u/h/hiko/fongevil/fireroom.c line 70: Undefined variable 'i' before 0;i<sizeof(inv);i++)
+
+[Sun Apr 27 11:11:13 2003] u/h/hiko/fongevil/fireroom.c line 80: No such inherited function ::valid_leave before ;
+
+[Sun Apr 27 11:11:13 2003] u/h/hiko/fongevil/fireroom.c line 85: parse error before the end of file
+
+[Sun Apr 27 11:12:39 2003] u/h/hiko/fongevil/fireroom.c line 70: Undefined variable 'exit' before dir])) return 0;
+
+[Sun Apr 27 11:12:39 2003] u/h/hiko/fongevil/fireroom.c line 81: No such inherited function ::valid_leave before ;
+
+[Sun Apr 27 11:16:25 2003] u/h/hiko/fongevil/fireroom.c line 81: No such inherited function ::valid_leave before ;
+
+[Sun Apr 27 11:30:01 2003] u/h/hiko/fongevil/fofire_1.c line 4: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Sun Apr 27 11:30:01 2003] u/h/hiko/fongevil/fofire_1.c line 4: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Sun Apr 27 11:30:01 2003] u/h/hiko/fongevil/fofire_1.c line 4: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Sun Apr 27 11:30:01 2003] u/h/hiko/fongevil/fofire_1.c line 4: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Sun Apr 27 11:30:01 2003] u/h/hiko/fongevil/fofire_1.c line 4: Illegal to redefine 'nomask' function "add_light" before the end of line
+
+[Sun Apr 27 11:30:01 2003] u/h/hiko/fongevil/fofire_1.c line 23: Wrong number of arguments to set
+    Expected: 2  Got: 1 before ;
+
+[Sun Apr 27 11:31:12 2003] u/h/hiko/fongevil/fofire_1.c line 22: Wrong number of arguments to set
+    Expected: 2  Got: 1 before ;
+
+[Sun Apr 27 11:38:52 2003] u/h/hiko/fongevil/fireroom.c line 2: parse error before the end of line
+
+[Sun Apr 27 16:11:42 2003] u/h/hiko/fongevil/fofire_14.c line 36: End of file in text block before mage("hp",10+random(
+
+[Sun Apr 27 16:11:42 2003] u/h/hiko/fongevil/fofire_14.c line 36: parse error before mage("hp",10+random(
+
+[Sun Apr 27 17:29:14 2003] u/h/hiko/fongevil/fireroom.c line 61: Undefined variable 'retnrn' before ; //boss©Ð¤£move
+
+[Sun Apr 27 17:29:14 2003] u/h/hiko/fongevil/fireroom.c line 61: parse error before ; //boss©Ð¤£move
+
+[Sun Apr 27 17:29:14 2003] u/h/hiko/fongevil/fireroom.c line 62: Illegal LHS before  
+
+[Sun Apr 27 17:29:48 2003] u/h/hiko/fongevil/fireroom.c line 62: Undefined variable 'retnrn' before ; 
+
+[Sun Apr 27 17:29:48 2003] u/h/hiko/fongevil/fireroom.c line 62: parse error before ; 
+
+[Sun Apr 27 17:29:48 2003] u/h/hiko/fongevil/fireroom.c line 63: Illegal LHS before  
+
+[Sun Apr 27 20:21:26 2003] u/h/hiko/fongevil/npc.c line 3: parse error before  create()
+
+[Sun Apr 27 20:22:14 2003] u/h/hiko/fongevil/npc.c line 3: parse error before  create()
+
+[Tue Apr 29 08:39:42 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Wed Apr 30 19:34:57 2003] u/h/hiko/fongevil/fireroom.c line 71: parse error before ->receive_damage("hp
+
+[Wed Apr 30 20:29:56 2003] u/h/hiko/fongevil/waterroom.c line 15: Illegal to declare global variable of type void. before  
+
+[Wed Apr 30 20:29:56 2003] u/h/hiko/fongevil/waterroom.c line 15: parse error before  
+
+[Wed Apr 30 20:42:06 2003] u/h/hiko/fongevil/waterroom.c line 15: Illegal to declare global variable of type void. before  
+
+[Wed Apr 30 20:42:06 2003] u/h/hiko/fongevil/waterroom.c line 15: parse error before  
+
+[Wed Apr 30 20:42:38 2003] u/h/hiko/fongevil/waterroom.c line 83: Undefined variable 'env' before query("move_room");
+
+[Wed Apr 30 20:55:14 2003] u/h/hiko/fongevil/fowater_3.c line 17: parse error before ",
+
+[Wed Apr 30 20:55:14 2003] u/h/hiko/fongevil/fowater_3.c line 26: End of file in string before the end of line
+
+[Wed Apr 30 20:55:28 2003] u/h/hiko/fongevil/fowater_3.c line 17: parse error before ",
+
+[Wed Apr 30 20:55:28 2003] u/h/hiko/fongevil/fowater_3.c line 26: End of file in string before       set("gender", 
+
+[Wed Apr 30 20:55:42 2003] u/h/hiko/fongevil/fowater_3.c line 17: parse error before ",
+
+[Wed Apr 30 20:55:42 2003] u/h/hiko/fongevil/fowater_3.c line 26: End of file in string before £±µ¨ü§Aªº©R¥O¡C\n");
+
+[Wed Apr 30 21:08:22 2003] u/h/hiko/fongevil/waterroom.c line 79: Bad argument 1 to efun load_object() before ;        
+
+[Fri May  2 08:36:18 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Fri May  2 22:51:54 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Sat May  3 17:15:21 2003] u/h/hiko/fongevil/fireroom.c line 81: parse error before ->receive_damage("hp
+
+[Sat May  3 17:22:37 2003] u/h/hiko/fongevil/fantasyroom.c line 125: parse error before (maxi>10+random(50))
+
+[Sat May  3 17:22:37 2003] u/h/hiko/fongevil/fantasyroom.c line 131: Illegal LHS before the end of line
+
+[Sat May  3 17:22:37 2003] u/h/hiko/fongevil/fantasyroom.c line 132: Warning: Value of conditional expression is unused before (HIW"$N³Q¤Û¹Ò©Ò°g´b¤
+
+[Sat May  3 17:22:37 2003] u/h/hiko/fongevil/fantasyroom.c line 135: parse error before the end of line
+
+[Sun May  4 02:47:54 2003] u/h/hiko/fongevil/fantasyroom.c line 20: parse error before ,lin;
+
+[Sun May  4 02:47:54 2003] u/h/hiko/fongevil/fantasyroom.c line 21: Illegal LHS before the end of line
+
+[Sun May  4 02:47:54 2003] u/h/hiko/fongevil/fantasyroom.c line 22: Undefined variable 'lin' before me->query_skill("lit
+
+[Sun May  4 02:47:54 2003] u/h/hiko/fongevil/fantasyroom.c line 25: parse error before +lin>8)
+
+[Sun May  4 02:47:54 2003] u/h/hiko/fongevil/fantasyroom.c line 26: Illegal LHS before           
+
+[Sun May  4 02:47:54 2003] u/h/hiko/fongevil/fantasyroom.c line 28: Illegal LHS before the end of line
+
+[Sun May  4 02:50:05 2003] u/h/hiko/fongevil/fantasyroom.c line 16: parse error before ,lin;
+
+[Sun May  4 02:50:05 2003] u/h/hiko/fongevil/fantasyroom.c line 17: Illegal LHS before the end of line
+
+[Sun May  4 02:50:05 2003] u/h/hiko/fongevil/fantasyroom.c line 18: Undefined variable 'lin' before me->query_skill("lit
+
+[Sun May  4 02:50:05 2003] u/h/hiko/fongevil/fantasyroom.c line 21: parse error before +lin>8)
+
+[Sun May  4 02:50:05 2003] u/h/hiko/fongevil/fantasyroom.c line 22: Illegal LHS before           
+
+[Sun May  4 02:50:05 2003] u/h/hiko/fongevil/fantasyroom.c line 24: Illegal LHS before the end of line
+
+[Sun May  4 02:53:06 2003] u/h/hiko/fongevil/fantasyroom.c line 16: parse error before ,lin;
+
+[Sun May  4 02:53:06 2003] u/h/hiko/fongevil/fantasyroom.c line 17: Illegal LHS before the end of line
+
+[Sun May  4 02:53:06 2003] u/h/hiko/fongevil/fantasyroom.c line 18: Undefined variable 'lin' before me->query_skill("lit
+
+[Sun May  4 02:53:06 2003] u/h/hiko/fongevil/fantasyroom.c line 21: parse error before +lin>=8)
+
+[Sun May  4 02:53:06 2003] u/h/hiko/fongevil/fantasyroom.c line 22: Illegal LHS before           
+
+[Sun May  4 02:53:06 2003] u/h/hiko/fongevil/fantasyroom.c line 24: Illegal LHS before the end of line
+
+[Sun May  4 02:54:04 2003] u/h/hiko/fongevil/fantasyroom.c line 75: Undefined variable 'fantasy' before random(sizeof(fantas
+
+[Sun May  4 02:54:04 2003] u/h/hiko/fongevil/fantasyroom.c line 76: parse error before (environment(me),me-
+
+[Sun May  4 02:54:04 2003] u/h/hiko/fongevil/fantasyroom.c line 81: Illegal LHS before *inv;
+
+[Sun May  4 02:54:04 2003] u/h/hiko/fongevil/fantasyroom.c line 81: parse error before inv;
+
+[Sun May  4 02:54:04 2003] u/h/hiko/fongevil/fantasyroom.c line 85: Undefined variable 'env' before ;
+
+[Sun May  4 02:54:04 2003] u/h/hiko/fongevil/fantasyroom.c line 85: Illegal LHS before the end of line
+
+[Sun May  4 02:56:51 2003] u/h/hiko/fongevil/fantasyroom.c line 77: parse error before (environment(me),me-
+
+[Sun May  4 02:56:51 2003] u/h/hiko/fongevil/fantasyroom.c line 82: Illegal LHS before *inv;
+
+[Sun May  4 02:56:51 2003] u/h/hiko/fongevil/fantasyroom.c line 82: parse error before inv;
+
+[Sun May  4 02:56:51 2003] u/h/hiko/fongevil/fantasyroom.c line 86: Undefined variable 'env' before ;
+
+[Sun May  4 02:56:51 2003] u/h/hiko/fongevil/fantasyroom.c line 86: Illegal LHS before the end of line
+
+[Sun May  4 02:56:51 2003] u/h/hiko/fongevil/fantasyroom.c line 86: parse error before the end of line
+
+[Sun May  4 02:58:10 2003] u/h/hiko/fongevil/fantasyroom.c line 76: parse error before         tell_room(en
+
+[Sun May  4 02:58:10 2003] u/h/hiko/fongevil/fantasyroom.c line 81: Illegal LHS before *inv;
+
+[Sun May  4 02:58:10 2003] u/h/hiko/fongevil/fantasyroom.c line 81: parse error before inv;
+
+[Sun May  4 02:58:10 2003] u/h/hiko/fongevil/fantasyroom.c line 85: Undefined variable 'env' before ;
+
+[Sun May  4 02:58:10 2003] u/h/hiko/fongevil/fantasyroom.c line 85: Illegal LHS before the end of line
+
+[Sun May  4 02:58:10 2003] u/h/hiko/fongevil/fantasyroom.c line 85: parse error before the end of line
+
+[Sun May  4 03:00:50 2003] u/h/hiko/fongevil/fantasyroom.c line 76: parse error before         tell_room(en
+
+[Sun May  4 03:00:50 2003] u/h/hiko/fongevil/fantasyroom.c line 85: Illegal LHS before the end of line
+
+[Sun May  4 03:00:50 2003] u/h/hiko/fongevil/fantasyroom.c line 85: parse error before the end of line
+
+[Sun May  4 03:00:50 2003] u/h/hiko/fongevil/fantasyroom.c line 86: Undefined variable 'env' before ;
+
+[Sun May  4 03:00:50 2003] u/h/hiko/fongevil/fantasyroom.c line 86: Illegal LHS before the end of line
+
+[Sun May  4 03:00:50 2003] u/h/hiko/fongevil/fantasyroom.c line 86: parse error before the end of line
+
+[Sun May  4 03:02:13 2003] u/h/hiko/fongevil/fantasyroom.c line 76: parse error before         tell_room(en
+
+[Sun May  4 03:02:13 2003] u/h/hiko/fongevil/fantasyroom.c line 85: Illegal LHS before the end of line
+
+[Sun May  4 03:02:13 2003] u/h/hiko/fongevil/fantasyroom.c line 85: parse error before the end of line
+
+[Sun May  4 03:02:13 2003] u/h/hiko/fongevil/fantasyroom.c line 86: Undefined variable 'env' before ;
+
+[Sun May  4 03:02:13 2003] u/h/hiko/fongevil/fantasyroom.c line 86: Illegal LHS before the end of line
+
+[Sun May  4 03:02:13 2003] u/h/hiko/fongevil/fantasyroom.c line 86: parse error before the end of line
+
+[Sun May  4 03:06:50 2003] u/h/hiko/fongevil/fantasyroom.c line 76: parse error before "name")+"©¿µM¥X²{¦b¤
+
+[Sun May  4 03:06:50 2003] u/h/hiko/fongevil/fantasyroom.c line 86: Illegal LHS before the end of line
+
+[Sun May  4 03:06:50 2003] u/h/hiko/fongevil/fantasyroom.c line 86: parse error before the end of line
+
+[Sun May  4 03:06:50 2003] u/h/hiko/fongevil/fantasyroom.c line 87: Undefined variable 'env' before ;
+
+[Sun May  4 03:06:50 2003] u/h/hiko/fongevil/fantasyroom.c line 87: Illegal LHS before the end of line
+
+[Sun May  4 03:06:50 2003] u/h/hiko/fongevil/fantasyroom.c line 87: parse error before the end of line
+
+[Sun May  4 03:08:43 2003] u/h/hiko/fongevil/fantasyroom.c line 76: parse error before "name")+"\n");
+
+[Sun May  4 03:08:43 2003] u/h/hiko/fongevil/fantasyroom.c line 86: Illegal LHS before the end of line
+
+[Sun May  4 03:08:43 2003] u/h/hiko/fongevil/fantasyroom.c line 86: parse error before the end of line
+
+[Sun May  4 03:08:43 2003] u/h/hiko/fongevil/fantasyroom.c line 87: Undefined variable 'env' before ;
+
+[Sun May  4 03:08:43 2003] u/h/hiko/fongevil/fantasyroom.c line 87: Illegal LHS before the end of line
+
+[Sun May  4 03:08:43 2003] u/h/hiko/fongevil/fantasyroom.c line 87: parse error before the end of line
+
+[Sun May  4 03:09:29 2003] u/h/hiko/fongevil/fantasyroom.c line 76: parse error before "name")+"\n");
+
+[Sun May  4 03:09:29 2003] u/h/hiko/fongevil/fantasyroom.c line 86: Illegal LHS before the end of line
+
+[Sun May  4 03:09:29 2003] u/h/hiko/fongevil/fantasyroom.c line 86: parse error before the end of line
+
+[Sun May  4 03:09:29 2003] u/h/hiko/fongevil/fantasyroom.c line 87: Undefined variable 'env' before ;
+
+[Sun May  4 03:09:29 2003] u/h/hiko/fongevil/fantasyroom.c line 87: Illegal LHS before the end of line
+
+[Sun May  4 03:09:29 2003] u/h/hiko/fongevil/fantasyroom.c line 87: parse error before the end of line
+
+[Mon May  5 23:10:01 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Thu May  8 07:54:12 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Thu May  8 20:35:21 2003] u/h/hiko/fongevil/jade.c line 41: parse error before meHIW"§ð À» ¤O"NOR""
+
+[Thu May  8 20:35:21 2003] u/h/hiko/fongevil/jade.c line 66: Illegal LHS before (i)
+
+[Thu May  8 20:35:21 2003] u/h/hiko/fongevil/jade.c line 68: Illegal LHS before the end of line
+
+[Thu May  8 20:35:21 2003] u/h/hiko/fongevil/jade.c line 68: parse error before the end of line
+
+[Thu May  8 20:35:21 2003] u/h/hiko/fongevil/jade.c line 69: Illegal LHS before the end of line
+
+[Thu May  8 20:35:21 2003] u/h/hiko/fongevil/jade.c line 69: parse error before the end of line
+
+[Thu May  8 21:08:39 2003] u/h/hiko/test.c line 85: parse error before n";         
+
+[Thu May  8 21:08:39 2003] u/h/hiko/test.c line 97: End of file in string before ring) me->query("nam
+
+[Thu May  8 21:11:04 2003] u/h/hiko/test.c line 85: parse error before n";         
+
+[Thu May  8 21:11:04 2003] u/h/hiko/test.c line 97: End of file in string before break;
+
+[Thu May  8 21:12:08 2003] u/h/hiko/test.c line 85: parse error before n";         
+
+[Thu May  8 21:12:08 2003] u/h/hiko/test.c line 98: End of file in string before ("" + who + "\n");
+
+[Thu May  8 21:13:04 2003] u/h/hiko/test.c line 90: parse error before (obj->query_autoload
+
+[Thu May  8 21:14:55 2003] u/h/hiko/test.c line 91: parse error before (obj->query_autoload
+
+[Thu May  8 21:19:48 2003] u/h/hiko/test.c line 38: parse error before "name")+"\n",);
+
+[Thu May  8 21:19:48 2003] u/h/hiko/test.c line 65: Illegal LHS before  
+
+[Thu May  8 21:19:48 2003] u/h/hiko/test.c line 68: Illegal LHS before the end of line
+
+[Thu May  8 21:19:48 2003] u/h/hiko/test.c line 68: parse error before the end of line
+
+[Thu May  8 21:19:48 2003] u/h/hiko/test.c line 69: Illegal LHS before the end of line
+
+[Thu May  8 21:19:48 2003] u/h/hiko/test.c line 69: parse error before the end of line
+
+[Thu May  8 21:20:41 2003] u/h/hiko/test.c line 39: parse error before "name")+"\n");
+
+[Thu May  8 21:20:41 2003] u/h/hiko/test.c line 66: Illegal LHS before  
+
+[Thu May  8 21:20:41 2003] u/h/hiko/test.c line 69: Illegal LHS before the end of line
+
+[Thu May  8 21:20:41 2003] u/h/hiko/test.c line 69: parse error before the end of line
+
+[Thu May  8 21:20:41 2003] u/h/hiko/test.c line 70: Illegal LHS before the end of line
+
+[Thu May  8 21:20:41 2003] u/h/hiko/test.c line 70: parse error before the end of line
+
+[Thu May  8 21:21:27 2003] u/h/hiko/test.c line 72: Undefined function sizeif before <1)limit+="µL¸Ë³Æ±ø¥
+
+[Thu May  8 21:21:27 2003] u/h/hiko/test.c line 72: Bad left argument to '<' : "unknown " before limit+="µL¸Ë³Æ±ø¥ó\n
+
+[Sat May 10 08:57:12 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Mon May 12 23:22:22 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Thu May 15 07:31:46 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Fri May 16 22:41:12 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Sun May 18 12:13:07 2003] u/h/hiko/npc/uo-evil.c line 40: Undefined variable 'reture' before ;}    case "wep" : {
+
+[Sun May 18 12:13:07 2003] u/h/hiko/npc/uo-evil.c line 40: parse error before ;}    case "wep" : {
+
+[Sun May 18 12:13:07 2003] u/h/hiko/npc/uo-evil.c line 133: Undefined variable 'str' before sscanf(arg, "%d %s t
+
+[Sun May 18 12:18:19 2003] u/h/hiko/npc/uo-evil.c line 2: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Sun May 18 12:18:19 2003] u/h/hiko/npc/uo-evil.c line 2: Illegal to redefine 'nomask' function "query_busy" before the end of line
+
+[Sun May 18 12:18:19 2003] u/h/hiko/npc/uo-evil.c line 2: Illegal to redefine 'nomask' function "is_busy" before the end of line
+
+[Sun May 18 12:18:19 2003] u/h/hiko/npc/uo-evil.c line 2: Illegal to redefine 'nomask' function "is_block" before the end of line
+
+[Sun May 18 12:18:19 2003] u/h/hiko/npc/uo-evil.c line 2: Illegal to redefine 'nomask' function "command_hook" before the end of line
+
+[Sun May 18 12:18:19 2003] u/h/hiko/npc/uo-evil.c line 2: Illegal to redefine 'nomask' function "set_path" before the end of line
+
+[Sun May 18 12:26:31 2003] u/h/hiko/npc/uo-evil.c line 140: Left argument of -> is not a class before ³]©w¦¨"+amn+"­Ó"+typ
+
+[Sun May 18 12:26:31 2003] u/h/hiko/npc/uo-evil.c line 140: parse error before ³]©w¦¨"+amn+"­Ó"+typ
+
+[Sun May 18 12:27:21 2003] u/h/hiko/npc/uo-evil.c line 140: parse error before "name")+"³]©w¦¨"+amn
+
+[Sun May 18 12:27:21 2003] u/h/hiko/npc/uo-evil.c line 151: End of file in string before "%s %d",spel,amout)!
+
+[Sun May 18 12:27:52 2003] u/h/hiko/npc/uo-evil.c line 140: parse error before "name")+"³]©w¦¨"+amn
+
+[Mon May 19 07:44:15 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Mon May 19 18:33:51 2003] u/h/hiko/test.c line 209: Reserved type name unexpected. before ;
+
+[Mon May 19 18:33:51 2003] u/h/hiko/test.c line 209: parse error before ;
+
+[Mon May 19 18:33:51 2003] u/h/hiko/test.c line 210: Undefined variable 'me' before arg);
+
+[Mon May 19 18:33:51 2003] u/h/hiko/test.c line 210: Undefined variable 'arg' before ;
+
+[Mon May 19 18:33:51 2003] u/h/hiko/test.c line 210: Illegal LHS before the end of line
+
+[Mon May 19 18:33:51 2003] u/h/hiko/test.c line 211: Undefined variable 'i' before ob->query("armor_pro
+
+[Mon May 19 18:35:31 2003] u/h/hiko/test.c line 209: Reserved type name unexpected. before ;
+
+[Mon May 19 18:35:31 2003] u/h/hiko/test.c line 209: parse error before ;
+
+[Mon May 19 18:35:31 2003] u/h/hiko/test.c line 210: Undefined variable 'me' before arg);
+
+[Mon May 19 18:35:31 2003] u/h/hiko/test.c line 210: Undefined variable 'arg' before ;
+
+[Mon May 19 18:35:31 2003] u/h/hiko/test.c line 210: Illegal LHS before the end of line
+
+[Mon May 19 18:35:31 2003] u/h/hiko/test.c line 211: Undefined variable 'i' before ob->query("armor_pro
+
+[Mon May 19 18:37:32 2003] u/h/hiko/test.c line 209: Reserved type name unexpected. before ;
+
+[Mon May 19 18:37:32 2003] u/h/hiko/test.c line 209: parse error before ;
+
+[Mon May 19 18:37:32 2003] u/h/hiko/test.c line 210: Undefined variable 'me' before arg);
+
+[Mon May 19 18:37:32 2003] u/h/hiko/test.c line 210: Undefined variable 'arg' before ;
+
+[Mon May 19 18:37:32 2003] u/h/hiko/test.c line 210: Illegal LHS before the end of line
+
+[Mon May 19 18:37:32 2003] u/h/hiko/test.c line 211: Undefined variable 'xx' before ob->query("armor_pro
+
+[Mon May 19 18:38:14 2003] u/h/hiko/test.c line 210: Bad argument 2 to efun present() before ;
+
+[Mon May 19 22:31:20 2003] u/h/hiko/npc/uo-evil.c line 112: Undefined function nofity_fail before ;
+
+[Mon May 19 22:31:20 2003] u/h/hiko/npc/uo-evil.c line 112: Type of returned value doesn't match function return type ( unknown vs int ) before the end of line
+
+[Mon May 19 22:35:45 2003] u/h/hiko/npc/uo-evil.c line 104: parse error before +="food_remaining\n"
+
+[Mon May 19 22:35:45 2003] u/h/hiko/npc/uo-evil.c line 105: Illegal LHS before +="heal_hp\n" 
+
+[Mon May 19 22:35:45 2003] u/h/hiko/npc/uo-evil.c line 106: Illegal LHS before +="heal_ap\n"
+
+[Mon May 19 22:35:45 2003] u/h/hiko/npc/uo-evil.c line 107: Illegal LHS before +="heal_mp\n"
+
+[Mon May 19 22:35:45 2003] u/h/hiko/npc/uo-evil.c line 108: Illegal LHS before (me,lit);
+
+[Mon May 19 22:35:45 2003] u/h/hiko/npc/uo-evil.c line 109: Warning: Value of conditional expression is unused before (sscanf(str, "%s %d"
+
+[Tue May 20 07:39:31 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Wed May 21 22:09:52 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Fri May 23 23:09:13 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Tue May 27 00:59:45 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Wed May 28 08:07:51 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Thu May 29 17:38:58 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Sat May 31 01:13:09 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Mon Jun  2 21:50:20 2003] u/h/hiko/fongevil/fowater_2.c line 17: Undefined variable '__DIR__fowater_5' before southwest" : __DIR__
+
+[Mon Jun  2 21:50:20 2003] u/h/hiko/fongevil/fowater_2.c line 17: parse error before southwest" : __DIR__
+
+[Mon Jun  2 22:20:51 2003] u/h/hiko/fongevil/fowater_7.c line 20: parse error before ();
+
+[Mon Jun  2 22:30:30 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Wed Jun  4 00:21:12 2003] u/h/hiko/fongevil/fowater_1.c line 18: parse error before              
+
+[Wed Jun  4 22:54:20 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Thu Jun  5 19:47:15 2003] u/h/hiko/fongevil/fantasyroom.c line 74: Undefined variable 'fantasy' before random(sizeof(fantas
+
+[Thu Jun  5 20:05:22 2003] u/h/hiko/fongevil/fantasyroom.c line 101: parse error before n"NOR,me);
+
+[Thu Jun  5 20:05:22 2003] u/h/hiko/fongevil/fantasyroom.c line 132: End of file in string before pen/world1/ksj/lost_
+
+[Thu Jun  5 20:05:46 2003] u/h/hiko/fongevil/fantasyroom.c line 2: parse error before the end of line
+
+[Thu Jun  5 21:14:23 2003] u/h/hiko/fongevil/fantasyroom.c line 41: Undefined variable 'dir2' before dirs[random(sizeof(d
+
+[Thu Jun  5 21:14:23 2003] u/h/hiko/fongevil/fantasyroom.c line 45: No such inherited function ::go before ;   }
+
+[Thu Jun  5 21:54:44 2003] u/h/hiko/fongevil/fantasyroom.c line 40: Bad assignment ( string * vs string ). before the end of line
+
+[Thu Jun  5 22:17:31 2003] u/h/hiko/fongevil/fantasyroom.c line 41: parse error before ];     message_visio
+
+[Thu Jun  5 22:17:31 2003] u/h/hiko/fongevil/fantasyroom.c line 49: Illegal LHS before the end of line
+
+[Thu Jun  5 22:17:31 2003] u/h/hiko/fongevil/fantasyroom.c line 49: parse error before the end of line
+
+[Thu Jun  5 22:17:31 2003] u/h/hiko/fongevil/fantasyroom.c line 50: Illegal LHS before the end of line
+
+[Thu Jun  5 22:17:31 2003] u/h/hiko/fongevil/fantasyroom.c line 50: parse error before the end of line
+
+[Thu Jun  5 22:17:31 2003] u/h/hiko/fongevil/fantasyroom.c line 54: Illegal LHS before           
+
+[Thu Jun  5 22:33:25 2003] u/h/hiko/fongevil/fantasyroom.c line 39: Bad assignment ( mapping vs void ). before the end of line
+
+[Thu Jun  5 22:40:13 2003] u/h/hiko/fongevil/fantasyroom.c line 39: Bad argument 1 to efun keys() before ;
+
+[Thu Jun  5 22:42:34 2003] u/h/hiko/fongevil/fantasyroom.c line 39: Bad assignment ( mapping vs void ). before the end of line
+
+[Thu Jun  5 22:47:36 2003] u/h/hiko/fongevil/fantasyroom.c line 31: Undefined variable 'exits' before arg])) return 0;
+
+[Thu Jun  5 22:51:13 2003] u/h/hiko/fongevil/fantasyroom.c line 29: Undefined variable 'exits' before arg])) return 0;
+
+[Fri Jun  6 22:51:51 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Sat Jun  7 10:32:15 2003] u/h/hiko/fongevil/fantasyroom.c line 98: Undefined variable 'dirs' before keys(exits);
+
+[Sat Jun  7 10:32:15 2003] u/h/hiko/fongevil/fantasyroom.c line 99: Undefined variable 'arg' before );
+
+[Sat Jun  7 12:14:46 2003] u/h/hiko/fongevil/fantasyroom.c line 38: Undefined variable 'ride' before  who=who+"ÃMµÛ"+ride
+
+[Sat Jun  7 12:23:47 2003] u/h/hiko/fongevil/fantasyroom.c line 64: Undefined function id before =="guest")  //ª±®a¤~
+
+[Sat Jun  7 12:23:47 2003] u/h/hiko/fongevil/fantasyroom.c line 64: == always false because of incompatible types ( unknown vs string ). before   //ª±®a¤~·|³Q¥´¨ì
+
+[Sat Jun  7 12:29:37 2003] u/h/hiko/fongevil/fantasyroom.c line 64: Undefined variable 'guest' before )  //ª±®a¤~·|³Q¥´¨ì
+
+[Sat Jun  7 12:46:56 2003] u/h/hiko/fongevil/fantasyroom.c line 29: Left argument of -> is not a class before dir]) )
+
+[Sat Jun  7 12:46:56 2003] u/h/hiko/fongevil/fantasyroom.c line 30: Undefined variable 'default_dirs' before dir];
+
+[Sat Jun  7 13:07:44 2003] u/h/hiko/fongevil/fantasyroom.c line 102: parse error before  8: message_vision(H
+
+[Sat Jun  7 13:07:44 2003] u/h/hiko/fongevil/fantasyroom.c line 133: Illegal LHS before the end of line
+
+[Sat Jun  7 13:07:44 2003] u/h/hiko/fongevil/fantasyroom.c line 134: Undefined variable 'inv' before  all_inventory(env);
+
+[Sat Jun  7 13:07:44 2003] u/h/hiko/fongevil/fantasyroom.c line 134: Undefined variable 'env' before ;
+
+[Sat Jun  7 13:07:44 2003] u/h/hiko/fongevil/fantasyroom.c line 136: Undefined variable 'mai' before fin+lit;  
+
+[Sat Jun  7 13:07:44 2003] u/h/hiko/fongevil/fantasyroom.c line 136: Undefined variable 'lit' before   
+
+[Sat Jun  7 13:08:38 2003] u/h/hiko/fongevil/fantasyroom.c line 102: parse error before  8: message_vision(H
+
+[Sat Jun  7 13:08:38 2003] u/h/hiko/fongevil/fantasyroom.c line 133: Illegal LHS before the end of line
+
+[Sat Jun  7 13:08:38 2003] u/h/hiko/fongevil/fantasyroom.c line 134: Undefined variable 'inv' before  all_inventory(env);
+
+[Sat Jun  7 13:08:38 2003] u/h/hiko/fongevil/fantasyroom.c line 134: Undefined variable 'env' before ;
+
+[Sat Jun  7 13:08:38 2003] u/h/hiko/fongevil/fantasyroom.c line 136: Undefined variable 'mai' before fin+lit;  
+
+[Sat Jun  7 13:08:38 2003] u/h/hiko/fongevil/fantasyroom.c line 136: Undefined variable 'lit' before   
+
+[Sat Jun  7 13:09:37 2003] u/h/hiko/fongevil/fantasyroom.c line 103: parse error before  8: message_vision(H
+
+[Sat Jun  7 13:09:37 2003] u/h/hiko/fongevil/fantasyroom.c line 134: Illegal LHS before the end of line
+
+[Sat Jun  7 13:09:37 2003] u/h/hiko/fongevil/fantasyroom.c line 135: Undefined variable 'inv' before  all_inventory(env);
+
+[Sat Jun  7 13:09:37 2003] u/h/hiko/fongevil/fantasyroom.c line 135: Undefined variable 'env' before ;
+
+[Sat Jun  7 13:09:37 2003] u/h/hiko/fongevil/fantasyroom.c line 137: Undefined variable 'mai' before fin+lit;  
+
+[Sat Jun  7 13:09:37 2003] u/h/hiko/fongevil/fantasyroom.c line 137: Undefined variable 'lit' before   
+
+[Sat Jun  7 17:30:40 2003] u/h/hiko/fongevil/fofantasy_4.c line 33: End of file in text block before om");
+
+[Sat Jun  7 17:30:40 2003] u/h/hiko/fongevil/fofantasy_4.c line 33: parse error before om");
+
+[Sat Jun  7 17:48:17 2003] u/h/hiko/fongevil/fofantasy_10.c line 36: End of file in string before \       ¢x ¤º ¢x\n	 
+
+[Sat Jun  7 17:48:17 2003] u/h/hiko/fongevil/fofantasy_10.c line 36: parse error before \       ¢x ¤º ¢x\n	 
+
+[Sat Jun  7 20:45:33 2003] u/h/hiko/fongevil/fantasyroom.c line 148: parse error before /4 + lit + fin > 20 
+
+[Sun Jun  8 14:34:08 2003] u/h/hiko/npc/uo-evil.c line 158: Undefined variable 'lit' before "tiger-sword,blade,d
+
+[Sun Jun  8 14:34:08 2003] u/h/hiko/npc/uo-evil.c line 165: Undefined variable 'white' before ;
+
+[Sun Jun  8 14:34:08 2003] u/h/hiko/npc/uo-evil.c line 165: parse error before ;
+
+[Sun Jun  8 14:34:08 2003] u/h/hiko/npc/uo-evil.c line 173: Illegal LHS before the end of line
+
+[Sun Jun  8 14:34:08 2003] u/h/hiko/npc/uo-evil.c line 174: Undefined variable 'amn' before type,ob)!=3)
+
+[Sun Jun  8 14:34:08 2003] u/h/hiko/npc/uo-evil.c line 174: Undefined variable 'type' before ob)!=3)
+
+[Sun Jun  8 14:35:25 2003] u/h/hiko/npc/uo-evil.c line 165: Undefined function white before ;
+
+[Sun Jun  8 14:41:22 2003] u/h/hiko/npc/uo-evil.c line 164: parse error before  ob=new(arg);
+
+[Sun Jun  8 14:41:22 2003] u/h/hiko/npc/uo-evil.c line 164: Illegal LHS before the end of line
+
+[Sun Jun  8 14:41:22 2003] u/h/hiko/npc/uo-evil.c line 169: Reserved type name unexpected. before (string arg)
+
+[Sun Jun  8 14:41:22 2003] u/h/hiko/npc/uo-evil.c line 169: parse error before (string arg)
+
+[Sun Jun  8 14:41:22 2003] u/h/hiko/npc/uo-evil.c line 174: Illegal LHS before the end of line
+
+[Sun Jun  8 14:41:22 2003] u/h/hiko/npc/uo-evil.c line 175: Undefined variable 'arg' before sscanf(arg, "%d %s t
+
+[Mon Jun  9 21:06:25 2003] u/h/hiko/fongevil/zk33.c line 35: Reserved type name unexpected. before ;
+
+[Mon Jun  9 21:06:25 2003] u/h/hiko/fongevil/zk33.c line 35: parse error before ;
+
+[Mon Jun  9 21:06:25 2003] u/h/hiko/fongevil/zk33.c line 36: Illegal LHS before the end of line
+
+[Mon Jun  9 21:06:25 2003] u/h/hiko/fongevil/zk33.c line 37: Undefined variable 'ob' before do_unlock(arg))
+
+[Mon Jun  9 21:06:25 2003] u/h/hiko/fongevil/zk33.c line 37: Undefined variable 'arg' before )
+
+[Mon Jun  9 21:06:25 2003] u/h/hiko/fongevil/zk33.c line 39: Undefined function fail_notify before ;       
+
+[Mon Jun  9 21:07:36 2003] u/h/hiko/fongevil/zk33.c line 35: Reserved type name unexpected. before ;
+
+[Mon Jun  9 21:07:36 2003] u/h/hiko/fongevil/zk33.c line 35: parse error before ;
+
+[Mon Jun  9 21:07:36 2003] u/h/hiko/fongevil/zk33.c line 36: Illegal LHS before the end of line
+
+[Mon Jun  9 21:07:36 2003] u/h/hiko/fongevil/zk33.c line 37: Undefined variable 'ob' before do_unlock(arg))
+
+[Mon Jun  9 21:07:36 2003] u/h/hiko/fongevil/zk33.c line 37: Undefined variable 'arg' before )
+
+[Mon Jun  9 22:32:05 2003] u/h/hiko/fongevil/lightroom.c line 22: Undefined variable 'de' before me->query_con()/15;
+
+[Mon Jun  9 22:32:05 2003] u/h/hiko/fongevil/lightroom.c line 56: Warning: Unknown \ escape. before h¥úÃú,$N¾aÅé¯àµw¬O±µ
+
+[Mon Jun  9 22:32:38 2003] u/h/hiko/fongevil/lightroom.c line 56: Warning: Unknown \ escape. before h¥úÃú,$N¾aÅé¯àµw¬O±µ
+
+[Tue Jun 10 08:05:53 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Thu Jun 12 08:03:01 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Sat Jun 14 00:16:27 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Mon Jun 16 18:25:49 2003] u/h/hiko/fongevil/zk_33.c line 19: parse error before  4,
+
+[Mon Jun 16 18:25:49 2003] u/h/hiko/fongevil/zk_33.c line 34: Illegal LHS before  me = this_player();
+
+[Mon Jun 16 18:25:49 2003] u/h/hiko/fongevil/zk_33.c line 34: Undefined variable 'me' before  this_player();
+
+[Mon Jun 16 18:25:49 2003] u/h/hiko/fongevil/zk_33.c line 34: parse error before the end of line
+
+[Mon Jun 16 18:25:49 2003] u/h/hiko/fongevil/zk_33.c line 40: Illegal LHS before  return notify_fail(
+
+[Mon Jun 16 18:25:49 2003] u/h/hiko/fongevil/zk_33.c line 40: parse error before  return notify_fail(
+
+[Mon Jun 16 18:27:47 2003] u/h/hiko/fongevil/zk_33.c line 19: parse error before  4,
+
+[Mon Jun 16 18:27:47 2003] u/h/hiko/fongevil/zk_33.c line 35: Illegal LHS before the end of line
+
+[Mon Jun 16 18:27:47 2003] u/h/hiko/fongevil/zk_33.c line 35: parse error before the end of line
+
+[Mon Jun 16 18:27:47 2003] u/h/hiko/fongevil/zk_33.c line 36: Illegal LHS before the end of line
+
+[Mon Jun 16 18:27:47 2003] u/h/hiko/fongevil/zk_33.c line 36: parse error before the end of line
+
+[Mon Jun 16 18:29:16 2003] u/h/hiko/fongevil/zk_33.c line 19: parse error before  4,
+
+[Mon Jun 16 18:29:16 2003] u/h/hiko/fongevil/zk_33.c line 35: Illegal LHS before the end of line
+
+[Mon Jun 16 18:29:16 2003] u/h/hiko/fongevil/zk_33.c line 35: parse error before the end of line
+
+[Mon Jun 16 18:29:16 2003] u/h/hiko/fongevil/zk_33.c line 36: Illegal LHS before the end of line
+
+[Mon Jun 16 18:29:16 2003] u/h/hiko/fongevil/zk_33.c line 36: parse error before the end of line
+
+[Mon Jun 16 18:31:04 2003] u/h/hiko/fongevil/zk_33.c line 2: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Mon Jun 16 18:31:04 2003] u/h/hiko/fongevil/zk_33.c line 2: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Mon Jun 16 18:31:04 2003] u/h/hiko/fongevil/zk_33.c line 2: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Mon Jun 16 18:31:04 2003] u/h/hiko/fongevil/zk_33.c line 2: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Mon Jun 16 18:31:04 2003] u/h/hiko/fongevil/zk_33.c line 2: Illegal to redefine 'nomask' function "add_light" before the end of line
+
+[Mon Jun 16 18:31:04 2003] u/h/hiko/fongevil/zk_33.c line 20: parse error before  4,
+
+[Tue Jun 17 08:36:12 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Wed Jun 18 11:47:28 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Sat Jun 21 13:04:48 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Tue Jun 24 19:20:00 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Fri Jul  4 18:17:20 2003] u/h/hiko/fongevil/lightroom.c line 25: parse error before  setroom()
+
+[Fri Jul  4 18:18:00 2003] u/h/hiko/fongevil/lightroom.c line 102: Undefined variable 'co' before me->query_con()/2;
+
+[Fri Jul  4 18:18:00 2003] u/h/hiko/fongevil/lightroom.c line 111: Undefined function undefinep before )
+
+[Fri Jul  4 18:18:00 2003] u/h/hiko/fongevil/lightroom.c line 117: Warning: Unknown \ escape. before â¦U¤Ñ·ÓÃèªº¤è¦ì²Õ¦X¦
+
+[Fri Jul  4 18:18:00 2003] u/h/hiko/fongevil/lightroom.c line 118: Too few arguments to message before ;
+
+[Fri Jul  4 18:18:00 2003] u/h/hiko/fongevil/lightroom.c line 125: parse error before the end of line
+
+[Fri Jul  4 18:19:09 2003] u/h/hiko/fongevil/lightroom.c line 102: Undefined variable 'co' before me->query_con()/2;
+
+[Fri Jul  4 18:19:09 2003] u/h/hiko/fongevil/lightroom.c line 111: Undefined function undefinep before )
+
+[Fri Jul  4 18:19:09 2003] u/h/hiko/fongevil/lightroom.c line 117: Warning: Unknown \ escape. before â¦U¤Ñ·ÓÃèªº¤è¦ì²Õ¦X¦
+
+[Fri Jul  4 18:19:09 2003] u/h/hiko/fongevil/lightroom.c line 118: Too few arguments to message before ;
+
+[Fri Jul  4 18:19:09 2003] u/h/hiko/fongevil/lightroom.c line 125: parse error before the end of line
+
+[Fri Jul  4 18:25:53 2003] u/h/hiko/fongevil/lightroom.c line 116: Warning: Unknown \ escape. before â¤Ñ·ÓÃèªº¤è¦ì²Õ¦X¦n¤
+
+[Fri Jul  4 18:25:53 2003] u/h/hiko/fongevil/lightroom.c line 124: parse error before the end of line
+
+[Fri Jul  4 18:28:35 2003] u/h/hiko/fongevil/lightroom.c line 124: parse error before the end of line
+
+[Fri Jul  4 18:30:34 2003] u/h/hiko/fongevil/lightroom.c line 124: parse error before the end of line
+
+[Fri Jul  4 18:32:37 2003] u/h/hiko/fongevil/lightroom.c line 124: parse error before the end of line
+
+[Fri Jul  4 18:44:42 2003] u/h/hiko/fongevil/lightroom.c line 135: Bad type of index: "string " before ==turnof) continue;
+
+[Fri Jul  4 18:58:42 2003] u/h/hiko/fongevil/lightroom.c line 135: Bad type of index: "string " before ==turnof) continue;
+
+[Fri Jul  4 19:00:19 2003] u/h/hiko/fongevil/lightroom.c line 131: Bad assignment ( int vs string ). before the end of line
+
+[Fri Jul  4 19:02:01 2003] u/h/hiko/fongevil/lightroom.c line 131: Bad assignment ( string vs int ). before the end of line
+
+[Fri Jul  4 19:02:01 2003] u/h/hiko/fongevil/lightroom.c line 135: Bad type of index: "string " before )==turnof) continue;
+
+[Fri Jul  4 19:03:10 2003] u/h/hiko/fongevil/lightroom.c line 131: Bad assignment ( string vs int ). before the end of line
+
+[Fri Jul  4 19:03:10 2003] u/h/hiko/fongevil/lightroom.c line 135: Bad type of index: "string " before )==turnof) continue;
+
+[Fri Jul  4 19:05:55 2003] u/h/hiko/fongevil/lightroom.c line 131: Bad assignment ( string vs int ). before the end of line
+
+[Fri Jul  4 19:05:55 2003] u/h/hiko/fongevil/lightroom.c line 135: Bad type of index: "string " before )==turnof) continue;
+
+[Fri Jul  4 19:06:13 2003] u/h/hiko/fongevil/lightroom.c line 135: Bad type of index: "string " before ==turnof) continue;
+
+[Fri Jul  4 19:19:13 2003] u/h/hiko/fongevil/lightroom.c line 136: Bad type of index: "string " before ==turnof) continue;
+
+[Fri Jul  4 19:19:13 2003] u/h/hiko/fongevil/lightroom.c line 136: == always false because of incompatible types ( string vs string * ). before  continue;
+
+[Fri Jul  4 19:23:16 2003] u/h/hiko/fongevil/lightroom.c line 136: parse error before )]==turnof) continue
+
+[Fri Jul  4 19:23:16 2003] u/h/hiko/fongevil/lightroom.c line 144: Undefined variable 'me' before ,*inv;
+
+[Fri Jul  4 19:23:16 2003] u/h/hiko/fongevil/lightroom.c line 144: Illegal LHS before *inv;
+
+[Fri Jul  4 19:23:16 2003] u/h/hiko/fongevil/lightroom.c line 144: parse error before *inv;
+
+[Fri Jul  4 19:23:16 2003] u/h/hiko/fongevil/lightroom.c line 147: Undefined variable 'env' before ;
+
+[Fri Jul  4 19:23:16 2003] u/h/hiko/fongevil/lightroom.c line 147: Illegal LHS before the end of line
+
+[Fri Jul  4 19:24:18 2003] u/h/hiko/fongevil/lightroom.c line 136: Bad type of index: "string " before ==turnof) continue;
+
+[Fri Jul  4 19:25:12 2003] u/h/hiko/fongevil/lightroom.c line 132: Bad assignment ( string vs mixed * ). before the end of line
+
+[Fri Jul  4 19:25:12 2003] u/h/hiko/fongevil/lightroom.c line 136: Bad type of index: "string " before ==turnof) continue;
+
+[Fri Jul  4 19:26:13 2003] u/h/hiko/fongevil/lightroom.c line 136: Bad type of index: "mixed * " before ==turnof) continue;
+
+[Sat Jul  5 20:09:13 2003] u/h/hiko/fongevil/soul.c line 13: Warning: Unknown \ escape. before à:\n"
+
+[Sat Jul  5 20:10:41 2003] u/h/hiko/fongevil/soul.c line 13: Warning: Unknown \ escape. before à:\n"
+
+[Sat Jul  5 21:03:27 2003] u/h/hiko/fongevil/lightroom.c line 132: Bad type of index: "string " before ==turnof) continue;
+
+[Sat Jul  5 21:03:27 2003] u/h/hiko/fongevil/lightroom.c line 135: Bad type of index: "string " before +"  "+turnof+"\n");
+
+[Sat Jul  5 21:15:05 2003] u/h/hiko/fongevil/lightroom.c line 137: Undefined variable 'name' before +"  "+turnof+"\n");
+
+[Tue Jul  8 22:47:22 2003] u/h/hiko/trm1.c line 18: parse error before ();
+
+[Sat Jul 12 02:02:02 2003] u/h/hiko/fongevil/lightroom.c line 156: parse error before =turn_mirrors[chitem
+
+[Sat Jul 12 02:02:02 2003] u/h/hiko/fongevil/lightroom.c line 156: Illegal LHS before the end of line
+
+[Sat Jul 12 02:02:02 2003] u/h/hiko/fongevil/lightroom.c line 170: parse error before ");
+
+[Sat Jul 12 02:02:02 2003] u/h/hiko/fongevil/lightroom.c line 177: $var illegal outside of function pointer. before N½Ä¤F¥X¨Ó¾×¦í§Aªº¥h¸
+
+[Sat Jul 12 02:02:02 2003] u/h/hiko/fongevil/lightroom.c line 191: End of file in string before k_mirror()
+
+[Sat Jul 12 02:02:36 2003] u/h/hiko/fongevil/lightroom.c line 170: parse error before ");
+
+[Sat Jul 12 02:02:36 2003] u/h/hiko/fongevil/lightroom.c line 177: $var illegal outside of function pointer. before N½Ä¤F¥X¨Ó¾×¦í§Aªº¥h¸
+
+[Sat Jul 12 02:02:36 2003] u/h/hiko/fongevil/lightroom.c line 191: End of file in string before _mirror()
+
+[Sat Jul 12 14:20:48 2003] u/h/hiko/fongevil/lightroom.c line 160: Type of returned value doesn't match function return type ( string vs int ) before the end of line
+
+[Sun Jul 13 22:45:56 2003] u/h/hiko/fongevil/folight_1.c line 22: parse error before ",__DIR__"folight_3"
+
+[Sun Jul 13 22:45:56 2003] u/h/hiko/fongevil/folight_1.c line 44: End of file in string before   set("no_map",1);
+
+[Wed Jul 16 20:28:30 2003] u/h/hiko/npc/1.c line 1: parse error before , " 
+
+[Wed Jul 16 20:29:40 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Fri Jul 18 20:14:38 2003] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Fri Jul 18 21:45:05 2003] u/h/hiko/item/pk_item.c line 13: parse error before the end of line
+
+[Fri Jul 18 21:45:05 2003] u/h/hiko/item/pk_item.c line 123: == always false because of incompatible types ( int vs string ). before the end of line
+
+[Fri Jul 18 21:45:05 2003] u/h/hiko/item/pk_item.c line 126: parse error before +="²Ä1°Ï:¤Ñ«°ªþªñªº¤
+
+[Fri Jul 18 21:45:05 2003] u/h/hiko/item/pk_item.c line 127: Illegal LHS before +="²Ä2°Ï:¨BÆF«°µs¸é¤
+
+[Fri Jul 18 21:45:05 2003] u/h/hiko/item/pk_item.c line 128: Illegal LHS before +="²Ä3°Ï:µL¨FÂíªº³y²
+
+[Fri Jul 18 21:45:05 2003] u/h/hiko/item/pk_item.c line 129: Illegal LHS before +="²Ä4°Ï:¤Q¸U¤j¤sªº¤
+
+[Fri Jul 18 21:45:05 2003] u/h/hiko/item/pk_item.c line 158: Warning: Unknown \ escape. before ì¹F"+arg+"°Ï¤F,¨Ã¥Bh
+
+[Fri Jul 18 21:46:29 2003] u/h/hiko/item/pk_item.c line 13: parse error before the end of line
+
+[Fri Jul 18 21:46:29 2003] u/h/hiko/item/pk_item.c line 123: == always false because of incompatible types ( int vs string ). before the end of line
+
+[Fri Jul 18 21:46:29 2003] u/h/hiko/item/pk_item.c line 158: Warning: Unknown \ escape. before ì¹F"+arg+"°Ï¤F,¨Ã¥Bh
+
+[Fri Jul 18 21:48:06 2003] u/h/hiko/item/pk_item.c line 118: Missing type for argument before  arg)
+
+[Fri Jul 18 21:48:06 2003] u/h/hiko/item/pk_item.c line 118: parse error before )
+
+[Fri Jul 18 21:48:38 2003] u/h/hiko/item/pk_item.c line 118: Missing type for argument before  arg)
+
+[Fri Jul 18 21:48:38 2003] u/h/hiko/item/pk_item.c line 118: parse error before )
+
+[Fri Jul 18 21:49:48 2003] u/h/hiko/item/pk_item.c line 158: Warning: Unknown \ escape. before ì¹F"+arg+"°Ï¤F,¨Ã¥Bh
+
+[Fri Jul 18 21:50:25 2003] u/h/hiko/item/pk_item.c line 158: Warning: Unknown \ escape. before ì\¹F"+arg+"°Ï¤F,¨Ã¥B
+
+[Fri Jul 18 21:50:25 2003] u/h/hiko/item/pk_item.c line 158: Warning: Unknown \ escape. before F"+arg+"°Ï¤F,¨Ã¥Bhid
+
+[Fri Jul 18 22:07:24 2003] u/h/hiko/item/pk_item.c line 84: Undefined variable 'me' before ;
+
+[Sat Jul 19 14:33:52 2003] u/h/hiko/item/pk_item.c line 52: Undefined variable 'z' before (lit);
+
+[Sat Jul 19 14:33:52 2003] u/h/hiko/item/pk_item.c line 52: parse error before (lit);
+
+[Sat Jul 19 14:33:52 2003] u/h/hiko/item/pk_item.c line 55: Warning: Value of conditional expression is unused before =new(arg);
+
+[Sun Jul 20 12:42:24 2003] u/h/hiko/item/pk_item.c line 120: Undefined variable 'me' before query_enemy();
+
+[Sun Jul 20 12:51:04 2003] u/h/hiko/item/pk_item.c line 121: Bad assignment ( string vs int ). before the end of line
+
+[Mon Dec  6 02:32:36 2004] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+
+[Tue Jan 25 03:25:19 2005] u/h/hiko/item/gloves.c line 111: Warning: receive_damage() inherited from both /feature/damage.c and /std/item.c; using the definition in /feature/damage.c. before the end of file
+

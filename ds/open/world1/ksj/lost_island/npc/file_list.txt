@@ -1,0 +1,18 @@
+¥Ø¿ý¡R/open/world1/ksj/lost_island/npc/
+black-dog.c                             blade-mink.c        ¤b¤öñTÃ^          
+blood-eye-dragon.c  ¦å²´                chimera.c           ©_¬ü©Ô            
+color-bee.c         ¤­                  color-butterfly.c   ¤C                
+dream-tapir.c                           eagle-bat.c                           
+fire-wolf.c         ¤õ¯T                ghost-spider.c      Å^                
+ghost-worm.c        °­ÂÎ                gold-toad.c         ¤T¨¬°åª÷ÃÊ        
+green-snake.c       «CÅì©¥Á¯            huge-horn-monster.c  ¯½¤úÃ¹Ã~          
+huge-spider.c       ¥¨¼L»jµï            huge-turtle.c       Áè§À¥¨ÆR          
+iron-beetle.c       ÅK¥ÒÂÎ              jade-toad.c         ºÑ¥ÉÃÊ            
+kilin-horse.c       ¬ÓÅï                leviathan.c         §Q¨©¨È´Ë          
+mind-flayer.c                           pegasus.c           ­¸°¨              
+poison-snake.c      »G¬rª¼³D            prick-cow.c         ¨ë¤û              
+sailorman.c         ¤ô¤â                shell-dragon.c      ¨¤¯áÅKÀs          
+silver-dragon.c     »ÈÁlÀs              silver-snake.c      Å_­I»ÈÁ¯          
+sword-tiger.c       ¼C¤ú                thunder-bird.c      ¹pµR³¾            
+unicorn.c           ¿W¨¤°¨              water-deer.c        ¤ô¯¾³À            
+xiangliu.c          ¬Û¬h                

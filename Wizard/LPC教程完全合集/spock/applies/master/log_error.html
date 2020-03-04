@@ -1,0 +1,41 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=bg2312">
+   <META NAME="Author" CONTENT="Spock">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.01 [en] (Win95; I) [Netscape]">
+   <TITLE>MudOS v21c2 参考文件 - applies - master - log_error</TITLE>
+</HEAD>
+<BODY TEXT="#CCFFFF" BGCOLOR="#000000" LINK="#33FF33" VLINK="#FF0000" ALINK="#33CCFF" BACKGROUND="../../../image/ff/fftitleback.jpg" NOSAVE>
+
+<CENTER><FONT COLOR="#FF99FF"><FONT SIZE=+3>log_error(4)　 MudOS v21c2　
+(5 Sep 1994)</FONT></FONT></CENTER>
+
+<HR WIDTH="100%">
+<BR><FONT COLOR="#FFFFCC">　名称:</FONT>
+<UL>　 log_error - 聪明地纪录错误.</UL>
+<FONT COLOR="#FFFFCC">　语法:</FONT>
+<UL>　 void log_error( string file, string message );
+
+<P>　 无返回值 log_error( 字符串 file, 字符串 message );</UL>
+<FONT COLOR="#FFFFCC">　用法:</FONT>
+<UL>　 无论编译程序 (compilation)　 时发生任何错误, 驱动程序都会以发生错误的文件名称为
+file 参数、错误消息为 message 参数, 调用主控物件 (master object)　 中的
+log_error() 函数. 调用此函数时, log_error() 可以做任何您认为应该做的数据纪录.
+通常 log_error()　 根据发生错误的文件名称, 决定该纪录要写入哪个错误消息文件中.</UL>
+<FONT COLOR="#FFFFCC">　参考:</FONT>
+<UL>　 <A HREF="error_handler.html">error_handler(4)</A></UL>
+<FONT COLOR="#FFFFCC">　作者:</FONT>
+<UL>　 Wayfarer@Portals</UL>
+<FONT COLOR="#FFFFCC">　翻译:</FONT>
+<UL>　 Spock @ FF 97.Aug.6.　 (printed 3/16/95)</UL>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+<CENTER><A HREF="../master.html">回到上一页</A></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+</BODY>
+</HTML>

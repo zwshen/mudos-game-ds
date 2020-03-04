@@ -1,0 +1,2 @@
+#/obj/login.c
+dbase (["email":"","last_from":"211.75.111.212","id":"wzx","name":"張宿","password":"WPCDkFbq1B5pc","race":"human","level":2,"error_login":({"於[Tue Jan 25 20:01:18 2005]嘗試由[211.75.111.212]連線進入失敗。","於[Wed Apr 27 18:42:09 2005]嘗試由[211.75.111.212]連線進入失敗。",}),"body":"/obj/user","last_on":1114598633,])

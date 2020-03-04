@@ -1,0 +1,18 @@
+
+	time_expression(3)	LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		time_expression() - 傳回計算一個式子 (expression) 所需
+				    的真實時間.
+	函數語法:
+		int time_expression( mixed expr );
+
+		整數 time_expression( 混合 expr );
+	函數用法:
+		計算 expr,  並以微秒 (microsecond)  為單位傳回計算 expr
+		所需的時間. 傳回數值的精確度並不需要精確到一微秒, 實際
+		上, 此數值的精確度比微秒還差.
+	參考函數:
+		rusage(3), function_profile(3), time(3)
+	手冊翻譯:
+		Phoebus@ZH	97.Jul.25.		(Writen 5/23/97)

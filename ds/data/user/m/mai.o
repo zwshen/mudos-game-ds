@@ -1,0 +1,6 @@
+#/obj/user.c
+conditions ([])
+dbase (["MKS":2,"unit":"位","addition_shield":10,"mud_age":4129,"heart_beat_rate":6,"mp":60,"addition_armor":10,"talk_point":11,"gender":"男性","DS_DATA_VERSION":19991107,"guild_rank":"無家可歸的流浪漢","name":"黑羽殺手","wimpy":50,"addition_damage":10,"id":"mai","max_hp":80,"wound":(["right_arm":0,"left_arm":0,"right_leg":0,"left_leg":0,"head":0,"body":0,]),"attitude":"peaceful","mob_record":({"/open/world1/tmr/area/npc/dog","/open/world1/tmr/area/school/npc/butterfly",}),"race":"human","channels":({"chat","rumor","tchat",}),"volume":7,"max_mp":60,"hp":80,"ap":60,"level":2,"combat_exp":1,"quest":(["not_newbie":1,]),"birthday":1124558207,"exp":375,"default_actions":,"dex":2,"int":2,"con":2,"str":2,"startroom":"/open/world1/tmr/area/school/school1","max_ap":60,"supply_point":80,"bank":(["past":0,]),"heart_modify":0,"last_location":"/open/world1/tmr/area/inn_2f","Merits":(["tec":0,"bar":0,"sou":0,"bio":0,"wit":0,]),"find_butter":1,"age":14,"guild_gifts":({5,5,5,5,}),"actions":,"cure_count":11,"evil":-1,])
+skills (["axe":1,"sword":1,"dodge":1,"block":1,"staff":1,"unarmed":1,"dagger":1,"whip":1,"blade":1,"combat":2,"fork":1,"hammer":1,"parry":1,])
+learned (["dodge":2,"unarmed":6,"combat":1,])
+autoload ({"/obj/money/coin:2",})

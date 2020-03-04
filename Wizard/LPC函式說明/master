@@ -1,0 +1,15 @@
+
+	master(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	ㄧ计嘿:
+		master() - 肚甠ン (master object)
+	ㄧ计粂猭:
+		object master( void );
+
+		ン master( 礚把计 );
+	ㄧ计ノ猭:
+		肚甠ン (master object) 夹 (pointer).
+	把σㄧ计:
+		find_object(3)
+	も陆亩:
+		Phoebus@ZH	97.Apr.13.		(Writen 5/23/97)

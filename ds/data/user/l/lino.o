@@ -1,0 +1,6 @@
+#/obj/user.c
+conditions ([])
+dbase (["dex":2,"addition_shield":10,"attitude":"peaceful","gender":"¨k©Ê","int":2,"id":"lino","con":2,"supply_point":30,"evil":2,"guild_gifts":({5,5,5,5,}),"channels":({"chat","rumor","tchat",}),"name":"£}£}","str":2,"DS_DATA_VERSION":19991107,"actions":,"addition_armor":10,"age":14,"mud_age":295,"race":"human","level":1,"talk_point":8,"Merits":(["sou":0,"tec":0,"wit":0,"bar":0,"bio":0,]),"volume":7,"birthday":1100661790,"mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"last_location":"/open/world1/tmr/area/street4","ap":60,"max_ap":60,"max_hp":80,"heart_beat_rate":6,"MKS":2,"mp":60,"max_mp":60,"unit":"¦ì","cure_count":15,"startroom":"/open/world1/tmr/area/hotel","addition_damage":10,"hp":80,"default_actions":,"newbie":1,"exp":1028,])
+skills (["combat":2,"dodge":0,"unarmed":2,])
+learned (["combat":13,"dodge":1,"unarmed":1,])
+autoload ({})

@@ -1,0 +1,601 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0043)http://www.chinazmud.com/wz/list.asp?id=145 -->
+<HTML><HEAD><TITLE>MUDLib攻略之F_SKILL（下）</TITLE>
+<SCRIPT language=JavaScript>
+
+helpstat = false;
+stprompt = true;
+basic = false;
+function thelp(swtch){
+	if (swtch == 1){
+		basic = false;
+		stprompt = false;
+		helpstat = true;
+	} else if (swtch == 0) {
+		helpstat = false;
+		stprompt = false;
+		basic = true;
+	} else if (swtch == 2) {
+		helpstat = false;
+		basic = false;
+		stprompt = true;
+	}
+}
+
+function AddText(NewCode) {
+document.myform.txtcontent.value+=NewCode
+}
+
+function email() {
+	if (helpstat) {
+		alert("Email 标记\n插入 Email 超级链接\n用法1: [email]webmaster@aspsky.net[/email]\n用法2: [email=webmaster@aspsky.net]沙滩小子[/email]");
+	} else if (basic) {
+		AddTxt="[email][/email]";
+		AddText(AddTxt);
+	} else { 
+		txt2=prompt("链接显示的文字.\n如果为空，那么将只显示你的 Email 地址",""); 
+		if (txt2!=null) {
+			txt=prompt("Email 地址.","name@domain.com");      
+			if (txt!=null) {
+				if (txt2=="") {
+					AddTxt="[email]"+txt+"[/email]";
+				} else {
+					AddTxt="[email="+txt+"]"+txt2;
+					AddText(AddTxt);
+					AddTxt="[/email]";
+				} 
+				AddText(AddTxt);	        
+			}
+		}
+	}
+}
+function flash() {
+ 	if (helpstat){
+		alert("Flash 动画\n插入 Flash 动画.\n用法: [flash]Flash 文件的地址[/flash]");
+	} else if (basic) {
+		AddTxt="[flash][/flash]";
+		AddText(AddTxt);
+	} else {                  
+		txt=prompt("Flash 文件的地址","http://");
+		if (txt!=null) {             
+			AddTxt="[flash]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/flash]";
+			AddText(AddTxt);
+		}        
+	}  
+}
+
+function showsize(size) {
+	if (helpstat) {
+		alert("文字大小标记\n设置文字大小.\n可变范围 1 - 6.\n 1 为最小 6 为最大.\n用法: [size="+size+"]这是 "+size+" 文字[/size]");
+	} else if (basic) {
+		AddTxt="[size="+size+"][/size]";
+		AddText(AddTxt);
+	} else {                       
+		txt=prompt("大小 "+size,"文字"); 
+		if (txt!=null) {             
+			AddTxt="[size="+size+"]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/size]";
+			AddText(AddTxt);
+		}        
+	}
+}
+
+function bold() {
+	if (helpstat) {
+		alert("加粗标记\n使文本加粗.\n用法: [b]这是加粗的文字[/b]");
+	} else if (basic) {
+		AddTxt="[b][/b]";
+		AddText(AddTxt);
+	} else {  
+		txt=prompt("文字将被变粗.","文字");     
+		if (txt!=null) {           
+			AddTxt="[b]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/b]";
+			AddText(AddTxt);
+		}       
+	}
+}
+
+function italicize() {
+	if (helpstat) {
+		alert("斜体标记\n使文本字体变为斜体.\n用法: [i]这是斜体字[/i]");
+	} else if (basic) {
+		AddTxt="[i][/i]";
+		AddText(AddTxt);
+	} else {   
+		txt=prompt("文字将变斜体","文字");     
+		if (txt!=null) {           
+			AddTxt="[i]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/i]";
+			AddText(AddTxt);
+		}	        
+	}
+}
+
+function quote() {
+	if (helpstat){
+		alert("引用标记\n引用一些文字.\n用法: [quote]引用内容[/quote]");
+	} else if (basic) {
+		AddTxt="[quote][/quote]";
+		AddText(AddTxt);
+	} else {   
+		txt=prompt("被引用的文字","文字");     
+		if(txt!=null) {          
+			AddTxt="[quote]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/quote]";
+			AddText(AddTxt);
+		}	        
+	}
+}
+
+function showcolor(color) {
+	if (helpstat) {
+		alert("颜色标记\n设置文本颜色.  任何颜色名都可以被使用.\n用法: [color="+color+"]颜色要改变为"+color+"的文字[/color]");
+	} else if (basic) {
+		AddTxt="[color="+color+"][/color]";
+		AddText(AddTxt);
+	} else {  
+     	txt=prompt("选择的颜色是: "+color,"文字");
+		if(txt!=null) {
+			AddTxt="[color="+color+"]"+txt;
+			AddText(AddTxt);        
+			AddTxt="[/color]";
+			AddText(AddTxt);
+		} 
+	}
+}
+
+function center() {
+ 	if (helpstat) {
+		alert("对齐标记\n使用这个标记, 可以使文本左对齐、居中、右对齐.\n用法: [align=center|left|right]要对齐的文本[/align]");
+	} else if (basic) {
+		AddTxt="[align=center|left|right][/align]";
+		AddText(AddTxt);
+	} else {  
+		txt2=prompt("对齐样式\n输入 'center' 表示居中, 'left' 表示左对齐, 'right' 表示右对齐.","center");               
+		while ((txt2!="") && (txt2!="center") && (txt2!="left") && (txt2!="right") && (txt2!=null)) {
+			txt2=prompt("错误!\n类型只能输入 'center' 、 'left' 或者 'right'.","");               
+		}
+		txt=prompt("要对齐的文本","文本");     
+		if (txt!=null) {          
+			AddTxt="\r[align="+txt2+"]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/align]";
+			AddText(AddTxt);
+		}	       
+	}
+}
+
+function hyperlink() {
+	if (helpstat) {
+		alert("超级链接标记\n插入一个超级链接标记\n使用方法: [url]http://www.aspsky.net[/url]\nUSE: [url=http://www.aspsky.net]链接文字[/url]");
+	} else if (basic) {
+		AddTxt="[url][/url]";
+		AddText(AddTxt);
+	} else { 
+		txt2=prompt("链接文本显示.\n如果不想使用, 可以为空, 将只显示超级链接地址. ",""); 
+		if (txt2!=null) {
+			txt=prompt("超级链接.","http://");      
+			if (txt!=null) {
+				if (txt2=="") {
+					AddTxt="[url]"+txt;
+					AddText(AddTxt);
+					AddTxt="[/url]";
+					AddText(AddTxt);
+				} else {
+					AddTxt="[url="+txt+"]"+txt2;
+					AddText(AddTxt);
+					AddTxt="[/url]";
+					AddText(AddTxt);
+				}         
+			} 
+		}
+	}
+}
+
+function image() {
+	if (helpstat){
+		alert("图片标记\n插入图片\n用法： [img]http://www.aspsky.net/logo.gif[/img]");
+	} else if (basic) {
+		AddTxt="[img][/img]";
+		AddText(AddTxt);
+	} else {  
+		txt=prompt("图片的 URL","http://");    
+		if(txt!=null) {            
+			AddTxt="\r[img]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/img]";
+			AddText(AddTxt);
+		}	
+	}
+}
+
+function showcode() {
+	if (helpstat) {
+		alert("代码标记\n使用代码标记，可以使你的程序代码里面的 html 等标志不会被破坏.\n使用方法:\n [code]这里是代码文字[/code]");
+	} else if (basic) {
+		AddTxt="\r[code]\r[/code]";
+		AddText(AddTxt);
+	} else {   
+		txt=prompt("输入代码","");     
+		if (txt!=null) {          
+			AddTxt="\r[code]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/code]";
+			AddText(AddTxt);
+		}	       
+	}
+}
+
+function list() {
+	if (helpstat) {
+		alert("列表标记\n建造一个文字或则数字列表.\n\nUSE: [list] [*]项目一[/*] [*]项目二[/*] [*]项目三[/*] [/list]");
+	} else if (basic) {
+		AddTxt=" [list][*]  [/*][*]  [/*][*]  [/*][/list]";
+		AddText(AddTxt);
+	} else {  
+		txt=prompt("列表类型\n输入 'A' 表示有序列表, '1' 表示无序列表, 留空表示无序列表.","");               
+		while ((txt!="") && (txt!="A") && (txt!="a") && (txt!="1") && (txt!=null)) {
+			txt=prompt("错误!\n类型只能输入 'A' 、 '1' 或者留空.","");               
+		}
+		if (txt!=null) {
+			if (txt=="") {
+				AddTxt="[list]";
+			} else {
+				AddTxt="[list="+txt+"]";
+			} 
+			txt="1";
+			while ((txt!="") && (txt!=null)) {
+				txt=prompt("列表项\n空白表示结束列表",""); 
+				if (txt!="") {             
+					AddTxt+="[*]"+txt+"[/*]"; 
+				}                   
+			} 
+			AddTxt+="[/list] ";
+			AddText(AddTxt); 
+		}
+	}
+}
+
+function showfont(font) {
+ 	if (helpstat){
+		alert("字体标记\n给文字设置字体.\n用法: [face="+font+"]改变文字字体为"+font+"[/face]");
+	} else if (basic) {
+		AddTxt="[face="+font+"][/face]";
+		AddText(AddTxt);
+	} else {                  
+		txt=prompt("要设置字体的文字"+font,"文字");
+		if (txt!=null) {             
+			AddTxt="[face="+font+"]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/face]";
+			AddText(AddTxt);
+		}        
+	}  
+}
+function underline() {
+  	if (helpstat) {
+		alert("下划线标记\n给文字加下划线.\n用法: [u]要加下划线的文字[/u]");
+	} else if (basic) {
+		AddTxt="[u][/u]";
+		AddText(AddTxt);
+	} else {  
+		txt=prompt("下划线文字.","文字");     
+		if (txt!=null) {           
+			AddTxt="[u]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/u]";
+			AddText(AddTxt);
+		}	        
+	}
+}
+function setfly() {
+ 	if (helpstat){
+		alert("飞翔标记\n使文字飞行.\n用法: [fly]文字为这样文字[/fly]");
+	} else if (basic) {
+		AddTxt="[fly][/fly]";
+		AddText(AddTxt);
+	} else {                  
+		txt=prompt("飞翔文字","文字");
+		if (txt!=null) {             
+			AddTxt="[fly]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/fly]";
+			AddText(AddTxt);
+		}        
+	}  
+}
+
+function move() {
+	if (helpstat) {
+		alert("移动标记\n使文字产生移动效果.\n用法: [move]要产生移动效果的文字[/move]");
+	} else if (basic) {
+		AddTxt="[move][/move]";
+		AddText(AddTxt);
+	} else {  
+		txt=prompt("要产生移动效果的文字","文字");     
+		if (txt!=null) {           
+			AddTxt="[move]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/move]";
+			AddText(AddTxt);
+		}       
+	}
+}
+
+function shadow() {
+	if (helpstat) {
+               alert("阴影标记\n使文字产生阴影效果.\n用法: [SHADOW=宽度, 颜色, 边界]要产生阴影效果的文字[/SHADOW]");
+	} else if (basic) {
+		AddTxt="[SHADOW=255,blue,1][/SHADOW]";
+		AddText(AddTxt);
+	} else { 
+		txt2=prompt("文字的长度、颜色和边界大小","255,blue,1"); 
+		if (txt2!=null) {
+			txt=prompt("要产生阴影效果的文字","文字");
+			if (txt!=null) {
+				if (txt2=="") {
+					AddTxt="[SHADOW=255, blue, 1]"+txt;
+					AddText(AddTxt);
+					AddTxt="[/SHADOW]";
+					AddText(AddTxt);
+				} else {
+					AddTxt="[SHADOW="+txt2+"]"+txt;
+					AddText(AddTxt);
+					AddTxt="[/SHADOW]";
+					AddText(AddTxt);
+				}         
+			} 
+		}
+	}
+}
+
+function glow() {
+	if (helpstat) {
+		alert("光晕标记\n使文字产生光晕效果.\n用法: [GLOW=宽度, 颜色, 边界]要产生光晕效果的文字[/GLOW]");
+	} else if (basic) {
+		AddTxt="[glow=255,red,2][/glow]";
+		AddText(AddTxt);
+	} else { 
+		txt2=prompt("文字的长度、颜色和边界大小","255,red,2"); 
+		if (txt2!=null) {
+			txt=prompt("要产生光晕效果的文字.","文字");      
+			if (txt!=null) {
+				if (txt2=="") {
+					AddTxt="[glow=255,red,2]"+txt;
+					AddText(AddTxt);
+					AddTxt="[/glow]";
+					AddText(AddTxt);
+				} else {
+					AddTxt="[glow="+txt2+"]"+txt;
+					AddText(AddTxt);
+					AddTxt="[/glow]";
+					AddText(AddTxt);
+				}         
+			} 
+		}
+	}
+}
+function openscriphtml()
+{
+if (navigator.appName!="Microsoft Internet Explorer")
+   alert("此功能 Netscape 用户不能使用！")
+else
+   {newwin=window.open('htmledit/editor.html','','width=544,height=294');
+    newwin.focus();
+   }
+}
+function runEx(){
+//alert('请注意，按下确定将生成页面，按下后请稍后....');
+var winEx = window.open("", "winEx", "width=600,height=400,status=yes,menubar=yes,scrollbars=yes,resizable=yes"); winEx.document.open("text/html", "replace"); 
+winEx.document.write(unescape(event.srcElement.parentElement.children[2].value)); 
+winEx.document.close(); 
+}
+function openScript(url, width, height) {
+        var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=yes,status=yes' );
+}
+</SCRIPT>
+
+<SCRIPT language=Javascript>
+<!-- hide
+
+function insertsmilie(smilieface){
+
+	document.frmAnnounce.body.value+=smilieface;
+}
+// -->
+</SCRIPT>
+
+<META content="MSHTML 5.50.4134.600" name=GENERATOR>
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+<META content=ASP动网先锋,http://www.aspsky.net name=keywords><LINK 
+href="MUDLib攻略之F_SKILL（下）.files/style.css" rel=stylesheet></HEAD>
+<BODY bgColor=#000000>
+<TABLE cellSpacing=0 cellPadding=0 width="95%" align=center border=0>
+  <TBODY>
+  <TR>
+    <TD bgColor=#0099cc>
+      <TABLE borderColor=#0000ff cellSpacing=1 cellPadding=4 width="100%" 
+      bgColor=#000000 border=1>
+        <TBODY>
+        <TR bgColor=#0000ff>
+          <TD colSpan=2><FONT color=#ff0000>|<A 
+            href="http://www.chinazmud.com/index1.asp">返回首页</A> | 
+            |&nbsp;&nbsp;<A 
+            href="http://www.chinazmud.com/wz/default.asp?classid=3"> MUD功略 
+            </A>&nbsp;&nbsp;|&nbsp;&nbsp; |&nbsp;&nbsp;<A 
+            href="http://www.chinazmud.com/wz/default.asp?classid=5"> 教程文章 
+            </A>&nbsp;&nbsp;|&nbsp;&nbsp; |&nbsp;&nbsp;<A 
+            href="http://www.chinazmud.com/wz/default.asp?classid=6"> 其他文章 
+            </A>&nbsp;&nbsp;|&nbsp;&nbsp; </FONT></TD></TR>
+        <TR bgColor=#000000>
+          <TD colSpan=2><FONT color=#009900>|&nbsp;&nbsp;<A 
+            href="http://www.chinazmud.com/wz/index.asp?classid=5"><FONT 
+            color=#009900>教程文章</FONT></A>&gt;&gt;<A 
+            href="http://www.chinazmud.com/wz/index.asp?classid=5&amp;Nclassid=6"><FONT 
+            color=#009900>巫师与编程</FONT></A>&gt;&gt;MUDLib攻略之F_SKILL（下）</FONT><BR></TD></TR>
+        <TR bgColor=#000000>
+          <TD colSpan=2>
+            <CENTER><B><FONT color=#ff0000 
+            size=3>MUDLib攻略之F_SKILL（下）</FONT></B><BR><FONT 
+            color=#00ff00>&nbsp;2002-1-24&nbsp;&nbsp; </FONT></CENTER>
+            <P>
+            <BLOCKQUOTE><BR><FONT color=#009900>（承上） 
+              <BR>下面的这两个函数是关于角色死亡所受到的技能惩罚的，以前玩家死于 NPC 
+              之手或非命的时候，会受到技能和道行、潜能的惩罚，所有技能减一级，好惨噢！ 
+              <BR>为了减轻玩家的痛楚，鼓励大家勇敢地西行灭妖，我决定修改这个函数。看看修改日期，至今差不多一年喽！ 
+              <P></P>
+              <P>// FoF changed 99-12-25 <BR>int skill_death_penalty() <BR>{ 
+              <BR>string *sk; <BR>int i, ii, n; <BR>object obj = this_object(); 
+              </P>
+              <P>if( wizardp(obj) || !mapp(skills) ) return 0; </P>
+              <P>sk = keys(skills); <BR>if( sizeof(sk) == 0 ) return 0; </P>
+              <P>n = 4 - obj-&gt;query("kar") / 7; //先天福缘的影响 <BR>n = n + 10 - 
+              obj-&gt;query_kar() / 5; //后天福缘的影响 <BR>if ( sizeof(sk) &gt; 8 ) n 
+              = n + sizeof(sk) / 3; //技能数量的影响技能数越多，受到的惩罚也越多，对于三心二意的人来说可不是好事哟 
+</P>
+              <P>n = n &gt; sizeof(sk) / 2 ? n : sizeof(sk) / 2; <BR>n = 
+              random(n); <BR>受到惩罚的技能总数小于所学技能总数的一半，不痛了吧？ </P>
+              <P>if( !n ) return 0; </P>
+              <P>for( i = 0; i &lt; n; i ++ ) { // 把 learned 保存起来 <BR>ii = 
+              random(sizeof(sk)); <BR>skills[sk[ii]] --; 
+              <BR>obj-&gt;add("death_skill_loss/" + sk[ii], <BR>skills[sk[ii]] * 
+              skills[sk[ii]]); <BR>if( skills[sk[ii]] &lt;= 0 ) 
+              delete_skill(sk[ii]); <BR>} <BR>skill_map = 0; <BR>return 1; <BR>} 
+              </P>
+              <P>取得真经之后如来佛会给你三根救命毫毛，可以用来“起死回生”，恢复一些由于被 NPC 
+              杀死或非命所损失的道行和技能，以前铁定的是一级技能或什么都没有，现在经过修改，恢复的与损失的是等价的。 
+              <BR>以前的所有损失，在取得真经之后得到恢复，高兴么？ <BR>// FoF changed 99-12-25 <BR>int 
+              skill_death_recover() <BR>{ <BR>string *sk; <BR>object obj; 
+              <BR>int i, amount; </P>
+              <P>if( !mapp(skills) ) return 0; <BR>sk = keys(skills); <BR>obj = 
+              this_object(); </P>
+              <P>for( i = 0; i &lt; sizeof(sk); i ++ ) { <BR>amount = 
+              obj-&gt;query("death_skill_loss/" + sk[i]); <BR>amount += 
+              learned[sk[i]]; <BR>while ( amount &gt;= ( skills[sk[i]] + 1 ) * ( 
+              skills[sk[i]] + 1 ) ) <BR>{ // 把 learned 恢复成技能 <BR>amount -= ( 
+              skills[sk[i]] + 1 ) * ( skills[sk[i]] + 1 ); <BR>skills[sk[i]] ++; 
+              // 把损失的 learned 恢复成技能 <BR>} <BR>} <BR>learned[sk[i]] = amount; 
+              <BR>} <BR>obj-&gt;delete("death_skill_loss"); <BR>return 1; <BR>} 
+              </P>
+              <P>以下这个函数是管角色技能升级的，当你敲了若干个 learn force from master 
+              之后看到“你的「基本内功」进步了！”就是这个函数的功劳了。 <BR>升级的条件是技能的 learned 
+              点数要超过（当前等级＋1）的平方值。这里有一个小细节，就是 int 型的参数 weak_mode ，这个参数的值不为 0 
+              ，将会导致即使技能的 learned 
+              点数超过了（当前等级＋1）的平方值，也不能看到“你的「基本内功」进步了！”，而且该项技能会显示出特殊的颜色，参数weak_mode 
+              不为 0 的情形还不少呢：跟师父切磋、使用外功（exert）、perform、practice、study 等情况下都有可能出现 
+              weak_mode 不为 0 的情形，所以看到技能的 learned 点数超过了（当前等级＋1）的平方值还不升级的时候不要奇怪。 
+              </P>
+              <P>varargs void improve_skill(string skill, int amount, int 
+              weak_mode) <BR>{ <BR>int spi; </P>
+              <P>if( !find_object(SKILL_D(skill)) &amp;&amp; 
+              <BR>file_size(SKILL_D(skill) + ".c") &lt; 0 ) <BR>error("F_SKILL: 
+              没有这种技能(" + skill + ")！\n"); </P>
+              <P>if( !weak_mode || !userp(this_object()) ) { <BR>if( 
+              !mapp(skills) ) skills = ([]); <BR>if( undefinedp(skills[skill]) ) 
+              skills[skill] = 0; <BR>} </P>
+              <P>// Give learning penalty to those learning too much skills. 
+              <BR>spi = query("spi"); <BR>if( sizeof(learned) &gt; spi ) amount 
+              /= sizeof(learned) - spi; </P>
+              <P>if( !amount ) amount = 0; </P>
+              <P>if( !mapp(learned) ) learned = ([ skill : amount ]); <BR>else 
+              (int)learned[skill] += amount; </P>
+              <P>if( (!weak_mode || !userp(this_object())) &amp;&amp; 
+              <BR>learned[skill] &gt; (skills[skill] + 1) * (skills[skill] + 1) 
+              ) { <BR>skills[skill] ++; <BR>learned[skill] = 0; 
+              <BR>tell_object(this_object(), HIC "你的「" + <BR>to_chinese(skill) + 
+              "」进步了！\n" NOR); 
+              <BR>SKILL_D(skill)-&gt;skill_improved(this_object()); <BR>} <BR>} 
+              </P>
+              <P>下面这个函数是我增加的，目的是通过以内存换速度的办法来减轻战斗精灵COMBAT_D 
+              的负担。当时想的是用战斗升级法来替代传统的“鸡腿升级法”（就是用鸡腿打潜能来学其他技能）为 MUD 
+              的合理化作点贡献，效果不是很好，不过 Acool 说他曾在战斗中把 dodge 
+              提升到七十多级而没有花任何潜能向师父学，还有人说跟芭蕉怪打把 whip 
+              打到了近百级的事，真是意料之中，又是意料之外了。不足之处请多提宝贵意见！MUD 合理化之事业无限荣光！ </P>
+              <P>// FoF 99-12-28 to reduce work for COMBAT_D <BR>void 
+              reset_skill_improve_point() <BR>{ <BR>int amount; <BR>object ob = 
+              this_object(); </P>
+              <P>if( !userp(ob) ) return; </P>
+              <P>amount = random(ob-&gt;query_int()/10) + ob-&gt;query_int()/10 
+              + <BR>random(ob-&gt;query_con()/8) + ob-&gt;query_con()/8; 
+              <BR>set_temp("combat/skill_improve_point/dodge", amount); // 9 - 
+              18 points <BR>一次成功躲开敌人攻击使 dodge 增长的点数，当然这个“成功”包含了强弱对比的关系。dodge 
+              的增长与悟性和根骨两个属性相关。 </P>
+              <P>amount = random(ob-&gt;query_int()/10) + ob-&gt;query_int()/10 
+              + <BR>random(ob-&gt;query_con()/8) + ob-&gt;query_con()/8; <BR>if( 
+              !undefinedp(skills) &amp;&amp; !undefinedp(skills["dodge"]) ) 
+              <BR>amount += random(skills["dodge"]/20); 
+              <BR>set_temp("combat/skill_improve_point/map_dodge", amount); // 
+              14 - 23 points <BR>map 到 dodge 上的技能即高级轻功增长的点数，除了与悟性和根骨相关外，还与 dodge 
+              的等级相关。 </P>
+              <P>amount = random(ob-&gt;query_cps()/4) + ob-&gt;query_cps()/4; 
+              <BR>set_temp("combat/skill_improve_point/parry", amount); // 10 - 
+              20 points <BR>一次成功招架敌人攻击使 parry 增长的点数，当然这个“成功”也包含了强弱对比的关系。parry 
+              的增长与定力相关。 </P>
+              <P>amount = random(ob-&gt;query_cps()/4) + ob-&gt;query_cps()/4; 
+              <BR>if( !undefinedp(skills) &amp;&amp; 
+              !undefinedp(skills["parry"]) ) <BR>amount += 
+              random(skills["parry"]/20); 
+              <BR>set_temp("combat/skill_improve_point/map_parry", amount); // 
+              15 - 25 points <BR>map 到 parry 上的技能增长的点数，除了与定力相关外，还与 parry 的等级相关。 
+              </P>
+              <P>amount = random(ob-&gt;query_int()/8) + ob-&gt;query_int()/ 8 + 
+              <BR>random(ob-&gt;query_con()/5) + ob-&gt;query_con()/5; 
+              <BR>set_temp("combat/skill_improve_point/attack", amount); // 13 - 
+              26 points 
+              <BR>一次成功击中敌人使基本攻击技能增长的点数，当然这个“成功”也包含了强弱对比的关系。攻击技能的增长与悟性和根骨属性相关。 
+              </P>
+              <P>amount = random(ob-&gt;query_int()/8) + ob-&gt;query_int()/8 + 
+              <BR>random(ob-&gt;query_con()/5) + ob-&gt;query_con()/5; <BR>// 
+              amount += random(ob-&gt;query_skill(skill_type, 1)/20); 
+              <BR>set_temp("combat/skill_improve_point/map_attack", amount); // 
+              13 - 26 points <BR>map 
+              到基本攻击技能上的高级攻击技能增长的点数，除了与悟性和根骨相关外，还与基本攻击技能的等级相关。 <BR>} </P>
+              <P>F_SKILL ENDS </P>
+              <P>看到这里，你知道角色身上有关 skill 的数据都有哪些，以及它们是怎么操作的了吗？ </P>
+              <P><BR><BR></FONT>
+              <P align=right><FONT color=#009900>原作者： 不详 <BR>来 源： 不详 
+              <BR>共有176位读者阅读过此文 <BR></FONT><BR>【<A 
+              href="http://www.chinazmud.com/wz/sendmail.asp?id=145">告诉好友</A>】 
+              </P></BLOCKQUOTE>
+            <P>
+            <LI><FONT color=#0772b1>上篇文章：</FONT><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=144"><FONT 
+            color=#009900>MUDLib攻略之F_SKILL（上） </FONT></A><BR>
+            <LI><FONT color=#0772b1>下篇文章：</FONT><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=146"><FONT 
+            color=#009900>MUD FTP 服务器的修缮（上） </FONT></A></LI></TD></TR>
+        <TR>
+          <TD width="50%" bgColor=#0000ff>□- 本周热门文章 </TD>
+          <TD width="50%" bgColor=#0000ff>□- 相关文章 </TD></TR>
+        <TR>
+          <TD vAlign=top width="50%" bgColor=#ffffff><FONT color=#009900>1.<A 
+            title="机器人小技巧 " target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=140"> 机器人小技巧 
+            </A>[1180]<BR>2.<A title="如何在MUD中自动问候 " target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=141"> 如何在MUD中自动问候 
+            </A>[363]<BR>3.<A title=浅谈CALL命令 target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=143"> 浅谈CALL命令 
+            </A>[343]<BR>4.<A title="MUDLib攻略之F_SKILL（上） " target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=144"> 
+            MUDLib攻略之F_SKILL（上... </A>[240]<BR>5.<A 
+            title="流星雨的MUDOS-LPC讲座 BIND " target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=148"> 流星雨的MUDOS-LPC讲座 
+            BI... </A>[205]<BR>6.<A title=新MUD设想--增加变化！ target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=150"> 新MUD设想--增加变化！ 
+            </A>[204]<BR>7.<A title="象太阁立志传那样的mud怎么样？ " target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=151"> 象太阁立志传那样的mud怎么样？ 
+            </A>[191]<BR></FONT></TD>
+          <TD vAlign=top width="50%" bgColor=#ffffff><FONT color=#009900><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=201">Mudlib的结构本文</A><BR><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=200">MUDLIB各个目录是干什么的？</A><BR><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=145">MUDLib攻略之F_SKILL（下）</A><BR><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=144">MUDLib攻略之F_SKILL（上） 
+            </A><BR><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=142">MUDLIB各个目录是干什么的？</A><BR></FONT></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><BR></BODY></HTML>

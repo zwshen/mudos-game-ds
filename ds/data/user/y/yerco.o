@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["int":2,"talk_point":8,"max_ap":60,"gender":"¨k©Ê","birthday":1109911180,"con":2,"id":"yerco","str":2,"board_last_read":(["tmr_hotel_b":1109322314,]),"supply_point":60,"max_mp":60,"volume":7,"age":14,"name":"­N","heart_modify":0,"mp":60,"default_actions":,"unit":"¦ì","mud_age":1091,"startroom":"/open/world1/tmr/area/hotel","addition_damage":10,"evil":-1,"guild_gifts":({5,5,5,5,}),"newbie":1,"addition_shield":10,"max_hp":80,"Merits":(["tec":0,"bio":0,"bar":0,"sou":0,"wit":0,]),"ap":60,"hp":80,"wound":(["left_leg":0,"body":0,"head":0,"right_leg":0,"right_arm":0,"left_arm":0,]),"channels":({"chat","rumor","tchat",}),"exp":777,"cure_count":12,"DS_DATA_VERSION":19991107,"actions":,"addition_armor":10,"heart_beat_rate":6,"attitude":"peaceful","dex":2,"level":1,"race":"human",])
+autoload ({})

@@ -1,0 +1,6 @@
+#/obj/user.c
+conditions ([])
+dbase (["DS_DATA_VERSION":19991107,"addition_damage":10,"attitude":"peaceful","supply_point":60,"volume":7,"MKS":2,"channels":({"chat","rumor","tchat","wiz","music","es",}),"mob_record":({"/open/world2/npc/beast_fish_3","/open/world2/npc/beast_dove_1",}),"addition_armor":10,"default_actions":,"race":"human","gender":"¨k©Ê","level":1,"evil":2,"id":"allubatwo","name":"®¦","birthday":1024111208,"age":14,"Merits":(["wit":0,"bio":0,"tec":0,"sou":0,"bar":0,]),"startroom":"/u/a/alickyuen/workroom","max_mp":60,"newbie":1,"heart_modify":0,"exp":1182,"dex":2,"board_last_read":(["bug_b":1023524508,"wizard_b":1023860106,"alickyuen_b":943018109,"query_b":1003498727,"now_malo_b":988973783,]),"ap":60,"int":2,"hp":80,"con":2,"str":2,"guild_gifts":({5,5,5,5,}),"max_ap":60,"mud_age":22744,"talk_point":8,"actions":,"unit":"¦ì","heart_beat_rate":6,"cure_count":12,"last_location":"/open/world2/anfernee/start/shoproom","wound":(["right_leg":0,"right_arm":0,"body":0,"left_leg":0,"left_arm":0,"head":0,]),"cwd":"/u/a/allubatwo/","mp":60,"max_hp":80,"addition_shield":10,])
+skills (["unarmed":2,"dodge":0,"combat":3,])
+learned (["unarmed":8,"dodge":2,"combat":7,])
+autoload ({})

@@ -1,0 +1,17 @@
+
+	inherits(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		inherits() - 判斷一個物件是否繼承一個指定的檔案
+	函數語法:
+		int inherits( string file, object obj );
+
+		整數 inherits( 字串 file, 物件 obj );
+	函數用法:
+		如果 obj 不是繼承 file, inherits() 傳回 0. 如果 obj
+		繼承最新復制的 file 則傳回 1, 如果繼承舊的復制的 file
+		則傳回 2.
+	參考函數:
+		deep_inherit_list(3), inherit_list(3)
+	手冊翻譯:
+		Phoebus@ZH	97.Feb.14.		(Writen 5/23/97)

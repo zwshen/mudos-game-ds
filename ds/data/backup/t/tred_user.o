@@ -1,0 +1,5 @@
+#/obj/user.c
+conditions ([])
+dbase (["int":2,"DS_DATA_VERSION":19991107,"con":2,"volume":7,"str":2,"mud_age":776,"max_hp":80,"mp":60,"talk_point":6,"max_mp":60,"heart_modify":0,"Merits":(["sou":0,"bar":0,"wit":0,"bio":0,"tec":0,]),"addition_armor":10,"channels":({"chat","rumor","tchat",}),"actions":,"addition_damage":10,"guild_gifts":({5,5,5,5,}),"attitude":"peaceful","unit":"¦ì","race":"human","gender":"¨k©Ê","level":1,"id":"tred","supply_point":20,"name":"ªZÃÃµ¾¥î","birthday":1023863718,"ap":60,"max_ap":60,"age":14,"heart_beat_rate":6,"default_actions":,"startroom":"/open/world2/lichi_town_2/map_5_26","cure_count":10,"last_location":"/open/world2/lichi_town_1/map_3_21","addition_shield":10,"evil":-1,"newbie":1,"exp":777,"hp":80,"dex":2,])
+alias (["sa":"do sac all","rs":"do recall","g":"do get all",])
+autoload ({"/obj/money/dollar:4563","/open/world2/eq/iron_roundshield_7","/open/world2/eq/cloth_pants_8","/open/world2/eq/cloth_hat_4","/open/world2/shengsan/aovandis/npc/wp/typicalsword","/open/world2/eq/leather_gloves_5","/open/world2/eq/leather_boots_6",})

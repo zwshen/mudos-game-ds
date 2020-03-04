@@ -1,0 +1,383 @@
+[Tue May  1 07:46:45 2001] u/t/tmr/test/computer.c line 4: parse error before  int m_socket
+
+[Sun Jan 20 02:03:43 2002] u/t/tmr/darkfool/darksword.c line 82: Warning: Unknown \ escape. before ..\n" NOR);
+
+[Sun Jan 20 04:01:36 2002] u/t/tmr/test/msgbox.c line 35: parse error before users() );
+
+[Sun Feb 24 01:03:03 2002] u/t/tmr/master.c line 12: parse error before [
+
+[Sun Feb 24 01:03:03 2002] u/t/tmr/master.c line 99: Illegal LHS before target;
+
+[Sun Feb 24 01:03:03 2002] u/t/tmr/master.c line 102: Undefined variable 'me' before ;	// 敵人
+
+[Sun Feb 24 01:03:03 2002] u/t/tmr/master.c line 102: Undefined function offensive_target before ;	// 敵人
+
+[Sun Feb 24 01:03:03 2002] u/t/tmr/master.c line 102: Missing type for global variable declaration before 	// 敵人
+
+[Sun Feb 24 01:03:03 2002] u/t/tmr/master.c line 103: parse error before (!me) return;
+
+[Sun Feb 24 01:03:19 2002] u/t/tmr/master.c line 12: parse error before [
+
+[Sun Feb 24 01:03:19 2002] u/t/tmr/master.c line 99: Illegal LHS before target;
+
+[Sun Feb 24 01:03:19 2002] u/t/tmr/master.c line 102: Undefined variable 'me' before ;	// 敵人
+
+[Sun Feb 24 01:03:19 2002] u/t/tmr/master.c line 102: Undefined function offensive_target before ;	// 敵人
+
+[Sun Feb 24 01:03:19 2002] u/t/tmr/master.c line 102: Missing type for global variable declaration before 	// 敵人
+
+[Sun Feb 24 01:03:19 2002] u/t/tmr/master.c line 103: parse error before (!me) return;
+
+[Sun Feb 24 01:03:21 2002] u/t/tmr/master.c line 12: parse error before [
+
+[Sun Feb 24 01:03:21 2002] u/t/tmr/master.c line 99: Illegal LHS before target;
+
+[Sun Feb 24 01:03:21 2002] u/t/tmr/master.c line 102: Undefined variable 'me' before ;	// 敵人
+
+[Sun Feb 24 01:03:21 2002] u/t/tmr/master.c line 102: Undefined function offensive_target before ;	// 敵人
+
+[Sun Feb 24 01:03:21 2002] u/t/tmr/master.c line 102: Missing type for global variable declaration before 	// 敵人
+
+[Sun Feb 24 01:03:21 2002] u/t/tmr/master.c line 103: parse error before (!me) return;
+
+[Sun Feb 24 01:03:35 2002] u/t/tmr/master.c line 12: parse error before [
+
+[Sun Feb 24 01:03:35 2002] u/t/tmr/master.c line 99: Illegal LHS before target;
+
+[Sun Feb 24 01:03:35 2002] u/t/tmr/master.c line 102: Undefined variable 'me' before ;	// 敵人
+
+[Sun Feb 24 01:03:35 2002] u/t/tmr/master.c line 102: Undefined function offensive_target before ;	// 敵人
+
+[Sun Feb 24 01:03:35 2002] u/t/tmr/master.c line 102: Missing type for global variable declaration before 	// 敵人
+
+[Sun Feb 24 01:03:35 2002] u/t/tmr/master.c line 103: parse error before (!me) return;
+
+[Sun Feb 24 01:04:31 2002] u/t/tmr/master.c line 12: parse error before the end of line
+
+[Sun Feb 24 01:04:31 2002] u/t/tmr/master.c line 99: Illegal LHS before target;
+
+[Sun Feb 24 01:04:31 2002] u/t/tmr/master.c line 102: Undefined variable 'me' before ;	// 敵人
+
+[Sun Feb 24 01:04:31 2002] u/t/tmr/master.c line 102: Undefined function offensive_target before ;	// 敵人
+
+[Sun Feb 24 01:04:31 2002] u/t/tmr/master.c line 102: Missing type for global variable declaration before 	// 敵人
+
+[Sun Feb 24 01:04:31 2002] u/t/tmr/master.c line 103: parse error before (!me) return;
+
+[Sun Feb 24 01:04:51 2002] u/t/tmr/master.c line 12: parse error before the end of line
+
+[Sun Feb 24 01:04:51 2002] u/t/tmr/master.c line 99: Illegal LHS before target;
+
+[Sun Feb 24 01:04:51 2002] u/t/tmr/master.c line 102: Undefined variable 'me' before ;	// 敵人
+
+[Sun Feb 24 01:04:51 2002] u/t/tmr/master.c line 102: Undefined function offensive_target before ;	// 敵人
+
+[Sun Feb 24 01:04:51 2002] u/t/tmr/master.c line 102: Missing type for global variable declaration before 	// 敵人
+
+[Sun Feb 24 01:04:51 2002] u/t/tmr/master.c line 103: parse error before (!me) return;
+
+[Sun Feb 24 01:05:58 2002] u/t/tmr/master.c line 102: Undefined function offensive_target before ;	// 敵人
+
+[Sun Feb 24 01:05:58 2002] u/t/tmr/master.c line 102: Bad assignment ( object vs unknown ). before 	// 敵人
+
+[Sun Feb 24 01:06:34 2002] u/t/tmr/master.c line 103: Undefined function offensive_target before ;	// 敵人
+
+[Sun Feb 24 01:06:34 2002] u/t/tmr/master.c line 103: Bad assignment ( object vs unknown ). before 	// 敵人
+
+[Wed Apr 10 22:04:37 2002] u/t/tmr/eval.tmr.c line 23: Undefined variable 'HIr' before NOR,find_living("tmr
+
+[Wed Apr 10 22:04:37 2002] u/t/tmr/eval.tmr.c line 23: parse error before NOR,find_living("tmr
+
+[Wed Apr 10 22:04:37 2002] u/t/tmr/eval.tmr.c line 24: Illegal LHS before the end of line
+
+[Wed Apr 10 22:04:37 2002] u/t/tmr/eval.tmr.c line 24: parse error before the end of line
+
+[Wed Apr 10 22:04:37 2002] u/t/tmr/eval.tmr.c line 25: Illegal LHS before the end of line
+
+[Fri Apr 26 22:18:31 2002] u/t/tmr/eval.tmr.c line 23: Undefined function destrcut before ;
+
+[Fri Apr 26 22:18:33 2002] u/t/tmr/eval.tmr.c line 23: Undefined function destrcut before ;
+
+[Fri Apr 26 22:23:44 2002] u/t/tmr/eval.tmr.c line 23: parse error before the end of line
+
+[Fri Apr 26 22:23:44 2002] u/t/tmr/eval.tmr.c line 24: Illegal LHS before the end of line
+
+[Fri Apr 26 22:23:44 2002] u/t/tmr/eval.tmr.c line 24: parse error before the end of line
+
+[Fri Apr 26 22:23:44 2002] u/t/tmr/eval.tmr.c line 25: Illegal LHS before the end of line
+
+[Thu May 16 00:01:59 2002] u/t/tmr/eval.tmr.c line 26: parse error before nEval cost: %d\n", c
+
+[Thu May 16 00:01:59 2002] u/t/tmr/eval.tmr.c line 28: End of file in string before   
+
+[Sun Sep  8 21:33:42 2002] u/t/tmr/eval.tmr.c line 23: parse error before the end of line
+
+[Sun Sep  8 21:33:42 2002] u/t/tmr/eval.tmr.c line 24: Illegal LHS before the end of line
+
+[Sun Sep  8 21:33:42 2002] u/t/tmr/eval.tmr.c line 24: parse error before the end of line
+
+[Sun Sep  8 21:33:42 2002] u/t/tmr/eval.tmr.c line 25: Illegal LHS before the end of line
+
+[Sun Sep  8 21:53:00 2002] u/t/tmr/eval.tmr.c line 23: Reserved type name unexpected. before  ft;
+
+[Sun Sep  8 21:53:00 2002] u/t/tmr/eval.tmr.c line 23: parse error before  ft;
+
+[Sun Sep  8 21:53:00 2002] u/t/tmr/eval.tmr.c line 24: Illegal LHS before the end of line
+
+[Sun Sep  8 21:53:00 2002] u/t/tmr/eval.tmr.c line 25: Undefined variable 'ft' before me->query("friend");
+
+[Sun Sep  8 21:53:00 2002] u/t/tmr/eval.tmr.c line 25: Undefined variable 'me' before query("friend");
+
+[Sun Sep  8 21:53:00 2002] u/t/tmr/eval.tmr.c line 28: Undefined variable 'cost' before  eval_cost();
+
+[Sun Sep 22 14:31:33 2002] u/t/tmr/eval.tmr.c line 23: Undefined variable 'channels' before "");
+
+[Mon Jun  5 19:24:55 2006] u/t/tmr/test/jj.c line 29: parse error before  ->set_club_leader("
+
+[Mon Jun  5 19:25:37 2006] u/t/tmr/test/jj.c line 30: parse error before  ->set_club_leader("
+
+[Tue Jun  6 04:13:37 2006] u/t/tmr/s.c line 97: Warning: Return type doesn't match prototype ( int vs void ) before  
+
+[Tue Jun  6 04:26:11 2006] u/t/tmr/s.c line 14: Undefined variable 'ob' before set_name(HIC"陰"HIR"
+
+[Wed Jun  7 01:13:16 2006] u/t/tmr/eval.tmr.c line 23: Undefined variable 'me' before "dodge");
+
+[Wed Jun  7 01:13:32 2006] u/t/tmr/eval.tmr.c line 23: Undefined function this_palyer before ,"dodge");
+
+[Wed Jun  7 01:13:46 2006] u/t/tmr/eval.tmr.c line 23: Undefined function this_palyer before ,"dodge") );
+
+[Wed Jun  7 01:13:52 2006] u/t/tmr/eval.tmr.c line 23: Undefined function this_palyer before ,"dodge") );
+
+[Fri Oct  6 23:07:38 2006] u/t/tmr/eval.tmr.c line 23: Undefined variable 'time'
+
+[Sat Oct  7 21:08:33 2006] u/t/tmr/room/square.c line 24: syntax error
+
+[Thu Dec 14 19:27:53 2006] u/t/tmr/eval.tmr.c line 23: Undefined variable 'me'
+
+[Thu Dec 14 19:36:53 2006] u/t/tmr/game/2006_c/order.c line 9: Undefined function set_name
+
+[Thu Dec 14 19:36:53 2006] u/t/tmr/game/2006_c/order.c line 14: Undefined function set
+
+[Thu Dec 14 19:36:53 2006] u/t/tmr/game/2006_c/order.c line 15: Undefined function set_weight
+
+[Thu Dec 14 19:36:53 2006] u/t/tmr/game/2006_c/order.c line 18: Undefined function game_reset
+
+[Thu Dec 14 19:36:53 2006] u/t/tmr/game/2006_c/order.c line 19: Undefined function setup
+
+[Thu Dec 14 19:36:53 2006] u/t/tmr/game/2006_c/order.c line 24: No such inherited function ::init
+
+[Thu Dec 14 19:37:11 2006] u/t/tmr/game/2006_c/order.c line 4: syntax error
+
+[Thu Dec 14 19:37:21 2006] u/t/tmr/game/2006_c/order.c line 19: Undefined function game_reset
+
+[Thu Dec 14 19:37:21 2006] u/t/tmr/game/2006_c/order.c line 25: No such inherited function ::init
+
+[Thu Dec 14 19:37:21 2006] u/t/tmr/game/2006_c/order.c line 50: Undefined variable 'me'
+
+[Thu Dec 14 19:37:41 2006] u/t/tmr/game/2006_c/order.c line 48: Undefined variable 'me'
+
+[Thu Dec 14 19:58:58 2006] u/t/tmr/game/2006_c/cannon_base.c line 25: syntax error
+
+[Thu Dec 14 19:58:58 2006] u/t/tmr/game/2006_c/cannon_base.c line 35: Illegal LHS
+
+[Thu Dec 14 19:58:58 2006] u/t/tmr/game/2006_c/cannon_base.c line 35: syntax error
+
+[Thu Dec 14 19:59:18 2006] u/t/tmr/game/2006_c/cannon_base.c line 27: Type of returned value doesn't match function return type ( int vs void )
+
+[Thu Dec 14 20:39:47 2006] u/t/tmr/game/2006_c/cannon_base.c line 28: syntax error
+
+[Thu Dec 14 20:39:47 2006] u/t/tmr/game/2006_c/cannon_base.c line 31: syntax error
+
+[Thu Dec 14 20:39:47 2006] u/t/tmr/game/2006_c/cannon_base.c line 37: Illegal LHS
+
+[Thu Dec 14 20:39:47 2006] u/t/tmr/game/2006_c/cannon_base.c line 37: Illegal LHS
+
+[Thu Dec 14 20:39:47 2006] u/t/tmr/game/2006_c/cannon_base.c line 38: Undefined variable 'me'
+
+[Thu Dec 14 20:39:47 2006] u/t/tmr/game/2006_c/cannon_base.c line 41: Undefined variable 'num'
+
+[Thu Dec 14 20:40:19 2006] u/t/tmr/game/2006_c/cannon_base.c line 49: Undefined variable 'oldman'
+
+[Thu Dec 14 21:05:30 2006] u/t/tmr/game/2006_c/cannon_base.c line 31: Bad assignment ( object * vs object ).
+
+[Thu Dec 14 21:05:30 2006] u/t/tmr/game/2006_c/cannon_base.c line 37: Bad assignment ( object * vs object ).
+
+[Thu Dec 14 21:05:30 2006] u/t/tmr/game/2006_c/cannon_base.c line 45: Bad assignment ( object * vs object ).
+
+[Thu Dec 14 21:05:52 2006] u/t/tmr/game/2006_c/cannon_base.c line 31: syntax error
+
+[Thu Dec 14 21:05:52 2006] u/t/tmr/game/2006_c/cannon_base.c line 32: Illegal LHS
+
+[Thu Dec 14 21:05:52 2006] u/t/tmr/game/2006_c/cannon_base.c line 37: syntax error
+
+[Thu Dec 14 21:05:52 2006] u/t/tmr/game/2006_c/cannon_base.c line 38: Illegal LHS
+
+[Thu Dec 14 21:05:52 2006] u/t/tmr/game/2006_c/cannon_base.c line 45: syntax error
+
+[Thu Dec 14 21:05:52 2006] u/t/tmr/game/2006_c/cannon_base.c line 46: Illegal LHS
+
+[Wed Dec 20 00:05:03 2006] u/t/tmr/eval.tmr.c line 23: syntax error
+
+[Wed Dec 20 00:05:03 2006] u/t/tmr/eval.tmr.c line 24: Illegal LHS
+
+[Wed Dec 20 00:05:03 2006] u/t/tmr/eval.tmr.c line 24: syntax error
+
+[Wed Dec 20 00:05:03 2006] u/t/tmr/eval.tmr.c line 25: Illegal LHS
+
+[Fri Dec 22 17:00:29 2006] u/t/tmr/game/2006_c/oldman.c line 105: syntax error
+
+[Fri Dec 22 17:00:29 2006] u/t/tmr/game/2006_c/oldman.c line 113: Illegal LHS
+
+[Fri Dec 22 17:00:29 2006] u/t/tmr/game/2006_c/oldman.c line 114: Warning: Value of conditional expression is unused
+
+[Fri Dec 22 17:00:29 2006] u/t/tmr/game/2006_c/oldman.c line 114: Undefined variable 'sc'
+
+[Fri Dec 22 17:00:29 2006] u/t/tmr/game/2006_c/oldman.c line 115: Undefined variable 'ob'
+
+[Tue Dec 26 16:40:07 2006] u/t/tmr/eval.tmr.c line 23: Undefined function scanf
+
+[Tue Dec 26 16:53:47 2006] u/t/tmr/game/2006_c/cannon_base.c line 76: syntax error
+
+[Tue Dec 26 16:53:47 2006] u/t/tmr/game/2006_c/cannon_base.c line 88: Illegal LHS
+
+[Tue Dec 26 16:53:47 2006] u/t/tmr/game/2006_c/cannon_base.c line 92: syntax error
+
+[Tue Dec 26 16:53:47 2006] u/t/tmr/game/2006_c/cannon_base.c line 112: Undefined function rndRoom
+
+[Tue Dec 26 18:52:35 2006] u/t/tmr/game/2006_c/cloud.c line 21: syntax error
+
+[Sun Jan 14 10:17:42 2007] u/t/tmr/game/2006_c/board.c line 219: Warning: Return type doesn't match prototype ( void vs int )
+
+[Sun Jan 14 10:17:42 2007] u/t/tmr/game/2006_c/board.c line 230: Undefined variable 'id'
+
+[Tue Feb 27 15:52:52 2007] u/t/tmr/room/bookroom.c line 18: Undefined variable 'look_door'
+
+[Tue Feb 27 15:52:52 2007] u/t/tmr/room/bookroom.c line 18: syntax error
+
+[Tue Feb 27 15:52:52 2007] u/t/tmr/room/bookroom.c line 41: Illegal LHS
+
+[Tue Feb 27 15:52:52 2007] u/t/tmr/room/bookroom.c line 41: syntax error
+
+[Fri Jul 20 00:52:59 2007] u/t/tmr/eval.tmr.c line 23: Undefined function wreite
+
+[Sat Feb 16 20:26:02 2008] /u/t/tmr/game/2006_c/board.c line 240: Warning: Unused local variable 'gift' around the end of line
+
+[Sat May 31 15:05:09 2008] /u/t/tmr/test/ba3.c line 34: syntax error before +"[0m",({"deinonychu
+
+[Sat May 31 15:05:09 2008] /u/t/tmr/test/ba3.c line 34: syntax error before +"[0m",({"deinonychu
+
+[Sat May 31 15:05:13 2008] /u/t/tmr/test/ba3.c line 34: syntax error before +"[0m",({"deinonychu
+
+[Sat May 31 15:05:15 2008] /u/t/tmr/test/ba3.c line 34: syntax error before +"[0m",({"deinonychu
+
+[Sat May 31 15:05:15 2008] /u/t/tmr/test/ba3.c line 34: syntax error before +"[0m",({"deinonychu
+
+[Sat May 31 15:05:15 2008] /u/t/tmr/test/ba3.c line 34: syntax error before +"[0m",({"deinonychu
+
+[Sat May 31 15:05:15 2008] /u/t/tmr/test/ba3.c line 34: syntax error before +"[0m",({"deinonychu
+
+[Sat May 31 15:05:15 2008] /u/t/tmr/test/ba3.c line 34: syntax error before +"[0m",({"deinonychu
+
+[Sat May 31 15:05:15 2008] /u/t/tmr/test/ba3.c line 34: syntax error before +"[0m",({"deinonychu
+
+[Sat Jul  5 23:36:14 2008] /u/t/tmr/eval.tmr.c line 23: Undefined variable 'time' before the end of line
+
+[Sat Jul  5 23:36:14 2008] /u/t/tmr/eval.tmr.c line 23: Warning: Expression has no side effects, and the value is unused before the end of line
+
+[Sat Sep 13 00:51:14 2008] /u/t/tmr/test/exri.c line 2: Warning: Redeclaration of global variable 'dbase'. before the end of line
+
+[Sat Sep 13 00:51:14 2008] /u/t/tmr/test/exri.c line 2: Warning: Redeclaration of global variable 'tmp_dbase'. before the end of line
+
+[Sat Sep 13 00:51:14 2008] /u/t/tmr/test/exri.c line 2: Warning: Redeclaration of global variable 'default_ob'. before the end of line
+
+[Sat Sep 13 00:51:14 2008] /u/t/tmr/test/exri.c line 2: Warning: Redeclaration of global variable 'weight'. before the end of line
+
+[Sat Sep 13 00:51:14 2008] /u/t/tmr/test/exri.c line 2: Warning: Redeclaration of global variable 'encumb'. before the end of line
+
+[Sat Sep 13 00:51:14 2008] /u/t/tmr/test/exri.c line 2: Warning: Redeclaration of global variable 'max_encumb'. before the end of line
+
+[Sat Sep 13 00:51:14 2008] /u/t/tmr/test/exri.c line 2: Warning: Redeclaration of global variable 'capacity'. before the end of line
+
+[Sat Sep 13 00:51:14 2008] /u/t/tmr/test/exri.c line 2: Warning: Redeclaration of global variable 'max_capacity'. before the end of line
+
+[Sat Sep 13 00:51:14 2008] /u/t/tmr/test/exri.c line 2: Warning: Redeclaration of global variable 'light'. before the end of line
+
+[Sat Sep 13 00:51:14 2008] /u/t/tmr/test/exri.c line 2: Warning: Redeclaration of global variable 'current_light'. before the end of line
+
+[Sat Sep 13 00:51:14 2008] /u/t/tmr/test/exri.c line 2: Warning: Redeclaration of global variable 'my_id'. before the end of line
+
+[Sat Sep 13 00:51:14 2008] /u/t/tmr/test/exri.c line 2: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Sat Sep 13 00:51:14 2008] /u/t/tmr/test/exri.c line 2: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Sat Sep 13 00:51:14 2008] /u/t/tmr/test/exri.c line 2: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Sat Sep 13 00:51:14 2008] /u/t/tmr/test/exri.c line 2: Illegal to redefine 'nomask' function "can_move" before the end of line
+
+[Sat Sep 13 00:51:14 2008] /u/t/tmr/test/exri.c line 2: Illegal to redefine 'nomask' function "weight" before the end of line
+
+[Sat Sep 13 00:51:14 2008] /u/t/tmr/test/exri.c line 2: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Sat Sep 13 00:51:14 2008] /u/t/tmr/test/exri.c line 2: Warning: Redeclaration of global variable 'dbase'. before the end of line
+
+[Sat Sep 13 00:51:14 2008] /u/t/tmr/test/exri.c line 2: Warning: Redeclaration of global variable 'tmp_dbase'. before the end of line
+
+[Sat Sep 13 00:51:14 2008] /u/t/tmr/test/exri.c line 2: Warning: Redeclaration of global variable 'default_ob'. before the end of line
+
+[Sat Sep 13 00:51:14 2008] /u/t/tmr/test/exri.c line 2: Warning: Redeclaration of global variable 'weight'. before the end of line
+
+[Sat Sep 13 00:51:14 2008] /u/t/tmr/test/exri.c line 2: Warning: Redeclaration of global variable 'encumb'. before the end of line
+
+[Sat Sep 13 00:51:14 2008] /u/t/tmr/test/exri.c line 2: Warning: Redeclaration of global variable 'max_encumb'. before the end of line
+
+[Sat Sep 13 00:51:14 2008] /u/t/tmr/test/exri.c line 2: Warning: Redeclaration of global variable 'capacity'. before the end of line
+
+[Sat Sep 13 00:51:14 2008] /u/t/tmr/test/exri.c line 2: Warning: Redeclaration of global variable 'max_capacity'. before the end of line
+
+[Sat Sep 13 00:51:14 2008] /u/t/tmr/test/exri.c line 2: Warning: Redeclaration of global variable 'light'. before the end of line
+
+[Sat Sep 13 00:51:14 2008] /u/t/tmr/test/exri.c line 2: Warning: Redeclaration of global variable 'current_light'. before the end of line
+
+[Sat Sep 13 00:51:14 2008] /u/t/tmr/test/exri.c line 2: Warning: Redeclaration of global variable 'my_id'. before the end of line
+
+[Sat Sep 13 00:51:14 2008] /u/t/tmr/test/exri.c line 2: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Sat Sep 13 00:51:14 2008] /u/t/tmr/test/exri.c line 2: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Sat Sep 13 00:51:14 2008] /u/t/tmr/test/exri.c line 2: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Sat Sep 13 00:51:14 2008] /u/t/tmr/test/exri.c line 2: Illegal to redefine 'nomask' function "can_move" before the end of line
+
+[Sat Sep 13 00:51:14 2008] /u/t/tmr/test/exri.c line 2: Illegal to redefine 'nomask' function "weight" before the end of line
+
+[Sat Sep 13 00:51:14 2008] /u/t/tmr/test/exri.c line 2: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Wed Oct  8 18:08:28 2008] /u/t/tmr/darkfool/darksword.c line 82: Warning: Unknown \ escape. before ..\n" NOR);
+
+[Wed May  6 23:41:58 2009] /u/t/tmr/nightbane.c line 8: Undefined variable 'HIK' before HIR"夜禍" NOR, ({ "n
+
+[Wed May  6 23:41:58 2009] /u/t/tmr/nightbane.c line 8: syntax error before HIR"夜禍" NOR, ({ "n
+
+[Wed May  6 23:41:58 2009] /u/t/tmr/nightbane.c line 53: Illegal LHS before the end of line
+
+[Wed May  6 23:41:58 2009] /u/t/tmr/nightbane.c line 53: Wrong number of arguments to set_name
+    Expected: 2  Got: 1 before the end of line
+
+[Wed May  6 23:41:58 2009] /u/t/tmr/nightbane.c line 54: syntax error before  = this_player(1);
+
+[Wed May  6 23:41:58 2009] /u/t/tmr/nightbane.c line 54: Illegal LHS before the end of line
+
+[Wed May  6 23:41:58 2009] /u/t/tmr/nightbane.c line 54: Warning: Expression has no side effects, and the value is unused before the end of line
+
+[Wed May  6 23:42:50 2009] /u/t/tmr/nightbane.c line 23: Undefined variable 'do_fight_issue' before ),
+
+[Wed May  6 23:42:50 2009] /u/t/tmr/nightbane.c line 23: syntax error before ),
+
+[Wed May  6 23:42:50 2009] /u/t/tmr/nightbane.c line 53: Illegal LHS before the end of line
+
+[Wed May  6 23:42:50 2009] /u/t/tmr/nightbane.c line 53: syntax error before the end of line
+
+[Wed May  6 23:42:50 2009] /u/t/tmr/nightbane.c line 54: Illegal LHS before the end of line
+
+[Wed May  6 23:42:50 2009] /u/t/tmr/nightbane.c line 54: syntax error before the end of line
+

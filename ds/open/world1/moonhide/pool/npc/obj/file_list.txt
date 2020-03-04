@@ -1,0 +1,18 @@
+¥Ø¿ý¡R/open/world1/moonhide/pool/npc/obj/
+bolt.c              Ãz¯P¤§½b            chi-lin-armor.c     «lÃz              
+chisel-claw.c       ¥¨óç¤ö              dragon-boots.c      ÀsÄË¹u            
+evil-blade.c        Å]¡@¤M              lbg.c               §¯ºëÂ³­¹          
+machine.c           ¹ï´«¾÷              mie-blade.c         ·À                
+paper.c             ¤û¥Ö¯È              perple-bow.c        µµ·×©w­·¤}        
+perple-bow2.c       µµ·×©w­·¤}          perple-sword.c      µµ·×©w­·¼C        
+perple-sword2.c     µµ·×©w­·¼C          purple-bow.c        µµ·×©w­·¤}        
+purple-bow2.c       µµ·×©w­·¤}          purple-kasaya.c     µµÃ¹³P¸Æ          
+purple-sword.c      µµ·×©w­·¼C          purple-sword2.c     µµ·×©w­·¼C        
+scroll.c            §¯ºë±²¶b            shield.c            ¤ôÃè¤§¬Þ          
+sky-pearl.c         Ã÷¤Ñ                snake-liver.c       ¦åµëÁx            
+snake-waist.c       ¦åµë°b±a            snake-waist2.c      ¦åµë°b±a          
+soul-claw.c         °l»î                soul-claw2.c        °l»î              
+ten-sword.c         ¤Q¤è­Ñ·À            test.c              ¤ôÃè¤§¬Þ          
+ticket.c            ¸gÅç²¼              tiger-mask.c        ²rªê­±¸n          
+turtle-armor.c      ¥È                  turtle-armor2.c     ¥È                
+turtle-liver.c      ¥È¨I                

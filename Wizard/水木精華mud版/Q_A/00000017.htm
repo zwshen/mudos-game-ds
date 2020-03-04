@@ -1,0 +1,57 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清華站︰精華區</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+<A Name="top"></a>
+發信人:&nbsp;Ranma&nbsp;(亂馬~~青山依舊在，幾度夕陽紅),&nbsp;信區:&nbsp;Mud_Builder&nbsp;<BR>
+標&nbsp;&nbsp;題:&nbsp;Re:&nbsp;請教&nbsp;<BR>
+發信站:&nbsp;BBS&nbsp;水木清華站&nbsp;(Sun&nbsp;Apr&nbsp;&nbsp;5&nbsp;21:05:59&nbsp;1998)&nbsp;<BR>
+&nbsp;<BR>
+你的npc和標準npc不一樣哦,看看把幾句carry_object()刪了，或把&nbsp;<BR>
+setup()挪到carry_object()之前看看&nbsp;<BR>
+【&nbsp;在&nbsp;zixia&nbsp;(紫霞仙子)&nbsp;的大作中提到:&nbsp;】&nbsp;<BR>
+︰<I>&nbsp;轅馬如下：&nbsp;</I><BR>
+︰<I>&nbsp;#include&nbsp;&lt;ansi.h&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</I><BR>
+︰<I>&nbsp;inherit&nbsp;NPC;&nbsp;</I><BR>
+︰<I>&nbsp;inherit&nbsp;F_DEALER;&nbsp;</I><BR>
+︰<I>&nbsp;void&nbsp;create()&nbsp;</I><BR>
+︰<I>&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</I><BR>
+︰<I>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;set_name(&nbsp;HIG&nbsp;&quot;小茜&quot;&nbsp;NOR&nbsp;,&nbsp;({&quot;xiao&nbsp;xi&quot;,&nbsp;&quot;shinv&quot;})&nbsp;);&nbsp;</I><BR>
+︰<I>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;set(&quot;id&quot;,&quot;xiaoxi&quot;);&nbsp;</I><BR>
+︰<I>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;set(&quot;nickname&quot;,&nbsp;YEL&nbsp;&quot;丫環&quot;&nbsp;NOR);&nbsp;</I><BR>
+︰<I>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;set(&quot;gender&quot;,&quot;女性&quot;);&nbsp;</I><BR>
+︰<I>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;set(&quot;age&quot;,16);&nbsp;</I><BR>
+︰<I>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;set(&quot;str&quot;,50);&nbsp;</I><BR>
+︰<I>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;set_skill(&quot;literate&quot;,150);&nbsp;</I><BR>
+︰<I>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;set(&quot;no_get_from&quot;,&nbsp;1);&nbsp;</I><BR>
+︰<I>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;carry_object(&quot;/open/zixia/armor/bangle&quot;)-&gt;wear();&nbsp;</I><BR>
+︰<I>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setup();&nbsp;</I><BR>
+︰<I>&nbsp;}&nbsp;</I><BR>
+︰<I>&nbsp;void&nbsp;init()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</I><BR>
+︰<I>&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</I><BR>
+︰<I>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;object&nbsp;master,&nbsp;me,&nbsp;xiaoxi;&nbsp;</I><BR>
+︰<I>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;master&nbsp;=&nbsp;find_player(&quot;zixia&quot;);&nbsp;</I><BR>
+︰<I>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;xiaoxi&nbsp;=&nbsp;this_object();&nbsp;</I><BR>
+︰<I>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;me&nbsp;=&nbsp;this_player();&nbsp;</I><BR>
+︰<I>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;::init();&nbsp;</I><BR>
+︰<I>&nbsp;}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</I><BR>
+︰<I>&nbsp;}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</I><BR>
+&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;陌生的城市啊,熟悉的角落裡&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;也曾彼此安慰,也曾相擁嘆息,不管將會面對什麼樣的結局&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在漫天風沙裡,望著你遠去,我已悲傷得不能自已&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;多盼能送君千里,直到山窮水盡,一生和你相依!&nbsp;<BR>
+&nbsp;<BR>
+※&nbsp;來源:‧BBS&nbsp;水木清華站&nbsp;bbs.net.tsinghua.edu.cn‧[FROM:&nbsp;dialuser226.gb.]&nbsp;<BR>
+<A HREF="00000016.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一頁</A>
+<A HREF="index.htm">回到目錄</A>
+<A HREF="#top">回到頁首</A>
+<A HREF="00000018.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+</BODY></HTML>

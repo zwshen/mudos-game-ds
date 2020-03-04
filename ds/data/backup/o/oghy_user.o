@@ -1,0 +1,7 @@
+#/obj/user.c
+conditions ([])
+dbase (["max_hp":80,"actions":,"last_location":"/open/always/ppl_jail","combat_exp":2,"talk_point":11,"volume":7,"bellicosity":0,"ap":60,"cure_count":8,"unit":"位","age":14,"DS_DATA_VERSION":19991107,"addition_damage":10,"evil":-1,"default_actions":,"gender":"男性","mob_record":({"/open/world1/tmr/area/npc/frog","/open/world1/tmr/area/npc/frog","/open/world1/tmr/area/npc/dog","/open/world1/tmr/area/npc/dog","/open/world1/cominging/area/npc/child",}),"guild_gifts":({5,5,5,5,}),"guild_rank":"無家可歸的流浪漢","addition_shield":10,"name":"大海嘯","Merits":(["wit":0,"sou":0,"bio":0,"tec":0,"bar":0,]),"channels":({"chat","rumor","tchat",}),"supply_point":80,"exp":553,"disable_type":" <毫無呼吸>","race":"human","level":2,"dex":2,"max_ap":60,"int":2,"birthday":998909783,"con":2,"str":2,"id":"oghy","addition_armor":10,"mud_age":6277,"startroom":"/open/world1/tmr/area/hotel","attitude":"peaceful","newbie":1,"env":([]),"hp":80,"MKS":5,"heart_modify":0,"mp":60,"wound":(["right_leg":0,"head":0,"left_leg":0,"left_arm":0,"body":0,"right_arm":0,]),"heart_beat_rate":6,"max_mp":60,"board_last_read":(["jail_board":1000639840,"tmr_hotel_b":1000641896,]),])
+skills (["combat":5,"dodge":2,"unarmed":3,])
+learned (["combat":16,])
+alias (["hh":"do look off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,enter,n,n,n,n,n,n,n,n,look on,l",])
+autoload ({})

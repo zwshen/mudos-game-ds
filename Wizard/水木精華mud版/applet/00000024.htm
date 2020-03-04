@@ -1,0 +1,48 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清华站∶精华区</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+<A Name="top"></a>
+发信人:&nbsp;nerd&nbsp;(总以为自己已经长大),&nbsp;信区:&nbsp;Mud_Builder&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+标&nbsp;&nbsp;题:&nbsp;Re:&nbsp;关于mud中的email问题&nbsp;<BR>
+发信站:&nbsp;BBS&nbsp;水木清华站&nbsp;(Sun&nbsp;May&nbsp;30&nbsp;01:43:42&nbsp;1999)&nbsp;<BR>
+&nbsp;<BR>
+【&nbsp;在&nbsp;bogy&nbsp;(雪妖)&nbsp;的大作中提到:&nbsp;】&nbsp;<BR>
+∶<I>&nbsp;恩。这个我已经以上面&quot;没头脑&quot;哥哥的程序调试成了。&nbsp;</I><BR>
+∶<I>&nbsp;只需要一点美化的细致工作了。&nbsp;</I><BR>
+∶<I>&nbsp;这里说的回信是不是说外面给mud的信？&nbsp;</I><BR>
+∶<I>&nbsp;恩。这个我有点明白了。&nbsp;</I><BR>
+∶<I>&nbsp;对unix的东东和smpt的东东我是知道的。&nbsp;</I><BR>
+∶<I>&nbsp;用文件进行数据交换我也会的。&nbsp;</I><BR>
+∶<I>&nbsp;我主要是对mud的网络功能如何调用啥的不是太清楚。&nbsp;</I><BR>
+∶<I>&nbsp;（//papaya&nbsp;bogy..呵呵。。别笑我。。别骂我懒哦。）&nbsp;</I><BR>
+∶<I>&nbsp;例如你上面提到这个“通过mud的binary端口”，我就不知道。。是啥意思。&nbsp;</I><BR>
+∶<I>&nbsp;问题很弱。。不好意思。谢谢。&nbsp;</I><BR>
+mudos新版本（新到什么程度就不知道了）提供binary的模式。（一般&nbsp;<BR>
+是telnet的模式，其实也差不多）。在config.xxx里写：&nbsp;<BR>
+external_port_1&nbsp;:&nbsp;telnet&nbsp;5000&nbsp;<BR>
+external_port_2&nbsp;:&nbsp;binary&nbsp;5004&nbsp;<BR>
+等等，这样5004的端口就是binary的啦，可以用来做各种服务，&nbsp;<BR>
+master.c中的connect的那个端口的参数就有作用了，根据不同的端口&nbsp;<BR>
+启不同的object，这个object用process_input处理收到的东西，可以用&nbsp;<BR>
+printf,&nbsp;receive等来返回给客户端。这样可以写些很简单的服务，比如http&nbsp;:)&nbsp;<BR>
+SMTP也可以，不过一般的端口占不到:PP&nbsp;<BR>
+&nbsp;<BR>
+所以改该sendmail什么的，是不是可以给mud里的玩家一个<A HREF="mailto:id.shell@some.mud.com">id.shell@some.mud.com</A>&nbsp;<BR>
+的email&nbsp;:PP&nbsp;(&nbsp;比如<A HREF="mailto:nerd.mud@xo....">nerd.mud@xo....</A>&nbsp;)&nbsp;<BR>
+--&nbsp;<BR>
+The&nbsp;only&nbsp;difference&nbsp;in&nbsp;the&nbsp;game&nbsp;of&nbsp;love&nbsp;over&nbsp;the&nbsp;last&nbsp;few&nbsp;thousand&nbsp;years&nbsp;<BR>
+is&nbsp;that&nbsp;they've&nbsp;changed&nbsp;trumps&nbsp;from&nbsp;clubs&nbsp;to&nbsp;diamonds.&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--&nbsp;The&nbsp;Indianapolis&nbsp;Star&nbsp;<BR>
+&nbsp;<BR>
+※&nbsp;来源:·BBS&nbsp;水木清华站&nbsp;bbs.net.tsinghua.edu.cn·[FROM:&nbsp;202.112.55.68]&nbsp;<BR>
+<A HREF="00000022.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一页</A>
+<A HREF="index.htm">回到目录</A>
+<A HREF="#top">回到页首</A>
+<A HREF="00000025.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+</BODY></HTML>

@@ -1,0 +1,6 @@
+#/obj/user.c
+conditions ([])
+dbase (["talk_point":8,"mp":60,"DS_DATA_VERSION":19991107,"gender":"¨k©Ê","name":"¬x±Ó³ó","evil":11,"bank":(["past":0,]),"addition_shield":10,"heart_beat_rate":6,"id":"snowwhite","volume":7,"addition_armor":10,"addition_damage":10,"race":"human","channels":({"chat","rumor","tchat",}),"guild_gifts":({5,5,5,5,}),"level":1,"MKS":7,"birthday":1142176864,"wound":(["left_arm":0,"head":0,"right_arm":0,"left_leg":0,"body":0,"right_leg":0,]),"hp":80,"startroom":"/open/world1/tmr/area/hotel","find_butter":1,"exp":1745,"dex":2,"newbie":1,"unit":"¦ì","max_hp":80,"int":2,"age":14,"con":2,"str":2,"default_actions":,"cure_count":12,"attitude":"peaceful","mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog","/open/world1/tmr/area/npc/dog","/open/world1/tmr/area/school/npc/butterfly",}),"max_ap":60,"last_location":"/open/world1/tmr/area/vroad2","max_mp":60,"combat_exp":2,"supply_point":60,"heart_modify":0,"Merits":(["tec":0,"bar":0,"wit":0,"sou":0,"bio":0,]),"ap":60,"actions":,"mud_age":4014,])
+skills (["sword":1,"dodge":1,"combat":4,"unarmed":3,])
+learned (["dodge":0,"combat":9,"unarmed":3,])
+autoload ({"/obj/money/coin:5",})

@@ -1,0 +1,58 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清华站∶精华区</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+<A Name="top"></a>
+发信人:&nbsp;sorceress&nbsp;(李大善人~~~以德服人),&nbsp;信区:&nbsp;Mud_Builder&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+标&nbsp;&nbsp;题:&nbsp;source&nbsp;-&nbsp;texture.h&nbsp;(转载)&nbsp;<BR>
+发信站:&nbsp;BBS&nbsp;水木清华站&nbsp;(Wed&nbsp;Jun&nbsp;14&nbsp;17:40:42&nbsp;2000)&nbsp;<BR>
+&nbsp;<BR>
+【&nbsp;以下文字转载自&nbsp;GAME_Designer&nbsp;讨论区&nbsp;】&nbsp;<BR>
+【&nbsp;原文由&nbsp;yuanmo&nbsp;所发表&nbsp;】&nbsp;<BR>
+//texture.h&nbsp;<BR>
+&nbsp;<BR>
+#ifndef&nbsp;__TEXTURE_H&nbsp;<BR>
+#define&nbsp;__TEXTURE_H&nbsp;<BR>
+&nbsp;<BR>
+#include&quot;objtypes.h&quot;&nbsp;<BR>
+#include&quot;allegro.h&quot;&nbsp;<BR>
+#include&quot;color.h&quot;&nbsp;<BR>
+const&nbsp;enum{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TEX_NONE,&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TEX_PLANE,&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TEX_SHADED,&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TEX_ALPHA&nbsp;<BR>
+};&nbsp;<BR>
+&nbsp;<BR>
+void&nbsp;Enable_Interlace();&nbsp;<BR>
+void&nbsp;Disable_Interlace();&nbsp;<BR>
+unsigned&nbsp;char&nbsp;*LoadTexture(char&nbsp;*name);&nbsp;<BR>
+unsigned&nbsp;char&nbsp;*BMPToTexture(BITMAP&nbsp;*textureBMP);&nbsp;<BR>
+&nbsp;<BR>
+void&nbsp;TextureMap(BITMAP&nbsp;*Buffer,unsigned&nbsp;char&nbsp;*source,&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Point3D&nbsp;*vt0,Point3D&nbsp;*vt1,Point3D&nbsp;*vt2,int&nbsp;mode=TEX_PLANE,CColor*&nbsp;colorTable=NULL);&nbsp;<BR>
+void&nbsp;FillTriangle(BITMAP&nbsp;*Buffer,unsigned&nbsp;char&nbsp;*color,&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Point3D&nbsp;*vt0,Point3D&nbsp;*vt1,Point3D&nbsp;*vt2);&nbsp;<BR>
+void&nbsp;TextureMapFreeWidth(BITMAP&nbsp;*Buffer,unsigned&nbsp;char&nbsp;*source,&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Point3D&nbsp;*vt0,Point3D&nbsp;*vt1,Point3D&nbsp;*vt2,int&nbsp;sl);&nbsp;<BR>
+void&nbsp;TextureMapBorder(BITMAP&nbsp;*Buffer,unsigned&nbsp;char&nbsp;*source,&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Point3D&nbsp;*vt0,Point3D&nbsp;*vt1,Point3D&nbsp;*vt2,long&nbsp;vdis);&nbsp;<BR>
+#endif&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+人是爱玩游戏的动物&nbsp;<BR>
+&nbsp;<BR>
+<A HREF="mailto:yuanmo@263.net">yuanmo@263.net</A>&nbsp;<BR>
+&nbsp;<BR>
+※&nbsp;来源:·BBS&nbsp;水木清华站&nbsp;bbs.net.tsinghua.edu.cn·[FROM:&nbsp;166.111.167.151]&nbsp;<BR>
+<A HREF="00000018.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一页</A>
+<A HREF="index.htm">回到目录</A>
+<A HREF="#top">回到页首</A>
+<A HREF="00000020.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+</BODY></HTML>

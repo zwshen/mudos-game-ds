@@ -1,0 +1,7 @@
+#/obj/user.c
+conditions ([])
+dbase (["hp":84,"name":"íL«Í","cure_count":4,"race":"evil","default_actions":,"volume":7,"actions":,"startroom":"/open/world1/tmr/area/hotel","supply_point":8,"addition_shield":10,"max_mp":66,"max_hp":84,"attitude":"peaceful","heart_beat_rate":6,"newbie":1,"exp":777,"dex":2,"addition_armor":10,"guild_gifts":({5,5,5,5,}),"int":2,"con":2,"str":2,"mp":66,"level":1,"id":"johnchen","max_ap":100,"DS_DATA_VERSION":19991107,"ap":100,"Merits":(["bio":0,"tec":0,"sou":0,"wit":0,"bar":0,]),"addition_damage":10,"evil":-1,"mud_age":60,"talk_point":4,"unit":"¦ì","channels":({"chat","rumor","tchat",}),"age":14,"birthday":1193270586,"gender":"¨k©Ê",])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

@@ -1,0 +1,7 @@
+#/obj/user.c
+conditions ([])
+dbase (["actions":,"evil":-1,"gender":"女性","addition_armor":10,"name":"天下第一味","Merits":(["sou":0,"wit":0,"bar":0,"bio":0,"tec":0,]),"attitude":"peaceful","guild_gifts":({5,5,5,5,}),"startroom":"/open/world1/tmr/area/hotel","talk_point":1,"max_mp":60,"race":"human","addition_damage":10,"max_hp":80,"heart_beat_rate":6,"max_ap":60,"ap":60,"mp":60,"mud_age":12,"newbie":1,"exp":777,"default_actions":,"dex":2,"hp":80,"int":2,"id":"yes","cure_count":1,"DS_DATA_VERSION":19991107,"addition_shield":10,"age":14,"con":2,"str":2,"unit":"位","level":1,"channels":({"chat","rumor","tchat",}),"volume":7,"supply_point":2,"birthday":1180168615,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

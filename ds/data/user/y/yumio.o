@@ -1,0 +1,7 @@
+#/obj/user.c
+conditions ([])
+dbase (["int":2,"mob_record":({"/open/world1/tmr/area/npc/dog","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"wound":(["left_arm":0,"right_leg":0,"left_leg":0,"right_arm":0,"body":4,"head":0,]),"con":2,"str":2,"cure_count":7,"DS_DATA_VERSION":19991107,"actions":,"attitude":"peaceful","family":(["title":"俠客","generation":7,"privs":-1,"family_name":"八極門",]),"guild_gifts":({10,7,0,3,}),"volume":7,"max_mp":60,"title":"八極門第七代俠客","combat_exp":1,"quest":(["not_newbie":1,]),"ap":60,"default_actions":,"MKS":6,"adv_class":1,"addition_shield":10,"evil":11,"Merits":(["sou":0,"bio":0,"wit":0,"tec":0,"bar":0,]),"channels":({"chat","rumor","tchat",}),"gender":"男性","age":14,"id":"yumio","bank":(["past":0,]),"addition_armor":10,"heart_beat_rate":6,"name":"易","race":"human","level":1,"talk_point":8,"max_ap":60,"birthday":1110329739,"supply_point":60,"class1":"八極門","unit":"位","heart_modify":1,"wimpy":50,"last_location":"/open/world1/tmr/area/wbridge","mp":60,"mud_age":2230,"startroom":"/open/world1/tmr/area/hotel","hp":55,"addition_damage":10,"exp":1632,"max_hp":80,"dex":2,])
+skills (["horse-steps":1,"combat":5,"parry":1,"dodge":2,"fork":1,"unarmed":4,"da-fork":1,"bagi_fist":1,"block":1,])
+learned (["combat":52,"dodge":9,"unarmed":22,])
+alias (["1":"enter 石板屋",])
+autoload ({"/obj/money/coin:6",})

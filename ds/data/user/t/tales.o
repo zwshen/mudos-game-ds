@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions ([])
+dbase (["max_hp":110,"gender":"男性","war_score":1,"name":"傳說","addition_shield":10,"help":"class/army","mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"addition_armor":10,"startroom":"/open/world1/tmr/area/hotel","race":"tiger","talk_point":5,"mp":64,"addition_damage":10,"default_actions":,"max_ap":64,"last_location":"/open/world1/tmr/area/street4","cure_count":5,"ap":64,"age":14,"mud_age":74,"unit":"位","newbie":1,"volume":7,"exp":1023,"supply_point":10,"dex":2,"actions":,"hp":110,"int":2,"con":2,"str":2,"id":"tales","DS_DATA_VERSION":19991107,"attitude":"peaceful","level":1,"MKS":2,"Merits":(["bar":0,"bio":0,"tec":0,"sou":0,"wit":0,]),"channels":({"chat","rumor","tchat",}),"max_mp":64,"evil":2,"guild_gifts":({5,5,5,5,}),"heart_beat_rate":6,"birthday":1184413682,])
+skills (["dodge":0,"combat":2,"unarmed":2,])
+learned (["dodge":2,"combat":7,"unarmed":1,])
+items ({})
+autoload ({"/obj/money/coin:1",})
+toDoList ([])
+solved ({})

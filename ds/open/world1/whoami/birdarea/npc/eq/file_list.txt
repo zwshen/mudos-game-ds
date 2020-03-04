@@ -1,0 +1,19 @@
+¥Ø¿ý¡R/open/world1/whoami/birdarea/npc/eq/
+axe.c               ¥ï¤ìÅK©ò            bar-neck.c          îî                
+boots.c             ¦Ð¾c                boots2.c            Á¡¶³              
+cloth.c             ¦Ð¦ç                cloth2.c            Á¡¶³              
+cloud_boots.c       ©b¶³                dagger.c            ¦å¤§¤P­º          
+dagger2.c           ¤P­º                dagger3.c           ¤Q¤èÆF°Ê          
+dagger4.c           ¤ë¤§¤P­º            f_armor.c           ª°¥Ö              
+f_boots.c           ª°¥Ö                f_cloak.c           ª°¥Ö              
+f_cloth.c           ª°¥Ö                f_gloves.c          ª°¥Ö              
+f_hat.c             ª°¥Ö                f_leg.c             ª°°©              
+f_neck.c            ª°¤ú                f_pants.c           ª°¥Ö              
+f_ring.c            ª°²´                f_waist.c           ª°§À              
+f_wrists.c          ª°°©                fist.c              ÆN¤ö              
+fist2.c             ¤Eª°¤ö              fist3.c             ¤Eª°¤ö            
+purple-cloud_chain_armor.c  µµ¶³Áå¥Ò            surcoat.c           Á¡¶³              
+surcoat2.c          ¦Ð¤ò©Ü­·            tiger-strip_pants.c  ªê¯¾              
+tooth.c             ¤E                  tooth1.c            ¤E                
+wit-neck.c          ¤é¤ëªkÁå            wrists.c            ¦Ð¤òÅ@µÃ          
+

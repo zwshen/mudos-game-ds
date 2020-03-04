@@ -1,0 +1,26 @@
+¥Ø¿ý¡R/u/f/faceoff/area/npc/eq/
+armor.c             ¿ûÅKñZ              bear_bolt.c         ºµ¤§ÁuÅs          
+big_pan.c           «CÅK°¨±¾µ§          black_suit.c        ©]¦æ¦ç            
+bolt.c              ©¸½b                bone_helmet.c       ÃT°©²¯            
+clam_shield.c       ¥¨°F¬Þ              cloth.c             ¥¬¦ç              
+cloud_ring.c        ¦©¶³§Ù              crossbow.c          ¤Q¦r¤}            
+dagger.c            ¤P­º                dex_boots.c         ¬ÂÄn¹u            
+dragon_blade.c      Às                  dragon_dagger.c     ¤J¶³Às            
+fire_bullet.c       ¤õÃÄ                fire_gun.c          ¤õºj              
+fur_armor.c         ¾Ô°«¥Ö¥Ò            fur_waist.c         Ã~¥Ö¤y±a          
+gold_fur_boots.c    ª÷µ·«G¥Ö¼i          grass_boots.c       »´¯ó¼i            
+horse_pike.c        Åï°¨ºj              iron_fist.c         ÅK¤ö              
+iron_hammer.c       ÄÃÅKÂñ              lasersword.c        ¹q¥ú¼C            
+longsword.c         ªø¼C                lumber_axe.c        ¼A®ãÅK©ò          
+owl_armor.c         ±ú§Î¥Ö¥Ò            owl_cloth.c         ±ú§ÎªZ¦ç          
+sandels.c           µw­²¯ó¾c            sea-blade.c         ºÑ®ü¾lÃý          
+sea_cloth.c         ¼e¸y¤j°¨±¾          sea_uniform.c       ¨îªA              
+shootbow.c          ©¸                  sky_amult.c         ¤Ñ±úÅ@¨­²Å        
+sky_boots.c         ¦¶³¶¾Ô¹u            sky_cloth.c         ¦¶³¶¾Ô¦ç          
+sky_hat.c           ¦¶³¶¾Ô²¯            sky_helm.c          ¦¶³¶¾Ô²¯          
+sky_neck.c          ¤Ñ±úÅ@¨­²Å          sob_dagger.c        ª_¤ß              
+soldier_boots.c     ¤ô®v­x¹u            steel_blade.c       ¿û¤M              
+steel_dagger.c      ¯Q¿û¤P­º            sword.c             ¯B                
+viper_cloth.c       Á¯ÀA¾Ô¦ç            water_boots.c       ½ò¤ô¹u            
+wood_axe.c          ¤ì¬`©ò              worker_cloth.c      ¤u§@ªA            
+

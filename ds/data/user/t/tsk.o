@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["cure_count":4,"actions":,"age":14,"evil":-1,"gender":"¨k©Ê","id":"tsk","name":"¹É","addition_shield":10,"heart_beat_rate":6,"addition_armor":10,"Merits":(["wit":0,"bar":0,"bio":0,"sou":0,"tec":0,]),"unit":"¦ì","hp":80,"addition_damage":10,"mp":6,"exp":777,"max_hp":80,"dex":2,"int":2,"DS_DATA_VERSION":19991107,"con":2,"str":2,"attitude":"peaceful","max_mp":60,"volume":7,"guild_gifts":({5,5,5,5,}),"talk_point":4,"default_actions":,"mud_age":50,"race":"human","channels":({"chat","rumor","tchat",}),"level":1,"birthday":1116502781,"ap":60,"max_ap":60,"supply_point":8,"startroom":"/open/world2/lichi_town_2/map_5_26","newbie":1,"last_location":"/open/world2/lichi_town_2/map_2_6",])
+autoload ({})

@@ -1,0 +1,17 @@
+
+	implode(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		implode() - 連結多個字串.
+	函數語法:
+		string implode( mixed *arr, string del );
+
+		字串 implode( 混合 *arr, 字串 del );
+	函數用法:
+		把陣列 arr 中可以找到的所有字串連結在一起, 每一個
+		字串之間以字串 del 隔開. 這個函式只會使用陣列中的
+		字串. 陣列中不是字串的元素 (element) 會予以忽略.
+	參考函數:
+		explode(3), sprintf(3)
+	手冊翻譯:
+		Phoebus@ZH	97.Feb.14.		(Writen 5/23/97)

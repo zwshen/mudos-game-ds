@@ -1,0 +1,7 @@
+#/obj/user.c
+conditions ([])
+dbase (["DS_DATA_VERSION":19991107,"max_hp":90,"heart_modify":0,"addition_shield":10,"attitude":"peaceful","Merits":(["bar":0,"sou":0,"tec":0,"bio":0,"wit":0,]),"cure_count":10,"last_location":"/open/world1/tmr/area/street4","talk_point":8,"heart_beat_rate":6,"channels":({"chat","rumor","tchat",}),"addition_armor":10,"mp":60,"mud_age":2812,"newbie":1,"exp":777,"hp":90,"dex":2,"int":2,"con":2,"board_last_read":(["tmr_hotel_b":1230482702,]),"level":1,"supply_point":60,"max_ap":70,"birthday":1231661111,"wound":(["body":0,"left_arm":0,"head":0,"left_leg":0,"right_leg":0,"right_arm":0,]),"unit":"位","evil":-1,"default_actions":,"guild_gifts":({5,5,5,5,}),"actions":,"age":14,"max_mp":60,"ap":70,"volume":7,"race":"titan","id":"andymo","startroom":"/open/world1/tmr/area/hotel","addition_damage":10,"gender":"男性","str":2,"name":"我忘記密碼",])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

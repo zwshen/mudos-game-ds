@@ -1,0 +1,107 @@
+[Fri Dec 31 15:46:08 1999] u/s/sevil/box/helmet.c line 4: parse error
+
+[Fri Dec 31 15:50:31 1999] u/s/sevil/npc/miss.c line 32: A reserved type name cannot be used as a function name.
+
+
+[Fri Dec 31 15:50:31 1999] u/s/sevil/npc/miss.c line 32: parse error
+
+[Fri Dec 31 15:50:31 1999] u/s/sevil/npc/miss.c line 32: Illegal LHS
+
+[Fri Dec 31 15:50:31 1999] u/s/sevil/npc/miss.c line 32: Undefined variable 'ob'
+
+
+[Sat Jan  1 14:18:40 2000] u/s/sevil/npc/toad.c line 7: Undefined variable 'HIW'
+
+
+[Sat Jan  1 14:18:40 2000] u/s/sevil/npc/toad.c line 7: parse error
+
+[Sat Jan  1 14:19:32 2000] u/s/sevil/npc/toad.c line 7: Undefined variable 'HIB'
+
+
+[Sat Jan  1 14:19:32 2000] u/s/sevil/npc/toad.c line 7: parse error
+
+[Sat Jan  1 14:19:50 2000] u/s/sevil/npc/toad.c line 26: parse error
+
+[Sat Jan  1 14:20:47 2000] u/s/sevil/npc/toad.c line 26: parse error
+
+[Sat Jan  1 14:21:18 2000] u/s/sevil/npc/toad.c line 25: parse error
+
+[Sat Jan  1 14:21:43 2000] u/s/sevil/npc/toad.c line 27: parse error
+
+[Sat Jan  1 14:22:09 2000] u/s/sevil/npc/toad.c line 25: parse error
+
+[Sat Jan  1 22:29:51 2000] u/s/sevil/npc/showro.c line 31: parse error
+
+[Sat Jan  1 22:29:51 2000] u/s/sevil/npc/showro.c line 33: Illegal LHS
+
+[Sat Jan  1 22:29:51 2000] u/s/sevil/npc/showro.c line 33: parse error
+
+[Sat Jan  1 22:30:29 2000] u/s/sevil/npc/showro.c line 31: parse error
+
+[Sat Jan  1 22:30:29 2000] u/s/sevil/npc/showro.c line 33: Illegal LHS
+
+[Sat Jan  1 22:30:29 2000] u/s/sevil/npc/showro.c line 33: parse error
+
+[Sat Jan  1 22:30:29 2000] u/s/sevil/npc/showro.c line 31: parse error
+
+[Sat Jan  1 22:30:29 2000] u/s/sevil/npc/showro.c line 33: Illegal LHS
+
+[Sat Jan  1 22:30:29 2000] u/s/sevil/npc/showro.c line 33: parse error
+
+[Sat Jan  1 22:30:35 2000] u/s/sevil/npc/showro.c line 31: parse error
+
+[Sat Jan  1 22:30:35 2000] u/s/sevil/npc/showro.c line 33: Illegal LHS
+
+[Sat Jan  1 22:30:35 2000] u/s/sevil/npc/showro.c line 33: parse error
+
+[Sun Jan  2 01:06:16 2000] u/s/sevil/1f/npc/miss-door.c line 3: parse error
+
+[Sun Jan  2 01:06:38 2000] u/s/sevil/1f/npc/miss-door.c line 3: parse error
+
+[Sun Jan  2 01:19:22 2000] u/s/sevil/1f/npc/miss-door.c line 34: parse error
+
+[Sun Jan  2 01:20:30 2000] u/s/sevil/1f/npc/miss-door.c line 34: parse error
+
+[Sun Jan  2 13:55:50 2000] u/s/sevil/1f/npc/miss-door.c line 41: Undefined variable 'HIC'
+
+
+[Sun Jan  2 13:55:50 2000] u/s/sevil/1f/npc/miss-door.c line 41: parse error
+
+[Sun Jan  2 13:55:50 2000] u/s/sevil/1f/npc/miss-door.c line 50: Illegal LHS
+
+[Sun Jan  2 13:55:50 2000] u/s/sevil/1f/npc/miss-door.c line 50: parse error
+
+[Sun Jan  2 13:55:50 2000] u/s/sevil/1f/npc/miss-door.c line 51: Illegal LHS
+
+[Sun Jan  2 13:55:50 2000] u/s/sevil/1f/npc/miss-door.c line 51: parse error
+
+[Sun Jan  2 13:57:19 2000] u/s/sevil/1f/npc/miss-door.c line 41: Undefined variable 'HIC'
+
+
+[Sun Jan  2 13:57:19 2000] u/s/sevil/1f/npc/miss-door.c line 41: parse error
+
+[Sun Jan  2 13:57:19 2000] u/s/sevil/1f/npc/miss-door.c line 50: Illegal LHS
+
+[Sun Jan  2 13:57:19 2000] u/s/sevil/1f/npc/miss-door.c line 50: parse error
+
+[Sun Jan  2 13:57:19 2000] u/s/sevil/1f/npc/miss-door.c line 51: Illegal LHS
+
+[Sun Jan  2 13:57:19 2000] u/s/sevil/1f/npc/miss-door.c line 51: parse error
+
+[Sun Jan  2 13:59:49 2000] u/s/sevil/1f/npc/miss-door.c line 45: Undefined variable 'HIC'
+
+
+[Sun Jan  2 13:59:49 2000] u/s/sevil/1f/npc/miss-door.c line 45: parse error
+
+[Sun Jan  2 13:59:49 2000] u/s/sevil/1f/npc/miss-door.c line 58: Illegal LHS
+
+[Sun Jan  2 13:59:49 2000] u/s/sevil/1f/npc/miss-door.c line 58: parse error
+
+[Sun Jan  2 13:59:49 2000] u/s/sevil/1f/npc/miss-door.c line 59: Illegal LHS
+
+[Sun Jan  2 13:59:49 2000] u/s/sevil/1f/npc/miss-door.c line 59: parse error
+
+[Tue Jan  4 14:26:34 2000] u/s/sevil/box/gun2.c line 20: parse error
+
+[Tue Jan  4 14:27:04 2000] u/s/sevil/box/gun2.c line 20: parse error
+

@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions ([])
+dbase (["gender":"男性","mob_record":({"/open/world1/tmr/area/npc/dog",}),"max_hp":80,"name":"柯爾克","race":"human","last_location":"/open/world1/tmr/area/street4","talk_point":8,"addition_damage":10,"startroom":"/open/world1/tmr/area/hotel","mp":60,"max_ap":60,"MKS":1,"ap":60,"mud_age":154,"guild_gifts":({5,5,5,5,}),"age":14,"newbie":1,"exp":971,"war_score":1,"hp":80,"default_actions":,"dex":2,"int":2,"cure_count":10,"addition_shield":10,"volume":7,"con":2,"str":2,"actions":,"level":1,"id":"kirk","DS_DATA_VERSION":19991107,"unit":"位","supply_point":20,"heart_beat_rate":6,"evil":-1,"addition_armor":10,"Merits":(["wit":0,"bar":0,"bio":0,"tec":0,"sou":0,]),"channels":({"chat","rumor","tchat",}),"max_mp":60,"attitude":"peaceful","birthday":1189626139,])
+skills (["combat":2,"unarmed":1,"dodge":0,])
+learned (["combat":0,"unarmed":2,"dodge":2,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

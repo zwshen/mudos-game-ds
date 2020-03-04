@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["dex":2,"DS_DATA_VERSION":19991107,"max_ap":60,"unit":"位","race":"human","gender":"男性","level":1,"int":2,"id":"stest","con":2,"supply_point":60,"talk_point":8,"mp":60,"max_mp":60,"volume":7,"name":"測試","birthday":1086520505,"str":2,"guild_gifts":({5,5,5,5,}),"heart_modify":0,"last_location":"/open/world1/tmr/area/hotel","evil":-1,"default_actions":,"cwd":"/u/s/stest/","addition_damage":10,"Merits":(["sou":0,"bar":0,"bio":0,"wit":0,"tec":0,]),"startroom":"/open/world1/tmr/area/hotel","cwf":"/u/s/stest/snoopitem.c","addition_shield":10,"max_hp":80,"newbie":1,"wound":(["left_arm":0,"left_leg":0,"body":0,"head":0,"right_leg":0,"right_arm":0,]),"ap":60,"age":14,"cure_count":14,"actions":,"addition_armor":10,"hp":80,"heart_beat_rate":6,"attitude":"peaceful","mud_age":517,"channels":({"chat","rumor","tchat",}),"exp":777,])
+autoload ({"/u/s/stest/snoopitem",})

@@ -1,0 +1,108 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>新wiz学习</title>
+</head>
+
+<body background="Back047.gif" tppabs="http://cdxkx.easthome.net/Back047.gif" bgproperties="fixed">
+
+<p><font face="楷体_GB2312">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="4"> 
+MudOS的汉化</font><br>
+<br>
+（不适用于95/NT下的MudOS)<br>
+<br>
+□ driver<br>  
+<br>  
+有关 MudOS 的版本：<br>  
+早期的 MudOS 是以 0.9.xx.xx 来标明的，自从 0.9.20 以後全面改为 v20.xx<br>  
+前面的数字代表 major version，後面的数字代表 minor version，alpha/beta<br>  
+版则在後面加上 a 或 b 及版本数字。<br>  
+测试版的 driver release 的速度相当的快，大约每一至二星期就<br>  
+会有新的版本，所有有关 MudOS driver 的讨论，公告事项都可以在 Idea<br>  
+Exchange 里找到 (ie.imaginary.com 7890)。一般来说, alpha 版的 driver&nbsp;<br> 
+都有些新增的功能，而 beta 版则多半是 bug fix，所有新增或修改的相关<br>  
+资料都可以在 ChangeLog.* 中查到。driver 的原始程式码可由&nbsp;<br> 
+ftp.imaginary.com 取得，路径为 pub/LPC/servers/MudOS。<br>  
+<br>  
+Compile driver：<br>  
+A. options.h<br>  
+参考 mudlib release 的 options.h 修改，因为每版 driver 所附的 options.h<br>  
+都不相同，所以不要直接 copy 盖过去，花点时间一项一项比对。该 #define 的<br>  
+define，该 #undef 的 undef。&nbsp;<br> 
+<br> 
+B. driver 中文化修改：<br>  
+适用於 0.9.20.xx 到 v22a22 之间的版本，位置跟档案大小可能有些差异，&nbsp;<br> 
+不过原理相同。<br> 
+注：ES2 mudlib 已知可以在 v21c2，v21.6，v21.7b6，v22a22 等版本之&nbsp;<br> 
+driver 上使用，理论上来说 0.9.20 之前的 driver 不能用来执行 ES2<br>  
+mudlib，有关其他 mudlib 的相容性请参考该 mudlib 所附之文件。<br>  
+<br>  
+1. 在 comm.c 找到以下 function：<br>  
+static void telnet_neg P2(char *, to, char *, from)<br>  
+{<br>  
+.<br>  
+.<br>  
+&lt;省略><br>  
+.<br>  
+.<br>  
+default:<br>  
+if (ch &amp; 0x80) { ——┐将这三行删掉以後就 driver 就可以<br>  
+continue; │输入中文了...<br>  
+} ——┘<br>  
+.<br>  
+.<br>  
+&lt;省略><br>  
+} /* telnet_neg() */<br>  
+<br>  
+<br>  
+2. 在 ed.c 中找到以下 function：<br>  
+static void prntln P3(char *, str, int, vflg, int, len)<br>  
+{<br>  
+.<br>  
+.<br>  
+&lt;省略><br>  
+.<br>  
+.<br>  
+if (*str &lt; ' ' || *str >= DEL) {<br>  
+^^^^^^^^^^^^^^^^^^^^^^^^^^^&nbsp;<br> 
+改成: ((*str &lt; ' ') &amp;&amp; (*str >='\0'))<br>  
+switch (*str) {<br>  
+case '\t':<br>  
+/* have to be smart about this or the indentor will fail */<br>  
+*line++ = ' ';<br>  
+while ((line - start) % 8) &lt;--- 8 改成 4<br>  
+.<br>  
+.<br>  
+&lt;省略><br>  
+.<br>  
+.<br>  
+}<br>  
+<br>  
+C. 执行 build.MudOS (v21 之後, 之前的版本请跳到 D)<br>  
+直接执行 build.MudOS，该程式会自动去测试你的系统并帮你设好 makefile。<br>  
+执行完毕後跳到 E。<br>  
+<br>  
+D. 修改 makefile<br>  
+如果你用的是比较旧的版本 (如v21c2)，请直接修改 makefile (如果用 gcc,&nbsp;<br> 
+修改 GNUmakefile。注: 如果你是用 linux，因为 linux 的 cc == gcc, 请<br>  
+直接改 GNUmakefile)。<br>  
+<br>  
+E. 执行 make，或是 make install (系统自动安装)<br>  
+compile 好後应该会有个 driver 和 addr_server 的 binary。有关 addr_server<br>  
+的功能及用法请参考相关文件。有关 driver 档的执行也请参考相关文件。<br>  
+<br>  
+其他：<br>  
+如果你在 compile 好 driver 後又修改 driver 程式的任何一部份 (options.h,<br>  
+或是其他 .h, .c 档) 请重新 make. (建议你在 make 之前先执行 make clean,<br>  
+把旧的 object 档清掉)<br>  
+<br>  
+<br>  
+</font>  
+</p>  
+  
+</body>  
+  
+</html>  

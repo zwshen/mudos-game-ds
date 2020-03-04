@@ -1,0 +1,7 @@
+#/obj/user.c
+conditions ([])
+dbase (["help":"skill/","DS_DATA_VERSION":19991107,"actions":,"addition_damage":10,"attitude":"peaceful","evil":-1,"volume":7,"guild_gifts":({5,5,5,5,}),"unit":"位","talk_point":8,"Merits":(["bar":0,"tec":0,"sou":0,"bio":0,"wit":0,]),"ap":60,"cure_count":11,"addition_shield":10,"max_mp":60,"channels":({"chat","rumor","tchat",}),"mp":60,"race":"human","mud_age":160,"age":14,"newbie":1,"exp":777,"id":"kwindk","hp":80,"dex":2,"supply_point":22,"addition_armor":10,"int":2,"con":2,"startroom":"/open/world1/tmr/area/hotel","level":1,"gender":"男性","max_ap":60,"default_actions":,"str":2,"birthday":1237257995,"max_hp":80,"heart_beat_rate":6,"name":"東方宇",])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

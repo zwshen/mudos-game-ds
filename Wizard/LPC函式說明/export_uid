@@ -1,0 +1,20 @@
+
+	export_uid(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		export_uid() -  設定一個物件的使用者識別名稱 (user id,
+				uid).
+	函數用法:
+		int export_uid( object ob );
+
+		整數 export_uid( 物件 ob );
+	函數用法:
+		設定 ob 的使用者識別名稱 (uid) 為 this_object() 的
+		有效使用者識別名稱 (effective user id, effective uid).
+		這個函式只有在 ob 的有效使用者識別名稱為 0 時有效.
+	參考函數:
+		this_object(3), seteuid(3), getuid(3), geteuid(3),
+		previous_object(3), valid_seteuid(4)
+	手冊翻譯:
+		Phoebus@ZH	97.Feb.12.		(Writen 5/23/97)
+

@@ -1,0 +1,16 @@
+
+	living(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		living() - 判斷一個指定的物件是否「活著」
+	函數語法:
+		int living( object ob );
+
+		整數 living( 物件 ob );
+	函數用法:
+		如果 ob 是一個活著的物件則傳回真值 (true, 即非零值)
+		.  (也就是說, ob 曾經呼叫過 enable_commands() )
+	參考函數:
+		interactive(3), enable_commands(3)
+	手冊翻譯:
+		Phoebus@ZH	97.Feb.18.		(Writen 5/23/97)

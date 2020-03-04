@@ -1,0 +1,50 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清華站︰精華區</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+<A Name="top"></a>
+發信人:&nbsp;windeye&nbsp;(用泥巴砌房子),&nbsp;信區:&nbsp;wizard&nbsp;<BR>
+標&nbsp;&nbsp;題:&nbsp;1。LPC入門(上)&nbsp;<BR>
+日&nbsp;&nbsp;期:&nbsp;Wed&nbsp;May&nbsp;28&nbsp;22:30:58&nbsp;1997&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+LPC就是我們用來寫MUD的語言啦，它的語法和C&nbsp;基本一樣。它獨特之處在於有簡單的&nbsp;<BR>
+OOP特性(簡單但很有用:PP)，還有一個C裡面沒有的HASH表的類型：MAPPING&nbsp;<BR>
+LPC和C還有一個不同是其主函數是CREATE()而不是MAIN()。create()別寫錯哦:PP&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;LPC裡面主要的(也是寫MUD所足夠的)數據類型有int,string,mapping,object,&nbsp;<BR>
+mixed。下面主要講一下這些類型了。&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;因為整數類型對於寫MUD已經足夠，所以不用FLOAT了。同樣的，因為我們的&nbsp;<BR>
+漢字是雙字節的，所以CHAR類型其實也沒用，只需要STRING&nbsp;類型就可以了。&nbsp;<BR>
+STRING的定義，這裡要提一下：string常量的賦值，假如是常量的話可以只用&nbsp;<BR>
+“連接”的辦法代替string，例如:&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;string&nbsp;str&nbsp;=&nbsp;&quot;我&quot;&nbsp;&quot;們&quot;&nbsp;;那麼結果是str&nbsp;==&nbsp;&quot;我們&quot;&nbsp;<BR>
+同樣的str&nbsp;=&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;我&quot;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;們&quot;;也是一樣，空格與換行在LPC編譯時是被忽略的，所以我們&nbsp;<BR>
+寫MUD的時侯不仿多些TAB和換行，這樣程序容易看些。&nbsp;<BR>
+當然，除了直接連接之外還可以用&nbsp;+&nbsp;連接。在有變量的時侯就要用了。例如：&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;string&nbsp;str0&nbsp;=&nbsp;&quot;我們&quot;;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;string&nbsp;str1&nbsp;=&nbsp;&quot;和&quot;+str0+&quot;大家&quot;;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;結果是str1&nbsp;==&nbsp;&quot;和我們大家&quot;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;mixed是一個比較特別的類型。mixed&nbsp;類型的變量可以賦任何其他類型的值。&nbsp;<BR>
+這在未知變量類型的時侯非常有用。不過一般情況下很少會用到mixed。&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;LPC裡面沒有“指針”的概念。在變量名前面加&nbsp;*&nbsp;的定義表示數組。如int&nbsp;*a&nbsp;<BR>
+表示a&nbsp;是整數數組。一般來說我們定義數組時是未知其大小的。所以定義時不用像&nbsp;<BR>
+C&nbsp;那樣給定大小。數組和MAPPING有些類似，所以將在下面和MAPPING一起講它們&nbsp;<BR>
+的操作。&nbsp;<BR>
+--&nbsp;<BR>
+&nbsp;<BR>
+<A HREF="00000000.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一頁</A>
+<A HREF="index.htm">回到目錄</A>
+<A HREF="#top">回到頁首</A>
+<A HREF="00000002.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+</BODY></HTML>

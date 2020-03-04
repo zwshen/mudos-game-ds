@@ -1,0 +1,6 @@
+#/obj/user.c
+ghost 1
+dbase (["ap":60,"dex":2,"wound":(["body":2,]),"DS_DATA_VERSION":19991107,"mud_age":124,"int":2,"con":2,"bellicosity":0,"str":2,"evil":2,"addition_shield":10,"unit":"位","Merits":(["wit":0,"bio":0,"bar":0,"tec":0,"sou":0,]),"guild_gifts":({5,5,5,5,}),"addition_armor":10,"MKS":1,"mp":3,"default_actions":,"max_ap":60,"disable_type":" <毫無呼吸>","channels":({"chat","rumor","tchat",}),"cure_count":7,"race":"human","gender":"男性","level":1,"id":"luck","heart_modify":0,"talk_point":7,"addition_damage":10,"name":"小小","birthday":1102907591,"age":14,"attitude":"peaceful","supply_point":14,"actions":,"startroom":"/open/world2/lichi_town_2/map_5_26","combat_exp":0,"mob_record":({"/open/world1/cominging/area/npc/dove",}),"volume":7,"newbie":1,"last_location":"/open/world2/anfernee/start/prayroom","max_hp":80,"heart_beat_rate":6,"hp":3,"max_mp":60,"exp":799,])
+skills (["unarmed":2,"combat":2,])
+learned (["unarmed":0,])
+autoload ({})

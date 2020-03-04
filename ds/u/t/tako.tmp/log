@@ -1,0 +1,990 @@
+[Sun Jul 30 00:53:35 2000] u/t/tako/redsword.c line 2: Unrecognised # directive before void create()
+
+[Sun Jul 30 00:53:35 2000] u/t/tako/redsword.c line 5: Undefined variable 'HIR' before HIW"¼C"NOR, ({"red-n
+
+[Sun Jul 30 00:53:35 2000] u/t/tako/redsword.c line 5: parse error before HIW"¼C"NOR, ({"red-n
+
+[Sun Jul 30 01:49:28 2000] u/t/tako/robot.c line 69: Left argument of -> is not a class before ("be");
+
+[Sun Jul 30 01:49:28 2000] u/t/tako/robot.c line 69: parse error before ("be");
+
+[Sun Jul 30 01:52:08 2000] u/t/tako/man.c line 2: Unrecognised # directive before void create()
+
+[Sun Jul 30 01:52:08 2000] u/t/tako/man.c line 5: Undefined function set_name before ;
+
+[Sun Jul 30 01:52:08 2000] u/t/tako/man.c line 11: Undefined function set before ;
+
+[Sun Jul 30 01:52:08 2000] u/t/tako/man.c line 16: Undefined function setup before ;
+
+[Sun Jul 30 01:52:08 2000] u/t/tako/man.c line 69: Left argument of -> is not a class before ("be");
+
+[Sun Jul 30 01:52:08 2000] u/t/tako/man.c line 69: parse error before ("be");
+
+[Sun Jul 30 08:09:27 2000] u/t/tako/man.c line 2: Unrecognised # directive before void create()
+
+[Sun Jul 30 08:09:27 2000] u/t/tako/man.c line 5: Undefined function set_name before ;
+
+[Sun Jul 30 08:09:27 2000] u/t/tako/man.c line 11: Undefined function set before ;
+
+[Sun Jul 30 08:09:27 2000] u/t/tako/man.c line 16: Undefined function setup before ;
+
+[Sun Jul 30 08:09:27 2000] u/t/tako/man.c line 69: Left argument of -> is not a class before ("be");
+
+[Sun Jul 30 08:09:27 2000] u/t/tako/man.c line 69: parse error before ("be");
+
+[Sun Jul 30 08:09:33 2000] u/t/tako/man.c line 2: Unrecognised # directive before void create()
+
+[Sun Jul 30 08:09:33 2000] u/t/tako/man.c line 5: Undefined function set_name before ;
+
+[Sun Jul 30 08:09:33 2000] u/t/tako/man.c line 11: Undefined function set before ;
+
+[Sun Jul 30 08:09:33 2000] u/t/tako/man.c line 16: Undefined function setup before ;
+
+[Sun Jul 30 08:09:33 2000] u/t/tako/man.c line 69: Left argument of -> is not a class before ("be");
+
+[Sun Jul 30 08:09:33 2000] u/t/tako/man.c line 69: parse error before ("be");
+
+[Sun Jul 30 08:20:52 2000] u/t/tako/redsword.c line 2: Unrecognised # directive before void create()
+
+[Sun Jul 30 08:20:52 2000] u/t/tako/redsword.c line 5: Undefined variable 'HIR' before HIW"¼C"NOR, ({"red-n
+
+[Sun Jul 30 08:20:52 2000] u/t/tako/redsword.c line 5: parse error before HIW"¼C"NOR, ({"red-n
+
+[Sun Jul 30 08:20:56 2000] u/t/tako/redsword.c line 2: Unrecognised # directive before void create()
+
+[Sun Jul 30 08:20:56 2000] u/t/tako/redsword.c line 5: Undefined variable 'HIR' before HIW"¼C"NOR, ({"red-n
+
+[Sun Jul 30 08:20:56 2000] u/t/tako/redsword.c line 5: parse error before HIW"¼C"NOR, ({"red-n
+
+[Mon Jul 31 22:07:01 2000] u/t/tako/man.c line 2: Unrecognised # directive before void create()
+
+[Mon Jul 31 22:07:01 2000] u/t/tako/man.c line 5: Undefined function set_name before ;
+
+[Mon Jul 31 22:07:01 2000] u/t/tako/man.c line 11: Undefined function set before ;
+
+[Mon Jul 31 22:07:01 2000] u/t/tako/man.c line 16: Undefined function setup before ;
+
+[Mon Jul 31 22:07:01 2000] u/t/tako/man.c line 69: Left argument of -> is not a class before ("be");
+
+[Mon Jul 31 22:07:01 2000] u/t/tako/man.c line 69: parse error before ("be");
+
+[Mon Jul 31 22:07:21 2000] u/t/tako/redsword.c line 2: Unrecognised # directive before void create()
+
+[Mon Jul 31 22:07:21 2000] u/t/tako/redsword.c line 5: Undefined variable 'HIR' before HIW"¼C"NOR, ({"red-n
+
+[Mon Jul 31 22:07:21 2000] u/t/tako/redsword.c line 5: parse error before HIW"¼C"NOR, ({"red-n
+
+[Mon Jul 31 22:56:50 2000] u/t/tako/area/tsyo.c line 7: parse error before ",@LONG
+
+[Mon Jul 31 22:56:50 2000] u/t/tako/area/tsyo.c line 45: End of file in string before the end of line
+
+[Mon Jul 31 22:58:30 2000] u/t/tako/area/tsyo.c line 7: parse error before ",@LONG
+
+[Mon Jul 31 22:58:30 2000] u/t/tako/area/tsyo.c line 45: End of file in string before 	if( sscanf(arg, "%s
+
+[Mon Jul 31 23:02:40 2000] u/t/tako/area/redsoilder.c line 6: parse error before ",20);
+
+[Mon Jul 31 23:02:40 2000] u/t/tako/area/redsoilder.c line 19: $var illegal outside of function pointer. before sword.c")->wield();
+
+[Mon Jul 31 23:02:40 2000] u/t/tako/area/redsoilder.c line 55: End of file in string before |¡Ä|¡Ä|_|[33m|¢i|[
+
+[Mon Jul 31 23:02:44 2000] u/t/tako/area/redsoilder.c line 6: parse error before ",20);
+
+[Mon Jul 31 23:02:44 2000] u/t/tako/area/redsoilder.c line 19: $var illegal outside of function pointer. before sword.c")->wield();
+
+[Mon Jul 31 23:02:44 2000] u/t/tako/area/redsoilder.c line 55: End of file in string before |¡Ä|¡Ä|_|[33m|¢i|[
+
+[Mon Jul 31 23:02:44 2000] u/t/tako/area/redsoilder.c line 6: parse error before ",20);
+
+[Mon Jul 31 23:02:44 2000] u/t/tako/area/redsoilder.c line 19: $var illegal outside of function pointer. before sword.c")->wield();
+
+[Mon Jul 31 23:02:44 2000] u/t/tako/area/redsoilder.c line 55: End of file in string before |¡Ä|¡Ä|_|[33m|¢i|[
+
+[Mon Jul 31 23:04:10 2000] u/t/tako/area/redman.c line 6: parse error before ",50);
+
+[Mon Jul 31 23:04:10 2000] u/t/tako/area/redman.c line 19: $var illegal outside of function pointer. before sword.c")->wield();
+
+[Mon Jul 31 23:04:10 2000] u/t/tako/area/redman.c line 55: End of file in string before  send to this mud, a
+
+[Mon Jul 31 23:34:00 2000] u/t/tako/area/tsyo.c line 7: parse error before ",@LONG
+
+[Mon Jul 31 23:34:00 2000] u/t/tako/area/tsyo.c line 45: End of file in string before  + file + ")¡C\n");
+
+[Tue Aug  1 00:52:25 2000] u/t/tako/onlysword.c line 41: parse error before the end of line
+
+[Tue Aug  1 00:52:25 2000] u/t/tako/onlysword.c line 48: Undefined variable 'me' before query("str")-random(
+
+[Tue Aug  1 00:52:25 2000] u/t/tako/onlysword.c line 48: Illegal LHS before the end of line
+
+[Tue Aug  1 00:52:25 2000] u/t/tako/onlysword.c line 48: parse error before the end of line
+
+[Tue Aug  1 00:52:25 2000] u/t/tako/onlysword.c line 49: Illegal LHS before the end of line
+
+[Tue Aug  1 00:52:25 2000] u/t/tako/onlysword.c line 49: parse error before the end of line
+
+[Tue Aug  1 00:52:25 2000] u/t/tako/onlysword.c line 55: Warning: Unknown \ escape. before ¸õ¨ì¤Q¤èÆF°Êªº®ÇÃä¡C
+
+[Tue Aug  1 00:55:05 2000] u/t/tako/only sword.c line 40: parse error before the end of line
+
+[Tue Aug  1 00:55:05 2000] u/t/tako/only sword.c line 47: Undefined variable 'me' before query("str")-random(
+
+[Tue Aug  1 00:55:05 2000] u/t/tako/only sword.c line 47: Illegal LHS before the end of line
+
+[Tue Aug  1 00:55:05 2000] u/t/tako/only sword.c line 47: parse error before the end of line
+
+[Tue Aug  1 00:55:05 2000] u/t/tako/only sword.c line 48: Illegal LHS before the end of line
+
+[Tue Aug  1 00:55:05 2000] u/t/tako/only sword.c line 48: parse error before the end of line
+
+[Tue Aug  1 00:55:05 2000] u/t/tako/only sword.c line 54: Warning: Unknown \ escape. before ¸õ¨ì¤Q¤èÆF°Êªº®ÇÃä\n
+
+[Tue Aug  1 00:55:59 2000] u/t/tako/only sword.c line 40: parse error before the end of line
+
+[Tue Aug  1 00:55:59 2000] u/t/tako/only sword.c line 47: Undefined variable 'me' before query("str")-random(
+
+[Tue Aug  1 00:55:59 2000] u/t/tako/only sword.c line 47: Illegal LHS before the end of line
+
+[Tue Aug  1 00:55:59 2000] u/t/tako/only sword.c line 47: parse error before the end of line
+
+[Tue Aug  1 00:55:59 2000] u/t/tako/only sword.c line 48: Illegal LHS before the end of line
+
+[Tue Aug  1 00:55:59 2000] u/t/tako/only sword.c line 48: parse error before the end of line
+
+[Tue Aug  1 00:55:59 2000] u/t/tako/only sword.c line 54: Warning: Unknown \ escape. before ¸õ¨ì¤Q¤èÆF°Êªº®ÇÃä\n
+
+[Tue Aug  1 00:57:09 2000] u/t/tako/only sword.c line 40: parse error before the end of line
+
+[Tue Aug  1 00:57:09 2000] u/t/tako/only sword.c line 47: Undefined variable 'me' before query("str")-random(
+
+[Tue Aug  1 00:57:09 2000] u/t/tako/only sword.c line 47: Illegal LHS before the end of line
+
+[Tue Aug  1 00:57:09 2000] u/t/tako/only sword.c line 47: parse error before the end of line
+
+[Tue Aug  1 00:57:09 2000] u/t/tako/only sword.c line 48: Illegal LHS before the end of line
+
+[Tue Aug  1 00:57:09 2000] u/t/tako/only sword.c line 48: parse error before the end of line
+
+[Tue Aug  1 00:57:09 2000] u/t/tako/only sword.c line 54: Warning: Unknown \ escape. before ¸õ¨ì¤Q¤èÆF°Êªº®ÇÃä\n
+
+[Tue Aug  1 01:03:07 2000] u/t/tako/only.c line 56: Warning: Unknown \ escape. before ¸õ¨ì¤Q¤èÆF°Êªº®ÇÃä\n
+
+[Tue Aug  1 01:14:22 2000] u/t/tako/only-sword.c line 56: Warning: Unknown \ escape. before ¸õ¨ì¤Q¤èÆF°Êªº®ÇÃä\n
+
+[Tue Aug  1 01:17:26 2000] u/t/tako/only_sword.c line 56: Warning: Unknown \ escape. before ¸õ¨ì¤Q¤èÆF°Êªº®ÇÃä\n
+
+[Tue Aug  1 02:23:00 2000] u/t/tako/only_sword.c line 56: Warning: Unknown \ escape. before ¸õ¨ì¤Q¤èÆF°Êªº®ÇÃä\n
+
+[Tue Aug  1 02:23:10 2000] u/t/tako/only_sword.c line 56: Warning: Unknown \ escape. before ¸õ¨ì¤Q¤èÆF°Êªº®ÇÃä\n
+
+[Tue Aug  1 07:44:18 2000] u/t/tako/only_sword.c line 56: Warning: Unknown \ escape. before ¸õ¨ì¤Q¤èÆF°Êªº®ÇÃä\n
+
+[Tue Aug  1 22:14:55 2000] u/t/tako/only_sword.c line 56: Warning: Unknown \ escape. before ¸õ¨ì¤Q¤èÆF°Êªº®ÇÃä\n
+
+[Tue Aug  1 22:30:27 2000] u/t/tako/area/redman.c line 6: parse error before ",50);
+
+[Tue Aug  1 22:30:27 2000] u/t/tako/area/redman.c line 19: $var illegal outside of function pointer. before sword.c")->wield();
+
+[Tue Aug  1 22:30:27 2000] u/t/tako/area/redman.c line 55: End of file in string before >do_save(this_object
+
+[Tue Aug  1 22:32:49 2000] u/t/tako/tiger+blade.c line 1: parse error before ansi.h>
+
+[Tue Aug  1 22:49:57 2000] u/t/tako/chi+yo.c line 8: parse error before ) );
+
+[Tue Aug  1 22:53:15 2000] u/t/tako/ys+yo.c line 8: parse error before ) );
+
+[Tue Aug  1 22:55:55 2000] u/t/tako/area/ts^yo.c line 8: parse error before  );
+
+[Tue Aug  1 23:02:37 2000] u/t/tako/area/area1.c line 1: Unrecognised # directive before #inclde <room.h>
+
+[Tue Aug  1 23:02:37 2000] u/t/tako/area/area1.c line 2: Unrecognised # directive before #inherit ROOM;
+
+[Tue Aug  1 23:02:37 2000] u/t/tako/area/area1.c line 3: Unrecognised # directive before void create()
+
+[Tue Aug  1 23:02:37 2000] u/t/tako/area/area1.c line 6: Undefined variable 'MAG' before NOR);
+
+[Tue Aug  1 23:02:37 2000] u/t/tako/area/area1.c line 6: parse error before NOR);
+
+[Tue Aug  1 23:02:37 2000] u/t/tako/area/area1.c line 26: End of file in text block before rs","forest");
+
+[Tue Aug  1 23:06:03 2000] u/t/tako/area/area.1.c line 1: Unrecognised # directive before #inclde <room.h>
+
+[Tue Aug  1 23:06:03 2000] u/t/tako/area/area.1.c line 2: Unrecognised # directive before #inherit ROOM;
+
+[Tue Aug  1 23:06:03 2000] u/t/tako/area/area.1.c line 3: Unrecognised # directive before void create()
+
+[Tue Aug  1 23:06:03 2000] u/t/tako/area/area.1.c line 6: parse error before s¸]);
+
+[Tue Aug  1 23:06:03 2000] u/t/tako/area/area.1.c line 26: End of file in text block before owmap(this_object())
+
+[Tue Aug  1 23:10:23 2000] u/t/tako/area/area-1.c line 5: parse error before s¸]);
+
+[Tue Aug  1 23:15:15 2000] u/t/tako/area/area*1.c line 7: parse error before J¹³"NOR,§A¤ß¦³»â\\n"
+
+[Tue Aug  1 23:16:54 2000] u/t/tako/area/area&1.c line 7: parse error before J¹³"NOR,§A¤ß¦³»â\n"
+
+[Tue Aug  1 23:18:34 2000] u/t/tako/area/area%1.c line 11: parse error before * sizeof() == 2 */ 
+
+[Tue Aug  1 23:20:26 2000] u/t/tako/area/no1.c line 12: parse error before open/world1/acme/are
+
+[Tue Aug  1 23:21:42 2000] u/t/tako/area/881.c line 12: parse error before open/world1/acme/are
+
+[Tue Aug  1 23:22:42 2000] u/t/tako/area/221.c line 16: Undefined variable 'land' before no_clean_up", 0);
+
+[Tue Aug  1 23:22:42 2000] u/t/tako/area/221.c line 16: parse error before no_clean_up", 0);
+
+[Tue Aug  1 23:22:42 2000] u/t/tako/area/221.c line 26: End of file in string before          ¢g¢i¢i¢g   
+
+[Tue Aug  1 23:33:46 2000] u/t/tako/area/area(1).c line 1: parse error before include <ansi.h>inhe
+
+[Wed Aug  2 18:26:58 2000] u/t/tako/only_sword.c line 56: Warning: Unknown \ escape. before ¸õ¨ì¤Q¤èÆF°Êªº®ÇÃä\n
+
+[Wed Aug  2 18:27:54 2000] u/t/tako/area/area(1).c line 1: parse error before include <ansi.h>inhe
+
+[Wed Aug  2 18:31:32 2000] u/t/tako/area/room-1.c line 10: parse error before J¹³"NOR,§A¤ß¦³»â\n"
+
+[Wed Aug  2 18:33:04 2000] u/t/tako/area/q.c line 10: parse error before J¹³"NOR,§A¤ß¦³»â\n"
+
+[Wed Aug  2 18:53:34 2000] u/t/tako/tiger**blade.c line 16: parse error before ê¾z"NOR ¤Ï¶Ýªº©R¹B \
+
+[Wed Aug  2 18:53:34 2000] u/t/tako/tiger**blade.c line 50: Undefined variable 'me' before query("str")-random(
+
+[Wed Aug  2 18:53:34 2000] u/t/tako/tiger**blade.c line 50: Illegal LHS before the end of line
+
+[Wed Aug  2 18:53:34 2000] u/t/tako/tiger**blade.c line 50: parse error before the end of line
+
+[Wed Aug  2 18:53:34 2000] u/t/tako/tiger**blade.c line 51: Illegal LHS before the end of line
+
+[Wed Aug  2 18:53:34 2000] u/t/tako/tiger**blade.c line 51: parse error before the end of line
+
+[Wed Aug  2 18:55:38 2000] u/t/tako/tiger**blade.c line 16: parse error before ê¾z"NOR ¤Ï¶Ýªº©R¹B \
+
+[Wed Aug  2 18:55:38 2000] u/t/tako/tiger**blade.c line 50: Undefined variable 'me' before query("str")-random(
+
+[Wed Aug  2 18:55:38 2000] u/t/tako/tiger**blade.c line 50: Illegal LHS before the end of line
+
+[Wed Aug  2 18:55:38 2000] u/t/tako/tiger**blade.c line 50: parse error before the end of line
+
+[Wed Aug  2 18:55:38 2000] u/t/tako/tiger**blade.c line 51: Illegal LHS before the end of line
+
+[Wed Aug  2 18:55:38 2000] u/t/tako/tiger**blade.c line 51: parse error before the end of line
+
+[Wed Aug  2 19:03:54 2000] u/t/tako/tiger()blade.c line 16: parse error before ê¾z"NOR ¤Ï¶Ýªº©R¹B \
+
+[Wed Aug  2 19:03:54 2000] u/t/tako/tiger()blade.c line 51: Undefined variable 'me' before query("str")-random(
+
+[Wed Aug  2 19:03:54 2000] u/t/tako/tiger()blade.c line 51: Illegal LHS before the end of line
+
+[Wed Aug  2 19:03:54 2000] u/t/tako/tiger()blade.c line 51: parse error before the end of line
+
+[Wed Aug  2 19:03:54 2000] u/t/tako/tiger()blade.c line 52: Illegal LHS before the end of line
+
+[Wed Aug  2 19:03:54 2000] u/t/tako/tiger()blade.c line 52: parse error before the end of line
+
+[Wed Aug  2 19:06:00 2000] u/t/tako/super tiger blade.c line 50: parse error before  damage,str,dex,rand
+
+[Wed Aug  2 19:06:00 2000] u/t/tako/super tiger blade.c line 51: parse error before the end of line
+
+[Wed Aug  2 19:09:54 2000] u/t/tako/tiger++blade.c line 49: parse error before  damage,str,dex,rand
+
+[Wed Aug  2 19:09:54 2000] u/t/tako/tiger++blade.c line 50: parse error before the end of line
+
+[Wed Aug  2 19:14:20 2000] u/t/tako/tiger==blade.c line 50: parse error before  damage,str,dex,rand
+
+[Wed Aug  2 19:14:20 2000] u/t/tako/tiger==blade.c line 51: parse error before the end of line
+
+[Wed Aug  2 20:20:39 2000] u/t/tako/area/room~3.c line 18: parse error before the end of line
+
+[Wed Aug  2 20:22:11 2000] u/t/tako/area/room~3.c line 17: parse error before the end of line
+
+[Wed Aug  2 20:27:47 2000] u/t/tako/area/room~1.c line 15: parse error before u/t/tako/workroom.c"
+
+[Wed Aug  2 20:27:47 2000] u/t/tako/area/room~1.c line 31: End of file in string before );
+
+[Wed Aug  2 20:45:26 2000] u/t/tako/area/room~5.c line 12: parse error before N¥þ¨­°_Âû¥Öª¸½D,¥u·Q
+
+[Wed Aug  2 20:46:34 2000] u/t/tako/area/room~5.c line 12: parse error before N¥þ¨­°_Âû¥Öª¸½D,¥u·Q
+
+[Wed Aug  2 20:46:34 2000] u/t/tako/area/room~5.c line 29: End of file in string before fish",4,me);
+
+[Wed Aug  2 20:47:52 2000] u/t/tako/area/room~5.c line 12: parse error before N¥þ¨­°_Âû¥Öª¸½D,¥u·Q
+
+[Wed Aug  2 20:47:52 2000] u/t/tako/area/room~5.c line 30: End of file in string before  (stringp(info["NAME
+
+[Wed Aug  2 22:32:17 2000] u/t/tako/area/chi+++yo.c line 6: Undefined variable 'tsz' before ","joaur"}) );
+
+[Wed Aug  2 22:32:17 2000] u/t/tako/area/chi+++yo.c line 6: parse error before ","joaur"}) );
+
+[Wed Aug  2 22:32:17 2000] u/t/tako/area/chi+++yo.c line 9: Illegal terminator before »·¥j¥Íª«¡A¦­¦b½L¥j¶}
+
+[Wed Aug  2 22:33:45 2000] u/t/tako/area/chi===yo.c line 6: Undefined variable 'tsz' before ","joaur"}) );
+
+[Wed Aug  2 22:33:45 2000] u/t/tako/area/chi===yo.c line 6: parse error before ","joaur"}) );
+
+[Wed Aug  2 22:33:45 2000] u/t/tako/area/chi===yo.c line 9: Illegal terminator before »·¥j¥Íª«¡A¦­¦b½L¥j¶}
+
+[Wed Aug  2 22:36:03 2000] u/t/tako/area/chi***yo.c line 7: parse error before the end of line
+
+[Wed Aug  2 22:36:03 2000] u/t/tako/area/chi***yo.c line 35: Illegal LHS before the end of line
+
+[Wed Aug  2 22:36:03 2000] u/t/tako/area/chi***yo.c line 36: parse error before ( !ob ) 
+
+[Wed Aug  2 22:36:03 2000] u/t/tako/area/chi***yo.c line 41: "#pragma strict_types" requires type of function before "world:world1:vision
+
+[Wed Aug  2 22:36:03 2000] u/t/tako/area/chi***yo.c line 41: parse error before ,
+
+[Thu Aug  3 09:41:00 2000] u/t/tako/area/chi***yo.c line 7: parse error before the end of line
+
+[Thu Aug  3 09:41:00 2000] u/t/tako/area/chi***yo.c line 35: Illegal LHS before the end of line
+
+[Thu Aug  3 09:41:00 2000] u/t/tako/area/chi***yo.c line 36: parse error before ( !ob ) 
+
+[Thu Aug  3 09:41:00 2000] u/t/tako/area/chi***yo.c line 41: "#pragma strict_types" requires type of function before "world:world1:vision
+
+[Thu Aug  3 09:41:00 2000] u/t/tako/area/chi***yo.c line 41: parse error before ,
+
+[Thu Aug  3 09:41:02 2000] u/t/tako/area/chi***yo.c line 7: parse error before the end of line
+
+[Thu Aug  3 09:41:02 2000] u/t/tako/area/chi***yo.c line 35: Illegal LHS before the end of line
+
+[Thu Aug  3 09:41:02 2000] u/t/tako/area/chi***yo.c line 36: parse error before ( !ob ) 
+
+[Thu Aug  3 09:41:02 2000] u/t/tako/area/chi***yo.c line 41: "#pragma strict_types" requires type of function before "world:world1:vision
+
+[Thu Aug  3 09:41:02 2000] u/t/tako/area/chi***yo.c line 41: parse error before ,
+
+[Thu Aug  3 09:45:44 2000] u/t/tako/area/chi***yo.c line 7: parse error before the end of line
+
+[Thu Aug  3 09:45:44 2000] u/t/tako/area/chi***yo.c line 35: Illegal LHS before the end of line
+
+[Thu Aug  3 09:45:44 2000] u/t/tako/area/chi***yo.c line 36: parse error before ( !ob ) 
+
+[Thu Aug  3 09:45:44 2000] u/t/tako/area/chi***yo.c line 41: "#pragma strict_types" requires type of function before "world:world1:vision
+
+[Thu Aug  3 09:45:44 2000] u/t/tako/area/chi***yo.c line 41: parse error before ,
+
+[Thu Aug  3 11:33:48 2000] u/t/tako/area/chi***yo.c line 7: parse error before the end of line
+
+[Thu Aug  3 11:33:48 2000] u/t/tako/area/chi***yo.c line 35: Illegal LHS before the end of line
+
+[Thu Aug  3 11:33:48 2000] u/t/tako/area/chi***yo.c line 36: parse error before ( !ob ) 
+
+[Thu Aug  3 11:33:48 2000] u/t/tako/area/chi***yo.c line 41: "#pragma strict_types" requires type of function before "world:world1:vision
+
+[Thu Aug  3 11:33:48 2000] u/t/tako/area/chi***yo.c line 41: parse error before ,
+
+[Thu Aug  3 21:43:23 2000] u/t/tako/only_sword.c line 56: Warning: Unknown \ escape. before ¸õ¨ì¤Q¤èÆF°Êªº®ÇÃä\n
+
+[Thu Aug  3 22:21:43 2000] u/t/tako/area/hmm.c line 8: parse error before j¥ÕÄê); 
+
+[Thu Aug  3 22:21:43 2000] u/t/tako/area/hmm.c line 35: Illegal LHS before the end of line
+
+[Thu Aug  3 22:21:43 2000] u/t/tako/area/hmm.c line 35: parse error before the end of line
+
+[Thu Aug  3 22:21:43 2000] u/t/tako/area/hmm.c line 36: Illegal LHS before the end of line
+
+[Thu Aug  3 22:21:43 2000] u/t/tako/area/hmm.c line 36: parse error before the end of line
+
+[Thu Aug  3 22:21:43 2000] u/t/tako/area/hmm.c line 48: Illegal LHS before the end of line
+
+[Thu Aug  3 22:33:02 2000] u/t/tako/fgh.c line 233: parse error before ( this_player()->que
+
+[Thu Aug  3 22:33:02 2000] u/t/tako/fgh.c line 239: Illegal LHS before ( this_player()->que
+
+[Thu Aug  3 22:33:02 2000] u/t/tako/fgh.c line 239: parse error before ( this_player()->que
+
+[Thu Aug  3 22:33:02 2000] u/t/tako/fgh.c line 244: Undefined variable 'skill' before "star-sword") ? me->
+
+[Thu Aug  3 22:33:02 2000] u/t/tako/fgh.c line 244: Undefined variable 'me' before query_skill(skill)/3
+
+[Thu Aug  3 22:33:02 2000] u/t/tako/fgh.c line 245: Illegal LHS before ->add("popularity",-
+
+[Sat Aug  5 15:27:46 2000] u/t/tako/area/room~4.c line 24: parse error before the end of file
+
+[Sat Aug  5 15:28:42 2000] u/t/tako/area/room~4.c line 25: parse error before the end of file
+
+[Sat Aug  5 15:55:25 2000] u/t/tako/devil-sword.c line 17: $var illegal outside of function pointer. before N¤@©â¥X¤F¤@§â»\¤Ñ¯«¼
+
+[Sat Aug  5 15:55:25 2000] u/t/tako/devil-sword.c line 17: parse error before N¤@©â¥X¤F¤@§â»\¤Ñ¯«¼
+
+[Sat Aug  5 15:55:25 2000] u/t/tako/devil-sword.c line 17: Illegal terminator before ©â¥X¤F¤@§â»\¤Ñ¯«¼C,©
+
+[Sat Aug  5 15:56:17 2000] u/t/tako/devil-sword.c line 17: Warning: Unknown \ escape. before Ñ¯«¼C,©¿µMÂÅ¥ú¥|´²,¤
+
+[Sat Aug  5 15:56:57 2000] u/t/tako/devil-sword.c line 17: Warning: Unknown \ escape. before Ñ¯«¼C,¤@·Ù¶¡ÂÅ¥ú¥|´²
+
+[Sat Aug  5 15:59:47 2000] u/t/tako/devil-sword.c line 9: parse error before C"NOR, ({"devil swor
+
+[Sat Aug  5 15:59:47 2000] u/t/tako/devil-sword.c line 15: Illegal terminator before §â¼C¡C\n");
+
+[Sat Aug  5 17:49:16 2000] u/t/tako/only_sword.c line 56: Warning: Unknown \ escape. before ¸õ¨ì¤Q¤èÆF°Êªº®ÇÃä\n
+
+[Sat Aug  5 18:07:29 2000] u/t/tako/workroom.c line 13: parse error before the end of line
+
+[Sat Aug  5 18:07:29 2000] u/t/tako/workroom.c line 40: Illegal LHS before the end of line
+
+[Sat Aug  5 18:07:29 2000] u/t/tako/workroom.c line 40: parse error before the end of line
+
+[Sat Aug  5 18:15:55 2000] u/t/tako/workroom.c line 13: parse error before the end of line
+
+[Sat Aug  5 18:15:55 2000] u/t/tako/workroom.c line 40: Illegal LHS before the end of line
+
+[Sat Aug  5 18:15:55 2000] u/t/tako/workroom.c line 40: parse error before the end of line
+
+[Sat Aug  5 18:16:15 2000] u/t/tako/workroom.c line 13: parse error before the end of line
+
+[Sat Aug  5 18:16:15 2000] u/t/tako/workroom.c line 40: Illegal LHS before the end of line
+
+[Sat Aug  5 18:16:15 2000] u/t/tako/workroom.c line 40: parse error before the end of line
+
+[Sat Aug  5 18:19:41 2000] u/t/tako/workroom.c line 13: parse error before the end of line
+
+[Sat Aug  5 18:19:41 2000] u/t/tako/workroom.c line 40: Illegal LHS before the end of line
+
+[Sat Aug  5 18:19:41 2000] u/t/tako/workroom.c line 40: parse error before the end of line
+
+[Sat Aug  5 21:50:45 2000] u/t/tako/fgh.c line 233: parse error before ( this_player()->que
+
+[Sat Aug  5 21:50:45 2000] u/t/tako/fgh.c line 239: Illegal LHS before ( this_player()->que
+
+[Sat Aug  5 21:50:45 2000] u/t/tako/fgh.c line 239: parse error before ( this_player()->que
+
+[Sat Aug  5 21:50:45 2000] u/t/tako/fgh.c line 244: Undefined variable 'skill' before "star-sword") ? me->
+
+[Sat Aug  5 21:50:45 2000] u/t/tako/fgh.c line 244: Undefined variable 'me' before query_skill(skill)/3
+
+[Sat Aug  5 21:50:45 2000] u/t/tako/fgh.c line 245: Illegal LHS before ->add("popularity",-
+
+[Sat Aug  5 21:50:47 2000] u/t/tako/fgh.c line 233: parse error before ( this_player()->que
+
+[Sat Aug  5 21:50:47 2000] u/t/tako/fgh.c line 239: Illegal LHS before ( this_player()->que
+
+[Sat Aug  5 21:50:47 2000] u/t/tako/fgh.c line 239: parse error before ( this_player()->que
+
+[Sat Aug  5 21:50:47 2000] u/t/tako/fgh.c line 244: Undefined variable 'skill' before "star-sword") ? me->
+
+[Sat Aug  5 21:50:47 2000] u/t/tako/fgh.c line 244: Undefined variable 'me' before query_skill(skill)/3
+
+[Sat Aug  5 21:50:47 2000] u/t/tako/fgh.c line 245: Illegal LHS before ->add("popularity",-
+
+[Sat Aug  5 21:50:51 2000] u/t/tako/fgh.c line 233: parse error before ( this_player()->que
+
+[Sat Aug  5 21:50:51 2000] u/t/tako/fgh.c line 239: Illegal LHS before ( this_player()->que
+
+[Sat Aug  5 21:50:51 2000] u/t/tako/fgh.c line 239: parse error before ( this_player()->que
+
+[Sat Aug  5 21:50:51 2000] u/t/tako/fgh.c line 244: Undefined variable 'skill' before "star-sword") ? me->
+
+[Sat Aug  5 21:50:51 2000] u/t/tako/fgh.c line 244: Undefined variable 'me' before query_skill(skill)/3
+
+[Sat Aug  5 21:50:51 2000] u/t/tako/fgh.c line 245: Illegal LHS before ->add("popularity",-
+
+[Sat Aug  5 22:06:56 2000] u/t/tako/area/chi***yo.c line 7: parse error before the end of line
+
+[Sat Aug  5 22:06:56 2000] u/t/tako/area/chi***yo.c line 35: Illegal LHS before the end of line
+
+[Sat Aug  5 22:06:56 2000] u/t/tako/area/chi***yo.c line 36: parse error before ( !ob ) 
+
+[Sat Aug  5 22:06:56 2000] u/t/tako/area/chi***yo.c line 41: "#pragma strict_types" requires type of function before "world:world1:vision
+
+[Sat Aug  5 22:06:56 2000] u/t/tako/area/chi***yo.c line 41: parse error before ,
+
+[Sat Aug  5 22:08:12 2000] u/t/tako/area/chi***yo.c line 7: parse error before the end of line
+
+[Sat Aug  5 22:08:12 2000] u/t/tako/area/chi***yo.c line 35: Illegal LHS before the end of line
+
+[Sat Aug  5 22:08:12 2000] u/t/tako/area/chi***yo.c line 36: parse error before ( !ob ) 
+
+[Sat Aug  5 22:08:12 2000] u/t/tako/area/chi***yo.c line 41: "#pragma strict_types" requires type of function before "world:world1:vision
+
+[Sat Aug  5 22:08:12 2000] u/t/tako/area/chi***yo.c line 41: parse error before ,
+
+[Sat Aug  5 22:23:30 2000] u/t/tako/b.c line 10: parse error before ¬¤B"HIW²°"NOR³y«¬ªº¯
+
+[Sat Aug  5 22:23:30 2000] u/t/tako/b.c line 19: End of file in string before dex",3);
+
+[Sat Aug  5 22:26:02 2000] u/t/tako/c.c line 10: parse error before y«¬ªº¯d¨¥ªO¡A¥ô¦ó¤H¦
+
+[Sat Aug  5 22:26:02 2000] u/t/tako/c.c line 19: End of file in string before the end of line
+
+[Sat Aug  5 22:26:50 2000] u/t/tako/cc.c line 10: parse error before n");
+
+[Sat Aug  5 22:26:50 2000] u/t/tako/cc.c line 19: End of file in string before ovandis/"/open/world
+
+[Sun Aug  6 09:51:03 2000] u/t/tako/area/qaqa.c line 5: parse error before        set_name(MAG"
+
+[Sun Aug  6 09:51:03 2000] u/t/tako/area/qaqa.c line 27: End of file in string before file) ) return notif
+
+[Sun Aug  6 09:51:05 2000] u/t/tako/area/qaqa.c line 5: parse error before        set_name(MAG"
+
+[Sun Aug  6 09:51:05 2000] u/t/tako/area/qaqa.c line 27: End of file in string before file) ) return notif
+
+[Sun Aug  6 10:28:33 2000] u/t/tako/only_sword.c line 56: Warning: Unknown \ escape. before ¸õ¨ì¤Q¤èÆF°Êªº®ÇÃä\n
+
+[Sun Aug  6 14:06:53 2000] u/t/tako/area/chi&&&yo.c line 13: parse error before [33mset("env/immorta
+
+[Sun Aug  6 19:38:20 2000] u/t/tako/area/qaqa.c line 5: parse error before        set_name(MAG"
+
+[Sun Aug  6 19:38:20 2000] u/t/tako/area/qaqa.c line 27: End of file in string before f(item, "%d %s", amo
+
+[Sun Aug  6 19:52:40 2000] u/t/tako/fgh.c line 233: parse error before ( this_player()->que
+
+[Sun Aug  6 19:52:40 2000] u/t/tako/fgh.c line 239: Illegal LHS before ( this_player()->que
+
+[Sun Aug  6 19:52:40 2000] u/t/tako/fgh.c line 239: parse error before ( this_player()->que
+
+[Sun Aug  6 19:52:40 2000] u/t/tako/fgh.c line 244: Undefined variable 'skill' before "star-sword") ? me->
+
+[Sun Aug  6 19:52:40 2000] u/t/tako/fgh.c line 244: Undefined variable 'me' before query_skill(skill)/3
+
+[Sun Aug  6 19:52:40 2000] u/t/tako/fgh.c line 245: Illegal LHS before ->add("popularity",-
+
+[Sun Aug  6 19:52:48 2000] u/t/tako/man.c line 2: Unrecognised # directive before void create()
+
+[Sun Aug  6 19:52:48 2000] u/t/tako/man.c line 5: Undefined function set_name before ;
+
+[Sun Aug  6 19:52:48 2000] u/t/tako/man.c line 11: Undefined function set before ;
+
+[Sun Aug  6 19:52:48 2000] u/t/tako/man.c line 16: Undefined function setup before ;
+
+[Sun Aug  6 19:52:48 2000] u/t/tako/man.c line 69: Left argument of -> is not a class before ("be");
+
+[Sun Aug  6 19:52:48 2000] u/t/tako/man.c line 69: parse error before ("be");
+
+[Tue Aug  8 12:26:29 2000] u/t/tako/fgh.c line 233: parse error before ( this_player()->que
+
+[Tue Aug  8 12:26:29 2000] u/t/tako/fgh.c line 239: Illegal LHS before ( this_player()->que
+
+[Tue Aug  8 12:26:29 2000] u/t/tako/fgh.c line 239: parse error before ( this_player()->que
+
+[Tue Aug  8 12:26:29 2000] u/t/tako/fgh.c line 244: Undefined variable 'skill' before "star-sword") ? me->
+
+[Tue Aug  8 12:26:29 2000] u/t/tako/fgh.c line 244: Undefined variable 'me' before query_skill(skill)/3
+
+[Tue Aug  8 12:26:29 2000] u/t/tako/fgh.c line 245: Illegal LHS before ->add("popularity",-
+
+[Tue Aug  8 13:02:06 2000] u/t/tako/man.c line 2: Unrecognised # directive before void create()
+
+[Tue Aug  8 13:02:06 2000] u/t/tako/man.c line 5: Undefined function set_name before ;
+
+[Tue Aug  8 13:02:06 2000] u/t/tako/man.c line 11: Undefined function set before ;
+
+[Tue Aug  8 13:02:06 2000] u/t/tako/man.c line 16: Undefined function setup before ;
+
+[Tue Aug  8 13:02:06 2000] u/t/tako/man.c line 69: Left argument of -> is not a class before ("be");
+
+[Tue Aug  8 13:02:06 2000] u/t/tako/man.c line 69: parse error before ("be");
+
+[Tue Aug  8 13:15:20 2000] u/t/tako/item/pill2.c line 26: $var illegal outside of function pointer. before N"HIW"¤f³U±Ç¥X$n"NOR
+
+[Tue Aug  8 13:15:20 2000] u/t/tako/item/pill2.c line 26: parse error before N"HIW"¤f³U±Ç¥X$n"NOR
+
+[Tue Aug  8 13:15:20 2000] u/t/tako/item/pill2.c line 26: $var illegal outside of function pointer. before n"NOR);
+
+[Tue Aug  8 13:16:04 2000] u/t/tako/item/pill2.c line 26: $var illegal outside of function pointer. before N"HIW"¤f³U±Ç¥X$n"NOR
+
+[Tue Aug  8 13:16:04 2000] u/t/tako/item/pill2.c line 26: parse error before N"HIW"¤f³U±Ç¥X$n"NOR
+
+[Tue Aug  8 13:16:04 2000] u/t/tako/item/pill2.c line 26: $var illegal outside of function pointer. before n"NOR);
+
+[Tue Aug  8 22:10:06 2000] u/t/tako/area/qaqa.c line 5: parse error before        set_name(MAG"
+
+[Tue Aug  8 22:10:06 2000] u/t/tako/area/qaqa.c line 27: End of file in string before ction("do_get", "get
+
+[Wed Aug  9 00:24:07 2000] u/t/tako/only_sword.c line 56: Warning: Unknown \ escape. before ¸õ¨ì¤Q¤èÆF°Êªº®ÇÃä\n
+
+[Wed Aug  9 01:52:22 2000] u/t/tako/fly cloth.c line 6: Undefined variable 'HIW' before ,({"fly cloth","clot
+
+[Wed Aug  9 01:52:22 2000] u/t/tako/fly cloth.c line 6: parse error before ,({"fly cloth","clot
+
+[Wed Aug  9 01:53:04 2000] u/t/tako/clothes.c line 6: Undefined variable 'HIW' before NOR,({"fly cloth","c
+
+[Wed Aug  9 01:53:04 2000] u/t/tako/clothes.c line 6: parse error before NOR,({"fly cloth","c
+
+[Wed Aug  9 02:14:20 2000] u/t/tako/area/room~7.c line 32: End of file in text block before "+"[1;35m"       	"
+
+[Wed Aug  9 02:14:20 2000] u/t/tako/area/room~7.c line 32: parse error before "+"[1;35m"       	"
+
+[Wed Aug  9 02:15:30 2000] u/t/tako/area/room~7.c line 32: End of file in text block before objectp(obj = presen
+
+[Wed Aug  9 02:15:30 2000] u/t/tako/area/room~7.c line 32: parse error before objectp(obj = presen
+
+[Wed Aug  9 02:16:22 2000] u/t/tako/area/room~7.c line 32: End of file in text block before objectp(obj = presen
+
+[Wed Aug  9 02:16:22 2000] u/t/tako/area/room~7.c line 32: parse error before objectp(obj = presen
+
+[Wed Aug  9 02:17:12 2000] u/t/tako/area/room~7.c line 33: End of file in text block before return notify_fail("
+
+[Wed Aug  9 02:17:12 2000] u/t/tako/area/room~7.c line 33: parse error before return notify_fail("
+
+[Wed Aug  9 02:42:10 2000] u/t/tako/area/wait.c line 13: parse error before i¥H§â­nªºªF¦è®³¨ì¤â¤
+
+[Wed Aug  9 02:42:10 2000] u/t/tako/area/wait.c line 33: End of file in string before ( "meditat"/daemon/s
+
+[Wed Aug  9 02:42:12 2000] u/t/tako/area/wait.c line 13: parse error before i¥H§â­nªºªF¦è®³¨ì¤â¤
+
+[Wed Aug  9 02:42:12 2000] u/t/tako/area/wait.c line 33: End of file in string before ( "meditat"/daemon/s
+
+[Wed Aug  9 02:48:54 2000] u/t/tako/whip.c line 7: Undefined function set_name before ;
+
+[Wed Aug  9 02:48:54 2000] u/t/tako/whip.c line 8: Undefined function set before ;
+
+[Wed Aug  9 02:48:54 2000] u/t/tako/whip.c line 9: Undefined function set_weight before ;
+
+[Wed Aug  9 02:48:54 2000] u/t/tako/whip.c line 11: Undefined function set_default_object before ;
+
+[Wed Aug  9 02:48:54 2000] u/t/tako/whip.c line 18: Undefined function init_whip before ;
+
+[Wed Aug  9 02:48:54 2000] u/t/tako/whip.c line 19: Undefined function setup before ;        
+
+[Wed Aug  9 02:51:10 2000] u/t/tako/whip.c line 6: Undefined function set_name before ;
+
+[Wed Aug  9 02:51:10 2000] u/t/tako/whip.c line 9: Undefined function set before ;
+
+[Wed Aug  9 02:51:10 2000] u/t/tako/whip.c line 10: Undefined function set_weight before ;
+
+[Wed Aug  9 02:51:10 2000] u/t/tako/whip.c line 12: Undefined function set_default_object before ;
+
+[Wed Aug  9 02:51:10 2000] u/t/tako/whip.c line 17: Undefined function init_whip before ;
+
+[Wed Aug  9 02:51:10 2000] u/t/tako/whip.c line 18: Undefined function setup before ;        
+
+[Wed Aug  9 02:56:16 2000] u/t/tako/area/green woman.c line 13: parse error before i¥H§â­nªºªF¦è®³¨ì¤â¤
+
+[Wed Aug  9 02:56:16 2000] u/t/tako/area/green woman.c line 34: End of file in string before /ªì©lÂêª¬ºA == Âê¤W
+
+[Wed Aug  9 02:59:00 2000] u/t/tako/only_sword.c line 56: Warning: Unknown \ escape. before ¸õ¨ì¤Q¤èÆF°Êªº®ÇÃä\n
+
+[Wed Aug  9 13:45:36 2000] u/t/tako/123.c line 1: parse error before the end of line
+
+[Wed Aug  9 13:46:40 2000] u/t/tako/123.c line 1: parse error before the end of line
+
+[Wed Aug  9 13:50:30 2000] u/t/tako/123.c line 1: parse error before the end of line
+
+[Wed Aug  9 13:50:56 2000] u/t/tako/1234.c line 1: parse error before the end of line
+
+[Wed Aug  9 14:01:06 2000] u/t/tako/123.c line 1: parse error before the end of line
+
+[Wed Aug  9 14:07:22 2000] u/t/tako/123.c line 1: parse error before the end of line
+
+[Wed Aug  9 17:15:43 2000] u/t/tako/long sword.c line 39: parse error before u/t/tako> 
+
+[Wed Aug  9 17:15:57 2000] u/t/tako/long sword.c line 39: parse error before u/t/tako> 
+
+[Wed Aug  9 17:29:09 2000] u/t/tako/long sword.c line 39: parse error before u/t/tako> 
+
+[Wed Aug  9 17:48:47 2000] u/t/tako/traveller.c line 1: parse error before u/t/tako> ³o¸Ì¦ü¥G¦³
+
+[Wed Aug  9 17:51:51 2000] u/t/tako/traveller.c line 1: parse error before u/t/tako> ³o¸Ì¦ü¥G¦³
+
+[Wed Aug  9 17:52:03 2000] u/t/tako/traveller.c line 1: parse error before u/t/tako> ³o¸Ì¦ü¥G¦³
+
+[Wed Aug  9 17:53:09 2000] u/t/tako/traveller.c line 1: parse error before u/t/tako> ³o¸Ì¦ü¥G¦³
+
+[Wed Aug  9 17:54:13 2000] u/t/tako/traveller.c line 1: parse error before u/t/tako> ³o¸Ì¦ü¥G¦³
+
+[Wed Aug  9 17:55:41 2000] u/t/tako/traveller.c line 1: parse error before u/t/tako> ³o¸Ì¦ü¥G¦³
+
+[Wed Aug  9 17:56:56 2000] u/t/tako/traveller.c line 1: parse error before u/t/tako> ³o¸Ì¦ü¥G¦³
+
+[Thu Aug 10 01:15:15 2000] u/t/tako/long sword.c line 39: parse error before u/t/tako> 
+
+[Thu Aug 10 01:22:39 2000] u/t/tako/traveller.c line 2: parse error before  create()
+
+[Thu Aug 10 01:25:23 2000] u/t/tako/traveller.c line 2: parse error before  create()
+
+[Thu Aug 10 01:26:28 2000] u/t/tako/traveller.c line 2: parse error before  create()
+
+[Thu Aug 10 01:27:04 2000] u/t/tako/traveller.c line 2: parse error before  NPC
+
+[Thu Aug 10 01:29:34 2000] u/t/tako/traveller.c line 2: parse error before  create()
+
+[Thu Aug 10 01:35:38 2000] u/t/tako/1234.c line 2: parse error before the end of line
+
+[Thu Aug 10 01:36:28 2000] u/t/tako/1234.c line 2: parse error before the end of line
+
+[Thu Aug 10 01:37:14 2000] u/t/tako/1234.c line 2: parse error before the end of line
+
+[Thu Aug 10 02:01:30 2000] u/t/tako/ggf.c line 22: Undefined function add_item before ;        }
+
+[Thu Aug 10 02:05:48 2000] u/t/tako/gfg.c line 22: Undefined variable 'obj' before new("/u/t/tako/item/
+
+[Thu Aug 10 02:23:50 2000] u/t/tako/ffg.c line 21: Undefined function carry_boject before ->wield();        }
+
+[Thu Aug 10 02:48:50 2000] u/t/tako/chiyo pants.c line 7: Warning: Unknown \ escape. before ¾Ú»¡¬O°E¤×ªF©º®É´Á©Ò
+
+[Thu Aug 10 02:50:38 2000] u/t/tako/chiyo pants.c line 8: Warning: Unknown \ escape. before ¾Ú»¡¬O°E¤×ªF©º®É´Á©Ò
+
+[Thu Aug 10 02:59:48 2000] u/t/tako/chiyo hold.c line 3: parse error before ;
+
+[Thu Aug 10 03:28:10 2000] u/t/tako/chiyo boots.c line 40: parse error before the end of file
+
+[Thu Aug 10 03:32:14 2000] u/t/tako/chiyo boots.c line 38: parse error before the end of file
+
+[Thu Aug 10 03:45:02 2000] u/t/tako/area/chi***yo.c line 53: parse error before \Án±æ        ::die()
+
+[Thu Aug 10 03:45:38 2000] u/t/tako/chiyo pants.c line 8: Warning: Unknown \ escape. before ¾Ú»¡¬O°E¤×ªF©º®É´Á©Ò
+
+[Thu Aug 10 08:33:59 2000] u/t/tako/fgh.c line 233: parse error before ( this_player()->que
+
+[Thu Aug 10 08:33:59 2000] u/t/tako/fgh.c line 239: Illegal LHS before ( this_player()->que
+
+[Thu Aug 10 08:33:59 2000] u/t/tako/fgh.c line 239: parse error before ( this_player()->que
+
+[Thu Aug 10 08:33:59 2000] u/t/tako/fgh.c line 244: Undefined variable 'skill' before "star-sword") ? me->
+
+[Thu Aug 10 08:33:59 2000] u/t/tako/fgh.c line 244: Undefined variable 'me' before query_skill(skill)/3
+
+[Thu Aug 10 08:33:59 2000] u/t/tako/fgh.c line 245: Illegal LHS before ->add("popularity",-
+
+[Thu Aug 10 08:55:47 2000] u/t/tako/man.c line 2: Unrecognised # directive before void create()
+
+[Thu Aug 10 08:55:47 2000] u/t/tako/man.c line 5: Undefined function set_name before ;
+
+[Thu Aug 10 08:55:47 2000] u/t/tako/man.c line 11: Undefined function set before ;
+
+[Thu Aug 10 08:55:47 2000] u/t/tako/man.c line 16: Undefined function setup before ;
+
+[Thu Aug 10 08:55:47 2000] u/t/tako/man.c line 69: Left argument of -> is not a class before ("be");
+
+[Thu Aug 10 08:55:47 2000] u/t/tako/man.c line 69: parse error before ("be");
+
+[Thu Aug 10 09:08:35 2000] u/t/tako/trveler2.c line 2: parse error before  create()
+
+[Thu Aug 10 13:29:27 2000] u/t/tako/gfg.c line 22: Undefined variable 'obj' before new("/u/t/tako/item/
+
+[Thu Aug 10 13:31:07 2000] u/t/tako/man.c line 2: Unrecognised # directive before void create()
+
+[Thu Aug 10 13:31:07 2000] u/t/tako/man.c line 5: Undefined function set_name before ;
+
+[Thu Aug 10 13:31:07 2000] u/t/tako/man.c line 11: Undefined function set before ;
+
+[Thu Aug 10 13:31:07 2000] u/t/tako/man.c line 16: Undefined function setup before ;
+
+[Thu Aug 10 13:31:07 2000] u/t/tako/man.c line 69: Left argument of -> is not a class before ("be");
+
+[Thu Aug 10 13:31:07 2000] u/t/tako/man.c line 69: parse error before ("be");
+
+[Thu Aug 10 13:53:34 2000] u/t/tako/area/qaqa.c line 5: parse error before        set_name(MAG"
+
+[Thu Aug 10 13:53:34 2000] u/t/tako/area/qaqa.c line 27: End of file in string before X¡R");
+
+[Thu Aug 10 13:53:36 2000] u/t/tako/area/qaqa.c line 5: parse error before        set_name(MAG"
+
+[Thu Aug 10 13:53:36 2000] u/t/tako/area/qaqa.c line 27: End of file in string before X¡R");
+
+[Thu Aug 10 17:13:57 2000] u/t/tako/skill/aichiforce.c line 20: Undefined variable 'x' before the end of line
+
+[Thu Aug 10 17:13:57 2000] u/t/tako/skill/aichiforce.c line 20: parse error before the end of line
+
+[Thu Aug 10 17:13:59 2000] u/t/tako/skill/aichiforce.c line 20: Undefined variable 'x' before the end of line
+
+[Thu Aug 10 17:13:59 2000] u/t/tako/skill/aichiforce.c line 20: parse error before the end of line
+
+[Thu Aug 10 22:24:03 2000] u/t/tako/traveler.c line 2: parse error before  create()
+
+[Fri Aug 11 10:57:55 2000] u/t/tako/test2.c line 42: parse error before the end of line
+
+[Fri Aug 11 10:59:01 2000] u/t/tako/test2.c line 42: parse error before the end of line
+
+[Fri Aug 11 11:00:41 2000] u/t/tako/test2.c line 40: parse error before the end of line
+
+[Fri Aug 11 11:02:21 2000] u/t/tako/test2.c line 43: parse error before the end of file
+
+[Fri Aug 11 11:30:07 2000] u/t/tako/area/room~1.c line 25: parse error before the end of file
+
+[Fri Aug 11 11:55:35 2000] u/t/tako/area/room~9.c line 32: End of file in text block before ª¤@«Ê«H¥ó¡C\n		disca
+
+[Fri Aug 11 11:55:35 2000] u/t/tako/area/room~9.c line 32: parse error before ª¤@«Ê«H¥ó¡C\n		disca
+
+[Fri Aug 11 11:56:31 2000] u/t/tako/area/room~9.c line 32: End of file in text block before ¬Ý¤â¥¾¤º¤å¡C\nwrite 
+
+[Fri Aug 11 11:56:31 2000] u/t/tako/area/room~9.c line 32: parse error before ¬Ý¤â¥¾¤º¤å¡C\nwrite 
+
+[Fri Aug 11 11:58:03 2000] u/t/tako/area/room~9.c line 32: End of file in text block before ("level",10);
+
+[Fri Aug 11 11:58:03 2000] u/t/tako/area/room~9.c line 32: parse error before ("level",10);
+
+[Fri Aug 11 11:58:23 2000] u/t/tako/area/room~9.c line 32: End of file in text block before ()
+
+[Fri Aug 11 11:58:23 2000] u/t/tako/area/room~9.c line 32: parse error before ()
+
+[Fri Aug 11 11:59:01 2000] u/t/tako/area/room~9.c line 32: End of file in text block before )
+
+[Fri Aug 11 11:59:01 2000] u/t/tako/area/room~9.c line 32: parse error before )
+
+[Fri Aug 11 12:01:13 2000] u/t/tako/area/room~9.c line 32: End of file in text block before _fail("§A²{¦bªº¨­Åéª
+
+[Fri Aug 11 12:01:13 2000] u/t/tako/area/room~9.c line 32: parse error before _fail("§A²{¦bªº¨­Åéª
+
+[Fri Aug 11 12:01:31 2000] u/t/tako/area/room~9.c line 32: End of file in text block before the end of line
+
+[Fri Aug 11 12:01:31 2000] u/t/tako/area/room~9.c line 32: parse error before the end of line
+
+[Fri Aug 11 12:04:47 2000] u/t/tako/area/room~9.c line 32: End of file in text block before (hitchance/2) > tdex
+
+[Fri Aug 11 12:04:47 2000] u/t/tako/area/room~9.c line 32: parse error before (hitchance/2) > tdex
+
+[Fri Aug 11 12:14:48 2000] u/t/tako/area/room~9.c line 1: Single '#' in identifier -- use '##' for token pasting before nclude <ansi.h>
+
+[Fri Aug 11 12:15:52 2000] u/t/tako/area/room~9.c line 1: Single '#' in identifier -- use '##' for token pasting before nclude <ansi.h>
+
+[Fri Aug 11 12:21:38 2000] u/t/tako/area/angle_1.c line 25: parse error before the end of line
+
+[Fri Aug 11 12:21:38 2000] u/t/tako/area/angle_1.c line 42: Illegal LHS before the end of line
+
+[Fri Aug 11 12:21:38 2000] u/t/tako/area/angle_1.c line 42: parse error before the end of line
+
+[Fri Aug 11 12:21:38 2000] u/t/tako/area/angle_1.c line 44: Illegal LHS before the end of line
+
+[Fri Aug 11 12:21:38 2000] u/t/tako/area/angle_1.c line 44: parse error before the end of line
+
+[Fri Aug 11 12:21:38 2000] u/t/tako/area/angle_1.c line 49: Undefined variable 'last' before the end of line
+
+[Fri Aug 11 12:26:06 2000] u/t/tako/area/angle_2.c line 17: parse error before ",@LONG
+
+[Fri Aug 11 12:26:06 2000] u/t/tako/area/angle_2.c line 36: $var illegal outside of function pointer. before NÁ|°ªÂù¤â,Äa¯Bº¥¶iªº
+
+[Fri Aug 11 12:26:06 2000] u/t/tako/area/angle_2.c line 36: $var illegal outside of function pointer. before n­±«e\n"NOR         
+
+[Fri Aug 11 12:26:06 2000] u/t/tako/area/angle_2.c line 36: Illegal terminator before ¦¡ [¦B]¡A¤@¹D¦B¬W®g¥
+
+[Fri Aug 11 12:27:26 2000] u/t/tako/area/angle_2.c line 16: parse error before [0m
+
+[Fri Aug 11 12:27:26 2000] u/t/tako/area/angle_2.c line 32: Undefined variable 'target' before query_dex();
+
+[Fri Aug 11 12:27:26 2000] u/t/tako/area/angle_2.c line 32: Illegal LHS before the end of line
+
+[Fri Aug 11 12:27:26 2000] u/t/tako/area/angle_2.c line 32: parse error before the end of line
+
+[Fri Aug 11 12:27:26 2000] u/t/tako/area/angle_2.c line 33: Illegal LHS before the end of line
+
+[Fri Aug 11 12:27:26 2000] u/t/tako/area/angle_2.c line 33: parse error before the end of line
+
+[Fri Aug 11 12:28:30 2000] u/t/tako/area/angle_2.c line 14: parse error before W¤Ñ¬£¨Ó±o¨ÏªÌ,¬°¤F®ø
+
+[Fri Aug 11 12:31:04 2000] u/t/tako/area/angle_2.c line 14: parse error before W¤Ñ¬£¨Ó±o¨ÏªÌ,¬°¤F®ø
+
+[Fri Aug 11 12:33:08 2000] u/t/tako/area/angle_2.c line 11: Undefined function rendom before );        set("title
+
+[Fri Aug 11 12:33:08 2000] u/t/tako/area/angle_2.c line 20: parse error before [0m
+
+[Fri Aug 11 12:33:08 2000] u/t/tako/area/angle_2.c line 32: Undefined variable 'target' before query_dex();
+
+[Fri Aug 11 12:33:08 2000] u/t/tako/area/angle_2.c line 32: Illegal LHS before the end of line
+
+[Fri Aug 11 12:33:08 2000] u/t/tako/area/angle_2.c line 32: parse error before the end of line
+
+[Fri Aug 11 12:33:08 2000] u/t/tako/area/angle_2.c line 33: Illegal LHS before the end of line
+
+[Fri Aug 11 12:34:32 2000] u/t/tako/area/angle_2.c line 18: parse error before [0m
+
+[Fri Aug 11 12:34:32 2000] u/t/tako/area/angle_2.c line 30: Undefined variable 'target' before query_dex();
+
+[Fri Aug 11 12:34:32 2000] u/t/tako/area/angle_2.c line 30: Illegal LHS before the end of line
+
+[Fri Aug 11 12:34:32 2000] u/t/tako/area/angle_2.c line 30: parse error before the end of line
+
+[Fri Aug 11 12:34:32 2000] u/t/tako/area/angle_2.c line 31: Illegal LHS before the end of line
+
+[Fri Aug 11 12:34:32 2000] u/t/tako/area/angle_2.c line 31: parse error before the end of line
+
+[Sat Aug 12 03:01:30 2000] u/t/tako/chiyo pants.c line 8: Warning: Unknown \ escape. before ¾Ú»¡¬O°E¤×ªF©º®É´Á©Ò
+
+[Sat Aug 12 03:03:30 2000] u/t/tako/only_sword.c line 56: Warning: Unknown \ escape. before ¸õ¨ì¤Q¤èÆF°Êªº®ÇÃä\n
+
+[Sat Aug 12 14:59:04 2000] u/t/tako/chiyo pants.c line 8: Warning: Unknown \ escape. before ¾Ú»¡¬O°E¤×ªF©º®É´Á©Ò
+
+[Sat Aug 12 19:20:25 2000] u/t/tako/traveler.c line 2: parse error before  create()
+
+[Sat Aug 12 19:23:51 2000] u/t/tako/kkman.c line 14: parse error before ",150);
+
+[Sat Aug 12 19:23:51 2000] u/t/tako/kkman.c line 21: End of file in string before q­I«á¼CÀT¤¤©â¥X¤@§âª
+
+[Sat Aug 12 19:24:11 2000] u/t/tako/kkman.c line 14: parse error before ",150);
+
+[Sat Aug 12 19:24:11 2000] u/t/tako/kkman.c line 21: End of file in string before target = present(ite
+
+[Sat Aug 12 19:25:19 2000] u/t/tako/kkman.c line 10: parse error before :),
+
+[Sun Aug 13 00:41:31 2000] u/t/tako/chiyo pants.c line 8: Warning: Unknown \ escape. before ¾Ú»¡¬O°E¤×ªF©º®É´Á©Ò
+
+[Sun Aug 13 15:08:29 2000] u/t/tako/wolf sword.c line 3: parse error before [0;1;33mi[1mn[1mh
+
+[Sun Aug 13 15:08:31 2000] u/t/tako/wolf sword.c line 3: parse error before [0;1;33mi[1mn[1mh
+
+[Sun Aug 13 15:08:35 2000] u/t/tako/wolf sword.c line 3: parse error before [0;1;33mi[1mn[1mh
+
+[Sun Aug 13 15:09:13 2000] u/t/tako/wolf sword.c line 3: parse error before [0;1;33mi[1mn[1mh
+
+[Sun Aug 13 15:10:01 2000] u/t/tako/wolf sword.c line 3: parse error before [0;1;33mi[1mn[1mh
+
+[Sun Aug 13 15:10:17 2000] u/t/tako/wolf sword.c line 3: parse error before [0;1;33mi[1mn[1mh
+
+[Sun Aug 13 15:10:21 2000] u/t/tako/wolf sword.c line 3: parse error before [0;1;33mi[1mn[1mh
+
+[Sun Aug 13 15:10:21 2000] u/t/tako/wolf sword.c line 3: parse error before [0;1;33mi[1mn[1mh
+
+[Sun Aug 13 15:10:25 2000] u/t/tako/wolf sword.c line 3: parse error before [0;1;33mi[1mn[1mh
+
+[Sun Aug 13 15:10:31 2000] u/t/tako/wolf sword.c line 3: parse error before [0;1;33mi[1mn[1mh
+
+[Sun Aug 13 15:10:35 2000] u/t/tako/wolf sword.c line 3: parse error before [0;1;33mi[1mn[1mh
+
+[Sun Aug 13 15:11:49 2000] u/t/tako/wolf sword.c line 3: parse error before [0;1;33mi[1mn[1mh
+
+[Sun Aug 13 15:12:35 2000] u/t/tako/wolf sword.c line 3: parse error before [0;1;33mi[1mn[1mh
+
+[Sun Aug 13 15:12:37 2000] u/t/tako/wolf sword.c line 3: parse error before [0;1;33mi[1mn[1mh
+
+[Sun Aug 13 15:12:41 2000] u/t/tako/wolf sword.c line 3: parse error before [0;1;33mi[1mn[1mh
+
+[Sun Aug 13 15:12:49 2000] u/t/tako/wolf sword.c line 3: parse error before [0;1;33mi[1mn[1mh
+
+[Sun Aug 13 15:12:51 2000] u/t/tako/wolf sword.c line 3: parse error before [0;1;33mi[1mn[1mh
+
+[Sun Aug 13 15:12:55 2000] u/t/tako/wolf sword.c line 3: parse error before [0;1;33mi[1mn[1mh
+
+[Sun Aug 13 15:16:15 2000] u/t/tako/wolf sword.c line 3: parse error before [0;1;33mi[1mn[1mh
+
+[Sun Aug 13 15:25:39 2000] u/t/tako/wolf sword.c line 4: parse error before [0;1;33mi[1mn[1mh
+
+[Sun Aug 13 15:27:01 2000] u/t/tako/wolf sword.c line 4: parse error before [0;1;33mi[1mn[1mh
+
+[Sun Aug 13 16:49:34 2000] u/t/tako/wolf_sword.c line 3: parse error before [0;1;33mi[1mn[1mh
+
+[Sun Aug 13 17:00:47 2000] u/t/tako/wolf_sword.c line 27: parse error before [0;1m [0mset("repli
+
+[Sun Aug 13 17:00:47 2000] u/t/tako/wolf_sword.c line 32: Reserved type name unexpected. before (object me,object ta
+
+[Sun Aug 13 17:00:47 2000] u/t/tako/wolf_sword.c line 32: parse error before (object me,object ta
+
+[Sun Aug 13 17:15:09 2000] u/t/tako/wolf_sword.c line 29: parse error before [0;1m [0mset("repli
+
+[Sun Aug 13 17:15:09 2000] u/t/tako/wolf_sword.c line 34: Reserved type name unexpected. before (object me,object ta
+
+[Sun Aug 13 17:15:09 2000] u/t/tako/wolf_sword.c line 34: parse error before (object me,object ta
+
+[Tue Aug 15 19:16:52 2000] u/t/tako/wolf_sword.c line 29: parse error before [0;1m [0mset("repli
+
+[Tue Aug 15 19:16:52 2000] u/t/tako/wolf_sword.c line 34: Reserved type name unexpected. before (object me,object ta
+
+[Tue Aug 15 19:16:52 2000] u/t/tako/wolf_sword.c line 34: parse error before (object me,object ta
+
+[Tue Aug 15 22:11:23 2000] u/t/tako/only_sword.c line 56: Warning: Unknown \ escape. before ¸õ¨ì¤Q¤èÆF°Êªº®ÇÃä\n
+
+[Tue Aug 15 22:20:44 2000] u/t/tako/wolf_sword.c line 46: parse error before y¦¨¥|­Ó»G¬}\n\n"NOR,
+
+[Tue Aug 15 22:20:44 2000] u/t/tako/wolf_sword.c line 55: Illegal terminator before °}©H­ýÁn±q¯T¤ú¼C¶Ç¤F
+
+[Tue Aug 15 22:24:04 2000] u/t/tako/wolf_sword.c line 8: Undefined variable 'HEL' before NOR,({"tooth-wolf sw
+
+[Tue Aug 15 22:24:04 2000] u/t/tako/wolf_sword.c line 8: parse error before NOR,({"tooth-wolf sw
+
+[Tue Aug 15 22:24:04 2000] u/t/tako/wolf_sword.c line 40: Illegal LHS before the end of line
+
+[Tue Aug 15 22:24:04 2000] u/t/tako/wolf_sword.c line 40: parse error before the end of line
+
+[Sun Apr 15 12:58:52 2001] u/t/tako/area/qaqa.c line 5: parse error before        set_name(MAG"
+
+[Sun Apr 15 12:58:52 2001] u/t/tako/area/qaqa.c line 27: End of file in string before 7m¦^¦^¦^¦^¦^¦^¦^¦^¦^
+

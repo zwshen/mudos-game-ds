@@ -1,0 +1,588 @@
+[Sat Nov 25 23:38:28 2000] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Sat Nov 25 23:38:28 2000] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Sat Nov 25 23:38:28 2000] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Sat Nov 25 23:38:28 2000] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Sat Nov 25 23:38:28 2000] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Sun Dec 10 13:21:21 2000] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Sun Dec 10 13:21:21 2000] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Sun Dec 10 13:21:21 2000] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Sun Dec 10 13:21:21 2000] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Sun Dec 10 13:21:21 2000] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Sun Dec 10 13:21:45 2000] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Sun Dec 10 13:21:45 2000] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Sun Dec 10 13:21:45 2000] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Sun Dec 10 13:21:45 2000] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Sun Dec 10 13:21:45 2000] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Mon Jan  8 23:56:21 2001] u/l/luky/eval.luky.c line 22: parse error before ;
+
+[Mon Jan  8 23:56:21 2001] u/l/luky/eval.luky.c line 23: Illegal LHS before the end of line
+
+[Sat May 19 15:13:58 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Sat May 19 15:13:58 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Sat May 19 15:13:58 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Sat May 19 15:13:58 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Sat May 19 15:13:58 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Sat May 19 15:14:02 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Sat May 19 15:14:02 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Sat May 19 15:14:02 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Sat May 19 15:14:02 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Sat May 19 15:14:02 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Sat May 19 15:14:08 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Sat May 19 15:14:08 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Sat May 19 15:14:08 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Sat May 19 15:14:08 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Sat May 19 15:14:08 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Sat May 19 15:14:10 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Sat May 19 15:14:10 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Sat May 19 15:14:10 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Sat May 19 15:14:10 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Sat May 19 15:14:10 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Sat Jun  2 12:58:58 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Sat Jun  2 12:58:58 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Sat Jun  2 12:58:58 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Sat Jun  2 12:58:58 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Sat Jun  2 12:58:58 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Sat Jun  2 12:58:58 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Sat Jun  2 12:58:58 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Sat Jun  2 12:58:58 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Sat Jun  2 12:58:58 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Sat Jun  2 12:58:58 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Fri Jul 20 14:03:27 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Fri Jul 20 14:03:27 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Fri Jul 20 14:03:27 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Fri Jul 20 14:03:27 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Fri Jul 20 14:03:27 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Sun Jul 29 15:51:55 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Sun Jul 29 15:51:55 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Sun Jul 29 15:51:55 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Sun Jul 29 15:51:55 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Sun Jul 29 15:51:55 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Sun Aug  5 11:48:57 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Sun Aug  5 11:48:57 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Sun Aug  5 11:48:57 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Sun Aug  5 11:48:57 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Sun Aug  5 11:48:57 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Thu Aug  9 14:46:18 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Thu Aug  9 14:46:18 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Thu Aug  9 14:46:18 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Thu Aug  9 14:46:18 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Thu Aug  9 14:46:18 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Fri Aug 17 13:55:48 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Fri Aug 17 13:55:48 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Fri Aug 17 13:55:48 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Fri Aug 17 13:55:48 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Fri Aug 17 13:55:48 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Sat Sep 15 00:15:32 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Sat Sep 15 00:15:32 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Sat Sep 15 00:15:32 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Sat Sep 15 00:15:32 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Sat Sep 15 00:15:32 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Sat Sep 15 00:15:34 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Sat Sep 15 00:15:34 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Sat Sep 15 00:15:34 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Sat Sep 15 00:15:34 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Sat Sep 15 00:15:34 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Sat Sep 22 01:10:15 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Sat Sep 22 01:10:15 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Sat Sep 22 01:10:15 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Sat Sep 22 01:10:15 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Sat Sep 22 01:10:15 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Tue Oct  2 01:55:33 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "query" before 	//需放在 inherit RO
+
+[Tue Oct  2 01:55:33 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Tue Oct  2 01:55:33 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Tue Oct  2 01:55:33 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Tue Oct  2 01:55:33 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Tue Oct  2 01:55:33 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Tue Oct  2 01:55:35 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "query" before 	//需放在 inherit RO
+
+[Tue Oct  2 01:55:35 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Tue Oct  2 01:55:35 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Tue Oct  2 01:55:35 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Tue Oct  2 01:55:35 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Tue Oct  2 01:55:35 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Thu Oct  4 15:49:34 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Thu Oct  4 15:49:34 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Thu Oct  4 15:49:34 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Thu Oct  4 15:49:34 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Thu Oct  4 15:49:34 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Sun Oct  7 01:02:02 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Sun Oct  7 01:02:02 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Sun Oct  7 01:02:02 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Sun Oct  7 01:02:02 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Sun Oct  7 01:02:02 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Thu Oct 11 20:26:03 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Thu Oct 11 20:26:03 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Thu Oct 11 20:26:03 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Thu Oct 11 20:26:03 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Thu Oct 11 20:26:03 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Thu Oct 11 20:26:15 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Thu Oct 11 20:26:15 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Thu Oct 11 20:26:15 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Thu Oct 11 20:26:15 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Thu Oct 11 20:26:15 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:08:41 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:08:41 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:08:41 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:08:41 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:08:41 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:08:43 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:08:43 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:08:43 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:08:43 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:08:43 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:08:47 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:08:47 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:08:47 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:08:47 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:08:47 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:09:00 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:09:00 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:09:00 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:09:00 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:09:00 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:09:16 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:09:16 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:09:16 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:09:16 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:09:16 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:11:06 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:11:06 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:11:06 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:11:06 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:11:06 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:12:15 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:12:15 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:12:15 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:12:15 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:12:15 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:12:15 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:12:15 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:12:15 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:12:15 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:12:15 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:12:23 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:12:23 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:12:23 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:12:23 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Sun Oct 21 12:12:23 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Fri Oct 26 18:19:45 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Fri Oct 26 18:19:45 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Fri Oct 26 18:19:45 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Fri Oct 26 18:19:45 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Fri Oct 26 18:19:45 2001] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Tue Jun 11 15:38:59 2002] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Tue Jun 11 15:38:59 2002] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Tue Jun 11 15:38:59 2002] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Tue Jun 11 15:38:59 2002] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Tue Jun 11 15:38:59 2002] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Mon Jul  1 09:49:50 2002] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Mon Jul  1 09:49:50 2002] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Mon Jul  1 09:49:50 2002] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Mon Jul  1 09:49:50 2002] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Mon Jul  1 09:49:50 2002] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Tue Aug  6 17:17:17 2002] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Tue Aug  6 17:17:17 2002] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Tue Aug  6 17:17:17 2002] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Tue Aug  6 17:17:17 2002] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Tue Aug  6 17:17:17 2002] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Sun Dec 15 15:39:05 2002] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Sun Dec 15 15:39:05 2002] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Sun Dec 15 15:39:05 2002] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Sun Dec 15 15:39:05 2002] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Sun Dec 15 15:39:05 2002] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Wed Dec 25 20:31:09 2002] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Wed Dec 25 20:31:09 2002] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Wed Dec 25 20:31:09 2002] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Wed Dec 25 20:31:09 2002] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Wed Dec 25 20:31:09 2002] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Wed Dec 25 20:32:25 2002] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Wed Dec 25 20:32:25 2002] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Wed Dec 25 20:32:25 2002] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Wed Dec 25 20:32:25 2002] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Wed Dec 25 20:32:25 2002] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Tue Feb 18 21:43:04 2003] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Tue Feb 18 21:43:04 2003] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Tue Feb 18 21:43:04 2003] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Tue Feb 18 21:43:04 2003] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Tue Feb 18 21:43:04 2003] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Sat Aug  2 21:19:02 2003] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Sat Aug  2 21:19:02 2003] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Sat Aug  2 21:19:02 2003] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Sat Aug  2 21:19:02 2003] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Sat Aug  2 21:19:02 2003] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Fri Sep 17 23:53:47 2004] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Fri Sep 17 23:53:47 2004] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Fri Sep 17 23:53:47 2004] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Fri Sep 17 23:53:47 2004] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Fri Sep 17 23:53:47 2004] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Fri Sep 17 23:53:51 2004] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Fri Sep 17 23:53:51 2004] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Fri Sep 17 23:53:51 2004] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Fri Sep 17 23:53:51 2004] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Fri Sep 17 23:53:51 2004] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Fri Sep 17 23:56:40 2004] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Fri Sep 17 23:56:40 2004] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Fri Sep 17 23:56:40 2004] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Fri Sep 17 23:56:40 2004] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Fri Sep 17 23:56:40 2004] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Thu Mar 24 00:06:50 2005] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Thu Mar 24 00:06:50 2005] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Thu Mar 24 00:06:50 2005] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Thu Mar 24 00:06:50 2005] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Thu Mar 24 00:06:50 2005] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Thu Mar 24 00:07:04 2005] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Thu Mar 24 00:07:04 2005] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Thu Mar 24 00:07:04 2005] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Thu Mar 24 00:07:04 2005] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Thu Mar 24 00:07:04 2005] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Sun Mar 27 15:50:42 2005] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Sun Mar 27 15:50:42 2005] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Sun Mar 27 15:50:42 2005] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Sun Mar 27 15:50:42 2005] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Sun Mar 27 15:50:42 2005] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Sun Mar 27 15:50:42 2005] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Sun Mar 27 15:50:42 2005] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Sun Mar 27 15:50:42 2005] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Sun Mar 27 15:50:42 2005] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Sun Mar 27 15:50:42 2005] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Sat May 21 02:08:27 2005] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Sat May 21 02:08:27 2005] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Sat May 21 02:08:27 2005] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Sat May 21 02:08:27 2005] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Sat May 21 02:08:27 2005] u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Tue Jan 29 14:32:53 2008] /u/l/luky/workroom.c line 178: Warning: Unused local variable 'ob' around the end of line
+
+[Tue Jan 29 14:32:53 2008] /u/l/luky/workroom.c line 178: Warning: Unused local variable 'temp_ship' around the end of line
+
+[Tue Jan 29 14:32:53 2008] /u/l/luky/workroom.c line 228: Warning: Unused local variable 'temp_ship' around the end of line
+
+[Tue Jan 29 15:17:57 2008] /u/l/luky/workroom.c line 178: Warning: Unused local variable 'ob' around the end of line
+
+[Tue Jan 29 15:17:57 2008] /u/l/luky/workroom.c line 178: Warning: Unused local variable 'temp_ship' around the end of line
+
+[Tue Jan 29 15:17:57 2008] /u/l/luky/workroom.c line 228: Warning: Unused local variable 'temp_ship' around the end of line
+
+[Fri Mar 28 01:22:08 2008] /u/l/luky/workroom.c line 178: Warning: Unused local variable 'ob' around the end of line
+
+[Fri Mar 28 01:22:08 2008] /u/l/luky/workroom.c line 178: Warning: Unused local variable 'temp_ship' around the end of line
+
+[Fri Mar 28 01:22:08 2008] /u/l/luky/workroom.c line 228: Warning: Unused local variable 'temp_ship' around the end of line
+
+[Wed Apr  2 16:39:00 2008] /u/l/luky/workroom.c line 178: Warning: Unused local variable 'ob' around the end of line
+
+[Wed Apr  2 16:39:00 2008] /u/l/luky/workroom.c line 178: Warning: Unused local variable 'temp_ship' around the end of line
+
+[Wed Apr  2 16:39:00 2008] /u/l/luky/workroom.c line 228: Warning: Unused local variable 'temp_ship' around the end of line
+
+[Sat Aug 23 15:04:57 2008] /u/l/luky/workroom.c line 178: Warning: Unused local variable 'ob' before the end of line
+
+[Sat Aug 23 15:04:57 2008] /u/l/luky/workroom.c line 178: Warning: Unused local variable 'temp_ship' before the end of line
+
+[Sat Aug 23 15:04:57 2008] /u/l/luky/workroom.c line 228: Warning: Unused local variable 'temp_ship' before the end of line
+
+[Thu Oct 16 12:06:27 2008] /u/l/luky/workroom.c line 178: Warning: Unused local variable 'ob' before the end of line
+
+[Thu Oct 16 12:06:27 2008] /u/l/luky/workroom.c line 178: Warning: Unused local variable 'temp_ship' before the end of line
+
+[Thu Oct 16 12:06:27 2008] /u/l/luky/workroom.c line 228: Warning: Unused local variable 'temp_ship' before the end of line
+
+[Wed Mar 11 03:09:40 2009] /u/l/luky/workroom.c line 178: Warning: Unused local variable 'ob' before the end of line
+
+[Wed Mar 11 03:09:40 2009] /u/l/luky/workroom.c line 178: Warning: Unused local variable 'temp_ship' before the end of line
+
+[Wed Mar 11 03:09:40 2009] /u/l/luky/workroom.c line 228: Warning: Unused local variable 'temp_ship' before the end of line
+
+[Wed Mar 11 03:12:20 2009] /u/l/luky/lukylab1.c line 4: Warning: Redeclaration of global variable 'dbase'. before 	//需放在 inherit RO
+
+[Wed Mar 11 03:12:20 2009] /u/l/luky/lukylab1.c line 4: Warning: Redeclaration of global variable 'tmp_dbase'. before 	//需放在 inherit RO
+
+[Wed Mar 11 03:12:20 2009] /u/l/luky/lukylab1.c line 4: Warning: Redeclaration of global variable 'default_ob'. before 	//需放在 inherit RO
+
+[Wed Mar 11 03:12:20 2009] /u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Wed Mar 11 03:12:20 2009] /u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Wed Mar 11 03:12:20 2009] /u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Wed Mar 11 03:12:20 2009] /u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Wed Mar 11 03:12:20 2009] /u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Wed Mar 11 03:12:22 2009] /u/l/luky/lukylab1.c line 4: Warning: Redeclaration of global variable 'dbase'. before 	//需放在 inherit RO
+
+[Wed Mar 11 03:12:22 2009] /u/l/luky/lukylab1.c line 4: Warning: Redeclaration of global variable 'tmp_dbase'. before 	//需放在 inherit RO
+
+[Wed Mar 11 03:12:22 2009] /u/l/luky/lukylab1.c line 4: Warning: Redeclaration of global variable 'default_ob'. before 	//需放在 inherit RO
+
+[Wed Mar 11 03:12:22 2009] /u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Wed Mar 11 03:12:22 2009] /u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Wed Mar 11 03:12:22 2009] /u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Wed Mar 11 03:12:22 2009] /u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Wed Mar 11 03:12:22 2009] /u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+
+[Wed Mar 11 03:12:30 2009] /u/l/luky/lukylab1.c line 4: Warning: Redeclaration of global variable 'dbase'. before 	//需放在 inherit RO
+
+[Wed Mar 11 03:12:30 2009] /u/l/luky/lukylab1.c line 4: Warning: Redeclaration of global variable 'tmp_dbase'. before 	//需放在 inherit RO
+
+[Wed Mar 11 03:12:30 2009] /u/l/luky/lukylab1.c line 4: Warning: Redeclaration of global variable 'default_ob'. before 	//需放在 inherit RO
+
+[Wed Mar 11 03:12:30 2009] /u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_query" before 	//需放在 inherit RO
+
+[Wed Mar 11 03:12:30 2009] /u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_delete" before 	//需放在 inherit RO
+
+[Wed Mar 11 03:12:30 2009] /u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "_set" before 	//需放在 inherit RO
+
+[Wed Mar 11 03:12:30 2009] /u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "light" before 	//需放在 inherit RO
+
+[Wed Mar 11 03:12:30 2009] /u/l/luky/lukylab1.c line 4: Illegal to redefine 'nomask' function "add_light" before 	//需放在 inherit RO
+

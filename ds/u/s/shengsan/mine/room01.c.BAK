@@ -1,0 +1,25 @@
+// room01.c
+#include <path.h>
+inherit ROOM;
+
+void create()
+{
+	set("short", "[1;36m¥ð¾Í®x°|¨«´Y[0m");
+	set("long", @LONG
+³o¸Ì¬OÂÅÂÅªº¤Ñ¥ð¾Í®x°|,¨S¦³¤Ó¦hªºÂZÄc,¤]¨S¦³¤Ó¦h·Ð
+¤Hªº¤½¨Æ.¤@¤ÁµL¼~»PµL¼{³£¥i¥H¦b³o¬üÄRªº®x°|¤¤§ä¨ì,¼ë¼ë
+ªº¬y¤ôÁn,®S®Sªº³¾³ÚÁn,Å¥±oÅý§A¤ßÄq¯«©É,©{¦p¦Û¤v¤w¸g¨ì
+¤F¤H¶¡ªº²b¤g®çªá¶é¤§¤¤¤F.
+LONG
+	);
+
+	set("exits", ([ /* sizeof() == 7 */
+		"west" : SHENGSAN+"workroom",
+		"north": __DIR__"sendroom",
+            ]));
+
+	set("light", 1);
+	set("no_clean_up", 0);
+	setup();
+	replace_program(ROOM);
+}

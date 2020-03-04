@@ -1,0 +1,7 @@
+#/obj/user.c
+conditions ([])
+dbase (["DS_DATA_VERSION":19991107,"addition_armor":10,"addition_damage":10,"ap":100,"mud_age":312,"age":14,"channels":({"chat","rumor","tchat",}),"hp":84,"mp":66,"attitude":"peaceful","supply_point":42,"newbie":1,"exp":777,"dex":2,"int":2,"last_location":"/open/world1/tmr/area/hotel","con":2,"level":1,"birthday":1200144743,"talk_point":7,"cure_count":1,"Merits":(["tec":0,"sou":0,"bio":0,"wit":0,"bar":0,]),"evil":-1,"max_mp":66,"heart_modify":0,"guild_gifts":({5,5,5,5,}),"unit":"¦ì","default_actions":,"actions":,"wound":(["left_arm":0,"body":0,"right_arm":0,"left_leg":0,"head":0,"right_leg":0,]),"race":"evil","addition_shield":10,"max_ap":100,"id":"chaos","startroom":"/open/world1/tmr/area/hotel","heart_beat_rate":6,"gender":"¨k©Ê","str":2,"max_hp":84,"name":"µê","volume":7,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

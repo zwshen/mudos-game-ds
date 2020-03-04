@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions ([])
+dbase (["DS_DATA_VERSION":19991107,"race":"celestial","actions":,"board_last_read":(["tmr_hotel_b":1150125987,"boo-lin_b":1032272312,]),"max_mp":110,"channels":({"chat","rumor","tchat",}),"help":"newbie/","max_hp":80,"birthday":1201970214,"heart_modify":0,"id":"windstar","MKS":8,"heart_beat_rate":6,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"mp":110,"gender":"男性","guild_gifts":({5,5,5,5,}),"name":"風之星","attitude":"peaceful","max_ap":60,"ap":60,"startroom":"/open/world1/tmr/area/hotel","war_score":2,"cure_count":13,"addition_shield":10,"supply_point":60,"age":14,"unit":"位","mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove",}),"last_location":"/open/world1/cominging/area/forest","talk_point":8,"addition_armor":10,"default_actions":,"newbie":1,"exp":1426,"dex":2,"int":2,"con":2,"hp":80,"str":2,"volume":7,"level":1,"wound":(["body":0,"right_arm":0,"head":0,"right_leg":0,"left_arm":0,"left_leg":0,]),"bank":(["past":9,]),"addition_damage":10,"evil":23,"mud_age":2584,])
+skills (["strong-body":3,"dodge":1,"combat":4,"parry":0,"sword":3,])
+learned (["strong-body":19,"dodge":2,"combat":15,"parry":2,"sword":13,])
+items ({})
+autoload ({"/obj/money/coin:600",})
+toDoList ([])
+solved ({})

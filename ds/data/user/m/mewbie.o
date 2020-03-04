@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["int":2,"talk_point":1,"mp":60,"con":2,"str":2,"max_mp":60,"nickname":"[1;36m¨ì³B¯dºØªº¤jÁà¨k[0m","DS_DATA_VERSION":19991107,"cure_count":14,"gender":"¤k©Ê","guild_gifts":({5,5,5,5,}),"name":"­]±Ú¤jÁà¨k","attitude":"peaceful","evil":-1,"addition_shield":10,"age":14,"heart_beat_rate":6,"id":"mewbie","addition_damage":10,"addition_armor":10,"max_ap":60,"volume":7,"channels":({"chat","rumor","tchat",}),"race":"human","supply_point":28,"last_location":"/open/world1/kkeenn/love/room1","actions":,"ap":60,"level":1,"default_actions":,"birthday":1143302868,"Merits":(["bio":0,"sou":0,"wit":0,"tec":0,"bar":0,]),"hp":80,"unit":"¦ì","startroom":"/open/world1/tmr/area/hotel","exp":777,"max_hp":80,"mud_age":207,"newbie":1,"dex":2,])
+autoload ({})

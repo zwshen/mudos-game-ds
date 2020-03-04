@@ -1,0 +1,44 @@
+
+	author_stats(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	ㄧ计嘿:
+		author_stats() - 肚ㄇ参璸戈.
+		domain_stats() - 肚跋办ㄇ参璸戈.
+	ㄧ计粂猭:
+		mapping author_stats( string domain | void );
+		mapping domain_stats( string domain | void );
+
+		琈甮 author_stats( ﹃ domain ┪ void );
+		琈甮 domain_stats( ﹃ domain ┪ void );
+	ㄧ计ノ猭:
+		author_stats() ㎝ domain_stats()  常穦肚纗
+		琈甮跑计戈. 狦⊿Τ把计 (argument) , 碞穦肚
+		┮Τ (┪┮Τ跋办) – (┪–跋办) 琈甮戈
+		. –琈甮戈Τ: 簿笆计 (moves), 禣丁计 
+		(cost), 岿粇计 (errors),  み铬计 (heart_beats), 基
+		计 (worth), 皚计 (array_size),  ㎝ ン计 (objects)
+		. –兜常琌肚琈甮跑计い俱计. 簿笆计琌 
+		﹚ (┪跋办) い, ン砆簿笆ンい硅
+		. 禣计琌┮Τ﹚ (┪跋办) 柑ン┮禣璸
+		衡计ヘ (eval_cost). 岿粇计琌﹚ (┪跋办) い
+		ン羆祇ネ╰参岿粇硅. み铬计琌﹚ (┪跋办
+		) い, ┮Τン㊣ heartbeat  Ω计. 基计玥琌ㄏノ
+		add_worth(3)  ㄧ计薄 (硂兜计盽盽ノㄓ發萝﹚
+		畍┮瑈㎝瑈窥计ヘ) . 皚计琌﹚跋办い皚
+		┮皌竚癘拘砰じ计. ン计琌﹚跋办い砆承硑ㄓ
+		ン羆计. 讽硂ㄢㄧ计砆㊣, 狦⊿Τ﹚把计, 
+		肚琈甮碞穦钩硂妓:
+
+                ([ domain0 : info0, domain1 : info1, ... ])
+
+                τ info0 ず甧Α琌:
+
+                ([ "moves" : moves, "cost" : cost, "errors" : errors,
+                   "heart_beats" : heart_beats, "worth" : worth,
+                   "array_size" : array_size, "objects" : objects ])
+
+		Τ﹚把计, 碞穦肚钩 info0 Α.
+	把σㄧ计:
+		domain_file(4), author_file(4), set_author(3)
+	も陆亩:
+		Phoebus@ZH   1997.Aug.15.			(Writen 5/23/97)

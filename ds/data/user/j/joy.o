@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["name":"無所不知","startroom":"/open/world1/tmr/area/hotel","race":"human","id":"joy",])
+autoload ({})

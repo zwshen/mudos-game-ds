@@ -1,0 +1,8 @@
+¥Ø¿ý¡R/open/world1/tmr/north_forest/npc/
+bear.c              ¶Âºµ                dog.c               ¤pª¯              
+giautoo.c           ±Ð®{                guard1.c            ±Ð®{              
+rabbit.c            ¤p¨ß¤l              troll.c             ¥¨Å]              
+troll2.c            ´ËªL¥¨Å]            troll3.c            ÂOªL¥¨Å]          
+troll4.c            ¶Â·t¥¨Å]            troll5.c            ®£©Æ¥¨Å]          
+troll6.c            »ÈÁ÷¥¨Å]            troll7.c            ¦BÁ÷¥¨Å]          
+wolf.c              ¶Â¯T                

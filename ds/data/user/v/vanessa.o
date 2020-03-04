@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["int":2,"talk_point":5,"con":2,"unit":"¦ì","str":2,"DS_DATA_VERSION":19991107,"mp":60,"last_location":"/open/world1/wilfred/sand/room1","max_hp":80,"gender":"¤k©Ê","guild_gifts":({5,5,5,5,}),"name":"¨F¨F","default_actions":,"Merits":(["sou":0,"bar":0,"wit":0,"bio":0,"tec":0,]),"actions":,"cure_count":5,"id":"vanessa","age":14,"attitude":"peaceful","channels":({"chat","rumor","tchat",}),"race":"human","ap":60,"evil":-1,"level":1,"addition_shield":10,"birthday":1145184861,"heart_beat_rate":6,"hp":80,"addition_damage":10,"addition_armor":10,"max_ap":60,"volume":7,"supply_point":10,"startroom":"/open/world1/tmr/area/hotel","exp":777,"max_mp":60,"mud_age":72,"newbie":1,"dex":2,])
+autoload ({})

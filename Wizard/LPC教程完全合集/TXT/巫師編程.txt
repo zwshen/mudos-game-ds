@@ -1,0 +1,847 @@
+                           巫師編程
+
+1) 最簡單的房間的撰寫
+
+最簡單的房間是什麼？就是裡面什麼都沒有，機關，人物(npc)，物品，什麼都沒有
+比如說就是一條路上的一
+程序舉例如下：（//表示註釋）
+// Room: /d/snow/eroad1.c      //程序開頭注一下,說明是什麼文件,在什麼地方
+inherit ROOM;                  //繼承 ROOM 類
+void create()           //  創建函數;在裡面定義各種屬性
+
+        set("short", "黃土小徑");      // 房間的 短描述
+        set("long", @LONG              // 房間的長描述
+這是一條普通的黃土小徑，彎彎曲曲往東北一路盤旋上山，北邊有
+一間城隍廟，往西則是雪亭鎮的街道。     //@LONG&LONG是一對宏,表示裡面是字符串
+ LONG
+        );
+        set("exits", ([ /* sizeof() == 3 */     // 設房間出口
+  "northeast" : "/d/snow/eroad2",               // 不同的方向指令,跳轉到
+  "north" : "/d/snow/temple",                   // 不同的房間
+  "west" : "/d/snow/sroad1",                    // 注意,不加 .c 後綴
+]));
+        set("outdoors", "snow");                // 是雪淳鎮的室外
+        setup();                                //不用管它,照抄就是
+        replace_program(ROOM);
+
+2)  房間的物品和門
+最簡單的房間說完了,就再複雜一點兒加上 物品定義,和物品拿枋?還有建個門吧
+還是舉例說明
+// inn.c
+#include
+inherit ROOM;
+string look_sign(object me);            // 函數原型定義
+void create()
+
+        set("short", "飲風客棧");
+        set("long", @LONG
+你現在正站在雪亭鎮南邊的一家小客棧裡，這家客棧雖小，卻是方圓
+五百里內最負盛名的一家，客棧的主人據說是一位雲遊四海的仙人，如果
+你的福緣深厚的話，也許可以在這裡遇到他。除此之外，來自各地的旅人
+都喜歡聚集在這裡交換旅途上的見聞，你也可以在這裡打聽到許多有趣的
+消息。靠近門口的地方有一塊烏木雕成的招牌(sign)。
+    西北邊有一個紅木門(door)，門上泛著一層白色的光暈，一種令人感
+覺很有力量，又很柔和的光芒。
+LONG
+        );
+        // This enables players to save this room as their startroom.
+        set("valid_startroom", 1);        //使該房間可以成為下一次進來的地方
+        set("item_desc", ([
+                "sign": (: look_sign :),        // 物品(其實不是物品)描述
+// 只是一個記號而已,玩家可以用 look sign 來看你的描述 , 不是實際存在的物品
+//   冒號左邊的是名稱,右邊的是描述 如 :
+//  "pillar" : "石柱上刻著：劍氣指天、劍心內斂、劍芒不顯、劍神如電。"
+// 玩家 look pillar 是,就會出來 後面跟的話
+// 如果你想叫玩家look 時,去調一個函數,就後面跟一個 (: 函數名 :)
+                "door": (: look_door, "northwest" :),
+                // 這裡調的就是look_door函數,參數是northwest
+        ]) );
+        set("exits", ([
+                "east"          : "/d/snow/square",
+                "up"            : "/d/snow/inn_2f",
+                "northwest"     : "/d/wiz/entrance" ]) );
+        // 下面是定義房間裡的NPC, 這就是一個店小二啦
+        set("objects", ([
+                "/d/snow/npc/waiter" : 1 ]) );  // 後面的1, 就是一個的意思
+        // 創建房間的門, 平時是關閉的
+        create_door("northwest", "木門", "southeast", DOOR_CLOSED);
+        setup();
+        // 建一個公告板,是另一個地方定義的函數
+        // To "load" the board, don't ever "clone" a bulletin board.
+        call_other( "/obj/board/common_b", "???" );
+
+// look sign時調用,根據玩家的級別返回描述
+string look_sign(object me)     // me是一個對像,指向動作的主人
+                                // 這裡的me是參數,如果沒有這個參數,
+                                // 可以在函數里用
+                                // object me; me = this_player();定
+
+        if( wizardp(me) )       // wizardp(me) 是一個efun, 是mudos 定義的
+                                // 判斷me這個對像是否是巫師
+                return "招牌寫著：飲風客棧。旁邊一排小字：莊思啞題。\n";
+        else
+                return "招牌寫著：飲風客棧。\n";
+
+3)  人物創作入門
+每一個人物都需要單獨的一個*.c文件,由其所在房間的源碼調用.前面已經說過
+一般來說,NPC放在npc各個地方的npc目錄下,如 /d/snow/npc下是雪淳鎮的npc
+記住一點就是:NPC其實和玩家是一樣的,只不過是電腦控制而已,
+        玩家有的各項值它都有,而且比如說,fight的時候,它也會漲經驗值的
+        也會慢慢恢復. 所以它可以用command來執行命令.
+舉例說明:
+::::::::::::::
+fist_trainer.c
+::::::::::::::
+// trainer.c
+inherit NPC;            // 繼承 NPC類
+void create()
+
+        set_name("李火獅", ({ "trainer", "lee" }) );    //設NPC名字和中文名字
+                               ^^^^^^^^^|^^^^^
+                                        +-------就是有兩個名字,哪個都可以
+        set("title", "拳法教練");       // 頭
+        set("gender", "男性" );         // 性別
+        set("age", 28);                 // 年齡
+        set("str", 26);                 // str, int 都是天賦值
+        set("int", 14);
+        set("long",                     // 人物的長描述,當玩家look trainer時
+                                        // 顯示該描述
+"李火獅是個孔武有力的大塊頭，他正在訓練他的弟子們習練「柳家拳\n"
+                "法」(liuh-ken)。\n" );
+        set("combat_exp", 3000);        // 人物的實戰經驗
+        set("attitude", "heroism");     // 好戰態度
+        set("force", 120);              // 內力值
+        set("max_force", 120);          // 最大內力
+        set("force_factor", 1);         // 一次發出多少點內力
+        set("inquiry", ([               // 玩家ask 時的反應
+                "here": "這裡當然是淳風武館，不然還是哪裡？\n",
+// 如上句, 玩家ask trainer about here 就會出後面的話
+                "name": "在下姓李，名字就叫火獅，人稱李教頭的便是我。\n",
+                "柳家拳法": "哦....說來慚愧，小弟這套拳法還沒學得到家,
+柳館主就教我在這裡傳藝。\n"
+        ]) );
+        set_skill("unarmed", 30);       // 設置各項武功技能
+        set_skill("liuh-ken", 20);
+        set_skill("dodge", 30);
+        map_skill("unarmed", "liuh-ken");       // enable 柳家拳法
+        setup();
+
+int recognize_apprentice(object ob)     // 接受玩家拜師時的反應
+
+        if( (string)ob->query("family/family_name")=="封山劍派" ) return 1;
+                        ^^^^^^^^^^^^|^^^^^^^^^^^^
+                                    +---------------查詢玩家的派別
+        command("say 對不起，這位" + RANK_D->query_respect(ob) +
+                                     ^^^^^^^^^^^|^^^^^^^^^^^^
+                                                +---對像ob, 就是玩家,的頭銜
+"，您不是我們武館的弟子。");
+        return notify_fail( "李火獅不願意教你拳法。\n");
+               ^^^^^|^^^^^
+                    +-------這是一個很有用的函數,就是給出錯誤信息
+
+int accept_fight(object me)     // 接受玩家fight時調用
+
+        if( (string)me->query("family/family_name")=="封山劍派" ) {
+                command("say 進招吧。");
+                return 1;
+        }
+        command("say 館主吩咐過，不許和來這裡的客人過招。");
+        return 0;
+
+4) 幾個零散的問題
+*******************************************
+1. NPC怎麼有貨物？
+*******************************************
+        如店小二，在create()函數里定義
+        set("vendor_goods", ([
+                "匕首": "/obj/example/dagger",
+                "酒": "/obj/example/wineskin",
+                "包子": "/obj/example/dumpling",
+                "雞腿": "/obj/example/chicken_leg",
+        ]) );
+        增加一個list功能
+        在init()裡定義
+void init()             // 當一個玩家進入同一環境時,調用
+
+        object ob;
+        ::init();
+        if( interactive(ob = this_player()) && !is_fighting() ) {
+            ^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^     ^^^^^^|^^^^^^^
+                          +---判斷玩家是否存在       +---相互是否處於戰鬥狀態
+               remove_call_out("greeting");
+                call_out("greeting", 1, ob);
+        }
+        add_action("do_vendor_list", "list");   //增加一個list的動作,
+                       // list時自動調do_vendor_list,是系統函數
+
+*************************************************
+2. 進門時,自動問好
+*************************************************
+init()中函數設置如上
+另外寫一個greeting函數
+void greeting(object ob)
+
+        if( !ob || environment(ob) != environment() ) return;
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^判斷是否是同一個房間
+       switch( random(3) ) {  // 隨機問好
+                case  0:
+                        say( "店小二笑咪咪地說道：這位" +
+                                RANK_D->query_respect(ob)
+                                + "，進來喝杯茶，歇歇腿吧。\n");
+                        break;
+                case 1:
+                        say( "店小二用脖子上的毛巾抹了抹手，說道：這位" +
+                                RANK_D->query_respect(ob)
+                                + "，請進請進。\n");
+                        break;
+                case 2:
+                        say( "店小二說道：這位" + RANK_D->query_respect(ob)
+                                +"，進來喝幾盅小店的紅酒吧，這幾天\
+                                才從窖子裡開封的喲。\n");
+                        break;
+        }
+
+********************************************
+3. 平時隨機動作和戰鬥中動作
+********************************************
+在create()函數里
+        set("chat_chance", 25);         // 隨機動作概率 25%
+        set("chat_msg", ({
+                "僵尸護法說道：我們茅山派實力最強！誰敢欺負我們？\n"
+                "僵尸護法對你說道：小心我把你變成僵尸! \n",
+                "僵尸護法對你念了一會咒，你不禁毛骨悚然起來...\n",
+                (:random_move :)        // 隨機移動
+        }) );
+        set("chat_chance_combat", 70);  // 戰鬥中隨機動作概率
+        set("chat_msg_combat", ({
+                (: command("你敢惹我，追到天涯海角我都要殺了你！") :),
+                (: cast_spell, "drainerbolt" :),
+                (: cast_spell, "netherbolt" :),         //使用各種法術
+                (: cast_spell, "feeblebolt" :),
+                (: cast_spell, "invocation" :),
+        }) );
+********************************************
+4. 根據玩家詢問的信息作相應的動作
+********************************************
+楊掌櫃為例:
+在create()函數里:
+        set("inquiry", ([
+                "治傷": (: heal_me :),
+                "療傷": (: heal_me :),
+                "開藥": (: heal_me :),
+        ]) );
+再定義一個heal_me函數
+string heal_me(object me)
+
+        int ratio;
+        ratio = (int)me->query("eff_kee") * 100 / (int)me->query("max_kee");
+        if( ratio >= 100 )
+                return "這位" + RANK_D->query_respect(me) +
+                "，您看起來氣色很好啊，不像有受傷的樣子。";
+        if( ratio >= 95 )
+                return
+        "哦....我看看....只是些皮肉小傷，您買包金創藥回去敷敷就沒事了。";
+
+作相應的動作
+*****************************************
+5. 人物身上的物品和錢
+*****************************************
+在create()函數里
+__DIR__是一個宏,表示當前目錄,提高程序可移植性
+        carry_object(__DIR__"obj/magic_book");  // 一般的物品
+        carry_object(__DIR__"obj/spells_book");
+        carry_object(__DIR__"obj/thin_sword")->wield(); // 武器可以裝備
+        carry_object(__DIR__"obj/pink_cloth")->wear();  // 衣服等可以穿上
+        carry_object(__DIR__"obj/shoe")->wear();
+        add_money("gold", 3);           // 錢用add_money函數
+--
+**************************************************************************************
+***********************************************************************************
+                     巫師編程 (2)
+
+
+5)  人物的屬性 (scratch)
+"id"                                                            (string)
+    人物的識別字，這個字可以用來識別玩家，通常 "id" 跟 "name" 都不直接用
+    set() 設定，而是用 F_NAME 中的 set_name()。
+"title", "nickname", "name"                                     (string)
+    人物的稱號、綽號、與中文姓名。
+"age"                                                           (int)
+    人物的年齡，玩家的年齡是由定義在 USER_OB 中的 update_age() 定期更新。
+"age_modify"                                                    (int)
+    這個數值會在 update_age() 中被加在人物的年齡上，可以是負數。
+"gin", "eff_gin", "max_gin"                                     (int)
+"kee", "eff_kee", "max_kee"
+"sen", "eff_sen", "max_sen"
+    人物的精氣神數值及其上限，其中 "gin", "kee", "sen" 請透過定義在 F_DAMAGE
+    中的 receive_damage() 與 receive_heal() 增減，"eff_gin", "eff_kee",
+    "eff_sen" 則用 receive_wound() 與 receive_curing()。
+"str", "cor", "int", "spi", "cps", "per", "kar"                 (int)
+    人物的天賦，依序分別為膂力(strength)、膽識(courage)、悟性(intelligence)
+    、靈性(spirituality)、定力(composure)、容貌(personality)、福緣(karma)。
+    根據天賦的原意，請勿修改這幾個值，也不要依賴這些值做一些相關重大的檢查。
+"atman", "max_atman"                                            (int)
+"force", "max_force"
+"mana", "max_mana"
+    人物的靈力(atman, AP)、內力(force, FP)、法力(mana, MP) 及其上限，可
+    以用 set(), add() 直接修改，但是必須自行檢查上下限。
+"MKS", "PKS"                                                    (int)
+    人物殺死其他生物的統計(MKS = Monster Killing Statistic, PKS = Player
+    Killing Stastics)。
+"combat_exp"                                                    (int)
+    人物的實戰經驗?
+"score"                                                         (int)
+    人物的綜合評價。
+"force_factor"                                                  (int)
+    人物 enforce 指定的強度，表示用內力傷人所耗的內力。
+"mana_factor"                                           (int)
+    人物 enchant 指定的強度，表示引出武器魔法效果所耗的法力。
+"family"                                                        (mapping)
+    人物的師承門派等記錄，當人物拜師或自創門派時就會設定這個屬性，其內容
+    及定義如下：
+        "family_name"： 門派名稱
+        "master_name"： 師父的中文名字
+        "master_id"：   師父的英文代?
+        "generation"：  人物在這個門派中的輩分，1 表示開山始祖，2 表示
+                        第二代弟子....等等。
+        "title"：       人物在這個門派中的地位，如"掌門人"、"左護法"、等
+                        等，剛加入一個新門派的預設值是"弟子"。
+        "priv"：        人物在門派中的權限旗號，一般弟子是 0，掌門人是 -1
+        "enter_time"：  人物加入門派時 time() 所傳回的值。
+"guilds"                                                        (mapping)
+    人物所參加的各種組織，每個組織有一個 identity 當 key，value
+    的內容由該組織的相關物件自行定義。
+"startroom"                                                     (string)
+   人物 login 時出現的房間，一般都設為公會。
+
+6)  如何建造一個房間
+    房間是構成這整個世界的要素之一，在此我們提供了一個房間的標準物件來讓
+所有的房間繼承。而如同其他的物件一般，你需要寫一個 create() 來設定房間中
+的敘述、出口、物品、生物等等。這裡，我喜歡說你用 create() 這個函式來賦予
+這個房間的屬性。一般來說，要建造一個簡單的房間，你只要賦予它基本的屬性即
+可。當然，我們不認為一個區域中幾十個房間沒有任何的機關或秘密，是個會吸引
+玩家一遊的好地方。
+    下面，提到了一些建造房間所需要留意的事項，也會配合一些例子來說明。
+  一、基本篇
+    一個基本的房間，要有 short <短敘述> 、 long <長敘述>、 exits <出口>
+□  當你在寫一個房間的 long <長敘述>時，其格式為：
+        set("long", @LONG
+房間的敘述.......
+LONG
+                "west"          : __DIR__"path3",
+        和
+                "west"          : "/u/d/davidoff/goathill/path3",
+是完全一樣的。但前者顯然在以後目錄的搬移上方便的多。而在下面會提到設定房
+間中的物品或生物時，也建議採用這種方式寫作。
+□  item_desc 這是用來設定個別景物的描述，當玩家用 look 這個指令時就會作
+    用。其格式為：
+        set("item_desc", ([
+                "景物名稱"      : "景物敘述",
+                ...........
+        ]);
+    其中景物敘述可以是字串或是一個 function ，所以你可以利用這個功能加以
+變化，當玩家 look 一個景物時，可能看到敘述，也可能發生一些特殊的事件，而
+你就可以在被呼叫的函式中寫下這些事件。
+□  objects 可以讓這個房間在每次 reset時載入某些生物或某些物品：
+        set("objects", ([
+                "物品或生物的檔名"      : 數量,
+                ...........
+        ]);
+    如同前面所提到的，建議採用 __DIR__來編寫你的路徑，而數量則要用整數。
+□  要為這個房間添上門戶時，記得前面必須先 #include 。而格式為：
+        create_door("出口方向", "門的名稱", "進入方向", 預設狀態);
+    比如說，這裡明顯的出口有 west、east 和 up。 而你要讓西邊有一個關上的
+紅木門，你可以這樣寫：
+        create_door("west", "紅木門", "east", DOOR_CLOSED);
+    當玩家進入這個房間時，他會看到：
+        這裡明顯的出口有 east 和 up。
+    而當他 look west 時，會看到：這個紅木門是關上的。
+    其他的一些屬性，你可以參考 /doc/build/room_prop 或是讀一下標準物件的
+room.c。也建議你可以多用 more here來觀看一間特殊的 room。
+  二、進階篇
+    要讓你的區域中富有變化，生動有趣，除了文字敘述的豐富度以外，你更可以
+利用 init() 這個函式為你的房間增加一些「機關」或「秘密」。
+    這裡，先讓我們了解一下 init() 的用途為何，和為什麼要用到它。每一個房
+間的 create() 只有當 reset時才會被呼叫到，而 init() 則是在 B物件進入到 A
+物件時都會呼叫到 A物件的 init() 。看到這，你應該可以看出差別了，我們希望
+當一個物件（此處較多是玩家）進到一個房間時，能夠經由某個動作啟動這個房間
+的機關的話，自然是利用 init() 來編寫。
+    一般的使用方式，是在 init() 中利用 add_action() 來呼叫你寫的函式，?
+格式為：
+        add_action("function type", "action");
+    function type 即是被呼叫的函式名    action 是啟動的動作
+    而你就可以將被 action
+啟動後要發生的事，都寫在被呼叫的函式裡面。理論上來說，利用這個方式我們可以做到
+任何事，當然，能不能達成就看寫程式的功力
+了。下面舉個簡單的例子：
+void init()
+
+        add_action("do_pick", "pick");
+
+int do_pick(string arg)
+
+        object me;
+        me = this_player();
+        if ( !arg || ( arg != "flower" ) ) return
+notify_fail("你要摘什麼？\n");
+        else if ( random((int)me->query("kar")) < 7 )
+                message_vision("$N將花摘了下來，但一不小心被刺了一下。\n",
+me);
+        else
+                message_vision("$N摘下一朵美麗的血紅色鮮花。\n", me);
+        return 1;
+
+    當玩家利用 pick 這個指令時就會呼叫到 do_pick() 這個 function，而啟動了
+這個房間的機關。
+    這裡特別提到一點，一個簡單的 room 我們為了使記憶體的使用量降到最低，會
+在 create() 最後加上一行 replace_program(ROOM); 。這是因為在房間的標準物件
+中有定義了如 init() 等其他的函式，而一個簡單的房間根本沒有用到，所以我們用
+replace_program() 來將原本的被繼承的標準物件「重置」（或說取代）掉，但是一
+旦房間中用到了 init() 來編寫時，就絕對不可以用 replace_program()，因為系統
+屆時找不到 init() 便會隨便呼叫一個記憶體中的位址而隨便傳進一些亂七八糟的東
+西，情況嚴重時，甚至可以讓整個 mud crash。但是，我們自不可因噎廢食，該用的
+時候還是要用，這些應該是一個好的程式寫作人員自己必須留意的，發生狀況要自己
+負責。
+ 7)  定義在人物物件中的附加函數(apply functions)
+void defeated_enemy(object victim)
+當這名人物打昏一個敵人的時候會呼叫這個附加函數，victim 即是被打昏的的
+敵人物件。
+呼叫者: COMBAT_D
+有預設定義此一函數的系統物件: none
+void killed_enemy(object victim)
+當這名人物殺死一個敵人的時候會呼叫這個附加函數，victim 是即將要被殺死
+的敵人物件。
+呼叫者: COMBAT_D
+有預設定義此一函數的系統物件: none
+int accept_fight(object who)
+當有其他生物對這個人物下 fight 指令的時候，會呼叫這個附加函數，who 是
+下 fight 指令的生物，如果是對 player 下，"fight" 指令會直接顯示訊息徵
+求被挑戰一方的同意，如果是對 NPC 下這個指令，則當這個附加函數傳回 1
+時才會接受挑戰，否則顯示某某不想跟你較量的訊息。
+呼叫者: "fight" 指令
+有預設定義此一函數的系統物件: NPC
+int accept_object(object who, object item)
+當有人用 give 指令給這個非玩家人物東西時，會呼叫這個附加函數，傳回 1
+表示願意接受這個東西，傳回 0 表示不接受。
+呼叫者: "give" 指令
+有預設定義此一函數的系統物件: none
+void recruit_apprentice(objct apprentice)
+當一個人物收了另一個人物做弟子時會呼叫這個附加函數，你可以在這個函數里
+修改弟子的 rank 或其他東西。
+呼叫者: "apprentice" 指令
+有預設定義此一函數的系統物件: none
+8)  房間屬性
+"short"                                                         (string)
+    房間的短敘述。
+"long"                                                          (string)
+    房間的長敘述。
+"item_desc"                                                     (mapping)
+    房間中個別景物的敘述，格式為：([ <景物名稱>:<景物敘述>, .... ])。
+    其中<景物敘述>可以是字串或 function type。
+"exits"                                                         (mapping)
+    房間的出口，包括有門的方向，格式為：([  <出口>:<房間檔名>, .... ])。
+"objects"                                                       (mapping)
+    房間中的物品、生物，格式：([ <物品或生物檔名>:<數量>, .... ])。
+"outdoors"                                                      (string)
+    房間是否為「戶外」，戶外房間可以看到天色變化與氣候影響。字串的意義
+    表示房間的氣候區，通常和該區域的 domain (即 /d 下的目錄名稱) 同。
+"no_fight"                                                      (int)
+    房間是為禁止作戰區域。
+"no_magic"                                                      (int)
+    房間是為禁止施法區域。
+9)  物品屬性
+"name"                                                          (string)
+    物品的中文名稱。
+"id"                                                            (string)
+    物品的英文名稱。
+"long"                                                          (string)
+    物品的詳細描述。
+"value"                                                         (int)
+    物品的價值，單位是「錢」(coin)。
+"unit"                                                          (string)
+    物品的單位，如：個、把、枝.....
+"no_get"                                                        (int)
+    表示物品是否可被撿起來。
+"no_drop"                                                       (int string)
+    表示物品是否可被丟棄，如果型態是 string, 則當有人企圖丟棄這個物品時
+    會將該字串用 notify_fail 傳回去。
+□ 武器屬性
+"skill_type"                                                    (string)
+    這個武器所屬的技能種類，如 "sword"、"blade" 等，要注意在 /d/skill
+    下必須有一個定義該武器技能的物件，否則裝備這個武器戰鬥時會有錯誤
+    訊息。
+"rigidity"                                                      (int)
+    武器的硬度，當使用武器相鬥時，硬度、武器的重量、持用者的力量將會影
+    響武器受損的機率。
+    武器受損機會所用的強度值計算公式如下：
+        重量/500 + 硬度 + 力量
+"weapon_prop"                                                   (mapping)
+    武器對持用者的狀態影響，通常武器只影響 "damage"，這些狀態影響會在
+    武器被裝備時用 add_temp() 加到持用者的 apply 上，並於卸除或 dest
+    時減回來。
+"flag"                                                          (int)
+    武器的一些型態旗標，詳見  的定義。
+
+
+**************************************************************************************
+***********************************************************************************
+
+                         編程中要注意的小問題
+
+1.一些重要的單詞可別寫錯喔：像create,environment,gender,......
+
+2.LONG 描述的要點: 這是很重要的，一旦出錯就很慘了.....
+請注意：long <長敘述>，其格式為：
+
+        set("long", @LONG
+
+room or npc 的敘述.......
+
+LONG
+        );
+      
+    其中 @LONG 和 LONG  是互相對應的，你可以用任何字接在 @  後面，但是前
+後兩個字一定要一樣，這樣系統才能判別，而房間的敘述寫完時，一定要換行後再
+                                                        
+^^^^^^^^^^^^^^^^        
+接第二個 LONG ，且同一行不能再有其他任何的字元，不然系統無法判定敘述是否
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+該結束了，會造成編譯時的錯誤。
+
+3.一些結構要有始有終，像函數的{ } 啦，還有mapping([ ]) ，array({ }) 啦，
+要是忘記寫後面的那個就.......
+
+4.__DIR__ 的用法，一般來說__DIR__ 是指該NPC OR ROOM 的當前目錄。所以要弄
+什麼物件的話就用這個__DIR__的相對目錄做好了。
+
+嗯，就想起這麼多了，以後再寫別的吧。
+
+-
+**************************************************************************************
+***********************************************************************************
+
+                         wiz 編程雜談 (1)
+
+關於notifal_fail
+
+usage: notofy_fail(string | function str);
+請注意：notify_fail() always returns 0.
+
+nofify_fail() 的作用是設置本次命令的失敗信息。嗯，聽起來好像很複雜 :P
+其實就是取代“什麼？”這句話的東東啦。比如我們打一個命令(包括動作什麼的)。
+要是此命令的程序return 0 的話，系統就會給個錯誤信息 “什麼？”但假如我們
+在命令的程序裡面有notify_fail() ，那麼假如命令最後返回 0 。那系統就給出
+本命令執行的最後一個notify_fail() 所設定的錯誤信息，否則就是“什麼？”。
+
+其中notify 的參數可以是一個str 的function 。就是把這個func 所返回的
+string 做錯誤信息了。
+
+例如：help 命令裡的一段：
+
+        if( stringp(file = me->find_command(arg)) ) {
+                notify_fail("有這個指令存在，但是並沒有詳細的說明文件。\n");
+//在執行notify_fail 的時候並沒顯示，只是在最後返回0 值時才顯示此信息。
+                return file->help(me);
+        }
+
+//要是return file->help(me) == 0 的話。
+//就會給出錯誤信息"有這個指令存在，但是並沒有詳細的說明文件。\n"
+//假如沒notify_fail 這句，錯誤信息就是 “什麼？”
+
+
+標  題: room的制作
+
+
+/doc/build/room
+□  如何建造一個房間
+
+    房間是構成這整個世界的要素之一，在此我們提供了一個房間的標準物件來讓
+所有的房間繼承。而如同其他的物件一般，你需要寫一個 create() 來設定房間中
+的敘述、出口、物品、生物等等。這裡，我喜歡說你用 create() 這個函式來賦予
+這個房間的屬性。一般來說，要建造一個簡單的房間，你只要賦予它基本的屬性即
+可。當然，我們不認為一個區域中幾十個房間沒有任何的機關或秘密，是個會吸引
+玩家一遊的好地方。
+
+    下面，提到了一些建造房間所需要留意的事項，也會配合一些例子來說明。
+
+  一、基本篇
+
+    一個基本的房間，要有 short <短敘述> 、 long <長敘述>、 exits <出口>
+
+□  當你在寫一個房間的 long <長敘述>時，其格式為：
+
+        set("long", @LONG
+
+房間的敘述.......
+
+LONG
+        );
+      
+    其中 @LONG 和 LONG  是互相對應的，你可以用任何字接在 @  後面，但是前
+後兩個字一定要一樣，這樣系統才能判別，而房間的敘述寫完時，一定要換行後再
+接第二個 LONG ，且同一行不能再有其他任何的字元，不然系統無法判定敘述是否
+該結束了，會造成編譯時的錯誤。
+
+    而為求區域看起來外觀上整齊、統一，房間的長敘述中每一行的長度必須一樣
+，而一行的長度建議為 29 到 32 個中文字，約佔螢幕的三分之二。並且一個房間
+的敘述最好不要低於三行，區域各個房間的敘述重複性降到越低越好，這樣你的區
+域看起來才不會太過陽春。當然，有時候為了某些目的，比如一個迷宮，你可能會
+相鄰的幾個房間都用到一樣的敘述，那自然不在此限。
+
+□  一個房間的出口則以下列格式賦予：
+
+        set("exits", ([
+                "方向"          : "連接到的房間之檔名",
+                ...........
+        ]);
+
+    在這裡，為了一個以後區域開放後搬移目錄的便利性，建議採用__DIR__ 這個
+由系統提供的巨集來寫路徑，比如說：
+
+                "west"          : __DIR__"path3",
+        和
+                "west"          : "/u/d/davidoff/goathill/path3",
+
+是完全一樣的。但前者顯然在以後目錄的搬移上方便的多。而在下面會提到設定房
+間中的物品或生物時，也建議採用這種方式寫作。
+
+□  item_desc 這是用來設定個別景物的描述，當玩家用 look 這個指令時就會作
+    用。其格式為：
+
+        set("item_desc", ([
+                "景物名稱"      : "景物敘述",
+                ...........
+        ]);
+
+    其中景物敘述可以是字串或是一個 function ，所以你可以利用這個功能加以
+變化，當玩家 look 一個景物時，可能看到敘述，也可能發生一些特殊的事件，而
+你就可以在被呼叫的函式中寫下這些事件。
+
+□  objects 可以讓這個房間在每次 reset時載入某些生物或某些物品：
+
+        set("objects", ([
+                "物品或生物的檔名"      : 數量,
+                ...........
+        ]);
+
+    如同前面所提到的，建議採用 __DIR__來編寫你的路徑，而數量則要用整數。
+ 
+□  要為這個房間添上門戶時，記得前面必須先 #include <room.h>。而格式為：
+
+        create_door("出口方向", "門的名稱", "進入方向", 預設狀態);
+
+    比如說，這裡明顯的出口有 west、east 和 up。 而你要讓西邊有一個關上的
+紅木門，你可以這樣寫：
+
+        create_door("west", "紅木門", "east", DOOR_CLOSED);
+
+    當玩家進入這個房間時，他會看到：
+
+        這裡明顯的出口有 east 和 up。
+
+    而當他 look west 時，會看到：這個紅木門是關上的。
+
+ 
+    其他的一些屬性，你可以參考 /doc/build/room_prop 或是讀一下標準物件的
+room.c。也建議你可以多用 more here來觀看一間特殊的 room。
+
+  二、進階篇
+
+    要讓你的區域中富有變化，生動有趣，除了文字敘述的豐富度以外，你更可以
+利用 init() 這個函式為你的房間增加一些「機關」或「秘密」。
+
+    這裡，先讓我們了解一下 init() 的用途為何，和為什麼要用到它。每一個房
+間的 create() 只有當 reset時才會被呼叫到，而 init() 則是在 B物件進入到 A
+物件時都會呼叫到 A物件的 init() 。看到這，你應該可以看出差別了，我們希望
+當一個物件（此處較多是玩家）進到一個房間時，能夠經由某個動作啟動這個房間
+的機關的話，自然是利用 init() 來編寫。
+
+    一般的使用方式，是在 init() 中利用 add_action() 來呼叫你寫的函式，其
+格式為：
+        add_action("function type", "action");
+
+    function type 即是被呼叫的函式名    action 是啟動的動作
+
+    而你就可以將被 action 啟動後要發生的事，都寫在被呼叫的函式裡面。理論
+上來說，利用這個方式我們可以做到任何事，當然，能不能達成就看寫程式的功力
+了。下面舉個簡單的例子：
+
+void init()
+{
+        add_action("do_pick", "pick");
+}
+
+int do_pick(string arg)
+{
+        object me;
+
+        me = this_player();
+        if ( !arg || ( arg != "flower" ) ) return 
+notify_fail("你要摘什麼？\n");
+
+        else if ( random((int)me->query("kar")) < 7 )
+                message_vision("$N將花摘了下來，但一不小心被刺了一下。\n", 
+me);
+
+        else
+                message_vision("$N摘下一朵美麗的血紅色鮮花。\n", me);
+
+        return 1;
+}
+   
+    當玩家利用 pick 這個指令時就會呼叫到 do_pick() 這個 function，而啟動了
+這個房間的機關。
+
+    這裡特別提到一點，一個簡單的 room 我們為了使記憶體的使用量降到最低，會
+在 create() 最後加上一行 replace_program(ROOM); 。這是因為在房間的標準物件
+中有定義了如 init() 等其他的函式，而一個簡單的房間根本沒有用到，所以我們用
+replace_program() 來將原本的被繼承的標準物件「重置」（或說取代）掉，但是一
+旦房間中用到了 init() 來編寫時，就絕對不可以用 replace_program()，因為系統
+屆時找不到 init() 便會隨便呼叫一個記憶體中的位址而隨便傳進一些亂七八糟的東
+西，情況嚴重時，甚至可以讓整個 mud crash。但是，我們自不可因噎廢食，該用的
+時候還是要用，這些應該是一個好的程式寫作人員自己必須留意的，發生狀況要自己
+負責。
+
+  三、建議
+
+    這裡我們提供了一個工具來讓巫師們可以方便的編寫一個房間，那就是房間編輯
+器(Roommaker) ，你可以 clone /obj/roommaker 來使用它。一般的步驟是，先利用
+mkroom來造一個空房間，然後利用 goto 這個指令到房間裡去，再用 rset short 和
+connect 來設定這個房間的短敘述及出口，而像其他的一些屬性例如 outdoors 等等
+也都可以利用他來做到，接著用 to rset long 來設定這個房間的長敘述，最後再用
+saveroom將這個房間存檔。要是這只是一個基本的房間，那到這裡就大功告成了，要
+是□想讓這個房間富有變化，那就再用線上編輯器 edit 或將這個房間的檔案 ftp
+回去繼續修改。
+
+Subject: room的屬性 (fwd)
+
+/doc/build/room_pro
+
+□ 房間屬性
+
+"short"                                                         (string)
+
+    房間的短敘述。
+
+"long"                                                          (string)
+
+    房間的長敘述。
+
+"item_desc"                                                     (mapping)
+
+    房間中個別景物的敘述，格式為：([ <景物名稱>:<景物敘述>, .... ])。
+    其中<景物敘述>可以是字串或 function type。
+
+"exits"                                                         (mapping)
+
+    房間的出口，包括有門的方向，格式為：([  <出口>:<房間檔名>, .... ])。
+
+"objects"                                                       (mapping)
+
+    房間中的物品、生物，格式：([ <物品或生物檔名>:<數量>, .... ])。
+
+"outdoors"                                                      (string)
+
+    房間是否為「戶外」，戶外房間可以看到天色變化與氣候影響。字串的意義
+    表示房間的氣候區，通常和該區域的 domain (即 /d 下的目錄名稱) 同。
+
+"no_fight"                                                      (int)
+
+    房間是為禁止作戰區域。
+
+"no_magic"                                                      (int)
+
+    房間是為禁止施法區域。
+
+**************************************************************************************
+***********************************************************************************
+
+                         1。LPC入門(上)
+
+
+LPC就是我們用來寫MUD的語言啦，它的語法和C 基本一樣。它獨特之處在於有簡單的
+OOP特性(簡單但很有用:PP)，還有一個C裡面沒有的HASH表的類型：MAPPING
+LPC和C還有一個不同是其主函數是CREATE()而不是MAIN()。create()別寫錯哦:PP
+
+    LPC裡面主要的(也是寫MUD所足夠的)數據類型有int,string,mapping,object,
+mixed。下面主要講一下這些類型了。
+
+    因為整數類型對於寫MUD已經足夠，所以不用FLOAT了。同樣的，因為我們的
+漢字是雙字節的，所以CHAR類型其實也沒用，只需要STRING 類型就可以了。
+STRING的定義，這裡要提一下：string常量的賦值，假如是常量的話可以只用
+“連接”的辦法代替string，例如:
+        string str = "我" "們" ;那麼結果是str == "我們"
+同樣的str = 
+                "我"
+                "們";也是一樣，空格與換行在LPC編譯時是被忽略的，所以我們
+寫MUD的時侯不仿多些TAB和換行，這樣程序容易看些。
+當然，除了直接連接之外還可以用 + 連接。在有變量的時侯就要用了。例如：
+        string str0 = "我們";
+        string str1 = "和"+str0+"大家";
+        結果是str1 == "和我們大家"
+
+    mixed是一個比較特別的類型。mixed 類型的變量可以賦任何其他類型的值。
+這在未知變量類型的時侯非常有用。不過一般情況下很少會用到mixed。
+
+    LPC裡面沒有“指針”的概念。在變量名前面加 * 的定義表示數組。如int *a
+表示a 是整數數組。一般來說我們定義數組時是未知其大小的。所以定義時不用像
+C 那樣給定大小。數組和MAPPING有些類似，所以將在下面和MAPPING一起講它們
+的操作。
+
+**************************************************************************************
+*********************************************************************************
+              
+                             LPC入門 （中）
+
+
+    LPC裡面沒有“指針”的概念。在變量名前面加 * 的定義表示數組。如int *a
+表示a 是整數數組。一般來說我們定義數組時是未知其大小的。所以定義時不用像
+C 那樣給定大小。數組和MAPPING有些類似，所以將在下面和MAPPING一起講它們
+的操作。
+
+    object, 是OOP概念了，在LPC裡面好像有CREATE()的都可以做object 類型變量
+了。object 我們稱為“對像”，在MUD裡就是一件物品，一個房間或任何一個“具
+體”的東西，都是OBJECT。“對像”，在OOP中是一些數據與基於這些數據的函數的
+集合（好像文謅謅的？ :PP）嗯，object 中的數據一般不能直接操作（至少在LPC
+裡面不能的 :PP），所以對object的操作只有賦值（對object類型的賦直 ）和執行
+object的函數( private函數不能被外部調用 )。
+函數調用格式：
+eg.     object ob;
+        ob->test(1,2);
+
+        基本格式： object類型變量名->函數名(函數參數列);
+其中若該object 中未定義該函數名的函數則返回 0 值（呵呵，不會有出錯信息的哦，
+所以千萬別寫錯名字了）。
+
+    寫了這麼多終於寫到LPC 最有特色的兩個類型了，mapping和數組。
+mapping和數組在“外觀”上有些類似，所以在一起寫了。前面提到過：mapping是
+散列表，具體如何這裡不詳述了，只希望大家一定要記住mapping的格式！！( 實際
+上這格式只在給變量賦初值時用到 )mapping 格式如下：
+eg.     mapping a = ([ "ab" : 1 ,
+                        "cd": 2 ,
+                        ])
+標準格式：
+        mapping 變量名 = ([
+                                key1 : value1 ,
+                                key2 : value2 ,
+                                ..........
+                                ..........
+                        ]);
+其中key可以是除了int以外的任何值！！ (好像char也不行吧 :P )，包括任何數組
+甚至mapping也可以做key ,而value則可以是任意所有值。mapping的應用在於：
+可以用key來index得到相應的value值。如上面eg的，我們有：a["cd"] == 2,....
+因為要用key來index的關係，在mapping中key值不能相等，若相等則覆蓋掉原來該
+key對應的value。寫的有些亂了，SORRY :P
+
+    那麼一個mapping怎麼改變它的值呢？有兩個方法(下面設mapping map )。
+1. map[key] = value;
+2. map += ([key : value ]);
+請大家留意第二種賦值方法，它跟我們將要提到的數組的方法一樣的 。
+在mapping中“刪除”一個key （其相應value當然也沒了）方法是：
+        map_delete(map,key);
+lpc裡面的系統函數(efun)的命名一般按參數順序來取名（ map_delete的參數就是
+
+map在前，被delete的key在後的 ），希望大家注意。
+另外mapping的efun還有values,keys,undefinedp
+大家可以直接在MUD裡 help efunname 來看幫助，也可以參閱 /doc/lpc/types/mapping
+這一文件

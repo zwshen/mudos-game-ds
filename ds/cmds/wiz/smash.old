@@ -1,0 +1,55 @@
+// smash.c 2-22-95
+#include <ansi.h>
+#include "/doc/help.h"
+
+inherit F_CLEAN_UP;
+
+int filter_listener(object ppl,object env)
+{
+        if( !environment(ppl) ) return 0;
+	if( environment(ppl) == env) return 0;
+        return 1;
+}
+
+int main(object me, string arg)
+{
+	object ob,*others;
+	string name1, name2;
+	int i;
+	//if (!arg) return notify_fail("«ü¥O®æ¦¡: smash <living>\n");
+	if(!arg)
+	{
+		others=filter_array(users(), "filter_listener", this_object(),environment(me));
+		tell_room(environment(me),HIC+me->name()+"°ªÁ|Âù¤â ±q¤Ñ¤W­°¤U¤@¹D°{¹q´N¥´¦b§A¨­«e¤@¤½¤Øªº¦a¤è¡I\n"NOR,({me}));
+		write("§AÂù¤â¤@Á|¥ß¨è©Û¨Ó¤@¹D°{¹q¡AÅý¦b³õªº¤H³£À~¤F¤@¸õ¡C\n");
+		if(sizeof(others)) message("system",HIC"\n¡u ÅF ¡ã¡ã ¶© ¡ã ¶© ¡ã¡v¡I\n"NOR,others);
+		return 1;
+	}
+	
+	ob = present(arg, environment(me));
+	if (!ob) return notify_fail("§ä¤£¨ì³o­Ó¥Íª«.\n");
+	name1 = (string)me->query("name");
+	name2 = (string)ob->query("name");
+	tell_room(environment(me),
+	name1+"°ªÁ|Âù¤â¤j³Ü ¥h¦º§â!, ¥u¨£¤Ñ¤W¤@¹D°{¹q¤£°¾¤£­Ê¦aÀ»¤¤"+name2+", ±N¤§¤Æ¬°¤@°ï¦ÇÂu.\n", 
+	({me, ob}));
+	tell_object(ob, name1+"°ªÁ|Âù¤â¤j³Ü ¥h¦º§â!, ¥u¨£¤Ñ¤W¤@¹D°{¹q¤£°¾¤£­Ê¦aÀ»¤¤§A.\n");
+	
+	write("§A°ªÁ|Âù¤â¤j³Ü ¥h¦º§a! ±q¤Ñ¤W­°¤U¤@¹D°{¹q±N"+name2+"¤Æ§@¤@°ï¦ÇÂu.\n");
+	write("«¢«¢«¢«¢«¢«¢... ¦n²n!\n");
+	ob->set_temp("temp/death_type","[[1;37m¸¨¹pÀ»ÀÅ[0m]"); 
+	ob -> die();
+	return 1;
+}
+ 
+int help(object me)
+{
+   write(@HELP
+«ü¥O®æ¦¡: smash <¥Íª«>
+ 
+Åý¤@­Ó¥Íª«¥ß¨è¦º¤`(die).
+
+HELP
+   );
+   return 1;
+}

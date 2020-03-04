@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions ([])
+dbase (["actions":,"addition_armor":10,"Merits":(["sou":0,"wit":0,"bar":0,"bio":0,"tec":0,]),"talk_point":8,"max_mp":110,"addition_damage":10,"max_hp":80,"max_ap":60,"mp":110,"ap":60,"newbie":1,"exp":1035,"dex":2,"id":"yukki","int":2,"hp":80,"con":2,"DS_DATA_VERSION":19991107,"cure_count":10,"str":2,"mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"level":1,"unit":"位","MKS":2,"channels":({"chat","rumor","tchat",}),"volume":7,"birthday":1180104938,"supply_point":60,"last_location":"/open/world1/wilfred/sand/room18","gender":"女性","evil":2,"name":"淡路幸虹","attitude":"peaceful","startroom":"/open/world1/tmr/area/hotel","guild_gifts":({5,5,5,5,}),"race":"celestial","heart_modify":0,"war_score":1,"heart_beat_rate":6,"mud_age":744,"default_actions":,"age":14,"addition_shield":10,"wound":(["right_arm":0,"right_leg":0,"left_arm":0,"body":0,"left_leg":0,"head":0,]),])
+skills (["unarmed":1,"chess":1,"dodge":1,"combat":2,])
+learned (["unarmed":4,"chess":1,"dodge":0,"combat":2,])
+items ({})
+autoload ({"/obj/money/coin:2",})
+toDoList ([])
+solved ({})

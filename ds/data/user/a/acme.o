@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions ([])
+dbase (["mp":60,"wound":(["left_leg":0,"body":0,"head":0,"left_arm":0,"right_arm":0,"right_leg":0,]),"mud_age":17938,"cwf":"/adm/daemons/logind.c","default_actions":,"actions":,"max_mp":60,"channels":({"chat","rumor","tchat",}),"board_last_read":(["anoounce_b":1242129431,"moon_room3_b":1220452753,"jail_board":1223826405,"boo-lin_b":1163611422,"guitar_b":1224584079,"tmr_hotel_b":1473518637,"sky_room25_b":1224690877,"acme_b":1173178879,"tmr_b":1471966881,"dragon_club_b":1166457653,"wizard_b":1208154391,"manto_b":1233681257,]),"newbie":1,"exp":777,"cwd":"/open/world1/acme/bonze/npc/","max_hp":80,"dex":2,"addition_shield":10,"max_ap":60,"int":2,"ap":60,"con":2,"last_location":"/u/a/acme/workroom","str":2,"level":1,"birthday":1472173418,"addition_armor":10,"hp":80,"volume":7,"age":14,"attitude":"peaceful","unit":"位","guild_gifts":({5,5,5,5,}),"gender":"男性","cure_count":7,"addition_damage":10,"name":"愛嗑米","Merits":(["sou":0,"bar":0,"tec":0,"wit":0,"bio":0,]),"startroom":"/open/world1/tmr/area/hotel","heart_modify":0,"race":"human","supply_point":60,"talk_point":8,"id":"acme","DS_DATA_VERSION":19991107,"heart_beat_rate":6,"evil":-1,])
+skills (["strong-body":4,])
+learned (["strong-body":11,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

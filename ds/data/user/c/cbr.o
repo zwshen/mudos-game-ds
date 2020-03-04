@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions ([])
+dbase (["age":14,"DS_DATA_VERSION":19991107,"max_hp":84,"last_location":"/open/world1/wilfred/sand/room35","ap":100,"volume":7,"guild_gifts":({5,5,5,5,}),"channels":({"chat","rumor","tchat",}),"mud_age":2584,"addition_shield":10,"hp":84,"newbie":1,"exp":777,"dex":2,"mp":66,"int":2,"help":"robot","attitude":"peaceful","con":2,"supply_point":60,"level":1,"birthday":1218198061,"addition_armor":10,"talk_point":8,"evil":-1,"cure_count":12,"addition_damage":10,"max_mp":66,"heart_modify":0,"Merits":(["bar":0,"bio":0,"tec":0,"sou":0,"wit":0,]),"race":"evil","default_actions":,"max_ap":100,"id":"cbr","wound":(["left_arm":0,"body":0,"right_arm":0,"left_leg":0,"head":0,"right_leg":0,]),"actions":,"unit":"¦ì","startroom":"/open/world1/tmr/area/hotel","gender":"¨k©Ê","str":2,"name":"ªü¨¸","heart_beat_rate":6,])
+skills (["strong-body":4,])
+learned (["strong-body":9,])
+items ({})
+autoload ({"/obj/money/coin:720",})
+toDoList ([])
+solved ({})

@@ -1,0 +1,3 @@
+¥Ø¿ý¡R/open/world1/tmr/area/obj/
+plate.c             ª÷µP                seat.c              ¥Û¹¹              
+table.c             ¥Û®à                

@@ -1,0 +1,6 @@
+#/obj/user.c
+conditions ([])
+dbase (["unit":"位","ap":60,"bank":(["past":0,]),"mp":60,"age":14,"newbie":1,"exp":338,"dex":2,"volume":7,"int":2,"con":2,"str":3,"guild_rank":"無家可歸的流浪漢","level":2,"cure_count":2,"evil":11,"DS_DATA_VERSION":19991107,"id":"kokuc","mud_age":932,"channels":({"chat","rumor","tchat",}),"supply_point":80,"mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog","/open/world1/tmr/area/npc/dog",}),"race":"human","birthday":1163389735,"default_actions":,"talk_point":11,"gender":"男性","heart_modify":1,"startroom":"/open/world1/tmr/area/hotel","name":"最愛","wound":(["right_leg":0,"left_leg":0,"left_arm":0,"right_arm":0,"body":0,"head":0,]),"addition_shield":10,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"MKS":6,"actions":,"addition_armor":10,"guild_gifts":({5,5,5,5,}),"max_mp":60,"last_location":"/open/world1/tmr/area/hotel","max_ap":60,"attitude":"peaceful","max_hp":80,"heart_beat_rate":6,"addition_damage":10,"hp":80,])
+skills (["sword":2,"dodge":1,"combat":3,])
+learned (["sword":10,"dodge":7,"combat":13,])
+autoload ({"/obj/money/coin:2",})

@@ -1,0 +1,56 @@
+[Fri Nov 16 15:25:04 2007] /u/m/manto/obj/flag.c line 25: Warning: Unused local variable 'ob' around the end of line
+
+[Fri Nov 16 15:25:04 2007] /u/m/manto/obj/flag.c line 38: Warning: Unused local variable 'mail' around the end of line
+
+[Sun Dec 16 21:59:47 2007] /u/m/manto/js_mage.c line 167: Warning: Unused local variable 'i' around the end of line
+
+[Sun Dec 16 22:02:55 2007] /u/m/manto/mage-glasses.c line 25: Warning: Unused local variable 'ob' around  
+
+[Tue Mar  4 13:13:33 2008] /u/m/manto/obj/flag.c line 25: Warning: Unused local variable 'ob' around the end of line
+
+[Tue Mar  4 13:13:33 2008] /u/m/manto/obj/flag.c line 38: Warning: Unused local variable 'mail' around the end of line
+
+[Sun Jun  8 15:42:26 2008] /u/m/manto/obj/ooxx.c line 44: Warning: Expression has no side effects, and the value is unused around {
+
+[Sun Jun  8 15:42:26 2008] /u/m/manto/obj/ooxx.c line 54: Warning: Unused local variable 'env' around the end of line
+
+[Wed Nov 19 15:43:25 2008] /u/m/manto/sky_mark.c line 234: Warning: Unused local variable 'list' before the end of line
+
+[Wed Nov 19 15:43:25 2008] /u/m/manto/sky_mark.c line 266: Warning: Unused local variable 'sub' before the end of line
+
+[Wed Nov 19 15:43:25 2008] /u/m/manto/sky_mark.c line 301: Warning: Unused local variable 'sub' before the end of line
+
+[Wed Nov 19 15:49:35 2008] /u/m/manto/sky_mark.c line 150: Undefined variable 'ob' before ,ob_info);
+
+[Wed Nov 19 15:49:35 2008] /u/m/manto/sky_mark.c line 150: Undefined variable 'ob_info' before ;
+
+[Wed Nov 19 15:49:59 2008] /u/m/manto/sky_mark.c line 150: Undefined variable 'mw_info' before ;
+
+[Wed Nov 19 15:50:13 2008] /u/m/manto/sky_mark.c line 150: Undefined variable 'my_info' before ;
+
+[Wed Nov 19 16:47:53 2008] /u/m/manto/sky_mark.c line 675: Undefined variable 'me' before start_more(output);
+
+[Wed Nov 19 17:10:43 2008] /u/m/manto/sky_mark.c line 184: syntax error before  5: str+="天地"+info
+
+[Wed Nov 19 17:10:43 2008] /u/m/manto/sky_mark.c line 184: Illegal LHS before  break;
+
+[Wed Nov 19 17:10:43 2008] /u/m/manto/sky_mark.c line 184: Warning: Expression has no side effects, and the value is unused before  break;
+
+[Wed Nov 19 17:10:43 2008] /u/m/manto/sky_mark.c line 185: syntax error before  4: str+="天地"+info
+
+[Wed Nov 19 17:10:43 2008] /u/m/manto/sky_mark.c line 185: Illegal LHS before  break;
+
+[Wed Nov 19 17:10:43 2008] /u/m/manto/sky_mark.c line 185: Warning: Expression has no side effects, and the value is unused before  break;
+
+[Wed Nov 19 17:10:43 2008] /u/m/manto/sky_mark.c line 186: syntax error before  3: str+="天地"+info
+
+[Wed Nov 19 17:10:43 2008] /u/m/manto/sky_mark.c line 186: Illegal LHS before  break;
+
+[Wed Nov 19 17:10:43 2008] /u/m/manto/sky_mark.c line 186: Warning: Expression has no side effects, and the value is unused before  break;
+
+[Wed Nov 19 17:29:23 2008] /u/m/manto/mark_machine.c line 4: syntax error before  create()
+
+[Wed Nov 19 17:40:05 2008] /u/m/manto/mark_machine.c line 54: End of file in text block at the end of the file
+
+[Wed Nov 19 17:40:05 2008] /u/m/manto/mark_machine.c line 54: syntax error at the end of the file
+

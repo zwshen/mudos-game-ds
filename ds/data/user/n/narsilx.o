@@ -1,0 +1,8 @@
+#/obj/user.c
+conditions ([])
+dbase (["help":"class/","DS_DATA_VERSION":19991107,"supply_point":60,"addition_armor":10,"attitude":"peaceful","addition_damage":10,"talk_point":8,"cure_count":19,"channels":({"chat","rumor","tchat",}),"max_hp":80,"mud_age":1750,"newbie":1,"exp":777,"dex":2,"hp":80,"int":2,"heart_beat_rate":6,"con":2,"age":14,"level":1,"birthday":1233569592,"guild_gifts":({5,5,5,5,}),"max_ap":60,"wound":(["left_arm":0,"body":0,"left_leg":0,"head":0,"right_leg":0,"right_arm":0,]),"bank":(["past":0,]),"evil":-1,"unit":"位","default_actions":,"mp":60,"actions":,"ap":60,"volume":7,"race":"human","heart_modify":0,"id":"narsilx","max_mp":60,"Merits":(["bar":0,"tec":0,"sou":0,"bio":0,"wit":0,]),"addition_shield":10,"startroom":"/open/world1/tmr/area/hotel","gender":"女性","last_location":"/open/world1/tmr/area/hotel","str":2,"name":"非白",])
+skills (["sword":1,"parry":1,"fork":1,"staff":1,"dodge":1,"dagger":1,"blade":1,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

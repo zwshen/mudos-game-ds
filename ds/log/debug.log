@@ -1,0 +1,707 @@
+----------------------------------------------------------------------------
+The Dream of Seven (2016) (MudOS v22.2b14) starting up on FreeBSD - Sat Jan 21 17:57:42 2017
+
+
+Can't find "bin/driver", ignoring old binaries.
+Try invoking the driver using the full pathname.
+Connection to address server (localhost 7001) refused.
+
+Loading preloaded files ...
+Initializations complete.
+
+Accepting connections on port 7000.
+get_user_data: read on fd 7
+System Error: get_user_data: read:Input/output error
+Connection to address server (localhost 7001) refused.
+
+°õ¦æ®É¬q¿ù»~¡R*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+
+µ{¦¡¡R/adm/daemons/combatd.c ²Ä327¦æ
+ª«¥ó: /adm/daemons/combatd
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:heart_beat()       <- /std/char/npc.c:²Ä226¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#1618 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:chat()             <- /std/char/npc.c:²Ä148¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#1618 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:<function>()       <- <function>:²Ä0¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#1618 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:<function>()       <- /open/world1/ksj/east_island/npc/hoshiakari.c:²Ä73¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#1618 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:combat_ai()        <- /open/world1/ksj/east_island/npc/hoshiakari.c:²Ä215¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#1618 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:do_attack()        <- /adm/daemons/combatd.c:²Ä327¦æ [ª«¥ó:/adm/daemons/combatd]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+
+°õ¦æ®É¬q¿ù»~¡R*Bad argument 3 to replace_string()
+Expected: string Got: ({ /* sizeof() == 1 */
+  "¦ò¼C¤À»¡"
+}).
+
+µ{¦¡¡R/adm/obj/simul_efun.c ²Ä29¦æ
+ª«¥ó: /adm/obj/simul_efun
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:heart_beat()       <- /std/char/npc.c:²Ä226¦æ [ª«¥ó:/open/world1/kkeenn/love/npc/she#4652 ("[1;35m¦pµ¶[0m")]
+¨ç¼Æ:chat()             <- /std/char/npc.c:²Ä148¦æ [ª«¥ó:/open/world1/kkeenn/love/npc/she#4652 ("[1;35m¦pµ¶[0m")]
+¨ç¼Æ:<function>()       <- <function>:²Ä0¦æ [ª«¥ó:/open/world1/kkeenn/love/npc/she#4652 ("[1;35m¦pµ¶[0m")]
+¨ç¼Æ:whip()             <- /open/world1/kkeenn/love/npc/she.c:²Ä39¦æ [ª«¥ó:/open/world1/kkeenn/love/npc/she#4652 ("[1;35m¦pµ¶[0m")]
+¨ç¼Æ:message_vision()   <- /adm/obj/simul_efun.c:²Ä29¦æ [ª«¥ó:/adm/obj/simul_efun]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+
+°õ¦æ®É¬q¿ù»~¡R*Bad argument 1 to wizardp()
+Expected: object Got: 0.
+
+µ{¦¡¡R/feature/damage.c ²Ä274¦æ
+ª«¥ó: 0
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:heart_beat()       <- /std/char/npc.c:²Ä280¦æ [ª«¥ó:0]
+¨ç¼Æ:heart_beat()       <- /std/char.c:²Ä108¦æ [ª«¥ó:0]
+¨ç¼Æ:die()              <- /open/world1/ksj/east_island/npc/warrior-ghost3.c:²Ä35¦æ [ª«¥ó:0]
+¨ç¼Æ:die()              <- /feature/damage.c:²Ä274¦æ [ª«¥ó:0]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+
+°õ¦æ®É¬q¿ù»~¡R*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+
+µ{¦¡¡R/adm/daemons/combatd.c ²Ä327¦æ
+ª«¥ó: /adm/daemons/combatd
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:heart_beat()       <- /std/char/npc.c:²Ä226¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#12463 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:chat()             <- /std/char/npc.c:²Ä148¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#12463 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:<function>()       <- <function>:²Ä0¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#12463 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:<function>()       <- /open/world1/ksj/east_island/npc/hoshiakari.c:²Ä73¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#12463 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:combat_ai()        <- /open/world1/ksj/east_island/npc/hoshiakari.c:²Ä215¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#12463 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:do_attack()        <- /adm/daemons/combatd.c:²Ä327¦æ [ª«¥ó:/adm/daemons/combatd]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+
+°õ¦æ®É¬q¿ù»~¡R*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+
+µ{¦¡¡R/adm/daemons/combatd.c ²Ä327¦æ
+ª«¥ó: /adm/daemons/combatd
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:heart_beat()       <- /std/char/npc.c:²Ä226¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#12463 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:chat()             <- /std/char/npc.c:²Ä148¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#12463 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:<function>()       <- <function>:²Ä0¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#12463 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:<function>()       <- /open/world1/ksj/east_island/npc/hoshiakari.c:²Ä73¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#12463 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:combat_ai()        <- /open/world1/ksj/east_island/npc/hoshiakari.c:²Ä215¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#12463 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:do_attack()        <- /adm/daemons/combatd.c:²Ä327¦æ [ª«¥ó:/adm/daemons/combatd]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+
+°õ¦æ®É¬q¿ù»~¡R*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+
+µ{¦¡¡R/adm/daemons/combatd.c ²Ä327¦æ
+ª«¥ó: /adm/daemons/combatd
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:heart_beat()       <- /std/char/npc.c:²Ä226¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#12463 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:chat()             <- /std/char/npc.c:²Ä148¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#12463 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:<function>()       <- <function>:²Ä0¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#12463 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:<function>()       <- /open/world1/ksj/east_island/npc/hoshiakari.c:²Ä73¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#12463 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:combat_ai()        <- /open/world1/ksj/east_island/npc/hoshiakari.c:²Ä215¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#12463 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:do_attack()        <- /adm/daemons/combatd.c:²Ä327¦æ [ª«¥ó:/adm/daemons/combatd]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+object /open/enhance/10_bar#46726: eval_cost too big 2000000
+
+°õ¦æ®É¬q¿ù»~¡R*Too long evaluation. Execution aborted.
+
+µ{¦¡¡R/feature/dbase.c ²Ä61¦æ
+ª«¥ó: /open/enhance/10_bar#46726 ("[33m¢°¢¯¢HÃ~©Ê¨÷[0m")
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:command_hook()     <- /feature/command.c:²Ä71¦æ [ª«¥ó:/obj/user#10608 ("¢Ù¢Þ¢Ñ")]
+¨ç¼Æ:main()             <- /cmds/usr/enhance.c:²Ä40¦æ [ª«¥ó:/cmds/usr/enhance]
+¨ç¼Æ:withdrawScroll_ID() <- /adm/daemons/enhanced.c:²Ä139¦æ [ª«¥ó:/adm/daemons/enhanced]
+¨ç¼Æ:create()           <- /open/enhance/10_bar.c:²Ä19¦æ [ª«¥ó:/open/enhance/10_bar#46726 ("[33m¢°¢¯¢HÃ~©Ê¨÷[0m")]
+¨ç¼Æ:set()              <- /feature/dbase.c:²Ä61¦æ [ª«¥ó:/open/enhance/10_bar#46726 ("[33m¢°¢¯¢HÃ~©Ê¨÷[0m")]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+object /open/enhance/10_bio#59115: eval_cost too big 2000000
+
+°õ¦æ®É¬q¿ù»~¡R*Too long evaluation. Execution aborted.
+
+µ{¦¡¡R/std/item.c ²Ä17¦æ
+ª«¥ó: /open/enhance/10_bio#59115 ("[33m¢°¢¯¢H¥Íª«¨÷[0m")
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:command_hook()     <- /feature/command.c:²Ä71¦æ [ª«¥ó:/obj/user#10608 ("¢Ù¢Þ¢Ñ")]
+¨ç¼Æ:main()             <- /cmds/usr/enhance.c:²Ä40¦æ [ª«¥ó:/cmds/usr/enhance]
+¨ç¼Æ:withdrawScroll_ID() <- /adm/daemons/enhanced.c:²Ä139¦æ [ª«¥ó:/adm/daemons/enhanced]
+¨ç¼Æ:create()           <- /open/enhance/10_bio.c:²Ä21¦æ [ª«¥ó:/open/enhance/10_bio#59115 ("[33m¢°¢¯¢H¥Íª«¨÷[0m")]
+¨ç¼Æ:setup()            <- /std/item.c:²Ä17¦æ [ª«¥ó:/open/enhance/10_bio#59115 ("[33m¢°¢¯¢H¥Íª«¨÷[0m")]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+
+°õ¦æ®É¬q¿ù»~¡R*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+
+µ{¦¡¡R/std/room/mobroom.c ²Ä120¦æ
+ª«¥ó: /open/world1/ksj/lost_island/room5
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:creatmob()         <- /std/room/mobroom.c:²Ä120¦æ [ª«¥ó:/open/world1/ksj/lost_island/room5]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+
+°õ¦æ®É¬q¿ù»~¡R*Bad argument 1 to wizardp()
+Expected: object Got: 0.
+
+µ{¦¡¡R/feature/damage.c ²Ä274¦æ
+ª«¥ó: 0
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:heart_beat()       <- /std/char/npc.c:²Ä280¦æ [ª«¥ó:0]
+¨ç¼Æ:heart_beat()       <- /std/char.c:²Ä108¦æ [ª«¥ó:0]
+¨ç¼Æ:die()              <- /open/world1/ksj/east_island/npc/warrior-ghost1.c:²Ä36¦æ [ª«¥ó:0]
+¨ç¼Æ:die()              <- /feature/damage.c:²Ä274¦æ [ª«¥ó:0]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+get_user_data: read on fd 6
+System Error: get_user_data: read:Operation timed out
+Connection to address server (localhost 7001) refused.
+get_user_data: read on fd 17
+System Error: get_user_data: read:Connection reset by peer
+Connection to address server (localhost 7001) refused.
+
+°õ¦æ®É¬q¿ù»~¡R*Bad argument 1 to wizardp()
+Expected: object Got: 0.
+
+µ{¦¡¡R/feature/damage.c ²Ä274¦æ
+ª«¥ó: 0
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:heart_beat()       <- /std/char/npc.c:²Ä280¦æ [ª«¥ó:0]
+¨ç¼Æ:heart_beat()       <- /std/char.c:²Ä108¦æ [ª«¥ó:0]
+¨ç¼Æ:die()              <- /open/world1/ksj/east_island/npc/warrior-ghost3.c:²Ä35¦æ [ª«¥ó:0]
+¨ç¼Æ:die()              <- /feature/damage.c:²Ä274¦æ [ª«¥ó:0]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+Connection to address server (localhost 7001) refused.
+get_user_data: read on fd 21
+System Error: get_user_data: read:Operation timed out
+
+°õ¦æ®É¬q¿ù»~¡R*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+
+µ{¦¡¡R/std/room/mobroom.c ²Ä120¦æ
+ª«¥ó: /open/world1/ksj/lost_island/room22
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:creatmob()         <- /std/room/mobroom.c:²Ä120¦æ [ª«¥ó:/open/world1/ksj/lost_island/room22]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+object /open/world1/tmr/bagi/npc/wp/six-sun-fist#121670: eval_cost too big 2000000
+
+°õ¦æ®É¬q¿ù»~¡R*Too long evaluation. Execution aborted.
+
+µ{¦¡¡R/feature/name.c ²Ä22¦æ
+ª«¥ó: /open/world1/tmr/bagi/npc/wp/six-sun-fist#121670 ("[1;33m¸T¦a¤»¶§¤ö[0m")
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:command_hook()     <- /feature/command.c:²Ä71¦æ [ª«¥ó:/obj/user#10608 ("¢Ù¢Þ¢Ñ")]
+¨ç¼Æ:main()             <- /cmds/std/do.c:²Ä34¦æ [ª«¥ó:/cmds/std/do]
+¨ç¼Æ:force_me()         <- /feature/command.c:²Ä106¦æ [ª«¥ó:/obj/user#10608 ("¢Ù¢Þ¢Ñ")]
+¨ç¼Æ:do_eat()           <- /feature/food.c:²Ä25¦æ [ª«¥ó:/open/world1/wilfred/meadow/npc/obj/meat#132990 ("¤û¦×°®")]
+¨ç¼Æ:present()          <- /adm/obj/simul_efun.c:²Ä143¦æ [ª«¥ó:/adm/obj/simul_efun]
+¨ç¼Æ:id()               <- /feature/name.c:²Ä22¦æ [ª«¥ó:/open/world1/tmr/bagi/npc/wp/six-sun-fist#121670 ("[1;33m¸T¦a¤»¶§¤ö[0m")]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+object /open/world1/ksj/east_island/npc/eq/genki-pill#110883: eval_cost too big 2000000
+
+°õ¦æ®É¬q¿ù»~¡R*Too long evaluation. Execution aborted.
+
+µ{¦¡¡R/feature/name.c ²Ä23¦æ
+ª«¥ó: /open/world1/ksj/east_island/npc/eq/genki-pill#110883 ("¤¸®ð¤Y")
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:command_hook()     <- /feature/command.c:²Ä71¦æ [ª«¥ó:/obj/user#10608 ("¢Ù¢Þ¢Ñ")]
+¨ç¼Æ:main()             <- /cmds/std/do.c:²Ä34¦æ [ª«¥ó:/cmds/std/do]
+¨ç¼Æ:force_me()         <- /feature/command.c:²Ä106¦æ [ª«¥ó:/obj/user#10608 ("¢Ù¢Þ¢Ñ")]
+¨ç¼Æ:do_eat()           <- /feature/food.c:²Ä25¦æ [ª«¥ó:/open/world1/wilfred/meadow/npc/obj/meat#133078 ("¤û¦×°®")]
+¨ç¼Æ:present()          <- /adm/obj/simul_efun.c:²Ä143¦æ [ª«¥ó:/adm/obj/simul_efun]
+¨ç¼Æ:id()               <- /feature/name.c:²Ä23¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/eq/genki-pill#110883 ("¤¸®ð¤Y")]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+object /open/world1/ksj/east_island/npc/eq/genki-pill#110883: eval_cost too big 2000000
+
+°õ¦æ®É¬q¿ù»~¡R*Too long evaluation. Execution aborted.
+
+µ{¦¡¡R/feature/name.c ²Ä23¦æ
+ª«¥ó: /open/world1/ksj/east_island/npc/eq/genki-pill#110883 ("¤¸®ð¤Y")
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:command_hook()     <- /feature/command.c:²Ä71¦æ [ª«¥ó:/obj/user#10608 ("¢Ù¢Þ¢Ñ")]
+¨ç¼Æ:main()             <- /cmds/std/do.c:²Ä34¦æ [ª«¥ó:/cmds/std/do]
+¨ç¼Æ:force_me()         <- /feature/command.c:²Ä106¦æ [ª«¥ó:/obj/user#10608 ("¢Ù¢Þ¢Ñ")]
+¨ç¼Æ:do_eat()           <- /feature/food.c:²Ä25¦æ [ª«¥ó:/open/world1/wilfred/meadow/npc/obj/meat#133078 ("¤û¦×°®")]
+¨ç¼Æ:present()          <- /adm/obj/simul_efun.c:²Ä143¦æ [ª«¥ó:/adm/obj/simul_efun]
+¨ç¼Æ:id()               <- /feature/name.c:²Ä23¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/eq/genki-pill#110883 ("¤¸®ð¤Y")]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+object /open/world1/ksj/east_island/npc/eq/genki-pill#110883: eval_cost too big 2000000
+
+°õ¦æ®É¬q¿ù»~¡R*Too long evaluation. Execution aborted.
+
+µ{¦¡¡R/feature/name.c ²Ä23¦æ
+ª«¥ó: /open/world1/ksj/east_island/npc/eq/genki-pill#110883 ("¤¸®ð¤Y")
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:command_hook()     <- /feature/command.c:²Ä71¦æ [ª«¥ó:/obj/user#10608 ("¢Ù¢Þ¢Ñ")]
+¨ç¼Æ:main()             <- /cmds/std/do.c:²Ä34¦æ [ª«¥ó:/cmds/std/do]
+¨ç¼Æ:force_me()         <- /feature/command.c:²Ä106¦æ [ª«¥ó:/obj/user#10608 ("¢Ù¢Þ¢Ñ")]
+¨ç¼Æ:do_eat()           <- /feature/food.c:²Ä25¦æ [ª«¥ó:/open/world1/wilfred/meadow/npc/obj/meat#133078 ("¤û¦×°®")]
+¨ç¼Æ:present()          <- /adm/obj/simul_efun.c:²Ä143¦æ [ª«¥ó:/adm/obj/simul_efun]
+¨ç¼Æ:id()               <- /feature/name.c:²Ä23¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/eq/genki-pill#110883 ("¤¸®ð¤Y")]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+object /open/world1/ksj/east_island/npc/eq/genki-pill#110883: eval_cost too big 2000000
+
+°õ¦æ®É¬q¿ù»~¡R*Too long evaluation. Execution aborted.
+
+µ{¦¡¡R/feature/name.c ²Ä23¦æ
+ª«¥ó: /open/world1/ksj/east_island/npc/eq/genki-pill#110883 ("¤¸®ð¤Y")
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:command_hook()     <- /feature/command.c:²Ä71¦æ [ª«¥ó:/obj/user#10608 ("¢Ù¢Þ¢Ñ")]
+¨ç¼Æ:main()             <- /cmds/std/do.c:²Ä34¦æ [ª«¥ó:/cmds/std/do]
+¨ç¼Æ:force_me()         <- /feature/command.c:²Ä106¦æ [ª«¥ó:/obj/user#10608 ("¢Ù¢Þ¢Ñ")]
+¨ç¼Æ:do_eat()           <- /feature/food.c:²Ä25¦æ [ª«¥ó:/open/world1/wilfred/meadow/npc/obj/meat#133078 ("¤û¦×°®")]
+¨ç¼Æ:present()          <- /adm/obj/simul_efun.c:²Ä143¦æ [ª«¥ó:/adm/obj/simul_efun]
+¨ç¼Æ:id()               <- /feature/name.c:²Ä23¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/eq/genki-pill#110883 ("¤¸®ð¤Y")]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+Connection to address server (localhost 7001) refused.
+get_user_data: read on fd 6
+System Error: get_user_data: read:Operation timed out
+
+°õ¦æ®É¬q¿ù»~¡R*Bad argument 1 to wizardp()
+Expected: object Got: 0.
+
+µ{¦¡¡R/feature/damage.c ²Ä274¦æ
+ª«¥ó: 0
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:heart_beat()       <- /std/char/npc.c:²Ä280¦æ [ª«¥ó:0]
+¨ç¼Æ:heart_beat()       <- /std/char.c:²Ä108¦æ [ª«¥ó:0]
+¨ç¼Æ:die()              <- /open/world1/ksj/east_island/npc/warrior-ghost1.c:²Ä36¦æ [ª«¥ó:0]
+¨ç¼Æ:die()              <- /feature/damage.c:²Ä274¦æ [ª«¥ó:0]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+Connection to address server (localhost 7001) refused.
+get_user_data: read on fd 6
+System Error: get_user_data: read:Operation timed out
+get_user_data: read on fd 15
+System Error: get_user_data: read:Connection reset by peer
+Connection to address server (localhost 7001) refused.
+get_user_data: read on fd 6
+System Error: get_user_data: read:Operation timed out
+
+°õ¦æ®É¬q¿ù»~¡R*Bad argument 3 to replace_string()
+Expected: string Got: ({ /* sizeof() == 1 */
+  "·À¤õ¾¹"
+}).
+
+µ{¦¡¡R/adm/obj/simul_efun.c ²Ä29¦æ
+ª«¥ó: /adm/obj/simul_efun
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:heart_beat()       <- /std/char/npc.c:²Ä226¦æ [ª«¥ó:/open/world1/kkeenn/love/npc/she#146250 ("[1;35m¦pµ¶[0m")]
+¨ç¼Æ:chat()             <- /std/char/npc.c:²Ä148¦æ [ª«¥ó:/open/world1/kkeenn/love/npc/she#146250 ("[1;35m¦pµ¶[0m")]
+¨ç¼Æ:<function>()       <- <function>:²Ä0¦æ [ª«¥ó:/open/world1/kkeenn/love/npc/she#146250 ("[1;35m¦pµ¶[0m")]
+¨ç¼Æ:whip()             <- /open/world1/kkeenn/love/npc/she.c:²Ä39¦æ [ª«¥ó:/open/world1/kkeenn/love/npc/she#146250 ("[1;35m¦pµ¶[0m")]
+¨ç¼Æ:message_vision()   <- /adm/obj/simul_efun.c:²Ä29¦æ [ª«¥ó:/adm/obj/simul_efun]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+Connection to address server (localhost 7001) refused.
+
+°õ¦æ®É¬q¿ù»~¡R*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+
+µ{¦¡¡R/adm/daemons/roomd.c ²Ä230¦æ
+ª«¥ó: /adm/daemons/roomd
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:reset()            <- /std/room.c:²Ä32¦æ [ª«¥ó:/open/world1/ksj/lost_island/room8]
+¨ç¼Æ:reset_room()       <- /adm/daemons/roomd.c:²Ä348¦æ [ª«¥ó:/adm/daemons/roomd]
+¨ç¼Æ:make_inventory()   <- /adm/daemons/roomd.c:²Ä230¦æ [ª«¥ó:/adm/daemons/roomd]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+
+°õ¦æ®É¬q¿ù»~¡R*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+
+µ{¦¡¡R/std/room/mobroom.c ²Ä120¦æ
+ª«¥ó: /open/world1/ksj/lost_island/room23
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:creatmob()         <- /std/room/mobroom.c:²Ä120¦æ [ª«¥ó:/open/world1/ksj/lost_island/room23]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+object /adm/daemons/enhanced: eval_cost too big 2000000
+
+°õ¦æ®É¬q¿ù»~¡R*Too long evaluation. Execution aborted.
+
+µ{¦¡¡R/adm/daemons/enhanced.c ²Ä146¦æ
+ª«¥ó: /adm/daemons/enhanced
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:command_hook()     <- /feature/command.c:²Ä71¦æ [ª«¥ó:/obj/user#10608 ("¢Ù¢Þ¢Ñ")]
+¨ç¼Æ:main()             <- /cmds/usr/enhance.c:²Ä40¦æ [ª«¥ó:/cmds/usr/enhance]
+¨ç¼Æ:withdrawScroll_ID() <- /adm/daemons/enhanced.c:²Ä146¦æ [ª«¥ó:/adm/daemons/enhanced]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+object /open/enhance/10_bar#219148: eval_cost too big 2000000
+
+°õ¦æ®É¬q¿ù»~¡R*Too long evaluation. Execution aborted.
+
+µ{¦¡¡R/std/item.c ²Ä20¦æ
+ª«¥ó: /open/enhance/10_bar#219148 ("[33m¢°¢¯¢HÃ~©Ê¨÷[0m")
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:command_hook()     <- /feature/command.c:²Ä71¦æ [ª«¥ó:/obj/user#10608 ("¢Ù¢Þ¢Ñ")]
+¨ç¼Æ:main()             <- /cmds/usr/enhance.c:²Ä40¦æ [ª«¥ó:/cmds/usr/enhance]
+¨ç¼Æ:withdrawScroll_ID() <- /adm/daemons/enhanced.c:²Ä139¦æ [ª«¥ó:/adm/daemons/enhanced]
+¨ç¼Æ:create()           <- /open/enhance/10_bar.c:²Ä21¦æ [ª«¥ó:/open/enhance/10_bar#219148 ("[33m¢°¢¯¢HÃ~©Ê¨÷[0m")]
+¨ç¼Æ:setup()            <- /std/item.c:²Ä20¦æ [ª«¥ó:/open/enhance/10_bar#219148 ("[33m¢°¢¯¢HÃ~©Ê¨÷[0m")]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+object /open/enhance/60_int#235204: eval_cost too big 2000000
+
+°õ¦æ®É¬q¿ù»~¡R*Too long evaluation. Execution aborted.
+
+µ{¦¡¡R/feature/move.c ²Ä299¦æ
+ª«¥ó: /open/enhance/60_int#235204 ("[33m¢µ¢¯¢H´¼¼z¨÷[0m")
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:command_hook()     <- /feature/command.c:²Ä71¦æ [ª«¥ó:/obj/user#10608 ("¢Ù¢Þ¢Ñ")]
+¨ç¼Æ:main()             <- /cmds/usr/enhance.c:²Ä40¦æ [ª«¥ó:/cmds/usr/enhance]
+¨ç¼Æ:withdrawScroll_ID() <- /adm/daemons/enhanced.c:²Ä146¦æ [ª«¥ó:/adm/daemons/enhanced]
+¨ç¼Æ:destruct()         <- /adm/obj/simul_efun.c:²Ä101¦æ [ª«¥ó:/adm/obj/simul_efun]
+¨ç¼Æ:remove()           <- /feature/move.c:²Ä299¦æ [ª«¥ó:/open/enhance/60_int#235204 ("[33m¢µ¢¯¢H´¼¼z¨÷[0m")]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+object /adm/obj/simul_efun: eval_cost too big 2000000
+
+°õ¦æ®É¬q¿ù»~¡R*Too long evaluation. Execution aborted.
+
+µ{¦¡¡R/adm/obj/simul_efun.c ²Ä49¦æ
+ª«¥ó: /adm/obj/simul_efun
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:command_hook()     <- /feature/command.c:²Ä71¦æ [ª«¥ó:/obj/user#10608 ("¢Ù¢Þ¢Ñ")]
+¨ç¼Æ:main()             <- /cmds/usr/enhance.c:²Ä40¦æ [ª«¥ó:/cmds/usr/enhance]
+¨ç¼Æ:withdrawScroll_ID() <- /adm/daemons/enhanced.c:²Ä139¦æ [ª«¥ó:/adm/daemons/enhanced]
+¨ç¼Æ:creator_file()     <- /adm/obj/master.c:²Ä198¦æ [ª«¥ó:/adm/obj/master]
+¨ç¼Æ:creator_file()     <- /adm/obj/simul_efun.c:²Ä49¦æ [ª«¥ó:/adm/obj/simul_efun]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+object /open/enhance/100_int#254719: eval_cost too big 2000000
+
+°õ¦æ®É¬q¿ù»~¡R*Too long evaluation. Execution aborted.
+
+µ{¦¡¡R/feature/dbase.c ²Ä70¦æ
+ª«¥ó: /open/enhance/100_int#254719 ("[33m¢°¢¯¢¯¢H´¼¼z¨÷[0m")
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:command_hook()     <- /feature/command.c:²Ä71¦æ [ª«¥ó:/obj/user#10608 ("¢Ù¢Þ¢Ñ")]
+¨ç¼Æ:main()             <- /cmds/usr/enhance.c:²Ä40¦æ [ª«¥ó:/cmds/usr/enhance]
+¨ç¼Æ:withdrawScroll_ID() <- /adm/daemons/enhanced.c:²Ä141¦æ [ª«¥ó:/adm/daemons/enhanced]
+¨ç¼Æ:query()            <- /feature/dbase.c:²Ä70¦æ [ª«¥ó:/open/enhance/100_int#254719 ("[33m¢°¢¯¢¯¢H´¼¼z¨÷[0m")]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+object /open/enhance/10_int#322310: eval_cost too big 2000000
+
+°õ¦æ®É¬q¿ù»~¡R*Too long evaluation. Execution aborted.
+
+µ{¦¡¡R/feature/dbase.c ²Ä43¦æ
+ª«¥ó: /open/enhance/10_int#322310 ("/open/enhance/10_int#322310")
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:command_hook()     <- /feature/command.c:²Ä71¦æ [ª«¥ó:/obj/user#10608 ("¢Ù¢Þ¢Ñ")]
+¨ç¼Æ:main()             <- /cmds/usr/enhance.c:²Ä40¦æ [ª«¥ó:/cmds/usr/enhance]
+¨ç¼Æ:withdrawScroll_ID() <- /adm/daemons/enhanced.c:²Ä139¦æ [ª«¥ó:/adm/daemons/enhanced]
+¨ç¼Æ:create()           <- /open/enhance/10_int.c:²Ä7¦æ [ª«¥ó:/open/enhance/10_int#322310 ("/open/enhance/10_int#322310")]
+¨ç¼Æ:set_name()         <- /feature/name.c:²Ä11¦æ [ª«¥ó:/open/enhance/10_int#322310 ("/open/enhance/10_int#322310")]
+¨ç¼Æ:set()              <- /feature/dbase.c:²Ä43¦æ [ª«¥ó:/open/enhance/10_int#322310 ("/open/enhance/10_int#322310")]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+
+°õ¦æ®É¬q¿ù»~¡R*Bad argument 1 to environment()
+Expected: object Got: 0.
+
+µ{¦¡¡R/feature/move.c ²Ä204¦æ
+ª«¥ó: 0
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:re_quest()         <- /open/world1/wilfred/sand/npc/npc29.c:²Ä294¦æ [ª«¥ó:0]
+¨ç¼Æ:move()             <- /feature/move.c:²Ä204¦æ [ª«¥ó:0]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+get_user_data: read on fd 7
+System Error: get_user_data: read:Operation timed out
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+
+°õ¦æ®É¬q¿ù»~¡R*Bad argument 1 to environment()
+Expected: object Got: 0.
+
+µ{¦¡¡R/feature/move.c ²Ä204¦æ
+ª«¥ó: 0
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:re_quest()         <- /open/world1/wilfred/sand/npc/npc29.c:²Ä294¦æ [ª«¥ó:0]
+¨ç¼Æ:move()             <- /feature/move.c:²Ä204¦æ [ª«¥ó:0]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+
+°õ¦æ®É¬q¿ù»~¡R*Bad argument 1 to environment()
+Expected: object Got: 0.
+
+µ{¦¡¡R/feature/move.c ²Ä204¦æ
+ª«¥ó: 0
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:re_quest()         <- /open/world1/wilfred/sand/npc/npc29.c:²Ä294¦æ [ª«¥ó:0]
+¨ç¼Æ:move()             <- /feature/move.c:²Ä204¦æ [ª«¥ó:0]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+
+°õ¦æ®É¬q¿ù»~¡R*Bad argument 1 to environment()
+Expected: object Got: 0.
+
+µ{¦¡¡R/feature/move.c ²Ä204¦æ
+ª«¥ó: 0
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:re_quest()         <- /open/world1/wilfred/sand/npc/npc29.c:²Ä294¦æ [ª«¥ó:0]
+¨ç¼Æ:move()             <- /feature/move.c:²Ä204¦æ [ª«¥ó:0]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+
+°õ¦æ®É¬q¿ù»~¡R*Bad argument 1 to wizardp()
+Expected: object Got: 0.
+
+µ{¦¡¡R/feature/damage.c ²Ä274¦æ
+ª«¥ó: 0
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:heart_beat()       <- /std/char/npc.c:²Ä280¦æ [ª«¥ó:0]
+¨ç¼Æ:heart_beat()       <- /std/char.c:²Ä108¦æ [ª«¥ó:0]
+¨ç¼Æ:die()              <- /open/world1/ksj/east_island/npc/warrior-ghost3.c:²Ä35¦æ [ª«¥ó:0]
+¨ç¼Æ:die()              <- /feature/damage.c:²Ä274¦æ [ª«¥ó:0]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+Connection to address server (localhost 7001) refused.
+Error in error handler: *Too deep recursion.
+program: /adm/daemons/chinesed.c, object: /adm/daemons/chinesed, file: /adm/daemons/chinesed.c:80
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+get_user_data: read on fd 18
+System Error: get_user_data: read:Connection reset by peer
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+get_user_data: read on fd 7
+System Error: get_user_data: read:Connection reset by peer
+Connection to address server (localhost 7001) refused.
+
+°õ¦æ®É¬q¿ù»~¡R*Bad argument 1 to environment()
+Expected: object Got: 0.
+
+µ{¦¡¡R/feature/move.c ²Ä204¦æ
+ª«¥ó: 0
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:re_quest()         <- /open/world1/wilfred/sand/npc/npc29.c:²Ä294¦æ [ª«¥ó:0]
+¨ç¼Æ:move()             <- /feature/move.c:²Ä204¦æ [ª«¥ó:0]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+
+°õ¦æ®É¬q¿ù»~¡R*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+
+µ{¦¡¡R/adm/daemons/roomd.c ²Ä230¦æ
+ª«¥ó: /adm/daemons/roomd
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:reset()            <- /std/room.c:²Ä32¦æ [ª«¥ó:/open/world1/ksj/lost_island/room8]
+¨ç¼Æ:reset_room()       <- /adm/daemons/roomd.c:²Ä348¦æ [ª«¥ó:/adm/daemons/roomd]
+¨ç¼Æ:make_inventory()   <- /adm/daemons/roomd.c:²Ä230¦æ [ª«¥ó:/adm/daemons/roomd]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+
+°õ¦æ®É¬q¿ù»~¡R*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+
+µ{¦¡¡R/std/room/mobroom.c ²Ä120¦æ
+ª«¥ó: /open/world1/ksj/lost_island/room22
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:creatmob()         <- /std/room/mobroom.c:²Ä120¦æ [ª«¥ó:/open/world1/ksj/lost_island/room22]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+
+°õ¦æ®É¬q¿ù»~¡R*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+
+µ{¦¡¡R/std/room/mobroom.c ²Ä120¦æ
+ª«¥ó: /open/world1/ksj/lost_island/room18
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:creatmob()         <- /std/room/mobroom.c:²Ä120¦æ [ª«¥ó:/open/world1/ksj/lost_island/room18]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+
+°õ¦æ®É¬q¿ù»~¡R*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+
+µ{¦¡¡R/std/room/mobroom.c ²Ä120¦æ
+ª«¥ó: /open/world1/ksj/lost_island/room22
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:creatmob()         <- /std/room/mobroom.c:²Ä120¦æ [ª«¥ó:/open/world1/ksj/lost_island/room22]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+Connection to address server (localhost 7001) refused.
+
+°õ¦æ®É¬q¿ù»~¡R*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+
+µ{¦¡¡R/adm/daemons/combatd.c ²Ä327¦æ
+ª«¥ó: /adm/daemons/combatd
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:heart_beat()       <- /std/char/npc.c:²Ä226¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#365648 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:chat()             <- /std/char/npc.c:²Ä148¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#365648 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:<function>()       <- <function>:²Ä0¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#365648 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:<function>()       <- /open/world1/ksj/east_island/npc/hoshiakari.c:²Ä73¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#365648 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:combat_ai()        <- /open/world1/ksj/east_island/npc/hoshiakari.c:²Ä215¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#365648 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:do_attack()        <- /adm/daemons/combatd.c:²Ä327¦æ [ª«¥ó:/adm/daemons/combatd]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+
+°õ¦æ®É¬q¿ù»~¡R*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+
+µ{¦¡¡R/adm/daemons/combatd.c ²Ä327¦æ
+ª«¥ó: /adm/daemons/combatd
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:heart_beat()       <- /std/char/npc.c:²Ä226¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#365648 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:chat()             <- /std/char/npc.c:²Ä148¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#365648 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:<function>()       <- <function>:²Ä0¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#365648 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:<function>()       <- /open/world1/ksj/east_island/npc/hoshiakari.c:²Ä73¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#365648 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:combat_ai()        <- /open/world1/ksj/east_island/npc/hoshiakari.c:²Ä215¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#365648 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:do_attack()        <- /adm/daemons/combatd.c:²Ä327¦æ [ª«¥ó:/adm/daemons/combatd]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+Connection to address server (localhost 7001) refused.
+object /open/world1/tmr/crush_bone/npc/orc_thousand_leader#382755: eval_cost too big 2000000
+
+°õ¦æ®É¬q¿ù»~¡R*Too long evaluation. Execution aborted.
+
+µ{¦¡¡R/feature/attack.c ²Ä371¦æ
+ª«¥ó: /open/world1/tmr/crush_bone/npc/orc_thousand_leader#382755 ("¥bÃ~¤H¤d¤Òªø")
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:do_start()         <- /open/world1/tmr/crush_bone/map_23_4.c:²Ä90¦æ [ª«¥ó:/open/world1/tmr/crush_bone/map_23_4]
+¨ç¼Æ:move()             <- /feature/move.c:²Ä251¦æ [ª«¥ó:/open/world1/tmr/crush_bone/npc/orc#382981 ("¥bÃ~¤H")]
+¨ç¼Æ:init()             <- /feature/attack.c:²Ä371¦æ [ª«¥ó:/open/world1/tmr/crush_bone/npc/orc_thousand_leader#382755 ("¥bÃ~¤H¤d¤Òªø")]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+object /open/world1/tmr/crush_bone/npc/orc_herald#383498: eval_cost too big 2000000
+
+°õ¦æ®É¬q¿ù»~¡R*Too long evaluation. Execution aborted.
+
+µ{¦¡¡R/feature/treemap.c ²Ä21¦æ
+ª«¥ó: /open/world1/tmr/crush_bone/npc/orc_herald#383498 ("¥bÃ~¤H¨ÏªÌ")
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:do_start2()        <- /open/world1/tmr/crush_bone/map_23_4.c:²Ä113¦æ [ª«¥ó:/open/world1/tmr/crush_bone/map_23_4]
+¨ç¼Æ:create()           <- /open/world1/tmr/crush_bone/npc/orc_herald.c:²Ä53¦æ [ª«¥ó:/open/world1/tmr/crush_bone/npc/orc_herald#383498 ("¥bÃ~¤H¨ÏªÌ")]
+¨ç¼Æ:wear()             <- /feature/equip.c:²Ä87¦æ [ª«¥ó:/open/world1/tmr/crush_bone/npc/obj/cb_necklace#383502 ("¸H°©¹ë¶µÁå")]
+¨ç¼Æ:query_temp()       <- /feature/dbase.c:²Ä164¦æ [ª«¥ó:/open/world1/tmr/crush_bone/npc/orc_herald#383498 ("¥bÃ~¤H¨ÏªÌ")]
+¨ç¼Æ:_query()           <- /feature/treemap.c:²Ä21¦æ [ª«¥ó:/open/world1/tmr/crush_bone/npc/orc_herald#383498 ("¥bÃ~¤H¨ÏªÌ")]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+
+°õ¦æ®É¬q¿ù»~¡R*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+
+µ{¦¡¡R/adm/daemons/combatd.c ²Ä327¦æ
+ª«¥ó: /adm/daemons/combatd
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:heart_beat()       <- /std/char/npc.c:²Ä226¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#365648 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:chat()             <- /std/char/npc.c:²Ä148¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#365648 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:<function>()       <- <function>:²Ä0¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#365648 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:<function>()       <- /open/world1/ksj/east_island/npc/hoshiakari.c:²Ä73¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#365648 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:combat_ai()        <- /open/world1/ksj/east_island/npc/hoshiakari.c:²Ä215¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#365648 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:do_attack()        <- /adm/daemons/combatd.c:²Ä327¦æ [ª«¥ó:/adm/daemons/combatd]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+
+°õ¦æ®É¬q¿ù»~¡R*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+
+µ{¦¡¡R/adm/daemons/combatd.c ²Ä327¦æ
+ª«¥ó: /adm/daemons/combatd
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:heart_beat()       <- /std/char/npc.c:²Ä226¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#365648 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:chat()             <- /std/char/npc.c:²Ä148¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#365648 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:<function>()       <- <function>:²Ä0¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#365648 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:<function>()       <- /open/world1/ksj/east_island/npc/hoshiakari.c:²Ä73¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#365648 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:combat_ai()        <- /open/world1/ksj/east_island/npc/hoshiakari.c:²Ä215¦æ [ª«¥ó:/open/world1/ksj/east_island/npc/hoshiakari#365648 ("¬h¥Í¡D¬P©ú")]
+¨ç¼Æ:do_attack()        <- /adm/daemons/combatd.c:²Ä327¦æ [ª«¥ó:/adm/daemons/combatd]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+Connection to address server (localhost 7001) refused.
+
+°õ¦æ®É¬q¿ù»~¡R*Bad argument 1 to environment()
+Expected: object Got: 0.
+
+µ{¦¡¡R/feature/move.c ²Ä204¦æ
+ª«¥ó: 0
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:re_quest()         <- /open/world1/wilfred/sand/npc/npc29.c:²Ä294¦æ [ª«¥ó:0]
+¨ç¼Æ:move()             <- /feature/move.c:²Ä204¦æ [ª«¥ó:0]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.
+Connection to address server (localhost 7001) refused.

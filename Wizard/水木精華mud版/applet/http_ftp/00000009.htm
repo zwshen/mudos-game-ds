@@ -1,0 +1,524 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清华站∶精华区</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+<A Name="top"></a>
+发信人:&nbsp;nightwatch&nbsp;(夜游神),&nbsp;信区:&nbsp;Mud_Builder&nbsp;<BR>
+标&nbsp;&nbsp;题:&nbsp;为MUD增加HTTP和FTP服务(10)&nbsp;<BR>
+发信站:&nbsp;BBS&nbsp;水木清华站&nbsp;(Tue&nbsp;Jan&nbsp;26&nbsp;18:43:33&nbsp;1999)&nbsp;WWW-POST&nbsp;<BR>
+&nbsp;<BR>
+以下是我在MUD中编写的一些在MUDLIB中实现&nbsp;<BR>
+HTTP服务和FTP服务的程序&nbsp;<BR>
+&nbsp;<BR>
+以下部分在校园网已经测试通过。有兴趣的话请帮&nbsp;<BR>
+我查查BUG.&nbsp;<BR>
+&nbsp;<BR>
+如果你想在你的MUD中用这些程序的话，把你的&nbsp;<BR>
+Email和MUD服务器地址端口告诉我吧。&nbsp;<BR>
+&nbsp;<BR>
+<A HREF="MailTo:"></A>&nbsp;hhx_<A HREF="mailto:imu@263.net">imu@263.net</A>&nbsp;<BR>
+&nbsp;<BR>
+----------------------------------------------------------------&nbsp;<BR>
+不小心，上个的标题错了。&nbsp;<BR>
+&nbsp;<BR>
+请看FTP第三部分：&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;ftp_welcome(object&nbsp;socket)&nbsp;<BR>
+{&nbsp;<BR>
+#ifdef&nbsp;FTPD_MAX_USERS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(sizeof(client_info)&gt;FTPD_MAX_USERS)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(socket,&quot;421&nbsp;Too&nbsp;many&nbsp;ftp&nbsp;connections&nbsp;active.&nbsp;&nbsp;Try&nbsp;again&nbsp;&nbsp;<BR>
+later.\n&quot;);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;log_ftp(&quot;Too&nbsp;many&nbsp;users,&nbsp;disconnected&quot;,socket);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;	delete_client(socket);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;	return;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+#endif&nbsp;<BR>
+	ftp_send(socket,&nbsp;<BR>
+	&nbsp;&nbsp;sprintf(&nbsp;&quot;220-&nbsp;%s&nbsp;FTP&nbsp;server(Version&nbsp;%s&nbsp;(MudOS/LPC))&nbsp;ready.\n&quot;&nbsp;<BR>
+#ifdef&nbsp;ANONYMOUS_FTP&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&quot;220&nbsp;&nbsp;Please&nbsp;login&nbsp;as&nbsp;yourself&nbsp;or&nbsp;'anonymous'.\n&quot;,&nbsp;<BR>
+#else&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&quot;220&nbsp;&nbsp;Please&nbsp;login&nbsp;as&nbsp;yourself.\n&quot;,&nbsp;<BR>
+#endif&nbsp;<BR>
+		THE_MUD_NAME,&nbsp;FTPD_VERSION&nbsp;)&nbsp;);&nbsp;<BR>
+	log_ftp(&quot;Connected&nbsp;in&quot;,socket);&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;ftp_cmd_pass(object&nbsp;socket,string&nbsp;pass)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;string&nbsp;tmp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;ULOGIN&nbsp;||&nbsp;!UNAME&nbsp;)&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;ftp_send(socket,&quot;503&nbsp;Log&nbsp;in&nbsp;with&nbsp;USER&nbsp;first.\n&quot;&nbsp;);&nbsp;<BR>
+	&nbsp;&nbsp;return;&nbsp;<BR>
+	}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!check_password(UNAME,pass))&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+#ifdef&nbsp;ANONYMOUS_FTP&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;	if&nbsp;(ANONYMOUS(UNAME))&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(socket,&quot;530&nbsp;Login&nbsp;failed.&nbsp;&nbsp;Please&nbsp;send&nbsp;your&nbsp;complete&nbsp;E-mail&nbsp;&nbsp;<BR>
+address&nbsp;as&nbsp;password.\n&quot;&nbsp;);&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;log_ftp(&quot;login&nbsp;fail,&nbsp;bad&nbsp;email&nbsp;address&quot;,socket);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+#endif	&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(socket,&quot;530&nbsp;Login&nbsp;incorrect.\n&quot;&nbsp;);&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;log_ftp(&quot;login&nbsp;incorrect,&nbsp;password&nbsp;not&nbsp;match&quot;,socket);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+#ifdef&nbsp;ANONYMOUS_FTP&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(ANONYMOUS(UNAME))&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UEMAIL=pass;&nbsp;<BR>
+#endif&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ULOGIN&nbsp;=&nbsp;1;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(SECURITY_D-&gt;get_status(UNAME)==&quot;(player)&quot;&nbsp;<BR>
+#ifdef&nbsp;ANONYMOUS_FTP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;||ANONYMOUS(UNAME)&nbsp;<BR>
+#endif&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UROOT&nbsp;=&nbsp;FTP_DIR;&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UCWD=&quot;/&quot;;&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;UROOT=&quot;/&quot;;&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UCWD&nbsp;=&nbsp;HOME_DIR(&nbsp;UNAME&nbsp;);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+#ifdef&nbsp;ANONYMOUS_FTP&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(ANONYMOUS(UNAME))&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;log_ftp(&quot;&lt;&quot;+pass+&quot;&gt;&nbsp;login&nbsp;correctly&quot;,socket);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+#endif&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;		log_ftp(&quot;login&nbsp;correctly&quot;,socket);&nbsp;<BR>
+#ifdef&nbsp;LOGIN_MSG&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;tmp&nbsp;=&nbsp;read_file(&nbsp;LOGIN_MSG&nbsp;);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;tmp&nbsp;=&nbsp;tmp[0..&lt;2];&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;tmp&nbsp;=&nbsp;sprintf(&quot;230-&nbsp;%s\n&quot;,&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;	replace_string(&nbsp;tmp,&nbsp;&quot;\n&quot;,&nbsp;&quot;\n230-&nbsp;&quot;&nbsp;)&nbsp;);&nbsp;<BR>
+#ifdef&nbsp;ANONYMOUS_FTP&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(ANONYMOUS(UNAME))&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;tmp&nbsp;+=&nbsp;&quot;230-&nbsp;email:&nbsp;&quot;+UEMAIL+&quot;,&nbsp;login&nbsp;from:&nbsp;&quot;+USITE+&quot;.\n&quot;;&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+#endif&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;tmp&nbsp;+=&nbsp;&quot;230-&nbsp;user:&nbsp;&quot;+UNAME+&quot;,&nbsp;login&nbsp;from:&nbsp;&quot;+USITE+&quot;.\n&quot;;&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(socket,tmp);&nbsp;<BR>
+#endif&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;	if&nbsp;(&nbsp;!directory_exists(&nbsp;join_path(UROOT,UCWD)&nbsp;)&nbsp;)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(socket,&quot;230&nbsp;No&nbsp;directory!&nbsp;Logging&nbsp;in&nbsp;with&nbsp;home=&quot;&nbsp;<BR>
+#ifdef&nbsp;PUB_DIR&nbsp;<BR>
+						&nbsp;&nbsp;PUB_DIR&nbsp;&quot;.\n&quot;&nbsp;);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UCWD&nbsp;=&nbsp;PUB_DIR;&nbsp;<BR>
+#else&nbsp;<BR>
+						&nbsp;&nbsp;&quot;/\n&quot;&nbsp;);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UCWD&nbsp;=&nbsp;&quot;/&quot;;&nbsp;<BR>
+#endif&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+#ifdef&nbsp;ANONYMOUS_FTP&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(ANONYMOUS(UNAME))&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(socket,&quot;230&nbsp;Guest&nbsp;login&nbsp;ok,&nbsp;access&nbsp;restrictions&nbsp;&nbsp;<BR>
+apply.\n&quot;&nbsp;);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+#endif&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(socket,sprintf(&quot;230&nbsp;User&nbsp;%s&nbsp;logged&nbsp;in&nbsp;successfully.\n&quot;,&nbsp;&nbsp;<BR>
+UNAME));&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UTYPE&nbsp;=&nbsp;ASCII;&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;ftp_cmd_logout(object&nbsp;socket)&nbsp;<BR>
+{&nbsp;<BR>
+	log_ftp(sprintf(&quot;logged&nbsp;out&quot;),socket);&nbsp;<BR>
+	ULOGIN=0;&nbsp;<BR>
+	UNAME=0;&nbsp;<BR>
+	UREST=0;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;ftp_cmd_user(object&nbsp;socket,string&nbsp;name)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(UNAME)&nbsp;<BR>
+	&nbsp;&nbsp;ftp_cmd_logout(socket);&nbsp;<BR>
+	if&nbsp;(&nbsp;!check_site(socket,name))&nbsp;<BR>
+	{&nbsp;<BR>
+		ftp_send(socket,sprintf(&quot;530&nbsp;User&nbsp;%s:&nbsp;Can't&nbsp;login&nbsp;from&nbsp;%s.\n&quot;,&nbsp;<BR>
+					&nbsp;&nbsp;name,&nbsp;USITE));&nbsp;<BR>
+		log_ftp(sprintf(&quot;%s&nbsp;refused&nbsp;login&quot;,name),socket);&nbsp;<BR>
+		delete_client(socket);&nbsp;<BR>
+	}&nbsp;<BR>
+	else&nbsp;if&nbsp;(&nbsp;!check_access(name))&nbsp;<BR>
+	{&nbsp;<BR>
+		ftp_send(socket,sprintf(&quot;530&nbsp;User&nbsp;%s&nbsp;access&nbsp;denied.\n&quot;,&nbsp;<BR>
+		&nbsp;&nbsp;name)&nbsp;);&nbsp;<BR>
+		log_ftp(sprintf(&quot;%s&nbsp;denied&nbsp;access&quot;,name),socket);&nbsp;<BR>
+	}&nbsp;<BR>
+	else&nbsp;<BR>
+	{&nbsp;<BR>
+#ifdef&nbsp;ANONYMOUS_FTP&nbsp;<BR>
+		if&nbsp;(&nbsp;name&nbsp;==&nbsp;&quot;anonymous&quot;&nbsp;||&nbsp;name==&quot;ftp&quot;&nbsp;)&nbsp;<BR>
+			ftp_send(socket,&quot;331&nbsp;Guest&nbsp;login&nbsp;ok,&nbsp;send&nbsp;your&nbsp;complete&nbsp;E-mail&nbsp;address&nbsp;as&nbsp;&nbsp;<BR>
+password.\n&quot;&nbsp;);&nbsp;<BR>
+		else&nbsp;<BR>
+#endif&nbsp;<BR>
+			ftp_send(socket,sprintf(&nbsp;<BR>
+		&nbsp;&nbsp;		&quot;331&nbsp;Password&nbsp;required&nbsp;for&nbsp;%s.\n&quot;,&nbsp;name)&nbsp;);&nbsp;<BR>
+		UNAME=name;&nbsp;<BR>
+	}&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;ftp_cmd_quit(object&nbsp;socket)&nbsp;<BR>
+{&nbsp;<BR>
+	ftp_send(socket,&nbsp;&quot;221&nbsp;Goodbye.\n&quot;&nbsp;);&nbsp;<BR>
+	ftp_cmd_logout(socket);&nbsp;<BR>
+	log_ftp(&quot;Disconnected&quot;,socket);&nbsp;<BR>
+	delete_client(socket);&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;ftp_cmd_pwd(object&nbsp;socket)&nbsp;<BR>
+{&nbsp;<BR>
+	ftp_send(socket,sprintf(&quot;257&nbsp;\&quot;%s\&quot;&nbsp;is&nbsp;the&nbsp;current&nbsp;directory.\n&quot;,UCWD));&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;ftp_cmd_syst(object&nbsp;socket)&nbsp;<BR>
+{&nbsp;<BR>
+	ftp_send(socket,sprintf(&quot;215&nbsp;MUD&nbsp;Type:&nbsp;%s\n&quot;,&nbsp;THE_VERSION)&nbsp;);&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;ftp_cmd_port(object&nbsp;socket,string&nbsp;*&nbsp;param)&nbsp;<BR>
+{&nbsp;<BR>
+	int&nbsp;i,port;&nbsp;<BR>
+	if&nbsp;(UPASV)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;destruct(UPASV);&nbsp;<BR>
+	if&nbsp;(&nbsp;sizeof(param)&nbsp;&lt;&nbsp;5&nbsp;)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(socket,&quot;550&nbsp;Failed&nbsp;command.\n&quot;&nbsp;);&nbsp;<BR>
+	else&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;UADDR=implode(param[0..3],&quot;.&quot;&nbsp;);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sscanf(param[4],&nbsp;&quot;%d&quot;,&nbsp;i&nbsp;);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;port&nbsp;=&nbsp;i&nbsp;&lt;&lt;&nbsp;8;&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(sizeof(param)&lt;6)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i=0;&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i=atoi(param[5]);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;port&nbsp;+=&nbsp;i;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UPORT=port;&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(socket,&quot;200&nbsp;PORT&nbsp;command&nbsp;successful.\n&quot;&nbsp;);&nbsp;<BR>
+	}&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;ftp_cmd_pasv(object&nbsp;socket)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;ret;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;string&nbsp;*&nbsp;xx;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;mixed&nbsp;addr;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!query_host_ip())&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(socket,&quot;502&nbsp;'pasv'&nbsp;command&nbsp;not&nbsp;implemented.\n&quot;);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(UDATA)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;delete_sending(UDATA);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(UPASV)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;destruct(UPASV);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(UTYPE==BINARY)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ret&nbsp;=&nbsp;catch(UPASV=new(SOCKET,&nbsp;SKT_STYLE_LISTEN_B,&nbsp;0,&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	(:&nbsp;ftp_data_read&nbsp;:),&nbsp;(:&nbsp;ftp_data_close&nbsp;:)));&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ret&nbsp;=&nbsp;catch(UPASV=new(SOCKET,&nbsp;SKT_STYLE_LISTEN,&nbsp;0,&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	(:&nbsp;ftp_data_read&nbsp;:),&nbsp;(:&nbsp;ftp_data_close&nbsp;:)));&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(ret)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(UPASV)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;destruct(UPASV);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(socket,&quot;425&nbsp;Can't&nbsp;open&nbsp;data&nbsp;connection.\n&quot;&nbsp;);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;return;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;refresh_passive(UPASV,socket);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;addr=UPASV-&gt;local_address();&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;xx=explode(addr[0],&quot;.&quot;);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;xx+=({&nbsp;&quot;&quot;+addr[1]/256,&quot;&quot;+addr[1]%256&nbsp;});&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(socket,&quot;227&nbsp;Entering&nbsp;Passive&nbsp;Mode(&quot;+implode(xx,&quot;,&quot;)+&quot;).\n&quot;&nbsp;);&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;ftp_cmd_type(object&nbsp;socket,string&nbsp;type)&nbsp;<BR>
+{&nbsp;<BR>
+	if&nbsp;(type==&quot;I&quot;)&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;UTYPE=&nbsp;BINARY;&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(socket,&quot;200&nbsp;Type&nbsp;set&nbsp;to&nbsp;I.\n&quot;&nbsp;);&nbsp;<BR>
+	}&nbsp;<BR>
+	else&nbsp;if&nbsp;(type==&quot;A&quot;)&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;UTYPE=ASCII;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(socket,&quot;200&nbsp;Type&nbsp;set&nbsp;to&nbsp;A.\n&quot;&nbsp;);&nbsp;<BR>
+	}&nbsp;<BR>
+	else&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(socket,sprintf(&quot;504&nbsp;Type&nbsp;%s&nbsp;not&nbsp;implemented.\n&quot;,type));&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;ftp_cmd_list(object&nbsp;socket,string&nbsp;*&nbsp;param)&nbsp;<BR>
+{&nbsp;<BR>
+	string&nbsp;tmp,tmp2,dir;&nbsp;<BR>
+	int&nbsp;all=0;&nbsp;<BR>
+	if&nbsp;(sizeof(param)&gt;=1&amp;&amp;param[0][0]=='-'&amp;&amp;strsrch(param[0],'a')&gt;=0)&nbsp;<BR>
+	&nbsp;&nbsp;all=1;&nbsp;<BR>
+	param=filter_array(param,(:&nbsp;$1[0]!='-'&nbsp;:));&nbsp;<BR>
+	if&nbsp;(&nbsp;sizeof(&nbsp;param&nbsp;)&nbsp;&gt;=&nbsp;1&nbsp;)&nbsp;<BR>
+		dir&nbsp;=&nbsp;get_path(&nbsp;socket,&nbsp;param[0]);&nbsp;<BR>
+	else&nbsp;<BR>
+		dir&nbsp;=&nbsp;UCWD;&nbsp;<BR>
+	tmp=join_path(UROOT,dir);&nbsp;<BR>
+	if&nbsp;(&nbsp;check_valid_read(&nbsp;tmp,&nbsp;socket)&nbsp;)&nbsp;<BR>
+	{&nbsp;<BR>
+		tmp2&nbsp;=&nbsp;ls(&nbsp;tmp,&nbsp;0,all,socket);&nbsp;<BR>
+		if&nbsp;(tmp2&nbsp;==&nbsp;&quot;&quot;)&nbsp;<BR>
+			ftp_send(socket,&nbsp;&quot;550&nbsp;No&nbsp;files&nbsp;found.\n&quot;);&nbsp;<BR>
+		else&nbsp;<BR>
+			ftp_data_connection(socket,tmp2,&quot;ls&quot;,STRING);&nbsp;<BR>
+	}&nbsp;else&nbsp;<BR>
+		ftp_send(socket,sprintf(&quot;550&nbsp;Permission&nbsp;denied&nbsp;to&nbsp;%s.\n&quot;,tmp));&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;ftp_cmd_nlst(object&nbsp;socket,string&nbsp;*&nbsp;param)&nbsp;<BR>
+{&nbsp;<BR>
+	int&nbsp;i;&nbsp;<BR>
+	string&nbsp;tmp,tmp2,dir;&nbsp;<BR>
+	int&nbsp;all=0,longlist=0;&nbsp;<BR>
+	if&nbsp;(sizeof(param)&gt;=1&amp;&amp;param[0][0]=='-'&amp;&amp;strsrch(param[0],'a')&gt;=0)&nbsp;<BR>
+	&nbsp;&nbsp;all=1;&nbsp;<BR>
+	if&nbsp;(sizeof(param)&gt;=1&amp;&amp;param[0][0]=='-'&amp;&amp;strsrch(param[0],'l')&gt;=0)&nbsp;<BR>
+	&nbsp;&nbsp;longlist=1;&nbsp;<BR>
+	if&nbsp;(longlist)&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(all)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;param[0]=&quot;-a&quot;;&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+		&nbsp;&nbsp;param=param[1..];&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ftp_cmd_list(socket,param);&nbsp;<BR>
+	}&nbsp;<BR>
+	else&nbsp;<BR>
+	{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;param=filter_array(param,(:&nbsp;$1[0]!='-'&nbsp;:));&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;i=sizeof(param);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;i&nbsp;&gt;=&nbsp;1&nbsp;)&nbsp;<BR>
+		dir=&nbsp;get_path(socket,param[0]);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+		dir=&nbsp;UCWD;&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;tmp=join_path(UROOT,dir);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;check_valid_read(&nbsp;tmp,socket)&nbsp;)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+		tmp2&nbsp;=&nbsp;ls(&nbsp;tmp,1,all,socket);&nbsp;<BR>
+		if&nbsp;(tmp2&nbsp;==&nbsp;&quot;&quot;)&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(socket,&quot;550&nbsp;No&nbsp;files&nbsp;found.\n&quot;&nbsp;);&nbsp;<BR>
+		else&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;ftp_data_connection(socket,tmp2,&quot;ls&quot;,STRING);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+		ftp_send(socket,sprintf(&quot;550&nbsp;Permission&nbsp;denied&nbsp;to&nbsp;%s.\n&quot;,tmp));&nbsp;<BR>
+	}&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;ftp_cmd_cwd(object&nbsp;socket,string&nbsp;path)&nbsp;<BR>
+{&nbsp;<BR>
+	string&nbsp;tmp2,tmp;&nbsp;<BR>
+	if&nbsp;(!path)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;tmp2=UCWD;&nbsp;<BR>
+	else&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;tmp2=get_path(socket,path);&nbsp;<BR>
+	tmp=join_path(UROOT,tmp2);&nbsp;<BR>
+	if&nbsp;(&nbsp;check_valid_read(&nbsp;tmp,socket&nbsp;)&nbsp;)&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;!directory_exists(&nbsp;tmp&nbsp;)&nbsp;)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+		ftp_send(socket,sprintf(&quot;550&nbsp;%s:&nbsp;Not&nbsp;a&nbsp;directory.\n&quot;,&nbsp;tmp2));&nbsp;<BR>
+		return;&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;log_ftp(&quot;cd&nbsp;to&nbsp;&quot;+tmp,socket);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;UCWD&nbsp;=&nbsp;tmp2;&nbsp;<BR>
+#ifdef&nbsp;MESSAGE_FILES&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(file_size(join_path(tmp,MESSAGE_FILES))&nbsp;&gt;&nbsp;0)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+		tmp&nbsp;=&nbsp;read_file(join_path(tmp,MESSAGE_FILES));&nbsp;<BR>
+		tmp&nbsp;=&nbsp;tmp[0..&lt;2];&nbsp;<BR>
+		tmp&nbsp;=&nbsp;sprintf(&quot;250-&nbsp;&quot;+replace_string(tmp,&nbsp;&quot;\n&quot;,&nbsp;&quot;\n250-&nbsp;&quot;)&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;+&quot;\n250&nbsp;CWD&nbsp;command&nbsp;successful.\n&quot;,&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;);&nbsp;<BR>
+		ftp_send(socket,tmp);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+#endif&nbsp;<BR>
+		ftp_send(socket,&quot;250&nbsp;CWD&nbsp;command&nbsp;successful.\n&quot;);&nbsp;<BR>
+	}&nbsp;<BR>
+	else&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(socket,&nbsp;sprintf(&quot;550&nbsp;%s:&nbsp;No&nbsp;such&nbsp;file&nbsp;or&nbsp;directory.\n&quot;,tmp2)&nbsp;&nbsp;<BR>
+);&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;ftp_cmd_allo(object&nbsp;socket)&nbsp;<BR>
+{&nbsp;<BR>
+	ftp_send(socket,&quot;202&nbsp;ALLO&nbsp;command&nbsp;ignored.\n&quot;);&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;ftp_cmd_noop(object&nbsp;socket)&nbsp;<BR>
+{&nbsp;<BR>
+	ftp_send(socket,&quot;200&nbsp;NOOP&nbsp;command&nbsp;successful.\n&quot;);&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;ftp_cmd_rest(object&nbsp;socket,string&nbsp;x)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sscanf(x,&quot;%d&quot;,UREST);&nbsp;<BR>
+	if&nbsp;(UREST&lt;0)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;UREST=0;&nbsp;<BR>
+	ftp_send(socket,&quot;350&nbsp;Restarting&nbsp;at&nbsp;&quot;+UREST+&quot;.\n&quot;);&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;ftp_cmd_help(object&nbsp;socket,string&nbsp;x)&nbsp;<BR>
+{&nbsp;<BR>
+	string&nbsp;tmp;&nbsp;<BR>
+	mixed&nbsp;*&nbsp;misc;&nbsp;<BR>
+	int&nbsp;i,s;&nbsp;<BR>
+	if&nbsp;(x)&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;tmp&nbsp;=&nbsp;lower_case(x);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!undefinedp(cmdtab[&nbsp;tmp&nbsp;]))&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+		misc&nbsp;=&nbsp;cmdtab[&nbsp;tmp&nbsp;];&nbsp;<BR>
+		if&nbsp;(misc[1])&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(socket,sprintf(&quot;214&nbsp;Syntax:&nbsp;%s&nbsp;%s.\n&quot;,misc[0],&nbsp;misc[2]));&nbsp;<BR>
+		else&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(socket,sprintf(&quot;214&nbsp;%s&nbsp;%s;&nbsp;unimplemented.\n&quot;,misc[0],&nbsp;&nbsp;<BR>
+misc[2]));&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+		ftp_send(socket,sprintf(&quot;502&nbsp;Unknown&nbsp;command&nbsp;%s.\n&quot;,x));&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+	}&nbsp;<BR>
+	else&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(socket,&quot;214-&nbsp;The&nbsp;following&nbsp;commands&nbsp;are&nbsp;recognized&nbsp;&quot;&nbsp;<BR>
+					&nbsp;&nbsp;&quot;(*&nbsp;=&gt;'s&nbsp;unimplemented).\n214-\n&quot;);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;misc&nbsp;=&nbsp;keys(cmdtab);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;s&nbsp;=&nbsp;sizeof(misc);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;tmp&nbsp;=&nbsp;&quot;214-&nbsp;&quot;;&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;for&nbsp;(i&nbsp;=&nbsp;0;&nbsp;i&nbsp;&lt;&nbsp;s;&nbsp;i++)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+		tmp&nbsp;+=&nbsp;sprintf(&quot;%c%-7s&quot;,&nbsp;cmdtab[misc[i]][1]&nbsp;?&nbsp;'&nbsp;'&nbsp;:&nbsp;'*',cmdtab[misc[i]][0]);&nbsp;<BR>
+&nbsp;<BR>
+		if&nbsp;(i&nbsp;%&nbsp;8&nbsp;==&nbsp;7)&nbsp;<BR>
+		{&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(socket,tmp&nbsp;+&nbsp;&quot;\n&quot;);&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;tmp&nbsp;=&nbsp;&quot;214-&nbsp;&quot;;&nbsp;<BR>
+		}&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(i&nbsp;%&nbsp;8)&nbsp;<BR>
+		ftp_send(socket,tmp&nbsp;+&nbsp;&quot;\n&quot;);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(socket,&nbsp;sprintf(&quot;214-\n214&nbsp;Direct&nbsp;comments&nbsp;to&nbsp;%s.\n&quot;,&nbsp;<BR>
+					&nbsp;&nbsp;FTP_BUGS_EMAIL));&nbsp;<BR>
+	}&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;ftp_cmd_retr(object&nbsp;socket,string&nbsp;file)&nbsp;<BR>
+{&nbsp;<BR>
+	string&nbsp;tmp,tmp2;&nbsp;<BR>
+	int&nbsp;i;&nbsp;<BR>
+	tmp2&nbsp;=&nbsp;get_path(socket,file);&nbsp;<BR>
+	tmp=join_path(UROOT,tmp2);&nbsp;<BR>
+	if&nbsp;((i&nbsp;=&nbsp;file_size(tmp))&nbsp;==&nbsp;-2)&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(socket,sprintf(&quot;550&nbsp;%s:&nbsp;Not&nbsp;a&nbsp;plain&nbsp;file.\n&quot;,file));&nbsp;<BR>
+	}&nbsp;<BR>
+	else&nbsp;if&nbsp;(i&nbsp;==&nbsp;-1)&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(socket,sprintf(&quot;550&nbsp;%s:&nbsp;No&nbsp;such&nbsp;file&nbsp;or&nbsp;directory(%s).\n&quot;,file,t&nbsp;<BR>
+mp2));&nbsp;<BR>
+	}&nbsp;<BR>
+	else&nbsp;if&nbsp;(&nbsp;!check_valid_read(&nbsp;tmp,socket&nbsp;)&nbsp;)&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;log_ftp(&quot;Access&nbsp;denied&nbsp;retr&nbsp;&quot;+tmp,socket);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(socket,sprintf(&quot;550&nbsp;Permission&nbsp;denied&nbsp;to&nbsp;%s.\n&quot;,file));&nbsp;<BR>
+	}&nbsp;<BR>
+	else&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;log_ftp(sprintf(&quot;retr&nbsp;%s&nbsp;(%s)&quot;,tmp,(UTYPE&nbsp;==&nbsp;BINARY&nbsp;?&nbsp;&quot;BINARY&quot;&nbsp;:&nbsp;&nbsp;<BR>
+&quot;ASCII&quot;)&nbsp;)&nbsp;,socket);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ftp_data_connection(socket,tmp,file,FILE);&nbsp;<BR>
+	}&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;ftp_cmd_stor(object&nbsp;socket,string&nbsp;file)&nbsp;<BR>
+{&nbsp;<BR>
+	string&nbsp;tmp,tmp2;&nbsp;<BR>
+	int&nbsp;i,s;&nbsp;<BR>
+	tmp2&nbsp;=&nbsp;get_path(socket,file);&nbsp;<BR>
+	tmp=join_path(UROOT,tmp2);&nbsp;<BR>
+	if&nbsp;(&nbsp;file_size(tmp)&nbsp;!=&nbsp;-2&nbsp;&amp;&amp;&nbsp;check_valid_write(&nbsp;tmp,&nbsp;socket&nbsp;)&nbsp;)&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;log_ftp(sprintf(&quot;stor&nbsp;%s&nbsp;(%s)&quot;,tmp,&nbsp;(UTYPE&nbsp;==&nbsp;BINARY&nbsp;?&nbsp;&quot;BINARY&quot;&nbsp;:&nbsp;&nbsp;<BR>
+&quot;ASCII&quot;)&nbsp;),socket);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ftp_read_connection(socket,tmp,0&nbsp;);&nbsp;<BR>
+	}&nbsp;<BR>
+	else&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;log_ftp(&quot;Access&nbsp;denied&nbsp;stor&nbsp;&quot;+tmp,socket);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(socket,sprintf(&quot;553&nbsp;Permission&nbsp;denied&nbsp;to&nbsp;%s.\n&quot;,file));&nbsp;<BR>
+	}&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;ftp_cmd_stou(object&nbsp;socket,string&nbsp;file)&nbsp;<BR>
+{&nbsp;<BR>
+	string&nbsp;tmp,tmp2;&nbsp;<BR>
+	int&nbsp;i,s;&nbsp;<BR>
+	tmp2&nbsp;=&nbsp;get_path(socket,file);&nbsp;<BR>
+	tmp=join_path(UROOT,tmp2);&nbsp;<BR>
+	i&nbsp;=&nbsp;file_size(tmp);&nbsp;<BR>
+	if&nbsp;(i&nbsp;&gt;=&nbsp;0&nbsp;&amp;&amp;&nbsp;check_valid_write(&nbsp;tmp,socket))&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;for&nbsp;(i&nbsp;=&nbsp;MAX_UNIQUE_TRIES;&nbsp;i;&nbsp;i--)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+		if&nbsp;(file_size(sprintf(&quot;%s%d&quot;,&nbsp;tmp,&nbsp;i))&nbsp;==&nbsp;-1)&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;break;&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(i)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+		tmp&nbsp;=&nbsp;sprintf(&quot;%s%d&quot;,&nbsp;tmp,&nbsp;i);&nbsp;<BR>
+		log_ftp(sprintf(&quot;stou&nbsp;%s&nbsp;(%s).\n&quot;,tmp,(UTYPE&nbsp;==&nbsp;BINARY&nbsp;?&nbsp;&quot;BINARY&quot;&nbsp;:&nbsp;&nbsp;<BR>
+&quot;ASCII&quot;)&nbsp;),socket);&nbsp;<BR>
+		ftp_read_connection(socket,&nbsp;tmp,-1&nbsp;);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+		ftp_send(socket,&quot;452&nbsp;Unique&nbsp;file&nbsp;name&nbsp;cannot&nbsp;be&nbsp;created.\n&quot;);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+	}&nbsp;<BR>
+	else&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;log_ftp(&quot;Access&nbsp;denied&nbsp;stou&nbsp;&quot;+tmp,socket);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(socket,sprintf(&quot;553&nbsp;Permission&nbsp;denied&nbsp;to&nbsp;%s.\n&quot;,file));&nbsp;<BR>
+	}&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+※&nbsp;来源:·BBS&nbsp;水木清华站&nbsp;bbs.net.tsinghua.edu.cn·[FROM:&nbsp;202.207.8.112]&nbsp;&nbsp;<BR>
+<A HREF="00000008.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一页</A>
+<A HREF="index.htm">回到目录</A>
+<A HREF="#top">回到页首</A>
+<A HREF="00000010.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+</BODY></HTML>

@@ -1,0 +1,7 @@
+#/obj/user.c
+conditions ([])
+dbase (["max_mp":66,"supply_point":60,"talk_point":8,"max_hp":84,"guild_gifts":({5,5,5,5,}),"attitude":"peaceful","max_ap":100,"ap":100,"mp":66,"guild_rank":"情城池之入門學徒","adv_class":1,"heart_modify":0,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"newbie":1,"exp":777,"hp":84,"dex":2,"int":2,"heart_beat_rate":6,"con":2,"str":2,"level":1,"id":"whipgirl","DS_DATA_VERSION":19991107,"volume":7,"evil":-1,"default_actions":,"channels":({"chat","rumor","tchat",}),"class1":"情城池","last_location":"/open/world1/kkeenn/love/room25","addition_shield":10,"birthday":1186493348,"gender":"女性","name":"女人ㄚ","race":"evil","startroom":"/open/world1/tmr/area/hotel","addition_armor":10,"mud_age":5360,"addition_damage":10,"title":"情城池第三代弟子","age":14,"wound":(["body":0,"head":0,"right_leg":0,"right_arm":0,"left_leg":0,"left_arm":0,]),"family":(["privs":-1,"generation":3,"title":"弟子","family_name":"情城池",]),"unit":"位","actions":,"cure_count":18,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["mp":60,"board_last_read":(["sex_board":1070134196,]),"addition_shield":10,"talk_point":8,"ap":60,"exp":777,"dex":2,"addition_armor":10,"int":2,"unit":"位","heart_beat_rate":6,"Merits":(["sou":0,"wit":0,"tec":0,"bar":0,"bio":0,]),"con":2,"str":2,"max_ap":60,"supply_point":32,"race":"human","channels":({"chat","rumor","tchat",}),"mud_age":252,"age":14,"level":1,"last_location":"/open/world1/wilfred/newbie/eq_bank","birthday":1119607350,"evil":-1,"addition_damage":10,"max_hp":80,"gender":"男性","id":"sake","name":"清酒","startroom":"/open/world1/tmr/area/school/school1","cure_count":16,"actions":,"guild_gifts":({5,5,5,5,}),"attitude":"peaceful","max_mp":60,"volume":7,"DS_DATA_VERSION":19991107,"quest":(["not_newbie":1,]),"default_actions":,"hp":80,])
+autoload ({})

@@ -1,0 +1,100 @@
+[Sat Sep 11 23:51:21 1999] u/b/bennyng/wp/sword.c line 1: parse error
+
+[Sun Sep 12 00:02:22 1999] u/b/bennyng/wp/sword.c line 1: parse error
+
+[Sun Sep 12 00:25:12 1999] u/b/bennyng/wp/sword.c line 2: Missing leading " or < in #include
+
+[Sun Sep 12 00:25:12 1999] u/b/bennyng/wp/sword.c line 2: parse error
+
+[Sun Sep 12 00:29:44 1999] u/b/bennyng/wp/sword.c line 6: Undefined variable 'HIR'
+
+
+[Sun Sep 12 00:29:44 1999] u/b/bennyng/wp/sword.c line 6: parse error
+
+[Sun Sep 12 01:34:03 1999] u/b/bennyng/wp/ring.c line 12: parse error
+
+[Sun Sep 12 01:35:51 1999] u/b/bennyng/wp/ring.c line 12: parse error
+
+[Sun Sep 12 01:47:48 1999] u/b/bennyng/wp/ring.c line 12: parse error
+
+[Sun Sep 12 01:48:58 1999] u/b/bennyng/wp/ring.c line 12: parse error
+
+[Sun Sep 12 01:59:29 1999] u/b/bennyng/wp/ring.c line 12: parse error
+
+[Sun Sep 12 13:41:29 1999] u/b/bennyng/lady.c line 35: parse error
+
+[Sun Sep 12 13:44:57 1999] u/b/bennyng/lady.c line 35: parse error
+
+[Thu Sep 16 00:07:49 1999] u/b/bennyng/area/wp/scorpio.c line 29: A reserved type name cannot be used as a function name.
+
+
+[Thu Sep 16 00:07:49 1999] u/b/bennyng/area/wp/scorpio.c line 29: parse error
+
+[Thu Sep 16 00:09:15 1999] u/b/bennyng/area/wp/scorpio.c line 29: A reserved type name cannot be used as a function name.
+
+
+[Thu Sep 16 00:09:15 1999] u/b/bennyng/area/wp/scorpio.c line 29: parse error
+
+[Thu Sep 16 00:10:32 1999] u/b/bennyng/area/wp/scorpio.c line 29: A reserved type name cannot be used as a function name.
+
+
+[Thu Sep 16 00:10:32 1999] u/b/bennyng/area/wp/scorpio.c line 29: parse error
+
+[Thu Sep 16 00:11:46 1999] u/b/bennyng/area/wp/scorpio.c line 29: A reserved type name cannot be used as a function name.
+
+
+[Thu Sep 16 00:11:46 1999] u/b/bennyng/area/wp/scorpio.c line 29: parse error
+
+[Thu Sep 16 01:01:10 1999] u/b/bennyng/area/skills/large_fist.c line 12: parse error
+
+[Thu Sep 16 01:04:48 1999] u/b/bennyng/area/skills/large_fist.c line 16: parse error
+
+[Thu Sep 16 01:08:06 1999] u/b/bennyng/area/skills/large_fist.c line 16: parse error
+
+[Thu Sep 16 01:09:34 1999] u/b/bennyng/area/skills/large_fist.c line 16: parse error
+
+[Thu Sep 16 22:33:41 1999] u/b/bennyng/area/npc/Gemini.c line 10: parse error
+
+[Thu Sep 16 22:34:50 1999] u/b/bennyng/area/npc/Gemini.c line 35: parse error
+
+[Thu Sep 16 23:14:16 1999] u/b/bennyng/area/room1.c line 14: parse error
+
+[Thu Sep 16 23:15:55 1999] u/b/bennyng/area/room1.c line 14: parse error
+
+[Thu Sep 16 23:19:00 1999] u/b/bennyng/area/room1.c line 16: parse error
+
+[Thu Sep 16 23:20:02 1999] u/b/bennyng/area/room1.c line 17: parse error
+
+[Thu Sep 16 23:22:04 1999] u/b/bennyng/area/room1.c line 17: parse error
+
+[Thu Sep 16 23:25:07 1999] u/b/bennyng/area/room1.c line 18: parse error
+
+[Thu Sep 16 23:26:03 1999] u/b/bennyng/area/room1.c line 18: parse error
+
+[Thu Sep 16 23:30:52 1999] u/b/bennyng/area/room1.c line 18: parse error
+
+[Sat Sep 18 13:12:19 1999] u/b/bennyng/area/room4.c line 19: parse error
+
+[Sat Sep 18 13:13:35 1999] u/b/bennyng/area/room4.c line 19: parse error
+
+[Sat Sep 18 13:14:37 1999] u/b/bennyng/area/room4.c line 19: parse error
+
+[Sun Sep 19 01:28:52 1999] u/b/bennyng/area/npc/Pisces.c line 14: parse error
+
+[Thu Sep 23 18:48:43 1999] u/b/bennyng/area/room1.c line 18: Undefined variable 'DOOR_CLOSED'
+
+
+[Thu Sep 23 18:50:54 1999] u/b/bennyng/area/room1.c line 18: Undefined variable 'DOOR_CLOSED'
+
+
+[Thu Sep 23 18:51:14 1999] u/b/bennyng/area/room2.c line 19: Undefined variable 'DOOR_CLOSED'
+
+
+[Thu Sep 23 18:52:12 1999] u/b/bennyng/area/room1.c line 18: Undefined variable 'DOOR_CLOSED'
+
+
+[Fri Sep 24 00:15:39 1999] u/b/bennyng/area/room13.c line 19: Undefined variable 'HIY'
+
+
+[Fri Sep 24 00:15:39 1999] u/b/bennyng/area/room13.c line 19: parse error
+

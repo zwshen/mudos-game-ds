@@ -1,0 +1,17 @@
+
+	environment(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		environment() - 傳回一個物件所身處的環境.
+	函數語法:
+		object environment( object ob );
+
+		物件 environment( 物件 ob );
+	函數用法:
+		傳回含有物件 ob 的環境物件. 如果沒有指定參數 (argument)
+		, ob 預設為 this_object().
+	參考函數:
+		this_object(3)
+	手冊翻譯:
+		pock @ FF	97.Feb.12.		(Writen 5/23/97)
+

@@ -1,0 +1,2 @@
+#/obj/login.c
+dbase (["id":"wfsm","name":"風花雪月","email":"@","password":"nHGQqMXAukpYI","race":"human","level":5,"error_login":({"於[Sat Oct  4 22:18:36 2003]嘗試由[218-164-44-88.HINET-IP.hinet.net]連線進入失敗。","於[Sat Oct  4 22:19:19 2003]嘗試由[218-164-44-88.HINET-IP.hinet.net]連線進入失敗。","於[Thu Jan  1 00:45:14 2004]嘗試由[218-164-35-69.HINET-IP.hinet.net]連線進入失敗。","於[Sat Nov 20 22:13:01 2004]嘗試由[218-172-191-249.dynamic.hinet.net]連線進入失敗。",}),"last_on":1123171410,"body":"/obj/user","last_from":"218-171-178-138.dynamic.hinet.net",])

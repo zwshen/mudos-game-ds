@@ -1,0 +1,2 @@
+#/obj/login.c
+dbase (["race":"human","body":"/obj/user","error_login":({"於[Sat Jun  6 13:11:01 2009]嘗試由[118.231.143.71]連線進入失敗。","於[Fri Jun 19 02:39:37 2009]嘗試由[118.168.234.9]連線進入失敗。","於[Sun Jul 19 09:44:11 2009]嘗試由[218.173.235.241]連線進入失敗。","於[Sun Aug 21 14:24:53 2016]嘗試由[123.192.217.71]連線進入失敗。","於[Wed Nov  9 07:58:49 2016]嘗試由[36.236.84.225]連線進入失敗。",}),"last_on":1005652738,"last_from":"61-224-163-31.HINET-IP.hinet.net","email":"loveseaman@sinamail","name":"我是老大","id":"new","level":1,"password":"dsCyPnbgW5kdA","new_mail":1,])

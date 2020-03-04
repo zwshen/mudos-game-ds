@@ -1,0 +1,10 @@
+#/obj/user.c
+conditions ([])
+dbase (["int":3,"MKS":8,"con":3,"newbie":1,"volume":7,"max_mp":75,"str":2,"title":"凌雲寺第五代弟子","env":([]),"default_actions":,"evil":0,"DS_DATA_VERSION":19991107,"ap":37,"Merits":(["wit":0,"tec":0,"sou":0,"bar":0,"bio":0,]),"gain_bonze_exp":4,"class1":"凌雲寺","addition_shield":10,"unit":"位","guild_rank":"凌雲寺第五代弟子","age":14,"adv_class":1,"addition_armor":10,"heart_beat_rate":6,"guild_gifts":({5,5,5,5,}),"max_ap":75,"supply_point":60,"gender":"男性","id":"monk","name":"慧小","heart_modify":1,"last_location":"/open/world1/tmr/area/vroad3","channels":({"chat","rumor","tchat",}),"addition_damage":10,"race":"human","level":1,"talk_point":8,"max_hp":100,"birthday":1113847884,"mp":37,"wound":(["right_arm":0,"left_leg":0,"right_leg":0,"body":0,"head":0,"left_arm":0,]),"hp":100,"cure_count":11,"actions":,"attitude":"peaceful","mud_age":840,"exp":1254,"bank":(["past":0,]),"family":(["generation":5,"title":"弟子","privs":-1,"family_name":"凌雲寺",]),"mob_record":({"/open/world1/tmr/area/npc/farmer","/open/world1/tmr/area/npc/traveler","/open/world1/tmr/area/npc/traveler","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"dex":2,"startroom":"/open/world1/tmr/area/hotel",])
+skills (["buddha-force":1,"combat":5,"wuchen-staff":3,"parry":0,"staff":4,"dodge":2,"literate":1,"quanyin-steps":1,])
+learned (["combat":51,"wuchen-staff":24,"parry":2,"staff":12,"dodge":14,])
+skill_map (["staff":"wuchen-staff",])
+spells (["recite-sutra":4,])
+spell_learned (["recite-sutra":0,])
+alias (["4":"do cast recite-sutra on corpse","0":"do look off,e,n,e,se,eu,se,se,se,se,e,su,e,eu,e,nu,w,n,ne,n,n,n,look on,l","rr":"do train literate","11":"do spells","r":"do train quanyin-steps","sa":"do sac corpse","111":"do help bonze","yy":"do learn recite-sutra","p":"do drink pot","rs":"do recall start","t":"do train wuchen-staff","g":"do get all","y":"do train buddha-force","1":"do ex wuchen-staff",])
+autoload ({"/obj/money/coin:921",})

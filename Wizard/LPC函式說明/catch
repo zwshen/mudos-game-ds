@@ -1,0 +1,23 @@
+
+	catch(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		catch() - 找出函式運作的錯誤.
+	函數語法:
+		mixed catch( mixed expr );
+
+		混合 catch( 混合 expr );
+	函數用法:
+		處理 expr 式子. 如果沒有出錯就傳回 0  , 如果有標準
+		錯誤, 則傳回一個第一個字元是 * 的字串.
+
+		函式 throw()  也可以用來馬上傳回任何非零值. catch()
+		實際上並不是真正的函式呼叫, 而是編譯器 (compiler)
+		的一個指令.
+
+		catch() 有點耗費系統資源, 請您別到處用它. 把 catch()
+		放在出錯時可能會摧毀系統結構 (consistency)  的地方.
+	參考函數:
+		error(3), throw(3), error_handler(4)
+	手冊翻譯:
+		Phoebus@ZH	1997.Aug.24.		(Writen 5/23/97)

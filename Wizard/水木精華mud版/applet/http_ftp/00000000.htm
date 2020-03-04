@@ -1,0 +1,576 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清华站∶精华区</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+<A Name="top"></a>
+发信人:&nbsp;nightwatch&nbsp;(夜游神),&nbsp;信区:&nbsp;Mud_Builder&nbsp;<BR>
+标&nbsp;&nbsp;题:&nbsp;在MUD中增加HTTP和FTP服务(1)&nbsp;<BR>
+发信站:&nbsp;BBS&nbsp;水木清华站&nbsp;(Tue&nbsp;Jan&nbsp;26&nbsp;18:14:23&nbsp;1999)&nbsp;WWW-POST&nbsp;<BR>
+&nbsp;<BR>
+以下是我在MUD中编写的一些在MUDLIB中实现&nbsp;<BR>
+HTTP服务和FTP服务的程序&nbsp;<BR>
+&nbsp;<BR>
+以下部分在校园网已经测试通过。有兴趣的话请帮&nbsp;<BR>
+我查查BUG.&nbsp;<BR>
+&nbsp;<BR>
+如果你想在你的MUD中用这些程序的话，把你的&nbsp;<BR>
+Email和MUD服务器地址端口告诉我吧。&nbsp;<BR>
+-------------------------------------------------------------------&nbsp;<BR>
+&nbsp;<BR>
+我的程序是基于Socket物件的。它源于LIMA&nbsp;<BR>
+我对它做了些改动。&nbsp;<BR>
+//&nbsp;/adm/obj/socket.c&nbsp;<BR>
+&nbsp;<BR>
+//&nbsp;Secure&nbsp;Object:&nbsp;/adm/daemons/obj/socket.c&nbsp;<BR>
+//&nbsp;modified&nbsp;by&nbsp;wind(清风)&nbsp;99/1/10&nbsp;<BR>
+&nbsp;<BR>
+#pragma&nbsp;save_binary&nbsp;<BR>
+&nbsp;<BR>
+/*&nbsp;<BR>
+**&nbsp;socket.c&nbsp;<BR>
+**&nbsp;<BR>
+**&nbsp;This&nbsp;object&nbsp;represents&nbsp;an&nbsp;open&nbsp;UDP/TCP&nbsp;socket&nbsp;using&nbsp;the&nbsp;MudOS&nbsp;<BR>
+**&nbsp;socket&nbsp;facilities.&nbsp;<BR>
+**&nbsp;<BR>
+**&nbsp;09-Feb-95.&nbsp;Deathblade.&nbsp;Created.&nbsp;<BR>
+**&nbsp;05-Jan-96.&nbsp;Cowl.&nbsp;Added&nbsp;STREAM&nbsp;BINARY&nbsp;connect&nbsp;and&nbsp;listen&nbsp;styles&nbsp;<BR>
+**&nbsp;12-Jul-96.&nbsp;Rust.&nbsp;Added&nbsp;write&nbsp;callback.&nbsp;<BR>
+*/&nbsp;<BR>
+&nbsp;<BR>
+#include&nbsp;&lt;mudlib.h&gt;&nbsp;<BR>
+#include&nbsp;&lt;net/socket.h&gt;&nbsp;<BR>
+#include&nbsp;&lt;net/socket_errors.h&gt;&nbsp;<BR>
+&nbsp;<BR>
+#undef&nbsp;DEBUG&nbsp;<BR>
+&nbsp;<BR>
+#ifdef&nbsp;DEBUG&nbsp;<BR>
+#define&nbsp;tell_wind(x)&nbsp;tell_object(find_player(&quot;wind&quot;),x+&quot;\n&quot;);&nbsp;<BR>
+#else&nbsp;<BR>
+#define&nbsp;tell_wind(x)&nbsp;<BR>
+#endif&nbsp;<BR>
+&nbsp;<BR>
+//#define&nbsp;SKTLOG(x,y)	log_file(&quot;sktlog&quot;,sprintf(&quot;%s:&nbsp;%O\n&quot;,x,y))&nbsp;<BR>
+#define&nbsp;SKTLOG(x,y)&nbsp;<BR>
+&nbsp;<BR>
+/*&nbsp;<BR>
+**&nbsp;If&nbsp;this&nbsp;is&nbsp;defined,&nbsp;then&nbsp;the&nbsp;specified&nbsp;privilege&nbsp;is&nbsp;needed&nbsp;to&nbsp;create&nbsp;<BR>
+**&nbsp;an&nbsp;outbound&nbsp;connection&nbsp;<BR>
+*/&nbsp;<BR>
+&nbsp;<BR>
+#define&nbsp;MAX_SPEED&nbsp;64*1024&nbsp;<BR>
+//&nbsp;最大传输率&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;int	style;&nbsp;<BR>
+private&nbsp;int	fdOwned&nbsp;=&nbsp;-1;	/*&nbsp;no&nbsp;socket&nbsp;yet&nbsp;*/&nbsp;<BR>
+private&nbsp;function	read_func;&nbsp;<BR>
+private&nbsp;function	close_func;&nbsp;<BR>
+private&nbsp;function&nbsp;write_func;&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;mixed&nbsp;*	write_queue&nbsp;=&nbsp;({&nbsp;});&nbsp;<BR>
+private&nbsp;int	blocked;&nbsp;<BR>
+private&nbsp;int&nbsp;last_send_time=0;&nbsp;<BR>
+private&nbsp;int&nbsp;last_send_bytes=0;&nbsp;<BR>
+&nbsp;<BR>
+/*&nbsp;For&nbsp;debug&nbsp;purposes&nbsp;only&nbsp;*/&nbsp;<BR>
+private&nbsp;mixed&nbsp;addr;&nbsp;<BR>
+&nbsp;<BR>
+#ifdef&nbsp;DEBUG&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;log_socket(string&nbsp;x)&nbsp;<BR>
+{&nbsp;<BR>
+	int&nbsp;no;&nbsp;<BR>
+	string&nbsp;vv;&nbsp;<BR>
+	if&nbsp;(clonep(this_object()))&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;sscanf(file_name(this_object()),&quot;%*s#%d&quot;,no);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;log_file(&quot;socket&quot;,&quot;[&quot;+short_time(time())+&quot;]&quot;+no+&quot;:&nbsp;&quot;+x+&quot;.\n&quot;);&nbsp;<BR>
+	}&nbsp;<BR>
+	else&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;log_file(&quot;socket&quot;,&quot;[&quot;+short_time(time())+&quot;]&quot;+x+&quot;.\n&quot;);&nbsp;<BR>
+}&nbsp;<BR>
+#else&nbsp;<BR>
+#define&nbsp;log_socket(x)&nbsp;<BR>
+#endif&nbsp;<BR>
+&nbsp;<BR>
+void&nbsp;set_write_callback(function&nbsp;f)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;write_func&nbsp;=&nbsp;f;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+int&nbsp;stat_me()&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;switch&nbsp;(&nbsp;style&nbsp;)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;case&nbsp;SKT_STYLE_LISTEN:&nbsp;<BR>
+	printf(&quot;%O:&nbsp;listening&nbsp;at&nbsp;%O\n&quot;,&nbsp;this_object(),&nbsp;addr);&nbsp;<BR>
+	printf(&quot;&nbsp;&nbsp;&nbsp;&nbsp;read_func=%O&nbsp;&nbsp;close_func=%O\n&quot;,&nbsp;read_func,&nbsp;close_func);&nbsp;<BR>
+	break;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;case&nbsp;SKT_STYLE_CONNECT:&nbsp;<BR>
+	printf(&quot;%O:&nbsp;connected&nbsp;to&nbsp;%O\n&quot;,&nbsp;this_object(),&nbsp;addr);&nbsp;<BR>
+	printf(&quot;&nbsp;&nbsp;&nbsp;&nbsp;read_func=%O&nbsp;&nbsp;close_func=%O\n&quot;,&nbsp;read_func,&nbsp;close_func);&nbsp;<BR>
+	break;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;case&nbsp;SKT_STYLE_UDP:&nbsp;<BR>
+	printf(&quot;%O:&nbsp;UDP&nbsp;at&nbsp;%O\n&quot;,&nbsp;this_object(),&nbsp;addr);&nbsp;<BR>
+	printf(&quot;&nbsp;&nbsp;&nbsp;&nbsp;read_func=%O\n&quot;,&nbsp;read_func);&nbsp;<BR>
+	break;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;case&nbsp;SKT_STYLE_LISTEN_M:&nbsp;<BR>
+	printf(&quot;%O:&nbsp;(mud)&nbsp;listening&nbsp;at&nbsp;%O\n&quot;,&nbsp;this_object(),&nbsp;addr);&nbsp;<BR>
+	printf(&quot;&nbsp;&nbsp;&nbsp;&nbsp;read_func=%O&nbsp;&nbsp;close_func=%O\n&quot;,&nbsp;read_func,&nbsp;close_func);&nbsp;<BR>
+	break;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;case&nbsp;SKT_STYLE_CONNECT_M:&nbsp;<BR>
+	printf(&quot;%O:&nbsp;(mud)&nbsp;connected&nbsp;to&nbsp;%O\n&quot;,&nbsp;this_object(),&nbsp;addr);&nbsp;<BR>
+	printf(&quot;&nbsp;&nbsp;&nbsp;&nbsp;read_func=%O&nbsp;&nbsp;close_func=%O\n&quot;,&nbsp;read_func,&nbsp;close_func);&nbsp;<BR>
+	break;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;case&nbsp;SKT_STYLE_INT_ACQUIRE:&nbsp;<BR>
+	printf(&quot;%O:&nbsp;accepted&nbsp;connection&nbsp;from&nbsp;%s\n&quot;,&nbsp;this_object(),&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;socket_address(fdOwned));&nbsp;<BR>
+	printf(&quot;&nbsp;&nbsp;&nbsp;&nbsp;read_func=%O&nbsp;&nbsp;close_func=%O\n&quot;,&nbsp;read_func,&nbsp;close_func);&nbsp;<BR>
+	break;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;printf(&quot;&nbsp;&nbsp;&nbsp;&nbsp;fdOwner=%d\n&quot;,fdOwned);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;sizeof(write_queue)&nbsp;)&nbsp;<BR>
+	printf(&quot;queue:&nbsp;%O\n&quot;,&nbsp;write_queue);&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;1;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+//###&nbsp;socket_connect()&nbsp;doesn't&nbsp;take&nbsp;funcptr&nbsp;yet...&nbsp;<BR>
+/*&nbsp;private&nbsp;*/&nbsp;protected&nbsp;nomask&nbsp;void&nbsp;read_callback(int&nbsp;fd,&nbsp;mixed&nbsp;message)&nbsp;<BR>
+{&nbsp;<BR>
+SKTLOG(&quot;read_callback:&nbsp;self&quot;,this_object());&nbsp;<BR>
+SKTLOG(&quot;read_callback:&nbsp;fd&quot;,fd);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;catch(evaluate(read_func,&nbsp;this_object(),&nbsp;message));&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;read_udp_callback(int&nbsp;fd,&nbsp;mixed&nbsp;message,&nbsp;string&nbsp;address)&nbsp;<BR>
+{&nbsp;<BR>
+SKTLOG(&quot;read_udp_callback:&nbsp;self&quot;,this_object());&nbsp;<BR>
+SKTLOG(&quot;read_udp_callback:&nbsp;fd&quot;,fd);&nbsp;<BR>
+SKTLOG(&quot;read_udp_callback:&nbsp;read_func&quot;,read_func);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;catch(evaluate(read_func,&nbsp;this_object(),&nbsp;message,&nbsp;address));&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;close_callback(int&nbsp;fd)&nbsp;<BR>
+{&nbsp;<BR>
+SKTLOG(&quot;close_callback:&nbsp;self&quot;,this_object());&nbsp;<BR>
+SKTLOG(&quot;close_callback:&nbsp;fd&quot;,fd);&nbsp;<BR>
+SKTLOG(&quot;close_callback:&nbsp;close_func&quot;,close_func);&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;/*&nbsp;this&nbsp;descriptor&nbsp;is&nbsp;closed.&nbsp;don't&nbsp;try&nbsp;to&nbsp;close&nbsp;again.&nbsp;*/&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;fdOwned&nbsp;=&nbsp;-1;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;close_func&nbsp;)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;	if&nbsp;(function_owner(close_func))&nbsp;<BR>
+	catch(evaluate(close_func,&nbsp;this_object()));&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+log_socket(&quot;destory&nbsp;by&nbsp;itself&quot;);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;destruct(this_object());&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+//###&nbsp;socket_connect()&nbsp;doesn't&nbsp;take&nbsp;a&nbsp;funcptr&nbsp;yet&nbsp;<BR>
+/*&nbsp;private&nbsp;*/&nbsp;protected&nbsp;nomask&nbsp;void&nbsp;write_callback(int&nbsp;fd)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;mixed&nbsp;tmp;&nbsp;<BR>
+SKTLOG(&quot;write_callback:&nbsp;self&quot;,this_object());&nbsp;<BR>
+SKTLOG(&quot;write_callback:&nbsp;fd&quot;,fd);&nbsp;<BR>
+SKTLOG(&quot;write_callback:&nbsp;#&nbsp;elem&quot;,sizeof(write_queue));&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;/*&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;**&nbsp;No&nbsp;longer&nbsp;blocked&nbsp;(can&nbsp;accept&nbsp;new&nbsp;data).&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;*/&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;!sizeof(write_queue)&nbsp;&amp;&amp;&nbsp;write_func&nbsp;&amp;&amp;&nbsp;blocked&nbsp;)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;write_queue&nbsp;=&nbsp;({&nbsp;evaluate(write_func,&nbsp;this_object())&nbsp;});&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;while&nbsp;(&nbsp;sizeof(write_queue)&nbsp;&gt;&nbsp;0&nbsp;)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	int&nbsp;err;&nbsp;<BR>
+	&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;tmp=write_queue[0];&nbsp;<BR>
+&nbsp;<BR>
+	if&nbsp;(time()!=last_send_time)&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;last_send_time=time();&nbsp;<BR>
+	&nbsp;&nbsp;last_send_bytes=0;&nbsp;<BR>
+	}&nbsp;<BR>
+	else&nbsp;<BR>
+	&nbsp;&nbsp;last_send_bytes+=sizeof(tmp);&nbsp;<BR>
+	if&nbsp;(last_send_bytes&gt;=MAX_SPEED)&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;blocked=1;&nbsp;<BR>
+	&nbsp;&nbsp;call_out(&quot;write_callback&quot;,0,fd);&nbsp;<BR>
+	&nbsp;&nbsp;return;&nbsp;<BR>
+	}&nbsp;<BR>
+	&nbsp;<BR>
+	&nbsp;<BR>
+if&nbsp;(tmp&amp;&amp;sizeof(tmp))&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;	err&nbsp;=&nbsp;socket_write(fd,&nbsp;tmp);&nbsp;<BR>
+	if&nbsp;(&nbsp;err&nbsp;==&nbsp;EEALREADY&nbsp;)&nbsp;<BR>
+	{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;write_callback&nbsp;will&nbsp;get&nbsp;called&nbsp;automatically.&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;blocked&nbsp;=&nbsp;1;&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;return;&nbsp;<BR>
+	}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;err&nbsp;==&nbsp;EEWOULDBLOCK&nbsp;)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;write_callback&nbsp;needs&nbsp;to&nbsp;get&nbsp;called&nbsp;manually.&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;blocked&nbsp;=&nbsp;1;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;call_out(&quot;write_callback&quot;,1,fd);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+	/*&nbsp;<BR>
+	**&nbsp;Remove&nbsp;the&nbsp;item&nbsp;from&nbsp;the&nbsp;queue.&nbsp;&nbsp;It&nbsp;has&nbsp;been&nbsp;written.&nbsp;<BR>
+	*/&nbsp;<BR>
+	write_queue&nbsp;=&nbsp;write_queue[1..];&nbsp;<BR>
+&nbsp;<BR>
+	if&nbsp;(&nbsp;err&nbsp;==&nbsp;EECALLBACK&nbsp;)&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;/*&nbsp;done&nbsp;for&nbsp;now...&nbsp;wait&nbsp;for&nbsp;the&nbsp;next&nbsp;callback&nbsp;*/&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;blocked&nbsp;=&nbsp;1;&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;return;&nbsp;<BR>
+	}&nbsp;<BR>
+	if&nbsp;(&nbsp;err&nbsp;&lt;&nbsp;0&nbsp;)&nbsp;<BR>
+	{&nbsp;<BR>
+//	&nbsp;&nbsp;&nbsp;&nbsp;error(&quot;could&nbsp;not&nbsp;write:&nbsp;&quot;&nbsp;+&nbsp;socket_error(err)&nbsp;+&nbsp;&quot;\n&quot;);&nbsp;<BR>
+return;&nbsp;<BR>
+	}&nbsp;<BR>
+	else&nbsp;if&nbsp;(&nbsp;write_func&nbsp;&amp;&amp;&nbsp;!sizeof(write_queue))&nbsp;<BR>
+	{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tmp&nbsp;=&nbsp;evaluate(write_func,&nbsp;this_object());&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;		write_queue&nbsp;+=&nbsp;({&nbsp;tmp&nbsp;});&nbsp;<BR>
+	}&nbsp;<BR>
+}&nbsp;<BR>
+else&nbsp;<BR>
+&nbsp;&nbsp;write_queue=write_queue[1..];&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;blocked&nbsp;=&nbsp;0;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+/*&nbsp;private&nbsp;*/&nbsp;nomask&nbsp;void&nbsp;release_callback(int&nbsp;fdToAcquire)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;err;&nbsp;<BR>
+&nbsp;<BR>
+SKTLOG(&quot;release_callback:&nbsp;self&quot;,this_object());&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;fdOwned&nbsp;=&nbsp;fdToAcquire;&nbsp;<BR>
+SKTLOG(&quot;release_callback:&nbsp;fdOwned&quot;,fdOwned);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;err&nbsp;=&nbsp;socket_acquire(fdOwned,&nbsp;<BR>
+			&nbsp;(:&nbsp;read_callback&nbsp;:),&nbsp;<BR>
+			&nbsp;(:&nbsp;write_callback&nbsp;:),&nbsp;<BR>
+			&nbsp;(:&nbsp;close_callback&nbsp;:));&nbsp;<BR>
+SKTLOG(&quot;release_callback:&nbsp;err&quot;,err);&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;err&nbsp;&lt;&nbsp;0&nbsp;)&nbsp;<BR>
+	error(&quot;could&nbsp;not&nbsp;release:&nbsp;&quot;&nbsp;+&nbsp;socket_error(err)&nbsp;+&nbsp;&quot;\n&quot;);&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;/*&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;**&nbsp;Deliver&nbsp;a&nbsp;0&nbsp;indicating&nbsp;a&nbsp;new&nbsp;connection&nbsp;(and&nbsp;providing&nbsp;self)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;*/&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;catch(evaluate(read_func,&nbsp;this_object(),&nbsp;0));&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+//###&nbsp;socket_listen&nbsp;doesn't&nbsp;take&nbsp;funcptrs&nbsp;yet...&nbsp;<BR>
+/*&nbsp;private&nbsp;*/&nbsp;protected&nbsp;nomask&nbsp;void&nbsp;listen_callback(int&nbsp;fd)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;object	s;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;int		err;&nbsp;<BR>
+&nbsp;<BR>
+SKTLOG(&quot;listen_callback:&nbsp;self&quot;,this_object());&nbsp;<BR>
+SKTLOG(&quot;listen_callback:&nbsp;fd&quot;,fd);&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;fd&nbsp;=&nbsp;socket_accept(fd,&nbsp;(:&nbsp;read_callback&nbsp;:),&nbsp;(:&nbsp;write_callback&nbsp;:));&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;s&nbsp;=&nbsp;new(SOCKET,&nbsp;SKT_STYLE_INT_ACQUIRE,&nbsp;read_func,&nbsp;close_func);&nbsp;<BR>
+&nbsp;<BR>
+SKTLOG(&quot;listen_callback:&nbsp;new&nbsp;sock&quot;,s);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;err&nbsp;=&nbsp;socket_release(fd,&nbsp;s,&nbsp;&quot;release_callback&quot;);&nbsp;<BR>
+SKTLOG(&quot;listen_callback:&nbsp;err&quot;,err);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;err&nbsp;&lt;&nbsp;0&nbsp;)&nbsp;<BR>
+	error(&quot;could&nbsp;not&nbsp;release:&nbsp;&quot;&nbsp;+&nbsp;socket_error(err)&nbsp;+&nbsp;&quot;\n&quot;);&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+//###&nbsp;need&nbsp;a&nbsp;way&nbsp;to&nbsp;protect&nbsp;this&nbsp;from&nbsp;random&nbsp;writes&nbsp;<BR>
+varargs&nbsp;nomask&nbsp;void&nbsp;send(mixed&nbsp;message,&nbsp;string&nbsp;address)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;int	err;&nbsp;<BR>
+&nbsp;<BR>
+SKTLOG(&quot;send:&nbsp;self&quot;,this_object());&nbsp;<BR>
+SKTLOG(&quot;send:&nbsp;fd&quot;,fdOwned);&nbsp;<BR>
+SKTLOG(&quot;send:&nbsp;#&nbsp;elem&quot;,sizeof(write_queue));&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;address&nbsp;)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	err&nbsp;=&nbsp;socket_write(fdOwned,&nbsp;message,&nbsp;address);&nbsp;<BR>
+	if&nbsp;(err&lt;0)&nbsp;<BR>
+	&nbsp;{&nbsp;<BR>
+//	&nbsp;&nbsp;&nbsp;&nbsp;error(&quot;could&nbsp;not&nbsp;write:&nbsp;&quot;&nbsp;+&nbsp;socket_error(err)&nbsp;+&nbsp;&quot;\n&quot;);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;return;&nbsp;<BR>
+	&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;if&nbsp;(&nbsp;blocked&nbsp;)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	/*&nbsp;<BR>
+	**&nbsp;If&nbsp;we&nbsp;are&nbsp;blocked,&nbsp;then&nbsp;the&nbsp;socket&nbsp;doesn't&nbsp;want&nbsp;us&nbsp;to&nbsp;send&nbsp;<BR>
+	**&nbsp;any&nbsp;more.&nbsp;&nbsp;Place&nbsp;it&nbsp;on&nbsp;our&nbsp;queue&nbsp;for&nbsp;sending&nbsp;later.&nbsp;<BR>
+	*/&nbsp;<BR>
+	write_queue&nbsp;+=&nbsp;({&nbsp;message&nbsp;});&nbsp;<BR>
+	return&nbsp;;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	if&nbsp;(message&nbsp;&amp;&amp;&nbsp;sizeof(message)&nbsp;)&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;err&nbsp;=&nbsp;socket_write(fdOwned,&nbsp;message);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;err&nbsp;==&nbsp;EEALREADY&nbsp;)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+		//&nbsp;write_callback&nbsp;will&nbsp;get&nbsp;called&nbsp;automatically.&nbsp;<BR>
+		blocked&nbsp;=&nbsp;1;&nbsp;<BR>
+		write_queue&nbsp;+=&nbsp;({&nbsp;message&nbsp;});&nbsp;<BR>
+		return;&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;err&nbsp;==&nbsp;EEWOULDBLOCK&nbsp;)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+		//&nbsp;write_callback&nbsp;needs&nbsp;to&nbsp;get&nbsp;called&nbsp;manually.&nbsp;<BR>
+		blocked&nbsp;=&nbsp;1;&nbsp;<BR>
+		write_queue&nbsp;+=&nbsp;({&nbsp;message&nbsp;});&nbsp;<BR>
+		call_out(&quot;write_callback&quot;,&nbsp;1,&nbsp;fdOwned);&nbsp;<BR>
+		return;&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;err&nbsp;==&nbsp;EECALLBACK&nbsp;)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+		/*&nbsp;<BR>
+		**&nbsp;Socket&nbsp;took&nbsp;the&nbsp;message&nbsp;but&nbsp;is&nbsp;blocked&nbsp;until&nbsp;it&nbsp;can&nbsp;<BR>
+		**&nbsp;write&nbsp;it&nbsp;out.&nbsp;&nbsp;Set&nbsp;a&nbsp;flag&nbsp;so&nbsp;that&nbsp;we&nbsp;don't&nbsp;write&nbsp;any&nbsp;<BR>
+		**&nbsp;more&nbsp;until&nbsp;we&nbsp;get&nbsp;the&nbsp;callback.&nbsp;<BR>
+		*/&nbsp;<BR>
+		blocked&nbsp;=&nbsp;1;&nbsp;<BR>
+		return;&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(err&lt;0)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+//	&nbsp;&nbsp;&nbsp;&nbsp;error(&quot;could&nbsp;not&nbsp;write:&nbsp;&quot;&nbsp;+&nbsp;socket_error(err)&nbsp;+&nbsp;&quot;\n&quot;);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;blocked=1;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;write_callback(fdOwned);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+	}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+void&nbsp;remove()&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;err;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;fdOwned&nbsp;&gt;=&nbsp;0&nbsp;)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+SKTLOG(&quot;remove:&nbsp;self&quot;,this_object());&nbsp;<BR>
+SKTLOG(&quot;remove:&nbsp;fdOwned&quot;,fdOwned);&nbsp;<BR>
+	err&nbsp;=&nbsp;socket_close(fdOwned);&nbsp;<BR>
+SKTLOG(&quot;remove:&nbsp;err&quot;,err);&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;&nbsp;if&nbsp;(previous_object(1))&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;log_socket(&quot;destory&nbsp;by&nbsp;&quot;+file_name(previous_object(1)));&nbsp;<BR>
+&nbsp;&nbsp;else&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;log_socket(&quot;destory&nbsp;by&nbsp;&quot;+file_name(previous_object()));&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+nomask&nbsp;mixed&nbsp;*address()&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;string&nbsp;tmp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;string&nbsp;host;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;port;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;tmp&nbsp;=&nbsp;socket_address(fdOwned);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;sscanf(tmp,&nbsp;&quot;%s&nbsp;%d&quot;,&nbsp;host,&nbsp;port);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;({&nbsp;host,&nbsp;port&nbsp;});&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+nomask&nbsp;mixed&nbsp;*&nbsp;local_address()&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;string&nbsp;*&nbsp;tmp,dump,xx,yy,state,mode,la,ra,name;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;fd,i,port;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(fdOwned&lt;0)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;0;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;dump=dump_socket_status();&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;tmp=explode(dump,&quot;\n&quot;)[2..];&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;xx=tmp[fdOwned];&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sscanf(xx,&quot;%d&nbsp;%s&quot;,fd,yy);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i=0;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;while(yy[i]=='&nbsp;')&nbsp;i++;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;yy=yy[i..];&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sscanf(yy,&quot;%s&nbsp;%s&quot;,state,yy);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i=0;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;while(yy[i]=='&nbsp;')&nbsp;i++;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;yy=yy[i..];&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sscanf(yy,&quot;%s&nbsp;%s&quot;,mode,yy);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i=0;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;while(yy[i]=='&nbsp;')&nbsp;i++;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;yy=yy[i..];&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sscanf(yy,&quot;%s&nbsp;%s&quot;,la,yy);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i=0;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;while(yy[i]=='&nbsp;')&nbsp;i++;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ra=yy[i..];&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i=strlen(ra)-1;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;while&nbsp;(i&gt;0&amp;&amp;ra[i]=='&nbsp;')&nbsp;i--;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ra=ra[0..i];&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(la[0]=='*')&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sscanf(la,&quot;*.%d&quot;,port);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sscanf(la,&quot;%*s.%*s.%*s.%*s.%d&quot;,port);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name=query_host_ip();&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;({&nbsp;name,port&nbsp;});&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+void&nbsp;create(int&nbsp;skt_style,&nbsp;mixed&nbsp;p1,&nbsp;mixed&nbsp;p2,&nbsp;mixed&nbsp;p3)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;err;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;!clonep()&nbsp;)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;return;&nbsp;<BR>
+&nbsp;<BR>
+log_socket(&quot;created&nbsp;by&nbsp;&quot;+file_name(previous_object()));&nbsp;<BR>
+&nbsp;<BR>
+SKTLOG(&quot;create:&nbsp;self&quot;,this_object());&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;style&nbsp;=&nbsp;skt_style;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;addr&nbsp;=&nbsp;p1;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;switch&nbsp;(&nbsp;style&nbsp;)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;case&nbsp;SKT_STYLE_LISTEN:&nbsp;<BR>
+	read_func&nbsp;=&nbsp;p2;&nbsp;<BR>
+	close_func&nbsp;=&nbsp;p3;&nbsp;<BR>
+	fdOwned&nbsp;=&nbsp;socket_create(1&nbsp;/*&nbsp;STREAM&nbsp;*/,&nbsp;<BR>
+				(:&nbsp;read_callback&nbsp;:),&nbsp;<BR>
+				(:&nbsp;close_callback&nbsp;:));&nbsp;<BR>
+	if&nbsp;(&nbsp;fdOwned&nbsp;&lt;&nbsp;0&nbsp;)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;error(&quot;could&nbsp;not&nbsp;create&nbsp;socket:&nbsp;&quot;&nbsp;+&nbsp;socket_error(fdOwned)&nbsp;+&nbsp;&quot;\n&quot;);&nbsp;<BR>
+	if&nbsp;(&nbsp;(err&nbsp;=&nbsp;socket_bind(fdOwned,&nbsp;p1))&nbsp;&lt;&nbsp;0&nbsp;)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;error(&quot;could&nbsp;not&nbsp;bind&nbsp;socket:&nbsp;&quot;&nbsp;+&nbsp;socket_error(err)&nbsp;+&nbsp;&quot;\n&quot;);&nbsp;<BR>
+	if&nbsp;(&nbsp;(err&nbsp;=&nbsp;socket_listen(fdOwned,&nbsp;&quot;listen_callback&quot;))&nbsp;&lt;&nbsp;0&nbsp;)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;error(&quot;could&nbsp;not&nbsp;listen&nbsp;to&nbsp;socket:&nbsp;&quot;&nbsp;+&nbsp;socket_error(err)&nbsp;+&nbsp;&quot;\n&quot;);&nbsp;<BR>
+SKTLOG(&quot;create:&nbsp;SKT_STYLE_LISTEN&quot;,fdOwned);&nbsp;<BR>
+	break;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;case&nbsp;SKT_STYLE_CONNECT:&nbsp;<BR>
+	read_func&nbsp;=&nbsp;p2;&nbsp;<BR>
+	close_func&nbsp;=&nbsp;p3;&nbsp;<BR>
+	fdOwned&nbsp;=&nbsp;socket_create(1&nbsp;/*&nbsp;STREAM&nbsp;*/,&nbsp;<BR>
+				(:&nbsp;read_callback&nbsp;:),&nbsp;<BR>
+				(:&nbsp;close_callback&nbsp;:));&nbsp;<BR>
+	if&nbsp;(&nbsp;fdOwned&nbsp;&lt;&nbsp;0&nbsp;)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;error(&quot;could&nbsp;not&nbsp;create&nbsp;socket:&nbsp;&quot;&nbsp;+&nbsp;socket_error(fdOwned)&nbsp;+&nbsp;&quot;\n&quot;);&nbsp;<BR>
+	err&nbsp;=&nbsp;socket_connect(fdOwned,&nbsp;p1,&nbsp;&quot;read_callback&quot;,&nbsp;&quot;write_callback&quot;);&nbsp;<BR>
+	if&nbsp;(&nbsp;err&nbsp;&lt;&nbsp;0&nbsp;)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;error(&quot;could&nbsp;not&nbsp;listen&nbsp;to&nbsp;socket:&nbsp;&quot;&nbsp;+&nbsp;socket_error(err)&nbsp;+&nbsp;&quot;\n&quot;);&nbsp;<BR>
+SKTLOG(&quot;create:&nbsp;SKT_STYLE_CONNECT&quot;,fdOwned);&nbsp;<BR>
+SKTLOG(&quot;create:&nbsp;close_func&quot;,close_func);&nbsp;<BR>
+	break;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;case&nbsp;SKT_STYLE_LISTEN_B:&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;read_func&nbsp;=&nbsp;p2;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;close_func&nbsp;=&nbsp;p3;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fdOwned&nbsp;=&nbsp;socket_create(3&nbsp;/*&nbsp;STREAM&nbsp;BINARY&nbsp;*/,&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(:&nbsp;read_callback&nbsp;:),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(:&nbsp;close_callback&nbsp;:));&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;fdOwned&nbsp;&lt;&nbsp;0&nbsp;)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;error(&quot;could&nbsp;not&nbsp;create&nbsp;socket:&nbsp;&quot;&nbsp;+&nbsp;socket_error(fdOwned)&nbsp;+&nbsp;&nbsp;<BR>
+&quot;\n&quot;);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;(err&nbsp;=&nbsp;socket_bind(fdOwned,&nbsp;p1))&nbsp;&lt;&nbsp;0&nbsp;)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;error(&quot;could&nbsp;not&nbsp;bind&nbsp;socket:&nbsp;&quot;&nbsp;+&nbsp;socket_error(err)&nbsp;+&nbsp;&quot;\n&quot;);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;(err&nbsp;=&nbsp;socket_listen(fdOwned,&nbsp;&quot;listen_callback&quot;))&nbsp;&lt;&nbsp;0&nbsp;)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;error(&quot;could&nbsp;not&nbsp;listen&nbsp;to&nbsp;socket:&nbsp;&quot;&nbsp;+&nbsp;socket_error(err)&nbsp;+&nbsp;&nbsp;<BR>
+&quot;\n&quot;);&nbsp;<BR>
+SKTLOG(&quot;create:&nbsp;SKT_STYLE_LISTEN_B&quot;,fdOwned);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;case&nbsp;SKT_STYLE_CONNECT_B:&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;read_func&nbsp;=&nbsp;p2;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;close_func&nbsp;=&nbsp;p3;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fdOwned&nbsp;=&nbsp;socket_create(3&nbsp;/*&nbsp;STREAM&nbsp;BINARY&nbsp;*/,&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(:&nbsp;read_callback&nbsp;:),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(:&nbsp;close_callback&nbsp;:));&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;fdOwned&nbsp;&lt;&nbsp;0&nbsp;)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;error(&quot;could&nbsp;not&nbsp;create&nbsp;socket:&nbsp;&quot;&nbsp;+&nbsp;socket_error(fdOwned)&nbsp;+&nbsp;&nbsp;<BR>
+&quot;\n&quot;);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;err&nbsp;=&nbsp;socket_connect(fdOwned,&nbsp;p1,&nbsp;&quot;read_callback&quot;,&nbsp;&quot;write_callback&quot;);&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;err&nbsp;&lt;&nbsp;0&nbsp;)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;error(&quot;could&nbsp;not&nbsp;listen&nbsp;to&nbsp;socket:&nbsp;&quot;&nbsp;+&nbsp;socket_error(err)&nbsp;+&nbsp;&nbsp;<BR>
+&quot;\n&quot;);&nbsp;<BR>
+SKTLOG(&quot;create:&nbsp;SKT_STYLE_CONNECT_B&quot;,fdOwned);&nbsp;<BR>
+SKTLOG(&quot;create:&nbsp;close_func&quot;,close_func);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;case&nbsp;SKT_STYLE_UDP:&nbsp;<BR>
+	read_func&nbsp;=&nbsp;p2;&nbsp;<BR>
+	fdOwned&nbsp;=&nbsp;socket_create(2&nbsp;/*&nbsp;DATAGRAM&nbsp;*/,&nbsp;(:&nbsp;read_udp_callback&nbsp;:));&nbsp;<BR>
+	if&nbsp;(&nbsp;fdOwned&nbsp;&lt;&nbsp;0&nbsp;)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;error(&quot;could&nbsp;not&nbsp;create&nbsp;socket:&nbsp;&quot;&nbsp;+&nbsp;socket_error(fdOwned)&nbsp;+&nbsp;&quot;\n&quot;);&nbsp;<BR>
+	if&nbsp;(&nbsp;(err&nbsp;=&nbsp;socket_bind(fdOwned,&nbsp;p1))&nbsp;&lt;&nbsp;0&nbsp;)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;error(&quot;could&nbsp;not&nbsp;bind&nbsp;socket:&nbsp;&quot;&nbsp;+&nbsp;socket_error(err)&nbsp;+&nbsp;&quot;\n&quot;);&nbsp;<BR>
+SKTLOG(&quot;create:&nbsp;SKT_STYLE_UDP&quot;,fdOwned);&nbsp;<BR>
+	break;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;case&nbsp;SKT_STYLE_LISTEN_M:&nbsp;<BR>
+	read_func&nbsp;=&nbsp;p2;&nbsp;<BR>
+	close_func&nbsp;=&nbsp;p3;&nbsp;<BR>
+	fdOwned&nbsp;=&nbsp;socket_create(0&nbsp;/*&nbsp;MUD&nbsp;*/,&nbsp;<BR>
+				(:&nbsp;read_callback&nbsp;:),&nbsp;<BR>
+				(:&nbsp;close_callback&nbsp;:));&nbsp;<BR>
+	if&nbsp;(&nbsp;fdOwned&nbsp;&lt;&nbsp;0&nbsp;)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;error(&quot;could&nbsp;not&nbsp;create&nbsp;socket:&nbsp;&quot;&nbsp;+&nbsp;socket_error(fdOwned)&nbsp;+&nbsp;&quot;\n&quot;);&nbsp;<BR>
+	if&nbsp;(&nbsp;(err&nbsp;=&nbsp;socket_bind(fdOwned,&nbsp;p1))&nbsp;&lt;&nbsp;0&nbsp;)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;error(&quot;could&nbsp;not&nbsp;bind&nbsp;socket:&nbsp;&quot;&nbsp;+&nbsp;socket_error(err)&nbsp;+&nbsp;&quot;\n&quot;);&nbsp;<BR>
+	if&nbsp;(&nbsp;(err&nbsp;=&nbsp;socket_listen(fdOwned,&nbsp;&quot;listen_callback&quot;))&nbsp;&lt;&nbsp;0&nbsp;)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;error(&quot;could&nbsp;not&nbsp;listen&nbsp;to&nbsp;socket:&nbsp;&quot;&nbsp;+&nbsp;socket_error(err)&nbsp;+&nbsp;&quot;\n&quot;);&nbsp;<BR>
+SKTLOG(&quot;create:&nbsp;SKT_STYLE_LISTEN_M&quot;,fdOwned);&nbsp;<BR>
+	break;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;case&nbsp;SKT_STYLE_CONNECT_M:&nbsp;<BR>
+	read_func&nbsp;=&nbsp;p2;&nbsp;<BR>
+	close_func&nbsp;=&nbsp;p3;&nbsp;<BR>
+	fdOwned&nbsp;=&nbsp;socket_create(0&nbsp;/*&nbsp;MUD&nbsp;*/,&nbsp;<BR>
+				(:&nbsp;read_callback&nbsp;:),&nbsp;<BR>
+				(:&nbsp;close_callback&nbsp;:));&nbsp;<BR>
+	if&nbsp;(&nbsp;fdOwned&nbsp;&lt;&nbsp;0&nbsp;)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;error(&quot;could&nbsp;not&nbsp;create&nbsp;socket:&nbsp;&quot;&nbsp;+&nbsp;socket_error(fdOwned)&nbsp;+&nbsp;&quot;\n&quot;);&nbsp;<BR>
+	err&nbsp;=&nbsp;socket_connect(fdOwned,&nbsp;p1,&nbsp;&quot;read_callback&quot;,&nbsp;&quot;write_callback&quot;);&nbsp;<BR>
+	if&nbsp;(&nbsp;err&nbsp;&lt;&nbsp;0&nbsp;)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;error(&quot;could&nbsp;not&nbsp;listen&nbsp;to&nbsp;socket:&nbsp;&quot;&nbsp;+&nbsp;socket_error(err)&nbsp;+&nbsp;&quot;\n&quot;);&nbsp;<BR>
+SKTLOG(&quot;create:&nbsp;SKT_STYLE_CONNECT_M&quot;,fdOwned);&nbsp;<BR>
+SKTLOG(&quot;create:&nbsp;close_func&quot;,close_func);&nbsp;<BR>
+	break;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;case&nbsp;SKT_STYLE_INT_ACQUIRE:&nbsp;<BR>
+	read_func	=&nbsp;p1;&nbsp;<BR>
+	close_func	=&nbsp;p2;&nbsp;<BR>
+	break;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+※&nbsp;来源:·BBS&nbsp;水木清华站&nbsp;bbs.net.tsinghua.edu.cn·[FROM:&nbsp;202.207.8.112]&nbsp;&nbsp;<BR>
+<A HREF='javascript:history.go(-1)'>返回上一页</A>
+<A HREF="index.htm">回到目录</A>
+<A HREF="#top">回到页首</A>
+<A HREF="00000001.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+</BODY></HTML>

@@ -1,0 +1,11 @@
+¥Ø¿ý¡R/open/world1/acme/area2/npc/wp/
+axe.c               ³q¤Ñ©ò              axe2.c              °­µI©ò            
+beam.c              ¯¯±ì                blade.c             ÀsÀY¤M            
+blade2.c            µL«×¤M              bow.c               ¬ï¤s©¸            
+coldpike.c          ´HÅK´u              dagger.c            ªê¬`´Õ            
+darksword.c         «Õ­ß¼C              dog.c               ¶Àª¯              
+fist.c              °­¤ö                ghostpike.c         ²ö¤z¨¸±N          
+lance.c             ¶ÂÅKºj              longsword.c         ©ú°Ê¼C            
+longsword2.c        ¬h¸­¼C              ruler.c             ÅK¤Ø              
+staff.c             «C¿û§ú              sword.c             Â¶«ü¬X¼C          
+sword2.c            °­¤ý¼C              

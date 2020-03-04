@@ -1,0 +1,1600 @@
+[Wed Jul 21 13:55:19 1999] u/z/zorg/workroom.c line 12: parse error
+
+[Wed Jul 21 13:55:19 1999] u/z/zorg/workroom.c line 18: End of file in string
+
+[Wed Jul 21 13:55:25 1999] u/z/zorg/workroom.c line 12: parse error
+
+[Wed Jul 21 13:55:25 1999] u/z/zorg/workroom.c line 18: End of file in string
+
+[Thu Jul 22 01:55:15 1999] u/z/zorg/workroom.c line 28: Illegal to redefine 'nomask' function "_query"
+
+[Thu Jul 22 01:55:15 1999] u/z/zorg/workroom.c line 28: Illegal to redefine 'nomask' function "_delete"
+
+[Thu Jul 22 01:55:15 1999] u/z/zorg/workroom.c line 28: Illegal to redefine 'nomask' function "_set"
+
+[Thu Jul 22 01:55:15 1999] u/z/zorg/workroom.c line 47: Redeclaration of function create.
+
+[Thu Jul 22 01:59:37 1999] u/z/zorg/workroom.c line 28: End of file in text block
+
+[Thu Jul 22 01:59:37 1999] u/z/zorg/workroom.c line 28: parse error
+
+[Thu Jul 22 01:59:37 1999] u/z/zorg/workroom.c line 53: Illegal terminator
+
+[Thu Jul 22 01:59:37 1999] u/z/zorg/workroom.c line 53: Text block exceeded maximum length
+
+[Thu Jul 22 01:59:37 1999] u/z/zorg/workroom.c line 72: Illegal LHS
+
+[Thu Jul 22 01:59:37 1999] u/z/zorg/workroom.c line 73: parse error
+
+[Thu Jul 22 01:59:41 1999] u/z/zorg/workroom.c line 28: End of file in text block
+
+[Thu Jul 22 01:59:41 1999] u/z/zorg/workroom.c line 28: parse error
+
+[Thu Jul 22 01:59:41 1999] u/z/zorg/workroom.c line 53: Illegal terminator
+
+[Thu Jul 22 01:59:41 1999] u/z/zorg/workroom.c line 53: Text block exceeded maximum length
+
+[Thu Jul 22 01:59:41 1999] u/z/zorg/workroom.c line 72: Illegal LHS
+
+[Thu Jul 22 01:59:41 1999] u/z/zorg/workroom.c line 73: parse error
+
+[Thu Jul 22 02:02:46 1999] u/z/zorg/workroom.c line 28: End of file in text block
+
+[Thu Jul 22 02:02:46 1999] u/z/zorg/workroom.c line 28: Undefined variable 'bject'
+
+
+[Thu Jul 22 02:02:46 1999] u/z/zorg/workroom.c line 28: parse error
+
+[Thu Jul 22 02:02:46 1999] u/z/zorg/workroom.c line 29: Illegal LHS
+
+[Thu Jul 22 02:02:46 1999] u/z/zorg/workroom.c line 29: parse error
+
+[Thu Jul 22 02:02:46 1999] u/z/zorg/workroom.c line 46: Illegal LHS
+
+[Thu Jul 22 02:03:24 1999] u/z/zorg/workroom.c line 28: End of file in text block
+
+[Thu Jul 22 02:03:24 1999] u/z/zorg/workroom.c line 28: Undefined variable 'bject'
+
+
+[Thu Jul 22 02:03:24 1999] u/z/zorg/workroom.c line 28: parse error
+
+[Thu Jul 22 02:03:24 1999] u/z/zorg/workroom.c line 29: Illegal LHS
+
+[Thu Jul 22 02:03:24 1999] u/z/zorg/workroom.c line 29: parse error
+
+[Thu Jul 22 02:03:24 1999] u/z/zorg/workroom.c line 46: Illegal LHS
+
+[Thu Jul 22 02:04:12 1999] u/z/zorg/workroom.c line 28: End of file in text block
+
+[Thu Jul 22 02:04:12 1999] u/z/zorg/workroom.c line 28: parse error
+
+[Thu Jul 22 02:04:12 1999] u/z/zorg/workroom.c line 39: Undefined variable 'ob'
+
+
+[Thu Jul 22 02:04:12 1999] u/z/zorg/workroom.c line 39: Undefined variable 'topic'
+
+
+[Thu Jul 22 02:04:12 1999] u/z/zorg/workroom.c line 39: Illegal LHS
+
+[Thu Jul 22 02:04:12 1999] u/z/zorg/workroom.c line 39: parse error
+
+[Mon Jul 26 14:27:21 1999] u/z/zorg/workroom.c line 1: Single '#' in identifier -- use '##' for token pasting
+
+[Mon Jul 26 14:30:06 1999] u/z/zorg/workroom.c line 1: Single '#' in identifier -- use '##' for token pasting
+
+[Mon Jul 26 14:32:56 1999] u/z/zorg/workroom.c line 1: Single '#' in identifier -- use '##' for token pasting
+
+[Mon Jul 26 14:32:58 1999] u/z/zorg/workroom.c line 1: Single '#' in identifier -- use '##' for token pasting
+
+[Mon Jul 26 14:35:56 1999] u/z/zorg/workroom.c line 1: Single '#' in identifier -- use '##' for token pasting
+
+[Mon Jul 26 14:35:58 1999] u/z/zorg/workroom.c line 1: Single '#' in identifier -- use '##' for token pasting
+
+[Mon Jul 26 14:37:00 1999] u/z/zorg/workroom.c line 1: Single '#' in identifier -- use '##' for token pasting
+
+[Mon Jul 26 14:37:48 1999] u/z/zorg/workroom.c line 1: Single '#' in identifier -- use '##' for token pasting
+
+[Mon Jul 26 14:39:05 1999] u/z/zorg/workroom.c line 1: parse error
+
+[Mon Jul 26 14:39:07 1999] u/z/zorg/workroom.c line 1: parse error
+
+[Mon Jul 26 14:49:55 1999] u/z/zorg/workroom.c line 1: Single '#' in identifier -- use '##' for token pasting
+
+[Mon Jul 26 14:50:45 1999] u/z/zorg/workroom.c line 1: parse error
+
+[Mon Jul 26 14:58:04 1999] u/z/zorg/workroom.c line 1: Single '#' in identifier -- use '##' for token pasting
+
+[Mon Jul 26 15:00:54 1999] u/z/zorg/workroom.c line 1: Single '#' in identifier -- use '##' for token pasting
+
+[Sun Aug  1 21:10:58 1999] u/z/zorg/area/npc/child.c line 6: parse error
+
+[Sun Aug  1 21:17:43 1999] u/z/zorg/area/npc/child.c line 6: parse error
+
+[Sun Aug  1 21:17:47 1999] u/z/zorg/area/npc/child.c line 6: parse error
+
+[Sun Aug  1 21:19:09 1999] u/z/zorg/area/npc/child.c line 10: parse error
+
+[Sun Aug  1 21:20:21 1999] u/z/zorg/area/npc/child.c line 10: parse error
+
+[Sun Aug  1 21:27:46 1999] u/z/zorg/area/npc/child.c line 3: parse error
+
+[Sun Aug  1 21:27:50 1999] u/z/zorg/area/npc/child.c line 3: parse error
+
+[Sun Aug  1 21:34:23 1999] u/z/zorg/area/npc/child.c line 3: parse error
+
+[Mon Aug  2 09:46:40 1999] u/z/zorg/area/npc/child.c line 3: parse error
+
+[Mon Aug  2 10:05:47 1999] u/z/zorg/area/npc/child.c line 3: parse error
+
+[Mon Aug  2 10:05:47 1999] u/z/zorg/area/npc/child.c line 3: parse error
+
+[Mon Aug  2 10:05:47 1999] u/z/zorg/area/npc/child.c line 3: parse error
+
+[Mon Aug  2 12:18:45 1999] u/z/zorg/area/npc/child.c line 3: Missing type for argument
+
+[Mon Aug  2 12:18:45 1999] u/z/zorg/area/npc/child.c line 3: parse error
+
+[Mon Aug  2 12:33:40 1999] u/z/zorg/area/npc/child2.c line 24: parse error
+
+[Tue Aug  3 03:01:20 1999] u/z/zorg/test/zmob.c line 12: parse error
+
+[Tue Aug  3 03:01:20 1999] u/z/zorg/test/zmob.c line 20: Illegal character constant
+
+[Tue Aug  3 03:01:20 1999] u/z/zorg/test/zmob.c line 37: End of file in string
+
+[Tue Aug  3 03:01:28 1999] u/z/zorg/test/zmob.c line 12: parse error
+
+[Tue Aug  3 03:01:28 1999] u/z/zorg/test/zmob.c line 20: Illegal character constant
+
+[Tue Aug  3 03:01:28 1999] u/z/zorg/test/zmob.c line 37: End of file in string
+
+[Tue Aug  3 03:42:06 1999] u/z/zorg/test/zmob3.c line 28: parse error
+
+[Tue Aug  3 05:58:47 1999] u/z/zorg/area/laboratory.c line 37: End of file in text block
+
+[Tue Aug  3 05:58:47 1999] u/z/zorg/area/laboratory.c line 45: parse error
+
+[Tue Aug  3 06:00:38 1999] u/z/zorg/area/laboratory.c line 38: End of file in text block
+
+[Tue Aug  3 06:00:38 1999] u/z/zorg/area/laboratory.c line 39: A reserved type name cannot be used as a function name.
+
+
+[Tue Aug  3 06:00:38 1999] u/z/zorg/area/laboratory.c line 39: parse error
+
+[Tue Aug  3 06:00:38 1999] u/z/zorg/area/laboratory.c line 41: Undefined variable 'type'
+
+
+[Tue Aug  3 06:00:38 1999] u/z/zorg/area/laboratory.c line 41: Undefined function carry_object
+
+[Tue Aug  3 06:00:38 1999] u/z/zorg/area/laboratory.c line 41: Illegal LHS
+
+[Tue Aug  3 06:01:25 1999] u/z/zorg/area/laboratory.c line 35: End of file in text block
+
+[Tue Aug  3 06:01:25 1999] u/z/zorg/area/laboratory.c line 37: parse error
+
+[Tue Aug  3 06:01:47 1999] u/z/zorg/area/laboratory.c line 34: End of file in text block
+
+[Tue Aug  3 06:01:47 1999] u/z/zorg/area/laboratory.c line 34: parse error
+
+[Tue Aug  3 06:03:35 1999] u/z/zorg/area/laboratory.c line 35: End of file in text block
+
+[Tue Aug  3 06:03:35 1999] u/z/zorg/area/laboratory.c line 35: parse error
+
+[Tue Aug  3 06:03:35 1999] u/z/zorg/area/laboratory.c line 35: Illegal terminator
+
+[Tue Aug  3 06:03:35 1999] u/z/zorg/area/laboratory.c line 35: Text block exceeded maximum length
+
+[Tue Aug  3 06:04:33 1999] u/z/zorg/area/laboratory.c line 37: End of file in text block
+
+[Tue Aug  3 06:04:33 1999] u/z/zorg/area/laboratory.c line 37: Undefined variable 'e'
+
+
+[Tue Aug  3 06:04:33 1999] u/z/zorg/area/laboratory.c line 37: parse error
+
+[Tue Aug  3 06:04:33 1999] u/z/zorg/area/laboratory.c line 37: Illegal terminator
+
+[Tue Aug  3 06:04:33 1999] u/z/zorg/area/laboratory.c line 37: Text block exceeded maximum length
+
+[Tue Aug  3 06:06:03 1999] u/z/zorg/area/laboratory.c line 32: End of file in text block
+
+[Tue Aug  3 06:06:03 1999] u/z/zorg/area/laboratory.c line 38: End of file in string
+
+[Tue Aug  3 06:06:03 1999] u/z/zorg/area/laboratory.c line 38: Undefined variable 'o_clean_up'
+
+
+[Tue Aug  3 06:06:03 1999] u/z/zorg/area/laboratory.c line 38: parse error
+
+[Tue Aug  3 06:07:10 1999] u/z/zorg/area/laboratory.c line 31: End of file in text block
+
+[Tue Aug  3 06:07:10 1999] u/z/zorg/area/laboratory.c line 36: End of file in string
+
+[Tue Aug  3 06:07:10 1999] u/z/zorg/area/laboratory.c line 36: Undefined variable 'an_up'
+
+
+[Tue Aug  3 06:07:10 1999] u/z/zorg/area/laboratory.c line 36: parse error
+
+[Tue Aug  3 06:10:08 1999] u/z/zorg/area/laboratory.c line 34: End of file in text block
+
+[Tue Aug  3 06:10:08 1999] u/z/zorg/area/laboratory.c line 40: End of file in string
+
+[Tue Aug  3 06:10:08 1999] u/z/zorg/area/laboratory.c line 40: Undefined variable 'lean_up'
+
+
+[Tue Aug  3 06:10:08 1999] u/z/zorg/area/laboratory.c line 40: parse error
+
+[Tue Aug  3 06:20:09 1999] u/z/zorg/area/laboratory.c line 35: End of file in text block
+
+[Tue Aug  3 06:20:09 1999] u/z/zorg/area/laboratory.c line 35: parse error
+
+[Tue Aug  3 06:20:09 1999] u/z/zorg/area/laboratory.c line 43: Illegal terminator
+
+[Tue Aug  3 06:20:09 1999] u/z/zorg/area/laboratory.c line 43: Text block exceeded maximum length
+
+[Tue Aug  3 06:20:09 1999] u/z/zorg/area/laboratory.c line 57: $var illegal outside of function.
+
+[Tue Aug  3 06:20:09 1999] u/z/zorg/area/laboratory.c line 57: Illegal terminator
+
+[Tue Aug  3 06:21:00 1999] u/z/zorg/area/laboratory.c line 35: End of file in text block
+
+[Tue Aug  3 06:21:00 1999] u/z/zorg/area/laboratory.c line 35: Undefined variable 'start'
+
+
+[Tue Aug  3 06:21:00 1999] u/z/zorg/area/laboratory.c line 35: Undefined variable 'note'
+
+
+[Tue Aug  3 06:21:00 1999] u/z/zorg/area/laboratory.c line 35: parse error
+
+[Tue Aug  3 06:21:00 1999] u/z/zorg/area/laboratory.c line 42: End of file in string
+
+[Tue Aug  3 06:21:36 1999] u/z/zorg/area/laboratory.c line 36: End of file in text block
+
+[Tue Aug  3 06:21:36 1999] u/z/zorg/area/laboratory.c line 36: parse error
+
+[Tue Aug  3 06:22:40 1999] u/z/zorg/area/laboratory.c line 34: End of file in text block
+
+[Tue Aug  3 06:22:40 1999] u/z/zorg/area/laboratory.c line 35: parse error
+
+[Tue Aug  3 06:44:32 1999] u/z/zorg/test/zmob.c line 26: parse error
+
+[Tue Aug  3 06:44:32 1999] u/z/zorg/test/zmob.c line 26: parse error
+
+[Tue Aug  3 06:46:54 1999] u/z/zorg/test/zmob.c line 26: parse error
+
+[Tue Aug  3 06:50:29 1999] u/z/zorg/test/zmob.c line 5: Undefined variable 'HIY'
+
+
+[Tue Aug  3 06:50:29 1999] u/z/zorg/test/zmob.c line 5: parse error
+
+[Tue Aug  3 06:51:33 1999] u/z/zorg/test/zmob.c line 5: Undefined variable 'HIY'
+
+
+[Tue Aug  3 06:51:33 1999] u/z/zorg/test/zmob.c line 5: parse error
+
+[Tue Aug  3 06:54:17 1999] u/z/zorg/test/zmob.c line 5: Undefined variable 'HIW'
+
+
+[Tue Aug  3 06:54:17 1999] u/z/zorg/test/zmob.c line 5: parse error
+
+[Tue Aug  3 06:56:59 1999] u/z/zorg/test/zmob.c line 5: Undefined variable 'HIW'
+
+
+[Tue Aug  3 06:56:59 1999] u/z/zorg/test/zmob.c line 5: parse error
+
+[Tue Aug  3 06:58:02 1999] u/z/zorg/test/zmob.c line 5: Undefined variable 'HIY'
+
+
+[Tue Aug  3 06:58:02 1999] u/z/zorg/test/zmob.c line 5: parse error
+
+[Tue Aug  3 06:58:54 1999] u/z/zorg/test/zmob.c line 5: $var illegal outside of function.
+
+[Tue Aug  3 06:58:54 1999] u/z/zorg/test/zmob.c line 5: parse error
+
+[Tue Aug  3 06:58:54 1999] u/z/zorg/test/zmob.c line 5: $var illegal outside of function.
+
+[Tue Aug  3 06:59:56 1999] u/z/zorg/test/zmob.c line 6: parse error
+
+[Tue Aug  3 07:01:46 1999] u/z/zorg/test/zmob.c line 20: parse error
+
+[Tue Aug  3 07:01:46 1999] u/z/zorg/test/zmob.c line 33: End of file in string
+
+[Tue Aug  3 07:08:05 1999] u/z/zorg/test/zmob.c line 27: parse error
+
+[Tue Aug  3 07:09:07 1999] u/z/zorg/test/zmob.c line 27: parse error
+
+[Tue Aug  3 07:15:04 1999] u/z/zorg/test/zmob2.c line 26: parse error
+
+[Tue Aug  3 13:10:06 1999] u/z/zorg/area/npc/guardian.c line 14: parse error
+
+[Tue Aug  3 13:13:40 1999] u/z/zorg/area/npc/guardian.c line 14: parse error
+
+[Tue Aug  3 13:14:43 1999] u/z/zorg/area/npc/guardian.c line 14: parse error
+
+[Wed Aug  4 04:16:35 1999] u/z/zorg/area/npc/zmob.c line 40: parse error
+
+[Wed Aug  4 04:16:41 1999] u/z/zorg/area/npc/zmob.c line 40: parse error
+
+[Wed Aug  4 07:39:25 1999] u/z/zorg/area/npc/zmob2.c line 32: parse error
+
+[Wed Aug  4 07:54:44 1999] u/z/zorg/area/npc/zmob4.c line 40: parse error
+
+[Wed Aug  4 07:54:44 1999] u/z/zorg/area/npc/zmob4.c line 51: End of file in string
+
+[Wed Aug  4 07:57:12 1999] u/z/zorg/area/npc/zmob4.c line 40: parse error
+
+[Wed Aug  4 07:57:12 1999] u/z/zorg/area/npc/zmob4.c line 51: End of file in string
+
+[Wed Aug  4 07:57:51 1999] u/z/zorg/area/npc/zmob4.c line 40: parse error
+
+[Wed Aug  4 07:57:51 1999] u/z/zorg/area/npc/zmob4.c line 51: End of file in string
+
+[Wed Aug  4 07:58:33 1999] u/z/zorg/area/npc/zmob4.c line 42: parse error
+
+[Wed Aug  4 07:58:33 1999] u/z/zorg/area/npc/zmob4.c line 73: Illegal character constant
+
+[Wed Aug  4 07:59:47 1999] u/z/zorg/area/npc/zmob4.c line 41: parse error
+
+[Wed Aug  4 07:59:47 1999] u/z/zorg/area/npc/zmob4.c line 52: End of file in string
+
+[Wed Aug  4 08:00:57 1999] u/z/zorg/area/npc/zmob4.c line 39: parse error
+
+[Wed Aug  4 08:00:57 1999] u/z/zorg/area/npc/zmob4.c line 50: End of file in string
+
+[Wed Aug  4 08:03:07 1999] u/z/zorg/area/npc/zmob4.c line 39: parse error
+
+[Wed Aug  4 08:03:07 1999] u/z/zorg/area/npc/zmob4.c line 47: End of file in string
+
+[Wed Aug  4 08:04:35 1999] u/z/zorg/area/npc/zmob4.c line 39: parse error
+
+[Wed Aug  4 08:04:35 1999] u/z/zorg/area/npc/zmob4.c line 47: End of file in string
+
+[Wed Aug  4 08:06:01 1999] u/z/zorg/area/npc/zmob4.c line 39: parse error
+
+[Wed Aug  4 08:06:01 1999] u/z/zorg/area/npc/zmob4.c line 47: End of file in string
+
+[Wed Aug  4 08:07:36 1999] u/z/zorg/area/npc/zmob4.c line 40: parse error
+
+[Wed Aug  4 08:07:42 1999] u/z/zorg/area/npc/zmob4.c line 40: parse error
+
+[Wed Aug  4 08:08:10 1999] u/z/zorg/area/npc/zmob4.c line 40: parse error
+
+[Thu Aug  5 01:17:17 1999] u/z/zorg/test/darksword.c line 1: parse error
+
+[Thu Aug  5 01:18:23 1999] u/z/zorg/test/darksword.c line 8: parse error
+
+[Thu Aug  5 01:18:23 1999] u/z/zorg/test/darksword.c line 27: $var illegal outside of function.
+
+[Thu Aug  5 01:18:23 1999] u/z/zorg/test/darksword.c line 27: Illegal terminator
+
+[Thu Aug  5 01:18:23 1999] u/z/zorg/test/darksword.c line 27: Text block exceeded maximum length
+
+[Thu Aug  5 01:18:23 1999] u/z/zorg/test/darksword.c line 27: Illegal character constant
+
+[Thu Aug  5 01:19:49 1999] u/z/zorg/test/darksword.c line 8: parse error
+
+[Thu Aug  5 01:19:49 1999] u/z/zorg/test/darksword.c line 27: $var illegal outside of function.
+
+[Thu Aug  5 01:19:49 1999] u/z/zorg/test/darksword.c line 27: Illegal terminator
+
+[Thu Aug  5 01:19:49 1999] u/z/zorg/test/darksword.c line 27: Text block exceeded maximum length
+
+[Thu Aug  5 01:19:49 1999] u/z/zorg/test/darksword.c line 27: Illegal terminator
+
+[Thu Aug  5 01:19:49 1999] u/z/zorg/test/darksword.c line 27: Text block exceeded maximum length
+
+[Thu Aug  5 01:21:17 1999] u/z/zorg/test/darksword.c line 8: parse error
+
+[Thu Aug  5 01:21:17 1999] u/z/zorg/test/darksword.c line 27: $var illegal outside of function.
+
+[Thu Aug  5 01:21:17 1999] u/z/zorg/test/darksword.c line 27: Illegal terminator
+
+[Thu Aug  5 01:21:17 1999] u/z/zorg/test/darksword.c line 27: Text block exceeded maximum length
+
+[Thu Aug  5 01:21:17 1999] u/z/zorg/test/darksword.c line 27: Illegal terminator
+
+[Thu Aug  5 01:21:17 1999] u/z/zorg/test/darksword.c line 27: Text block exceeded maximum length
+
+[Thu Aug  5 01:22:56 1999] u/z/zorg/test/darksword.c line 8: parse error
+
+[Thu Aug  5 01:22:56 1999] u/z/zorg/test/darksword.c line 27: $var illegal outside of function.
+
+[Thu Aug  5 01:22:56 1999] u/z/zorg/test/darksword.c line 27: Illegal terminator
+
+[Thu Aug  5 01:22:56 1999] u/z/zorg/test/darksword.c line 27: Text block exceeded maximum length
+
+[Thu Aug  5 01:22:56 1999] u/z/zorg/test/darksword.c line 27: $var illegal outside of function.
+
+[Thu Aug  5 01:22:56 1999] u/z/zorg/test/darksword.c line 27: Illegal terminator
+
+[Thu Aug  5 01:24:16 1999] u/z/zorg/test/darksword.c line 8: parse error
+
+[Thu Aug  5 01:24:16 1999] u/z/zorg/test/darksword.c line 27: $var illegal outside of function.
+
+[Thu Aug  5 01:24:16 1999] u/z/zorg/test/darksword.c line 27: Illegal terminator
+
+[Thu Aug  5 01:24:16 1999] u/z/zorg/test/darksword.c line 27: Text block exceeded maximum length
+
+[Thu Aug  5 01:24:16 1999] u/z/zorg/test/darksword.c line 27: $var illegal outside of function.
+
+[Thu Aug  5 01:24:16 1999] u/z/zorg/test/darksword.c line 27: Illegal terminator
+
+[Thu Aug  5 01:29:35 1999] u/z/zorg/test/darksword.c line 8: parse error
+
+[Thu Aug  5 01:29:35 1999] u/z/zorg/test/darksword.c line 25: Illegal terminator
+
+[Thu Aug  5 01:29:35 1999] u/z/zorg/test/darksword.c line 25: Text block exceeded maximum length
+
+[Thu Aug  5 01:29:35 1999] u/z/zorg/test/darksword.c line 26: $var illegal outside of function.
+
+[Thu Aug  5 01:29:35 1999] u/z/zorg/test/darksword.c line 26: $var illegal outside of function.
+
+[Thu Aug  5 01:29:35 1999] u/z/zorg/test/darksword.c line 34: End of file in string
+
+[Thu Aug  5 02:03:40 1999] u/z/zorg/test/darksword.c line 17: parse error
+
+[Thu Aug  5 02:06:11 1999] u/z/zorg/test/darksword.c line 17: parse error
+
+[Thu Aug  5 02:06:11 1999] u/z/zorg/test/darksword.c line 27: parse error
+
+[Thu Aug  5 02:07:35 1999] u/z/zorg/test/darksword.c line 17: parse error
+
+[Thu Aug  5 03:41:10 1999] u/z/zorg/test/darkboots.c line 8: parse error
+
+[Thu Aug  5 03:41:10 1999] u/z/zorg/test/darkboots.c line 34: Undefined variable 'arg'
+
+
+[Thu Aug  5 03:41:10 1999] u/z/zorg/test/darkboots.c line 34: Illegal LHS
+
+[Thu Aug  5 03:41:10 1999] u/z/zorg/test/darkboots.c line 34: parse error
+
+[Thu Aug  5 04:00:21 1999] u/z/zorg/test/darkboots.c line 8: parse error
+
+[Thu Aug  5 04:00:21 1999] u/z/zorg/test/darkboots.c line 34: Undefined variable 'arg'
+
+
+[Thu Aug  5 04:00:21 1999] u/z/zorg/test/darkboots.c line 34: Illegal LHS
+
+[Thu Aug  5 04:00:21 1999] u/z/zorg/test/darkboots.c line 34: parse error
+
+[Thu Aug  5 04:03:36 1999] u/z/zorg/test/darkboots.c line 8: parse error
+
+[Thu Aug  5 04:05:02 1999] u/z/zorg/test/darkboots.c line 8: parse error
+
+[Thu Aug  5 04:06:02 1999] u/z/zorg/test/darkboots.c line 8: parse error
+
+[Thu Aug  5 04:09:39 1999] u/z/zorg/test/darkboots.c line 8: parse error
+
+[Thu Aug  5 04:09:43 1999] u/z/zorg/test/darkboots.c line 8: parse error
+
+[Thu Aug  5 04:27:37 1999] u/z/zorg/test/darksurcoat.c line 6: parse error
+
+[Thu Aug  5 04:35:47 1999] u/z/zorg/test/darkarmor.c line 2: parse error
+
+[Thu Aug  5 04:37:03 1999] u/z/zorg/test/darkarmor.c line 1: parse error
+
+[Thu Aug  5 04:39:35 1999] u/z/zorg/test/darkring.c line 6: parse error
+
+[Thu Aug  5 04:48:00 1999] u/z/zorg/test/darkring.c line 8: parse error
+
+[Thu Aug  5 04:48:00 1999] u/z/zorg/test/darkring.c line 54: End of file in string
+
+[Thu Aug  5 04:49:08 1999] u/z/zorg/test/darkring.c line 7: parse error
+
+[Thu Aug  5 04:49:08 1999] u/z/zorg/test/darkring.c line 29: End of file in string
+
+[Thu Aug  5 04:49:58 1999] u/z/zorg/test/darkring.c line 7: parse error
+
+[Thu Aug  5 04:49:58 1999] u/z/zorg/test/darkring.c line 25: End of file in string
+
+[Thu Aug  5 04:55:42 1999] u/z/zorg/test/darkring.c line 6: parse error
+
+[Thu Aug  5 07:21:26 1999] u/z/zorg/test/darkcycle.c line 27: A reserved type name cannot be used as a function name.
+
+
+[Thu Aug  5 07:21:26 1999] u/z/zorg/test/darkcycle.c line 27: parse error
+
+[Thu Aug  5 07:22:10 1999] u/z/zorg/test/darkcycle.c line 26: A reserved type name cannot be used as a function name.
+
+
+[Thu Aug  5 07:22:10 1999] u/z/zorg/test/darkcycle.c line 26: parse error
+
+[Thu Aug  5 08:13:35 1999] u/z/zorg/test/darknecklace.c line 3: parse error
+
+[Thu Aug  5 08:13:53 1999] u/z/zorg/test/darknecklace.c line 3: parse error
+
+[Thu Aug  5 08:13:59 1999] u/z/zorg/test/darknecklace.c line 3: parse error
+
+[Fri Aug  6 08:56:08 1999] u/z/zorg/area/npc/daniel.c line 6: parse error
+
+[Fri Aug  6 08:56:48 1999] u/z/zorg/area/npc/daniel.c line 19: Undefined variable 'command'
+
+
+[Fri Aug  6 08:56:48 1999] u/z/zorg/area/npc/daniel.c line 19: parse error
+
+[Fri Aug  6 08:57:42 1999] u/z/zorg/area/npc/daniel.c line 19: Undefined variable 'command'
+
+
+[Fri Aug  6 08:57:42 1999] u/z/zorg/area/npc/daniel.c line 19: parse error
+
+[Fri Aug  6 08:59:34 1999] u/z/zorg/area/npc/daniel.c line 19: Undefined variable 'command'
+
+
+[Fri Aug  6 08:59:34 1999] u/z/zorg/area/npc/daniel.c line 19: parse error
+
+[Fri Aug  6 09:00:04 1999] u/z/zorg/area/npc/daniel.c line 19: Undefined variable 'command'
+
+
+[Fri Aug  6 09:00:04 1999] u/z/zorg/area/npc/daniel.c line 19: parse error
+
+[Fri Aug  6 12:26:32 1999] u/z/zorg/area/npc/daniel.c line 20: Undefined variable 'command'
+
+
+[Fri Aug  6 12:26:32 1999] u/z/zorg/area/npc/daniel.c line 20: parse error
+
+[Fri Aug  6 12:28:13 1999] u/z/zorg/area/npc/daniel.c line 19: parse error
+
+[Fri Aug  6 12:29:59 1999] u/z/zorg/area/npc/daniel.c line 19: parse error
+
+[Fri Aug  6 12:31:31 1999] u/z/zorg/area/npc/daniel.c line 16: parse error
+
+[Fri Aug  6 12:33:54 1999] u/z/zorg/area/npc/daniel.c line 19: parse error
+
+[Fri Aug  6 12:34:00 1999] u/z/zorg/area/npc/daniel.c line 19: parse error
+
+[Fri Aug  6 12:34:36 1999] u/z/zorg/area/npc/daniel.c line 19: parse error
+
+[Sat Aug  7 01:58:00 1999] u/z/zorg/area/npc/robot.c line 24: Undefined variable 'ob'
+
+
+[Sat Aug  7 02:00:06 1999] u/z/zorg/area/npc/robot.c line 23: Undefined variable 'ob'
+
+
+[Sat Aug  7 02:00:06 1999] u/z/zorg/area/npc/robot.c line 23: parse error
+
+[Sat Aug  7 02:25:39 1999] u/z/zorg/area/npc/airwind.c line 6: parse error
+
+[Sat Aug  7 02:26:10 1999] u/z/zorg/area/npc/airwind.c line 30: parse error
+
+[Sat Aug  7 03:39:50 1999] u/z/zorg/area/npc/daniel.c line 6: parse error
+
+[Sat Aug  7 05:21:26 1999] u/z/zorg/area/npc/uriel.c line 25: parse error
+
+[Sat Aug  7 05:21:26 1999] u/z/zorg/area/npc/uriel.c line 50: End of file in string
+
+[Sat Aug  7 05:22:19 1999] u/z/zorg/area/npc/uriel.c line 25: parse error
+
+[Sat Aug  7 05:24:07 1999] u/z/zorg/area/npc/uriel.c line 26: parse error
+
+[Sat Aug  7 05:24:49 1999] u/z/zorg/area/npc/uriel.c line 25: parse error
+
+[Sat Aug  7 05:26:19 1999] u/z/zorg/area/npc/uriel.c line 37: parse error
+
+[Sat Aug  7 05:30:08 1999] u/z/zorg/area/npc/uriel.c line 3: Undefined function set_name
+
+[Sat Aug  7 05:30:08 1999] u/z/zorg/area/npc/uriel.c line 4: Undefined function set
+
+[Sat Aug  7 05:30:08 1999] u/z/zorg/area/npc/uriel.c line 12: Undefined function set_skill
+
+[Sat Aug  7 05:30:08 1999] u/z/zorg/area/npc/uriel.c line 14: Undefined variable 'HIW'
+
+
+[Sat Aug  7 05:30:08 1999] u/z/zorg/area/npc/uriel.c line 14: parse error
+
+[Sat Aug  7 05:31:30 1999] u/z/zorg/area/npc/uriel.c line 36: parse error
+
+[Sat Aug  7 05:35:12 1999] u/z/zorg/area/npc/uriel.c line 37: parse error
+
+[Sat Aug  7 05:37:07 1999] u/z/zorg/area/npc/uriel.c line 37: parse error
+
+[Sat Aug  7 06:49:51 1999] u/z/zorg/area/npc/wp/sword2.c line 8: parse error
+
+[Sat Aug  7 06:49:51 1999] u/z/zorg/area/npc/wp/sword2.c line 18: $var illegal outside of function.
+
+[Sat Aug  7 06:49:51 1999] u/z/zorg/area/npc/wp/sword2.c line 18: Illegal terminator
+
+[Sat Aug  7 06:49:51 1999] u/z/zorg/area/npc/wp/sword2.c line 18: Text block exceeded maximum length
+
+[Sat Aug  7 06:49:51 1999] u/z/zorg/area/npc/wp/sword2.c line 18: $var illegal outside of function.
+
+[Sat Aug  7 06:49:51 1999] u/z/zorg/area/npc/wp/sword2.c line 18: Illegal terminator
+
+[Sat Aug  7 07:39:28 1999] u/z/zorg/area/npc/dagger.c line 6: parse error
+
+[Sun Aug  8 07:54:37 1999] u/z/zorg/area/npc/michel.c line 44: parse error
+
+[Sun Aug  8 08:31:25 1999] u/z/zorg/area/npc/daniel.c line 29: parse error
+
+[Mon Aug  9 02:31:14 1999] u/z/zorg/testroom.c line 2: parse error
+
+[Mon Aug  9 05:54:26 1999] u/z/zorg/test/test.c line 8: parse error
+
+[Mon Aug  9 05:54:26 1999] u/z/zorg/test/test.c line 17: parse error
+
+[Mon Aug  9 05:54:40 1999] u/z/zorg/test/test.c line 8: parse error
+
+[Mon Aug  9 05:54:40 1999] u/z/zorg/test/test.c line 17: parse error
+
+[Mon Aug  9 05:55:58 1999] u/z/zorg/test/test.c line 8: parse error
+
+[Mon Aug  9 05:55:58 1999] u/z/zorg/test/test.c line 17: parse error
+
+[Mon Aug  9 05:59:29 1999] u/z/zorg/test/test.c line 60: Illegal to redefine 'nomask' function "query_weight"
+
+[Mon Aug  9 05:59:29 1999] u/z/zorg/test/test.c line 60: Illegal to redefine 'nomask' function "_query"
+
+[Mon Aug  9 05:59:29 1999] u/z/zorg/test/test.c line 60: Illegal to redefine 'nomask' function "_delete"
+
+[Mon Aug  9 05:59:29 1999] u/z/zorg/test/test.c line 60: Illegal to redefine 'nomask' function "_set"
+
+[Mon Aug  9 05:59:29 1999] u/z/zorg/test/test.c line 60: Illegal to redefine 'nomask' function "query_encumbrance"
+
+[Mon Aug  9 05:59:29 1999] u/z/zorg/test/test.c line 60: Illegal to redefine 'nomask' function "over_encumbranced"
+
+[Mon Aug  9 05:59:33 1999] u/z/zorg/test/test.c line 60: Illegal to redefine 'nomask' function "query_weight"
+
+[Mon Aug  9 05:59:33 1999] u/z/zorg/test/test.c line 60: Illegal to redefine 'nomask' function "_query"
+
+[Mon Aug  9 05:59:33 1999] u/z/zorg/test/test.c line 60: Illegal to redefine 'nomask' function "_delete"
+
+[Mon Aug  9 05:59:33 1999] u/z/zorg/test/test.c line 60: Illegal to redefine 'nomask' function "_set"
+
+[Mon Aug  9 05:59:33 1999] u/z/zorg/test/test.c line 60: Illegal to redefine 'nomask' function "query_encumbrance"
+
+[Mon Aug  9 05:59:33 1999] u/z/zorg/test/test.c line 60: Illegal to redefine 'nomask' function "over_encumbranced"
+
+[Mon Aug  9 06:27:42 1999] u/z/zorg/test/test.c line 155: Illegal to redefine 'nomask' function "_query"
+
+[Mon Aug  9 06:27:42 1999] u/z/zorg/test/test.c line 155: Illegal to redefine 'nomask' function "_delete"
+
+[Mon Aug  9 06:27:42 1999] u/z/zorg/test/test.c line 155: Illegal to redefine 'nomask' function "_set"
+
+[Mon Aug  9 06:27:42 1999] u/z/zorg/test/test.c line 188: Redeclaration of function create.
+
+[Mon Aug  9 06:40:11 1999] u/z/zorg/test/test.c line 155: Illegal to redefine 'nomask' function "_query"
+
+[Mon Aug  9 06:40:11 1999] u/z/zorg/test/test.c line 155: Illegal to redefine 'nomask' function "_delete"
+
+[Mon Aug  9 06:40:11 1999] u/z/zorg/test/test.c line 155: Illegal to redefine 'nomask' function "_set"
+
+[Mon Aug  9 06:40:11 1999] u/z/zorg/test/test.c line 188: Redeclaration of function create.
+
+[Mon Aug  9 06:40:13 1999] u/z/zorg/test/test.c line 155: Illegal to redefine 'nomask' function "_query"
+
+[Mon Aug  9 06:40:13 1999] u/z/zorg/test/test.c line 155: Illegal to redefine 'nomask' function "_delete"
+
+[Mon Aug  9 06:40:13 1999] u/z/zorg/test/test.c line 155: Illegal to redefine 'nomask' function "_set"
+
+[Mon Aug  9 06:40:13 1999] u/z/zorg/test/test.c line 188: Redeclaration of function create.
+
+[Mon Aug  9 06:40:39 1999] u/z/zorg/test/test.c line 155: Illegal to redefine 'nomask' function "_query"
+
+[Mon Aug  9 06:40:39 1999] u/z/zorg/test/test.c line 155: Illegal to redefine 'nomask' function "_delete"
+
+[Mon Aug  9 06:40:39 1999] u/z/zorg/test/test.c line 155: Illegal to redefine 'nomask' function "_set"
+
+[Mon Aug  9 06:40:39 1999] u/z/zorg/test/test.c line 188: Redeclaration of function create.
+
+[Mon Aug  9 06:41:07 1999] u/z/zorg/test/test.c line 155: Illegal to redefine 'nomask' function "_query"
+
+[Mon Aug  9 06:41:07 1999] u/z/zorg/test/test.c line 155: Illegal to redefine 'nomask' function "_delete"
+
+[Mon Aug  9 06:41:07 1999] u/z/zorg/test/test.c line 155: Illegal to redefine 'nomask' function "_set"
+
+[Mon Aug  9 06:41:07 1999] u/z/zorg/test/test.c line 188: Redeclaration of function create.
+
+[Mon Aug  9 08:19:32 1999] u/z/zorg/area/npc/michel.c line 31: Undefined variable 'ob'
+
+
+[Mon Aug  9 08:19:34 1999] u/z/zorg/area/npc/michel.c line 31: Undefined variable 'ob'
+
+
+[Mon Aug  9 08:20:22 1999] u/z/zorg/area/npc/michel.c line 29: A reserved type name cannot be used as a function name.
+
+
+[Mon Aug  9 08:20:22 1999] u/z/zorg/area/npc/michel.c line 29: parse error
+
+[Mon Aug  9 08:21:36 1999] u/z/zorg/area/npc/michel.c line 29: A reserved type name cannot be used as a function name.
+
+
+[Mon Aug  9 08:21:36 1999] u/z/zorg/area/npc/michel.c line 29: parse error
+
+[Mon Aug  9 08:21:38 1999] u/z/zorg/area/npc/michel.c line 29: A reserved type name cannot be used as a function name.
+
+
+[Mon Aug  9 08:21:38 1999] u/z/zorg/area/npc/michel.c line 29: parse error
+
+[Mon Aug  9 08:51:37 1999] u/z/zorg/testroom.c line 97: parse error
+
+[Mon Aug  9 08:53:33 1999] u/z/zorg/testroom.c line 94: parse error
+
+[Mon Aug  9 08:56:35 1999] u/z/zorg/testroom.c line 92: parse error
+
+[Mon Aug  9 12:07:35 1999] u/z/zorg/testroom.c line 93: parse error
+
+[Mon Aug  9 12:07:35 1999] u/z/zorg/testroom.c line 93: parse error
+
+[Mon Aug  9 12:26:40 1999] u/z/zorg/workroom.c line 1: parse error
+
+[Mon Aug  9 12:27:00 1999] u/z/zorg/workroom.c line 1: parse error
+
+[Mon Aug  9 12:29:17 1999] u/z/zorg/workroom.c line 1: parse error
+
+[Mon Aug  9 12:29:19 1999] u/z/zorg/workroom.c line 1: parse error
+
+[Mon Aug  9 12:29:57 1999] u/z/zorg/workroom.c line 5: parse error
+
+[Mon Aug  9 12:30:27 1999] u/z/zorg/workroom.c line 5: parse error
+
+[Mon Aug  9 12:32:55 1999] u/z/zorg/workroom.c line 1: parse error
+
+[Mon Aug  9 13:01:47 1999] u/z/zorg/workroom.c line 1: parse error
+
+[Mon Aug  9 13:02:01 1999] u/z/zorg/workroom.c line 16: parse error
+
+[Mon Aug  9 13:02:01 1999] u/z/zorg/workroom.c line 87: Illegal terminator
+
+[Mon Aug  9 13:02:01 1999] u/z/zorg/workroom.c line 87: Text block exceeded maximum length
+
+[Mon Aug  9 13:02:01 1999] u/z/zorg/workroom.c line 94: End of file in string
+
+[Mon Aug  9 16:27:07 1999] u/z/zorg/test/angel.c line 14: parse error
+
+[Mon Aug  9 16:27:07 1999] u/z/zorg/test/angel.c line 49: Undefined variable 'ob'
+
+
+[Mon Aug  9 16:27:07 1999] u/z/zorg/test/angel.c line 49: Illegal LHS
+
+[Mon Aug  9 16:27:07 1999] u/z/zorg/test/angel.c line 49: parse error
+
+[Mon Aug  9 16:27:07 1999] u/z/zorg/test/angel.c line 50: Illegal LHS
+
+[Mon Aug  9 16:27:07 1999] u/z/zorg/test/angel.c line 51: Illegal LHS
+
+[Mon Aug  9 16:27:39 1999] u/z/zorg/test/angel.c line 15: parse error
+
+[Mon Aug  9 16:27:39 1999] u/z/zorg/test/angel.c line 50: Undefined variable 'ob'
+
+
+[Mon Aug  9 16:27:39 1999] u/z/zorg/test/angel.c line 50: Illegal LHS
+
+[Mon Aug  9 16:27:39 1999] u/z/zorg/test/angel.c line 50: parse error
+
+[Mon Aug  9 16:27:39 1999] u/z/zorg/test/angel.c line 51: Illegal LHS
+
+[Mon Aug  9 16:27:39 1999] u/z/zorg/test/angel.c line 52: Illegal LHS
+
+[Mon Aug  9 16:27:57 1999] u/z/zorg/test/angel.c line 14: parse error
+
+[Mon Aug  9 16:27:57 1999] u/z/zorg/test/angel.c line 49: Undefined variable 'ob'
+
+
+[Mon Aug  9 16:27:57 1999] u/z/zorg/test/angel.c line 49: Illegal LHS
+
+[Mon Aug  9 16:27:57 1999] u/z/zorg/test/angel.c line 49: parse error
+
+[Mon Aug  9 16:27:57 1999] u/z/zorg/test/angel.c line 50: Illegal LHS
+
+[Mon Aug  9 16:27:57 1999] u/z/zorg/test/angel.c line 51: Illegal LHS
+
+[Mon Aug  9 16:29:45 1999] u/z/zorg/test/angel.c line 14: parse error
+
+[Mon Aug  9 16:29:45 1999] u/z/zorg/test/angel.c line 49: Undefined variable 'ob'
+
+
+[Mon Aug  9 16:29:45 1999] u/z/zorg/test/angel.c line 49: Illegal LHS
+
+[Mon Aug  9 16:29:45 1999] u/z/zorg/test/angel.c line 49: parse error
+
+[Mon Aug  9 16:29:45 1999] u/z/zorg/test/angel.c line 50: Illegal LHS
+
+[Mon Aug  9 16:29:45 1999] u/z/zorg/test/angel.c line 51: Illegal LHS
+
+[Mon Aug  9 16:30:39 1999] u/z/zorg/test/meda.c line 151: Illegal to redefine 'nomask' function "_query"
+
+[Mon Aug  9 16:30:39 1999] u/z/zorg/test/meda.c line 151: Illegal to redefine 'nomask' function "_delete"
+
+[Mon Aug  9 16:30:39 1999] u/z/zorg/test/meda.c line 151: Illegal to redefine 'nomask' function "_set"
+
+[Mon Aug  9 16:30:39 1999] u/z/zorg/test/meda.c line 177: Redeclaration of function create.
+
+[Mon Aug  9 16:31:07 1999] u/z/zorg/test/meda.c line 149: parse error
+
+[Mon Aug  9 16:31:47 1999] u/z/zorg/test/meda.c line 144: parse error
+
+[Mon Aug  9 16:33:45 1999] u/z/zorg/test/human.c line 180: Illegal to redefine 'nomask' function "_query"
+
+[Mon Aug  9 16:33:45 1999] u/z/zorg/test/human.c line 180: Illegal to redefine 'nomask' function "_delete"
+
+[Mon Aug  9 16:33:45 1999] u/z/zorg/test/human.c line 180: Illegal to redefine 'nomask' function "_set"
+
+[Mon Aug  9 16:33:45 1999] u/z/zorg/test/human.c line 206: Redeclaration of function create.
+
+[Mon Aug  9 16:35:08 1999] u/z/zorg/test/angel.c line 14: parse error
+
+[Mon Aug  9 16:35:08 1999] u/z/zorg/test/angel.c line 49: Undefined variable 'ob'
+
+
+[Mon Aug  9 16:35:08 1999] u/z/zorg/test/angel.c line 49: Illegal LHS
+
+[Mon Aug  9 16:35:08 1999] u/z/zorg/test/angel.c line 49: parse error
+
+[Mon Aug  9 16:35:08 1999] u/z/zorg/test/angel.c line 50: Illegal LHS
+
+[Mon Aug  9 16:35:08 1999] u/z/zorg/test/angel.c line 51: Illegal LHS
+
+[Mon Aug  9 16:36:26 1999] u/z/zorg/test/angel.c line 14: parse error
+
+[Mon Aug  9 16:36:26 1999] u/z/zorg/test/angel.c line 49: Undefined variable 'ob'
+
+
+[Mon Aug  9 16:36:26 1999] u/z/zorg/test/angel.c line 49: Illegal LHS
+
+[Mon Aug  9 16:36:26 1999] u/z/zorg/test/angel.c line 49: parse error
+
+[Mon Aug  9 16:36:26 1999] u/z/zorg/test/angel.c line 50: Illegal LHS
+
+[Mon Aug  9 16:36:26 1999] u/z/zorg/test/angel.c line 51: Illegal LHS
+
+[Tue Aug 10 01:59:53 1999] u/z/zorg/workroom.c line 16: parse error
+
+[Tue Aug 10 01:59:53 1999] u/z/zorg/workroom.c line 87: Illegal terminator
+
+[Tue Aug 10 01:59:53 1999] u/z/zorg/workroom.c line 87: Text block exceeded maximum length
+
+[Tue Aug 10 01:59:53 1999] u/z/zorg/workroom.c line 95: End of file in string
+
+[Tue Aug 10 02:00:21 1999] u/z/zorg/workroom.c line 16: parse error
+
+[Tue Aug 10 02:00:21 1999] u/z/zorg/workroom.c line 87: Illegal terminator
+
+[Tue Aug 10 02:00:21 1999] u/z/zorg/workroom.c line 87: Text block exceeded maximum length
+
+[Tue Aug 10 02:00:21 1999] u/z/zorg/workroom.c line 95: End of file in string
+
+[Tue Aug 10 02:01:07 1999] u/z/zorg/workroom.c line 15: parse error
+
+[Tue Aug 10 02:01:07 1999] u/z/zorg/workroom.c line 86: Illegal terminator
+
+[Tue Aug 10 02:01:07 1999] u/z/zorg/workroom.c line 86: Text block exceeded maximum length
+
+[Tue Aug 10 02:01:07 1999] u/z/zorg/workroom.c line 94: End of file in string
+
+[Tue Aug 10 02:01:09 1999] u/z/zorg/workroom.c line 15: parse error
+
+[Tue Aug 10 02:01:09 1999] u/z/zorg/workroom.c line 86: Illegal terminator
+
+[Tue Aug 10 02:01:09 1999] u/z/zorg/workroom.c line 86: Text block exceeded maximum length
+
+[Tue Aug 10 02:01:09 1999] u/z/zorg/workroom.c line 94: End of file in string
+
+[Tue Aug 10 02:03:40 1999] u/z/zorg/testroom.c line 97: Illegal to redefine 'nomask' function "_query"
+
+[Tue Aug 10 02:03:40 1999] u/z/zorg/testroom.c line 97: Illegal to redefine 'nomask' function "_delete"
+
+[Tue Aug 10 02:03:40 1999] u/z/zorg/testroom.c line 97: Illegal to redefine 'nomask' function "_set"
+
+[Tue Aug 10 02:03:40 1999] u/z/zorg/testroom.c line 129: Redeclaration of function create.
+
+[Tue Aug 10 02:03:40 1999] u/z/zorg/testroom.c line 134: Redeclaration of function init.
+
+[Tue Aug 10 02:03:40 1999] u/z/zorg/testroom.c line 153: Redeclaration of function entercheck.
+
+[Tue Aug 10 02:07:54 1999] u/z/zorg/test/angel.c line 14: parse error
+
+[Tue Aug 10 02:07:54 1999] u/z/zorg/test/angel.c line 49: Undefined variable 'ob'
+
+
+[Tue Aug 10 02:07:54 1999] u/z/zorg/test/angel.c line 49: Illegal LHS
+
+[Tue Aug 10 02:07:54 1999] u/z/zorg/test/angel.c line 49: parse error
+
+[Tue Aug 10 02:07:54 1999] u/z/zorg/test/angel.c line 50: Illegal LHS
+
+[Tue Aug 10 02:07:54 1999] u/z/zorg/test/angel.c line 51: Illegal LHS
+
+[Tue Aug 10 13:51:57 1999] u/z/zorg/area/npc/notfair.c line 14: parse error
+
+[Tue Aug 10 13:55:07 1999] u/z/zorg/area/npc/michel.c line 44: parse error
+
+[Tue Aug 10 13:55:11 1999] u/z/zorg/area/npc/michel.c line 44: parse error
+
+[Tue Aug 10 14:02:48 1999] u/z/zorg/area/npc/michel.c line 44: parse error
+
+[Wed Aug 11 01:49:17 1999] u/z/zorg/test/angel.c line 19: parse error
+
+[Wed Aug 11 01:49:17 1999] u/z/zorg/test/angel.c line 22: $var illegal outside of function.
+
+[Wed Aug 11 01:49:17 1999] u/z/zorg/test/angel.c line 22: $var illegal outside of function.
+
+[Wed Aug 11 01:49:17 1999] u/z/zorg/test/angel.c line 22: Illegal terminator
+
+[Wed Aug 11 01:49:17 1999] u/z/zorg/test/angel.c line 22: Text block exceeded maximum length
+
+[Wed Aug 11 01:49:17 1999] u/z/zorg/test/angel.c line 26: $var illegal outside of function.
+
+[Wed Aug 11 01:51:51 1999] u/z/zorg/test/meda.c line 144: parse error
+
+[Wed Aug 11 01:55:17 1999] u/z/zorg/test/human.c line 6: parse error
+
+[Wed Aug 11 01:55:17 1999] u/z/zorg/test/human.c line 22: End of file in string
+
+[Wed Aug 11 01:55:50 1999] u/z/zorg/test/human.c line 6: parse error
+
+[Wed Aug 11 01:55:50 1999] u/z/zorg/test/human.c line 19: End of file in string
+
+[Wed Aug 11 02:01:21 1999] u/z/zorg/test/meda.c line 35: Illegal to redefine 'nomask' function "_query"
+
+[Wed Aug 11 02:01:21 1999] u/z/zorg/test/meda.c line 35: Illegal to redefine 'nomask' function "_delete"
+
+[Wed Aug 11 02:01:21 1999] u/z/zorg/test/meda.c line 35: Illegal to redefine 'nomask' function "_set"
+
+[Wed Aug 11 02:01:21 1999] u/z/zorg/test/meda.c line 70: Redeclaration of function create.
+
+[Wed Aug 11 02:01:21 1999] u/z/zorg/test/meda.c line 173: parse error
+
+[Wed Aug 11 02:10:18 1999] u/z/zorg/test/hmm.c line 6: parse error
+
+[Wed Aug 11 02:10:18 1999] u/z/zorg/test/hmm.c line 32: End of file in string
+
+[Wed Aug 11 23:51:46 1999] u/z/zorg/workroom.c line 27: Undefined variable 'K'
+
+
+[Wed Aug 11 23:51:46 1999] u/z/zorg/workroom.c line 27: parse error
+
+[Wed Aug 11 23:51:46 1999] u/z/zorg/workroom.c line 67: Illegal LHS
+
+[Wed Aug 11 23:51:46 1999] u/z/zorg/workroom.c line 67: parse error
+
+[Wed Aug 11 23:51:46 1999] u/z/zorg/workroom.c line 71: Illegal LHS
+
+[Wed Aug 11 23:51:46 1999] u/z/zorg/workroom.c line 71: parse error
+
+[Wed Aug 11 23:54:22 1999] u/z/zorg/workroom.c line 29: parse error
+
+[Wed Aug 11 23:54:22 1999] u/z/zorg/workroom.c line 52: Illegal terminator
+
+[Wed Aug 11 23:54:22 1999] u/z/zorg/workroom.c line 52: Text block exceeded maximum length
+
+[Wed Aug 11 23:54:22 1999] u/z/zorg/workroom.c line 56: Illegal terminator
+
+[Wed Aug 11 23:54:22 1999] u/z/zorg/workroom.c line 56: Text block exceeded maximum length
+
+[Wed Aug 11 23:54:22 1999] u/z/zorg/workroom.c line 90: Illegal terminator
+
+[Wed Aug 11 23:55:37 1999] u/z/zorg/workroom.c line 29: parse error
+
+[Wed Aug 11 23:55:37 1999] u/z/zorg/workroom.c line 52: Illegal terminator
+
+[Wed Aug 11 23:55:37 1999] u/z/zorg/workroom.c line 52: Text block exceeded maximum length
+
+[Wed Aug 11 23:55:37 1999] u/z/zorg/workroom.c line 56: Illegal terminator
+
+[Wed Aug 11 23:55:37 1999] u/z/zorg/workroom.c line 56: Text block exceeded maximum length
+
+[Wed Aug 11 23:55:37 1999] u/z/zorg/workroom.c line 90: Illegal terminator
+
+[Wed Aug 11 23:57:15 1999] u/z/zorg/workroom.c line 46: A reserved type name cannot be used as a function name.
+
+
+[Wed Aug 11 23:57:15 1999] u/z/zorg/workroom.c line 46: parse error
+
+[Wed Aug 11 23:57:55 1999] u/z/zorg/workroom.c line 43: A reserved type name cannot be used as a function name.
+
+
+[Wed Aug 11 23:57:55 1999] u/z/zorg/workroom.c line 43: parse error
+
+[Wed Aug 11 23:59:06 1999] u/z/zorg/workroom.c line 43: A reserved type name cannot be used as a function name.
+
+
+[Wed Aug 11 23:59:06 1999] u/z/zorg/workroom.c line 43: parse error
+
+[Thu Aug 12 00:00:54 1999] u/z/zorg/workroom.c line 43: A reserved type name cannot be used as a function name.
+
+
+[Thu Aug 12 00:00:54 1999] u/z/zorg/workroom.c line 43: parse error
+
+[Thu Aug 12 06:37:58 1999] u/z/zorg/area/testroom.c line 16: parse error
+
+[Thu Aug 12 06:39:11 1999] u/z/zorg/area/testroom.c line 16: parse error
+
+[Thu Aug 12 06:40:11 1999] u/z/zorg/area/testroom.c line 15: parse error
+
+[Thu Aug 12 06:40:37 1999] u/z/zorg/area/testroom.c line 16: parse error
+
+[Thu Aug 12 06:42:03 1999] u/z/zorg/area/testroom.c line 33: parse error
+
+[Thu Aug 12 06:54:21 1999] u/z/zorg/area/laboratory.c line 41: parse error
+
+[Thu Aug 12 09:15:20 1999] u/z/zorg/area/npc/child.c line 7: parse error
+
+[Thu Aug 12 09:15:20 1999] u/z/zorg/area/npc/child.c line 7: parse error
+
+[Thu Aug 12 09:18:31 1999] u/z/zorg/area/npc/child.c line 7: parse error
+
+[Thu Aug 12 09:19:37 1999] u/z/zorg/area/npc/child.c line 7: parse error
+
+[Sat Aug 14 13:56:25 1999] u/z/zorg/obj/dragon.c line 10: Undefined variable 'HIW'
+
+
+[Sat Aug 14 13:56:25 1999] u/z/zorg/obj/dragon.c line 10: parse error
+
+[Sat Aug 14 13:56:25 1999] u/z/zorg/obj/dragon.c line 41: Undefined variable 'me'
+
+
+[Sat Aug 14 13:56:25 1999] u/z/zorg/obj/dragon.c line 41: Illegal LHS
+
+[Sat Aug 14 13:56:25 1999] u/z/zorg/obj/dragon.c line 41: parse error
+
+[Sat Aug 14 13:57:17 1999] u/z/zorg/obj/dragon.c line 10: Undefined variable 'HIW'
+
+
+[Sat Aug 14 13:57:17 1999] u/z/zorg/obj/dragon.c line 10: parse error
+
+[Sat Aug 14 13:57:17 1999] u/z/zorg/obj/dragon.c line 41: Undefined variable 'me'
+
+
+[Sat Aug 14 13:57:17 1999] u/z/zorg/obj/dragon.c line 41: Illegal LHS
+
+[Sat Aug 14 13:57:17 1999] u/z/zorg/obj/dragon.c line 41: parse error
+
+[Sat Aug 14 13:57:54 1999] u/z/zorg/area/npc/ork.c line 22: parse error
+
+[Sat Aug 14 13:58:18 1999] u/z/zorg/area/npc/ork.c line 22: parse error
+
+[Sat Aug 14 14:01:04 1999] u/z/zorg/area/npc/ork.c line 22: parse error
+
+[Sat Aug 14 14:01:04 1999] u/z/zorg/area/npc/ork.c line 22: parse error
+
+[Sat Aug 14 14:49:36 1999] u/z/zorg/test/angel.c line 19: parse error
+
+[Sat Aug 14 14:49:36 1999] u/z/zorg/test/angel.c line 22: $var illegal outside of function.
+
+[Sat Aug 14 14:49:36 1999] u/z/zorg/test/angel.c line 22: $var illegal outside of function.
+
+[Sat Aug 14 14:49:36 1999] u/z/zorg/test/angel.c line 22: Illegal terminator
+
+[Sat Aug 14 14:49:36 1999] u/z/zorg/test/angel.c line 22: Text block exceeded maximum length
+
+[Sat Aug 14 14:49:36 1999] u/z/zorg/test/angel.c line 26: $var illegal outside of function.
+
+[Sat Aug 14 14:52:39 1999] u/z/zorg/test/angel.c line 19: parse error
+
+[Sat Aug 14 14:52:39 1999] u/z/zorg/test/angel.c line 22: $var illegal outside of function.
+
+[Sat Aug 14 14:52:39 1999] u/z/zorg/test/angel.c line 22: $var illegal outside of function.
+
+[Sat Aug 14 14:52:39 1999] u/z/zorg/test/angel.c line 22: Illegal terminator
+
+[Sat Aug 14 14:52:39 1999] u/z/zorg/test/angel.c line 22: Text block exceeded maximum length
+
+[Sat Aug 14 14:52:39 1999] u/z/zorg/test/angel.c line 26: $var illegal outside of function.
+
+[Sat Aug 14 14:53:55 1999] u/z/zorg/test/angel.c line 19: parse error
+
+[Sat Aug 14 14:53:55 1999] u/z/zorg/test/angel.c line 22: $var illegal outside of function.
+
+[Sat Aug 14 14:53:55 1999] u/z/zorg/test/angel.c line 22: $var illegal outside of function.
+
+[Sat Aug 14 14:53:55 1999] u/z/zorg/test/angel.c line 22: Illegal terminator
+
+[Sat Aug 14 14:53:55 1999] u/z/zorg/test/angel.c line 22: Text block exceeded maximum length
+
+[Sat Aug 14 14:53:55 1999] u/z/zorg/test/angel.c line 26: $var illegal outside of function.
+
+[Sat Aug 14 14:55:13 1999] u/z/zorg/test/angel.c line 19: parse error
+
+[Sat Aug 14 14:55:13 1999] u/z/zorg/test/angel.c line 147: End of file in string
+
+[Sat Aug 14 15:07:57 1999] u/z/zorg/obj/dragon.c line 10: Undefined variable 'HIW'
+
+
+[Sat Aug 14 15:07:57 1999] u/z/zorg/obj/dragon.c line 10: parse error
+
+[Sat Aug 14 15:07:57 1999] u/z/zorg/obj/dragon.c line 41: Undefined variable 'me'
+
+
+[Sat Aug 14 15:07:57 1999] u/z/zorg/obj/dragon.c line 41: Illegal LHS
+
+[Sat Aug 14 15:07:57 1999] u/z/zorg/obj/dragon.c line 41: parse error
+
+[Sat Aug 14 15:09:59 1999] u/z/zorg/obj/dragon.c line 10: Undefined variable 'HIW'
+
+
+[Sat Aug 14 15:09:59 1999] u/z/zorg/obj/dragon.c line 10: parse error
+
+[Sat Aug 14 15:09:59 1999] u/z/zorg/obj/dragon.c line 41: Undefined variable 'me'
+
+
+[Sat Aug 14 15:09:59 1999] u/z/zorg/obj/dragon.c line 41: Illegal LHS
+
+[Sat Aug 14 15:09:59 1999] u/z/zorg/obj/dragon.c line 41: parse error
+
+[Sat Aug 14 15:13:03 1999] u/z/zorg/obj/dragon.c line 10: Undefined variable 'HIW'
+
+
+[Sat Aug 14 15:13:03 1999] u/z/zorg/obj/dragon.c line 10: parse error
+
+[Sat Aug 14 15:13:03 1999] u/z/zorg/obj/dragon.c line 42: Undefined variable 'me'
+
+
+[Sat Aug 14 15:13:03 1999] u/z/zorg/obj/dragon.c line 42: Illegal LHS
+
+[Sat Aug 14 15:13:03 1999] u/z/zorg/obj/dragon.c line 42: parse error
+
+[Sat Aug 14 15:14:14 1999] u/z/zorg/obj/dragon.c line 10: Undefined variable 'HIW'
+
+
+[Sat Aug 14 15:14:14 1999] u/z/zorg/obj/dragon.c line 10: parse error
+
+[Sat Aug 14 15:14:14 1999] u/z/zorg/obj/dragon.c line 41: Undefined variable 'me'
+
+
+[Sat Aug 14 15:14:14 1999] u/z/zorg/obj/dragon.c line 41: Illegal LHS
+
+[Sat Aug 14 15:14:14 1999] u/z/zorg/obj/dragon.c line 41: parse error
+
+[Sat Aug 14 15:16:29 1999] u/z/zorg/obj/dragon.c line 22: Undefined variable 'HIW'
+
+
+[Sat Aug 14 15:16:29 1999] u/z/zorg/obj/dragon.c line 22: parse error
+
+[Sat Aug 14 15:16:29 1999] u/z/zorg/obj/dragon.c line 41: Undefined variable 'me'
+
+
+[Sat Aug 14 15:16:29 1999] u/z/zorg/obj/dragon.c line 41: Illegal LHS
+
+[Sat Aug 14 15:16:29 1999] u/z/zorg/obj/dragon.c line 41: parse error
+
+[Sat Aug 14 15:16:57 1999] u/z/zorg/obj/dragon.c line 22: parse error
+
+[Sat Aug 14 15:16:57 1999] u/z/zorg/obj/dragon.c line 41: Undefined variable 'me'
+
+
+[Sat Aug 14 15:16:57 1999] u/z/zorg/obj/dragon.c line 41: Illegal LHS
+
+[Sat Aug 14 15:16:57 1999] u/z/zorg/obj/dragon.c line 41: parse error
+
+[Sat Aug 14 15:18:33 1999] u/z/zorg/obj/dragon.c line 22: parse error
+
+[Sat Aug 14 15:18:33 1999] u/z/zorg/obj/dragon.c line 41: Undefined variable 'me'
+
+
+[Sat Aug 14 15:18:33 1999] u/z/zorg/obj/dragon.c line 41: Illegal LHS
+
+[Sat Aug 14 15:18:33 1999] u/z/zorg/obj/dragon.c line 41: parse error
+
+[Sat Aug 14 15:19:31 1999] u/z/zorg/obj/dragon.c line 21: parse error
+
+[Sat Aug 14 15:19:31 1999] u/z/zorg/obj/dragon.c line 39: Undefined variable 'me'
+
+
+[Sat Aug 14 15:19:31 1999] u/z/zorg/obj/dragon.c line 39: Illegal LHS
+
+[Sat Aug 14 15:19:31 1999] u/z/zorg/obj/dragon.c line 39: parse error
+
+[Sat Aug 14 15:20:13 1999] u/z/zorg/obj/dragon.c line 21: Undefined variable 'HIW'
+
+
+[Sat Aug 14 15:20:13 1999] u/z/zorg/obj/dragon.c line 21: parse error
+
+[Sat Aug 14 15:20:13 1999] u/z/zorg/obj/dragon.c line 40: Undefined variable 'me'
+
+
+[Sat Aug 14 15:20:13 1999] u/z/zorg/obj/dragon.c line 40: Illegal LHS
+
+[Sat Aug 14 15:20:13 1999] u/z/zorg/obj/dragon.c line 40: parse error
+
+[Sat Aug 14 15:20:34 1999] u/z/zorg/obj/dragon.c line 21: Undefined variable 'HIW'
+
+
+[Sat Aug 14 15:20:34 1999] u/z/zorg/obj/dragon.c line 21: parse error
+
+[Sat Aug 14 15:20:34 1999] u/z/zorg/obj/dragon.c line 40: Undefined variable 'me'
+
+
+[Sat Aug 14 15:20:34 1999] u/z/zorg/obj/dragon.c line 40: Illegal LHS
+
+[Sat Aug 14 15:20:34 1999] u/z/zorg/obj/dragon.c line 40: parse error
+
+[Sat Aug 14 15:20:54 1999] u/z/zorg/obj/dragon.c line 21: parse error
+
+[Sat Aug 14 15:20:54 1999] u/z/zorg/obj/dragon.c line 40: Undefined variable 'me'
+
+
+[Sat Aug 14 15:20:54 1999] u/z/zorg/obj/dragon.c line 40: Illegal LHS
+
+[Sat Aug 14 15:20:54 1999] u/z/zorg/obj/dragon.c line 40: parse error
+
+[Sun Aug 15 01:15:07 1999] u/z/zorg/test/dragon.c line 14: parse error
+
+[Sun Aug 15 01:15:07 1999] u/z/zorg/test/dragon.c line 24: Undefined variable 'me'
+
+
+[Sun Aug 15 01:15:07 1999] u/z/zorg/test/dragon.c line 24: Illegal LHS
+
+[Sun Aug 15 01:15:07 1999] u/z/zorg/test/dragon.c line 24: parse error
+
+[Sun Aug 15 01:19:52 1999] u/z/zorg/test/dragon.c line 14: parse error
+
+[Sun Aug 15 01:19:52 1999] u/z/zorg/test/dragon.c line 24: Undefined variable 'me'
+
+
+[Sun Aug 15 01:19:52 1999] u/z/zorg/test/dragon.c line 24: Illegal LHS
+
+[Sun Aug 15 01:19:52 1999] u/z/zorg/test/dragon.c line 24: parse error
+
+[Sun Aug 15 01:20:38 1999] u/z/zorg/test/dragon.c line 22: Undefined variable 'HIW'
+
+
+[Sun Aug 15 01:20:38 1999] u/z/zorg/test/dragon.c line 22: parse error
+
+[Sun Aug 15 01:20:38 1999] u/z/zorg/test/dragon.c line 42: Undefined variable 'me'
+
+
+[Sun Aug 15 01:20:38 1999] u/z/zorg/test/dragon.c line 42: Illegal LHS
+
+[Sun Aug 15 01:20:38 1999] u/z/zorg/test/dragon.c line 42: parse error
+
+[Sun Aug 15 01:21:00 1999] u/z/zorg/test/dragon.c line 22: parse error
+
+[Sun Aug 15 01:21:00 1999] u/z/zorg/test/dragon.c line 42: Undefined variable 'me'
+
+
+[Sun Aug 15 01:21:00 1999] u/z/zorg/test/dragon.c line 42: Illegal LHS
+
+[Sun Aug 15 01:21:00 1999] u/z/zorg/test/dragon.c line 42: parse error
+
+[Sun Aug 15 01:27:06 1999] u/z/zorg/test/dragon.c line 35: parse error
+
+[Sun Aug 15 01:27:06 1999] u/z/zorg/test/dragon.c line 40: Undefined variable 'me'
+
+
+[Sun Aug 15 01:27:06 1999] u/z/zorg/test/dragon.c line 40: Illegal LHS
+
+[Sun Aug 15 01:27:06 1999] u/z/zorg/test/dragon.c line 40: parse error
+
+[Sun Aug 15 01:29:33 1999] u/z/zorg/test/dragon.c line 22: parse error
+
+[Sun Aug 15 01:29:33 1999] u/z/zorg/test/dragon.c line 41: Undefined variable 'me'
+
+
+[Sun Aug 15 01:29:33 1999] u/z/zorg/test/dragon.c line 41: Illegal LHS
+
+[Sun Aug 15 01:29:33 1999] u/z/zorg/test/dragon.c line 41: parse error
+
+[Sun Aug 15 01:30:03 1999] u/z/zorg/test/dragon.c line 22: Undefined variable 'HIW'
+
+
+[Sun Aug 15 01:30:03 1999] u/z/zorg/test/dragon.c line 22: parse error
+
+[Sun Aug 15 01:30:03 1999] u/z/zorg/test/dragon.c line 41: Undefined variable 'me'
+
+
+[Sun Aug 15 01:30:03 1999] u/z/zorg/test/dragon.c line 41: Illegal LHS
+
+[Sun Aug 15 01:30:03 1999] u/z/zorg/test/dragon.c line 41: parse error
+
+[Sun Aug 15 01:30:17 1999] u/z/zorg/test/dragon.c line 22: Undefined variable 'HIW'
+
+
+[Sun Aug 15 01:30:17 1999] u/z/zorg/test/dragon.c line 22: parse error
+
+[Sun Aug 15 01:30:17 1999] u/z/zorg/test/dragon.c line 41: Undefined variable 'me'
+
+
+[Sun Aug 15 01:30:17 1999] u/z/zorg/test/dragon.c line 41: Illegal LHS
+
+[Sun Aug 15 01:30:17 1999] u/z/zorg/test/dragon.c line 41: parse error
+
+[Sun Aug 15 01:32:47 1999] u/z/zorg/test/dragon.c line 22: Undefined variable 'HIW'
+
+
+[Sun Aug 15 01:32:47 1999] u/z/zorg/test/dragon.c line 22: parse error
+
+[Sun Aug 15 01:32:47 1999] u/z/zorg/test/dragon.c line 42: Undefined variable 'me'
+
+
+[Sun Aug 15 01:32:47 1999] u/z/zorg/test/dragon.c line 42: Illegal LHS
+
+[Sun Aug 15 01:32:47 1999] u/z/zorg/test/dragon.c line 42: parse error
+
+[Sun Aug 15 01:49:29 1999] u/z/zorg/obj/darksword.c line 38: A reserved type name cannot be used as a function name.
+
+
+[Sun Aug 15 01:49:29 1999] u/z/zorg/obj/darksword.c line 38: parse error
+
+[Mon Aug 16 12:56:40 1999] u/z/zorg/obj/dagger1.c line 42: parse error
+
+[Mon Aug 16 14:36:43 1999] u/z/zorg/obj/spiritsword.c line 38: A reserved type name cannot be used as a function name.
+
+
+[Mon Aug 16 14:36:43 1999] u/z/zorg/obj/spiritsword.c line 38: parse error
+
+[Mon Aug 16 14:37:59 1999] u/z/zorg/obj/spiritsword.c line 37: A reserved type name cannot be used as a function name.
+
+
+[Mon Aug 16 14:37:59 1999] u/z/zorg/obj/spiritsword.c line 37: parse error
+
+[Tue Aug 17 03:16:41 1999] u/z/zorg/obj/sword2.c line 8: parse error
+
+[Tue Aug 17 03:16:41 1999] u/z/zorg/obj/sword2.c line 17: parse error
+
+[Tue Aug 17 03:17:15 1999] u/z/zorg/obj/sword2.c line 8: parse error
+
+[Tue Aug 17 03:17:15 1999] u/z/zorg/obj/sword2.c line 17: parse error
+
+[Tue Aug 17 03:19:23 1999] u/z/zorg/obj/sword2.c line 11: parse error
+
+[Tue Aug 17 03:19:23 1999] u/z/zorg/obj/sword2.c line 20: parse error
+
+[Tue Aug 17 03:21:52 1999] u/z/zorg/obj/sword2.c line 11: parse error
+
+[Tue Aug 17 03:21:52 1999] u/z/zorg/obj/sword2.c line 20: parse error
+
+[Tue Aug 17 03:36:53 1999] u/z/zorg/obj/sword2.c line 11: parse error
+
+[Tue Aug 17 03:36:53 1999] u/z/zorg/obj/sword2.c line 20: parse error
+
+[Tue Aug 17 03:51:53 1999] u/z/zorg/obj/sword2.c line 11: parse error
+
+[Tue Aug 17 03:51:53 1999] u/z/zorg/obj/sword2.c line 20: parse error
+
+[Tue Aug 17 04:06:53 1999] u/z/zorg/obj/sword2.c line 11: parse error
+
+[Tue Aug 17 04:06:53 1999] u/z/zorg/obj/sword2.c line 20: parse error
+
+[Tue Aug 17 04:21:54 1999] u/z/zorg/obj/sword2.c line 11: parse error
+
+[Tue Aug 17 04:21:54 1999] u/z/zorg/obj/sword2.c line 20: parse error
+
+[Tue Aug 17 04:36:54 1999] u/z/zorg/obj/sword2.c line 11: parse error
+
+[Tue Aug 17 04:36:54 1999] u/z/zorg/obj/sword2.c line 20: parse error
+
+[Tue Aug 17 04:51:54 1999] u/z/zorg/obj/sword2.c line 11: parse error
+
+[Tue Aug 17 04:51:54 1999] u/z/zorg/obj/sword2.c line 20: parse error
+
+[Tue Aug 17 05:06:54 1999] u/z/zorg/obj/sword2.c line 11: parse error
+
+[Tue Aug 17 05:06:54 1999] u/z/zorg/obj/sword2.c line 20: parse error
+
+[Tue Aug 17 05:21:54 1999] u/z/zorg/obj/sword2.c line 11: parse error
+
+[Tue Aug 17 05:21:54 1999] u/z/zorg/obj/sword2.c line 20: parse error
+
+[Tue Aug 17 05:27:53 1999] u/z/zorg/obj/sword2.c line 60: Illegal to redefine 'nomask' function "query_weight"
+
+[Tue Aug 17 05:27:53 1999] u/z/zorg/obj/sword2.c line 60: Illegal to redefine 'nomask' function "_query"
+
+[Tue Aug 17 05:27:53 1999] u/z/zorg/obj/sword2.c line 60: Illegal to redefine 'nomask' function "_delete"
+
+[Tue Aug 17 05:27:53 1999] u/z/zorg/obj/sword2.c line 60: Illegal to redefine 'nomask' function "_set"
+
+[Tue Aug 17 05:27:53 1999] u/z/zorg/obj/sword2.c line 60: Illegal to redefine 'nomask' function "query_encumbrance"
+
+[Tue Aug 17 05:27:53 1999] u/z/zorg/obj/sword2.c line 60: Illegal to redefine 'nomask' function "over_encumbranced"
+
+[Mon Aug 23 08:46:14 1999] u/z/zorg/workroom.c line 88: End of file in text block
+
+[Mon Aug 23 08:46:14 1999] u/z/zorg/workroom.c line 88: parse error
+
+[Mon Aug 23 08:46:14 1999] u/z/zorg/workroom.c line 89: Undefined variable 'spell'
+
+
+[Mon Aug 23 08:46:14 1999] u/z/zorg/workroom.c line 89: Undefined function load_obje
+
+[Mon Aug 23 08:46:14 1999] u/z/zorg/workroom.c line 89: Undefined variable 'target'
+
+
+[Mon Aug 23 08:46:14 1999] u/z/zorg/workroom.c line 89: Undefined variable 'dir'
+
+
+[Mon Aug 23 08:46:32 1999] u/z/zorg/workroom.c line 88: End of file in text block
+
+[Mon Aug 23 08:46:32 1999] u/z/zorg/workroom.c line 88: parse error
+
+[Mon Aug 23 08:46:32 1999] u/z/zorg/workroom.c line 89: Undefined variable 'spell'
+
+
+[Mon Aug 23 08:46:32 1999] u/z/zorg/workroom.c line 89: Undefined function load_obje
+
+[Mon Aug 23 08:46:32 1999] u/z/zorg/workroom.c line 89: Undefined variable 'target'
+
+
+[Mon Aug 23 08:46:32 1999] u/z/zorg/workroom.c line 89: Undefined variable 'dir'
+
+
+[Mon Aug 23 08:47:50 1999] u/z/zorg/workroom.c line 88: End of file in text block
+
+[Mon Aug 23 08:47:50 1999] u/z/zorg/workroom.c line 88: Undefined variable 'm'
+
+
+[Mon Aug 23 08:47:50 1999] u/z/zorg/workroom.c line 88: parse error
+
+[Mon Aug 23 08:47:50 1999] u/z/zorg/workroom.c line 96: End of file in string
+
+[Mon Aug 23 08:48:52 1999] u/z/zorg/workroom.c line 88: End of file in text block
+
+[Mon Aug 23 08:48:52 1999] u/z/zorg/workroom.c line 88: parse error
+
+[Mon Aug 23 08:48:52 1999] u/z/zorg/workroom.c line 96: End of file in string
+
+[Mon Aug 23 08:50:36 1999] u/z/zorg/workroom.c line 94: End of file in text block
+
+[Mon Aug 23 08:50:36 1999] u/z/zorg/workroom.c line 94: Undefined variable 'org'
+
+
+[Mon Aug 23 08:50:36 1999] u/z/zorg/workroom.c line 94: Undefined variable 'me'
+
+
+[Mon Aug 23 08:50:36 1999] u/z/zorg/workroom.c line 94: Wrong number of arguments to set
+    Expected: 2  Got: 3
+
+[Mon Aug 23 08:50:36 1999] u/z/zorg/workroom.c line 96: parse error
+
+[Mon Aug 23 12:36:51 1999] u/z/zorg/workroom.c line 94: End of file in text block
+
+[Mon Aug 23 12:49:54 1999] u/z/zorg/troom.c line 96: Illegal to redefine 'nomask' function "_query"
+
+[Mon Aug 23 12:49:54 1999] u/z/zorg/troom.c line 96: Illegal to redefine 'nomask' function "_delete"
+
+[Mon Aug 23 12:49:54 1999] u/z/zorg/troom.c line 96: Illegal to redefine 'nomask' function "_set"
+
+[Mon Aug 23 12:49:54 1999] u/z/zorg/troom.c line 132: Redeclaration of function create.
+
+[Mon Aug 23 12:49:54 1999] u/z/zorg/troom.c line 137: Redeclaration of function init.
+
+[Mon Aug 23 12:49:54 1999] u/z/zorg/troom.c line 154: Redeclaration of function entercheck.
+
+[Tue Aug 24 14:45:35 1999] u/z/zorg/area/npc/travelerseller.c line 18: parse error
+
+[Fri Aug 27 04:21:16 1999] u/z/zorg/test/bar.c line 24: parse error
+
+[Fri Aug 27 04:21:16 1999] u/z/zorg/test/bar.c line 24: Illegal terminator
+
+[Fri Aug 27 04:21:16 1999] u/z/zorg/test/bar.c line 24: Text block exceeded maximum length
+
+[Fri Aug 27 04:21:16 1999] u/z/zorg/test/bar.c line 24: Illegal terminator
+
+[Fri Aug 27 04:21:16 1999] u/z/zorg/test/bar.c line 24: Text block exceeded maximum length
+
+[Fri Aug 27 04:21:16 1999] u/z/zorg/test/bar.c line 24: Illegal terminator
+
+[Fri Aug 27 04:22:26 1999] u/z/zorg/test/bar.c line 16: parse error
+
+[Sat Aug 28 06:34:22 1999] u/z/zorg/test/bar.c line 42: parse error
+
+[Sat Aug 28 07:07:14 1999] u/z/zorg/area/npc/sophia.c line 20: Undefined variable 'ob'
+
+
+[Sat Aug 28 07:07:14 1999] u/z/zorg/area/npc/sophia.c line 21: parse error
+
+[Sat Aug 28 07:07:14 1999] u/z/zorg/area/npc/sophia.c line 46: End of file in string
+
+[Sat Aug 28 07:07:56 1999] u/z/zorg/area/npc/sophia.c line 20: Undefined variable 'ob'
+
+
+[Sat Aug 28 07:07:56 1999] u/z/zorg/area/npc/sophia.c line 21: parse error
+
+[Sat Aug 28 07:07:56 1999] u/z/zorg/area/npc/sophia.c line 31: End of file in string
+
+[Sat Aug 28 07:08:38 1999] u/z/zorg/area/npc/sophia.c line 21: parse error
+
+[Sat Aug 28 07:08:38 1999] u/z/zorg/area/npc/sophia.c line 30: End of file in string
+
+[Sat Aug 28 07:09:22 1999] u/z/zorg/area/npc/sophia.c line 21: parse error
+
+[Sat Aug 28 07:09:22 1999] u/z/zorg/area/npc/sophia.c line 31: End of file in string
+
+[Sat Aug 28 07:09:54 1999] u/z/zorg/area/npc/sophia.c line 21: parse error
+
+[Sat Aug 28 07:09:54 1999] u/z/zorg/area/npc/sophia.c line 31: End of file in string
+
+[Sat Aug 28 07:11:14 1999] u/z/zorg/area/npc/sophia.c line 21: parse error
+
+[Sat Aug 28 07:11:14 1999] u/z/zorg/area/npc/sophia.c line 25: End of file in string
+
+[Sat Aug 28 07:11:42 1999] u/z/zorg/area/npc/sophia.c line 21: parse error
+
+[Sat Aug 28 07:11:42 1999] u/z/zorg/area/npc/sophia.c line 26: End of file in string
+
+[Sat Aug 28 07:12:12 1999] u/z/zorg/area/npc/sophia.c line 21: parse error
+
+[Sat Aug 28 07:12:12 1999] u/z/zorg/area/npc/sophia.c line 26: End of file in string
+
+[Sun Aug 29 07:51:22 1999] u/z/zorg/obj/gloves.c line 24: Wrong number of arguments to setup
+    Expected: 0  Got: 1
+
+[Sun Aug 29 08:30:35 1999] u/z/zorg/area/npc/thinking.c line 7: parse error
+
+[Wed Sep  1 06:39:29 1999] u/z/zorg/area/npc/sophia.c line 14: Undefined variable 'level'
+
+
+[Wed Sep  1 06:39:53 1999] u/z/zorg/area/npc/sophia.c line 14: Undefined variable 'level'
+
+
+[Thu Sep  2 16:22:27 1999] u/z/zorg/area/npc/yiyue.c line 11: parse error
+
+[Fri Sep  3 06:11:18 1999] u/z/zorg/obj/gloves.c line 5: Undefined variable 'HIW'
+
+
+[Fri Sep  3 06:11:18 1999] u/z/zorg/obj/gloves.c line 5: parse error
+
+[Fri Sep  3 06:44:00 1999] u/z/zorg/area/npc/vh0319.c line 8: parse error
+
+[Fri Sep  3 06:44:00 1999] u/z/zorg/area/npc/vh0319.c line 45: End of file in string
+
+[Mon Sep  6 06:52:22 1999] u/z/zorg/obj/darkhat.c line 40: Illegal to redefine 'nomask' function "query_weight"
+
+[Mon Sep  6 06:52:22 1999] u/z/zorg/obj/darkhat.c line 40: Illegal to redefine 'nomask' function "_query"
+
+[Mon Sep  6 06:52:22 1999] u/z/zorg/obj/darkhat.c line 40: Illegal to redefine 'nomask' function "_delete"
+
+[Mon Sep  6 06:52:22 1999] u/z/zorg/obj/darkhat.c line 40: Illegal to redefine 'nomask' function "_set"
+
+[Mon Sep  6 06:52:22 1999] u/z/zorg/obj/darkhat.c line 40: Illegal to redefine 'nomask' function "query_encumbrance"
+
+[Mon Sep  6 06:52:22 1999] u/z/zorg/obj/darkhat.c line 40: Illegal to redefine 'nomask' function "over_encumbranced"
+
+[Sun Sep 12 03:40:24 1999] u/z/zorg/obj/darkhat.c line 40: Illegal to redefine 'nomask' function "query_weight"
+
+[Sun Sep 12 03:40:24 1999] u/z/zorg/obj/darkhat.c line 40: Illegal to redefine 'nomask' function "_query"
+
+[Sun Sep 12 03:40:24 1999] u/z/zorg/obj/darkhat.c line 40: Illegal to redefine 'nomask' function "_delete"
+
+[Sun Sep 12 03:40:24 1999] u/z/zorg/obj/darkhat.c line 40: Illegal to redefine 'nomask' function "_set"
+
+[Sun Sep 12 03:40:24 1999] u/z/zorg/obj/darkhat.c line 40: Illegal to redefine 'nomask' function "query_encumbrance"
+
+[Sun Sep 12 03:40:24 1999] u/z/zorg/obj/darkhat.c line 40: Illegal to redefine 'nomask' function "over_encumbranced"
+
+[Sat Oct  2 21:56:20 1999] u/z/zorg/test/sw.c line 2: parse error
+
+[Sun Oct 24 03:08:18 1999] u/z/zorg/obj/darkhat.c line 40: Illegal to redefine 'nomask' function "query_weight"
+
+[Sun Oct 24 03:08:18 1999] u/z/zorg/obj/darkhat.c line 40: Illegal to redefine 'nomask' function "_query"
+
+[Sun Oct 24 03:08:18 1999] u/z/zorg/obj/darkhat.c line 40: Illegal to redefine 'nomask' function "_delete"
+
+[Sun Oct 24 03:08:18 1999] u/z/zorg/obj/darkhat.c line 40: Illegal to redefine 'nomask' function "_set"
+
+[Sun Oct 24 03:08:18 1999] u/z/zorg/obj/darkhat.c line 40: Illegal to redefine 'nomask' function "query_encumbrance"
+
+[Sun Oct 24 03:08:18 1999] u/z/zorg/obj/darkhat.c line 40: Illegal to redefine 'nomask' function "over_encumbranced"
+
+[Sun Oct 31 19:03:49 1999] u/z/zorg/area/npc/antiquer2.c line 12: parse error
+
+[Sun Oct 31 19:03:49 1999] u/z/zorg/area/npc/antiquer2.c line 12: Illegal terminator
+
+[Sun Oct 31 19:03:49 1999] u/z/zorg/area/npc/antiquer2.c line 12: Text block exceeded maximum length
+
+[Sun Oct 31 19:05:13 1999] u/z/zorg/area/npc/antiquer2.c line 12: parse error
+
+[Sun Oct 31 19:05:13 1999] u/z/zorg/area/npc/antiquer2.c line 12: Illegal terminator
+
+[Sun Oct 31 19:05:13 1999] u/z/zorg/area/npc/antiquer2.c line 12: Text block exceeded maximum length
+
+[Sun Oct 31 19:06:44 1999] u/z/zorg/area/npc/antiquer2.c line 12: parse error
+
+[Sun Oct 31 19:06:44 1999] u/z/zorg/area/npc/antiquer2.c line 12: Illegal terminator
+
+[Sun Oct 31 19:06:44 1999] u/z/zorg/area/npc/antiquer2.c line 12: Text block exceeded maximum length
+
+[Sun Oct 31 19:06:50 1999] u/z/zorg/area/npc/antiquer2.c line 12: parse error
+
+[Sun Oct 31 19:06:50 1999] u/z/zorg/area/npc/antiquer2.c line 12: Illegal terminator
+
+[Sun Oct 31 19:06:50 1999] u/z/zorg/area/npc/antiquer2.c line 12: Text block exceeded maximum length
+
+[Sun Oct 31 19:07:57 1999] u/z/zorg/area/npc/antiquer2.c line 11: parse error
+
+[Sun Oct 31 19:07:57 1999] u/z/zorg/area/npc/antiquer2.c line 11: Illegal terminator
+
+[Sun Oct 31 19:07:57 1999] u/z/zorg/area/npc/antiquer2.c line 11: Text block exceeded maximum length
+
+[Sun Oct 31 19:10:07 1999] u/z/zorg/area/npc/antiquer2.c line 11: parse error
+
+[Sun Oct 31 19:10:07 1999] u/z/zorg/area/npc/antiquer2.c line 11: Illegal terminator
+
+[Sun Oct 31 19:10:07 1999] u/z/zorg/area/npc/antiquer2.c line 11: Text block exceeded maximum length
+

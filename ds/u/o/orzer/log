@@ -1,0 +1,138 @@
+[Tue Jan 31 13:01:41 2006] u/o/orzer/sword.c line 258: parse error before  checks_items(string
+
+[Tue Jan 31 13:01:41 2006] u/o/orzer/sword.c line 260: Illegal LHS before ( sizeof(filter_arra
+
+[Tue Jan 31 13:01:41 2006] u/o/orzer/sword.c line 265: Undefined variable 'item' before the end of line
+
+[Tue Jan 31 13:01:41 2006] u/o/orzer/sword.c line 266: Illegal LHS before ( room->is_room() ) 
+
+[Tue Jan 31 13:01:41 2006] u/o/orzer/sword.c line 266: parse error before ( room->is_room() ) 
+
+[Tue Jan 31 13:01:41 2006] u/o/orzer/sword.c line 266: Undefined variable 'room' before query("short")+", "
+
+[Thu Feb  9 00:43:29 2006] u/o/orzer/area/gilin/npc/wei-yin.c line 58: Text block exceeded maximum length before                     
+
+[Thu Feb  9 00:43:29 2006] u/o/orzer/area/gilin/npc/wei-yin.c line 58: parse error before  1; 
+
+[Thu Feb  9 00:43:29 2006] u/o/orzer/area/gilin/npc/wei-yin.c line 73: Illegal LHS before the end of line
+
+[Thu Feb  9 00:43:29 2006] u/o/orzer/area/gilin/npc/wei-yin.c line 73: parse error before the end of line
+
+[Thu Feb  9 00:43:29 2006] u/o/orzer/area/gilin/npc/wei-yin.c line 74: Illegal LHS before the end of line
+
+[Thu Feb  9 00:43:29 2006] u/o/orzer/area/gilin/npc/wei-yin.c line 74: parse error before the end of line
+
+[Thu Feb  9 00:44:33 2006] u/o/orzer/area/gilin/npc/wei-yin.c line 34: Warning: Unknown \ escape. before ¿\¦bºò­nÃöÀY") :),
+
+[Thu Feb  9 00:44:33 2006] u/o/orzer/area/gilin/npc/wei-yin.c line 34: Warning: Unknown \ escape. before bºò­nÃöÀY") :),
+
+[Thu Feb  9 00:44:33 2006] u/o/orzer/area/gilin/npc/wei-yin.c line 54: Bad assignment ( int vs object ). before the end of line
+
+[Thu Feb  9 00:44:33 2006] u/o/orzer/area/gilin/npc/wei-yin.c line 55: Bad assignment ( int vs object ). before the end of line
+
+[Thu Feb  9 00:44:33 2006] u/o/orzer/area/gilin/npc/wei-yin.c line 67: Undefined variable 'target' before ;        target->rec
+
+[Thu Feb  9 00:44:33 2006] u/o/orzer/area/gilin/npc/wei-yin.c line 88: Undefined variable 'target' before ;
+
+[Thu Feb  9 00:45:25 2006] u/o/orzer/area/gilin/npc/wei-yin.c line 28: parse error before the end of line
+
+[Thu Feb  9 00:45:25 2006] u/o/orzer/area/gilin/npc/wei-yin.c line 41: Illegal LHS before the end of line
+
+[Thu Feb  9 00:45:25 2006] u/o/orzer/area/gilin/npc/wei-yin.c line 41: parse error before the end of line
+
+[Thu Feb  9 00:45:25 2006] u/o/orzer/area/gilin/npc/wei-yin.c line 42: Illegal LHS before the end of line
+
+[Thu Feb  9 00:45:25 2006] u/o/orzer/area/gilin/npc/wei-yin.c line 42: parse error before the end of line
+
+[Thu Feb  9 00:45:25 2006] u/o/orzer/area/gilin/npc/wei-yin.c line 43: Undefined variable 'ob' before query_temp("weapon")
+
+[Thu Feb  9 00:46:58 2006] u/o/orzer/area/gilin/npc/wei-yin.c line 39: Bad assignment ( int vs object ). before the end of line
+
+[Thu Feb  9 00:46:58 2006] u/o/orzer/area/gilin/npc/wei-yin.c line 40: Bad assignment ( int vs object ). before the end of line
+
+[Thu Feb  9 00:46:58 2006] u/o/orzer/area/gilin/npc/wei-yin.c line 52: Undefined variable 'target' before ;        target->rec
+
+[Thu Feb  9 00:46:58 2006] u/o/orzer/area/gilin/npc/wei-yin.c line 73: Undefined variable 'target' before ;
+
+[Thu Feb  9 00:46:58 2006] u/o/orzer/area/gilin/npc/wei-yin.c line 97: parse error before ¹Å§À»¦Ó¦º¤F¡A¦U¦a©x©
+
+[Thu Feb  9 00:46:58 2006] u/o/orzer/area/gilin/npc/wei-yin.c line 105: End of file in string before the end of line
+
+[Thu Feb  9 00:48:44 2006] u/o/orzer/area/gilin/npc/test.c line 55: parse error before ¹Å§À»¦Ó¦º¤F¡A¦U¦a©x©
+
+[Thu Feb  9 00:48:44 2006] u/o/orzer/area/gilin/npc/test.c line 63: End of file in string before ort_status(target);
+
+[Thu Feb  9 23:53:26 2006] u/o/orzer/area/gilin/npc/test.c line 53: parse error before (sscanf(paths,"/daem
+
+[Thu Feb  9 23:53:26 2006] u/o/orzer/area/gilin/npc/test.c line 55: Warning: Value of conditional expression is unused before the end of line
+
+[Fri Feb 10 00:06:55 2006] u/o/orzer/area/gilin/npc/test.c line 66: parse error before ") )
+
+[Fri Feb 10 00:06:55 2006] u/o/orzer/area/gilin/npc/test.c line 84: End of file in string before ;36m"        "\n" "¯
+
+[Fri Feb 10 00:11:33 2006] u/o/orzer/area/gilin/npc/test.c line 41: Undefined variable 'ob' before this_object();      
+
+[Fri Feb 10 00:17:22 2006] u/o/orzer/area/gilin/npc/test.c line 52: parse error before ;
+
+[Fri Feb 10 00:17:22 2006] u/o/orzer/area/gilin/npc/test.c line 65: Illegal LHS before the end of line
+
+[Fri Feb 10 00:17:22 2006] u/o/orzer/area/gilin/npc/test.c line 71: Warning: Non-void functions must return a value. before the end of line
+
+[Fri Feb 10 00:17:22 2006] u/o/orzer/area/gilin/npc/test.c line 74: Undefined variable 'obs' before query("title")+obs->
+
+[Fri Feb 10 00:17:22 2006] u/o/orzer/area/gilin/npc/test.c line 78: Warning: Non-void functions must return a value. before the end of line
+
+[Fri Feb 10 00:17:22 2006] u/o/orzer/area/gilin/npc/test.c line 84: parse error before the end of file
+
+[Fri Feb 10 00:33:51 2006] u/o/orzer/area/gilin/npc/test2.c line 47: parse error before the end of line
+
+[Sat Mar 18 16:57:45 2006] u/o/orzer/area/gilin/npc/wp/thunder-seal.c line 3: parse error before the end of line
+
+[Sat Mar 18 16:58:31 2006] u/o/orzer/area/gilin/npc/wp/thunder-seal.c line 3: parse error before the end of line
+
+[Sat Mar 18 17:00:06 2006] u/o/orzer/area/gilin/npc/wp/thunder-seal.c line 3: parse error before the end of line
+
+[Sat Mar 18 17:06:09 2006] u/o/orzer/area/gilin/npc/wp/thunder-seal.c line 49: End of file in text block before me->set_temp("power_
+
+[Sat Mar 18 17:06:09 2006] u/o/orzer/area/gilin/npc/wp/thunder-seal.c line 49: parse error before me->set_temp("power_
+
+[Sat Mar 18 17:08:19 2006] u/o/orzer/area/gilin/npc/wp/thunder-seal.c line 49: End of file in text block before me->set_temp("power_
+
+[Sat Mar 18 17:08:19 2006] u/o/orzer/area/gilin/npc/wp/thunder-seal.c line 49: parse error before me->set_temp("power_
+
+[Sat Mar 18 17:12:06 2006] u/o/orzer/area/gilin/npc/wp/thunder-seal.c line 49: End of file in text block before ");
+
+[Sat Mar 18 17:12:06 2006] u/o/orzer/area/gilin/npc/wp/thunder-seal.c line 49: parse error before ");
+
+[Sat Mar 18 17:15:38 2006] u/o/orzer/area/gilin/npc/wp/thunder-seal.c line 43: Reserved type name unexpected. before , object victim, obj
+
+[Sat Mar 18 17:15:38 2006] u/o/orzer/area/gilin/npc/wp/thunder-seal.c line 43: parse error before , object victim, obj
+
+[Sat Mar 18 17:17:03 2006] u/o/orzer/area/gilin/npc/wp/thunder-seal.c line 43: No such inherited function ::throw_weapon before ;
+
+[Sat Mar 18 17:17:03 2006] u/o/orzer/area/gilin/npc/wp/thunder-seal.c line 46: Undefined variable 'HIW' before  NOR,victim);     
+
+[Sat Mar 18 17:17:03 2006] u/o/orzer/area/gilin/npc/wp/thunder-seal.c line 46: parse error before  NOR,victim);     
+
+[Sat Mar 18 17:27:48 2006] u/o/orzer/area/gilin/npc/wp/thunder-seal.c line 7: Warning: Function pointer returning string constant is NOT a function call before ,
+
+[Sat Mar 18 17:32:20 2006] u/o/orzer/area/gilin/npc/wp/thunder-seal.c line 8: parse error before ":  "wit",
+
+[Sat Mar 18 17:32:20 2006] u/o/orzer/area/gilin/npc/wp/thunder-seal.c line 11: $var illegal outside of function pointer. before N±N$wÂó¦bÂù¤â,¤Ş¥X¤F
+
+[Sat Mar 18 17:32:20 2006] u/o/orzer/area/gilin/npc/wp/thunder-seal.c line 11: $var illegal outside of function pointer. before wÂó¦bÂù¤â,¤Ş¥X¤F$wªº
+
+[Sat Mar 18 17:32:20 2006] u/o/orzer/area/gilin/npc/wp/thunder-seal.c line 11: $var illegal outside of function pointer. before wªºÆF³N©¹$n¦Ó¥h",
+
+[Sat Mar 18 17:32:20 2006] u/o/orzer/area/gilin/npc/wp/thunder-seal.c line 11: $var illegal outside of function pointer. before n¦Ó¥h",
+
+[Sat Mar 18 17:33:49 2006] u/o/orzer/area/gilin/npc/wp/thunder-seal.c line 8: parse error before ":  "wit"
+
+[Sat Mar 18 17:33:49 2006] u/o/orzer/area/gilin/npc/wp/thunder-seal.c line 12: $var illegal outside of function pointer. before N±N$wÂó¦bÂù¤â,¤Ş¥X¤F
+
+[Sat Mar 18 17:33:49 2006] u/o/orzer/area/gilin/npc/wp/thunder-seal.c line 12: $var illegal outside of function pointer. before wÂó¦bÂù¤â,¤Ş¥X¤F$wªº
+
+[Sat Mar 18 17:33:49 2006] u/o/orzer/area/gilin/npc/wp/thunder-seal.c line 12: $var illegal outside of function pointer. before wªºÆF³N©¹$n¦Ó¥h",
+
+[Sat Mar 18 17:33:49 2006] u/o/orzer/area/gilin/npc/wp/thunder-seal.c line 12: $var illegal outside of function pointer. before n¦Ó¥h",
+

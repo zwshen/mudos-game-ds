@@ -1,0 +1,18 @@
+
+	write_bytes(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		write_bytes() - 將連續的位元組寫入檔案.
+	函數語法:
+		int write_bytes( string path, int start,
+			string series );
+
+		整數 write_bytes( 字串 path, 整數 start,
+			字串 series );
+	函數用法:
+		write_bytes() 以連續的位元組, 從檔案 path 的第 start
+		位元組開始寫入. 如果失敗則傳回 0, 成功傳回 1.
+	參考函數:
+		write_file(3), read_bytes(3)
+	手冊翻譯:
+		Phoebus@ZH	97.jul.25.		(Writen 5/23/97)

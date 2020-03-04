@@ -1,0 +1,61 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清华站∶精华区</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+<A Name="top"></a>
+发信人:&nbsp;sorceress&nbsp;(李大善人~~~以德服人),&nbsp;信区:&nbsp;Mud_Builder&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+标&nbsp;&nbsp;题:&nbsp;source&nbsp;-&nbsp;fire.h&nbsp;(转载)&nbsp;<BR>
+发信站:&nbsp;BBS&nbsp;水木清华站&nbsp;(Wed&nbsp;Jun&nbsp;14&nbsp;17:38:30&nbsp;2000)&nbsp;<BR>
+&nbsp;<BR>
+【&nbsp;以下文字转载自&nbsp;GAME_Designer&nbsp;讨论区&nbsp;】&nbsp;<BR>
+【&nbsp;原文由&nbsp;yuanmo&nbsp;所发表&nbsp;】&nbsp;<BR>
+//fire.h&nbsp;<BR>
+&nbsp;<BR>
+#ifndef&nbsp;__FIRE_H&nbsp;<BR>
+#define&nbsp;__FIRE_H&nbsp;<BR>
+&nbsp;<BR>
+#include&quot;unit.h&quot;&nbsp;<BR>
+class&nbsp;Fire&nbsp;:&nbsp;public&nbsp;Unit&nbsp;<BR>
+{&nbsp;<BR>
+public:&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;static&nbsp;UnitAttrib&nbsp;sm_attr;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;static&nbsp;int&nbsp;sm_count;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;static&nbsp;int&nbsp;sm_maxstep;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;static&nbsp;BITMAP&nbsp;*sm_defaultFireImg;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;static&nbsp;int&nbsp;sm_numChain;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;static&nbsp;BITMAP*&nbsp;sm_imgChain[16];&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;float&nbsp;m_size;&nbsp;<BR>
+private:&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;m_step;//counter&nbsp;of&nbsp;how&nbsp;many&nbsp;times&nbsp;this&nbsp;bullet&nbsp;has&nbsp;gone&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BITMAP&nbsp;*m_fireImg;&nbsp;<BR>
+public:&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fire();&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;~Fire();&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UnitAttrib&nbsp;&amp;GetAttrib(){return&nbsp;sm_attr;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;void&nbsp;RunUnit();&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;static&nbsp;void&nbsp;LoadImg();&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;static&nbsp;void&nbsp;DestroyImg();&nbsp;<BR>
+private:&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;void&nbsp;DrawUnit(CCamera&nbsp;&amp;camera,BITMAP&nbsp;*VBuffer=screen);&nbsp;<BR>
+//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;ActionMove();&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;Die();&nbsp;<BR>
+};&nbsp;<BR>
+#endif&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+人是爱玩游戏的动物&nbsp;<BR>
+&nbsp;<BR>
+<A HREF="mailto:yuanmo@263.net">yuanmo@263.net</A>&nbsp;<BR>
+&nbsp;<BR>
+※&nbsp;来源:·BBS&nbsp;水木清华站&nbsp;bbs.net.tsinghua.edu.cn·[FROM:&nbsp;166.111.167.151]&nbsp;<BR>
+<A HREF="00000004.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一页</A>
+<A HREF="index.htm">回到目录</A>
+<A HREF="#top">回到页首</A>
+<A HREF="00000006.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+</BODY></HTML>

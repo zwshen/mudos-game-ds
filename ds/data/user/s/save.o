@@ -1,0 +1,6 @@
+#/obj/user.c
+conditions ([])
+dbase (["mp":60,"attitude":"peaceful","addition_damage":10,"supply_point":60,"volume":7,"addition_armor":10,"channels":({"chat","rumor","tchat",}),"default_actions":,"race":"human","level":1,"evil":-1,"gender":"男性","birthday":1021102111,"ap":60,"name":"我是成咩","mob_record":({"/open/world2/npc/beast_mosquito_1",}),"max_ap":60,"startroom":"/open/world2/lichi_town_2/map_5_26","Merits":(["wit":0,"tec":0,"bio":0,"sou":0,"bar":0,]),"newbie":1,"max_mp":60,"heart_modify":0,"MKS":1,"exp":883,"hp":80,"dex":2,"int":2,"con":2,"age":14,"id":"save","str":2,"mud_age":962,"talk_point":8,"actions":,"heart_beat_rate":6,"last_location":"/open/world2/mainland1/map_0_2","cure_count":4,"unit":"位","guild_gifts":({5,5,5,5,}),"max_hp":80,"addition_shield":10,"DS_DATA_VERSION":19991107,"wound":(["right_arm":0,"head":0,"body":0,"left_leg":0,"right_leg":0,"left_arm":0,]),])
+skills (["unarmed":0,"combat":1,])
+learned (["unarmed":2,"combat":3,])
+autoload ({"/open/world2/eq/cloth_gloves_3","/open/world2/eq/iron_armor_16","/open/world2/shengsan/aovandis/npc/eq/drangonshield","/open/world2/shengsan/aovandis/npc/eq/sunboots",})

@@ -1,0 +1,66 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清華站︰精華區</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+<A Name="top"></a>
+發信人:&nbsp;knight&nbsp;(&nbsp;走馬觀花),&nbsp;信區:&nbsp;Mud_Builder&nbsp;<BR>
+標&nbsp;&nbsp;題:&nbsp;Re:&nbsp;請整理一下win95下架構MUD的具體順序&nbsp;<BR>
+發信站:&nbsp;BBS&nbsp;水木清華站&nbsp;(Tue&nbsp;Sep&nbsp;16&nbsp;16:26:26&nbsp;1997)&nbsp;<BR>
+&nbsp;<BR>
+【&nbsp;在&nbsp;fuyo&nbsp;(電14-28#617-&nbsp;lj)&nbsp;的大作中提到:&nbsp;】&nbsp;<BR>
+︰<I>&nbsp;看了一大批文章，down了一大披文件，很是頭暈&nbsp;</I><BR>
+︰<I>&nbsp;敬請將以上文章中的東西整理整理，給出一個&nbsp;</I><BR>
+︰<I>&nbsp;比較明確的架構方法，具體的做法，等等。&nbsp;</I><BR>
+︰<I>&nbsp;或者說明一下那些文件都是什麼用途也行！&nbsp;</I><BR>
+&nbsp;<BR>
+&nbsp;&nbsp;1.&nbsp;uncompress&nbsp;mudbin.tgz&nbsp;(such&nbsp;as&nbsp;in&nbsp;d:\mud)&nbsp;and&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;es2win95.tgz(&nbsp;ie.&nbsp;directary&nbsp;is&nbsp;d:\lpmud)&nbsp;<BR>
+&nbsp;&nbsp;2.&nbsp;copy&nbsp;d:\lpmud\adm\etc\config.ES2&nbsp;&nbsp;to&nbsp;d:\mud&nbsp;<BR>
+&nbsp;&nbsp;3&nbsp;modify&nbsp;config.ES2&nbsp;about&nbsp;file&nbsp;location:&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;mudlib&nbsp;directory&nbsp;:&nbsp;d:\lpmud&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;binary&nbsp;directory&nbsp;:&nbsp;d:\mud&nbsp;<BR>
+&nbsp;&nbsp;4.&nbsp;run&nbsp;mudos.ese&nbsp;config.ES2&nbsp;&nbsp;<BR>
+You&nbsp;can&nbsp;use&nbsp;other&nbsp;mud&nbsp;lib&nbsp;.maybe&nbsp;need&nbsp;some&nbsp;modify.&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+※&nbsp;來源:‧BBS&nbsp;水木清華站&nbsp;bbs.net.tsinghua.edu.cn‧[FROM:&nbsp;202.114.3.142]&nbsp;<BR>
+發信人:&nbsp;nerd&nbsp;(快樂的感覺永遠一樣),&nbsp;信區:&nbsp;Mud_Builder&nbsp;<BR>
+標&nbsp;&nbsp;題:&nbsp;Re:&nbsp;請整理一下win95下架構MUD的具體順序&nbsp;<BR>
+發信站:&nbsp;BBS&nbsp;水木清華站&nbsp;(Tue&nbsp;Sep&nbsp;16&nbsp;17:42:17&nbsp;1997)&nbsp;<BR>
+&nbsp;<BR>
+【&nbsp;在&nbsp;knight&nbsp;(&nbsp;走馬觀花)&nbsp;的大作中提到:&nbsp;】&nbsp;<BR>
+︰<I>&nbsp;&nbsp;&nbsp;1.&nbsp;uncompress&nbsp;mudbin.tgz&nbsp;(such&nbsp;as&nbsp;in&nbsp;d:\mud)&nbsp;and&nbsp;</I><BR>
+︰<I>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;es2win95.tgz(&nbsp;ie.&nbsp;directary&nbsp;is&nbsp;d:\lpmud)&nbsp;</I><BR>
+use&nbsp;winzip&nbsp;etc...&nbsp;<BR>
+︰<I>&nbsp;&nbsp;&nbsp;2.&nbsp;copy&nbsp;d:\lpmud\adm\etc\config.ES2&nbsp;&nbsp;to&nbsp;d:\mud&nbsp;</I><BR>
+︰<I>&nbsp;&nbsp;&nbsp;3&nbsp;modify&nbsp;config.ES2&nbsp;about&nbsp;file&nbsp;location:&nbsp;</I><BR>
+︰<I>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mudlib&nbsp;directory&nbsp;:&nbsp;d:\lpmud&nbsp;</I><BR>
+︰<I>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;binary&nbsp;directory&nbsp;:&nbsp;d:\mud&nbsp;</I><BR>
+add&nbsp;mudos.ini&nbsp;to&nbsp;your&nbsp;windows&nbsp;dir,such&nbsp;as&nbsp;c:\windows&nbsp;<BR>
+[init]&nbsp;<BR>
+path=d:\mud&nbsp;<BR>
+param=config.ES2&nbsp;<BR>
+;that&nbsp;means&nbsp;the&nbsp;param&nbsp;is&nbsp;d:\mud\config.es2&nbsp;<BR>
+&nbsp;<BR>
+︰<I>&nbsp;&nbsp;&nbsp;4.&nbsp;run&nbsp;mudos.ese&nbsp;config.ES2&nbsp;&nbsp;</I><BR>
+run&nbsp;mudos.exe,no&nbsp;param.&nbsp;<BR>
+︰<I>&nbsp;You&nbsp;can&nbsp;use&nbsp;other&nbsp;mud&nbsp;lib&nbsp;.maybe&nbsp;need&nbsp;some&nbsp;modify.&nbsp;</I><BR>
+See&nbsp;debug.log(/log/debug.log)&nbsp;or&nbsp;mud.dat(int&nbsp;the&nbsp;mudos&nbsp;dir)&nbsp;<BR>
+for&nbsp;details.&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人生像浪潮&nbsp;沒有高岩與暗礁&nbsp;怎激得起&nbsp;美麗的浪花&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;小小挫敗&nbsp;何憂何懼&nbsp;<BR>
+&nbsp;<BR>
+※&nbsp;來源:‧BBS&nbsp;水木清華站&nbsp;bbs.net.tsinghua.edu.cn‧[FROM:&nbsp;166.111.5.69]&nbsp;<BR>
+<A HREF="00000021.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一頁</A>
+<A HREF="index.htm">回到目錄</A>
+<A HREF="#top">回到頁首</A>
+<A HREF="00000023.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+</BODY></HTML>

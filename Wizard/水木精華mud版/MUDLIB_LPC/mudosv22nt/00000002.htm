@@ -1,0 +1,69 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清華站︰精華區</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+<A Name="top"></a>
+發信人:&nbsp;wwj&nbsp;(星~~畢設中),&nbsp;信區:&nbsp;Mud_Builder&nbsp;<BR>
+標&nbsp;&nbsp;題:&nbsp;第二節&nbsp;&nbsp;&nbsp;&nbsp;LPC上的增強&nbsp;<BR>
+發信站:&nbsp;BBS&nbsp;水木清華站&nbsp;(Sat&nbsp;May&nbsp;16&nbsp;19:06:09&nbsp;1998)&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mudos&nbsp;V22版本相比V11版而言，LPC中新增了class類型，新增了一些&nbsp;<BR>
+efunc，以下一一說明。&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;V22版本中的class類型類似於C中struct,LPC的句法如下：&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;class&nbsp;class_name&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type&nbsp;member_name1;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type&nbsp;member_name2;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;};&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;注意成員只能是變量。&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;聲明一個class對像時句法是&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;class&nbsp;class_name&nbsp;object_name;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;使用對像之前應該先對對像初始話：&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;object_name&nbsp;=&nbsp;new&nbsp;(&nbsp;class&nbsp;class_name&nbsp;);&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在應用class對像的成員時應該使用&nbsp;-&gt;&nbsp;符號。&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;object_name&nbsp;-&gt;&nbsp;member_name1&nbsp;=&nbsp;0;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;以下是一個LPC例子：&nbsp;<BR>
+&nbsp;<BR>
+class&nbsp;npcdata&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;string&nbsp;name;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;age;&nbsp;<BR>
+};&nbsp;<BR>
+&nbsp;<BR>
+class&nbsp;npcdata&nbsp;*&nbsp;data;&nbsp;<BR>
+&nbsp;<BR>
+int&nbsp;set_npcdata(int&nbsp;id,string&nbsp;n,int&nbsp;a)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if(nullp(data)){&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data=allocate(10);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data[id]=new(class&nbsp;npcdata);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data[id]-&gt;name=n;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data[id]-&gt;a=n;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;從使用效果來看，這個class類型與一個array的作用差不多。&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;為支持class類型，增加了關鍵字new，前面已經有了介紹。&nbsp;<BR>
+多了一個classp的efunc，用來判斷一個參數是否class類型。&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+※&nbsp;來源:‧BBS&nbsp;水木清華站&nbsp;bbs.net.tsinghua.edu.cn‧[FROM:&nbsp;166.111.10.143]&nbsp;<BR>
+<A HREF="00000001.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一頁</A>
+<A HREF="index.htm">回到目錄</A>
+<A HREF="#top">回到頁首</A>
+<A HREF="00000003.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+</BODY></HTML>

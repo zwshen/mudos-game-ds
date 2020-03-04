@@ -1,0 +1,6 @@
+#/obj/user.c
+conditions ([])
+dbase (["DS_DATA_VERSION":19991107,"evil":-1,"Merits":(["sou":0,"wit":0,"bar":0,"bio":0,"tec":0,]),"attitude":"peaceful","gender":"¨k©Ê","unit":"¦ì","supply_point":26,"addition_armor":10,"name":"¢ê¢í¢ë¢ó","channels":({"chat","rumor","tchat",}),"volume":7,"talk_point":8,"birthday":1172223080,"actions":,"age":14,"race":"celestial","addition_damage":10,"max_mp":110,"guild_gifts":({5,5,5,5,}),"startroom":"/open/world1/tmr/area/hotel","max_hp":80,"default_actions":,"newbie":1,"exp":777,"dex":2,"mp":110,"max_ap":60,"int":2,"ap":60,"con":2,"id":"beck","addition_shield":10,"mud_age":186,"str":2,"level":1,"cure_count":13,"last_location":"/open/world1/tmr/area/fc1","hp":80,"heart_beat_rate":6,])
+autoload ({})
+toDoList ([])
+solved ({})

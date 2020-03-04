@@ -1,0 +1,720 @@
+[Fri Aug  3 17:33:57 2001] u/p/piliykt/¬ã¨s©Ò.c line 3: parse error before  create()
+
+[Fri Aug  3 17:49:25 2001] u/p/piliykt/¬ã¨s©Ò.c line 2: parse error before  ROOM;
+
+[Fri Aug  3 17:54:01 2001] u/p/piliykt/¬ã¨s©Ò.c line 2: parse error before  ROOM;
+
+[Fri Aug  3 17:54:05 2001] u/p/piliykt/¬ã¨s©Ò.c line 2: parse error before  ROOM;
+
+[Fri Aug  3 17:57:22 2001] u/p/piliykt/¬ã¨s©Ò.c line 2: parse error before  ROOM;
+
+[Fri Aug  3 17:57:24 2001] u/p/piliykt/¬ã¨s©Ò.c line 2: parse error before  ROOM;
+
+[Fri Aug  3 18:00:09 2001] u/p/piliykt/¬ã¨s©Ò.c line 2: parse error before  ROOM;
+
+[Fri Aug  3 18:12:14 2001] u/p/piliykt/workroom.c line 3: Undefined variable 'HIC' before NOR);; set("long", @
+
+[Fri Aug  3 18:12:14 2001] u/p/piliykt/workroom.c line 3: parse error before NOR);; set("long", @
+
+[Fri Aug  3 18:12:14 2001] u/p/piliykt/workroom.c line 4: End of file in text block before /world1/acme/area/""
+
+[Fri Aug  3 18:12:53 2001] u/p/piliykt/workroom.c line 3: Undefined variable 'HIC' before NOR);; set("long", @
+
+[Fri Aug  3 18:12:53 2001] u/p/piliykt/workroom.c line 3: parse error before NOR);; set("long", @
+
+[Fri Aug  3 18:12:53 2001] u/p/piliykt/workroom.c line 4: End of file in text block before 	);
+
+[Fri Aug  3 18:13:25 2001] u/p/piliykt/workroom.c line 3: Undefined variable 'HIC' before NOR);; set("long", @
+
+[Fri Aug  3 18:13:25 2001] u/p/piliykt/workroom.c line 3: parse error before NOR);; set("long", @
+
+[Fri Aug  3 18:13:25 2001] u/p/piliykt/workroom.c line 4: End of file in text block before 	);
+
+[Fri Aug  3 18:13:37 2001] u/p/piliykt/workroom.c line 3: Undefined variable 'HIC' before NOR);; set("long", @
+
+[Fri Aug  3 18:13:37 2001] u/p/piliykt/workroom.c line 3: parse error before NOR);; set("long", @
+
+[Fri Aug  3 18:13:37 2001] u/p/piliykt/workroom.c line 4: End of file in text block before 	);
+
+[Fri Aug  3 18:18:18 2001] u/p/piliykt/workroom.c line 4: parse error before  create()
+
+[Fri Aug  3 18:18:46 2001] u/p/piliykt/workroom.c line 4: parse error before  create()
+
+[Fri Aug  3 18:18:54 2001] u/p/piliykt/workroom.c line 4: parse error before  create()
+
+[Fri Aug  3 18:30:16 2001] u/p/piliykt/workroom.c line 2: Illegal to redefine 'nomask' function "_query" before void create();{;set(
+
+[Fri Aug  3 18:30:16 2001] u/p/piliykt/workroom.c line 2: Illegal to redefine 'nomask' function "_delete" before void create();{;set(
+
+[Fri Aug  3 18:30:16 2001] u/p/piliykt/workroom.c line 2: Illegal to redefine 'nomask' function "_set" before void create();{;set(
+
+[Fri Aug  3 18:30:16 2001] u/p/piliykt/workroom.c line 2: Illegal to redefine 'nomask' function "light" before void create();{;set(
+
+[Fri Aug  3 18:30:16 2001] u/p/piliykt/workroom.c line 2: Illegal to redefine 'nomask' function "add_light" before void create();{;set(
+
+[Fri Aug  3 18:30:16 2001] u/p/piliykt/workroom.c line 2: parse error before ;set("short","piliyk
+
+[Fri Aug  3 18:31:24 2001] u/p/piliykt/workroom.c line 2: Illegal to redefine 'nomask' function "_query" before void create()
+
+[Fri Aug  3 18:31:24 2001] u/p/piliykt/workroom.c line 2: Illegal to redefine 'nomask' function "_delete" before void create()
+
+[Fri Aug  3 18:31:24 2001] u/p/piliykt/workroom.c line 2: Illegal to redefine 'nomask' function "_set" before void create()
+
+[Fri Aug  3 18:31:24 2001] u/p/piliykt/workroom.c line 2: Illegal to redefine 'nomask' function "light" before void create()
+
+[Fri Aug  3 18:31:24 2001] u/p/piliykt/workroom.c line 2: Illegal to redefine 'nomask' function "add_light" before void create()
+
+[Fri Aug  3 18:31:24 2001] u/p/piliykt/workroom.c line 15: Illegal to redefine 'nomask' function "_query" before void create();{;set(
+
+[Fri Aug  3 18:32:00 2001] u/p/piliykt/workroom.c line 2: Illegal to redefine 'nomask' function "_query" before void create()
+
+[Fri Aug  3 18:32:00 2001] u/p/piliykt/workroom.c line 2: Illegal to redefine 'nomask' function "_delete" before void create()
+
+[Fri Aug  3 18:32:00 2001] u/p/piliykt/workroom.c line 2: Illegal to redefine 'nomask' function "_set" before void create()
+
+[Fri Aug  3 18:32:00 2001] u/p/piliykt/workroom.c line 2: Illegal to redefine 'nomask' function "light" before void create()
+
+[Fri Aug  3 18:32:00 2001] u/p/piliykt/workroom.c line 2: Illegal to redefine 'nomask' function "add_light" before void create()
+
+[Fri Aug  3 18:32:00 2001] u/p/piliykt/workroom.c line 15: Illegal to redefine 'nomask' function "_query" before void create();{;set(
+
+[Fri Aug  3 18:32:16 2001] u/p/piliykt/workroom.c line 2: Illegal to redefine 'nomask' function "_query" before void create()
+
+[Fri Aug  3 18:32:16 2001] u/p/piliykt/workroom.c line 2: Illegal to redefine 'nomask' function "_delete" before void create()
+
+[Fri Aug  3 18:32:16 2001] u/p/piliykt/workroom.c line 2: Illegal to redefine 'nomask' function "_set" before void create()
+
+[Fri Aug  3 18:32:16 2001] u/p/piliykt/workroom.c line 2: Illegal to redefine 'nomask' function "light" before void create()
+
+[Fri Aug  3 18:32:16 2001] u/p/piliykt/workroom.c line 2: Illegal to redefine 'nomask' function "add_light" before void create()
+
+[Fri Aug  3 18:32:16 2001] u/p/piliykt/workroom.c line 15: Illegal to redefine 'nomask' function "_query" before void create();{;set(
+
+[Fri Aug  3 18:36:16 2001] u/p/piliykt/workroom.c line 3: parse error before  create()
+
+[Fri Aug  3 18:36:38 2001] u/p/piliykt/workroom.c line 3: parse error before  create()
+
+[Fri Aug  3 18:39:49 2001] u/p/piliykt/workroom.c line 3: parse error before  create()
+
+[Fri Aug  3 18:39:59 2001] u/p/piliykt/workroom.c line 3: parse error before  create()
+
+[Sat Aug  4 00:14:20 2001] u/p/piliykt/sword.c line 1: parse error before ;
+
+[Sat Aug  4 00:14:32 2001] u/p/piliykt/sword.c line 1: parse error before ;
+
+[Sat Aug  4 00:17:17 2001] u/p/piliykt/sword.c line 1: parse error before ;
+
+[Sat Aug  4 00:19:11 2001] u/p/piliykt/dagger.c line 3: Undefined function set_name before ;
+
+[Sat Aug  4 00:19:11 2001] u/p/piliykt/dagger.c line 4: Undefined function set_weight before ;
+
+[Sat Aug  4 00:19:11 2001] u/p/piliykt/dagger.c line 13: Undefined function init_dagger before ;
+
+[Sat Aug  4 00:23:39 2001] u/p/piliykt/sword.c line 1: parse error before ;
+
+[Sat Aug  4 00:25:31 2001] u/p/piliykt/sword.c line 1: parse error before ;void create()
+
+[Sat Aug  4 00:28:10 2001] u/p/piliykt/sword.c line 1: parse error before the end of line
+
+[Sat Aug  4 00:42:28 2001] u/p/piliykt/sword.c line 1: parse error before the end of line
+
+[Sat Aug  4 00:44:05 2001] u/p/piliykt/sword.c line 1: parse error before the end of line
+
+[Sat Aug  4 00:47:38 2001] u/p/piliykt/sword.c line 1: parse error before the end of line
+
+[Sat Aug  4 00:50:31 2001] u/p/piliykt/sword.c line 1: parse error before ;
+
+[Sat Aug  4 00:51:51 2001] u/p/piliykt/sword.c line 1: parse error before ;
+
+[Sat Aug  4 01:09:26 2001] u/p/piliykt/sword.c line 1: parse error before ;
+
+[Sat Aug  4 01:11:35 2001] u/p/piliykt/sword.c line 1: parse error before ;
+
+[Sat Aug  4 01:20:50 2001] u/p/piliykt/sword.c line 1: parse error before ;
+
+[Sat Aug  4 01:23:29 2001] u/p/piliykt/sword.c line 1: parse error before ;
+
+[Sat Aug  4 13:12:24 2001] u/p/piliykt/workroom.c line 2: parse error before  ROOM ;void create()
+
+[Sat Aug  4 13:12:24 2001] u/p/piliykt/workroom.c line 2: Illegal to redefine 'nomask' function "_query" before void create()
+
+[Sat Aug  4 13:12:24 2001] u/p/piliykt/workroom.c line 2: Illegal to redefine 'nomask' function "_delete" before void create()
+
+[Sat Aug  4 13:12:24 2001] u/p/piliykt/workroom.c line 2: Illegal to redefine 'nomask' function "_set" before void create()
+
+[Sat Aug  4 13:12:24 2001] u/p/piliykt/workroom.c line 2: Illegal to redefine 'nomask' function "light" before void create()
+
+[Sat Aug  4 13:12:24 2001] u/p/piliykt/workroom.c line 2: Illegal to redefine 'nomask' function "add_light" before void create()
+
+[Sat Aug  4 13:15:37 2001] u/p/piliykt/workroom.c line 2: parse error before  ROOM ;
+
+[Sat Aug  4 13:44:17 2001] u/p/piliykt/sword.c line 1: parse error before ;
+
+[Sat Aug  4 13:44:37 2001] u/p/piliykt/sword.c line 1: parse error before ;
+
+[Sat Aug  4 14:11:31 2001] u/p/piliykt/eq/sky_sword.c line 2: parse error before ;
+
+[Sat Aug  4 14:12:28 2001] u/p/piliykt/eq/sky_sword.c line 2: parse error before ;
+
+[Sat Aug  4 14:14:08 2001] u/p/piliykt/eq/sky_sword.c line 3: parse error before ;
+
+[Sat Aug  4 14:16:25 2001] u/p/piliykt/eq/sky_sword.c line 3: parse error before ;
+
+[Sat Aug  4 14:17:05 2001] u/p/piliykt/eq/sky_sword.c line 3: parse error before ;
+
+[Sat Aug  4 17:15:33 2001] u/p/piliykt/workroom.c line 27: parse error before the end of file
+
+[Sat Aug  4 17:15:41 2001] u/p/piliykt/workroom.c line 27: parse error before the end of file
+
+[Sat Aug  4 17:33:59 2001] u/p/piliykt/eq/sky armor.c line 6: parse error before  "sky armor","armor"
+
+[Sat Aug  4 17:38:26 2001] u/p/piliykt/eq/sky armor.c line 6: parse error before  "sky armor","armor"
+
+[Sat Aug  4 17:42:07 2001] u/p/piliykt/eq/sky armor.c line 4: parse error before  ARMOR;
+
+[Sat Aug  4 20:40:39 2001] u/p/piliykt/big tree.c line 29: End of file in text block before ¡R\n		\n		\n		mail <
+
+[Sat Aug  4 20:40:39 2001] u/p/piliykt/big tree.c line 29: parse error before ¡R\n		\n		\n		mail <
+
+[Sat Aug  4 23:16:56 2001] u/p/piliykt/big_tree.c line 19: Undefined variable '__DIR__road_1' before c       
+
+[Sat Aug  4 23:16:56 2001] u/p/piliykt/big_tree.c line 19: parse error before c       
+
+[Sat Aug  4 23:43:01 2001] u/p/piliykt/road_1.c line 5: Undefined function set before ;
+
+[Sat Aug  4 23:43:01 2001] u/p/piliykt/road_1.c line 20: Undefined function setup before ;
+
+[Sat Aug 11 14:17:08 2001] u/p/piliykt/workroom.c line 31: End of file in string before         set("light",
+
+[Sat Aug 11 14:17:08 2001] u/p/piliykt/workroom.c line 31: parse error before         set("light",
+
+[Sat Aug 11 14:18:12 2001] u/p/piliykt/workroom.c line 2: parse error before  ROOM;
+
+[Sat Aug 11 14:19:06 2001] u/p/piliykt/workroom.c line 2: parse error before  ROOM;
+
+[Sat Aug 11 14:19:22 2001] u/p/piliykt/workroom.c line 2: parse error before  ROOM;
+
+[Sat Aug 11 14:19:30 2001] u/p/piliykt/workroom.c line 2: parse error before  ROOM;
+
+[Sat Aug 11 14:19:34 2001] u/p/piliykt/workroom.c line 2: parse error before  ROOM;
+
+[Sat Aug 11 15:25:40 2001] u/p/piliykt/road_3.c line 11: parse error before ("outdoors", "desert
+
+[Sat Aug 11 15:27:29 2001] u/p/piliykt/road_3.c line 3: parse error before  ROOM;
+
+[Sat Aug 11 15:27:55 2001] u/p/piliykt/road_3.c line 3: parse error before  ROOM;
+
+[Sat Aug 11 17:24:30 2001] u/p/piliykt/shop_1.c line 1: parse error before [30m
+
+[Sat Aug 11 22:00:19 2001] u/p/piliykt/road_8.c line 2: parse error before  ROOM;
+
+[Sat Aug 11 22:27:13 2001] u/p/piliykt/master.c line 21: parse error before ú¸Õ¥Îªºmaster
+
+[Sat Aug 11 22:28:13 2001] u/p/piliykt/master.c line 17: parse error before ú¸Õ¥Îªºmaster
+
+[Sat Aug 11 22:30:08 2001] u/p/piliykt/master.c line 3: parse error before  NPC;
+
+[Sat Aug 11 22:32:10 2001] u/p/piliykt/master.c line 3: parse error before  NPC;
+
+[Sat Aug 11 22:49:01 2001] u/p/piliykt/workroom.c line 2: parse error before  ROOM;
+
+[Sun Aug 12 10:36:25 2001] u/p/piliykt/workroom.c line 24: parse error before obj/board/piliykt_b,
+
+[Sun Aug 12 10:36:33 2001] u/p/piliykt/workroom.c line 24: parse error before obj/board/piliykt_b,
+
+[Sun Aug 12 11:20:10 2001] u/p/piliykt/workroom.c line 24: parse error before obj/board/piliykt_b,
+
+[Sun Aug 12 11:20:44 2001] u/p/piliykt/workroom.c line 24: parse error before obj/board/piliykt_b,
+
+[Sun Aug 12 11:20:46 2001] u/p/piliykt/workroom.c line 24: parse error before obj/board/piliykt_b,
+
+[Sun Aug 12 11:25:05 2001] u/p/piliykt/workroom.c line 1: parse error before include <weapon.h>
+
+[Sun Aug 12 11:25:41 2001] u/p/piliykt/workroom.c line 1: parse error before include <weapon.h>
+
+[Sun Aug 12 11:26:03 2001] u/p/piliykt/workroom.c line 1: parse error before include <weapon.h>
+
+[Sun Aug 12 12:03:59 2001] u/p/piliykt/npc/sell_man.c line 8: Warning: Unknown \ escape. before c½æ¤@¨Ç©_¯Sªºª««~¡C\
+
+[Thu Aug 16 17:05:01 2001] u/p/piliykt/eq/rad_sword.c line 1: parse error before the end of line
+
+[Thu Aug 16 17:05:32 2001] u/p/piliykt/eq/rad_sword.c line 1: parse error before the end of line
+
+[Thu Aug 16 17:06:58 2001] u/p/piliykt/eq/longsword.c line 1: parse error before the end of line
+
+[Thu Aug 16 17:11:13 2001] u/p/piliykt/eq/long_sword.c line 1: parse error before the end of line
+
+[Thu Aug 16 17:11:21 2001] u/p/piliykt/eq/long_sword.c line 1: parse error before the end of line
+
+[Thu Aug 16 17:39:20 2001] u/p/piliykt/sword_1.c line 1: parse error before the end of line
+
+[Thu Aug 16 17:42:03 2001] u/p/piliykt/sword_1.c line 1: parse error before the end of line
+
+[Thu Aug 16 17:44:11 2001] u/p/piliykt/eq/skysky.c line 1: parse error before the end of line
+
+[Thu Aug 16 17:54:32 2001] u/p/piliykt/test/k_sword.c line 2: parse error before ;
+
+[Thu Aug 16 17:55:51 2001] u/p/piliykt/test/k_sword.c line 2: parse error before ;
+
+[Thu Aug 16 17:58:23 2001] u/p/piliykt/test/k_sword.c line 9: Undefined variable 'long' before ³o¬O¤@§â¤j¯«¥Îªº¼C¡C
+
+[Thu Aug 16 17:58:23 2001] u/p/piliykt/test/k_sword.c line 9: parse error before o¬O¤@§â¤j¯«¥Îªº¼C¡C\
+
+[Thu Aug 16 17:58:23 2001] u/p/piliykt/test/k_sword.c line 9: Illegal terminator before §â¤j¯«¥Îªº¼C¡C\n);  
+
+[Thu Aug 16 18:00:58 2001] u/p/piliykt/test/k_sword.c line 11: Undefined variable 'long' before "³o¬O¤@§â¤j¯«¥Îªº¼C¡
+
+[Thu Aug 16 18:00:58 2001] u/p/piliykt/test/k_sword.c line 12: Undefined variable 'unit' before "§â"); 
+
+[Thu Aug 16 18:00:58 2001] u/p/piliykt/test/k_sword.c line 13: Undefined variable 'value' before 1000); 
+
+[Thu Aug 16 18:00:58 2001] u/p/piliykt/test/k_sword.c line 14: Undefined variable 'material' before diamond);        
+
+[Thu Aug 16 18:00:58 2001] u/p/piliykt/test/k_sword.c line 14: Undefined variable 'diamond' before ;        
+
+[Thu Aug 16 18:00:58 2001] u/p/piliykt/test/k_sword.c line 18: parse error before x
+
+[Sun Aug 19 01:09:37 2001] u/p/piliykt/eq/master_1.c line 16: Warning: Unknown \ escape. before Ò¥~,ÁÙ½m¤FÅK¨F´x,¥L\
+
+[Sun Aug 19 01:09:37 2001] u/p/piliykt/eq/master_1.c line 17: Warning: Unknown \ escape. before w¨ì¹F¯«¤H¦X¤@ªº¦a¨B,
+
+[Sun Aug 19 01:09:41 2001] u/p/piliykt/eq/master_1.c line 16: Warning: Unknown \ escape. before Ò¥~,ÁÙ½m¤FÅK¨F´x,¥L\
+
+[Sun Aug 19 01:09:41 2001] u/p/piliykt/eq/master_1.c line 17: Warning: Unknown \ escape. before w¨ì¹F¯«¤H¦X¤@ªº¦a¨B,
+
+[Sun Aug 19 01:57:13 2001] u/p/piliykt/npc/master_1.c line 16: Warning: Unknown \ escape. before Ò¥~,ÁÙ½m¤FÅK¨F´x,¥L\
+
+[Sun Aug 19 01:57:13 2001] u/p/piliykt/npc/master_1.c line 17: Warning: Unknown \ escape. before w¨ì¹F¯«¤H¦X¤@ªº¦a¨B,
+
+[Sun Aug 19 02:00:18 2001] u/p/piliykt/npc/master_1.c line 16: Warning: Unknown \ escape. before Ò¥~,ÁÙ½m¤FÅK¨F´x,¥L\
+
+[Sun Aug 19 02:00:18 2001] u/p/piliykt/npc/master_1.c line 17: Warning: Unknown \ escape. before w¨ì¹F¯«¤H¦X¤@ªº¦a¨B,
+
+[Sun Aug 19 02:01:47 2001] u/p/piliykt/npc/master_1.c line 15: Undefined variable 'long' before @LONG
+
+[Sun Aug 19 02:01:47 2001] u/p/piliykt/npc/master_1.c line 20: parse error before ("chat_chance",5);
+
+[Sun Aug 19 02:02:33 2001] u/p/piliykt/npc/master_1.c line 15: Undefined variable 'long' before @LONG
+
+[Sun Aug 19 02:02:33 2001] u/p/piliykt/npc/master_1.c line 19: parse error before ("chat_chance",5);
+
+[Sun Aug 19 02:03:11 2001] u/p/piliykt/npc/master_1.c line 15: Undefined variable 'long' before @LONG
+
+[Sun Aug 19 02:03:11 2001] u/p/piliykt/npc/master_1.c line 20: parse error before ("chat_chance",5);
+
+[Sun Aug 19 02:05:02 2001] u/p/piliykt/npc/master_1.c line 6: Undefined variable 'long' before @LONG
+
+[Sun Aug 19 02:05:02 2001] u/p/piliykt/npc/master_1.c line 11: parse error before ("unarmed", 150);
+
+[Sun Aug 19 02:09:25 2001] u/p/piliykt/npc/master_1.c line 16: Warning: Unknown \ escape. before Ò¥~,ÁÙ½m¤FÅK¨F´x,¥L\
+
+[Sun Aug 19 02:09:25 2001] u/p/piliykt/npc/master_1.c line 17: Warning: Unknown \ escape. before w¨ì¹F¯«¤H¦X¤@ªº¦a¨B,
+
+[Sun Aug 19 15:10:07 2001] u/p/piliykt/npc/master_1.c line 16: Warning: Unknown \ escape. before Ò¥~,ÁÙ½m¤FÅK¨F´x,¥L\
+
+[Sun Aug 19 15:10:07 2001] u/p/piliykt/npc/master_1.c line 17: Warning: Unknown \ escape. before w¨ì¹F¯«¤H¦X¤@ªº¦a¨B,
+
+[Sun Aug 19 15:34:09 2001] u/p/piliykt/npc/master_1.c line 17: Warning: Unknown \ escape. before Ò¥~,ÁÙ½m¤FÅK¨F´x,¥L\
+
+[Sun Aug 19 15:34:09 2001] u/p/piliykt/npc/master_1.c line 18: Warning: Unknown \ escape. before w¨ì¹F¯«¤H¦X¤@ªº¦a¨B,
+
+[Sun Aug 19 15:35:31 2001] u/p/piliykt/npc/master_1.c line 19: Warning: Unknown \ escape. before w¨ì¹F¯«¤H¦X¤@ªº¦a¨B,
+
+[Sun Aug 19 15:35:31 2001] u/p/piliykt/npc/master_1.c line 19: Warning: Unknown \ escape. before Q¦b¥L­±«e·d©Ç,¤£µM¤U
+
+[Sun Aug 19 15:38:04 2001] u/p/piliykt/npc/master_1.c line 19: Warning: Unknown \ escape. before w¨ì¹F¯«¤H¦X¤@ªº¦a¨B,
+
+[Sun Aug 19 15:38:04 2001] u/p/piliykt/npc/master_1.c line 19: Warning: Unknown \ escape. before Q¦b¥L­±«e·d©Ç,¤£µM¤U
+
+[Sun Aug 19 15:38:40 2001] u/p/piliykt/npc/master_1.c line 20: Warning: Unknown \ escape. before w¨ì¹F¯«¤H¦X¤@ªº¦a¨B,
+
+[Sun Aug 19 15:38:40 2001] u/p/piliykt/npc/master_1.c line 20: Warning: Unknown \ escape. before Q¦b¥L­±«e·d©Ç,¤£µM¤U
+
+[Sun Aug 19 15:41:37 2001] u/p/piliykt/npc/master_1.c line 6: parse error before j¤º°ª¤â"NOR]¹pÅQ", (
+
+[Sun Aug 19 15:42:53 2001] u/p/piliykt/npc/master_1.c line 6: Undefined variable 'set_name' before HIY"¤j¤º°ª¤â"NOR]¹pÅ
+
+[Sun Aug 19 15:42:53 2001] u/p/piliykt/npc/master_1.c line 6: parse error before HIY"¤j¤º°ª¤â"NOR]¹pÅ
+
+[Sun Aug 19 15:42:53 2001] u/p/piliykt/npc/master_1.c line 19: Illegal terminator before ¨­ªº¥\\¤Ò¥~,ÁÙ½m¤FÅK
+
+[Sun Aug 19 16:24:28 2001] u/p/piliykt/npc/master_1.c line 28: parse error before /Gold-armor")->wear(
+
+[Sun Aug 19 16:24:28 2001] u/p/piliykt/npc/master_1.c line 33: End of file in string before t ob;
+
+[Thu Aug 23 17:01:29 2001] u/p/piliykt/big_tree.c line 1: parse error before include <weapon.h>
+
+[Thu Aug 23 17:01:55 2001] u/p/piliykt/big_tree.c line 1: parse error before include <weapon.h>
+
+[Fri Aug 24 21:30:05 2001] u/p/piliykt/eq/sword_1.c line 1: parse error before include <weapon.h>
+
+[Fri Aug 24 22:57:35 2001] u/p/piliykt/eq/mask_1.c line 8: parse error before (500);
+
+[Fri Aug 24 23:10:31 2001] u/p/piliykt/eq/cloth_1.c line 6: Undefined variable 'HIR' before NOR,({" cloth "}) );
+
+[Fri Aug 24 23:10:31 2001] u/p/piliykt/eq/cloth_1.c line 6: parse error before NOR,({" cloth "}) );
+
+[Fri Aug 24 23:12:12 2001] u/p/piliykt/eq/cloth_1.c line 6: Undefined variable 'HIR' before NOR,({"heart cloth",
+
+[Fri Aug 24 23:12:12 2001] u/p/piliykt/eq/cloth_1.c line 6: parse error before NOR,({"heart cloth",
+
+[Fri Aug 24 23:24:21 2001] u/p/piliykt/eq/cloak_1.c line 4: parse error before  SURCOAT;
+
+[Sun Aug 26 00:16:16 2001] u/p/piliykt/npc/mob_3.c line 2: parse error before  NPC;
+
+[Sun Aug 26 14:30:59 2001] u/p/piliykt/aa_4.c line 3: parse error before  create()
+
+[Sun Aug 26 14:32:46 2001] u/p/piliykt/aa_4.c line 3: parse error before  create()
+
+[Sun Aug 26 14:33:28 2001] u/p/piliykt/aa_4.c line 3: parse error before  create()
+
+[Sun Aug 26 14:34:26 2001] u/p/piliykt/aa_4.c line 3: parse error before  create()
+
+[Sun Aug 26 14:34:50 2001] u/p/piliykt/aa_4.c line 3: parse error before  create()
+
+[Sun Aug 26 14:38:07 2001] u/p/piliykt/aa_4.c line 4: parse error before  create()
+
+[Sun Aug 26 14:39:34 2001] u/p/piliykt/aa_4.c line 3: parse error before  create()
+
+[Sun Aug 26 14:46:14 2001] u/p/piliykt/aa_5.c line 3: parse error before  create()
+
+[Fri Sep  7 11:07:59 2001] u/p/piliykt/workroom.c line 1: parse error before ,([
+
+[Fri Sep  7 11:08:07 2001] u/p/piliykt/workroom.c line 1: parse error before ,([
+
+[Fri Sep  7 11:08:29 2001] u/p/piliykt/workroom.c line 1: parse error before ,([
+
+[Fri Sep  7 21:35:51 2001] u/p/piliykt/area/big_tree.c line 1: parse error before include <weapon.h>
+
+[Fri Sep  7 21:39:08 2001] u/p/piliykt/area/big_tree.c line 1: parse error before include <weapon.h>
+
+[Fri Sep  7 21:40:04 2001] u/p/piliykt/area/big_tree.c line 1: parse error before include <weapon.h>
+
+[Fri Sep  7 23:56:21 2001] u/p/piliykt/area/npc/mob_3.c line 2: parse error before  NPC;
+
+[Sat Sep  8 10:48:50 2001] u/p/piliykt/area/npc/master_11.c line 3: parse error before  *combat_action = ({
+
+[Sat Sep  8 10:49:41 2001] u/p/piliykt/area/npc/master_11.c line 3: parse error before  *combat_action = ({
+
+[Sun Sep  9 00:17:30 2001] u/p/piliykt/area/npc/wp/pike_1.c line 32: parse error before the end of file
+
+[Sun Sep  9 00:24:30 2001] u/p/piliykt/area/npc/wp/pike_1.c line 28: Undefined function init_fork before ;
+
+[Sun Sep  9 00:24:58 2001] u/p/piliykt/area/npc/wp/pike_1.c line 1: parse error before include <ansi.h>
+
+[Sun Sep  9 00:27:15 2001] u/p/piliykt/area/npc/wp/pike_1.c line 1: parse error before include <ansi.h>
+
+[Sun Sep  9 00:28:07 2001] u/p/piliykt/area/npc/wp/pike_1.c line 1: parse error before include <ansi.h>
+
+[Sun Sep  9 00:32:52 2001] u/p/piliykt/area/npc/wp/pike_1.c line 1: parse error before include <weapon.h>
+
+[Sun Sep  9 00:56:58 2001] u/p/piliykt/area/npc/wp/blade_1.c line 5: Undefined variable 'HIB' before NOR, ({ "look sky bl
+
+[Sun Sep  9 00:56:58 2001] u/p/piliykt/area/npc/wp/blade_1.c line 5: parse error before NOR, ({ "look sky bl
+
+[Sun Sep  9 00:57:50 2001] u/p/piliykt/area/npc/wp/blade_1.c line 5: Undefined variable 'HIB' before NOR, ({ "look sky bl
+
+[Sun Sep  9 00:57:50 2001] u/p/piliykt/area/npc/wp/blade_1.c line 5: parse error before NOR, ({ "look sky bl
+
+[Sun Sep  9 13:12:47 2001] u/p/piliykt/area/npc/eq/cloak_1.c line 1: parse error before the end of line
+
+[Sun Sep  9 13:13:35 2001] u/p/piliykt/area/npc/eq/cloak_1.c line 1: parse error before the end of line
+
+[Sun Sep  9 13:15:06 2001] u/p/piliykt/area/npc/eq/cloak_1.c line 1: parse error before the end of line
+
+[Sun Sep  9 13:29:06 2001] u/p/piliykt/area/npc/eq/ring_1.c line 1: parse error before include <armor.h>
+
+[Fri Sep 14 11:15:39 2001] u/p/piliykt/npc/a_1.c line 2: parse error before  ROOM;
+
+[Fri Sep 14 11:20:31 2001] u/p/piliykt/area/a_1.c line 2: parse error before  ROOM;
+
+[Sun Sep 16 00:32:05 2001] u/p/piliykt/area/npc/test1.c line 51: parse error before the end of line
+
+[Sun Sep 16 17:36:07 2001] u/p/piliykt/pill.c line 3: Undefined variable 'HIR' before HIW"ªº"HIC"¤pÃÄ¤Y"NO
+
+[Sun Sep 16 17:36:07 2001] u/p/piliykt/pill.c line 3: parse error before HIW"ªº"HIC"¤pÃÄ¤Y"NO
+
+[Sun Sep 16 17:36:07 2001] u/p/piliykt/pill.c line 11: Illegal LHS before  ob = this_object();
+
+[Sun Sep 16 17:36:07 2001] u/p/piliykt/pill.c line 11: Undefined variable 'ob' before  this_object();;  if
+
+[Sun Sep 16 17:36:07 2001] u/p/piliykt/pill.c line 11: parse error before ;  if( !this_object(
+
+[Sun Sep 16 17:36:07 2001] u/p/piliykt/pill.c line 13: $var illegal outside of function pointer. before N"HIR"±q¸Ì­±¨«¤F¥X¨Ó
+
+[Sun Sep 16 22:53:17 2001] u/p/piliykt/pill.c line 20: parse error before Â·tÅ]¥M"NOR","HIY¤@°
+
+[Sun Sep 16 22:53:17 2001] u/p/piliykt/pill.c line 27: End of file in string before obj/void", 1);
+
+[Sun Sep 16 22:53:27 2001] u/p/piliykt/pill.c line 20: parse error before Â·tÅ]¥M"NOR","HIY¤@°
+
+[Sun Sep 16 22:53:27 2001] u/p/piliykt/pill.c line 27: End of file in string before «~Äæ¡C\n");
+
+[Sun Sep 16 22:54:37 2001] u/p/piliykt/pill.c line 20: parse error before @°}¥ú°{,n$®ø¥¢ªºµL¼v
+
+[Sun Sep 16 22:54:37 2001] u/p/piliykt/pill.c line 20: Illegal terminator before °}¥ú°{,n$®ø¥¢ªºµL¼vµ
+
+[Sun Sep 16 22:55:11 2001] u/p/piliykt/pill.c line 24: parse error before ]ªk"HIW"¤p"HIC"ÃÄ¤Y"
+
+[Sun Sep 16 22:55:11 2001] u/p/piliykt/pill.c line 27: End of file in string before Äæ¡C\n");
+
+[Sun Sep 16 22:58:36 2001] u/p/piliykt/pill.c line 24: parse error before ]ªk"HIW"¤p"HIC"ÃÄ¤Y"
+
+[Sun Sep 16 22:58:36 2001] u/p/piliykt/pill.c line 27: End of file in string before 	if(!present("mail_o
+
+[Sun Sep 16 23:01:03 2001] u/p/piliykt/pill.c line 23: parse error before $¼L¸Ì³ä³äªº©ÀµÛ©G»y"
+
+[Sun Sep 16 23:01:03 2001] u/p/piliykt/pill.c line 23: $var illegal outside of function pointer. before ¼L¸Ì³ä³äªº©ÀµÛ©G»y"H
+
+[Sun Sep 16 23:01:03 2001] u/p/piliykt/pill.c line 23: Illegal terminator before Áû¤õ²y¦V$n­¸¤F¹L¥h"H
+
+[Sun Sep 16 23:02:09 2001] u/p/piliykt/pill.c line 23: parse error before $¼L¸Ì³ä³äªº©ÀµÛ©G»y"
+
+[Sun Sep 16 23:02:09 2001] u/p/piliykt/pill.c line 23: $var illegal outside of function pointer. before ¼L¸Ì³ä³äªº©ÀµÛ©G»y"H
+
+[Sun Sep 16 23:02:09 2001] u/p/piliykt/pill.c line 23: Illegal terminator before Áû¤õ²y¦V$n­¸¤F¹L¥h"H
+
+[Sun Sep 16 23:03:48 2001] u/p/piliykt/pill.c line 24: parse error before y®É¥þ¨­µo¥XHIW"¥Õ¥ú\
+
+[Fri Sep 28 16:40:06 2001] u/p/piliykt/area/npc/eq/armor_1.c line 4: parse error before  ARMOR;
+
+[Fri Sep 28 22:55:35 2001] u/p/piliykt/area/npc/eq/neck_1.c line 11: Warning: Unknown \ escape. before hªº¬Ã¯]©Ò½s¦ê¦Ó¦¨,\n
+
+[Fri Sep 28 22:55:39 2001] u/p/piliykt/area/npc/eq/neck_1.c line 11: Warning: Unknown \ escape. before hªº¬Ã¯]©Ò½s¦ê¦Ó¦¨,\n
+
+[Fri Sep 28 22:58:26 2001] u/p/piliykt/area/npc/eq/neck_1.c line 11: Warning: Unknown \ escape. before hªº¬Ã¯]©Ò½s¦ê¦Ó¦¨,\n
+
+[Fri Sep 28 23:00:18 2001] u/p/piliykt/area/npc/eq/neck_1.c line 1: parse error before include <armor.h>
+
+[Fri Sep 28 23:07:40 2001] u/p/piliykt/area/npc/eq/neck_1.c line 1: parse error before include <armor.h>
+
+[Sun Sep 30 16:06:53 2001] u/p/piliykt/area/rr_2.c line 2: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Sun Sep 30 16:06:53 2001] u/p/piliykt/area/rr_2.c line 2: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Sun Sep 30 16:06:53 2001] u/p/piliykt/area/rr_2.c line 2: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Sun Sep 30 16:06:53 2001] u/p/piliykt/area/rr_2.c line 2: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Sun Sep 30 16:06:53 2001] u/p/piliykt/area/rr_2.c line 2: Illegal to redefine 'nomask' function "add_light" before the end of line
+
+[Sun Sep 30 16:06:53 2001] u/p/piliykt/area/rr_2.c line 37: Redeclaration of function create. before the end of line
+
+[Sun Sep 30 23:58:59 2001] u/p/piliykt/area/rr_2.c line 2: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Sun Sep 30 23:58:59 2001] u/p/piliykt/area/rr_2.c line 2: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Sun Sep 30 23:58:59 2001] u/p/piliykt/area/rr_2.c line 2: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Sun Sep 30 23:58:59 2001] u/p/piliykt/area/rr_2.c line 2: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Sun Sep 30 23:58:59 2001] u/p/piliykt/area/rr_2.c line 2: Illegal to redefine 'nomask' function "add_light" before the end of line
+
+[Sun Sep 30 23:58:59 2001] u/p/piliykt/area/rr_2.c line 36: Redeclaration of function create. before the end of line
+
+[Mon Oct  1 18:10:37 2001] u/p/piliykt/workroom_1.c line 5: Undefined variable 'HIC' before NOR);
+
+[Mon Oct  1 18:10:37 2001] u/p/piliykt/workroom_1.c line 5: parse error before NOR);
+
+[Tue Oct  2 10:13:17 2001] u/p/piliykt/a_2.c line 22: Undefined variable 'sigh' before  @LONG
+
+[Tue Oct  2 10:13:17 2001] u/p/piliykt/a_2.c line 30: Undefined variable 'computer' before  @LONG
+
+[Tue Oct  2 12:08:15 2001] u/p/piliykt/area/aa_10.c line 22: parse error before the end of line
+
+[Tue Oct  2 12:08:51 2001] u/p/piliykt/area/aa_10.c line 22: parse error before the end of line
+
+[Tue Oct  2 12:33:35 2001] u/p/piliykt/area/npc/master_1.c line 43: parse error before F±¼¤F¡C\n\n"+NOR,use
+
+[Tue Oct  2 12:33:35 2001] u/p/piliykt/area/npc/master_1.c line 49: End of file in string before     +str+" ¤v¥[¤	""
+
+[Tue Oct  2 12:33:41 2001] u/p/piliykt/area/npc/master_1.c line 43: parse error before F±¼¤F¡C\n\n"+NOR,use
+
+[Tue Oct  2 12:33:41 2001] u/p/piliykt/area/npc/master_1.c line 49: End of file in string before     +str+" ¤v¥[¤	""
+
+[Tue Oct  2 12:34:41 2001] u/p/piliykt/area/npc/master_1.c line 43: parse error before F±¼¤F¡C\n\n"+NOR,use
+
+[Tue Oct  2 12:34:41 2001] u/p/piliykt/area/npc/master_1.c line 49: End of file in string before n") ) return 0;
+
+[Tue Oct  2 14:54:30 2001] u/p/piliykt/area/npc/master_1.c line 43: parse error before F±¼¤F¡C\n\n"+NOR,use
+
+[Tue Oct  2 14:54:30 2001] u/p/piliykt/area/npc/master_1.c line 49: End of file in string before ¹, m ¬°µ²§ô¦æ¸¹. ¦pª
+
+[Tue Oct  2 14:55:26 2001] u/p/piliykt/area/npc/master_1.c line 43: parse error before F±¼¤F¡C"\n\n"+NOR,us
+
+[Tue Oct  2 14:59:34 2001] u/p/piliykt/area/npc/master_1.c line 3: parse error before  NPC;
+
+[Tue Oct  2 15:01:38 2001] u/p/piliykt/area/npc/master_1.c line 43: parse error before F±¼¤F¡C\n\n"+NOR,use
+
+[Tue Oct  2 15:01:38 2001] u/p/piliykt/area/npc/master_1.c line 49: End of file in string before tart_light(0);
+
+[Tue Oct  2 15:12:31 2001] u/p/piliykt/area/npc/master_1.c line 43: parse error before F±¼¤F¡C\n\n"NOR,user
+
+[Tue Oct  2 15:12:31 2001] u/p/piliykt/area/npc/master_1.c line 49: End of file in string before ÂI¡C\n\n",
+
+[Tue Oct  2 15:15:46 2001] u/p/piliykt/area/npc/master_1.c line 43: parse error before "³Q "HIW + ob->name(
+
+[Tue Oct  2 15:16:29 2001] u/p/piliykt/area/npc/master_1.c line 43: parse error before "³Q"HIW + ob->name(1
+
+[Tue Oct  2 15:24:09 2001] u/p/piliykt/area/npc/master_1.c line 43: parse error before º¤â¤¤¡C\n\n"+NOR
+
+[Tue Oct  2 15:24:09 2001] u/p/piliykt/area/npc/master_1.c line 52: End of file in string before ry("chance") )
+
+[Tue Oct  2 15:25:31 2001] u/p/piliykt/area/npc/master_1.c line 43: parse error before º¤â¤¤¡C\n\n"+NOR
+
+[Tue Oct  2 15:25:31 2001] u/p/piliykt/area/npc/master_1.c line 52: End of file in string before   object me;
+
+[Tue Oct  2 15:26:28 2001] u/p/piliykt/area/npc/master_1.c line 43: parse error before º¤â¤¤¡C\n\n"+NOR
+
+[Tue Oct  2 15:26:28 2001] u/p/piliykt/area/npc/master_1.c line 52: End of file in string before ct me;
+
+[Tue Oct  2 15:47:22 2001] u/p/piliykt/area/npc/eq/gloves_1.c line 2: parse error before ;
+
+[Tue Oct  2 15:47:58 2001] u/p/piliykt/area/npc/eq/gloves_1.c line 2: parse error before ;
+
+[Tue Oct  2 15:49:00 2001] u/p/piliykt/area/npc/eq/gloves_1.c line 6: parse error before Ú¦ò·O´d".");
+
+[Tue Oct  2 15:49:25 2001] u/p/piliykt/area/npc/eq/gloves_1.c line 6: parse error before Ú¦ò·O´d". ");
+
+[Tue Oct  2 15:49:57 2001] u/p/piliykt/area/npc/eq/gloves_1.c line 19: parse error before ();
+
+[Tue Oct  2 16:06:42 2001] u/p/piliykt/area/npc/eq/hands_1.c line 30: Illegal to redefine 'nomask' function "query" before the end of line
+
+[Tue Oct  2 16:06:42 2001] u/p/piliykt/area/npc/eq/hands_1.c line 30: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Tue Oct  2 16:06:42 2001] u/p/piliykt/area/npc/eq/hands_1.c line 30: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Tue Oct  2 16:06:42 2001] u/p/piliykt/area/npc/eq/hands_1.c line 30: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Tue Oct  2 16:06:42 2001] u/p/piliykt/area/npc/eq/hands_1.c line 30: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Tue Oct  2 16:06:42 2001] u/p/piliykt/area/npc/eq/hands_1.c line 30: Illegal to redefine 'nomask' function "query_encumbrance" before the end of line
+
+[Sun Oct 14 06:54:04 2001] u/p/piliykt/area/npc/eq/cloth_1.c line 6: parse error before "³P¸Æ"NOR ,({ "buddh
+
+[Sun Nov  4 05:35:27 2001] u/p/piliykt/area/npc/obj/wine_1.c line 2: parse error before  ITEM;
+
+[Fri Dec 14 21:04:20 2001] u/p/piliykt/area/npc/obj/soup_1.c line 10: Warning: Unknown \ escape. before hªºÃÄ§÷,©Ò¼õ¿L¥X¨Óªº
+
+[Fri Dec 14 21:05:28 2001] u/p/piliykt/area/npc/obj/soup_1.c line 10: Warning: Unknown \ escape. before hªºÃÄ§÷,©Ò¼õ¿L¥X¨Óªº
+
+[Fri Dec 14 21:06:12 2001] u/p/piliykt/area/npc/obj/soup_1.c line 11: Warning: Unknown \ escape. before hªºÃÄ§÷,©Ò¼õ¿L¥X¨Óªº
+
+[Fri Dec 14 21:48:08 2001] u/p/piliykt/area/sex_1.c line 19: End of file in text block before                set("
+
+[Fri Dec 14 21:48:08 2001] u/p/piliykt/area/sex_1.c line 19: parse error before                set("
+
+[Sun Dec 16 00:51:36 2001] u/p/piliykt/area/up_1.c line 2: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Sun Dec 16 00:51:36 2001] u/p/piliykt/area/up_1.c line 2: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Sun Dec 16 00:51:36 2001] u/p/piliykt/area/up_1.c line 2: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Sun Dec 16 00:51:36 2001] u/p/piliykt/area/up_1.c line 2: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Sun Dec 16 00:51:36 2001] u/p/piliykt/area/up_1.c line 2: Illegal to redefine 'nomask' function "add_light" before the end of line
+
+[Sun Dec 16 00:51:36 2001] u/p/piliykt/area/up_1.c line 40: Redeclaration of function create. before the end of line
+
+[Fri Dec 28 00:48:36 2001] u/p/piliykt/area/big_tree.c line 39: parse error before  init()
+
+[Fri Dec 28 01:02:14 2001] u/p/piliykt/area/big_tree.c line 39: parse error before  init()
+
+[Fri Dec 28 01:03:00 2001] u/p/piliykt/area/big_tree.c line 57: parse error before  1;
+
+[Fri Dec 28 01:04:03 2001] u/p/piliykt/area/big_tree.c line 57: parse error before  1;
+
+[Sat Dec 29 18:56:28 2001] u/p/piliykt/area/big_tree.c line 1: parse error before [30m
+
+[Sat Dec 29 18:56:38 2001] u/p/piliykt/area/big_tree.c line 51: parse error before  1;
+
+[Sat Dec 29 18:59:37 2001] u/p/piliykt/area/big_tree.c line 51: parse error before  1;
+
+[Sat Dec 29 18:59:56 2001] u/p/piliykt/area/big_tree.c line 51: parse error before  1;
+
+[Sat Dec 29 19:10:27 2001] u/p/piliykt/area/big_tree.c line 42: Warning: Unknown \ escape. before õ¤W¤F¤j¯«¤ì¡C\n",me)
+
+[Sat Dec 29 19:11:06 2001] u/p/piliykt/area/big_tree.c line 42: Warning: Unknown \ escape. before õ¤W¤F¤j¯«¤ì¡C\n",me)
+
+[Sat Dec 29 19:14:09 2001] u/p/piliykt/area/big_tree.c line 42: Warning: Unknown \ escape. before ¸õ¤W¤F¤j¯«¤ì¡C\n",me
+
+[Sat Dec 29 19:16:22 2001] u/p/piliykt/area/big_tree.c line 42: Warning: Unknown \ escape. before ¸õ¤W¤F¤j¯«¤ì¡C\n",me
+
+[Sat Jan 19 01:01:55 2002] u/p/piliykt/area/tree1.c line 6: parse error before «¤ì);
+
+[Sat Jan 19 01:03:57 2002] u/p/piliykt/area/tree1.c line 5: parse error before «¤ì);
+
+[Sat Jan 19 01:05:27 2002] u/p/piliykt/area/tree1.c line 4: parse error before «¤ì);
+
+[Sat Feb 23 00:21:14 2002] u/p/piliykt/test/sword_1.c line 4: parse error before  create()
+
+[Sat Feb 23 08:08:06 2002] u/p/piliykt/area/tree4.c line 21: parse error before the end of file
+
+[Sat Feb 23 08:28:38 2002] u/p/piliykt/area/tree5.c line 17: Reserved type name unexpected. before ()
+
+[Sat Feb 23 08:28:38 2002] u/p/piliykt/area/tree5.c line 17: parse error before ()
+
+[Sat Feb 23 08:28:38 2002] u/p/piliykt/area/tree5.c line 35: parse error before the end of line
+
+[Sun Mar 10 14:59:08 2002] u/p/piliykt/area/npc/master_2.c line 82: Illegal to inherit after defining global variables. before the end of line
+
+[Sun Mar 10 14:59:08 2002] u/p/piliykt/area/npc/master_2.c line 82: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Sun Mar 10 14:59:08 2002] u/p/piliykt/area/npc/master_2.c line 82: Illegal to redefine 'nomask' function "query_busy" before the end of line
+
+[Sun Mar 10 14:59:08 2002] u/p/piliykt/area/npc/master_2.c line 82: Illegal to redefine 'nomask' function "is_busy" before the end of line
+
+[Sun Mar 10 14:59:08 2002] u/p/piliykt/area/npc/master_2.c line 82: Illegal to redefine 'nomask' function "is_block" before the end of line
+
+[Sun Mar 10 14:59:08 2002] u/p/piliykt/area/npc/master_2.c line 82: Illegal to redefine 'nomask' function "command_hook" before the end of line
+
+[Sun Apr  7 00:02:00 2002] u/p/piliykt/area/npc/trainee1.c line 20: parse error before  );
+
+[Sun Apr  7 00:02:48 2002] u/p/piliykt/area/npc/trainee1.c line 19: parse error before  );
+
+[Sat May 25 21:56:03 2002] u/p/piliykt/area/npc/doctor.c line 6: parse error before " }) );
+
+[Sat May 25 21:56:03 2002] u/p/piliykt/area/npc/doctor.c line 32: End of file in string before 			"/obj/void" )
+
+[Sun May  4 15:53:38 2003] u/p/piliykt/test/sword.c line 196: parse error before ");
+
+[Sun May  4 15:58:08 2003] u/p/piliykt/test/sword.c line 189: parse error before (!me->is_fighting(ta
+
+[Sun May  4 15:58:08 2003] u/p/piliykt/test/sword.c line 200: Undefined variable 'ob' before query_int()
+
+[Sun May  4 15:58:08 2003] u/p/piliykt/test/sword.c line 201: Illegal LHS before the end of file
+
+[Sun May  4 15:58:08 2003] u/p/piliykt/test/sword.c line 201: parse error before the end of file
+
+[Sun Jul  6 14:50:08 2003] u/p/piliykt/pill2.c line 20: parse error before A$N"HIR"¤j¥s¤@Án:¡u¯
+
+[Sun Jul  6 14:50:08 2003] u/p/piliykt/pill2.c line 20: $var illegal outside of function pointer. before N"HIR"¤j¥s¤@Án:¡u¯«¬
+
+[Sun Jul  6 14:50:08 2003] u/p/piliykt/pill2.c line 20: Illegal terminator before Án:¡u¯«¬O¸U¯àªº¡v"NO
+
+[Sun Jul  6 14:51:07 2003] u/p/piliykt/pill2.c line 20: parse error before }¸Ì­¸¥X¤@¦W»r¤k¡A§â$
+
+[Sun Jul  6 14:51:07 2003] u/p/piliykt/pill2.c line 20: Illegal terminator before ¦W»r¤k¡A§â$Nµ¹·m¨«¤F
+
+[Sun Jul  6 14:56:14 2003] u/p/piliykt/pill2.c line 20: $var illegal outside of function pointer. before N¤j¥s¤@Án:¡u¯«¬O¸U¯à
+
+[Sun Jul  6 14:56:14 2003] u/p/piliykt/pill2.c line 20: parse error before N¤j¥s¤@Án:¡u¯«¬O¸U¯à
+
+[Sun Jul  6 14:56:14 2003] u/p/piliykt/pill2.c line 20: Illegal terminator before Án:¡u¯«¬O¸U¯àªº¡v¡A"
+
+[Sun Jul  6 15:11:41 2003] u/p/piliykt/pill2.c line 21: parse error before n"NOR);
+
+[Sun Jul  6 15:11:41 2003] u/p/piliykt/pill2.c line 22: $var illegal outside of function pointer. before N»R°Ê¤â¤Wªº"HIM"¶Â·t
+
+[Sun Jul  6 15:11:41 2003] u/p/piliykt/pill2.c line 22: $var illegal outside of function pointer. before n¤@°}¥ú°{´NÅÜ¤F¥X¨Ó.
+
+[Sun Jul  6 15:11:41 2003] u/p/piliykt/pill2.c line 22: Illegal terminator before °}¥ú°{´NÅÜ¤F¥X¨Ó.\n"
+
+[Sun Jul  6 15:12:19 2003] u/p/piliykt/pill2.c line 21: parse error before n"NOR);
+
+[Sun Jul  6 15:12:19 2003] u/p/piliykt/pill2.c line 22: $var illegal outside of function pointer. before N»R°Ê¤â¤Wªº"HIM"¶Â·t
+
+[Sun Jul  6 15:12:19 2003] u/p/piliykt/pill2.c line 22: $var illegal outside of function pointer. before n¤@°}¥ú°{´NÅÜ¤F¥X¨Ó.
+
+[Sun Jul  6 15:12:19 2003] u/p/piliykt/pill2.c line 22: Illegal terminator before °}¥ú°{´NÅÜ¤F¥X¨Ó.\n"
+

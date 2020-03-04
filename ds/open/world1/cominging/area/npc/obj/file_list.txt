@@ -1,0 +1,16 @@
+¥Ø¿ý¡R/open/world1/cominging/area/npc/obj/
+appill.c            ¦^¤¸¤¦              bag.c               ¤p¥¬³U            
+big-pill.c          ¤º®§¤¦              cloth.c             ¯QÅúµ·¥¬          
+cloth1.c            µµ±ê¥¬              cloth2.c            ÂÅ¥¬              
+cloth3.c            »Èµ·                cloth4.c            µ·µ³              
+cloth5.c            ²ÊÅú¥¬              cloth6.c            ÀA½v              
+flower.c            ¬õÀsªá              gcflower.c          µµÄ¬¥ÉÄõ          
+gsflower.c          µµÄ¬¥ÉÄõ            heal_stone.c        ³Á±ë¥Û            
+metallizer.c        ª÷¨F                musci.c             Äö­a              
+oldman_book.c       ¤p¥U¤l              orange.c            ¬h¾í              
+pdragon-herb.c      µµÀs¯ó              shelf.c             ®Ñ¬[              
+sign.c              §i¥ÜµP              toy.c               µ£ª±              
+tp_candy.c          ¼í³ï¿}              tp_candy_bak.c      ¼í³ï¿}            
+well.c              ¤ô¤«                winebag.c           °s³U              
+winepot.c           ¤@²~²~ªº°sÂ|        wtree.c             ±ï®ä¾ð            
+

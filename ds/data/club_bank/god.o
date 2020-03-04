@@ -1,0 +1,4 @@
+#/adm/daemons/bankd.c
+dbase (["channel_id":"À°·|»È¦æºÞ²zºëÆF(Bank elf)","club_id":"god","location":"/open/world1/god_club/bank.c",])
+bank_amount (["past":387247850,"now":38442178,"future":197666872,])
+bank_record (["withdraw":"[36m¡@¡@¡@manto ©ó Mon Oct 20 13:59:40 2008 withdraw 1 ªT»ÉªO¡C[2;37;0m","deposit":"[36m¡@¡@¡@whitecat ©ó Mon Nov  3 07:48:31 2008 deposit 1000 ªT»ÉªO¡C[2;37;0m[36m¡@¡@¡@physical ©ó Fri Nov 21 23:04:15 2008 deposit 10000 ªT»ÉªO¡C[2;37;0m[36m¡@¡@¡@whitecat ©ó Fri Nov 21 23:43:31 2008 deposit 1000 ªT»ÉªO¡C[2;37;0m[36m¡@¡@¡@watermoon ©ó Tue Dec 16 19:30:22 2008 deposit 50000 ªT»ÉªO¡C[2;37;0m[36m¡@¡@¡@aqqa ©ó Sun Feb 22 08:18:38 2009 deposit 20000 ªT»ÉªO¡C[2;37;0m",])

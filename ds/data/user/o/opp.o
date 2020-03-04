@@ -1,0 +1,8 @@
+#/obj/user.c
+dbase (["DS_DATA_VERSION":19991107,"max_hp":84,"heart_modify":0,"attitude":"peaceful","addition_shield":10,"Merits":(["bar":0,"tec":0,"sou":0,"bio":0,"wit":0,]),"cure_count":4,"last_location":"/open/world1/tmr/area/street4","heart_beat_rate":6,"talk_point":8,"combat_exp":1,"channels":({"chat","rumor","tchat",}),"addition_armor":10,"mud_age":2770,"mp":66,"newbie":1,"exp":1871,"dex":2,"hp":84,"int":2,"con":2,"level":1,"wound":(["left_arm":0,"body":0,"left_leg":0,"head":0,"right_leg":0,"right_arm":0,]),"birthday":1231359359,"max_ap":100,"supply_point":60,"unit":"¦ì","evil":23,"default_actions":,"war_score":4,"actions":,"guild_gifts":({5,5,5,5,}),"age":14,"max_mp":66,"ap":100,"volume":7,"mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog","/open/world1/tmr/area/npc/dog","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove",}),"race":"evil","MKS":10,"id":"opp","addition_damage":10,"startroom":"/open/world1/tmr/area/hotel","gender":"¤k©Ê","str":2,"bank":(["past":5,]),"name":"«Î",])
+skills (["parry":1,"combat":5,"dodge":2,"unarmed":3,"strong-body":3,])
+learned (["parry":2,"combat":12,"dodge":2,"unarmed":16,"strong-body":32,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

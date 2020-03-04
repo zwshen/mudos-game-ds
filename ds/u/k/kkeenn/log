@@ -1,0 +1,44 @@
+[Mon Sep 20 20:37:11 2004] u/k/kkeenn/obj/classroom.c line 25: parse error before ??);
+
+[Mon Sep 20 20:37:11 2004] u/k/kkeenn/obj/classroom.c line 37: Illegal LHS before the end of line
+
+[Mon Sep 20 20:37:11 2004] u/k/kkeenn/obj/classroom.c line 37: parse error before the end of line
+
+[Mon Sep 20 20:37:11 2004] u/k/kkeenn/obj/classroom.c line 38: Undefined variable 'me' before ;
+
+[Mon Sep 20 20:37:11 2004] u/k/kkeenn/obj/classroom.c line 38: Illegal LHS before the end of line
+
+[Mon Sep 20 20:37:11 2004] u/k/kkeenn/obj/classroom.c line 38: parse error before the end of line
+
+[Mon Sep 20 20:39:23 2004] u/k/kkeenn/obj/classroom.c line 25: parse error before ??);
+
+[Mon Sep 20 20:39:23 2004] u/k/kkeenn/obj/classroom.c line 37: Illegal LHS before the end of line
+
+[Mon Sep 20 20:39:23 2004] u/k/kkeenn/obj/classroom.c line 37: parse error before the end of line
+
+[Mon Sep 20 20:39:23 2004] u/k/kkeenn/obj/classroom.c line 38: Undefined variable 'me' before ;
+
+[Mon Sep 20 20:39:23 2004] u/k/kkeenn/obj/classroom.c line 38: Illegal LHS before the end of line
+
+[Mon Sep 20 20:39:23 2004] u/k/kkeenn/obj/classroom.c line 38: parse error before the end of line
+
+[Sun Oct 31 01:21:59 2004] u/k/kkeenn/obj/classroom.c line 25: parse error before ??);
+
+[Sun Oct 31 01:21:59 2004] u/k/kkeenn/obj/classroom.c line 37: Illegal LHS before the end of line
+
+[Sun Oct 31 01:21:59 2004] u/k/kkeenn/obj/classroom.c line 37: parse error before the end of line
+
+[Sun Oct 31 01:21:59 2004] u/k/kkeenn/obj/classroom.c line 38: Undefined variable 'me' before ;
+
+[Sun Oct 31 01:21:59 2004] u/k/kkeenn/obj/classroom.c line 38: Illegal LHS before the end of line
+
+[Sun Oct 31 01:21:59 2004] u/k/kkeenn/obj/classroom.c line 38: parse error before the end of line
+
+[Wed Mar 26 19:19:08 2008] /u/k/kkeenn/obj/item.c line 26: Warning: Unused local variable 'env' around the end of line
+
+[Wed Mar 26 19:21:50 2008] /u/k/kkeenn/origami/npc/master.c line 104: Warning: Unused local variable 'i' around the end of line
+
+[Wed Jul 15 23:32:03 2009] /u/k/kkeenn/obj/item.c line 26: Warning: Unused local variable 'env' before the end of line
+
+[Wed Jul 15 23:55:39 2009] /u/k/kkeenn/origami/npc/master.c line 104: Warning: Unused local variable 'i' before the end of line
+

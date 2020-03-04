@@ -1,0 +1,58 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清華站︰精華區</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+<A Name="top"></a>
+發信人:&nbsp;applica&nbsp;(琪琪),&nbsp;信區:&nbsp;Mud_Builder&nbsp;<BR>
+標&nbsp;&nbsp;題:&nbsp;Re:&nbsp;UNIX&nbsp;and&nbsp;NT&nbsp;<BR>
+發信站:&nbsp;BBS&nbsp;水木清華站&nbsp;(Sat&nbsp;Nov&nbsp;22&nbsp;12:06:28&nbsp;1997)&nbsp;<BR>
+&nbsp;<BR>
+【&nbsp;在&nbsp;minux&nbsp;(minux)&nbsp;的大作中提到:&nbsp;】&nbsp;<BR>
+︰<I>&nbsp;標&nbsp;&nbsp;題:&nbsp;Re:&nbsp;UNIX&nbsp;and&nbsp;NT&nbsp;</I><BR>
+︰<I>&nbsp;發信站:&nbsp;BBS&nbsp;水木清華站&nbsp;(Sat&nbsp;Nov&nbsp;22&nbsp;10:00:49&nbsp;1997)&nbsp;</I><BR>
+︰<I>&nbsp;&nbsp;</I><BR>
+︰<I>&nbsp;【&nbsp;在&nbsp;lmec&nbsp;(求真)&nbsp;的大作中提到:&nbsp;】&nbsp;</I><BR>
+︰<I>&nbsp;:&nbsp;請問，UNIX上的MUD和NT上的除了DRivers不同以外，還有其他不同嗎？&nbsp;</I><BR>
+︰<I>&nbsp;:&nbsp;為什麼MUD&nbsp;of&nbsp;UNIX的源碼無法在NT上運行？&nbsp;</I><BR>
+︰<I>&nbsp;:&nbsp;Thank&nbsp;a&nbsp;lots!!!&nbsp;</I><BR>
+︰<I>&nbsp;&nbsp;</I><BR>
+︰<I>&nbsp;是config沒設好吧？？&nbsp;</I><BR>
+沒什麼太大的不同，但還是有一些的。&nbsp;<BR>
+unix源碼--&gt;95源碼大致要做如下改動&nbsp;<BR>
+1。去掉&nbsp;private說明&nbsp;<BR>
+2。修改函數說明使更嚴格，&nbsp;<BR>
+如int&nbsp;function();&nbsp;<BR>
+...&nbsp;<BR>
+int&nbsp;function(string&nbsp;arg){}&nbsp;<BR>
+改成int&nbsp;function(string&nbsp;arg);&nbsp;<BR>
+...&nbsp;<BR>
+int&nbsp;function(string&nbsp;arg){}&nbsp;<BR>
+或幹脆註釋掉。&nbsp;<BR>
+3。由於去掉了private說明，因此有些變量名變成了全局變量。&nbsp;<BR>
+所以在一些函數中用了和這些變量名同名的變量回發生錯誤。&nbsp;<BR>
+我遇到的有new,in等。&nbsp;<BR>
+4。就是random問題，前面有專述。&nbsp;<BR>
+5。去掉#pra...(記不清了)&nbsp;<BR>
+6。基本兵器的問題，我的方法是自己做&nbsp;sword.c等，然後改&nbsp;<BR>
+/feature/attack.c&nbsp;<BR>
+︰<I>&nbsp;&nbsp;</I><BR>
+︰<I>&nbsp;--&nbsp;</I><BR>
+︰<I>&nbsp;※&nbsp;來源:‧BBS&nbsp;水木清華站&nbsp;bbs.net.tsinghua.edu.cn‧[FROM:&nbsp;202.116.65.13]&nbsp;</I><BR>
+&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+時間過的太快了&nbsp;<BR>
+&nbsp;<BR>
+※&nbsp;來源:‧BBS&nbsp;水木清華站&nbsp;bbs.net.tsinghua.edu.cn‧[FROM:&nbsp;166.111.5.66]&nbsp;<BR>
+<A HREF="00000000.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一頁</A>
+<A HREF="index.htm">回到目錄</A>
+<A HREF="#top">回到頁首</A>
+<A HREF="00000002.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+</BODY></HTML>

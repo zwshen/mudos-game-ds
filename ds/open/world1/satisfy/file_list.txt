@@ -1,0 +1,8 @@
+¥Ø¿ý¡R/open/world1/satisfy/
+bestaxe.c           ´ïÂÅ©ò              bestfork.c          µµª÷ºj            
+bestneck.c          ¤K¨ö²Å¥O            bestsword.c         «C©¥¼C            
+fairfist.c          ÅK®±®M              fairring.c          »A¥É§Ù            
+fairsword.c         »È¦âµu¼C            lightwaist.c        µo¥ú±a            
+moonshade.c         ¤ë·w¥Ò              poorboots.c         ¶¶­·¾c            
+poorcloth.c         µw¥Ö¦ç              poordagger.c        ¤p¤M              
+skyflying.c         µ¾¤ÑÁl              

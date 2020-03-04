@@ -1,0 +1,7 @@
+#/obj/user.c
+conditions ([])
+dbase (["heart_modify":0,"hp":120,"heart_beat_rate":6,"unit":"¦ì","volume":7,"popularity":11,"attitude":"peaceful","addition_shield":10,"nickname":"¾Ô  ¯« (warlord)[0m","newbie":1,"exp":71867,"addition_armor":10,"dex":2,"int":2,"con":2,"str":2,"level":5,"id":"dunhill","DS_DATA_VERSION":19991107,"addition_damage":10,"evil":-1,"mud_age":174,"channels":({"chat","rumor","tchat","god",}),"default_actions":,"birthday":1173379686,"last_location":"/open/world1/tmr/area/hotel","gender":"¤k©Ê","name":"©_ÂÝ","age":14,"wound":(["body":0,"right_arm":0,"left_arm":0,"right_leg":0,"left_leg":0,"head":0,]),"guild_rank":"¦¨¼ô¼a´Aªº¤p©h®Q","race":"ogre","startroom":"/open/world1/tmr/area/hotel","env":(["report_action":"YES",]),"actions":,"guild_gifts":({5,5,5,5,}),"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"war_art":13,"cure_count":13,"max_mp":54,"max_hp":120,"supply_point":81,"max_ap":66,"ap":66,"mp":54,"talk_point":15,])
+items ({})
+autoload ({"/open/always/god_mark",})
+toDoList ([])
+solved ({})

@@ -1,0 +1,2776 @@
+[Sat Sep  4 00:21:08 1999] u/s/suez/workroom.c line 5: Undefined function set
+
+[Sat Sep  4 00:21:08 1999] u/s/suez/workroom.c line 13: Undefined function setup
+
+[Sat Sep  4 00:21:45 1999] u/s/suez/workroom.c line 5: Undefined function set
+
+[Sat Sep  4 00:21:45 1999] u/s/suez/workroom.c line 13: Undefined function setup
+
+[Sat Sep  4 00:21:55 1999] u/s/suez/workroom.c line 5: Undefined function set
+
+[Sat Sep  4 00:21:55 1999] u/s/suez/workroom.c line 13: Undefined function setup
+
+[Sat Sep  4 00:26:46 1999] u/s/suez/workroom.c line 5: Undefined function set
+
+[Sat Sep  4 00:26:46 1999] u/s/suez/workroom.c line 13: Undefined function setup
+
+[Sat Sep  4 00:26:46 1999] u/s/suez/workroom.c line 14: parse error
+
+[Sat Sep  4 00:28:46 1999] u/s/suez/workroom.c line 5: Undefined function set
+
+[Sat Sep  4 00:28:46 1999] u/s/suez/workroom.c line 11: End of file in text block
+
+[Sat Sep  4 00:28:46 1999] u/s/suez/workroom.c line 11: Undefined variable 'andis'
+
+
+[Sat Sep  4 00:28:46 1999] u/s/suez/workroom.c line 11: Bad argument 2 to '/': "string "
+
+[Sat Sep  4 00:28:46 1999] u/s/suez/workroom.c line 12: parse error
+
+[Sat Sep  4 00:28:59 1999] u/s/suez/workroom.c line 5: Undefined function set
+
+[Sat Sep  4 00:28:59 1999] u/s/suez/workroom.c line 11: End of file in text block
+
+[Sat Sep  4 00:28:59 1999] u/s/suez/workroom.c line 11: parse error
+
+[Sat Sep  4 00:28:59 1999] u/s/suez/workroom.c line 11: Illegal terminator
+
+[Sat Sep  4 00:28:59 1999] u/s/suez/workroom.c line 11: Text block exceeded maximum length
+
+[Sat Sep  4 01:20:55 1999] u/s/suez/workroom.c line 20: parse error
+
+[Sat Sep  4 01:21:15 1999] u/s/suez/workroom.c line 20: parse error
+
+[Sat Sep  4 01:22:55 1999] u/s/suez/workroom.c line 19: parse error
+
+[Sat Sep  4 01:25:14 1999] u/s/suez/workroom.c line 20: parse error
+
+[Sat Sep  4 01:30:21 1999] u/s/suez/workroom.c line 5: parse error
+
+[Sat Sep  4 01:30:46 1999] u/s/suez/workroom.c line 5: parse error
+
+[Sat Sep  4 01:32:27 1999] u/s/suez/workroom.c line 12: parse error
+
+[Sat Sep  4 01:33:59 1999] u/s/suez/workroom.c line 17: parse error
+
+[Sat Sep  4 01:37:18 1999] u/s/suez/workroom.c line 20: parse error
+
+[Sat Sep  4 01:37:24 1999] u/s/suez/workroom.c line 20: parse error
+
+[Sat Sep  4 02:18:26 1999] u/s/suez/workroom.c line 18: parse error
+
+[Sat Sep  4 02:18:40 1999] u/s/suez/workroom.c line 18: parse error
+
+[Sat Sep  4 02:22:48 1999] u/s/suez/workroom.c line 4: Illegal to redefine 'nomask' function "_query"
+
+[Sat Sep  4 02:22:48 1999] u/s/suez/workroom.c line 4: Illegal to redefine 'nomask' function "_delete"
+
+[Sat Sep  4 02:22:48 1999] u/s/suez/workroom.c line 4: Illegal to redefine 'nomask' function "_set"
+
+[Sat Sep  4 02:22:48 1999] u/s/suez/workroom.c line 48: parse error
+
+[Sat Sep  4 02:38:01 1999] u/s/suez/workroom.c line 27: Illegal to redefine 'nomask' function "_query"
+
+[Sat Sep  4 02:38:01 1999] u/s/suez/workroom.c line 27: Illegal to redefine 'nomask' function "_delete"
+
+[Sat Sep  4 02:38:01 1999] u/s/suez/workroom.c line 27: Illegal to redefine 'nomask' function "_set"
+
+[Sat Sep  4 02:38:01 1999] u/s/suez/workroom.c line 41: Redeclaration of function create.
+
+[Sat Sep  4 02:38:01 1999] u/s/suez/workroom.c line 46: Redeclaration of function init.
+
+[Sat Sep  4 03:10:04 1999] u/s/suez/workroom.c line 31: parse error
+
+[Sat Sep  4 03:10:59 1999] u/s/suez/workroom.c line 31: parse error
+
+[Sat Sep  4 15:28:34 1999] u/s/suez/workroom.c line 20: parse error
+
+[Sat Sep  4 15:30:46 1999] u/s/suez/workroom.c line 20: parse error
+
+[Sun Sep  5 13:15:26 1999] u/s/suez/mob/fong-wu-yen.c line 6: parse error
+
+[Sun Sep  5 13:15:26 1999] u/s/suez/mob/fong-wu-yen.c line 10: $var illegal outside of function.
+
+[Sun Sep  5 13:15:26 1999] u/s/suez/mob/fong-wu-yen.c line 10: $var illegal outside of function.
+
+[Sun Sep  5 13:15:26 1999] u/s/suez/mob/fong-wu-yen.c line 10: $var illegal outside of function.
+
+[Sun Sep  5 13:17:01 1999] u/s/suez/mob/fong.c line 6: parse error
+
+[Sun Sep  5 13:17:01 1999] u/s/suez/mob/fong.c line 10: $var illegal outside of function.
+
+[Sun Sep  5 13:17:01 1999] u/s/suez/mob/fong.c line 10: $var illegal outside of function.
+
+[Sun Sep  5 13:17:01 1999] u/s/suez/mob/fong.c line 10: $var illegal outside of function.
+
+[Sun Sep  5 13:20:36 1999] u/s/suez/mob/fong-wu-yen.c line 10: $var illegal outside of function.
+
+[Sun Sep  5 13:20:36 1999] u/s/suez/mob/fong-wu-yen.c line 10: parse error
+
+[Sun Sep  5 13:20:36 1999] u/s/suez/mob/fong-wu-yen.c line 10: $var illegal outside of function.
+
+[Sun Sep  5 13:20:36 1999] u/s/suez/mob/fong-wu-yen.c line 10: $var illegal outside of function.
+
+[Sun Sep  5 13:20:36 1999] u/s/suez/mob/fong-wu-yen.c line 10: $var illegal outside of function.
+
+[Sun Sep  5 13:22:00 1999] u/s/suez/mob/fong-wu-yen.c line 21: parse error
+
+[Sun Sep  5 13:50:46 1999] u/s/suez/mob/fong-wu-yen.c line 15: parse error
+
+[Sun Sep  5 13:50:46 1999] u/s/suez/mob/fong-wu-yen.c line 38: End of file in text block
+
+[Sun Sep  5 13:50:46 1999] u/s/suez/mob/fong-wu-yen.c line 38: Illegal terminator
+
+[Sun Sep  5 13:50:46 1999] u/s/suez/mob/fong-wu-yen.c line 38: Text block exceeded maximum length
+
+[Sun Sep  5 13:50:46 1999] u/s/suez/mob/fong-wu-yen.c line 67: Illegal terminator
+
+[Sun Sep  5 13:50:46 1999] u/s/suez/mob/fong-wu-yen.c line 67: Text block exceeded maximum length
+
+[Sun Sep  5 13:52:27 1999] u/s/suez/mob/fong-wu-yen.c line 15: parse error
+
+[Sun Sep  5 13:52:27 1999] u/s/suez/mob/fong-wu-yen.c line 38: End of file in text block
+
+[Sun Sep  5 13:52:27 1999] u/s/suez/mob/fong-wu-yen.c line 39: Undefined variable 'arg'
+
+
+[Sun Sep  5 13:52:27 1999] u/s/suez/mob/fong-wu-yen.c line 39: Illegal LHS
+
+[Sun Sep  5 13:52:27 1999] u/s/suez/mob/fong-wu-yen.c line 39: parse error
+
+[Sun Sep  5 13:52:27 1999] u/s/suez/mob/fong-wu-yen.c line 47: Undefined variable 'ob'
+
+
+[Sun Sep  5 13:54:33 1999] u/s/suez/mob/fong-wu-yen.c line 38: End of file in text block
+
+[Sun Sep  5 13:54:33 1999] u/s/suez/mob/fong-wu-yen.c line 38: parse error
+
+[Sun Sep  5 13:54:33 1999] u/s/suez/mob/fong-wu-yen.c line 43: Illegal terminator
+
+[Sun Sep  5 13:54:33 1999] u/s/suez/mob/fong-wu-yen.c line 43: Text block exceeded maximum length
+
+[Sun Sep  5 13:54:33 1999] u/s/suez/mob/fong-wu-yen.c line 48: End of file in string
+
+[Sun Sep  5 14:00:41 1999] u/s/suez/mob/fong-wu-yen.c line 35: parse error
+
+[Sun Sep  5 14:18:21 1999] u/s/suez/workroom.c line 24: parse error
+
+[Sun Sep  5 14:19:05 1999] u/s/suez/workroom.c line 25: A reserved type name cannot be used as a function name.
+
+
+[Sun Sep  5 14:19:05 1999] u/s/suez/workroom.c line 25: parse error
+
+[Sun Sep  5 14:27:00 1999] u/s/suez/mob/fong-wu-yen.c line 36: parse error
+
+[Sun Sep  5 14:27:00 1999] u/s/suez/mob/fong-wu-yen.c line 41: End of file in string
+
+[Sun Sep  5 14:28:45 1999] u/s/suez/mob/fong-wu-yen.c line 36: parse error
+
+[Sun Sep  5 14:28:45 1999] u/s/suez/mob/fong-wu-yen.c line 41: End of file in string
+
+[Sun Sep  5 15:12:40 1999] u/s/suez/eq/cloud_dagger.c line 5: Undefined variable 'HIB'
+
+
+[Sun Sep  5 15:12:40 1999] u/s/suez/eq/cloud_dagger.c line 5: parse error
+
+[Sun Sep  5 15:12:40 1999] u/s/suez/eq/cloud_dagger.c line 26: $var illegal outside of function.
+
+[Sun Sep  5 15:12:40 1999] u/s/suez/eq/cloud_dagger.c line 26: Illegal terminator
+
+[Sun Sep  5 15:12:40 1999] u/s/suez/eq/cloud_dagger.c line 26: Text block exceeded maximum length
+
+[Sun Sep  5 15:12:40 1999] u/s/suez/eq/cloud_dagger.c line 26: $var illegal outside of function.
+
+[Sun Sep  5 15:18:00 1999] u/s/suez/eq/cloud_dagger.c line 12: parse error
+
+[Sun Sep  5 15:18:00 1999] u/s/suez/eq/cloud_dagger.c line 26: $var illegal outside of function.
+
+[Sun Sep  5 15:18:00 1999] u/s/suez/eq/cloud_dagger.c line 26: Illegal terminator
+
+[Sun Sep  5 15:18:00 1999] u/s/suez/eq/cloud_dagger.c line 26: Text block exceeded maximum length
+
+[Sun Sep  5 15:18:00 1999] u/s/suez/eq/cloud_dagger.c line 26: $var illegal outside of function.
+
+[Sun Sep  5 15:18:00 1999] u/s/suez/eq/cloud_dagger.c line 26: $var illegal outside of function.
+
+[Sun Sep  5 15:19:22 1999] u/s/suez/eq/cloud_dagger.c line 12: parse error
+
+[Sun Sep  5 15:19:22 1999] u/s/suez/eq/cloud_dagger.c line 26: $var illegal outside of function.
+
+[Sun Sep  5 15:19:22 1999] u/s/suez/eq/cloud_dagger.c line 26: Illegal terminator
+
+[Sun Sep  5 15:19:22 1999] u/s/suez/eq/cloud_dagger.c line 26: Text block exceeded maximum length
+
+[Sun Sep  5 15:19:22 1999] u/s/suez/eq/cloud_dagger.c line 26: $var illegal outside of function.
+
+[Sun Sep  5 15:19:22 1999] u/s/suez/eq/cloud_dagger.c line 26: $var illegal outside of function.
+
+[Sun Sep  5 15:21:07 1999] u/s/suez/eq/cloud_dagger.c line 12: parse error
+
+[Sun Sep  5 15:21:07 1999] u/s/suez/eq/cloud_dagger.c line 26: $var illegal outside of function.
+
+[Sun Sep  5 15:21:07 1999] u/s/suez/eq/cloud_dagger.c line 26: Illegal terminator
+
+[Sun Sep  5 15:21:07 1999] u/s/suez/eq/cloud_dagger.c line 26: Text block exceeded maximum length
+
+[Sun Sep  5 15:21:07 1999] u/s/suez/eq/cloud_dagger.c line 26: $var illegal outside of function.
+
+[Sun Sep  5 15:21:07 1999] u/s/suez/eq/cloud_dagger.c line 26: $var illegal outside of function.
+
+[Sun Sep  5 15:28:20 1999] u/s/suez/eq/cloud_dagger.c line 12: parse error
+
+[Sun Sep  5 15:28:20 1999] u/s/suez/eq/cloud_dagger.c line 26: $var illegal outside of function.
+
+[Sun Sep  5 15:28:20 1999] u/s/suez/eq/cloud_dagger.c line 26: Illegal terminator
+
+[Sun Sep  5 15:28:20 1999] u/s/suez/eq/cloud_dagger.c line 26: Text block exceeded maximum length
+
+[Sun Sep  5 15:28:20 1999] u/s/suez/eq/cloud_dagger.c line 26: $var illegal outside of function.
+
+[Sun Sep  5 15:28:20 1999] u/s/suez/eq/cloud_dagger.c line 26: $var illegal outside of function.
+
+[Sun Sep  5 15:32:05 1999] u/s/suez/eq/cloud_dagger.c line 12: parse error
+
+[Sun Sep  5 15:32:05 1999] u/s/suez/eq/cloud_dagger.c line 18: $var illegal outside of function.
+
+[Sun Sep  5 15:32:05 1999] u/s/suez/eq/cloud_dagger.c line 18: Illegal terminator
+
+[Sun Sep  5 15:32:05 1999] u/s/suez/eq/cloud_dagger.c line 18: Text block exceeded maximum length
+
+[Sun Sep  5 15:32:05 1999] u/s/suez/eq/cloud_dagger.c line 18: Illegal terminator
+
+[Sun Sep  5 15:32:05 1999] u/s/suez/eq/cloud_dagger.c line 18: Text block exceeded maximum length
+
+[Sun Sep  5 15:33:43 1999] u/s/suez/eq/cloud_dagger.c line 12: parse error
+
+[Sun Sep  5 15:33:43 1999] u/s/suez/eq/cloud_dagger.c line 18: $var illegal outside of function.
+
+[Sun Sep  5 15:33:43 1999] u/s/suez/eq/cloud_dagger.c line 18: Illegal terminator
+
+[Sun Sep  5 15:33:43 1999] u/s/suez/eq/cloud_dagger.c line 18: Text block exceeded maximum length
+
+[Sun Sep  5 15:33:43 1999] u/s/suez/eq/cloud_dagger.c line 18: Illegal terminator
+
+[Sun Sep  5 15:33:43 1999] u/s/suez/eq/cloud_dagger.c line 18: Text block exceeded maximum length
+
+[Sun Sep  5 15:35:17 1999] u/s/suez/eq/cloud_dagger.c line 12: parse error
+
+[Sun Sep  5 15:35:17 1999] u/s/suez/eq/cloud_dagger.c line 18: $var illegal outside of function.
+
+[Sun Sep  5 15:35:17 1999] u/s/suez/eq/cloud_dagger.c line 18: Illegal terminator
+
+[Sun Sep  5 15:35:17 1999] u/s/suez/eq/cloud_dagger.c line 18: Text block exceeded maximum length
+
+[Sun Sep  5 15:35:17 1999] u/s/suez/eq/cloud_dagger.c line 18: Illegal terminator
+
+[Sun Sep  5 15:35:17 1999] u/s/suez/eq/cloud_dagger.c line 18: Text block exceeded maximum length
+
+[Sun Sep  5 15:38:09 1999] u/s/suez/eq/cloud_dagger.c line 32: parse error
+
+[Sun Sep  5 15:39:59 1999] u/s/suez/eq/cloud_dagger.c line 32: parse error
+
+[Sun Sep  5 15:42:31 1999] u/s/suez/eq/cloud_dagger.c line 32: parse error
+
+[Sun Sep  5 15:46:51 1999] u/s/suez/eq/cloud_dagger.c line 32: parse error
+
+[Sun Sep  5 15:50:21 1999] u/s/suez/eq/cloud_dagger.c line 32: parse error
+
+[Sun Sep  5 15:53:03 1999] u/s/suez/eq/cloud_dagger.c line 32: parse error
+
+[Sun Sep  5 15:53:13 1999] u/s/suez/eq/cloud_dagger.c line 32: parse error
+
+[Sun Sep  5 16:11:11 1999] u/s/suez/mob/fong-wu-yen.c line 40: Undefined variable 'SUEZ'
+
+
+[Sun Sep  5 16:15:32 1999] u/s/suez/mob/fong-wu-yen.c line 41: Undefined variable 'SUEZ'
+
+
+[Sun Sep  5 16:15:32 1999] u/s/suez/mob/fong-wu-yen.c line 41: parse error
+
+[Mon Sep  6 23:46:10 1999] u/s/suez/area/npc/fong-wu-yen.c line 41: Undefined variable '_DIR_'
+
+
+[Mon Sep  6 23:46:10 1999] u/s/suez/area/npc/fong-wu-yen.c line 41: Wrong number of arguments to carry_object
+    Expected: 1  Got: 2
+
+[Mon Sep  6 23:47:12 1999] u/s/suez/area/npc/fong-wu-yen.c line 41: Undefined variable '_DIR_'
+
+
+[Mon Sep  6 23:47:12 1999] u/s/suez/area/npc/fong-wu-yen.c line 41: parse error
+
+[Tue Sep  7 01:03:06 1999] u/s/suez/area/npc/eq/star_robe.c line 5: Undefined function set_name
+
+[Tue Sep  7 01:03:06 1999] u/s/suez/area/npc/eq/star_robe.c line 9: Undefined function set
+
+[Tue Sep  7 01:03:06 1999] u/s/suez/area/npc/eq/star_robe.c line 10: Undefined function set_weight
+
+[Tue Sep  7 01:03:06 1999] u/s/suez/area/npc/eq/star_robe.c line 12: Undefined function set_default_object
+
+[Tue Sep  7 01:03:06 1999] u/s/suez/area/npc/eq/star_robe.c line 27: Undefined function setup
+
+[Tue Sep  7 01:06:09 1999] u/s/suez/area/npc/eq/star_robe.c line 5: Undefined function set_name
+
+[Tue Sep  7 01:06:09 1999] u/s/suez/area/npc/eq/star_robe.c line 9: Undefined function set
+
+[Tue Sep  7 01:06:09 1999] u/s/suez/area/npc/eq/star_robe.c line 10: Undefined function set_weight
+
+[Tue Sep  7 01:06:09 1999] u/s/suez/area/npc/eq/star_robe.c line 12: Undefined function set_default_object
+
+[Tue Sep  7 01:06:09 1999] u/s/suez/area/npc/eq/star_robe.c line 27: Undefined function setup
+
+[Tue Sep  7 01:11:04 1999] u/s/suez/area/npc/eq/star_robe.c line 5: Undefined function set_name
+
+[Tue Sep  7 01:11:04 1999] u/s/suez/area/npc/eq/star_robe.c line 10: Undefined function set
+
+[Tue Sep  7 01:11:04 1999] u/s/suez/area/npc/eq/star_robe.c line 11: Undefined function set_weight
+
+[Tue Sep  7 01:11:04 1999] u/s/suez/area/npc/eq/star_robe.c line 13: Undefined function set_default_object
+
+[Tue Sep  7 01:11:04 1999] u/s/suez/area/npc/eq/star_robe.c line 28: Undefined function setup
+
+[Tue Sep  7 01:13:06 1999] u/s/suez/area/npc/eq/star_robe.c line 1: parse error
+
+[Tue Sep  7 01:16:55 1999] u/s/suez/area/npc/eq/star_robe.c line 1: parse error
+
+[Tue Sep  7 01:20:21 1999] u/s/suez/area/npc/eq/star_robe.c line 1: parse error
+
+[Tue Sep  7 01:22:29 1999] u/s/suez/area/npc/eq/star_robe.c line 12: Wrong number of arguments to set
+    Expected: 2  Got: 5
+
+[Tue Sep  7 01:22:29 1999] u/s/suez/area/npc/eq/star_robe.c line 31: Undefined variable '_DIR_'
+
+
+[Tue Sep  7 01:22:29 1999] u/s/suez/area/npc/eq/star_robe.c line 31: parse error
+
+[Tue Sep  7 01:24:19 1999] u/s/suez/area/npc/eq/star_robe.c line 12: Wrong number of arguments to set
+    Expected: 2  Got: 5
+
+[Tue Sep  7 01:26:54 1999] u/s/suez/area/npc/eq/star_robe.c line 31: Undefined variable '_DIR_'
+
+
+[Tue Sep  7 01:26:54 1999] u/s/suez/area/npc/eq/star_robe.c line 31: parse error
+
+[Tue Sep  7 02:49:16 1999] u/s/suez/test.c line 20: End of file in text block
+
+[Tue Sep  7 02:49:16 1999] u/s/suez/test.c line 20: parse error
+
+[Tue Sep  7 02:49:16 1999] u/s/suez/test.c line 32: End of file in string
+
+[Tue Sep  7 02:49:34 1999] u/s/suez/test.c line 20: End of file in text block
+
+[Tue Sep  7 02:49:34 1999] u/s/suez/test.c line 20: parse error
+
+[Tue Sep  7 02:49:34 1999] u/s/suez/test.c line 32: End of file in string
+
+[Tue Sep  7 02:50:52 1999] u/s/suez/test.c line 20: End of file in text block
+
+[Tue Sep  7 02:50:52 1999] u/s/suez/test.c line 20: Undefined variable 'a'
+
+
+[Tue Sep  7 02:50:52 1999] u/s/suez/test.c line 20: Bad argument 2 to '/': "string "
+
+[Tue Sep  7 02:50:52 1999] u/s/suez/test.c line 20: parse error
+
+[Tue Sep  7 23:25:11 1999] u/s/suez/area/npc/wp/stonedragon_d.c line 6: parse error
+
+[Tue Sep  7 23:34:05 1999] u/s/suez/area/npc/wp/cloud_dagger.c line 33: Undefined variable '_DIR_'
+
+
+[Tue Sep  7 23:34:05 1999] u/s/suez/area/npc/wp/cloud_dagger.c line 33: parse error
+
+[Wed Sep  8 02:13:34 1999] u/s/suez/area/npc/drooler_man.c line 34: Undefined variable 'someone'
+
+
+[Wed Sep  8 02:13:34 1999] u/s/suez/area/npc/drooler_man.c line 215: Incorrect number of arguments.
+
+[Wed Sep  8 02:13:46 1999] u/s/suez/area/npc/yen-lu-yu.c line 12: parse error
+
+[Wed Sep  8 02:15:19 1999] u/s/suez/area/npc/drooler_man.c line 34: Undefined variable 'someone'
+
+
+[Wed Sep  8 02:15:19 1999] u/s/suez/area/npc/drooler_man.c line 215: Incorrect number of arguments.
+
+[Wed Sep  8 02:15:19 1999] u/s/suez/area/npc/drooler_man.c line 216: parse error
+
+[Wed Sep  8 02:17:00 1999] u/s/suez/area/npc/yen-lu-yu.c line 42: parse error
+
+[Wed Sep  8 02:17:00 1999] u/s/suez/area/npc/yen-lu-yu.c line 45: End of file in string
+
+[Wed Sep  8 02:20:22 1999] u/s/suez/area/npc/yen-lu-yu.c line 44: End of file in text block
+
+[Wed Sep  8 02:20:22 1999] u/s/suez/area/npc/yen-lu-yu.c line 44: parse error
+
+[Wed Sep  8 02:20:22 1999] u/s/suez/area/npc/yen-lu-yu.c line 50: Illegal LHS
+
+[Wed Sep  8 02:20:22 1999] u/s/suez/area/npc/yen-lu-yu.c line 50: parse error
+
+[Wed Sep  8 02:20:44 1999] u/s/suez/area/npc/drooler_man.c line 34: Undefined variable 'someone'
+
+
+[Wed Sep  8 02:20:44 1999] u/s/suez/area/npc/drooler_man.c line 215: Incorrect number of arguments.
+
+[Wed Sep  8 02:20:44 1999] u/s/suez/area/npc/drooler_man.c line 216: parse error
+
+[Wed Sep  8 02:23:07 1999] u/s/suez/area/npc/drooler_man.c line 218: Incorrect number of arguments.
+
+[Wed Sep  8 02:23:55 1999] u/s/suez/area/npc/yen-lu-yu.c line 44: End of file in text block
+
+[Wed Sep  8 02:23:55 1999] u/s/suez/area/npc/yen-lu-yu.c line 44: Undefined function et
+
+[Wed Sep  8 02:23:55 1999] u/s/suez/area/npc/yen-lu-yu.c line 44: parse error
+
+[Wed Sep  8 02:23:55 1999] u/s/suez/area/npc/yen-lu-yu.c line 61: Undefined variable 'msg'
+
+
+[Wed Sep  8 02:23:55 1999] u/s/suez/area/npc/yen-lu-yu.c line 61: Illegal LHS
+
+[Wed Sep  8 02:23:55 1999] u/s/suez/area/npc/yen-lu-yu.c line 61: parse error
+
+[Wed Sep  8 02:25:39 1999] u/s/suez/area/npc/yen-lu-yu.c line 44: End of file in text block
+
+[Wed Sep  8 02:25:39 1999] u/s/suez/area/npc/yen-lu-yu.c line 44: Undefined function et
+
+[Wed Sep  8 02:25:39 1999] u/s/suez/area/npc/yen-lu-yu.c line 44: parse error
+
+[Wed Sep  8 02:25:39 1999] u/s/suez/area/npc/yen-lu-yu.c line 61: Undefined variable 'msg'
+
+
+[Wed Sep  8 02:25:39 1999] u/s/suez/area/npc/yen-lu-yu.c line 61: Illegal LHS
+
+[Wed Sep  8 02:25:39 1999] u/s/suez/area/npc/yen-lu-yu.c line 61: parse error
+
+[Wed Sep  8 02:26:43 1999] u/s/suez/area/npc/yen-lu-yu.c line 46: End of file in text block
+
+[Wed Sep  8 02:26:43 1999] u/s/suez/area/npc/yen-lu-yu.c line 46: Wrong number of arguments to set
+    Expected: 2  Got: 3
+
+[Wed Sep  8 02:26:43 1999] u/s/suez/area/npc/yen-lu-yu.c line 51: Undefined variable 'drool'
+
+
+[Wed Sep  8 02:26:43 1999] u/s/suez/area/npc/yen-lu-yu.c line 51: parse error
+
+[Wed Sep  8 02:26:43 1999] u/s/suez/area/npc/yen-lu-yu.c line 63: Undefined variable 'msg'
+
+
+[Wed Sep  8 02:26:43 1999] u/s/suez/area/npc/yen-lu-yu.c line 63: Illegal LHS
+
+[Wed Sep  8 02:28:17 1999] u/s/suez/area/npc/yen-lu-yu.c line 45: End of file in text block
+
+[Wed Sep  8 02:28:17 1999] u/s/suez/area/npc/yen-lu-yu.c line 45: Undefined variable 'D'
+
+
+[Wed Sep  8 02:28:17 1999] u/s/suez/area/npc/yen-lu-yu.c line 45: parse error
+
+[Wed Sep  8 02:28:17 1999] u/s/suez/area/npc/yen-lu-yu.c line 46: Illegal terminator
+
+[Wed Sep  8 02:28:17 1999] u/s/suez/area/npc/yen-lu-yu.c line 46: Text block exceeded maximum length
+
+[Wed Sep  8 02:28:17 1999] u/s/suez/area/npc/yen-lu-yu.c line 50: Illegal terminator
+
+[Wed Sep  8 02:28:35 1999] u/s/suez/area/npc/yen-lu-yu.c line 44: End of file in text block
+
+[Wed Sep  8 02:28:35 1999] u/s/suez/area/npc/yen-lu-yu.c line 45: parse error
+
+[Wed Sep  8 02:30:37 1999] u/s/suez/area/npc/yen-lu-yu.c line 45: End of file in text block
+
+[Wed Sep  8 02:30:37 1999] u/s/suez/area/npc/yen-lu-yu.c line 45: Undefined variable 'D'
+
+
+[Wed Sep  8 02:30:37 1999] u/s/suez/area/npc/yen-lu-yu.c line 45: parse error
+
+[Wed Sep  8 02:30:37 1999] u/s/suez/area/npc/yen-lu-yu.c line 46: Illegal terminator
+
+[Wed Sep  8 02:30:37 1999] u/s/suez/area/npc/yen-lu-yu.c line 46: Text block exceeded maximum length
+
+[Wed Sep  8 02:30:37 1999] u/s/suez/area/npc/yen-lu-yu.c line 50: Illegal terminator
+
+[Wed Sep  8 02:31:10 1999] u/s/suez/area/npc/yen-lu-yu.c line 47: End of file in text block
+
+[Wed Sep  8 02:31:10 1999] u/s/suez/area/npc/yen-lu-yu.c line 47: parse error
+
+[Wed Sep  8 02:31:10 1999] u/s/suez/area/npc/yen-lu-yu.c line 48: Illegal terminator
+
+[Wed Sep  8 02:31:10 1999] u/s/suez/area/npc/yen-lu-yu.c line 48: Text block exceeded maximum length
+
+[Wed Sep  8 02:31:10 1999] u/s/suez/area/npc/yen-lu-yu.c line 52: Illegal terminator
+
+[Wed Sep  8 02:31:10 1999] u/s/suez/area/npc/yen-lu-yu.c line 52: Text block exceeded maximum length
+
+[Wed Sep  8 02:34:30 1999] u/s/suez/area/npc/drooler.c line 234: Incorrect number of arguments.
+
+[Wed Sep  8 02:35:52 1999] u/s/suez/area/npc/drooler.c line 234: Incorrect number of arguments.
+
+[Wed Sep  8 02:43:13 1999] u/s/suez/area/npc/drooler.c line 234: Incorrect number of arguments.
+
+[Wed Sep  8 23:14:25 1999] u/s/suez/area/npc/yen-lu-yu.c line 43: parse error
+
+[Wed Sep  8 23:15:52 1999] u/s/suez/area/npc/wp/yun-tsang.c line 8: Undefined variable 'HIW'
+
+
+[Wed Sep  8 23:15:52 1999] u/s/suez/area/npc/wp/yun-tsang.c line 8: parse error
+
+[Wed Sep  8 23:20:08 1999] u/s/suez/area/npc/yen-lu-yu.c line 43: parse error
+
+[Wed Sep  8 23:21:22 1999] u/s/suez/area/npc/yen-lu-yu.c line 43: parse error
+
+[Wed Sep  8 23:22:17 1999] u/s/suez/area/hotel_hall.c line 23: End of file in text block
+
+[Wed Sep  8 23:22:17 1999] u/s/suez/area/hotel_hall.c line 23: Undefined variable 'iry'
+
+
+[Wed Sep  8 23:22:17 1999] u/s/suez/area/hotel_hall.c line 23: Undefined variable 'name'
+
+
+[Wed Sep  8 23:22:17 1999] u/s/suez/area/hotel_hall.c line 23: parse error
+
+[Wed Sep  8 23:22:17 1999] u/s/suez/area/hotel_hall.c line 40: End of file in string
+
+[Wed Sep  8 23:23:27 1999] u/s/suez/area/hotel_hall.c line 23: End of file in text block
+
+[Wed Sep  8 23:23:27 1999] u/s/suez/area/hotel_hall.c line 23: Undefined variable 'ng'
+
+
+[Wed Sep  8 23:23:27 1999] u/s/suez/area/hotel_hall.c line 23: Undefined variable 'area'
+
+
+[Wed Sep  8 23:23:27 1999] u/s/suez/area/hotel_hall.c line 23: Undefined variable 'dragon'
+
+
+[Wed Sep  8 23:23:27 1999] u/s/suez/area/hotel_hall.c line 23: Bad argument 2 to '/': "string "
+
+[Wed Sep  8 23:23:27 1999] u/s/suez/area/hotel_hall.c line 23: parse error
+
+[Wed Sep  8 23:32:03 1999] u/s/suez/area/hotel_hall.c line 25: End of file in text block
+
+[Wed Sep  8 23:32:03 1999] u/s/suez/area/hotel_hall.c line 27: Undefined variable 'annihilator'
+
+
+[Wed Sep  8 23:32:03 1999] u/s/suez/area/hotel_hall.c line 27: parse error
+
+[Wed Sep  8 23:32:03 1999] u/s/suez/area/hotel_hall.c line 39: Undefined variable 'this_player'
+
+
+[Wed Sep  8 23:32:03 1999] u/s/suez/area/hotel_hall.c line 39: Illegal LHS
+
+[Wed Sep  8 23:32:58 1999] u/s/suez/area/hotel_hall.c line 25: End of file in text block
+
+[Wed Sep  8 23:32:58 1999] u/s/suez/area/hotel_hall.c line 27: Undefined variable 'nihilator'
+
+
+[Wed Sep  8 23:32:58 1999] u/s/suez/area/hotel_hall.c line 27: parse error
+
+[Wed Sep  8 23:32:58 1999] u/s/suez/area/hotel_hall.c line 39: Undefined variable 'this_player'
+
+
+[Wed Sep  8 23:32:58 1999] u/s/suez/area/hotel_hall.c line 39: Illegal LHS
+
+[Wed Sep  8 23:33:26 1999] u/s/suez/area/hotel_hall.c line 25: End of file in text block
+
+[Wed Sep  8 23:33:26 1999] u/s/suez/area/hotel_hall.c line 27: Undefined variable 'nihilator'
+
+
+[Wed Sep  8 23:33:26 1999] u/s/suez/area/hotel_hall.c line 27: parse error
+
+[Wed Sep  8 23:33:26 1999] u/s/suez/area/hotel_hall.c line 39: Undefined variable 'this_player'
+
+
+[Wed Sep  8 23:33:26 1999] u/s/suez/area/hotel_hall.c line 39: Illegal LHS
+
+[Wed Sep  8 23:35:56 1999] u/s/suez/area/npc/yen-lu-yu.c line 46: End of file in text block
+
+[Wed Sep  8 23:35:56 1999] u/s/suez/area/npc/yen-lu-yu.c line 46: parse error
+
+[Wed Sep  8 23:35:56 1999] u/s/suez/area/npc/yen-lu-yu.c line 55: End of file in string
+
+[Wed Sep  8 23:55:19 1999] u/s/suez/area/hotel_hall.c line 27: End of file in text block
+
+[Wed Sep  8 23:55:19 1999] u/s/suez/area/hotel_hall.c line 27: Undefined variable 'ob'
+
+
+[Wed Sep  8 23:55:19 1999] u/s/suez/area/hotel_hall.c line 29: Undefined variable 'arg'
+
+
+[Wed Sep  8 23:55:19 1999] u/s/suez/area/hotel_hall.c line 29: Type of returned value doesn't match function return type ( int vs void ).
+
+[Wed Sep  8 23:55:19 1999] u/s/suez/area/hotel_hall.c line 31: Undefined variable 'me'
+
+
+[Wed Sep  8 23:55:19 1999] u/s/suez/area/hotel_hall.c line 32: Type of returned value doesn't match function return type ( int vs void ).
+
+[Wed Sep  8 23:56:16 1999] u/s/suez/area/hotel_hall.c line 29: End of file in text block
+
+[Wed Sep  8 23:56:16 1999] u/s/suez/area/hotel_hall.c line 30: Undefined variable 'replac'
+
+
+[Wed Sep  8 23:56:16 1999] u/s/suez/area/hotel_hall.c line 30: parse error
+
+[Wed Sep  8 23:59:11 1999] u/s/suez/area/hotel_hall.c line 28: End of file in text block
+
+[Wed Sep  8 23:59:11 1999] u/s/suez/area/hotel_hall.c line 28: Undefined variable 'std'
+
+
+[Wed Sep  8 23:59:11 1999] u/s/suez/area/hotel_hall.c line 30: End of file in string
+
+[Wed Sep  8 23:59:11 1999] u/s/suez/area/hotel_hall.c line 30: Undefined variable 'room'
+
+
+[Wed Sep  8 23:59:11 1999] u/s/suez/area/hotel_hall.c line 30: parse error
+
+[Thu Sep  9 00:03:20 1999] u/s/suez/area/hotel_hall.c line 27: End of file in text block
+
+[Thu Sep  9 00:03:20 1999] u/s/suez/area/hotel_hall.c line 34: Undefined variable 'clean_up'
+
+
+[Thu Sep  9 00:03:20 1999] u/s/suez/area/hotel_hall.c line 34: parse error
+
+[Thu Sep  9 00:03:20 1999] u/s/suez/area/hotel_hall.c line 47: $var illegal outside of function.
+
+[Thu Sep  9 00:03:20 1999] u/s/suez/area/hotel_hall.c line 56: Illegal LHS
+
+[Thu Sep  9 00:03:20 1999] u/s/suez/area/hotel_hall.c line 56: parse error
+
+[Thu Sep  9 00:15:45 1999] u/s/suez/area/hotel_hall.c line 27: End of file in text block
+
+[Thu Sep  9 00:15:45 1999] u/s/suez/area/hotel_hall.c line 28: Type of returned value doesn't match function return type ( int vs void ).
+
+[Thu Sep  9 00:15:45 1999] u/s/suez/area/hotel_hall.c line 30: parse error
+
+[Thu Sep  9 00:16:07 1999] u/s/suez/area/hotel_hall.c line 26: End of file in text block
+
+[Thu Sep  9 00:16:07 1999] u/s/suez/area/hotel_hall.c line 26: parse error
+
+[Thu Sep  9 00:16:13 1999] u/s/suez/area/hotel_hall.c line 26: End of file in text block
+
+[Thu Sep  9 00:16:13 1999] u/s/suez/area/hotel_hall.c line 26: Undefined variable 'replac'
+
+
+[Thu Sep  9 00:16:13 1999] u/s/suez/area/hotel_hall.c line 26: parse error
+
+[Thu Sep  9 00:17:06 1999] u/s/suez/area/hotel_hall.c line 28: End of file in text block
+
+[Thu Sep  9 00:17:06 1999] u/s/suez/area/hotel_hall.c line 28: Undefined variable 'ng'
+
+
+[Thu Sep  9 00:17:06 1999] u/s/suez/area/hotel_hall.c line 28: parse error
+
+[Thu Sep  9 00:17:06 1999] u/s/suez/area/hotel_hall.c line 83: Unexpected end of file while skipping
+
+[Thu Sep  9 00:17:28 1999] u/s/suez/area/hotel_hall.c line 27: End of file in text block
+
+[Thu Sep  9 00:17:28 1999] u/s/suez/area/hotel_hall.c line 27: parse error
+
+[Thu Sep  9 00:17:28 1999] u/s/suez/area/hotel_hall.c line 51: End of file in string
+
+[Thu Sep  9 00:17:34 1999] u/s/suez/area/hotel_hall.c line 27: End of file in text block
+
+[Thu Sep  9 00:17:34 1999] u/s/suez/area/hotel_hall.c line 27: parse error
+
+[Thu Sep  9 00:17:34 1999] u/s/suez/area/hotel_hall.c line 51: End of file in string
+
+[Thu Sep  9 00:23:19 1999] u/s/suez/area/hotel_hall.c line 26: End of file in text block
+
+[Thu Sep  9 00:23:19 1999] u/s/suez/area/hotel_hall.c line 26: Undefined variable 'dragon'
+
+
+[Thu Sep  9 00:23:19 1999] u/s/suez/area/hotel_hall.c line 26: parse error
+
+[Thu Sep  9 00:23:19 1999] u/s/suez/area/hotel_hall.c line 33: Illegal terminator
+
+[Thu Sep  9 00:23:19 1999] u/s/suez/area/hotel_hall.c line 33: Text block exceeded maximum length
+
+[Thu Sep  9 00:23:19 1999] u/s/suez/area/hotel_hall.c line 33: Illegal terminator
+
+[Thu Sep  9 00:24:08 1999] u/s/suez/area/hotel_hall.c line 26: End of file in text block
+
+[Thu Sep  9 00:24:08 1999] u/s/suez/area/hotel_hall.c line 26: Undefined variable 'ragon'
+
+
+[Thu Sep  9 00:24:08 1999] u/s/suez/area/hotel_hall.c line 26: parse error
+
+[Thu Sep  9 00:24:08 1999] u/s/suez/area/hotel_hall.c line 33: Illegal terminator
+
+[Thu Sep  9 00:24:08 1999] u/s/suez/area/hotel_hall.c line 33: Text block exceeded maximum length
+
+[Thu Sep  9 00:24:08 1999] u/s/suez/area/hotel_hall.c line 33: Illegal terminator
+
+[Thu Sep  9 00:34:38 1999] u/s/suez/area/hotel_hall.c line 29: End of file in text block
+
+[Thu Sep  9 00:34:38 1999] u/s/suez/area/hotel_hall.c line 29: Undefined variable 'eturn'
+
+
+[Thu Sep  9 00:34:38 1999] u/s/suez/area/hotel_hall.c line 29: parse error
+
+[Thu Sep  9 00:34:38 1999] u/s/suez/area/hotel_hall.c line 47: End of file in text block
+
+[Thu Sep  9 00:34:38 1999] u/s/suez/area/hotel_hall.c line 47: Illegal terminator
+
+[Thu Sep  9 00:34:38 1999] u/s/suez/area/hotel_hall.c line 47: Text block exceeded maximum length
+
+[Thu Sep  9 00:38:46 1999] u/s/suez/area/hotel_hall.c line 31: End of file in text block
+
+[Thu Sep  9 00:38:46 1999] u/s/suez/area/hotel_hall.c line 31: Undefined variable 'send'
+
+
+[Thu Sep  9 00:38:46 1999] u/s/suez/area/hotel_hall.c line 31: parse error
+
+[Thu Sep  9 00:38:46 1999] u/s/suez/area/hotel_hall.c line 33: Illegal terminator
+
+[Thu Sep  9 00:38:46 1999] u/s/suez/area/hotel_hall.c line 33: Array block exceeded maximum length
+
+[Thu Sep  9 00:38:46 1999] u/s/suez/area/hotel_hall.c line 33: Illegal terminator
+
+[Thu Sep  9 00:43:51 1999] u/s/suez/area/hotel_hall.c line 24: End of file in text block
+
+[Thu Sep  9 00:43:51 1999] u/s/suez/area/hotel_hall.c line 24: parse error
+
+[Thu Sep  9 00:45:29 1999] u/s/suez/area/hotel_hall.c line 8: parse error
+
+[Thu Sep  9 00:45:29 1999] u/s/suez/area/hotel_hall.c line 10: Illegal terminator
+
+[Thu Sep  9 00:45:29 1999] u/s/suez/area/hotel_hall.c line 10: Text block exceeded maximum length
+
+[Thu Sep  9 00:45:29 1999] u/s/suez/area/hotel_hall.c line 11: Illegal terminator
+
+[Thu Sep  9 00:45:29 1999] u/s/suez/area/hotel_hall.c line 11: Text block exceeded maximum length
+
+[Thu Sep  9 00:45:29 1999] u/s/suez/area/hotel_hall.c line 23: End of file in string
+
+[Thu Sep  9 01:25:29 1999] u/s/suez/workroom.c line 3: Unrecognised # directive
+
+[Thu Sep  9 01:25:29 1999] u/s/suez/workroom.c line 11: Undefined variable 'WIG'
+
+
+[Thu Sep  9 01:25:29 1999] u/s/suez/workroom.c line 11: parse error
+
+[Thu Sep  9 01:26:07 1999] u/s/suez/workroom.c line 3: Unrecognised # directive
+
+[Thu Sep  9 01:26:07 1999] u/s/suez/workroom.c line 11: Undefined variable 'HIG'
+
+
+[Thu Sep  9 01:26:07 1999] u/s/suez/workroom.c line 11: parse error
+
+[Thu Sep  9 01:26:11 1999] u/s/suez/workroom.c line 3: Unrecognised # directive
+
+[Thu Sep  9 01:26:11 1999] u/s/suez/workroom.c line 11: Undefined variable 'HIG'
+
+
+[Thu Sep  9 01:26:11 1999] u/s/suez/workroom.c line 11: parse error
+
+[Thu Sep  9 01:44:44 1999] u/s/suez/area/npc/drooler_man.c line 218: Incorrect number of arguments.
+
+[Thu Sep  9 01:45:48 1999] u/s/suez/area/npc/hotel_hall.c line 6: Undefined variable 'HIY'
+
+
+[Thu Sep  9 01:45:48 1999] u/s/suez/area/npc/hotel_hall.c line 6: parse error
+
+[Thu Sep  9 01:47:24 1999] u/s/suez/area/npc/drooler_man.c line 218: Incorrect number of arguments.
+
+[Thu Sep  9 01:47:50 1999] u/s/suez/area/npc/drooler_man.c line 218: Incorrect number of arguments.
+
+[Thu Sep  9 01:52:27 1999] u/s/suez/area/npc/drooler_man.c line 218: Incorrect number of arguments.
+
+[Thu Sep  9 01:53:51 1999] u/s/suez/area/npc/drooler_man.c line 217: Incorrect number of arguments.
+
+[Sat Sep 11 02:34:08 1999] u/s/suez/area/hotel_f.c line 21: parse error
+
+[Sat Sep 11 02:34:08 1999] u/s/suez/area/hotel_f.c line 28: End of file in string
+
+[Sat Sep 11 02:36:10 1999] u/s/suez/area/hotel_f.c line 21: parse error
+
+[Sat Sep 11 02:36:10 1999] u/s/suez/area/hotel_f.c line 28: End of file in string
+
+[Sat Sep 11 02:36:18 1999] u/s/suez/area/hotel_f.c line 21: parse error
+
+[Sat Sep 11 02:36:18 1999] u/s/suez/area/hotel_f.c line 28: End of file in string
+
+[Sat Sep 11 02:36:32 1999] u/s/suez/area/hotel_f.c line 13: Wrong number of arguments to set
+    Expected: 2  Got: 6
+
+[Sat Sep 11 02:36:32 1999] u/s/suez/area/hotel_f.c line 21: parse error
+
+[Sat Sep 11 02:36:32 1999] u/s/suez/area/hotel_f.c line 28: End of file in string
+
+[Sat Sep 11 02:37:45 1999] u/s/suez/area/hotel_f.c line 28: End of file in text block
+
+[Sat Sep 11 02:37:45 1999] u/s/suez/area/hotel_f.c line 28: parse error
+
+[Sat Sep 11 02:39:03 1999] u/s/suez/area/hotel_f.c line 27: End of file in text block
+
+[Sat Sep 11 02:39:03 1999] u/s/suez/area/hotel_f.c line 27: parse error
+
+[Sat Sep 11 02:39:03 1999] u/s/suez/area/hotel_f.c line 29: End of file in string
+
+[Sat Sep 11 02:41:33 1999] u/s/suez/area/hotel_f.c line 20: parse error
+
+[Sat Sep 11 02:41:33 1999] u/s/suez/area/hotel_f.c line 27: End of file in string
+
+[Sat Sep 11 02:42:23 1999] u/s/suez/area/hotel_f.c line 19: parse error
+
+[Sat Sep 11 03:27:11 1999] u/s/suez/area/npc/fong-wu-yen.c line 47: Bad assignment ( object vs string ).
+
+[Sat Sep 11 03:28:06 1999] u/s/suez/area/npc/fong-wu-yen.c line 58: Undefined variable 'cloud_dagger'
+
+
+[Sat Sep 11 03:30:36 1999] u/s/suez/area/npc/fong-wu-yen.c line 47: Bad assignment ( object vs string ).
+
+[Sat Sep 11 03:37:04 1999] u/s/suez/area/npc/fong-wu-yen.c line 47: Undefined variable 'dagger'
+
+
+[Sat Sep 11 19:31:47 1999] u/s/suez/area/npc/traveler.c line 16: parse error
+
+[Sat Sep 11 19:33:40 1999] u/s/suez/area/npc/traveler.c line 16: parse error
+
+[Sat Sep 11 19:36:20 1999] u/s/suez/area/npc/traveler.c line 16: parse error
+
+[Sat Sep 11 19:37:20 1999] u/s/suez/area/npc/traveler.c line 16: parse error
+
+[Sat Sep 11 19:39:48 1999] u/s/suez/area/npc/traveler.c line 27: parse error
+
+[Sat Sep 11 19:40:42 1999] u/s/suez/area/npc/traveler.c line 28: parse error
+
+[Sat Sep 11 19:43:14 1999] u/s/suez/area/npc/traveler.c line 23: Undefined variable 'say'
+
+
+[Sat Sep 11 19:43:14 1999] u/s/suez/area/npc/traveler.c line 23: parse error
+
+[Sat Sep 11 19:47:06 1999] u/s/suez/area/npc/traveler.c line 28: parse error
+
+[Sat Sep 11 19:52:22 1999] u/s/suez/area/npc/traveler.c line 28: parse error
+
+[Sat Sep 11 19:56:04 1999] u/s/suez/area/npc/traveler.c line 28: parse error
+
+[Sat Sep 11 19:57:35 1999] u/s/suez/area/npc/traveler.c line 28: parse error
+
+[Sat Sep 11 20:12:36 1999] u/s/suez/area/npc/traveler.c line 28: parse error
+
+[Sat Sep 11 20:27:36 1999] u/s/suez/area/npc/traveler.c line 28: parse error
+
+[Sat Sep 11 20:41:32 1999] u/s/suez/area/npc/traveler.c line 28: parse error
+
+[Sat Sep 11 20:41:40 1999] u/s/suez/area/npc/traveler.c line 28: parse error
+
+[Sat Sep 11 21:27:44 1999] u/s/suez/area/npc/fong-wu-yen.c line 61: Undefined variable 'fong'
+
+
+[Sat Sep 11 21:27:44 1999] u/s/suez/area/npc/fong-wu-yen.c line 61: Undefined variable 'wu'
+
+
+[Sat Sep 11 21:27:44 1999] u/s/suez/area/npc/fong-wu-yen.c line 61: Undefined variable 'yen'
+
+
+[Sat Sep 11 21:45:59 1999] u/s/suez/area/npc/drooler_man.c line 217: Incorrect number of arguments.
+
+[Sat Sep 11 21:50:49 1999] u/s/suez/area/npc/drooler_man.c line 217: Incorrect number of arguments.
+
+[Sat Sep 11 21:53:13 1999] u/s/suez/area/npc/drooler_man.c line 217: Incorrect number of arguments.
+
+[Wed Sep 15 06:16:03 1999] u/s/suez/area/npc/drooler_man.c line 17: parse error
+
+[Wed Sep 15 06:24:22 1999] u/s/suez/area/npc/drooler_man.c line 55: Undefined variable 'hmm'
+
+
+[Wed Sep 15 06:24:22 1999] u/s/suez/area/npc/drooler_man.c line 55: parse error
+
+[Wed Sep 15 06:24:22 1999] u/s/suez/area/npc/drooler_man.c line 64: Undefined variable 'msg'
+
+
+[Wed Sep 15 06:24:22 1999] u/s/suez/area/npc/drooler_man.c line 64: Illegal LHS
+
+[Wed Sep 15 06:24:22 1999] u/s/suez/area/npc/drooler_man.c line 64: parse error
+
+[Wed Sep 15 06:24:22 1999] u/s/suez/area/npc/drooler_man.c line 65: Illegal LHS
+
+[Fri Sep 17 03:49:42 1999] u/s/suez/story.c line 84: End of file in text block
+
+[Fri Sep 17 03:49:42 1999] u/s/suez/story.c line 84: parse error
+
+[Fri Sep 17 03:49:42 1999] u/s/suez/story.c line 84: Illegal terminator
+
+[Fri Sep 17 03:49:42 1999] u/s/suez/story.c line 84: Text block exceeded maximum length
+
+[Fri Sep 17 03:49:42 1999] u/s/suez/story.c line 84: Illegal terminator
+
+[Fri Sep 17 03:49:42 1999] u/s/suez/story.c line 84: Text block exceeded maximum length
+
+[Wed Oct  6 15:38:52 1999] u/s/suez/new_dagger.c line 1: parse error
+
+[Wed Oct  6 15:40:27 1999] u/s/suez/new_dagger.c line 48: Undefined variable 'dodge'
+
+
+[Wed Oct  6 15:42:08 1999] u/s/suez/new_dagger.c line 48: A reserved type name cannot be used as a function name.
+
+
+[Wed Oct  6 15:42:08 1999] u/s/suez/new_dagger.c line 48: parse error
+
+[Wed Oct  6 15:46:37 1999] u/s/suez/new_dagger.c line 46: parse error
+
+[Wed Oct  6 15:46:37 1999] u/s/suez/new_dagger.c line 46: Illegal LHS
+
+[Wed Oct  6 15:46:37 1999] u/s/suez/new_dagger.c line 48: A reserved type name cannot be used as a function name.
+
+
+[Wed Oct  6 15:46:37 1999] u/s/suez/new_dagger.c line 48: parse error
+
+[Wed Oct  6 15:48:20 1999] u/s/suez/new_dagger.c line 46: parse error
+
+[Wed Oct  6 15:48:20 1999] u/s/suez/new_dagger.c line 46: Illegal LHS
+
+[Wed Oct  6 15:48:20 1999] u/s/suez/new_dagger.c line 48: A reserved type name cannot be used as a function name.
+
+
+[Wed Oct  6 15:48:20 1999] u/s/suez/new_dagger.c line 48: parse error
+
+[Sat Oct  9 16:02:01 1999] u/s/suez/area/npc/sen-sa_guest.c line 11: Undefined variable 'do_senkill'
+
+
+[Sat Oct  9 16:02:01 1999] u/s/suez/area/npc/sen-sa_guest.c line 11: parse error
+
+[Sat Oct  9 16:02:01 1999] u/s/suez/area/npc/sen-sa_guest.c line 22: Illegal LHS
+
+[Sat Oct  9 16:02:01 1999] u/s/suez/area/npc/sen-sa_guest.c line 22: parse error
+
+[Sat Oct  9 16:02:01 1999] u/s/suez/area/npc/sen-sa_guest.c line 25: Undefined variable 'me'
+
+
+[Sat Oct  9 16:02:01 1999] u/s/suez/area/npc/sen-sa_guest.c line 25: Undefined function offensive_target
+
+[Sat Oct  9 16:25:53 1999] u/s/suez/new_dagger.c line 49: parse error
+
+[Sat Oct  9 16:27:19 1999] u/s/suez/new_dagger.c line 49: parse error
+
+[Sat Oct  9 16:28:38 1999] u/s/suez/new_dagger.c line 49: parse error
+
+[Sat Oct  9 16:40:32 1999] u/s/suez/new_dagger.c line 49: parse error
+
+[Mon Oct 11 12:23:47 1999] u/s/suez/dagger.c line 1: parse error
+
+[Mon Oct 11 12:25:07 1999] u/s/suez/dagger.c line 35: Undefined variable 'xx'
+
+
+[Mon Oct 11 12:40:35 1999] u/s/suez/area/npc/wp/cloud_dagger.c line 49: Undefined variable 'con'
+
+
+[Mon Oct 11 13:00:26 1999] u/s/suez/dagger.c line 52: parse error
+
+[Mon Oct 11 13:03:17 1999] u/s/suez/dagger.c line 50: Undefined variable 'x'
+
+
+[Mon Oct 11 13:03:17 1999] u/s/suez/dagger.c line 50: Wrong number of arguments to set
+    Expected: 2  Got: 1
+
+[Mon Oct 11 13:28:50 1999] u/s/suez/area/npc/wp/cloud_dagger.c line 58: Undefined variable 'daemon'
+
+
+[Mon Oct 11 14:01:35 1999] u/s/suez/area/npc/wp/cloud_dagger.c line 61: Undefined variable 'ran1'
+
+
+[Mon Oct 18 17:58:22 1999] u/s/suez/area/npc/wp/she_dagger.c line 38: parse error
+
+[Mon Oct 18 17:58:22 1999] u/s/suez/area/npc/wp/she_dagger.c line 39: Illegal LHS
+
+[Mon Oct 18 17:58:22 1999] u/s/suez/area/npc/wp/she_dagger.c line 40: A reserved type name cannot be used as a function name.
+
+
+[Mon Oct 18 17:58:22 1999] u/s/suez/area/npc/wp/she_dagger.c line 40: parse error
+
+[Tue Oct 26 09:36:40 1999] u/s/suez/dragon_blade.c line 3: parse error
+
+[Tue Oct 26 09:48:08 1999] u/s/suez/dragon_blade.c line 15: parse error
+
+[Tue Oct 26 09:48:08 1999] u/s/suez/dragon_blade.c line 55: Illegal LHS
+
+[Tue Oct 26 09:48:08 1999] u/s/suez/dragon_blade.c line 55: parse error
+
+[Mon Nov  1 13:36:50 1999] u/s/suez/area/hotel_hall.c line 2: parse error
+
+[Mon Nov  1 13:44:34 1999] u/s/suez/area/path_lake.c line 1: parse error
+
+[Mon Nov  1 13:46:33 1999] u/s/suez/area/hotel_path.c line 1: parse error
+
+[Mon Nov  8 13:30:51 1999] u/s/suez/dagger.c line 50: Undefined variable 'x'
+
+
+[Mon Nov  8 13:30:51 1999] u/s/suez/dagger.c line 50: Wrong number of arguments to set
+    Expected: 2  Got: 1
+
+[Fri Nov 12 14:47:12 1999] u/s/suez/area/npc/sen-sa_guest.c line 11: Undefined variable 'do_senkill'
+
+
+[Fri Nov 12 14:47:12 1999] u/s/suez/area/npc/sen-sa_guest.c line 11: parse error
+
+[Fri Nov 12 14:47:12 1999] u/s/suez/area/npc/sen-sa_guest.c line 22: Illegal LHS
+
+[Fri Nov 12 14:47:12 1999] u/s/suez/area/npc/sen-sa_guest.c line 22: parse error
+
+[Fri Nov 12 14:47:12 1999] u/s/suez/area/npc/sen-sa_guest.c line 25: Undefined variable 'me'
+
+
+[Fri Nov 12 14:47:12 1999] u/s/suez/area/npc/sen-sa_guest.c line 25: Undefined function offensive_target
+
+[Sun Nov 21 14:04:58 1999] u/s/suez/area/area/base_2.c line 2: parse error
+
+[Sun Nov 21 14:46:45 1999] u/s/suez/area/base_3.c line 1: parse error
+
+[Sun Nov 21 14:46:57 1999] u/s/suez/area/base_3.c line 1: parse error
+
+[Mon Dec  6 13:49:48 1999] u/s/suez/area/npc/yen-eu.c line 124: Non-void functions must return a value.
+
+[Mon Dec  6 13:49:48 1999] u/s/suez/area/npc/yen-eu.c line 125: Non-void functions must return a value.
+
+[Mon Dec  6 13:49:48 1999] u/s/suez/area/npc/yen-eu.c line 126: Non-void functions must return a value.
+
+[Mon Dec  6 13:49:48 1999] u/s/suez/area/npc/yen-eu.c line 134: Non-void functions must return a value.
+
+[Mon Dec  6 13:49:48 1999] u/s/suez/area/npc/yen-eu.c line 135: Non-void functions must return a value.
+
+[Mon Dec  6 13:49:48 1999] u/s/suez/area/npc/yen-eu.c line 136: Non-void functions must return a value.
+
+[Mon Dec  6 13:50:18 1999] u/s/suez/area/npc/yen-eu.c line 124: Non-void functions must return a value.
+
+[Mon Dec  6 13:50:18 1999] u/s/suez/area/npc/yen-eu.c line 125: Non-void functions must return a value.
+
+[Mon Dec  6 13:50:18 1999] u/s/suez/area/npc/yen-eu.c line 126: Non-void functions must return a value.
+
+[Mon Dec  6 13:50:18 1999] u/s/suez/area/npc/yen-eu.c line 134: Non-void functions must return a value.
+
+[Mon Dec  6 13:50:18 1999] u/s/suez/area/npc/yen-eu.c line 135: Non-void functions must return a value.
+
+[Mon Dec  6 13:50:18 1999] u/s/suez/area/npc/yen-eu.c line 136: Non-void functions must return a value.
+
+[Mon Dec  6 13:52:06 1999] u/s/suez/area/npc/yen-eu.c line 124: Non-void functions must return a value.
+
+[Mon Dec  6 13:52:06 1999] u/s/suez/area/npc/yen-eu.c line 125: Non-void functions must return a value.
+
+[Mon Dec  6 13:52:06 1999] u/s/suez/area/npc/yen-eu.c line 126: Non-void functions must return a value.
+
+[Mon Dec  6 13:52:06 1999] u/s/suez/area/npc/yen-eu.c line 134: Non-void functions must return a value.
+
+[Mon Dec  6 13:52:06 1999] u/s/suez/area/npc/yen-eu.c line 135: Non-void functions must return a value.
+
+[Mon Dec  6 13:52:06 1999] u/s/suez/area/npc/yen-eu.c line 136: Non-void functions must return a value.
+
+[Mon Dec  6 13:55:37 1999] u/s/suez/area/npc/yen-eu.c line 124: Non-void functions must return a value.
+
+[Mon Dec  6 13:55:37 1999] u/s/suez/area/npc/yen-eu.c line 134: Non-void functions must return a value.
+
+[Mon Dec  6 13:55:37 1999] u/s/suez/area/npc/yen-eu.c line 144: Non-void functions must return a value.
+
+[Mon Dec  6 13:57:01 1999] u/s/suez/area/npc/yen-eu.c line 124: Non-void functions must return a value.
+
+[Mon Dec  6 13:57:01 1999] u/s/suez/area/npc/yen-eu.c line 143: Non-void functions must return a value.
+
+[Mon Dec  6 14:09:09 1999] u/s/suez/area/npc/yen-eu.c line 124: Non-void functions must return a value.
+
+[Mon Dec  6 14:09:09 1999] u/s/suez/area/npc/yen-eu.c line 125: Non-void functions must return a value.
+
+[Mon Dec  6 14:09:09 1999] u/s/suez/area/npc/yen-eu.c line 126: Non-void functions must return a value.
+
+[Mon Dec  6 14:10:17 1999] u/s/suez/area/npc/yen-eu.c line 124: Non-void functions must return a value.
+
+[Mon Dec  6 14:10:40 1999] u/s/suez/area/npc/yen-eu.c line 124: Non-void functions must return a value.
+
+[Mon Dec  6 14:11:02 1999] u/s/suez/area/npc/yen-eu.c line 124: Non-void functions must return a value.
+
+[Mon Dec  6 14:13:36 1999] u/s/suez/area/npc/yen-eu.c line 124: Non-void functions must return a value.
+
+[Mon Dec  6 14:15:57 1999] u/s/suez/area/npc/yen-eu.c line 124: Non-void functions must return a value.
+
+[Mon Dec  6 14:23:25 1999] u/s/suez/area/npc/eq/star_robe.c line 30: Non-void functions must return a value.
+
+[Mon Dec  6 14:25:38 1999] u/s/suez/area/npc/eq/star_robe.c line 30: Non-void functions must return a value.
+
+[Mon Dec  6 14:32:28 1999] u/s/suez/area/path_t.c line 25: parse error
+
+[Wed Dec  8 09:58:59 1999] u/s/suez/area/npc/eq/star_robe.c line 30: Non-void functions must return a value.
+
+[Wed Dec  8 10:03:15 1999] u/s/suez/area/npc/eq/star_robe.c line 30: parse error
+
+[Wed Dec  8 10:16:52 1999] u/s/suez/area/npc/eq/star_robe.c line 30: Undefined function star_robe
+
+[Wed Dec  8 10:16:52 1999] u/s/suez/area/npc/eq/star_robe.c line 34: Undefined variable 'me'
+
+
+[Wed Dec  8 10:16:52 1999] u/s/suez/area/npc/eq/star_robe.c line 35: Undefined variable 'obj'
+
+
+[Wed Dec  8 10:17:54 1999] u/s/suez/area/npc/eq/star_robe.c line 30: Undefined function star_robe
+
+[Wed Dec  8 10:18:34 1999] u/s/suez/area/npc/eq/star_robe.c line 30: Undefined function star_robe
+
+[Wed Dec  8 10:18:34 1999] u/s/suez/area/npc/eq/star_robe.c line 48: Redeclaration of function star_robe.
+
+[Wed Dec  8 10:19:28 1999] u/s/suez/area/npc/eq/star_robe.c line 49: Incorrect number of arguments.
+
+[Wed Dec  8 10:20:40 1999] u/s/suez/area/npc/eq/star_robe.c line 50: Incorrect number of arguments.
+
+[Wed Dec  8 10:27:04 1999] u/s/suez/area/npc/eq/star_robe.c line 50: parse error
+
+[Wed Dec  8 10:42:00 1999] u/s/suez/area/npc/eq/star_robe.c line 48: parse error
+
+[Wed Dec  8 10:46:43 1999] u/s/suez/area/npc/eq/star_robe.c line 48: Non-void functions must return a value.
+
+[Wed Dec  8 14:01:56 1999] u/s/suez/area/npc/eq/star_robe.c line 48: Non-void functions must return a value.
+
+[Wed Dec  8 14:02:02 1999] u/s/suez/area/npc/eq/star_robe.c line 48: Non-void functions must return a value.
+
+[Wed Dec  8 14:02:18 1999] u/s/suez/area/npc/eq/star_robe.c line 48: Non-void functions must return a value.
+
+[Wed Dec  8 14:02:24 1999] u/s/suez/area/npc/eq/star_robe.c line 48: Non-void functions must return a value.
+
+[Wed Dec  8 14:02:32 1999] u/s/suez/area/npc/eq/star_robe.c line 48: Non-void functions must return a value.
+
+[Wed Dec  8 14:07:47 1999] u/s/suez/area/npc/eq/star_robe.c line 48: Non-void functions must return a value.
+
+[Wed Dec  8 14:12:07 1999] u/s/suez/area/npc/eq/star_robe.c line 48: Non-void functions must return a value.
+
+[Wed Dec  8 14:12:21 1999] u/s/suez/area/npc/eq/star_robe.c line 48: Non-void functions must return a value.
+
+[Wed Dec  8 14:16:37 1999] u/s/suez/area/npc/eq/star_robe.c line 48: Non-void functions must return a value.
+
+[Wed Dec  8 14:21:46 1999] u/s/suez/area/npc/eq/star_robe.c line 48: Non-void functions must return a value.
+
+[Wed Dec  8 14:21:50 1999] u/s/suez/area/npc/eq/star_robe.c line 48: Non-void functions must return a value.
+
+[Wed Dec  8 14:22:00 1999] u/s/suez/area/npc/eq/star_robe.c line 48: Non-void functions must return a value.
+
+[Wed Dec  8 14:23:03 1999] u/s/suez/area/npc/eq/star_robe.c line 48: Non-void functions must return a value.
+
+[Wed Dec  8 15:14:01 1999] u/s/suez/area/npc/yen-eu.c line 124: Non-void functions must return a value.
+
+[Wed Dec  8 15:19:42 1999] u/s/suez/area/npc/fong-wu-yen.c line 11: Undefined variable 'CYN'
+
+
+[Wed Dec  8 15:19:42 1999] u/s/suez/area/npc/fong-wu-yen.c line 11: parse error
+
+[Wed Dec  8 15:19:42 1999] u/s/suez/area/npc/fong-wu-yen.c line 63: Illegal LHS
+
+[Wed Dec  8 15:19:42 1999] u/s/suez/area/npc/fong-wu-yen.c line 63: parse error
+
+[Wed Dec  8 15:19:42 1999] u/s/suez/area/npc/fong-wu-yen.c line 64: Illegal LHS
+
+[Wed Dec  8 15:19:42 1999] u/s/suez/area/npc/fong-wu-yen.c line 64: parse error
+
+[Wed Dec  8 15:21:27 1999] u/s/suez/area/npc/fong-wu-yen.c line 11: Undefined variable 'CYN'
+
+
+[Wed Dec  8 15:21:27 1999] u/s/suez/area/npc/fong-wu-yen.c line 11: parse error
+
+[Wed Dec  8 15:21:27 1999] u/s/suez/area/npc/fong-wu-yen.c line 62: Illegal LHS
+
+[Wed Dec  8 15:21:27 1999] u/s/suez/area/npc/fong-wu-yen.c line 62: parse error
+
+[Wed Dec  8 15:21:27 1999] u/s/suez/area/npc/fong-wu-yen.c line 141: Illegal LHS
+
+[Wed Dec  8 15:21:27 1999] u/s/suez/area/npc/fong-wu-yen.c line 141: parse error
+
+[Wed Dec  8 15:31:12 1999] u/s/suez/area/npc/fong-wu-yen.c line 97: Incorrect number of arguments.
+
+[Wed Dec  8 15:32:16 1999] u/s/suez/area/npc/fong-wu-yen.c line 97: Incorrect number of arguments.
+
+[Wed Dec  8 15:33:43 1999] u/s/suez/area/npc/fong-wu-yen.c line 97: Incorrect number of arguments.
+
+[Wed Dec  8 15:34:17 1999] u/s/suez/area/npc/fong-wu-yen.c line 97: Incorrect number of arguments.
+
+[Wed Dec  8 15:35:37 1999] u/s/suez/area/npc/fong-wu-yen.c line 96: Incorrect number of arguments.
+
+[Wed Dec  8 15:36:13 1999] u/s/suez/area/npc/fong-wu-yen.c line 95: Incorrect number of arguments.
+
+[Wed Dec  8 15:37:21 1999] u/s/suez/area/npc/fong-wu-yen.c line 95: A reserved type name cannot be used as a function name.
+
+
+[Wed Dec  8 15:37:21 1999] u/s/suez/area/npc/fong-wu-yen.c line 95: parse error
+
+[Wed Dec  8 15:37:21 1999] u/s/suez/area/npc/fong-wu-yen.c line 137: Incorrect number of arguments.
+
+[Wed Dec  8 15:38:48 1999] u/s/suez/area/npc/fong-wu-yen.c line 95: Incorrect number of arguments.
+
+[Thu Dec  9 09:15:12 1999] u/s/suez/area/npc/fong-wu-yen.c line 95: Incorrect number of arguments.
+
+[Thu Dec  9 09:19:54 1999] u/s/suez/area/npc/fong-wu-yen.c line 93: Incorrect number of arguments.
+
+[Sat Dec 11 12:14:58 1999] u/s/suez/area/npc/fong-wu-yen.c line 90: Incorrect number of arguments.
+
+[Sat Dec 11 13:18:15 1999] u/s/suez/area/npc/fong-wu-yen.c line 93: Incorrect number of arguments.
+
+[Tue Dec 21 09:57:09 1999] u/s/suez/area/npc/fong-wu-yen.c line 93: Incorrect number of arguments.
+
+[Tue Dec 21 09:57:17 1999] u/s/suez/area/npc/fong-wu-yen.c line 93: Incorrect number of arguments.
+
+[Tue Dec 21 09:59:41 1999] u/s/suez/area/npc/fong-wu-yen.c line 95: Incorrect number of arguments.
+
+[Tue Dec 21 10:01:57 1999] u/s/suez/area/npc/fong-wu-yen.c line 95: Incorrect number of arguments.
+
+[Tue Dec 21 10:06:04 1999] u/s/suez/area/npc/fong-wu-yen.c line 93: Incorrect number of arguments.
+
+[Tue Dec 21 10:07:20 1999] u/s/suez/area/npc/fong-wu-yen.c line 93: Incorrect number of arguments.
+
+[Tue Dec 21 10:09:52 1999] u/s/suez/area/npc/fong-wu-yen.c line 94: parse error
+
+[Tue Dec 21 10:09:52 1999] u/s/suez/area/npc/fong-wu-yen.c line 142: Illegal LHS
+
+[Tue Dec 21 10:09:52 1999] u/s/suez/area/npc/fong-wu-yen.c line 143: Undefined variable 'arg'
+
+
+[Tue Dec 21 10:09:52 1999] u/s/suez/area/npc/fong-wu-yen.c line 145: Undefined variable 'obj'
+
+
+[Tue Dec 21 10:09:52 1999] u/s/suez/area/npc/fong-wu-yen.c line 150: Incorrect number of arguments.
+
+[Tue Dec 21 10:10:14 1999] u/s/suez/area/npc/fong-wu-yen.c line 94: Incorrect number of arguments.
+
+[Tue Dec 21 10:11:18 1999] u/s/suez/area/npc/fong-wu-yen.c line 93: Incorrect number of arguments.
+
+[Wed Dec 29 10:26:24 1999] u/s/suez/area/npc/fong-wu-yen.c line 93: Incorrect number of arguments.
+
+[Wed Dec 29 10:33:12 1999] u/s/suez/area/npc/fong-wu-yen.c line 83: Incorrect number of arguments.
+
+[Wed Dec 29 10:33:40 1999] u/s/suez/area/npc/fong-wu-yen.c line 83: Incorrect number of arguments.
+
+[Mon Jan  3 15:32:39 2000] u/s/suez/area/grass.c line 1: parse error
+
+[Mon Jan  3 15:36:42 2000] u/s/suez/area/npc/fong-wu-yen.c line 85: Incorrect number of arguments.
+
+[Mon Jan  3 15:38:02 2000] u/s/suez/area/npc/pan-en.c line 27: No such inherited function ::valid_leave
+
+[Mon Jan  3 15:38:02 2000] u/s/suez/area/npc/pan-en.c line 32: No such inherited function ::valid_leave
+
+[Wed Jan  5 15:41:19 2000] u/s/suez/dagger.c line 50: Undefined variable 'x'
+
+
+[Wed Jan  5 15:41:19 2000] u/s/suez/dagger.c line 50: Wrong number of arguments to set
+    Expected: 2  Got: 1
+
+[Thu Jan  6 09:02:36 2000] u/s/suez/area/seven_l7.c line 33: Type of returned value doesn't match function return type ( int vs void ).
+
+[Thu Jan  6 09:03:14 2000] u/s/suez/area/seven_l7.c line 33: Type of returned value doesn't match function return type ( int vs void ).
+
+[Thu Jan  6 09:04:31 2000] u/s/suez/area/seven_l7.c line 35: parse error
+
+[Thu Jan  6 09:06:35 2000] u/s/suez/area/seven_l7.c line 34: Type of returned value doesn't match function return type ( int vs void ).
+
+[Thu Jan  6 09:08:55 2000] u/s/suez/area/seven_l7.c line 33: Type of returned value doesn't match function return type ( int vs void ).
+
+[Thu Jan  6 09:17:41 2000] u/s/suez/area/npc/yen-lu-yu.c line 86: parse error
+
+[Thu Jan  6 09:24:04 2000] u/s/suez/area/npc/yen-lu-yu.c line 33: parse error
+
+[Thu Jan  6 09:24:04 2000] u/s/suez/area/npc/yen-lu-yu.c line 66: Illegal LHS
+
+[Thu Jan  6 09:24:04 2000] u/s/suez/area/npc/yen-lu-yu.c line 66: parse error
+
+[Thu Jan  6 09:24:04 2000] u/s/suez/area/npc/yen-lu-yu.c line 177: Illegal LHS
+
+[Thu Jan  6 09:24:04 2000] u/s/suez/area/npc/yen-lu-yu.c line 177: parse error
+
+[Thu Jan  6 09:24:04 2000] u/s/suez/area/npc/yen-lu-yu.c line 178: Illegal LHS
+
+[Sat Jan  8 04:53:57 2000] u/s/suez/area/npc/fong-wu-yen.c line 85: Incorrect number of arguments.
+
+[Sat Jan  8 04:57:02 2000] u/s/suez/area/npc/fong-wu-yen.c line 84: Incorrect number of arguments.
+
+[Sat Jan  8 04:57:08 2000] u/s/suez/area/npc/fong-wu-yen.c line 84: Incorrect number of arguments.
+
+[Sun Jan  9 03:06:38 2000] u/s/suez/area/npc/fong-wu-yen.c line 84: Incorrect number of arguments.
+
+[Sun Jan  9 03:27:35 2000] u/s/suez/area/npc/fong-wu-yen.c line 84: Incorrect number of arguments.
+
+[Sun Jan  9 03:29:29 2000] u/s/suez/area/npc/fong-wu-yen.c line 84: Incorrect number of arguments.
+
+[Sun Jan  9 03:32:35 2000] u/s/suez/area/npc/fong-wu-yen.c line 84: Incorrect number of arguments.
+
+[Sun Jan  9 03:40:49 2000] u/s/suez/area/npc/fong-wu-yen.c line 84: Incorrect number of arguments.
+
+[Sun Jan  9 03:42:17 2000] u/s/suez/area/npc/fong-wu-yen.c line 84: Incorrect number of arguments.
+
+[Sun Jan  9 03:45:09 2000] u/s/suez/area/npc/fong-wu-yen.c line 56: Undefined variable 'ob'
+
+
+[Sun Jan  9 03:46:49 2000] u/s/suez/area/npc/fong-wu-yen.c line 56: A reserved type name cannot be used as a function name.
+
+
+[Sun Jan  9 03:46:49 2000] u/s/suez/area/npc/fong-wu-yen.c line 56: parse error
+
+[Sun Jan  9 03:57:24 2000] u/s/suez/area/npc/fong-wu-yen.c line 55: A reserved type name cannot be used as a function name.
+
+
+[Sun Jan  9 03:57:24 2000] u/s/suez/area/npc/fong-wu-yen.c line 55: parse error
+
+[Sun Jan  9 03:57:24 2000] u/s/suez/area/npc/fong-wu-yen.c line 68: Incorrect number of arguments.
+
+[Sun Jan  9 03:59:14 2000] u/s/suez/area/npc/fong-wu-yen.c line 83: Incorrect number of arguments.
+
+[Sun Jan  9 03:59:14 2000] u/s/suez/area/npc/fong-wu-yen.c line 125: Undefined variable 'ob'
+
+
+[Sun Jan  9 04:00:25 2000] u/s/suez/area/npc/fong-wu-yen.c line 83: Incorrect number of arguments.
+
+[Sun Jan  9 04:01:47 2000] u/s/suez/area/npc/fong-wu-yen.c line 83: Incorrect number of arguments.
+
+[Sun Jan  9 04:01:47 2000] u/s/suez/area/npc/fong-wu-yen.c line 84: parse error
+
+[Sun Jan  9 04:02:55 2000] u/s/suez/area/npc/fong-wu-yen.c line 83: Incorrect number of arguments.
+
+[Mon Jan 10 17:47:22 2000] u/s/suez/sonicct2.c line 4: Undefined variable 'HIG'
+
+
+[Mon Jan 10 17:47:22 2000] u/s/suez/sonicct2.c line 4: parse error
+
+[Mon Jan 10 17:47:22 2000] u/s/suez/sonicct2.c line 17: Illegal LHS
+
+[Mon Jan 10 17:47:22 2000] u/s/suez/sonicct2.c line 17: parse error
+
+[Tue Jan 11 13:28:42 2000] u/s/suez/sonicct2.c line 4: Undefined variable 'HIG'
+
+
+[Tue Jan 11 13:28:42 2000] u/s/suez/sonicct2.c line 4: parse error
+
+[Tue Jan 11 13:28:42 2000] u/s/suez/sonicct2.c line 18: Illegal LHS
+
+[Tue Jan 11 13:28:42 2000] u/s/suez/sonicct2.c line 18: parse error
+
+[Tue Jan 11 13:30:08 2000] u/s/suez/sonicct2.c line 5: parse error
+
+[Tue Jan 11 13:32:01 2000] u/s/suez/sonicct2.c line 5: parse error
+
+[Tue Jan 11 13:34:26 2000] u/s/suez/sonicct2.c line 5: parse error
+
+[Tue Jan 11 13:34:59 2000] u/s/suez/sonicct2.c line 8: parse error
+
+[Tue Jan 11 13:34:59 2000] u/s/suez/sonicct2.c line 18: Illegal LHS
+
+[Tue Jan 11 13:34:59 2000] u/s/suez/sonicct2.c line 18: parse error
+
+[Thu Jan 13 14:26:13 2000] u/s/suez/area/npc/pan-en.c line 27: No such inherited function ::valid_leave
+
+[Thu Jan 13 14:26:13 2000] u/s/suez/area/npc/pan-en.c line 35: No such inherited function ::valid_leave
+
+[Sun Jan 30 17:46:35 2000] u/s/suez/area/npc/pan-en.c line 33: parse error
+
+[Sun Jan 30 17:46:35 2000] u/s/suez/area/npc/pan-en.c line 39: Illegal to redeclare local name 'me'
+
+[Sun Jan 30 17:52:58 2000] u/s/suez/area/npc/pan-en.c line 86: Undefined variable 'me'
+
+
+[Sun Jan 30 21:59:35 2000] u/s/suez/area/npc/pan-en.c line 49: Undefined function me
+
+[Sun Jan 30 23:18:29 2000] u/s/suez/area/npc/pan-en.c line 44: Illegal to redeclare local name 'me'
+
+[Sun Jan 30 23:20:14 2000] u/s/suez/area/npc/pan-en.c line 44: Illegal to redeclare local name 'me'
+
+[Sun Jan 30 23:39:08 2000] u/s/suez/area/npc/pan-en.c line 48: No such inherited function ::valid_leave
+
+[Sun Jan 30 23:39:08 2000] u/s/suez/area/npc/pan-en.c line 50: parse error
+
+[Sun Jan 30 23:39:08 2000] u/s/suez/area/npc/pan-en.c line 62: Illegal LHS
+
+[Sun Jan 30 23:39:08 2000] u/s/suez/area/npc/pan-en.c line 62: parse error
+
+[Sun Jan 30 23:39:08 2000] u/s/suez/area/npc/pan-en.c line 72: Illegal LHS
+
+[Sun Jan 30 23:39:08 2000] u/s/suez/area/npc/pan-en.c line 72: parse error
+
+[Sun Jan 30 23:40:41 2000] u/s/suez/area/npc/pan-en.c line 48: No such inherited function ::valid_leave
+
+[Sun Jan 30 23:40:41 2000] u/s/suez/area/npc/pan-en.c line 50: parse error
+
+[Sun Jan 30 23:40:41 2000] u/s/suez/area/npc/pan-en.c line 62: Illegal LHS
+
+[Sun Jan 30 23:40:41 2000] u/s/suez/area/npc/pan-en.c line 62: parse error
+
+[Sun Jan 30 23:40:41 2000] u/s/suez/area/npc/pan-en.c line 72: Illegal LHS
+
+[Sun Jan 30 23:40:41 2000] u/s/suez/area/npc/pan-en.c line 72: parse error
+
+[Sun Jan 30 23:41:26 2000] u/s/suez/area/npc/a.c line 36: No such inherited function ::valid_leave
+
+[Sun Jan 30 23:56:19 2000] u/s/suez/area/hole_1.c line 37: parse error
+
+[Sun Jan 30 23:56:19 2000] u/s/suez/area/hole_1.c line 51: parse error
+
+[Sun Jan 30 23:57:07 2000] u/s/suez/area/hole_1.c line 37: parse error
+
+[Sun Jan 30 23:57:07 2000] u/s/suez/area/hole_1.c line 51: parse error
+
+[Sun Jan 30 23:58:08 2000] u/s/suez/area/npc/pan-en.c line 44: Undefined variable 'obj'
+
+
+[Sun Jan 30 23:58:08 2000] u/s/suez/area/npc/pan-en.c line 44: No such inherited function ::valid_leave
+
+[Sun Jan 30 23:58:08 2000] u/s/suez/area/npc/pan-en.c line 46: parse error
+
+[Sun Jan 30 23:58:08 2000] u/s/suez/area/npc/pan-en.c line 58: Illegal LHS
+
+[Sun Jan 30 23:58:08 2000] u/s/suez/area/npc/pan-en.c line 58: parse error
+
+[Sun Jan 30 23:58:08 2000] u/s/suez/area/npc/pan-en.c line 68: Illegal LHS
+
+[Thu Feb  3 02:02:33 2000] u/s/suez/area/hole_1.c line 57: Non-void functions must return a value.
+
+[Thu Feb  3 02:02:33 2000] u/s/suez/area/hole_1.c line 58: Non-void functions must return a value.
+
+[Thu Feb  3 02:02:33 2000] u/s/suez/area/hole_1.c line 59: Non-void functions must return a value.
+
+[Thu Feb  3 02:02:33 2000] u/s/suez/area/hole_1.c line 65: Non-void functions must return a value.
+
+[Thu Feb  3 02:02:33 2000] u/s/suez/area/hole_1.c line 86: Undefined variable 'ob'
+
+
+[Thu Feb  3 02:03:51 2000] u/s/suez/skills/shadow_step.c line 71: parse error
+
+[Thu Feb  3 02:03:51 2000] u/s/suez/skills/shadow_step.c line 75: A reserved type name cannot be used as a function name.
+
+
+[Thu Feb  3 02:03:51 2000] u/s/suez/skills/shadow_step.c line 75: parse error
+
+[Thu Feb  3 02:04:19 2000] u/s/suez/skills/shadow_step.c line 71: parse error
+
+[Thu Feb  3 02:04:19 2000] u/s/suez/skills/shadow_step.c line 75: A reserved type name cannot be used as a function name.
+
+
+[Thu Feb  3 02:04:19 2000] u/s/suez/skills/shadow_step.c line 75: parse error
+
+[Thu Feb  3 02:06:09 2000] u/s/suez/skills/shadow_step.c line 71: parse error
+
+[Thu Feb  3 02:06:09 2000] u/s/suez/skills/shadow_step.c line 75: A reserved type name cannot be used as a function name.
+
+
+[Thu Feb  3 02:06:09 2000] u/s/suez/skills/shadow_step.c line 75: parse error
+
+[Mon Mar 13 20:42:37 2000] u/s/suez/NPC/wuyi.c line 47: parse error
+
+[Tue May 30 08:23:01 2000] u/s/suez/skills/handing-dagger.c line 120: Warning: Unknown \ escape. before p\¤U¤æµMµo¥X¡T\n"NOR
+
+[Tue May 30 08:23:01 2000] u/s/suez/skills/handing-dagger.c line 120: Warning: Unknown \ escape. before U¤æµMµo¥X¡T\n"NOR,me
+
+[Tue Jul  4 00:18:39 2000] u/s/suez/tsing-yu/map_8_4.c line 9: parse error before p¤pªº¤@¶¡·í¾Q¤¤¡CÂ\º
+
+[Tue Jul  4 00:18:39 2000] u/s/suez/tsing-yu/map_8_4.c line 9: Illegal terminator before ¶¡·í¾Q¤¤¡CÂ\º¡¤F¦U¦¡
+
+[Tue Jul  4 00:19:25 2000] u/s/suez/tsing-yu/map_8_4.c line 9: parse error before p¤pªº¤@¶¡·í¾Q¤¤¡CÂ\º
+
+[Tue Jul  4 00:19:25 2000] u/s/suez/tsing-yu/map_8_4.c line 9: Illegal terminator before ¶¡·í¾Q¤¤¡CÂ\º¡¤F¦U¦¡
+
+[Sun Sep  3 02:41:48 2000] u/s/suez/area/hole_1.c line 20: Undefined function create_door before ;
+
+[Fri Sep  8 12:31:57 2000] u/s/suez/area/hole_1.c line 20: Undefined function create_door before ;
+
+[Fri Sep  8 12:31:57 2000] u/s/suez/area/hole_1.c line 20: Undefined function create_door before ;
+
+[Sat Sep  9 03:49:35 2000] u/s/suez/area/hole_1.c line 20: Undefined function create_door before ;
+
+[Sat Sep  9 03:49:35 2000] u/s/suez/area/hole_1.c line 20: Undefined function create_door before ;
+
+[Sat Sep  9 03:52:27 2000] u/s/suez/area/hole_1.c line 26: Undefined function create_door before ;
+
+[Sat Sep  9 03:54:03 2000] u/s/suez/area/hole_2.c line 19: Undefined function create_door before ;
+
+[Sat Sep  9 03:57:01 2000] u/s/suez/area/npc/apprentice2.c line 6: Warning: Unknown \ escape. before Zªº¤H¡A¬°¤F´_¿³ºK¬Pª
+
+[Sat Sep  9 03:57:01 2000] u/s/suez/area/npc/apprentice2.c line 18: Warning: Unknown \ escape. before K"):),
+
+[Sat Sep  9 03:57:09 2000] u/s/suez/area/npc/apprentice1.c line 6: Warning: Unknown \ escape. before Zªº¤H¡A¬°¤F´_¿³ºK¬Pª
+
+[Sat Sep  9 03:58:33 2000] u/s/suez/area/seven_d7.c line 18: Warning: Unknown \ escape. before \\¥i¥H¸òªþªñªº¤H¥´Å¥
+
+[Sat Sep  9 03:58:33 2000] u/s/suez/area/seven_d7.c line 52: Warning: Unknown \ escape. before Î\³\\¸Ó\½Õ¬d¬Ý¬Ý¡C\n
+
+[Sat Sep  9 03:58:33 2000] u/s/suez/area/seven_d7.c line 52: Warning: Unknown \ escape. before \\¸Ó\½Õ¬d¬Ý¬Ý¡C\n"NO
+
+[Sat Sep  9 03:58:33 2000] u/s/suez/area/seven_d7.c line 52: Warning: Unknown \ escape. before Õ¬d¬Ý¬Ý¡C\n"NOR);
+
+[Sat Sep  9 04:00:09 2000] u/s/suez/area/npc/yen-eu.c line 81: Warning: Unknown \ escape. before \\ªº\´Ý\¨÷¡K«y¡T«y¡T
+
+[Sat Sep  9 04:00:09 2000] u/s/suez/area/npc/yen-eu.c line 81: Warning: Unknown \ escape. before Ý\¨÷¡K«y¡T«y¡T");
+
+[Sat Sep  9 04:00:09 2000] u/s/suez/area/npc/yen-eu.c line 81: Warning: Unknown \ escape. before ÷¡K«y¡T«y¡T");
+
+[Sat Sep  9 04:00:09 2000] u/s/suez/area/npc/yen-eu.c line 88: Warning: Unknown \ escape. before \\¡A§Ú­Ìªá¶O¦n´X¦~¨Ó
+
+[Sat Sep  9 04:00:09 2000] u/s/suez/area/npc/yen-eu.c line 105: Warning: Unknown \ escape. before \\¹ê¦b¤Ó»¤¤H¤F¡K§Ú´N
+
+[Sat Sep  9 04:00:09 2000] u/s/suez/area/npc/yen-eu.c line 143: Warning: Unknown \ escape. before \\À»\¸¨¡T¡T\n");
+
+[Sat Sep  9 04:00:09 2000] u/s/suez/area/npc/yen-eu.c line 143: Warning: Unknown \ escape. before ¨¡T¡T\n");
+
+[Sat Sep  9 04:00:09 2000] u/s/suez/area/npc/yen-eu.c line 171: Warning: Unknown \ escape. before ¨\¤U\³\\¦h¥Û®h¡AÀHµÛ
+
+[Sat Sep  9 04:00:09 2000] u/s/suez/area/npc/yen-eu.c line 171: Warning: Unknown \ escape. before U\³\\¦h¥Û®h¡AÀHµÛ¦è­
+
+[Sat Sep  9 04:00:09 2000] u/s/suez/area/npc/yen-eu.c line 171: Warning: Unknown \ escape. before \\¦h¥Û®h¡AÀHµÛ¦è­·§j
+
+[Sun Sep 10 20:40:40 2000] u/s/suez/area/hole_2.c line 19: Undefined function create_door before ;
+
+[Sun Sep 10 20:40:40 2000] u/s/suez/area/hole_2.c line 79: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Sun Sep 10 20:40:40 2000] u/s/suez/area/hole_2.c line 79: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Sun Sep 10 20:40:40 2000] u/s/suez/area/hole_2.c line 79: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Sun Sep 10 20:40:40 2000] u/s/suez/area/hole_2.c line 79: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Sun Sep 10 20:40:40 2000] u/s/suez/area/hole_2.c line 79: Illegal to redefine 'nomask' function "add_light" before the end of line
+
+[Sun Sep 10 20:42:45 2000] u/s/suez/area/hole_2.c line 4: parse error before ;
+
+[Sun Sep 10 20:43:37 2000] u/s/suez/area/hole_2.c line 80: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Sun Sep 10 20:43:37 2000] u/s/suez/area/hole_2.c line 80: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Sun Sep 10 20:43:37 2000] u/s/suez/area/hole_2.c line 80: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Sun Sep 10 20:43:37 2000] u/s/suez/area/hole_2.c line 80: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Sun Sep 10 20:43:37 2000] u/s/suez/area/hole_2.c line 80: Illegal to redefine 'nomask' function "add_light" before the end of line
+
+[Sun Sep 10 20:43:37 2000] u/s/suez/area/hole_2.c line 104: Redeclaration of function create. before the end of line
+
+[Sun Sep 10 21:28:06 2000] u/s/suez/area/npc/obj/three-gentlemen_t.c line 31: Undefined variable 'me' before "¥J²Ó¤@¬Ý¡A³o¤T®è¬h¾
+
+[Sun Sep 10 21:42:18 2000] u/s/suez/area/npc/fong-wu-yen.c line 67: parse error before the end of line
+
+[Sun Sep 10 21:48:05 2000] u/s/suez/area/npc/yen-eu.c line 81: Warning: Unknown \ escape. before \\ªº\´Ý\¨÷¡K«y¡T«y¡T
+
+[Sun Sep 10 21:48:05 2000] u/s/suez/area/npc/yen-eu.c line 81: Warning: Unknown \ escape. before Ý\¨÷¡K«y¡T«y¡T");
+
+[Sun Sep 10 21:48:05 2000] u/s/suez/area/npc/yen-eu.c line 81: Warning: Unknown \ escape. before ÷¡K«y¡T«y¡T");
+
+[Sun Sep 10 21:48:05 2000] u/s/suez/area/npc/yen-eu.c line 88: Warning: Unknown \ escape. before \\¡A§Ú­Ìªá¶O¦n´X¦~¨Ó
+
+[Sun Sep 10 21:48:05 2000] u/s/suez/area/npc/yen-eu.c line 105: Warning: Unknown \ escape. before \\¹ê¦b¤Ó»¤¤H¤F¡K§Ú´N
+
+[Sun Sep 10 21:48:05 2000] u/s/suez/area/npc/yen-eu.c line 143: Warning: Unknown \ escape. before \\À»\¸¨¡T¡T\n");
+
+[Sun Sep 10 21:48:05 2000] u/s/suez/area/npc/yen-eu.c line 143: Warning: Unknown \ escape. before ¨¡T¡T\n");
+
+[Sun Sep 10 21:48:05 2000] u/s/suez/area/npc/yen-eu.c line 171: Warning: Unknown \ escape. before ¨\¤U\³\\¦h¥Û®h¡AÀHµÛ
+
+[Sun Sep 10 21:48:05 2000] u/s/suez/area/npc/yen-eu.c line 171: Warning: Unknown \ escape. before U\³\\¦h¥Û®h¡AÀHµÛ¦è­
+
+[Sun Sep 10 21:48:05 2000] u/s/suez/area/npc/yen-eu.c line 171: Warning: Unknown \ escape. before \\¦h¥Û®h¡AÀHµÛ¦è­·§j
+
+[Sun Sep 10 21:53:21 2000] u/s/suez/area/npc/obj/water.c line 28: Warning: do_eat() inherited from both /feature/food.c and /feature/pill.c; using the definition in /feature/food.c. before the end of file
+
+[Sun Sep 10 21:53:21 2000] u/s/suez/area/npc/obj/water.c line 28: Warning: init() inherited from both /feature/food.c and /feature/pill.c; using the definition in /feature/food.c. before the end of file
+
+[Thu Sep 14 00:41:40 2000] u/s/suez/fancy/port_1.c line 1: parse error before ;
+
+[Thu Sep 14 00:44:22 2000] u/s/suez/fancy/port_1.c line 5: parse error before ("long",@LONG
+
+[Thu Sep 14 00:50:36 2000] u/s/suez/fancy/npc/waiter.c line 10: parse error before ","¤k©Ê");
+
+[Thu Sep 14 00:50:36 2000] u/s/suez/fancy/npc/waiter.c line 26: End of file in string before c/waiter" : 3,
+
+[Thu Sep 14 00:58:34 2000] u/s/suez/fancy/hotel_hall.c line 1: parse error before #include <ansi.h>
+
+[Thu Sep 14 01:08:12 2000] u/s/suez/fancy/npc/seller.c line 23: parse error before init();
+
+[Thu Sep 14 01:10:10 2000] u/s/suez/fancy/npc/seller.c line 23: parse error before init();
+
+[Thu Sep 14 01:34:27 2000] u/s/suez/area/npc/yen-eu.c line 81: Warning: Unknown \ escape. before \\ªº\´Ý\¨÷¡K«y¡T«y¡T
+
+[Thu Sep 14 01:34:27 2000] u/s/suez/area/npc/yen-eu.c line 81: Warning: Unknown \ escape. before Ý\¨÷¡K«y¡T«y¡T");
+
+[Thu Sep 14 01:34:27 2000] u/s/suez/area/npc/yen-eu.c line 81: Warning: Unknown \ escape. before ÷¡K«y¡T«y¡T");
+
+[Thu Sep 14 01:34:27 2000] u/s/suez/area/npc/yen-eu.c line 88: Warning: Unknown \ escape. before \\¡A§Ú­Ìªá¶O¦n´X¦~¨Ó
+
+[Thu Sep 14 01:34:27 2000] u/s/suez/area/npc/yen-eu.c line 105: Warning: Unknown \ escape. before \\¹ê¦b¤Ó»¤¤H¤F¡K§Ú´N
+
+[Thu Sep 14 01:34:27 2000] u/s/suez/area/npc/yen-eu.c line 143: Warning: Unknown \ escape. before \\À»\¸¨¡T¡T\n");
+
+[Thu Sep 14 01:34:27 2000] u/s/suez/area/npc/yen-eu.c line 143: Warning: Unknown \ escape. before ¨¡T¡T\n");
+
+[Thu Sep 14 01:34:27 2000] u/s/suez/area/npc/yen-eu.c line 171: Warning: Unknown \ escape. before ¨\¤U\³\\¦h¥Û®h¡AÀHµÛ
+
+[Thu Sep 14 01:34:27 2000] u/s/suez/area/npc/yen-eu.c line 171: Warning: Unknown \ escape. before U\³\\¦h¥Û®h¡AÀHµÛ¦è­
+
+[Thu Sep 14 01:34:27 2000] u/s/suez/area/npc/yen-eu.c line 171: Warning: Unknown \ escape. before \\¦h¥Û®h¡AÀHµÛ¦è­·§j
+
+[Thu Sep 14 01:42:03 2000] u/s/suez/skills/shadow_step.c line 8: Warning: Unknown \ escape. before H\¨­\Âà\¡v¡I¡I\n",
+
+[Thu Sep 14 01:42:03 2000] u/s/suez/skills/shadow_step.c line 8: Warning: Unknown \ escape. before ­\Âà\¡v¡I¡I\n",
+
+[Thu Sep 14 01:42:03 2000] u/s/suez/skills/shadow_step.c line 8: Warning: Unknown \ escape. before à\¡v¡I¡I\n",
+
+[Thu Sep 14 01:42:03 2000] u/s/suez/skills/shadow_step.c line 8: Warning: Unknown \ escape. before v¡I¡I\n",
+
+[Thu Sep 14 01:42:03 2000] u/s/suez/skills/shadow_step.c line 9: Warning: Unknown \ escape. before A¶X$Nµy¦³¤À¤ß¡A¤@©Û¡
+
+[Thu Sep 14 01:42:03 2000] u/s/suez/skills/shadow_step.c line 9: Warning: Unknown \ escape. before v»´\®¨\®¨ªºÂà¨ì$N­I«
+
+[Thu Sep 14 01:42:03 2000] u/s/suez/skills/shadow_step.c line 9: Warning: Unknown \ escape. before ¨\®¨ªºÂà¨ì$N­I«á¡C\n
+
+[Thu Sep 14 01:42:03 2000] u/s/suez/skills/shadow_step.c line 9: Warning: Unknown \ escape. before ¨ªºÂà¨ì$N­I«á¡C\n",
+
+[Thu Sep 14 01:42:03 2000] u/s/suez/skills/shadow_step.c line 26: Warning: Unknown \ escape. before C\n"NOR,me);
+
+[Thu Sep 14 01:42:03 2000] u/s/suez/skills/shadow_step.c line 31: Warning: Unknown \ escape. before ÓPOSE¡TÅý¤j®a¬Ý¬Ý§A¨
+
+[Tue Oct 17 10:14:41 2000] u/s/suez/area/npc/yen-eu.c line 81: Warning: Unknown \ escape. before \\ªº\´Ý\¨÷¡K«y¡T«y¡T
+
+[Tue Oct 17 10:14:41 2000] u/s/suez/area/npc/yen-eu.c line 81: Warning: Unknown \ escape. before Ý\¨÷¡K«y¡T«y¡T");
+
+[Tue Oct 17 10:14:41 2000] u/s/suez/area/npc/yen-eu.c line 81: Warning: Unknown \ escape. before ÷¡K«y¡T«y¡T");
+
+[Tue Oct 17 10:14:41 2000] u/s/suez/area/npc/yen-eu.c line 88: Warning: Unknown \ escape. before \\¡A§Ú­Ìªá¶O¦n´X¦~¨Ó
+
+[Tue Oct 17 10:14:41 2000] u/s/suez/area/npc/yen-eu.c line 105: Warning: Unknown \ escape. before \\¹ê¦b¤Ó»¤¤H¤F¡K§Ú´N
+
+[Tue Oct 17 10:14:41 2000] u/s/suez/area/npc/yen-eu.c line 143: Warning: Unknown \ escape. before \\À»\¸¨¡T¡T\n");
+
+[Tue Oct 17 10:14:41 2000] u/s/suez/area/npc/yen-eu.c line 143: Warning: Unknown \ escape. before ¨¡T¡T\n");
+
+[Tue Oct 17 10:14:41 2000] u/s/suez/area/npc/yen-eu.c line 171: Warning: Unknown \ escape. before ¨\¤U\³\\¦h¥Û®h¡AÀHµÛ
+
+[Tue Oct 17 10:14:41 2000] u/s/suez/area/npc/yen-eu.c line 171: Warning: Unknown \ escape. before U\³\\¦h¥Û®h¡AÀHµÛ¦è­
+
+[Tue Oct 17 10:14:41 2000] u/s/suez/area/npc/yen-eu.c line 171: Warning: Unknown \ escape. before \\¦h¥Û®h¡AÀHµÛ¦è­·§j
+
+[Sun Oct 22 10:45:09 2000] u/s/suez/fall.c line 25: parse error before  __DIR__"workroom",
+
+[Sun Oct 22 10:45:45 2000] u/s/suez/fall.c line 25: parse error before  __DIR__"workroom",
+
+[Sun Oct 22 11:20:27 2000] u/s/suez/grave/kiosk.c line 3: parse error before  create()
+
+[Sun Oct 22 11:20:49 2000] u/s/suez/grave/kiosk.c line 5: Undefined variable 'short' before ³¥«F)
+
+[Sun Oct 22 11:20:49 2000] u/s/suez/grave/kiosk.c line 5: parse error before ¥«F)
+
+[Sun Oct 22 11:22:42 2000] u/s/suez/grave/kiosk.c line 5: Undefined variable 'short' before "³¥«F");
+
+[Sun Oct 22 11:22:42 2000] u/s/suez/grave/kiosk.c line 6: Undefined variable 'long' before @LONG
+
+[Sun Oct 22 11:22:42 2000] u/s/suez/grave/kiosk.c line 16: Undefined variable 'exit' before (
+
+[Sun Oct 22 11:22:42 2000] u/s/suez/grave/kiosk.c line 17: parse error before __DIR__"path_01",
+
+[Sun Oct 22 11:25:12 2000] u/s/suez/grave/kiosk.c line 17: parse error before __DIR__"path_01",
+
+[Sun Oct 22 11:26:52 2000] u/s/suez/grave/kiosk.c line 21: Undefined variable '__DIR__npc' before oldman : 1,
+
+[Sun Oct 22 11:26:52 2000] u/s/suez/grave/kiosk.c line 21: Undefined variable 'oldman' before  1,
+
+[Sun Oct 22 11:46:27 2000] u/s/suez/grave/npc/oldman.c line 3: parse error before "}));
+
+[Sun Oct 22 11:46:27 2000] u/s/suez/grave/npc/oldman.c line 21: Illegal terminator before ¤j¤f¡C\n"
+
+[Sun Oct 22 11:49:31 2000] u/s/suez/grave/npc/oldman.c line 4: parse error before "}));
+
+[Sun Oct 22 11:49:31 2000] u/s/suez/grave/npc/oldman.c line 22: Illegal terminator before ¤j¤f¡C\n"
+
+[Sun Oct 22 11:52:57 2000] u/s/suez/grave/npc/oldman.c line 4: parse error before ","man"}));
+
+[Sun Oct 22 11:52:57 2000] u/s/suez/grave/npc/oldman.c line 22: Illegal terminator before ¤j¤f¡C\n"
+
+[Wed Nov  1 13:25:30 2000] u/s/suez/grave/path_0.c line 7: Warning: Unknown \ escape. before VÃä");
+
+[Wed Nov  1 13:26:04 2000] u/s/suez/grave/path_0.c line 7: Warning: Unknown \ escape. before VÃä");
+
+[Wed Nov  1 13:26:58 2000] u/s/suez/grave/path_0.c line 7: Warning: Unknown \ escape. before \\±V\Ãä\");
+
+[Wed Nov  1 13:26:58 2000] u/s/suez/grave/path_0.c line 7: Warning: Unknown \ escape. before ä\");
+
+[Wed Nov  1 13:26:58 2000] u/s/suez/grave/path_0.c line 8: parse error before ", @LONG
+
+[Wed Nov  1 13:26:58 2000] u/s/suez/grave/path_0.c line 9: Warning: Unknown \ escape. before Q©tÄa¡A©¹¤U¶³Ãú²`³B¬
+
+[Wed Nov  1 13:26:58 2000] u/s/suez/grave/path_0.c line 22: End of file in string before CÀð¤W¦³­Ó§i¥ÜµP(note
+
+[Wed Nov  1 13:28:00 2000] u/s/suez/grave/path_0.c line 7: Warning: Unknown \ escape. before VÃä");
+
+[Wed Nov  1 13:28:38 2000] u/s/suez/grave/path_0.c line 7: Warning: Unknown \ escape. before VÃä");
+
+[Sat Jun  9 11:29:45 2001] u/s/suez/area/seven_d7.c line 18: Warning: Unknown \ escape. before \\¥i¥H¸òªþªñªº¤H¥´Å¥
+
+[Sat Jun  9 11:29:45 2001] u/s/suez/area/seven_d7.c line 52: Warning: Unknown \ escape. before Î\³\\¸Ó\½Õ¬d¬Ý¬Ý¡C\n
+
+[Sat Jun  9 11:29:45 2001] u/s/suez/area/seven_d7.c line 52: Warning: Unknown \ escape. before \\¸Ó\½Õ¬d¬Ý¬Ý¡C\n"NO
+
+[Sat Jun  9 11:29:45 2001] u/s/suez/area/seven_d7.c line 52: Warning: Unknown \ escape. before Õ¬d¬Ý¬Ý¡C\n"NOR);
+
+[Sat Jun  9 11:36:38 2001] u/s/suez/area/npc/apprentice2.c line 6: Warning: Unknown \ escape. before Zªº¤H¡A¬°¤F´_¿³ºK¬Pª
+
+[Sat Jun  9 11:36:38 2001] u/s/suez/area/npc/apprentice2.c line 19: Warning: Unknown \ escape. before K"):),
+
+[Sat Jun  9 11:37:20 2001] u/s/suez/area/npc/apprentice1.c line 6: Warning: Unknown \ escape. before Zªº¤H¡A¬°¤F´_¿³ºK¬Pª
+
+[Tue Aug 28 19:38:37 2001] u/s/suez/port/port_00.c line 2: parse error before  create()
+
+[Tue Aug 28 19:47:11 2001] u/s/suez/port_00.c line 25: End of file in text block before  arg;
+
+[Tue Aug 28 19:47:11 2001] u/s/suez/port_00.c line 25: parse error before  arg;
+
+[Tue Aug 28 19:48:14 2001] u/s/suez/port_00.c line 26: End of file in text block before t("volume",3);      
+
+[Tue Aug 28 19:48:14 2001] u/s/suez/port_00.c line 26: parse error before t("volume",3);      
+
+[Tue Aug 28 19:50:44 2001] u/s/suez/port_00.c line 25: End of file in text block before *
+
+[Tue Aug 28 19:50:44 2001] u/s/suez/port_00.c line 25: parse error before *
+
+[Tue Aug 28 20:12:19 2001] u/s/suez/port/port_00.c line 24: End of file in text block before );
+
+[Tue Aug 28 20:12:19 2001] u/s/suez/port/port_00.c line 24: parse error before );
+
+[Tue Aug 28 20:12:27 2001] u/s/suez/port/port_00.c line 24: End of file in text block before ©úª«µ¹¥L­Ì¬Ý¡A§_«h«Ü
+
+[Tue Aug 28 20:12:27 2001] u/s/suez/port/port_00.c line 24: parse error before ©úª«µ¹¥L­Ì¬Ý¡A§_«h«Ü
+
+[Tue Aug 28 20:12:35 2001] u/s/suez/port/port_00.c line 24: End of file in text block before ©úª«µ¹¥L­Ì¬Ý¡A§_«h«Ü
+
+[Tue Aug 28 20:12:35 2001] u/s/suez/port/port_00.c line 24: parse error before ©úª«µ¹¥L­Ì¬Ý¡A§_«h«Ü
+
+[Tue Aug 28 20:14:34 2001] u/s/suez/port/port_07.c line 16: parse error before __DIR__"port_08",
+
+[Tue Aug 28 20:25:03 2001] u/s/suez/port/port_09.c line 16: Warning: Unknown \ escape. before ucy":1,
+
+[Tue Aug 28 20:29:24 2001] u/s/suez/port/port_a3.c line 21: Warning: Unknown \ escape. before Û¤TÁû¥¨¤jªº¤ô´¹¡A¤ô´
+
+[Tue Aug 28 20:29:24 2001] u/s/suez/port/port_a3.c line 34: Undefined variable 'obj' before ;
+
+[Tue Aug 28 20:29:24 2001] u/s/suez/port/port_a3.c line 34: parse error before ;
+
+[Tue Aug 28 20:29:24 2001] u/s/suez/port/port_a3.c line 35: Illegal LHS before the end of line
+
+[Tue Aug 28 20:29:24 2001] u/s/suez/port/port_a3.c line 39: Undefined variable 'me' before the end of line
+
+[Tue Aug 28 20:29:24 2001] u/s/suez/port/port_a3.c line 40: parse error before  1;
+
+[Tue Aug 28 20:29:24 2001] u/s/suez/port/port_a3.c line 46: Undefined variable 'obj' before ;
+
+[Tue Aug 28 20:34:19 2001] u/s/suez/port/port_a3.c line 21: Warning: Unknown \ escape. before Û¤TÁû¥¨¤jªº¤ô´¹¡A¤ô´
+
+[Tue Aug 28 20:34:19 2001] u/s/suez/port/port_a3.c line 40: parse error before  1;
+
+[Tue Aug 28 20:34:19 2001] u/s/suez/port/port_a3.c line 50: parse error before AªFÂ½Â½¦è§ä§ä¡A¦ü¥Gµ
+
+[Tue Aug 28 20:34:19 2001] u/s/suez/port/port_a3.c line 50: Illegal terminator before ­ÓÃþ¦ü¶}ÃöªºªF¦è¡I\n
+
+[Tue Aug 28 20:36:10 2001] u/s/suez/port/port_a3.c line 21: Warning: Unknown \ escape. before Û¤TÁû¥¨¤jªº¤ô´¹¡A¤ô´
+
+[Tue Aug 28 20:36:10 2001] u/s/suez/port/port_a3.c line 65: parse error before ","light");
+
+[Tue Aug 28 20:36:10 2001] u/s/suez/port/port_a3.c line 77: Illegal terminator before ¤ù¤õ®ü!¤@__¤@!n"NOR)
+
+[Tue Aug 28 20:38:25 2001] u/s/suez/port/port_a3.c line 21: Warning: Unknown \ escape. before Û¤TÁû¥¨¤jªº¤ô´¹¡A¤ô´
+
+[Tue Aug 28 20:38:25 2001] u/s/suez/port/port_a3.c line 65: parse error before ","light");
+
+[Tue Aug 28 20:38:25 2001] u/s/suez/port/port_a3.c line 77: Illegal terminator before ¤ù¤õ®ü!¤@__¤@!\n"NOR
+
+[Tue Aug 28 20:40:07 2001] u/s/suez/port/port_a3.c line 21: Warning: Unknown \ escape. before Û¤TÁû¥¨¤jªº¤ô´¹¡A¤ô´
+
+[Tue Aug 28 20:40:07 2001] u/s/suez/port/port_a3.c line 65: parse error before ","light");
+
+[Tue Aug 28 20:40:07 2001] u/s/suez/port/port_a3.c line 77: Illegal terminator before ¤ù¤õ®ü!¤@__¤@!\n"NOR
+
+[Tue Aug 28 20:43:38 2001] u/s/suez/area/seven_d7.c line 18: Warning: Unknown \ escape. before \\¥i¥H¸òªþªñªº¤H¥´Å¥
+
+[Tue Aug 28 20:43:38 2001] u/s/suez/area/seven_d7.c line 52: Warning: Unknown \ escape. before Î\³\\¸Ó\½Õ¬d¬Ý¬Ý¡C\n
+
+[Tue Aug 28 20:43:38 2001] u/s/suez/area/seven_d7.c line 52: Warning: Unknown \ escape. before \\¸Ó\½Õ¬d¬Ý¬Ý¡C\n"NO
+
+[Tue Aug 28 20:43:38 2001] u/s/suez/area/seven_d7.c line 52: Warning: Unknown \ escape. before Õ¬d¬Ý¬Ý¡C\n"NOR);
+
+[Tue Aug 28 20:45:59 2001] u/s/suez/port/port_a3.c line 21: Warning: Unknown \ escape. before Û¤TÁû¥¨¤jªº¤ô´¹¡A¤ô´
+
+[Tue Aug 28 20:45:59 2001] u/s/suez/port/port_a3.c line 65: parse error before ","light");
+
+[Tue Aug 28 20:45:59 2001] u/s/suez/port/port_a3.c line 77: Illegal terminator before ¤ù¤õ®ü!¤@__¤@!\n"NOR
+
+[Tue Aug 28 20:48:20 2001] u/s/suez/port/port_a3.c line 21: Warning: Unknown \ escape. before Û¤TÁû¥¨¤jªº¤ô´¹¡A¤ô´
+
+[Tue Aug 28 20:48:20 2001] u/s/suez/port/port_a3.c line 65: parse error before ","light");
+
+[Tue Aug 28 20:48:20 2001] u/s/suez/port/port_a3.c line 78: Illegal terminator before ¤ù¤õ®ü!¤@__¤@!\n"NOR
+
+[Tue Aug 28 20:50:40 2001] u/s/suez/port/port_a3.c line 21: Warning: Unknown \ escape. before Û¤TÁû¥¨¤jªº¤ô´¹¡A¤ô´
+
+[Tue Aug 28 20:50:40 2001] u/s/suez/port/port_a3.c line 65: parse error before ","light");
+
+[Tue Aug 28 20:50:40 2001] u/s/suez/port/port_a3.c line 78: Illegal terminator before ¤ù¤õ®ü!¤@__¤@!\n"NOR
+
+[Tue Aug 28 20:53:03 2001] u/s/suez/port/port_a3.c line 21: Warning: Unknown \ escape. before Û¤TÁû¥¨¤jªº¤ô´¹¡A¤ô´
+
+[Tue Aug 28 20:53:03 2001] u/s/suez/port/port_a3.c line 65: parse error before ","light");
+
+[Tue Aug 28 20:53:03 2001] u/s/suez/port/port_a3.c line 78: Illegal terminator before ¤ù¤õ®ü!¤@__¤@!\n"NOR
+
+[Tue Aug 28 20:53:45 2001] u/s/suez/port/npc/lucy.c line 37: Undefined function quest before ;        
+
+[Tue Aug 28 20:53:45 2001] u/s/suez/port/npc/lucy.c line 58: Missing type for argument before  me)
+
+[Tue Aug 28 20:53:45 2001] u/s/suez/port/npc/lucy.c line 58: parse error before )
+
+[Tue Aug 28 20:54:03 2001] u/s/suez/port/npc/doctor_su.c line 36: Missing type for argument before  ppl)
+
+[Tue Aug 28 20:54:03 2001] u/s/suez/port/npc/doctor_su.c line 36: parse error before )
+
+[Tue Aug 28 20:55:42 2001] u/s/suez/port/npc/doctor_su.c line 40: Undefined function ramdom before ;
+
+[Tue Aug 28 20:55:42 2001] u/s/suez/port/npc/doctor_su.c line 40: Bad assignment ( int vs unknown ). before the end of line
+
+[Tue Aug 28 21:09:44 2001] u/s/suez/port/port_a3.c line 21: Warning: Unknown \ escape. before Û¤TÁû¥¨¤jªº¤ô´¹¡A¤ô´
+
+[Tue Aug 28 21:09:44 2001] u/s/suez/port/port_a3.c line 63: parse error before ,
+
+[Tue Aug 28 21:09:44 2001] u/s/suez/port/port_a3.c line 73: Illegal LHS before the end of line
+
+[Tue Aug 28 21:09:44 2001] u/s/suez/port/port_a3.c line 73: parse error before the end of line
+
+[Tue Aug 28 21:09:44 2001] u/s/suez/port/port_a3.c line 74: Illegal LHS before the end of line
+
+[Tue Aug 28 21:09:44 2001] u/s/suez/port/port_a3.c line 74: parse error before the end of line
+
+[Tue Aug 28 21:09:44 2001] u/s/suez/port/port_a3.c line 77: Warning: Unknown \ escape. before I¿U¤Fªo¿O....¡I"HIY"
+
+[Tue Aug 28 21:10:56 2001] u/s/suez/port/port_a3.c line 21: Warning: Unknown \ escape. before Û¤TÁû¥¨¤jªº¤ô´¹¡A¤ô´
+
+[Tue Aug 28 21:10:56 2001] u/s/suez/port/port_a3.c line 63: parse error before ,
+
+[Tue Aug 28 21:10:56 2001] u/s/suez/port/port_a3.c line 73: Illegal LHS before the end of line
+
+[Tue Aug 28 21:10:56 2001] u/s/suez/port/port_a3.c line 73: parse error before the end of line
+
+[Tue Aug 28 21:10:56 2001] u/s/suez/port/port_a3.c line 74: Illegal LHS before the end of line
+
+[Tue Aug 28 21:10:56 2001] u/s/suez/port/port_a3.c line 74: parse error before the end of line
+
+[Tue Aug 28 21:10:56 2001] u/s/suez/port/port_a3.c line 77: Warning: Unknown \ escape. before I¿U¤Fªo¿O....¡I"HIY"
+
+[Tue Aug 28 21:11:21 2001] u/s/suez/port/port_a3.c line 21: Warning: Unknown \ escape. before Û¤TÁû¥¨¤jªº¤ô´¹¡A¤ô´
+
+[Tue Aug 28 21:11:21 2001] u/s/suez/port/port_a3.c line 63: parse error before the end of line
+
+[Tue Aug 28 21:11:21 2001] u/s/suez/port/port_a3.c line 73: Illegal LHS before the end of line
+
+[Tue Aug 28 21:11:21 2001] u/s/suez/port/port_a3.c line 73: parse error before the end of line
+
+[Tue Aug 28 21:11:21 2001] u/s/suez/port/port_a3.c line 74: Illegal LHS before the end of line
+
+[Tue Aug 28 21:11:21 2001] u/s/suez/port/port_a3.c line 74: parse error before the end of line
+
+[Tue Aug 28 21:11:21 2001] u/s/suez/port/port_a3.c line 77: Warning: Unknown \ escape. before I¿U¤Fªo¿O....¡I"HIY"
+
+[Tue Aug 28 21:14:09 2001] u/s/suez/port/port_a3.c line 21: Warning: Unknown \ escape. before Û¤TÁû¥¨¤jªº¤ô´¹¡A¤ô´
+
+[Tue Aug 28 21:14:09 2001] u/s/suez/port/port_a3.c line 34: Undefined variable 'obj' before ;
+
+[Tue Aug 28 21:14:09 2001] u/s/suez/port/port_a3.c line 34: parse error before ;
+
+[Tue Aug 28 21:14:09 2001] u/s/suez/port/port_a3.c line 35: Illegal LHS before the end of line
+
+[Tue Aug 28 21:14:09 2001] u/s/suez/port/port_a3.c line 39: Undefined variable 'me' before ;
+
+[Tue Aug 28 21:14:09 2001] u/s/suez/port/port_a3.c line 46: Undefined variable 'obj' before ;
+
+[Tue Aug 28 21:14:09 2001] u/s/suez/port/port_a3.c line 46: parse error before ;
+
+[Tue Aug 28 21:14:09 2001] u/s/suez/port/port_a3.c line 77: Warning: Unknown \ escape. before I¿U¤Fªo¿O....¡I"HIY"
+
+[Tue Aug 28 21:16:00 2001] u/s/suez/port/port_a3.c line 21: Warning: Unknown \ escape. before Û¤TÁû¥¨¤jªº¤ô´¹¡A¤ô´
+
+[Tue Aug 28 21:16:00 2001] u/s/suez/port/port_a3.c line 63: parse error before the end of line
+
+[Tue Aug 28 21:16:00 2001] u/s/suez/port/port_a3.c line 73: Illegal LHS before the end of line
+
+[Tue Aug 28 21:16:00 2001] u/s/suez/port/port_a3.c line 73: parse error before the end of line
+
+[Tue Aug 28 21:16:00 2001] u/s/suez/port/port_a3.c line 74: Illegal LHS before the end of line
+
+[Tue Aug 28 21:16:00 2001] u/s/suez/port/port_a3.c line 74: parse error before the end of line
+
+[Tue Aug 28 21:16:00 2001] u/s/suez/port/port_a3.c line 77: Warning: Unknown \ escape. before I¿U¤Fªo¿O....¡I"HIY"
+
+[Tue Aug 28 21:19:57 2001] u/s/suez/port/port_a3.c line 21: Warning: Unknown \ escape. before Û¤TÁû¥¨¤jªº¤ô´¹¡A¤ô´
+
+[Tue Aug 28 21:19:57 2001] u/s/suez/port/port_a3.c line 64: parse error before the end of line
+
+[Tue Aug 28 21:19:57 2001] u/s/suez/port/port_a3.c line 74: Illegal LHS before the end of line
+
+[Tue Aug 28 21:19:57 2001] u/s/suez/port/port_a3.c line 74: parse error before the end of line
+
+[Tue Aug 28 21:19:57 2001] u/s/suez/port/port_a3.c line 75: Illegal LHS before the end of line
+
+[Tue Aug 28 21:19:57 2001] u/s/suez/port/port_a3.c line 75: parse error before the end of line
+
+[Tue Aug 28 21:19:57 2001] u/s/suez/port/port_a3.c line 78: Warning: Unknown \ escape. before I¿U¤Fªo¿O....¡I"HIY"
+
+[Tue Aug 28 21:23:10 2001] u/s/suez/port/npc/lucy.c line 37: Undefined function quest before ;        
+
+[Tue Aug 28 21:23:10 2001] u/s/suez/port/npc/lucy.c line 58: Missing type for argument before  me)
+
+[Tue Aug 28 21:23:10 2001] u/s/suez/port/npc/lucy.c line 58: parse error before )
+
+[Tue Aug 28 21:31:49 2001] u/s/suez/port/npc/lucy.c line 37: Undefined function quest before ;        
+
+[Tue Aug 28 21:31:49 2001] u/s/suez/port/npc/lucy.c line 58: Missing type for argument before  me)
+
+[Tue Aug 28 21:31:49 2001] u/s/suez/port/npc/lucy.c line 58: parse error before )
+
+[Tue Aug 28 21:32:23 2001] u/s/suez/port/npc/lucy.c line 37: Undefined function quest before ;        
+
+[Tue Aug 28 21:32:23 2001] u/s/suez/port/npc/lucy.c line 58: Missing type for argument before  me)
+
+[Tue Aug 28 21:32:23 2001] u/s/suez/port/npc/lucy.c line 58: parse error before )
+
+[Tue Aug 28 21:34:34 2001] u/s/suez/port/npc/lucy.c line 37: Undefined function quest before ;        
+
+[Tue Aug 28 21:34:34 2001] u/s/suez/port/npc/lucy.c line 65: Undefined function cammand before ;
+
+[Tue Aug 28 21:34:34 2001] u/s/suez/port/npc/lucy.c line 79: parse error before );
+
+[Tue Aug 28 21:34:34 2001] u/s/suez/port/npc/lucy.c line 83: Warning: Unknown \ escape. before ..");
+
+[Tue Aug 28 21:34:34 2001] u/s/suez/port/npc/lucy.c line 84: Warning: Unknown \ escape. before ×¦n¥¦¡C");
+
+[Tue Aug 28 21:35:22 2001] u/s/suez/port/npc/lucy.c line 66: Undefined function cammand before ;
+
+[Tue Aug 28 21:35:22 2001] u/s/suez/port/npc/lucy.c line 80: parse error before );
+
+[Tue Aug 28 21:35:22 2001] u/s/suez/port/npc/lucy.c line 84: Warning: Unknown \ escape. before ..");
+
+[Tue Aug 28 21:35:22 2001] u/s/suez/port/npc/lucy.c line 85: Warning: Unknown \ escape. before ×¦n¥¦¡C");
+
+[Tue Aug 28 21:41:50 2001] u/s/suez/port/npc/lucy.c line 79: parse error before );
+
+[Tue Aug 28 21:41:50 2001] u/s/suez/port/npc/lucy.c line 83: Warning: Unknown \ escape. before ..");
+
+[Tue Aug 28 21:41:50 2001] u/s/suez/port/npc/lucy.c line 84: Warning: Unknown \ escape. before ×¦n¥¦¡C");
+
+[Tue Aug 28 21:44:33 2001] u/s/suez/port/npc/lucy.c line 79: parse error before );
+
+[Tue Aug 28 21:44:33 2001] u/s/suez/port/npc/lucy.c line 83: Warning: Unknown \ escape. before ..");
+
+[Tue Aug 28 21:44:33 2001] u/s/suez/port/npc/lucy.c line 84: Warning: Unknown \ escape. before ×¦n¥¦¡C");
+
+[Tue Aug 28 21:48:34 2001] u/s/suez/port/npc/lucy.c line 79: parse error before );
+
+[Tue Aug 28 21:48:34 2001] u/s/suez/port/npc/lucy.c line 83: Warning: Unknown \ escape. before ..");
+
+[Tue Aug 28 21:48:34 2001] u/s/suez/port/npc/lucy.c line 84: Warning: Unknown \ escape. before ×¦n¥¦¡C");
+
+[Tue Aug 28 21:49:24 2001] u/s/suez/port/npc/lucy.c line 83: Warning: Unknown \ escape. before ..");
+
+[Tue Aug 28 21:49:24 2001] u/s/suez/port/npc/lucy.c line 84: Warning: Unknown \ escape. before ×¦n¥¦¡C");
+
+[Tue Aug 28 21:49:24 2001] u/s/suez/port/npc/lucy.c line 88: Number of arguments disagrees with previous definition. before the end of line
+
+[Tue Aug 28 21:51:23 2001] u/s/suez/port/npc/lucy.c line 83: Warning: Unknown \ escape. before ..");
+
+[Tue Aug 28 21:51:23 2001] u/s/suez/port/npc/lucy.c line 84: Warning: Unknown \ escape. before ×¦n¥¦¡C");
+
+[Tue Aug 28 21:51:23 2001] u/s/suez/port/npc/lucy.c line 89: Number of arguments disagrees with previous definition. before the end of line
+
+[Tue Aug 28 21:53:11 2001] u/s/suez/port/npc/lucy.c line 83: Warning: Unknown \ escape. before ..");
+
+[Tue Aug 28 21:53:11 2001] u/s/suez/port/npc/lucy.c line 84: Warning: Unknown \ escape. before ×¦n¥¦¡C");
+
+[Tue Aug 28 21:53:11 2001] u/s/suez/port/npc/lucy.c line 89: Number of arguments disagrees with previous definition. before the end of line
+
+[Tue Aug 28 21:54:32 2001] u/s/suez/port/npc/lucy.c line 83: Warning: Unknown \ escape. before ..");
+
+[Tue Aug 28 21:54:32 2001] u/s/suez/port/npc/lucy.c line 84: Warning: Unknown \ escape. before ×¦n¥¦¡C");
+
+[Tue Aug 28 21:54:32 2001] u/s/suez/port/npc/lucy.c line 87: Number of arguments disagrees with previous definition. before the end of line
+
+[Tue Aug 28 22:53:13 2001] u/s/suez/port/npc/lucy.c line 83: Warning: Unknown \ escape. before ..");
+
+[Tue Aug 28 22:53:13 2001] u/s/suez/port/npc/lucy.c line 84: Warning: Unknown \ escape. before ×¦n¥¦¡C");
+
+[Tue Aug 28 22:53:13 2001] u/s/suez/port/npc/lucy.c line 87: Number of arguments disagrees with previous definition. before the end of line
+
+[Tue Aug 28 23:10:28 2001] u/s/suez/port/npc/lucy.c line 83: Warning: Unknown \ escape. before ..");
+
+[Tue Aug 28 23:10:28 2001] u/s/suez/port/npc/lucy.c line 84: Warning: Unknown \ escape. before ×¦n¥¦¡C");
+
+[Tue Aug 28 23:10:28 2001] u/s/suez/port/npc/lucy.c line 87: Number of arguments disagrees with previous definition. before the end of line
+
+[Tue Aug 28 23:11:15 2001] u/s/suez/port/npc/lucy.c line 83: Warning: Unknown \ escape. before ..");
+
+[Tue Aug 28 23:11:15 2001] u/s/suez/port/npc/lucy.c line 84: Warning: Unknown \ escape. before ×¦n¥¦¡C");
+
+[Tue Aug 28 23:11:15 2001] u/s/suez/port/npc/lucy.c line 88: Number of arguments disagrees with previous definition. before the end of line
+
+[Tue Aug 28 23:11:55 2001] u/s/suez/port/npc/lucy.c line 62: Undefined variable 'i' before me->query_temp("ligh
+
+[Tue Aug 28 23:11:55 2001] u/s/suez/port/npc/lucy.c line 83: Warning: Unknown \ escape. before ..");
+
+[Tue Aug 28 23:11:55 2001] u/s/suez/port/npc/lucy.c line 84: Warning: Unknown \ escape. before ×¦n¥¦¡C");
+
+[Tue Aug 28 23:13:01 2001] u/s/suez/port/npc/lucy.c line 85: Warning: Unknown \ escape. before ..");
+
+[Tue Aug 28 23:13:01 2001] u/s/suez/port/npc/lucy.c line 86: Warning: Unknown \ escape. before ×¦n¥¦¡C");
+
+[Tue Aug 28 23:23:14 2001] u/s/suez/port/npc/eq/dress.c line 1: parse error before ;
+
+[Tue Aug 28 23:38:15 2001] u/s/suez/port/npc/eq/dress.c line 1: parse error before ;
+
+[Tue Aug 28 23:53:15 2001] u/s/suez/port/npc/eq/dress.c line 1: parse error before ;
+
+[Wed Aug 29 20:37:11 2001] u/s/suez/port/npc/lucy.c line 85: Warning: Unknown \ escape. before ..");
+
+[Wed Aug 29 20:37:11 2001] u/s/suez/port/npc/lucy.c line 86: Warning: Unknown \ escape. before ×¦n¥¦¡C");
+
+[Wed Aug 29 20:37:11 2001] u/s/suez/port/npc/eq/dress.c line 1: parse error before ;
+
+[Wed Aug 29 20:38:02 2001] u/s/suez/port/npc/eq/dress.c line 1: parse error before ;
+
+[Wed Aug 29 20:44:15 2001] u/s/suez/port/npc/ad_mn.c line 15: Warning: Unknown \ escape. before º¡I"):),
+
+[Wed Aug 29 20:46:02 2001] u/s/suez/port/npc/ad_mn.c line 15: Warning: Unknown \ escape. before º¡I"):),
+
+[Wed Aug 29 20:50:43 2001] u/s/suez/port/port_a3.c line 21: Warning: Unknown \ escape. before Û¤TÁû¥¨¤jªº¤ô´¹¡A¤ô´
+
+[Wed Aug 29 20:50:43 2001] u/s/suez/port/port_a3.c line 80: Warning: Unknown \ escape. before I¿U¤Fªo¿O....¡I\n"HI
+
+[Wed Aug 29 20:51:52 2001] u/s/suez/port/port_a2.c line 19: parse error before the end of line
+
+[Wed Aug 29 21:06:02 2001] u/s/suez/port/npc/ad_mn.c line 15: Warning: Unknown \ escape. before º¡I"):),
+
+[Wed Aug 29 21:35:19 2001] u/s/suez/port/npc/lucy.c line 88: Warning: Unknown \ escape. before ..");
+
+[Wed Aug 29 21:35:19 2001] u/s/suez/port/npc/lucy.c line 89: Warning: Unknown \ escape. before ×¦n¥¦¡C");
+
+[Wed Aug 29 21:43:01 2001] u/s/suez/port/port_a3.c line 21: Warning: Unknown \ escape. before Û¤TÁû¥¨¤jªº¤ô´¹¡A¤ô´
+
+[Wed Aug 29 21:43:01 2001] u/s/suez/port/port_a3.c line 80: Warning: Unknown \ escape. before \\ÂI\¿U¤Fªo¿O....¡I\
+
+[Wed Aug 29 21:43:01 2001] u/s/suez/port/port_a3.c line 80: Warning: Unknown \ escape. before U¤Fªo¿O....¡I\n"HIY"
+
+[Wed Aug 29 21:48:13 2001] u/s/suez/port/npc/ad_mn.c line 15: Warning: Unknown \ escape. before º¡I"):),
+
+[Wed Aug 29 21:55:17 2001] u/s/suez/port/npc/ad_mn.c line 15: Warning: Unknown \ escape. before º¡I"):),
+
+[Thu Aug 30 01:00:20 2001] u/s/suez/port/port_a3.c line 21: Warning: Unknown \ escape. before Û¤TÁû¥¨¤jªº¤ô´¹¡A¤ô´
+
+[Thu Aug 30 01:00:20 2001] u/s/suez/port/port_a3.c line 80: Warning: Unknown \ escape. before \\ÂI\¿U¤Fªo¿O....¡I\
+
+[Thu Aug 30 01:00:20 2001] u/s/suez/port/port_a3.c line 80: Warning: Unknown \ escape. before U¤Fªo¿O....¡I\n"HIY"
+
+[Thu Aug 30 01:02:17 2001] u/s/suez/port/port_a3.c line 21: Warning: Unknown \ escape. before \µÛ¤TÁû¥¨¤jªº¤ô´¹¡A¤
+
+[Thu Aug 30 01:02:17 2001] u/s/suez/port/port_a3.c line 21: Warning: Unknown \ escape. before Û¤TÁû¥¨¤jªº¤ô´¹¡A¤ô´
+
+[Thu Aug 30 01:02:17 2001] u/s/suez/port/port_a3.c line 80: Warning: Unknown \ escape. before \\ÂI\¿U¤Fªo¿O....¡I\
+
+[Thu Aug 30 01:02:17 2001] u/s/suez/port/port_a3.c line 80: Warning: Unknown \ escape. before U¤Fªo¿O....¡I\n"HIY"
+
+[Thu Aug 30 01:07:29 2001] u/s/suez/port/port_a3.c line 21: Warning: Unknown \ escape. before \\µÛ¤TÁû¥¨¤jªº¤ô´¹¡A
+
+[Thu Aug 30 01:07:29 2001] u/s/suez/port/port_a3.c line 80: Warning: Unknown \ escape. before \\ÂI\¿U¤Fªo¿O....¡I\
+
+[Thu Aug 30 01:07:29 2001] u/s/suez/port/port_a3.c line 80: Warning: Unknown \ escape. before U¤Fªo¿O....¡I\n"HIY"
+
+[Thu Aug 30 01:09:03 2001] u/s/suez/port/port_a3.c line 80: Warning: Unknown \ escape. before \ÂI¿U¤Fªo¿O....¡I\n"
+
+[Thu Aug 30 01:09:03 2001] u/s/suez/port/port_a3.c line 80: Warning: Unknown \ escape. before I¿U¤Fªo¿O....¡I\n"HI
+
+[Thu Aug 30 01:12:24 2001] u/s/suez/port/npc/lucy.c line 88: Warning: Unknown \ escape. before ..");
+
+[Thu Aug 30 01:15:09 2001] u/s/suez/port/npc/ad_mn.c line 15: Warning: Unknown \ escape. before º¡I"):),
+
+[Fri Aug 31 12:42:55 2001] u/s/suez/area/npc/apprentice2.c line 6: Warning: Unknown \ escape. before Zªº¤H¡A¬°¤F´_¿³ºK¬Pª
+
+[Fri Aug 31 12:42:55 2001] u/s/suez/area/npc/apprentice2.c line 19: Warning: Unknown \ escape. before K"):),
+
+[Fri Aug 31 12:42:57 2001] u/s/suez/area/npc/apprentice1.c line 6: Warning: Unknown \ escape. before Zªº¤H¡A¬°¤F´_¿³ºK¬Pª
+
+[Fri Aug 31 13:53:04 2001] u/s/suez/port/reihi.c line 31: Warning: Unknown \ escape. before I¡A500¤¸¥i¥H¦b©Ð¤º¥R
+
+[Fri Aug 31 13:53:04 2001] u/s/suez/port/reihi.c line 49: Undefined variable 'me' before set_temp("lodge_leve
+
+[Fri Aug 31 13:53:04 2001] u/s/suez/port/reihi.c line 50: Reserved type name unexpected. before  = x/100;
+
+[Fri Aug 31 13:53:04 2001] u/s/suez/port/reihi.c line 50: parse error before  = x/100;
+
+[Fri Aug 31 13:53:04 2001] u/s/suez/port/reihi.c line 50: Undefined variable 'x' before 100;
+
+[Fri Aug 31 13:53:04 2001] u/s/suez/port/reihi.c line 50: Illegal LHS before the end of line
+
+[Fri Aug 31 13:53:04 2001] u/s/suez/port/reihi.c line 51: Undefined variable 'ob' before "·ç§Æ:¡u§Ú­Ì·|®Ú¾Ú±z
+
+[Fri Aug 31 13:53:04 2001] u/s/suez/port/reihi.c line 51: Warning: Unknown \ escape. before I¡A½Ð±z¦b¦¹µyµ¥¡C¡v\
+
+[Fri Aug 31 13:53:04 2001] u/s/suez/port/reihi.c line 52: Warning: Unknown \ escape. before Ù¨S¨Ó¡A¦Aµ¥µ¥§a¡I");
+
+[Fri Aug 31 13:53:04 2001] u/s/suez/port/reihi.c line 70: Warning: Unknown \ escape. before IºÝ¤F¥X¨Ó¡A¶â¡ã¦n­»³
+
+[Fri Aug 31 13:53:04 2001] u/s/suez/port/reihi.c line 73: Warning: Unknown \ escape. before I¡C\n"NOR);
+
+[Fri Aug 31 13:53:04 2001] u/s/suez/port/reihi.c line 107: Warning: Unknown \ escape. before ¢¡C\n"NOR );break;
+
+[Fri Aug 31 13:54:18 2001] u/s/suez/port/reihi.c line 31: Warning: Unknown \ escape. before I¡A500¤¸¥i¥H¦b©Ð¤º¥R
+
+[Fri Aug 31 13:54:18 2001] u/s/suez/port/reihi.c line 49: Undefined variable 'me' before set_temp("lodge_leve
+
+[Fri Aug 31 13:54:18 2001] u/s/suez/port/reihi.c line 50: Reserved type name unexpected. before  = x/100;
+
+[Fri Aug 31 13:54:18 2001] u/s/suez/port/reihi.c line 50: parse error before  = x/100;
+
+[Fri Aug 31 13:54:18 2001] u/s/suez/port/reihi.c line 50: Undefined variable 'x' before 100;
+
+[Fri Aug 31 13:54:18 2001] u/s/suez/port/reihi.c line 50: Illegal LHS before the end of line
+
+[Fri Aug 31 13:54:18 2001] u/s/suez/port/reihi.c line 51: Undefined variable 'ob' before "·ç§Æ:¡u§Ú­Ì·|®Ú¾Ú±z
+
+[Fri Aug 31 13:54:18 2001] u/s/suez/port/reihi.c line 51: Warning: Unknown \ escape. before I¡A½Ð±z¦b¦¹µyµ¥¡C¡v\
+
+[Fri Aug 31 13:54:18 2001] u/s/suez/port/reihi.c line 52: Warning: Unknown \ escape. before Ù¨S¨Ó¡A¦Aµ¥µ¥§a¡I");
+
+[Fri Aug 31 13:54:18 2001] u/s/suez/port/reihi.c line 70: Warning: Unknown \ escape. before IºÝ¤F¥X¨Ó¡A¶â¡ã¦n­»³
+
+[Fri Aug 31 13:54:18 2001] u/s/suez/port/reihi.c line 73: Warning: Unknown \ escape. before I¡C\n"NOR);
+
+[Fri Aug 31 13:54:18 2001] u/s/suez/port/reihi.c line 107: Warning: Unknown \ escape. before ¢¡C\n"NOR );break;
+
+[Fri Aug 31 13:56:25 2001] u/s/suez/port/reihi.c line 31: Warning: Unknown \ escape. before I¡A500¤¸¥i¥H¦b©Ð¤º¥R
+
+[Fri Aug 31 13:56:25 2001] u/s/suez/port/reihi.c line 50: Reserved type name unexpected. before  = (x/100);
+
+[Fri Aug 31 13:56:25 2001] u/s/suez/port/reihi.c line 50: parse error before  = (x/100);
+
+[Fri Aug 31 13:56:25 2001] u/s/suez/port/reihi.c line 50: Undefined variable 'x' before 100);
+
+[Fri Aug 31 13:56:25 2001] u/s/suez/port/reihi.c line 50: Illegal LHS before the end of line
+
+[Fri Aug 31 13:56:25 2001] u/s/suez/port/reihi.c line 51: Undefined variable 'ob' before "·ç§Æ:¡u§Ú­Ì·|®Ú¾Ú±z
+
+[Fri Aug 31 13:56:25 2001] u/s/suez/port/reihi.c line 51: Warning: Unknown \ escape. before I¡A½Ð±z¦b¦¹µyµ¥¡C¡v\
+
+[Fri Aug 31 13:56:25 2001] u/s/suez/port/reihi.c line 52: Warning: Unknown \ escape. before Ù¨S¨Ó¡A¦Aµ¥µ¥§a¡I");
+
+[Fri Aug 31 13:56:25 2001] u/s/suez/port/reihi.c line 53: Undefined variable 'b' before ob,b);
+
+[Fri Aug 31 13:56:25 2001] u/s/suez/port/reihi.c line 70: Warning: Unknown \ escape. before IºÝ¤F¥X¨Ó¡A¶â¡ã¦n­»³
+
+[Fri Aug 31 13:56:25 2001] u/s/suez/port/reihi.c line 73: Warning: Unknown \ escape. before I¡C\n"NOR);
+
+[Fri Aug 31 13:56:25 2001] u/s/suez/port/reihi.c line 107: Warning: Unknown \ escape. before ¢¡C\n"NOR );break;
+
+[Fri Aug 31 14:04:31 2001] u/s/suez/port/reihi.c line 31: Warning: Unknown \ escape. before \ÂI¡A500¤¸¥i¥H¦b©Ð¤º
+
+[Fri Aug 31 14:04:31 2001] u/s/suez/port/reihi.c line 31: Warning: Unknown \ escape. before I¡A500¤¸¥i¥H¦b©Ð¤º¥R
+
+[Fri Aug 31 14:04:31 2001] u/s/suez/port/reihi.c line 52: Undefined variable 'coin' before  ob)->query_amount()
+
+[Fri Aug 31 14:04:31 2001] u/s/suez/port/reihi.c line 54: Undefined function service before ;
+
+[Fri Aug 31 14:04:31 2001] u/s/suez/port/reihi.c line 64: Reserved type name unexpected. before  = (x/100);
+
+[Fri Aug 31 14:04:31 2001] u/s/suez/port/reihi.c line 64: parse error before  = (x/100);
+
+[Fri Aug 31 14:04:31 2001] u/s/suez/port/reihi.c line 64: Undefined variable 'x' before 100);
+
+[Fri Aug 31 14:04:31 2001] u/s/suez/port/reihi.c line 64: Illegal LHS before the end of line
+
+[Fri Aug 31 14:04:31 2001] u/s/suez/port/reihi.c line 65: Warning: Unknown \ escape. before \ÂI¡A½Ð±z¦b¦¹µyµ¥¡C¡
+
+[Fri Aug 31 14:04:31 2001] u/s/suez/port/reihi.c line 65: Warning: Unknown \ escape. before I¡A½Ð±z¦b¦¹µyµ¥¡C¡v\
+
+[Fri Aug 31 14:04:31 2001] u/s/suez/port/reihi.c line 66: Warning: Unknown \ escape. before \ÁÙ¨S¨Ó¡A¦Aµ¥µ¥§a¡I"
+
+[Fri Aug 31 14:04:31 2001] u/s/suez/port/reihi.c line 66: Warning: Unknown \ escape. before Ù¨S¨Ó¡A¦Aµ¥µ¥§a¡I");
+
+[Fri Aug 31 14:04:31 2001] u/s/suez/port/reihi.c line 71: Warning: Unknown \ escape. before \ÂIºÝ¤F¥X¨Ó¡A¶â¡ã¦n­
+
+[Fri Aug 31 14:04:31 2001] u/s/suez/port/reihi.c line 71: Warning: Unknown \ escape. before IºÝ¤F¥X¨Ó¡A¶â¡ã¦n­»³
+
+[Fri Aug 31 14:04:31 2001] u/s/suez/port/reihi.c line 74: Warning: Unknown \ escape. before \ÂI¡C\n"NOR);
+
+[Fri Aug 31 14:04:31 2001] u/s/suez/port/reihi.c line 74: Warning: Unknown \ escape. before I¡C\n"NOR);
+
+[Fri Aug 31 14:04:31 2001] u/s/suez/port/reihi.c line 108: Warning: Unknown \ escape. before \¹¢¡C\n"NOR );break;
+
+[Fri Aug 31 14:04:31 2001] u/s/suez/port/reihi.c line 108: Warning: Unknown \ escape. before ¢¡C\n"NOR );break;
+
+[Fri Aug 31 14:08:31 2001] u/s/suez/port/reihi.c line 35: Warning: Unknown \ escape. before \ÂI¡A500¤¸¥i¥H¦b©Ð¤º
+
+[Fri Aug 31 14:08:31 2001] u/s/suez/port/reihi.c line 35: Warning: Unknown \ escape. before I¡A500¤¸¥i¥H¦b©Ð¤º¥R
+
+[Fri Aug 31 14:08:31 2001] u/s/suez/port/reihi.c line 56: Undefined variable 'coin' before  ob)->query_amount()
+
+[Fri Aug 31 14:08:31 2001] u/s/suez/port/reihi.c line 69: Reserved type name unexpected. before  = (x/100);
+
+[Fri Aug 31 14:08:31 2001] u/s/suez/port/reihi.c line 69: parse error before  = (x/100);
+
+[Fri Aug 31 14:08:31 2001] u/s/suez/port/reihi.c line 69: Undefined variable 'x' before 100);
+
+[Fri Aug 31 14:08:31 2001] u/s/suez/port/reihi.c line 69: Illegal LHS before the end of line
+
+[Fri Aug 31 14:08:31 2001] u/s/suez/port/reihi.c line 70: Undefined variable 'ob' before "·ç§Æ:¡u§Ú­Ì·|®Ú¾Ú±z
+
+[Fri Aug 31 14:08:31 2001] u/s/suez/port/reihi.c line 70: Warning: Unknown \ escape. before \ÂI¡A½Ð±z¦b¦¹µyµ¥¡C¡
+
+[Fri Aug 31 14:08:31 2001] u/s/suez/port/reihi.c line 70: Warning: Unknown \ escape. before I¡A½Ð±z¦b¦¹µyµ¥¡C¡v\
+
+[Fri Aug 31 14:08:31 2001] u/s/suez/port/reihi.c line 71: Warning: Unknown \ escape. before \ÁÙ¨S¨Ó¡A¦Aµ¥µ¥§a¡I"
+
+[Fri Aug 31 14:08:31 2001] u/s/suez/port/reihi.c line 71: Warning: Unknown \ escape. before Ù¨S¨Ó¡A¦Aµ¥µ¥§a¡I");
+
+[Fri Aug 31 14:08:31 2001] u/s/suez/port/reihi.c line 76: Warning: Unknown \ escape. before \ÂIºÝ¤F¥X¨Ó¡A¶â¡ã¦n­
+
+[Fri Aug 31 14:08:31 2001] u/s/suez/port/reihi.c line 76: Warning: Unknown \ escape. before IºÝ¤F¥X¨Ó¡A¶â¡ã¦n­»³
+
+[Fri Aug 31 14:08:31 2001] u/s/suez/port/reihi.c line 79: Warning: Unknown \ escape. before \ÂI¡C\n"NOR);
+
+[Fri Aug 31 14:08:31 2001] u/s/suez/port/reihi.c line 79: Warning: Unknown \ escape. before I¡C\n"NOR);
+
+[Fri Aug 31 14:08:31 2001] u/s/suez/port/reihi.c line 113: Warning: Unknown \ escape. before \¹¢¡C\n"NOR );break;
+
+[Fri Aug 31 14:08:31 2001] u/s/suez/port/reihi.c line 113: Warning: Unknown \ escape. before ¢¡C\n"NOR );break;
+
+[Fri Aug 31 14:10:15 2001] u/s/suez/port/reihi.c line 35: Warning: Unknown \ escape. before \ÂI¡A500¤¸¥i¥H¦b©Ð¤º
+
+[Fri Aug 31 14:10:15 2001] u/s/suez/port/reihi.c line 35: Warning: Unknown \ escape. before I¡A500¤¸¥i¥H¦b©Ð¤º¥R
+
+[Fri Aug 31 14:10:15 2001] u/s/suez/port/reihi.c line 56: Undefined variable 'coin' before  ob)->query_amount()
+
+[Fri Aug 31 14:10:15 2001] u/s/suez/port/reihi.c line 69: Reserved type name unexpected. before  = (x/100);
+
+[Fri Aug 31 14:10:15 2001] u/s/suez/port/reihi.c line 69: parse error before  = (x/100);
+
+[Fri Aug 31 14:10:15 2001] u/s/suez/port/reihi.c line 69: Undefined variable 'x' before 100);
+
+[Fri Aug 31 14:10:15 2001] u/s/suez/port/reihi.c line 69: Illegal LHS before the end of line
+
+[Fri Aug 31 14:10:15 2001] u/s/suez/port/reihi.c line 70: Undefined variable 'ob' before "·ç§Æ:¡u§Ú­Ì·|®Ú¾Ú±z
+
+[Fri Aug 31 14:10:15 2001] u/s/suez/port/reihi.c line 70: Warning: Unknown \ escape. before \ÂI¡A½Ð±z¦b¦¹µyµ¥¡C¡
+
+[Fri Aug 31 14:10:15 2001] u/s/suez/port/reihi.c line 70: Warning: Unknown \ escape. before I¡A½Ð±z¦b¦¹µyµ¥¡C¡v\
+
+[Fri Aug 31 14:10:15 2001] u/s/suez/port/reihi.c line 71: Warning: Unknown \ escape. before \ÁÙ¨S¨Ó¡A¦Aµ¥µ¥§a¡I"
+
+[Fri Aug 31 14:10:15 2001] u/s/suez/port/reihi.c line 71: Warning: Unknown \ escape. before Ù¨S¨Ó¡A¦Aµ¥µ¥§a¡I");
+
+[Fri Aug 31 14:10:15 2001] u/s/suez/port/reihi.c line 76: Warning: Unknown \ escape. before \ÂIºÝ¤F¥X¨Ó¡A¶â¡ã¦n­
+
+[Fri Aug 31 14:10:15 2001] u/s/suez/port/reihi.c line 76: Warning: Unknown \ escape. before IºÝ¤F¥X¨Ó¡A¶â¡ã¦n­»³
+
+[Fri Aug 31 14:10:15 2001] u/s/suez/port/reihi.c line 79: Warning: Unknown \ escape. before \ÂI¡C\n"NOR);
+
+[Fri Aug 31 14:10:15 2001] u/s/suez/port/reihi.c line 79: Warning: Unknown \ escape. before I¡C\n"NOR);
+
+[Fri Aug 31 14:10:15 2001] u/s/suez/port/reihi.c line 113: Warning: Unknown \ escape. before \¹¢¡C\n"NOR );break;
+
+[Fri Aug 31 14:10:15 2001] u/s/suez/port/reihi.c line 113: Warning: Unknown \ escape. before ¢¡C\n"NOR );break;
+
+[Fri Aug 31 14:13:36 2001] u/s/suez/port/reihi.c line 35: Warning: Unknown \ escape. before \ÂI¡A500¤¸¥i¥H¦b©Ð¤º
+
+[Fri Aug 31 14:13:36 2001] u/s/suez/port/reihi.c line 35: Warning: Unknown \ escape. before I¡A500¤¸¥i¥H¦b©Ð¤º¥R
+
+[Fri Aug 31 14:13:36 2001] u/s/suez/port/reihi.c line 73: Warning: Unknown \ escape. before \ÂI¡A½Ð±z¦b¦¹µyµ¥¡C¡
+
+[Fri Aug 31 14:13:36 2001] u/s/suez/port/reihi.c line 73: Warning: Unknown \ escape. before I¡A½Ð±z¦b¦¹µyµ¥¡C¡v\
+
+[Fri Aug 31 14:13:36 2001] u/s/suez/port/reihi.c line 74: Warning: Unknown \ escape. before \ÁÙ¨S¨Ó¡A¦Aµ¥µ¥§a¡I"
+
+[Fri Aug 31 14:13:36 2001] u/s/suez/port/reihi.c line 74: Warning: Unknown \ escape. before Ù¨S¨Ó¡A¦Aµ¥µ¥§a¡I");
+
+[Fri Aug 31 14:13:36 2001] u/s/suez/port/reihi.c line 79: Warning: Unknown \ escape. before \ÂIºÝ¤F¥X¨Ó¡A¶â¡ã¦n­
+
+[Fri Aug 31 14:13:36 2001] u/s/suez/port/reihi.c line 79: Warning: Unknown \ escape. before IºÝ¤F¥X¨Ó¡A¶â¡ã¦n­»³
+
+[Fri Aug 31 14:13:36 2001] u/s/suez/port/reihi.c line 82: Undefined variable 'me' before HIM"§A¦bµÎ¾AªºÀô¹Ò¤U
+
+[Fri Aug 31 14:13:36 2001] u/s/suez/port/reihi.c line 82: Warning: Unknown \ escape. before \ÂI¡C\n"NOR);
+
+[Fri Aug 31 14:13:36 2001] u/s/suez/port/reihi.c line 82: Warning: Unknown \ escape. before I¡C\n"NOR);
+
+[Fri Aug 31 14:13:36 2001] u/s/suez/port/reihi.c line 88: parse error before the end of line
+
+[Fri Aug 31 14:13:36 2001] u/s/suez/port/reihi.c line 106: Illegal LHS before the end of line
+
+[Fri Aug 31 14:13:36 2001] u/s/suez/port/reihi.c line 116: Warning: Unknown \ escape. before \¹¢¡C\n"NOR );break;
+
+[Fri Aug 31 14:13:36 2001] u/s/suez/port/reihi.c line 116: Warning: Unknown \ escape. before ¢¡C\n"NOR );break;
+
+[Fri Aug 31 14:13:36 2001] u/s/suez/port/reihi.c line 149: Illegal LHS before the end of line
+
+[Fri Aug 31 14:18:46 2001] u/s/suez/port/reihi.c line 35: Warning: Unknown \ escape. before \ÂI¡A500¤¸¥i¥H¦b©Ð¤º
+
+[Fri Aug 31 14:18:46 2001] u/s/suez/port/reihi.c line 35: Warning: Unknown \ escape. before I¡A500¤¸¥i¥H¦b©Ð¤º¥R
+
+[Fri Aug 31 14:18:46 2001] u/s/suez/port/reihi.c line 73: Warning: Unknown \ escape. before \ÂI¡A½Ð±z¦b¦¹µyµ¥¡C¡
+
+[Fri Aug 31 14:18:46 2001] u/s/suez/port/reihi.c line 73: Warning: Unknown \ escape. before I¡A½Ð±z¦b¦¹µyµ¥¡C¡v\
+
+[Fri Aug 31 14:18:46 2001] u/s/suez/port/reihi.c line 74: Warning: Unknown \ escape. before \ÁÙ¨S¨Ó¡A¦Aµ¥µ¥§a¡I"
+
+[Fri Aug 31 14:18:46 2001] u/s/suez/port/reihi.c line 74: Warning: Unknown \ escape. before Ù¨S¨Ó¡A¦Aµ¥µ¥§a¡I");
+
+[Fri Aug 31 14:18:46 2001] u/s/suez/port/reihi.c line 79: Warning: Unknown \ escape. before \ÂIºÝ¤F¥X¨Ó¡A¶â¡ã¦n­
+
+[Fri Aug 31 14:18:46 2001] u/s/suez/port/reihi.c line 79: Warning: Unknown \ escape. before IºÝ¤F¥X¨Ó¡A¶â¡ã¦n­»³
+
+[Fri Aug 31 14:18:46 2001] u/s/suez/port/reihi.c line 82: Undefined variable 'me' before HIM"§A¦bµÎ¾AªºÀô¹Ò¤U
+
+[Fri Aug 31 14:18:46 2001] u/s/suez/port/reihi.c line 82: Warning: Unknown \ escape. before \ÂI¡C\n"NOR);
+
+[Fri Aug 31 14:18:46 2001] u/s/suez/port/reihi.c line 82: Warning: Unknown \ escape. before I¡C\n"NOR);
+
+[Fri Aug 31 14:18:46 2001] u/s/suez/port/reihi.c line 103: Number of arguments disagrees with previous definition. before the end of line
+
+[Fri Aug 31 14:18:46 2001] u/s/suez/port/reihi.c line 116: Warning: Unknown \ escape. before \¹¢¡C\n"NOR );break;
+
+[Fri Aug 31 14:18:46 2001] u/s/suez/port/reihi.c line 116: Warning: Unknown \ escape. before ¢¡C\n"NOR );break;
+
+[Fri Aug 31 14:18:46 2001] u/s/suez/port/reihi.c line 126: parse error before the end of line
+
+[Fri Aug 31 14:18:46 2001] u/s/suez/port/reihi.c line 146: Illegal LHS before the end of line
+
+[Fri Aug 31 14:23:35 2001] u/s/suez/port/reihi.c line 35: Warning: Unknown \ escape. before \ÂI¡A500¤¸¥i¥H¦b©Ð¤º
+
+[Fri Aug 31 14:23:35 2001] u/s/suez/port/reihi.c line 35: Warning: Unknown \ escape. before I¡A500¤¸¥i¥H¦b©Ð¤º¥R
+
+[Fri Aug 31 14:23:35 2001] u/s/suez/port/reihi.c line 73: Warning: Unknown \ escape. before \ÂI¡A½Ð±z¦b¦¹µyµ¥¡C¡
+
+[Fri Aug 31 14:23:35 2001] u/s/suez/port/reihi.c line 73: Warning: Unknown \ escape. before I¡A½Ð±z¦b¦¹µyµ¥¡C¡v\
+
+[Fri Aug 31 14:23:35 2001] u/s/suez/port/reihi.c line 74: Warning: Unknown \ escape. before \ÁÙ¨S¨Ó¡A¦Aµ¥µ¥§a¡I"
+
+[Fri Aug 31 14:23:35 2001] u/s/suez/port/reihi.c line 74: Warning: Unknown \ escape. before Ù¨S¨Ó¡A¦Aµ¥µ¥§a¡I");
+
+[Fri Aug 31 14:23:35 2001] u/s/suez/port/reihi.c line 79: Warning: Unknown \ escape. before \ÂIºÝ¤F¥X¨Ó¡A¶â¡ã¦n­
+
+[Fri Aug 31 14:23:35 2001] u/s/suez/port/reihi.c line 79: Warning: Unknown \ escape. before IºÝ¤F¥X¨Ó¡A¶â¡ã¦n­»³
+
+[Fri Aug 31 14:23:35 2001] u/s/suez/port/reihi.c line 82: Warning: Unknown \ escape. before \ÂI¡C\n"NOR);
+
+[Fri Aug 31 14:23:35 2001] u/s/suez/port/reihi.c line 82: Warning: Unknown \ escape. before I¡C\n"NOR);
+
+[Fri Aug 31 14:23:35 2001] u/s/suez/port/reihi.c line 95: Undefined variable 'me' before delete_temp("lodge_l
+
+[Fri Aug 31 14:23:35 2001] u/s/suez/port/reihi.c line 103: Number of arguments disagrees with previous definition. before the end of line
+
+[Fri Aug 31 14:23:35 2001] u/s/suez/port/reihi.c line 115: Warning: Unknown \ escape. before \¹¢¡C\n"NOR );break;
+
+[Fri Aug 31 14:23:35 2001] u/s/suez/port/reihi.c line 115: Warning: Unknown \ escape. before ¢¡C\n"NOR );break;
+
+[Fri Aug 31 14:23:35 2001] u/s/suez/port/reihi.c line 134: Undefined variable 'me' before delete_temp("lodge_l
+
+[Fri Aug 31 14:23:35 2001] u/s/suez/port/reihi.c line 144: Number of arguments disagrees with previous definition. before the end of line
+
+[Fri Aug 31 14:23:35 2001] u/s/suez/port/reihi.c line 169: Undefined variable 'me' before delete_temp("lodge_l
+
+[Fri Aug 31 14:23:35 2001] u/s/suez/port/reihi.c line 179: Number of arguments disagrees with previous definition. before the end of line
+
+[Fri Aug 31 14:25:24 2001] u/s/suez/port/reihi.c line 35: Warning: Unknown \ escape. before \ÂI¡A500¤¸¥i¥H¦b©Ð¤º
+
+[Fri Aug 31 14:25:24 2001] u/s/suez/port/reihi.c line 35: Warning: Unknown \ escape. before I¡A500¤¸¥i¥H¦b©Ð¤º¥R
+
+[Fri Aug 31 14:25:24 2001] u/s/suez/port/reihi.c line 73: Warning: Unknown \ escape. before \ÂI¡A½Ð±z¦b¦¹µyµ¥¡C¡
+
+[Fri Aug 31 14:25:24 2001] u/s/suez/port/reihi.c line 73: Warning: Unknown \ escape. before I¡A½Ð±z¦b¦¹µyµ¥¡C¡v\
+
+[Fri Aug 31 14:25:24 2001] u/s/suez/port/reihi.c line 74: Warning: Unknown \ escape. before \ÁÙ¨S¨Ó¡A¦Aµ¥µ¥§a¡I"
+
+[Fri Aug 31 14:25:24 2001] u/s/suez/port/reihi.c line 74: Warning: Unknown \ escape. before Ù¨S¨Ó¡A¦Aµ¥µ¥§a¡I");
+
+[Fri Aug 31 14:25:24 2001] u/s/suez/port/reihi.c line 79: Warning: Unknown \ escape. before \ÂIºÝ¤F¥X¨Ó¡A¶â¡ã¦n­
+
+[Fri Aug 31 14:25:24 2001] u/s/suez/port/reihi.c line 79: Warning: Unknown \ escape. before IºÝ¤F¥X¨Ó¡A¶â¡ã¦n­»³
+
+[Fri Aug 31 14:25:24 2001] u/s/suez/port/reihi.c line 82: Warning: Unknown \ escape. before \ÂI¡C\n"NOR);
+
+[Fri Aug 31 14:25:24 2001] u/s/suez/port/reihi.c line 82: Warning: Unknown \ escape. before I¡C\n"NOR);
+
+[Fri Aug 31 14:25:24 2001] u/s/suez/port/reihi.c line 95: Undefined variable 'me' before delete_temp("lodge_l
+
+[Fri Aug 31 14:25:24 2001] u/s/suez/port/reihi.c line 103: Number of arguments disagrees with previous definition. before the end of line
+
+[Fri Aug 31 14:25:24 2001] u/s/suez/port/reihi.c line 115: Warning: Unknown \ escape. before \¹¢¡C\n"NOR );break;
+
+[Fri Aug 31 14:25:24 2001] u/s/suez/port/reihi.c line 115: Warning: Unknown \ escape. before ¢¡C\n"NOR );break;
+
+[Fri Aug 31 14:25:24 2001] u/s/suez/port/reihi.c line 144: Number of arguments disagrees with previous definition. before the end of line
+
+[Fri Aug 31 14:25:24 2001] u/s/suez/port/reihi.c line 179: Number of arguments disagrees with previous definition. before the end of line
+
+[Fri Aug 31 14:31:36 2001] u/s/suez/port/reihi.c line 35: Warning: Unknown \ escape. before \ÂI¡A500¤¸¥i¥H¦b©Ð¤º
+
+[Fri Aug 31 14:31:36 2001] u/s/suez/port/reihi.c line 35: Warning: Unknown \ escape. before I¡A500¤¸¥i¥H¦b©Ð¤º¥R
+
+[Fri Aug 31 14:31:36 2001] u/s/suez/port/reihi.c line 73: Warning: Unknown \ escape. before \ÂI¡A½Ð±z¦b¦¹µyµ¥¡C¡
+
+[Fri Aug 31 14:31:36 2001] u/s/suez/port/reihi.c line 73: Warning: Unknown \ escape. before I¡A½Ð±z¦b¦¹µyµ¥¡C¡v\
+
+[Fri Aug 31 14:31:36 2001] u/s/suez/port/reihi.c line 74: Warning: Unknown \ escape. before \ÁÙ¨S¨Ó¡A¦Aµ¥µ¥§a¡I"
+
+[Fri Aug 31 14:31:36 2001] u/s/suez/port/reihi.c line 74: Warning: Unknown \ escape. before Ù¨S¨Ó¡A¦Aµ¥µ¥§a¡I");
+
+[Fri Aug 31 14:31:36 2001] u/s/suez/port/reihi.c line 79: Warning: Unknown \ escape. before \ÂIºÝ¤F¥X¨Ó¡A¶â¡ã¦n­
+
+[Fri Aug 31 14:31:36 2001] u/s/suez/port/reihi.c line 79: Warning: Unknown \ escape. before IºÝ¤F¥X¨Ó¡A¶â¡ã¦n­»³
+
+[Fri Aug 31 14:31:36 2001] u/s/suez/port/reihi.c line 82: Warning: Unknown \ escape. before \ÂI¡C\n"NOR);
+
+[Fri Aug 31 14:31:36 2001] u/s/suez/port/reihi.c line 82: Warning: Unknown \ escape. before I¡C\n"NOR);
+
+[Fri Aug 31 14:31:36 2001] u/s/suez/port/reihi.c line 103: Number of arguments disagrees with previous definition. before the end of line
+
+[Fri Aug 31 14:31:36 2001] u/s/suez/port/reihi.c line 116: Warning: Unknown \ escape. before \¹¢¡C\n"NOR );break;
+
+[Fri Aug 31 14:31:36 2001] u/s/suez/port/reihi.c line 116: Warning: Unknown \ escape. before ¢¡C\n"NOR );break;
+
+[Fri Aug 31 14:31:36 2001] u/s/suez/port/reihi.c line 145: Number of arguments disagrees with previous definition. before the end of line
+
+[Fri Aug 31 14:31:36 2001] u/s/suez/port/reihi.c line 180: Number of arguments disagrees with previous definition. before the end of line
+
+[Fri Aug 31 14:34:14 2001] u/s/suez/port/reihi.c line 35: Warning: Unknown \ escape. before \ÂI¡A500¤¸¥i¥H¦b©Ð¤º
+
+[Fri Aug 31 14:34:14 2001] u/s/suez/port/reihi.c line 35: Warning: Unknown \ escape. before I¡A500¤¸¥i¥H¦b©Ð¤º¥R
+
+[Fri Aug 31 14:34:14 2001] u/s/suez/port/reihi.c line 73: Warning: Unknown \ escape. before \ÂI¡A½Ð±z¦b¦¹µyµ¥¡C¡
+
+[Fri Aug 31 14:34:14 2001] u/s/suez/port/reihi.c line 73: Warning: Unknown \ escape. before I¡A½Ð±z¦b¦¹µyµ¥¡C¡v\
+
+[Fri Aug 31 14:34:14 2001] u/s/suez/port/reihi.c line 74: Warning: Unknown \ escape. before \ÁÙ¨S¨Ó¡A¦Aµ¥µ¥§a¡I"
+
+[Fri Aug 31 14:34:14 2001] u/s/suez/port/reihi.c line 74: Warning: Unknown \ escape. before Ù¨S¨Ó¡A¦Aµ¥µ¥§a¡I");
+
+[Fri Aug 31 14:34:14 2001] u/s/suez/port/reihi.c line 79: Warning: Unknown \ escape. before \ÂIºÝ¤F¥X¨Ó¡A¶â¡ã¦n­
+
+[Fri Aug 31 14:34:14 2001] u/s/suez/port/reihi.c line 79: Warning: Unknown \ escape. before IºÝ¤F¥X¨Ó¡A¶â¡ã¦n­»³
+
+[Fri Aug 31 14:34:14 2001] u/s/suez/port/reihi.c line 82: Warning: Unknown \ escape. before \ÂI¡C\n"NOR);
+
+[Fri Aug 31 14:34:14 2001] u/s/suez/port/reihi.c line 82: Warning: Unknown \ escape. before I¡C\n"NOR);
+
+[Fri Aug 31 14:34:14 2001] u/s/suez/port/reihi.c line 115: Warning: Unknown \ escape. before \¹¢¡C\n"NOR );break;
+
+[Fri Aug 31 14:34:14 2001] u/s/suez/port/reihi.c line 115: Warning: Unknown \ escape. before ¢¡C\n"NOR );break;
+
+[Fri Aug 31 14:41:02 2001] u/s/suez/port/reihi.c line 35: Warning: Unknown \ escape. before \ÂI¡A500¤¸¥i¥H¦b©Ð¤º
+
+[Fri Aug 31 14:41:02 2001] u/s/suez/port/reihi.c line 35: Warning: Unknown \ escape. before I¡A500¤¸¥i¥H¦b©Ð¤º¥R
+
+[Fri Aug 31 14:41:02 2001] u/s/suez/port/reihi.c line 73: Warning: Unknown \ escape. before \ÂI¡A½Ð±z¦b¦¹µyµ¥¡C¡
+
+[Fri Aug 31 14:41:02 2001] u/s/suez/port/reihi.c line 73: Warning: Unknown \ escape. before I¡A½Ð±z¦b¦¹µyµ¥¡C¡v\
+
+[Fri Aug 31 14:41:02 2001] u/s/suez/port/reihi.c line 74: Warning: Unknown \ escape. before \ÁÙ¨S¨Ó¡A¦Aµ¥µ¥§a¡I"
+
+[Fri Aug 31 14:41:02 2001] u/s/suez/port/reihi.c line 74: Warning: Unknown \ escape. before Ù¨S¨Ó¡A¦Aµ¥µ¥§a¡I");
+
+[Fri Aug 31 14:41:02 2001] u/s/suez/port/reihi.c line 79: Warning: Unknown \ escape. before \ÂIºÝ¤F¥X¨Ó¡A¶â¡ã¦n­
+
+[Fri Aug 31 14:41:02 2001] u/s/suez/port/reihi.c line 79: Warning: Unknown \ escape. before IºÝ¤F¥X¨Ó¡A¶â¡ã¦n­»³
+
+[Fri Aug 31 14:41:02 2001] u/s/suez/port/reihi.c line 82: Warning: Unknown \ escape. before \ÂI¡C\n"NOR);
+
+[Fri Aug 31 14:41:02 2001] u/s/suez/port/reihi.c line 82: Warning: Unknown \ escape. before I¡C\n"NOR);
+
+[Fri Aug 31 14:41:02 2001] u/s/suez/port/reihi.c line 115: Warning: Unknown \ escape. before \¹¢¡C\n"NOR );break;
+
+[Fri Aug 31 14:41:02 2001] u/s/suez/port/reihi.c line 115: Warning: Unknown \ escape. before ¢¡C\n"NOR );break;
+
+[Fri Aug 31 15:41:31 2001] u/s/suez/area/npc/obj/water.c line 28: Warning: do_eat() inherited from both /feature/food.c and /feature/pill.c; using the definition in /feature/food.c. before the end of file
+
+[Fri Aug 31 15:41:31 2001] u/s/suez/area/npc/obj/water.c line 28: Warning: init() inherited from both /feature/food.c and /feature/pill.c; using the definition in /feature/food.c. before the end of file
+
+[Sat Sep  1 12:32:31 2001] u/s/suez/port/npc/lucy.c line 4: Undefined variable 'HIM' before NOR,({"lucy"}));
+
+[Sat Sep  1 12:32:31 2001] u/s/suez/port/npc/lucy.c line 4: parse error before NOR,({"lucy"}));
+
+[Sat Sep  1 12:32:31 2001] u/s/suez/port/npc/lucy.c line 69: Illegal LHS before the end of line
+
+[Sat Sep  1 12:32:31 2001] u/s/suez/port/npc/lucy.c line 69: parse error before the end of line
+
+[Sat Sep  1 12:32:31 2001] u/s/suez/port/npc/lucy.c line 70: Undefined variable 'me' before query_temp("light_to
+
+[Sat Sep  1 12:32:31 2001] u/s/suez/port/npc/lucy.c line 70: Illegal LHS before the end of line
+
+[Sat Sep  1 12:33:31 2001] u/s/suez/port/npc/lucy.c line 40: Undefined function notice before ;       
+
+[Sat Sep  1 12:33:31 2001] u/s/suez/port/npc/lucy.c line 90: parse error before Aªº¤º¤ß¥æ¾ÔµÛ¡A­n»¡¥
+
+[Sat Sep  1 12:33:31 2001] u/s/suez/port/npc/lucy.c line 107: Illegal terminator before ¯ë¡C\n");
+
+[Sat Sep  1 12:34:49 2001] u/s/suez/port/npc/lucy.c line 91: parse error before Aªº¤º¤ß¥æ¾ÔµÛ¡A­n»¡¥
+
+[Sat Sep  1 12:34:49 2001] u/s/suez/port/npc/lucy.c line 108: Illegal terminator before ¯ë¡C\n");
+
+[Sat Sep  1 12:36:00 2001] u/s/suez/port/npc/lucy.c line 91: parse error before Aªº¤º¤ß¥æ¾ÔµÛ¡A­n»¡¥
+
+[Sat Sep  1 12:36:00 2001] u/s/suez/port/npc/lucy.c line 108: Illegal terminator before ¯ë¡C\n");
+
+[Sat Sep  1 12:39:55 2001] u/s/suez/port/npc/lucy.c line 91: parse error before Aªº¤º¤ß¥æ¾ÔµÛ¡A­n»¡¥
+
+[Sat Sep  1 12:39:55 2001] u/s/suez/port/npc/lucy.c line 108: Illegal terminator before ¯ë¡C\n");
+
+[Sat Sep  1 12:41:37 2001] u/s/suez/port/npc/lucy.c line 91: parse error before Aªº¤º¤ß¥æ¾ÔµÛ¡A­n»¡¥
+
+[Sat Sep  1 12:41:37 2001] u/s/suez/port/npc/lucy.c line 109: Illegal terminator before ¯ë¡C\n");
+
+[Sat Sep  1 12:45:02 2001] u/s/suez/port/npc/lucy.c line 91: parse error before Aªº¤º¤ß¥æ¾ÔµÛ¡A­n»¡¥
+
+[Sat Sep  1 12:45:02 2001] u/s/suez/port/npc/lucy.c line 109: Illegal terminator before ¯ë¡C\n");
+
+[Sat Sep  1 12:49:10 2001] u/s/suez/port/npc/lucy.c line 91: parse error before Aªº¤º¤ß¥æ¾ÔµÛ¡A­n»¡¥
+
+[Sat Sep  1 12:49:10 2001] u/s/suez/port/npc/lucy.c line 109: Illegal terminator before ¯ë¡C\n");
+
+[Sat Sep  1 12:55:14 2001] u/s/suez/port/npc/lucy.c line 91: parse error before Aªº¤º¤ß¥æ¾ÔµÛ¡A­n»¡¥
+
+[Sat Sep  1 12:55:14 2001] u/s/suez/port/npc/lucy.c line 109: Illegal terminator before ¯ë¡C\n");
+
+[Sat Sep  1 12:58:27 2001] u/s/suez/port/npc/lucy.c line 100: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sat Sep  1 12:58:27 2001] u/s/suez/port/npc/lucy.c line 114: Warning: Unknown \ escape. before h¨Ó©¹ªF¤è¤j³°ªº°Ó²î.
+
+[Sat Sep  1 12:58:27 2001] u/s/suez/port/npc/lucy.c line 148: Reserved type name unexpected. before (string arg)
+
+[Sat Sep  1 12:58:27 2001] u/s/suez/port/npc/lucy.c line 148: parse error before (string arg)
+
+[Sat Sep  1 12:58:27 2001] u/s/suez/port/npc/lucy.c line 150: Illegal LHS before the end of line
+
+[Sat Sep  1 12:58:27 2001] u/s/suez/port/npc/lucy.c line 151: Undefined variable 'me' before query_temp("light_to
+
+[Sat Sep  1 12:58:27 2001] u/s/suez/port/npc/lucy.c line 152: Undefined variable 'arg' before  "lucy")  return ;
+
+[Sat Sep  1 13:03:26 2001] u/s/suez/port/npc/lucy.c line 148: Reserved type name unexpected. before (string arg)
+
+[Sat Sep  1 13:03:26 2001] u/s/suez/port/npc/lucy.c line 148: parse error before (string arg)
+
+[Sat Sep  1 13:03:26 2001] u/s/suez/port/npc/lucy.c line 150: Illegal LHS before the end of line
+
+[Sat Sep  1 13:03:26 2001] u/s/suez/port/npc/lucy.c line 151: Undefined variable 'me' before query_temp("light_to
+
+[Sat Sep  1 13:03:26 2001] u/s/suez/port/npc/lucy.c line 152: Undefined variable 'arg' before  "lucy")  return 0;
+
+[Sat Sep  1 13:04:46 2001] u/s/suez/port/npc/lucy.c line 148: Reserved type name unexpected. before (string arg)
+
+[Sat Sep  1 13:04:46 2001] u/s/suez/port/npc/lucy.c line 148: parse error before (string arg)
+
+[Sat Sep  1 13:04:46 2001] u/s/suez/port/npc/lucy.c line 150: Illegal LHS before the end of line
+
+[Sat Sep  1 13:04:46 2001] u/s/suez/port/npc/lucy.c line 151: Undefined variable 'me' before query_temp("light_to
+
+[Sat Sep  1 13:04:46 2001] u/s/suez/port/npc/lucy.c line 152: Undefined variable 'arg' before  "lucy")  return ;
+
+[Sat Sep  1 13:15:48 2001] u/s/suez/port/npc/lucy.c line 148: Reserved type name unexpected. before (string arg)
+
+[Sat Sep  1 13:15:48 2001] u/s/suez/port/npc/lucy.c line 148: parse error before (string arg)
+
+[Sat Sep  1 13:15:48 2001] u/s/suez/port/npc/lucy.c line 150: Illegal LHS before the end of line
+
+[Sat Sep  1 13:15:48 2001] u/s/suez/port/npc/lucy.c line 151: Undefined variable 'me' before query_temp("light_to
+
+[Sat Sep  1 13:15:48 2001] u/s/suez/port/npc/lucy.c line 153: Undefined variable 'arg' before  "lucy") {
+
+[Sat Sep  1 13:19:41 2001] u/s/suez/port/npc/lucy.c line 148: Reserved type name unexpected. before ()
+
+[Sat Sep  1 13:19:41 2001] u/s/suez/port/npc/lucy.c line 148: parse error before ()
+
+[Sat Sep  1 13:19:41 2001] u/s/suez/port/npc/lucy.c line 150: Illegal LHS before the end of line
+
+[Sat Sep  1 13:19:41 2001] u/s/suez/port/npc/lucy.c line 151: Undefined variable 'me' before query_temp("light_to
+
+[Sat Sep  1 13:20:53 2001] u/s/suez/port/npc/lucy.c line 148: Reserved type name unexpected. before ()
+
+[Sat Sep  1 13:20:53 2001] u/s/suez/port/npc/lucy.c line 148: parse error before ()
+
+[Sat Sep  1 13:20:53 2001] u/s/suez/port/npc/lucy.c line 150: Illegal LHS before the end of line
+
+[Sat Sep  1 13:20:53 2001] u/s/suez/port/npc/lucy.c line 151: Undefined variable 'me' before query_temp("light_to
+
+[Sat Sep  1 13:21:19 2001] u/s/suez/port/npc/lucy.c line 149: Reserved type name unexpected. before ()
+
+[Sat Sep  1 13:21:19 2001] u/s/suez/port/npc/lucy.c line 149: parse error before ()
+
+[Sat Sep  1 13:21:19 2001] u/s/suez/port/npc/lucy.c line 151: Illegal LHS before the end of line
+
+[Sat Sep  1 13:21:19 2001] u/s/suez/port/npc/lucy.c line 152: Undefined variable 'me' before query_temp("light_to
+
+[Sat Sep  1 22:21:36 2001] u/s/suez/port/npc/lucy.c line 74: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sat Sep  1 23:20:54 2001] u/s/suez/port/npc/eq/waterman_dress.c line 24: Warning: Unknown \ escape. before F­ÓPOSE¤j³Û¡R¡u§Ú­n¥
+
+[Sun Sep  2 16:55:50 2001] u/s/suez/port/npc/bard.c line 77: Undefined function rest before ;
+
+[Sun Sep  2 16:55:50 2001] u/s/suez/port/npc/bard.c line 97: Redeclaration of function rest. before the end of line
+
+[Sun Sep  2 22:12:10 2001] u/s/suez/port/npc/obj/hotel_room.c line 1: Cannot #include ansi.c before inherit ROOM;
+
+[Sun Sep  2 22:12:10 2001] u/s/suez/port/npc/obj/hotel_room.c line 5: Undefined variable 'HIM' before NOR);
+
+[Sun Sep  2 22:12:10 2001] u/s/suez/port/npc/obj/hotel_room.c line 5: parse error before NOR);
+
+[Sun Sep  2 22:32:34 2001] u/s/suez/pill.c line 32: No such inherited function ::do_eat before ;
+
+[Sat Sep  8 21:18:12 2001] u/s/suez/area/npc/obj/water.c line 28: Warning: do_eat() inherited from both /feature/food.c and /feature/pill.c; using the definition in /feature/food.c. before the end of file
+
+[Sat Sep  8 21:18:12 2001] u/s/suez/area/npc/obj/water.c line 28: Warning: init() inherited from both /feature/food.c and /feature/pill.c; using the definition in /feature/food.c. before the end of file
+
+[Tue Sep 11 01:57:19 2001] u/s/suez/port/npc/test_su.c line 46: Undefined function do_stiry before ;// ·íi¸I¨ìµ²§À®É¡A­
+
+[Tue Sep 11 02:56:48 2001] u/s/suez/port/npc/test_su.c line 39: parse error before the end of line
+
+[Tue Sep 11 02:56:48 2001] u/s/suez/port/npc/test_su.c line 40: Illegal LHS before }//­pºâÁ`¦æ¼Æ
+
+[Tue Sep 11 02:56:48 2001] u/s/suez/port/npc/test_su.c line 40: parse error before //­pºâÁ`¦æ¼Æ
+
+[Tue Sep 11 02:56:48 2001] u/s/suez/port/npc/test_su.c line 49: Illegal LHS before the end of line
+
+[Tue Sep 11 02:56:48 2001] u/s/suez/port/npc/test_su.c line 51: parse error before the end of line
+
+[Tue Sep 11 02:57:46 2001] u/s/suez/port/npc/test_su.c line 39: parse error before  max, 1),max++)
+
+[Tue Sep 11 02:57:46 2001] u/s/suez/port/npc/test_su.c line 40: Illegal LHS before }//­pºâÁ`¦æ¼Æ
+
+[Tue Sep 11 02:57:46 2001] u/s/suez/port/npc/test_su.c line 49: Illegal LHS before the end of line
+
+[Tue Sep 11 02:57:46 2001] u/s/suez/port/npc/test_su.c line 49: parse error before the end of line
+
+[Tue Sep 11 02:57:46 2001] u/s/suez/port/npc/test_su.c line 51: Illegal LHS before the end of line
+
+[Tue Sep 11 02:57:46 2001] u/s/suez/port/npc/test_su.c line 51: parse error before the end of line
+
+[Tue Sep 11 02:58:56 2001] u/s/suez/port/npc/test_su.c line 39: parse error before  max, 1),max++);//­p
+
+[Tue Sep 11 02:58:56 2001] u/s/suez/port/npc/test_su.c line 48: Illegal LHS before the end of line
+
+[Tue Sep 11 02:58:56 2001] u/s/suez/port/npc/test_su.c line 48: parse error before the end of line
+
+[Tue Sep 11 02:58:56 2001] u/s/suez/port/npc/test_su.c line 50: Illegal LHS before the end of line
+
+[Tue Sep 11 02:58:56 2001] u/s/suez/port/npc/test_su.c line 50: parse error before the end of line
+
+[Tue Sep 11 03:30:49 2001] u/s/suez/port/npc/test_su.c line 39: Reserved type name unexpected. before ,j,max;
+
+[Tue Sep 11 03:30:49 2001] u/s/suez/port/npc/test_su.c line 39: parse error before ,j,max;
+
+[Tue Sep 11 03:30:49 2001] u/s/suez/port/npc/test_su.c line 41: Illegal LHS before read_file(__DIR__"ob
+
+[Tue Sep 11 03:30:49 2001] u/s/suez/port/npc/test_su.c line 41: Undefined variable 'max' before  1);max++);//­pºâÁ`¦
+
+[Tue Sep 11 03:30:49 2001] u/s/suez/port/npc/test_su.c line 41: parse error before ;//­pºâÁ`¦æ¼Æ
+
+[Tue Sep 11 03:30:49 2001] u/s/suez/port/npc/test_su.c line 42: Illegal LHS before the end of line
+
+[Tue Sep 11 03:32:52 2001] u/s/suez/port/npc/test_su.c line 44: parse error before the end of line
+
+[Tue Sep 11 03:32:52 2001] u/s/suez/port/npc/test_su.c line 47: parse error before }
+
+[Tue Sep 11 03:32:52 2001] u/s/suez/port/npc/test_su.c line 49: Illegal LHS before //±q¼Ð°O¤U¤@¦æºâ°_
+
+[Tue Sep 11 03:32:52 2001] u/s/suez/port/npc/test_su.c line 49: parse error before //±q¼Ð°O¤U¤@¦æºâ°_
+
+[Tue Sep 11 03:32:52 2001] u/s/suez/port/npc/test_su.c line 50: parse error before the end of line
+
+[Tue Sep 11 03:32:52 2001] u/s/suez/port/npc/test_su.c line 52: parse error before }
+
+[Tue Sep 11 03:33:50 2001] u/s/suez/port/npc/test_su.c line 44: parse error before the end of line
+
+[Tue Sep 11 03:33:50 2001] u/s/suez/port/npc/test_su.c line 47: parse error before }
+
+[Tue Sep 11 03:33:50 2001] u/s/suez/port/npc/test_su.c line 49: Illegal LHS before //±q¼Ð°O¤U¤@¦æºâ°_
+
+[Tue Sep 11 03:33:50 2001] u/s/suez/port/npc/test_su.c line 49: parse error before //±q¼Ð°O¤U¤@¦æºâ°_
+
+[Tue Sep 11 03:33:50 2001] u/s/suez/port/npc/test_su.c line 50: parse error before the end of line
+
+[Tue Sep 11 03:33:50 2001] u/s/suez/port/npc/test_su.c line 52: parse error before }
+
+[Tue Sep 11 03:35:21 2001] u/s/suez/port/npc/test_su.c line 44: Bad assignment ( string vs int ). before the end of line
+
+[Tue Sep 11 03:35:21 2001] u/s/suez/port/npc/test_su.c line 49: Bad assignment ( string vs int ). before the end of line
+
+[Tue Sep 11 03:35:21 2001] u/s/suez/port/npc/test_su.c line 53: Bad assignment ( string vs int ). before the end of line
+
+[Tue Sep 11 03:35:21 2001] u/s/suez/port/npc/test_su.c line 57: Bad assignment ( string vs int ). before the end of line
+
+[Tue Sep 11 03:35:21 2001] u/s/suez/port/npc/test_su.c line 66: parse error before start_more(story);
+
+[Tue Sep 11 03:37:59 2001] u/s/suez/port/npc/test_su.c line 44: Bad assignment ( string vs int ). before the end of line
+
+[Tue Sep 11 03:37:59 2001] u/s/suez/port/npc/test_su.c line 49: Bad assignment ( string vs int ). before the end of line
+
+[Tue Sep 11 03:37:59 2001] u/s/suez/port/npc/test_su.c line 53: Bad assignment ( string vs int ). before the end of line
+
+[Tue Sep 11 03:37:59 2001] u/s/suez/port/npc/test_su.c line 57: Bad assignment ( string vs int ). before the end of line
+
+[Tue Sep 11 03:37:59 2001] u/s/suez/port/npc/test_su.c line 66: parse error before start_more(story);
+
+[Tue Sep 11 03:38:28 2001] u/s/suez/port/npc/test_su.c line 44: Bad assignment ( string vs int ). before the end of line
+
+[Tue Sep 11 03:38:28 2001] u/s/suez/port/npc/test_su.c line 49: Bad assignment ( string vs int ). before the end of line
+
+[Tue Sep 11 03:38:28 2001] u/s/suez/port/npc/test_su.c line 53: Bad assignment ( string vs int ). before the end of line
+
+[Tue Sep 11 03:38:28 2001] u/s/suez/port/npc/test_su.c line 57: Bad assignment ( string vs int ). before the end of line
+
+[Tue Sep 11 03:38:28 2001] u/s/suez/port/npc/test_su.c line 66: parse error before start_more(story);
+
+[Tue Sep 11 03:39:24 2001] u/s/suez/port/npc/test_su.c line 44: Bad assignment ( string vs int ). before the end of line
+
+[Tue Sep 11 03:39:24 2001] u/s/suez/port/npc/test_su.c line 49: Bad assignment ( string vs int ). before the end of line
+
+[Tue Sep 11 03:39:24 2001] u/s/suez/port/npc/test_su.c line 53: Bad assignment ( string vs int ). before the end of line
+
+[Tue Sep 11 03:39:24 2001] u/s/suez/port/npc/test_su.c line 57: Bad assignment ( string vs int ). before the end of line
+
+[Tue Sep 11 03:39:24 2001] u/s/suez/port/npc/test_su.c line 66: parse error before start_more(story);
+
+[Tue Sep 11 03:39:44 2001] u/s/suez/port/npc/test_su.c line 44: Bad assignment ( string vs int ). before the end of line
+
+[Tue Sep 11 03:39:44 2001] u/s/suez/port/npc/test_su.c line 49: Bad assignment ( string vs int ). before the end of line
+
+[Tue Sep 11 03:39:44 2001] u/s/suez/port/npc/test_su.c line 53: Bad assignment ( string vs int ). before the end of line
+
+[Tue Sep 11 03:39:44 2001] u/s/suez/port/npc/test_su.c line 57: Bad assignment ( string vs int ). before the end of line
+
+[Tue Sep 11 03:39:44 2001] u/s/suez/port/npc/test_su.c line 66: parse error before start_more(story);
+
+[Tue Sep 11 03:42:49 2001] u/s/suez/port/npc/test_su.c line 66: parse error before start_more(story);
+
+[Tue Sep 11 04:01:04 2001] u/s/suez/port/npc/test_su.c line 62: Illegal lvalue before 1;
+
+[Tue Sep 11 04:03:06 2001] u/s/suez/port/npc/test_su.c line 62: Illegal lvalue before 1 )
+
+[Tue Sep 11 05:08:12 2001] u/s/suez/port/npc/test.c line 45: Undefined variable 'READ_FIRE' before i,1) == 0 ) check="N
+
+[Tue Sep 11 05:11:55 2001] u/s/suez/port/npc/test.c line 91: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Tue Sep 11 05:11:55 2001] u/s/suez/port/npc/test.c line 91: Illegal to redefine 'nomask' function "query_busy" before the end of line
+
+[Tue Sep 11 05:11:55 2001] u/s/suez/port/npc/test.c line 91: Illegal to redefine 'nomask' function "is_busy" before the end of line
+
+[Tue Sep 11 05:11:55 2001] u/s/suez/port/npc/test.c line 91: Illegal to redefine 'nomask' function "is_block" before the end of line
+
+[Tue Sep 11 05:11:55 2001] u/s/suez/port/npc/test.c line 91: Illegal to redefine 'nomask' function "command_hook" before the end of line
+
+[Tue Sep 11 05:11:55 2001] u/s/suez/port/npc/test.c line 91: Illegal to redefine 'nomask' function "set_path" before the end of line
+
+[Tue Sep 11 05:24:21 2001] u/s/suez/port/npc/test.c line 47: == always false because of incompatible types ( string vs int ). before the end of line
+
+[Tue Sep 11 05:26:09 2001] u/s/suez/port/npc/test.c line 47: Bad assignment ( string vs int ). before the end of line
+
+[Tue Sep 11 05:26:57 2001] u/s/suez/port/npc/test.c line 47: Bad assignment ( string vs int ). before the end of line
+
+[Tue Oct  2 23:55:38 2001] u/s/suez/area/npc/obj/water.c line 28: Warning: do_eat() inherited from both /feature/food.c and /feature/pill.c; using the definition in /feature/food.c. before the end of file
+
+[Tue Oct  2 23:55:38 2001] u/s/suez/area/npc/obj/water.c line 28: Warning: init() inherited from both /feature/food.c and /feature/pill.c; using the definition in /feature/food.c. before the end of file
+
+[Wed Oct 10 15:12:47 2001] u/s/suez/port/port_19.c line 26: parse error before the end of line
+
+[Wed Oct 10 15:14:23 2001] u/s/suez/port/port_19.c line 39: Undefined variable 'this_player' before move(__DIR__"port_b6
+
+[Wed Oct 10 15:14:39 2001] u/s/suez/port/port_19.c line 39: Undefined variable 'this_player' before move(__DIR__"port_b6
+
+[Sat Jan 12 00:18:13 2002] u/s/suez/port/npc/quest_boy.c line 7: parse error before 1,1]);
+
+[Sat Jan 12 00:18:13 2002] u/s/suez/port/npc/quest_boy.c line 42: Illegal LHS before the end of line
+
+[Sat Jan 12 00:18:13 2002] u/s/suez/port/npc/quest_boy.c line 42: parse error before the end of line
+
+[Sat Jan 12 00:18:13 2002] u/s/suez/port/npc/quest_boy.c line 50: Undefined function radom before )+"";
+
+[Sat Jan 12 00:18:13 2002] u/s/suez/port/npc/quest_boy.c line 50: Invalid argument types to '+' ( int vs unknown ) before +"";
+
+[Sat Jan 12 00:18:13 2002] u/s/suez/port/npc/quest_boy.c line 50: Illegal LHS before the end of line
+
+[Sat Jan 12 00:18:13 2002] u/s/suez/port/npc/quest_boy.c line 102: Warning: Unknown \ escape. before O¤£°÷¼g¥X¹ïÀ³¦¹¦æ°Êª
+

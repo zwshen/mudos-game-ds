@@ -1,0 +1,290 @@
+[Sun Sep 23 15:25:20 2001] u/s/shadow/area/arearoom.c line 35: parse error before Ø«e¥¿¦b¶i¦æ¤¤ªº°Ï°ì¦
+
+[Sun Sep 23 15:25:20 2001] u/s/shadow/area/arearoom.c line 38: Illegal terminator before ¬É
+
+[Sun Sep 23 15:25:50 2001] u/s/shadow/area/arearoom.c line 50: End of file in text block before ictim)
+
+[Sun Sep 23 15:25:50 2001] u/s/shadow/area/arearoom.c line 50: parse error before ictim)
+
+[Sun Sep 23 15:25:54 2001] u/s/shadow/area/arearoom.c line 50: End of file in text block before ictim)
+
+[Sun Sep 23 15:25:54 2001] u/s/shadow/area/arearoom.c line 50: parse error before ictim)
+
+[Sun Sep 23 16:47:11 2001] u/s/shadow/area/a1.c line 11: Warning: Unknown \ escape. before e¤H¿ò¯d¤U¨Óªº¨¬¸ñ...
+
+[Sun Sep 23 16:47:49 2001] u/s/shadow/area/a1.c line 11: Warning: Unknown \ escape. before e¤H¿ò¯d¤U¨Óªº¨¬¸ñ...
+
+[Sun Sep 23 16:48:29 2001] u/s/shadow/area/a1.c line 11: Warning: Unknown \ escape. before j¤H¿ò¯d¤U¨Óªº¨¬¸ñ...
+
+[Sun Sep 23 16:49:32 2001] u/s/shadow/area/a1.c line 11: Warning: Unknown \ escape. before j¤H¿ò¯d¤U¨Óªº¨¬¸ñ...
+
+[Sun Sep 23 16:49:38 2001] u/s/shadow/area/a1.c line 80: Undefined variable 'find_msg' before  ) {
+
+[Sun Sep 23 17:24:14 2001] u/s/shadow/area/a2.c line 117: End of file in text block before i¢i¢i¢i¢i¢i¢i¢i¢i¢i¢
+
+[Sun Sep 23 17:24:14 2001] u/s/shadow/area/a2.c line 117: parse error before i¢i¢i¢i¢i¢i¢i¢i¢i¢i¢
+
+[Sun Sep 23 17:25:26 2001] u/s/shadow/area/a2.c line 117: End of file in text block before area/""npc/obj/prawn
+
+[Sun Sep 23 17:25:26 2001] u/s/shadow/area/a2.c line 117: parse error before area/""npc/obj/prawn
+
+[Sun Sep 23 17:27:35 2001] u/s/shadow/area/a2.c line 118: End of file in text block before ®e¾¹¤£¯à©ñ¨ì®e¾¹¸Ì¡C
+
+[Sun Sep 23 17:27:35 2001] u/s/shadow/area/a2.c line 118: parse error before ®e¾¹¤£¯à©ñ¨ì®e¾¹¸Ì¡C
+
+[Sun Sep 23 17:31:06 2001] u/s/shadow/area/a2.c line 121: End of file in text block before rn notify_fail("§A¨Ã
+
+[Sun Sep 23 17:31:06 2001] u/s/shadow/area/a2.c line 121: parse error before rn notify_fail("§A¨Ã
+
+[Sun Sep 23 17:33:15 2001] u/s/shadow/area/a2.c line 121: End of file in text block before  notify_fail("§A¨Ã¨S
+
+[Sun Sep 23 17:33:15 2001] u/s/shadow/area/a2.c line 121: parse error before  notify_fail("§A¨Ã¨S
+
+[Sun Sep 23 17:33:35 2001] u/s/shadow/area/a2.c line 121: End of file in text block before  notify_fail("§A¨Ã¨S
+
+[Sun Sep 23 17:33:35 2001] u/s/shadow/area/a2.c line 121: parse error before  notify_fail("§A¨Ã¨S
+
+[Sun Sep 23 17:34:53 2001] u/s/shadow/area/a2.c line 121: End of file in text block before  notify_fail("§A¨Ã¨S
+
+[Sun Sep 23 17:34:53 2001] u/s/shadow/area/a2.c line 121: parse error before  notify_fail("§A¨Ã¨S
+
+[Sun Sep 23 17:35:25 2001] u/s/shadow/area/a2.c line 112: End of file in text block before ;
+
+[Sun Sep 23 17:35:25 2001] u/s/shadow/area/a2.c line 112: parse error before ;
+
+[Sun Sep 23 17:35:54 2001] u/s/shadow/area/a2.c line 113: End of file in text block before   if ( arg != "¥X¤f"
+
+[Sun Sep 23 17:35:54 2001] u/s/shadow/area/a2.c line 113: parse error before   if ( arg != "¥X¤f"
+
+[Sun Sep 23 17:36:14 2001] u/s/shadow/area/a2.c line 113: End of file in text block before   if ( arg != "¥X¤f"
+
+[Sun Sep 23 17:36:14 2001] u/s/shadow/area/a2.c line 113: parse error before   if ( arg != "¥X¤f"
+
+[Sun Sep 23 17:36:50 2001] u/s/shadow/area/a2.c line 105: End of file in text block before ====================
+
+[Sun Sep 23 17:36:50 2001] u/s/shadow/area/a2.c line 105: parse error before ====================
+
+[Sun Sep 23 17:37:46 2001] u/s/shadow/area/a2.c line 104: End of file in text block before  delete("finding_now
+
+[Sun Sep 23 17:37:46 2001] u/s/shadow/area/a2.c line 104: parse error before  delete("finding_now
+
+[Sun Sep 23 17:38:40 2001] u/s/shadow/area/a2.c line 104: End of file in text block before \n«h¨C·í§A(©p)¥´¡R\n
+
+[Sun Sep 23 17:38:40 2001] u/s/shadow/area/a2.c line 104: parse error before \n«h¨C·í§A(©p)¥´¡R\n
+
+[Sun Sep 23 18:34:25 2001] u/s/shadow/area/a5.c line 28: parse error before the end of line
+
+[Sun Sep 30 02:08:05 2001] u/s/shadow/area/graveyard2.c line 13: parse error before I¤ó¸q²øÁöµM¤w¸g¦~¥N¤
+
+[Sun Sep 30 02:08:59 2001] u/s/shadow/area/graveyard2.c line 13: parse error before I¤ó¸q²øÁöµM¤w¸g¦~¥N¤
+
+[Sun Sep 30 04:22:09 2001] u/s/shadow/area/a7.c line 16: Warning: Unknown \ escape. before |¹J¨£¤H©O¡C\n"
+
+[Sun Sep 30 04:22:40 2001] u/s/shadow/area/a7.c line 16: Warning: Unknown \ escape. before |\¹J¨£¤H©O¡C\n"
+
+[Sun Sep 30 04:22:40 2001] u/s/shadow/area/a7.c line 16: Warning: Unknown \ escape. before J¨£¤H©O¡C\n"
+
+[Sun Sep 30 04:22:44 2001] u/s/shadow/area/a7.c line 16: Warning: Unknown \ escape. before |\¹J¨£¤H©O¡C\n"
+
+[Sun Sep 30 04:22:44 2001] u/s/shadow/area/a7.c line 16: Warning: Unknown \ escape. before J¨£¤H©O¡C\n"
+
+[Sun Sep 30 04:23:36 2001] u/s/shadow/area/a7.c line 16: Warning: Unknown \ escape. before |¹J¨£¤H©O¡C\n"
+
+[Sun Sep 30 04:24:14 2001] u/s/shadow/area/a7.c line 16: Warning: Unknown \ escape. before |¹J¨£¤H©O¡C\n",
+
+[Sun Sep 30 04:24:44 2001] u/s/shadow/area/a7.c line 16: Warning: Unknown \ escape. before |¹J¨£¤H¡C\n",
+
+[Sun Sep 30 04:27:49 2001] u/s/shadow/area/a2.c line 20: Warning: Unknown \ escape. before |¤£\·|¬O±ø¦º¸ô¡A¦A¥[
+
+[Sun Sep 30 04:27:49 2001] u/s/shadow/area/a2.c line 20: Warning: Unknown \ escape. before |¬O±ø¦º¸ô¡A¦A¥[¤W³oµ
+
+[Sun Sep 30 10:48:21 2001] u/s/shadow/area/npc/dead1.c line 7: Wrong number of arguments to set_skill
+    Expected: 2  Got: 1 before ;
+
+[Sun Sep 30 10:48:21 2001] u/s/shadow/area/npc/dead1.c line 8: Wrong number of arguments to set_skill
+    Expected: 2  Got: 1 before ;
+
+[Sun Sep 30 12:36:36 2001] u/s/shadow/area/npc/dog1.c line 24: parse error before ", HIY"¶Ã¸®©£"NOR);
+
+[Sun Sep 30 12:36:36 2001] u/s/shadow/area/npc/dog1.c line 57: End of file in string before l_out("leaveroom",7,
+
+[Sun Sep 30 12:37:59 2001] u/s/shadow/area/npc/dog1.c line 24: parse error before ", HIY"¶Ã¸®©£"NOR);
+
+[Sun Sep 30 12:37:59 2001] u/s/shadow/area/npc/dog1.c line 57: End of file in string before l_out("leaveroom",7,
+
+[Sun Sep 30 12:38:23 2001] u/s/shadow/area/npc/dog1.c line 24: parse error before ", HIY"¶Ã¸®©£"NOR);
+
+[Sun Sep 30 12:38:23 2001] u/s/shadow/area/npc/dog1.c line 57: End of file in string before l_out("leaveroom",7,
+
+[Sun Sep 30 12:39:29 2001] u/s/shadow/area/npc/dog1.c line 24: parse error before ", HIY"¶Ã¸®©£"NOR);
+
+[Sun Sep 30 12:39:29 2001] u/s/shadow/area/npc/dog1.c line 57: End of file in string before *******************/
+
+[Tue Oct  2 14:35:38 2001] u/s/shadow/area/graveyard2.c line 30: Undefined function create_door before ;
+
+[Tue Oct  2 14:35:48 2001] u/s/shadow/area/graveyard2.c line 30: Undefined function create_door before ;
+
+[Tue Oct  2 14:36:08 2001] u/s/shadow/area/graveyard2.c line 30: Undefined function create_door before ;
+
+[Tue Oct  2 14:36:35 2001] u/s/shadow/area/graveyard2.c line 30: Undefined function create_door before ;
+
+[Tue Oct  2 14:37:13 2001] u/s/shadow/area/graveyard2.c line 30: Undefined variable 'DOOR_OPENED' before  "nokey");
+
+[Tue Oct  2 14:37:17 2001] u/s/shadow/area/graveyard2.c line 30: Undefined variable 'DOOR_OPENED' before  "nokey");
+
+[Tue Oct  2 14:37:19 2001] u/s/shadow/area/graveyard2.c line 30: Undefined variable 'DOOR_OPENED' before  "nokey");
+
+[Tue Oct  2 14:37:53 2001] u/s/shadow/area/graveyard2.c line 30: Undefined variable 'DOOR_OPENED' before  "nokey");
+
+[Tue Oct  2 16:23:13 2001] u/s/shadow/area/npc/youngman.c line 57: parse error before ("item_give_who", me
+
+[Tue Oct  2 16:24:07 2001] u/s/shadow/area/npc/youngman.c line 57: parse error before ("item_give_who", wh
+
+[Tue Oct  2 16:25:11 2001] u/s/shadow/area/npc/youngman.c line 57: parse error before ("item_give_who", me
+
+[Tue Oct  2 16:25:15 2001] u/s/shadow/area/npc/youngman.c line 57: parse error before ("item_give_who", me
+
+[Tue Oct  2 16:26:46 2001] u/s/shadow/area/npc/youngman.c line 57: parse error before ("item_give_who", "s
+
+[Tue Oct  2 16:33:12 2001] u/s/shadow/area/npc/youngman.c line 67: Undefined variable 'who' before name(1));
+
+[Tue Oct  2 21:13:40 2001] u/s/shadow/area/sea/a8.c line 27: Warning: Unknown \ escape. before i¥H¸ÕµÛ±À(push)¬Ý¬Ý¡
+
+[Tue Oct  2 21:13:40 2001] u/s/shadow/area/sea/a8.c line 44: Undefined variable 'me' before ;
+
+[Tue Oct  2 21:15:59 2001] u/s/shadow/area/sea/a8.c line 27: Warning: Unknown \ escape. before i¥H¸ÕµÛ±À(push)¬Ý¬Ý¡
+
+[Tue Oct  2 21:16:35 2001] u/s/shadow/area/sea/a8.c line 27: Warning: Unknown \ escape. before i¥H¸ÕµÛ±À(push)¬Ý¬Ý¡
+
+[Tue Oct  2 21:16:39 2001] u/s/shadow/area/sea/a8.c line 27: Warning: Unknown \ escape. before i¥H¸ÕµÛ±À(push)¬Ý¬Ý¡
+
+[Tue Oct  2 21:18:24 2001] u/s/shadow/area/sea/a4.c line 26: Warning: Unknown \ escape. before |¦³¤HÅ¥¨ì(shout ¦³¤H
+
+[Tue Oct  2 21:19:58 2001] u/s/shadow/area/sea/a4.c line 26: Warning: Unknown \ escape. before \·|¦³¤HÅ¥¨ì(shout ¦³
+
+[Tue Oct  2 21:19:58 2001] u/s/shadow/area/sea/a4.c line 26: Warning: Unknown \ escape. before |¦³¤HÅ¥¨ì(shout ¦³¤H
+
+[Tue Oct  2 21:20:06 2001] u/s/shadow/area/sea/a4.c line 26: Warning: Unknown \ escape. before \·|¦³¤HÅ¥¨ì(shout ¦³
+
+[Tue Oct  2 21:20:06 2001] u/s/shadow/area/sea/a4.c line 26: Warning: Unknown \ escape. before |¦³¤HÅ¥¨ì(shout ¦³¤H
+
+[Tue Oct  2 21:21:51 2001] u/s/shadow/area/sea/a4.c line 26: Warning: Unknown \ escape. before |¦³¤HÅ¥¨ì(shout ¦³¤H
+
+[Tue Oct  2 21:22:41 2001] u/s/shadow/area/sea/a1.c line 36: Warning: Unknown \ escape. before I\n", me);
+
+[Tue Oct  2 21:23:25 2001] u/s/shadow/area/sea/a1.c line 36: Warning: Unknown \ escape. before I\n", me);
+
+[Tue Oct  2 21:25:56 2001] u/s/shadow/area/sea/a1.c line 36: Warning: Unknown \ escape. before I\n", me);
+
+[Tue Oct  2 21:25:58 2001] u/s/shadow/area/sea/a1.c line 36: Warning: Unknown \ escape. before I\n", me);
+
+[Tue Oct  2 21:26:02 2001] u/s/shadow/area/sea/a1.c line 36: Warning: Unknown \ escape. before I\n", me);
+
+[Tue Oct  2 21:26:30 2001] u/s/shadow/area/sea/a1.c line 36: Warning: Unknown \ escape. before \¡I\n", me);
+
+[Tue Oct  2 21:26:30 2001] u/s/shadow/area/sea/a1.c line 36: Warning: Unknown \ escape. before I\n", me);
+
+[Tue Oct  2 21:26:32 2001] u/s/shadow/area/sea/a1.c line 36: Warning: Unknown \ escape. before \¡I\n", me);
+
+[Tue Oct  2 21:26:32 2001] u/s/shadow/area/sea/a1.c line 36: Warning: Unknown \ escape. before I\n", me);
+
+[Tue Oct  2 21:27:42 2001] u/s/shadow/area/sea/a1.c line 36: Warning: Unknown \ escape. before \¡I\n", me);
+
+[Tue Oct  2 21:27:42 2001] u/s/shadow/area/sea/a1.c line 36: Warning: Unknown \ escape. before I\n", me);
+
+[Tue Oct  2 21:33:22 2001] u/s/shadow/area/sea/a8.c line 27: Warning: Unknown \ escape. before i¥H¸ÕµÛ±À(push)¬Ý¬Ý¡
+
+[Tue Oct  2 21:37:07 2001] u/s/shadow/area/sea/a8.c line 50: Undefined function set_busy before ;
+
+[Tue Oct  2 21:39:42 2001] u/s/shadow/area/sea/a12.c line 14: Warning: Unknown \ escape. before ¡¤F¦U¦¡¦U¼Ëªº¬Ã¯]»P¨
+
+[Tue Oct  2 21:40:36 2001] u/s/shadow/area/sea/a12.c line 14: Warning: Unknown \ escape. before \º¡¤F¦U¦¡¦U¼Ëªº¬Ã¯]»
+
+[Tue Oct  2 21:40:36 2001] u/s/shadow/area/sea/a12.c line 14: Warning: Unknown \ escape. before ¡¤F¦U¦¡¦U¼Ëªº¬Ã¯]»P¨
+
+[Thu Oct  4 21:20:07 2001] u/s/shadow/area/graveyard23.c line 46: No such inherited function ::look before ;
+
+[Thu Oct  4 21:25:56 2001] u/s/shadow/area/graveyard23.c line 46: No such inherited function ::look before ;
+
+[Thu Oct  4 21:32:48 2001] u/s/shadow/area/graveyard23.c line 57: Undefined variable 'ob' before +"§A¦b§@¬Æ»ò©O¡H\n\n
+
+[Fri Oct  5 13:18:07 2001] u/s/shadow/area/npc/manager.c line 53: Undefined variable 'manager' before  new(__DIR__"npc/gho
+
+[Fri Oct  5 13:22:59 2001] u/s/shadow/area/npc/manager.c line 55: Undefined variable 'ghostr' before  new(__DIR__"npc/gho
+
+[Fri Oct  5 13:33:32 2001] u/s/shadow/area/npc/manager.c line 61: parse error before u/s/shadow/area/"gra
+
+[Fri Oct  5 13:34:40 2001] u/s/shadow/area/npc/manager.c line 61: parse error before u/s/shadow/area/+"gr
+
+[Fri Oct  5 13:35:31 2001] u/s/shadow/area/npc/manager.c line 61: Undefined variable '__SHADOW_GRAVEYARD__' before );
+
+[Fri Oct  5 13:35:31 2001] u/s/shadow/area/npc/manager.c line 61: parse error before );
+
+[Fri Oct  5 13:37:39 2001] u/s/shadow/area/npc/manager.c line 61: parse error before u/s/shadow/area/+"gr
+
+[Fri Oct  5 13:38:38 2001] u/s/shadow/area/npc/manager.c line 61: parse error before u/s/shadow/area/"gra
+
+[Fri Oct  5 13:38:44 2001] u/s/shadow/area/npc/manager.c line 61: parse error before u/s/shadow/area/"gra
+
+[Fri Oct  5 13:39:20 2001] u/s/shadow/area/npc/manager.c line 61: parse error before u/s/shadow/area/"gra
+
+[Fri Oct  5 13:40:06 2001] u/s/shadow/area/npc/manager.c line 61: Reserved type name unexpected. before  = SHADOW_GRAVEYARD+
+
+[Fri Oct  5 13:40:06 2001] u/s/shadow/area/npc/manager.c line 61: parse error before  = SHADOW_GRAVEYARD+
+
+[Fri Oct  5 13:51:54 2001] u/s/shadow/area/npc/youngman.c line 23: Undefined variable 'quest' before ),
+
+[Fri Oct  5 13:51:54 2001] u/s/shadow/area/npc/youngman.c line 23: parse error before ),
+
+[Fri Oct  5 13:51:54 2001] u/s/shadow/area/npc/youngman.c line 36: Illegal LHS before the end of line
+
+[Fri Oct  5 13:51:54 2001] u/s/shadow/area/npc/youngman.c line 36: parse error before the end of line
+
+[Fri Oct  5 13:51:54 2001] u/s/shadow/area/npc/youngman.c line 54: Illegal LHS before  obj;
+
+[Fri Oct  5 13:51:54 2001] u/s/shadow/area/npc/youngman.c line 54: Undefined variable 'obj' before the end of line
+
+[Fri Oct  5 14:24:37 2001] u/s/shadow/area/npc/manager.c line 60: Undefined variable 'env' before environment();
+
+[Fri Oct  5 14:24:37 2001] u/s/shadow/area/npc/manager.c line 61: Undefined variable 'npc' before find_living("Graveya
+
+[Fri Oct  5 14:24:37 2001] u/s/shadow/area/npc/manager.c line 72: Undefined variable 'n' before set("objects",([
+
+[Fri Oct  5 14:25:26 2001] u/s/shadow/area/npc/manager.c line 61: Undefined variable 'npc' before find_living("Graveya
+
+[Fri Oct  5 14:25:26 2001] u/s/shadow/area/npc/manager.c line 72: Undefined variable 'n' before set("objects",([
+
+[Fri Oct  5 14:26:24 2001] u/s/shadow/area/npc/manager.c line 61: Undefined variable 'npc' before find_living("Graveya
+
+[Fri Oct  5 14:26:24 2001] u/s/shadow/area/npc/manager.c line 72: Undefined variable 'n' before set("objects",([
+
+[Mon Oct  8 23:41:03 2001] u/s/shadow/area/npc/ghost.c line 52: Undefined variable 'SHADOW_GRAVEYARD' before );
+
+[Mon Oct  8 23:41:03 2001] u/s/shadow/area/npc/ghost.c line 52: parse error before );
+
+[Tue Oct  9 15:23:31 2001] u/s/shadow/area/graveyard23.c line 59: parse error before  {
+
+[Tue Oct  9 15:23:31 2001] u/s/shadow/area/graveyard23.c line 63: Illegal LHS before the end of line
+
+[Tue Oct  9 15:23:31 2001] u/s/shadow/area/graveyard23.c line 71: parse error before the end of line
+
+[Tue Oct  9 15:24:03 2001] u/s/shadow/area/npc/manager.c line 52: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Tue Oct  9 15:24:03 2001] u/s/shadow/area/npc/manager.c line 55: Undefined variable 'me' before ob);
+
+[Tue Oct  9 15:25:30 2001] u/s/shadow/area/graveyard23.c line 87: Undefined variable 'ghost' before  new(__DIR__"npc/gho
+
+[Tue Oct  9 15:25:30 2001] u/s/shadow/area/graveyard23.c line 103: Undefined function query_ghost before  )	call_out("end_war
+
+[Tue Oct  9 15:25:30 2001] u/s/shadow/area/graveyard23.c line 125: Redeclaration of function query_ghost. before the end of line
+
+[Tue Oct  9 15:26:02 2001] u/s/shadow/area/graveyard23.c line 103: Undefined function query_ghost before  )	call_out("end_war
+
+[Tue Oct  9 15:26:02 2001] u/s/shadow/area/graveyard23.c line 125: Redeclaration of function query_ghost. before the end of line
+
+[Tue Oct  9 15:26:48 2001] u/s/shadow/area/graveyard23.c line 15: parse error before  create()
+
+[Tue Oct  9 15:27:28 2001] u/s/shadow/area/npc/manager.c line 56: Undefined variable 'me' before ob);
+
+[Sun Oct 14 00:49:43 2001] u/s/shadow/workroom.c line 9: parse error before  ROOM;
+

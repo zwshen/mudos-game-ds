@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions ([])
+dbase (["max_mp":60,"max_hp":80,"supply_point":50,"attitude":"peaceful","guild_gifts":({5,5,5,5,}),"talk_point":8,"war_score":2,"mp":60,"max_ap":60,"last_location":"/open/world1/tmr/area/street5","ap":60,"heart_modify":0,"newbie":1,"exp":992,"dex":2,"hp":80,"int":2,"con":2,"str":2,"level":1,"heart_beat_rate":6,"volume":7,"id":"kosuke","default_actions":,"DS_DATA_VERSION":19991107,"evil":-1,"bank":(["past":1,]),"mob_record":({"/open/world1/tmr/area/npc/dog",}),"channels":({"chat","rumor","tchat",}),"addition_shield":10,"birthday":1188653475,"gender":"男性","name":"不破銀狼","race":"human","addition_armor":10,"startroom":"/open/world1/tmr/area/hotel","addition_damage":10,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"MKS":1,"mud_age":390,"wound":(["body":0,"head":0,"right_leg":0,"right_arm":0,"left_leg":0,"left_arm":0,]),"age":14,"actions":,"cure_count":5,"unit":"位",])
+skills (["combat":1,"unarmed":1,"dodge":0,])
+learned (["combat":4,"unarmed":1,"dodge":1,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

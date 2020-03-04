@@ -1,0 +1,219 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清華站︰精華區</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+<A Name="top"></a>
+發信人:&nbsp;MicroLiang&nbsp;(Micro&nbsp;Liang),&nbsp;信區:&nbsp;Mud_Builder&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+標&nbsp;&nbsp;題:&nbsp;圖形ＭＵＤ《天下》幫派命令詳解&nbsp;<BR>
+發信站:&nbsp;BBS&nbsp;水木清華站&nbsp;(Thu&nbsp;Oct&nbsp;12&nbsp;18:12:00&nbsp;2000)&nbsp;<BR>
+&nbsp;<BR>
+　　　　　　　　圖形ＭＵＤ《天下》幫派命令詳解&nbsp;<BR>
+&nbsp;<BR>
+　　　　　　　　轉摘：天下游戲網（www.21cntx.com）&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+語法：ot&nbsp;&lt;信息&gt;&nbsp;<BR>
+　　　ot*&nbsp;&lt;動詞&gt;&nbsp;<BR>
+　　　ot*&nbsp;&lt;動詞&gt;&nbsp;&lt;人名&gt;&nbsp;<BR>
+　　　ot#&nbsp;&lt;信息&gt;&nbsp;<BR>
+　　　ot#&nbsp;&lt;動詞&gt;&nbsp;&lt;信息&gt;&nbsp;<BR>
+功能：幫派專用頻道&nbsp;<BR>
+說明：幫派專用頻道，只有本幫人士才能看到這些信息。&nbsp;<BR>
+例如：ot&nbsp;大家好！&nbsp;<BR>
+　　　ot*&nbsp;bow&nbsp;<BR>
+　　　ot*&nbsp;bow&nbsp;micro&nbsp;<BR>
+　　　ot#&nbsp;只想好好玩上幾個鐘頭遊戲，別的都不想管。&nbsp;<BR>
+　　　ot#&nbsp;sing&nbsp;喵嗚～喵嗚～喵～～&nbsp;<BR>
+聯繫：chat,&nbsp;rumor,&nbsp;tx,&nbsp;ct,&nbsp;tt,&nbsp;st&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+語法：orglist&nbsp;<BR>
+功能：顯示所有幫派信息&nbsp;<BR>
+聯繫：org&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+語法：neworg&nbsp;&lt;新創幫派名稱&gt;&nbsp;<BR>
+功能：創建新的幫派&nbsp;<BR>
+說明：通過這個指令可以創立新的幫派。具體做法：由未來的幫主（（至少要有&nbsp;<BR>
+　　　１８歲，經驗超過三十萬））成立一個不少於２０人的隊伍，隊伍中每個&nbsp;<BR>
+　　　成員都不能是新手（至少要有１５歲，經驗超過兩千），也不能是其他幫&nbsp;<BR>
+　　　派的成員，並且所有人都同意成立幫派，由首領開始，每個人輸入&nbsp;<BR>
+　　　neworg&nbsp;&lt;幫派的名字&gt;。創立幫派之後幫會頻道只取最前兩字，所以幫派&nbsp;<BR>
+　　　的名字還得詳加考慮。全體隊員確認創立幫派之後，首領所在的位置將是&nbsp;<BR>
+　　　幫派的基地，一個幫派獨有的總管將會出現在基地處。&nbsp;<BR>
+例如：neworg&nbsp;天下幫&nbsp;<BR>
+聯繫：orglist&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+語法：org&nbsp;<BR>
+功能：顯示現有幫派信息&nbsp;<BR>
+聯繫：orglist,&nbsp;setorg&nbsp;<BR>
+&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+語法：join&nbsp;&lt;人名&gt;&nbsp;<BR>
+功能：加入幫派&nbsp;<BR>
+說明：向幫派長老或首領請求加入幫派。使用這個命令的限制是，不能是新手，&nbsp;<BR>
+　　　不能是另一個幫派的成員。必須得面對對方。&nbsp;<BR>
+例如：join&nbsp;micro&nbsp;<BR>
+　　　加入micro&nbsp;所在幫派。&nbsp;<BR>
+聯繫：accept&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+語法：accept&nbsp;&lt;人名&gt;&nbsp;<BR>
+功能：接受幫眾&nbsp;<BR>
+說明：幫派長老或首領專用指令，用於接受平民加入本幫。這個人不能是新手，&nbsp;<BR>
+　　　也不能是另一個幫派的成員。必須得面對對方。&nbsp;<BR>
+例如：accept&nbsp;micro&nbsp;<BR>
+　　　接受micro&nbsp;為新幫眾。&nbsp;<BR>
+聯繫：join&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+語法：banish&nbsp;&lt;人名&gt;&nbsp;<BR>
+功能：放逐幫眾&nbsp;<BR>
+說明：幫派長老或首領專用指令，用於放逐指定幫眾。被放逐的幫眾會失去所學&nbsp;<BR>
+　　　幫派武功。&nbsp;<BR>
+例如：banish&nbsp;micro&nbsp;<BR>
+　　　將幫眾micro&nbsp;放逐走。&nbsp;<BR>
+聯繫：rebel&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+語法：rebel&nbsp;&lt;幫名&gt;&nbsp;<BR>
+說明：背叛幫派&nbsp;<BR>
+功能：幫眾專用指令，使用這個命令可以脫離現在幫派，但是下場是：死。幫派&nbsp;<BR>
+　　　首領不能使用這個命令。&nbsp;<BR>
+例如：rebel&nbsp;天下幫&nbsp;<BR>
+　　　背叛所在幫派“天下幫”。&nbsp;<BR>
+聯繫：banish&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;<BR>
+語法：home&nbsp;<BR>
+功能：瞬間回家&nbsp;<BR>
+說明：幫派長老或首領專用指令，用於瞬間回到基地。必須狀態全滿才能使用，&nbsp;<BR>
+　　　使用後精氣、氣血、心神、靈力、內力、法力狀態值各下降一半，氣血&nbsp;<BR>
+　　　受傷&nbsp;5%&nbsp;。&nbsp;<BR>
+例如：home&nbsp;<BR>
+聯繫：invite,&nbsp;teleport&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+語法：invite&nbsp;&lt;人名&gt;&nbsp;<BR>
+功能：邀請幫眾&nbsp;<BR>
+說明：幫派長老或首領專用指令，用於邀請指定幫眾。必須狀態全滿才能使用，&nbsp;<BR>
+　　　使用後精氣、氣血、心神、靈力、內力、法力狀態值各下降一半，氣血&nbsp;<BR>
+　　　受傷&nbsp;5%&nbsp;。&nbsp;<BR>
+例如：invite&nbsp;micro&nbsp;<BR>
+　　　邀請幫眾micro&nbsp;到自己處。&nbsp;<BR>
+聯繫：home,&nbsp;teleport&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+語法：teleport&nbsp;&lt;人名&gt;&nbsp;<BR>
+功能：瞬間移動&nbsp;<BR>
+說明：幫派首領專用指令，用於瞬間移動到其幫眾處。必須狀態全滿才能使用，&nbsp;<BR>
+　　　使用後精氣、氣血、心神、靈力、內力、法力狀態值各下降一半，氣血&nbsp;<BR>
+　　　受傷&nbsp;5%&nbsp;。&nbsp;<BR>
+例如：teleport&nbsp;micro&nbsp;<BR>
+　　　瞬間移動到幫眾micro&nbsp;處。&nbsp;<BR>
+聯繫：home,&nbsp;invite&nbsp;<BR>
+&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+語法：rank&nbsp;&lt;人名&gt;&nbsp;&lt;職稱&gt;&nbsp;<BR>
+功能：設置幫眾職稱&nbsp;<BR>
+說明：幫派長老或首領專用指令，給幫眾們分封職位。&nbsp;<BR>
+例如：rank&nbsp;micro&nbsp;執法長老&nbsp;<BR>
+　　　將幫眾micro&nbsp;的title&nbsp;改為：天下幫執法長老。&nbsp;<BR>
+聯繫：ask&nbsp;職稱&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+語法：appoint&nbsp;&lt;人名&gt;&nbsp;<BR>
+功能：指定幫派長老&nbsp;<BR>
+說明：幫派首領專用指令，用於指定幫眾為幫派長老。省略參數時可以看到幫派&nbsp;<BR>
+　　　目前的長老定義。長老的行政權限和首領相當，有著十分重要的地位，如&nbsp;<BR>
+　　　果長老行為失當，極有可能激起民變。一個幫派最多能有六位長老。長老&nbsp;<BR>
+　　　至少年滿１８歲，而且經驗有３０萬。&nbsp;<BR>
+例如：appoint&nbsp;micro&nbsp;<BR>
+　　　指定幫眾micro&nbsp;為幫中長老。&nbsp;<BR>
+聯繫：fire,&nbsp;abdicate&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+語法：fire&nbsp;&lt;人名&gt;&nbsp;<BR>
+功能：解除幫派長老&nbsp;<BR>
+說明：幫派首領專用指令，用於解除幫派長老的職權。省略參數時可以看到幫派&nbsp;<BR>
+　　　目前的長老定義。長老的行政權限和首領相當，有著十分重要的地位，如&nbsp;<BR>
+　　　果長老行為失當，極有可能激起民變。一個幫派最多能有六位長老。&nbsp;<BR>
+例如：fire&nbsp;micro&nbsp;<BR>
+　　　解除幫中長老micro&nbsp;的職權。&nbsp;<BR>
+聯繫：appoint,&nbsp;abdicate&nbsp;<BR>
+&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+語法：abdicate&nbsp;&lt;人名&gt;&nbsp;<BR>
+功能：首領退位&nbsp;<BR>
+說明：幫派首領專用指令，用於退位給指定幫中長老。省略參數時可以看到幫派&nbsp;<BR>
+　　　目前的長老定義。首領使用這個指令會將領導權傳給指定的長老,&nbsp;而自己&nbsp;<BR>
+　　　轉任幫派的長老。由於擔任首領是一個艱巨的責任，所以在傳位前,&nbsp;最好&nbsp;<BR>
+　　　仔細考慮過,&nbsp;並且徵求對方的同意,&nbsp;以免引發內亂。&nbsp;&nbsp;<BR>
+例如：abdicate&nbsp;micro&nbsp;<BR>
+　　　讓位給長老micro&nbsp;，自己退居長老。&nbsp;<BR>
+聯繫：appoint,&nbsp;fire&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+語法：setorg&nbsp;&lt;項目&gt;&nbsp;&lt;數值&gt;&nbsp;<BR>
+功能：設置幫派參數&nbsp;<BR>
+說明：幫派首領專用指令，省略參數可以看到幫派參數設定。項目如下：&nbsp;<BR>
+　　　title1　首領尊稱（兩到四個漢字）&nbsp;<BR>
+　　　title2　長老尊稱（兩到四個漢字）&nbsp;<BR>
+　　　title3　成員尊稱（兩到四個漢字）&nbsp;<BR>
+　　　system　幫派體制（取值範圍：民主、聯合、獨裁）&nbsp;<BR>
+　　　民主體制：通過選舉產生首領。投票率須大於一半人口，首領得票率必須&nbsp;<BR>
+　　　　　　　　大於&nbsp;60%，首領可以任命長老。&nbsp;<BR>
+　　　聯合體制：通過選舉產生長老。投票率需大於一半人口，首領不可以任命&nbsp;<BR>
+　　　　　　　　長老。得票大於&nbsp;50%的人成為首領。否則沒有首領。得票大於&nbsp;<BR>
+　　　　　　　　10%&nbsp;且票數不為１的人成為長老。&nbsp;<BR>
+　　　獨裁體制：沒有選舉。首領可以任命長老。首領從長老中選擇接班人。&nbsp;<BR>
+例如：setorg&nbsp;title1&nbsp;幫主&nbsp;<BR>
+　　　setorg&nbsp;title2&nbsp;長老&nbsp;<BR>
+　　　setorg&nbsp;title3&nbsp;幫眾&nbsp;<BR>
+　　　setorg&nbsp;system&nbsp;獨裁&nbsp;<BR>
+聯繫：org&nbsp;<BR>
+&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+語法：research&nbsp;&lt;項目&gt;&nbsp;&lt;設置&gt;&nbsp;<BR>
+　　　research&nbsp;&lt;項目&gt;&nbsp;&lt;黃金&gt;&nbsp;<BR>
+功能：研究開發&nbsp;<BR>
+說明：用於設置項目時，屬於幫派首領專用指令。但是只有一次機會。項目如下：&nbsp;<BR>
+　　　name　　技能名稱（兩到六個漢字）&nbsp;<BR>
+　　　factor　技能使能參數（取值範圍：100～300）&nbsp;<BR>
+　　　enable　技能使能類別&nbsp;<BR>
+　　　用於研究開發時，屬於幫派長老或首領專用指令。每半個鐘頭左右向幫眾&nbsp;<BR>
+　　　報告研究的進程。項目如下：&nbsp;<BR>
+　　　exp&nbsp;　　　　　提升經驗&nbsp;<BR>
+　　　&lt;基本技能&gt;　　研究基本技能&nbsp;<BR>
+　　　super-skill&nbsp;　研究特殊技能&nbsp;<BR>
+例如：research&nbsp;name&nbsp;天夏神劍&nbsp;<BR>
+　　　research&nbsp;factor&nbsp;300&nbsp;<BR>
+　　　research&nbsp;enable&nbsp;force&nbsp;sword&nbsp;parry&nbsp;dodge&nbsp;<BR>
+　　　research&nbsp;exp&nbsp;100&nbsp;<BR>
+　　　research&nbsp;force&nbsp;100&nbsp;<BR>
+　　　research&nbsp;super-skill&nbsp;100&nbsp;<BR>
+聯繫：score&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+語法：score&nbsp;<BR>
+功能：顯示總管狀態信息&nbsp;<BR>
+說明：屬於幫派長老或首領專用指令。必須得面對幫會總管。&nbsp;<BR>
+例如：score&nbsp;<BR>
+聯繫：research&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+&nbsp;<BR>
+※&nbsp;來源:‧BBS&nbsp;水木清華站&nbsp;smth.org‧[FROM:&nbsp;202.116.9.61]&nbsp;<BR>
+<A HREF="00000005.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一頁</A>
+<A HREF="index.htm">回到目錄</A>
+<A HREF="#top">回到頁首</A>
+<A HREF="00000007.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+</BODY></HTML>

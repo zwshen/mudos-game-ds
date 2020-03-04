@@ -1,0 +1,6 @@
+#/obj/user.c
+conditions ([])
+dbase (["combat_exp":0,"DS_DATA_VERSION":19991107,"quest":(["not_newbie":1,]),"default_actions":,"mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"ap":60,"max_ap":60,"supply_point":60,"evil":23,"channels":({"chat","rumor","tchat",}),"race":"human","gender":"男性","level":1,"id":"chihow","last_location":"/open/world1/tmr/area/hotel","heart_modify":0,"talk_point":8,"name":"無敵大屌","birthday":1102296448,"MKS":10,"age":14,"startroom":"/open/world1/tmr/area/hotel","actions":,"mud_age":1865,"cure_count":18,"hp":80,"exp":1931,"disable_type":" <毫無呼吸>","dex":2,"int":2,"con":2,"str":2,"addition_shield":10,"heart_beat_rate":6,"addition_armor":10,"Merits":(["sou":0,"wit":0,"bar":0,"tec":0,"bio":0,]),"guild_gifts":({5,5,5,5,}),"unit":"位","mp":60,"addition_damage":10,"max_hp":80,"attitude":"peaceful","max_mp":60,"volume":7,"bellicosity":0,])
+skills (["unarmed":5,"combat":7,"dodge":3,])
+learned (["combat":17,])
+autoload ({})

@@ -1,0 +1,28 @@
+
+	throw(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		throw() - 強制一個物件產生錯誤.
+	函數語法:
+		void throw(mixed);
+
+		無傳回值 throw( 混合 );
+	函數用法:
+		throw()  可以用於強制一個物件產生錯誤. 當 throw()  和
+		catch()  兩者一起使用時, 讓程式設計者可以設計發生編譯
+		時段錯誤時 (runtime error) 顯示何種錯誤訊息. 當使用
+		throw() 時, 應一起使用 catch() 函式. 
+		以下為典型的函數用法:
+
+		string err;
+		int rc;
+
+		err = catch(rc = ob->move(dest));
+		if (err) {
+			throw("move.c: ob->move(dest): " + err + "\n");
+			return;
+		}
+	參考函數:
+		catch(3), error(3), error_handler(4)
+	手冊翻譯:
+		Phoebus@ZH	97.Jul.25.		(Writen 5/23/97)

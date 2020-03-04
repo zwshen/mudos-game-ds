@@ -1,0 +1,78 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=gb2312">
+   <META NAME="Author" CONTENT="Spock">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.04 [en] (Win95; I) [Netscape]">
+   <TITLE>MudOS v21c2 参考文件 - concepts - MudOSdriver</TITLE>
+</HEAD>
+<BODY TEXT="#CCFFFF" BGCOLOR="#000000" LINK="#33FF33" VLINK="#FF0000" ALINK="#33CCFF" BACKGROUND="../../image/ff/fftitleback.jpg" NOSAVE>
+
+<CENTER>
+<H1>
+<FONT COLOR="#FF99FF">MudOS 驱动程序 (MudOS driver)</FONT></H1></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+<CENTER><FONT COLOR="#FFFFCC">* MudOS 是啥 ?</FONT></CENTER>
+
+<HR WIDTH="100%">
+
+<P>MudOS 驱动程序 (driver) 是提供 mud 低阶支援的程序 (以 C 撰写的 LPmud).
+这个程序包括以下的许多功能:
+<OL>
+<LI>
+0) 通过一个通信端口接受远端机器 (remote machines) 连线, 并将这些连线接上连线物件
+(login object) (在 TMI 中是 /adm/login.c).</LI>
+</OL>
+
+<OL>
+<LI>
+1) 提供一套外部的函数 (external functions, efuns,　 译按: 在原 MudOS v21c2
+doc/efun 目录下所附的一大堆文件中, 称 efuns 为 emulated functions (外部函数),
+哇勒....) , 可以在 LPC 物件中调用使用.</LI>
+</OL>
+
+<OL>
+<LI>
+2) 通过 new(文件名称)　 或 clone_object(文件名称) 外部函数, 编译文件为简洁的内部表徵形式
+(compact internal tokenized form)</LI>
+</OL>
+
+<OL>
+<LI>
+3) 解释 (interpret)［或执行 (execute)］已成为表徵形式 (tokenized form)
+的物件. 执行源代码有以下两种方法:</LI>
+</OL>
+
+<UL>
+<UL>
+<LI>
+a) 驱动程序以使用者的输入为准 (通过通信端口) , 调用物件中的函数. 这些特定的函数调用,
+根据 mud 的物件所指定的使用者指令 (command) 和函数间的关系为准［通过 add_action(函数名称,
+指令名称) ］. 在 LPC 物件中, 驱动程序也会从特定的外部函数 (像 init, create,
+clean_up 等等)中进行函数调用 .</LI>
+</UL>
+</UL>
+
+<UL>
+<UL>
+<LI>
+b) 物件可以通过 call_other(物件, 函数名称, 参数...) 外部函数, 让驱动程序执行其他物件中的源代码.
+与 call_other() 等效的另一种写法是物件->函数名称( 参数... ).</LI>
+</UL>
+</UL>
+
+<CENTER>
+<HR WIDTH="100%"><FONT COLOR="#FFFFCC">翻译: Spock @ FF 97.Aug.8.</FONT></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+<CENTER><A HREF="../concepts_index.html">回到上一页</A></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+</BODY>
+</HTML>

@@ -1,0 +1,74 @@
+<HTML>
+<HEAD>
+<TITLE>BBSれ睲地弘地跋</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBSれ睲地弘地跋</H1></CENTER>
+<A Name="top"></a>
+祇獺:&nbsp;jameson&nbsp;(ㄤ),&nbsp;獺跋:&nbsp;Mud_Builder&nbsp;<BR>
+夹&nbsp;&nbsp;肈:&nbsp;LPC&nbsp;Manual&nbsp;-&nbsp;Introduction(2)&nbsp;<BR>
+祇獺:&nbsp;BBS&nbsp;れ睲地&nbsp;(Fri&nbsp;May&nbsp;23&nbsp;14:16:59&nbsp;1997)&nbsp;<BR>
+&nbsp;<BR>
+iii&nbsp;-&nbsp;History&nbsp;of&nbsp;LPC&nbsp;<BR>
+&nbsp;<BR>
+LPC&nbsp;is&nbsp;the&nbsp;interpreted&nbsp;mud&nbsp;language&nbsp;created&nbsp;by&nbsp;Lars&nbsp;Pensjoe&nbsp;for&nbsp;his&nbsp;invention&nbsp;LPMUD,&nbsp;an&nbsp;<BR>
+interactive&nbsp;multiuser&nbsp;environment&nbsp;suited&nbsp;for&nbsp;many&nbsp;purposes,&nbsp;games&nbsp;not&nbsp;the&nbsp;least&nbsp;among&nbsp;them.&nbsp;<BR>
+Since&nbsp;the&nbsp;first&nbsp;appearance&nbsp;in&nbsp;1988&nbsp;the&nbsp;language&nbsp;has&nbsp;changed&nbsp;dramatically.&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+Development&nbsp;was&nbsp;taken&nbsp;over&nbsp;by&nbsp;other&nbsp;people&nbsp;at&nbsp;Chalmers&nbsp;Datorfoerening,&nbsp;majorly&nbsp;Jakob&nbsp;Hallen,&nbsp;<BR>
+Lennart&nbsp;Augustsson&nbsp;and&nbsp;Anders&nbsp;Chrigstroem&nbsp;around&nbsp;1990.&nbsp;They&nbsp;extended&nbsp;and&nbsp;refined&nbsp;the&nbsp;language&nbsp;<BR>
+extensively,&nbsp;but,&nbsp;as&nbsp;the&nbsp;name&nbsp;LPC&nbsp;hints&nbsp;of,&nbsp;it&nbsp;still&nbsp;retains&nbsp;its&nbsp;links&nbsp;to&nbsp;the&nbsp;language&nbsp;'C'.&nbsp;The&nbsp;main&nbsp;<BR>
+differences&nbsp;lie&nbsp;in&nbsp;the&nbsp;object&nbsp;structure&nbsp;that's&nbsp;imposed&nbsp;on&nbsp;the&nbsp;language&nbsp;as&nbsp;well&nbsp;as&nbsp;some&nbsp;new&nbsp;data&nbsp;<BR>
+types&nbsp;to&nbsp;faciliate&nbsp;game&nbsp;programming.&nbsp;The&nbsp;language&nbsp;is&nbsp;not&nbsp;as&nbsp;free-form&nbsp;as&nbsp;'C',&nbsp;but&nbsp;on&nbsp;the&nbsp;other&nbsp;<BR>
+hand&nbsp;it's&nbsp;more&nbsp;suitable&nbsp;for&nbsp;the&nbsp;purpose&nbsp;which&nbsp;it&nbsp;was&nbsp;created&nbsp;for&nbsp;-&nbsp;programming&nbsp;in&nbsp;a&nbsp;game&nbsp;<BR>
+environment.&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+iv&nbsp;-&nbsp;Gamedriver/Mudlib&nbsp;<BR>
+&nbsp;<BR>
+The&nbsp;distinction&nbsp;between&nbsp;gamedriver&nbsp;and&nbsp;mudlib&nbsp;might&nbsp;seem&nbsp;hard&nbsp;to&nbsp;define&nbsp;at&nbsp;times,&nbsp;but&nbsp;it's&nbsp;really&nbsp;<BR>
+very&nbsp;simple.&nbsp;The&nbsp;gamedriver&nbsp;is&nbsp;the&nbsp;program&nbsp;that&nbsp;runs&nbsp;on&nbsp;the&nbsp;host&nbsp;computer.&nbsp;It&nbsp;is&nbsp;basically&nbsp;an&nbsp;<BR>
+interpreter&nbsp;in&nbsp;conjunction&nbsp;with&nbsp;an&nbsp;object&nbsp;management&nbsp;kernel,&nbsp;almost&nbsp;a&nbsp;small&nbsp;operating&nbsp;system&nbsp;in&nbsp;<BR>
+its&nbsp;own&nbsp;right.&nbsp;It&nbsp;defines&nbsp;and&nbsp;understands&nbsp;the&nbsp;LPC&nbsp;language,&nbsp;interprets&nbsp;it&nbsp;and&nbsp;executes&nbsp;the&nbsp;<BR>
+instructions&nbsp;given&nbsp;to&nbsp;it&nbsp;through&nbsp;the&nbsp;LPC&nbsp;objects&nbsp;in&nbsp;the&nbsp;game.&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+The&nbsp;mudlib&nbsp;is&nbsp;the&nbsp;collection&nbsp;of&nbsp;LPC&nbsp;objects&nbsp;that&nbsp;make&nbsp;up&nbsp;the&nbsp;basic&nbsp;game&nbsp;environment.&nbsp;While&nbsp;the&nbsp;<BR>
+gamedriver&nbsp;knows&nbsp;nothing&nbsp;about&nbsp;what&nbsp;it&nbsp;actually&nbsp;is&nbsp;doing,&nbsp;the&nbsp;mudlib&nbsp;does.&nbsp;(The&nbsp;mudlib&nbsp;can&nbsp;<BR>
+conversly&nbsp;be&nbsp;said&nbsp;to&nbsp;have&nbsp;no&nbsp;idea&nbsp;about&nbsp;how&nbsp;it&nbsp;does&nbsp;what&nbsp;it&nbsp;does,&nbsp;while&nbsp;the&nbsp;gamedriver&nbsp;does).&nbsp;It&nbsp;<BR>
+contains&nbsp;the&nbsp;basic&nbsp;set&nbsp;of&nbsp;LPC&nbsp;objects&nbsp;that&nbsp;are&nbsp;used&nbsp;in&nbsp;the&nbsp;game,&nbsp;the&nbsp;players,&nbsp;the&nbsp;monsters,&nbsp;the&nbsp;rooms&nbsp;<BR>
+etc.&nbsp;Individual&nbsp;efforts&nbsp;(domain&nbsp;code)&nbsp;are&nbsp;stored&nbsp;and&nbsp;handled&nbsp;separately&nbsp;and&nbsp;uses&nbsp;both&nbsp;the&nbsp;services&nbsp;of&nbsp;<BR>
+the&nbsp;gamedriver&nbsp;and&nbsp;the&nbsp;mudlib.&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+v&nbsp;-&nbsp;Administrative&nbsp;Setup&nbsp;<BR>
+&nbsp;<BR>
+The&nbsp;game&nbsp;can&nbsp;be&nbsp;said&nbsp;to&nbsp;have&nbsp;been&nbsp;divided&nbsp;into&nbsp;three&nbsp;distinctive&nbsp;parts&nbsp;as&nbsp;suggested&nbsp;above;&nbsp;The&nbsp;<BR>
+gamedriver,&nbsp;the&nbsp;mudlib&nbsp;and&nbsp;the&nbsp;domain&nbsp;code.&nbsp;The&nbsp;gamedriver&nbsp;and&nbsp;mudlib&nbsp;I&nbsp;have&nbsp;already&nbsp;<BR>
+explained.&nbsp;The&nbsp;domain&nbsp;concept&nbsp;is&nbsp;a&nbsp;way&nbsp;to&nbsp;organize&nbsp;the&nbsp;way&nbsp;code&nbsp;is&nbsp;written.&nbsp;A&nbsp;domain&nbsp;is&nbsp;<BR>
+principally&nbsp;a&nbsp;group&nbsp;of&nbsp;wizards&nbsp;working&nbsp;towards&nbsp;a&nbsp;predefined&nbsp;goal.&nbsp;This&nbsp;project&nbsp;can&nbsp;be&nbsp;limited&nbsp;in&nbsp;<BR>
+space,&nbsp;an&nbsp;actual&nbsp;area&nbsp;in&nbsp;the&nbsp;game&nbsp;world,&nbsp;or&nbsp;as&nbsp;intangiable&nbsp;as&nbsp;a&nbsp;guild&nbsp;or&nbsp;sect&nbsp;that&nbsp;the&nbsp;players&nbsp;can&nbsp;<BR>
+become&nbsp;members&nbsp;of.&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+Within&nbsp;a&nbsp;domain&nbsp;there&nbsp;is&nbsp;a&nbsp;leader,&nbsp;a&nbsp;domain&nbsp;Lord.&nbsp;He&nbsp;is&nbsp;the&nbsp;local&nbsp;taskmaster&nbsp;who&nbsp;decides&nbsp;what&nbsp;<BR>
+goes&nbsp;on&nbsp;and&nbsp;in&nbsp;which&nbsp;direction&nbsp;work&nbsp;should&nbsp;progress.&nbsp;In&nbsp;the&nbsp;domain&nbsp;all&nbsp;code&nbsp;is&nbsp;shared&nbsp;easily&nbsp;and&nbsp;<BR>
+usually&nbsp;is&nbsp;strongly&nbsp;interconnected.&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+Naturally&nbsp;there&nbsp;have&nbsp;to&nbsp;be&nbsp;ties&nbsp;between&nbsp;different&nbsp;domains&nbsp;as&nbsp;well,&nbsp;but&nbsp;these&nbsp;are&nbsp;usually&nbsp;weaker&nbsp;and&nbsp;<BR>
+actual&nbsp;code&nbsp;is&nbsp;seldom&nbsp;shared.&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+As&nbsp;a&nbsp;newbie&nbsp;wizard&nbsp;you&nbsp;will&nbsp;try&nbsp;to&nbsp;find&nbsp;a&nbsp;domain&nbsp;in&nbsp;which&nbsp;to&nbsp;enroll,&nbsp;that&nbsp;sounds&nbsp;interesting&nbsp;and&nbsp;<BR>
+inspiring&nbsp;to&nbsp;work&nbsp;with.&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+“&nbsp;ㄓ方:BBS&nbsp;れ睲地&nbsp;bbs.net.tsinghua.edu.cn[FROM:&nbsp;160.12.37.81]&nbsp;<BR>
+<A HREF="00000002.htm">絞</A>
+<A HREF='javascript:history.go(-1)'></A>
+<A HREF="index.htm">ヘ魁</A>
+<A HREF="#top"></A>
+<A HREF="00000004.htm">絞</A>
+</H1></CENTER>
+<CENTER><H1>BBSれ睲地弘地跋</H1></CENTER>
+</BODY></HTML>

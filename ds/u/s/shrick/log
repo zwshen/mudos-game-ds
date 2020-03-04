@@ -1,0 +1,86 @@
+u/s/shrick/workroom.c line 4: Undefined variable 'HIG'
+
+u/s/shrick/workroom.c line 4: parse error
+u/s/shrick/workroom.c line 4: Undefined variable 'HIG'
+
+u/s/shrick/workroom.c line 4: parse error
+u/s/shrick/workroom.c line 4: Undefined variable 'HIG'
+
+u/s/shrick/workroom.c line 4: parse error
+u/s/shrick/workroom.c line 4: Undefined variable 'HIG'
+
+u/s/shrick/workroom.c line 4: parse error
+u/s/shrick/workroom.c line 4: Undefined variable 'HIG'
+
+u/s/shrick/workroom.c line 4: parse error
+u/s/shrick/workroom.c line 6: parse error
+u/s/shrick/workroom.c line 5: parse error
+u/s/shrick/workroom.c line 12: Undefined variable 'SHENGSAN1'
+
+u/s/shrick/workroom.c line 13: parse error
+u/s/shrick/workroom.c line 24: End of file in string
+u/s/shrick/workroom.c line 13: parse error
+u/s/shrick/workroom.c line 24: End of file in string
+u/s/shrick/workroom.c line 13: parse error
+u/s/shrick/workroom.c line 24: End of file in string
+u/s/shrick/bigdoor.c line 13: parse error
+u/s/shrick/bigdoor.c line 23: End of file in string
+u/s/shrick/bigdoor.c line 13: parse error
+u/s/shrick/bigdoor.c line 23: End of file in string
+u/s/shrick/bigdoor.c line 13: parse error
+u/s/shrick/bigdoor.c line 23: End of file in string
+u/s/shrick/sr1.c line 15: parse error
+u/s/shrick/sr1.c line 23: End of file in string
+u/s/shrick/clearner.c line 37: parse error
+u/s/shrick/clearner.c line 42: parse error
+u/s/shrick/spear.c line 3: parse error
+u/s/shrick/spear.c line 3: parse error
+u/s/shrick/spear.c line 4: parse error
+u/s/shrick/spear.c line 3: parse error
+u/s/shrick/spear.c line 3: parse error
+u/s/shrick/spear.c line 3: parse error
+u/s/shrick/spear2.c line 20: Undefined function init_spear
+u/s/shrick/spear2.c line 23: parse error
+u/s/shrick/mobs/sky_w.c line 11: parse error
+u/s/shrick/rooms/moga_w1.c line 24: parse error
+u/s/shrick/rooms/moga_w1.c line 7: parse error
+u/s/shrick/rooms/moga_w1.c line 25: End of file in string
+u/s/shrick/rooms/moga_w1.c line 7: parse error
+u/s/shrick/rooms/moga_w1.c line 25: End of file in string
+u/s/shrick/spear.c line 3: parse error
+u/s/shrick/rooms/kain_n1.c line 7: parse error
+u/s/shrick/rooms/kain_n1.c line 7: parse error
+u/s/shrick/rooms/pray_bd1.c line 21: End of file in text block
+u/s/shrick/rooms/pray_bd1.c line 21: Undefined function short
+u/s/shrick/rooms/pray_bd1.c line 22: parse error
+u/s/shrick/rooms/pray_bd1.c line 34: Illegal LHS
+u/s/shrick/rooms/pray_bd1.c line 34: Wrong number of arguments to set
+    Expected: 2  Got: 1
+u/s/shrick/rooms/pray_bd1.c line 34: parse error
+u/s/shrick/rooms/pray_bd1.c line 21: End of file in text block
+u/s/shrick/rooms/pray_bd1.c line 22: Undefined variable 'm_desc'
+
+u/s/shrick/rooms/pray_bd1.c line 22: parse error
+u/s/shrick/rooms/pray_bd1.c line 22: Illegal terminator
+u/s/shrick/rooms/pray_bd1.c line 22: Text block exceeded maximum length
+u/s/shrick/rooms/pray_bd1.c line 23: Illegal character constant
+u/s/shrick/rooms/pray_bd1.c line 21: End of file in text block
+u/s/shrick/rooms/pray_bd1.c line 22: Undefined variable 'm_desc'
+
+u/s/shrick/rooms/pray_bd1.c line 22: parse error
+u/s/shrick/rooms/pray_bd1.c line 22: Illegal terminator
+u/s/shrick/rooms/pray_bd1.c line 22: Text block exceeded maximum length
+u/s/shrick/rooms/pray_bd1.c line 23: Illegal character constant
+u/s/shrick/rooms/memo_d.c line 7: Wrong number of arguments to set
+    Expected: 2  Got: 1
+u/s/shrick/spear.c line 3: parse error
+u/s/shrick/spear.c line 3: parse error
+u/s/shrick/spear.c line 3: parse error
+u/s/shrick/rooms/center.c line 6: Undefined function set
+u/s/shrick/rooms/center.c line 21: Undefined function setup
+u/s/shrick/hat.c line 24: Illegal to redefine 'nomask' function "query_weight"
+u/s/shrick/hat.c line 24: Illegal to redefine 'nomask' function "_query"
+u/s/shrick/hat.c line 24: Illegal to redefine 'nomask' function "_delete"
+u/s/shrick/hat.c line 24: Illegal to redefine 'nomask' function "_set"
+u/s/shrick/hat.c line 24: Illegal to redefine 'nomask' function "query_encumbrance"
+u/s/shrick/hat.c line 24: Illegal to redefine 'nomask' function "over_encumbranced"

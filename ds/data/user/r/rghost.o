@@ -1,0 +1,7 @@
+#/obj/user.c
+conditions ([])
+dbase (["DS_DATA_VERSION":19991107,"race":"ogre","actions":,"channels":({"chat","rumor","tchat",}),"max_mp":54,"birthday":1202276410,"max_hp":120,"id":"rghost","heart_beat_rate":6,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"gender":"¨k©Ê","mp":54,"name":"®L¤ì","guild_gifts":({5,5,5,5,}),"attitude":"peaceful","max_ap":66,"startroom":"/open/world1/tmr/area/hotel","ap":66,"env":([]),"cure_count":3,"addition_shield":10,"unit":"¦ì","age":14,"supply_point":6,"last_location":"/open/world1/wilfred/sand/room35","newbie":1,"default_actions":,"addition_armor":10,"talk_point":3,"exp":777,"dex":2,"int":2,"con":2,"str":2,"hp":120,"level":1,"volume":7,"addition_damage":10,"evil":-1,"mud_age":36,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

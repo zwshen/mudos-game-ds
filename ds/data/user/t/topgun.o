@@ -1,0 +1,7 @@
+#/obj/user.c
+dbase (["max_mp":66,"max_hp":84,"attitude":"peaceful","cure_count":15,"combat_exp":0,"mp":66,"supply_point":60,"unit":"位","heart_modify":0,"max_ap":100,"ap":100,"newbie":1,"bellicosity":0,"exp":375,"volume":7,"dex":2,"default_actions":,"talk_point":8,"id":"topgun","int":2,"con":2,"hp":84,"str":2,"level":1,"guild_gifts":({5,5,5,5,}),"DS_DATA_VERSION":19991107,"heart_beat_rate":6,"gender":"女性","evil":-1,"channels":({"chat","rumor","tchat","ds",}),"name":"好大的一隻槍","birthday":1175566519,"addition_shield":10,"race":"evil","startroom":"/open/world1/tmr/area/hotel","help":"class/","addition_armor":10,"disable_type":" <毫無呼吸>","last_location":"/open/world1/wilfred/sand/room36_2","wound":(["head":0,"left_leg":0,"right_arm":0,"left_arm":0,"right_leg":0,"body":0,]),"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"addition_damage":10,"mud_age":4947,"age":14,"actions":,])
+skills (["strong-body":3,"combat":2,])
+learned (["strong-body":29,"combat":1,])
+autoload ({})
+toDoList ([])
+solved ({})

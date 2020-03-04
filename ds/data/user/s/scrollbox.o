@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions ([])
+dbase (["heart_beat_rate":6,"DS_DATA_VERSION":19991107,"MKS":1,"heart_modify":0,"war_score":1,"ap":72,"age":14,"channels":({"chat","rumor","tchat",}),"addition_armor":10,"war_art":0,"mud_age":246,"hp":126,"addition_shield":10,"attitude":"peaceful","volume":7,"newbie":1,"exp":48,"addition_damage":10,"dex":2,"int":2,"con":3,"level":1,"max_hp":150,"birthday":1220200341,"talk_point":8,"evil":-1,"last_location":"/open/world1/tmr/area/street4","cure_count":17,"mp":54,"unit":"位","max_mp":54,"popularity":0,"mob_record":({"/open/world1/tmr/area/npc/dog",}),"supply_point":34,"guild_gifts":({5,5,5,5,}),"default_actions":,"race":"ogre","actions":,"max_ap":84,"Merits":(["bar":0,"bio":0,"tec":0,"sou":0,"wit":0,]),"id":"scrollbox","startroom":"/open/world1/tmr/area/hotel","gender":"男性","str":3,"name":"卷倉一號",])
+skills (["unarmed":0,"combat":1,"dodge":0,])
+learned (["unarmed":2,"combat":0,"dodge":1,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

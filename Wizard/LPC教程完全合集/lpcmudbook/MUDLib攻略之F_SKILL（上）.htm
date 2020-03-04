@@ -1,0 +1,584 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0043)http://www.chinazmud.com/wz/list.asp?id=144 -->
+<HTML><HEAD><TITLE>MUDLib攻略之F_SKILL（上）</TITLE>
+<SCRIPT language=JavaScript>
+
+helpstat = false;
+stprompt = true;
+basic = false;
+function thelp(swtch){
+	if (swtch == 1){
+		basic = false;
+		stprompt = false;
+		helpstat = true;
+	} else if (swtch == 0) {
+		helpstat = false;
+		stprompt = false;
+		basic = true;
+	} else if (swtch == 2) {
+		helpstat = false;
+		basic = false;
+		stprompt = true;
+	}
+}
+
+function AddText(NewCode) {
+document.myform.txtcontent.value+=NewCode
+}
+
+function email() {
+	if (helpstat) {
+		alert("Email 标记\n插入 Email 超级链接\n用法1: [email]webmaster@aspsky.net[/email]\n用法2: [email=webmaster@aspsky.net]沙滩小子[/email]");
+	} else if (basic) {
+		AddTxt="[email][/email]";
+		AddText(AddTxt);
+	} else { 
+		txt2=prompt("链接显示的文字.\n如果为空，那么将只显示你的 Email 地址",""); 
+		if (txt2!=null) {
+			txt=prompt("Email 地址.","name@domain.com");      
+			if (txt!=null) {
+				if (txt2=="") {
+					AddTxt="[email]"+txt+"[/email]";
+				} else {
+					AddTxt="[email="+txt+"]"+txt2;
+					AddText(AddTxt);
+					AddTxt="[/email]";
+				} 
+				AddText(AddTxt);	        
+			}
+		}
+	}
+}
+function flash() {
+ 	if (helpstat){
+		alert("Flash 动画\n插入 Flash 动画.\n用法: [flash]Flash 文件的地址[/flash]");
+	} else if (basic) {
+		AddTxt="[flash][/flash]";
+		AddText(AddTxt);
+	} else {                  
+		txt=prompt("Flash 文件的地址","http://");
+		if (txt!=null) {             
+			AddTxt="[flash]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/flash]";
+			AddText(AddTxt);
+		}        
+	}  
+}
+
+function showsize(size) {
+	if (helpstat) {
+		alert("文字大小标记\n设置文字大小.\n可变范围 1 - 6.\n 1 为最小 6 为最大.\n用法: [size="+size+"]这是 "+size+" 文字[/size]");
+	} else if (basic) {
+		AddTxt="[size="+size+"][/size]";
+		AddText(AddTxt);
+	} else {                       
+		txt=prompt("大小 "+size,"文字"); 
+		if (txt!=null) {             
+			AddTxt="[size="+size+"]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/size]";
+			AddText(AddTxt);
+		}        
+	}
+}
+
+function bold() {
+	if (helpstat) {
+		alert("加粗标记\n使文本加粗.\n用法: [b]这是加粗的文字[/b]");
+	} else if (basic) {
+		AddTxt="[b][/b]";
+		AddText(AddTxt);
+	} else {  
+		txt=prompt("文字将被变粗.","文字");     
+		if (txt!=null) {           
+			AddTxt="[b]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/b]";
+			AddText(AddTxt);
+		}       
+	}
+}
+
+function italicize() {
+	if (helpstat) {
+		alert("斜体标记\n使文本字体变为斜体.\n用法: [i]这是斜体字[/i]");
+	} else if (basic) {
+		AddTxt="[i][/i]";
+		AddText(AddTxt);
+	} else {   
+		txt=prompt("文字将变斜体","文字");     
+		if (txt!=null) {           
+			AddTxt="[i]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/i]";
+			AddText(AddTxt);
+		}	        
+	}
+}
+
+function quote() {
+	if (helpstat){
+		alert("引用标记\n引用一些文字.\n用法: [quote]引用内容[/quote]");
+	} else if (basic) {
+		AddTxt="[quote][/quote]";
+		AddText(AddTxt);
+	} else {   
+		txt=prompt("被引用的文字","文字");     
+		if(txt!=null) {          
+			AddTxt="[quote]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/quote]";
+			AddText(AddTxt);
+		}	        
+	}
+}
+
+function showcolor(color) {
+	if (helpstat) {
+		alert("颜色标记\n设置文本颜色.  任何颜色名都可以被使用.\n用法: [color="+color+"]颜色要改变为"+color+"的文字[/color]");
+	} else if (basic) {
+		AddTxt="[color="+color+"][/color]";
+		AddText(AddTxt);
+	} else {  
+     	txt=prompt("选择的颜色是: "+color,"文字");
+		if(txt!=null) {
+			AddTxt="[color="+color+"]"+txt;
+			AddText(AddTxt);        
+			AddTxt="[/color]";
+			AddText(AddTxt);
+		} 
+	}
+}
+
+function center() {
+ 	if (helpstat) {
+		alert("对齐标记\n使用这个标记, 可以使文本左对齐、居中、右对齐.\n用法: [align=center|left|right]要对齐的文本[/align]");
+	} else if (basic) {
+		AddTxt="[align=center|left|right][/align]";
+		AddText(AddTxt);
+	} else {  
+		txt2=prompt("对齐样式\n输入 'center' 表示居中, 'left' 表示左对齐, 'right' 表示右对齐.","center");               
+		while ((txt2!="") && (txt2!="center") && (txt2!="left") && (txt2!="right") && (txt2!=null)) {
+			txt2=prompt("错误!\n类型只能输入 'center' 、 'left' 或者 'right'.","");               
+		}
+		txt=prompt("要对齐的文本","文本");     
+		if (txt!=null) {          
+			AddTxt="\r[align="+txt2+"]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/align]";
+			AddText(AddTxt);
+		}	       
+	}
+}
+
+function hyperlink() {
+	if (helpstat) {
+		alert("超级链接标记\n插入一个超级链接标记\n使用方法: [url]http://www.aspsky.net[/url]\nUSE: [url=http://www.aspsky.net]链接文字[/url]");
+	} else if (basic) {
+		AddTxt="[url][/url]";
+		AddText(AddTxt);
+	} else { 
+		txt2=prompt("链接文本显示.\n如果不想使用, 可以为空, 将只显示超级链接地址. ",""); 
+		if (txt2!=null) {
+			txt=prompt("超级链接.","http://");      
+			if (txt!=null) {
+				if (txt2=="") {
+					AddTxt="[url]"+txt;
+					AddText(AddTxt);
+					AddTxt="[/url]";
+					AddText(AddTxt);
+				} else {
+					AddTxt="[url="+txt+"]"+txt2;
+					AddText(AddTxt);
+					AddTxt="[/url]";
+					AddText(AddTxt);
+				}         
+			} 
+		}
+	}
+}
+
+function image() {
+	if (helpstat){
+		alert("图片标记\n插入图片\n用法： [img]http://www.aspsky.net/logo.gif[/img]");
+	} else if (basic) {
+		AddTxt="[img][/img]";
+		AddText(AddTxt);
+	} else {  
+		txt=prompt("图片的 URL","http://");    
+		if(txt!=null) {            
+			AddTxt="\r[img]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/img]";
+			AddText(AddTxt);
+		}	
+	}
+}
+
+function showcode() {
+	if (helpstat) {
+		alert("代码标记\n使用代码标记，可以使你的程序代码里面的 html 等标志不会被破坏.\n使用方法:\n [code]这里是代码文字[/code]");
+	} else if (basic) {
+		AddTxt="\r[code]\r[/code]";
+		AddText(AddTxt);
+	} else {   
+		txt=prompt("输入代码","");     
+		if (txt!=null) {          
+			AddTxt="\r[code]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/code]";
+			AddText(AddTxt);
+		}	       
+	}
+}
+
+function list() {
+	if (helpstat) {
+		alert("列表标记\n建造一个文字或则数字列表.\n\nUSE: [list] [*]项目一[/*] [*]项目二[/*] [*]项目三[/*] [/list]");
+	} else if (basic) {
+		AddTxt=" [list][*]  [/*][*]  [/*][*]  [/*][/list]";
+		AddText(AddTxt);
+	} else {  
+		txt=prompt("列表类型\n输入 'A' 表示有序列表, '1' 表示无序列表, 留空表示无序列表.","");               
+		while ((txt!="") && (txt!="A") && (txt!="a") && (txt!="1") && (txt!=null)) {
+			txt=prompt("错误!\n类型只能输入 'A' 、 '1' 或者留空.","");               
+		}
+		if (txt!=null) {
+			if (txt=="") {
+				AddTxt="[list]";
+			} else {
+				AddTxt="[list="+txt+"]";
+			} 
+			txt="1";
+			while ((txt!="") && (txt!=null)) {
+				txt=prompt("列表项\n空白表示结束列表",""); 
+				if (txt!="") {             
+					AddTxt+="[*]"+txt+"[/*]"; 
+				}                   
+			} 
+			AddTxt+="[/list] ";
+			AddText(AddTxt); 
+		}
+	}
+}
+
+function showfont(font) {
+ 	if (helpstat){
+		alert("字体标记\n给文字设置字体.\n用法: [face="+font+"]改变文字字体为"+font+"[/face]");
+	} else if (basic) {
+		AddTxt="[face="+font+"][/face]";
+		AddText(AddTxt);
+	} else {                  
+		txt=prompt("要设置字体的文字"+font,"文字");
+		if (txt!=null) {             
+			AddTxt="[face="+font+"]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/face]";
+			AddText(AddTxt);
+		}        
+	}  
+}
+function underline() {
+  	if (helpstat) {
+		alert("下划线标记\n给文字加下划线.\n用法: [u]要加下划线的文字[/u]");
+	} else if (basic) {
+		AddTxt="[u][/u]";
+		AddText(AddTxt);
+	} else {  
+		txt=prompt("下划线文字.","文字");     
+		if (txt!=null) {           
+			AddTxt="[u]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/u]";
+			AddText(AddTxt);
+		}	        
+	}
+}
+function setfly() {
+ 	if (helpstat){
+		alert("飞翔标记\n使文字飞行.\n用法: [fly]文字为这样文字[/fly]");
+	} else if (basic) {
+		AddTxt="[fly][/fly]";
+		AddText(AddTxt);
+	} else {                  
+		txt=prompt("飞翔文字","文字");
+		if (txt!=null) {             
+			AddTxt="[fly]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/fly]";
+			AddText(AddTxt);
+		}        
+	}  
+}
+
+function move() {
+	if (helpstat) {
+		alert("移动标记\n使文字产生移动效果.\n用法: [move]要产生移动效果的文字[/move]");
+	} else if (basic) {
+		AddTxt="[move][/move]";
+		AddText(AddTxt);
+	} else {  
+		txt=prompt("要产生移动效果的文字","文字");     
+		if (txt!=null) {           
+			AddTxt="[move]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/move]";
+			AddText(AddTxt);
+		}       
+	}
+}
+
+function shadow() {
+	if (helpstat) {
+               alert("阴影标记\n使文字产生阴影效果.\n用法: [SHADOW=宽度, 颜色, 边界]要产生阴影效果的文字[/SHADOW]");
+	} else if (basic) {
+		AddTxt="[SHADOW=255,blue,1][/SHADOW]";
+		AddText(AddTxt);
+	} else { 
+		txt2=prompt("文字的长度、颜色和边界大小","255,blue,1"); 
+		if (txt2!=null) {
+			txt=prompt("要产生阴影效果的文字","文字");
+			if (txt!=null) {
+				if (txt2=="") {
+					AddTxt="[SHADOW=255, blue, 1]"+txt;
+					AddText(AddTxt);
+					AddTxt="[/SHADOW]";
+					AddText(AddTxt);
+				} else {
+					AddTxt="[SHADOW="+txt2+"]"+txt;
+					AddText(AddTxt);
+					AddTxt="[/SHADOW]";
+					AddText(AddTxt);
+				}         
+			} 
+		}
+	}
+}
+
+function glow() {
+	if (helpstat) {
+		alert("光晕标记\n使文字产生光晕效果.\n用法: [GLOW=宽度, 颜色, 边界]要产生光晕效果的文字[/GLOW]");
+	} else if (basic) {
+		AddTxt="[glow=255,red,2][/glow]";
+		AddText(AddTxt);
+	} else { 
+		txt2=prompt("文字的长度、颜色和边界大小","255,red,2"); 
+		if (txt2!=null) {
+			txt=prompt("要产生光晕效果的文字.","文字");      
+			if (txt!=null) {
+				if (txt2=="") {
+					AddTxt="[glow=255,red,2]"+txt;
+					AddText(AddTxt);
+					AddTxt="[/glow]";
+					AddText(AddTxt);
+				} else {
+					AddTxt="[glow="+txt2+"]"+txt;
+					AddText(AddTxt);
+					AddTxt="[/glow]";
+					AddText(AddTxt);
+				}         
+			} 
+		}
+	}
+}
+function openscriphtml()
+{
+if (navigator.appName!="Microsoft Internet Explorer")
+   alert("此功能 Netscape 用户不能使用！")
+else
+   {newwin=window.open('htmledit/editor.html','','width=544,height=294');
+    newwin.focus();
+   }
+}
+function runEx(){
+//alert('请注意，按下确定将生成页面，按下后请稍后....');
+var winEx = window.open("", "winEx", "width=600,height=400,status=yes,menubar=yes,scrollbars=yes,resizable=yes"); winEx.document.open("text/html", "replace"); 
+winEx.document.write(unescape(event.srcElement.parentElement.children[2].value)); 
+winEx.document.close(); 
+}
+function openScript(url, width, height) {
+        var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=yes,status=yes' );
+}
+</SCRIPT>
+
+<SCRIPT language=Javascript>
+<!-- hide
+
+function insertsmilie(smilieface){
+
+	document.frmAnnounce.body.value+=smilieface;
+}
+// -->
+</SCRIPT>
+
+<META content="MSHTML 5.50.4134.600" name=GENERATOR>
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+<META content=ASP动网先锋,http://www.aspsky.net name=keywords><LINK 
+href="MUDLib攻略之F_SKILL（上）.files/style.css" rel=stylesheet></HEAD>
+<BODY bgColor=#000000>
+<TABLE cellSpacing=0 cellPadding=0 width="95%" align=center border=0>
+  <TBODY>
+  <TR>
+    <TD bgColor=#0099cc>
+      <TABLE borderColor=#0000ff cellSpacing=1 cellPadding=4 width="100%" 
+      bgColor=#000000 border=1>
+        <TBODY>
+        <TR bgColor=#0000ff>
+          <TD colSpan=2><FONT color=#ff0000>|<A 
+            href="http://www.chinazmud.com/index1.asp">返回首页</A> | 
+            |&nbsp;&nbsp;<A 
+            href="http://www.chinazmud.com/wz/default.asp?classid=3"> MUD功略 
+            </A>&nbsp;&nbsp;|&nbsp;&nbsp; |&nbsp;&nbsp;<A 
+            href="http://www.chinazmud.com/wz/default.asp?classid=5"> 教程文章 
+            </A>&nbsp;&nbsp;|&nbsp;&nbsp; |&nbsp;&nbsp;<A 
+            href="http://www.chinazmud.com/wz/default.asp?classid=6"> 其他文章 
+            </A>&nbsp;&nbsp;|&nbsp;&nbsp; </FONT></TD></TR>
+        <TR bgColor=#000000>
+          <TD colSpan=2><FONT color=#009900>|&nbsp;&nbsp;<A 
+            href="http://www.chinazmud.com/wz/index.asp?classid=5"><FONT 
+            color=#009900>教程文章</FONT></A>&gt;&gt;<A 
+            href="http://www.chinazmud.com/wz/index.asp?classid=5&amp;Nclassid=6"><FONT 
+            color=#009900>巫师与编程</FONT></A>&gt;&gt;MUDLib攻略之F_SKILL（上） 
+          </FONT><BR></TD></TR>
+        <TR bgColor=#000000>
+          <TD colSpan=2>
+            <CENTER><B><FONT color=#ff0000 size=3>MUDLib攻略之F_SKILL（上） 
+            </FONT></B><BR><FONT color=#00ff00>&nbsp;2002-1-24&nbsp;&nbsp; 
+            </FONT></CENTER>
+            <P>
+            <BLOCKQUOTE><BR><FONT color=#009900>写给对 MUDLib 感兴趣的初学者们。 
+              <BR>F_SKILL 是一个底层物件，它以 F_ 打头，所以是放在目录 /feature 中的，以F_ 
+              打头的宏定义的物件都是放在目录 /feature 中，无一例外。在/include/globals.h 
+              这个“大头文件”中是这样定义的： <BR>#define F_SKILL "/feature/skill.c" 
+              <BR>所以如果你无论在自己编写或修改的任何程序中只要你写下了 F_SKILL 
+              (前后连接了其他字母数字或语法错误的除外），你的程序被 load 或 update 时 F_SKILL 这个字符串都会被 
+              "/feature/skill.c" 代替，你写 F_SKILL-&gt;faint() 就会被代替为 
+              "/feature/skill.c"-&gt;faint()，当然 "/feature/skill.c" 这个程序里是没有定义 
+              faint() 这个函数的，高兴的话可以自己给它加一个，这里是打个比方而已。 
+              <P></P>
+              <P>F_SKILL 唯一地被 CHARACTER 继承（关于继承的感念我就不在这里讲了），就是说只有 CHARACTER 
+              才会用的着 F_SKILL ，这个 CHARACTER 又是什么呢？还是看看“大头文件”是怎么写的： <BR>#define 
+              CHARACTER "/std/char" <BR>character 
+              的意思是“角色”，也就是玩家角色（Player）和非玩家角色（NPC）喽，总不会把一只香喷喷的炸鸡腿看成角色吧。说了这么多，无非想说角色这种物件继承了 
+              F_SKILL ，要用到 F_SKILL 。F_SKILL 这个物件对角色来说有什么用？ <BR>思考一下：单词 feature 
+              的意思为“特征”，放在 /feature 这个目录下的物件都具有某方面特征，更应该说是特长吧——每个 F_ 
+              物件都被设计来专职完成一定的工作，F_SKILL 就是专职负责 skill 方面的工作。角色不单是有 skill 
+              这个特征呀！没错，CHARACTER 除了继承 F_SKILL 外还继承了很多 F_SKILL 
+              ，很多很多，扳手指都数不过来，以后再慢慢讲其他的。 </P>
+              <P>平常敲 skills 命令，比如 skills guolao ，会看到以下的内容： </P>
+              <P>张果老目前所掌握的技能有以下十二项： <BR>□八卦阵法 (baguazhen) - 平平淡淡 70/ 0/ 5041 
+              <BR>基本轻功 (dodge) - 平淡无奇 80/ 0/ 6561 <BR>内功心法 (force) - 平平淡淡 70/ 0/ 
+              5041 <BR>基本锤法 (hammer) - 粗通皮毛 90/ 0/ 8281 <BR>□开山锤 (kaishan-chui) 
+              - 半生不熟 100/ 0/ 10201 <BR>读书识字 (literate) - 会 元 50/ 0/ 2601 
+              <BR>拆招卸力之法 (parry) - 平淡无奇 80/ 0/ 6561 <BR>基本法术 (spells) - 平淡无奇 80/ 
+              0/ 6561 <BR>□太乙仙法 (taiyi) - 平淡无奇 80/ 0/ 6561 <BR>扑击格斗之技 (unarmed) 
+              - 普普通通 60/ 0/ 3721 <BR>□五行拳 (wuxing-quan) - 普普通通 60/ 0/ 3721 
+              <BR>□镇元神功 (zhenyuan-force) - 平平淡淡 70/ 0/ 5041 <BR>这一行行一列列这么整齐，却不是 
+              F_SKILL 的功劳，:-(，不要奇怪，打个比方就清楚了：在以上这些显示的内容中，F_SKILL 
+              好比是肉体，其他程序好比是衣服，一个是内因，一个是外因……faint，扯哪去了？sorry:-）还有平常最高兴看到的“你的「基本内功」进步了！”之类的也是 
+              F_SKILL 的功劳。 <BR>更进一步，看看 F_SKILL 定义了哪些函数，有些什么功能： </P>
+              <P>（先引用些源程序凑一下字数，请不要用西红柿砸我:-D） <BR>// 神话世界·西游记·版本４．５０ &lt;- 
+              每个程序里面都会有这两行版本信息， <BR>/* */ &lt;- 整齐美观，值得学习 </P>
+              <P>// skill.c </P>
+              <P>#include &lt;- 包含一些头文件，先不要管 <BR>#include &lt;- </P>
+              <P>mapping skills; <BR>mapping learned; <BR>mapping skill_map; 
+              <BR>mapping skill_prepare; <BR>这四行定义了四个 mapping 
+              类型的全局变量，全局变量的作用除了能在整个物件内部发挥传递参数的作用外，在物件存储中还有特殊的用处，就是物件被 save 
+              的时候这些全局变量会全部被存储起来，物件被load 的时候又会被读出来，是不是很爽？ <BR>举个例子说说这些 mapping 
+              的数据结构，以张果老为示范： </P>
+              <P>张果老目前所掌握的技能有以下十二项： <BR>□八卦阵法 (baguazhen) - 平平淡淡 70/ 0/ 5041 
+              <BR>基本轻功 (dodge) - 平淡无奇 80/ 0/ 6561 <BR>………… <BR>□镇元神功 
+              (zhenyuan-force) - 平平淡淡 70/ 0/ 5041 <BR>在 F_SKILL 中： <BR>skills = 
+              ([ <BR>"dodge" : 80, <BR>"taiyi" : 80, <BR>"literate" : 50, 
+              <BR>"zhenyuan-force" : 70, <BR>"kaishan-chui" : 100, <BR>"parry" : 
+              80, <BR>"unarmed" : 60, <BR>"wuxing-quan" : 60, <BR>"spells" : 80, 
+              <BR>"force" : 70, <BR>"hammer" : 90, <BR>"baguazhen" : 70, <BR>]) 
+              <BR>注：mapping 这种数据格式的特点是小括号内包含中括号，就是这样—— ([ ]) 
+              ，里边可以有很多子项，每一项都带一个冒号，冒号左边的是子项的名字，也就是双引号括起来的字符串——可以括很多字符，汉字也可以，冒号右边是子项的内容，这内容的数据格式是任意的，可以是字符串、整数、数组、映射（就是 
+              mapping 
+              的中文名）……简直就像目录一样——目录下面可以有文件，也可以有子目录，子目录下面又可以有文件和子目录……只要同一级内没有相同的子项名称就行；子项与子项之间用逗号隔开。"dodge" 
+              就是一个子项的名称了，80 就是这个子项的内容了，把一个 mapping 
+              写成多行是为了好看，如果你觉得写成一行更好些，可以自便，就像这样： <BR>skills = ([ "dodge" : 80, 
+              "taiyi" : 80, "literate" : 50, "zhenyuan-force" : 70, 
+              <BR>"kaishan-chui" : 100, "parry" : 80, "unarmed" : 60, 
+              "wuxing-quan" : 60, "spells <BR>" : 80, "force" : 70, "hammer" : 
+              90, "baguazhen" : 70 ]) <BR>呵呵，好看吗？ </P>
+              <P>继续： <BR>learned = ([ <BR>"dodge" : 0, <BR>"taiyi" : 0, 
+              <BR>"literate" : 0, <BR>"zhenyuan-force" : 0, <BR>"kaishan-chui" : 
+              0, <BR>"parry" : 0, <BR>"unarmed" : 0, <BR>"wuxing-quan" : 0, 
+              <BR>"spells" : 0, <BR>"force" : 0, <BR>"hammer" : 0, 
+              <BR>"baguazhen" : 0, <BR>]) <BR>skill_map = ([ <BR>"dodge" : 
+              "baguazhen", <BR>"unarmed" : "wuxing-quan", <BR>"hammer" : 
+              "kaishan-chui", <BR>"force" : "zhenyuan-force", <BR>"spells" : 
+              "taiyi", <BR>]) <BR>skill_prepare = ([ ]) 
+              <BR>怎么知道这四个变量的值呢？后面有四个函数，它们的返回值就是这四个变量的内容，看： <BR>⑴ mapping 
+              query_skills() { return skills; } <BR>⑵ mapping query_learned() { 
+              return learned; } <BR>⑶ mapping query_skill_map() { return 
+              skill_map; } <BR>⑷ mapping query_skill_prepare() { return 
+              skill_prepare; } <BR>如果你是巫师，能使用 call 命令，就可以使 call zhang 
+              guolao-&gt;query_skills()来获得张果老身上的 skills 变量的值了。 </P>
+              <P>这一行： <BR>□八卦阵法 (baguazhen) - 平平淡淡 70/ 0/ 5041 
+              <BR>前面的“□”和“八卦阵法”还有“平平淡淡”都不是 F_SKILL 的功劳，而是skills 
+              这个命令做的，这个命令的源程序在文件 /cmds/usr/skills.c 
+              中，具体怎么处理的可以去看看源程序。还有，后面的那个数字：5041 是 FoF 的发明，也是写在 
+              /cmds/usr/skills.c 中的。 </P>
+              <P>继续： <BR>void set_skill(string skill, int val) { …… } </P>
+              <P>一看就知道，这个函数设置 skill 的等级，有没有见过巫师给人 call 技能？一个命令下去就深不可测了，hoho </P>
+              <P>int delete_skill(string skill) { …… } 
+              <BR>这个就相反了，会删除技能，有没有试过“你决定放弃继续学习基本枪法”？虽然你敲的是 abandon hammer 
+              命令，但实际起作用的是这个函数 </P>
+              <P>varargs void map_skill(string skill, string mapped_to) { …… } 
+              <BR>这个函数是把高级技能 enable 到基本技能上，敲 enable 命令就会用到它了 </P>
+              <P>varargs void prepare_skill(string skill, string mapped_to) { …… 
+              } <BR>string query_skill_mapped(string skill) { …… } <BR>string 
+              query_skill_prepared(string skill) { …… } <BR>这三个函数没什么好说的 </P>
+              <P>varargs int query_skill(string skill, int raw) { …… } 
+              <BR>这个函数跟前面的 set_skill() 函数是一对儿，一个存，一个取，但是，取的内容不一定是存的内容，因为它多了一个 
+              int 类型的 raw 参数，如果这个参数被省略了，或者值是 0 
+              ，函数返回的值是一个“有效技能”，如果是一项基本技能，就返回该技能的等级的一半加上 map 到这个技能上的高级技能的等级之和，例如 
+              enable hammer kaishan-chui ，query_skill(hammer) 将得到hammer / 2 + 
+              kaishan-chui ，如果是一项高级技能，就直接返回它的等级；如果参数 raw 的值不为 0 
+              ，函数返回的值也直接是该技能的等级。在游戏中，有不少地方要检查玩家的基本技能，有些地方要检查有效技能，都是通过这个 raw 
+              参数灵活变通的。 </P>
+              <P>（未完待续） </P>
+              <P><BR><BR></FONT>
+              <P align=right><FONT color=#009900>原作者： 不详 <BR>来 源： 不详 
+              <BR>共有240位读者阅读过此文 <BR></FONT><BR>【<A 
+              href="http://www.chinazmud.com/wz/sendmail.asp?id=144">告诉好友</A>】 
+              </P></BLOCKQUOTE>
+            <P>
+            <LI><FONT color=#0772b1>上篇文章：</FONT><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=143"><FONT 
+            color=#009900>浅谈CALL命令</FONT></A> <BR>
+            <LI><FONT color=#0772b1>下篇文章：</FONT><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=145"><FONT 
+            color=#009900>MUDLib攻略之F_SKILL（下）</FONT></A> </LI></TD></TR>
+        <TR>
+          <TD width="50%" bgColor=#0000ff>□- 本周热门文章 </TD>
+          <TD width="50%" bgColor=#0000ff>□- 相关文章 </TD></TR>
+        <TR>
+          <TD vAlign=top width="50%" bgColor=#ffffff><FONT color=#009900>1.<A 
+            title="机器人小技巧 " target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=140"> 机器人小技巧 
+            </A>[1180]<BR>2.<A title="如何在MUD中自动问候 " target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=141"> 如何在MUD中自动问候 
+            </A>[363]<BR>3.<A title=浅谈CALL命令 target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=143"> 浅谈CALL命令 
+            </A>[343]<BR>4.<A title="MUDLib攻略之F_SKILL（上） " target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=144"> 
+            MUDLib攻略之F_SKILL（上... </A>[240]<BR>5.<A 
+            title="流星雨的MUDOS-LPC讲座 BIND " target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=148"> 流星雨的MUDOS-LPC讲座 
+            BI... </A>[205]<BR>6.<A title=新MUD设想--增加变化！ target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=150"> 新MUD设想--增加变化！ 
+            </A>[204]<BR>7.<A title="象太阁立志传那样的mud怎么样？ " target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=151"> 象太阁立志传那样的mud怎么样？ 
+            </A>[191]<BR></FONT></TD>
+          <TD vAlign=top width="50%" bgColor=#ffffff><FONT color=#009900><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=201">Mudlib的结构本文</A><BR><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=200">MUDLIB各个目录是干什么的？</A><BR><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=145">MUDLib攻略之F_SKILL（下）</A><BR><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=144">MUDLib攻略之F_SKILL（上） 
+            </A><BR><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=142">MUDLIB各个目录是干什么的？</A><BR></FONT></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><BR></BODY></HTML>

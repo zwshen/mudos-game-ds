@@ -1,0 +1,10 @@
+¥Ø¿ý¡R/open/world1/moonhide/area/under/npc/
+armor-guard.c       ¯µ±K«È              boots-guard.c       ¯µ±K«È            
+cloak-guard.c       ¯µ±K«È              cloth-guard.c       ¯µ±K«È            
+evil.c              Å]                  eviltest.c          Å]                
+finger-guard.c      ¯µ±K«È              gloves-guard.c      ¯µ±K«È            
+hands-guard.c       ¯µ±K«È              helmet-guard.c      ¯µ±K«È            
+leggings-guard.c    ¯µ±K«È              mask-guard.c        ¯µ±K«È            
+neck-guard.c        ¯µ±K«È              pants-guard.c       ¯µ±K«È            
+plp.c               Å]                  shield-guard.c      ¯µ±K«È            
+waist-guard.c       ¯µ±K«È              

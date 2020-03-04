@@ -1,0 +1,16 @@
+
+	save_variable(3)	LP MudOSv21c7		(7 Jul 1996)
+
+	ㄧ计嘿:
+		save_variable() - 盢跑计纗﹃ (string).
+	ㄧ计粂猭:
+		string save_variable( mixed var );
+
+		﹃ save_variable( 睼 var );
+	ㄧ计ノ猭:
+		р跑计纗Θ﹃. 纗跑计Α蛤 
+		save/restore_object ㄧΑ妓.
+	把σㄧ计:
+		save_object(3)
+	も陆亩:
+		Phoebus@ZH	97.Jul.4.		(Writen 5/23/97)

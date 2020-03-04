@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions ([])
+dbase (["family":(["family_name":"八極門","generation":7,"title":"俠客","privs":-1,]),"adv_class":1,"cure_count":1,"last_location":"/open/world1/tmr/area/vroad1","actions":,"addition_damage":10,"mp":60,"max_mp":60,"volume":7,"age":14,"exp":777,"str":2,"race":"human","id":"hleep","name":"麀","wound":(["left_leg":0,"body":0,"head":0,"left_arm":0,"right_arm":0,"right_leg":0,]),"DS_DATA_VERSION":19991107,"max_hp":80,"Merits":(["sou":0,"bar":0,"tec":0,"wit":0,"bio":0,]),"heart_beat_rate":6,"mud_age":1531,"dex":2,"level":1,"title":"八極門第七代俠客","supply_point":60,"talk_point":8,"addition_shield":10,"max_ap":60,"default_actions":,"attitude":"peaceful","unit":"位","channels":({"chat","rumor","tchat",}),"int":2,"birthday":1475481584,"startroom":"/open/world1/tmr/area/hotel","heart_modify":0,"class1":"八極門","addition_armor":10,"ap":60,"hp":80,"evil":-1,"guild_gifts":({10,7,0,3,}),"newbie":1,"con":2,"gender":"男性",])
+skills (["literate":3,])
+learned (["literate":17,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

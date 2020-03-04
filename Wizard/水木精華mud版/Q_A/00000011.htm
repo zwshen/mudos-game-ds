@@ -1,0 +1,55 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清華站︰精華區</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+<A Name="top"></a>
+發信人:&nbsp;peacock&nbsp;(孔雀明王),&nbsp;信區:&nbsp;Mud_Builder&nbsp;<BR>
+標&nbsp;&nbsp;題:&nbsp;Re:&nbsp;關於livings()[efun]的討論&nbsp;<BR>
+發信站:&nbsp;BBS&nbsp;水木清華站&nbsp;(Sun&nbsp;Jan&nbsp;&nbsp;4&nbsp;19:02:17&nbsp;1998)&nbsp;<BR>
+&nbsp;<BR>
+【&nbsp;在&nbsp;Lyon&nbsp;(雲從龍)&nbsp;的大作中提到:&nbsp;】&nbsp;<BR>
+︰<I>&nbsp;&nbsp;</I><BR>
+※&nbsp;修改:‧peacock&nbsp;於&nbsp;Jan&nbsp;&nbsp;4&nbsp;19:10:21&nbsp;修改本文‧[FROM:&nbsp;&nbsp;&nbsp;166.111.8.160]&nbsp;<BR>
+︰<I>&nbsp;※&nbsp;來源:‧BBS&nbsp;水木清華站&nbsp;bbs.net.tsinghua.edu.cn‧[FROM:&nbsp;166.111.91.83]&nbsp;&nbsp;</I><BR>
+︰<I>&nbsp;前幾日，我想在自己樓局域網內的MUD裡加上隨機分配任務。設想是隨機CLONE一樣&nbsp;</I><BR>
+︰<I>&nbsp;東西，再隨機MOVE到某個NPC身上，然後再隨機“告訴”某些NPC關於這個任務的提示。&nbsp;</I><BR>
+︰<I>&nbsp;為了找到全部NPC，我用了livings()這個函數。發現有些問題：&nbsp;</I><BR>
+︰<I>&nbsp;1。返回的object&nbsp;array是正確的，但其中的某些成員沒有environment,例如ES2裡&nbsp;</I><BR>
+︰<I>&nbsp;只在山路上有2條野狗，但object&nbsp;array裡有三條，其中一條沒有environment,那它在&nbsp;</I><BR>
+︰<I>&nbsp;哪裡？&nbsp;</I><BR>
+︰<I>&nbsp;2。如果某個房間長時間未被進入，它就會被clean_up以節省內存，同理某些偏遠地區&nbsp;</I><BR>
+︰<I>&nbsp;的NPC也會被clean_up.那它們就不會出現在livings()返回的object&nbsp;array中，該如何&nbsp;</I><BR>
+︰<I>&nbsp;向這些NPC身上move東西呢？&nbsp;</I><BR>
+很多人已經回過了，我也湊湊熱鬧。&nbsp;<BR>
+object有兩種。一種是clone出來的，一種是load進來的。&nbsp;<BR>
+只有clone出來的才是Npc，還有一個本源物件在無環境的地方。&nbsp;<BR>
+所以比如說狗吧，你就有&quot;/d/snow/npc/dog&quot;,&quot;/d/snow/npc/dog#0&quot;,&nbsp;<BR>
+&quot;/d/snow/npc/dog#1&quot;三條狗。只有後兩條(帶#的)才是你能看到的。&nbsp;<BR>
+在你殺了一條，房間又update以後就會出來&quot;/d/snow/npc/dog#2&quot;了。&nbsp;<BR>
+這個以後我正在寫一份詳細的文檔，給XO培訓巫師用。可是學期末&nbsp;<BR>
+要總結，太忙了。&nbsp;<BR>
+回頭寫完了在這裡也Post一份吧。大家記得寒假提醒我。不然讓Nerd&nbsp;<BR>
+從天地創造轉過來也是個辦法。反正我是要Post在那裡的。&nbsp;<BR>
+&nbsp;<BR>
+呀，忘了寫解決辦法了。只好修改一下。&nbsp;<BR>
+對於npc，只要你用clonep()判斷一下就行了。你能踫到的返回值都是1。&nbsp;<BR>
+那個“本源”返回0。你可以用filter_array()處理一下，它能返回&nbsp;<BR>
+一個數組，裡面全是你要的東西。這個東東trill比較有心得，讓他來&nbsp;<BR>
+講吧。&nbsp;<BR>
+&nbsp;<BR>
+至於遠處的Npc，你只要把他所在的房間load_object()進來就行了。&nbsp;<BR>
+咦，好像Qyz已經說過了。讓我想想，有沒有更好的辦法……好像是&nbsp;<BR>
+沒有了。算我沒說。:PS&nbsp;<BR>
+--&nbsp;<BR>
+※&nbsp;修改:‧peacock&nbsp;於&nbsp;Jan&nbsp;&nbsp;4&nbsp;19:10:21&nbsp;修改本文‧[FROM:&nbsp;&nbsp;&nbsp;166.111.8.160]&nbsp;<BR>
+※&nbsp;來源:‧BBS&nbsp;水木清華站&nbsp;bbs.net.tsinghua.edu.cn‧[FROM:&nbsp;166.111.8.160]&nbsp;<BR>
+<A HREF="00000010.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一頁</A>
+<A HREF="index.htm">回到目錄</A>
+<A HREF="#top">回到頁首</A>
+<A HREF="00000012.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+</BODY></HTML>

@@ -1,0 +1,7 @@
+#/obj/user.c
+conditions ([])
+dbase (["addition_armor":10,"max_mp":54,"talk_point":8,"max_hp":120,"guild_gifts":({5,5,5,5,}),"addition_damage":10,"mp":54,"max_ap":66,"ap":66,"unit":"¦ì","newbie":1,"exp":777,"dex":2,"id":"myw","int":2,"hp":120,"DS_DATA_VERSION":19991107,"con":2,"str":2,"cure_count":8,"level":1,"volume":7,"channels":({"chat","rumor","tchat",}),"birthday":1179410506,"evil":-1,"gender":"¨k©Ê","supply_point":60,"name":"Øp","attitude":"peaceful","startroom":"/open/world1/tmr/area/hotel","race":"ogre","heart_modify":0,"heart_beat_rate":6,"mud_age":2211,"bank":([]),"age":14,"wound":(["right_leg":0,"right_arm":0,"left_arm":0,"body":0,"left_leg":0,"head":0,]),"last_location":"/open/world1/tmr/area/inn_2f","default_actions":,"addition_shield":10,"Merits":(["bar":0,"bio":0,"tec":0,"sou":0,"wit":0,]),"actions":,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

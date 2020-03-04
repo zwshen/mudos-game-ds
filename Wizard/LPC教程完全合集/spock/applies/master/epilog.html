@@ -1,0 +1,45 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=bg2312">
+   <META NAME="Author" CONTENT="Spock">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.01 [en] (Win95; I) [Netscape]">
+   <TITLE>MudOS v21c2 参考文件 - applies - master - epilog</TITLE>
+</HEAD>
+<BODY TEXT="#CCFFFF" BGCOLOR="#000000" LINK="#33FF33" VLINK="#FF0000" ALINK="#33CCFF" BACKGROUND="../../../image/ff/fftitleback.jpg" NOSAVE>
+
+<CENTER><FONT COLOR="#FF99FF"><FONT SIZE=+3>epilog(4)　 MudOS v21c2　 (5
+Sep 1994)</FONT></FONT></CENTER>
+
+<HR WIDTH="100%">
+<BR><FONT COLOR="#FFFFCC">　名称:</FONT>
+<UL>　 epilog - 返回一个包含物件文件名称的数组 (array), 其中所有的文件为启动游戏之前必须预先载入的物件.</UL>
+<FONT COLOR="#FFFFCC">　语法:</FONT>
+<UL>　 string *epilog( int load_empty );
+<BR>　 void preload( string filename );
+
+<P>　 字符串 *epilog( 整数 load_empty );
+<BR>　 无返回值 preload( 字符串 filename );</UL>
+<FONT COLOR="#FFFFCC">　用法:</FONT>
+<UL>　 驱动程序于载入主控物件 (master object)　 之后, 会调用 epilog()　
+函数. mudlib　 通常用 epilog() 初始化主控物件的数据结构 (例如系统安全表等等).
+epilog() 应返回一个文件名称的数组, 此数组的内容为启动游戏前, mudlib 预先想载入的物件表.
+也就是说, 这些是玩家连线之前必须载入的文件. 对于数组中的每一个文件名称,
+驱动程序都会为它调用主控物件中的 preload( filename ).
+
+<P>　 如果启动驱动程序时加上 -e 的选项, load_empty　 参数就是非零值. 这个参数可以给
+mudlib 一个信号, 决定要不要载入某些文件, 例如城堡等等.</UL>
+<FONT COLOR="#FFFFCC">　参考:</FONT>
+<UL>　 <A HREF="preload.html">preload(4)</A></UL>
+<FONT COLOR="#FFFFCC">　翻译:</FONT>
+<UL>　 Spock @ FF 97.Aug.6.　 (printed 3/16/95)</UL>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+<CENTER><A HREF="../master.html">回到上一页</A></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+</BODY>
+</HTML>

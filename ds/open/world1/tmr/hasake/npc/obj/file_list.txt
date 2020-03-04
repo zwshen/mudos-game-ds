@@ -1,0 +1,14 @@
+¥Ø¿ý¡R/open/world1/tmr/hasake/npc/obj/
+bishou.c            ¿ûÅK¤P­º            cheese.c            ¨Å¹T              
+chui.c              ºëÅK¤jÁè            hamigua.c           «¢±K¥Ê            
+illimitable-armor.c  ¤D½a¦B¥Ò            illimitable-helmet.c  ¤D½a¦B²¯          
+jinjian.c           ª÷¤P­º              jiunang.c           ¤j°sÅn            
+langpi.c            ¦Ç¯T¥Ö              mabian.c            °¨Ã@              
+madao.c             °¨¤M                maotan.c            ¤ò´à              
+qun.c               «¢ÂÄ§JÃÍ¸È          rousisuo.c          ¬Xµ·¯Á            
+shoujuan.c          ¤â¸h                shoujuan2.c         ¥Õ¤â¸h            
+shuinang.c          ¤ôÅn                stone1.c            ¤û¤å©ú¹Óµe¹³¥Û    
+stone2.c            ¤û¤å©ú¹Óµe¹³¥Û      stone3.c            ¨â®ç±þ¤T¤hµe¹³¥Û  
+wandao.c            ªü©Ô§BÅs¤M          wolf-bone.c         ¦Ç¯T°©            
+yangao.c            ¦Ï¥ÖÃÍ              yangpi.c            ºø¦Ï¥Ö            
+yinjian.c           »È¤P­º              

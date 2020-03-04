@@ -1,0 +1,40 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=bg2312">
+   <META NAME="Author" CONTENT="Spock">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.01 [en] (Win95; I) [Netscape]">
+   <TITLE>MudOS v21c2 参考文件 - applies - general - clean_up</TITLE>
+</HEAD>
+<BODY TEXT="#CCFFFF" BGCOLOR="#000000" LINK="#33FF33" VLINK="#FF0000" ALINK="#33CCFF" BACKGROUND="../../../image/ff/fftitleback.jpg" NOSAVE>
+
+<CENTER><FONT COLOR="#FF99FF"><FONT SIZE=+3>clean_up(4)　 MudOS v21c2　
+(5 Sep 1994)</FONT></FONT></CENTER>
+
+<HR WIDTH="100%">
+<BR><FONT COLOR="#FFFFCC">名称:</FONT>
+<UL>clean_up - 在一个互动的 (interactive) 物件中定期调用此函数.</UL>
+<FONT COLOR="#FFFFCC">语法:</FONT>
+<UL>int clean_up( int inherited );</UL>
+
+<UL>整数 clean_up( 整数 inherited );</UL>
+<FONT COLOR="#FFFFCC">用法:</FONT>
+<UL>驱动程序 (driver) 为在一段时间之内没有活动 (inactive) 的物件调用 clean_up()
+函数. 此段时间的长短, 定义在执行时段组态档 (rumtime configuration file)
+中. clean_up() 会收到一个标志 (flag) , 指出此物件是否有别的物件继承 (inherit)
+它. 如果clean_up() 返回 0, 则此物件将永远不再调用 clean_up().　 如果返回
+1, 则在指定的 clean_up() 延迟时间之后物件仍没有活动的话, 再调用一次 clean_up().
+
+<P>通常一个物件在 clean_up() 中所作的事, 是摧毁自己以节省内存.</UL>
+<FONT COLOR="#FFFFCC">翻译:</FONT>
+<UL>Spock @ FF 97.Aug.3.　 (printed 3/16/95)</UL>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+<CENTER><A HREF="../general.html">回到上一页</A></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+</BODY>
+</HTML>

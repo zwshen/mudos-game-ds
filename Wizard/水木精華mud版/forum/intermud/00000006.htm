@@ -1,0 +1,66 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清华站∶精华区</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+<A Name="top"></a>
+发信人:&nbsp;sadsong&nbsp;(烛光泪影),&nbsp;信区:&nbsp;Mud_Builder&nbsp;<BR>
+标&nbsp;&nbsp;题:&nbsp;Mud互连的疑问?&nbsp;<BR>
+发信站:&nbsp;BBS&nbsp;水木清华站&nbsp;(Sun&nbsp;Nov&nbsp;30&nbsp;20:09:00&nbsp;1997)&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;mudOS有没有支持那种远程联机服务，设想玩家在本地的mud上键入一个命令&nbsp;<BR>
+要求连接远地的Mud，当获得安全许可，其中包括数据用户名称合法性检验后，&nbsp;<BR>
+直接进入远地的mud，玩家在键盘属于的字符被本地的mud&nbsp;server仿真成一个新的&nbsp;<BR>
+玩家连接远地的mud，并且向那个远地的mud发送玩家的字符，远处的mud&nbsp;server&nbsp;<BR>
+接收到信息，解释成它自己本地机上的命令，并且把tell_object,message_vision.write&nbsp;<BR>
+等函数产生的结果返还给那个虚拟用户终端的mud&nbsp;server，那个mud&nbsp;&nbsp;&nbsp;server接收到&nbsp;<BR>
+后再把信息传递给玩家。&nbsp;<BR>
+这一切就象UNIX上的telnet服务那样，何时能有这样的mud？这种mud服务要保证&nbsp;<BR>
+兼容性的问题，能够仍旧支持所有基于ES2或XKX上的地图机关，到时候玩家就可以&nbsp;<BR>
+使用本地的数据人物进入远程的mud地图，就和自己在玩远程的mud一样，所不同的&nbsp;<BR>
+是用户不需要再开个窗口，使用另外一个新的人物进入那个世界，那么地图，机关，&nbsp;<BR>
+通讯扩大了何止一倍。玩家无需另外登录新人，也就会真正共享chat，因为chat中能见&nbsp;<BR>
+到的人物，信息，自己可以去地图里去找到她，可以问where&nbsp;are&nbsp;you&nbsp;now?&nbsp;&nbsp;&nbsp;I&nbsp;want&nbsp;to&nbsp;see&nbsp;&nbsp;<BR>
+you&nbsp;and&nbsp;kill&nbsp;you&nbsp;！这样的chat才不会没有意义。&nbsp;<BR>
+现在的es2命令十分空洞，即使知道了有别人也在那里又有什么用？无法见到那个人，无法&nbsp;<BR>
+在那个mud中游荡。&nbsp;<BR>
+ES2所提供的哪些服务，包括mail,ftp,gtell,gfinger,gping，还是有限的服务，无法令玩家真正得到&nbsp;<BR>
+充分得服务。&nbsp;<BR>
+如果这样的mud实现了，那么地图，机关，现有的一切都可以被普通玩家共享，相当于最多可乙杂行硇矶喽嗟耐婕以谕嬉桓鱿嗤拇驧ud。&nbsp;<BR>
+但是也许其中会用什么致命的安全问题解决，就象telnet也需要口令，既然unix上的telnet访问要求权限许可，mudos运行在unix上又怎么会绕过unix的许可传输数据哪？&nbsp;<BR>
+也许那些mudlib源作者已经考虑过这种问题了，没有解决方案。&nbsp;<BR>
+如果仅仅加入send_udp那种简单的有限的服务，比如是加入look,go,kill的回显，密题机关无法破解那还不如直接再自己单独telnet去玩那里的mud，玩家的data用ftp服务先传输过去，玩家单独&nbsp;<BR>
+去玩那里的mud，还要telnet一次。//sigh&nbsp;<BR>
+&nbsp;<BR>
+不过如果这个可以的话，那么玩家就可以不用重复练功了。&nbsp;<BR>
+但是这样就会地图分散，玩家分散，无法让玩家感到人数还是那么多，还有那么多随时可以见&nbsp;到的朋友在场，这种选择是没有多少吸引力的。&nbsp;<BR>
+结果只是这里的玩家跑到那里，那里的玩家跑到这里，最终有害于mud的发展。&nbsp;<BR>
+&nbsp;<BR>
+我察看过/adm/daemons/logind.c，发现在logon(object&nbsp;ob)函数中，object已经被指定成那个&nbsp;<BR>
+telnet上来的object了，至于/std/user/user.c中只是提供了上层的一些函数可供设定。&nbsp;<BR>
+如果要不改动tell_object函数，那么那个object如何被mud&nbsp;server虚拟，初始化？tell_object中的&nbsp;<BR>
+那个object究竟是谁，是怎么获得申请的？初始化，和用户的终端联系在一起的？&nbsp;<BR>
+Mud&nbsp;server&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;能否用简单的send_udp去申请并且被远程的mudserver接收，实现虚拟一个用户终端，到时候&nbsp;<BR>
+tell_object过来的东东能够实际上被发送到mud&nbsp;server的虚拟终端&nbsp;<BR>
+被mud&nbsp;server虚拟的终端接收，再发送给用户的实际终端。&nbsp;<BR>
+&nbsp;<BR>
+我不清楚用户是怎么被初始化，tell_object&nbsp;message_vision,write等函数的实现细节是什么？&nbsp;<BR>
+那位高手能够讲解一下他们的实现过程？&nbsp;<BR>
+以及最后怎么实现.......&nbsp;<BR>
+或者是否已经有了现成的东西？&nbsp;<BR>
+&nbsp;<BR>
+快点实现这种功能吧。&nbsp;<BR>
+&nbsp;<BR>
+烛光泪影&nbsp;<BR>
+sad&nbsp;song&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+※&nbsp;来源:·BBS&nbsp;水木清华站&nbsp;bbs.net.tsinghua.edu.cn·[FROM:&nbsp;apollo.nju.edu.]&nbsp;<BR>
+<A HREF="00000006.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一页</A>
+<A HREF="index.htm">回到目录</A>
+<A HREF="#top">回到页首</A>
+</CENTER>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+</BODY></HTML>

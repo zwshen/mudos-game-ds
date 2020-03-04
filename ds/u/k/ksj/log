@@ -1,0 +1,1442 @@
+[Fri Nov 29 15:55:21 2002] u/k/ksj/workroom.c line 12: parse error before d/wiz/hall1
+
+[Fri Nov 29 15:55:49 2002] u/k/ksj/workroom.c line 12: parse error before d/wiz/hall1
+
+[Fri Nov 29 16:29:11 2002] u/k/ksj/lost_island/npc/fire_wolf1.c line 24: parse error before the end of line
+
+[Sun Dec  1 12:21:01 2002] u/k/ksj/lost_island/eq/inverse-horn-helmet.c line 44: Undefined variable 'wounds' before ;i++)
+
+[Tue Dec  3 18:47:37 2002] u/k/ksj/lost_island/npc/fire-wolf.c line 48: parse error before the end of file
+
+[Wed Dec  4 18:11:17 2002] u/k/ksj/workroom.c line 14: parse error before ));
+
+[Wed Dec  4 18:29:52 2002] u/k/ksj/lost_island/npc/fire-wolf.c line 36: Bad argument 1 to efun interactive() before  {
+
+[Wed Dec  4 18:29:52 2002] u/k/ksj/lost_island/npc/fire-wolf.c line 36: parse error before the end of line
+
+[Wed Dec  4 18:29:52 2002] u/k/ksj/lost_island/npc/fire-wolf.c line 46: Illegal LHS before the end of line
+
+[Wed Dec  4 18:29:52 2002] u/k/ksj/lost_island/npc/fire-wolf.c line 56: Undefined variable 'eqp' before new(__DIR__"eq/fire-
+
+[Wed Dec  4 18:44:41 2002] u/k/ksj/room8.c line 10: parse error before  ROOM;
+
+[Thu Dec  5 18:45:12 2002] u/k/ksj/lost_island/room1.c line 16: parse error before  "°ª¬ù¼Æ¤Vªº¤@¤ù©¥¾À
+
+[Thu Dec  5 18:45:12 2002] u/k/ksj/lost_island/room1.c line 28: Illegal LHS before         
+
+[Thu Dec  5 18:45:12 2002] u/k/ksj/lost_island/room1.c line 28: parse error before         
+
+[Thu Dec  5 18:45:12 2002] u/k/ksj/lost_island/room1.c line 34: Warning: Unknown \ escape. before y¸Ú¤£¨¬¡A§AµLªk¦w¥þ¦
+
+[Thu Dec  5 18:50:52 2002] u/k/ksj/lost_island/room1.c line 34: Warning: Unknown \ escape. before y¸Ú¤£¨¬¡A§AµLªk¦w¥þ¦
+
+[Thu Dec  5 18:51:38 2002] u/k/ksj/lost_island/room1.c line 34: Warning: Unknown \ escape. before y¸Ú¤£¨¬¡A§AµLªk¦w¥þ¦
+
+[Thu Dec  5 18:53:59 2002] u/k/ksj/lost_island/room2.c line 45: Warning: Unknown \ escape. before y¸Ú¤£¨¬¡A§AµLªk¦w¥þ¦
+
+[Thu Dec  5 18:54:05 2002] u/k/ksj/lost_island/room1.c line 34: Warning: Unknown \ escape. before y¸Ú¤£¨¬¡A§AµLªk¦w¥þ¦
+
+[Thu Dec  5 19:11:42 2002] u/k/ksj/lost_island/room31.c line 3: parse error before  MOBROOM;
+
+[Thu Dec  5 19:17:40 2002] u/k/ksj/lost_island/room39.c line 3: parse error before  MOBROOM;
+
+[Thu Dec  5 19:20:25 2002] u/k/ksj/lost_island/room41.c line 3: parse error before  MOBROOM;
+
+[Thu Dec  5 19:22:11 2002] u/k/ksj/lost_island/room43.c line 3: parse error before  MOBROOM;
+
+[Thu Dec  5 19:22:35 2002] u/k/ksj/lost_island/room43.c line 3: parse error before  MOBROOM;
+
+[Thu Dec  5 19:23:28 2002] u/k/ksj/lost_island/room44.c line 3: parse error before  MOBROOM;
+
+[Thu Dec  5 19:27:37 2002] u/k/ksj/lost_island/room24.c line 3: parse error before  MOBROOM;
+
+[Fri Dec  6 08:21:04 2002] u/k/ksj/lost_island/room2.c line 45: Warning: Unknown \ escape. before y¸Ú¤£¨¬¡A§AµLªk¦w¥þ¦
+
+[Fri Dec  6 08:30:34 2002] u/k/ksj/lost_island/room1.c line 30: Undefined variable 'arg' before  arg!="©¥¾À" ) retur
+
+[Fri Dec  6 08:30:34 2002] u/k/ksj/lost_island/room1.c line 32: Warning: Unknown \ escape. before y¸Ú¤£¨¬¡A¤´µM¸õ¤£¤W©
+
+[Fri Dec  6 08:30:34 2002] u/k/ksj/lost_island/room1.c line 37: Warning: Unknown \ escape. before A±q©¥¾À¤W¸õ¤F¤U¨Ó¡C\
+
+[Fri Dec  6 08:31:45 2002] u/k/ksj/lost_island/room1.c line 32: Warning: Unknown \ escape. before y¸Ú¤£¨¬¡A¤´µM¸õ¤£¤W©
+
+[Fri Dec  6 08:31:45 2002] u/k/ksj/lost_island/room1.c line 37: Warning: Unknown \ escape. before A±q©¥¾À¤W¸õ¤F¤U¨Ó¡C\
+
+[Fri Dec  6 08:36:04 2002] u/k/ksj/lost_island/room1.c line 32: Warning: Unknown \ escape. before y¸Ú¤£¨¬¡A¤´µM¸õ¤£¤W©
+
+[Fri Dec  6 08:36:04 2002] u/k/ksj/lost_island/room1.c line 37: Warning: Unknown \ escape. before A±q©¥¾À¤W¸õ¤F¤U¨Ó¡C\
+
+[Fri Dec  6 12:47:50 2002] u/k/ksj/lost_island/room2.c line 45: Warning: Unknown \ escape. before y¸Ú¤£¨¬¡A§AµLªk¦w¥þ¦
+
+[Fri Dec  6 13:37:01 2002] u/k/ksj/lost_island/room1.c line 32: Warning: Unknown \ escape. before y¸Ú¤£¨¬¡A¤´µM¸õ¤£¤W©
+
+[Fri Dec  6 13:37:01 2002] u/k/ksj/lost_island/room1.c line 37: Warning: Unknown \ escape. before A±q©¥¾À¤W¸õ¤F¤U¨Ó¡C\
+
+[Fri Dec  6 14:18:36 2002] u/k/ksj/lost_island/npc/sword-tiger.c line 32: Undefined variable 'heal' before ),
+
+[Fri Dec  6 14:18:36 2002] u/k/ksj/lost_island/npc/sword-tiger.c line 32: parse error before ),
+
+[Fri Dec  6 14:18:36 2002] u/k/ksj/lost_island/npc/sword-tiger.c line 50: Undefined variable 'me' before );
+
+[Fri Dec  6 14:18:36 2002] u/k/ksj/lost_island/npc/sword-tiger.c line 50: Illegal LHS before the end of line
+
+[Fri Dec  6 14:18:36 2002] u/k/ksj/lost_island/npc/sword-tiger.c line 50: parse error before the end of line
+
+[Fri Dec  6 14:18:36 2002] u/k/ksj/lost_island/npc/sword-tiger.c line 57: Illegal LHS before i<sizeof(inv);i++)
+
+[Fri Dec  6 14:19:38 2002] u/k/ksj/lost_island/npc/sword-tiger.c line 50: Undefined variable 'me' before );
+
+[Fri Dec  6 14:21:59 2002] u/k/ksj/lost_island/npc/sword-tiger.c line 50: Reserved type name unexpected. before , damage;
+
+[Fri Dec  6 14:21:59 2002] u/k/ksj/lost_island/npc/sword-tiger.c line 50: parse error before , damage;
+
+[Fri Dec  6 14:21:59 2002] u/k/ksj/lost_island/npc/sword-tiger.c line 51: Undefined variable 'me' before );
+
+[Fri Dec  6 14:21:59 2002] u/k/ksj/lost_island/npc/sword-tiger.c line 51: Illegal LHS before the end of line
+
+[Fri Dec  6 14:21:59 2002] u/k/ksj/lost_island/npc/sword-tiger.c line 52: Undefined variable 'inv' before  return 0;
+
+[Fri Dec  6 14:21:59 2002] u/k/ksj/lost_island/npc/sword-tiger.c line 58: Undefined variable 'i' before 0;i<sizeof(inv);i++)
+
+[Fri Dec  6 14:25:06 2002] u/k/ksj/lost_island/npc/sword-tiger.c line 50: Reserved type name unexpected. before , damage;
+
+[Fri Dec  6 14:25:06 2002] u/k/ksj/lost_island/npc/sword-tiger.c line 50: parse error before , damage;
+
+[Fri Dec  6 14:25:06 2002] u/k/ksj/lost_island/npc/sword-tiger.c line 51: Undefined variable 'me' before );
+
+[Fri Dec  6 14:25:06 2002] u/k/ksj/lost_island/npc/sword-tiger.c line 51: Illegal LHS before the end of line
+
+[Fri Dec  6 14:25:06 2002] u/k/ksj/lost_island/npc/sword-tiger.c line 52: Undefined variable 'inv' before  return 0;
+
+[Fri Dec  6 14:25:06 2002] u/k/ksj/lost_island/npc/sword-tiger.c line 58: Undefined variable 'i' before 0;i<sizeof(inv);i++)
+
+[Fri Dec  6 14:27:00 2002] u/k/ksj/lost_island/npc/sword-tiger.c line 50: Reserved type name unexpected. before , damage;
+
+[Fri Dec  6 14:27:00 2002] u/k/ksj/lost_island/npc/sword-tiger.c line 50: parse error before , damage;
+
+[Fri Dec  6 14:27:00 2002] u/k/ksj/lost_island/npc/sword-tiger.c line 51: Undefined variable 'me' before );
+
+[Fri Dec  6 14:27:00 2002] u/k/ksj/lost_island/npc/sword-tiger.c line 51: Illegal LHS before the end of line
+
+[Fri Dec  6 14:27:00 2002] u/k/ksj/lost_island/npc/sword-tiger.c line 52: Undefined variable 'inv' before  return 0;
+
+[Fri Dec  6 14:27:00 2002] u/k/ksj/lost_island/npc/sword-tiger.c line 58: Undefined variable 'i' before 0;i<sizeof(inv);i++)
+
+[Fri Dec  6 14:44:11 2002] u/k/ksj/lost_island/npc/blood-eye-dragon.c line 31: Undefined variable 'kill' before  tiger:)
+
+[Fri Dec  6 14:44:11 2002] u/k/ksj/lost_island/npc/blood-eye-dragon.c line 31: parse error before  tiger:)
+
+[Fri Dec  6 14:44:11 2002] u/k/ksj/lost_island/npc/blood-eye-dragon.c line 65: Undefined variable 'me' before );
+
+[Fri Dec  6 14:44:11 2002] u/k/ksj/lost_island/npc/blood-eye-dragon.c line 65: Illegal LHS before the end of line
+
+[Fri Dec  6 14:44:11 2002] u/k/ksj/lost_island/npc/blood-eye-dragon.c line 65: parse error before the end of line
+
+[Fri Dec  6 14:44:11 2002] u/k/ksj/lost_island/npc/blood-eye-dragon.c line 70: Illegal LHS before i<sizeof(inv);i++)
+
+[Fri Dec  6 14:55:59 2002] u/k/ksj/lost_island/room2.c line 45: Warning: Unknown \ escape. before y¸Ú¤£¨¬¡A§AµLªk¦w¥þ¦
+
+[Fri Dec  6 15:07:20 2002] u/k/ksj/engineer-hat.c line 35: Undefined variable 'p_hp' before  me->query("max_hp")
+
+[Fri Dec  6 15:07:20 2002] u/k/ksj/engineer-hat.c line 39: Undefined variable 'wounds' before ;i++)
+
+[Fri Dec  6 15:07:20 2002] u/k/ksj/engineer-hat.c line 41: Warning: Unknown \ escape. before h....\n"NOR, this_ob
+
+[Fri Dec  6 15:07:55 2002] u/k/ksj/engineer-hat.c line 39: Undefined variable 'wounds' before ;i++)
+
+[Fri Dec  6 15:07:55 2002] u/k/ksj/engineer-hat.c line 41: Warning: Unknown \ escape. before h....\n"NOR, this_ob
+
+[Fri Dec  6 15:09:05 2002] u/k/ksj/engineer-hat.c line 50: Warning: Unknown \ escape. before h....\n"NOR, this_ob
+
+[Fri Dec  6 15:11:30 2002] u/k/ksj/engineer-hat.c line 49: Warning: Unknown \ escape. before h....\n"NOR,this_obj
+
+[Fri Dec  6 15:14:35 2002] u/k/ksj/engineer-hat.c line 49: Warning: Unknown \ escape. before h....\n"NOR,this_obj
+
+[Fri Dec  6 15:17:54 2002] u/k/ksj/engineer-hat.c line 49: Warning: Unknown \ escape. before h....\n",this_object
+
+[Fri Dec  6 15:21:00 2002] u/k/ksj/engineer-hat.c line 49: Warning: Unknown \ escape. before h....\n",this_object
+
+[Fri Dec  6 16:39:36 2002] u/k/ksj/lost_island/npc/eq/hole.c line 56: End of file in text block before v[i]->move(obj, 1);
+
+[Fri Dec  6 16:39:36 2002] u/k/ksj/lost_island/npc/eq/hole.c line 56: parse error before v[i]->move(obj, 1);
+
+[Fri Dec  6 16:45:22 2002] u/k/ksj/lost_island/npc/eq/hole.c line 56: End of file in text block before ng att;
+
+[Fri Dec  6 16:45:22 2002] u/k/ksj/lost_island/npc/eq/hole.c line 56: parse error before ng att;
+
+[Fri Dec  6 16:49:55 2002] u/k/ksj/lost_island/npc/eq/hole.c line 56: End of file in text block before t_temp("take_tackle"
+
+[Fri Dec  6 16:49:55 2002] u/k/ksj/lost_island/npc/eq/hole.c line 56: parse error before t_temp("take_tackle"
+
+[Fri Dec  6 16:53:14 2002] u/k/ksj/lost_island/npc/eq/hole.c line 50: End of file in text block before ",600,ob);
+
+[Fri Dec  6 16:53:14 2002] u/k/ksj/lost_island/npc/eq/hole.c line 50: parse error before ",600,ob);
+
+[Fri Dec  6 16:54:29 2002] u/k/ksj/lost_island/npc/eq/hole.c line 46: End of file in text block before ower(string str);
+
+[Fri Dec  6 16:54:29 2002] u/k/ksj/lost_island/npc/eq/hole.c line 46: parse error before ower(string str);
+
+[Fri Dec  6 16:55:29 2002] u/k/ksj/lost_island/npc/eq/hole.c line 30: End of file in text block before ªº¸Ü¡A¤£§«¥i¥H¸ÕµÛÃk
+
+[Fri Dec  6 16:55:29 2002] u/k/ksj/lost_island/npc/eq/hole.c line 30: parse error before ªº¸Ü¡A¤£§«¥i¥H¸ÕµÛÃk
+
+[Fri Dec  6 16:56:37 2002] u/k/ksj/lost_island/npc/eq/hole.c line 27: End of file in text block before  0;
+
+[Fri Dec  6 16:56:37 2002] u/k/ksj/lost_island/npc/eq/hole.c line 27: parse error before  0;
+
+[Fri Dec  6 17:20:18 2002] u/k/ksj/lost_island/hole.c line 50: Undefined variable 'this_object' before ;
+
+[Fri Dec  6 17:26:08 2002] u/k/ksj/lost_island/hole.c line 53: Undefined function move_mob before ;        return 1;
+
+[Fri Dec  6 18:06:35 2002] u/k/ksj/lost_island/room2.c line 45: Warning: Unknown \ escape. before y¸Ú¤£¨¬¡A§AµLªk¦w¥þ¦
+
+[Sat Dec  7 09:13:43 2002] u/k/ksj/engineer-hat.c line 49: Warning: Unknown \ escape. before h....\n",this_object
+
+[Sat Dec  7 10:20:43 2002] u/k/ksj/lost_island/room29.c line 43: Undefined variable 'arg' before  arg!="¥ÛªL" ) retur
+
+[Sat Dec  7 10:20:43 2002] u/k/ksj/lost_island/room29.c line 45: Warning: Unknown \ escape. before y¸Ú¤£¨¬¡A½ñÂ_¾ðªK±¼¤
+
+[Sat Dec  7 10:20:43 2002] u/k/ksj/lost_island/room29.c line 50: Warning: Unknown \ escape. before A±q¥ÛªL¤U¸õ¤F¤W¨Ó¡C\
+
+[Sat Dec  7 10:22:04 2002] u/k/ksj/lost_island/room29.c line 45: Warning: Unknown \ escape. before y¸Ú¤£¨¬¡A½ñÂ_¾ðªK±¼¤
+
+[Sat Dec  7 10:22:04 2002] u/k/ksj/lost_island/room29.c line 50: Warning: Unknown \ escape. before A±q¥ÛªL¤U¸õ¤F¤W¨Ó¡C\
+
+[Sat Dec  7 10:23:50 2002] u/k/ksj/lost_island/room29.c line 45: Warning: Unknown \ escape. before y¸Ú¤£¨¬¡A½ñÂ_¾ðªK±¼¤
+
+[Sat Dec  7 10:23:50 2002] u/k/ksj/lost_island/room29.c line 50: Warning: Unknown \ escape. before A±q¥ÛªL¤U¸õ¤F¤W¨Ó¡C\
+
+[Sat Dec  7 10:24:41 2002] u/k/ksj/lost_island/room29.c line 44: Warning: Unknown \ escape. before y¸Ú¤£¨¬¡A½ñÂ_¾ðªK±¼¤
+
+[Sat Dec  7 10:24:41 2002] u/k/ksj/lost_island/room29.c line 49: Warning: Unknown \ escape. before A±q¥ÛªL¤U¸õ¤F¤W¨Ó¡C\
+
+[Sat Dec  7 10:48:52 2002] u/k/ksj/halbert.c line 2: parse error before ;
+
+[Sat Dec  7 10:49:52 2002] u/k/ksj/halbert.c line 2: parse error before ;
+
+[Sat Dec  7 10:51:49 2002] u/k/ksj/halbert.c line 2: parse error before ;
+
+[Sat Dec  7 11:49:52 2002] u/k/ksj/engineer-hat.c line 49: Warning: Unknown \ escape. before h....\n",this_object
+
+[Sat Dec  7 11:50:14 2002] u/k/ksj/lost_island/room29.c line 44: Warning: Unknown \ escape. before y¸Ú¤£¨¬¡A½ñÂ_¾ðªK±¼¤
+
+[Sat Dec  7 11:50:14 2002] u/k/ksj/lost_island/room29.c line 49: Warning: Unknown \ escape. before A±q¥ÛªL¤U¸õ¤F¤W¨Ó¡C\
+
+[Sat Dec  7 11:50:18 2002] u/k/ksj/lost_island/room2.c line 45: Warning: Unknown \ escape. before y¸Ú¤£¨¬¡A§AµLªk¦w¥þ¦
+
+[Sat Dec  7 12:31:09 2002] u/k/ksj/white_crystal.c line 14: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Sat Dec  7 12:31:09 2002] u/k/ksj/white_crystal.c line 14: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Sat Dec  7 12:31:09 2002] u/k/ksj/white_crystal.c line 14: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Sat Dec  7 12:31:09 2002] u/k/ksj/white_crystal.c line 14: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Sat Dec  7 12:31:09 2002] u/k/ksj/white_crystal.c line 14: Illegal to redefine 'nomask' function "query_encumbrance" before the end of line
+
+[Sat Dec  7 12:31:09 2002] u/k/ksj/white_crystal.c line 14: Illegal to redefine 'nomask' function "over_encumbranced" before the end of line
+
+[Sat Dec  7 13:15:28 2002] u/k/ksj/lost_island/room29.c line 44: Warning: Unknown \ escape. before y¸Ú¤£¨¬¡A½ñÂ_¾ðªK±¼¤
+
+[Sat Dec  7 13:15:28 2002] u/k/ksj/lost_island/room29.c line 49: Warning: Unknown \ escape. before A±q¥ÛªL¤U¸õ¤F¤W¨Ó¡C\
+
+[Sat Dec  7 13:28:24 2002] u/k/ksj/lost_island/npc/silver-dragon.c line 26: Undefined variable 'heal' before ),
+
+[Sat Dec  7 13:28:24 2002] u/k/ksj/lost_island/npc/silver-dragon.c line 26: parse error before ),
+
+[Sat Dec  7 13:28:24 2002] u/k/ksj/lost_island/npc/silver-dragon.c line 43: Illegal LHS before the end of line
+
+[Sat Dec  7 13:28:24 2002] u/k/ksj/lost_island/npc/silver-dragon.c line 43: parse error before the end of line
+
+[Sat Dec  7 13:28:24 2002] u/k/ksj/lost_island/npc/silver-dragon.c line 44: Illegal LHS before the end of line
+
+[Sat Dec  7 13:28:24 2002] u/k/ksj/lost_island/npc/silver-dragon.c line 44: parse error before the end of line
+
+[Sat Dec  7 13:45:58 2002] u/k/ksj/lost_island/room2.c line 45: Warning: Unknown \ escape. before y¸Ú¤£¨¬¡A§AµLªk¦w¥þ¦
+
+[Sat Dec  7 15:34:55 2002] u/k/ksj/lost_island/npc/green-snake.c line 59: Undefined variable 'eqp' before new(__DIR__"eq/green
+
+[Mon Dec  9 08:28:11 2002] u/k/ksj/engineer-hat.c line 49: Warning: Unknown \ escape. before h....\n",this_object
+
+[Mon Dec  9 12:36:37 2002] u/k/ksj/lost_island/room1.c line 32: Warning: Unknown \ escape. before y¸Ú¤£¨¬¡A¤´µM¸õ¤£¤W©
+
+[Mon Dec  9 12:36:37 2002] u/k/ksj/lost_island/room1.c line 37: Warning: Unknown \ escape. before A±q©¥¾À¤W¸õ¤F¤U¨Ó¡C\
+
+[Mon Dec  9 12:45:23 2002] u/k/ksj/lost_island/room2.c line 45: Warning: Unknown \ escape. before y¸Ú¤£¨¬¡A§AµLªk¦w¥þ¦
+
+[Mon Dec  9 12:46:50 2002] u/k/ksj/lost_island/room29.c line 44: Warning: Unknown \ escape. before y¸Ú¤£¨¬¡A½ñÂ_¾ðªK±¼¤
+
+[Mon Dec  9 12:46:50 2002] u/k/ksj/lost_island/room29.c line 49: Warning: Unknown \ escape. before A±q¥ÛªL¤U¸õ¤F¤W¨Ó¡C\
+
+[Mon Dec  9 13:17:47 2002] u/k/ksj/lost_island/room1.c line 34: Warning: Unknown \ escape. before y¸Ú¤£¨¬¡A¤´µM¸õ¤£¤W©
+
+[Mon Dec  9 13:17:47 2002] u/k/ksj/lost_island/room1.c line 39: Warning: Unknown \ escape. before A±q©¥¾À¤W¸õ¤F¤U¨Ó¡C\
+
+[Mon Dec  9 13:21:15 2002] u/k/ksj/lost_island/room1.c line 35: Warning: Unknown \ escape. before y¸Ú¤£¨¬¡A¤´µM¸õ¤£¤W©
+
+[Mon Dec  9 13:21:15 2002] u/k/ksj/lost_island/room1.c line 40: Warning: Unknown \ escape. before A±q©¥¾À¤W¸õ¤F¤U¨Ó¡C\
+
+[Mon Dec  9 13:22:05 2002] u/k/ksj/lost_island/room1.c line 33: Warning: Unknown \ escape. before y¸Ú¤£¨¬¡A¤´µM¸õ¤£¤W©
+
+[Mon Dec  9 13:22:05 2002] u/k/ksj/lost_island/room1.c line 38: Warning: Unknown \ escape. before A±q©¥¾À¤W¸õ¤F¤U¨Ó¡C\
+
+[Mon Dec  9 13:23:33 2002] u/k/ksj/lost_island/room1.c line 33: Warning: Unknown \ escape. before y¸Ú¤£¨¬¡A¤´µM¸õ¤£¤W©
+
+[Mon Dec  9 13:23:33 2002] u/k/ksj/lost_island/room1.c line 38: Warning: Unknown \ escape. before A±q©¥¾À¤W¸õ¤F¤U¨Ó¡C\
+
+[Mon Dec  9 13:24:27 2002] u/k/ksj/lost_island/room1.c line 33: Warning: Unknown \ escape. before y¸Ú¤£¨¬¡A¤´µM¸õ¤£¤W©
+
+[Mon Dec  9 13:24:27 2002] u/k/ksj/lost_island/room1.c line 38: Warning: Unknown \ escape. before A±q©¥¾À¤W¸õ¤F¤U¨Ó¡C\
+
+[Mon Dec  9 13:25:32 2002] u/k/ksj/lost_island/room1.c line 33: Warning: Unknown \ escape. before y¸Ú¤£¨¬¡A¤´µM¸õ¤£¤W©
+
+[Mon Dec  9 13:25:32 2002] u/k/ksj/lost_island/room1.c line 38: Warning: Unknown \ escape. before A±q©¥¾À¤W¸õ¤F¤U¨Ó¡C\
+
+[Mon Dec  9 13:26:18 2002] u/k/ksj/lost_island/room1.c line 37: Warning: Unknown \ escape. before A±q©¥¾À¤W¸õ¤F¤U¨Ó¡C\
+
+[Mon Dec  9 13:27:02 2002] u/k/ksj/lost_island/room1.c line 37: Warning: Unknown \ escape. before A±q©¥¾À¤W¸õ¤F¤U¨Ó¡C\
+
+[Mon Dec  9 19:39:09 2002] u/k/ksj/lost_island/room29.c line 44: Warning: Unknown \ escape. before y¸Ú¤£¨¬¡A½ñÂ_¾ðªK±¼¤
+
+[Mon Dec  9 19:39:09 2002] u/k/ksj/lost_island/room29.c line 49: Warning: Unknown \ escape. before A±q¥ÛªL¤U¸õ¤F¤W¨Ó¡C\
+
+[Tue Dec 10 07:48:22 2002] u/k/ksj/lost_island/room2.c line 45: Warning: Unknown \ escape. before y¸Ú¤£¨¬¡A§AµLªk¦w¥þ¦
+
+[Tue Dec 10 07:49:47 2002] u/k/ksj/lost_island/room2.c line 46: Warning: Unknown \ escape. before y¸Ú¤£¨¬¡A§AµLªk¦w¥þ¦
+
+[Tue Dec 10 07:50:53 2002] u/k/ksj/lost_island/room2.c line 46: Warning: Unknown \ escape. before y¸Ú¤£¨¬¡A§AµLªk¦w¥þ¦
+
+[Tue Dec 10 07:52:32 2002] u/k/ksj/lost_island/room2.c line 46: Warning: Unknown \ escape. before y¸Ú¤£¨¬¡C\n" );
+
+[Tue Dec 10 07:54:00 2002] u/k/ksj/lost_island/room2.c line 46: Warning: Unknown \ escape. before £¨¬¡AµLªk¦w¥þ¦a¸õ¹L¥
+
+[Tue Dec 10 07:55:31 2002] u/k/ksj/lost_island/room2.c line 46: Warning: Unknown \ escape. before £°÷¡AµLªk¦w¥þ¦a¸õ¹L¥
+
+[Tue Dec 10 07:55:47 2002] u/k/ksj/lost_island/room2.c line 46: Warning: Unknown \ escape. before £°÷¡AµLªk¦w¥þ¦a¸õ¹L¥
+
+[Tue Dec 10 07:55:57 2002] u/k/ksj/lost_island/room2.c line 4: parse error before  MOBROOM;
+
+[Tue Dec 10 07:56:09 2002] u/k/ksj/lost_island/room2.c line 46: Warning: Unknown \ escape. before £°÷¡AµLªk¦w¥þ¦a¸õ¹L¥
+
+[Tue Dec 10 07:56:43 2002] u/k/ksj/lost_island/room2.c line 46: Warning: Unknown \ escape. before £°÷µLªk¦w¥þ¦a¸õ¹L¥h¡
+
+[Tue Dec 10 07:57:21 2002] u/k/ksj/lost_island/room2.c line 46: Warning: Unknown \ escape. before £°÷¡AµLªk¦w¥þ¦a¸õ¹L¥
+
+[Tue Dec 10 07:57:43 2002] u/k/ksj/lost_island/room2.c line 46: Warning: Unknown \ escape. before ÷¡AµLªk¦w¥þ¦a¸õ¹L¥h¡
+
+[Tue Dec 10 08:05:26 2002] u/k/ksj/lost_island/room1.c line 33: Warning: Unknown \ escape. before y¸Ú¤£¨¬¡A¤´µM¸õ¤£¤W©
+
+[Tue Dec 10 08:05:26 2002] u/k/ksj/lost_island/room1.c line 38: Warning: Unknown \ escape. before A±q©¥¾À¤W¸õ¤F¤U¨Ó¡C\
+
+[Tue Dec 10 08:07:42 2002] u/k/ksj/lost_island/room29.c line 44: Warning: Unknown \ escape. before y¸Ú¤£¨¬¡A½ñÂ_¾ðªK±¼¤
+
+[Tue Dec 10 08:07:42 2002] u/k/ksj/lost_island/room29.c line 49: Warning: Unknown \ escape. before A±q¥ÛªL¤U¸õ¤F¤W¨Ó¡C\
+
+[Tue Dec 10 08:08:33 2002] u/k/ksj/lost_island/room29.c line 44: Warning: Unknown \ escape. before y¸Ú¤£¨¬¡A½ñÂ_¾ðªK±¼¤
+
+[Tue Dec 10 08:08:33 2002] u/k/ksj/lost_island/room29.c line 49: Warning: Unknown \ escape. before A±q¥ÛªL¤U¸õ¤F¤W¨Ó¡C\
+
+[Wed Dec 11 12:33:26 2002] u/k/ksj/lost_island/npc/chimera.c line 6: Warning: Unknown \ escape. before ü©Ô"NOR, ({"chimera"
+
+[Wed Dec 11 12:46:56 2002] u/k/ksj/lost_island/npc/shell-dragon.c line 25: Undefined variable 'heal' before ),
+
+[Wed Dec 11 12:46:56 2002] u/k/ksj/lost_island/npc/shell-dragon.c line 25: parse error before ),
+
+[Wed Dec 11 12:46:56 2002] u/k/ksj/lost_island/npc/shell-dragon.c line 44: Undefined variable 'target' before query_dex();
+
+[Wed Dec 11 12:46:56 2002] u/k/ksj/lost_island/npc/shell-dragon.c line 44: Illegal LHS before the end of line
+
+[Wed Dec 11 12:46:56 2002] u/k/ksj/lost_island/npc/shell-dragon.c line 44: parse error before the end of line
+
+[Wed Dec 11 12:46:56 2002] u/k/ksj/lost_island/npc/shell-dragon.c line 45: Illegal LHS before the end of line
+
+[Wed Dec 11 12:58:27 2002] u/k/ksj/lost_island/npc/green-snake.c line 8: Undefined variable 'me' before is_busy()) return 0;
+
+[Wed Dec 11 12:58:27 2002] u/k/ksj/lost_island/npc/green-snake.c line 9: Undefined variable 'GEN' before NOR;
+
+[Wed Dec 11 12:58:27 2002] u/k/ksj/lost_island/npc/green-snake.c line 9: parse error before NOR;
+
+[Wed Dec 11 12:58:27 2002] u/k/ksj/lost_island/npc/green-snake.c line 57: Illegal LHS before the end of line
+
+[Wed Dec 11 12:58:27 2002] u/k/ksj/lost_island/npc/green-snake.c line 58: Undefined variable 'target' before  this_player();
+
+[Wed Dec 11 12:58:27 2002] u/k/ksj/lost_island/npc/green-snake.c line 59: Undefined variable 'type' before cost,target);
+
+[Wed Dec 11 12:59:54 2002] u/k/ksj/lost_island/npc/green-snake.c line 9: parse error before CÅì©¥Á¯;
+
+[Wed Dec 11 12:59:54 2002] u/k/ksj/lost_island/npc/green-snake.c line 57: Illegal LHS before the end of line
+
+[Wed Dec 11 12:59:54 2002] u/k/ksj/lost_island/npc/green-snake.c line 58: Undefined variable 'target' before  this_player();
+
+[Wed Dec 11 12:59:54 2002] u/k/ksj/lost_island/npc/green-snake.c line 59: Undefined variable 'type' before cost,target);
+
+[Wed Dec 11 12:59:54 2002] u/k/ksj/lost_island/npc/green-snake.c line 59: Undefined variable 'cost' before target);
+
+[Wed Dec 11 18:07:17 2002] u/k/ksj/lost_island/npc/thunder-bird.c line 32: parse error before  1;
+
+[Wed Dec 11 18:17:50 2002] u/k/ksj/lost_island/npc/shell-dragon.c line 72: Warning: Unknown \ escape. before h¸¨¥ÛÀ»¤¤... "HIR"("
+
+[Wed Dec 11 18:17:50 2002] u/k/ksj/lost_island/npc/shell-dragon.c line 74: Undefined variable 'I' before ->add_busy(3);
+
+[Wed Dec 11 18:19:43 2002] u/k/ksj/lost_island/npc/shell-dragon.c line 72: Warning: Unknown \ escape. before h¸¨¥ÛÀ»¤¤... "HIR"("
+
+[Wed Dec 11 18:28:03 2002] u/k/ksj/lost_island/npc/ghost-worm.c line 16: parse error before the end of line
+
+[Wed Dec 11 18:32:55 2002] u/k/ksj/lost_island/npc/kilin-horse.c line 6: parse error before ÓÅï, ({"iron beetle"
+
+[Wed Dec 11 18:33:47 2002] u/k/ksj/lost_island/npc/kilin-horse.c line 6: parse error before ÓÅï, ({"kilin horse"
+
+[Thu Dec 12 10:06:18 2002] u/k/ksj/lost_island/npc/color-bee.c line 1: parse error before ansi.h>
+
+[Thu Dec 12 10:07:21 2002] u/k/ksj/lost_island/npc/color-bee.c line 1: parse error before ansi.h>
+
+[Thu Dec 12 10:07:23 2002] u/k/ksj/lost_island/npc/color-bee.c line 1: parse error before ansi.h>
+
+[Thu Dec 12 10:25:12 2002] u/k/ksj/lost_island/npc/color-bee.c line 1: parse error before ansi.h>
+
+[Thu Dec 12 10:50:16 2002] u/k/ksj/lost_island/stone-boat.c line 34: Warning: Unknown \ escape. before Å·Ï....\n\n" NOR );
+
+[Thu Dec 12 10:53:17 2002] u/k/ksj/lost_island/npc/color-bee.c line 1: parse error before ansi2.h>
+
+[Thu Dec 12 10:55:13 2002] u/k/ksj/lost_island/npc/color-bee.c line 1: parse error before ansi2.h>
+
+[Thu Dec 12 12:54:07 2002] u/k/ksj/lost_island/npc/huge-turtle.c line 40: parse error before (object me, object t
+
+[Thu Dec 12 14:24:36 2002] u/k/ksj/lost_island/npc/thunder-bird.c line 42: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Thu Dec 12 14:24:36 2002] u/k/ksj/lost_island/npc/thunder-bird.c line 42: Illegal to redefine 'nomask' function "query_busy" before the end of line
+
+[Thu Dec 12 14:24:36 2002] u/k/ksj/lost_island/npc/thunder-bird.c line 42: Illegal to redefine 'nomask' function "is_busy" before the end of line
+
+[Thu Dec 12 14:24:36 2002] u/k/ksj/lost_island/npc/thunder-bird.c line 42: Illegal to redefine 'nomask' function "is_block" before the end of line
+
+[Thu Dec 12 14:24:36 2002] u/k/ksj/lost_island/npc/thunder-bird.c line 42: Illegal to redefine 'nomask' function "command_hook" before the end of line
+
+[Thu Dec 12 14:24:36 2002] u/k/ksj/lost_island/npc/thunder-bird.c line 42: Illegal to redefine 'nomask' function "set_path" before the end of line
+
+[Thu Dec 12 14:25:15 2002] u/k/ksj/lost_island/npc/thunder-bird.c line 42: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Thu Dec 12 14:25:15 2002] u/k/ksj/lost_island/npc/thunder-bird.c line 42: Illegal to redefine 'nomask' function "query_busy" before the end of line
+
+[Thu Dec 12 14:25:15 2002] u/k/ksj/lost_island/npc/thunder-bird.c line 42: Illegal to redefine 'nomask' function "is_busy" before the end of line
+
+[Thu Dec 12 14:25:15 2002] u/k/ksj/lost_island/npc/thunder-bird.c line 42: Illegal to redefine 'nomask' function "is_block" before the end of line
+
+[Thu Dec 12 14:25:15 2002] u/k/ksj/lost_island/npc/thunder-bird.c line 42: Illegal to redefine 'nomask' function "command_hook" before the end of line
+
+[Thu Dec 12 14:25:15 2002] u/k/ksj/lost_island/npc/thunder-bird.c line 42: Illegal to redefine 'nomask' function "set_path" before the end of line
+
+[Fri Dec 13 11:04:00 2002] u/k/ksj/chini_wrists.c line 47: Undefined variable 'wo_waist' before c ) return 1;
+
+[Fri Dec 13 11:04:00 2002] u/k/ksj/chini_wrists.c line 47: parse error before c ) return 1;
+
+[Fri Dec 13 11:15:59 2002] u/k/ksj/chini_wrists.c line 48: Illegal lvalue before eq1 ){
+
+[Fri Dec 13 11:15:59 2002] u/k/ksj/chini_wrists.c line 49: Illegal lvalue before eq2 ){ 
+
+[Fri Dec 13 11:15:59 2002] u/k/ksj/chini_wrists.c line 50: Illegal lvalue before eq3 ){
+
+[Fri Dec 13 11:15:59 2002] u/k/ksj/chini_wrists.c line 51: Illegal lvalue before eq4 ){ 
+
+[Fri Dec 13 11:15:59 2002] u/k/ksj/chini_wrists.c line 52: Illegal lvalue before eq5 ){ 
+
+[Fri Dec 13 11:52:56 2002] u/k/ksj/wo_waist.c line 34: Reserved type name unexpected. before (string arg)
+
+[Fri Dec 13 11:52:56 2002] u/k/ksj/wo_waist.c line 34: parse error before (string arg)
+
+[Fri Dec 13 11:52:56 2002] u/k/ksj/wo_waist.c line 37: Illegal LHS before the end of line
+
+[Fri Dec 13 11:52:56 2002] u/k/ksj/wo_waist.c line 38: Undefined variable 'eq1' before  present("chini boot
+
+[Fri Dec 13 11:52:56 2002] u/k/ksj/wo_waist.c line 38: Undefined variable 'me' before ;
+
+[Fri Dec 13 11:52:56 2002] u/k/ksj/wo_waist.c line 39: Undefined variable 'eq2' before  present("maigu legg
+
+[Fri Dec 13 13:30:07 2002] u/k/ksj/wo_waist.c line 116: parse error before ;      
+
+[Fri Dec 13 14:45:48 2002] u/k/ksj/chini_boots.c line 97: Undefined variable 'eq6' before  present("chini boot
+
+[Sun Dec 15 10:40:45 2002] u/k/ksj/east_island/npc/woman-fisher.c line 22: End of file in text block before ³¤@¥»®Ñ¦W¥s¡u¤­ÃÑ¡v¡
+
+[Sun Dec 15 10:40:45 2002] u/k/ksj/east_island/npc/woman-fisher.c line 22: parse error before ³¤@¥»®Ñ¦W¥s¡u¤­ÃÑ¡v¡
+
+[Sun Dec 15 10:41:39 2002] u/k/ksj/east_island/npc/woman-fisher.c line 22: End of file in text block before it()
+
+[Sun Dec 15 10:41:39 2002] u/k/ksj/east_island/npc/woman-fisher.c line 22: parse error before it()
+
+[Sun Dec 15 10:46:50 2002] u/k/ksj/east_island/npc/woman-fisher.c line 45: End of file in text block before «æ±Û¡AªÑ°_µL§Î¼C®ð¡A
+
+[Sun Dec 15 10:46:50 2002] u/k/ksj/east_island/npc/woman-fisher.c line 45: parse error before «æ±Û¡AªÑ°_µL§Î¼C®ð¡A
+
+[Sun Dec 15 10:47:07 2002] u/k/ksj/east_island/npc/woman-fisher.c line 45: End of file in text block before «æ±Û¡AªÑ°_µL§Î¼C®ð¡A
+
+[Sun Dec 15 10:47:07 2002] u/k/ksj/east_island/npc/woman-fisher.c line 45: parse error before «æ±Û¡AªÑ°_µL§Î¼C®ð¡A
+
+[Sun Dec 15 10:48:13 2002] u/k/ksj/east_island/npc/woman-fisher.c line 45: End of file in text block before search);
+
+[Sun Dec 15 10:48:13 2002] u/k/ksj/east_island/npc/woman-fisher.c line 45: parse error before search);
+
+[Sun Dec 15 11:17:10 2002] u/k/ksj/east_island/room2.c line 20: Warning: Unknown \ escape. before i¥H§ä¨ìº}«G§¹¾ãªº¨©´
+
+[Sun Dec 15 11:25:58 2002] u/k/ksj/east_island/room2.c line 20: Warning: Unknown \ escape. before i¥H§ä¨ìº}«G§¹¾ãªº¨©´
+
+[Sun Dec 15 11:26:44 2002] u/k/ksj/east_island/room2.c line 20: Warning: Unknown \ escape. before \¥i¥H§ä¨ìº}«G§¹¾ãªº¨
+
+[Sun Dec 15 11:26:44 2002] u/k/ksj/east_island/room2.c line 20: Warning: Unknown \ escape. before i¥H§ä¨ìº}«G§¹¾ãªº¨©´
+
+[Sun Dec 15 11:27:41 2002] u/k/ksj/east_island/room2.c line 20: Warning: Unknown \ escape. before i¥H§ä¨ìº}«G§¹¾ãªº¨©´
+
+[Mon Dec 16 13:05:18 2002] u/k/ksj/lost_island/ice.c line 46: parse error before ò¥@®q "+RED"¶Ç¨Ó¥O¦Ê
+
+[Mon Dec 16 13:05:18 2002] u/k/ksj/lost_island/ice.c line 46: Illegal terminator before ®q "+RED"¶Ç¨Ó¥O¦ÊÃ~³
+
+[Mon Dec 16 13:05:57 2002] u/k/ksj/lost_island/ice.c line 46: parse error before ò¥@®q "RED"¶Ç¨Ó¥O¦ÊÃ
+
+[Mon Dec 16 13:05:57 2002] u/k/ksj/lost_island/ice.c line 46: Illegal terminator before ®q "RED"¶Ç¨Ó¥O¦ÊÃ~³£
+
+[Tue Dec 17 19:00:23 2002] u/k/ksj/lost_island/npc/eq/chimera-boots.c line 11: Warning: Unknown \ escape. before ü©Ôªº«e¸}»s¦¨ªº¹u¤l¡
+
+[Tue Dec 17 19:05:25 2002] u/k/ksj/lost_island/npc/eq/xiangliu_pill.c line 20: Warning: Unknown \ escape. before h¡I¡I)" NOR );
+
+[Wed Dec 18 09:05:58 2002] u/k/ksj/lost_island/npc/sailorman.c line 44: Warning: Unknown \ escape. before hÃø¥H·Q¹³ªº²§Ã~¡A¥Ñ©
+
+[Wed Dec 18 09:05:58 2002] u/k/ksj/lost_island/npc/sailorman.c line 45: parse error before "¤]¤£ª¾¹D¨ä¤¤³º¥t¦³¤
+
+[Wed Dec 18 09:06:46 2002] u/k/ksj/lost_island/npc/sailorman.c line 44: Warning: Unknown \ escape. before hÃø¥H·Q¹³ªº²§Ã~¡A¥Ñ©
+
+[Wed Dec 18 18:27:18 2002] u/k/ksj/east_island/room9.c line 18: parse error before the end of line
+
+[Wed Dec 18 18:27:53 2002] u/k/ksj/east_island/room9.c line 18: parse error before 1,
+
+[Wed Dec 18 18:39:50 2002] u/k/ksj/east_island/room18.c line 22: Warning: Unknown \ escape. before A¸Ì­±°O¸ü¤F¥H¤U¦W¤M¡
+
+[Wed Dec 18 18:54:57 2002] u/k/ksj/east_island/npc/bizen-gou.c line 17: parse error before ("talk_reply","Åwªï¥
+
+[Wed Dec 18 18:56:59 2002] u/k/ksj/east_island/npc/bizen-gou.c line 17: parse error before ("talk_reply","Åwªï¥
+
+[Wed Dec 18 18:58:00 2002] u/k/ksj/east_island/npc/bizen-gou.c line 17: parse error before ("talk_reply","Åwªï¥
+
+[Wed Dec 18 18:59:02 2002] u/k/ksj/east_island/npc/bizen-gou.c line 17: parse error before ("talk_reply","Åwªï¡
+
+[Wed Dec 18 19:00:36 2002] u/k/ksj/east_island/npc/bizen-gou.c line 18: parse error before ("talk_reply","Åwªï¥
+
+[Wed Dec 18 19:01:29 2002] u/k/ksj/east_island/npc/bizen-gou.c line 18: parse error before ("talk_reply","«È¤H¨
+
+[Wed Dec 18 19:02:01 2002] u/k/ksj/east_island/npc/bizen-gou.c line 19: parse error before ("talk_reply","«È¤H¨
+
+[Thu Dec 19 12:36:10 2002] u/k/ksj/east_island/npc/discipline-monk.c line 20: parse error before 8);
+
+[Thu Dec 19 18:04:50 2002] u/k/ksj/east_island/npc/eq/ice-crystal.c line 3: parse error before ;
+
+[Thu Dec 19 18:49:36 2002] u/k/ksj/east_island/npc/discipline-monk.c line 42: Undefined variable 'level' before ;
+
+[Thu Dec 19 18:53:50 2002] u/k/ksj/east_island/npc/discipline-monk.c line 42: Undefined variable 'level' before ;
+
+[Sat Dec 21 11:20:41 2002] u/k/ksj/lost_island/npc/eq/shell-dragon-blood.c line 7: Undefined function set_name before ;
+
+[Sat Dec 21 11:20:41 2002] u/k/ksj/lost_island/npc/eq/shell-dragon-blood.c line 11: Undefined function set_weight before ;
+
+[Sat Dec 21 11:20:41 2002] u/k/ksj/lost_island/npc/eq/shell-dragon-blood.c line 13: Undefined function set_default_object before ;
+
+[Sat Dec 21 11:20:41 2002] u/k/ksj/lost_island/npc/eq/shell-dragon-blood.c line 25: Undefined function setup before ; 
+
+[Sat Dec 21 11:35:35 2002] u/k/ksj/lost_island/npc/silver-dragon.c line 55: parse error before the end of line
+
+[Sat Dec 21 11:35:35 2002] u/k/ksj/lost_island/npc/silver-dragon.c line 65: Reserved type name unexpected. before (string type,int cos
+
+[Sat Dec 21 11:35:35 2002] u/k/ksj/lost_island/npc/silver-dragon.c line 65: parse error before (string type,int cos
+
+[Sat Dec 21 11:35:35 2002] u/k/ksj/lost_island/npc/silver-dragon.c line 69: Illegal LHS before the end of line
+
+[Sat Dec 21 11:35:35 2002] u/k/ksj/lost_island/npc/silver-dragon.c line 70: Undefined variable 'target' before  this_player();
+
+[Sat Dec 21 11:35:35 2002] u/k/ksj/lost_island/npc/silver-dragon.c line 71: Undefined variable 'type' before cost,target);
+
+[Tue Dec 24 08:53:41 2002] u/k/ksj/east_island/room8.c line 18: parse error before item_desc", ([
+
+[Tue Dec 24 08:53:41 2002] u/k/ksj/east_island/room8.c line 22: Illegal terminator before ¡@¡@¡@      50¡@¡@¡@
+
+[Tue Dec 24 08:58:38 2002] u/k/ksj/east_island/room8.c line 19: parse error before item_desc", ([
+
+[Tue Dec 24 08:58:38 2002] u/k/ksj/east_island/room8.c line 23: Illegal terminator before ¡@¡@¡@      50¡@¡@¡@
+
+[Tue Dec 24 08:59:32 2002] u/k/ksj/east_island/room8.c line 20: Warning: Unknown \ escape. before Iªº¦WºÙ¡A·Q¦Yªº¸Ü´NÂ
+
+[Fri Dec 27 18:30:53 2002] u/k/ksj/east_island/room8.c line 20: Warning: Unknown \ escape. before Iªº¦WºÙ¡A·Q¦Yªº¸Ü´NÂ
+
+[Fri Dec 27 18:36:09 2002] u/k/ksj/east_island/room8.c line 20: Warning: Unknown \ escape. before Iªº¦WºÙ¡A·Q¦Yªº¸Ü´NÂ
+
+[Fri Dec 27 18:37:17 2002] u/k/ksj/east_island/room8.c line 20: Warning: Unknown \ escape. before ¼ªº¦WºÙ¡A·Q¦Yªº¸Ü´NÂ
+
+[Fri Dec 27 18:45:35 2002] u/k/ksj/east_island/npc/rounin.c line 25: Undefined function target before ->query_level() > me
+
+[Fri Dec 27 18:45:35 2002] u/k/ksj/east_island/npc/rounin.c line 25: Undefined function me_query_level before ) return 0;
+
+[Fri Dec 27 18:45:35 2002] u/k/ksj/east_island/npc/rounin.c line 25: Bad right argument to '>' : "unknown " before  return 0;
+
+[Fri Dec 27 18:45:35 2002] u/k/ksj/east_island/npc/rounin.c line 26: Bad argument number 1 to '-': "unknown " before )
+
+[Fri Dec 27 18:46:42 2002] u/k/ksj/east_island/npc/rounin.c line 25: Undefined function target before ->query_level() > me
+
+[Fri Dec 27 18:46:42 2002] u/k/ksj/east_island/npc/rounin.c line 26: Undefined function me_query_level before -target()->query_lev
+
+[Fri Dec 27 18:46:42 2002] u/k/ksj/east_island/npc/rounin.c line 26: Bad argument number 1 to '-': "unknown " before )
+
+[Fri Dec 27 18:48:00 2002] u/k/ksj/east_island/npc/rounin.c line 25: Undefined function target before ->query("level") > m
+
+[Fri Dec 27 18:48:00 2002] u/k/ksj/east_island/npc/rounin.c line 26: Undefined function me_query_level before -target()->query_lev
+
+[Fri Dec 27 18:48:00 2002] u/k/ksj/east_island/npc/rounin.c line 26: Bad argument number 1 to '-': "unknown " before )
+
+[Fri Dec 27 18:48:34 2002] u/k/ksj/east_island/npc/rounin.c line 26: Undefined function me_query_level before -target()->query_lev
+
+[Fri Dec 27 18:48:34 2002] u/k/ksj/east_island/npc/rounin.c line 26: Undefined function target before ->query_level()))
+
+[Fri Dec 27 18:48:34 2002] u/k/ksj/east_island/npc/rounin.c line 26: Bad argument number 1 to '-': "unknown " before )
+
+[Tue Dec 31 14:45:36 2002] u/k/ksj/east_island/npc/eq/hide-bone-katana.c line 29: Warning: Unknown \ escape. before h¡C\n");
+
+[Tue Dec 31 14:45:36 2002] u/k/ksj/east_island/npc/eq/hide-bone-katana.c line 42: Left argument of -> is not a class before  7 && random(10)<3 )
+
+[Tue Dec 31 14:45:36 2002] u/k/ksj/east_island/npc/eq/hide-bone-katana.c line 47: Undefined variable 'damaga' before  damaga/3;
+
+[Tue Dec 31 14:59:39 2002] u/k/ksj/east_island/npc/eq/bizen-chousen-katana.c line 29: Warning: Unknown \ escape. before í$N¡C\n"NOR);
+
+[Tue Dec 31 15:07:33 2002] u/k/ksj/east_island/npc/eq/dragonfly-cut-pike.c line 2: parse error before ;
+
+[Fri Jan  3 14:57:44 2003] u/k/ksj/lost_island/inverse-horn-helmet.c line 67: Illegal to inherit after defining global variables. before the end of line
+
+[Fri Jan  3 14:57:44 2003] u/k/ksj/lost_island/inverse-horn-helmet.c line 67: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Fri Jan  3 14:57:44 2003] u/k/ksj/lost_island/inverse-horn-helmet.c line 67: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Fri Jan  3 14:57:44 2003] u/k/ksj/lost_island/inverse-horn-helmet.c line 67: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Fri Jan  3 14:57:44 2003] u/k/ksj/lost_island/inverse-horn-helmet.c line 67: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Fri Jan  3 14:57:44 2003] u/k/ksj/lost_island/inverse-horn-helmet.c line 67: Illegal to redefine 'nomask' function "query_encumbrance" before the end of line
+
+[Fri Jan  3 18:02:33 2003] u/k/ksj/east_island/npc/eq/peach-wind-sword.c line 23: Undefined function init_blade before ;
+
+[Fri Jan  3 18:34:51 2003] u/k/ksj/lost_island/huge-spider.c line 73: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Fri Jan  3 18:34:51 2003] u/k/ksj/lost_island/huge-spider.c line 73: Illegal to redefine 'nomask' function "query_busy" before the end of line
+
+[Fri Jan  3 18:34:51 2003] u/k/ksj/lost_island/huge-spider.c line 73: Illegal to redefine 'nomask' function "is_busy" before the end of line
+
+[Fri Jan  3 18:34:51 2003] u/k/ksj/lost_island/huge-spider.c line 73: Illegal to redefine 'nomask' function "is_block" before the end of line
+
+[Fri Jan  3 18:34:51 2003] u/k/ksj/lost_island/huge-spider.c line 73: Illegal to redefine 'nomask' function "command_hook" before the end of line
+
+[Fri Jan  3 18:34:51 2003] u/k/ksj/lost_island/huge-spider.c line 73: Illegal to redefine 'nomask' function "set_path" before the end of line
+
+[Mon Jan  6 18:08:52 2003] u/k/ksj/east_island/npc/eq/kusanagi-sword.c line 24: Undefined function init_blade before ;
+
+[Mon Jan  6 18:08:52 2003] u/k/ksj/east_island/npc/eq/kusanagi-sword.c line 34: Reserved type name unexpected. before ;
+
+[Mon Jan  6 18:08:52 2003] u/k/ksj/east_island/npc/eq/kusanagi-sword.c line 34: parse error before ;
+
+[Mon Jan  6 18:08:52 2003] u/k/ksj/east_island/npc/eq/kusanagi-sword.c line 40: Undefined variable 'me' before query("level")/10 + 
+
+[Mon Jan  6 18:08:52 2003] u/k/ksj/east_island/npc/eq/kusanagi-sword.c line 40: Illegal LHS before the end of line
+
+[Mon Jan  6 18:08:52 2003] u/k/ksj/east_island/npc/eq/kusanagi-sword.c line 41: Undefined variable 'chance' before )
+
+[Mon Jan  6 18:09:27 2003] u/k/ksj/east_island/npc/eq/kusanagi-sword.c line 34: Reserved type name unexpected. before ;
+
+[Mon Jan  6 18:09:27 2003] u/k/ksj/east_island/npc/eq/kusanagi-sword.c line 34: parse error before ;
+
+[Mon Jan  6 18:09:27 2003] u/k/ksj/east_island/npc/eq/kusanagi-sword.c line 40: Undefined variable 'me' before query("level")/10 + 
+
+[Mon Jan  6 18:09:27 2003] u/k/ksj/east_island/npc/eq/kusanagi-sword.c line 40: Illegal LHS before the end of line
+
+[Mon Jan  6 18:09:27 2003] u/k/ksj/east_island/npc/eq/kusanagi-sword.c line 41: Undefined variable 'chance' before )
+
+[Mon Jan  6 18:11:53 2003] u/k/ksj/east_island/npc/eq/kusanagi-sword.c line 46: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Tue Jan  7 18:37:10 2003] u/k/ksj/east_island/npc/eq/ice-bracelet.c line 49: Undefined variable 'head' before  50);
+
+[Tue Jan  7 18:37:10 2003] u/k/ksj/east_island/npc/eq/ice-bracelet.c line 50: Undefined variable 'body' before  50);
+
+[Tue Jan  7 18:37:10 2003] u/k/ksj/east_island/npc/eq/ice-bracelet.c line 51: Undefined variable 'right_arm' before  50);
+
+[Tue Jan  7 18:37:10 2003] u/k/ksj/east_island/npc/eq/ice-bracelet.c line 52: Undefined variable 'left_arm' before  50);
+
+[Tue Jan  7 18:37:10 2003] u/k/ksj/east_island/npc/eq/ice-bracelet.c line 53: Undefined variable 'right_leg' before  50);
+
+[Tue Jan  7 18:37:10 2003] u/k/ksj/east_island/npc/eq/ice-bracelet.c line 54: Undefined variable 'left_leg' before  50);
+
+[Wed Jan  8 08:40:42 2003] u/k/ksj/east_island/npc/eq/master-credential.c line 6: Warning: Unknown \ escape. before Lª¬", ({"master cred
+
+[Wed Jan  8 08:41:38 2003] u/k/ksj/east_island/npc/eq/master-credential.c line 6: Warning: Unknown \ escape. before \¦Lª¬", ({"master cr
+
+[Wed Jan  8 08:41:38 2003] u/k/ksj/east_island/npc/eq/master-credential.c line 6: Warning: Unknown \ escape. before Lª¬", ({"master cred
+
+[Fri Jan 10 18:11:04 2003] u/k/ksj/east_island/npc/garatsupa.c line 40: Undefined variable 'ob' before this_player();
+
+[Fri Jan 10 18:11:04 2003] u/k/ksj/east_island/npc/garatsupa.c line 56: Undefined function me before ->fight_ob(ob);
+
+[Fri Jan 10 18:11:48 2003] u/k/ksj/east_island/npc/garatsupa.c line 56: Undefined function me before ->fight_ob(ob);
+
+[Mon Jan 13 16:52:27 2003] u/k/ksj/lost_island/hole.c line 41: Undefined variable 'ob' before find_living("_NPC_BL
+
+[Mon Jan 13 17:27:49 2003] u/k/ksj/lost_island/leviathan.c line 48: Undefined variable 'me' before ;
+
+[Tue Jan 14 18:07:00 2003] u/k/ksj/east_island/npc/villager-guard.c line 14: Warning: Unknown \ escape. before h§¯©Ç¡A¨S¨Æ³Ì¦n«Ý¦b§
+
+[Wed Jan 15 18:04:51 2003] u/k/ksj/east_island/room105.c line 37: Undefined variable 'HIR' before NOR,me);
+
+[Wed Jan 15 18:04:51 2003] u/k/ksj/east_island/room105.c line 37: parse error before NOR,me);
+
+[Wed Jan 15 18:20:16 2003] u/k/ksj/east_island/npc/skeleton-spider.c line 6: Warning: Unknown \ escape. before jµï",({"skeleton spi
+
+[Wed Jan 15 18:20:16 2003] u/k/ksj/east_island/npc/skeleton-spider.c line 22: Warning: Unknown \ escape. before jµï¸¡³¡ªº¾uÅ\ÀYº¥º¥º
+
+[Wed Jan 15 18:20:16 2003] u/k/ksj/east_island/npc/skeleton-spider.c line 22: Warning: Unknown \ escape. before Yº¥º¥ºw¤U«Í¤ô¡A¨Ï±oª
+
+[Thu Jan 16 18:00:24 2003] u/k/ksj/east_island/npc/bizen-gou.c line 154: Undefined variable 'CYN' before NOR);
+
+[Thu Jan 16 18:00:24 2003] u/k/ksj/east_island/npc/bizen-gou.c line 154: parse error before NOR);
+
+[Thu Jan 16 18:00:24 2003] u/k/ksj/east_island/npc/bizen-gou.c line 165: Illegal LHS before the end of line
+
+[Thu Jan 16 18:00:24 2003] u/k/ksj/east_island/npc/bizen-gou.c line 165: parse error before the end of line
+
+[Thu Jan 16 18:00:24 2003] u/k/ksj/east_island/npc/bizen-gou.c line 177: Illegal LHS before the end of line
+
+[Thu Jan 16 18:00:24 2003] u/k/ksj/east_island/npc/bizen-gou.c line 177: parse error before the end of line
+
+[Thu Jan 16 18:42:50 2003] u/k/ksj/east_island/npc/yonago.c line 41: parse error before /neck-design-page")-
+
+[Thu Jan 16 18:42:50 2003] u/k/ksj/east_island/npc/yonago.c line 46: End of file in string before // or continue with 
+
+[Thu Jan 16 18:43:47 2003] u/k/ksj/east_island/npc/yonago.c line 41: parse error before /neck-design-page")-
+
+[Thu Jan 16 18:43:47 2003] u/k/ksj/east_island/npc/yonago.c line 46: End of file in string before }
+
+[Thu Jan 16 18:47:58 2003] u/k/ksj/east_island/npc/yonago.c line 41: parse error before /neck-design-page");
+
+[Thu Jan 16 18:47:58 2003] u/k/ksj/east_island/npc/yonago.c line 48: End of file in string before if(arg=="bed")
+
+[Thu Jan 16 18:48:50 2003] u/k/ksj/east_island/npc/yonago.c line 41: parse error before /neck-design-page");
+
+[Thu Jan 16 18:48:50 2003] u/k/ksj/east_island/npc/yonago.c line 48: End of file in string before lse return notify_fa
+
+[Thu Jan 16 18:50:43 2003] u/k/ksj/east_island/npc/yonago.c line 43: Undefined variable 'me' before query("id") );
+
+[Mon Jan 20 08:20:19 2003] u/k/ksj/lost_island/ghost-spider.c line 71: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Mon Jan 20 08:20:19 2003] u/k/ksj/lost_island/ghost-spider.c line 71: Illegal to redefine 'nomask' function "query_busy" before the end of line
+
+[Mon Jan 20 08:20:19 2003] u/k/ksj/lost_island/ghost-spider.c line 71: Illegal to redefine 'nomask' function "is_busy" before the end of line
+
+[Mon Jan 20 08:20:19 2003] u/k/ksj/lost_island/ghost-spider.c line 71: Illegal to redefine 'nomask' function "is_block" before the end of line
+
+[Mon Jan 20 08:20:19 2003] u/k/ksj/lost_island/ghost-spider.c line 71: Illegal to redefine 'nomask' function "command_hook" before the end of line
+
+[Mon Jan 20 08:20:19 2003] u/k/ksj/lost_island/ghost-spider.c line 71: Illegal to redefine 'nomask' function "set_path" before the end of line
+
+[Tue Jan 21 08:30:26 2003] u/k/ksj/east_island/room27.c line 34: Undefined variable 'necklace' before  new(__DIR__"npc/gol
+
+[Tue Jan 21 08:32:32 2003] u/k/ksj/east_island/room27.c line 39: Undefined variable 'HIY' before NOR,me);
+
+[Tue Jan 21 08:32:32 2003] u/k/ksj/east_island/room27.c line 39: parse error before NOR,me);
+
+[Mon Jan 27 18:05:14 2003] u/k/ksj/east_island/room17.c line 58: Undefined variable 'HIC' before NOR);
+
+[Mon Jan 27 18:05:14 2003] u/k/ksj/east_island/room17.c line 58: parse error before NOR);
+
+[Mon Jan 27 18:17:00 2003] u/k/ksj/east_island/room56.c line 38: Undefined variable 'climb' before claw.c)
+
+[Mon Jan 27 18:17:00 2003] u/k/ksj/east_island/room56.c line 38: Bad argument number 2 to '-': "object " before c)
+
+[Mon Jan 27 18:17:00 2003] u/k/ksj/east_island/room56.c line 38: parse error before c)
+
+[Wed Feb 12 11:33:17 2003] u/k/ksj/ice-fire-cloth.c line 2: parse error before -fire-cloth.c
+
+[Wed Feb 12 12:48:28 2003] u/k/ksj/eight-metal-shield.c line 31: parse error before  SHIELD;
+
+[Wed Feb 12 12:48:30 2003] u/k/ksj/eight-metal-shield.c line 31: parse error before  SHIELD;
+
+[Wed Feb 12 14:04:19 2003] u/k/ksj/temp-room.c line 3: Undefined function set before ;
+
+[Wed Feb 12 14:04:19 2003] u/k/ksj/temp-room.c line 32: Undefined function setup before ; 
+
+[Wed Feb 12 14:04:21 2003] u/k/ksj/temp-room.c line 3: Undefined function set before ;
+
+[Wed Feb 12 14:04:21 2003] u/k/ksj/temp-room.c line 32: Undefined function setup before ; 
+
+[Wed Feb 12 14:06:06 2003] u/k/ksj/temp-room.c line 3: Undefined function set before ;
+
+[Wed Feb 12 14:06:06 2003] u/k/ksj/temp-room.c line 32: Undefined function setup before ; 
+
+[Wed Feb 12 14:12:24 2003] u/k/ksj/temp-room.c line 3: Undefined function set before ;
+
+[Wed Feb 12 14:12:24 2003] u/k/ksj/temp-room.c line 32: Undefined function setup before ; 
+
+[Thu Feb 20 17:57:43 2003] u/k/ksj/east_island/npc/cat-oldwoman.c line 65: Undefined function normal_ai before  :),
+
+[Thu Feb 20 17:57:43 2003] u/k/ksj/east_island/npc/cat-oldwoman.c line 65: parse error before ),
+
+[Thu Feb 20 17:57:43 2003] u/k/ksj/east_island/npc/cat-oldwoman.c line 95: Illegal LHS before the end of line
+
+[Thu Feb 20 17:57:43 2003] u/k/ksj/east_island/npc/cat-oldwoman.c line 95: parse error before the end of line
+
+[Thu Feb 20 17:57:43 2003] u/k/ksj/east_island/npc/cat-oldwoman.c line 96: Illegal LHS before the end of line
+
+[Thu Feb 20 17:57:43 2003] u/k/ksj/east_island/npc/cat-oldwoman.c line 96: parse error before the end of line
+
+[Thu Feb 20 17:58:56 2003] u/k/ksj/east_island/npc/cat-oldwoman.c line 110: Bad assignment ( int vs object ). before the end of line
+
+[Thu Feb 20 17:58:56 2003] u/k/ksj/east_island/npc/cat-oldwoman.c line 111: Reserved type name unexpected. before target;
+
+[Thu Feb 20 17:58:56 2003] u/k/ksj/east_island/npc/cat-oldwoman.c line 111: parse error before target;
+
+[Thu Feb 20 17:58:56 2003] u/k/ksj/east_island/npc/cat-oldwoman.c line 112: Undefined variable 'me' before );
+
+[Thu Feb 20 17:58:56 2003] u/k/ksj/east_island/npc/cat-oldwoman.c line 112: Illegal LHS before the end of line
+
+[Thu Feb 20 18:00:40 2003] u/k/ksj/east_island/npc/cat-oldwoman.c line 109: Undefined variable 'me' before  this_object();
+
+[Thu Feb 20 18:00:40 2003] u/k/ksj/east_island/npc/cat-oldwoman.c line 110: Reserved type name unexpected. before target;
+
+[Thu Feb 20 18:00:40 2003] u/k/ksj/east_island/npc/cat-oldwoman.c line 110: parse error before target;
+
+[Thu Feb 20 18:00:40 2003] u/k/ksj/east_island/npc/cat-oldwoman.c line 111: Undefined variable 'me' before );
+
+[Thu Feb 20 18:00:40 2003] u/k/ksj/east_island/npc/cat-oldwoman.c line 111: Illegal LHS before the end of line
+
+[Fri Feb 21 12:41:15 2003] u/k/ksj/east_island/npc/cat-oldwoman.c line 108: Warning: Unknown \ escape. before h¡C\n\n"NOR,me);
+
+[Fri Feb 21 12:41:15 2003] u/k/ksj/east_island/npc/cat-oldwoman.c line 132: Undefined variable 'b' before new(__DIR__"stone-pu
+
+[Fri Feb 21 12:43:52 2003] u/k/ksj/east_island/npc/cat-oldwoman.c line 108: Warning: Unknown \ escape. before h¡C\n\n"NOR,me);
+
+[Fri Feb 21 12:43:52 2003] u/k/ksj/east_island/npc/cat-oldwoman.c line 132: Undefined variable 'b' before new(__DIR__"stone-pu
+
+[Sat Feb 22 14:52:10 2003] u/k/ksj/east_island/npc/protect-ghost.c line 34: Reserved type name unexpected. before ,cat_hp,max_hp;
+
+[Sat Feb 22 14:52:10 2003] u/k/ksj/east_island/npc/protect-ghost.c line 34: parse error before ,cat_hp,max_hp;
+
+[Sat Feb 22 14:52:10 2003] u/k/ksj/east_island/npc/protect-ghost.c line 36: Illegal LHS before the end of line
+
+[Sat Feb 22 14:52:10 2003] u/k/ksj/east_island/npc/protect-ghost.c line 38: Undefined variable 'mp' before this_object()->query
+
+[Sat Feb 22 14:52:10 2003] u/k/ksj/east_island/npc/protect-ghost.c line 39: Undefined variable 'cat_hp' before ob1->query("hp");
+
+[Sat Feb 22 14:52:10 2003] u/k/ksj/east_island/npc/protect-ghost.c line 39: Undefined variable 'ob1' before query("hp");
+
+[Sat Feb 22 15:36:44 2003] u/k/ksj/east_island/npc/eq/ghost-axe.c line 29: Undefined variable 'HIR' before NOR,me);
+
+[Sat Feb 22 15:36:44 2003] u/k/ksj/east_island/npc/eq/ghost-axe.c line 29: parse error before NOR,me);
+
+[Mon Feb 24 15:07:50 2003] u/k/ksj/east_island/npc/eq/big-pot.c line 72: No such inherited function ::reset before ;
+
+[Mon Feb 24 18:12:18 2003] u/k/ksj/east_island/npc/cat-oldwoman.c line 258: parse error before die()
+
+[Mon Feb 24 18:13:58 2003] u/k/ksj/east_island/npc/cat-oldwoman.c line 258: parse error before die()
+
+[Mon Feb 24 18:17:35 2003] u/k/ksj/east_island/npc/cat-oldwoman.c line 257: parse error before the end of line
+
+[Mon Feb 24 18:17:43 2003] u/k/ksj/east_island/npc/cat-oldwoman.c line 257: parse error before the end of line
+
+[Mon Feb 24 18:19:26 2003] u/k/ksj/east_island/npc/cat-oldwoman.c line 256: parse error before the end of line
+
+[Mon Feb 24 18:23:47 2003] u/k/ksj/east_island/npc/cat-oldwoman.c line 254: parse error before the end of line
+
+[Mon Feb 24 18:42:35 2003] u/k/ksj/east_island/room57.c line 28: Undefined variable 'me' before ;
+
+[Mon Feb 24 18:43:23 2003] u/k/ksj/east_island/room57.c line 28: Undefined variable 'this_object' before ;
+
+[Tue Feb 25 15:15:13 2003] u/k/ksj/east_island/npc/ghost.c line 6: parse error before ¸°­,({"ghost"}) );
+
+[Tue Feb 25 15:15:13 2003] u/k/ksj/east_island/npc/ghost.c line 33: Illegal LHS before the end of line
+
+[Tue Feb 25 15:15:13 2003] u/k/ksj/east_island/npc/ghost.c line 33: Wrong number of arguments to set_name
+    Expected: 2  Got: 1 before the end of line
+
+[Tue Feb 25 15:15:13 2003] u/k/ksj/east_island/npc/ghost.c line 34: parse error before  = this_player(1);
+
+[Tue Feb 25 15:15:13 2003] u/k/ksj/east_island/npc/ghost.c line 34: Illegal LHS before the end of line
+
+[Tue Feb 25 15:15:13 2003] u/k/ksj/east_island/npc/ghost.c line 35: Undefined variable 'ob' before  
+
+[Tue Feb 25 15:18:08 2003] u/k/ksj/east_island/npc/eq/tower.c line 22: parse error before the end of file
+
+[Tue Feb 25 15:31:24 2003] u/k/ksj/east_island/statue.c line 61: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Tue Feb 25 15:31:24 2003] u/k/ksj/east_island/statue.c line 61: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Tue Feb 25 15:31:24 2003] u/k/ksj/east_island/statue.c line 61: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Tue Feb 25 15:31:24 2003] u/k/ksj/east_island/statue.c line 61: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Tue Feb 25 15:31:24 2003] u/k/ksj/east_island/statue.c line 61: Illegal to redefine 'nomask' function "query_encumbrance" before the end of line
+
+[Tue Feb 25 15:31:24 2003] u/k/ksj/east_island/statue.c line 61: Illegal to redefine 'nomask' function "over_encumbranced" before the end of line
+
+[Tue Feb 25 18:32:06 2003] u/k/ksj/east_island/npc/apeman-king.c line 37: Reserved type name unexpected. before ;
+
+[Tue Feb 25 18:32:06 2003] u/k/ksj/east_island/npc/apeman-king.c line 37: parse error before ;
+
+[Tue Feb 25 18:32:06 2003] u/k/ksj/east_island/npc/apeman-king.c line 41: Illegal LHS before )
+
+[Tue Feb 25 18:32:06 2003] u/k/ksj/east_island/npc/apeman-king.c line 41: parse error before )
+
+[Wed Feb 26 18:20:22 2003] u/k/ksj/east_island/npc/bath-lady.c line 16: Warning: Unknown \ escape. before Ä³á¡ã" :),
+
+[Wed Feb 26 18:45:56 2003] u/k/ksj/east_island/bathroom.c line 44: Warning: Unknown \ escape. before bÀY¤W¡A³¬µÛÂù²´¥þ¨­©
+
+[Wed Feb 26 18:45:56 2003] u/k/ksj/east_island/bathroom.c line 73: Warning: Unknown \ escape. before h¯«§L§Q¾¹¡A§A°ª¿³¦a¤
+
+[Wed Feb 26 18:45:56 2003] u/k/ksj/east_island/bathroom.c line 76: Warning: Unknown \ escape. before hªZªLµ´¾Ç¡ã¡ã\n"NOR)
+
+[Wed Feb 26 18:46:56 2003] u/k/ksj/east_island/bathroom.c line 44: Warning: Unknown \ escape. before b\ÀY¤W¡A³¬µÛÂù²´¥þ¨­
+
+[Wed Feb 26 18:46:56 2003] u/k/ksj/east_island/bathroom.c line 44: Warning: Unknown \ escape. before Y¤W¡A³¬µÛÂù²´¥þ¨­©ñÃ
+
+[Thu Feb 27 09:20:51 2003] u/k/ksj/east_island/npc/food-master.c line 1: Cannot #include ansi before inherit NPC;
+
+[Thu Feb 27 09:20:51 2003] u/k/ksj/east_island/npc/food-master.c line 72: parse error before " µð§l "NOR"ºÝ¨ì$Nªº
+
+[Thu Feb 27 12:27:39 2003] u/k/ksj/east_island/npc/eq/bogle-bead.c line 18: Undefined variable 'HIG' before  NOR );
+
+[Thu Feb 27 12:27:39 2003] u/k/ksj/east_island/npc/eq/bogle-bead.c line 18: parse error before  NOR );
+
+[Thu Feb 27 13:57:18 2003] u/k/ksj/east_island/npc/food-master.c line 288: parse error before ,me)
+
+[Thu Feb 27 18:09:00 2003] u/k/ksj/east_island/npc/eq/agrestal-grape.c line 1: parse error before ansi.h>
+
+[Thu Mar  6 10:32:45 2003] u/k/ksj/lost_island/npc/huge-turtle.c line 94: Overlapping cases: include/globals.h: and include/globals.h:. before the end of line
+
+[Thu Mar  6 10:33:29 2003] u/k/ksj/lost_island/npc/huge-turtle.c line 94: Overlapping cases: include/globals.h: and include/globals.h:. before the end of line
+
+[Thu Mar  6 10:34:38 2003] u/k/ksj/lost_island/npc/huge-turtle.c line 94: Overlapping cases: include/globals.h: and include/globals.h:. before the end of line
+
+[Thu Mar  6 10:47:05 2003] u/k/ksj/lost_island/npc/huge-turtle.c line 51: Undefined variable 'damage' before ")\n\n"NOR,target);
+
+[Thu Mar 13 18:10:58 2003] u/k/ksj/lost_island/npc/eq/blood-eye-dragon-armor.c line 34: parse error before the end of file
+
+[Thu Mar 13 18:34:57 2003] u/k/ksj/lost_island/room35.c line 39: Warning: Unknown \ escape. before D¤W¥ÛªL¡C\n"NOR,me);
+
+[Thu Mar 13 18:43:51 2003] u/k/ksj/lost_island/npc/eq/poison-snake-pill.c line 39: parse error before ;
+
+[Fri Mar 14 08:55:43 2003] u/k/ksj/sea-stone.c line 25: No such inherited function ::init before ;
+
+[Fri Mar 14 08:55:43 2003] u/k/ksj/sea-stone.c line 30: Undefined variable 'sea' before stone.c) j++;
+
+[Fri Mar 14 08:55:43 2003] u/k/ksj/sea-stone.c line 30: Undefined variable 'stone' before c) j++;
+
+[Fri Mar 14 08:55:43 2003] u/k/ksj/sea-stone.c line 30: parse error before c) j++;
+
+[Fri Mar 14 12:50:28 2003] u/k/ksj/fly-sea-stone.c line 33: Undefined variable 'j' before 0;
+
+[Fri Mar 14 12:50:28 2003] u/k/ksj/fly-sea-stone.c line 39: Undefined variable 'me' before ;
+
+[Fri Mar 14 12:51:08 2003] u/k/ksj/fly-sea-stone.c line 40: Undefined variable 'me' before ;
+
+[Sun Mar 16 10:36:07 2003] u/k/ksj/lost_island/room_add.c line 16: parse error before  __DIR__"stone-boat"
+
+[Sun Mar 16 10:47:59 2003] u/k/ksj/lost_island/stone-boat.c line 29: Undefined variable 'z' before present("sea stone",
+
+[Sun Mar 16 10:47:59 2003] u/k/ksj/lost_island/stone-boat.c line 29: Undefined variable 'me' before  ) )
+
+[Sun Mar 16 10:47:59 2003] u/k/ksj/lost_island/stone-boat.c line 30: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Mar 16 10:47:59 2003] u/k/ksj/lost_island/stone-boat.c line 33: parse error before ",5,6);
+
+[Sun Mar 16 10:47:59 2003] u/k/ksj/lost_island/stone-boat.c line 47: $var illegal outside of function pointer. before N±NºÑ®ü¥Û´O¦b¥Û¦àªº¤
+
+[Sun Mar 16 10:47:59 2003] u/k/ksj/lost_island/stone-boat.c line 70: Illegal terminator before ¯P·n®Ì¤F´X¤U....\n\n
+
+[Sun Mar 16 10:50:48 2003] u/k/ksj/lost_island/room_add.c line 17: parse error before  __DIR__"stone-boat"
+
+[Sun Mar 16 10:51:34 2003] u/k/ksj/lost_island/room_add.c line 16: parse error before  __DIR__"stone-boat"
+
+[Tue Mar 18 08:56:13 2003] u/k/ksj/workroom.c line 25: Undefined variable 'DOOR_CLOSED' before ;
+
+[Wed Mar 19 17:16:33 2003] u/k/ksj/temp/room28.c line 23: parse error before ();
+
+[Wed Mar 19 17:18:54 2003] u/k/ksj/temp/treasure-paper2.c line 85: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Wed Mar 19 17:18:54 2003] u/k/ksj/temp/treasure-paper2.c line 85: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Wed Mar 19 17:18:54 2003] u/k/ksj/temp/treasure-paper2.c line 85: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Wed Mar 19 17:18:54 2003] u/k/ksj/temp/treasure-paper2.c line 85: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Wed Mar 19 17:18:54 2003] u/k/ksj/temp/treasure-paper2.c line 85: Illegal to redefine 'nomask' function "query_encumbrance" before the end of line
+
+[Wed Mar 19 17:18:54 2003] u/k/ksj/temp/treasure-paper2.c line 85: Illegal to redefine 'nomask' function "over_encumbranced" before the end of line
+
+[Wed Mar 19 17:38:48 2003] u/k/ksj/temp/room25.c line 23: parse error before ("objects",([
+
+[Wed Mar 19 17:39:46 2003] u/k/ksj/temp/room25.c line 23: parse error before ("objects",([
+
+[Wed Mar 19 17:40:36 2003] u/k/ksj/temp/room25.c line 26: parse error before ();
+
+[Thu Mar 20 08:12:47 2003] u/k/ksj/temp/room40.c line 36: Undefined variable 'What' before );
+
+[Thu Mar 20 08:12:47 2003] u/k/ksj/temp/room40.c line 36: parse error before ;
+
+[Thu Mar 20 08:12:47 2003] u/k/ksj/temp/room40.c line 37: Illegal LHS before  )
+
+[Thu Mar 20 08:12:47 2003] u/k/ksj/temp/room40.c line 37: parse error before  )
+
+[Thu Mar 20 08:41:59 2003] u/k/ksj/temp/room40.c line 31: Undefined function delete_action before ;
+
+[Thu Mar 20 12:55:09 2003] u/k/ksj/temp/red-journal.c line 34: Undefined variable 'str' before  str!="journal") ret
+
+[Thu Mar 20 12:55:09 2003] u/k/ksj/temp/red-journal.c line 40: Warning: Unknown \ escape. before Aµ²ªG¤é»x¸T¤£°_ºR´Ý¦
+
+[Thu Mar 20 18:31:37 2003] u/k/ksj/temp/npc/sailorman.c line 30: parse error before   
+
+[Thu Mar 20 18:31:37 2003] u/k/ksj/temp/npc/sailorman.c line 64: Illegal LHS before the end of line
+
+[Thu Mar 20 18:31:37 2003] u/k/ksj/temp/npc/sailorman.c line 64: parse error before the end of line
+
+[Thu Mar 20 18:31:37 2003] u/k/ksj/temp/npc/sailorman.c line 79: Illegal LHS before the end of line
+
+[Thu Mar 20 18:31:37 2003] u/k/ksj/temp/npc/sailorman.c line 79: parse error before the end of line
+
+[Thu Mar 20 18:32:01 2003] u/k/ksj/temp/npc/sailorman.c line 30: parse error before   
+
+[Thu Mar 20 18:32:01 2003] u/k/ksj/temp/npc/sailorman.c line 64: Illegal LHS before the end of line
+
+[Thu Mar 20 18:32:01 2003] u/k/ksj/temp/npc/sailorman.c line 64: parse error before the end of line
+
+[Thu Mar 20 18:32:01 2003] u/k/ksj/temp/npc/sailorman.c line 79: Illegal LHS before the end of line
+
+[Thu Mar 20 18:32:01 2003] u/k/ksj/temp/npc/sailorman.c line 79: parse error before the end of line
+
+[Thu Mar 20 18:54:08 2003] u/k/ksj/temp/npc/eq/gold-finger.c line 3: parse error before ;
+
+[Wed Mar 26 12:36:16 2003] u/k/ksj/east_island/npc/stone-puppet.c line 3: Missing type for global variable declaration before the end of line
+
+[Wed Mar 26 12:36:16 2003] u/k/ksj/east_island/npc/stone-puppet.c line 38: Bad argument 1 to efun environment() before  )
+
+[Wed Mar 26 12:38:17 2003] u/k/ksj/east_island/npc/stone-puppet.c line 4: Missing type for global variable declaration before the end of line
+
+[Wed Mar 26 12:38:17 2003] u/k/ksj/east_island/npc/stone-puppet.c line 39: Bad argument 1 to efun environment() before  )
+
+[Fri Mar 28 12:46:17 2003] u/k/ksj/temp/room_add.c line 20: Undefined function set_max_capacity before ;
+
+[Fri Mar 28 18:38:29 2003] u/k/ksj/east_island/npc/stone-puppet.c line 44: Undefined function offensive_target before ;
+
+[Fri Mar 28 18:38:29 2003] u/k/ksj/east_island/npc/stone-puppet.c line 44: Bad assignment ( object vs unknown ). before the end of line
+
+[Fri Mar 28 18:38:29 2003] u/k/ksj/east_island/npc/stone-puppet.c line 45: Undefined variable 'me' before )
+
+[Fri Mar 28 18:40:01 2003] u/k/ksj/east_island/npc/stone-puppet.c line 46: Undefined variable 'me' before )
+
+[Sat Mar 29 13:40:25 2003] u/k/ksj/blood-eye-dragon.c line 50: Illegal lvalue before query_temp("last_opp
+
+[Sat Mar 29 13:43:26 2003] u/k/ksj/blood-eye-dragon.c line 50: Illegal lvalue before this_object()->query
+
+[Sat Mar 29 16:16:16 2003] u/k/ksj/sword-tiger.c line 59: Undefined variable 'me' before ;
+
+[Thu Apr 10 08:16:43 2003] u/k/ksj/robot2.c line 25: No such inherited function ::valid_leave before ;
+
+[Fri Apr 11 08:40:36 2003] u/k/ksj/room-temp.c line 35: parse error before ,600,ob);
+
+[Fri Apr 11 18:10:14 2003] u/k/ksj/temp/npc/mind-flayer.c line 52: parse error before this_object(),this_p
+
+[Fri Apr 11 18:10:14 2003] u/k/ksj/temp/npc/mind-flayer.c line 67: Undefined variable 'target' before query_shield())+rand
+
+[Fri Apr 11 18:10:14 2003] u/k/ksj/temp/npc/mind-flayer.c line 67: Illegal LHS before the end of line
+
+[Fri Apr 11 18:10:14 2003] u/k/ksj/temp/npc/mind-flayer.c line 67: parse error before the end of line
+
+[Fri Apr 11 18:10:14 2003] u/k/ksj/temp/npc/mind-flayer.c line 76: Illegal LHS before the end of line
+
+[Fri Apr 11 18:10:14 2003] u/k/ksj/temp/npc/mind-flayer.c line 76: parse error before the end of line
+
+[Sat Apr 12 13:36:29 2003] u/k/ksj/temp/npc/mind-flayer.c line 94: Too many arguments to command before ;
+
+[Sat Apr 12 13:36:29 2003] u/k/ksj/temp/npc/mind-flayer.c line 98: Too many arguments to command before ;
+
+[Sat Apr 12 13:36:29 2003] u/k/ksj/temp/npc/mind-flayer.c line 102: Too many arguments to command before ;
+
+[Sat Apr 12 13:36:29 2003] u/k/ksj/temp/npc/mind-flayer.c line 106: Too many arguments to command before ;
+
+[Sat Apr 12 13:36:29 2003] u/k/ksj/temp/npc/mind-flayer.c line 110: Too many arguments to command before ;
+
+[Sat Apr 12 13:36:29 2003] u/k/ksj/temp/npc/mind-flayer.c line 114: Too many arguments to command before ;
+
+[Sat Apr 12 15:43:08 2003] u/k/ksj/temp/npc/ifrit.c line 97: Undefined variable 'me' before );
+
+[Sat Apr 12 15:43:08 2003] u/k/ksj/temp/npc/ifrit.c line 108: Undefined variable 'damage' before  random(50)+150-( in
+
+[Sat Apr 12 15:43:08 2003] u/k/ksj/temp/npc/ifrit.c line 114: parse error before ;
+
+[Sat Apr 12 15:43:08 2003] u/k/ksj/temp/npc/ifrit.c line 120: Reserved type name unexpected. before (object me, object t
+
+[Sat Apr 12 15:43:08 2003] u/k/ksj/temp/npc/ifrit.c line 120: parse error before (object me, object t
+
+[Sat Apr 12 15:43:08 2003] u/k/ksj/temp/npc/ifrit.c line 123: Illegal LHS before the end of line
+
+[Sat Apr 12 15:44:52 2003] u/k/ksj/temp/npc/ifrit.c line 109: Undefined variable 'damage' before  random(50)+150-( in
+
+[Sat Apr 12 15:44:52 2003] u/k/ksj/temp/npc/ifrit.c line 115: parse error before ;
+
+[Sat Apr 12 15:44:52 2003] u/k/ksj/temp/npc/ifrit.c line 121: Reserved type name unexpected. before (object me, object t
+
+[Sat Apr 12 15:44:52 2003] u/k/ksj/temp/npc/ifrit.c line 121: parse error before (object me, object t
+
+[Sat Apr 12 15:44:52 2003] u/k/ksj/temp/npc/ifrit.c line 124: Illegal LHS before the end of line
+
+[Sat Apr 12 15:44:52 2003] u/k/ksj/temp/npc/ifrit.c line 125: Undefined variable 'me' before  return 0;
+
+[Sat Apr 12 15:49:50 2003] u/k/ksj/temp/npc/ifrit.c line 111: Undefined variable 'damage' before  random(50)+150-( in
+
+[Sat Apr 12 15:49:50 2003] u/k/ksj/temp/npc/ifrit.c line 117: parse error before ;
+
+[Sat Apr 12 15:49:50 2003] u/k/ksj/temp/npc/ifrit.c line 123: Reserved type name unexpected. before (object me, object t
+
+[Sat Apr 12 15:49:50 2003] u/k/ksj/temp/npc/ifrit.c line 123: parse error before (object me, object t
+
+[Sat Apr 12 15:49:50 2003] u/k/ksj/temp/npc/ifrit.c line 126: Illegal LHS before the end of line
+
+[Sat Apr 12 15:49:50 2003] u/k/ksj/temp/npc/ifrit.c line 127: Undefined variable 'me' before  return 0;
+
+[Sat Apr 12 15:50:42 2003] u/k/ksj/temp/npc/ifrit.c line 117: parse error before ;
+
+[Sat Apr 12 15:50:42 2003] u/k/ksj/temp/npc/ifrit.c line 123: Reserved type name unexpected. before (object me, object t
+
+[Sat Apr 12 15:50:42 2003] u/k/ksj/temp/npc/ifrit.c line 123: parse error before (object me, object t
+
+[Sat Apr 12 15:50:42 2003] u/k/ksj/temp/npc/ifrit.c line 126: Illegal LHS before the end of line
+
+[Sat Apr 12 15:50:42 2003] u/k/ksj/temp/npc/ifrit.c line 127: Undefined variable 'me' before  return 0;
+
+[Sat Apr 12 15:50:42 2003] u/k/ksj/temp/npc/ifrit.c line 140: Undefined variable 'ball' before "Áû¯P¿V¼u¡C¡I¡I\n"NO
+
+[Sat Apr 12 15:51:40 2003] u/k/ksj/temp/npc/ifrit.c line 117: parse error before ;
+
+[Sat Apr 12 16:19:41 2003] u/k/ksj/temp/npc/fire-ball.c line 22: Undefined variable 'i' before 0;i<sizeof(inv);i++)
+
+[Sat Apr 12 16:38:10 2003] u/k/ksj/temp/npc/ifrit.c line 129: Undefined variable 'z' before present("flame sword
+
+[Sat Apr 12 16:58:17 2003] u/k/ksj/temp/npc/eq/flame-sword.c line 46: Undefined variable 'me' before ;
+
+[Sun Apr 13 14:40:22 2003] u/k/ksj/temp/npc/mind-flayer.c line 125: Number of arguments disagrees with previous definition. before the end of line
+
+[Sun Apr 13 14:42:47 2003] u/k/ksj/temp/npc/mind-flayer.c line 94: Undefined function hest_ppl before ;
+
+[Sun Apr 13 14:42:47 2003] u/k/ksj/temp/npc/mind-flayer.c line 125: Redeclaration of function hest_ppl. before the end of line
+
+[Sun Apr 13 14:43:33 2003] u/k/ksj/temp/npc/mind-flayer.c line 94: Wrong number of arguments to hest_ppl
+    Expected: 0  Got: 1 before ;
+
+[Sun Apr 13 14:43:33 2003] u/k/ksj/temp/npc/mind-flayer.c line 98: Wrong number of arguments to hest_ppl
+    Expected: 0  Got: 1 before ;
+
+[Sun Apr 13 14:43:33 2003] u/k/ksj/temp/npc/mind-flayer.c line 102: Wrong number of arguments to hest_ppl
+    Expected: 0  Got: 1 before ;   
+
+[Sun Apr 13 14:43:33 2003] u/k/ksj/temp/npc/mind-flayer.c line 106: Wrong number of arguments to hest_ppl
+    Expected: 0  Got: 1 before ;   
+
+[Sun Apr 13 14:43:33 2003] u/k/ksj/temp/npc/mind-flayer.c line 110: Wrong number of arguments to hest_ppl
+    Expected: 0  Got: 1 before ;
+
+[Sun Apr 13 14:43:33 2003] u/k/ksj/temp/npc/mind-flayer.c line 114: Wrong number of arguments to hest_ppl
+    Expected: 0  Got: 1 before ;
+
+[Sun Apr 13 15:33:40 2003] u/k/ksj/temp/npc/mind-flayer.c line 97: Undefined variable 'tid' before " to moongirl);
+
+[Sun Apr 13 15:33:40 2003] u/k/ksj/temp/npc/mind-flayer.c line 99: parse error before ");
+
+[Sun Apr 13 15:33:40 2003] u/k/ksj/temp/npc/mind-flayer.c line 134: Illegal LHS before the end of line
+
+[Sun Apr 13 15:33:40 2003] u/k/ksj/temp/npc/mind-flayer.c line 135: parse error before  = this_player(1);
+
+[Sun Apr 13 15:33:40 2003] u/k/ksj/temp/npc/mind-flayer.c line 135: Illegal LHS before the end of line
+
+[Sun Apr 13 15:33:40 2003] u/k/ksj/temp/npc/mind-flayer.c line 136: Undefined variable 'ob' before  
+
+[Sun Apr 13 15:33:40 2003] u/k/ksj/temp/npc/mind-flayer.c line 139: Warning: Non-void functions must return a value. before the end of line
+
+[Sun Apr 13 15:33:40 2003] u/k/ksj/temp/npc/mind-flayer.c line 149: Warning: Non-void functions must return a value. before the end of line
+
+[Sun Apr 13 15:34:14 2003] u/k/ksj/temp/npc/mind-flayer.c line 99: parse error before ");
+
+[Sun Apr 13 15:34:14 2003] u/k/ksj/temp/npc/mind-flayer.c line 134: Illegal LHS before the end of line
+
+[Sun Apr 13 15:34:14 2003] u/k/ksj/temp/npc/mind-flayer.c line 135: parse error before  = this_player(1);
+
+[Sun Apr 13 15:34:14 2003] u/k/ksj/temp/npc/mind-flayer.c line 135: Illegal LHS before the end of line
+
+[Sun Apr 13 15:34:14 2003] u/k/ksj/temp/npc/mind-flayer.c line 136: Undefined variable 'ob' before  
+
+[Sun Apr 13 15:34:14 2003] u/k/ksj/temp/npc/mind-flayer.c line 139: Warning: Non-void functions must return a value. before the end of line
+
+[Sun Apr 13 15:34:14 2003] u/k/ksj/temp/npc/mind-flayer.c line 149: Warning: Non-void functions must return a value. before the end of line
+
+[Sun Apr 13 15:34:14 2003] u/k/ksj/temp/npc/mind-flayer.c line 151: parse error before the end of file
+
+[Mon Apr 14 08:52:59 2003] u/k/ksj/temp/npc/mind-flayer.c line 117: Undefined function do_remove before ;
+
+[Mon Apr 14 08:55:36 2003] u/k/ksj/temp/npc/mind-flayer.c line 117: Undefined function do_remove before ;
+
+[Mon Apr 14 08:55:36 2003] u/k/ksj/temp/npc/mind-flayer.c line 172: Redeclaration of function do_remove. before the end of line
+
+[Mon Apr 14 08:57:11 2003] u/k/ksj/temp/npc/mind-flayer.c line 5: parse error before  *combat_action = ({
+
+[Wed Apr 23 17:57:58 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 32: Undefined variable 'obj' before ;
+
+[Wed Apr 23 17:57:58 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 32: parse error before ;
+
+[Wed Apr 23 17:57:58 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 33: Illegal LHS before the end of line
+
+[Wed Apr 23 17:57:58 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 34: Reserved type name unexpected. before ,times;
+
+[Wed Apr 23 17:57:58 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 34: parse error before ,times;
+
+[Wed Apr 23 17:57:58 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 35: Illegal LHS before the end of line
+
+[Wed Apr 23 17:59:18 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 34: Reserved type name unexpected. before ,times;
+
+[Wed Apr 23 17:59:18 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 34: parse error before ,times;
+
+[Wed Apr 23 17:59:18 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 35: Illegal LHS before the end of line
+
+[Wed Apr 23 17:59:18 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 37: Undefined variable 'me' before  return;
+
+[Wed Apr 23 17:59:18 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 38: Undefined variable 'victim' before  return;
+
+[Wed Apr 23 17:59:18 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 39: Undefined variable 'ob' before query("id") != "rear
+
+[Wed Apr 23 18:00:18 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 34: Reserved type name unexpected. before ,t;
+
+[Wed Apr 23 18:00:18 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 34: parse error before ,t;
+
+[Wed Apr 23 18:00:18 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 35: Illegal LHS before the end of line
+
+[Wed Apr 23 18:00:18 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 37: Undefined variable 'me' before  return;
+
+[Wed Apr 23 18:00:18 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 38: Undefined variable 'victim' before  return;
+
+[Wed Apr 23 18:00:18 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 39: Undefined variable 'ob' before query("id") != "rear
+
+[Wed Apr 23 18:02:55 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 34: Reserved type name unexpected. before ,t;
+
+[Wed Apr 23 18:02:55 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 34: parse error before ,t;
+
+[Wed Apr 23 18:02:55 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 35: Illegal LHS before the end of line
+
+[Wed Apr 23 18:02:55 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 37: Undefined variable 'me' before  return;
+
+[Wed Apr 23 18:02:55 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 38: Undefined variable 'victim' before  return;
+
+[Wed Apr 23 18:02:55 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 39: Undefined variable 'ob' before query("id") != "rear
+
+[Wed Apr 23 18:03:57 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 35: Reserved type name unexpected. before ,t;
+
+[Wed Apr 23 18:03:57 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 35: parse error before ,t;
+
+[Wed Apr 23 18:03:57 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 36: Illegal LHS before the end of line
+
+[Wed Apr 23 18:03:57 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 37: Undefined variable 'me' before  return;
+
+[Wed Apr 23 18:03:57 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 38: Undefined variable 'victim' before  return;
+
+[Wed Apr 23 18:03:57 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 39: Undefined variable 'ob' before query("id") != "rear
+
+[Wed Apr 23 18:06:18 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 33: Reserved type name unexpected. before ;
+
+[Wed Apr 23 18:06:18 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 33: parse error before ;
+
+[Wed Apr 23 18:06:18 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 34: Illegal LHS before the end of line
+
+[Wed Apr 23 18:06:18 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 35: Reserved type name unexpected. before ,t;
+
+[Wed Apr 23 18:06:18 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 35: parse error before ,t;
+
+[Wed Apr 23 18:06:18 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 36: Illegal LHS before the end of line
+
+[Wed Apr 23 18:07:25 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 33: Reserved type name unexpected. before ;
+
+[Wed Apr 23 18:07:25 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 33: parse error before ;
+
+[Wed Apr 23 18:07:25 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 34: Illegal LHS before the end of line
+
+[Wed Apr 23 18:07:25 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 35: Reserved type name unexpected. before ,t;
+
+[Wed Apr 23 18:07:25 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 35: parse error before ,t;
+
+[Wed Apr 23 18:07:25 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 36: Illegal LHS before the end of line
+
+[Wed Apr 23 18:10:35 2003] u/k/ksj/cyaneous/npc/eq/rear-admiral-blade.c line 39: Undefined variable 'TYPE_BERSERK' before ;
+
+[Wed Apr 23 18:13:16 2003] u/k/ksj/cyaneous/npc/rear-admiral.c line 17: Undefined variable 'HIC' before NOR);
+
+[Wed Apr 23 18:13:16 2003] u/k/ksj/cyaneous/npc/rear-admiral.c line 17: parse error before NOR);
+
+[Wed Apr 23 18:13:16 2003] u/k/ksj/cyaneous/npc/rear-admiral.c line 47: Illegal LHS before the end of line
+
+[Wed Apr 23 18:13:16 2003] u/k/ksj/cyaneous/npc/rear-admiral.c line 47: Wrong number of arguments to set
+    Expected: 2  Got: 1 before the end of line
+
+[Wed Apr 23 18:13:16 2003] u/k/ksj/cyaneous/npc/rear-admiral.c line 48: parse error before ()->kill_ob(this_pla
+
+[Wed Apr 23 18:13:16 2003] u/k/ksj/cyaneous/npc/rear-admiral.c line 62: Undefined variable 'HIC' before +HIW" ®ü­x¤Ö±N "HIW"
+
+[Wed Apr 23 18:14:07 2003] u/k/ksj/cyaneous/npc/rear-admiral.c line 48: Illegal lvalue before 1 )
+
+[Wed Apr 23 18:14:07 2003] u/k/ksj/cyaneous/npc/rear-admiral.c line 66: Illegal lvalue before 1;
+
+[Wed Apr 23 18:15:11 2003] u/k/ksj/cyaneous/npc/rear-admiral.c line 48: Illegal lvalue before 1 )
+
+[Wed Apr 23 18:22:23 2003] u/k/ksj/cyaneous/npc/rear-admiral.c line 55: Undefined variable 'ob' before  query_temp("last_da
+
+[Wed Apr 23 18:25:34 2003] u/k/ksj/cyaneous/npc/rear-admiral.c line 54: parse error before the end of line
+
+[Thu Apr 24 08:38:09 2003] u/k/ksj/cyaneous/npc/corpsman.c line 44: Left argument of -> is not a class before  !random(5) )
+
+[Thu Apr 24 08:38:09 2003] u/k/ksj/cyaneous/npc/corpsman.c line 74: Undefined variable 'cat_hp' before ob1->query("hp");
+
+[Thu Apr 24 08:43:13 2003] u/k/ksj/cyaneous/npc/corpsman.c line 77: Undefined variable 'cat_hp' before ob1->query("hp");
+
+[Wed May 21 22:48:37 2003] u/k/ksj/temp/skill/shinin-ryuu-blade.c line 12: Warning: Unknown \ escape. before X¡i´¸²´¡j¬[¶Õ¡A±N$wª
+
+[Wed May 21 22:48:37 2003] u/k/ksj/temp/skill/shinin-ryuu-blade.c line 20: Warning: Unknown \ escape. before X¡i¤W¬q¡j¤§¶Õ¡A¦P®É«
+
+[Wed May 21 22:48:37 2003] u/k/ksj/temp/skill/shinin-ryuu-blade.c line 29: Warning: Unknown \ escape. before X¡i¤¤¬q¡j¬[¶Õ¡A¥k¸}«
+
+[Wed May 21 22:48:37 2003] u/k/ksj/temp/skill/shinin-ryuu-blade.c line 118: Warning: Unknown \ escape. before X¡u·s³±¬y¤M³N¡vªº°ò¥
+
+[Fri May 23 08:32:12 2003] u/k/ksj/temp/skill/body-improvement.c line 23: parse error before  if(me->query_skill(
+
+[Fri May 23 08:35:33 2003] u/k/ksj/temp/skill/body-improvement.c line 40: Warning: Non-void functions must return a value. before  
+
+[Fri May 23 09:15:41 2003] u/k/ksj/temp/skill/shinin-ryuu-blade.c line 12: Warning: Unknown \ escape. before X¡i´¸²´¡j¬[¶Õ¡A±N$wª
+
+[Fri May 23 09:15:41 2003] u/k/ksj/temp/skill/shinin-ryuu-blade.c line 20: Warning: Unknown \ escape. before X¡i¤W¬q¡j¤§¶Õ¡A¦P®É«
+
+[Fri May 23 09:15:41 2003] u/k/ksj/temp/skill/shinin-ryuu-blade.c line 29: Warning: Unknown \ escape. before X¡i¤¤¬q¡j¬[¶Õ¡A¥k¸}«
+
+[Fri May 23 09:15:41 2003] u/k/ksj/temp/skill/shinin-ryuu-blade.c line 118: Warning: Unknown \ escape. before X¡u·s³±¬y¤M³N¡vªº°ò¥
+
+[Thu May 29 18:04:56 2003] u/k/ksj/temp/skill/sorsin-force.c line 83: Warning: Unknown \ escape. before C\n"); 
+
+[Thu May 29 18:04:56 2003] u/k/ksj/temp/skill/sorsin-force.c line 92: Warning: Unknown \ escape. before à¡H\n");
+
+[Thu May 29 18:04:56 2003] u/k/ksj/temp/skill/sorsin-force.c line 168: parse error before ->start_busy(te/2);
+
+[Thu May 29 18:04:56 2003] u/k/ksj/temp/skill/sorsin-force.c line 179: parse error before the end of line
+
+[Thu May 29 18:04:56 2003] u/k/ksj/temp/skill/sorsin-force.c line 180: Illegal LHS before the end of line
+
+[Thu May 29 18:04:56 2003] u/k/ksj/temp/skill/sorsin-force.c line 180: parse error before the end of line
+
+[Thu May 29 18:04:56 2003] u/k/ksj/temp/skill/sorsin-force.c line 187: Illegal LHS before the end of line
+
+[Thu May 29 18:04:56 2003] u/k/ksj/temp/skill/sorsin-force.c line 187: parse error before the end of line
+
+[Thu May 29 18:08:53 2003] u/k/ksj/temp/skill/sorsin-force.c line 171: parse error before ("stop_delay",360/te
+
+[Thu May 29 18:08:53 2003] u/k/ksj/temp/skill/sorsin-force.c line 179: parse error before the end of line
+
+[Thu May 29 18:08:53 2003] u/k/ksj/temp/skill/sorsin-force.c line 180: Illegal LHS before the end of line
+
+[Thu May 29 18:08:53 2003] u/k/ksj/temp/skill/sorsin-force.c line 180: parse error before the end of line
+
+[Thu May 29 18:08:53 2003] u/k/ksj/temp/skill/sorsin-force.c line 187: Illegal LHS before the end of line
+
+[Thu May 29 18:08:53 2003] u/k/ksj/temp/skill/sorsin-force.c line 187: parse error before the end of line
+
+[Thu May 29 18:09:40 2003] u/k/ksj/temp/skill/sorsin-force.c line 179: parse error before the end of line
+
+[Thu May 29 18:09:40 2003] u/k/ksj/temp/skill/sorsin-force.c line 180: Illegal LHS before the end of line
+
+[Thu May 29 18:09:40 2003] u/k/ksj/temp/skill/sorsin-force.c line 180: parse error before the end of line
+
+[Thu May 29 18:09:40 2003] u/k/ksj/temp/skill/sorsin-force.c line 187: Illegal LHS before the end of line
+
+[Thu May 29 18:09:40 2003] u/k/ksj/temp/skill/sorsin-force.c line 187: parse error before the end of line
+
+[Thu May 29 18:09:40 2003] u/k/ksj/temp/skill/sorsin-force.c line 190: Illegal LHS before action[random(sizeof
+
+[Thu May 29 18:12:42 2003] u/k/ksj/temp/skill/sorsin-force.c line 190: Bad left argument to '<' : "mapping " before msg++)
+
+[Thu May 29 18:12:42 2003] u/k/ksj/temp/skill/sorsin-force.c line 190: Bad argument 1 to x++: "string " before )
+
+[Thu May 29 18:15:59 2003] u/k/ksj/temp/skill/sorsin-force.c line 192: Bad assignment ( string vs mapping ). before the end of line
+
+[Thu May 29 18:25:57 2003] u/k/ksj/temp/skill/sorsin-force.c line 61: Reserved type name unexpected. before str_c = ({
+
+[Thu May 29 18:25:57 2003] u/k/ksj/temp/skill/sorsin-force.c line 61: parse error before str_c = ({
+
+[Thu May 29 18:25:57 2003] u/k/ksj/temp/skill/sorsin-force.c line 68: Illegal LHS before the end of line
+
+[Thu May 29 18:25:57 2003] u/k/ksj/temp/skill/sorsin-force.c line 69: Undefined variable 'me' before  return 0;
+
+[Thu May 29 18:25:57 2003] u/k/ksj/temp/skill/sorsin-force.c line 71: Undefined variable 'target' before  target = offensive_
+
+[Thu May 29 18:25:57 2003] u/k/ksj/temp/skill/sorsin-force.c line 77: Undefined variable 'weapon' before me->query_temp("weap
+
+[Thu May 29 18:29:02 2003] u/k/ksj/temp/skill/sorsin-force.c line 61: Reserved type name unexpected. before sorsin_str = ({
+
+[Thu May 29 18:29:02 2003] u/k/ksj/temp/skill/sorsin-force.c line 61: parse error before sorsin_str = ({
+
+[Thu May 29 18:29:02 2003] u/k/ksj/temp/skill/sorsin-force.c line 68: Illegal LHS before the end of line
+
+[Thu May 29 18:29:02 2003] u/k/ksj/temp/skill/sorsin-force.c line 69: Undefined variable 'me' before  return 0;
+
+[Thu May 29 18:29:02 2003] u/k/ksj/temp/skill/sorsin-force.c line 71: Undefined variable 'target' before  target = offensive_
+
+[Thu May 29 18:29:02 2003] u/k/ksj/temp/skill/sorsin-force.c line 77: Undefined variable 'weapon' before me->query_temp("weap
+
+[Thu May 29 18:29:46 2003] u/k/ksj/temp/skill/sorsin-force.c line 60: Reserved type name unexpected. before ,*sorsin_str = ({
+
+[Thu May 29 18:29:46 2003] u/k/ksj/temp/skill/sorsin-force.c line 60: parse error before ,*sorsin_str = ({
+
+[Thu May 29 18:29:46 2003] u/k/ksj/temp/skill/sorsin-force.c line 67: Illegal LHS before the end of line
+
+[Thu May 29 18:29:46 2003] u/k/ksj/temp/skill/sorsin-force.c line 68: Undefined variable 'me' before  return 0;
+
+[Thu May 29 18:29:46 2003] u/k/ksj/temp/skill/sorsin-force.c line 70: Undefined variable 'target' before  target = offensive_
+
+[Thu May 29 18:29:46 2003] u/k/ksj/temp/skill/sorsin-force.c line 76: Undefined variable 'weapon' before me->query_temp("weap
+
+[Thu May 29 18:31:02 2003] u/k/ksj/temp/skill/sorsin-force.c line 60: Reserved type name unexpected. before ,*zzzz = ({
+
+[Thu May 29 18:31:02 2003] u/k/ksj/temp/skill/sorsin-force.c line 60: parse error before ,*zzzz = ({
+
+[Thu May 29 18:31:02 2003] u/k/ksj/temp/skill/sorsin-force.c line 67: Illegal LHS before the end of line
+
+[Thu May 29 18:31:02 2003] u/k/ksj/temp/skill/sorsin-force.c line 68: Undefined variable 'me' before  return 0;
+
+[Thu May 29 18:31:02 2003] u/k/ksj/temp/skill/sorsin-force.c line 70: Undefined variable 'target' before  target = offensive_
+
+[Thu May 29 18:31:02 2003] u/k/ksj/temp/skill/sorsin-force.c line 76: Undefined variable 'weapon' before me->query_temp("weap
+
+[Thu May 29 18:33:03 2003] u/k/ksj/temp/skill/sorsin-force.c line 60: Reserved type name unexpected. before ,*sorsin_str;
+
+[Thu May 29 18:33:03 2003] u/k/ksj/temp/skill/sorsin-force.c line 60: parse error before ,*sorsin_str;
+
+[Thu May 29 18:33:03 2003] u/k/ksj/temp/skill/sorsin-force.c line 68: Illegal LHS before the end of line
+
+[Thu May 29 18:33:03 2003] u/k/ksj/temp/skill/sorsin-force.c line 69: Undefined variable 'me' before  return 0;
+
+[Thu May 29 18:33:03 2003] u/k/ksj/temp/skill/sorsin-force.c line 71: Undefined variable 'target' before  target = offensive_
+
+[Thu May 29 18:33:03 2003] u/k/ksj/temp/skill/sorsin-force.c line 77: Undefined variable 'weapon' before me->query_temp("weap
+
+[Thu May 29 18:34:09 2003] u/k/ksj/temp/skill/sorsin-force.c line 60: Reserved type name unexpected. before ,*sorsin_str;
+
+[Thu May 29 18:34:09 2003] u/k/ksj/temp/skill/sorsin-force.c line 60: parse error before ,*sorsin_str;
+
+[Thu May 29 18:34:09 2003] u/k/ksj/temp/skill/sorsin-force.c line 68: Illegal LHS before the end of line
+
+[Thu May 29 18:34:09 2003] u/k/ksj/temp/skill/sorsin-force.c line 69: Undefined variable 'me' before  return 0;
+
+[Thu May 29 18:34:09 2003] u/k/ksj/temp/skill/sorsin-force.c line 71: Undefined variable 'target' before  target = offensive_
+
+[Thu May 29 18:34:09 2003] u/k/ksj/temp/skill/sorsin-force.c line 77: Undefined variable 'weapon' before me->query_temp("weap
+
+[Thu May 29 18:38:28 2003] u/k/ksj/temp/skill/sorsin-force.c line 201: Undefined variable 'str_c' before random(sizeof(sor_st
+
+[Tue Jan 29 16:19:45 2008] /u/k/ksj/robot.c line 62: Warning: Unused local variable 'target' around the end of line
+

@@ -1,0 +1,62 @@
+[Thu Sep 14 02:52:50 2000] u/l/lestia/area/class/skill/2.c line 61: Illegal to redeclare local name 'me' before  = this_player();
+
+[Thu Sep 14 02:52:50 2000] u/l/lestia/area/class/skill/2.c line 397: Undefined variable 'me' before query_skill("soul-of
+
+[Thu Sep 14 02:52:50 2000] u/l/lestia/area/class/skill/2.c line 398: Undefined variable 'me' before  return;
+
+[Thu Sep 14 02:52:50 2000] u/l/lestia/area/class/skill/2.c line 399: Undefined variable 'me' before query_temp( "weapon"
+
+[Thu Sep 14 02:52:50 2000] u/l/lestia/area/class/skill/2.c line 402: Undefined variable 'me' before map_skill("sword");
+
+[Thu Sep 14 02:52:50 2000] u/l/lestia/area/class/skill/2.c line 403: Undefined variable 'me' before reset_action();
+
+[Thu Sep 14 02:54:20 2000] u/l/lestia/area/class/skill/2.c line 61: Undefined variable 'me' before query_dex() * 3;
+
+[Tue Sep 26 06:30:00 2000] u/l/lestia/area/map_6_3.c line 44: parse error before )==__DIR__"/obj/cook
+
+[Tue Sep 26 06:31:24 2000] u/l/lestia/area/map_6_3.c line 35: Bad assignment ( object vs string ). before the end of line
+
+[Tue Sep 26 06:31:24 2000] u/l/lestia/area/map_6_3.c line 45: parse error before )=="xx") count ++
+
+[Tue Sep 26 06:32:00 2000] u/l/lestia/area/map_6_3.c line 46: parse error before )=="xx") count ++
+
+[Tue Sep 26 06:32:12 2000] u/l/lestia/area/map_6_3.c line 46: parse error before )== xx ) count ++
+
+[Tue Sep 26 06:32:38 2000] u/l/lestia/area/map_6_3.c line 46: parse error before )=="+ xx +") count +
+
+[Tue Sep 26 06:33:08 2000] u/l/lestia/area/map_6_3.c line 44: parse error before )=="/u/l/lestia/obj/
+
+[Tue Sep 26 06:33:26 2000] u/l/lestia/area/map_6_3.c line 44: parse error before )=="/u/l/lestia/area
+
+[Tue Sep 26 06:38:42 2000] u/l/lestia/area/map_6_3.c line 46: parse error before )== xx ) count ++;
+
+[Tue Sep 26 06:39:06 2000] u/l/lestia/area/map_6_3.c line 46: parse error before )== "xx" ) count ++;
+
+[Tue Sep 26 06:39:18 2000] u/l/lestia/area/map_6_3.c line 46: parse error before )=="+ xx +") count +
+
+[Tue Sep 26 06:39:44 2000] u/l/lestia/area/map_6_3.c line 44: parse error before )=="/u/l/lestia/area
+
+[Tue Sep 26 06:43:58 2000] u/l/lestia/area/map_6_3.c line 35: Reserved type name unexpected. before  = "/u/l/lestia/area
+
+[Tue Sep 26 06:43:58 2000] u/l/lestia/area/map_6_3.c line 35: parse error before  = "/u/l/lestia/area
+
+[Tue Sep 26 06:43:58 2000] u/l/lestia/area/map_6_3.c line 35: Illegal LHS before the end of line
+
+[Tue Sep 26 06:43:58 2000] u/l/lestia/area/map_6_3.c line 36: Undefined variable 'me' before query("class1") != "
+
+[Tue Sep 26 06:43:58 2000] u/l/lestia/area/map_6_3.c line 37: Undefined variable 'arg' before  return notify_fail(
+
+[Tue Sep 26 06:43:58 2000] u/l/lestia/area/map_6_3.c line 43: Undefined variable 'i' before 0;i<sizeof(all_inven
+
+[Tue Sep 26 06:44:24 2000] u/l/lestia/area/map_6_3.c line 35: Reserved type name unexpected. before ;
+
+[Tue Sep 26 06:44:24 2000] u/l/lestia/area/map_6_3.c line 35: parse error before ;
+
+[Tue Sep 26 06:44:24 2000] u/l/lestia/area/map_6_3.c line 36: Illegal LHS before the end of line
+
+[Tue Sep 26 06:44:24 2000] u/l/lestia/area/map_6_3.c line 37: Undefined variable 'me' before query("class1") != "
+
+[Tue Sep 26 06:44:24 2000] u/l/lestia/area/map_6_3.c line 38: Undefined variable 'arg' before  return notify_fail(
+
+[Tue Sep 26 06:44:24 2000] u/l/lestia/area/map_6_3.c line 44: Undefined variable 'i' before 0;i<sizeof(all_inven
+

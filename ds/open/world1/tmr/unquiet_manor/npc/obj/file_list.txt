@@ -1,0 +1,8 @@
+¥Ø¿ý¡R/open/world1/tmr/unquiet_manor/npc/obj/
+blood_meat.c        ¥Í¦å¦×              ghost-dagger.c      ¦BÁ÷¬y¬PÁè        
+moon-mask.c         ¤ë¼v¯QÀû­±          obscure-pike.c      µL¹çªøºj          
+pagoda-claw.c       ºiªK¼F¤ö            q_plate.c           µL¹çµP¤l          
+q_stone.c           ¶À¤ú¥Û              unquiet-ring.c      «Í¥P§Ù            
+unquiet-ring2.c     «Í¥P§Ù              yellow-skin.c       ¶À¥Ö¤l¦ç          
+yellow-staff.c      ¶À°©§ú              yellow-whip.c       ¶À°©Ã@            
+

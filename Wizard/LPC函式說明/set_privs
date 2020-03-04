@@ -1,0 +1,18 @@
+
+	set_privs(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		set_privs() - 設定一個物件的私有字串 (privs string).
+	函數語法:
+		void set_privs( object ob, string privs );
+
+		無傳回值 set_privs( 物件 ob, 字串 privs );
+	函數用法:
+		設定 privs 為 ob 的私有字串.
+
+		這個超越函式 (efun) 只有在驅動程式編譯時定義 PRIVS
+		才有效.
+	參考函數:
+		privs_file(4), query_privs(3)
+	手冊翻譯:
+		Phoebus@ZH	97.Jul.21.		(Writen 5/23/97)

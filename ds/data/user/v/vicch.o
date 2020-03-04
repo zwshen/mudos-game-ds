@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["int":2,"DS_DATA_VERSION":19991107,"con":2,"max_hp":80,"str":2,"ap":60,"gender":"男性","cure_count":5,"name":"恨無敵","age":14,"attitude":"peaceful","Merits":(["tec":0,"sou":0,"wit":0,"bio":0,"bar":0,]),"race":"human","channels":({"chat","rumor","tchat",}),"evil":-1,"actions":,"addition_shield":10,"guild_gifts":({5,5,5,5,}),"default_actions":,"id":"vicch","level":1,"heart_beat_rate":6,"birthday":1147885637,"mp":60,"wound":(["left_arm":0,"right_arm":0,"left_leg":0,"right_leg":0,"body":0,"head":0,]),"addition_damage":10,"addition_armor":10,"max_ap":60,"max_mp":60,"volume":7,"mud_age":369,"supply_point":50,"talk_point":7,"last_location":"/open/world1/tmr/area/wbridge","startroom":"/open/world1/tmr/area/hotel","hp":80,"heart_modify":0,"newbie":1,"unit":"位","exp":777,"dex":2,])
+autoload ({})

@@ -1,0 +1,10 @@
+#/obj/user.c
+conditions ([])
+dbase (["addition_shield":10,"actions":,"heart_beat_rate":6,"DS_DATA_VERSION":19991107,"war_art":1083,"race":"human","max_mp":60,"max_hp":100,"title":"´Hº«¬£²Ä¤T¥N¹D¹­","channels":({"chat","rumor","tchat","dragon",}),"attitude":"peaceful","birthday":1165528360,"family":(["privs":-1,"title":"¹D¹­","family_name":"´Hº«¬£","generation":3,]),"id":"frost","last_location":"/open/world1/tmr/area/hotel","mp":60,"gender":"¤k©Ê","name":"´Hº«¬£","bank":(["past":100,]),"board_last_read":(["anoounce_b":1190465294,"tmr_hotel_b":1168514514,]),"adv_class":1,"cure_count":4,"unit":"¦ì","class1":"´Hº«¬£","max_ap":75,"addition_armor":10,"startroom":"/open/world1/tmr/area/hotel","ap":75,"guild_rank":"´Hº«¬£¤§¥H¤ß«´¹D","combat_exp":0,"skill":(["strong-body":18,]),"supply_point":547,"guild_gifts":({0,5,9,6,}),"default_actions":,"putjail_time":(["2":1,]),"age":33,"addition":(["con":1,]),"bellicosity":0,"env":([]),"addition_damage":10,"Merits":(["bar":0,"bio":0,"tec":0,"sou":0,"wit":0,]),"talk_point":80,"newbie":1,"volume":7,"exp":6967032,"dex":2,"int":2,"con":2,"hp":100,"str":2,"level":25,"disable_type":" <²@µL©I§l>","evil":-1,"mud_age":1657909,"heart_modify":0,"popularity":1080,"nickname":"´Hº«¬£[0m",])
+skills (["literate":0,"strong-body":19,"combat":2,"unarmed":1,"block":24,])
+learned (["combat":1,"unarmed":0,])
+items ({})
+alias (["/":"recall start","gobagi2":"do l off,e,n,w,w,w,w,w,w,s,s,sw,enter house,w,enter ¤sÁ_,climb ÃÃ½¯,w,n,w,l on,l",])
+autoload ({"/open/always/dragon_mark",})
+toDoList ([])
+solved ({})

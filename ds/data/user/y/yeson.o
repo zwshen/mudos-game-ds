@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions ([])
+dbase (["addition_damage":10,"popularity":35,"talk_point":8,"env":([]),"mp":110,"max_ap":60,"ap":60,"heart_modify":0,"default_actions":,"unit":"位","newbie":1,"exp":375063,"volume":7,"dex":2,"hp":80,"int":2,"con":2,"str":2,"level":1,"id":"yeson","last_location":"/open/world1/tmr/gumu/xuanya","DS_DATA_VERSION":19991107,"evil":-1,"channels":({"chat","rumor","tchat",}),"birthday":1185964609,"gender":"女性","name":"黃金品牌","race":"celestial","startroom":"/open/world1/tmr/area/hotel","heart_beat_rate":6,"age":14,"cure_count":18,"wound":(["body":0,"head":0,"right_leg":0,"right_arm":0,"left_arm":0,"left_leg":0,]),"mud_age":15600,"addition_shield":10,"actions":,"supply_point":60,"addition_armor":10,"Merits":(["bio":0,"tec":0,"sou":0,"wit":0,"bar":0,]),"attitude":"peaceful","war_art":38,"max_mp":110,"guild_gifts":({5,5,5,5,}),"max_hp":80,])
+skills (["strong-body":2,])
+learned (["strong-body":15,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

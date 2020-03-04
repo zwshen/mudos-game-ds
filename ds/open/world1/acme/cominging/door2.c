@@ -1,0 +1,24 @@
+#include <ansi.h>
+inherit ROOM;
+
+void create()
+{
+	set("short", "ªù");
+	set("long",
+HIW"\n                   ¡´            ¡´\n"
+HIW"                   ¢i            ¢i\n"
+HIW"                   ¢i            ¢i\n"
+HIW" ¢c¢c¢f¢f¢g¢g¢h¢h¢i¢i            ¢i¢i¢h¢h¢g¢g¢f¢f¢c¢c\n"
+HIW" ¢i¢i¢i¢i¢i¢i¢i¢i¢i¢i            ¢i¢i¢i¢i¢i¢i¢i¢i¢i¢i\n"
+HIW" ¢i¢i¢i¢i¢i¢i¢i¢i¢i¢i            ¢i¢i¢i¢i¢i¢i¢i¢i¢i¢i\n"
+HIW" ¢i¢i¢i¢i¢i¢i¢i¢i¢i¢i            ¢i¢i¢i¢i¢i¢i¢i¢i¢i¢i\n\n"NOR
+	);
+	set("exits", ([ /* sizeof() == 2 */
+  "west" : __DIR__"bigwall",
+  "north" : __DIR__"passage3",
+]));
+	set("no_clean_up", 0);
+	set("outdoors","land");
+	setup();
+	replace_program(ROOM);
+}

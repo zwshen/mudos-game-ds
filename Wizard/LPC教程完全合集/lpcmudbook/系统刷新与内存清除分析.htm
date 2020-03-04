@@ -1,0 +1,564 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0043)http://www.chinazmud.com/wz/list.asp?id=211 -->
+<HTML><HEAD><TITLE>系统刷新与内存清除分析</TITLE>
+<SCRIPT language=JavaScript>
+
+helpstat = false;
+stprompt = true;
+basic = false;
+function thelp(swtch){
+	if (swtch == 1){
+		basic = false;
+		stprompt = false;
+		helpstat = true;
+	} else if (swtch == 0) {
+		helpstat = false;
+		stprompt = false;
+		basic = true;
+	} else if (swtch == 2) {
+		helpstat = false;
+		basic = false;
+		stprompt = true;
+	}
+}
+
+function AddText(NewCode) {
+document.myform.txtcontent.value+=NewCode
+}
+
+function email() {
+	if (helpstat) {
+		alert("Email 标记\n插入 Email 超级链接\n用法1: [email]webmaster@aspsky.net[/email]\n用法2: [email=webmaster@aspsky.net]沙滩小子[/email]");
+	} else if (basic) {
+		AddTxt="[email][/email]";
+		AddText(AddTxt);
+	} else { 
+		txt2=prompt("链接显示的文字.\n如果为空，那么将只显示你的 Email 地址",""); 
+		if (txt2!=null) {
+			txt=prompt("Email 地址.","name@domain.com");      
+			if (txt!=null) {
+				if (txt2=="") {
+					AddTxt="[email]"+txt+"[/email]";
+				} else {
+					AddTxt="[email="+txt+"]"+txt2;
+					AddText(AddTxt);
+					AddTxt="[/email]";
+				} 
+				AddText(AddTxt);	        
+			}
+		}
+	}
+}
+function flash() {
+ 	if (helpstat){
+		alert("Flash 动画\n插入 Flash 动画.\n用法: [flash]Flash 文件的地址[/flash]");
+	} else if (basic) {
+		AddTxt="[flash][/flash]";
+		AddText(AddTxt);
+	} else {                  
+		txt=prompt("Flash 文件的地址","http://");
+		if (txt!=null) {             
+			AddTxt="[flash]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/flash]";
+			AddText(AddTxt);
+		}        
+	}  
+}
+
+function showsize(size) {
+	if (helpstat) {
+		alert("文字大小标记\n设置文字大小.\n可变范围 1 - 6.\n 1 为最小 6 为最大.\n用法: [size="+size+"]这是 "+size+" 文字[/size]");
+	} else if (basic) {
+		AddTxt="[size="+size+"][/size]";
+		AddText(AddTxt);
+	} else {                       
+		txt=prompt("大小 "+size,"文字"); 
+		if (txt!=null) {             
+			AddTxt="[size="+size+"]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/size]";
+			AddText(AddTxt);
+		}        
+	}
+}
+
+function bold() {
+	if (helpstat) {
+		alert("加粗标记\n使文本加粗.\n用法: [b]这是加粗的文字[/b]");
+	} else if (basic) {
+		AddTxt="[b][/b]";
+		AddText(AddTxt);
+	} else {  
+		txt=prompt("文字将被变粗.","文字");     
+		if (txt!=null) {           
+			AddTxt="[b]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/b]";
+			AddText(AddTxt);
+		}       
+	}
+}
+
+function italicize() {
+	if (helpstat) {
+		alert("斜体标记\n使文本字体变为斜体.\n用法: [i]这是斜体字[/i]");
+	} else if (basic) {
+		AddTxt="[i][/i]";
+		AddText(AddTxt);
+	} else {   
+		txt=prompt("文字将变斜体","文字");     
+		if (txt!=null) {           
+			AddTxt="[i]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/i]";
+			AddText(AddTxt);
+		}	        
+	}
+}
+
+function quote() {
+	if (helpstat){
+		alert("引用标记\n引用一些文字.\n用法: [quote]引用内容[/quote]");
+	} else if (basic) {
+		AddTxt="[quote][/quote]";
+		AddText(AddTxt);
+	} else {   
+		txt=prompt("被引用的文字","文字");     
+		if(txt!=null) {          
+			AddTxt="[quote]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/quote]";
+			AddText(AddTxt);
+		}	        
+	}
+}
+
+function showcolor(color) {
+	if (helpstat) {
+		alert("颜色标记\n设置文本颜色.  任何颜色名都可以被使用.\n用法: [color="+color+"]颜色要改变为"+color+"的文字[/color]");
+	} else if (basic) {
+		AddTxt="[color="+color+"][/color]";
+		AddText(AddTxt);
+	} else {  
+     	txt=prompt("选择的颜色是: "+color,"文字");
+		if(txt!=null) {
+			AddTxt="[color="+color+"]"+txt;
+			AddText(AddTxt);        
+			AddTxt="[/color]";
+			AddText(AddTxt);
+		} 
+	}
+}
+
+function center() {
+ 	if (helpstat) {
+		alert("对齐标记\n使用这个标记, 可以使文本左对齐、居中、右对齐.\n用法: [align=center|left|right]要对齐的文本[/align]");
+	} else if (basic) {
+		AddTxt="[align=center|left|right][/align]";
+		AddText(AddTxt);
+	} else {  
+		txt2=prompt("对齐样式\n输入 'center' 表示居中, 'left' 表示左对齐, 'right' 表示右对齐.","center");               
+		while ((txt2!="") && (txt2!="center") && (txt2!="left") && (txt2!="right") && (txt2!=null)) {
+			txt2=prompt("错误!\n类型只能输入 'center' 、 'left' 或者 'right'.","");               
+		}
+		txt=prompt("要对齐的文本","文本");     
+		if (txt!=null) {          
+			AddTxt="\r[align="+txt2+"]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/align]";
+			AddText(AddTxt);
+		}	       
+	}
+}
+
+function hyperlink() {
+	if (helpstat) {
+		alert("超级链接标记\n插入一个超级链接标记\n使用方法: [url]http://www.aspsky.net[/url]\nUSE: [url=http://www.aspsky.net]链接文字[/url]");
+	} else if (basic) {
+		AddTxt="[url][/url]";
+		AddText(AddTxt);
+	} else { 
+		txt2=prompt("链接文本显示.\n如果不想使用, 可以为空, 将只显示超级链接地址. ",""); 
+		if (txt2!=null) {
+			txt=prompt("超级链接.","http://");      
+			if (txt!=null) {
+				if (txt2=="") {
+					AddTxt="[url]"+txt;
+					AddText(AddTxt);
+					AddTxt="[/url]";
+					AddText(AddTxt);
+				} else {
+					AddTxt="[url="+txt+"]"+txt2;
+					AddText(AddTxt);
+					AddTxt="[/url]";
+					AddText(AddTxt);
+				}         
+			} 
+		}
+	}
+}
+
+function image() {
+	if (helpstat){
+		alert("图片标记\n插入图片\n用法： [img]http://www.aspsky.net/logo.gif[/img]");
+	} else if (basic) {
+		AddTxt="[img][/img]";
+		AddText(AddTxt);
+	} else {  
+		txt=prompt("图片的 URL","http://");    
+		if(txt!=null) {            
+			AddTxt="\r[img]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/img]";
+			AddText(AddTxt);
+		}	
+	}
+}
+
+function showcode() {
+	if (helpstat) {
+		alert("代码标记\n使用代码标记，可以使你的程序代码里面的 html 等标志不会被破坏.\n使用方法:\n [code]这里是代码文字[/code]");
+	} else if (basic) {
+		AddTxt="\r[code]\r[/code]";
+		AddText(AddTxt);
+	} else {   
+		txt=prompt("输入代码","");     
+		if (txt!=null) {          
+			AddTxt="\r[code]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/code]";
+			AddText(AddTxt);
+		}	       
+	}
+}
+
+function list() {
+	if (helpstat) {
+		alert("列表标记\n建造一个文字或则数字列表.\n\nUSE: [list] [*]项目一[/*] [*]项目二[/*] [*]项目三[/*] [/list]");
+	} else if (basic) {
+		AddTxt=" [list][*]  [/*][*]  [/*][*]  [/*][/list]";
+		AddText(AddTxt);
+	} else {  
+		txt=prompt("列表类型\n输入 'A' 表示有序列表, '1' 表示无序列表, 留空表示无序列表.","");               
+		while ((txt!="") && (txt!="A") && (txt!="a") && (txt!="1") && (txt!=null)) {
+			txt=prompt("错误!\n类型只能输入 'A' 、 '1' 或者留空.","");               
+		}
+		if (txt!=null) {
+			if (txt=="") {
+				AddTxt="[list]";
+			} else {
+				AddTxt="[list="+txt+"]";
+			} 
+			txt="1";
+			while ((txt!="") && (txt!=null)) {
+				txt=prompt("列表项\n空白表示结束列表",""); 
+				if (txt!="") {             
+					AddTxt+="[*]"+txt+"[/*]"; 
+				}                   
+			} 
+			AddTxt+="[/list] ";
+			AddText(AddTxt); 
+		}
+	}
+}
+
+function showfont(font) {
+ 	if (helpstat){
+		alert("字体标记\n给文字设置字体.\n用法: [face="+font+"]改变文字字体为"+font+"[/face]");
+	} else if (basic) {
+		AddTxt="[face="+font+"][/face]";
+		AddText(AddTxt);
+	} else {                  
+		txt=prompt("要设置字体的文字"+font,"文字");
+		if (txt!=null) {             
+			AddTxt="[face="+font+"]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/face]";
+			AddText(AddTxt);
+		}        
+	}  
+}
+function underline() {
+  	if (helpstat) {
+		alert("下划线标记\n给文字加下划线.\n用法: [u]要加下划线的文字[/u]");
+	} else if (basic) {
+		AddTxt="[u][/u]";
+		AddText(AddTxt);
+	} else {  
+		txt=prompt("下划线文字.","文字");     
+		if (txt!=null) {           
+			AddTxt="[u]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/u]";
+			AddText(AddTxt);
+		}	        
+	}
+}
+function setfly() {
+ 	if (helpstat){
+		alert("飞翔标记\n使文字飞行.\n用法: [fly]文字为这样文字[/fly]");
+	} else if (basic) {
+		AddTxt="[fly][/fly]";
+		AddText(AddTxt);
+	} else {                  
+		txt=prompt("飞翔文字","文字");
+		if (txt!=null) {             
+			AddTxt="[fly]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/fly]";
+			AddText(AddTxt);
+		}        
+	}  
+}
+
+function move() {
+	if (helpstat) {
+		alert("移动标记\n使文字产生移动效果.\n用法: [move]要产生移动效果的文字[/move]");
+	} else if (basic) {
+		AddTxt="[move][/move]";
+		AddText(AddTxt);
+	} else {  
+		txt=prompt("要产生移动效果的文字","文字");     
+		if (txt!=null) {           
+			AddTxt="[move]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/move]";
+			AddText(AddTxt);
+		}       
+	}
+}
+
+function shadow() {
+	if (helpstat) {
+               alert("阴影标记\n使文字产生阴影效果.\n用法: [SHADOW=宽度, 颜色, 边界]要产生阴影效果的文字[/SHADOW]");
+	} else if (basic) {
+		AddTxt="[SHADOW=255,blue,1][/SHADOW]";
+		AddText(AddTxt);
+	} else { 
+		txt2=prompt("文字的长度、颜色和边界大小","255,blue,1"); 
+		if (txt2!=null) {
+			txt=prompt("要产生阴影效果的文字","文字");
+			if (txt!=null) {
+				if (txt2=="") {
+					AddTxt="[SHADOW=255, blue, 1]"+txt;
+					AddText(AddTxt);
+					AddTxt="[/SHADOW]";
+					AddText(AddTxt);
+				} else {
+					AddTxt="[SHADOW="+txt2+"]"+txt;
+					AddText(AddTxt);
+					AddTxt="[/SHADOW]";
+					AddText(AddTxt);
+				}         
+			} 
+		}
+	}
+}
+
+function glow() {
+	if (helpstat) {
+		alert("光晕标记\n使文字产生光晕效果.\n用法: [GLOW=宽度, 颜色, 边界]要产生光晕效果的文字[/GLOW]");
+	} else if (basic) {
+		AddTxt="[glow=255,red,2][/glow]";
+		AddText(AddTxt);
+	} else { 
+		txt2=prompt("文字的长度、颜色和边界大小","255,red,2"); 
+		if (txt2!=null) {
+			txt=prompt("要产生光晕效果的文字.","文字");      
+			if (txt!=null) {
+				if (txt2=="") {
+					AddTxt="[glow=255,red,2]"+txt;
+					AddText(AddTxt);
+					AddTxt="[/glow]";
+					AddText(AddTxt);
+				} else {
+					AddTxt="[glow="+txt2+"]"+txt;
+					AddText(AddTxt);
+					AddTxt="[/glow]";
+					AddText(AddTxt);
+				}         
+			} 
+		}
+	}
+}
+function openscriphtml()
+{
+if (navigator.appName!="Microsoft Internet Explorer")
+   alert("此功能 Netscape 用户不能使用！")
+else
+   {newwin=window.open('htmledit/editor.html','','width=544,height=294');
+    newwin.focus();
+   }
+}
+function runEx(){
+//alert('请注意，按下确定将生成页面，按下后请稍后....');
+var winEx = window.open("", "winEx", "width=600,height=400,status=yes,menubar=yes,scrollbars=yes,resizable=yes"); winEx.document.open("text/html", "replace"); 
+winEx.document.write(unescape(event.srcElement.parentElement.children[2].value)); 
+winEx.document.close(); 
+}
+function openScript(url, width, height) {
+        var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=yes,status=yes' );
+}
+</SCRIPT>
+
+<SCRIPT language=Javascript>
+<!-- hide
+
+function insertsmilie(smilieface){
+
+	document.frmAnnounce.body.value+=smilieface;
+}
+// -->
+</SCRIPT>
+
+<META content="MSHTML 5.50.4134.600" name=GENERATOR>
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+<META content=ASP动网先锋,http://www.aspsky.net name=keywords><LINK 
+href="系统刷新与内存清除分析.files/style.css" rel=stylesheet></HEAD>
+<BODY bgColor=#000000>
+<TABLE cellSpacing=0 cellPadding=0 width="95%" align=center border=0>
+  <TBODY>
+  <TR>
+    <TD bgColor=#0099cc>
+      <TABLE borderColor=#0000ff cellSpacing=1 cellPadding=4 width="100%" 
+      bgColor=#000000 border=1>
+        <TBODY>
+        <TR bgColor=#0000ff>
+          <TD colSpan=2><FONT color=#ff0000>|<A 
+            href="http://www.chinazmud.com/index1.asp">返回首页</A> | 
+            |&nbsp;&nbsp;<A 
+            href="http://www.chinazmud.com/wz/default.asp?classid=3"> MUD功略 
+            </A>&nbsp;&nbsp;|&nbsp;&nbsp; |&nbsp;&nbsp;<A 
+            href="http://www.chinazmud.com/wz/default.asp?classid=5"> 教程文章 
+            </A>&nbsp;&nbsp;|&nbsp;&nbsp; |&nbsp;&nbsp;<A 
+            href="http://www.chinazmud.com/wz/default.asp?classid=6"> 其他文章 
+            </A>&nbsp;&nbsp;|&nbsp;&nbsp; </FONT></TD></TR>
+        <TR bgColor=#000000>
+          <TD colSpan=2><FONT color=#009900>|&nbsp;&nbsp;<A 
+            href="http://www.chinazmud.com/wz/index.asp?classid=5"><FONT 
+            color=#009900>教程文章</FONT></A>&gt;&gt;<A 
+            href="http://www.chinazmud.com/wz/index.asp?classid=5&amp;Nclassid=6"><FONT 
+            color=#009900>巫师与编程</FONT></A>&gt;&gt;系统刷新与内存清除分析 </FONT><BR></TD></TR>
+        <TR bgColor=#000000>
+          <TD colSpan=2>
+            <CENTER><B><FONT color=#ff0000 size=3>系统刷新与内存清除分析 
+            </FONT></B><BR><FONT color=#00ff00>&nbsp;2002-8-13&nbsp;&nbsp; 
+            </FONT></CENTER>
+            <P>
+            <BLOCKQUOTE><BR><FONT 
+              color=#009900>　　有关系统更新一直是玩家乃至于新巫师们关心的问题。比如，为何每隔15分钟大多数房间里杀死的NPC会重生？跑到别处或被玩家背到别处的NPC怎么会跑回去？为什么有的NPC跑不回去？什么有的东西会重生？为什么又有的东西只要别的玩家放在身上？等等。<BR>　　目前主流MUDLIB都是ES系列的。从ES系列沿袭下来的更新都是通过ROOM的更新实现的。而ROOM的更新则是由MUDOS里的设置每隔一定时间（一般是15分钟）调用一次所有的有reset()函数的房间。而这个reset()函数则写在ROOM的标准继承文件里面。下面我们则来看看ROOM是如何实现房间里的生物、物品的重生或更新： 
+              <BR>　　在写这篇文章之前，正好在网上看到darks兄写的《ROOM的结构》，于是我这篇文章的不少地方也就写得很顺畅了，有些直接引用了《ROOM》一文的一些内容。为了尊重原作者，凡是引用或出自darks兄的原文内容我都用“”与绿色标出：<BR>　　ROOM的标准文件由于MUDLIB的不同，放在目录路径也不同，但大多情况下也就是/inherit/room/下或者与/obj/room/下两种可能而已。反正不检查一下在/include/下的globals.h，看这个文件里ROOM是定义在哪里就可以了，下面来看一看room.c的程序详解：&lt;/P&gt;&lt;P&gt;inherit 
+              F_DBASE;<BR>//“这个是继承dbase标准继承，有了它，你才可使用set等函数为这个物件设定变数”（此问题日后做专题说明）。&lt;/P&gt;&lt;P&gt;inherit 
+              F_CLEAN_UP;<BR>//“这个用来定时清除很久没被访问的room”，这个概念我们要在后面谈到。&lt;/P&gt;&lt;P&gt;static 
+              mapping 
+              doors;<BR>//“这是一个有关房间里的门的全局变量，不是我们今天讨论的范围之内，你只要知道就行，我们在这个文件里还能找到与门相关的几个函数：”&lt;/P&gt;&lt;P&gt;mixed 
+              set_door(string dir, string prop, mixed data)<BR>mixed 
+              query_door(string dir, string prop)<BR>mapping 
+              query_doors()<BR>string look_door(string dir)<BR>varargs int 
+              open_door(string dir, int from_other_side)<BR>varargs int 
+              close_door(string dir, int from_other_side)<BR>varargs int 
+              lock_door(string dir, string key, int from_other_side)<BR>varargs 
+              int unlock_door(string dir, string key, int 
+              from_other_side)<BR>int check_door(string dir, mapping 
+              door)<BR>varargs void create_door(string dir, mixed data, string 
+              other_side_dir, int status)<BR>int valid_leave(object me, string 
+              dir)<BR>int query_max_encumbrance() { return 100000000000; } 
+              <BR>//设置可容纳的重量，以上这些函数大多与门有关，我们今天都一一略过，下面才是我们今天要研究的与系统房间刷新相关的函数： 
+              object make_inventory(string file)<BR>{<BR>　　object ob;<BR>　　ob = 
+              new(file);<BR>//根据传递来的路径名，将ob复制出来 
+              <BR>　　ob-&gt;move(this_object());<BR>//复制出来的ob移于目的地 
+              <BR>　　ob-&gt;set(\"startroom\", 
+              base_name(this_object()));<BR>　　return 
+              ob;<BR>}<BR>//这个函数用来产生一个房间里的物品。首先它需要别的函数在调用它的时候要传递给它一个需要产生的物件的路径。然后用new()复制出来，接着move到这个房间里，再接着给它设上startroom这个标记，这个标记就可以在这个房间定时呼叫自己房间里产生的npc可以使用return_home()这个函数时，正确回到原来的地方。&lt;/P&gt;&lt;P&gt;void 
+              reset()<BR>{<BR>　　mapping ob_list, ob;<BR>　　string *list;<BR>　　int 
+              i,j;&lt;/P&gt;&lt;P&gt;　　set(\"no_clean_up\", 
+              0);<BR>//“这个标记为零，即允许系统到了规定时间将这个文件扫出内存，那么这个文件内的所有东西都会消失。由于room标准继承有这句，似乎发现只要继承它的房间文件无论写为0/1都是无效的，因为都会在这里被清除成零。”&lt;/P&gt;&lt;P&gt;　　ob_list 
+              = query(\"objects\");<BR>//先取出一个这个房间初始设定的objects的映射集<BR>　　if( 
+              !mapp(ob_list) ) 
+              return;<BR>//如果这个房间初始时就没有设定有生物物品，就说明根本无需要刷新，因此到此返回。&lt;/P&gt;&lt;P&gt;　　if( 
+              !mapp(ob = query_temp(\"objects\")) )<BR>　　ob = 
+              allocate_mapping(sizeof(ob_list));<BR>//程序到后面才可看到ob = 
+              query_temp(\"objects\")是如何出来的，在这里，我们先不管，你只要知道，如果是一个刚刚编译进内存的房间，是不会有ob这个映射集的，因此需要用allocate_mapping按照ob_list的多少为这个新设定的映射集ob分配内存大小。&lt;/P&gt;&lt;P&gt;　　list 
+              = 
+              keys(ob_list);<BR>//从ob_list映射中取出关键字组成一个新数组。&lt;/P&gt;&lt;P&gt;　　for(i=0; 
+              i&lt;sizeof(list); i++)<BR>//开始循环检查这个数组里的每一项 <BR>　　{<BR>　　　　if( 
+              undefinedp(ob[list[i]])<BR>　　　　　　&amp;&amp; 
+              intp(ob_list[list[i]])<BR>　　　　　　&amp;&amp; ob_list[list[i]] &gt; 1 
+              )<BR>　　　　　　ob[list[i]] = 
+              allocate(ob_list[list[i]]);<BR>//如果房间里曾经定义了要产生物品，并且数量不止一个的话，就要进行ob[list[i]]这个物件数组的内存分配&lt;/P&gt;&lt;P&gt;　　　　switch(ob_list[list[i]])<BR>　　　　{<BR>　　　　case 
+              1:<BR>//举例一个文件里：set(\"objects\",([\"/d/city/npc/bing\":1]));，那么在这里，也就是ob_list[list[i]]这个值取出是1&lt;/P&gt;&lt;P&gt;　　　　　　if( 
+              !ob[list[i]] )<BR>　　　　　　　　ob[list[i]] = 
+              make_inventory(list[i]);<BR>//如果这一个对象已经不在了（玩家理解的就是被杀死了或被当作任务送掉了，巫师的理解就是被destruct了），就使用make_inventory()函数再重新制造一个放进来。这里注意了，仁去递过去的list[i]就是这一项物品的路径名，正因为有了路径名，make_inventory()函数才能正确制造出新的来。&lt;/P&gt;&lt;P&gt;　　　　　　if( 
+              environment(ob[list[i]]) != 
+              this_object())<BR>//反之如果还存在，但它目前所处之地却不是目前的这个房间&lt;/P&gt;&lt;P&gt;　　　　　　{<BR>　　　　　　　　if(ob[list[i]]-&gt;is_character()<BR>　　　　　　　　　　&amp;&amp;!ob[list[i]]-&gt;return_home(this_object()))<BR>　　　　　　　　add(\"no_clean_up\",1);<BR>//这句判断该物体如果是生物，就呼叫生物的return_home()叫它回来，如果这个NPC不能回来并且返回值是0的话，就会给这个房间增加一次no_clean_up的记号，程序的原作者之所以要在这里增加房间的no_clean_up记号，估计它的意思就是不想让系统在房间不能成功召回自己的NPC的情况下清除它，因为它想在以后的刷新中再把它呼叫回来。但是实际上，大家注意到前面的程序了吧，只要产生了下一次呼叫reset()时，前面就会把no_clean_up设为0，因此这段ES的源程有些莫名其妙，但大家居然都没人改，也是怪事。 
+              　　　　　　}<BR>　　　　　　break;<BR>　　　　　　default:<BR>//除此之外，也就是物件不止一个的话，举例相当于文件里：set(\"objects\",([\"/d/city/npc/bing\":2]))或者3,4....这类的情况&lt;/P&gt;&lt;P&gt;　　　　　　for(j=0; 
+              j&lt;ob_list[list[i]]; j++)<BR>　　　　　　{<BR>　　　　　　　　if( 
+              !objectp(ob[list[i]][j]) 
+              )<BR>　　　　　　　　{<BR>　　　　　　　　　　ob[list[i]][j] = 
+              make_inventory(list[i]);<BR>　　　　　　　　　　continue;<BR>　　　　　　　　}<BR>　　　　　　　　if( 
+              environment(ob[list[i]][j]) != 
+              this_object())<BR>　　　　　　　　{<BR>　　　　　　　　　　if(ob[list[i]][j]-&gt;is_character()<BR>　　　　　　　　　　&amp;&amp;!ob[list[i]][j]-&gt;return_home(this_object()) 
+              )<BR>　　　　　　　　　　add(\"no_clean_up\", 
+              1);<BR>　　　　　　　　}<BR>　　　　　　}<BR>//这里其实与物件只有一个是一样的，只是因为相同的物品不止一个，需要进行几次的循环判断而已。&lt;/P&gt;&lt;P&gt;　　　　 
+              }<BR>　　}<BR>　　set_temp(\"objects\", 
+              ob);<BR>//看到这里，知道这个函数里ob映射集是如何来的了吧，实际上ob_list就是代表的这个房间里的的query(\"objects\")，是一个字符串内容的映射集，而ob就是代表的这个房间里的query_temp(\"objects\")它实际上一个object型的映射集。<BR>}&lt;/P&gt;&lt;P&gt;　　reset()函数结束了，其实在ROOM里，除了这两个函数，还有一个在一开始编译进内存后进行首次调用reset()函数的setup()函数之外，其它的函数都是有关门的，都是可以去掉并影响房间的主要功能的，ROOM标准继承的最主要功能就是定时检查自己房间里的物品是否还在？是否需要更新等等。而这个定时则就是由MUDOS定义并按时呼叫房间里的reset()，这个时间绝大多数被定义为十五分钟。<BR>　　我们通过上面的程序详解可以看出，当一个房间被编译成功进入内存之后，那么这个房间就将自身产生出来的各个物体（假如它有的话）记入一个query_temp(\"objects\")的物件映射变量中，这个变量与我们写程序里的query(\"objects\")是一一对应的，只不过query(\"objects\")里记的是这此物件的<BR>文件路径，而query_temp(\"objects\")里记的是这些具体的物件。关于这两个映射的区别，有兴趣的新巫师可以找一个有很多NPC的房间按下面分别call两次，看看区别：<BR>call 
+              here-&gt;query(\"objects\")<BR>call 
+              here-&gt;query_temp(\"objects\")&lt;/P&gt;&lt;P&gt;　　在reset()被调用时，程序就会循环地一个个地查找这些物件是否还在MUD中？如果这些物件都已经不存在了，那么，reset()函数就会通过呼叫make_inventory()函数将其再次制造出来，也就是我们看到了，更新时间一到，很多被杀死的NPC，用掉的东西都会在原处产生出来。<BR>　　而如果这些物件都还在MUD中，就会检查它们是否还在原处？如果不在的话，只要是生物，就呼叫它的return_home()函数（这个函数在所有NPC的标准继承<BR>/inherit/char/npc.c里），叫它回来。并且要把这个房间作为参数传递过去，否则NPC会回不来。如果不是生物只得作罢（这就是房间产生出的物品如果被某一玩家放在身上，就再也不能重生的原因）。那么下面我们就来看一下npc.c里的return_home()函数：&lt;/P&gt;&lt;P&gt;int 
+              return_home(object 
+              home)<BR>//注意，括号里的home就是呼叫它回家的那个房间，当时是叫this_object()<BR>{<BR>　　if( 
+              !environment()││ environment()==home ) return 
+              1;<BR>//再次检查：是否在一个存在的环境里？是否已经回来了？如果是，则什么也不做，返回！<BR>　　if( 
+              !living(this_object())││ is_fighting()) return 
+              0;<BR>//如果NPC处于昏迷或战斗状态，则不回来，返回值是0,综合room.c，原房间会增加no_clean_up记号;<BR>　　message(\"vision\", 
+              this_object()-&gt;name() + \"急急忙忙地离开了。\\n\",environment(), 
+              this_object());<BR>　　return 
+              move(home);<BR>}&lt;/P&gt;&lt;P&gt;　　谈到这里，大家可以发现，所谓房间的更新，实际上只是房间里的物体进行更新，这个房间没有任的变化。也就是说，如果在房间更新的时候，我们站在这个房间里，或者我们扔了一个不属于任何房的物品在这个房间里，都不会受到影响，这些物品与我们在更新前后都不会消失。这个与我们巫师进update 
+              here是本质性的两回事（updata 
+              here就是更新了房间）。&lt;/P&gt;&lt;P&gt;　　那么，有时有的玩家就会说，我曾得到一个很好的宝物，离线不能保存，我就把它扔在一个很少有去的地方，结果，每次再去连线再去找的时候，大多数时候都找不到，不会是被别人捡去吧？这里就及到另一个概念：MUD里的资源清除。<BR>　<BR>　　大家知道，在LPMUD里，所有的程序都必须装载进内存里才会工作。因此，MUD的内存资源便就是最主要的资源。更合理地分配和使用内存便成为一个MUD效率高低的体现。<BR>　　MUDOS为了节约内存的耗用，对于每一个占用内存的对象，包括是房间、物品、人物、指令等等，如果相当长的时间内没有被其它程序参考到（参考的含义：就是包括别人进入、看到、或者使用到这个房间、物品、或指令，还包括各个程序等等）的话，也就是这个对象很长时间没有活动了，MUDOS就会调用这个对象的clean_up()函数（由于大多数的程序都会继承这个函数标准文件），如果该函数返回1，则下次同样情况还会调用该对象的clean_up；如果返回0，则永远不再调用。那么，我们就来看一下/feature/下面的clean_up.c文件，这个文件只有一个函数：&lt;/P&gt;&lt;P&gt;int 
+              clean_up()<BR>{<BR>　　object *inv;<BR>　　int 
+              i;&lt;/P&gt;&lt;P&gt;　　if( !clonep() &amp;&amp; 
+              this_object()-&gt;query(\"no_clean_up\") )<BR>　　　　return 
+              1;<BR>//如果这个对象不是clone出来并且有\"no_clean_up\"记号的，则返回1（返回1的含义上面说过了）&lt;/P&gt;&lt;P&gt;　　if(interactive(this_object())) 
+              return 
+              1;<BR>//如果对象是互动物件，比如玩家，就返回1&lt;/P&gt;&lt;P&gt;　　if(environment()) 
+              return 1;<BR>//如果对象处在一个环境里，也返回1&lt;/P&gt;&lt;P&gt;　　inv = 
+              all_inventory();<BR>//取出这个对象里面所有的物件<BR>　　for(i=sizeof(inv)-1; 
+              i&gt;=0; i--)<BR>　　if(interactive(inv[i])) return 
+              1;<BR>//循环检查这些物件，只要其中有一个互动物件，就返回1&lt;/P&gt;&lt;P&gt;　　destruct(this_object());<BR>　　return 
+              0;<BR>//全部检查完了后，就决定正式摧毁自身，释放出这个对象所占用的内存，并返回0<BR>}&lt;/P&gt;&lt;P&gt;　　我们再次复习一下clean_up()函数返回1的含义，如果clean_up()函数返回1，则MUDOS在这一次的调用时不会做其的任何举动，但到了下一次想调用的时间里，还将再次调用这个对象的clean_up()函数。那么从这可以看出，有以下四种情况不会将其清除出内存：<BR>一、非clone出来并且有no_clean_up参数的对象；<BR>二、玩家永远不会<BR>三、处于一个还存在的环境里<BR>四、自己里面存在着玩家<BR>　　也就是MUDOS定时摧毁内存不需要的对象是由外向内的，比如一个房间，系统只要检查这个房间里没有no_clean_up参数、里面没有玩家就可清除它，而房间里的物品、NPC都会因环境的不存在而消失。这个清除的定时时间一般都为两个小时。当然要视不同的MUDOS里的设置而看的。<BR>　　再说一点题外话，如果一个房间长时间没有玩家走进来，当然会被MUDOS清出内存，而突然又有玩家进来呢？很简单，它会在一瞬间被编译进内存，进入一个已经存在在内存里的房间与进入一个刚刚编译出来进入内存的房间对于我们的玩家来说，是察觉不出它们之间的差异的。 
+              <BR><BR><BR></FONT>
+              <P align=right><FONT color=#009900>原作者： 叮当 <BR>来 源： 不详 
+              <BR>共有172位读者阅读过此文 <BR></FONT><BR>【<A 
+              href="http://www.chinazmud.com/wz/sendmail.asp?id=211">告诉好友</A>】 
+              </P></BLOCKQUOTE>
+            <P>
+            <LI><FONT color=#0772b1>上篇文章：</FONT><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=210"><FONT 
+            color=#009900>MUD中的FTP</FONT></A> <BR>
+            <LI><FONT color=#0772b1>下篇文章：</FONT><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=212"><FONT 
+            color=#009900>zMUD中地图模式的运用</FONT></A> </LI></TD></TR>
+        <TR>
+          <TD width="50%" bgColor=#0000ff>□- 本周热门文章 </TD>
+          <TD width="50%" bgColor=#0000ff>□- 相关文章 </TD></TR>
+        <TR>
+          <TD vAlign=top width="50%" bgColor=#ffffff><FONT color=#009900>1.<A 
+            title="机器人小技巧 " target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=140"> 机器人小技巧 
+            </A>[1180]<BR>2.<A title="如何在MUD中自动问候 " target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=141"> 如何在MUD中自动问候 
+            </A>[363]<BR>3.<A title=浅谈CALL命令 target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=143"> 浅谈CALL命令 
+            </A>[341]<BR>4.<A title="MUDLib攻略之F_SKILL（上） " target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=144"> 
+            MUDLib攻略之F_SKILL（上... </A>[238]<BR>5.<A title=新MUD设想--增加变化！ 
+            target=_top href="http://www.chinazmud.com/wz/list.asp?id=150"> 
+            新MUD设想--增加变化！ </A>[204]<BR>6.<A title="流星雨的MUDOS-LPC讲座 BIND " 
+            target=_top href="http://www.chinazmud.com/wz/list.asp?id=148"> 
+            流星雨的MUDOS-LPC讲座 BI... </A>[203]<BR>7.<A title="象太阁立志传那样的mud怎么样？ " 
+            target=_top href="http://www.chinazmud.com/wz/list.asp?id=151"> 
+            象太阁立志传那样的mud怎么样？ </A>[191]<BR></FONT></TD>
+          <TD vAlign=top width="50%" bgColor=#ffffff><FONT color=#009900><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=211">系统刷新与内存清除分析 
+            </A><BR></FONT></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><BR></BODY></HTML>

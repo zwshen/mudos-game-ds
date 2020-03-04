@@ -1,0 +1,17 @@
+
+	write_file(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		write_file() - appends a string to a file
+	函數語法:
+		int write_file( string file, string str, int flag );
+
+		整數 write_file( 字串 file, 字串 str, 整數 flag );
+	函數用法:
+		將字串 str  加到檔案 file 中. 成功則傳回 1, 失敗傳回 0.
+		如果 flag 為 1, 則 write_file() 會覆寫 (overwrite) file 
+		為 str, 而非加入 str.
+	參考函數:
+		read_file(3), write_buffer(3), file_size(3)
+	手冊翻譯:
+                Phoebus@ZH      97.Jul.25.              (Writen 5/23/97)

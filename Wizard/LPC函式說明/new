@@ -1,0 +1,17 @@
+
+	new(3)			LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		new() - 載入並復制一個物件.
+	函數語法:
+		object new( string name );
+
+		物件 new( 字串 name );
+	用法;
+		以 name 定義的檔案名稱載入一個新的物件, 並且給此物件一個
+		獨特的名稱. 此函式傳回這個新的物件. 一個 environment()
+		為非零值的物件無法復制. 
+	參考函數:
+		clone_object(3), destruct(3), move_object(3)
+	手冊翻譯:
+		Phoebus@ZH	97.Apr.24.		(Writen 5/23/97)

@@ -1,0 +1,10 @@
+#/obj/user.c
+conditions ([])
+dbase (["mob_record":({"/open/world1/tmr/area/npc/shan","/open/world1/tmr/area/npc/dog","/open/world1/cominging/area/npc/sparrow","/open/world1/cominging/area/npc/dog","/open/world1/cominging/area/npc/traveller","/open/world1/cominging/area/npc/traveller","/open/world1/tmr/area/npc/dog","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"volume":7,"DS_DATA_VERSION":19991107,"adv_class":1,"race":"evil","wound":(["body":0,"right_arm":0,"head":0,"right_leg":0,"left_arm":0,"left_leg":0,]),"channels":({"chat","rumor","tchat",}),"birthday":1196903317,"id":"hloyhunter","heart_modify":0,"actions":,"gender":"男性","max_mp":66,"name":"孤鴻若宇","war_art":0,"max_hp":84,"title":"疾風門第四代弟子","bank":(["past":11,]),"attitude":"peaceful","unit":"位","heart_beat_rate":6,"family":(["family_name":"疾風門","generation":4,"privs":-1,"title":"弟子",]),"max_ap":100,"guild_gifts":({5,7,0,8,}),"ap":100,"startroom":"/open/world1/tmr/area/hotel","mp":66,"last_location":"/open/world1/tmr/area/glade","Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"addition_shield":10,"dssystem":(["prompt":(["form":"> ",]),]),"help":"newbie/","cure_count":12,"MKS":11,"supply_point":61,"newbie":1,"talk_point":8,"war_score":6,"default_actions":,"addition_armor":10,"exp":501,"dex":4,"class1":"疾風門","int":2,"con":2,"str":3,"hp":84,"age":14,"level":1,"addition_damage":10,"evil":5,"mud_age":4498,"popularity":0,])
+skills (["dagger":3,"dodge":2,"combat":4,"unarmed":3,"parry":1,])
+learned (["dagger":4,"dodge":12,"combat":49,"unarmed":8,])
+items ({})
+alias (["rs":"recall","tr":"train $*","con":"consider $*","adv":"advance $*","2":"get all from corpse","wind":"do e,n,n,n,w,w,n,ne,ne,n,n,ne,n,w,n,w,w,w","we":"wear $*","unwi":"unwield $*","1":"sac corpse","wind2":"do nw,w,w,n,nw,w,n,n,nw,n,n,nd,n,n,nu,n,n,nd,n,n,nu,n,e",])
+autoload ({"/obj/money/coin:170",})
+toDoList ([])
+solved ({})

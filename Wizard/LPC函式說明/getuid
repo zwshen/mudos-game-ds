@@ -1,0 +1,17 @@
+
+	getuid(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		getuid() - 傳回一個物件的使用者識別名稱 (user id, uid)
+	函數語法:
+		string getuid( object ob );
+
+		字串 getuid( 物件 ob );
+	函數語法:
+		傳回一個物件的使用者識別名稱. 一個物件的 uid  由物件
+		創造當時的 creator_file() 函式決定.
+	參考函數:
+		seteuid(3), geteuid(3), export_uid(3), this_object(3),
+		previous_object(3), creator_file(4), valid_seteuid(4)
+	手冊翻譯:
+		Phoebus@ZH	97.Feb.14.		(Writen 5/23/97)

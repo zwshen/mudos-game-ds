@@ -1,0 +1,522 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0043)http://www.chinazmud.com/wz/list.asp?id=185 -->
+<HTML><HEAD><TITLE>ARCH，ADMIN命令集</TITLE>
+<SCRIPT language=JavaScript>
+
+helpstat = false;
+stprompt = true;
+basic = false;
+function thelp(swtch){
+	if (swtch == 1){
+		basic = false;
+		stprompt = false;
+		helpstat = true;
+	} else if (swtch == 0) {
+		helpstat = false;
+		stprompt = false;
+		basic = true;
+	} else if (swtch == 2) {
+		helpstat = false;
+		basic = false;
+		stprompt = true;
+	}
+}
+
+function AddText(NewCode) {
+document.myform.txtcontent.value+=NewCode
+}
+
+function email() {
+	if (helpstat) {
+		alert("Email 標記\n插入 Email 超級鏈接\n用法1: [email]webmaster@aspsky.net[/email]\n用法2: [email=webmaster@aspsky.net]沙灘小子[/email]");
+	} else if (basic) {
+		AddTxt="[email][/email]";
+		AddText(AddTxt);
+	} else { 
+		txt2=prompt("鏈接顯示的文字.\n如果為空，那麼將只顯示你的 Email 地址",""); 
+		if (txt2!=null) {
+			txt=prompt("Email 地址.","name@domain.com");      
+			if (txt!=null) {
+				if (txt2=="") {
+					AddTxt="[email]"+txt+"[/email]";
+				} else {
+					AddTxt="[email="+txt+"]"+txt2;
+					AddText(AddTxt);
+					AddTxt="[/email]";
+				} 
+				AddText(AddTxt);	        
+			}
+		}
+	}
+}
+function flash() {
+ 	if (helpstat){
+		alert("Flash 動畫\n插入 Flash 動畫.\n用法: [flash]Flash 文件的地址[/flash]");
+	} else if (basic) {
+		AddTxt="[flash][/flash]";
+		AddText(AddTxt);
+	} else {                  
+		txt=prompt("Flash 文件的地址","http://");
+		if (txt!=null) {             
+			AddTxt="[flash]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/flash]";
+			AddText(AddTxt);
+		}        
+	}  
+}
+
+function showsize(size) {
+	if (helpstat) {
+		alert("文字大小標記\n設置文字大小.\n可變範圍 1 - 6.\n 1 為最小 6 為最大.\n用法: [size="+size+"]這是 "+size+" 文字[/size]");
+	} else if (basic) {
+		AddTxt="[size="+size+"][/size]";
+		AddText(AddTxt);
+	} else {                       
+		txt=prompt("大小 "+size,"文字"); 
+		if (txt!=null) {             
+			AddTxt="[size="+size+"]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/size]";
+			AddText(AddTxt);
+		}        
+	}
+}
+
+function bold() {
+	if (helpstat) {
+		alert("加粗標記\n使文本加粗.\n用法: [b]這是加粗的文字[/b]");
+	} else if (basic) {
+		AddTxt="[b][/b]";
+		AddText(AddTxt);
+	} else {  
+		txt=prompt("文字將被變粗.","文字");     
+		if (txt!=null) {           
+			AddTxt="[b]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/b]";
+			AddText(AddTxt);
+		}       
+	}
+}
+
+function italicize() {
+	if (helpstat) {
+		alert("斜體標記\n使文本字體變為斜體.\n用法: [i]這是斜體字[/i]");
+	} else if (basic) {
+		AddTxt="[i][/i]";
+		AddText(AddTxt);
+	} else {   
+		txt=prompt("文字將變斜體","文字");     
+		if (txt!=null) {           
+			AddTxt="[i]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/i]";
+			AddText(AddTxt);
+		}	        
+	}
+}
+
+function quote() {
+	if (helpstat){
+		alert("引用標記\n引用一些文字.\n用法: [quote]引用內容[/quote]");
+	} else if (basic) {
+		AddTxt="[quote][/quote]";
+		AddText(AddTxt);
+	} else {   
+		txt=prompt("被引用的文字","文字");     
+		if(txt!=null) {          
+			AddTxt="[quote]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/quote]";
+			AddText(AddTxt);
+		}	        
+	}
+}
+
+function showcolor(color) {
+	if (helpstat) {
+		alert("顏色標記\n設置文本顏色.  任何顏色名都可以被使用.\n用法: [color="+color+"]顏色要改變為"+color+"的文字[/color]");
+	} else if (basic) {
+		AddTxt="[color="+color+"][/color]";
+		AddText(AddTxt);
+	} else {  
+     	txt=prompt("選擇的顏色是: "+color,"文字");
+		if(txt!=null) {
+			AddTxt="[color="+color+"]"+txt;
+			AddText(AddTxt);        
+			AddTxt="[/color]";
+			AddText(AddTxt);
+		} 
+	}
+}
+
+function center() {
+ 	if (helpstat) {
+		alert("對齊標記\n使用這個標記, 可以使文本左對齊、居中、右對齊.\n用法: [align=center|left|right]要對齊的文本[/align]");
+	} else if (basic) {
+		AddTxt="[align=center|left|right][/align]";
+		AddText(AddTxt);
+	} else {  
+		txt2=prompt("對齊樣式\n輸入 'center' 表示居中, 'left' 表示左對齊, 'right' 表示右對齊.","center");               
+		while ((txt2!="") && (txt2!="center") && (txt2!="left") && (txt2!="right") && (txt2!=null)) {
+			txt2=prompt("錯誤!\n類型只能輸入 'center' 、 'left' 或者 'right'.","");               
+		}
+		txt=prompt("要對齊的文本","文本");     
+		if (txt!=null) {          
+			AddTxt="\r[align="+txt2+"]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/align]";
+			AddText(AddTxt);
+		}	       
+	}
+}
+
+function hyperlink() {
+	if (helpstat) {
+		alert("超級鏈接標記\n插入一個超級鏈接標記\n使用方法: [url]http://www.aspsky.net[/url]\nUSE: [url=http://www.aspsky.net]鏈接文字[/url]");
+	} else if (basic) {
+		AddTxt="[url][/url]";
+		AddText(AddTxt);
+	} else { 
+		txt2=prompt("鏈接文本顯示.\n如果不想使用, 可以為空, 將只顯示超級鏈接地址. ",""); 
+		if (txt2!=null) {
+			txt=prompt("超級鏈接.","http://");      
+			if (txt!=null) {
+				if (txt2=="") {
+					AddTxt="[url]"+txt;
+					AddText(AddTxt);
+					AddTxt="[/url]";
+					AddText(AddTxt);
+				} else {
+					AddTxt="[url="+txt+"]"+txt2;
+					AddText(AddTxt);
+					AddTxt="[/url]";
+					AddText(AddTxt);
+				}         
+			} 
+		}
+	}
+}
+
+function image() {
+	if (helpstat){
+		alert("圖片標記\n插入圖片\n用法： [img]http://www.aspsky.net/logo.gif[/img]");
+	} else if (basic) {
+		AddTxt="[img][/img]";
+		AddText(AddTxt);
+	} else {  
+		txt=prompt("圖片的 URL","http://");    
+		if(txt!=null) {            
+			AddTxt="\r[img]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/img]";
+			AddText(AddTxt);
+		}	
+	}
+}
+
+function showcode() {
+	if (helpstat) {
+		alert("代碼標記\n使用代碼標記，可以使你的程序代碼裡面的 html 等標誌不會被破壞.\n使用方法:\n [code]這裡是代碼文字[/code]");
+	} else if (basic) {
+		AddTxt="\r[code]\r[/code]";
+		AddText(AddTxt);
+	} else {   
+		txt=prompt("輸入代碼","");     
+		if (txt!=null) {          
+			AddTxt="\r[code]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/code]";
+			AddText(AddTxt);
+		}	       
+	}
+}
+
+function list() {
+	if (helpstat) {
+		alert("列表標記\n建造一個文字或則數字列表.\n\nUSE: [list] [*]項目一[/*] [*]項目二[/*] [*]項目三[/*] [/list]");
+	} else if (basic) {
+		AddTxt=" [list][*]  [/*][*]  [/*][*]  [/*][/list]";
+		AddText(AddTxt);
+	} else {  
+		txt=prompt("列表類型\n輸入 'A' 表示有序列表, '1' 表示無序列表, 留空表示無序列表.","");               
+		while ((txt!="") && (txt!="A") && (txt!="a") && (txt!="1") && (txt!=null)) {
+			txt=prompt("錯誤!\n類型只能輸入 'A' 、 '1' 或者留空.","");               
+		}
+		if (txt!=null) {
+			if (txt=="") {
+				AddTxt="[list]";
+			} else {
+				AddTxt="[list="+txt+"]";
+			} 
+			txt="1";
+			while ((txt!="") && (txt!=null)) {
+				txt=prompt("列表項\n空白表示結束列表",""); 
+				if (txt!="") {             
+					AddTxt+="[*]"+txt+"[/*]"; 
+				}                   
+			} 
+			AddTxt+="[/list] ";
+			AddText(AddTxt); 
+		}
+	}
+}
+
+function showfont(font) {
+ 	if (helpstat){
+		alert("字體標記\n給文字設置字體.\n用法: [face="+font+"]改變文字字體為"+font+"[/face]");
+	} else if (basic) {
+		AddTxt="[face="+font+"][/face]";
+		AddText(AddTxt);
+	} else {                  
+		txt=prompt("要設置字體的文字"+font,"文字");
+		if (txt!=null) {             
+			AddTxt="[face="+font+"]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/face]";
+			AddText(AddTxt);
+		}        
+	}  
+}
+function underline() {
+  	if (helpstat) {
+		alert("下劃線標記\n給文字加下劃線.\n用法: [u]要加下劃線的文字[/u]");
+	} else if (basic) {
+		AddTxt="[u][/u]";
+		AddText(AddTxt);
+	} else {  
+		txt=prompt("下劃線文字.","文字");     
+		if (txt!=null) {           
+			AddTxt="[u]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/u]";
+			AddText(AddTxt);
+		}	        
+	}
+}
+function setfly() {
+ 	if (helpstat){
+		alert("飛翔標記\n使文字飛行.\n用法: [fly]文字為這樣文字[/fly]");
+	} else if (basic) {
+		AddTxt="[fly][/fly]";
+		AddText(AddTxt);
+	} else {                  
+		txt=prompt("飛翔文字","文字");
+		if (txt!=null) {             
+			AddTxt="[fly]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/fly]";
+			AddText(AddTxt);
+		}        
+	}  
+}
+
+function move() {
+	if (helpstat) {
+		alert("移動標記\n使文字產生移動效果.\n用法: [move]要產生移動效果的文字[/move]");
+	} else if (basic) {
+		AddTxt="[move][/move]";
+		AddText(AddTxt);
+	} else {  
+		txt=prompt("要產生移動效果的文字","文字");     
+		if (txt!=null) {           
+			AddTxt="[move]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/move]";
+			AddText(AddTxt);
+		}       
+	}
+}
+
+function shadow() {
+	if (helpstat) {
+               alert("陰影標記\n使文字產生陰影效果.\n用法: [SHADOW=寬度, 顏色, 邊界]要產生陰影效果的文字[/SHADOW]");
+	} else if (basic) {
+		AddTxt="[SHADOW=255,blue,1][/SHADOW]";
+		AddText(AddTxt);
+	} else { 
+		txt2=prompt("文字的長度、顏色和邊界大小","255,blue,1"); 
+		if (txt2!=null) {
+			txt=prompt("要產生陰影效果的文字","文字");
+			if (txt!=null) {
+				if (txt2=="") {
+					AddTxt="[SHADOW=255, blue, 1]"+txt;
+					AddText(AddTxt);
+					AddTxt="[/SHADOW]";
+					AddText(AddTxt);
+				} else {
+					AddTxt="[SHADOW="+txt2+"]"+txt;
+					AddText(AddTxt);
+					AddTxt="[/SHADOW]";
+					AddText(AddTxt);
+				}         
+			} 
+		}
+	}
+}
+
+function glow() {
+	if (helpstat) {
+		alert("光暈標記\n使文字產生光暈效果.\n用法: [GLOW=寬度, 顏色, 邊界]要產生光暈效果的文字[/GLOW]");
+	} else if (basic) {
+		AddTxt="[glow=255,red,2][/glow]";
+		AddText(AddTxt);
+	} else { 
+		txt2=prompt("文字的長度、顏色和邊界大小","255,red,2"); 
+		if (txt2!=null) {
+			txt=prompt("要產生光暈效果的文字.","文字");      
+			if (txt!=null) {
+				if (txt2=="") {
+					AddTxt="[glow=255,red,2]"+txt;
+					AddText(AddTxt);
+					AddTxt="[/glow]";
+					AddText(AddTxt);
+				} else {
+					AddTxt="[glow="+txt2+"]"+txt;
+					AddText(AddTxt);
+					AddTxt="[/glow]";
+					AddText(AddTxt);
+				}         
+			} 
+		}
+	}
+}
+function openscriphtml()
+{
+if (navigator.appName!="Microsoft Internet Explorer")
+   alert("此功能 Netscape 用戶不能使用！")
+else
+   {newwin=window.open('htmledit/editor.html','','width=544,height=294');
+    newwin.focus();
+   }
+}
+function runEx(){
+//alert('請注意，按下確定將生成頁面，按下後請稍後....');
+var winEx = window.open("", "winEx", "width=600,height=400,status=yes,menubar=yes,scrollbars=yes,resizable=yes"); winEx.document.open("text/html", "replace"); 
+winEx.document.write(unescape(event.srcElement.parentElement.children[2].value)); 
+winEx.document.close(); 
+}
+function openScript(url, width, height) {
+        var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=yes,status=yes' );
+}
+</SCRIPT>
+
+<SCRIPT language=Javascript>
+<!-- hide
+
+function insertsmilie(smilieface){
+
+	document.frmAnnounce.body.value+=smilieface;
+}
+// -->
+</SCRIPT>
+
+<META content="MSHTML 5.50.4134.600" name=GENERATOR>
+<META http-equiv=Content-Type content="text/html; charset=big5">
+<META content=ASP動網先鋒,http://www.aspsky.net name=keywords><LINK 
+href="ARCH，ADMIN命令集.files/style.css" rel=stylesheet></HEAD>
+<BODY bgColor=#000000>
+<TABLE cellSpacing=0 cellPadding=0 width="95%" align=center border=0>
+  <TBODY>
+  <TR>
+    <TD bgColor=#0099cc>
+      <TABLE borderColor=#0000ff cellSpacing=1 cellPadding=4 width="100%" 
+      bgColor=#000000 border=1>
+        <TBODY>
+        <TR bgColor=#0000ff>
+          <TD colSpan=2><FONT color=#ff0000>|<A 
+            href="http://www.chinazmud.com/index1.asp">返回首頁</A> | 
+            |&nbsp;&nbsp;<A 
+            href="http://www.chinazmud.com/wz/default.asp?classid=3"> MUD功略 
+            </A>&nbsp;&nbsp;|&nbsp;&nbsp; |&nbsp;&nbsp;<A 
+            href="http://www.chinazmud.com/wz/default.asp?classid=5"> 教程文章 
+            </A>&nbsp;&nbsp;|&nbsp;&nbsp; |&nbsp;&nbsp;<A 
+            href="http://www.chinazmud.com/wz/default.asp?classid=6"> 其他文章 
+            </A>&nbsp;&nbsp;|&nbsp;&nbsp; </FONT></TD></TR>
+        <TR bgColor=#000000>
+          <TD colSpan=2><FONT color=#009900>|&nbsp;&nbsp;<A 
+            href="http://www.chinazmud.com/wz/index.asp?classid=5"><FONT 
+            color=#009900>教程文章</FONT></A>&gt;&gt;<A 
+            href="http://www.chinazmud.com/wz/index.asp?classid=5&amp;Nclassid=6"><FONT 
+            color=#009900>巫師與編程</FONT></A>&gt;&gt;ARCH，ADMIN命令集</FONT><BR></TD></TR>
+        <TR bgColor=#000000>
+          <TD colSpan=2>
+            <CENTER><B><FONT color=#ff0000 
+            size=3>ARCH，ADMIN命令集</FONT></B><BR><FONT 
+            color=#00ff00>&nbsp;2002-5-29&nbsp;&nbsp; </FONT></CENTER>
+            <P>
+            <BLOCKQUOTE><BR><FONT color=#009900>1、callouts命令<BR>指令格式：callouts 
+              [&lt;函數名稱&gt;]<BR>缺省將列出系統中所有的延遲呼叫函數<BR>否則列出指定的延遲呼叫函數. 
+              <BR>2、chinese命令<BR>指令格式：chinese 
+&lt;英文&gt;==&lt;中文&gt;<BR>設定中英文等價關係
+              <P></P>
+              <P>3、cleanup命令<BR>指令格式：cleanup &lt;檔名&gt;<BR>對所有指定檔名的物件呼叫 
+              clean_up，　且清除所有被復制出來的，但是又沒有<BR>被放在另一個物件中的散失物件<BR>　<BR>4、force命令<BR>指令格式：force 
+              &lt;某人&gt; to &lt;指令&gt;<BR>強迫某人做某事, 但你的巫師等級必須比對方高, 
+              而且必須是在同一個房間裡?<BR>5、overview命令<BR>指令格式：overview 
+              &lt;主題&gt;<BR>縱觀整個mud中的情況<BR>主題有:<BR>user 共有幾個使用者物件<BR>living 
+              共有幾個生物(含使用者)物件<BR>char 共有幾種人物物件 master copy 被載入<BR>npc 共有幾個 NPC 
+              物件<BR>combat 共有幾個人物正在戰鬥狀態<BR>kill 共有幾個人物正在性命相搏的戰鬥狀態<BR>hunt 
+              共有幾個人物正和其他人物互相仇恨<BR>heart beat 共有幾個物件的 heart beat 為有效狀態<BR>virtual 
+              共有幾個虛擬物件<BR>room 共有幾個房間<BR>special room 共有幾個物件繼承標準房間<BR>equip 
+              共有幾個物件繼承標準裝備<BR>object 共有幾個物件被載入　</P>
+              <P>6、possess命令<BR>指令格式：posssess 
+              &lt;目標生物&gt;<BR>附身到另一個生物上，這個生物必須和你有相同的 EUID　<BR>附身後用 quit 
+              指令會回到原來的身體　</P>
+              <P>7、promote命令<BR>指令格式 : promote &lt;某人&gt; (權限等級)<BR>用來提升權限等級, 
+              (player) (immortal) (apprentice) (wizard)<BR>(arch) 
+              (admin)<BR>8、purge命令<BR>指令格式：purge [&lt;未上線天數&gt;] | &lt;使用者姓名&gt; 
+              because &lt;原因&gt;<BR>清除一個使用者或清除超過一定天數不曾上線地使用者　</P>
+              <P>9、reboot命令<BR>指令格式: reboot<BR>重新起動遊戲, 系統會開始倒數計時, 十五分鐘後重新起動　</P>
+              <P>10、reclaim命令<BR>指令格式 : reclaim<BR>用處 : 將存在於記憶體裡無用的變數清除掉, 
+              以減少記憶體的使用　</P>
+              <P>11、rehash命令<BR>指令格式：rehash 
+              &lt;目錄名稱&gt;<BR>這個指令會更新系統內部的指令表，如果你新增或刪除了某個目錄下的指令，必杏<BR>? 
+              這個指令更新該目錄才能使用　</P>
+              <P>12、wizlock命令<BR>指令格式: wizlock 
+              &lt;巫師等級&gt;<BR>限制某個等級以下的使用者進入遊戲　<BR>其中巫師等級分別為 (immortal) 
+              (apprentice) (wizard) (arch) (admin), 若胰<BR>? 消限制, 則輸入 
+              (player).</P>
+              <P><BR>13、disassemble命令<BR>指令格式：disassemble &lt;物件&gt; 
+              &lt;輸出檔名&gt;<BR>反組譯一個物件並輸出至指定文件</P>
+              <P>14、dump命令<BR>指令格式 : dump<BR>將所有物件的狀態記錄至根目錄下的文件OBJ_DUMP中。</P>
+              <P>15、profile命令<BR>指令格式: profile</P>
+              <P>16、shutdown命令<BR>指令格式: shutdown<BR>馬上重新起動遊戲 <BR><BR><BR></FONT>
+              <P align=right><FONT color=#009900>原作者： 不詳 <BR>來 源： 不詳 
+              <BR>共有190位讀者閱讀過此文 <BR></FONT><BR>【<A 
+              href="http://www.chinazmud.com/wz/sendmail.asp?id=185">告訴好友</A>】 
+              </P></BLOCKQUOTE>
+            <P>
+            <LI><FONT color=#0772b1>上篇文章：</FONT><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=184"><FONT 
+            color=#009900>zmud系統變量</FONT></A> <BR>
+            <LI><FONT color=#0772b1>下篇文章：</FONT><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=186"><FONT 
+            color=#009900>MUDOS 在WINDOWS下編譯過程</FONT></A> </LI></TD></TR>
+        <TR>
+          <TD width="50%" bgColor=#0000ff>□- 本周熱門文章 </TD>
+          <TD width="50%" bgColor=#0000ff>□- 相關文章 </TD></TR>
+        <TR>
+          <TD vAlign=top width="50%" bgColor=#ffffff><FONT color=#009900>1.<A 
+            title="機器人小技巧 " target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=140"> 機器人小技巧 
+            </A>[1180]<BR>2.<A title="如何在MUD中自動問候 " target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=141"> 如何在MUD中自動問候 
+            </A>[363]<BR>3.<A title=淺談CALL命令 target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=143"> 淺談CALL命令 
+            </A>[341]<BR>4.<A title="MUDLib攻略之F_SKILL（上） " target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=144"> 
+            MUDLib攻略之F_SKILL（上... </A>[238]<BR>5.<A 
+            title="流星雨的MUDOS-LPC講座 BIND " target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=148"> 流星雨的MUDOS-LPC講座 
+            BI... </A>[205]<BR>6.<A title=新MUD設想--增加變化！ target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=150"> 新MUD設想--增加變化！ 
+            </A>[204]<BR>7.<A title="像太閣立志傳那樣的mud怎麼樣？ " target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=151"> 像太閣立志傳那樣的mud怎麼樣？ 
+            </A>[191]<BR></FONT></TD>
+          <TD vAlign=top width="50%" bgColor=#ffffff><FONT color=#009900><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=216">Edit 命令詳解 
+            </A><BR><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=185">ARCH，ADMIN命令集</A><BR><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=143">淺談CALL命令</A><BR></FONT></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><BR></BODY></HTML>

@@ -1,0 +1,258 @@
+[Mon Oct 25 17:55:43 1999] u/f/fanny/jiang.c line 11: parse error
+
+[Sun Oct 31 11:03:06 1999] u/f/fanny/workroom.c line 23: parse error
+
+[Sun Oct 31 11:03:46 1999] u/f/fanny/workroom.c line 23: parse error
+
+[Sun Oct 31 11:46:04 1999] u/f/fanny/npc/shaman.c line 5: Wrong number of arguments to set
+    Expected: 2  Got: 3
+
+[Sun Oct 31 11:48:42 1999] u/f/fanny/npc/shaman.c line 6: parse error
+
+[Sun Oct 31 12:18:16 1999] u/f/fanny/npc/shaman.c line 17: parse error
+
+[Mon Nov  1 21:44:58 1999] u/f/fanny/npc/shaman.c line 17: parse error
+
+[Sun Nov  7 20:24:55 1999] u/f/fanny/area/town1.c line 14: parse error
+
+[Sun Nov  7 20:25:15 1999] u/f/fanny/area/town1.c line 14: parse error
+
+[Sun Nov  7 20:26:07 1999] u/f/fanny/area/town1.c line 14: parse error
+
+[Sun Nov  7 20:27:11 1999] u/f/fanny/area/town1.c line 14: parse error
+
+[Sun Nov  7 20:43:44 1999] u/f/fanny/area/town1.c line 14: parse error
+
+[Sun Nov  7 21:16:19 1999] u/f/fanny/area/green1.c line 17: parse error
+
+[Sun Nov  7 21:18:19 1999] u/f/fanny/area/green1.c line 17: parse error
+
+[Fri Nov 12 14:58:11 1999] u/f/fanny/npc/shaman2.c line 16: parse error
+
+[Fri Nov 12 14:59:28 1999] u/f/fanny/npc/shaman2.c line 18: parse error
+
+[Fri Nov 12 22:09:42 1999] u/f/fanny/npc/showro.c line 8: parse error
+
+[Sat Nov 13 18:15:30 1999] u/f/fanny/wp/in-tan.c line 29: parse error
+
+[Sat Nov 13 18:16:05 1999] u/f/fanny/wp/in-tan.c line 29: parse error
+
+[Sat Nov 13 19:15:54 1999] u/f/fanny/npc/yea.c line 7: parse error
+
+[Sat Nov 13 19:26:10 1999] u/f/fanny/workroom.c line 7: Undefined variable 'RED'
+
+
+[Sat Nov 13 19:26:10 1999] u/f/fanny/workroom.c line 7: parse error
+
+[Sat Nov 13 19:26:52 1999] u/f/fanny/workroom.c line 7: Undefined variable 'RED'
+
+
+[Sat Nov 13 19:26:52 1999] u/f/fanny/workroom.c line 7: parse error
+
+[Sat Nov 13 19:29:00 1999] u/f/fanny/workroom.c line 7: Undefined variable 'RED'
+
+
+[Sat Nov 13 19:29:00 1999] u/f/fanny/workroom.c line 7: parse error
+
+[Sat Nov 13 19:29:00 1999] u/f/fanny/workroom.c line 11: Illegal terminator
+
+[Sat Nov 13 19:29:00 1999] u/f/fanny/workroom.c line 11: Text block exceeded maximum length
+
+[Sat Nov 13 19:29:00 1999] u/f/fanny/workroom.c line 11: Illegal terminator
+
+[Sat Nov 13 19:29:00 1999] u/f/fanny/workroom.c line 11: Text block exceeded maximum length
+
+[Sat Nov 13 19:31:51 1999] u/f/fanny/workroom.c line 7: Undefined variable 'RED'
+
+
+[Sat Nov 13 19:31:51 1999] u/f/fanny/workroom.c line 7: parse error
+
+[Sat Nov 13 19:34:30 1999] u/f/fanny/workroom.c line 7: Undefined variable 'RED'
+
+
+[Sat Nov 13 19:34:30 1999] u/f/fanny/workroom.c line 7: parse error
+
+[Sat Nov 13 19:42:29 1999] u/f/fanny/npc/showro.c line 10: parse error
+
+[Sat Nov 13 19:42:29 1999] u/f/fanny/npc/showro.c line 28: Illegal LHS
+
+[Sat Nov 13 19:42:29 1999] u/f/fanny/npc/showro.c line 28: parse error
+
+[Sat Nov 13 19:42:29 1999] u/f/fanny/npc/showro.c line 29: Illegal LHS
+
+[Sat Nov 13 19:42:29 1999] u/f/fanny/npc/showro.c line 29: parse error
+
+[Sat Nov 13 19:42:29 1999] u/f/fanny/npc/showro.c line 33: Undefined variable 'dest'
+
+
+[Sat Nov 13 19:45:44 1999] u/f/fanny/npc/showro.c line 11: parse error
+
+[Sat Nov 13 19:45:44 1999] u/f/fanny/npc/showro.c line 28: Illegal LHS
+
+[Sat Nov 13 19:45:44 1999] u/f/fanny/npc/showro.c line 28: parse error
+
+[Sat Nov 13 19:45:44 1999] u/f/fanny/npc/showro.c line 29: Illegal LHS
+
+[Sat Nov 13 19:45:44 1999] u/f/fanny/npc/showro.c line 29: parse error
+
+[Sat Nov 13 19:45:44 1999] u/f/fanny/npc/showro.c line 33: Undefined variable 'dest'
+
+
+[Sat Nov 13 19:46:50 1999] u/f/fanny/npc/showro.c line 11: parse error
+
+[Sat Nov 13 19:46:50 1999] u/f/fanny/npc/showro.c line 28: Illegal LHS
+
+[Sat Nov 13 19:46:50 1999] u/f/fanny/npc/showro.c line 28: parse error
+
+[Sat Nov 13 19:46:50 1999] u/f/fanny/npc/showro.c line 29: Illegal LHS
+
+[Sat Nov 13 19:46:50 1999] u/f/fanny/npc/showro.c line 29: parse error
+
+[Sat Nov 13 19:46:50 1999] u/f/fanny/npc/showro.c line 33: Undefined variable 'dest'
+
+
+[Sat Nov 13 19:48:10 1999] u/f/fanny/npc/showro.c line 11: parse error
+
+[Sat Nov 13 19:48:10 1999] u/f/fanny/npc/showro.c line 28: Illegal LHS
+
+[Sat Nov 13 19:48:10 1999] u/f/fanny/npc/showro.c line 28: parse error
+
+[Sat Nov 13 19:48:10 1999] u/f/fanny/npc/showro.c line 29: Illegal LHS
+
+[Sat Nov 13 19:48:10 1999] u/f/fanny/npc/showro.c line 29: parse error
+
+[Sat Nov 13 19:48:10 1999] u/f/fanny/npc/showro.c line 33: Undefined variable 'dest'
+
+
+[Sat Nov 13 19:48:21 1999] u/f/fanny/npc/showro.c line 11: parse error
+
+[Sat Nov 13 19:48:21 1999] u/f/fanny/npc/showro.c line 28: Illegal LHS
+
+[Sat Nov 13 19:48:21 1999] u/f/fanny/npc/showro.c line 28: parse error
+
+[Sat Nov 13 19:48:21 1999] u/f/fanny/npc/showro.c line 29: Illegal LHS
+
+[Sat Nov 13 19:48:21 1999] u/f/fanny/npc/showro.c line 29: parse error
+
+[Sat Nov 13 19:48:21 1999] u/f/fanny/npc/showro.c line 33: Undefined variable 'dest'
+
+
+[Sun Dec  5 19:19:26 1999] u/f/fanny/area/forest/forest1.c line 14: End of file in string
+
+[Sun Dec  5 19:19:26 1999] u/f/fanny/area/forest/forest1.c line 14: parse error
+
+[Sun Dec  5 19:19:37 1999] u/f/fanny/area/forest/forest1.c line 14: End of file in string
+
+[Sun Dec  5 19:19:37 1999] u/f/fanny/area/forest/forest1.c line 14: parse error
+
+[Sun Dec  5 19:22:13 1999] u/f/fanny/area/forest/forest1.c line 14: parse error
+
+[Sun Dec  5 19:22:13 1999] u/f/fanny/area/forest/forest1.c line 14: Illegal terminator
+
+[Sun Dec  5 19:22:13 1999] u/f/fanny/area/forest/forest1.c line 14: Text block exceeded maximum length
+
+[Sun Dec  5 19:22:13 1999] u/f/fanny/area/forest/forest1.c line 14: Illegal terminator
+
+[Sun Dec  5 19:22:13 1999] u/f/fanny/area/forest/forest1.c line 14: Text block exceeded maximum length
+
+[Sun Dec  5 19:22:48 1999] u/f/fanny/area/forest/forest1.c line 14: parse error
+
+[Sun Dec  5 19:58:28 1999] u/f/fanny/area/forest/forest4.c line 14: parse error
+
+[Sun Dec  5 19:58:28 1999] u/f/fanny/area/forest/forest4.c line 14: Illegal terminator
+
+[Sun Dec  5 19:58:28 1999] u/f/fanny/area/forest/forest4.c line 14: Text block exceeded maximum length
+
+[Sun Dec  5 21:08:08 1999] u/f/fanny/workroom.c line 17: parse error
+
+[Sun Dec  5 21:10:02 1999] u/f/fanny/workroom.c line 19: Undefined variable 'green'
+
+
+[Sun Dec  5 21:10:02 1999] u/f/fanny/workroom.c line 19: parse error
+
+[Sun Dec  5 21:10:12 1999] u/f/fanny/workroom.c line 19: Undefined variable 'green'
+
+
+[Sun Dec  5 21:10:12 1999] u/f/fanny/workroom.c line 19: parse error
+
+[Sun Dec  5 21:11:24 1999] u/f/fanny/workroom.c line 21: parse error
+
+[Sun Dec  5 21:11:24 1999] u/f/fanny/workroom.c line 30: End of file in string
+
+[Sun Dec  5 21:21:46 1999] u/f/fanny/npc/toger.c line 11: parse error
+
+[Sun Dec  5 21:58:05 1999] u/f/fanny/area/forest/forest4.c line 17: parse error
+
+[Thu Dec  9 21:41:23 1999] u/f/fanny/area/forest/forest4.c line 17: parse error
+
+[Thu Dec  9 21:42:17 1999] u/f/fanny/area/forest/forest4.c line 17: parse error
+
+[Sat Dec 11 11:23:16 1999] u/f/fanny/area/forest/forest4.c line 17: parse error
+
+[Sat Dec 11 11:23:24 1999] u/f/fanny/area/forest/forest4.c line 17: parse error
+
+[Sat Dec 11 11:26:30 1999] u/f/fanny/area/forest/forest4.c line 17: parse error
+
+[Sat Dec 11 11:28:19 1999] u/f/fanny/area/forest/forest4.c line 17: parse error
+
+[Sat Dec 11 11:33:49 1999] u/f/fanny/area/forest/forest4.c line 17: parse error
+
+[Sat Dec 11 11:34:43 1999] u/f/fanny/area/forest/forest4.c line 17: parse error
+
+[Sat Dec 11 11:36:02 1999] u/f/fanny/area/forest/forest4.c line 17: parse error
+
+[Sat Dec 11 11:36:14 1999] u/f/fanny/area/forest/forest4.c line 17: parse error
+
+[Sat Dec 11 11:42:56 1999] u/f/fanny/area/forest/forest4.c line 16: parse error
+
+[Sat Dec 11 11:43:02 1999] u/f/fanny/area/forest/forest4.c line 16: parse error
+
+[Sat Dec 11 11:43:02 1999] u/f/fanny/area/forest/forest4.c line 16: parse error
+
+[Sat Dec 11 11:43:50 1999] u/f/fanny/area/forest/forest4.c line 16: parse error
+
+[Sat Dec 11 11:44:47 1999] u/f/fanny/area/forest/forest4.c line 16: parse error
+
+[Sat Dec 11 11:44:47 1999] u/f/fanny/area/forest/forest4.c line 24: End of file in string
+
+[Sat Dec 11 11:45:47 1999] u/f/fanny/area/forest/forest4.c line 16: parse error
+
+[Sat Dec 11 19:12:04 1999] u/f/fanny/workroom.c line 14: parse error
+
+[Sat Dec 11 19:19:19 1999] u/f/fanny/workroom.c line 14: parse error
+
+[Sat Dec 11 19:19:19 1999] u/f/fanny/workroom.c line 15: Illegal terminator
+
+[Sat Dec 11 19:19:19 1999] u/f/fanny/workroom.c line 15: Text block exceeded maximum length
+
+[Sat Dec 11 19:19:19 1999] u/f/fanny/workroom.c line 16: Illegal terminator
+
+[Sat Dec 11 19:19:19 1999] u/f/fanny/workroom.c line 16: Text block exceeded maximum length
+
+[Sat Dec 11 19:19:19 1999] u/f/fanny/workroom.c line 16: Illegal terminator
+
+[Sat Dec 11 19:25:26 1999] u/f/fanny/workroom.c line 15: parse error
+
+[Sat Dec 11 19:26:37 1999] u/f/fanny/workroom.c line 15: parse error
+
+[Sun Dec 12 10:23:52 1999] u/f/fanny/area/green/green3.c line 16: parse error
+
+[Sun Dec 12 10:23:52 1999] u/f/fanny/area/green/green3.c line 16: Illegal terminator
+
+[Sun Dec 12 10:23:52 1999] u/f/fanny/area/green/green3.c line 16: Text block exceeded maximum length
+
+[Sat Dec 25 23:42:25 1999] u/f/fanny/wp/gsword.c line 6: parse error
+
+[Sat Dec 25 23:48:44 1999] u/f/fanny/wp/gsword.c line 21: parse error
+
+[Sun Jan  2 08:48:45 2000] u/f/fanny/wp/gplate.c line 6: Undefined variable 'GRN'
+
+
+[Sun Jan  2 08:48:45 2000] u/f/fanny/wp/gplate.c line 6: parse error
+
+[Sat Jan 15 12:48:54 2000] u/f/fanny/workroom.c line 33: Too few arguments to call_other
+
+[Sat Jan 15 12:49:31 2000] u/f/fanny/workroom.c line 33: Too few arguments to call_other
+
+[Sat Jan 15 12:51:25 2000] u/f/fanny/workroom.c line 33: parse error
+

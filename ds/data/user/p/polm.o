@@ -1,0 +1,6 @@
+#/obj/user.c
+conditions ([])
+dbase (["mp":60,"int":2,"con":2,"default_actions":,"str":2,"addition_shield":10,"age":14,"mob_record":({"/open/world1/tmr/area/npc/dog","/open/world1/tmr/area/npc/too","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove",}),"addition_armor":10,"heart_beat_rate":6,"board_last_read":(["sex_board":1037721504,"tmr_hotel_b":1108129644,]),"max_ap":60,"supply_point":60,"channels":({"chat","rumor","tchat",}),"race":"human","level":1,"heart_modify":0,"last_location":"/open/world1/wilfred/newbie/eq_bank","talk_point":8,"unit":"位","gender":"男性","birthday":1108986647,"MKS":6,"id":"polm","addition_damage":10,"ap":60,"name":"楓月","max_hp":80,"wound":(["left_leg":0,"body":0,"head":0,"right_leg":0,"right_arm":0,"left_arm":0,]),"mud_age":681,"startroom":"/open/world1/tmr/area/hotel","cure_count":4,"actions":,"guild_gifts":({5,5,5,5,}),"attitude":"peaceful","newbie":1,"evil":12,"hp":80,"max_mp":60,"volume":7,"exp":2187,"DS_DATA_VERSION":19991107,"Merits":(["tec":0,"bar":0,"bio":0,"sou":0,"wit":0,]),"dex":2,])
+skills (["unarmed":5,"combat":7,"dodge":3,])
+learned (["unarmed":17,"combat":13,"dodge":2,])
+autoload ({"/obj/money/coin:6",})

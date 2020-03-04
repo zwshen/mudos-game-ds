@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["dex":2,"addition_shield":10,"int":2,"con":2,"talk_point":8,"actions":,"str":2,"default_actions":,"heart_beat_rate":6,"hp":80,"wound":(["right_arm":0,"head":0,"body":0,"left_leg":0,"left_arm":0,"right_leg":0,]),"last_location":"/u/s/shengsan/workroom","cure_count":8,"evil":-1,"max_ap":60,"mp":60,"channels":({"chat","rumor","tchat","wiz",}),"max_hp":80,"addition_damage":10,"race":"human","level":1,"max_mp":60,"heart_modify":0,"gender":"男性","birthday":1028209305,"id":"moon","attitude":"peaceful","name":"小豪","volume":7,"age":14,"Merits":(["sou":0,"wit":0,"bio":0,"tec":0,"bar":0,]),"mud_age":413,"startroom":"/open/world1/tmr/area/hotel","cwd":"/u/m/moon/","ap":60,"addition_armor":10,"unit":"位","newbie":1,"guild_gifts":({5,5,5,5,}),"supply_point":56,"DS_DATA_VERSION":19991107,"exp":777,])
+autoload ({})

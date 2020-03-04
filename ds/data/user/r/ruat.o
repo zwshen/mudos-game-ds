@@ -1,0 +1,8 @@
+#/obj/user.c
+conditions ([])
+dbase (["DS_DATA_VERSION":19991107,"guild_gifts":({5,5,5,5,}),"unit":"位","wound":(["left_arm":0,"body":0,"left_leg":0,"head":0,"right_leg":0,"right_arm":0,]),"volume":7,"attitude":"peaceful","talk_point":8,"max_hp":80,"channels":({"chat","rumor","tchat","sky","sam","es",}),"mud_age":3543,"newbie":1,"supply_point":60,"exp":777,"hp":80,"dex":2,"addition_shield":10,"int":2,"con":2,"level":1,"mp":110,"birthday":1169564602,"max_ap":60,"Merits":(["bar":0,"tec":0,"sou":0,"bio":0,"wit":0,]),"addition_armor":10,"evil":-1,"last_location":"/open/world1/tmr/area/street4","default_actions":,"heart_beat_rate":6,"addition_damage":10,"actions":,"ap":60,"board_last_read":(["guitar_b":1224584079,"sex_board":1191813231,"anoounce_b":1227963269,"tmr_hotel_b":1229417257,]),"cure_count":4,"race":"celestial","age":14,"max_mp":110,"id":"ruat","heart_modify":0,"startroom":"/open/world1/tmr/area/hotel","env":([]),"gender":"男性","str":2,"name":"無言的結局",])
+items ({})
+alias (["a":"do look off,w,s,e,e,e,e,e,e,e,o,n,nw,eu,ne,n,n,n,n,n,n,n,ne,n,n,jump 大石,w,search 小洞,e,d,n,l on","mm":"do members",])
+autoload ({"/open/always/sky_mark",})
+toDoList ([])
+solved ({})

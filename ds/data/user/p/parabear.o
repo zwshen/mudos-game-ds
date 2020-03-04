@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions ([])
+dbase (["cure_count":0,"max_mp":64,"max_hp":110,"combat_exp":2,"supply_point":60,"attitude":"peaceful","mp":64,"heart_beat_rate":6,"max_ap":64,"ap":64,"heart_modify":1,"newbie":1,"bank":(["past":0,]),"exp":1275,"talk_point":8,"dex":2,"int":2,"id":"parabear","hp":110,"volume":7,"con":2,"war_score":3,"str":2,"guild_gifts":({10,7,0,3,}),"level":1,"adv_class":1,"DS_DATA_VERSION":19991107,"MKS":4,"default_actions":,"gender":"男性","evil":5,"channels":({"chat","rumor","tchat",}),"name":"小鹿不可雕也","birthday":1175303282,"last_location":"/open/world1/tmr/area/vroad1","unit":"位","Merits":(["bio":0,"tec":0,"sou":0,"wit":0,"bar":0,]),"race":"tiger","startroom":"/open/world1/tmr/area/hotel","addition_shield":10,"title":"八極門第七代俠客","addition_armor":10,"mud_age":2718,"family":(["generation":7,"privs":-1,"title":"俠客","family_name":"八極門",]),"wound":(["head":0,"left_leg":0,"right_arm":0,"left_arm":0,"right_leg":0,"body":0,]),"age":14,"mob_record":({"/open/world1/tmr/area/npc/mvillager","/open/world1/tmr/area/npc/frog","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove",}),"class1":"八極門","addition_damage":10,"actions":,])
+skills (["combat":5,"horse-steps":1,"bagi_fist":1,"fork":1,"strong-body":3,"da-fork":1,"unarmed":3,"parry":1,"dodge":2,])
+learned (["combat":7,"strong-body":10,"unarmed":30,"parry":1,"dodge":6,])
+alias (["ex1":"ex bagi_fist",])
+autoload ({})
+toDoList ([])
+solved ({})

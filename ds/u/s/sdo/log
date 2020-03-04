@@ -1,0 +1,28 @@
+[Wed Jan  2 14:42:52 2002] u/s/sdo/christmas/obj/record_board.c line 180: Reserved type name unexpected. before ;
+
+[Wed Jan  2 14:42:52 2002] u/s/sdo/christmas/obj/record_board.c line 180: parse error before ;
+
+[Wed Jan  2 14:42:52 2002] u/s/sdo/christmas/obj/record_board.c line 181: Undefined variable 'me' before ;
+
+[Wed Jan  2 14:42:52 2002] u/s/sdo/christmas/obj/record_board.c line 181: Illegal LHS before the end of line
+
+[Wed Jan  2 14:42:52 2002] u/s/sdo/christmas/obj/record_board.c line 195: Undefined variable 'id' before ==1) return notify_f
+
+[Thu May  2 02:08:59 2002] u/s/sdo/nonhero/obj/coffin.c line 160: Undefined function message_vission before ;
+
+[Thu May  2 02:09:21 2002] u/s/sdo/nonhero/obj/coffin.c line 160: Undefined function message_vission before ;
+
+[Thu May  2 02:24:19 2002] u/s/sdo/nonhero/obj/coffin.c line 165: Undefined variable 'SDO' before "/nonhero/cir12");
+
+[Thu May  2 02:24:23 2002] u/s/sdo/nonhero/obj/coffin.c line 165: Undefined variable 'SDO' before "/nonhero/cir12");
+
+[Thu May  2 02:24:25 2002] u/s/sdo/nonhero/obj/coffin.c line 165: Undefined variable 'SDO' before "/nonhero/cir12");
+
+[Thu May  2 02:25:44 2002] u/s/sdo/nonhero/obj/coffin.c line 1: Cannot #include path.c before #include <ansi2.h>
+
+[Thu May  2 02:25:44 2002] u/s/sdo/nonhero/obj/coffin.c line 166: Undefined variable 'SDO' before "/nonhero/cir12");
+
+[Thu May  2 02:26:16 2002] u/s/sdo/nonhero/obj/coffin.c line 166: Undefined variable 'SDO' before "/nonhero/cir12");
+
+[Thu Jul 11 02:54:34 2002] u/s/sdo/testhest.c line 6: Undefined variable 'testhest' before ));
+

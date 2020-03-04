@@ -1,0 +1,17 @@
+
+	tell_object(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		tell_object() - 將訊息送給一個物件.
+	函數語法:
+		void tell_object( object ob, string str );
+
+		無傳回值 tell_object( 物件 ob, 字串 str );
+	函數用法:
+		將訊息 str  送給物件 ob. 如果 ob 是一個可互動的
+		(interactive) 物件 (玩家), 此段訊息就對 ob 顯示.
+		反之, 則會送給 ob 的函式 catch_tell().
+	參考函數:
+		message(3), write(3), shout(3), say(3), tell_room(3)
+	手冊翻譯:
+		Phoebus@ZH	97.jul.24.		(Writen 5/23/97)

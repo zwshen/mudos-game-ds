@@ -1,0 +1,26 @@
+
+	remove_action(3)	LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		remove_action - 從區域函式 (local function) 中解除一個
+				命令動詞 (command verb)
+	函數語法:
+		int remove_action( string fun, string cmd );
+
+		整數 remove_action( 字串 fun, 字串 cmd );
+	函數用法:
+		remove_action(3) 從一個物件的區域函式中解除一個命令動詞.
+		基本上, remove_action() 是相對於 add_action(3) 和
+		add_verb(3) 的函式. 當您不需要一個動詞時, 就可以用
+		remove_action() 解除.
+	傳回值:
+		remove_action() 的傳回值:
+
+		1	解除動詞成功.
+
+		0	解除失敗.
+	參考函數:
+		add_action(3), query_verb(3), init(4)
+	手冊翻譯:
+		Phoebus@ZH	97.May.27.		(Writen 5/23/97)
+

@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions ([])
+dbase (["addition_damage":10,"war_score":2,"talk_point":8,"mp":66,"max_ap":100,"ap":100,"MKS":8,"heart_modify":0,"default_actions":,"unit":"位","newbie":1,"exp":1424,"dex":2,"volume":7,"hp":84,"int":2,"con":2,"str":2,"level":1,"id":"brian","DS_DATA_VERSION":19991107,"last_location":"/open/world1/tmr/area/hotel","evil":17,"channels":({"chat","rumor","tchat",}),"birthday":1187238251,"gender":"男性","name":"冰封","race":"evil","heart_beat_rate":6,"startroom":"/open/world1/tmr/area/hotel","age":14,"bellicosity":0,"cure_count":3,"mud_age":1258,"wound":(["head":0,"body":0,"right_leg":0,"right_arm":0,"left_arm":0,"left_leg":0,]),"disable_type":" <毫無呼吸>","addition_shield":10,"combat_exp":0,"supply_point":60,"actions":,"addition_armor":10,"Merits":(["bio":0,"tec":0,"sou":0,"wit":0,"bar":0,]),"attitude":"peaceful","mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"max_mp":66,"max_hp":84,"guild_gifts":({5,5,5,5,}),])
+skills (["combat":4,"parry":0,"unarmed":3,"dodge":1,])
+learned (["combat":44,"unarmed":21,"dodge":7,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

@@ -1,0 +1,40 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=bg2312">
+   <META NAME="Author" CONTENT="Spock">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.01 [en] (Win95; I) [Netscape]">
+   <TITLE>MudOS v21c2 参考文件 - applies - general - reset</TITLE>
+</HEAD>
+<BODY TEXT="#CCFFFF" BGCOLOR="#000000" LINK="#33FF33" VLINK="#FF0000" ALINK="#33CCFF" BACKGROUND="../../../image/ff/fftitleback.jpg" NOSAVE>
+
+<CENTER><FONT COLOR="#FF99FF"><FONT SIZE=+3>reset(4)　 MudOS v21c2　 (5
+Sep 1994)</FONT></FONT></CENTER>
+
+<HR WIDTH="100%">
+<BR><FONT COLOR="#FFFFCC">　名称:</FONT>
+<UL>　 reset - 让一个物件作自我维护 (self-maintenance).</UL>
+<FONT COLOR="#FFFFCC">　语法:</FONT>
+<UL>　 void reset( void );
+
+<P>　 无返回值 reset( 无参数 );</UL>
+<FONT COLOR="#FFFFCC">　语法:</FONT>
+<UL>　 在每次重新设定 (reset)　 之后 (实际的重新设定周期取决于该 mud　
+的设定, 平均大约是每两个小时一次) , 所有游戏中现存的物件都会调用 reset()　
+函数. 如果编译驱动程序时, 于 options.h　 中定义了 LAZY_RESET,　 只有玩家接触到的物件才会调用
+reset(). 如此一来, 没用到的物件就不会从交换档 (swap file)　 中载入并进行重新设定.
+reset() 常用于检查宝物或怪物是否还在某个房间, 以判断要不要重新产生一份.</UL>
+<FONT COLOR="#FFFFCC">　参考:</FONT>
+<UL>　 <A HREF="../../efuns/system/set_reset.html">set_reset(3)</A>, <A HREF="create.html">create(4)</A></UL>
+<FONT COLOR="#FFFFCC">　翻译:</FONT>
+<UL>　 Spock @ FF 97.Aug.5.　 (printed 3/16/95)</UL>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+<CENTER><A HREF="../general.html">回到上一页</A></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+</BODY>
+</HTML>

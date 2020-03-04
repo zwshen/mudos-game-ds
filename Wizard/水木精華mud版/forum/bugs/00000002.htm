@@ -1,0 +1,100 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清华站∶精华区</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+<A Name="top"></a>
+发信人:&nbsp;sorceress&nbsp;(没头脑),&nbsp;信区:&nbsp;Mud_Builder&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+标&nbsp;&nbsp;题:&nbsp;不是水&nbsp;<BR>
+发信站:&nbsp;BBS&nbsp;水木清华站&nbsp;(Tue&nbsp;May&nbsp;25&nbsp;14:12:52&nbsp;1999)&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+关于Add_action的bug我们是都知道的了，也做了各种各样的修改来对付这只讨厌的虫子&nbsp;<BR>
+，下面俺也讲一个直接修改MudOS的办法[注]。&nbsp;<BR>
+Add_action产生bug大致上是这样子的：&nbsp;<BR>
+当一个物体(Object)由living变成非living时，其他的物体通过Add_action加在这个物体&nbsp;<BR>
+上的命令并没有被去掉，于是就出现了bug：一个非living的物体(不如人晕倒时)也能输&nbsp;<BR>
+入一些命令；而且，当Ａ物体有living变成非living后，B物体通过Add_action加在Ａ物&nbsp;<BR>
+体上的命令并不会因为Ａ&nbsp;<BR>
+远离Ｂ而被去掉。同时，还有一个古怪的现象，也许不能算是bug：当一个物体由living&nbsp;<BR>
+变成非living时，这个物体通过Add_action加在其他物体上的命令都被去掉了，这个虽然&nbsp;<BR>
+不算是bug，但俺觉得也挺讨厌的，去掉了算了。&nbsp;<BR>
+&nbsp;<BR>
+我们先对付那个不是bug的东西。&nbsp;<BR>
+在simulate.c里找到&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;void&nbsp;enable_commands&nbsp;P1(int,&nbsp;num)&nbsp;<BR>
+这个函数，把里面所有&nbsp;<BR>
+#ifndef&nbsp;NO_ENVIRONMENT&nbsp;<BR>
+和&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#endif&nbsp;<BR>
+之间的程序全注释掉就中了。&nbsp;<BR>
+&nbsp;<BR>
+下面我们正式来对付那只虫子。&nbsp;<BR>
+打开simulate.c，在函数&nbsp;<BR>
+　　void&nbsp;move_object&nbsp;P2(object_t&nbsp;*,&nbsp;item,&nbsp;object_t&nbsp;*,&nbsp;dest)&nbsp;<BR>
+中找到&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#ifndef&nbsp;NO_ADD_ACTION&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(item-&gt;flags&nbsp;&amp;&nbsp;O_ENABLE_COMMANDS)&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;remove_sent(item-&gt;super,&nbsp;item);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(item-&gt;super-&gt;flags&nbsp;&amp;&nbsp;O_ENABLE_COMMANDS)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;remove_sent(item,&nbsp;item-&gt;super);&nbsp;<BR>
+#endif&nbsp;<BR>
+把两个&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(itme…&nbsp;<BR>
+注释掉。&nbsp;<BR>
+再找到&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#ifndef&nbsp;NO_ADD_ACTION&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;((*pp)-&gt;flags&nbsp;&amp;&nbsp;O_ENABLE_COMMANDS)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;remove_sent(item,&nbsp;*pp);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(item-&gt;flags&nbsp;&amp;&nbsp;O_ENABLE_COMMANDS)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;remove_sent(*pp,&nbsp;item);&nbsp;<BR>
+#endif&nbsp;<BR>
+同样把两个if(….)注释掉。&nbsp;<BR>
+这样就在一个物体不是living是仍然可以把加在它上面的命令正确的去掉了。&nbsp;<BR>
+&nbsp;<BR>
+我们再来处理一下子非生物物体输入命令的情况。&nbsp;<BR>
+对这种情况可以有许多种修改方法。比如，可以在一个生物变成非生物是把加在这个物体&nbsp;<BR>
+上所有的命令的备份后去掉，等它从新变成生物时再加回去。但这样做要改动的地方太多&nbsp;<BR>
+，我选择了一个简单的法子：在判断一个物体不是生物后，直接返回一个错误信息，而不&nbsp;<BR>
+去执行由Add_action所&nbsp;<BR>
+指定的程序。这样，虽然命令仍然加在了物体上面，但我们并不能去执行它，所以和没有&nbsp;<BR>
+命令基本上是一样的了。&nbsp;<BR>
+选择在哪里返回仍是一个问题，我选择了在执行完process_input后返回。这样，即使玩&nbsp;<BR>
+家昏倒了我们仍然可以对其输入的命令进行控制。&nbsp;<BR>
+打开simulate.c，在函数&nbsp;<BR>
+　　int&nbsp;user_parser&nbsp;P1(char&nbsp;*,&nbsp;buff)&nbsp;<BR>
+中找到&nbsp;<BR>
+　　save_illegal_sentence_action&nbsp;=&nbsp;illegal_sentence_action;&nbsp;<BR>
+　　illegal_sentence_action&nbsp;=&nbsp;0;&nbsp;<BR>
+在这里加上&nbsp;<BR>
+　　if&nbsp;(!&nbsp;(save_command_giver-&gt;flags&nbsp;&amp;&nbsp;O_ENABLE_COMMANDS)&nbsp;)&nbsp;<BR>
+　　{&nbsp;<BR>
+　　　　command_giver&nbsp;=&nbsp;save_command_giver;&nbsp;<BR>
+　　　　notify_no_command();&nbsp;<BR>
+　　　　illegal_sentence_action&nbsp;=&nbsp;save_illegal_sentence_action;&nbsp;<BR>
+　　　　return&nbsp;0;&nbsp;<BR>
+　　}&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+[注]：&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;错了可别找我，找我也没用。&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;发扬革命传统&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;争取更大光荣&nbsp;<BR>
+&nbsp;<BR>
+※&nbsp;来源:·BBS&nbsp;水木清华站&nbsp;bbs.net.tsinghua.edu.cn·[FROM:&nbsp;argo.zsu.edu.cn]&nbsp;<BR>
+<A HREF="00000002.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一页</A>
+<A HREF="index.htm">回到目录</A>
+<A HREF="#top">回到页首</A>
+</CENTER>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+</BODY></HTML>

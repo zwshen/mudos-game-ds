@@ -1,0 +1,6 @@
+¥Ø¿ý¡R/u/f/faceoff/testmap/npc/
+carp.c              ÃU³½                clam.c              °F                
+eel.c               ÅÁ³½                fish.c              ª÷½u³½            
+light_fish.c        ¬ÂÄn³½              money.c             °]¯«              
+shark.c             ÃT³½                tunny.c             ÂC³½              
+

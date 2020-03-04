@@ -1,0 +1,16 @@
+
+	test_bit(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		test_bit() - 檢查一個位元字串 (bitstring) 中某一個位元
+			    (bit)  的值.
+	函數語法:
+		int test_bit( string str, int n );
+
+		整數 test_bit( 字串 str, 整數 n );
+	函數用法:
+		傳回字串 str 中, 第 n  個位元是 0  或 1.
+	參數:
+		set_bit(3), clear_bit(3)
+	手冊翻譯:
+		Phoebus@ZH	97.Jul.24.		(Writen 5/23/97)

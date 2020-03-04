@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["race":"human","id":"tomcloud","name":"快意之風",])
+autoload ({})

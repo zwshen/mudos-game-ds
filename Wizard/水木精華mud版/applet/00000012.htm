@@ -1,0 +1,261 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清华站∶精华区</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+<A Name="top"></a>
+发信人:&nbsp;sunn&nbsp;(眼睛),&nbsp;信区:&nbsp;Mud_Builder&nbsp;<BR>
+标&nbsp;&nbsp;题:&nbsp;Re:&nbsp;怎么做活动出口的ROOM?&nbsp;<BR>
+发信站:&nbsp;BBS&nbsp;水木清华站&nbsp;(Mon&nbsp;Feb&nbsp;16&nbsp;17:42:19&nbsp;1998)&nbsp;WWW-POST&nbsp;<BR>
+&nbsp;<BR>
+【&nbsp;在&nbsp;tonylee&nbsp;(老柳)&nbsp;的大作中提到:&nbsp;】&nbsp;<BR>
+∶<I>&nbsp;【&nbsp;在&nbsp;minux&nbsp;(minux)&nbsp;的大作中提到:&nbsp;】&nbsp;</I><BR>
+∶<I>&nbsp;:&nbsp;呵呵，所有user都是同源的，怎么不能set&nbsp;???&nbsp;</I><BR>
+∶<I>&nbsp;不是酱紫亚&nbsp;&nbsp;我是说set&nbsp;exits&nbsp;泥怎直接练到文件呢?&nbsp;所有的房间豆是这个文件亚，&nbsp;</I><BR>
+∶<I>&nbsp;set的话企不是等于又new了一个房间吗?(而不是泥想联的那个亚)&nbsp;</I><BR>
+∶<I>&nbsp;&nbsp;</I><BR>
+改了个想法&nbsp;<BR>
+做了这么一个房间，destroy&nbsp;后就变废墟了，rebuild之后就恢复了&nbsp;<BR>
+请大家看看有什么隐患，&nbsp;<BR>
+&nbsp;<BR>
+create()有错误，有改过来了。&nbsp;<BR>
+不过还是很粗糙，见笑。&nbsp;<BR>
+一着急又改错了，不过很简单，请大家自己改一下，试试看有什么问题，&nbsp;<BR>
+尤其是对系统的影响，&nbsp;<BR>
+请指教，谢谢。&nbsp;<BR>
+zhenfa&nbsp;对此房间影响不大，&nbsp;<BR>
+是为其他功能设计的。&nbsp;<BR>
+//&nbsp;Room:&nbsp;/d/snow/school.c&nbsp;<BR>
+&nbsp;<BR>
+#include&nbsp;&quot;/include/ansi.h&quot;;&nbsp;<BR>
+inherit&nbsp;ROOM;&nbsp;<BR>
+inherit&nbsp;F_SAVE;&nbsp;<BR>
+int&nbsp;zhenfa;&nbsp;<BR>
+//int&nbsp;do_change();&nbsp;<BR>
+void&nbsp;create()&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;<BR>
+string&nbsp;longtxt,randtxt;&nbsp;<BR>
+mapping&nbsp;*notes;&nbsp;<BR>
+	int&nbsp;num;&nbsp;<BR>
+	restore_object(&quot;/data/board/info_b&quot;);&nbsp;<BR>
+	notes&nbsp;=&nbsp;query(&quot;notes&quot;);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;zhenfa=random(4);&nbsp;<BR>
+	set(&quot;short&quot;,&quot;书院&quot;);&nbsp;<BR>
+	if(&nbsp;!arrayp(notes)&nbsp;||&nbsp;num&nbsp;&lt;&nbsp;1&nbsp;||&nbsp;num&nbsp;&gt;&nbsp;sizeof(notes)&nbsp;)&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+	&nbsp;<BR>
+	switch(&nbsp;zhenfa&nbsp;)&nbsp;{&nbsp;<BR>
+	case&nbsp;0:&nbsp;<BR>
+		randtxt=&quot;远方传来悦耳的风铃声，给这片山林带来了不少生机。&quot;;&nbsp;<BR>
+		break;&nbsp;<BR>
+	case&nbsp;1:&nbsp;<BR>
+		randtxt=&quot;远处传来清脆的木鱼声，给这片山林带来了不少生机。&quot;;&nbsp;<BR>
+		break;&nbsp;<BR>
+	case&nbsp;2:&nbsp;<BR>
+		randtxt=&quot;远方飘动着的一缕炊烟，给这片山林带来了不少生机。&quot;;&nbsp;<BR>
+		break;&nbsp;<BR>
+	case&nbsp;3:&nbsp;<BR>
+		randtxt=&quot;远处传来潺潺的流水声，给这片山林带来了不少生机。&quot;;&nbsp;<BR>
+		break;&nbsp;<BR>
+	}&nbsp;<BR>
+	longtxt&nbsp;=&nbsp;&nbsp;<BR>
+	&quot;这里是一间宽敞的书院，虽然房子看起来很老旧了，但是打扫得很&nbsp;<BR>
+整洁，墙壁上挂著一幅山水画，意境颇为不俗，书院的大门开在北边。&nbsp;<BR>
+&quot;+randtxt+&quot;\n&quot;;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	set(&quot;long&quot;,&nbsp;longtxt&nbsp;<BR>
+	);&nbsp;<BR>
+	set(&quot;exits&quot;,&nbsp;([&nbsp;/*&nbsp;sizeof()&nbsp;==&nbsp;1&nbsp;*/&nbsp;<BR>
+&nbsp;	&quot;south&quot;&nbsp;:&nbsp;__DIR__&quot;entry2&quot;,&nbsp;&nbsp;<BR>
+&nbsp;	&quot;north&quot;&nbsp;:&nbsp;__DIR__&quot;entry&quot;,&nbsp;<BR>
+	&quot;east&quot;:__DIR__&quot;sheng&quot;,&nbsp;<BR>
+	&quot;down&quot;:__FILE__,&nbsp;<BR>
+	]));&nbsp;<BR>
+&nbsp;	}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else{&nbsp;num=sizeof(notes)-1;&nbsp;<BR>
+	if&nbsp;(notes[num][&quot;status&quot;])&nbsp;{set(&quot;short&quot;,&quot;废墟&quot;);&nbsp;<BR>
+	set(&quot;long&quot;,&quot;这里是一片废墟，只有一块孤零零的石碑立在那里，气氛十分诡异&quot;);}&nbsp;<BR>
+	delete(&quot;exits/down&quot;);}&nbsp;<BR>
+	&nbsp;<BR>
+	setup();&nbsp;<BR>
+	&nbsp;&quot;/clone/board/try_b&quot;-&gt;foo();&nbsp;<BR>
+}&nbsp;<BR>
+void&nbsp;init()&nbsp;<BR>
+{	remove_call_out(&quot;help_signal&quot;);&nbsp;<BR>
+	call_out(&quot;help_signal&quot;,20);&nbsp;<BR>
+	this_player()-&gt;set(&quot;marks/zhen&quot;,zhenfa);&nbsp;<BR>
+	add_action(&quot;do_change&quot;,&quot;destroy&quot;);&nbsp;<BR>
+	add_action(&quot;do_rebuild&quot;,&quot;rebuild&quot;);&nbsp;<BR>
+}&nbsp;<BR>
+int&nbsp;help_signal()&nbsp;<BR>
+{&nbsp;<BR>
+	string&nbsp;signal;&nbsp;<BR>
+	switch(&nbsp;zhenfa&nbsp;)&nbsp;{&nbsp;<BR>
+	case&nbsp;0:&nbsp;<BR>
+		signal=CYN&nbsp;&quot;一阵风铃摇曳之声传来，清脆悦耳，让你不禁忘了心中的烦忧.&quot;&nbsp;NOR;&nbsp;<BR>
+		break;&nbsp;<BR>
+	case&nbsp;1:&nbsp;<BR>
+		signal=HBYEL&nbsp;&quot;一阵清脆的木鱼声传来，令你的心境顿时平静下来。&quot;&nbsp;NOR;&nbsp;<BR>
+		break;&nbsp;<BR>
+	case&nbsp;2:&nbsp;<BR>
+		signal=HIW&nbsp;&quot;远方炊烟袅袅，使久涉江湖的你不禁想起家中的亲人。&quot;&nbsp;NOR;&nbsp;<BR>
+		break;&nbsp;<BR>
+	case&nbsp;3:&nbsp;<BR>
+		signal=BLU&nbsp;&quot;远方流水潺潺，在这宁静的山林中显得格外的清晰。&quot;&nbsp;NOR;&nbsp;<BR>
+		break;&nbsp;<BR>
+	}&nbsp;<BR>
+	write(signal+&quot;\n&quot;);&nbsp;<BR>
+	return&nbsp;1;}	&nbsp;<BR>
+	int&nbsp;do_change(string&nbsp;arg)&nbsp;<BR>
+	{if&nbsp;(!arg)&nbsp;return&nbsp;notify_fail(&quot;请留言\n&quot;);&nbsp;<BR>
+	set(&quot;short&quot;,&quot;废墟&quot;);&nbsp;<BR>
+	set(&quot;long&quot;,&quot;这里是一片废墟，只有一块孤零零的石碑立在那里，气氛十分诡异&quot;);&nbsp;<BR>
+	delete(&quot;exits/down&quot;);&nbsp;<BR>
+	call_other(&quot;/clone/board/try_b&quot;,&quot;do_destroy&quot;,this_player(),arg);&nbsp;<BR>
+	return&nbsp;1;}&nbsp;<BR>
+int&nbsp;do_rebuild(string&nbsp;arg)&nbsp;<BR>
+	{&nbsp;<BR>
+	if&nbsp;(!arg)&nbsp;return&nbsp;notify_fail(&quot;请题字\n&quot;);&nbsp;<BR>
+	set(&quot;short&quot;,&quot;书院&quot;);&nbsp;<BR>
+&nbsp;<BR>
+	set(&quot;long&quot;,&nbsp;&quot;这里是一间宽敞的书院，虽然房子看起来很老旧了，但是打扫得很&nbsp;<BR>
+	整洁，墙壁上挂著一幅山水画，意境颇为不俗，书院的大门开在北边。&nbsp;<BR>
+	\n&quot;&nbsp;);&nbsp;<BR>
+	set(&quot;exits/down&quot;,__FILE__);&nbsp;<BR>
+	call_other(&quot;/clone/board/try_b&quot;,&quot;do_rebuild&quot;,this_player(),arg);&nbsp;<BR>
+	return&nbsp;1;}	//以上为房间原码&nbsp;<BR>
+※&nbsp;来源:·BBS&nbsp;水木清华站&nbsp;bbs.net.tsinghua.edu.cn·[FROM:&nbsp;ppp97.east.cn.net]&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+※&nbsp;修改:·sunn&nbsp;於&nbsp;Feb&nbsp;15&nbsp;23:31:45&nbsp;修改本文·[FROM:&nbsp;ppp52.east.cn.net]&nbsp;&nbsp;<BR>
+※&nbsp;来源:·BBS&nbsp;水木清华站&nbsp;bbs.net.tsinghua.edu.cn·[FROM:&nbsp;ppp52.east.cn.net]&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+※&nbsp;修改:·sunn&nbsp;於&nbsp;Feb&nbsp;16&nbsp;17:42:19&nbsp;修改本文·[FROM:&nbsp;202.96.51.250]&nbsp;&nbsp;<BR>
+※&nbsp;来源:·BBS&nbsp;水木清华站&nbsp;bbs.net.tsinghua.edu.cn·[FROM:&nbsp;202.96.51.250]&nbsp;&nbsp;<BR>
+发信人:&nbsp;sunn&nbsp;(眼睛),&nbsp;信区:&nbsp;Mud_Builder&nbsp;<BR>
+标&nbsp;&nbsp;题:&nbsp;Re:&nbsp;怎么做活动出口的ROOM?&nbsp;<BR>
+发信站:&nbsp;BBS&nbsp;水木清华站&nbsp;(Sun&nbsp;Feb&nbsp;15&nbsp;21:14:22&nbsp;1998)&nbsp;WWW-POST&nbsp;<BR>
+&nbsp;<BR>
+下面是石碑和石碑所继承info.c的原码&nbsp;<BR>
+xkx&nbsp;for&nbsp;win95下通过&nbsp;<BR>
+//&nbsp;bboard.c&nbsp;<BR>
+//&nbsp;colored&nbsp;by&nbsp;ReyGod&nbsp;in&nbsp;1/10/1997&nbsp;<BR>
+&nbsp;<BR>
+#include&nbsp;&lt;ansi.h&gt;&nbsp;<BR>
+&nbsp;<BR>
+#define&nbsp;BOARD_CAPACITY&nbsp;query(&quot;capacity&quot;)&nbsp;<BR>
+&nbsp;<BR>
+inherit&nbsp;ITEM;&nbsp;<BR>
+inherit&nbsp;F_SAVE;&nbsp;<BR>
+&nbsp;<BR>
+void&nbsp;setup()&nbsp;<BR>
+{&nbsp;<BR>
+	string&nbsp;loc;&nbsp;<BR>
+&nbsp;<BR>
+	if(&nbsp;stringp(loc&nbsp;=&nbsp;query(&quot;location&quot;))&nbsp;)&nbsp;<BR>
+		move(loc);&nbsp;<BR>
+	set(&quot;no_get&quot;,&nbsp;1);&nbsp;<BR>
+	restore();&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+string&nbsp;query_save_file()&nbsp;<BR>
+{&nbsp;<BR>
+	string&nbsp;id;&nbsp;<BR>
+&nbsp;<BR>
+	if(&nbsp;!stringp(id&nbsp;=&nbsp;query(&quot;board_id&quot;))&nbsp;)&nbsp;return&nbsp;0;&nbsp;<BR>
+	return&nbsp;DATA_DIR&nbsp;+&nbsp;&quot;board/&quot;&nbsp;+&nbsp;id;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+string&nbsp;long()&nbsp;<BR>
+{&nbsp;<BR>
+	mapping&nbsp;*notes;&nbsp;<BR>
+	int&nbsp;i;&nbsp;<BR>
+	string&nbsp;msg,msg1,msg2;&nbsp;<BR>
+&nbsp;<BR>
+	notes&nbsp;=&nbsp;query(&quot;notes&quot;);&nbsp;<BR>
+	msg&nbsp;=&nbsp;query(&quot;long&quot;);&nbsp;<BR>
+	&nbsp;<BR>
+	if(&nbsp;!pointerp(notes)&nbsp;||&nbsp;!sizeof(notes)&nbsp;)&nbsp;return&nbsp;query(&quot;long&quot;);&nbsp;<BR>
+&nbsp;<BR>
+	for(i=0;&nbsp;i&lt;sizeof(notes);&nbsp;i++)&nbsp;<BR>
+	{if&nbsp;(notes[i][&quot;status&quot;])&nbsp;{msg2=RED&quot;逆我者亡&quot;;msg1=&nbsp;RED&quot;灭门者:&quot;;}&nbsp;<BR>
+	else&nbsp;{msg2=HIY&quot;遇强更强&quot;;msg1=&nbsp;HIY&quot;重建者:&quot;;}&nbsp;<BR>
+	msg&nbsp;+=&nbsp;sprintf(&quot;[%8s]&quot;&nbsp;NOR&nbsp;&quot;&nbsp;&nbsp;%-30s&nbsp;%19s&nbsp;&quot;&nbsp;NOR&nbsp;&quot;(%s)\n&quot;,	&nbsp;<BR>
+			msg2,&nbsp;notes[i][&quot;title&quot;],&nbsp;msg1+notes[i][&quot;author&quot;],&nbsp;ctime(notes[i][&quot;time&quot;])[0..15]&nbsp;);&nbsp;<BR>
+	}&nbsp;<BR>
+	return&nbsp;msg;&nbsp;<BR>
+}&nbsp;<BR>
+void&nbsp;done_post(mapping&nbsp;note)&nbsp;<BR>
+{&nbsp;<BR>
+	mapping&nbsp;*notes;&nbsp;<BR>
+	notes&nbsp;=&nbsp;query(&quot;notes&quot;);&nbsp;<BR>
+	if(&nbsp;!pointerp(notes)&nbsp;||&nbsp;!sizeof(notes)&nbsp;)&nbsp;<BR>
+		notes&nbsp;=&nbsp;({&nbsp;note&nbsp;});&nbsp;<BR>
+	else&nbsp;<BR>
+		notes&nbsp;+=&nbsp;({&nbsp;note&nbsp;});&nbsp;<BR>
+	if(&nbsp;sizeof(notes)&nbsp;&gt;&nbsp;BOARD_CAPACITY&nbsp;)&nbsp;<BR>
+		notes&nbsp;=&nbsp;notes[BOARD_CAPACITY&nbsp;/&nbsp;2&nbsp;..&nbsp;BOARD_CAPACITY];&nbsp;<BR>
+&nbsp;<BR>
+	set(&quot;notes&quot;,&nbsp;notes);&nbsp;<BR>
+	save();&nbsp;<BR>
+	return;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+int&nbsp;do_destroy(object&nbsp;ob,string&nbsp;arg)&nbsp;<BR>
+{&nbsp;<BR>
+	mapping&nbsp;note;&nbsp;<BR>
+	if(!arg)&nbsp;return&nbsp;notify_fail(&quot;请留言。\n&quot;);&nbsp;<BR>
+	&nbsp;<BR>
+	note&nbsp;=&nbsp;allocate_mapping(3);&nbsp;<BR>
+	note[&quot;title&quot;]&nbsp;=arg&nbsp;;&nbsp;<BR>
+	note[&quot;author&quot;]&nbsp;=&nbsp;ob-&gt;query(&quot;name&quot;);&nbsp;<BR>
+	note[&quot;time&quot;]&nbsp;=&nbsp;time();&nbsp;<BR>
+	note[&quot;status&quot;]=&nbsp;1;&nbsp;<BR>
+	done_post(note);&nbsp;<BR>
+	return&nbsp;1;&nbsp;<BR>
+}&nbsp;<BR>
+int&nbsp;do_rebuild(object&nbsp;ob,string&nbsp;arg)&nbsp;<BR>
+{&nbsp;<BR>
+	mapping&nbsp;note;&nbsp;<BR>
+	if(!arg)&nbsp;return&nbsp;notify_fail(&quot;请留言。\n&quot;);&nbsp;<BR>
+	&nbsp;<BR>
+	note&nbsp;=&nbsp;allocate_mapping(3);&nbsp;<BR>
+	note[&quot;title&quot;]&nbsp;=arg&nbsp;;&nbsp;<BR>
+	note[&quot;author&quot;]&nbsp;=&nbsp;ob-&gt;query(&quot;name&quot;);&nbsp;<BR>
+	note[&quot;time&quot;]&nbsp;=&nbsp;time();&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;note[&quot;status&quot;]=&nbsp;0;&nbsp;<BR>
+	done_post(note);&nbsp;<BR>
+	return&nbsp;1;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+-------------------------&nbsp;<BR>
+&nbsp;<BR>
+//&nbsp;/clone/board/baituo_b.c&nbsp;<BR>
+&nbsp;<BR>
+inherit&nbsp;__DIR__&quot;info1&quot;;&nbsp;<BR>
+&nbsp;<BR>
+void&nbsp;create()&nbsp;<BR>
+{&nbsp;<BR>
+	set_name(&quot;石碑&quot;,&nbsp;({&nbsp;&quot;board&quot;&nbsp;})&nbsp;);&nbsp;<BR>
+	set(&quot;location&quot;,&nbsp;&quot;/yhwnew/tryzhen&quot;);&nbsp;<BR>
+	set(&quot;board_id&quot;,&nbsp;&quot;info_b&quot;);&nbsp;<BR>
+	set(&quot;long&quot;,&nbsp;&quot;这是一块石碑。\n&quot;&nbsp;);&nbsp;<BR>
+	setup();&nbsp;<BR>
+	set(&quot;capacity&quot;,&nbsp;30);&nbsp;<BR>
+	replace_program(__DIR__&quot;info1&quot;);&nbsp;<BR>
+	&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+※&nbsp;来源:·BBS&nbsp;水木清华站&nbsp;bbs.net.tsinghua.edu.cn·[FROM:&nbsp;ppp97.east.cn.net]&nbsp;&nbsp;<BR>
+<A HREF="00000011.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一页</A>
+<A HREF="index.htm">回到目录</A>
+<A HREF="#top">回到页首</A>
+<A HREF="00000013.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+</BODY></HTML>

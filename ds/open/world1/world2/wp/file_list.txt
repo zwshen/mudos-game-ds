@@ -1,0 +1,16 @@
+¥Ø¿ý¡R/open/world2/wp/
+bulletclip_small.c  ¤TÍù¦Ì¤l¼u¼u§¨      gun_10.c            ¢Ñ¢Ù¦Û°Ê¤âºj      
+gun_21.c            ¢Ñ¢Ù¨ÓºÖºj          iron_axe_10.c       ÅK©ò              
+iron_blade_10.c     ÅK¤M                iron_blade_16.c     µu¨ë¤M            
+iron_blade_22.c     µæ¤M                iron_dagger_10.c    ÅK¤P­º            
+iron_dagger_8.c     ÅK¬`µu¤P            iron_fist_10.c      ÅK«üªê            
+iron_fork_10.c      ÅK¥Ù                iron_hammer_10.c    ÅKºl              
+iron_staff_10.c     ÅK§ú                iron_staff_16.c     ¤K¨¤§ú            
+iron_sword_10.c     ÅK¼C                iron_sword_13.c     ÅKªø¼C            
+iron_sword_17.c     ¥ÕÅKªø¼C            rock_throw_10.c     ¥ÛÀY              
+skin_whip_10.c      ¦Ï¥ÖÃ@              wood_axe_5.c        ¤ì©ò              
+wood_blade_5.c      ¤ì¤M                wood_dagger_5.c     ¤ì¤P­º            
+wood_fist_5.c       ¤ì»s«üªê            wood_fork_5.c       ¤ìºj              
+wood_hammer_5.c     ¤ìºl                wood_staff_5.c      ¤ì§ú              
+wood_sword_5.c      ¤ì¼C                wood_whip_5.c       ¦ËÃ@              
+

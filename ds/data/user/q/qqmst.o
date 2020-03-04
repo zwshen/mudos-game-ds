@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions ([])
+dbase (["addition_shield":10,"actions":,"heart_beat_rate":6,"DS_DATA_VERSION":19991107,"race":"ogre","max_mp":54,"max_hp":120,"title":"八極門第七代俠客","channels":({"chat","rumor","tchat",}),"help":"newbie/","attitude":"peaceful","birthday":1196069706,"family":(["privs":-1,"title":"俠客","family_name":"八極門","generation":7,]),"id":"qqmst","last_location":"/open/world1/tmr/bagi/rift","mp":54,"gender":"男性","name":"天涯","adv_class":1,"bank":(["past":0,]),"cure_count":12,"unit":"位","class1":"八極門","max_ap":66,"startroom":"/open/world1/tmr/area/hotel","ap":66,"addition_armor":10,"supply_point":60,"guild_gifts":({10,7,0,3,}),"default_actions":,"age":14,"addition_damage":10,"Merits":(["bar":0,"bio":0,"tec":0,"sou":0,"wit":0,]),"talk_point":8,"newbie":1,"volume":7,"exp":777,"dex":2,"int":2,"wound":(["body":0,"right_arm":0,"right_leg":0,"head":0,"left_leg":0,"left_arm":0,]),"con":2,"hp":120,"str":2,"level":1,"evil":-1,"heart_modify":0,"mud_age":491,])
+skills (["bagi_fist":1,"dodge":1,"hammer":1,"unarmed":1,"blade":1,"whip":1,"dagger":1,"staff":1,"da-fork":1,"block":1,"horse-steps":1,"axe":1,"fork":1,"parry":1,"sword":1,])
+items ({})
+alias (["1":"exert bagi_fist",])
+autoload ({})
+toDoList ([])
+solved ({})

@@ -1,0 +1,17 @@
+
+	random(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		random() - 傳回一個「假性」亂數 (pseudo-random number).
+	函數語法:
+		int random( int n );
+
+		整數 random( 整數 n );
+	函數用法:
+		傳回一個□圍從 0  到 n - 1  的假性亂數.
+	手冊翻譯:
+		Phoebus@ZH	97.May.2.		(Writen 5/23/97)
+	譯按:
+		真正的亂數必須先給予一個種子數 (seed number), 
+		再藉由查亂數表取得一組亂數, 而這些亂數值均介於
+		0 與 1  之間.

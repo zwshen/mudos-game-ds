@@ -1,0 +1,41 @@
+¥Ø¿ý¡R/open/world1/ksj/lost_island/npc/eq/
+apollo-armor.c      ªüªiÃ¹¶Àª÷ñZ¥Ò      apollo-stele.c      ¤Ó¶§¯«¥Û¸O        
+black-dog-bone.c                        black-magic-robe.c  ¶Â¦âªø³T          
+blood-eye-dragon-armor.c  ¦å²´                bone.c              ¤@°ï¥Õ°©          
+brambly-crown.c     ¯ð´ÆÀY«a            captain-corpse.c    ²îªøªº«ÍÅé        
+captain-hat.c       ¬V¦å²îªø´U          chimera-boots.c     ·à¤ö¹u            
+cow-skin-armor.c    ¨ë¤û¥Ö¥Ò            cow-skin-hat.c      ¨ë¤û¥Ö²¯          
+crystal-corslet.c   ¤ô´¹¯ÝñZ            crystal-shield.c    ¤ô´¹¬ÞµP          
+deerskin-boots.c    ³À¥Ö¹u              deerskin-gloves.c   ³À¥Ö¤â®M          
+deerskin-surcoat.c  ³À¥Ö©Ü­·            diamond-earring.c   Æp¥Û¦ÕÀô          
+diamond-necklace.c  Æp¥Û¶µÃì            diamond-ring.c      Æp¥Û§Ù«ü          
+dragon-eye.c        ¦aÀs²´              feather-surcoat.c   µ³¦Ð©Ü­·          
+fire-wolf-pants.c   ¤õ¯T¤ò¿Ç            fire-wolf-surcoat.c  ¤õ¯T¸Ê¦ç          
+fly-sea-stone.c     µ¾ ®ü ¥Û            gold-armor.c        ¶Àª÷ñZ¥Ò          
+gold-boots.c        ¶Àª÷ªø¹u            gold-coin.c         ¥jª÷¹ô            
+gold-earring.c      ¶Àª÷¦ÕÀô            gold-finger.c       ¶Àª÷§Ù«ü          
+gold-leggings.c     ¶Àª÷×H¥Ò            gold-mask.c         ¶Àª÷­±¨ã          
+gold-necklace.c     ¶Àª÷¶µÃì            gold-shield.c       ¶Àª÷¬ÞµP          
+gold-waist.c        ¶Àª÷¸y±a            gold-wrists.c       ¶Àª÷Å@µÃ          
+gold.c              ª÷»È°]Ä_            green-snake-waist.c  «CÅì§ô±a          
+honey.c             ¸Á»e                horn-bugle.c        ¯½¤úÃ¹¸¹¨¤        
+huge-tiger-cloth.c  ªê¯¾¥Ö¦ç            huge-turtle-armor.c  ÆR´ß¥Ò«`          
+huge-turtle-shield.c  ¥¨ÆR¥Ò¬Þ            intellect-staff.c   ´¼ªÌ¤§§ú          
+inverse-horn-helmet.c  °f¨¤                iron-beetle-shield.c  ÂÎ¥Ò¬Þ            
+jade-toad-wrists.c  ¥ÉÃÊÅ@µÃ            leviathan-earring.c  ®ü¯«¦ÕÀô          
+leviathan-mask.c    ®ü¯«Å@­±            poison-snake-pill.c  »G¬r¤¦¤Y          
+poison-snake-waist.c  »G¬r§ô±a            primeval-dagger.c   ¥j¯¾¤P­º          
+primeval-sword.c    ¤Ó¥j¯«¾¹            purple-jade-ring.c  µµ¥É§Ù            
+red-journal.c       ¯è®ü¤é»x            sailorman-blade.c   ¤ô¤âÅs¤M          
+sea-stone.c         ºÑ ®ü ¥Û            shell-dragon-armor.c  ÅKÀs¨ë¥Ò          
+shell-dragon-blood.c  ÅKÀs¦å              silver-dragon-claw.c  »ÈÁlÀs¤ö          
+silver-dragon-heart.c  »ÈÁlÀs¤ß            silver-snake-waist.c  »ÈÅì§ô±a          
+sky-bead.c          ¤Ñµ¾¯]              soul-finger.c       ²MÆF¤§§Ù          
+stone1.c            ¸H¥Û¤ù              stone2.c            ¸H¥Û¤ù            
+tiger-blade.c       ªê¤ú¤M              tiger-claw.c        ¼C¤úªê¤ö          
+tiger-dagger.c      ªê¤ú¤P­º            tiger-staff.c       ªê°©ªø§ú          
+tiger-sword.c       ªê¤ú¼C              tiger-whip.c        ªê§ÀªøÃ@          
+treasure-paper1.c   ¯}Äêªº¦Ï¥Ö¯È        treasure-paper2.c   ¯}Äêªº¦Ï¥Ö¯È      
+treasure-paper3.c   ¯}Äêªº¦Ï¥Ö¯È        xiangliu-cloth.c    ¬Û¬hÅì¦ç          
+xiangliu-pill.c     ¬Û¬h¤º¤¦            xiangliu_cloth.c    ¬Û¬hÅì¦ç          
+xiangliu_pill.c     ¬Û¬h¤º¤¦            

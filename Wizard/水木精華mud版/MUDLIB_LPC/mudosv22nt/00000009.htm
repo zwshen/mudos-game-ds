@@ -1,0 +1,65 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清華站︰精華區</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+<A Name="top"></a>
+發信人:&nbsp;wwj&nbsp;(星),&nbsp;信區:&nbsp;Mud_Builder&nbsp;<BR>
+標&nbsp;&nbsp;題:&nbsp;關於這個版本的mudos的使用&nbsp;<BR>
+發信站:&nbsp;BBS&nbsp;水木清華站&nbsp;(Wed&nbsp;Aug&nbsp;12&nbsp;22:55:33&nbsp;1998)&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;我編譯的這個v22版本mudos和它原來的v21.7的mudos用法基本一致，都是&nbsp;<BR>
+通過一個mudos.ini文件來傳遞參數的。&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;Mudos執行程序是mudos.exe文件。使用它之前要在mudos.exe相同目錄下，&nbsp;<BR>
+新建一個文本文件，取名為mudos.ini。內容如下&nbsp;<BR>
+&nbsp;<BR>
+;&nbsp;mudos.ini&nbsp;<BR>
+[init]&nbsp;<BR>
+config=d:\mudlib\es2\config.es2&nbsp;&nbsp;;&nbsp;這個是mudlib的配置文件路徑，最好用全路徑名&nbsp;<BR>
+heartbeat=1000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;&nbsp;這個是heartbeat的值，以毫秒計&nbsp;<BR>
+addr_port=3990&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;&nbsp;如果需要啟動addr_server，請加上此項。&nbsp;<BR>
+&nbsp;<BR>
+[com]&nbsp;<BR>
+{EAB22AC1-30C1-11CF-A7EB-0000C05BAE0B}=c:\win\system\shdocvw.dll&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;v22版的mudos在使用com之前，mudos本身要做一次初始化操作。請運行&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;mudos&nbsp;register&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;如果在NT上跑的話，要用管理員登錄，運行mudos&nbsp;install來添加服務&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;啟動mudos時，95下只用運行mudos就可以。NT下就要在Control&nbsp;Panel中&nbsp;<BR>
+的服務一項，啟動mudos&nbsp;v22pre11&nbsp;...那個服務(這個服務僅當你運行了&nbsp;<BR>
+mudos&nbsp;install之後才會出現)&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;mudos啟動後，不論是95還是nt，在那個Explorer的任務條的右端都會&nbsp;<BR>
+出現一個小地球的圖標。鼠標右鍵點擊他，會出現一個菜單讓你選擇是&nbsp;<BR>
+關閉還是重起。&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;V22版在網上同時發佈了源碼。請把這些源碼展到一個叫mudos的目錄下&nbsp;<BR>
+然後將上層目錄映射成x:&nbsp;和&nbsp;z:&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;如你將它們展到了&nbsp;c:\mud\mudos下，就該運行&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;subst&nbsp;x:&nbsp;c:\mud&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;subst&nbsp;z:&nbsp;c:\mud&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;然後運行VC5，打開x:\mudos下的那個工程文件，先編譯editsource工程&nbsp;<BR>
+再編譯mudos工程就可以了。&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;編譯時需要一個yacc工具，在&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;<A HREF="ftp://ftp.lib.pku.edu.cn/incoming/MudosV22pre11/">ftp://ftp.lib.pku.edu.cn/incoming/MudosV22pre11/</A>&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;下可找到，是bison.exe&nbsp;bison.hai&nbsp;bison.sim三個文件&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;(注意這個工具和網上常見的有不一樣的地方，是專門為編譯&nbsp;<BR>
+這個mudos編譯出來的yacc工具)&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+※&nbsp;來源:‧BBS&nbsp;水木清華站&nbsp;bbs.net.tsinghua.edu.cn‧[FROM:&nbsp;202.99.8.82]&nbsp;<BR>
+<A HREF="00000009.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一頁</A>
+<A HREF="index.htm">回到目錄</A>
+<A HREF="#top">回到頁首</A>
+</CENTER>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+</BODY></HTML>

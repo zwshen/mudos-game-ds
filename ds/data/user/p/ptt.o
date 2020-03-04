@@ -1,0 +1,10 @@
+#/obj/user.c
+conditions (["ill_kesou":31,])
+dbase (["addition_armor":10,"adv_class":0,"max_mp":66,"talk_point":8,"max_hp":84,"guild_gifts":({5,5,5,5,}),"addition_damage":10,"mp":66,"disable_type":" <毫無呼吸>","bellicosity":0,"max_ap":100,"ap":100,"unit":"位","newbie":1,"war_score":4,"MKS":8,"exp":1331,"dex":2,"int":2,"id":"ptt","hp":84,"con":2,"DS_DATA_VERSION":19991107,"str":2,"level":1,"cure_count":19,"volume":7,"channels":({"chat","rumor","tchat",}),"birthday":1178262810,"combat_exp":0,"gender":"女性","evil":-1,"name":"批踢踢","mob_record":({"/open/world1/tmr/area/npc/smith","/open/world1/tmr/area/npc/frog","/open/world1/tmr/area/npc/frog","/open/world1/tmr/area/npc/frog","/open/world1/tmr/area/npc/frog","/open/world1/acme/area/npc/child","/open/world1/npc/salesman","/open/world1/tmr/area/npc/shan",}),"supply_point":60,"startroom":"/open/world1/tmr/area/hotel","attitude":"peaceful","race":"evil","heart_modify":0,"heart_beat_rate":6,"mud_age":5646,"bank":(["past":3000,]),"age":14,"wound":(["right_leg":0,"right_arm":0,"left_arm":0,"body":0,"left_leg":0,"head":0,]),"last_location":"/open/world1/tmr/gumu/mudao04","default_actions":,"quest":(["love1":1,]),"addition_shield":10,"Merits":(["bar":0,"bio":0,"tec":0,"sou":0,"wit":0,]),"actions":,])
+skills (["strong-body":2,"unarmed":3,"parry":0,"dodge":2,"sword":1,"combat":6,])
+learned (["strong-body":7,"unarmed":28,"parry":2,"dodge":14,"combat":20,])
+items ({})
+alias (["rs":"recall","u":"up",])
+autoload ({"/obj/money/coin:45",})
+toDoList ([])
+solved ({})

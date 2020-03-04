@@ -1,0 +1,10 @@
+#/obj/user.c
+conditions (["ill_fashao":7,])
+dbase (["mp":180,"DS_DATA_VERSION":19991107,"cure_count":18,"Merits":(["bio":0,"bar":0,"tec":0,"wit":0,"sou":0,]),"ap":150,"attitude":"peaceful","popularity":619,"skill":(["literate":37,]),"talk_point":20,"supply_point":140,"channels":({"chat","rumor","tchat",}),"newbie":1,"exp":15312167,"dex":8,"int":8,"max_ap":150,"con":8,"addition":(["int":2,]),"volume":7,"war_art":2063,"level":5,"unit":"¦ì","birthday":1172567197,"heart_beat_rate":6,"max_hp":200,"default_actions":,"age":22,"evil":-1,"addition_shield":10,"actions":,"board_last_read":(["tmr_hotel_b":1173195920,]),"addition_armor":10,"nickname":"[1;31m¦uÅ@ªÌ[0m","env":([]),"mud_age":754069,"hp":200,"race":"human","last_location":"/open/world1/tmr/gumu/mumen","bank":(["past":937350,]),"wound":(["right_arm":0,"body":0,"right_leg":0,"left_leg":0,"left_arm":0,"head":0,]),"addition_damage":10,"heart_modify":0,"id":"kuro","guild_rank":"¦¨¼ô¼a´Aªº¤p©h®Q","startroom":"/open/world1/tmr/area/hotel","guild_gifts":({5,5,5,5,}),"gender":"¤k©Ê","max_mp":180,"str":8,"name":"®w¬¥Å]ªk¨Ï",])
+skills (["literate":39,"block":25,"blade":25,"whip":25,"chess":20,"dagger":25,"sword":25,"fork":25,"hammer":25,"axe":25,"unarmed":25,"parry":25,"dodge":25,"swim":39,"strong-body":17,"staff":25,])
+learned (["literate":0,"swim":0,"chess":186,"strong-body":458,])
+items ({})
+alias (["/":"recall start",])
+autoload ({})
+toDoList ([])
+solved ({})

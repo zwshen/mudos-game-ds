@@ -1,0 +1,58 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=bg2312">
+   <META NAME="Author" CONTENT="Spock">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.01 [en] (Win95; I) [Netscape]">
+   <TITLE>MudOS v21c2 參考文件 - efuns - interactive - ed</TITLE>
+</HEAD>
+<BODY TEXT="#CCFFFF" BGCOLOR="#000000" LINK="#33FF33" VLINK="#FF0000" ALINK="#33CCFF" BACKGROUND="../../../image/ff/fftitleback.jpg" NOSAVE>
+
+<CENTER><FONT COLOR="#FF99FF"><FONT SIZE=+3>ed(3)　　 MudOS v21c2　 (5
+Sep 1994)</FONT></FONT></CENTER>
+
+<HR WIDTH="100%">
+<BR><FONT COLOR="#FFFFCC">　名稱:</FONT>
+<UL>　 ed() - 編輯一個文件.</UL>
+<FONT COLOR="#FFFFCC">　語法:</FONT>
+<UL>　 void ed( string file, string exit_fn, int restricted );
+<BR>　 void ed( string file, string write_fn, string exit_fn, int restricted
+);
+
+<P>　 無返回值 ed( 字符串 file, 字符串 exit_fn, 整數 restricted );
+<BR>　 無返回值 ed( 字符串 file, 字符串 write_fn, 字符串 exit_fn, 整數 restricted
+);</UL>
+<FONT COLOR="#FFFFCC">　用法:</FONT>
+<UL>　 這個函數只有在定義了 __OLD_ED__ 之後有效.
+
+<P>　 這個函數很有趣. 它會啟動一個文書編輯程序來編輯一個指定的文件. 這個程序與
+UNIX 的 ed 程序幾乎相容. 當你進入這個程序後, 可以輸入 h 了解用法.
+
+<P>　 write_fn　 函數可以讓 mudlib 控制文件的寫入權限和文件修改紀錄. 當編輯程序寫入一個文件時,
+MUD 驅動程序 (driver) 會調用 write_fn 兩次. 第一次調用時, 是在寫入文件之前,
+而 flag 標誌為 0. 如果被調用的函數返回「真」值 (true, 即為非零值) , 編輯程序就會繼續寫入文件.
+第二次調用時, 是在寫入文件完成之後, 此時的 flag 標誌為非零值. 被調用的函數必須符合以下的格式:
+
+<P><FONT COLOR="#FFCC99">　　 int write_fn(string fname, int flag)</FONT>
+
+<P>　 離開編輯程序時, MUD 驅動程序 (driver) 會調用 exit_fn 函數. 這個被調用的函數可以讓
+mudlib 清除. 這個函數要符合以下的格式:
+<BR>　
+<UL><FONT COLOR="#FFCC99">　　 void exit_fn()</FONT></UL>
+　 而可以省略的 restricted 標誌則限制編輯程序的功能. 像是: 插入一個文件,
+以不同的名字儲存文件. 這些功能在 restricted 標誌為「真」值時, 就無法使用.</UL>
+<FONT COLOR="#FFFFCC">　參考:</FONT>
+<UL>　 <A HREF="../strings/regexp.html">regexp(3)</A>, <A HREF="../../applies/master/valid_read.html">valid_read(4)</A>,
+<A HREF="../../applies/master/valid_write.html">valid_write(4)</A>, <A HREF="../../applies/master/get_save_file_name.html">get_save_file_name(4)</A></UL>
+<FONT COLOR="#FFFFCC">　翻譯:</FONT>
+<UL>　 Spock @ FF 97.Feb.7.　 (printed 3/16/95)</UL>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+<CENTER><A HREF="../interactive.html">回到上一頁</A></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+</BODY>
+</HTML>

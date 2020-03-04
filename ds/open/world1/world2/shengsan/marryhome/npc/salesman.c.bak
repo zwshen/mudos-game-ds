@@ -1,0 +1,74 @@
+// ÂÅ¤Ñ«Ø³]¾P°â¸g²z
+// by Shengsan@DS  2002/4/2 05:07PM
+#include <ansi.h>
+
+inherit NPC;
+//inherit	MARRY;
+inherit	"/std/char/marry";
+
+void create()
+{
+        set_name( "¾P°â¸g²z", ({ "selling manager","manager" }));
+        set("long", @LONG
+¦o¬O¤@¦ì¾Ö¦³°g¤H­·ªöªº¬üÄR¤k¤H¡A«NÄRªºµu¾v¥[¤W¸Ë§ê¤£«UªºªA¹¢¡A
+¤@ºØÄá¤Hªº²´¯«¥¿¦b¹ï§A¤W¤U¥´¶qµÛ¡A¥t¥~¥L§ó¬OÂÅ¤Ñ«Ø³]¸Ì¤@¦ì¾Ö¦³±M·~
+¾P°â¸gÅçªº¸g²z¤H¡C
+
+	buyhouse		¶R©Ð¤l
+
+LONG
+        );
+	set("level",30);
+	set("title","ºaÅA¤§");
+	set("gender", "¤k©Ê");
+	set("race", "¤HÃþ");
+	set("age", 32);
+	set("exp",1000);		//ª±®a±þ¦º·|±o¨ìexp/10 (¥i§K)
+					//«ØÄ³¤£­n¦Û¤v³]exp. ¥Ñ¨t²Î¨M©w
+					//¥H§K¤£¦Pwiz¼gªºmob ·|¥X²{¤Ó¤jªº®t²§
+	set("combat_exp",2000);		//¾Ô¼ô(¬ù¦bmob levelªº100­¿¥ª¥k¬°©y)
+	set("evil",20);			//¨¸´c«× 20 (¥¿ªºªí¨¸´c, ­tªíµ½¨})
+
+	set("attitude", "peaceful");		//·Å©Mªº NPC¡C
+	set("talk_reply","¬°±z¤Î±zªº¥t¤@¥b¿ïÁÊ¤@¶¡·Å·xªº®a(home)§a..¨þ¨þ..");
+	set("no_kill",1);
+	set("no_fight",1);
+	set("chat_chance", 1 );  //°Ê§@¾÷²v
+	set("chat_msg", ({       //°Ê§@¤º®e
+		"¾P°â¸g²z¯º¯º¦a»¡: ²¢»e»eªº¤p­Ç¤f¤]À³¸Ó­n¦³¦Û¤vªº©Ð¤l(house)§a... §Ú½æªº©Ð¤l¥i¬O¸U¤¤¤§¿ï³á!\n",
+		"¾P°â¸g²z«Ü¦³¿³­P¦aª`µøµÛ§A, ²´¯«¤¤¦ü¥G±a¦³¤@ÂI«N¥Ö¡C\n",
+		"¾P°â¸g²z®³°_ªM¤l³Ü¤F¨Ç¤ô¡C\n",
+		(:command("grin"):),
+		(:command("think"):),
+		}) );
+//===========================°ÝÃD¦^µª==================================
+	set("inquiry/name", "[1;36m §Ú¬OÂÅ¤Ñ«Ø³]ªº¾P°â¸g²z... ½Ð¦h«ü±Ð!![m");
+	set("inquiry/buy", "[1;36m ±z­n¶R©Ð¤l¶Ü? \n¦pªG±z³ßÅw³o¶¡©Ð¤l´N§â¥¦µ¹¶R¤U¨Ó(buyhouse)§a!![m");
+	set("inquiry/house", "[1;36m ¯à¦³ÄÝ©ó¦Û¤vªº©Ð¤l¬O¨C­Ó¤Hªº¹Ú·Q... \n¦pªG±z³ßÅw³o¶¡©Ð¤l´N§â¥¦µ¹¶R¤U¨Ó(buyhouse)§a!![m");
+	set("inquiry/home", "[1;36m ¯à¦³ÄÝ©ó¦Û¤vªº©Ð¤l¬O¨C­Ó¤Hªº¹Ú·Q... \n¦pªG±z³ßÅw³o¶¡©Ð¤l´N§â¥¦µ¹¶R¤U¨Ó(buyhouse)§a!![m");
+	set("inquiry/buyhouse", "[1;36m ³á? §A­n¶R©Ð¤l... ½Ðª½±µÁä¤J buyhouse[m");
+	setup();
+	add_money("dollar", 250);		//±aªº¿ú
+
+}
+
+void init()
+{
+	seteuid(getuid(environment()));
+	if(!userp(this_player())) return;
+	add_action("do_buyhouse","buyhouse");
+	add_action("do_yes",({"y"}));
+	add_action("do_yes",({"yes"}));
+	add_action("do_no",({"no"}));
+	add_action("buildhouse","bh");
+}
+
+void reset()
+{
+	delete("buyinghouse");
+	delete("asking");
+	command("say ±z¨Óªº¤£¥©¡A¤µ¤Ñ¤½¥ð¤é¡A·Q¶R©Ð¤l©ú¤Ñ½Ð¦­¡C");
+}
+
+
+

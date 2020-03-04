@@ -1,0 +1,595 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0043)http://www.chinazmud.com/wz/list.asp?id=148 -->
+<HTML><HEAD><TITLE>流星雨的MUDOS-LPC讲座 BIND</TITLE>
+<SCRIPT language=JavaScript>
+
+helpstat = false;
+stprompt = true;
+basic = false;
+function thelp(swtch){
+	if (swtch == 1){
+		basic = false;
+		stprompt = false;
+		helpstat = true;
+	} else if (swtch == 0) {
+		helpstat = false;
+		stprompt = false;
+		basic = true;
+	} else if (swtch == 2) {
+		helpstat = false;
+		basic = false;
+		stprompt = true;
+	}
+}
+
+function AddText(NewCode) {
+document.myform.txtcontent.value+=NewCode
+}
+
+function email() {
+	if (helpstat) {
+		alert("Email 标记\n插入 Email 超级链接\n用法1: [email]webmaster@aspsky.net[/email]\n用法2: [email=webmaster@aspsky.net]沙滩小子[/email]");
+	} else if (basic) {
+		AddTxt="[email][/email]";
+		AddText(AddTxt);
+	} else { 
+		txt2=prompt("链接显示的文字.\n如果为空，那么将只显示你的 Email 地址",""); 
+		if (txt2!=null) {
+			txt=prompt("Email 地址.","name@domain.com");      
+			if (txt!=null) {
+				if (txt2=="") {
+					AddTxt="[email]"+txt+"[/email]";
+				} else {
+					AddTxt="[email="+txt+"]"+txt2;
+					AddText(AddTxt);
+					AddTxt="[/email]";
+				} 
+				AddText(AddTxt);	        
+			}
+		}
+	}
+}
+function flash() {
+ 	if (helpstat){
+		alert("Flash 动画\n插入 Flash 动画.\n用法: [flash]Flash 文件的地址[/flash]");
+	} else if (basic) {
+		AddTxt="[flash][/flash]";
+		AddText(AddTxt);
+	} else {                  
+		txt=prompt("Flash 文件的地址","http://");
+		if (txt!=null) {             
+			AddTxt="[flash]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/flash]";
+			AddText(AddTxt);
+		}        
+	}  
+}
+
+function showsize(size) {
+	if (helpstat) {
+		alert("文字大小标记\n设置文字大小.\n可变范围 1 - 6.\n 1 为最小 6 为最大.\n用法: [size="+size+"]这是 "+size+" 文字[/size]");
+	} else if (basic) {
+		AddTxt="[size="+size+"][/size]";
+		AddText(AddTxt);
+	} else {                       
+		txt=prompt("大小 "+size,"文字"); 
+		if (txt!=null) {             
+			AddTxt="[size="+size+"]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/size]";
+			AddText(AddTxt);
+		}        
+	}
+}
+
+function bold() {
+	if (helpstat) {
+		alert("加粗标记\n使文本加粗.\n用法: [b]这是加粗的文字[/b]");
+	} else if (basic) {
+		AddTxt="[b][/b]";
+		AddText(AddTxt);
+	} else {  
+		txt=prompt("文字将被变粗.","文字");     
+		if (txt!=null) {           
+			AddTxt="[b]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/b]";
+			AddText(AddTxt);
+		}       
+	}
+}
+
+function italicize() {
+	if (helpstat) {
+		alert("斜体标记\n使文本字体变为斜体.\n用法: [i]这是斜体字[/i]");
+	} else if (basic) {
+		AddTxt="[i][/i]";
+		AddText(AddTxt);
+	} else {   
+		txt=prompt("文字将变斜体","文字");     
+		if (txt!=null) {           
+			AddTxt="[i]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/i]";
+			AddText(AddTxt);
+		}	        
+	}
+}
+
+function quote() {
+	if (helpstat){
+		alert("引用标记\n引用一些文字.\n用法: [quote]引用内容[/quote]");
+	} else if (basic) {
+		AddTxt="[quote][/quote]";
+		AddText(AddTxt);
+	} else {   
+		txt=prompt("被引用的文字","文字");     
+		if(txt!=null) {          
+			AddTxt="[quote]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/quote]";
+			AddText(AddTxt);
+		}	        
+	}
+}
+
+function showcolor(color) {
+	if (helpstat) {
+		alert("颜色标记\n设置文本颜色.  任何颜色名都可以被使用.\n用法: [color="+color+"]颜色要改变为"+color+"的文字[/color]");
+	} else if (basic) {
+		AddTxt="[color="+color+"][/color]";
+		AddText(AddTxt);
+	} else {  
+     	txt=prompt("选择的颜色是: "+color,"文字");
+		if(txt!=null) {
+			AddTxt="[color="+color+"]"+txt;
+			AddText(AddTxt);        
+			AddTxt="[/color]";
+			AddText(AddTxt);
+		} 
+	}
+}
+
+function center() {
+ 	if (helpstat) {
+		alert("对齐标记\n使用这个标记, 可以使文本左对齐、居中、右对齐.\n用法: [align=center|left|right]要对齐的文本[/align]");
+	} else if (basic) {
+		AddTxt="[align=center|left|right][/align]";
+		AddText(AddTxt);
+	} else {  
+		txt2=prompt("对齐样式\n输入 'center' 表示居中, 'left' 表示左对齐, 'right' 表示右对齐.","center");               
+		while ((txt2!="") && (txt2!="center") && (txt2!="left") && (txt2!="right") && (txt2!=null)) {
+			txt2=prompt("错误!\n类型只能输入 'center' 、 'left' 或者 'right'.","");               
+		}
+		txt=prompt("要对齐的文本","文本");     
+		if (txt!=null) {          
+			AddTxt="\r[align="+txt2+"]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/align]";
+			AddText(AddTxt);
+		}	       
+	}
+}
+
+function hyperlink() {
+	if (helpstat) {
+		alert("超级链接标记\n插入一个超级链接标记\n使用方法: [url]http://www.aspsky.net[/url]\nUSE: [url=http://www.aspsky.net]链接文字[/url]");
+	} else if (basic) {
+		AddTxt="[url][/url]";
+		AddText(AddTxt);
+	} else { 
+		txt2=prompt("链接文本显示.\n如果不想使用, 可以为空, 将只显示超级链接地址. ",""); 
+		if (txt2!=null) {
+			txt=prompt("超级链接.","http://");      
+			if (txt!=null) {
+				if (txt2=="") {
+					AddTxt="[url]"+txt;
+					AddText(AddTxt);
+					AddTxt="[/url]";
+					AddText(AddTxt);
+				} else {
+					AddTxt="[url="+txt+"]"+txt2;
+					AddText(AddTxt);
+					AddTxt="[/url]";
+					AddText(AddTxt);
+				}         
+			} 
+		}
+	}
+}
+
+function image() {
+	if (helpstat){
+		alert("图片标记\n插入图片\n用法： [img]http://www.aspsky.net/logo.gif[/img]");
+	} else if (basic) {
+		AddTxt="[img][/img]";
+		AddText(AddTxt);
+	} else {  
+		txt=prompt("图片的 URL","http://");    
+		if(txt!=null) {            
+			AddTxt="\r[img]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/img]";
+			AddText(AddTxt);
+		}	
+	}
+}
+
+function showcode() {
+	if (helpstat) {
+		alert("代码标记\n使用代码标记，可以使你的程序代码里面的 html 等标志不会被破坏.\n使用方法:\n [code]这里是代码文字[/code]");
+	} else if (basic) {
+		AddTxt="\r[code]\r[/code]";
+		AddText(AddTxt);
+	} else {   
+		txt=prompt("输入代码","");     
+		if (txt!=null) {          
+			AddTxt="\r[code]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/code]";
+			AddText(AddTxt);
+		}	       
+	}
+}
+
+function list() {
+	if (helpstat) {
+		alert("列表标记\n建造一个文字或则数字列表.\n\nUSE: [list] [*]项目一[/*] [*]项目二[/*] [*]项目三[/*] [/list]");
+	} else if (basic) {
+		AddTxt=" [list][*]  [/*][*]  [/*][*]  [/*][/list]";
+		AddText(AddTxt);
+	} else {  
+		txt=prompt("列表类型\n输入 'A' 表示有序列表, '1' 表示无序列表, 留空表示无序列表.","");               
+		while ((txt!="") && (txt!="A") && (txt!="a") && (txt!="1") && (txt!=null)) {
+			txt=prompt("错误!\n类型只能输入 'A' 、 '1' 或者留空.","");               
+		}
+		if (txt!=null) {
+			if (txt=="") {
+				AddTxt="[list]";
+			} else {
+				AddTxt="[list="+txt+"]";
+			} 
+			txt="1";
+			while ((txt!="") && (txt!=null)) {
+				txt=prompt("列表项\n空白表示结束列表",""); 
+				if (txt!="") {             
+					AddTxt+="[*]"+txt+"[/*]"; 
+				}                   
+			} 
+			AddTxt+="[/list] ";
+			AddText(AddTxt); 
+		}
+	}
+}
+
+function showfont(font) {
+ 	if (helpstat){
+		alert("字体标记\n给文字设置字体.\n用法: [face="+font+"]改变文字字体为"+font+"[/face]");
+	} else if (basic) {
+		AddTxt="[face="+font+"][/face]";
+		AddText(AddTxt);
+	} else {                  
+		txt=prompt("要设置字体的文字"+font,"文字");
+		if (txt!=null) {             
+			AddTxt="[face="+font+"]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/face]";
+			AddText(AddTxt);
+		}        
+	}  
+}
+function underline() {
+  	if (helpstat) {
+		alert("下划线标记\n给文字加下划线.\n用法: [u]要加下划线的文字[/u]");
+	} else if (basic) {
+		AddTxt="[u][/u]";
+		AddText(AddTxt);
+	} else {  
+		txt=prompt("下划线文字.","文字");     
+		if (txt!=null) {           
+			AddTxt="[u]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/u]";
+			AddText(AddTxt);
+		}	        
+	}
+}
+function setfly() {
+ 	if (helpstat){
+		alert("飞翔标记\n使文字飞行.\n用法: [fly]文字为这样文字[/fly]");
+	} else if (basic) {
+		AddTxt="[fly][/fly]";
+		AddText(AddTxt);
+	} else {                  
+		txt=prompt("飞翔文字","文字");
+		if (txt!=null) {             
+			AddTxt="[fly]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/fly]";
+			AddText(AddTxt);
+		}        
+	}  
+}
+
+function move() {
+	if (helpstat) {
+		alert("移动标记\n使文字产生移动效果.\n用法: [move]要产生移动效果的文字[/move]");
+	} else if (basic) {
+		AddTxt="[move][/move]";
+		AddText(AddTxt);
+	} else {  
+		txt=prompt("要产生移动效果的文字","文字");     
+		if (txt!=null) {           
+			AddTxt="[move]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/move]";
+			AddText(AddTxt);
+		}       
+	}
+}
+
+function shadow() {
+	if (helpstat) {
+               alert("阴影标记\n使文字产生阴影效果.\n用法: [SHADOW=宽度, 颜色, 边界]要产生阴影效果的文字[/SHADOW]");
+	} else if (basic) {
+		AddTxt="[SHADOW=255,blue,1][/SHADOW]";
+		AddText(AddTxt);
+	} else { 
+		txt2=prompt("文字的长度、颜色和边界大小","255,blue,1"); 
+		if (txt2!=null) {
+			txt=prompt("要产生阴影效果的文字","文字");
+			if (txt!=null) {
+				if (txt2=="") {
+					AddTxt="[SHADOW=255, blue, 1]"+txt;
+					AddText(AddTxt);
+					AddTxt="[/SHADOW]";
+					AddText(AddTxt);
+				} else {
+					AddTxt="[SHADOW="+txt2+"]"+txt;
+					AddText(AddTxt);
+					AddTxt="[/SHADOW]";
+					AddText(AddTxt);
+				}         
+			} 
+		}
+	}
+}
+
+function glow() {
+	if (helpstat) {
+		alert("光晕标记\n使文字产生光晕效果.\n用法: [GLOW=宽度, 颜色, 边界]要产生光晕效果的文字[/GLOW]");
+	} else if (basic) {
+		AddTxt="[glow=255,red,2][/glow]";
+		AddText(AddTxt);
+	} else { 
+		txt2=prompt("文字的长度、颜色和边界大小","255,red,2"); 
+		if (txt2!=null) {
+			txt=prompt("要产生光晕效果的文字.","文字");      
+			if (txt!=null) {
+				if (txt2=="") {
+					AddTxt="[glow=255,red,2]"+txt;
+					AddText(AddTxt);
+					AddTxt="[/glow]";
+					AddText(AddTxt);
+				} else {
+					AddTxt="[glow="+txt2+"]"+txt;
+					AddText(AddTxt);
+					AddTxt="[/glow]";
+					AddText(AddTxt);
+				}         
+			} 
+		}
+	}
+}
+function openscriphtml()
+{
+if (navigator.appName!="Microsoft Internet Explorer")
+   alert("此功能 Netscape 用户不能使用！")
+else
+   {newwin=window.open('htmledit/editor.html','','width=544,height=294');
+    newwin.focus();
+   }
+}
+function runEx(){
+//alert('请注意，按下确定将生成页面，按下后请稍后....');
+var winEx = window.open("", "winEx", "width=600,height=400,status=yes,menubar=yes,scrollbars=yes,resizable=yes"); winEx.document.open("text/html", "replace"); 
+winEx.document.write(unescape(event.srcElement.parentElement.children[2].value)); 
+winEx.document.close(); 
+}
+function openScript(url, width, height) {
+        var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=yes,status=yes' );
+}
+</SCRIPT>
+
+<SCRIPT language=Javascript>
+<!-- hide
+
+function insertsmilie(smilieface){
+
+	document.frmAnnounce.body.value+=smilieface;
+}
+// -->
+</SCRIPT>
+
+<META content="MSHTML 5.50.4134.600" name=GENERATOR>
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+<META content=ASP动网先锋,http://www.aspsky.net name=keywords><LINK 
+href="流星雨的MUDOS-LPC讲座 BIND.files/style.css" rel=stylesheet></HEAD>
+<BODY bgColor=#000000>
+<TABLE cellSpacing=0 cellPadding=0 width="95%" align=center border=0>
+  <TBODY>
+  <TR>
+    <TD bgColor=#0099cc>
+      <TABLE borderColor=#0000ff cellSpacing=1 cellPadding=4 width="100%" 
+      bgColor=#000000 border=1>
+        <TBODY>
+        <TR bgColor=#0000ff>
+          <TD colSpan=2><FONT color=#ff0000>|<A 
+            href="http://www.chinazmud.com/index1.asp">返回首页</A> | 
+            |&nbsp;&nbsp;<A 
+            href="http://www.chinazmud.com/wz/default.asp?classid=3"> MUD功略 
+            </A>&nbsp;&nbsp;|&nbsp;&nbsp; |&nbsp;&nbsp;<A 
+            href="http://www.chinazmud.com/wz/default.asp?classid=5"> 教程文章 
+            </A>&nbsp;&nbsp;|&nbsp;&nbsp; |&nbsp;&nbsp;<A 
+            href="http://www.chinazmud.com/wz/default.asp?classid=6"> 其他文章 
+            </A>&nbsp;&nbsp;|&nbsp;&nbsp; </FONT></TD></TR>
+        <TR bgColor=#000000>
+          <TD colSpan=2><FONT color=#009900>|&nbsp;&nbsp;<A 
+            href="http://www.chinazmud.com/wz/index.asp?classid=5"><FONT 
+            color=#009900>教程文章</FONT></A>&gt;&gt;<A 
+            href="http://www.chinazmud.com/wz/index.asp?classid=5&amp;Nclassid=6"><FONT 
+            color=#009900>巫师与编程</FONT></A>&gt;&gt;流星雨的MUDOS-LPC讲座 BIND 
+            </FONT><BR></TD></TR>
+        <TR bgColor=#000000>
+          <TD colSpan=2>
+            <CENTER><B><FONT color=#ff0000 size=3>流星雨的MUDOS-LPC讲座 BIND 
+            </FONT></B><BR><FONT color=#00ff00>&nbsp;2002-1-24&nbsp;&nbsp; 
+            </FONT></CENTER>
+            <P>
+            <BLOCKQUOTE><BR><FONT 
+              color=#009900><BR>bind是MUDOS提供的一个很有用处的EFUN,它的作用是让一个函数的主人变成另外一个object.有了函数指针的概念,理解bind是很容易.而正确的使用bind可以实现比较有趣的功能. 
+
+              <P></P>
+              <P>这个函数的声明是这样的. <BR>function bind(function, object); <BR>比如, 
+              <BR>// 这是object1 <BR>create(){ seteuid(getuid()); } <BR>int 
+              my_function(string cmd) <BR>{ <BR>{ <BR>command(cmd); <BR>} </P>
+              <P>function f = (: call_other,__FILE__,my_function :); 
+              <BR>生成一个函数指针f,然后我们可以对另外一个object2这么做: <BR>bind(f,object2); </P>
+              <P>这样,f指向的函数就被object2拥有了,就象object2本身曾经定义 过这个函数一样. bind的实质是: 
+              在f被evaluate的时候,his_object() 的值被改变成了object2而继续执行. </P>
+              <P>比如说object2是一个叫做nerd的user_ob object object2 = 
+              find_player("nerd");这样,nerd就可以执行f对应的函数了,就如同当初user_ob里面有这个函数一样. 
+</P>
+              <P>这部分讲起来太空泛,我们还是来举个例子吧,看完这个例子,一切都明白了. </P>
+              <P>在es2 
+              based的mudlib中,有一个busy的概念,当忙的时候,很多事情是做不了的.一般大家是传递一个整数过去,ob-&gt;start_busy(2)表示 
+              <BR>ob将busy两个heart_beat.在busy的时候如果用户被中断(比如自己下了halt指令),会调用一个确省的interrupt_me函数.一般是如果死亡就立刻消除busy,其他的不管. 
+              </P>
+              <P>实际上,我们可以做的更复杂一些,看看 /feature/action.c </P>
+              <P>static mixed busy, interrupt; 
+              <BR>//注意,busy和interrupt是mixed型的,意思是可以为任何类型,一般 
+              <BR>//busy是整数,interrupt是标准的函数,已经定义了. 
+              <BR>//实际上,我们可以用bind来给busy和interrupt来指定我们自己的函数 
+              <BR>//来处理,这些函数可以是我们自己写的. </P>
+              <P>varargs void start_busy(mixed new_busy, mixed new_interrupt) 
+              <BR>{ <BR>if( !new_busy ) return; <BR>if( !intp(new_busy) 
+              &amp;&amp; !functionp(new_busy) ) <BR>error("action: Invalid busy 
+              action type.\n"); <BR>busy = new_busy; //可以是函数指针哦. <BR>if( 
+              !intp(new_interrupt) &amp;&amp; !functionp(new_interrupt) ) 
+              <BR>error("action: Invalid busy action interrupt handler 
+              type.\n"); <BR>interrupt = new_interrupt; //也可以是函数指针的 
+              <BR>set_heart_beat(1); <BR>} <BR>} <BR>nomask mixed query_busy() { 
+              return busy; } <BR>nomask int is_busy() { return busy!=0; } 
+              <BR>//其他程序靠这个来判断ob是不是busy,如果busy是个函数指针, 
+              <BR>//当然是指这个函数返回0的时候不busy,否则busy <BR>void interrupt_me(object who, 
+              string how) <BR>{ <BR>if( !busy ) return; 
+              <BR>//根本就没定义busy或者是0,当然不忙 <BR>if( how=="death" ) { <BR>busy = 0; 
+              <BR>interrupt = 0; <BR>return; <BR>} <BR>//一个最后出口,死了总是解除busy </P>
+              <P>if( intp(busy) &amp;&amp; intp(interrupt) ) { <BR>if( busy &lt; 
+              interrupt ) busy = 0; <BR>//如果都是整数,那么interrupt的数值较大能解除较小的busy值. 
+              <BR>} else if( functionp(interrupt) ) { <BR>if( 
+              evaluate(interrupt, this_object(), who, how) ) { <BR>busy = 0; 
+              <BR>interrupt = 0; <BR>} <BR>//如果我们自己定义的interrupt函数返回了true 
+              <BR>//那么就解除busy <BR>} <BR>} </P>
+              <P>好了,有了这个地方的支持,我们来玩点花样吧. </P>
+              <P>现在几乎所有的ES2 based mublib 
+              (对不起,我的这个说法范围比较广,包括es2,xkx,fy,xyj,xo,6868等等),里面的多数perform等等都是先发出效果(可能包括成功率判断)然后在让自己适当busy或者干点别的.这样写不是不好,但是,很多时候是不合理的,比如法术,应该是先有一个施法的过程,然后再打将出去,也就是说,很多特殊效果应该是自己先有个预备过程的.否则,战斗系统提供的招数永远比不上用户自己敲键盘来的快.这就是为什么大家都喜欢自己有perform可以用的原因吧. 
+              </P>
+              <P>我最近写了一个exert,是模仿&lt;大唐&gt;里面的祝后的一招"玉石俱焚",施用之后就象个炸弹一样吧.要求的效果是,用户发出指令之后需要一段时间来逐步收紧力场,积蓄内力,然后发出威力来.这段时间,用户应该一直是busy的在做准备工作,而且如果中途被敌人敲了,就用不出来了. 
+              </P>
+              <P>程序是酱子的: </P>
+              <P>// armageddon.c <BR>// 玉石俱焚 <BR>// by YEUNG </P>
+              <P>#include </P>
+              <P>inherit F_DBASE; <BR>inherit SSERVER; </P>
+              <P>int do_prepare(object me,object target); 
+              <BR>//这个是准备过程,每次心跳都被调用,完成一个动作 <BR>int interrupt_prepare(object 
+              me,object who,string reason); <BR>//如果被打了,或者自己后悔了时候调用 </P>
+              <P>void create() { seteuid(getuid()); set("name","江湖传说");set("id", 
+              <BR>"ARMAGEDDON");} </P>
+              <P>int exert(object me, object target) <BR>{ <BR>.... <BR>.... 
+              <BR>一些乱七八糟的程序 <BR>.... </P>
+              <P>message_vision("一些吓人用的信息", me); 
+              <BR>me-&gt;set_temp("prepare_armageddon",5); 
+              <BR>//这个标记用来告诉系统,需要多长时间 
+              <BR>environment(me)-&gt;set_temp("lock_scene","$N意欲离开，可是强劲的力场将$N 
+              <BR>牢牢锁住。\n"); <BR>//用来锁定场景,不许离开 </P>
+              <P>me-&gt;start_busy( <BR>bind((: call_other, __FILE__, 
+              "do_prepare", me, target <BR>:), me), <BR>bind((: call_other, 
+              __FILE__, "interrupt_prepare" :), <BR>me) ); <BR>//主要就是这句啦 
+              <BR>//通过bind来把自己写的do_prepare,interrupt_prepare塞到施法者头上 <BR>,才好调用. 
+              <BR>return 1; <BR>} </P>
+              <P>//这个是最终效果,和这里的没关系,就是乱炸一通 <BR>int do_fire(object me,object 
+              target) <BR>{ <BR>.... 
+              <BR>environment(me)-&gt;delete_temp("lock_scene"); <BR>.... <BR>} 
+              </P>
+              <P><BR>int do_prepare(object me,object target) <BR>{ <BR>int 
+              left_busy; </P>
+              <P>me-&gt;add_temp("prepare_armageddon",-1); <BR>left_busy = 
+              me-&gt;query_temp("prepare_armageddon"); </P>
+              <P>if( left_busy &gt; 3 ) <BR>{ 
+              <BR>message_vision(HIR"...第一步准备..."NOR,me); <BR>return 1; 
+              <BR>//通知系统,这个家伙还没干完 <BR>} <BR>if( left_busy &gt; 2 ) <BR>{ 
+              <BR>message_vision(HIR"....第二步准备...."NOR,me,target); <BR>return 1; 
+              <BR>//通知系统,这个家伙还没干完 <BR>} <BR>if( left_busy &gt; 1 ) <BR>{ 
+              <BR>.... <BR>.... //老样子 <BR>} <BR>if( left_busy &gt; 0 ) <BR>{ 
+              <BR>.... //最后一步准备 <BR>return 1; <BR>} <BR>//终于准备完了,开始了 
+              <BR>do_fire(me,target); <BR>return 0; <BR>//告诉系统这家伙不busy了 <BR>} 
+              </P>
+              <P>//我们自己的interrupt处理函数 <BR>int interrupt_prepare(object me,object 
+              who,string reason) <BR>{ <BR>switch(reason) <BR>{ <BR>case 
+              "halt"://不许自己停 <BR>return notify_fail("不许停了\n"); 
+              <BR>//告诉系统,没戏,不停,继续busy调用下去. <BR>break; <BR>case "hit": 
+              //还没使完被别人揍到了 <BR>...乱写点消息 <BR>me-&gt;unconcious(); <BR>break; 
+              <BR>} <BR>environment(me)-&gt;delete_temp("lock_scene"); 
+              <BR>//不管怎么样,既然终止了,不能锁定了 <BR>return 1; <BR>//终止了. <BR>} </P>
+              <P>最后要注意一下,bind是一个相当灵活的EFUN,而且可以做到你想干的很多事情,包括危险的事情,因此,是不允许随便bind的,这个 
+              <BR>权限一般在master.c的valid_bind()里面控制.比secruityd的要求还要严格. </P>
+              <P>比如这么段程序. <BR>int hehe(mixed cmd) <BR>{ <BR>if( functionp(cmd) ) 
+              return evaluate(cmd); <BR>else <BR>command(cmd); <BR>} </P>
+              <P>object ob = find_player("mudadm"); </P>
+              <P>bind( (:call_other,__FILE__,"hehe":) , ob ); </P>
+              <P>ob-&gt;hehe(.......自己的鬼东西.......); </P>
+              <P>后果如何大家都清楚的很,呵呵. </P>
+              <P>-----------------谢谢,完---------------------- <BR>流星雨的MUDOS-LPC讲座 
+              BIND ( by YEUNG )</P>
+              <P><BR><BR></FONT>
+              <P align=right><FONT color=#009900>原作者： 不详 <BR>来 源： 水木清华 
+              <BR>共有205位读者阅读过此文 <BR></FONT><BR>【<A 
+              href="http://www.chinazmud.com/wz/sendmail.asp?id=148">告诉好友</A>】 
+              </P></BLOCKQUOTE>
+            <P>
+            <LI><FONT color=#0772b1>上篇文章：</FONT><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=147"><FONT 
+            color=#009900>MUD FTP 服务器的修缮（中） </FONT></A><BR>
+            <LI><FONT color=#0772b1>下篇文章：</FONT><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=149"><FONT 
+            color=#009900>《小雪初晴》详细区域品质检测标准</FONT></A> </LI></TD></TR>
+        <TR>
+          <TD width="50%" bgColor=#0000ff>□- 本周热门文章 </TD>
+          <TD width="50%" bgColor=#0000ff>□- 相关文章 </TD></TR>
+        <TR>
+          <TD vAlign=top width="50%" bgColor=#ffffff><FONT color=#009900>1.<A 
+            title="机器人小技巧 " target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=140"> 机器人小技巧 
+            </A>[1180]<BR>2.<A title="如何在MUD中自动问候 " target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=141"> 如何在MUD中自动问候 
+            </A>[363]<BR>3.<A title=浅谈CALL命令 target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=143"> 浅谈CALL命令 
+            </A>[341]<BR>4.<A title="MUDLib攻略之F_SKILL（上） " target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=144"> 
+            MUDLib攻略之F_SKILL（上... </A>[238]<BR>5.<A 
+            title="流星雨的MUDOS-LPC讲座 BIND " target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=148"> 流星雨的MUDOS-LPC讲座 
+            BI... </A>[205]<BR>6.<A title=新MUD设想--增加变化！ target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=150"> 新MUD设想--增加变化！ 
+            </A>[204]<BR>7.<A title="象太阁立志传那样的mud怎么样？ " target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=151"> 象太阁立志传那样的mud怎么样？ 
+            </A>[191]<BR></FONT></TD>
+          <TD vAlign=top width="50%" bgColor=#ffffff><FONT color=#009900><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=219">ＭＵＤＯＳ编译完全手册</A><BR><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=186">MUDOS 
+            在WINDOWS下编译过程</A><BR><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=148">流星雨的MUDOS-LPC讲座 
+            BIND 
+</A><BR></FONT></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><BR></BODY></HTML>

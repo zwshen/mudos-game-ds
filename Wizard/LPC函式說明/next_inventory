@@ -1,0 +1,19 @@
+
+	next_inventory(3)	LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		next_inventory() - 傳回同一物件內容物 (inventory)中的 
+		下一個物件.
+	函數語法:
+		object next_inventory( object ob );
+
+		物件 next_inventory( 物件 ob );
+	函數用法:
+		傳回在物件的內容物中, 在 ob 之後的下一個物件.
+
+		警告: 如果物件 ob 被 move_object()  移走, 則 
+		next_inventory() 會從新的內容物列表中傳回物件.
+	參考函數:
+		first_inventory(3), all_inventory(3), deep_inventory(3)
+	手冊翻譯:
+		Phoebus@ZH	97.Apr.24.		(Writen 5/23/97)

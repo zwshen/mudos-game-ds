@@ -1,0 +1,17 @@
+
+	query_ip_name(3)	LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		query_ip_name() - 傳回指定玩家的 ip 名稱.
+	函數語法:	
+		string query_ip_name( object ob );
+
+		字串 query_ip_name( 物件 ob );
+	函數用法:
+		傳回玩家 ob 的 IP 位址. 一個叫做 addr_server 的非同步
+		程序會找出這些名稱. 如果找不到 ip 名稱, 就會傳回 ip 號碼.
+	參考函數:
+		query_ip_number(3), query_host_name(3), resolve(3),
+		socket_address(3)
+	手冊翻譯:
+		Phoebus@ZH	97.May.1.		(Writen 5/23/97)

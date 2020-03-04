@@ -1,0 +1,7 @@
+#/obj/user.c
+conditions ([])
+dbase (["DS_DATA_VERSION":19991107,"addition_armor":10,"addition_damage":10,"ap":60,"mud_age":302,"channels":({"chat","rumor","tchat",}),"age":14,"help":"class/","hp":80,"attitude":"peaceful","mp":110,"supply_point":42,"newbie":1,"exp":777,"dex":2,"int":2,"last_location":"/open/world1/tmr/area/street4","con":2,"level":1,"birthday":1182287247,"talk_point":8,"cure_count":1,"Merits":(["tec":0,"sou":0,"bio":0,"wit":0,"bar":0,]),"evil":-1,"max_mp":110,"heart_modify":0,"guild_gifts":({5,5,5,5,}),"unit":"位","default_actions":,"actions":,"wound":(["left_arm":0,"body":0,"right_arm":0,"left_leg":0,"head":0,"right_leg":0,]),"race":"celestial","addition_shield":10,"max_ap":60,"id":"fewguile","startroom":"/open/world1/tmr/area/hotel","heart_beat_rate":6,"gender":"男性","str":2,"name":"少奸","volume":7,"max_hp":80,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

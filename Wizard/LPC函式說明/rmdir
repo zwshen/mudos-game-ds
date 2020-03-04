@@ -1,0 +1,17 @@
+
+	rmdir(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		rmdir() - 刪除一個目錄.
+	函數語法:
+		int rmdir( string dir );
+
+		整數 rmdir( 字串 dir );
+	函數用法:
+		刪除 dir 這個目錄.
+	傳回值:
+		成功就傳回非零值 (nonzero), 失敗則傳回 0.
+	參考函數:
+		rm(3), mkdir(3), link(3)
+	手冊翻譯:
+		Phoebus@ZH	97.Jun.2.		(Writen 5/23/97)

@@ -1,0 +1,6 @@
+#/obj/user.c
+conditions ([])
+dbase (["board_last_read":(["jail_board":1059235557,]),"channels":({"chat","rumor","tchat","god",}),"actions":,"age":54,"attitude":"peaceful","level":5,"race":"human","heart_modify":0,"birthday":1058705882,"max_mp":60,"max_ap":60,"mud_age":3510189,"last_location":"/open/world2/anfernee/start/login","startroom":"/open/world2/anfernee/start/login","gender":"男性","id":"ivincent","talk_point":14,"newbie":1,"name":"拍拍","combat_exp":646754,"cure_count":14,"mp":60,"Merits":(["sou":0,"tec":0,"bio":0,"wit":0,"bar":0,]),"heart_beat_rate":6,"volume":7,"default_actions":,"evil":-1,"addition_shield":10,"exp":219990193,"dex":2,"int":2,"con":2,"addition_armor":10,"str":2,"max_hp":80,"hp":80,"ap":60,"addition_damage":10,"unit":"位","supply_point":37,"MKS":55944,"DS_DATA_VERSION":19991107,"guild_rank":"四處流浪的冒險者","popularity":20008,"guild_gifts":({5,5,5,5,}),])
+skills (["combat":0,"unarmed":1,"dodge":0,])
+learned (["combat":2,"unarmed":0,"dodge":1,])
+autoload ({})

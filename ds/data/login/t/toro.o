@@ -1,0 +1,2 @@
+#/obj/login.c
+dbase (["email":"","id":"toro","password":"zQaMSmlGE0aDE","name":"小可愛","level":15,"race":"human","error_login":({"於[Tue Apr  8 18:44:43 2003]嘗試由[kp235-223.dialup.seed.net.tw]連線進入失敗。","於[Tue Apr  8 18:45:37 2003]嘗試由[kp235-223.dialup.seed.net.tw]連線進入失敗。","於[Thu Jun 12 19:47:55 2003]嘗試由[kp235-109.dialup.seed.net.tw]連線進入失敗。","於[Sun Oct 19 14:07:46 2003]嘗試由[218-172-165-1.HINET-IP.hinet.net]連線進入失敗。",}),"body":"/obj/user","last_on":1071720522,"last_from":"163.18.142.157",])

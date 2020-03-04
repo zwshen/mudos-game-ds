@@ -1,0 +1,5 @@
+¥Ø¿ý¡R/open/world1/alickyuen/wind/
+ling.c              ¸UÂAÆF              only.c              ÆFÁô¼C            
+sword.c             ÆFÁô¼C              sword2.c            ÆFÁô¼C            
+sword3.c            ªø¼C                wrists.c            ¸UÆFÅ@µÃ          
+

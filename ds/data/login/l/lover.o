@@ -1,0 +1,2 @@
+#/obj/login.c
+dbase (["password":"AbEPdMEuL13Es","email":"","name":"情人","last_on":1120092050,"error_login":({"於[Wed Feb  9 10:36:12 2005]嘗試由[61-64-189-52-adsl-kao.STATIC.so-net.net.tw]連線進入失敗。","於[Wed Feb  9 18:46:37 2005]嘗試由[211.72.215.209]連線進入失敗。","於[Wed Feb  9 18:46:39 2005]嘗試由[211.72.215.209]連線進入失敗。","於[Wed Feb  9 20:47:16 2005]嘗試由[211.72.215.209]連線進入失敗。","於[Thu May 24 11:47:53 2007]嘗試由[218.171.222.124]連線進入失敗。",}),"race":"human","id":"lover","level":34,"body":"/obj/user","last_from":"61-64-189-52-adsl-kao.STATIC.so-net.net.tw","new_mail":1,])

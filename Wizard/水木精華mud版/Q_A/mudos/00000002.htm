@@ -1,0 +1,40 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清華站︰精華區</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+<A Name="top"></a>
+發信人:&nbsp;nerd&nbsp;(快樂的感覺永遠一樣),&nbsp;信區:&nbsp;Mud_Builder&nbsp;<BR>
+標&nbsp;&nbsp;題:&nbsp;Re:&nbsp;誰能介紹一下mud的啟動過程？&nbsp;<BR>
+發信站:&nbsp;BBS&nbsp;水木清華站&nbsp;(Sat&nbsp;May&nbsp;24&nbsp;14:09:04&nbsp;1997)&nbsp;<BR>
+&nbsp;<BR>
+【&nbsp;在&nbsp;jameson&nbsp;(阿其)&nbsp;的大作中提到:&nbsp;】&nbsp;<BR>
+︰<I>&nbsp;我也很想知道.&nbsp;尤其是&nbsp;inherit&nbsp;的順序&nbsp;</I><BR>
+︰<I>&nbsp;.&nbsp;</I><BR>
+好像是醬子的：&nbsp;<BR>
+&nbsp;<BR>
+首先調起master&nbsp;object,simul_efun&nbsp;ob&nbsp;<BR>
+然後就是PRELOAD的一堆，主要是各種重要的deamon，如securityd,logind等等&nbsp;<BR>
+在系統的etc目錄下有preload的文件，就是那一堆。&nbsp;<BR>
+再然後？沒了，等待connect,在master_ob裡有定義，有connect就調用logind,&nbsp;<BR>
+new壹個login.c，user.c等你login...&nbsp;<BR>
+inherit&nbsp;嘛。。你可以用ilist指令看看繼承了那些東西，最基本的&nbsp;feature目錄下的&nbsp;<BR>
+那些東西，及std下的標準繼承物件。然後也可以有再上層的，如NPC,USER等等。&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+┌─┬─┬─┬─┬─┬─┬─┬─┬─┬─┬─┬─┬─┬─┬─┬─┬─┬─┬┐&nbsp;<BR>
+├┬┴十二經脈者，乃手太陰肺經、手陽明大腸經、足陽明胃經、足太陰脾經、┬┴┤&nbsp;<BR>
+├┴┬手少陰心經、手太陽小腸經、足太陽膀胱經、足少陰腎經、手厥陰心包經┴┬┤&nbsp;<BR>
+├┬┴┬┴┬、手少陽三焦經、足少陽膽經、足厥陰肝經之謂也。┬┴┬┴┬┴┬┴┤&nbsp;<BR>
+└┴─┴─┴─┴─┴─┴─┴─┴─┴─┴─┴─┴─┴─┴─┴─┴─┴─┴─┘&nbsp;<BR>
+&nbsp;<BR>
+※&nbsp;來源:‧BBS&nbsp;水木清華站&nbsp;bbs.net.tsinghua.edu.cn‧[FROM:&nbsp;dev.bjnet.edu.c]&nbsp;<BR>
+<A HREF="00000001.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一頁</A>
+<A HREF="index.htm">回到目錄</A>
+<A HREF="#top">回到頁首</A>
+<A HREF="00000003.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+</BODY></HTML>

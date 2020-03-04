@@ -1,0 +1,35 @@
+¹CÀs«L(Kkeenn);1000877308;¦³°ÝÃD?!
+­«·s½sÄ¶ /u/k/kkeenn/npc/test.c¡R½sÄ¶®É¬q¿ù»~¡Ru/k/kkeenn/npc/test.c line 59: Undefined function item_desc before ,awardeq->short()); 
+
+¿ù»~°T®§³QÄdºI: 
+°õ¦æ®É¬q¿ù»~¡R*Error in loading object '/u/k/kkeenn/npc/test'
+
+µ{¦¡¡Rcmds/appr/update.c ²Ä52¦æ
+ª«¥ó: cmds/appr/update
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:command_hook()     <- feature/command.c:²Ä71¦æ [ª«¥ó:obj/user#7447 ("¹CÀs«L")]
+¨ç¼Æ:main()             <- cmds/appr/update.c:²Ä52¦æ [ª«¥ó:cmds/appr/update]
+¨ç¼Æ:CATCH()            <- cmds/appr/update.c:²Ä52¦æ [ª«¥ó:cmds/appr/update]
+=======================¥H¤W¿ù»~½ÐºÉ§Ö­×´_========================
+
+µo¥Í¿ù»~¡R
+*Error in loading object '/u/k/kkeenn/npc/test'
+
+
+«ç»ò¿ì??§Ú¬Ý¤£¥X¿ù»~¦b­þ¸Ì..~~~
+À°À°¦££t....
+/u/k/kkeenn/npc/test.c
+ÁÂÁÂ£{~~
+
+--
+[37m     ¡ã[0;5;33m«[5mï[5m²[5mH[5mµ[5mê[5mµ[5mL[0;37m¡ã[0m
+[37m       ¡ã[0;5;33m¦[5mÛ[5m¦[5mb[5m¤[5m@[5m¥[5mÍ[0;37m¡ã[0m
+[37m         ¡ã[0;5;33m¤[5mM[5m¼[5mC[5m¬[5mõ[5m¹[5mÐ[0;37m¡ã[0m
+[37m           ¡ã[0;5;33m·[5mö[5m¯[5mº[5m¥[5m@[5m¤[5mH[0;37m¡ã[0m
+[37m                                         ¡ã [35;46m¹CÀ¸¤H¶¡[34;40m-[36m¹CÀs«L[37m¡ã[0m
+
+
+
+
+
+--

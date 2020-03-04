@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions ([])
+dbase (["popularity":2773,"addition_shield":10,"mud_age":1606031,"guild_rank":"寒澈派之以心契道","default_actions":,"age":32,"title":"寒澈派第三代道僮","addition":(["int":3,"con":2,]),"addition_armor":10,"wound":(["head":0,"left_leg":0,"right_arm":0,"body":0,"left_arm":0,"right_leg":0,]),"family":(["privs":-1,"title":"道僮","family_name":"寒澈派","generation":3,]),"adv_class":1,"bank":(["past":3,]),"heart_beat_rate":6,"skill":(["literate":56,"strong-body":37,]),"actions":,"guild_gifts":({5,5,5,5,}),"addition_damage":10,"env":([]),"max_mp":1335,"newbie":1,"max_hp":680,"exp":16019929,"dex":38,"id":"icefrost","unit":"位","int":48,"con":30,"max_ap":510,"str":18,"ap":510,"level":25,"mp":1335,"DS_DATA_VERSION":19991107,"gender":"女性","hp":680,"name":"寒霜","evil":-1,"Merits":(["tec":2,"sou":2,"wit":3,"bar":1,"bio":2,]),"war_art":2818,"channels":({"chat","rumor","tchat",}),"putjail_time":(["2":1,]),"class1":"寒澈派","cure_count":5,"birthday":1164168438,"board_last_read":(["anoounce_b":1164853073,"boo-lin_b":1163611422,]),"race":"celestial","combat_exp":10,"supply_point":544,"startroom":"/open/world1/tmr/area/hotel","attitude":"peaceful","volume":7,"talk_point":80,"last_location":"/open/world1/acme/area/pass3","heart_modify":0,])
+skills (["combat":8,"literate":67,"dodge":70,"parry":50,"unarmed":70,"strong-body":37,"swallow-flying":75,"pick-plumblossom":70,])
+learned (["combat":14,"literate":2065,"dodge":83,"unarmed":153,"strong-body":435,"swallow-flying":82,"pick-plumblossom":105,])
+spells (["freeze-ball":63,"life-death-symbol":21,"fall-thunder":75,])
+spell_learned (["freeze-ball":442,"life-death-symbol":60,"fall-thunder":65,])
+alias (["ic":"cast life-death-symbol on water","t":"cast fall-thunder","tr":"do l off,e,n,e,se,eu,se,se,se,se,e,su,e,eu,e,nu,w,n,nw,n,n,n,ne,n,e,e,e,e,e,e,e,e,n,n,n,l on,n,","g":"exert pick-plumblossom","ff":"exert swallow-flying","f":"cast freeze-ball","rs":"recall start",])
+autoload ({})

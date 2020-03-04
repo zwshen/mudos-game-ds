@@ -1,0 +1,10 @@
+#/obj/user.c
+conditions ([])
+dbase (["DS_DATA_VERSION":19991107,"actions":,"race":"titan","adv_class":1,"popularity":0,"addition_damage":10,"max_mp":60,"attitude":"peaceful","guild_rank":"八極門之初出茅蘆","max_hp":90,"channels":({"chat","rumor","tchat",}),"heart_modify":0,"birthday":1207826246,"title":"八極門第七代俠客","id":"bisbob","family":(["generation":7,"privs":-1,"title":"俠客","family_name":"八極門",]),"mp":60,"wimpy":30,"gender":"男性","war_art":0,"name":"黃比史","unit":"位","max_ap":70,"guild_gifts":({10,7,0,3,}),"ap":70,"startroom":"/open/world1/tmr/area/hotel","bank":(["past":134,]),"last_location":"/open/world1/tmr/area/hotel","class1":"八極門","cure_count":12,"war_score":1,"mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove",}),"age":14,"combat_exp":2,"Merits":(["wit":0,"bar":0,"bio":0,"tec":0,"sou":0,]),"supply_point":80,"talk_point":11,"heart_beat_rate":6,"newbie":1,"exp":456,"dex":2,"addition_shield":10,"hp":31,"volume":7,"default_actions":,"int":2,"con":2,"str":2,"wound":(["left_leg":0,"right_leg":0,"right_arm":0,"head":0,"left_arm":0,"body":0,]),"level":2,"MKS":12,"mud_age":2266,"evil":35,"addition_armor":10,"board_last_read":(["tmr_hotel_b":1149956029,]),])
+skills (["blade":1,"horse-steps":7,"unarmed":6,"bagi_fist":6,"combat":6,"dodge":4,"fork":1,"sword":1,"block":1,"dagger":1,"hammer":1,"staff":1,"whip":1,"parry":1,"axe":1,"da-fork":1,])
+learned (["combat":77,"dodge":29,"parry":6,"unarmed":47,"bagi_fist":34,])
+items ({})
+alias (["f":"finger $*","unwi":"unwield $*","h":"hp","con":"consider $*","v":"consider $*","unsec":"unsecure $*","sec":"secure $*","wi":"wield $*","gt":"get all from corpse $*","g":"get all",])
+autoload ({"/obj/money/coin:100",})
+toDoList ([])
+solved ({})

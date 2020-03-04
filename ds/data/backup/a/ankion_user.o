@@ -1,0 +1,7 @@
+#/obj/user.c
+conditions ([])
+dbase (["DS_DATA_VERSION":19991107,"heart_beat_rate":6,"cure_count":4,"last_location":"/open/world1/tmr/area/hotel","cwf":"/obj/mapmaker.c","board_last_read":(["bug_b":935347829,"room_b":933242046,"quest_b":925584614,"equip_b":927383991,"skill_b":933144281,"mob_b":933055325,"query_b":936432428,"wizard_b":1023672251,"login_b":939116456,"luky_b":952862227,]),"wound":(["right_leg":0,"right_arm":0,"hand":0,"body":0,"left_arm":0,"left_leg":0,"foot":0,"head":0,]),"addition_armor":10,"max_hp":80,"channels":({"rumor","wiz","tchat","sys",}),"max_ap":60,"addition_shield":10,"gender":"男性","level":1,"race":"human","id":"ankion","name":"小尤","birthday":931028201,"potential":100,"guild_gifts":({5,5,5,5,}),"startroom":"/d/wiz/hall1","attitude":"peaceful","addition_damage":10,"exp":777,"hp":80,"dex":2,"int":2,"volume":10,"supply_point":230,"con":2,"str":2,"title":"時空漂泊者","mud_age":628109,"default_actions":,"talk_point":8,"Merits":(["bio":0,"sou":0,"bar":0,"tec":0,"wit":0,]),"evil":-1,"unit":"位","mp":60,"age":21,"max_mp":60,"heart_modify":0,"disable_type":" <昏迷不醒>","cwd":"/","ap":60,"actions":,])
+skills (["combat":0,])
+learned (["combat":2,])
+alias (["r":"read new",])
+autoload ({"/obj/money/coin:50",})

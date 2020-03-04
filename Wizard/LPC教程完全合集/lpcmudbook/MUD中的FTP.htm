@@ -1,0 +1,549 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0043)http://www.chinazmud.com/wz/list.asp?id=210 -->
+<HTML><HEAD><TITLE>MUD中的FTP</TITLE>
+<SCRIPT language=JavaScript>
+
+helpstat = false;
+stprompt = true;
+basic = false;
+function thelp(swtch){
+	if (swtch == 1){
+		basic = false;
+		stprompt = false;
+		helpstat = true;
+	} else if (swtch == 0) {
+		helpstat = false;
+		stprompt = false;
+		basic = true;
+	} else if (swtch == 2) {
+		helpstat = false;
+		basic = false;
+		stprompt = true;
+	}
+}
+
+function AddText(NewCode) {
+document.myform.txtcontent.value+=NewCode
+}
+
+function email() {
+	if (helpstat) {
+		alert("Email 标记\n插入 Email 超级链接\n用法1: [email]webmaster@aspsky.net[/email]\n用法2: [email=webmaster@aspsky.net]沙滩小子[/email]");
+	} else if (basic) {
+		AddTxt="[email][/email]";
+		AddText(AddTxt);
+	} else { 
+		txt2=prompt("链接显示的文字.\n如果为空，那么将只显示你的 Email 地址",""); 
+		if (txt2!=null) {
+			txt=prompt("Email 地址.","name@domain.com");      
+			if (txt!=null) {
+				if (txt2=="") {
+					AddTxt="[email]"+txt+"[/email]";
+				} else {
+					AddTxt="[email="+txt+"]"+txt2;
+					AddText(AddTxt);
+					AddTxt="[/email]";
+				} 
+				AddText(AddTxt);	        
+			}
+		}
+	}
+}
+function flash() {
+ 	if (helpstat){
+		alert("Flash 动画\n插入 Flash 动画.\n用法: [flash]Flash 文件的地址[/flash]");
+	} else if (basic) {
+		AddTxt="[flash][/flash]";
+		AddText(AddTxt);
+	} else {                  
+		txt=prompt("Flash 文件的地址","http://");
+		if (txt!=null) {             
+			AddTxt="[flash]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/flash]";
+			AddText(AddTxt);
+		}        
+	}  
+}
+
+function showsize(size) {
+	if (helpstat) {
+		alert("文字大小标记\n设置文字大小.\n可变范围 1 - 6.\n 1 为最小 6 为最大.\n用法: [size="+size+"]这是 "+size+" 文字[/size]");
+	} else if (basic) {
+		AddTxt="[size="+size+"][/size]";
+		AddText(AddTxt);
+	} else {                       
+		txt=prompt("大小 "+size,"文字"); 
+		if (txt!=null) {             
+			AddTxt="[size="+size+"]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/size]";
+			AddText(AddTxt);
+		}        
+	}
+}
+
+function bold() {
+	if (helpstat) {
+		alert("加粗标记\n使文本加粗.\n用法: [b]这是加粗的文字[/b]");
+	} else if (basic) {
+		AddTxt="[b][/b]";
+		AddText(AddTxt);
+	} else {  
+		txt=prompt("文字将被变粗.","文字");     
+		if (txt!=null) {           
+			AddTxt="[b]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/b]";
+			AddText(AddTxt);
+		}       
+	}
+}
+
+function italicize() {
+	if (helpstat) {
+		alert("斜体标记\n使文本字体变为斜体.\n用法: [i]这是斜体字[/i]");
+	} else if (basic) {
+		AddTxt="[i][/i]";
+		AddText(AddTxt);
+	} else {   
+		txt=prompt("文字将变斜体","文字");     
+		if (txt!=null) {           
+			AddTxt="[i]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/i]";
+			AddText(AddTxt);
+		}	        
+	}
+}
+
+function quote() {
+	if (helpstat){
+		alert("引用标记\n引用一些文字.\n用法: [quote]引用内容[/quote]");
+	} else if (basic) {
+		AddTxt="[quote][/quote]";
+		AddText(AddTxt);
+	} else {   
+		txt=prompt("被引用的文字","文字");     
+		if(txt!=null) {          
+			AddTxt="[quote]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/quote]";
+			AddText(AddTxt);
+		}	        
+	}
+}
+
+function showcolor(color) {
+	if (helpstat) {
+		alert("颜色标记\n设置文本颜色.  任何颜色名都可以被使用.\n用法: [color="+color+"]颜色要改变为"+color+"的文字[/color]");
+	} else if (basic) {
+		AddTxt="[color="+color+"][/color]";
+		AddText(AddTxt);
+	} else {  
+     	txt=prompt("选择的颜色是: "+color,"文字");
+		if(txt!=null) {
+			AddTxt="[color="+color+"]"+txt;
+			AddText(AddTxt);        
+			AddTxt="[/color]";
+			AddText(AddTxt);
+		} 
+	}
+}
+
+function center() {
+ 	if (helpstat) {
+		alert("对齐标记\n使用这个标记, 可以使文本左对齐、居中、右对齐.\n用法: [align=center|left|right]要对齐的文本[/align]");
+	} else if (basic) {
+		AddTxt="[align=center|left|right][/align]";
+		AddText(AddTxt);
+	} else {  
+		txt2=prompt("对齐样式\n输入 'center' 表示居中, 'left' 表示左对齐, 'right' 表示右对齐.","center");               
+		while ((txt2!="") && (txt2!="center") && (txt2!="left") && (txt2!="right") && (txt2!=null)) {
+			txt2=prompt("错误!\n类型只能输入 'center' 、 'left' 或者 'right'.","");               
+		}
+		txt=prompt("要对齐的文本","文本");     
+		if (txt!=null) {          
+			AddTxt="\r[align="+txt2+"]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/align]";
+			AddText(AddTxt);
+		}	       
+	}
+}
+
+function hyperlink() {
+	if (helpstat) {
+		alert("超级链接标记\n插入一个超级链接标记\n使用方法: [url]http://www.aspsky.net[/url]\nUSE: [url=http://www.aspsky.net]链接文字[/url]");
+	} else if (basic) {
+		AddTxt="[url][/url]";
+		AddText(AddTxt);
+	} else { 
+		txt2=prompt("链接文本显示.\n如果不想使用, 可以为空, 将只显示超级链接地址. ",""); 
+		if (txt2!=null) {
+			txt=prompt("超级链接.","http://");      
+			if (txt!=null) {
+				if (txt2=="") {
+					AddTxt="[url]"+txt;
+					AddText(AddTxt);
+					AddTxt="[/url]";
+					AddText(AddTxt);
+				} else {
+					AddTxt="[url="+txt+"]"+txt2;
+					AddText(AddTxt);
+					AddTxt="[/url]";
+					AddText(AddTxt);
+				}         
+			} 
+		}
+	}
+}
+
+function image() {
+	if (helpstat){
+		alert("图片标记\n插入图片\n用法： [img]http://www.aspsky.net/logo.gif[/img]");
+	} else if (basic) {
+		AddTxt="[img][/img]";
+		AddText(AddTxt);
+	} else {  
+		txt=prompt("图片的 URL","http://");    
+		if(txt!=null) {            
+			AddTxt="\r[img]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/img]";
+			AddText(AddTxt);
+		}	
+	}
+}
+
+function showcode() {
+	if (helpstat) {
+		alert("代码标记\n使用代码标记，可以使你的程序代码里面的 html 等标志不会被破坏.\n使用方法:\n [code]这里是代码文字[/code]");
+	} else if (basic) {
+		AddTxt="\r[code]\r[/code]";
+		AddText(AddTxt);
+	} else {   
+		txt=prompt("输入代码","");     
+		if (txt!=null) {          
+			AddTxt="\r[code]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/code]";
+			AddText(AddTxt);
+		}	       
+	}
+}
+
+function list() {
+	if (helpstat) {
+		alert("列表标记\n建造一个文字或则数字列表.\n\nUSE: [list] [*]项目一[/*] [*]项目二[/*] [*]项目三[/*] [/list]");
+	} else if (basic) {
+		AddTxt=" [list][*]  [/*][*]  [/*][*]  [/*][/list]";
+		AddText(AddTxt);
+	} else {  
+		txt=prompt("列表类型\n输入 'A' 表示有序列表, '1' 表示无序列表, 留空表示无序列表.","");               
+		while ((txt!="") && (txt!="A") && (txt!="a") && (txt!="1") && (txt!=null)) {
+			txt=prompt("错误!\n类型只能输入 'A' 、 '1' 或者留空.","");               
+		}
+		if (txt!=null) {
+			if (txt=="") {
+				AddTxt="[list]";
+			} else {
+				AddTxt="[list="+txt+"]";
+			} 
+			txt="1";
+			while ((txt!="") && (txt!=null)) {
+				txt=prompt("列表项\n空白表示结束列表",""); 
+				if (txt!="") {             
+					AddTxt+="[*]"+txt+"[/*]"; 
+				}                   
+			} 
+			AddTxt+="[/list] ";
+			AddText(AddTxt); 
+		}
+	}
+}
+
+function showfont(font) {
+ 	if (helpstat){
+		alert("字体标记\n给文字设置字体.\n用法: [face="+font+"]改变文字字体为"+font+"[/face]");
+	} else if (basic) {
+		AddTxt="[face="+font+"][/face]";
+		AddText(AddTxt);
+	} else {                  
+		txt=prompt("要设置字体的文字"+font,"文字");
+		if (txt!=null) {             
+			AddTxt="[face="+font+"]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/face]";
+			AddText(AddTxt);
+		}        
+	}  
+}
+function underline() {
+  	if (helpstat) {
+		alert("下划线标记\n给文字加下划线.\n用法: [u]要加下划线的文字[/u]");
+	} else if (basic) {
+		AddTxt="[u][/u]";
+		AddText(AddTxt);
+	} else {  
+		txt=prompt("下划线文字.","文字");     
+		if (txt!=null) {           
+			AddTxt="[u]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/u]";
+			AddText(AddTxt);
+		}	        
+	}
+}
+function setfly() {
+ 	if (helpstat){
+		alert("飞翔标记\n使文字飞行.\n用法: [fly]文字为这样文字[/fly]");
+	} else if (basic) {
+		AddTxt="[fly][/fly]";
+		AddText(AddTxt);
+	} else {                  
+		txt=prompt("飞翔文字","文字");
+		if (txt!=null) {             
+			AddTxt="[fly]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/fly]";
+			AddText(AddTxt);
+		}        
+	}  
+}
+
+function move() {
+	if (helpstat) {
+		alert("移动标记\n使文字产生移动效果.\n用法: [move]要产生移动效果的文字[/move]");
+	} else if (basic) {
+		AddTxt="[move][/move]";
+		AddText(AddTxt);
+	} else {  
+		txt=prompt("要产生移动效果的文字","文字");     
+		if (txt!=null) {           
+			AddTxt="[move]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/move]";
+			AddText(AddTxt);
+		}       
+	}
+}
+
+function shadow() {
+	if (helpstat) {
+               alert("阴影标记\n使文字产生阴影效果.\n用法: [SHADOW=宽度, 颜色, 边界]要产生阴影效果的文字[/SHADOW]");
+	} else if (basic) {
+		AddTxt="[SHADOW=255,blue,1][/SHADOW]";
+		AddText(AddTxt);
+	} else { 
+		txt2=prompt("文字的长度、颜色和边界大小","255,blue,1"); 
+		if (txt2!=null) {
+			txt=prompt("要产生阴影效果的文字","文字");
+			if (txt!=null) {
+				if (txt2=="") {
+					AddTxt="[SHADOW=255, blue, 1]"+txt;
+					AddText(AddTxt);
+					AddTxt="[/SHADOW]";
+					AddText(AddTxt);
+				} else {
+					AddTxt="[SHADOW="+txt2+"]"+txt;
+					AddText(AddTxt);
+					AddTxt="[/SHADOW]";
+					AddText(AddTxt);
+				}         
+			} 
+		}
+	}
+}
+
+function glow() {
+	if (helpstat) {
+		alert("光晕标记\n使文字产生光晕效果.\n用法: [GLOW=宽度, 颜色, 边界]要产生光晕效果的文字[/GLOW]");
+	} else if (basic) {
+		AddTxt="[glow=255,red,2][/glow]";
+		AddText(AddTxt);
+	} else { 
+		txt2=prompt("文字的长度、颜色和边界大小","255,red,2"); 
+		if (txt2!=null) {
+			txt=prompt("要产生光晕效果的文字.","文字");      
+			if (txt!=null) {
+				if (txt2=="") {
+					AddTxt="[glow=255,red,2]"+txt;
+					AddText(AddTxt);
+					AddTxt="[/glow]";
+					AddText(AddTxt);
+				} else {
+					AddTxt="[glow="+txt2+"]"+txt;
+					AddText(AddTxt);
+					AddTxt="[/glow]";
+					AddText(AddTxt);
+				}         
+			} 
+		}
+	}
+}
+function openscriphtml()
+{
+if (navigator.appName!="Microsoft Internet Explorer")
+   alert("此功能 Netscape 用户不能使用！")
+else
+   {newwin=window.open('htmledit/editor.html','','width=544,height=294');
+    newwin.focus();
+   }
+}
+function runEx(){
+//alert('请注意，按下确定将生成页面，按下后请稍后....');
+var winEx = window.open("", "winEx", "width=600,height=400,status=yes,menubar=yes,scrollbars=yes,resizable=yes"); winEx.document.open("text/html", "replace"); 
+winEx.document.write(unescape(event.srcElement.parentElement.children[2].value)); 
+winEx.document.close(); 
+}
+function openScript(url, width, height) {
+        var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=yes,status=yes' );
+}
+</SCRIPT>
+
+<SCRIPT language=Javascript>
+<!-- hide
+
+function insertsmilie(smilieface){
+
+	document.frmAnnounce.body.value+=smilieface;
+}
+// -->
+</SCRIPT>
+
+<META content="MSHTML 5.50.4134.600" name=GENERATOR>
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+<META content=ASP动网先锋,http://www.aspsky.net name=keywords><LINK 
+href="MUD中的FTP.files/style.css" rel=stylesheet></HEAD>
+<BODY bgColor=#000000>
+<TABLE cellSpacing=0 cellPadding=0 width="95%" align=center border=0>
+  <TBODY>
+  <TR>
+    <TD bgColor=#0099cc>
+      <TABLE borderColor=#0000ff cellSpacing=1 cellPadding=4 width="100%" 
+      bgColor=#000000 border=1>
+        <TBODY>
+        <TR bgColor=#0000ff>
+          <TD colSpan=2><FONT color=#ff0000>|<A 
+            href="http://www.chinazmud.com/index1.asp">返回首页</A> | 
+            |&nbsp;&nbsp;<A 
+            href="http://www.chinazmud.com/wz/default.asp?classid=3"> MUD功略 
+            </A>&nbsp;&nbsp;|&nbsp;&nbsp; |&nbsp;&nbsp;<A 
+            href="http://www.chinazmud.com/wz/default.asp?classid=5"> 教程文章 
+            </A>&nbsp;&nbsp;|&nbsp;&nbsp; |&nbsp;&nbsp;<A 
+            href="http://www.chinazmud.com/wz/default.asp?classid=6"> 其他文章 
+            </A>&nbsp;&nbsp;|&nbsp;&nbsp; </FONT></TD></TR>
+        <TR bgColor=#000000>
+          <TD colSpan=2><FONT color=#009900>|&nbsp;&nbsp;<A 
+            href="http://www.chinazmud.com/wz/index.asp?classid=5"><FONT 
+            color=#009900>教程文章</FONT></A>&gt;&gt;<A 
+            href="http://www.chinazmud.com/wz/index.asp?classid=5&amp;Nclassid=6"><FONT 
+            color=#009900>巫师与编程</FONT></A>&gt;&gt;MUD中的FTP</FONT><BR></TD></TR>
+        <TR bgColor=#000000>
+          <TD colSpan=2>
+            <CENTER><B><FONT color=#ff0000 size=3>MUD中的FTP</FONT></B><BR><FONT 
+            color=#00ff00>&nbsp;2002-8-13&nbsp;&nbsp; </FONT></CENTER>
+            <P>
+            <BLOCKQUOTE><BR><FONT color=#009900>　　MUD中的FTP FTP ( File Transfer 
+              Protocol ) 
+              是如今在Internet上广泛使用的一种用于文件传送的协定。我们可以通过它在远程电脑upload和download文件。当然MUD也不能例外,大量的自制文件必须通过FTP传送到服务器下。 
+              <BR>　　其实现在MUD里面用FTP真的很简单，现有供下载的MUDLIB中都有完整的FTP 
+              Server程序。你只需要改改配置就可以用了。<BR>　　言归正传，MUD中的FTP主要包含以下几个文件： <BR>　　 
+              /include/net/ftpdsupp.h <BR>　　 FTPD的支持文件 
+              其中主要有检查password和site的code。 
+              <P></P>
+              <P>　　 /include/net/ftpdconf.h <BR>　　 FTP的配置文件（只是想要架站的朋友看这里就行了） 
+</P>
+              <P>　　 #define FTPD_PORT <BR>　　 即登录FTP的Port，只要设置成和进入MUD的Port不同就行了。 
+              </P>
+              <P>　　 #define FTPD_TIMEOUT <BR>　　 
+              在FTP上所能发呆的default值，按秒计算。超过这个时间就会自动断线。 </P>
+              <P>　　 #define MAX_FTPD_IDLE <BR>　　 
+              在FTP上所能发呆的最大值，和上面那个不同的是可以由siteidle指令人工设定。 </P>
+              <P>　　 #define HOME_DIR(name) 使用者数据来自的目录。 </P>
+              <P>　　 #define LOGIN_MSG <BR>　　 进入FTP时的欢迎图像，一般应存于/adm/etc。 </P>
+              <P>　　 #define THE_MUD_NAME 你的MUD的名字啦。 </P>
+              <P>　　 #define FTPD_MAX_USERS 最多能同时使用FTP的人数。 </P>
+              <P>　　 #define THE_VERSION Mudos的版本。不是ftp文件的版本喔。 </P>
+              <P>　　 #define BLOCK_SIZE 传送文件的什麽中断值，不管它啦。 </P>
+              <P>　　 #define FTP_BUGS_EMAIL <BR>　　 
+              如果FTP出现问题时需要联系的Email，如果你有改动就填你的Email吧。 </P>
+              <P>　　 #define FTP_USERS 允许使用FTP的用户名称。 </P>
+              <P>　　 #define LOG_FILE FTP记录文件。 </P>
+              <P>　　 下面一些都是杂七杂八的Define，不是很重要，我就随便讲讲了。 </P>
+              <P>　　 ANONYMOUS_FTP ： 没有id的用户登录FTP。 <BR>　　 GUEST_WIZARD_FTP ： 
+              没有home目录，即/u下目录的巫师登录FTP。 <BR>　　 FILE_LOCKING ： 对特殊的文件进行保护。 <BR>　　 
+              CHECK_SITE ： 对个别ID（如admin级）进行site限制。 <BR>　　 MESSAGE_FILES ： 
+              当转换路径时给出的信息。 <BR>　　 DEBUG ： 除错功能 </P>
+              <P>　　 本来还有一些啦，我觉得没什麽用就懒得写，如果不懂可以post。 </P>
+              <P>　　 /include/net/ftpd.h <BR>　　 FTPD的头文件 
+              在FTPD里面所要用到的define都在这里。包括读写权限等等。 </P>
+              <P>　　 /adm/daemons/ftpd.c <BR>　　 这就是FTP的主文件啦 
+              相当规范的Code，光看前面的更新记录就很有帮助喔。 </P>
+              <P>　　 int check_valid_read() 检查读入权限，权限参照ftpdconf.h。 </P>
+              <P>　　 int check_valid_write() 检查写入权限。 </P>
+              <P>　　 mapping *query_connections() 当前FTP的联接状况 </P>
+              <P>　　 void setup_ftp() 建立FTP Socket。 </P>
+              <P>　　 void in_listen_callback() &amp; void in_write_callback() 
+              <BR>　　 处理一些在connection中出现的问题，如人数过多，timeout等等。 </P>
+              <P>　　 string ls() 在FTP中的MUD文件目录显示。 </P>
+              <P>　　 data_write_callback() FTP的数据传入（transfer）。 </P>
+              <P>　　 static void data_conn() &amp; static void read_connection() 
+              <BR>　　 在FTP中的连接以及读出数据。 </P>
+              <P>　　 data_close_callback() 数据关闭，一些写入权限也在这里限制。 </P>
+              <P>　　 void logout() 退出FTP。 </P>
+              <P>　　 void parse_comm() 连入FTP，在FTP中使用的各种指令，都是在这里实现的。 </P>
+              <P>　　 void check_connections() 检查FTP的连接状态。 </P>
+              <P>　　 void resolve_callback() 解决一些在FTP使用中出现的问题。 </P>
+              <P>　　 这里讲一个小应用，如何监测FTP，可以即时显示FTP的使用情况。 <BR>　　 
+              先在CHANNELD中设置一个新的FTP频道，放在现有的系统频道也可以。再在FTPD中 void create()中set 
+              channel_id，然后用CHANNEL_D-&gt;do_channel在相关event的code中送出FTP用户使用的情况。 
+              <BR>　　 如：退出FTP就在void logout()中加入： CHANNEL_D-&gt;do_channel( 
+              this_object(), \"ftp\", sprintf(\"%s 退出FTP。\", UNAME )); 
+              这样就送出了即时信息。<BR>　　 相同的意思，log in和command的信息在void 
+              parse_comm()加入就行了。如果你觉得太多太Flood 
+              可以只选一部分进行监测，如login，logout，delete，upload等较重要的信息。这样的话可以即时处理一些紧急情况，保证 
+              MUD更安全的运行。 <BR><BR><BR></FONT>
+              <P align=right><FONT color=#009900>原作者： Kittt Email address <BR>来 
+              源： 不详 <BR>共有206位读者阅读过此文 <BR></FONT><BR>【<A 
+              href="http://www.chinazmud.com/wz/sendmail.asp?id=210">告诉好友</A>】 
+              </P></BLOCKQUOTE>
+            <P>
+            <LI><FONT color=#0772b1>上篇文章：</FONT><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=209"><FONT 
+            color=#009900>代码制作</FONT></A> <BR>
+            <LI><FONT color=#0772b1>下篇文章：</FONT><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=211"><FONT 
+            color=#009900>系统刷新与内存清除分析 </FONT></A></LI></TD></TR>
+        <TR>
+          <TD width="50%" bgColor=#0000ff>□- 本周热门文章 </TD>
+          <TD width="50%" bgColor=#0000ff>□- 相关文章 </TD></TR>
+        <TR>
+          <TD vAlign=top width="50%" bgColor=#ffffff><FONT color=#009900>1.<A 
+            title="机器人小技巧 " target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=140"> 机器人小技巧 
+            </A>[1180]<BR>2.<A title="如何在MUD中自动问候 " target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=141"> 如何在MUD中自动问候 
+            </A>[363]<BR>3.<A title=浅谈CALL命令 target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=143"> 浅谈CALL命令 
+            </A>[341]<BR>4.<A title="MUDLib攻略之F_SKILL（上） " target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=144"> 
+            MUDLib攻略之F_SKILL（上... </A>[238]<BR>5.<A title=新MUD设想--增加变化！ 
+            target=_top href="http://www.chinazmud.com/wz/list.asp?id=150"> 
+            新MUD设想--增加变化！ </A>[204]<BR>6.<A title="流星雨的MUDOS-LPC讲座 BIND " 
+            target=_top href="http://www.chinazmud.com/wz/list.asp?id=148"> 
+            流星雨的MUDOS-LPC讲座 BI... </A>[203]<BR>7.<A title="象太阁立志传那样的mud怎么样？ " 
+            target=_top href="http://www.chinazmud.com/wz/list.asp?id=151"> 
+            象太阁立志传那样的mud怎么样？ </A>[191]<BR></FONT></TD>
+          <TD vAlign=top width="50%" bgColor=#ffffff><FONT color=#009900><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=215">MUD、文化、与MUD文化 
+            </A><BR><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=210">MUD中的FTP</A><BR><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=208">MUD中的玩家类型研究</A><BR><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=203">小议MUD中的职业的发展</A><BR><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=195">泥巴的架设</A><BR><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=187">MUD中安全谈 
+            </A><BR><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=151">象太阁立志传那样的mud怎么样？ 
+            </A><BR></FONT></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><BR></BODY></HTML>

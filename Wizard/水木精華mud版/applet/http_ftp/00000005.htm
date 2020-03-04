@@ -1,0 +1,156 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清华站∶精华区</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+<A Name="top"></a>
+发信人:&nbsp;nightwatch&nbsp;(夜游神),&nbsp;信区:&nbsp;Mud_Builder&nbsp;<BR>
+标&nbsp;&nbsp;题:&nbsp;在MUD中增加HTTP和FTP服务(6)&nbsp;<BR>
+发信站:&nbsp;BBS&nbsp;水木清华站&nbsp;(Tue&nbsp;Jan&nbsp;26&nbsp;18:34:03&nbsp;1999)&nbsp;WWW-POST&nbsp;<BR>
+&nbsp;<BR>
+以下是我在MUD中编写的一些在MUDLIB中实现&nbsp;<BR>
+HTTP服务和FTP服务的程序&nbsp;<BR>
+&nbsp;<BR>
+以下部分在校园网已经测试通过。有兴趣的话请帮&nbsp;<BR>
+我查查BUG.&nbsp;<BR>
+&nbsp;<BR>
+如果你想在你的MUD中用这些程序的话，把你的&nbsp;<BR>
+Email和MUD服务器地址端口告诉我吧。&nbsp;<BR>
+&nbsp;<BR>
+<A HREF="MailTo:"></A>&nbsp;hhx_<A HREF="mailto:imu@263.net">imu@263.net</A>&nbsp;<BR>
+&nbsp;<BR>
+----------------------------------------------------------------&nbsp;<BR>
+再来一个CGI的例子：计数器。&nbsp;<BR>
+&nbsp;<BR>
+//&nbsp;SCGI:&nbsp;/adm/cgi/count3.c&nbsp;<BR>
+//&nbsp;created&nbsp;by&nbsp;wind&nbsp;98/12/10&nbsp;<BR>
+//&nbsp;final&nbsp;release:&nbsp;98/12/18&nbsp;<BR>
+&nbsp;<BR>
+#pragma&nbsp;save_binary&nbsp;<BR>
+&nbsp;<BR>
+/*&nbsp;<BR>
+**************************************************************&nbsp;<BR>
+*&nbsp;&nbsp;16*20&nbsp;256color&nbsp;gif&nbsp;-&gt;&nbsp;GIF&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;<BR>
+**************************************************************&nbsp;<BR>
+*/&nbsp;<BR>
+&nbsp;<BR>
+#include&nbsp;&lt;net/http_d.h&gt;&nbsp;<BR>
+&nbsp;<BR>
+#undef&nbsp;DEBUG&nbsp;<BR>
+&nbsp;<BR>
+#ifdef&nbsp;DEBUG&nbsp;<BR>
+#define&nbsp;tell_wind(x)&nbsp;tell_object(find_player(&quot;wind&quot;),x+&quot;\n&quot;)&nbsp;<BR>
+#else&nbsp;<BR>
+#define&nbsp;tell_wind(x)&nbsp;<BR>
+#endif&nbsp;<BR>
+&nbsp;<BR>
+#define&nbsp;DIGIT_NUM&nbsp;6&nbsp;<BR>
+&nbsp;<BR>
+#define&nbsp;LOCAL_HEADER_SIZE&nbsp;11&nbsp;<BR>
+#define&nbsp;GLOBAL_HEADER_SIZE&nbsp;13&nbsp;<BR>
+#define&nbsp;COLOR_MAP_SIZE&nbsp;256*3&nbsp;<BR>
+#define&nbsp;GIF_WIDTH&nbsp;16&nbsp;&nbsp;//&nbsp;actual&nbsp;image&nbsp;width&nbsp;<BR>
+#define&nbsp;GIF_HEIGHT&nbsp;20&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;buffer&nbsp;global_header=allocate_buffer(GLOBAL_HEADER_SIZE);&nbsp;<BR>
+private&nbsp;buffer&nbsp;color_map;&nbsp;<BR>
+private&nbsp;buffer&nbsp;local_header;&nbsp;<BR>
+private&nbsp;buffer&nbsp;block_data;&nbsp;<BR>
+private&nbsp;buffer&nbsp;one_byte;&nbsp;<BR>
+private&nbsp;buffer&nbsp;all_end=allocate_buffer(1);&nbsp;<BR>
+&nbsp;<BR>
+buffer&nbsp;main(string&nbsp;arg)&nbsp;{&nbsp;<BR>
+	string&nbsp;head=HTTP_D-&gt;ext_type(&quot;gif&quot;);&nbsp;<BR>
+	buffer&nbsp;z;&nbsp;<BR>
+	string&nbsp;fn,*&nbsp;lines,item;&nbsp;<BR>
+	int&nbsp;i,j,k,val;&nbsp;<BR>
+	if&nbsp;(!arg||arg==&quot;&quot;)&nbsp;<BR>
+	&nbsp;&nbsp;arg=&quot;main&quot;;&nbsp;<BR>
+	fn=SCGI_DIR&quot;/count_record.dat&quot;;&nbsp;<BR>
+	if&nbsp;(file_size(fn)&lt;0)&nbsp;<BR>
+	&nbsp;&nbsp;lines=({&nbsp;&quot;main&nbsp;0&quot;&nbsp;});&nbsp;<BR>
+	else&nbsp;<BR>
+	&nbsp;&nbsp;lines=explode(read_file(fn),&quot;\n&quot;);&nbsp;<BR>
+	for(i=0;i&lt;sizeof(lines);i++)&nbsp;<BR>
+	{&nbsp;<BR>
+		sscanf(lines[i],&quot;%s&nbsp;%d&quot;,item,val);&nbsp;<BR>
+		if&nbsp;(item==arg)&nbsp;<BR>
+		&nbsp;&nbsp;break;&nbsp;<BR>
+	}&nbsp;<BR>
+	if&nbsp;(i&gt;=sizeof(lines))&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;lines+=({&nbsp;arg+&quot;&nbsp;1&quot;&nbsp;});&nbsp;<BR>
+	&nbsp;&nbsp;val=1;&nbsp;<BR>
+	}&nbsp;<BR>
+	else&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;val++;&nbsp;<BR>
+	&nbsp;&nbsp;lines[i]=sprintf(&quot;%s&nbsp;%d&quot;,arg,val);&nbsp;<BR>
+	}&nbsp;<BR>
+	rm(fn);&nbsp;<BR>
+	write_file(fn,implode(lines,&quot;\n&quot;));&nbsp;<BR>
+&nbsp;<BR>
+	color_map=read_buffer(SCGI_DIR&quot;/digits/0.gif&quot;,GLOBAL_HEADER_SIZE,COLOR_MAP_SI&nbsp;<BR>
+ZE);&nbsp;<BR>
+	all_end[0]=0x3b;&nbsp;<BR>
+//&nbsp;Global&nbsp;header&nbsp;<BR>
+	write_buffer(global_header,0,&quot;GIF89a&quot;);&nbsp;<BR>
+	global_header[6]=(DIGIT_NUM*16)&amp;0xff;&nbsp;<BR>
+	global_header[7]=(DIGIT_NUM*16)&gt;&gt;8;&nbsp;<BR>
+	global_header[8]=20;&nbsp;<BR>
+	global_header[9]=0;&nbsp;<BR>
+	global_header[10]=0x87;&nbsp;<BR>
+	global_header[11]=0;&nbsp;<BR>
+	global_header[12]=0;&nbsp;<BR>
+//&nbsp;Color&nbsp;map&nbsp;<BR>
+	z=allocate_buffer(sizeof(head));&nbsp;<BR>
+	write_buffer(z,0,head);&nbsp;<BR>
+	z+=global_header;&nbsp;<BR>
+	z+=color_map;&nbsp;<BR>
+	for(k=0;k&lt;DIGIT_NUM;k++)&nbsp;<BR>
+	{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reset_eval_cost();&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fn=SCGI_DIR&quot;/digits/&quot;+val%10+&quot;.gif&quot;;&nbsp;<BR>
+//&nbsp;Local&nbsp;header	&nbsp;<BR>
+	local_header=read_buffer(fn,GLOBAL_HEADER_SIZE+COLOR_MAP_SIZE,&nbsp;<BR>
+	&nbsp;&nbsp;LOCAL_HEADER_SIZE);&nbsp;<BR>
+	local_header[1]=(GIF_WIDTH*(DIGIT_NUM-k-1))&amp;0xff;&nbsp;<BR>
+	local_header[2]=(GIF_WIDTH*(DIGIT_NUM-k-1))&gt;&gt;8;&nbsp;<BR>
+	z+=local_header;&nbsp;<BR>
+//&nbsp;Image&nbsp;data&nbsp;<BR>
+	i=GLOBAL_HEADER_SIZE+COLOR_MAP_SIZE+LOCAL_HEADER_SIZE;&nbsp;<BR>
+	one_byte=read_buffer(fn,i,1);&nbsp;<BR>
+	i++;&nbsp;<BR>
+	while&nbsp;(one_byte[0]!=0)&nbsp;<BR>
+	{&nbsp;<BR>
+		block_data=read_buffer(fn,i,one_byte[0]);&nbsp;<BR>
+		i+=one_byte[0];&nbsp;<BR>
+		z+=one_byte;&nbsp;<BR>
+		z+=block_data;&nbsp;<BR>
+		one_byte=read_buffer(fn,i,1);&nbsp;<BR>
+		i++;&nbsp;<BR>
+	}&nbsp;<BR>
+	z+=one_byte;&nbsp;<BR>
+	val/=10;&nbsp;<BR>
+	}&nbsp;<BR>
+	z+=all_end;&nbsp;<BR>
+#ifdef&nbsp;DEBUG&nbsp;<BR>
+	rm(SCGI_DIR&quot;/count_ret.gif&quot;);&nbsp;<BR>
+	write_buffer(SCGI_DIR&quot;/count_ret.gif&quot;,0,z[sizeof(head)..]);&nbsp;<BR>
+#endif&nbsp;<BR>
+	return&nbsp;z;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+※&nbsp;来源:·BBS&nbsp;水木清华站&nbsp;bbs.net.tsinghua.edu.cn·[FROM:&nbsp;202.207.8.112]&nbsp;&nbsp;<BR>
+<A HREF="00000004.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一页</A>
+<A HREF="index.htm">回到目录</A>
+<A HREF="#top">回到页首</A>
+<A HREF="00000006.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+</BODY></HTML>

@@ -1,0 +1,471 @@
+[Thu Jul 22 02:30:10 1999] u/s/steps/true.c line 2: parse error
+
+[Thu Jul 22 02:31:20 1999] u/s/steps/true.c line 2: parse error
+
+[Thu Jul 22 02:39:42 1999] u/s/steps/true.c line 2: parse error
+
+[Thu Jul 22 15:30:19 1999] u/s/steps/workroom.c line 20: parse error
+
+[Thu Jul 22 15:30:43 1999] u/s/steps/workroom.c line 20: parse error
+
+[Thu Jul 22 15:30:52 1999] u/s/steps/workroom.c line 20: parse error
+
+[Thu Jul 22 15:33:34 1999] u/s/steps/workroom.c line 19: parse error
+
+[Thu Jul 22 15:34:02 1999] u/s/steps/workroom.c line 19: parse error
+
+[Thu Jul 22 15:34:18 1999] u/s/steps/workroom.c line 19: parse error
+
+[Thu Jul 22 15:38:29 1999] u/s/steps/workroom.c line 15: parse error
+
+[Thu Jul 22 15:39:17 1999] u/s/steps/workroom.c line 15: parse error
+
+[Thu Jul 22 15:39:25 1999] u/s/steps/workroom.c line 15: parse error
+
+[Thu Jul 22 15:40:03 1999] u/s/steps/workroom.c line 15: parse error
+
+[Thu Jul 22 15:40:13 1999] u/s/steps/workroom.c line 15: parse error
+
+[Thu Jul 22 15:52:59 1999] u/s/steps/workroom.c line 16: parse error
+
+[Thu Jul 22 15:58:25 1999] u/s/steps/workroom.c line 15: parse error
+
+[Thu Jul 22 15:58:43 1999] u/s/steps/workroom.c line 15: parse error
+
+[Thu Jul 22 15:59:54 1999] u/s/steps/workroom.c line 2: parse error
+
+[Thu Jul 22 16:00:56 1999] u/s/steps/workroom.c line 2: parse error
+
+[Thu Jul 22 16:02:06 1999] u/s/steps/workroom.c line 2: parse error
+
+[Thu Jul 22 16:06:53 1999] u/s/steps/workroom.c line 15: parse error
+
+[Thu Jul 22 16:12:49 1999] u/s/steps/workroom.c line 10: parse error
+
+[Thu Jul 22 16:15:25 1999] u/s/steps/workroom.c line 19: parse error
+
+[Thu Jul 22 16:17:38 1999] u/s/steps/workroom.c line 24: parse error
+
+[Thu Jul 22 16:18:52 1999] u/s/steps/workroom.c line 24: parse error
+
+[Thu Jul 22 16:24:19 1999] u/s/steps/npc/1.c line 8: parse error
+
+[Thu Jul 22 16:24:19 1999] u/s/steps/npc/1.c line 8: Illegal terminator
+
+[Thu Jul 22 16:24:19 1999] u/s/steps/npc/1.c line 8: Text block exceeded maximum length
+
+[Thu Jul 22 16:24:19 1999] u/s/steps/npc/1.c line 16: End of file in string
+
+[Thu Jul 22 16:44:56 1999] u/s/steps/npc/1.c line 8: parse error
+
+[Thu Jul 22 16:44:56 1999] u/s/steps/npc/1.c line 13: End of file in string
+
+[Thu Jul 22 16:53:54 1999] u/s/steps/workroom.c line 4: Undefined variable 'HIC'
+
+
+[Thu Jul 22 16:53:54 1999] u/s/steps/workroom.c line 4: Undefined variable 'NOR'
+
+
+[Thu Jul 22 16:54:22 1999] u/s/steps/workroom.c line 4: Undefined variable 'HIC'
+
+
+[Thu Jul 22 16:54:22 1999] u/s/steps/workroom.c line 4: Undefined variable 'NOR'
+
+
+[Thu Jul 22 16:57:19 1999] u/s/steps/workroom.c line 4: Undefined variable 'HIC'
+
+
+[Thu Jul 22 16:57:19 1999] u/s/steps/workroom.c line 4: Undefined variable 'NOR'
+
+
+[Thu Jul 22 17:00:32 1999] u/s/steps/workroom.c line 4: Undefined variable 'HIC'
+
+
+[Thu Jul 22 17:00:32 1999] u/s/steps/workroom.c line 4: parse error
+
+[Thu Jul 22 17:02:15 1999] u/s/steps/workroom.c line 4: Undefined variable 'HIC'
+
+
+[Thu Jul 22 17:02:15 1999] u/s/steps/workroom.c line 4: parse error
+
+[Thu Jul 22 17:04:30 1999] u/s/steps/npc/1.c line 8: parse error
+
+[Thu Jul 22 17:04:30 1999] u/s/steps/npc/1.c line 13: End of file in string
+
+[Thu Jul 22 17:10:14 1999] u/s/steps/npc/1.c line 4: Undefined variable 'HIC'
+
+
+[Thu Jul 22 17:10:14 1999] u/s/steps/npc/1.c line 4: Undefined variable 'NOR'
+
+
+[Thu Jul 22 17:10:14 1999] u/s/steps/npc/1.c line 8: parse error
+
+[Thu Jul 22 17:10:14 1999] u/s/steps/npc/1.c line 13: End of file in string
+
+[Thu Jul 22 17:13:36 1999] u/s/steps/npc/1.c line 4: Undefined variable 'HIC'
+
+
+[Thu Jul 22 17:13:36 1999] u/s/steps/npc/1.c line 4: parse error
+
+[Thu Jul 22 17:14:56 1999] u/s/steps/npc/1.c line 4: Undefined variable 'HIC'
+
+
+[Thu Jul 22 17:14:56 1999] u/s/steps/npc/1.c line 4: parse error
+
+[Thu Jul 22 17:17:09 1999] u/s/steps/npc/1.c line 4: Undefined variable 'HIC'
+
+
+[Thu Jul 22 17:17:09 1999] u/s/steps/npc/1.c line 4: parse error
+
+[Thu Jul 22 17:36:44 1999] u/s/steps/workroom.c line 5: Undefined variable 'HIC'
+
+
+[Thu Jul 22 17:36:44 1999] u/s/steps/workroom.c line 5: parse error
+
+[Thu Jul 22 17:37:20 1999] u/s/steps/workroom.c line 5: Undefined variable 'HIC'
+
+
+[Thu Jul 22 17:37:20 1999] u/s/steps/workroom.c line 5: parse error
+
+[Thu Jul 22 17:52:02 1999] u/s/steps/workroom.c line 12: parse error
+
+[Thu Jul 22 17:52:02 1999] u/s/steps/workroom.c line 28: End of file in string
+
+[Thu Jul 22 22:08:26 1999] u/s/steps/workroom.c line 25: parse error
+
+[Thu Jul 22 22:08:26 1999] u/s/steps/workroom.c line 29: parse error
+
+[Thu Jul 22 22:09:00 1999] u/s/steps/workroom.c line 25: parse error
+
+[Thu Jul 22 22:09:00 1999] u/s/steps/workroom.c line 29: parse error
+
+[Thu Jul 22 22:13:09 1999] u/s/steps/workroom.c line 5: parse error
+
+[Thu Jul 22 22:13:37 1999] u/s/steps/workroom.c line 5: parse error
+
+[Fri Jul 23 09:35:52 1999] u/s/steps/npc/jobi.c line 4: Undefined variable 'YEL'
+
+
+[Fri Jul 23 09:35:52 1999] u/s/steps/npc/jobi.c line 4: parse error
+
+[Fri Jul 23 09:38:59 1999] u/s/steps/npc/jobi.c line 16: Undefined variable 'me'
+
+
+[Fri Jul 23 09:42:31 1999] u/s/steps/npc/jobi.c line 13: parse error
+
+[Fri Jul 23 09:45:35 1999] u/s/steps/npc/jobi.c line 13: parse error
+
+[Fri Jul 23 09:49:08 1999] u/s/steps/npc/jobi.c line 13: Undefined variable 'me'
+
+
+[Fri Jul 23 22:13:16 1999] u/s/steps/true.c line 2: parse error
+
+[Sun Aug  8 22:26:17 1999] u/s/steps/npc/1.c line 1: parse error
+
+[Sun Aug  8 22:27:05 1999] u/s/steps/npc/1.c line 1: parse error
+
+[Sun Aug  8 23:12:29 1999] u/s/steps/npc/1.c line 1: parse error
+
+[Sun Aug  8 23:27:19 1999] u/s/steps/npc/1.c line 1: parse error
+
+[Sun Aug  8 23:42:20 1999] u/s/steps/npc/1.c line 1: parse error
+
+[Sun Aug  8 23:54:35 1999] u/s/steps/npc/1.c line 1: parse error
+
+[Sun Aug  8 23:54:55 1999] u/s/steps/npc/1.c line 1: parse error
+
+[Tue Aug 17 03:10:51 1999] u/s/steps/workroom.c line 5: parse error
+
+[Tue Aug 17 03:10:51 1999] u/s/steps/workroom.c line 5: Illegal terminator
+
+[Tue Aug 17 03:10:51 1999] u/s/steps/workroom.c line 5: Text block exceeded maximum length
+
+[Tue Aug 17 03:10:51 1999] u/s/steps/workroom.c line 34: End of file in string
+
+[Tue Aug 17 03:11:05 1999] u/s/steps/workroom.c line 5: parse error
+
+[Tue Aug 17 03:11:05 1999] u/s/steps/workroom.c line 5: Illegal terminator
+
+[Tue Aug 17 03:11:05 1999] u/s/steps/workroom.c line 5: Text block exceeded maximum length
+
+[Tue Aug 17 03:11:05 1999] u/s/steps/workroom.c line 34: End of file in string
+
+[Sun Sep 12 01:54:26 1999] u/s/steps/eq/ring.c line 12: parse error
+
+[Sun Sep 12 01:54:26 1999] u/s/steps/eq/ring.c line 29: End of file in string
+
+[Sun Sep 12 01:58:23 1999] u/s/steps/eq/ring.c line 12: parse error
+
+[Sun Sep 12 01:58:23 1999] u/s/steps/eq/ring.c line 27: End of file in string
+
+[Sun Sep 12 02:01:53 1999] u/s/steps/eq/ring.c line 12: parse error
+
+[Sun Sep 12 02:01:53 1999] u/s/steps/eq/ring.c line 26: End of file in string
+
+[Thu Sep 16 01:16:16 1999] u/s/steps/berrycake.c line 2: Missing leading " or < in #include
+
+[Thu Sep 16 01:16:16 1999] u/s/steps/berrycake.c line 6: Undefined variable 'HIR'
+
+
+[Thu Sep 16 01:16:16 1999] u/s/steps/berrycake.c line 6: parse error
+
+[Sun Sep 19 15:57:20 1999] u/s/steps/area/front.c line 2: Missing leading " or < in #include
+
+[Sun Sep 19 15:57:20 1999] u/s/steps/area/front.c line 5: Undefined variable 'HIG'
+
+
+[Sun Sep 19 15:57:20 1999] u/s/steps/area/front.c line 5: parse error
+
+[Sun Sep 19 15:59:21 1999] u/s/steps/area/front.c line 9: parse error
+
+[Sun Sep 19 16:01:38 1999] u/s/steps/area/front.c line 11: parse error
+
+[Sun Sep 19 16:03:56 1999] u/s/steps/area/front.c line 12: parse error
+
+[Sun Sep 19 16:04:58 1999] u/s/steps/area/front.c line 8: parse error
+
+[Sun Sep 19 22:07:53 1999] u/s/steps/area/cake/berrycake.c line 10: parse error
+
+[Mon Sep 20 17:18:13 1999] u/s/steps/workroom.c line 23: parse error
+
+[Mon Sep 20 17:18:13 1999] u/s/steps/workroom.c line 32: End of file in text block
+
+[Mon Sep 20 17:18:13 1999] u/s/steps/workroom.c line 67: Illegal terminator
+
+[Mon Sep 20 17:18:13 1999] u/s/steps/workroom.c line 67: Text block exceeded maximum length
+
+[Mon Sep 20 17:18:13 1999] u/s/steps/workroom.c line 70: End of file in string
+
+[Sat Oct  9 01:51:09 1999] u/s/steps/area/npc/wp/yi-chanarmor.c line 3: parse error
+
+[Sat Oct  9 01:52:25 1999] u/s/steps/area/npc/wp/yi-chanarmor.c line 3: parse error
+
+[Sat Oct  9 01:53:07 1999] u/s/steps/area/npc/wp/yi-chanarmor.c line 3: parse error
+
+[Sat Oct  9 01:54:19 1999] u/s/steps/area/npc/wp/yi-chanarmor.c line 3: parse error
+
+[Sat Oct  9 01:59:27 1999] u/s/steps/area/npc/wp/yi-chanarmor.c line 3: parse error
+
+[Sat Oct  9 02:00:18 1999] u/s/steps/area/npc/wp/yi-chanarmor.c line 3: parse error
+
+[Sat Oct  9 02:02:27 1999] u/s/steps/area/npc/wp/yi-chanarmor.c line 3: parse error
+
+[Sat Oct  9 02:02:59 1999] u/s/steps/area/npc/wp/yi-chanarmor.c line 3: parse error
+
+[Sat Oct  9 02:08:03 1999] u/s/steps/area/npc/wp/yi-chanarmor.c line 3: parse error
+
+[Sat Oct  9 02:11:22 1999] u/s/steps/area/npc/wp/yi-chanarmor.c line 3: parse error
+
+[Sat Oct  9 02:30:01 1999] u/s/steps/area/npc/wp/yi-chanarmor.c line 12: parse error
+
+[Sat Oct  9 02:45:24 1999] u/s/steps/area/npc/wp/tan-chanblade.c line 3: parse error
+
+[Sat Oct  9 02:45:38 1999] u/s/steps/area/npc/wp/tan-chanblade.c line 3: parse error
+
+[Sat Oct 16 15:22:07 1999] u/s/steps/area/npc/wp/necklace.c line 1: Line too long.
+
+[Sat Oct 16 17:42:08 1999] u/s/steps/area/npc/wp/boots.c line 1: Line too long.
+
+[Sat Oct 16 17:46:57 1999] u/s/steps/area/npc/wp/boots.c line 3: parse error
+
+[Sat Oct 16 17:47:35 1999] u/s/steps/area/npc/wp/necklace.c line 3: parse error
+
+[Sat Oct 16 17:48:41 1999] u/s/steps/area/npc/wp/cloth.c line 3: parse error
+
+[Sat Oct 16 17:49:54 1999] u/s/steps/area/npc/wp/boots.c line 2: parse error
+
+[Sat Oct 16 17:50:44 1999] u/s/steps/area/npc/wp/necklace.c line 2: parse error
+
+[Sat Oct 16 17:50:48 1999] u/s/steps/area/npc/wp/cloth.c line 2: parse error
+
+[Sat Oct 16 17:53:04 1999] u/s/steps/area/npc/wp/necklace.c line 2: parse error
+
+[Thu Oct 21 01:56:16 1999] u/s/steps/area/npc/wp/necklace.c line 2: parse error
+
+[Thu Oct 21 01:56:16 1999] u/s/steps/area/npc/wp/boots.c line 2: parse error
+
+[Thu Oct 21 01:56:16 1999] u/s/steps/area/npc/wp/cloth.c line 2: parse error
+
+[Thu Oct 21 01:57:28 1999] u/s/steps/area/npc/wp/boots.c line 2: parse error
+
+[Thu Oct 21 02:00:33 1999] u/s/steps/area/npc/wp/boots.c line 2: parse error
+
+[Thu Oct 21 02:14:39 1999] u/s/steps/boots.c line 1: Line too long.
+
+[Thu Oct 21 02:15:08 1999] u/s/steps/area/npc/wp/cloth.c line 3: parse error
+
+[Thu Oct 21 02:19:40 1999] u/s/steps/area/npc/wp/cloth.c line 6: parse error
+
+[Thu Oct 21 02:22:19 1999] u/s/steps/area/npc/wp/cloth.c line 6: parse error
+
+[Thu Oct 21 02:26:25 1999] u/s/steps/area/npc/wp/necklace.c line 3: parse error
+
+[Fri Oct 22 17:39:02 1999] u/s/steps/area/door.c line 2: parse error
+
+[Fri Oct 22 17:55:59 1999] u/s/steps/area/npc/woman.c line 11: Undefined variable 'HIY'
+
+
+[Fri Oct 22 17:55:59 1999] u/s/steps/area/npc/woman.c line 11: parse error
+
+[Fri Oct 22 17:56:14 1999] u/s/steps/area/npc/woman.c line 11: Undefined variable 'HIY'
+
+
+[Fri Oct 22 17:56:14 1999] u/s/steps/area/npc/woman.c line 11: parse error
+
+[Sat Oct 23 20:15:06 1999] u/s/steps/hkioricake.c line 11: parse error
+
+[Sat Oct 23 20:17:49 1999] u/s/steps/hkioricake.c line 12: parse error
+
+[Sun Oct 24 00:23:42 1999] u/s/steps/area/street1.c line 2: parse error
+
+[Wed Jan 19 00:21:45 2000] u/s/steps/eq/boots.c line 3: parse error
+
+[Wed Jan 19 00:21:55 2000] u/s/steps/eq/ring.c line 12: parse error
+
+[Wed Jan 19 00:21:55 2000] u/s/steps/eq/ring.c line 26: End of file in string
+
+[Wed Jan 19 21:54:33 2000] u/s/steps/future/npc/hotelrobot.c line 1: parse error
+
+[Wed Jan 19 21:56:20 2000] u/s/steps/future/npc/hotelrobot.c line 2: parse error
+
+[Wed Jan 19 21:56:38 2000] u/s/steps/future/npc/hotelrobot.c line 2: parse error
+
+[Wed Jan 19 21:58:38 2000] u/s/steps/future/npc/hotelrobot.c line 3: parse error
+
+[Wed Jan 19 21:58:38 2000] u/s/steps/future/npc/hotelrobot.c line 4: Illegal terminator
+
+[Wed Jan 19 21:58:38 2000] u/s/steps/future/npc/hotelrobot.c line 4: Text block exceeded maximum length
+
+[Wed Jan 19 21:58:38 2000] u/s/steps/future/npc/hotelrobot.c line 4: Illegal terminator
+
+[Wed Jan 19 21:58:38 2000] u/s/steps/future/npc/hotelrobot.c line 4: Text block exceeded maximum length
+
+[Wed Jan 19 22:01:25 2000] u/s/steps/future/npc/hotelrobot.c line 5: parse error
+
+[Wed Jan 19 22:01:25 2000] u/s/steps/future/npc/hotelrobot.c line 6: Illegal terminator
+
+[Wed Jan 19 22:01:25 2000] u/s/steps/future/npc/hotelrobot.c line 6: Text block exceeded maximum length
+
+[Wed Jan 19 22:01:25 2000] u/s/steps/future/npc/hotelrobot.c line 6: Illegal terminator
+
+[Wed Jan 19 22:01:25 2000] u/s/steps/future/npc/hotelrobot.c line 6: Text block exceeded maximum length
+
+[Wed Jan 19 22:09:59 2000] u/s/steps/future/hotelrobot.c line 5: parse error
+
+[Wed Jan 19 22:09:59 2000] u/s/steps/future/hotelrobot.c line 7: Illegal terminator
+
+[Wed Jan 19 22:09:59 2000] u/s/steps/future/hotelrobot.c line 7: Text block exceeded maximum length
+
+[Wed Jan 19 22:09:59 2000] u/s/steps/future/hotelrobot.c line 7: Illegal terminator
+
+[Wed Jan 19 22:09:59 2000] u/s/steps/future/hotelrobot.c line 7: Text block exceeded maximum length
+
+[Wed Jan 19 22:12:53 2000] u/s/steps/future/npc/hotelrobot.c line 1: parse error
+
+[Wed Jan 19 23:26:36 2000] u/s/steps/future/npc/hotelrobot.c line 5: parse error
+
+[Wed Jan 19 23:26:36 2000] u/s/steps/future/npc/hotelrobot.c line 7: Illegal terminator
+
+[Wed Jan 19 23:26:36 2000] u/s/steps/future/npc/hotelrobot.c line 7: Text block exceeded maximum length
+
+[Wed Jan 19 23:26:36 2000] u/s/steps/future/npc/hotelrobot.c line 7: Illegal terminator
+
+[Wed Jan 19 23:26:36 2000] u/s/steps/future/npc/hotelrobot.c line 7: Text block exceeded maximum length
+
+[Thu Jan 20 00:55:57 2000] u/s/steps/future/npc/hotelrobot.c line 5: parse error
+
+[Thu Jan 20 00:55:57 2000] u/s/steps/future/npc/hotelrobot.c line 7: Illegal terminator
+
+[Thu Jan 20 00:55:57 2000] u/s/steps/future/npc/hotelrobot.c line 7: Text block exceeded maximum length
+
+[Thu Jan 20 00:55:57 2000] u/s/steps/future/npc/hotelrobot.c line 7: Illegal terminator
+
+[Thu Jan 20 00:55:57 2000] u/s/steps/future/npc/hotelrobot.c line 7: Text block exceeded maximum length
+
+[Fri Jan 21 01:47:52 2000] u/s/steps/future/npc/hotelrobot.c line 29: parse error
+
+[Fri Jan 21 01:53:02 2000] u/s/steps/future/npc/hotelrobot.c line 29: parse error
+
+[Fri Jan 21 01:59:10 2000] u/s/steps/future/npc/hotelrobot.c line 2: parse error
+
+[Fri Jan 21 01:59:38 2000] u/s/steps/future/npc/hotelrobot.c line 29: parse error
+
+[Fri Jan 21 02:02:38 2000] u/s/steps/future/npc/hotelrobot.c line 30: parse error
+
+[Fri Jan 21 02:12:15 2000] u/s/steps/future/npc/hotelrobot.c line 40: Undefined variable 'RANK_C'
+
+
+[Fri Jan 21 02:18:47 2000] u/s/steps/future/npc/hotelrobot.c line 40: Undefined variable 'RANK_C'
+
+
+[Fri Jan 21 02:48:27 2000] u/s/steps/future/npc/obj/mineral.c line 17: parse error
+
+[Fri Jan 21 02:52:04 2000] u/s/steps/future/npc/obj/mineral.c line 17: parse error
+
+[Fri Jan 21 04:35:50 2000] u/s/steps/future/npc/collector.c line 20: parse error
+
+[Fri Jan 21 04:35:50 2000] u/s/steps/future/npc/collector.c line 21: parse error
+
+[Sun Jan 23 00:42:02 2000] u/s/steps/future/digging_road9.c line 2: parse error
+
+[Sun Jan 23 00:42:44 2000] u/s/steps/future/digging_road9.c line 57: parse error
+
+[Sun Jan 23 00:42:44 2000] u/s/steps/future/digging_road9.c line 68: Illegal LHS
+
+[Sun Jan 23 00:42:44 2000] u/s/steps/future/digging_road9.c line 68: parse error
+
+[Sun Jan 23 00:43:10 2000] u/s/steps/future/digging_road9.c line 57: parse error
+
+[Sun Jan 23 00:43:10 2000] u/s/steps/future/digging_road9.c line 68: Illegal LHS
+
+[Sun Jan 23 00:43:10 2000] u/s/steps/future/digging_road9.c line 68: parse error
+
+[Sun Jan 23 00:43:56 2000] u/s/steps/future/digging_road9.c line 58: parse error
+
+[Sun Jan 23 00:43:56 2000] u/s/steps/future/digging_road9.c line 59: Illegal terminator
+
+[Sun Jan 23 00:43:56 2000] u/s/steps/future/digging_road9.c line 59: Text block exceeded maximum length
+
+[Sun Jan 23 00:43:56 2000] u/s/steps/future/digging_road9.c line 61: $var illegal outside of function.
+
+[Sun Jan 23 00:43:56 2000] u/s/steps/future/digging_road9.c line 67: $var illegal outside of function.
+
+[Sun Jan 23 00:43:56 2000] u/s/steps/future/digging_road9.c line 67: Illegal terminator
+
+[Sun Jan 23 00:46:22 2000] u/s/steps/future/digging_road9.c line 58: parse error
+
+[Sun Jan 23 00:46:22 2000] u/s/steps/future/digging_road9.c line 68: Illegal LHS
+
+[Sun Jan 23 00:46:22 2000] u/s/steps/future/digging_road9.c line 72: parse error
+
+[Tue Jan 25 18:20:27 2000] u/s/steps/future/train.c line 45: A reserved type name cannot be used as a function name.
+
+
+[Tue Jan 25 18:20:27 2000] u/s/steps/future/train.c line 45: parse error
+
+[Tue Jan 25 18:20:27 2000] u/s/steps/future/train.c line 60: parse error
+
+[Tue Jan 25 18:31:30 2000] u/s/steps/future/train.c line 45: A reserved type name cannot be used as a function name.
+
+
+[Tue Jan 25 18:31:30 2000] u/s/steps/future/train.c line 45: parse error
+
+[Tue Jan 25 18:31:30 2000] u/s/steps/future/train.c line 60: parse error
+
+[Tue Jan 25 18:35:27 2000] u/s/steps/future/train.c line 45: A reserved type name cannot be used as a function name.
+
+
+[Tue Jan 25 18:35:27 2000] u/s/steps/future/train.c line 45: parse error
+
+[Tue Jan 25 18:35:27 2000] u/s/steps/future/train.c line 60: parse error
+
+[Wed Jan 26 21:38:52 2000] u/s/steps/future/district1.c line 18: parse error
+
+[Wed Jan 26 21:39:12 2000] u/s/steps/future/district1.c line 18: parse error
+
+[Wed Jan 26 21:41:29 2000] u/s/steps/future/district1.c line 18: parse error
+
+[Mon Aug  7 22:37:54 2000] u/s/steps/steps_b.c line 8: parse error before n;
+
+[Mon Aug  7 22:40:26 2000] u/s/steps/steps_b.c line 8: parse error before the end of line
+

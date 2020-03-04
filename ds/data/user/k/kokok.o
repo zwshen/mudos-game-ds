@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["con":2,"addition_damage":10,"gender":"¨k©Ê","str":2,"id":"kokok","addition_shield":10,"max_hp":80,"channels":({"chat","rumor","tchat",}),"name":"®w","DS_DATA_VERSION":19991107,"mp":60,"age":14,"race":"human","level":1,"cure_count":6,"talk_point":5,"actions":,"addition_armor":10,"heart_beat_rate":6,"attitude":"peaceful","birthday":1114660353,"max_ap":60,"Merits":(["tec":0,"sou":0,"bar":0,"bio":0,"wit":0,]),"supply_point":12,"hp":80,"max_mp":60,"evil":-1,"volume":7,"guild_gifts":({5,5,5,5,}),"unit":"¦ì","mud_age":88,"exp":777,"startroom":"/open/world2/lichi_town_2/map_5_26","ap":60,"dex":2,"last_location":"/open/world2/lichi_town_1/map_6_21","default_actions":,"newbie":1,"int":2,])
+autoload ({})

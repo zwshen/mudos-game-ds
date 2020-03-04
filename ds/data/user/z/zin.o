@@ -1,0 +1,6 @@
+#/obj/user.c
+dbase (["heart_modify":1,"age":14,"mud_age":2238,"unit":"¦ì","addition_damage":10,"wound":(["body":0,"right_leg":0,"head":0,"right_arm":0,"left_leg":0,"left_arm":0,]),"default_actions":,"actions":,"env":(["3":"who -l",]),"max_mp":60,"max_hp":90,"newbie":1,"heart_beat_rate":6,"last_location":"/open/world1/tmr/bagi/rift1","exp":1467,"id":"zin","dex":2,"int":2,"max_ap":70,"con":2,"mp":60,"ap":70,"str":2,"Merits":(["wit":0,"bar":0,"bio":0,"tec":0,"sou":0,]),"level":1,"MKS":5,"hp":81,"DS_DATA_VERSION":19991107,"gender":"¨k©Ê","evil":12,"name":"±¦","channels":({"chat","rumor","tchat",}),"birthday":1170034291,"volume":7,"race":"titan","cure_count":9,"war_score":4,"startroom":"/open/world1/tmr/area/hotel","talk_point":8,"guild_gifts":({5,5,5,5,}),"supply_point":60,"addition_shield":10,"attitude":"peaceful","board_last_read":(["anoounce_b":1169712700,"tmr_hotel_b":1163999227,]),"mob_record":({"/open/world1/tmr/area/npc/mvillager","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove",}),"addition_armor":10,])
+skills (["dodge":2,"unarmed":3,"combat":5,])
+learned (["dodge":5,"unarmed":26,"combat":5,])
+alias (["35":"search here","3":"who -l",])
+autoload ({"/obj/money/coin:405",})

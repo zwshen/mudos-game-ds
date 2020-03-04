@@ -1,0 +1,45 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清华站∶精华区</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+<A Name="top"></a>
+发信人:&nbsp;minux&nbsp;(minux),&nbsp;信区:&nbsp;Mud_Builder&nbsp;<BR>
+标&nbsp;&nbsp;题:&nbsp;Re:&nbsp;如何自动启动MUD？？&nbsp;<BR>
+发信站:&nbsp;BBS&nbsp;水木清华站&nbsp;(Wed&nbsp;Apr&nbsp;15&nbsp;09:52:20&nbsp;1998)&nbsp;<BR>
+&nbsp;<BR>
+【&nbsp;在&nbsp;sadsong&nbsp;(烛光泪影)&nbsp;的大作中提到:&nbsp;】&nbsp;<BR>
+【&nbsp;在&nbsp;minux&nbsp;(minux)&nbsp;的大作中提到:&nbsp;】&nbsp;<BR>
+∶<I>&nbsp;呵呵&nbsp;</I><BR>
+∶<I>&nbsp;在script里面加个ps判断一下driver的这个进程还在不在罗&nbsp;</I><BR>
+∶<I>&nbsp;偷懒一点的话用wait等到driver进程结束再启动也可以呀&nbsp;</I><BR>
+∶<I>&nbsp;在es2的mudlib那里还有个startmud,stopmud的东东,也可以参考啊&nbsp;</I><BR>
+&nbsp;<BR>
+能否在mudos的src中修改，以便出现当机时再system&nbsp;<BR>
+一个新的进程，开启mud&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+根本就不用这么麻烦:&nbsp;<BR>
+#!/bin/csh&nbsp;<BR>
+while&nbsp;(1)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(&nbsp;&quot;`ps&nbsp;-u&nbsp;|&nbsp;grep&nbsp;driver&nbsp;|&nbsp;grep&nbsp;config.ES2`&quot;&nbsp;==&quot;&quot;)&nbsp;then&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;./driver&nbsp;config.ES2&nbsp;&amp;&nbsp;<BR>
+endif&nbsp;<BR>
+sleep&nbsp;150&nbsp;<BR>
+end&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+※&nbsp;来源:·BBS&nbsp;水木清华站&nbsp;bbs.net.tsinghua.edu.cn·[FROM:&nbsp;202.116.65.7]&nbsp;<BR>
+<A HREF="00000012.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一页</A>
+<A HREF="index.htm">回到目录</A>
+<A HREF="#top">回到页首</A>
+<A HREF="00000014.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+</BODY></HTML>

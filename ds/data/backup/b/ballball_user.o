@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["int":2,"supply_point":60,"mp":60,"max_ap":60,"max_hp":80,"mud_age":1736,"gender":"女性","con":2,"age":14,"id":"ballball","str":2,"cure_count":15,"addition_armor":10,"channels":({"chat","rumor","tchat",}),"name":"球球","heart_modify":0,"talk_point":8,"DS_DATA_VERSION":19991107,"Merits":(["wit":0,"bar":0,"bio":0,"sou":0,"tec":0,]),"guild_gifts":({5,5,5,5,}),"race":"human","level":1,"addition_shield":10,"hp":80,"default_actions":,"birthday":1034134677,"last_location":"/open/world1/tmr/area/street4","actions":,"ap":60,"volume":7,"heart_beat_rate":6,"unit":"位","wound":(["right_arm":0,"body":0,"left_arm":0,"left_leg":0,"right_leg":0,"head":0,]),"addition_damage":10,"max_mp":60,"evil":-1,"attitude":"peaceful","startroom":"/open/world1/tmr/area/hotel","exp":777,"bank":(["past":6000,]),"newbie":1,"dex":2,])
+autoload ({"/obj/money/coin:799",})

@@ -1,0 +1,18 @@
+
+	sizeof(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		sizeof() - 傳回一個陣列 (array)、映射 (mapping)、
+			   暫存區 (buffer)、或是字串 (string) 的
+			   元素數目.
+	函數語法:
+		int sizeof( mixed var );
+
+		整數 sizeof( 混合 var );
+	函數用法:
+		傳回 var 中元素的數目, var 可以是陣列、陣列、字串、
+		或是暫存區. 如果 var 不屬於以上四種型態, 就傳回 0.
+	參考函數:
+		allocate(3), allocate_mapping(3), strlen(3)
+	手冊翻譯:
+		Phoebus@ZH	97. Jul.23.		(Writen 5/23/97)

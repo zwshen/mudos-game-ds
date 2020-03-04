@@ -1,0 +1,512 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清华站∶精华区</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+<A Name="top"></a>
+发信人:&nbsp;nightwatch&nbsp;(夜游神),&nbsp;信区:&nbsp;Mud_Builder&nbsp;<BR>
+标&nbsp;&nbsp;题:&nbsp;在MUD中增加HTTP和FTP服务(7)&nbsp;<BR>
+发信站:&nbsp;BBS&nbsp;水木清华站&nbsp;(Tue&nbsp;Jan&nbsp;26&nbsp;18:36:34&nbsp;1999)&nbsp;WWW-POST&nbsp;<BR>
+&nbsp;<BR>
+以下是我在MUD中编写的一些在MUDLIB中实现&nbsp;<BR>
+HTTP服务和FTP服务的程序&nbsp;<BR>
+&nbsp;<BR>
+以下部分在校园网已经测试通过。有兴趣的话请帮&nbsp;<BR>
+我查查BUG.&nbsp;<BR>
+&nbsp;<BR>
+如果你想在你的MUD中用这些程序的话，把你的&nbsp;<BR>
+Email和MUD服务器地址端口告诉我吧。&nbsp;<BR>
+&nbsp;<BR>
+<A HREF="MailTo:"></A>&nbsp;hhx_<A HREF="mailto:imu@263.net">imu@263.net</A>&nbsp;<BR>
+&nbsp;<BR>
+----------------------------------------------------------------&nbsp;<BR>
+好了，现在看看FTP服务是怎么实现的。&nbsp;<BR>
+这个FTP服务器几乎所有的代码都重写了。&nbsp;<BR>
+请看第一部分：&nbsp;<BR>
+&nbsp;<BR>
+//&nbsp;Adm&nbsp;Daemon:&nbsp;/adm/daemons/ftp_d.c&nbsp;<BR>
+//&nbsp;created&nbsp;by&nbsp;wind&nbsp;98/12/23&nbsp;<BR>
+//&nbsp;98/12/24:&nbsp;implement&nbsp;command:&nbsp;rest.&nbsp;<BR>
+//&nbsp;99/01/10:&nbsp;rnfr&nbsp;can&nbsp;rename(move)&nbsp;a&nbsp;directory.&nbsp;<BR>
+//&nbsp;99/01/10:&nbsp;add&nbsp;download&nbsp;speed&nbsp;limit(in&nbsp;socket.c).&nbsp;<BR>
+//&nbsp;99/01/12:&nbsp;implement&nbsp;command:&nbsp;pasv.&nbsp;<BR>
+&nbsp;<BR>
+//&nbsp;tested&nbsp;under:&nbsp;<BR>
+//&nbsp;&nbsp;leapFTP&nbsp;2.52&nbsp;<BR>
+//&nbsp;&nbsp;wsftp&nbsp;4.01&nbsp;<BR>
+//&nbsp;&nbsp;cuteftp&nbsp;2.6&nbsp;<BR>
+//&nbsp;&nbsp;leechftp&nbsp;1.3&nbsp;<BR>
+//&nbsp;&nbsp;netants&nbsp;1.0b2.41&nbsp;<BR>
+//&nbsp;&nbsp;getright&nbsp;3.3(preview&nbsp;5)&nbsp;<BR>
+//&nbsp;&nbsp;net&nbsp;vampire&nbsp;3.0&nbsp;<BR>
+//&nbsp;&nbsp;internet&nbsp;explorer&nbsp;4.0&nbsp;<BR>
+//&nbsp;&nbsp;ftp&nbsp;tool(windows&nbsp;95)&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+#pragma&nbsp;save_binary&nbsp;<BR>
+&nbsp;<BR>
+#include&nbsp;&lt;net/ftp_d.h&gt;&nbsp;<BR>
+#include&nbsp;&lt;net/socket.h&gt;&nbsp;<BR>
+&nbsp;<BR>
+#undef&nbsp;DEBUG&nbsp;<BR>
+&nbsp;<BR>
+#ifdef&nbsp;DEBUG&nbsp;<BR>
+#define&nbsp;tell_wind(x)&nbsp;tell_object(find_player(&quot;wind&quot;),x+&quot;\n&quot;)&nbsp;<BR>
+#define&nbsp;LOG_SEND&nbsp;<BR>
+#define&nbsp;LOG_COMMAND&nbsp;<BR>
+#define&nbsp;LOG_RESPOND&nbsp;<BR>
+#else&nbsp;<BR>
+#define&nbsp;tell_wind(x)&nbsp;<BR>
+#undef&nbsp;LOG_SEND&nbsp;<BR>
+#undef&nbsp;LOG_COMMAND&nbsp;<BR>
+#undef&nbsp;LOG_RESPOND&nbsp;<BR>
+#endif&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+#define&nbsp;directory_exists(x)&nbsp;(file_size(x)==-2)&nbsp;<BR>
+#define&nbsp;file_exists(x)&nbsp;(file_size(x)&gt;=0)&nbsp;<BR>
+&nbsp;<BR>
+#define&nbsp;FTPD_VERSION&nbsp;&quot;1.0&quot;&nbsp;<BR>
+&nbsp;<BR>
+#define&nbsp;TIMEOUT&nbsp;120&nbsp;<BR>
+&nbsp;<BR>
+#define&nbsp;CHECK_LOGIN()&nbsp;\&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;!ULOGIN&nbsp;)&nbsp;{&nbsp;\&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(socket,&quot;530&nbsp;Please&nbsp;login&nbsp;with&nbsp;USER&nbsp;and&nbsp;PASS.\n&quot;&nbsp;);&nbsp;\&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break;&nbsp;\&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;<BR>
+#define&nbsp;CHECK_CMD(x)&nbsp;\&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;sizeof(command)&nbsp;&lt;=&nbsp;x)&nbsp;{&nbsp;\&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(socket,sprintf(&quot;500&nbsp;'%s':&nbsp;command&nbsp;not&nbsp;understood.\n&quot;,&nbsp;\&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;command[&nbsp;0&nbsp;])&nbsp;);&nbsp;\&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break;&nbsp;\&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;<BR>
+#define&nbsp;ANONYMOUS(x)&nbsp;(member_array(x,ANONYMOUS_NAME)!=-1)&nbsp;<BR>
+&nbsp;<BR>
+#define&nbsp;SECS_IN_YEAR&nbsp;(365&nbsp;*&nbsp;24&nbsp;*&nbsp;60&nbsp;*&nbsp;60)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+#define&nbsp;UNAME&nbsp;client_info[socket][&quot;user&quot;]&nbsp;<BR>
+#define&nbsp;UEMAIL&nbsp;client_info[socket][&quot;email&quot;]&nbsp;<BR>
+#define&nbsp;ULOGIN&nbsp;client_info[socket][&quot;login&quot;]&nbsp;<BR>
+#define&nbsp;UCWD&nbsp;client_info[socket][&quot;cwd&quot;]&nbsp;<BR>
+#define&nbsp;UROOT&nbsp;client_info[socket][&quot;root&quot;]&nbsp;<BR>
+#define&nbsp;UTYPE&nbsp;client_info[socket][&quot;type&quot;]&nbsp;<BR>
+#define&nbsp;UPORT&nbsp;client_info[socket][&quot;port&quot;]&nbsp;<BR>
+#define&nbsp;UADDR&nbsp;client_info[socket][&quot;addr&quot;]&nbsp;<BR>
+#define&nbsp;UDATA&nbsp;client_info[socket][&quot;data&quot;]&nbsp;<BR>
+#define&nbsp;UREST&nbsp;client_info[socket][&quot;rest&quot;]&nbsp;<BR>
+#define&nbsp;UIDLE&nbsp;client_info[socket][&quot;idle&quot;]&nbsp;<BR>
+#define&nbsp;UFROM&nbsp;client_info[socket][&quot;from&quot;]&nbsp;<BR>
+#define&nbsp;UPOOL&nbsp;client_info[socket][&quot;pool&quot;]&nbsp;<BR>
+#define&nbsp;UTIME&nbsp;client_info[socket][&quot;time&quot;]&nbsp;<BR>
+#define&nbsp;UCTIME&nbsp;client_info[socket][&quot;ctime&quot;]&nbsp;<BR>
+#define&nbsp;UTRANS&nbsp;client_info[socket][&quot;trans&quot;]&nbsp;<BR>
+#define&nbsp;UPASV&nbsp;client_info[socket][&quot;pasv&quot;]&nbsp;<BR>
+#define&nbsp;USITE&nbsp;socket-&gt;address()[0]&nbsp;<BR>
+#define&nbsp;USEND&nbsp;sending_info[UDATA]&nbsp;<BR>
+#define&nbsp;ULISTEN&nbsp;passive_info[UPASV]&nbsp;<BR>
+#define&nbsp;SFILE&nbsp;sending_info[sock][&quot;data&quot;]&nbsp;<BR>
+#define&nbsp;SPOS&nbsp;sending_info[sock][&quot;pos&quot;]&nbsp;<BR>
+#define&nbsp;STYPE&nbsp;sending_info[sock][&quot;type&quot;]&nbsp;<BR>
+#define&nbsp;SLASTT&nbsp;sending_info[sock][&quot;lastt&quot;]&nbsp;<BR>
+#define&nbsp;SLASTB&nbsp;sending_info[sock][&quot;lastb&quot;]&nbsp;<BR>
+#define&nbsp;SCLIENT&nbsp;sending_info[sock][&quot;client&quot;]&nbsp;<BR>
+#define&nbsp;SAPPEND&nbsp;sending_info[sock][&quot;append&quot;]&nbsp;<BR>
+&nbsp;<BR>
+#define&nbsp;ASCII&nbsp;0&nbsp;<BR>
+#define&nbsp;BINARY&nbsp;1&nbsp;<BR>
+#define&nbsp;MASK_TYPE&nbsp;1&nbsp;<BR>
+#define&nbsp;STRING&nbsp;0&nbsp;<BR>
+#define&nbsp;FILE&nbsp;2&nbsp;<BR>
+#define&nbsp;MASK_FILE&nbsp;2&nbsp;<BR>
+#define&nbsp;OUT&nbsp;0&nbsp;<BR>
+#define&nbsp;IN&nbsp;4&nbsp;<BR>
+#define&nbsp;MASK_INOUT&nbsp;4&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;object&nbsp;ftp_sock;&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;mapping&nbsp;client_info&nbsp;=&nbsp;([&nbsp;]);&nbsp;<BR>
+private&nbsp;mapping&nbsp;sending_info&nbsp;=&nbsp;([&nbsp;]);&nbsp;<BR>
+private&nbsp;mapping&nbsp;passive_info&nbsp;=&nbsp;([&nbsp;]);&nbsp;<BR>
+&nbsp;<BR>
+static&nbsp;int&nbsp;*&nbsp;bits=({&nbsp;0x80,0x40,0x20,0x10,8,4,2,1&nbsp;});&nbsp;<BR>
+&nbsp;<BR>
+mapping&nbsp;cmdtab&nbsp;=&nbsp;([&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;user&quot;&nbsp;:&nbsp;({&nbsp;&quot;USER&quot;,&nbsp;1,&nbsp;&quot;&lt;sp&gt;&nbsp;username&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;pass&quot;&nbsp;:&nbsp;({&nbsp;&quot;PASS&quot;,&nbsp;1,&nbsp;&quot;&lt;sp&gt;&nbsp;password&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;acct&quot;&nbsp;:&nbsp;({&nbsp;&quot;ACCT&quot;,&nbsp;0,&nbsp;&quot;(specify&nbsp;account)&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;smnt&quot;&nbsp;:&nbsp;({&nbsp;&quot;SMNT&quot;,&nbsp;0,&nbsp;&quot;(structure&nbsp;mount)&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;rein&quot;&nbsp;:&nbsp;({&nbsp;&quot;REIN&quot;,&nbsp;1,&nbsp;&quot;(reinitialize&nbsp;server&nbsp;state)&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;quit&quot;&nbsp;:&nbsp;({&nbsp;&quot;QUIT&quot;,&nbsp;1,&nbsp;&quot;(terminate&nbsp;service)&quot;,&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;port&quot;&nbsp;:&nbsp;({&nbsp;&quot;PORT&quot;,&nbsp;1,&nbsp;&quot;&lt;sp&gt;&nbsp;b0,&nbsp;b1,&nbsp;b2,&nbsp;b3,&nbsp;b4&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;pasv&quot;&nbsp;:&nbsp;({&nbsp;&quot;PASV&quot;,&nbsp;1,&nbsp;&quot;(set&nbsp;server&nbsp;in&nbsp;passive&nbsp;mode)&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;type&quot;&nbsp;:&nbsp;({&nbsp;&quot;TYPE&quot;,&nbsp;1,&nbsp;&quot;&lt;sp&gt;&nbsp;[&nbsp;A&nbsp;|&nbsp;E&nbsp;|&nbsp;I&nbsp;|&nbsp;L&nbsp;]&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;stru&quot;&nbsp;:&nbsp;({&nbsp;&quot;STRU&quot;,&nbsp;0,&nbsp;&quot;(specify&nbsp;file&nbsp;structure)&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;mode&quot;&nbsp;:&nbsp;({&nbsp;&quot;MODE&quot;,&nbsp;0,&nbsp;&quot;(specify&nbsp;transfer&nbsp;mode)&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;retr&quot;&nbsp;:&nbsp;({&nbsp;&quot;RETR&quot;,&nbsp;1,&nbsp;&quot;&lt;sp&gt;&nbsp;file-name&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;stor&quot;&nbsp;:&nbsp;({&nbsp;&quot;STOR&quot;,&nbsp;1,&nbsp;&quot;&lt;sp&gt;&nbsp;file-name&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;appe&quot;&nbsp;:&nbsp;({&nbsp;&quot;APPE&quot;,&nbsp;1,&nbsp;&quot;&lt;sp&gt;&nbsp;file-name&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;mlfl&quot;&nbsp;:&nbsp;({&nbsp;&quot;MLFL&quot;,&nbsp;0,&nbsp;&quot;(mail&nbsp;file)&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;mail&quot;&nbsp;:&nbsp;({&nbsp;&quot;MAIL&quot;,&nbsp;0,&nbsp;&quot;(mail&nbsp;to&nbsp;user)&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;msnd&quot;&nbsp;:&nbsp;({&nbsp;&quot;MSND&quot;,&nbsp;0,&nbsp;&quot;(mail&nbsp;send&nbsp;to&nbsp;terminal)&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;msom&quot;&nbsp;:&nbsp;({&nbsp;&quot;MSOM&quot;,&nbsp;0,&nbsp;&quot;(mail&nbsp;send&nbsp;to&nbsp;terminal&nbsp;or&nbsp;mailbox)&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;msam&quot;&nbsp;:&nbsp;({&nbsp;&quot;MSAM&quot;,&nbsp;0,&nbsp;&quot;(mail&nbsp;send&nbsp;to&nbsp;terminal&nbsp;and&nbsp;mailbox)&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;mrsq&quot;&nbsp;:&nbsp;({&nbsp;&quot;MRSQ&quot;,&nbsp;0,&nbsp;&quot;(mail&nbsp;recipient&nbsp;scheme&nbsp;question)&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;mrcp&quot;&nbsp;:&nbsp;({&nbsp;&quot;MRCP&quot;,&nbsp;0,&nbsp;&quot;(mail&nbsp;recipient)&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;allo&quot;&nbsp;:&nbsp;({&nbsp;&quot;ALLO&quot;,&nbsp;1,&nbsp;&quot;allocate&nbsp;storage&nbsp;(vacuously)&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;rest&quot;&nbsp;:&nbsp;({&nbsp;&quot;REST&quot;,&nbsp;1,&nbsp;&quot;&lt;sp&gt;&nbsp;position&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;rnfr&quot;&nbsp;:&nbsp;({&nbsp;&quot;RNFR&quot;,&nbsp;1,&nbsp;&quot;&lt;sp&gt;&nbsp;file-name&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;rnto&quot;&nbsp;:&nbsp;({&nbsp;&quot;RNTO&quot;,&nbsp;1,&nbsp;&quot;&lt;sp&gt;&nbsp;file-name&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;abor&quot;&nbsp;:&nbsp;({&nbsp;&quot;ABOR&quot;,&nbsp;1,&nbsp;&quot;(abort&nbsp;operation)&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;dele&quot;&nbsp;:&nbsp;({&nbsp;&quot;DELE&quot;,&nbsp;1,&nbsp;&quot;&lt;sp&gt;&nbsp;file-name&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;cwd&quot;&nbsp;&nbsp;:&nbsp;({&nbsp;&quot;CWD&quot;&nbsp;,&nbsp;1,&nbsp;&quot;[&nbsp;&lt;sp&gt;&nbsp;directory-name&nbsp;]&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;xcwd&quot;&nbsp;:&nbsp;({&nbsp;&quot;XCWD&quot;,&nbsp;1,&nbsp;&quot;[&nbsp;&lt;sp&gt;&nbsp;directory-name&nbsp;]&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;list&quot;&nbsp;:&nbsp;({&nbsp;&quot;LIST&quot;,&nbsp;1,&nbsp;&quot;[&nbsp;&lt;sp&gt;&nbsp;path-name&nbsp;]&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;nlst&quot;&nbsp;:&nbsp;({&nbsp;&quot;NLST&quot;,&nbsp;1,&nbsp;&quot;[&nbsp;&lt;sp&gt;&nbsp;path-name&nbsp;]&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;site&quot;&nbsp;:&nbsp;({&nbsp;&quot;SITE&quot;,&nbsp;1,&nbsp;&quot;site-cmd&nbsp;[&nbsp;&lt;sp&gt;&nbsp;arguments&nbsp;]&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;syst&quot;&nbsp;:&nbsp;({&nbsp;&quot;SYST&quot;,&nbsp;1,&nbsp;&quot;(get&nbsp;type&nbsp;of&nbsp;operating&nbsp;system)&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;stat&quot;&nbsp;:&nbsp;({&nbsp;&quot;STAT&quot;,&nbsp;1,&nbsp;&quot;[&nbsp;&lt;sp&gt;&nbsp;path-name&nbsp;]&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;help&quot;&nbsp;:&nbsp;({&nbsp;&quot;HELP&quot;,&nbsp;1,&nbsp;&quot;[&nbsp;&lt;sp&gt;&nbsp;&lt;string&gt;&nbsp;]&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;noop&quot;&nbsp;:&nbsp;({&nbsp;&quot;NOOP&quot;,&nbsp;1,&nbsp;&quot;&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;mkd&quot;&nbsp;&nbsp;:&nbsp;({&nbsp;&quot;MKD&quot;&nbsp;,&nbsp;1,&nbsp;&quot;&lt;sp&gt;&nbsp;path-name&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;xmkd&quot;&nbsp;:&nbsp;({&nbsp;&quot;XMKD&quot;,&nbsp;1,&nbsp;&quot;&lt;sp&gt;&nbsp;path-name&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;rmd&quot;&nbsp;&nbsp;:&nbsp;({&nbsp;&quot;RMD&quot;&nbsp;,&nbsp;1,&nbsp;&quot;&lt;sp&gt;&nbsp;path-name&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;xrmd&quot;&nbsp;:&nbsp;({&nbsp;&quot;XRMD&quot;,&nbsp;1,&nbsp;&quot;&lt;sp&gt;&nbsp;path-name&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;pwd&quot;&nbsp;&nbsp;:&nbsp;({&nbsp;&quot;PWD&quot;&nbsp;,&nbsp;1,&nbsp;&quot;(return&nbsp;current&nbsp;directory)&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;xpwd&quot;&nbsp;:&nbsp;({&nbsp;&quot;XPWD&quot;,&nbsp;1,&nbsp;&quot;(return&nbsp;current&nbsp;directory)&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;cdup&quot;&nbsp;:&nbsp;({&nbsp;&quot;CDUP&quot;,&nbsp;1,&nbsp;&quot;(change&nbsp;to&nbsp;parent&nbsp;directory)&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;xcup&quot;&nbsp;:&nbsp;({&nbsp;&quot;XCUP&quot;,&nbsp;1,&nbsp;&quot;(change&nbsp;to&nbsp;parent&nbsp;directory)&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;stou&quot;&nbsp;:&nbsp;({&nbsp;&quot;STOU&quot;,&nbsp;1,&nbsp;&quot;&lt;sp&gt;&nbsp;file-name&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;size&quot;&nbsp;:&nbsp;({&nbsp;&quot;SIZE&quot;,&nbsp;1,&nbsp;&quot;&lt;sp&gt;&nbsp;path-name&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;mdtm&quot;&nbsp;:&nbsp;({&nbsp;&quot;MDTM&quot;,&nbsp;1,&nbsp;&quot;&lt;sp&gt;&nbsp;path-name&quot;&nbsp;})&nbsp;<BR>
+]);&nbsp;<BR>
+&nbsp;<BR>
+mapping&nbsp;sitecmdtab&nbsp;=&nbsp;([&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;idle&quot;&nbsp;&nbsp;:&nbsp;({&nbsp;&quot;IDLE&quot;,&nbsp;&nbsp;1,&nbsp;&quot;[&nbsp;&lt;sp&gt;&nbsp;timeout&nbsp;]&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;umask&quot;&nbsp;:&nbsp;({&nbsp;&quot;UMASK&quot;,&nbsp;0,&nbsp;&quot;[&nbsp;&lt;sp&gt;&nbsp;umask&nbsp;]&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;chmod&quot;&nbsp;:&nbsp;({&nbsp;&quot;CHMOD&quot;,&nbsp;0,&nbsp;&quot;&lt;sp&gt;&nbsp;path-name&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;time&quot;&nbsp;&nbsp;:&nbsp;({&nbsp;&quot;TIME&quot;,&nbsp;&nbsp;1,&nbsp;&quot;(return&nbsp;local&nbsp;time)&quot;&nbsp;}),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;help&quot;&nbsp;&nbsp;:&nbsp;({&nbsp;&quot;HELP&quot;,&nbsp;&nbsp;1,&nbsp;&quot;[&nbsp;&lt;sp&gt;&nbsp;&lt;string&gt;&nbsp;]&quot;&nbsp;})&nbsp;<BR>
+]);&nbsp;<BR>
+&nbsp;<BR>
+string&nbsp;join_path(&nbsp;string&nbsp;dir,&nbsp;string&nbsp;file)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;string&nbsp;tmp1,tmp2;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(file[0]=='/')&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tmp1=file[1..];&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tmp1=file;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(dir[strlen(dir)-1]!='/')&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tmp2=dir+&quot;/&quot;;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tmp2=dir;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;tmp2+tmp1;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;log_ftp(string&nbsp;x,object&nbsp;socket)&nbsp;<BR>
+{&nbsp;<BR>
+	int&nbsp;no;&nbsp;<BR>
+	string&nbsp;vv;&nbsp;<BR>
+	int&nbsp;i;&nbsp;<BR>
+	i=strlen(x)-1;&nbsp;<BR>
+	while&nbsp;(i&gt;0&amp;&amp;x[i]=='\n')&nbsp;i--;&nbsp;<BR>
+	x=x[0..i];&nbsp;<BR>
+#ifndef&nbsp;LOG_SEND&nbsp;<BR>
+	if&nbsp;(!undefinedp(sending_info[socket]))&nbsp;<BR>
+	&nbsp;&nbsp;return;&nbsp;<BR>
+#endif&nbsp;<BR>
+	if&nbsp;(socket)&nbsp;<BR>
+	&nbsp;&nbsp;sscanf(file_name(socket),&quot;%*s#%d&quot;,no);&nbsp;<BR>
+	else&nbsp;<BR>
+	&nbsp;&nbsp;no=-1;&nbsp;<BR>
+	if&nbsp;(!socket)&nbsp;<BR>
+	&nbsp;&nbsp;vv=&quot;&quot;;&nbsp;<BR>
+	else&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;if&nbsp;(undefinedp(client_info[socket]))&nbsp;<BR>
+	&nbsp;&nbsp;{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;vv=&quot;(&quot;+USITE+&quot;)&quot;;&nbsp;<BR>
+	&nbsp;&nbsp;}&nbsp;<BR>
+	&nbsp;&nbsp;else&nbsp;<BR>
+	&nbsp;&nbsp;{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;vv=UNAME;&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!vv)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vv=&quot;&quot;;&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;vv+=&quot;(&quot;+USITE+&quot;)&quot;;&nbsp;<BR>
+	&nbsp;&nbsp;}&nbsp;<BR>
+	}&nbsp;<BR>
+	log_file(LOG_FILE,&quot;[&quot;+short_time(time())+&quot;]&quot;+vv+&quot;:&nbsp;&quot;+x+&quot;(&quot;+no+&quot;).\n&quot;);&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;delete_sending(object&nbsp;sock);&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;delete_passive(object&nbsp;sock)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;object&nbsp;socket;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;socket=passive_info[&quot;client&quot;];&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(socket)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UPASV=0;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(USEND)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;delete_sending(USEND);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USEND=0;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;map_delete(passive_info,sock);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;destruct(sock);&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;refresh_passive(object&nbsp;sock,object&nbsp;client)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;mapping&nbsp;x;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;x=passive_info[sock];&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;if&nbsp;(!x)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;passive_info[sock]=&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	([&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&quot;client&quot;:client,&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;	&quot;time&quot;:time(),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;	]);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x[&quot;time&quot;]=time();&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;delete_sending(object&nbsp;sock)&nbsp;<BR>
+{&nbsp;<BR>
+	object&nbsp;socket;&nbsp;<BR>
+	if&nbsp;(sock)&nbsp;<BR>
+	{&nbsp;<BR>
+		socket=SCLIENT;&nbsp;<BR>
+		if&nbsp;(socket)&nbsp;<BR>
+		{&nbsp;<BR>
+		&nbsp;&nbsp;UADDR=0;&nbsp;<BR>
+		&nbsp;&nbsp;UPORT=0;&nbsp;<BR>
+		&nbsp;&nbsp;UDATA=0;&nbsp;<BR>
+		&nbsp;&nbsp;if&nbsp;(UPASV)&nbsp;<BR>
+		&nbsp;&nbsp;{&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;delete_passive(UPASV);&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;UPASV=0;&nbsp;<BR>
+		&nbsp;&nbsp;}&nbsp;<BR>
+		}&nbsp;<BR>
+		map_delete(sending_info,sock);&nbsp;<BR>
+		destruct(sock);&nbsp;<BR>
+	}&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;remove_sending()&nbsp;<BR>
+{&nbsp;<BR>
+	int&nbsp;i;&nbsp;<BR>
+	object&nbsp;*&nbsp;s;&nbsp;<BR>
+	s=keys(sending_info);&nbsp;<BR>
+	for(i=0;i&lt;sizeof(s);i++)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(s[i])&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;log_ftp(&quot;Sending&nbsp;abend&nbsp;by&nbsp;system&quot;,s[i]);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;delete_sending(s[i]);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+	sending_info=([&nbsp;]);&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;refresh_sending(object&nbsp;socket,object&nbsp;client)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;mapping&nbsp;x;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;x=sending_info[socket];&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;if&nbsp;(!x)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sending_info[socket]=&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	([&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&quot;client&quot;:client,&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;	&quot;time&quot;:time(),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;	]);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x[&quot;time&quot;]=time();&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;delete_client(object&nbsp;socket)&nbsp;<BR>
+{&nbsp;<BR>
+	if&nbsp;(socket)&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(UDATA)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;delete_sending(UDATA);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(UPASV)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;delete_passive(UPASV);&nbsp;<BR>
+		map_delete(client_info,socket);&nbsp;<BR>
+		destruct(socket);&nbsp;<BR>
+	}&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;remove_client()&nbsp;<BR>
+{&nbsp;<BR>
+	int&nbsp;i;&nbsp;<BR>
+	object&nbsp;*&nbsp;s;&nbsp;<BR>
+	s=keys(client_info);&nbsp;<BR>
+	for(i=0;i&lt;sizeof(s);i++)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(s[i])&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;log_ftp(&quot;Abend&nbsp;by&nbsp;system&quot;,s[i]);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;delete_client(s[i]);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+	client_info=([&nbsp;]);&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;refresh_client(object&nbsp;socket)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;mapping&nbsp;x;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;x=client_info[socket];&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;if&nbsp;(!x)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;client_info[socket]=&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	([&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;	&quot;time&quot;:time(),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;	&quot;login&quot;:0,&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;	&quot;idle&quot;:FTPD_TIMEOUT,&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;	&quot;pool&quot;:&quot;&quot;,&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;	&quot;trans&quot;:0,&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;	&quot;pasv&quot;:0,&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;	&quot;ctime&quot;:time(),&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;	]);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x[&quot;time&quot;]=time();&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;ftp_send(object&nbsp;socket,mixed&nbsp;d)&nbsp;<BR>
+{&nbsp;<BR>
+	if&nbsp;(!socket)&nbsp;<BR>
+	&nbsp;&nbsp;return;&nbsp;<BR>
+#ifdef&nbsp;LOG_RESPOND&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(stringp(d)&amp;&amp;strlen(d)&gt;3&amp;&amp;d[3]=='&nbsp;')&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;log_ftp(&quot;Respond:&nbsp;&quot;+d,socket);&nbsp;<BR>
+#endif&nbsp;<BR>
+	if&nbsp;(stringp(d))&nbsp;<BR>
+	&nbsp;&nbsp;d=replace_string(d,&quot;\n&quot;,&quot;\r\n&quot;);&nbsp;<BR>
+	socket-&gt;send(d);&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+buffer&nbsp;ftp_data_write(object&nbsp;sock)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;string&nbsp;file;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;i1,i2,i3;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;reset_eval_cost();&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!sending_info[sock])&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;0;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;refresh_client(SCLIENT);&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;((STYPE&amp;MASK_INOUT)!=OUT)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;0;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;((STYPE&amp;MASK_FILE)!=FILE)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	ftp_send(SCLIENT,&quot;226&nbsp;Transfer&nbsp;complete.\n&quot;&nbsp;);&nbsp;<BR>
+	log_ftp(&quot;Send&nbsp;complete,&nbsp;disconnected&quot;,sock);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;	delete_sending(sock);&nbsp;<BR>
+	return&nbsp;0;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;file=SFILE;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;i1=SPOS;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;i2=BLOCK_SIZE;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;i3=file_size(file);&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(i3&lt;=i1)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	ftp_send(SCLIENT,&quot;226&nbsp;Transfer&nbsp;complete.\n&quot;&nbsp;);&nbsp;<BR>
+	log_ftp(&quot;Send&nbsp;complete,&nbsp;disconnected&quot;,sock);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;	delete_sending(sock);&nbsp;<BR>
+	return&nbsp;0;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;refresh_sending(sock,0);&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(i1+i2&gt;i3)&nbsp;<BR>
+	i2=i3-i1;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;SPOS=i1+i2;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;client_info[SCLIENT][&quot;trans&quot;]+=i2;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;read_buffer(file,i1,i2);&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+void&nbsp;ftp_data_read(object&nbsp;sock,mixed&nbsp;data)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!data)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;object&nbsp;socket;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;i;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;object&nbsp;*&nbsp;k=keys(passive_info);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for(i=0;i&lt;sizeof(k);i++)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(k[i]-&gt;local_address()[1]==sock-&gt;local_address()[1])&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(i&gt;=sizeof(k))&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;log_ftp(&quot;Error&nbsp;connection&nbsp;to&nbsp;passive,&nbsp;kickout&quot;,sock);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;destruct(sock);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;socket=passive_info[k[i]][&quot;client&quot;];&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!socket||!UPASV||UDATA&amp;&amp;sock!=UDATA)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;log_ftp(&quot;Error&nbsp;connection&nbsp;to&nbsp;passive,&nbsp;kickout&quot;,sock);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;destruct(sock);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UDATA=sock;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;refresh_passive(UPASV,0);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USEND=ULISTEN;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;((STYPE&amp;MASK_INOUT)!=IN&amp;&amp;USEND[&quot;data&quot;])&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;	log_ftp(&quot;Sending&nbsp;connected&quot;,UDATA);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;	UDATA-&gt;set_write_callback(&nbsp;(:ftp_data_write:)&nbsp;);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;((USEND[&quot;type&quot;]&amp;MASK_FILE)==FILE)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mixed&nbsp;x;&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x=ftp_data_write(UDATA);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(UDATA)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;UDATA-&gt;send(x);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UDATA-&gt;send(replace_string(USEND[&quot;data&quot;],&quot;\n&quot;,&quot;\r\n&quot;));&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!sending_info[sock])&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;refresh_client(SCLIENT);&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;((STYPE&amp;MASK_INOUT)!=IN)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;refresh_sending(sock,0);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(stringp(data))&nbsp;<BR>
+	data&nbsp;=&nbsp;replace_string(&nbsp;data,&nbsp;&quot;\r&quot;,&nbsp;&quot;&quot;&nbsp;);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(catch(write_buffer(SFILE,SPOS,data)))&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;	log_ftp(&quot;Error&nbsp;writing&nbsp;file,&nbsp;disconnected&quot;,sock);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;	delete_sending(sock);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;	ftp_send(SCLIENT,&quot;452&nbsp;Error&nbsp;writing&nbsp;file.\n&quot;);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;	return;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;SPOS+=sizeof(data);&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+※&nbsp;来源:·BBS&nbsp;水木清华站&nbsp;bbs.net.tsinghua.edu.cn·[FROM:&nbsp;202.207.8.112]&nbsp;&nbsp;<BR>
+<A HREF="00000005.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一页</A>
+<A HREF="index.htm">回到目录</A>
+<A HREF="#top">回到页首</A>
+<A HREF="00000007.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+</BODY></HTML>

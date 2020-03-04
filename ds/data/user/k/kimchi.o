@@ -1,0 +1,7 @@
+#/obj/user.c
+conditions ([])
+dbase (["supply_point":60,"DS_DATA_VERSION":19991107,"addition_armor":10,"env":([]),"class1":"寒澈派","attitude":"peaceful","addition_damage":10,"cure_count":15,"talk_point":8,"max_hp":80,"channels":({"chat","rumor","tchat",}),"mud_age":504,"newbie":1,"exp":777,"hp":80,"dex":2,"heart_beat_rate":6,"int":2,"con":2,"age":14,"level":1,"max_ap":60,"guild_gifts":({0,5,9,6,}),"birthday":1235844011,"wound":(["body":0,"left_arm":0,"head":0,"left_leg":0,"right_leg":0,"right_arm":0,]),"evil":-1,"unit":"位","default_actions":,"mp":110,"adv_class":1,"actions":,"ap":60,"title":"寒澈派第三代道僮","volume":7,"race":"celestial","id":"kimchi","family":(["title":"道僮","family_name":"寒澈派","generation":3,"privs":-1,]),"heart_modify":0,"max_mp":110,"Merits":(["bar":0,"tec":0,"sou":0,"bio":0,"wit":0,]),"addition_shield":10,"startroom":"/open/world1/tmr/area/hotel","last_location":"/open/world1/tmr/frost/hall","gender":"女性","str":2,"guild_rank":"寒澈派第三代道僮","name":"韓辣泡菜堡",])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

@@ -1,0 +1,2 @@
+#/obj/login.c
+dbase (["id":"selina","name":"家萱","last_on":1059289950,"email":"","last_from":"NK218-187-15-22.2-4.pl.apol.com.tw","password":"dMFW1dbzDFZGM","race":"human","level":36,"new_mail":1,"error_login":({"於[Thu May 29 09:58:54 2003]嘗試由[telnet.hinet.net]連線進入失敗。","於[Fri May 30 08:42:49 2003]嘗試由[telnet.hinet.net]連線進入失敗。","於[Thu Jun  5 12:24:54 2003]嘗試由[c141.h061016030.is.net.tw]連線進入失敗。","於[Sat Jun 14 16:33:08 2003]嘗試由[61.63.201.152]連線進入失敗。","於[Wed Jun 18 01:46:27 2003]嘗試由[118.116.30.61.isp.tfn.net.tw]連線進入失敗。",}),"body":"/obj/user",])

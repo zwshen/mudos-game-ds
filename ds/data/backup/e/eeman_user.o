@@ -1,0 +1,6 @@
+#/obj/user.c
+conditions ([])
+dbase (["age":14,"DS_DATA_VERSION":19991107,"cure_count":11,"actions":,"max_mp":60,"attitude":"peaceful","default_actions":,"gender":"男性","name":"最愛曾寶儀","max_ap":60,"supply_point":60,"race":"human","channels":({"rumor","tchat","wiz","chat","twiz","god",}),"level":1,"id":"eeman","heart_modify":0,"birthday":969188273,"wound":(["right_arm":0,"left_arm":0,"right_leg":0,"left_leg":0,"body":0,"head":0,]),"mp":60,"ap":60,"startroom":"/d/wiz/hall1","hp":80,"cwf":"/u/e/eeman/bomb.c","mob_record":({"/open/world1/tmr/area/npc/dog",}),"newbie":1,"exp":1018,"Merits":(["wit":0,"tec":0,"bio":0,"sou":0,"bar":0,]),"dex":2,"int":2,"con":2,"str":2,"guild_gifts":({5,5,5,5,}),"evil":-1,"addition_shield":10,"heart_beat_rate":6,"addition_damage":10,"addition_armor":10,"volume":7,"mud_age":38765,"cwd":"/u/e/eeman/","talk_point":8,"MKS":1,"max_hp":80,"disable_type":" <毫無呼吸>","last_location":"/open/world1/acme/cominging/house5","unit":"位","board_last_read":(["wizard_b":1123182243,"shengsan_b":1009088642,"online_b":1068912449,"guild_b":960615557,"now_b":968839942,"eeman_b":923673217,"luky_b":1009982172,"alickyuen_b":1007998047,]),])
+skills (["dodge":0,"combat":1,"unarmed":1,])
+learned (["dodge":1,"combat":8,"unarmed":3,])
+autoload ({})

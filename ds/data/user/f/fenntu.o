@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions ([])
+dbase (["mp":60,"mud_age":4293,"wound":(["body":0,"left_leg":0,"head":0,"right_arm":0,"left_arm":0,"right_leg":0,]),"default_actions":,"help":"cmds/","max_mp":60,"actions":,"channels":({"chat","rumor","tchat","bala",}),"war_score":13,"newbie":1,"exp":3280,"dex":2,"max_hp":80,"int":2,"max_ap":60,"addition_shield":10,"mob_record":({"/open/world1/cominging/area/npc/traveller","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog","/open/world1/cominging/area/npc/traveller","/open/world1/cominging/area/npc/traveller","/open/world1/acme/bonze/npc/dog","/open/world1/tmr/area/npc/traveler","/open/world1/tmr/area/npc/traveler","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"con":2,"ap":60,"str":2,"last_location":"/open/world1/cominging/area/forest4","level":1,"birthday":1471839876,"hp":80,"addition_armor":10,"age":14,"volume":7,"MKS":17,"unit":"¦ì","attitude":"peaceful","gender":"¤k©Ê","guild_gifts":({5,5,5,5,}),"bank":(["past":22,]),"name":"©]´ð","addition_damage":10,"cure_count":3,"Merits":(["bar":0,"sou":0,"bio":0,"wit":0,"tec":0,]),"startroom":"/open/world1/tmr/area/hotel","combat_exp":4,"heart_modify":1,"race":"human","talk_point":8,"supply_point":60,"id":"fenntu","heart_beat_rate":6,"DS_DATA_VERSION":19991107,"evil":26,])
+skills (["dodge":2,"combat":7,"unarmed":5,"sword":1,"parry":0,])
+learned (["dodge":12,"combat":3,"unarmed":18,"sword":8,"parry":2,])
+items ({})
+autoload ({"/obj/money/coin:450",})
+toDoList ([])
+solved ({})

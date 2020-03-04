@@ -1,0 +1,9 @@
+#/obj/user.c
+dbase (["max_mp":98,"actions":,"mud_age":44572090,"env":([]),"bank":(["past":279907,]),"nickname":"¨¸·¥©v[0m","max_hp":685,"channels":({"chat",}),"addition_shield":10,"newbie":1,"exp":175903727,"dex":2,"guild_gifts":({5,5,5,5,}),"popularity":9036,"max_ap":455,"int":2,"ap":455,"con":23,"unit":"¦ì","disable_type":" <²@µL©I§l>","addition_armor":10,"str":6,"level":5,"board_last_read":(["sex_board":1142342928,"jail_board":1166062863,"guitar_b":1141665592,"tmr_hotel_b":1168079140,"magic-card_b":1057657067,"anoounce_b":1167977964,]),"birthday":1164419198,"attitude":"peaceful","hp":685,"war_art":22756,"cure_count":2,"addition_damage":10,"putjail_time":(["2":1,]),"combat_exp":0,"gender":"¤k©Ê","bellicosity":0,"heart_modify":0,"name":"ªÜÁ¢µ·","age":529,"skill":(["strong-body":37,"literate":37,]),"addition":(["int":2,"con":2,]),"startroom":"/open/world1/tmr/area/hotel","supply_point":142,"last_location":"/open/world1/tmr/bagi/rift","guild_rank":"¦¨¼ô¼a´Aªº¤p©h®Q","race":"tiger","heart_beat_rate":6,"talk_point":20,"volume":7,"id":"frice","wound":(["left_leg":0,"body":0,"head":0,"right_arm":0,"left_arm":0,"right_leg":0,]),"DS_DATA_VERSION":19991107,"default_actions":,"mp":98,"evil":-1,"Merits":(["sou":0,"bar":1,"wit":0,"bio":0,"tec":0,]),])
+skills (["strong-body":39,"block":24,"blade":23,"combat":1,"fork":24,"dodge":25,"unarmed":24,"sword":24,"literate":39,"swim":24,"parry":24,])
+learned (["strong-body":0,"dodge":1,"unarmed":16,"combat":1,"literate":0,"swim":650,])
+items ({})
+alias (["lv":"level","/":"recall start","wit":"withdraw $* coin","wealth":"balance","dep":"deposit $* coin",])
+autoload ({"/obj/money/coin:9130",})
+toDoList ([])
+solved ({})

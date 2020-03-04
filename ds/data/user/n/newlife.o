@@ -1,0 +1,8 @@
+#/obj/user.c
+dbase (["DS_DATA_VERSION":19991107,"disable_type":" <毫無呼吸>","race":"ogre","actions":,"popularity":15,"guild_rank":"四處流浪的冒險者","attitude":"peaceful","max_mp":54,"addition_damage":10,"channels":({"chat","rumor","tchat",}),"max_hp":240,"help":"newbie/","birthday":1204998778,"heart_modify":0,"id":"newlife","mp":54,"war_art":17,"gender":"男性","name":"新生","unit":"位","guild_gifts":({5,5,5,5,}),"max_ap":138,"ap":138,"startroom":"/open/world1/tmr/area/hotel","last_location":"/open/world1/tmr/area/inn_2f","bank":(["past":959,]),"cure_count":0,"env":([]),"mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove",}),"war_score":2,"combat_exp":1,"age":14,"Merits":(["wit":0,"bar":0,"bio":0,"tec":0,"sou":0,]),"supply_point":141,"talk_point":20,"heart_beat_rate":6,"newbie":1,"exp":28605,"dex":2,"int":2,"default_actions":,"volume":7,"hp":240,"addition_shield":10,"con":6,"str":8,"wound":(["left_leg":0,"right_leg":0,"right_arm":0,"head":0,"left_arm":0,"body":0,]),"level":5,"MKS":11,"mud_age":3313,"evil":26,"addition_armor":10,])
+skills (["unarmed":3,"whip":0,"combat":4,"dodge":2,"parry":0,"strong-body":2,])
+learned (["unarmed":26,"whip":1,"combat":47,"dodge":7,"parry":1,"strong-body":12,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

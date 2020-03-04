@@ -1,0 +1,10 @@
+#/obj/user.c
+conditions ([])
+dbase (["volume":7,"DS_DATA_VERSION":19991107,"ap":84,"board_last_read":(["jail_board":1148896928,]),"env":(["report_action":"YES",]),"heart_beat_rate":6,"war_score":0,"Merits":(["bio":0,"bar":0,"tec":0,"wit":0,"sou":0,]),"talk_point":8,"wound":(["right_arm":0,"body":0,"right_leg":0,"left_leg":0,"left_arm":0,"head":0,]),"unit":"¦ì","addition":(["con":1,]),"channels":({"chat","rumor","tchat","sky","sam",}),"max_mp":54,"newbie":1,"MKS":2,"exp":4399484,"attitude":"peaceful","cure_count":13,"dex":2,"last_location":"/open/world1/acme/area/sky/room35","int":2,"max_ap":84,"con":2,"level":1,"popularity":514,"birthday":1165543657,"age":17,"evil":-1,"supply_point":60,"putjail_time":(["2":1,]),"heart_modify":0,"nickname":"¤Ö«Ó[0m","skill":(["strong-body":18,]),"addition_shield":10,"mob_record":({"/u/t/tmr/game/2006_c/oldman","/u/t/tmr/game/2006_c/oldman",}),"mud_age":325026,"default_actions":,"mp":54,"hp":150,"race":"ogre","max_hp":150,"guild_gifts":({5,5,5,5,}),"actions":,"addition_armor":10,"id":"kannos","war_art":496,"startroom":"/open/world1/tmr/area/hotel","gender":"¨k©Ê","str":2,"name":"³·ªw","addition_damage":10,])
+skills (["strong-body":18,"unarmed":1,"combat":1,])
+learned (["strong-body":285,"unarmed":0,"combat":0,])
+items ({})
+alias (["stone":"do look off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,w,w,w,w,w,n,ne,u,ne,n,nw,sw,u,se,ne,u,w,nw,u,look on,s,","r":"recall start","ssky":"do e,n,n,n,w,w,n,ne,ne,n,n,ne,ne,n,e,n,n,nw,eu,ne,n,n,n,n,n,n,n,ne,n,n,n,n,","kk":"sam $*","gogo":"do look off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,w,w,w,s,w,sw,sw,s,s,look on,e",])
+autoload ({"/open/always/sky_mark",})
+toDoList ([])
+solved ({})

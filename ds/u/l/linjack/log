@@ -1,0 +1,481 @@
+u/l/linjack/npcmaker.c line 21: Type mismatch ( string vs mixed * ) when initializing ChatBuffer
+u/l/linjack/npcmaker.c line 60: parse error
+u/l/linjack/npcmaker.c line 81: Illegal LHS
+u/l/linjack/npcmaker.c line 82: Illegal LHS
+u/l/linjack/npcmaker.c line 82: parse error
+u/l/linjack/npcmaker.c line 83: Illegal LHS
+u/l/linjack/roomtest.c line 173: Type of returned value doesn't match function return type ( int vs void ).
+u/l/linjack/area/test/npc/eq/d_leggings.c line 3: parse error
+u/l/linjack/area/test/npc/eq/d_leggings.c line 3: parse error
+u/l/linjack/area/test/npc/shura.c line 31: parse error
+u/l/linjack/area/test/npc/shura.c line 31: parse error
+u/l/linjack/npcmaker.c line 21: Type mismatch ( string vs mixed * ) when initializing ChatBuffer
+u/l/linjack/npcmaker.c line 60: parse error
+u/l/linjack/npcmaker.c line 81: Illegal LHS
+u/l/linjack/npcmaker.c line 82: Illegal LHS
+u/l/linjack/npcmaker.c line 82: parse error
+u/l/linjack/npcmaker.c line 83: Illegal LHS
+u/l/linjack/area/test/npc/eq/minisword.c line 16: parse error
+u/l/linjack/area/test/npc/eq/minisword.c line 16: parse error
+[Sun May 30 18:29:35 1999] u/l/linjack/npcmaker.c line 21: Type mismatch ( string vs mixed * ) when initializing ChatBuffer
+
+[Sun May 30 18:29:35 1999] u/l/linjack/npcmaker.c line 60: parse error
+
+[Sun May 30 18:29:35 1999] u/l/linjack/npcmaker.c line 81: Illegal LHS
+
+[Sun May 30 18:29:35 1999] u/l/linjack/npcmaker.c line 82: Illegal LHS
+
+[Sun May 30 18:29:35 1999] u/l/linjack/npcmaker.c line 82: parse error
+
+[Sun May 30 18:29:35 1999] u/l/linjack/npcmaker.c line 83: Illegal LHS
+
+[Wed Jun  9 20:38:37 1999] u/l/linjack/area/oldsword/npc/shura.c line 31: parse error
+
+[Sat Jul  3 11:50:58 1999] u/l/linjack/area/oldsword/npc/woodcutter.c line 35: parse error
+
+[Sat Jul  3 12:29:42 1999] u/l/linjack/area/oldsword/npc/eq/lumber_axe.c line 22: Undefined function init_sword
+
+[Fri Jul  9 16:17:25 1999] u/l/linjack/area/oldsword/mountdown9.c line 20: Undefined variable 'YEL'
+
+
+[Fri Jul  9 16:17:25 1999] u/l/linjack/area/oldsword/mountdown9.c line 20: parse error
+
+[Fri Jul  9 16:17:43 1999] u/l/linjack/area/oldsword/mountdown9.c line 20: Undefined variable 'YEL'
+
+
+[Fri Jul  9 16:17:43 1999] u/l/linjack/area/oldsword/mountdown9.c line 20: parse error
+
+[Fri Jul  9 16:18:13 1999] u/l/linjack/area/oldsword/field.c line 15: parse error
+
+[Fri Jul  9 16:18:43 1999] u/l/linjack/area/oldsword/field.c line 23: Undefined variable 'YEL'
+
+
+[Fri Jul  9 16:18:43 1999] u/l/linjack/area/oldsword/field.c line 23: parse error
+
+[Fri Aug 20 22:19:47 1999] u/l/linjack/area/oldsword/npc/yuen.c line 56: parse error
+
+[Fri Aug 20 22:19:47 1999] u/l/linjack/area/oldsword/npc/yuen.c line 114: $var illegal outside of function.
+
+[Fri Aug 20 22:19:47 1999] u/l/linjack/area/oldsword/npc/yuen.c line 135: $var illegal outside of function.
+
+[Fri Aug 20 22:19:47 1999] u/l/linjack/area/oldsword/npc/yuen.c line 135: Illegal terminator
+
+[Fri Aug 20 22:19:47 1999] u/l/linjack/area/oldsword/npc/yuen.c line 135: Text block exceeded maximum length
+
+[Fri Aug 20 22:19:47 1999] u/l/linjack/area/oldsword/npc/yuen.c line 156: Illegal terminator
+
+[Fri Aug 20 22:20:13 1999] u/l/linjack/area/oldsword/npc/yuen.c line 62: parse error
+
+[Fri Aug 20 22:20:13 1999] u/l/linjack/area/oldsword/npc/yuen.c line 114: $var illegal outside of function.
+
+[Fri Aug 20 22:20:13 1999] u/l/linjack/area/oldsword/npc/yuen.c line 135: $var illegal outside of function.
+
+[Fri Aug 20 22:20:13 1999] u/l/linjack/area/oldsword/npc/yuen.c line 135: Illegal terminator
+
+[Fri Aug 20 22:20:13 1999] u/l/linjack/area/oldsword/npc/yuen.c line 135: Text block exceeded maximum length
+
+[Fri Aug 20 22:20:13 1999] u/l/linjack/area/oldsword/npc/yuen.c line 156: Illegal terminator
+
+[Fri Aug 20 22:22:36 1999] u/l/linjack/area/oldsword/npc/yuen.c line 62: parse error
+
+[Fri Aug 20 22:22:36 1999] u/l/linjack/area/oldsword/npc/yuen.c line 114: $var illegal outside of function.
+
+[Fri Aug 20 22:22:36 1999] u/l/linjack/area/oldsword/npc/yuen.c line 135: $var illegal outside of function.
+
+[Fri Aug 20 22:22:36 1999] u/l/linjack/area/oldsword/npc/yuen.c line 135: Illegal terminator
+
+[Fri Aug 20 22:22:36 1999] u/l/linjack/area/oldsword/npc/yuen.c line 135: Text block exceeded maximum length
+
+[Fri Aug 20 22:22:36 1999] u/l/linjack/area/oldsword/npc/yuen.c line 156: Illegal terminator
+
+[Fri Aug 20 22:23:20 1999] u/l/linjack/area/oldsword/npc/yuen.c line 62: parse error
+
+[Fri Aug 20 22:23:20 1999] u/l/linjack/area/oldsword/npc/yuen.c line 114: $var illegal outside of function.
+
+[Fri Aug 20 22:23:20 1999] u/l/linjack/area/oldsword/npc/yuen.c line 135: $var illegal outside of function.
+
+[Fri Aug 20 22:23:20 1999] u/l/linjack/area/oldsword/npc/yuen.c line 135: Illegal terminator
+
+[Fri Aug 20 22:23:20 1999] u/l/linjack/area/oldsword/npc/yuen.c line 135: Text block exceeded maximum length
+
+[Fri Aug 20 22:23:20 1999] u/l/linjack/area/oldsword/npc/yuen.c line 156: Illegal terminator
+
+[Fri Aug 20 22:23:48 1999] u/l/linjack/area/oldsword/npc/yuen.c line 62: parse error
+
+[Fri Aug 20 22:23:48 1999] u/l/linjack/area/oldsword/npc/yuen.c line 114: $var illegal outside of function.
+
+[Fri Aug 20 22:23:48 1999] u/l/linjack/area/oldsword/npc/yuen.c line 135: $var illegal outside of function.
+
+[Fri Aug 20 22:23:48 1999] u/l/linjack/area/oldsword/npc/yuen.c line 135: Illegal terminator
+
+[Fri Aug 20 22:23:48 1999] u/l/linjack/area/oldsword/npc/yuen.c line 135: Text block exceeded maximum length
+
+[Fri Aug 20 22:23:48 1999] u/l/linjack/area/oldsword/npc/yuen.c line 156: Illegal terminator
+
+[Fri Aug 20 22:25:40 1999] u/l/linjack/area/oldsword/npc/yuen.c line 62: parse error
+
+[Fri Aug 20 22:25:40 1999] u/l/linjack/area/oldsword/npc/yuen.c line 114: $var illegal outside of function.
+
+[Fri Aug 20 22:25:40 1999] u/l/linjack/area/oldsword/npc/yuen.c line 135: $var illegal outside of function.
+
+[Fri Aug 20 22:25:40 1999] u/l/linjack/area/oldsword/npc/yuen.c line 135: Illegal terminator
+
+[Fri Aug 20 22:25:40 1999] u/l/linjack/area/oldsword/npc/yuen.c line 135: Text block exceeded maximum length
+
+[Fri Aug 20 22:25:40 1999] u/l/linjack/area/oldsword/npc/yuen.c line 156: Illegal terminator
+
+[Fri Aug 20 22:25:44 1999] u/l/linjack/area/oldsword/npc/yuen.c line 62: parse error
+
+[Fri Aug 20 22:25:44 1999] u/l/linjack/area/oldsword/npc/yuen.c line 114: $var illegal outside of function.
+
+[Fri Aug 20 22:25:44 1999] u/l/linjack/area/oldsword/npc/yuen.c line 135: $var illegal outside of function.
+
+[Fri Aug 20 22:25:44 1999] u/l/linjack/area/oldsword/npc/yuen.c line 135: Illegal terminator
+
+[Fri Aug 20 22:25:44 1999] u/l/linjack/area/oldsword/npc/yuen.c line 135: Text block exceeded maximum length
+
+[Fri Aug 20 22:25:44 1999] u/l/linjack/area/oldsword/npc/yuen.c line 156: Illegal terminator
+
+[Fri Aug 20 22:26:40 1999] u/l/linjack/area/oldsword/npc/yuen.c line 62: parse error
+
+[Fri Aug 20 22:26:40 1999] u/l/linjack/area/oldsword/npc/yuen.c line 116: $var illegal outside of function.
+
+[Fri Aug 20 22:26:40 1999] u/l/linjack/area/oldsword/npc/yuen.c line 137: $var illegal outside of function.
+
+[Fri Aug 20 22:26:40 1999] u/l/linjack/area/oldsword/npc/yuen.c line 137: Illegal terminator
+
+[Fri Aug 20 22:26:40 1999] u/l/linjack/area/oldsword/npc/yuen.c line 137: Text block exceeded maximum length
+
+[Fri Aug 20 22:26:40 1999] u/l/linjack/area/oldsword/npc/yuen.c line 158: Illegal terminator
+
+[Fri Aug 20 22:27:32 1999] u/l/linjack/area/oldsword/npc/yuen.c line 62: parse error
+
+[Fri Aug 20 22:27:32 1999] u/l/linjack/area/oldsword/npc/yuen.c line 116: $var illegal outside of function.
+
+[Fri Aug 20 22:27:32 1999] u/l/linjack/area/oldsword/npc/yuen.c line 137: $var illegal outside of function.
+
+[Fri Aug 20 22:27:32 1999] u/l/linjack/area/oldsword/npc/yuen.c line 137: Illegal terminator
+
+[Fri Aug 20 22:27:32 1999] u/l/linjack/area/oldsword/npc/yuen.c line 137: Text block exceeded maximum length
+
+[Fri Aug 20 22:27:32 1999] u/l/linjack/area/oldsword/npc/yuen.c line 158: Illegal terminator
+
+[Sat Aug 21 09:14:45 1999] u/l/linjack/area/oldsword/npc/yuen.c line 57: parse error
+
+[Sat Aug 21 09:14:45 1999] u/l/linjack/area/oldsword/npc/yuen.c line 114: Illegal LHS
+
+[Sat Aug 21 09:14:45 1999] u/l/linjack/area/oldsword/npc/yuen.c line 114: parse error
+
+[Sat Aug 21 09:14:45 1999] u/l/linjack/area/oldsword/npc/yuen.c line 115: Illegal LHS
+
+[Sat Aug 21 09:14:45 1999] u/l/linjack/area/oldsword/npc/yuen.c line 115: parse error
+
+[Sat Aug 21 09:14:45 1999] u/l/linjack/area/oldsword/npc/yuen.c line 155: Illegal LHS
+
+[Sun Sep  5 22:55:30 1999] u/l/linjack/detect_v2.c line 27: parse error
+
+[Sun Sep  5 22:55:30 1999] u/l/linjack/detect_v2.c line 32: Illegal LHS
+
+[Sun Sep  5 22:55:30 1999] u/l/linjack/detect_v2.c line 33: parse error
+
+[Sun Sep  5 22:55:30 1999] u/l/linjack/detect_v2.c line 33: Illegal LHS
+
+[Sun Sep  5 22:55:30 1999] u/l/linjack/detect_v2.c line 45: A reserved type name cannot be used as a function name.
+
+
+[Sun Sep  5 22:55:30 1999] u/l/linjack/detect_v2.c line 45: parse error
+
+[Sun Sep  5 22:57:07 1999] u/l/linjack/detect_v2.c line 27: parse error
+
+[Sun Sep  5 22:57:07 1999] u/l/linjack/detect_v2.c line 32: Illegal LHS
+
+[Sun Sep  5 22:57:07 1999] u/l/linjack/detect_v2.c line 33: parse error
+
+[Sun Sep  5 22:57:07 1999] u/l/linjack/detect_v2.c line 33: Illegal LHS
+
+[Sun Sep  5 22:57:07 1999] u/l/linjack/detect_v2.c line 45: A reserved type name cannot be used as a function name.
+
+
+[Sun Sep  5 22:57:07 1999] u/l/linjack/detect_v2.c line 45: parse error
+
+[Sun Sep  5 22:59:04 1999] u/l/linjack/detect_v2.c line 27: parse error
+
+[Sun Sep  5 22:59:04 1999] u/l/linjack/detect_v2.c line 31: Illegal LHS
+
+[Sun Sep  5 22:59:04 1999] u/l/linjack/detect_v2.c line 46: A reserved type name cannot be used as a function name.
+
+
+[Sun Sep  5 22:59:04 1999] u/l/linjack/detect_v2.c line 46: parse error
+
+[Sun Sep  5 22:59:04 1999] u/l/linjack/detect_v2.c line 46: Undefined variable 'ob'
+
+
+[Sun Sep  5 22:59:04 1999] u/l/linjack/detect_v2.c line 46: Illegal LHS
+
+[Tue Sep  7 16:51:23 1999] u/l/linjack/npcmaker.c line 21: Type mismatch ( string vs mixed * ) when initializing ChatBuffer
+
+[Tue Sep  7 16:51:23 1999] u/l/linjack/npcmaker.c line 60: parse error
+
+[Tue Sep  7 16:51:23 1999] u/l/linjack/npcmaker.c line 81: Illegal LHS
+
+[Tue Sep  7 16:51:23 1999] u/l/linjack/npcmaker.c line 82: Illegal LHS
+
+[Tue Sep  7 16:51:23 1999] u/l/linjack/npcmaker.c line 82: parse error
+
+[Tue Sep  7 16:51:23 1999] u/l/linjack/npcmaker.c line 83: Illegal LHS
+
+[Sun Sep 19 14:47:09 1999] u/l/linjack/area/oldsword/npc/test.c line 25: parse error
+
+[Fri Sep 24 21:34:11 1999] u/l/linjack/dragonblade.c line 76: Undefined variable 'cb'
+
+
+[Fri Sep 24 21:34:11 1999] u/l/linjack/dragonblade.c line 144: parse error
+
+[Fri Sep 24 21:34:11 1999] u/l/linjack/dragonblade.c line 174: $var illegal outside of function.
+
+[Fri Sep 24 21:34:11 1999] u/l/linjack/dragonblade.c line 174: $var illegal outside of function.
+
+[Fri Sep 24 21:34:11 1999] u/l/linjack/dragonblade.c line 182: $var illegal outside of function.
+
+[Fri Sep 24 21:34:11 1999] u/l/linjack/dragonblade.c line 182: Illegal terminator
+
+[Fri Sep 24 21:34:37 1999] u/l/linjack/dragonblade.c line 144: parse error
+
+[Fri Sep 24 21:34:37 1999] u/l/linjack/dragonblade.c line 174: $var illegal outside of function.
+
+[Fri Sep 24 21:34:37 1999] u/l/linjack/dragonblade.c line 174: $var illegal outside of function.
+
+[Fri Sep 24 21:34:37 1999] u/l/linjack/dragonblade.c line 182: $var illegal outside of function.
+
+[Fri Sep 24 21:34:37 1999] u/l/linjack/dragonblade.c line 182: Illegal terminator
+
+[Fri Sep 24 21:34:37 1999] u/l/linjack/dragonblade.c line 182: Text block exceeded maximum length
+
+[Fri Sep 24 21:35:19 1999] u/l/linjack/dragonblade.c line 185: Undefined variable 'damage'
+
+
+[Fri Sep 24 21:35:19 1999] u/l/linjack/dragonblade.c line 211: parse error
+
+[Fri Sep 24 21:35:35 1999] u/l/linjack/dragonblade.c line 211: parse error
+
+[Sun Sep 26 01:28:51 1999] u/l/linjack/ice-ground.c line 141: Bad assignment ( string * vs string ).
+
+[Sun Sep 26 01:28:51 1999] u/l/linjack/ice-ground.c line 142: Invalid argument types to '+' ( string vs string * )
+
+[Sun Sep 26 01:28:51 1999] u/l/linjack/ice-ground.c line 143: == always false because of incompatible types ( string * vs string ).
+
+[Sun Sep 26 01:28:51 1999] u/l/linjack/ice-ground.c line 144: == always false because of incompatible types ( string * vs string ).
+
+[Sun Sep 26 01:28:51 1999] u/l/linjack/ice-ground.c line 145: == always false because of incompatible types ( string * vs string ).
+
+[Sun Sep 26 01:28:51 1999] u/l/linjack/ice-ground.c line 146: == always false because of incompatible types ( string * vs string ).
+
+[Sun Sep 26 01:35:49 1999] u/l/linjack/ice-ground.c line 143: == always false because of incompatible types ( string * vs string ).
+
+[Sun Sep 26 01:35:49 1999] u/l/linjack/ice-ground.c line 144: == always false because of incompatible types ( string * vs string ).
+
+[Sun Sep 26 01:35:49 1999] u/l/linjack/ice-ground.c line 145: == always false because of incompatible types ( string * vs string ).
+
+[Sun Sep 26 01:35:49 1999] u/l/linjack/ice-ground.c line 146: == always false because of incompatible types ( string * vs string ).
+
+[Sun Sep 26 01:35:49 1999] u/l/linjack/ice-ground.c line 242: == always false because of incompatible types ( string * vs string ).
+
+[Sun Sep 26 01:35:49 1999] u/l/linjack/ice-ground.c line 243: == always false because of incompatible types ( string * vs string ).
+
+[Sun Sep 26 23:22:25 1999] u/l/linjack/ice-sky.c line 550: Bad assignment ( string * vs string ).
+
+[Sun Sep 26 23:22:25 1999] u/l/linjack/ice-sky.c line 551: Invalid argument types to '+' ( string vs string * )
+
+[Sun Sep 26 23:22:25 1999] u/l/linjack/ice-sky.c line 552: == always false because of incompatible types ( string * vs string ).
+
+[Sun Sep 26 23:22:25 1999] u/l/linjack/ice-sky.c line 553: == always false because of incompatible types ( string * vs string ).
+
+[Sun Sep 26 23:22:25 1999] u/l/linjack/ice-sky.c line 554: == always false because of incompatible types ( string * vs string ).
+
+[Sun Sep 26 23:22:25 1999] u/l/linjack/ice-sky.c line 555: == always false because of incompatible types ( string * vs string ).
+
+[Wed Dec 29 22:49:17 1999] u/l/linjack/tempman.c line 91: Undefined variable 'one'
+
+
+[Wed Dec 29 22:49:17 1999] u/l/linjack/tempman.c line 91: parse error
+
+[Wed Dec 29 22:49:17 1999] u/l/linjack/tempman.c line 104: Undefined variable 'goto'
+
+
+[Wed Dec 29 22:49:17 1999] u/l/linjack/tempman.c line 104: parse error
+
+[Sun Jan  2 18:21:08 2000] u/l/linjack/superpill.c line 46: Undefined variable 'env'
+
+
+[Sun Jan  2 21:30:56 2000] u/l/linjack/tempman2.c line 4: parse error
+
+[Sun Jan  2 21:30:56 2000] u/l/linjack/tempman2.c line 92: Illegal LHS
+
+[Sun Jan  2 21:30:56 2000] u/l/linjack/tempman2.c line 92: Type mismatch ( string * vs int ) when initializing file
+
+[Sun Jan  2 21:30:56 2000] u/l/linjack/tempman2.c line 93: parse error
+
+[Sun Feb  6 15:36:39 2000] u/l/linjack/area/emperor/forest1.c line 20: End of file in text block
+
+[Sun Feb  6 15:36:39 2000] u/l/linjack/area/emperor/forest1.c line 20: parse error
+
+[Sun Feb  6 15:36:39 2000] u/l/linjack/area/emperor/forest1.c line 25: parse error
+
+[Sun Feb  6 15:36:39 2000] u/l/linjack/area/emperor/forest1.c line 35: Illegal LHS
+
+[Sun Feb  6 15:36:39 2000] u/l/linjack/area/emperor/forest1.c line 52: End of file in text block
+
+[Sun Feb  6 15:36:39 2000] u/l/linjack/area/emperor/forest1.c line 72: End of file in string
+
+[Sun Feb  6 15:37:33 2000] u/l/linjack/area/emperor/forest1.c line 19: End of file in text block
+
+[Sun Feb  6 15:37:33 2000] u/l/linjack/area/emperor/forest1.c line 19: Undefined function up
+
+[Sun Feb  6 15:37:33 2000] u/l/linjack/area/emperor/forest1.c line 19: parse error
+
+[Sun Mar 26 09:40:02 2000] u/l/linjack/skill1/regs/garlic.c line 17: parse error
+
+[Mon Apr 17 20:48:26 2000] u/l/linjack/area/oldsword/npc/loo.c line 8: Warning: Unknown \ escape.
+
+[Tue Jun 20 22:44:54 2000] u/l/linjack/area/oldsword/npc/yuen.c line 98: Warning: Unknown \ escape. before ßªk.");
+
+[Sun Jul 16 01:29:08 2000] u/l/linjack/area/oldsword/npc/yuen.c line 98: Warning: Unknown \ escape. before ßªk.");
+
+[Tue Jul 18 23:48:21 2000] u/l/linjack/shelftest.c line 69: Undefined function do_put before ;
+
+[Tue Jul 18 23:48:21 2000] u/l/linjack/shelftest.c line 69: Type of returned value doesn't match function return type ( unknown vs int ) before the end of line
+
+[Tue Jul 18 23:48:21 2000] u/l/linjack/shelftest.c line 79: Type of returned value doesn't match function return type ( unknown vs int ) before the end of line
+
+[Tue Jul 18 23:48:21 2000] u/l/linjack/shelftest.c line 86: Undefined function do_xput before ;
+
+[Tue Jul 18 23:48:21 2000] u/l/linjack/shelftest.c line 93: Type of returned value doesn't match function return type ( unknown vs int ) before the end of line
+
+[Tue Jul 18 23:48:21 2000] u/l/linjack/shelftest.c line 129: Redeclaration of function do_xput. before the end of line
+
+[Tue Jul 18 23:53:45 2000] u/l/linjack/shelftest.c line 71: Undefined function do_put before ;
+
+[Tue Jul 18 23:53:45 2000] u/l/linjack/shelftest.c line 71: Type of returned value doesn't match function return type ( unknown vs int ) before the end of line
+
+[Tue Jul 18 23:53:45 2000] u/l/linjack/shelftest.c line 81: Type of returned value doesn't match function return type ( unknown vs int ) before the end of line
+
+[Wed Jul 19 13:24:02 2000] u/l/linjack/workroom.c line 28: Illegal character constant before bjects", ([ "/u/l/li
+
+[Wed Jul 19 13:24:02 2000] u/l/linjack/workroom.c line 28: parse error before ", ([ "/u/l/linjack/
+
+[Wed Jul 19 13:24:02 2000] u/l/linjack/workroom.c line 68: Illegal terminator before ­Ó®e¾¹¡C\n");
+
+[Wed Jul 19 13:34:09 2000] u/l/linjack/workroom.c line 103: Number of arguments disagrees with previous definition. before the end of line
+
+[Wed Jul 19 13:37:43 2000] u/l/linjack/workroom.c line 104: Number of arguments disagrees with previous definition. before the end of line
+
+[Wed Jul 19 13:41:47 2000] u/l/linjack/workroom.c line 104: Number of arguments disagrees with previous definition. before the end of line
+
+[Wed Jul 19 14:33:10 2000] u/l/linjack/workroom.c line 46: Undefined variable 'me' before this_player();
+
+[Wed Jul 19 14:35:44 2000] u/l/linjack/superpill.c line 10: Warning: Unknown \ escape. before \²`«pªº½m¤¦³N¤h, ±Ò¤
+
+[Wed Jul 19 14:35:44 2000] u/l/linjack/superpill.c line 10: Warning: Unknown \ escape. before `«pªº½m¤¦³N¤h, ±Ò¤d¤
+
+[Wed Jul 19 21:07:56 2000] u/l/linjack/superpill.c line 10: Warning: Unknown \ escape. before \²`«pªº½m¤¦³N¤h, ±Ò¤
+
+[Wed Jul 19 21:07:56 2000] u/l/linjack/superpill.c line 10: Warning: Unknown \ escape. before `«pªº½m¤¦³N¤h, ±Ò¤d¤
+
+[Wed Jul 19 21:49:09 2000] u/l/linjack/superpill.c line 10: Warning: Unknown \ escape. before \²`«pªº½m¤¦³N¤h, ±Ò¤
+
+[Wed Jul 19 21:49:09 2000] u/l/linjack/superpill.c line 10: Warning: Unknown \ escape. before `«pªº½m¤¦³N¤h, ±Ò¤d¤
+
+[Wed Jul 19 22:31:47 2000] u/l/linjack/superpill.c line 10: Warning: Unknown \ escape. before \²`«pªº½m¤¦³N¤h, ±Ò¤
+
+[Wed Jul 19 22:31:47 2000] u/l/linjack/superpill.c line 10: Warning: Unknown \ escape. before `«pªº½m¤¦³N¤h, ±Ò¤d¤
+
+[Thu Jul 20 15:01:31 2000] u/l/linjack/superpill.c line 10: Warning: Unknown \ escape. before \²`«pªº½m¤¦³N¤h, ±Ò¤
+
+[Thu Jul 20 15:01:31 2000] u/l/linjack/superpill.c line 10: Warning: Unknown \ escape. before `«pªº½m¤¦³N¤h, ±Ò¤d¤
+
+[Fri Jul 21 20:35:52 2000] u/l/linjack/superpill.c line 10: Warning: Unknown \ escape. before \²`«pªº½m¤¦³N¤h, ±Ò¤
+
+[Fri Jul 21 20:35:52 2000] u/l/linjack/superpill.c line 10: Warning: Unknown \ escape. before `«pªº½m¤¦³N¤h, ±Ò¤d¤
+
+[Sat Jul 22 22:51:08 2000] u/l/linjack/superpill.c line 10: Warning: Unknown \ escape. before \²`«pªº½m¤¦³N¤h, ±Ò¤
+
+[Sat Jul 22 22:51:08 2000] u/l/linjack/superpill.c line 10: Warning: Unknown \ escape. before `«pªº½m¤¦³N¤h, ±Ò¤d¤
+
+[Mon Jul 24 16:28:53 2000] u/l/linjack/superpill.c line 10: Warning: Unknown \ escape. before \²`«pªº½m¤¦³N¤h, ±Ò¤
+
+[Mon Jul 24 16:28:53 2000] u/l/linjack/superpill.c line 10: Warning: Unknown \ escape. before `«pªº½m¤¦³N¤h, ±Ò¤d¤
+
+[Wed Jul 26 22:28:52 2000] u/l/linjack/superpill.c line 10: Warning: Unknown \ escape. before \²`«pªº½m¤¦³N¤h, ±Ò¤
+
+[Wed Jul 26 22:28:52 2000] u/l/linjack/superpill.c line 10: Warning: Unknown \ escape. before `«pªº½m¤¦³N¤h, ±Ò¤d¤
+
+[Thu Jul 27 14:52:42 2000] u/l/linjack/area/oldsword/npc/loo.c line 8: Warning: Unknown \ escape. before ~«e, ¥L´¿¸g©M\n"
+
+[Thu Jul 27 15:15:13 2000] u/l/linjack/area/oldsword/npc/eq/dragonbelt.c line 12: Warning: Unknown \ escape. before Î.\n");
+
+[Thu Jul 27 15:15:25 2000] u/l/linjack/area/oldsword/npc/eq/dragonboots.c line 13: Warning: Unknown \ escape. before Î??\n");
+
+[Thu Jul 27 15:18:05 2000] u/l/linjack/area/oldsword/npc/yuen.c line 98: Warning: Unknown \ escape. before ßªk.");
+
+[Wed Aug  2 14:47:38 2000] u/l/linjack/area/oldsword/npc/loo.c line 8: Warning: Unknown \ escape. before ~«e, ¥L´¿¸g©M\n"
+
+[Thu Aug  3 19:00:10 2000] u/l/linjack/area/oldsword/npc/yuen.c line 98: Warning: Unknown \ escape. before ßªk.");
+
+[Sat Aug  5 19:13:28 2000] u/l/linjack/area/oldsword/npc/yuen.c line 98: Warning: Unknown \ escape. before ßªk.");
+
+[Mon Jul 30 22:04:30 2001] u/l/linjack/area/oldsword/npc/eq/dragonbelt.c line 12: Warning: Unknown \ escape. before Î.\n");
+
+[Mon Jul 30 22:04:38 2001] u/l/linjack/area/oldsword/npc/eq/dragonboots.c line 13: Warning: Unknown \ escape. before Î??\n");
+
+[Mon Jul 30 22:13:49 2001] u/l/linjack/area/oldsword/npc/loo.c line 8: Warning: Unknown \ escape. before ~«e, ¥L´¿¸g©M\n"
+
+[Mon Jul 30 22:14:03 2001] u/l/linjack/area/oldsword/npc/yuen.c line 98: Warning: Unknown \ escape. before ßªk.");
+
+[Fri Aug  6 02:10:46 2004] u/l/linjack/1.c line 90: Too many local variables before the end of line
+
+[Fri Aug  6 02:10:46 2004] u/l/linjack/1.c line 91: Too many local variables before the end of line
+
+[Fri Aug  6 02:10:46 2004] u/l/linjack/1.c line 92: Too many local variables before the end of line
+
+[Fri Aug  6 02:10:46 2004] u/l/linjack/1.c line 93: Too many local variables before targetkar,targetexp,
+
+[Fri Aug  6 02:10:46 2004] u/l/linjack/1.c line 93: Too many local variables before targetexp,targeteffk
+
+[Fri Aug  6 02:10:46 2004] u/l/linjack/1.c line 93: Too many local variables before targeteffkee;
+
+[Sat Oct  9 21:26:36 2004] u/l/linjack/detect_v1.c line 28: Too many local variables before the end of line
+
+[Sat Oct  9 21:26:36 2004] u/l/linjack/detect_v1.c line 29: Too many local variables before name;
+
+[Sat Oct  9 21:26:36 2004] u/l/linjack/detect_v1.c line 29: Too many local variables before the end of line
+
+[Sat Oct  9 21:26:36 2004] u/l/linjack/detect_v1.c line 42: Undefined variable 'name' before  ob->query("name"); 
+
+[Sat Oct  9 21:26:36 2004] u/l/linjack/detect_v1.c line 43: Undefined variable 'skill' before  ob->query("attack_s
+
+[Sat Oct  9 21:26:36 2004] u/l/linjack/detect_v1.c line 44: Undefined variable 'skill' before ;
+
+[Sat Oct  9 21:26:40 2004] u/l/linjack/detect_v1.c line 28: Too many local variables before the end of line
+
+[Sat Oct  9 21:26:40 2004] u/l/linjack/detect_v1.c line 29: Too many local variables before name;
+
+[Sat Oct  9 21:26:40 2004] u/l/linjack/detect_v1.c line 29: Too many local variables before the end of line
+
+[Sat Oct  9 21:26:40 2004] u/l/linjack/detect_v1.c line 42: Undefined variable 'name' before  ob->query("name"); 
+
+[Sat Oct  9 21:26:40 2004] u/l/linjack/detect_v1.c line 43: Undefined variable 'skill' before  ob->query("attack_s
+
+[Sat Oct  9 21:26:40 2004] u/l/linjack/detect_v1.c line 44: Undefined variable 'skill' before ;
+
+[Thu Nov 25 12:54:17 2004] u/l/linjack/detect_v1.c line 28: Too many local variables before the end of line
+
+[Thu Nov 25 12:54:17 2004] u/l/linjack/detect_v1.c line 29: Too many local variables before name;
+
+[Thu Nov 25 12:54:17 2004] u/l/linjack/detect_v1.c line 29: Too many local variables before the end of line
+
+[Thu Nov 25 12:54:17 2004] u/l/linjack/detect_v1.c line 42: Undefined variable 'name' before  ob->query("name"); 
+
+[Thu Nov 25 12:54:17 2004] u/l/linjack/detect_v1.c line 43: Undefined variable 'skill' before  ob->query("attack_s
+
+[Thu Nov 25 12:54:17 2004] u/l/linjack/detect_v1.c line 44: Undefined variable 'skill' before ;
+

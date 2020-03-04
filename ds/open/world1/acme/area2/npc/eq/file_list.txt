@@ -1,0 +1,12 @@
+¥Ø¿ý¡R/open/world1/acme/area2/npc/eq/
+armor.c             ¦á¤s¶Àª÷¾Ô¥Ò        boots.c             ÄÆ³·¹u            
+boots2.c            ³Â¾c                cloak.c             µw¥Ö¥Ò¤æ½´        
+cloth.c             ¶Â³T                finger.c            ªê§Î§Ù            
+ghostcloak.c        ­ß¤ý¤Ñ¤æ            ghostmask.c         ­ß¤ý°­­±          
+gloves.c            ³D¥Ö¤â®M            hands.c             ¬P¶³Å@µÃ          
+helmet.c            Ü@ÄnÀY²¯            mask.c              ­ß¤ý°­­±          
+neck.c              ºÑ¥É¶µÁå            shield.c            °­ÀY¬Þ            
+shield2.c           §¢¤ô»È¬Þ            surcoat.c           ¤Ñ§¯©Ü­·          
+surcoat2.c          °®¤Ñ©Ü­·            waist.c             ¤H¥Ö¸y±a          
+waist2.c            §I¿A¸y±a            wrists.c            ©[¦aÅ@µÃ          
+

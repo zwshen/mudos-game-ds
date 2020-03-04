@@ -1,0 +1,16 @@
+
+	ceil(3)			MudOS v21c2		(5 Sep 1994)
+
+	嘿:
+		ceil() - р疊翴计秈Θ程俱计.
+	粂猭:
+		float ceil( float f );
+
+		疊翴计 ceil( 疊翴计 f );
+	ノ猭:
+		肚程钡 f  τ单┪ f  俱计疊翴计, 
+		 f  计常礚兵ン秈Θ俱计.
+	把σ:
+		floor(3), to_int(3), to_float(3)
+	陆亩:
+		Spock @ FF	96.Oct.24.		(printed 3/16/95)

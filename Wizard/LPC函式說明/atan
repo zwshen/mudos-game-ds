@@ -1,0 +1,15 @@
+
+	atan(3)			LP MudOSv21c7		(7 Jul 1996)
+
+	ㄧ计嘿:
+		atan() - 肚疊翴计タち (tangent).
+	ㄧ计粂猭:
+		float atan( float f );
+
+		疊翴计 atan( 疊翴计 f );
+	ㄧ计ノ猭:
+                肚把计 f  はタち, f 虫琌褃 (radians).
+	把σㄧ计:
+		acos(3), asin(3), cos(3), sin(3), tan(3)
+	も陆亩:
+		Phoebus@ZH	1997.Aug.15.		(Writen 5/23/97)

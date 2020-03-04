@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["int":2,"talk_point":3,"con":2,"Merits":(["sou":0,"wit":0,"bar":0,"tec":0,"bio":0,]),"str":2,"DS_DATA_VERSION":19991107,"mp":60,"max_hp":80,"age":14,"gender":"¨k©Ê","actions":,"name":"ªü«¢«¢","cure_count":3,"attitude":"peaceful","id":"peter","evil":-1,"unit":"¦ì","channels":({"chat","rumor","tchat",}),"race":"human","addition_shield":10,"level":1,"ap":60,"heart_beat_rate":6,"birthday":1140150365,"addition_damage":10,"addition_armor":10,"max_ap":60,"volume":7,"hp":80,"supply_point":6,"max_mp":60,"startroom":"/open/world1/tmr/area/hotel","exp":777,"last_location":"/open/world1/tmr/area/street4","guild_gifts":({5,5,5,5,}),"default_actions":,"mud_age":42,"newbie":1,"dex":2,])
+autoload ({})

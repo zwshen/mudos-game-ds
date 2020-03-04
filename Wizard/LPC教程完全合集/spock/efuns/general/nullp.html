@@ -1,0 +1,46 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=bg2312">
+   <META NAME="Author" CONTENT="Spock">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.01 [en] (Win95; I) [Netscape]">
+   <TITLE>MudOS v21c2 參考文件 - efuns - general - nullp</TITLE>
+</HEAD>
+<BODY TEXT="#CCFFFF" BGCOLOR="#000000" LINK="#33FF33" VLINK="#FF0000" ALINK="#33CCFF" BACKGROUND="../../../image/ff/fftitleback.jpg" NOSAVE>
+
+<CENTER><FONT COLOR="#FF99FF"><FONT SIZE=+3>nullp(3)　 MudOS v21c2　 (5
+Sep 1994)</FONT></FONT></CENTER>
+
+<HR WIDTH="100%">
+<BR><FONT COLOR="#FFFFCC">　名稱:</FONT>
+<UL>　 nullp() - 判斷指定的一個變量是否為空值 (null).</UL>
+<FONT COLOR="#FFFFCC">　語法:</FONT>
+<UL>　 int nullp( mixed arg );
+
+<P>　 整數 nullp( 混合 arg );</UL>
+<FONT COLOR="#FFFFCC">　用法:</FONT>
+<UL>　 如果 arg 是空值就返回 1. arg 在以下三種狀況視為空值:
+
+<P>　 1. arg 還未初始化 (initialize).
+
+<P>　 2. arg 指向一個已被摧毀的物件.
+
+<P>　 3. arg 是一個函數的參數, 對應到一個實際上已經遺失的參數.</UL>
+<FONT COLOR="#FFFFCC">　參考:</FONT>
+<UL>　 <A HREF="../mappings/mapp.html">mapp(3)</A>, <A HREF="../strings/stringp.html">stringp(3)</A>,
+<A HREF="../arrays/pointerp.html">pointerp(3)</A>, <A HREF="../objects/objectp.html">objectp(3)</A>,
+<A HREF="../numbers/intp.html">intp(3)</A>, <A HREF="../buffers/bufferp.html">bufferp(3)</A>,
+<A HREF="../floats/floatp.html">floatp(3)</A>, <A HREF="../functions/functionp.html">functionp(3)</A>,
+<A HREF="undefinedp.html">undefinedp(3)</A>, <A HREF="../system/errorp.html">errorp(3)</A></UL>
+<FONT COLOR="#FFFFCC">　翻譯:</FONT>
+<UL>　 Spock @ FF 97.Apr.24.　 (printed 3/16/95)</UL>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+<CENTER><A HREF="../general.html">回到上一頁</A></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+</BODY>
+</HTML>

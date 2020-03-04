@@ -1,0 +1,11 @@
+¥Ø¿ý¡R/open/world1/tmr/crush_bone/npc/obj/
+army_helmet.c       ­x¹ÎÀY²¯            bag.c               µh¤ß¸H°©³U        
+blood.c             ¸H°©¦å¶ô            cb_axe.c            ¸H°©              
+cb_boots.c          ¸H°©¹ë»É¹u          cb_cloak.c          ¸H°©¬Ó³T          
+cb_necklace.c       ¸H°©¹ë¶µÁå          envoy_earring.c     ¯S¨Ï«üÀô          
+ht_pill.c           °§´÷¤¦              huge-axe.c          ¥¨©ò              
+note.c              ¸H°©¤T©ò¯¦Äy        orc_belt.c          ¥bÃ~¤H¸y±a        
+orc_blood.c         ¥bÃ~¤H¦å²G          orc_foot.c          ¥bÃ~¤H¸}´x        
+orc_rib.c           ¥bÃ~¤H¦Ø°©          orc_shin_bone.c     ¥bÃ~¤H×H°©        
+orc_skull.c         ¥bÃ~¤HÀYÆ`          war_plan.c          ¸H°©¹ë§@¾Ô­p¹º    
+wristlet.c          ­x¹ÎÅ@µÃ            

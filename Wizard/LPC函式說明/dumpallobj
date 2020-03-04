@@ -1,0 +1,18 @@
+
+	dumpallobj(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	ㄧ计嘿:
+		dumpallobj() - 厨┮Τ更ぇンㄇ参璸戈.
+	ㄧ计粂猭:
+		void dumpallobj( string | void );
+
+		礚肚 dumpallobj( ﹃ ┪ 礚把计 );
+	ㄧ计ノ猭:
+		硂ㄧ计穦┮Τ竒更ぇン. 狦⊿Τ﹚
+		把计, 硂ㄇ戈癟穦渡 /OBJ_DUMP  硂郎柑. 狦
+		Τ﹚把计, 玥把计碞琌﹚璶块郎嘿.
+	把σㄧ计:
+		mud_status(3), debug_info(3)
+
+	も陆亩:	Phoebus@ZH	97.Feb.04.		(Writen 5/23/97)
+

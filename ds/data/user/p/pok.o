@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions ([])
+dbase (["max_mp":60,"DS_DATA_VERSION":19991107,"help":"newbie/","max_hp":90,"disable_type":" <毫無呼吸>","race":"titan","guild_rank":"無家可歸的流浪漢","addition_armor":10,"default_actions":,"channels":({"chat","rumor","tchat",}),"mp":60,"bank":(["past":0,]),"birthday":1188371002,"id":"pok","MKS":4,"addition_damage":10,"addition_shield":10,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"max_ap":70,"gender":"男性","ap":70,"name":"貝爾托","last_location":"/open/world1/tmr/area/street3","startroom":"/open/world1/tmr/area/hotel","popularity":0,"attitude":"peaceful","heart_modify":0,"age":14,"bellicosity":0,"heart_beat_rate":6,"mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove",}),"war_score":1,"unit":"位","war_art":0,"talk_point":11,"hp":90,"volume":7,"guild_gifts":({5,5,5,5,}),"wound":(["left_leg":0,"right_leg":0,"right_arm":0,"head":0,"left_arm":0,"body":0,]),"newbie":1,"exp":222,"dex":2,"int":2,"mud_age":1493,"con":2,"str":2,"level":2,"cure_count":18,"evil":11,"combat_exp":0,"actions":,"supply_point":68,])
+skills (["blade":0,"block":0,"dagger":1,"staff":1,"unarmed":3,"hammer":1,"whip":1,"combat":4,"dodge":2,"fork":0,"parry":0,"axe":1,"sword":0,])
+learned (["dodge":2,"parry":2,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

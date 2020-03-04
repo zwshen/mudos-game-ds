@@ -1,0 +1,5 @@
+#/obj/user.c
+dbase (["dex":2,"int":2,"startroom":"/open/world1/tmr/area/hotel","con":2,"str":2,"newbie":1,"volume":7,"max_mp":60,"combat_exp":0,"mud_age":1301,"talk_point":8,"default_actions":,"DS_DATA_VERSION":19991107,"addition_shield":10,"gender":"男性","mp":60,"addition_armor":10,"name":"拿蔥的大嬸","heart_beat_rate":6,"evil":-1,"max_ap":60,"Merits":(["tec":0,"sou":0,"bio":0,"wit":0,"bar":0,]),"guild_gifts":({5,5,5,5,}),"id":"opel","supply_point":60,"last_location":"/open/world2/anfernee/start/prayroom","heart_modify":0,"channels":({"chat","rumor","tchat",}),"race":"human","bellicosity":0,"addition_damage":10,"unit":"位","level":1,"age":14,"disable_type":" <毫無呼吸>","hp":80,"max_hp":80,"birthday":1125124675,"wound":(["body":0,"head":0,"left_arm":0,"right_arm":0,"left_leg":0,"right_leg":0,]),"ap":60,"cure_count":5,"actions":,"attitude":"peaceful","exp":700,])
+skills (["combat":1,])
+learned (["combat":0,])
+autoload ({})

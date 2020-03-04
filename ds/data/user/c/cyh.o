@@ -1,0 +1,7 @@
+#/obj/user.c
+conditions ([])
+dbase (["max_hp":80,"addition_shield":10,"addition_armor":10,"mp":110,"talk_point":8,"addition_damage":10,"max_ap":60,"ap":60,"cure_count":5,"board_last_read":(["tmr_hotel_b":1149956029,]),"newbie":1,"exp":777,"volume":7,"dex":2,"supply_point":60,"int":2,"hp":80,"con":2,"id":"cyh","str":2,"level":1,"attitude":"peaceful","DS_DATA_VERSION":19991107,"channels":({"chat","rumor","tchat",}),"Merits":(["bar":0,"bio":0,"tec":0,"sou":0,"wit":0,]),"heart_modify":0,"evil":-1,"birthday":1184480951,"guild_gifts":({5,5,5,5,}),"gender":"男性","name":"宅男之光","startroom":"/open/world1/tmr/area/hotel","race":"celestial","default_actions":,"age":14,"last_location":"/open/world1/tmr/area/street4","wound":(["right_arm":0,"right_leg":0,"body":0,"left_arm":0,"head":0,"left_leg":0,]),"mud_age":1854,"unit":"位","actions":,"max_mp":110,"heart_beat_rate":6,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

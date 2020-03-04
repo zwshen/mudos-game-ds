@@ -1,0 +1,9 @@
+#/obj/user.c
+ghost 1
+dbase (["war_score":11,"volume":7,"evil":11,"gender":"男性","bellicosity":0,"war_art":0,"heart_modify":0,"last_location":"/open/world2/anfernee/start/prayroom","actions":,"name":"哈雷","channels":({"chat","rumor","tchat",}),"age":14,"addition_damage":10,"birthday":1174479071,"bank":(["past":5,]),"default_actions":,"race":"celestial","help":"newbie/","popularity":0,"max_mp":110,"startroom":"/open/world1/tmr/area/hotel","max_hp":100,"heart_beat_rate":6,"mp":110,"max_ap":75,"cure_count":19,"addition_shield":10,"ap":75,"attitude":"peaceful","mob_record":({"/open/world1/wilfred/sand/npc/npc4","/open/world1/wilfred/sand/npc/npc4","/open/world1/wilfred/sand/npc/npc4","/open/world1/wilfred/sand/npc/npc4","/open/world1/tmr/area/npc/frog","/open/world1/tmr/area/npc/frog","/open/world1/tmr/area/npc/frog","/open/world1/tmr/area/npc/frog","/open/world1/acme/area/npc/dog","/open/world1/acme/area/npc/dog","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"mud_age":3303,"newbie":1,"exp":1645,"combat_exp":0,"talk_point":8,"dex":2,"int":2,"id":"hola","supply_point":60,"hp":100,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"con":3,"str":3,"disable_type":" <毫無呼吸>","wound":(["head":0,"left_leg":0,"right_leg":0,"left_arm":0,"right_arm":0,"body":0,]),"addition_armor":10,"level":1,"MKS":15,"unit":"位","DS_DATA_VERSION":19991107,"guild_gifts":({5,5,5,5,}),])
+skills (["combat":6,"unarmed":4,"parry":0,"dodge":2,])
+learned (["unarmed":5,"parry":1,"dodge":2,])
+alias (["3":"sac corpse","2":"get all from corpse","re":"recall",])
+autoload ({})
+toDoList ([])
+solved ({})

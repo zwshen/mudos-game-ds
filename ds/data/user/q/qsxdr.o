@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["actions":,"cure_count":14,"ap":60,"gender":"男性","id":"qsxdr","name":"亞特蘭","addition_shield":10,"age":14,"heart_beat_rate":6,"addition_armor":10,"guild_gifts":({5,5,5,5,}),"evil":-1,"hp":80,"exp":777,"dex":2,"int":2,"con":2,"str":2,"addition_damage":10,"max_hp":80,"DS_DATA_VERSION":19991107,"wound":(["head":0,"body":0,"right_leg":0,"left_leg":0,"right_arm":0,"left_arm":0,]),"attitude":"peaceful","volume":7,"max_mp":60,"quest":(["not_newbie":1,]),"default_actions":,"channels":({"chat","rumor","tchat",}),"level":1,"race":"human","mp":60,"birthday":1114613437,"talk_point":8,"Merits":(["bar":0,"sou":0,"tec":0,"bio":0,"wit":0,]),"max_ap":60,"mud_age":3543,"unit":"位","supply_point":60,"startroom":"/open/world1/tmr/area/school/school1","heart_modify":0,"last_location":"/open/world1/wilfred/magic-card/room2",])
+autoload ({})

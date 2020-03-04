@@ -1,0 +1,17 @@
+
+	stringp(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	ㄧ计嘿:
+		stringp() - 耞跑计琌﹃篈 (string).
+	ㄧ计粂猭:
+		int stringp( mixed arg );
+
+		俱计 stringp( 睼 arg );
+	ㄧ计ノ猭:
+		狦 arg  琌﹃玥肚 1.
+	把σㄧ计:
+		mapp(3), pointerp(3), objectp(3), intp(3), bufferp(3),
+		floatp(3) functionp(3), nullp(3), undefinedp(3), 
+		errorp(3)
+	も陆亩:
+		Phoebus@ZH	97.Jul.23.		(Writen 5/23/97)

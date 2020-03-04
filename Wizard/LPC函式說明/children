@@ -1,0 +1,25 @@
+
+	children(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		children() - 傳回一個指定物件 (object) 所復制出來的
+			     物件陣列.
+	函數語法:
+		object * children( string name );
+
+		物件 *children( 字串 name );
+	函數用法:
+		這個函式傳回一個物件陣列 (array), 物件群則是檔案名稱
+		為 name 的物件所復制出來的. 一個使用的□例是找出所有
+		從使用者物件 (user object)  復制出來的物件:
+
+			object *list;
+
+			list = children("/obj/user");
+
+		這樣可以讓您找出所有的使用者 (包括已經斷線的使用者),  而
+		users() 只會回報還能互動的 (interactive) 使用者.
+	參考函數:
+		deep_inherit_list(3), inherit_list(3), objects(3)
+	手冊翻譯:
+		Phoebus@ZH	97.Jan.26.		(Writen 5/23/97)

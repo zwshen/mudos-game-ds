@@ -1,0 +1,18 @@
+
+	get_config(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		get_config() - 詢問一些驅動程式 (driver) 的系統設定值
+			       (config settings)
+	函數語法:
+		string | int get_config( int );
+
+		字串 或 整數 get_config( 整數 );
+	函數用法:
+		這個超越函式 (efun) 用來詢問一些驅動程式的系統設定值.
+		請參考 runtime_config.h 以了解目前有哪些可以使用的選
+		擇項目.
+	參考函數:
+		/include/runtime_config.h
+	手冊翻譯:
+		Phoebus@ZH	97.Feb.14.		(Writen 5/23/97)

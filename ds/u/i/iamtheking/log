@@ -1,0 +1,118 @@
+[Mon Aug 18 11:51:20 2003] u/i/iamtheking/wp/blade.c line 91: Reserved type name unexpected. before (object me, object v
+
+[Mon Aug 18 11:51:20 2003] u/i/iamtheking/wp/blade.c line 91: parse error before (object me, object v
+
+[Mon Aug 18 11:51:20 2003] u/i/iamtheking/wp/blade.c line 93: Illegal LHS before the end of line
+
+[Mon Aug 18 11:51:20 2003] u/i/iamtheking/wp/blade.c line 94: Reserved type name unexpected. before ;
+
+[Mon Aug 18 11:51:20 2003] u/i/iamtheking/wp/blade.c line 94: parse error before ;
+
+[Mon Aug 18 11:51:20 2003] u/i/iamtheking/wp/blade.c line 102: Undefined variable 'me' before query_str()*3+random
+
+[Mon Aug 18 11:51:24 2003] u/i/iamtheking/wp/blade.c line 91: Reserved type name unexpected. before (object me, object v
+
+[Mon Aug 18 11:51:24 2003] u/i/iamtheking/wp/blade.c line 91: parse error before (object me, object v
+
+[Mon Aug 18 11:51:24 2003] u/i/iamtheking/wp/blade.c line 93: Illegal LHS before the end of line
+
+[Mon Aug 18 11:51:24 2003] u/i/iamtheking/wp/blade.c line 94: Reserved type name unexpected. before ;
+
+[Mon Aug 18 11:51:24 2003] u/i/iamtheking/wp/blade.c line 94: parse error before ;
+
+[Mon Aug 18 11:51:24 2003] u/i/iamtheking/wp/blade.c line 102: Undefined variable 'me' before query_str()*3+random
+
+[Mon Aug 18 11:52:02 2003] u/i/iamtheking/wp/blade.c line 91: Reserved type name unexpected. before (object me, object v
+
+[Mon Aug 18 11:52:02 2003] u/i/iamtheking/wp/blade.c line 91: parse error before (object me, object v
+
+[Mon Aug 18 11:52:02 2003] u/i/iamtheking/wp/blade.c line 93: Illegal LHS before the end of line
+
+[Mon Aug 18 11:52:02 2003] u/i/iamtheking/wp/blade.c line 94: Reserved type name unexpected. before ;
+
+[Mon Aug 18 11:52:02 2003] u/i/iamtheking/wp/blade.c line 94: parse error before ;
+
+[Mon Aug 18 11:52:02 2003] u/i/iamtheking/wp/blade.c line 102: Undefined variable 'me' before query_str()*3+random
+
+[Mon Aug 18 11:52:56 2003] u/i/iamtheking/wp/blade.c line 91: Reserved type name unexpected. before (object me, object v
+
+[Mon Aug 18 11:52:56 2003] u/i/iamtheking/wp/blade.c line 91: parse error before (object me, object v
+
+[Mon Aug 18 11:52:56 2003] u/i/iamtheking/wp/blade.c line 93: Illegal LHS before the end of line
+
+[Mon Aug 18 11:52:56 2003] u/i/iamtheking/wp/blade.c line 94: Reserved type name unexpected. before ;
+
+[Mon Aug 18 11:52:56 2003] u/i/iamtheking/wp/blade.c line 94: parse error before ;
+
+[Mon Aug 18 11:52:56 2003] u/i/iamtheking/wp/blade.c line 102: Undefined variable 'me' before query_str()*3+random
+
+[Mon Aug 18 11:53:22 2003] u/i/iamtheking/wp/blade.c line 91: Reserved type name unexpected. before (object me, object v
+
+[Mon Aug 18 11:53:22 2003] u/i/iamtheking/wp/blade.c line 91: parse error before (object me, object v
+
+[Mon Aug 18 11:53:22 2003] u/i/iamtheking/wp/blade.c line 93: Illegal LHS before the end of line
+
+[Mon Aug 18 11:53:22 2003] u/i/iamtheking/wp/blade.c line 94: Reserved type name unexpected. before ;
+
+[Mon Aug 18 11:53:22 2003] u/i/iamtheking/wp/blade.c line 94: parse error before ;
+
+[Mon Aug 18 11:53:22 2003] u/i/iamtheking/wp/blade.c line 102: Undefined variable 'me' before query_str()*3+random
+
+[Mon Aug 18 11:54:31 2003] u/i/iamtheking/wp/blade.c line 92: Reserved type name unexpected. before (object me, object v
+
+[Mon Aug 18 11:54:31 2003] u/i/iamtheking/wp/blade.c line 92: parse error before (object me, object v
+
+[Mon Aug 18 11:54:31 2003] u/i/iamtheking/wp/blade.c line 94: Illegal LHS before the end of line
+
+[Mon Aug 18 11:54:31 2003] u/i/iamtheking/wp/blade.c line 95: Reserved type name unexpected. before ;
+
+[Mon Aug 18 11:54:31 2003] u/i/iamtheking/wp/blade.c line 95: parse error before ;
+
+[Mon Aug 18 11:54:31 2003] u/i/iamtheking/wp/blade.c line 103: Undefined variable 'me' before query_str()*3+random
+
+[Mon Aug 18 11:55:31 2003] u/i/iamtheking/wp/blade.c line 92: Reserved type name unexpected. before (object me, object v
+
+[Mon Aug 18 11:55:31 2003] u/i/iamtheking/wp/blade.c line 92: parse error before (object me, object v
+
+[Mon Aug 18 11:55:31 2003] u/i/iamtheking/wp/blade.c line 94: Illegal LHS before the end of line
+
+[Mon Aug 18 11:55:31 2003] u/i/iamtheking/wp/blade.c line 95: Reserved type name unexpected. before ;
+
+[Mon Aug 18 11:55:31 2003] u/i/iamtheking/wp/blade.c line 95: parse error before ;
+
+[Mon Aug 18 11:55:31 2003] u/i/iamtheking/wp/blade.c line 103: Undefined variable 'me' before query_str()*3+random
+
+[Mon Aug 18 11:55:45 2003] u/i/iamtheking/wp/blade.c line 92: Reserved type name unexpected. before (object me, object v
+
+[Mon Aug 18 11:55:45 2003] u/i/iamtheking/wp/blade.c line 92: parse error before (object me, object v
+
+[Mon Aug 18 11:55:45 2003] u/i/iamtheking/wp/blade.c line 94: Illegal LHS before the end of line
+
+[Mon Aug 18 11:55:45 2003] u/i/iamtheking/wp/blade.c line 95: Reserved type name unexpected. before ;
+
+[Mon Aug 18 11:55:45 2003] u/i/iamtheking/wp/blade.c line 95: parse error before ;
+
+[Mon Aug 18 11:55:45 2003] u/i/iamtheking/wp/blade.c line 103: Undefined variable 'me' before query_str()*3+random
+
+[Mon Aug 18 12:38:27 2003] u/i/iamtheking/wp/fist.c line 29: Undefined function set_skill before ;
+
+[Mon Aug 18 12:38:53 2003] u/i/iamtheking/wp/fist.c line 29: Undefined function set_skill before ;
+
+[Mon Aug 18 12:40:41 2003] u/i/iamtheking/wp/fist.c line 29: Undefined function set_skill before ;
+
+[Mon Aug 18 12:40:51 2003] u/i/iamtheking/wp/fist.c line 29: Undefined function set_skill before ;
+
+[Tue May 25 19:03:26 2004] u/i/iamtheking/npc/master.c line 48: parse error before the end of file
+
+[Tue May 25 19:18:53 2004] u/i/iamtheking/npc/master.c line 46: Undefined variable 'x' before :({1,50,100}),
+
+[Tue May 25 19:18:53 2004] u/i/iamtheking/npc/master.c line 46: parse error before :({1,50,100}),
+
+[Tue May 25 19:18:53 2004] u/i/iamtheking/npc/master.c line 68: Illegal LHS before the end of line
+
+[Tue May 25 19:18:53 2004] u/i/iamtheking/npc/master.c line 68: parse error before the end of line
+
+[Tue May 25 19:18:53 2004] u/i/iamtheking/npc/master.c line 69: Illegal LHS before the end of line
+
+[Tue May 25 19:18:53 2004] u/i/iamtheking/npc/master.c line 69: parse error before the end of line
+

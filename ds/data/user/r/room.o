@@ -1,0 +1,12 @@
+#/obj/user.c
+conditions ([])
+dbase (["volume":7,"DS_DATA_VERSION":19991107,"board_last_read":(["sky2_1f_7_9_b":1237613075,"sky2_1f_3_9_b":1227491991,"anoounce_b":1164849647,]),"ap":705,"env":([]),"heart_beat_rate":6,"Merits":(["bar":1,"bio":2,"tec":3,"sou":2,"wit":3,]),"title":"´Hº«¬£²Ä¤T¥N¹D¹­","wound":(["body":0,"right_arm":0,"left_leg":0,"right_leg":0,"left_arm":0,"head":0,]),"talk_point":81,"unit":"¦ì","addition":(["int":5,"con":8,"str":1,]),"adv_class":1,"channels":({"chat","tchat","sky","sam",}),"disable_type":" <²@µL©I§l>","max_mp":1385,"family":(["family_name":"´Hº«¬£","generation":3,"privs":-1,"title":"¹D¹­",]),"wimpy":30,"dssystem":(["prompt":(["form":"[1;33mHP%h [1;32mMP%m %~[0m",]),]),"newbie":1,"exp":144342741,"attitude":"peaceful","cure_count":10,"dex":40,"last_location":"/open/world1/faceoff/sky/ten27","bank":(["past":53756,]),"int":48,"con":37,"max_ap":705,"combat_exp":16086,"level":25,"popularity":12617,"birthday":1164315505,"age":127,"supply_point":541,"evil":-1,"class1":"´Hº«¬£","guild_rank":"´Hº«¬£¤§¥H¤ß«´¹D","heart_modify":0,"skill":(["literate":94,"strong-body":94,"anti_poison":99,"unarmed":72,]),"nickname":"´H¹ý¹D©h[0m","addition_shield":10,"mud_age":9771843,"hp":940,"default_actions":,"mp":1385,"race":"celestial","max_hp":940,"guild_gifts":({0,5,9,6,}),"addition_armor":10,"actions":,"id":"room","war_art":23744,"startroom":"/open/world1/tmr/area/hotel","bellicosity":0,"gender":"¤k©Ê","str":9,"name":"©Ð¶¡","addition_damage":10,])
+skills (["dodge":10,"pick-plumblossom":100,"swim":100,"swallow-flying":9,"literate":100,"strong-body":100,"anti_poison":100,"combat":100,"meditate":92,"chess":2,"parry":2,"unarmed":100,])
+learned (["pick-plumblossom":0,"swim":0,"literate":0,"strong-body":0,"anti_poison":0,"combat":0,"meditate":7459,"chess":0,"unarmed":0,])
+spells (["ice-puppet":90,"freeze-ball":100,"fall-thunder":100,"life-death-symbol":99,])
+spell_learned (["ice-puppet":0,"freeze-ball":0,"fall-thunder":0,"life-death-symbol":0,])
+items ({})
+alias ([",":"do recall start","0":"do bespeak for sleep,u,sleep","me":"do exert meditate","s":"south","z":"do get all from corpse,sac corpse","mef":"do exert meditate off",])
+autoload ({"/obj/money/coin:10000","/open/always/sky_mark",})
+toDoList ([])
+solved ({})

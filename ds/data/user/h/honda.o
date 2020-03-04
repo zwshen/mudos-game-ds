@@ -1,0 +1,8 @@
+#/obj/user.c
+dbase (["volume":7,"mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"DS_DATA_VERSION":19991107,"race":"evil","disable_type":" <毫無呼吸>","channels":({"chat","rumor","tchat",}),"birthday":1199526224,"id":"honda","heart_modify":0,"actions":,"gender":"男性","max_mp":66,"name":"達叔","max_hp":84,"bank":(["past":5,]),"attitude":"peaceful","unit":"位","heart_beat_rate":6,"max_ap":100,"startroom":"/open/world1/tmr/area/hotel","guild_gifts":({5,5,5,5,}),"mp":66,"ap":100,"last_location":"/open/world1/tmr/area/hotel","Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"addition_shield":10,"cure_count":6,"MKS":5,"combat_exp":0,"bellicosity":0,"supply_point":60,"war_score":1,"talk_point":8,"addition_armor":10,"default_actions":,"newbie":1,"exp":1053,"dex":2,"int":2,"con":2,"hp":84,"age":14,"str":2,"level":1,"addition_damage":10,"evil":11,"mud_age":2285,])
+skills (["strong-body":1,"dodge":2,"unarmed":3,"combat":4,])
+learned (["strong-body":2,"dodge":4,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

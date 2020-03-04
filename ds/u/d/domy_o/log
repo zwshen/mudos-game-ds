@@ -1,0 +1,366 @@
+[Mon Jul 26 04:06:04 1999] u/d/domy/65k2.c line 1: parse error
+
+[Mon Jul 26 04:13:28 1999] u/d/domy/65k2.c line 2: Unrecognised # directive
+
+[Mon Jul 26 04:13:28 1999] u/d/domy/65k2.c line 2: Unrecognised # directive
+
+[Mon Jul 26 04:13:28 1999] u/d/domy/65k2.c line 7: Undefined variable 'GRN'
+
+
+[Mon Jul 26 04:13:28 1999] u/d/domy/65k2.c line 7: parse error
+
+[Mon Jul 26 04:18:00 1999] u/d/domy/65k2.c line 7: parse error
+
+[Mon Jul 26 04:20:25 1999] u/d/domy/65k2.c line 6: parse error
+
+[Mon Jul 26 04:22:15 1999] u/d/domy/65k2.c line 6: parse error
+
+[Mon Jul 26 04:22:15 1999] u/d/domy/65k2.c line 7: Illegal terminator
+
+[Mon Jul 26 04:22:15 1999] u/d/domy/65k2.c line 7: Text block exceeded maximum length
+
+[Mon Jul 26 04:22:15 1999] u/d/domy/65k2.c line 7: Illegal terminator
+
+[Mon Jul 26 04:22:15 1999] u/d/domy/65k2.c line 7: Text block exceeded maximum length
+
+[Mon Jul 26 04:26:24 1999] u/d/domy/65k2.c line 7: parse error
+
+[Mon Jul 26 10:24:24 1999] u/d/domy/65k2.c line 2: parse error
+
+[Mon Jul 26 10:25:26 1999] u/d/domy/65k2.c line 2: parse error
+
+[Mon Jul 26 14:26:55 1999] u/d/domy/area/npc/lieutenant.c line 43: parse error
+
+[Mon Jul 26 14:29:58 1999] u/d/domy/area/npc/lieutenant.c line 43: parse error
+
+[Mon Jul 26 15:36:27 1999] u/d/domy/area/npc/wp/65k2.c line 31: parse error
+
+[Mon Jul 26 16:02:14 1999] u/d/domy/workroom.c line 7: parse error
+
+[Mon Jul 26 16:02:14 1999] u/d/domy/workroom.c line 27: End of file in string
+
+[Mon Jul 26 16:06:00 1999] u/d/domy/workroom.c line 7: parse error
+
+[Mon Jul 26 16:06:00 1999] u/d/domy/workroom.c line 27: End of file in string
+
+[Mon Jul 26 16:21:26 1999] u/d/domy/workroom.c line 8: parse error
+
+[Mon Jul 26 16:21:26 1999] u/d/domy/workroom.c line 27: End of file in string
+
+[Mon Jul 26 16:22:26 1999] u/d/domy/workroom.c line 8: parse error
+
+[Mon Jul 26 16:22:26 1999] u/d/domy/workroom.c line 28: End of file in string
+
+[Mon Jul 26 16:29:51 1999] u/d/domy/workroom.c line 8: parse error
+
+[Mon Jul 26 16:31:07 1999] u/d/domy/workroom.c line 8: parse error
+
+[Mon Jul 26 16:31:11 1999] u/d/domy/workroom.c line 8: parse error
+
+[Mon Jul 26 16:34:02 1999] u/d/domy/workroom.c line 8: parse error
+
+[Mon Jul 26 16:36:10 1999] u/d/domy/workroom.c line 28: End of file in text block
+
+[Mon Jul 26 16:36:10 1999] u/d/domy/workroom.c line 28: Undefined variable 'eturn'
+
+
+[Mon Jul 26 16:36:10 1999] u/d/domy/workroom.c line 28: parse error
+
+[Mon Jul 26 16:36:10 1999] u/d/domy/workroom.c line 47: Undefined variable 'ob'
+
+
+[Mon Jul 26 16:36:10 1999] u/d/domy/workroom.c line 47: Undefined variable 'topic'
+
+
+[Mon Jul 26 16:36:10 1999] u/d/domy/workroom.c line 47: Illegal LHS
+
+[Mon Jul 26 16:37:54 1999] u/d/domy/workroom.c line 28: End of file in text block
+
+[Mon Jul 26 16:37:54 1999] u/d/domy/workroom.c line 28: parse error
+
+[Mon Jul 26 16:37:54 1999] u/d/domy/workroom.c line 41: Illegal terminator
+
+[Mon Jul 26 16:37:54 1999] u/d/domy/workroom.c line 41: Array block exceeded maximum length
+
+[Mon Jul 26 16:37:54 1999] u/d/domy/workroom.c line 41: Illegal terminator
+
+[Mon Jul 26 16:37:54 1999] u/d/domy/workroom.c line 41: Text block exceeded maximum length
+
+[Tue Aug 17 00:39:57 1999] u/d/domy/area/npc/wp/pot.c line 23: parse error
+
+[Tue Aug 17 00:42:15 1999] u/d/domy/area/npc/wp/pot.c line 22: parse error
+
+[Tue Aug 17 00:49:31 1999] u/d/domy/area/npc/wp/pot.c line 22: parse error
+
+[Tue Aug 17 01:48:18 1999] u/d/domy/area/npc/xcook.c line 18: parse error
+
+[Wed Aug 18 16:44:58 1999] u/d/domy/robot.c line 2: parse error
+
+[Wed Aug 18 16:45:04 1999] u/d/domy/robot.c line 2: parse error
+
+[Wed Aug 18 16:46:45 1999] u/d/domy/robot.c line 5: parse error
+
+[Wed Aug 18 16:46:45 1999] u/d/domy/robot.c line 26: End of file in string
+
+[Wed Aug 18 16:48:11 1999] u/d/domy/robot.c line 5: parse error
+
+[Wed Aug 18 16:48:11 1999] u/d/domy/robot.c line 27: End of file in string
+
+[Wed Aug 18 16:48:37 1999] u/d/domy/robot_guard.c line 5: parse error
+
+[Wed Aug 18 16:48:37 1999] u/d/domy/robot_guard.c line 26: End of file in string
+
+[Wed Aug 18 16:53:25 1999] u/d/domy/area/npc/lieutenant.c line 16: parse error
+
+[Wed Aug 18 16:54:23 1999] u/d/domy/area/npc/lieutenant.c line 16: parse error
+
+[Wed Aug 18 16:57:03 1999] u/d/domy/area/npc/lieutenant.c line 17: Undefined variable 'domy'
+
+
+[Wed Aug 18 16:58:58 1999] u/d/domy/area/npc/lieutenant.c line 20: Undefined variable 'domy'
+
+
+[Wed Aug 18 16:59:40 1999] u/d/domy/area/npc/lieutenant.c line 20: Undefined variable 'me'
+
+
+[Wed Aug 18 17:02:27 1999] u/d/domy/area/npc/lieutenant.c line 34: parse error
+
+[Wed Aug 18 17:02:57 1999] u/d/domy/area/npc/lieutenant.c line 34: parse error
+
+[Wed Aug 18 17:04:29 1999] u/d/domy/area/npc/lieutenant.c line 34: parse error
+
+[Wed Aug 18 17:05:13 1999] u/d/domy/area/npc/lieutenant.c line 34: parse error
+
+[Thu Aug 19 00:37:11 1999] u/d/domy/area/npc/pickpocket.c line 21: parse error
+
+[Thu Aug 19 00:47:06 1999] u/d/domy/area/npc/small_girl.c line 23: parse error
+
+[Thu Aug 19 13:30:21 1999] u/d/domy/armor.c line 8: parse error
+
+[Thu Aug 19 13:30:21 1999] u/d/domy/armor.c line 8: Illegal terminator
+
+[Thu Aug 19 13:30:21 1999] u/d/domy/armor.c line 8: Text block exceeded maximum length
+
+[Thu Aug 19 13:30:21 1999] u/d/domy/armor.c line 8: Illegal terminator
+
+[Thu Aug 19 13:30:21 1999] u/d/domy/armor.c line 8: Text block exceeded maximum length
+
+[Thu Aug 19 13:30:21 1999] u/d/domy/armor.c line 21: End of file in string
+
+[Thu Aug 19 13:35:40 1999] u/d/domy/area/npc/eq/armor.c line 7: Undefined variable 'HIM'
+
+
+[Thu Aug 19 13:35:40 1999] u/d/domy/area/npc/eq/armor.c line 7: parse error
+
+[Thu Aug 19 13:35:40 1999] u/d/domy/area/npc/eq/armor.c line 8: Illegal terminator
+
+[Thu Aug 19 13:35:40 1999] u/d/domy/area/npc/eq/armor.c line 8: Text block exceeded maximum length
+
+[Thu Aug 19 13:35:40 1999] u/d/domy/area/npc/eq/armor.c line 8: Illegal terminator
+
+[Thu Aug 19 13:35:40 1999] u/d/domy/area/npc/eq/armor.c line 8: Text block exceeded maximum length
+
+[Thu Aug 19 13:36:36 1999] u/d/domy/area/npc/eq/armor.c line 10: parse error
+
+[Thu Aug 19 13:36:36 1999] u/d/domy/area/npc/eq/armor.c line 10: Illegal terminator
+
+[Thu Aug 19 13:36:36 1999] u/d/domy/area/npc/eq/armor.c line 10: Text block exceeded maximum length
+
+[Thu Aug 19 13:36:36 1999] u/d/domy/area/npc/eq/armor.c line 10: Illegal terminator
+
+[Thu Aug 19 13:36:36 1999] u/d/domy/area/npc/eq/armor.c line 10: Text block exceeded maximum length
+
+[Thu Aug 19 13:36:36 1999] u/d/domy/area/npc/eq/armor.c line 18: $var illegal outside of function.
+
+[Thu Aug 19 13:38:33 1999] u/d/domy/area/npc/eq/armor.c line 7: parse error
+
+[Thu Aug 19 13:38:33 1999] u/d/domy/area/npc/eq/armor.c line 7: Illegal terminator
+
+[Thu Aug 19 13:38:33 1999] u/d/domy/area/npc/eq/armor.c line 7: Text block exceeded maximum length
+
+[Thu Aug 19 13:38:33 1999] u/d/domy/area/npc/eq/armor.c line 7: Illegal terminator
+
+[Thu Aug 19 13:38:33 1999] u/d/domy/area/npc/eq/armor.c line 7: Text block exceeded maximum length
+
+[Thu Aug 19 13:38:33 1999] u/d/domy/area/npc/eq/armor.c line 15: $var illegal outside of function.
+
+[Thu Aug 19 13:41:24 1999] u/d/domy/area/npc/eq/armor.c line 7: parse error
+
+[Thu Aug 19 13:41:24 1999] u/d/domy/area/npc/eq/armor.c line 15: $var illegal outside of function.
+
+[Thu Aug 19 13:41:24 1999] u/d/domy/area/npc/eq/armor.c line 15: $var illegal outside of function.
+
+[Thu Aug 19 13:41:24 1999] u/d/domy/area/npc/eq/armor.c line 15: $var illegal outside of function.
+
+[Thu Aug 19 13:41:24 1999] u/d/domy/area/npc/eq/armor.c line 15: Illegal terminator
+
+[Thu Aug 19 13:41:24 1999] u/d/domy/area/npc/eq/armor.c line 15: Text block exceeded maximum length
+
+[Thu Aug 19 13:42:11 1999] u/d/domy/area/npc/eq/armor.c line 7: parse error
+
+[Thu Aug 19 13:42:11 1999] u/d/domy/area/npc/eq/armor.c line 20: End of file in string
+
+[Thu Aug 19 13:43:07 1999] u/d/domy/area/npc/eq/armor.c line 7: parse error
+
+[Thu Aug 19 13:43:07 1999] u/d/domy/area/npc/eq/armor.c line 20: End of file in string
+
+[Sat Aug 21 01:34:45 1999] u/d/domy/workroom.c line 36: parse error
+
+[Sun Aug 22 23:15:02 1999] u/d/domy/area/npc/lieutenant.c line 21: Undefined variable 'domy'
+
+
+[Mon Aug 23 13:34:37 1999] u/d/domy/npc/man.c line 21: Undefined variable 'HIR'
+
+
+[Mon Aug 23 13:34:37 1999] u/d/domy/npc/man.c line 21: parse error
+
+[Mon Aug 23 13:34:37 1999] u/d/domy/npc/man.c line 31: Illegal LHS
+
+[Mon Aug 23 13:34:37 1999] u/d/domy/npc/man.c line 31: parse error
+
+[Mon Aug 23 13:36:19 1999] u/d/domy/npc/boss.c line 20: Undefined variable 'HIR'
+
+
+[Mon Aug 23 13:36:19 1999] u/d/domy/npc/boss.c line 20: parse error
+
+[Mon Aug 23 13:36:19 1999] u/d/domy/npc/boss.c line 30: Illegal LHS
+
+[Mon Aug 23 13:36:19 1999] u/d/domy/npc/boss.c line 30: parse error
+
+[Mon Aug 23 13:45:51 1999] u/d/domy/npc/boss.c line 6: parse error
+
+[Mon Aug 23 13:45:51 1999] u/d/domy/npc/boss.c line 41: Illegal LHS
+
+[Mon Aug 23 13:45:51 1999] u/d/domy/npc/boss.c line 41: Wrong number of arguments to set
+    Expected: 2  Got: 1
+
+[Mon Aug 23 13:45:51 1999] u/d/domy/npc/boss.c line 41: parse error
+
+[Tue Aug 24 13:37:11 1999] u/d/domy/area/npc/wp/sword.c line 1: parse error
+
+[Tue Aug 24 13:38:26 1999] u/d/domy/area/npc/wp/sword.c line 1: parse error
+
+[Tue Aug 24 14:11:00 1999] u/d/domy/area/bank.c line 22: parse error
+
+[Tue Aug 24 14:13:07 1999] u/d/domy/area/bank.c line 22: parse error
+
+[Tue Aug 24 14:14:19 1999] u/d/domy/area/bank.c line 22: parse error
+
+[Tue Aug 24 22:17:57 1999] u/d/domy/area/npc/wp/sm_whip.c line 23: Undefined function init_blade
+
+[Tue Aug 24 22:17:57 1999] u/d/domy/area/npc/wp/sm_whip.c line 33: End of file in string
+
+[Tue Aug 24 22:17:57 1999] u/d/domy/area/npc/wp/sm_whip.c line 33: parse error
+
+[Tue Aug 24 22:19:21 1999] u/d/domy/area/npc/eq/sm_armor.c line 4: parse error
+
+[Tue Aug 24 22:25:52 1999] u/d/domy/area/npc/wp/sm_whip.c line 23: Undefined function init_blade
+
+[Sat Aug 28 21:43:06 1999] u/d/domy/npc/boss2.c line 21: parse error
+
+[Sat Aug 28 21:43:06 1999] u/d/domy/npc/boss2.c line 61: End of file in string
+
+[Sat Aug 28 21:45:03 1999] u/d/domy/npc/boss2.c line 21: parse error
+
+[Sat Aug 28 21:45:03 1999] u/d/domy/npc/boss2.c line 61: End of file in string
+
+[Sun Sep 12 14:44:35 1999] u/d/domy/god_ring.c line 4: Cannot #include finger.h
+
+[Sun Sep 12 14:44:35 1999] u/d/domy/god_ring.c line 5: parse error
+
+[Sun Sep 12 21:53:44 1999] u/d/domy/npc/boss.c line 44: parse error
+
+[Sun Sep 12 21:54:44 1999] u/d/domy/npc/boss.c line 35: parse error
+
+[Sun Sep 12 21:55:59 1999] u/d/domy/npc/boss.c line 33: Wrong number of arguments to carry_object
+    Expected: 1  Got: 2
+
+[Sun Sep 12 21:55:59 1999] u/d/domy/npc/boss.c line 34: parse error
+
+[Sun Sep 12 21:55:59 1999] u/d/domy/npc/boss.c line 38: Illegal LHS
+
+[Sun Sep 12 21:55:59 1999] u/d/domy/npc/boss.c line 38: parse error
+
+[Sun Sep 12 21:57:01 1999] u/d/domy/npc/boss.c line 39: A reserved type name cannot be used as a function name.
+
+
+[Sun Sep 12 21:57:01 1999] u/d/domy/npc/boss.c line 39: parse error
+
+[Sun Sep 12 21:57:01 1999] u/d/domy/npc/boss.c line 42: Illegal LHS
+
+[Sun Sep 12 21:57:01 1999] u/d/domy/npc/boss.c line 42: parse error
+
+[Sun Sep 12 22:03:53 1999] u/d/domy/npc/boss.c line 50: parse error
+
+[Sun Sep 12 22:03:53 1999] u/d/domy/npc/boss.c line 60: Illegal LHS
+
+[Sun Sep 12 22:03:53 1999] u/d/domy/npc/boss.c line 60: parse error
+
+[Sun Sep 12 22:04:56 1999] u/d/domy/npc/boss.c line 49: parse error
+
+[Sun Sep 12 22:04:56 1999] u/d/domy/npc/boss.c line 59: Illegal LHS
+
+[Sun Sep 12 22:04:56 1999] u/d/domy/npc/boss.c line 59: parse error
+
+[Sun Sep 12 22:05:56 1999] u/d/domy/npc/boss.c line 50: parse error
+
+[Sun Sep 12 22:06:49 1999] u/d/domy/npc/boss.c line 49: parse error
+
+[Sun Sep 12 22:07:45 1999] u/d/domy/npc/boss.c line 50: Illegal to redefine 'nomask' function "query_weight"
+
+[Sun Sep 12 22:07:45 1999] u/d/domy/npc/boss.c line 50: Illegal to redefine 'nomask' function "query_busy"
+
+[Sun Sep 12 22:07:45 1999] u/d/domy/npc/boss.c line 50: Illegal to redefine 'nomask' function "is_busy"
+
+[Sun Sep 12 22:07:45 1999] u/d/domy/npc/boss.c line 50: Illegal to redefine 'nomask' function "is_block"
+
+[Sun Sep 12 22:07:45 1999] u/d/domy/npc/boss.c line 50: Illegal to redefine 'nomask' function "command_hook"
+
+[Sun Sep 12 22:07:45 1999] u/d/domy/npc/boss.c line 50: Illegal to redefine 'nomask' function "set_path"
+
+[Sun Sep 12 22:08:33 1999] u/d/domy/npc/boss.c line 50: Illegal to redefine 'nomask' function "query_weight"
+
+[Sun Sep 12 22:08:33 1999] u/d/domy/npc/boss.c line 50: Illegal to redefine 'nomask' function "query_busy"
+
+[Sun Sep 12 22:08:33 1999] u/d/domy/npc/boss.c line 50: Illegal to redefine 'nomask' function "is_busy"
+
+[Sun Sep 12 22:08:33 1999] u/d/domy/npc/boss.c line 50: Illegal to redefine 'nomask' function "is_block"
+
+[Sun Sep 12 22:08:33 1999] u/d/domy/npc/boss.c line 50: Illegal to redefine 'nomask' function "command_hook"
+
+[Sun Sep 12 22:08:33 1999] u/d/domy/npc/boss.c line 50: Illegal to redefine 'nomask' function "set_path"
+
+[Sun Sep 12 22:10:26 1999] u/d/domy/npc/boss.c line 49: parse error
+
+[Sun Sep 12 22:11:02 1999] u/d/domy/npc/boss.c line 48: parse error
+
+[Sun Sep 12 22:12:59 1999] u/d/domy/npc/boss.c line 50: parse error
+
+[Sun Sep 12 22:12:59 1999] u/d/domy/npc/boss.c line 59: Illegal LHS
+
+[Sun Sep 12 22:12:59 1999] u/d/domy/npc/boss.c line 59: parse error
+
+[Sun Sep 12 22:13:33 1999] u/d/domy/npc/boss.c line 50: parse error
+
+[Sun Sep 12 22:13:33 1999] u/d/domy/npc/boss.c line 57: Illegal LHS
+
+[Sun Sep 12 22:13:33 1999] u/d/domy/npc/boss.c line 57: parse error
+
+[Sun Sep 12 22:14:22 1999] u/d/domy/npc/boss.c line 50: parse error
+
+[Sun Sep 12 22:14:22 1999] u/d/domy/npc/boss.c line 57: Illegal LHS
+
+[Sun Sep 12 22:14:22 1999] u/d/domy/npc/boss.c line 57: parse error
+
+[Mon Sep 20 18:55:02 1999] u/d/domy/npc/dog.c line 47: parse error
+
+[Sat Oct 16 23:16:41 1999] u/d/domy/door.c line 12: parse error
+
+[Sat Oct 16 23:16:41 1999] u/d/domy/door.c line 30: Illegal LHS
+
+[Sat Oct 16 23:16:41 1999] u/d/domy/door.c line 30: parse error
+
+[Tue Oct 19 13:29:36 1999] u/d/domy/gun.c line 4: parse error
+
+[Tue Oct 19 13:29:40 1999] u/d/domy/gun.c line 4: parse error
+

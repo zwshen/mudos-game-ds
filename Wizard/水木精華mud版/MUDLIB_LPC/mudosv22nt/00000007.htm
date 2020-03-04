@@ -1,0 +1,51 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清華站︰精華區</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+<A Name="top"></a>
+發信人:&nbsp;wwj&nbsp;(星~~畢設中),&nbsp;信區:&nbsp;Mud_Builder&nbsp;<BR>
+標&nbsp;&nbsp;題:&nbsp;附錄三&nbsp;&nbsp;&nbsp;&nbsp;Mudos&nbsp;v22pre11&nbsp;with&nbsp;COM&nbsp;extension的架設&nbsp;<BR>
+發信站:&nbsp;BBS&nbsp;水木清華站&nbsp;(Sat&nbsp;May&nbsp;16&nbsp;19:10:46&nbsp;1998)&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;當你拿到Mudos&nbsp;v22pre11&nbsp;for&nbsp;WIN95/NT&nbsp;with&nbsp;COM&nbsp;extension時，它是一個&nbsp;<BR>
+zip文件，請用winzip展開，裡麵包含Mudos的執行程序，本說明，一個LPC與COM混和編程&nbsp;<BR>
+的例子和一個測試用的es2&nbsp;mudlib。&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;Mudos執行程序在bin目錄下，包含mudos.exe，mudos.dll兩個文件。將它們展出&nbsp;<BR>
+來後，首先執行&nbsp;regsvr32&nbsp;mudos.dll&nbsp;（regsvr32是一個COM對像登記用的程序，一般&nbsp;<BR>
+放在win95的system目錄下。〕，在mudos.exe相同目錄下，新建一個文本文件，取名為&nbsp;<BR>
+mudos.ini。內容如下&nbsp;<BR>
+&nbsp;<BR>
+;&nbsp;mudos.ini&nbsp;<BR>
+[init]&nbsp;<BR>
+config=d:\mudlib\es2\config.es2&nbsp;&nbsp;;&nbsp;這個是mudlib的配置文件路徑，最好用全路徑名&nbsp;<BR>
+heartbeat=1000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;&nbsp;這個是heartbeat的值，以毫秒計&nbsp;<BR>
+addr_port=3990&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;&nbsp;如果需要啟動addr_server，請加上此項。&nbsp;<BR>
+&nbsp;<BR>
+[com]&nbsp;<BR>
+{EAB22AC1-30C1-11CF-A7EB-0000C05BAE0B}=c:\win\system\shdocvw.dll&nbsp;<BR>
+;只有在這裡定義過的CLSID或者ProgID才能在LPC中使用&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;按照附錄一中提供的mudlib修改方案將v21版的mudlib改成v22版的。&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;如果你用的是WIN95，直接運行mudos.exe就會啟動mud了。如果想把它搞成service&nbsp;<BR>
+使得下次啟動計算機時，mud就能自動運行，請執行&nbsp;mudos&nbsp;install&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;如果你用的是WINNT，請執行&nbsp;mudos&nbsp;install，當它告訴你創建服務成功時，你就&nbsp;<BR>
+可以在Control&nbsp;Panel中的Services找到mudos&nbsp;v22pre11&nbsp;...這個服務，然後選擇start&nbsp;<BR>
+就啟動mud了。下次開機時會自動啟動mud。&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;運行時會在explorer的那個狀態條的右端加上一個&quot;小地球&quot;的ICON，以此表明它正在運行。&nbsp;<BR>
+用鼠標右鍵點擊它，會出現一個菜單，可以選擇restart或shutdown。&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+※&nbsp;來源:‧BBS&nbsp;水木清華站&nbsp;bbs.net.tsinghua.edu.cn‧[FROM:&nbsp;166.111.10.143]&nbsp;<BR>
+<A HREF="00000006.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一頁</A>
+<A HREF="index.htm">回到目錄</A>
+<A HREF="#top">回到頁首</A>
+<A HREF="00000008.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+</BODY></HTML>

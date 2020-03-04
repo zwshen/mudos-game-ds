@@ -1,0 +1,39 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=bg2312">
+   <META NAME="Author" CONTENT="Spock">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.01 [en] (Win95; I) [Netscape]">
+   <TITLE>MudOS v21c2 参考文件 - applies - master - view_errors</TITLE>
+</HEAD>
+<BODY TEXT="#CCFFFF" BGCOLOR="#000000" LINK="#33FF33" VLINK="#FF0000" ALINK="#33CCFF" BACKGROUND="../../../image/ff/fftitleback.jpg" NOSAVE>
+
+<CENTER><FONT COLOR="#FF99FF"><FONT SIZE=+3>view_errors(4)　 MudOS v21c2　
+(5 Sep 1994)</FONT></FONT></CENTER>
+
+<HR WIDTH="100%">
+<BR><FONT COLOR="#FFFFCC">　名称:</FONT>
+<UL>　 view_errors - 检查一个使用者是否能看到错误消息.</UL>
+<FONT COLOR="#FFFFCC">　语法:</FONT>
+<UL>　 int view_errors( object user );
+
+<P>　 整数 view_error( 物件 user );</UL>
+<FONT COLOR="#FFFFCC">　用法:</FONT>
+<UL>　 如果编译驱动程序时, options.h 中关闭了 MUDLIB_ERROR_HANDLER　 选项,
+一旦使用者遇到了错误, 就会调用 view_errors( user ). 如果此函数返回非零值,
+则使用者就会收到一份详细的错误消息. 反之, 则会印出预设的错误消息.　 (译按:
+通常是「程序发生错误, 请通知巫师. 」一类的消息)</UL>
+<FONT COLOR="#FFFFCC">　参考:</FONT>
+<UL>　 MUDLIB_ERROR_HANDLER(3)</UL>
+<FONT COLOR="#FFFFCC">　翻译:</FONT>
+<UL>　 Spock @ FF 97.Aug.7.　 (printed 3/16/95)</UL>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+<CENTER><A HREF="../master.html">回到上一页</A></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+</BODY>
+</HTML>

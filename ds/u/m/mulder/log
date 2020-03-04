@@ -1,0 +1,2035 @@
+[Fri Sep 10 23:35:36 1999] u/m/mulder/heal.c line 1: parse error
+
+[Fri Sep 10 23:48:26 1999] u/m/mulder/heal.c line 10: Undefined function target
+
+[Sun Sep 12 21:11:42 1999] u/m/mulder/area/naboo/npc/battle.c line 14: parse error
+
+[Sun Sep 12 21:11:42 1999] u/m/mulder/area/naboo/npc/battle.c line 14: Illegal terminator
+
+[Sun Sep 12 21:11:42 1999] u/m/mulder/area/naboo/npc/battle.c line 14: Text block exceeded maximum length
+
+[Sun Sep 12 21:12:54 1999] u/m/mulder/area/naboo/npc/battle.c line 14: parse error
+
+[Sun Sep 12 21:12:54 1999] u/m/mulder/area/naboo/npc/battle.c line 14: Illegal terminator
+
+[Sun Sep 12 21:12:54 1999] u/m/mulder/area/naboo/npc/battle.c line 14: Text block exceeded maximum length
+
+[Sun Sep 12 21:17:14 1999] u/m/mulder/area/naboo/npc/battle.c line 14: parse error
+
+[Sun Sep 12 21:17:14 1999] u/m/mulder/area/naboo/npc/battle.c line 14: Illegal terminator
+
+[Sun Sep 12 21:17:14 1999] u/m/mulder/area/naboo/npc/battle.c line 14: Text block exceeded maximum length
+
+[Sun Sep 12 21:17:52 1999] u/m/mulder/area/naboo/npc/battle.c line 14: parse error
+
+[Sun Sep 12 21:17:52 1999] u/m/mulder/area/naboo/npc/battle.c line 14: Illegal terminator
+
+[Sun Sep 12 21:17:52 1999] u/m/mulder/area/naboo/npc/battle.c line 14: Text block exceeded maximum length
+
+[Sun Sep 12 21:18:20 1999] u/m/mulder/area/naboo/npc/battle.c line 14: parse error
+
+[Sun Sep 12 21:18:20 1999] u/m/mulder/area/naboo/npc/battle.c line 14: Illegal terminator
+
+[Sun Sep 12 21:18:20 1999] u/m/mulder/area/naboo/npc/battle.c line 14: Text block exceeded maximum length
+
+[Sun Sep 12 21:19:45 1999] u/m/mulder/area/naboo/npc/battle.c line 14: parse error
+
+[Sun Sep 12 21:19:45 1999] u/m/mulder/area/naboo/npc/battle.c line 14: Illegal terminator
+
+[Sun Sep 12 21:19:45 1999] u/m/mulder/area/naboo/npc/battle.c line 14: Text block exceeded maximum length
+
+[Sun Sep 12 21:19:45 1999] u/m/mulder/area/naboo/npc/battle.c line 45: End of file in string
+
+[Sun Sep 12 21:19:55 1999] u/m/mulder/area/naboo/npc/battle.c line 14: parse error
+
+[Sun Sep 12 21:19:55 1999] u/m/mulder/area/naboo/npc/battle.c line 14: Illegal terminator
+
+[Sun Sep 12 21:19:55 1999] u/m/mulder/area/naboo/npc/battle.c line 14: Text block exceeded maximum length
+
+[Sun Sep 12 21:19:55 1999] u/m/mulder/area/naboo/npc/battle.c line 45: End of file in string
+
+[Sun Sep 12 21:29:12 1999] u/m/mulder/area/naboo/npc/battle.c line 14: parse error
+
+[Sun Sep 12 21:29:12 1999] u/m/mulder/area/naboo/npc/battle.c line 14: Illegal terminator
+
+[Sun Sep 12 21:29:12 1999] u/m/mulder/area/naboo/npc/battle.c line 14: Text block exceeded maximum length
+
+[Sun Sep 12 21:29:12 1999] u/m/mulder/area/naboo/npc/battle.c line 45: End of file in string
+
+[Sun Sep 12 21:32:03 1999] u/m/mulder/area/naboo/npc/battle.c line 14: parse error
+
+[Sun Sep 12 21:32:03 1999] u/m/mulder/area/naboo/npc/battle.c line 14: Illegal terminator
+
+[Sun Sep 12 21:32:03 1999] u/m/mulder/area/naboo/npc/battle.c line 14: Text block exceeded maximum length
+
+[Sun Sep 12 21:32:03 1999] u/m/mulder/area/naboo/npc/battle.c line 45: End of file in string
+
+[Sun Sep 12 21:32:37 1999] u/m/mulder/area/naboo/npc/battle.c line 21: parse error
+
+[Sun Sep 12 21:32:41 1999] u/m/mulder/area/naboo/npc/battle.c line 21: parse error
+
+[Sun Sep 12 21:51:12 1999] u/m/mulder/a10.c line 41: parse error
+
+[Sun Sep 12 21:51:12 1999] u/m/mulder/a10.c line 57: Illegal LHS
+
+[Sun Sep 12 21:51:12 1999] u/m/mulder/a10.c line 59: Illegal LHS
+
+[Sun Sep 12 21:51:12 1999] u/m/mulder/a10.c line 59: parse error
+
+[Sun Sep 12 21:51:12 1999] u/m/mulder/a10.c line 71: Illegal LHS
+
+[Sun Sep 12 21:51:12 1999] u/m/mulder/a10.c line 71: parse error
+
+[Sun Sep 12 21:52:22 1999] u/m/mulder/a10.c line 41: parse error
+
+[Sun Sep 12 21:52:22 1999] u/m/mulder/a10.c line 57: Illegal LHS
+
+[Sun Sep 12 21:52:22 1999] u/m/mulder/a10.c line 59: Illegal LHS
+
+[Sun Sep 12 21:52:22 1999] u/m/mulder/a10.c line 59: parse error
+
+[Sun Sep 12 21:52:22 1999] u/m/mulder/a10.c line 71: Illegal LHS
+
+[Sun Sep 12 21:52:22 1999] u/m/mulder/a10.c line 71: parse error
+
+[Sun Sep 12 21:53:24 1999] u/m/mulder/a10.c line 41: parse error
+
+[Sun Sep 12 21:53:24 1999] u/m/mulder/a10.c line 57: Illegal LHS
+
+[Sun Sep 12 21:53:24 1999] u/m/mulder/a10.c line 59: Illegal LHS
+
+[Sun Sep 12 21:53:24 1999] u/m/mulder/a10.c line 59: parse error
+
+[Sun Sep 12 21:53:24 1999] u/m/mulder/a10.c line 71: Illegal LHS
+
+[Sun Sep 12 21:53:24 1999] u/m/mulder/a10.c line 71: parse error
+
+[Sun Sep 12 21:53:32 1999] u/m/mulder/a10.c line 41: parse error
+
+[Sun Sep 12 21:53:32 1999] u/m/mulder/a10.c line 57: Illegal LHS
+
+[Sun Sep 12 21:53:32 1999] u/m/mulder/a10.c line 59: Illegal LHS
+
+[Sun Sep 12 21:53:32 1999] u/m/mulder/a10.c line 59: parse error
+
+[Sun Sep 12 21:53:32 1999] u/m/mulder/a10.c line 71: Illegal LHS
+
+[Sun Sep 12 21:53:32 1999] u/m/mulder/a10.c line 71: parse error
+
+[Sun Sep 12 21:55:02 1999] u/m/mulder/a10.c line 41: parse error
+
+[Sun Sep 12 21:55:02 1999] u/m/mulder/a10.c line 57: Illegal LHS
+
+[Sun Sep 12 21:55:02 1999] u/m/mulder/a10.c line 59: Illegal LHS
+
+[Sun Sep 12 21:55:02 1999] u/m/mulder/a10.c line 59: parse error
+
+[Sun Sep 12 21:55:02 1999] u/m/mulder/a10.c line 71: Illegal LHS
+
+[Sun Sep 12 21:55:02 1999] u/m/mulder/a10.c line 71: parse error
+
+[Sun Sep 12 21:56:23 1999] u/m/mulder/a10.c line 41: parse error
+
+[Sun Sep 12 21:56:23 1999] u/m/mulder/a10.c line 57: Illegal LHS
+
+[Sun Sep 12 21:56:23 1999] u/m/mulder/a10.c line 59: Illegal LHS
+
+[Sun Sep 12 21:56:23 1999] u/m/mulder/a10.c line 59: parse error
+
+[Sun Sep 12 21:56:23 1999] u/m/mulder/a10.c line 71: Illegal LHS
+
+[Sun Sep 12 21:56:23 1999] u/m/mulder/a10.c line 71: parse error
+
+[Sun Sep 12 21:56:27 1999] u/m/mulder/a10.c line 41: parse error
+
+[Sun Sep 12 21:56:27 1999] u/m/mulder/a10.c line 57: Illegal LHS
+
+[Sun Sep 12 21:56:27 1999] u/m/mulder/a10.c line 59: Illegal LHS
+
+[Sun Sep 12 21:56:27 1999] u/m/mulder/a10.c line 59: parse error
+
+[Sun Sep 12 21:56:27 1999] u/m/mulder/a10.c line 71: Illegal LHS
+
+[Sun Sep 12 21:56:27 1999] u/m/mulder/a10.c line 71: parse error
+
+[Sun Sep 12 21:56:35 1999] u/m/mulder/a10.c line 41: parse error
+
+[Sun Sep 12 21:56:35 1999] u/m/mulder/a10.c line 57: Illegal LHS
+
+[Sun Sep 12 21:56:35 1999] u/m/mulder/a10.c line 59: Illegal LHS
+
+[Sun Sep 12 21:56:35 1999] u/m/mulder/a10.c line 59: parse error
+
+[Sun Sep 12 21:56:35 1999] u/m/mulder/a10.c line 71: Illegal LHS
+
+[Sun Sep 12 21:56:35 1999] u/m/mulder/a10.c line 71: parse error
+
+[Sun Sep 12 21:56:39 1999] u/m/mulder/a10.c line 41: parse error
+
+[Sun Sep 12 21:56:39 1999] u/m/mulder/a10.c line 57: Illegal LHS
+
+[Sun Sep 12 21:56:39 1999] u/m/mulder/a10.c line 59: Illegal LHS
+
+[Sun Sep 12 21:56:39 1999] u/m/mulder/a10.c line 59: parse error
+
+[Sun Sep 12 21:56:39 1999] u/m/mulder/a10.c line 71: Illegal LHS
+
+[Sun Sep 12 21:56:39 1999] u/m/mulder/a10.c line 71: parse error
+
+[Sun Sep 12 22:00:40 1999] u/m/mulder/a10.c line 41: parse error
+
+[Sun Sep 12 22:00:40 1999] u/m/mulder/a10.c line 57: Illegal LHS
+
+[Sun Sep 12 22:00:40 1999] u/m/mulder/a10.c line 59: Illegal LHS
+
+[Sun Sep 12 22:00:40 1999] u/m/mulder/a10.c line 59: parse error
+
+[Sun Sep 12 22:00:40 1999] u/m/mulder/a10.c line 71: Illegal LHS
+
+[Sun Sep 12 22:00:40 1999] u/m/mulder/a10.c line 71: parse error
+
+[Sun Sep 12 22:02:01 1999] u/m/mulder/a10.c line 41: parse error
+
+[Sun Sep 12 22:02:01 1999] u/m/mulder/a10.c line 57: Illegal LHS
+
+[Sun Sep 12 22:02:01 1999] u/m/mulder/a10.c line 59: Illegal LHS
+
+[Sun Sep 12 22:02:01 1999] u/m/mulder/a10.c line 59: parse error
+
+[Sun Sep 12 22:02:01 1999] u/m/mulder/a10.c line 71: Illegal LHS
+
+[Sun Sep 12 22:02:01 1999] u/m/mulder/a10.c line 71: parse error
+
+[Sun Sep 12 22:04:17 1999] u/m/mulder/a10.c line 41: parse error
+
+[Sun Sep 12 22:04:17 1999] u/m/mulder/a10.c line 57: Illegal LHS
+
+[Sun Sep 12 22:04:17 1999] u/m/mulder/a10.c line 59: Illegal LHS
+
+[Sun Sep 12 22:04:17 1999] u/m/mulder/a10.c line 59: parse error
+
+[Sun Sep 12 22:04:17 1999] u/m/mulder/a10.c line 71: Illegal LHS
+
+[Sun Sep 12 22:04:17 1999] u/m/mulder/a10.c line 71: parse error
+
+[Sun Sep 12 22:08:09 1999] u/m/mulder/a10.c line 41: parse error
+
+[Sun Sep 12 22:08:09 1999] u/m/mulder/a10.c line 57: Illegal LHS
+
+[Sun Sep 12 22:08:09 1999] u/m/mulder/a10.c line 59: Illegal LHS
+
+[Sun Sep 12 22:08:09 1999] u/m/mulder/a10.c line 59: parse error
+
+[Sun Sep 12 22:08:09 1999] u/m/mulder/a10.c line 71: Illegal LHS
+
+[Sun Sep 12 22:08:09 1999] u/m/mulder/a10.c line 71: parse error
+
+[Sun Sep 12 22:11:18 1999] u/m/mulder/a10.c line 41: parse error
+
+[Sun Sep 12 22:11:18 1999] u/m/mulder/a10.c line 57: Illegal LHS
+
+[Sun Sep 12 22:11:18 1999] u/m/mulder/a10.c line 59: Illegal LHS
+
+[Sun Sep 12 22:11:18 1999] u/m/mulder/a10.c line 59: parse error
+
+[Sun Sep 12 22:11:18 1999] u/m/mulder/a10.c line 71: Illegal LHS
+
+[Sun Sep 12 22:11:18 1999] u/m/mulder/a10.c line 71: parse error
+
+[Sun Sep 12 22:15:25 1999] u/m/mulder/a10.c line 43: parse error
+
+[Sun Sep 12 22:25:23 1999] u/m/mulder/npc/battle.c line 32: parse error
+
+[Sun Sep 12 22:25:23 1999] u/m/mulder/npc/battle.c line 46: End of file in string
+
+[Mon Sep 13 14:23:37 1999] u/m/mulder/a10.c line 83: Too few arguments to remove_call_out
+
+[Mon Sep 13 14:23:37 1999] u/m/mulder/a10.c line 84: parse error
+
+[Mon Sep 13 14:23:47 1999] u/m/mulder/a10.c line 83: Too few arguments to remove_call_out
+
+[Mon Sep 13 14:23:47 1999] u/m/mulder/a10.c line 84: parse error
+
+[Mon Sep 13 15:00:24 1999] u/m/mulder/npc/battle.c line 31: parse error
+
+[Mon Sep 20 15:24:59 1999] u/m/mulder/area/naboo/npc/battle.c line 2: parse error
+
+[Mon Sep 20 15:25:01 1999] u/m/mulder/area/naboo/npc/battle.c line 2: parse error
+
+[Mon Sep 20 15:41:38 1999] u/m/mulder/area/naboo/npc/battle.c line 2: parse error
+
+[Mon Sep 20 16:10:31 1999] u/m/mulder/area/naboo/npc/battle.c line 2: parse error
+
+[Mon Sep 20 16:11:21 1999] u/m/mulder/area/naboo/npc/battle.c line 33: parse error
+
+[Mon Sep 20 16:11:21 1999] u/m/mulder/area/naboo/npc/battle.c line 47: End of file in string
+
+[Mon Sep 20 16:12:21 1999] u/m/mulder/area/naboo/npc/battle.c line 33: parse error
+
+[Mon Sep 20 16:12:21 1999] u/m/mulder/area/naboo/npc/battle.c line 47: End of file in string
+
+[Mon Sep 20 16:18:47 1999] u/m/mulder/area/naboo/npc/wp/blaster.c line 3: parse error
+
+[Mon Sep 20 16:19:25 1999] u/m/mulder/area/naboo/npc/wp/blaster.c line 3: parse error
+
+[Mon Sep 20 16:20:39 1999] u/m/mulder/area/naboo/npc/wp/blaster.c line 3: Illegal to redefine 'nomask' function "query_weight"
+
+[Mon Sep 20 16:20:39 1999] u/m/mulder/area/naboo/npc/wp/blaster.c line 3: Illegal to redefine 'nomask' function "_query"
+
+[Mon Sep 20 16:20:39 1999] u/m/mulder/area/naboo/npc/wp/blaster.c line 3: Illegal to redefine 'nomask' function "_delete"
+
+[Mon Sep 20 16:20:39 1999] u/m/mulder/area/naboo/npc/wp/blaster.c line 3: Illegal to redefine 'nomask' function "_set"
+
+[Mon Sep 20 16:20:39 1999] u/m/mulder/area/naboo/npc/wp/blaster.c line 3: Illegal to redefine 'nomask' function "query_encumbrance"
+
+[Mon Sep 20 16:20:39 1999] u/m/mulder/area/naboo/npc/wp/blaster.c line 3: Illegal to redefine 'nomask' function "over_encumbranced"
+
+[Mon Sep 20 16:21:23 1999] u/m/mulder/area/naboo/npc/wp/blaster.c line 3: parse error
+
+[Mon Sep 20 16:27:53 1999] u/m/mulder/area/naboo/npc/wp/battle.c line 2: parse error
+
+[Tue Oct 12 15:44:33 1999] u/m/mulder/area/naboo/jungle/jungle2.c line 27: End of file in string
+
+[Tue Oct 12 15:44:33 1999] u/m/mulder/area/naboo/jungle/jungle2.c line 27: Undefined variable 'forest'
+
+
+[Tue Oct 12 15:44:33 1999] u/m/mulder/area/naboo/jungle/jungle2.c line 27: parse error
+
+[Tue Oct 12 15:45:01 1999] u/m/mulder/area/naboo/jungle/jungle4.c line 27: End of file in string
+
+[Tue Oct 12 15:45:01 1999] u/m/mulder/area/naboo/jungle/jungle4.c line 27: Undefined variable 'forest'
+
+
+[Tue Oct 12 15:45:01 1999] u/m/mulder/area/naboo/jungle/jungle4.c line 27: parse error
+
+[Tue Oct 12 15:45:49 1999] u/m/mulder/area/naboo/jungle/jungle3.c line 27: End of file in string
+
+[Tue Oct 12 15:45:49 1999] u/m/mulder/area/naboo/jungle/jungle3.c line 27: Undefined variable 'forest'
+
+
+[Tue Oct 12 15:45:49 1999] u/m/mulder/area/naboo/jungle/jungle3.c line 27: parse error
+
+[Tue Oct 12 15:45:57 1999] u/m/mulder/area/naboo/jungle/jungle3.c line 27: End of file in string
+
+[Tue Oct 12 15:45:57 1999] u/m/mulder/area/naboo/jungle/jungle3.c line 27: Undefined variable 'forest'
+
+
+[Tue Oct 12 15:45:57 1999] u/m/mulder/area/naboo/jungle/jungle3.c line 27: parse error
+
+[Tue Oct 12 15:46:03 1999] u/m/mulder/area/naboo/jungle/jungle3.c line 27: End of file in string
+
+[Tue Oct 12 15:46:03 1999] u/m/mulder/area/naboo/jungle/jungle3.c line 27: Undefined variable 'forest'
+
+
+[Tue Oct 12 15:46:03 1999] u/m/mulder/area/naboo/jungle/jungle3.c line 27: parse error
+
+[Tue Oct 12 15:46:27 1999] u/m/mulder/area/naboo/jungle/jungle4.c line 27: End of file in string
+
+[Tue Oct 12 15:46:27 1999] u/m/mulder/area/naboo/jungle/jungle4.c line 27: Undefined variable 'forest'
+
+
+[Tue Oct 12 15:46:27 1999] u/m/mulder/area/naboo/jungle/jungle4.c line 27: parse error
+
+[Tue Oct 12 15:56:04 1999] u/m/mulder/area/naboo/jungle/jungle5.c line 27: End of file in string
+
+[Tue Oct 12 15:56:04 1999] u/m/mulder/area/naboo/jungle/jungle5.c line 27: Undefined variable 'forest'
+
+
+[Tue Oct 12 15:56:04 1999] u/m/mulder/area/naboo/jungle/jungle5.c line 27: parse error
+
+[Tue Oct 12 16:33:41 1999] u/m/mulder/npc/morral.c line 17: parse error
+
+[Tue Oct 12 18:32:44 1999] u/m/mulder/area/naboo/jungle/jungle.c line 22: parse error
+
+[Tue Oct 12 18:42:16 1999] u/m/mulder/area/naboo/jungle/jungle2.c line 23: A reserved type name cannot be used as a function name.
+
+
+[Tue Oct 12 18:42:16 1999] u/m/mulder/area/naboo/jungle/jungle2.c line 23: parse error
+
+[Wed Oct 13 17:11:34 1999] u/m/mulder/mpill.c line 40: parse error
+
+[Wed Oct 13 20:46:43 1999] u/m/mulder/area/naboo/npc/bar.c line 3: parse error
+
+[Wed Oct 13 20:46:51 1999] u/m/mulder/area/naboo/npc/bar.c line 3: parse error
+
+[Wed Oct 13 20:46:51 1999] u/m/mulder/area/naboo/npc/bar.c line 3: parse error
+
+[Wed Oct 13 21:12:07 1999] u/m/mulder/area/naboo/npc/obj/cola.c line 14: parse error
+
+[Wed Oct 13 21:14:24 1999] u/m/mulder/area/naboo/npc/obj/cola.c line 14: parse error
+
+[Wed Oct 13 21:17:29 1999] u/m/mulder/area/naboo/npc/obj/cola.c line 14: parse error
+
+[Wed Oct 13 21:34:51 1999] u/m/mulder/area/naboo/npc/obj/whisky.c line 23: A reserved type name cannot be used as a function name.
+
+
+[Wed Oct 13 21:34:51 1999] u/m/mulder/area/naboo/npc/obj/whisky.c line 23: parse error
+
+[Wed Oct 13 21:34:51 1999] u/m/mulder/area/naboo/npc/obj/whisky.c line 41: parse error
+
+[Wed Oct 13 21:38:19 1999] u/m/mulder/area/naboo/npc/obj/whisky.c line 41: parse error
+
+[Wed Oct 13 21:45:29 1999] u/m/mulder/area/naboo/npc/obj/whisky.c line 41: parse error
+
+[Wed Oct 13 21:45:35 1999] u/m/mulder/area/naboo/npc/obj/whisky.c line 41: parse error
+
+[Wed Oct 13 21:48:55 1999] u/m/mulder/area/naboo/npc/obj/whisky.c line 41: parse error
+
+[Wed Oct 13 21:50:02 1999] u/m/mulder/area/naboo/npc/obj/whisky.c line 40: parse error
+
+[Thu Oct 14 20:30:24 1999] u/m/mulder/space.c line 61: No such inherited function ::init
+
+[Thu Oct 14 20:30:24 1999] u/m/mulder/space.c line 68: Redeclaration of function init.
+
+[Thu Oct 14 20:33:18 1999] u/m/mulder/space.c line 61: No such inherited function ::init
+
+[Thu Oct 14 20:33:18 1999] u/m/mulder/space.c line 68: Redeclaration of function init.
+
+[Sun Oct 17 17:22:37 1999] u/m/mulder/obi.c line 159: parse error
+
+[Sun Oct 17 17:22:37 1999] u/m/mulder/obi.c line 166: End of file in string
+
+[Sun Oct 17 17:54:15 1999] u/m/mulder/obi.c line 159: parse error
+
+[Sun Oct 17 17:54:15 1999] u/m/mulder/obi.c line 166: End of file in string
+
+[Sun Oct 17 17:56:12 1999] u/m/mulder/obi.c line 159: parse error
+
+[Sun Oct 17 17:56:12 1999] u/m/mulder/obi.c line 166: End of file in string
+
+[Sun Oct 17 18:16:00 1999] u/m/mulder/a10.c line 39: parse error
+
+[Sun Oct 17 18:16:00 1999] u/m/mulder/a10.c line 64: Illegal LHS
+
+[Sun Oct 17 18:16:00 1999] u/m/mulder/a10.c line 66: Illegal LHS
+
+[Sun Oct 17 18:16:00 1999] u/m/mulder/a10.c line 66: parse error
+
+[Sun Oct 17 18:16:00 1999] u/m/mulder/a10.c line 78: Illegal LHS
+
+[Sun Oct 17 18:16:00 1999] u/m/mulder/a10.c line 78: parse error
+
+[Sun Oct 17 18:18:29 1999] u/m/mulder/a10.c line 39: parse error
+
+[Sun Oct 17 18:18:29 1999] u/m/mulder/a10.c line 64: Illegal LHS
+
+[Sun Oct 17 18:18:29 1999] u/m/mulder/a10.c line 66: Illegal LHS
+
+[Sun Oct 17 18:18:29 1999] u/m/mulder/a10.c line 66: parse error
+
+[Sun Oct 17 18:18:29 1999] u/m/mulder/a10.c line 78: Illegal LHS
+
+[Sun Oct 17 18:18:29 1999] u/m/mulder/a10.c line 78: parse error
+
+[Sun Oct 17 20:10:31 1999] u/m/mulder/a10.c line 72: parse error
+
+[Sun Oct 17 20:10:31 1999] u/m/mulder/a10.c line 80: Illegal LHS
+
+[Sun Oct 17 20:10:31 1999] u/m/mulder/a10.c line 80: parse error
+
+[Sun Oct 17 20:10:31 1999] u/m/mulder/a10.c line 81: Illegal LHS
+
+[Sun Oct 17 20:10:31 1999] u/m/mulder/a10.c line 81: parse error
+
+[Sun Oct 17 20:10:55 1999] u/m/mulder/a10.c line 72: parse error
+
+[Sun Oct 17 20:10:55 1999] u/m/mulder/a10.c line 80: Illegal LHS
+
+[Sun Oct 17 20:10:55 1999] u/m/mulder/a10.c line 80: parse error
+
+[Sun Oct 17 20:10:55 1999] u/m/mulder/a10.c line 81: Illegal LHS
+
+[Sun Oct 17 20:10:55 1999] u/m/mulder/a10.c line 81: parse error
+
+[Sun Oct 17 20:12:39 1999] u/m/mulder/force_push.c line 42: parse error
+
+[Sun Oct 17 20:20:47 1999] u/m/mulder/area/naboo/npc/bar.c line 7: Undefined variable 'bar'
+
+
+[Sun Oct 17 20:23:59 1999] u/m/mulder/area/naboo/npc/bar.c line 7: Undefined variable 'bar'
+
+
+[Sun Oct 17 20:29:12 1999] u/m/mulder/area/naboo/bar.c line 31: Undefined variable 'me'
+
+
+[Sun Oct 17 20:31:33 1999] u/m/mulder/area/naboo/bar.c line 33: Undefined variable 'this_player'
+
+
+[Sun Oct 17 20:32:57 1999] u/m/mulder/area/naboo/bar.c line 33: Undefined variable 'this_player'
+
+
+[Sun Oct 17 20:36:09 1999] u/m/mulder/area/naboo/bar.c line 35: Invalid argument types to '+' ( string vs object )
+
+[Sun Oct 17 20:36:09 1999] u/m/mulder/area/naboo/bar.c line 35: Invalid argument types to '+' ( string vs object )
+
+[Sun Oct 17 20:36:09 1999] u/m/mulder/area/naboo/bar.c line 38: Invalid argument types to '+' ( string vs object )
+
+[Sun Oct 17 20:36:49 1999] u/m/mulder/area/naboo/bar.c line 35: parse error
+
+[Sun Oct 17 20:37:44 1999] u/m/mulder/area/naboo/bar.c line 35: parse error
+
+[Sun Oct 17 20:38:22 1999] u/m/mulder/area/naboo/bar.c line 35: parse error
+
+[Sun Oct 17 20:40:50 1999] u/m/mulder/area/naboo/bar.c line 35: parse error
+
+[Sun Oct 17 20:41:12 1999] u/m/mulder/area/naboo/bar.c line 35: parse error
+
+[Sun Oct 17 20:41:44 1999] u/m/mulder/area/naboo/bar.c line 35: parse error
+
+[Sun Oct 17 20:57:14 1999] u/m/mulder/area/naboo/npc/bar.c line 31: Redeclaration of function init.
+
+[Sun Oct 17 20:57:14 1999] u/m/mulder/area/naboo/npc/bar.c line 37: parse error
+
+[Sun Oct 17 20:57:14 1999] u/m/mulder/area/naboo/npc/bar.c line 42: $var illegal outside of function.
+
+[Sun Oct 17 21:00:59 1999] u/m/mulder/area/naboo/npc/bar.c line 31: Redeclaration of function init.
+
+[Sun Oct 17 21:00:59 1999] u/m/mulder/area/naboo/npc/bar.c line 37: parse error
+
+[Sun Oct 17 21:00:59 1999] u/m/mulder/area/naboo/npc/bar.c line 42: $var illegal outside of function.
+
+[Sun Oct 17 21:07:16 1999] u/m/mulder/area/naboo/npc/bar.c line 34: parse error
+
+[Sun Oct 17 21:07:16 1999] u/m/mulder/area/naboo/npc/bar.c line 39: $var illegal outside of function.
+
+[Sun Oct 17 21:09:01 1999] u/m/mulder/area/naboo/npc/bar.c line 34: parse error
+
+[Sun Oct 17 21:09:01 1999] u/m/mulder/area/naboo/npc/bar.c line 39: $var illegal outside of function.
+
+[Sun Oct 17 21:10:23 1999] u/m/mulder/area/naboo/npc/bar.c line 34: parse error
+
+[Sun Oct 17 21:10:49 1999] u/m/mulder/area/naboo/npc/bar.c line 34: parse error
+
+[Sun Oct 17 21:13:08 1999] u/m/mulder/area/naboo/npc/bar.c line 34: parse error
+
+[Sun Oct 17 21:13:08 1999] u/m/mulder/area/naboo/npc/bar.c line 39: $var illegal outside of function.
+
+[Sun Oct 17 21:15:33 1999] u/m/mulder/area/naboo/npc/bar.c line 34: parse error
+
+[Sun Oct 17 21:15:33 1999] u/m/mulder/area/naboo/npc/bar.c line 39: $var illegal outside of function.
+
+[Sun Oct 17 21:23:42 1999] u/m/mulder/area/naboo/npc/bar.c line 34: parse error
+
+[Sun Oct 17 21:23:42 1999] u/m/mulder/area/naboo/npc/bar.c line 39: $var illegal outside of function.
+
+[Sun Oct 17 21:25:37 1999] u/m/mulder/area/naboo/npc/bar.c line 34: parse error
+
+[Sun Oct 17 21:25:37 1999] u/m/mulder/area/naboo/npc/bar.c line 39: $var illegal outside of function.
+
+[Sun Oct 17 21:28:29 1999] u/m/mulder/area/naboo/npc/bar.c line 37: parse error
+
+[Sun Oct 17 21:29:25 1999] u/m/mulder/area/naboo/npc/bar.c line 37: parse error
+
+[Sun Oct 17 21:35:46 1999] u/m/mulder/area/naboo/npc/bar.c line 37: parse error
+
+[Sun Oct 17 21:48:11 1999] u/m/mulder/area/naboo/npc/bar.c line 37: parse error
+
+[Sun Oct 17 21:50:24 1999] u/m/mulder/area/naboo/npc/bar.c line 37: parse error
+
+[Mon Oct 18 14:07:46 1999] u/m/mulder/npc/thief1.c line 15: parse error
+
+[Mon Oct 18 14:08:22 1999] u/m/mulder/npc/thief1.c line 15: parse error
+
+[Mon Oct 18 14:32:57 1999] u/m/mulder/npc/thief1.c line 15: parse error
+
+[Mon Oct 18 14:47:58 1999] u/m/mulder/npc/thief1.c line 15: parse error
+
+[Mon Oct 18 15:02:59 1999] u/m/mulder/npc/thief1.c line 15: parse error
+
+[Mon Oct 18 15:18:00 1999] u/m/mulder/npc/thief1.c line 15: parse error
+
+[Mon Oct 18 16:01:30 1999] u/m/mulder/npc/thief1.c line 15: parse error
+
+[Mon Oct 18 16:02:28 1999] u/m/mulder/npc/thief1.c line 15: parse error
+
+[Mon Oct 18 17:29:25 1999] u/m/mulder/area/naboo/bar.c line 22: parse error
+
+[Mon Oct 18 17:47:34 1999] u/m/mulder/area/naboo/bar.c line 22: parse error
+
+[Mon Oct 18 17:56:50 1999] u/m/mulder/area/naboo/bar.c line 22: parse error
+
+[Mon Oct 18 19:03:50 1999] u/m/mulder/area/naboo/bar.c line 22: parse error
+
+[Mon Oct 18 19:13:25 1999] u/m/mulder/area/naboo/bar.c line 22: parse error
+
+[Sat Oct 23 12:12:47 1999] u/m/mulder/obj/wineskin.c line 4: parse error
+
+[Sat Oct 30 20:36:16 1999] u/m/mulder/area/naboo/bar.c line 22: parse error
+
+[Sat Oct 30 20:36:39 1999] u/m/mulder/area/naboo/bar.c line 22: parse error
+
+[Sat Nov  6 19:14:11 1999] u/m/mulder/area/naboo/bar.c line 22: parse error
+
+[Sun Nov  7 14:45:42 1999] u/m/mulder/area/naboo/npc/butterfly.c line 8: parse error
+
+[Sun Nov  7 14:45:42 1999] u/m/mulder/area/naboo/npc/butterfly.c line 20: End of file in string
+
+[Sun Nov  7 14:47:57 1999] u/m/mulder/area/naboo/npc/butterfly.c line 8: parse error
+
+[Sun Nov  7 14:47:57 1999] u/m/mulder/area/naboo/npc/butterfly.c line 20: End of file in string
+
+[Sun Nov  7 14:47:57 1999] u/m/mulder/area/naboo/npc/butterfly.c line 8: parse error
+
+[Sun Nov  7 14:47:57 1999] u/m/mulder/area/naboo/npc/butterfly.c line 20: End of file in string
+
+[Sun Nov  7 14:48:37 1999] u/m/mulder/area/naboo/npc/butterfly.c line 8: parse error
+
+[Sun Nov  7 14:48:37 1999] u/m/mulder/area/naboo/npc/butterfly.c line 20: End of file in string
+
+[Sun Nov  7 18:48:47 1999] u/m/mulder/area/naboo/npc/monk.c line 28: Undefined variable 'cast_fireball'
+
+
+[Sun Nov  7 18:48:47 1999] u/m/mulder/area/naboo/npc/monk.c line 28: parse error
+
+[Sun Nov  7 18:48:47 1999] u/m/mulder/area/naboo/npc/monk.c line 44: Illegal LHS
+
+[Sun Nov  7 18:48:47 1999] u/m/mulder/area/naboo/npc/monk.c line 44: parse error
+
+[Sun Nov  7 18:48:47 1999] u/m/mulder/area/naboo/npc/monk.c line 46: Undefined variable 'me'
+
+
+[Sun Nov  7 18:48:47 1999] u/m/mulder/area/naboo/npc/monk.c line 46: Illegal LHS
+
+[Sun Nov  7 18:52:19 1999] u/m/mulder/area/naboo/npc/monk.c line 28: Undefined variable 'cast_fireball'
+
+
+[Sun Nov  7 18:52:19 1999] u/m/mulder/area/naboo/npc/monk.c line 28: parse error
+
+[Sun Nov  7 18:52:19 1999] u/m/mulder/area/naboo/npc/monk.c line 40: Illegal LHS
+
+[Sun Nov  7 18:52:19 1999] u/m/mulder/area/naboo/npc/monk.c line 40: parse error
+
+[Sun Nov  7 18:52:19 1999] u/m/mulder/area/naboo/npc/monk.c line 53: Illegal LHS
+
+[Sun Nov  7 18:52:19 1999] u/m/mulder/area/naboo/npc/monk.c line 53: parse error
+
+[Sun Nov  7 18:53:39 1999] u/m/mulder/area/naboo/npc/monk.c line 47: A reserved type name cannot be used as a function name.
+
+
+[Sun Nov  7 18:53:39 1999] u/m/mulder/area/naboo/npc/monk.c line 47: parse error
+
+[Sun Nov  7 18:53:39 1999] u/m/mulder/area/naboo/npc/monk.c line 52: Illegal LHS
+
+[Sun Nov  7 18:53:39 1999] u/m/mulder/area/naboo/npc/monk.c line 54: Undefined variable 'ob'
+
+
+[Sun Nov  7 18:53:39 1999] u/m/mulder/area/naboo/npc/monk.c line 54: Undefined variable 'me'
+
+
+[Sun Nov  7 18:53:39 1999] u/m/mulder/area/naboo/npc/monk.c line 68: Undefined variable 'damage'
+
+
+[Sun Nov  7 19:03:35 1999] u/m/mulder/area/naboo/npc/monk.c line 51: parse error
+
+[Sun Nov  7 19:03:35 1999] u/m/mulder/area/naboo/npc/monk.c line 57: Illegal LHS
+
+[Sun Nov  7 19:03:35 1999] u/m/mulder/area/naboo/npc/monk.c line 57: parse error
+
+[Sun Nov  7 19:03:35 1999] u/m/mulder/area/naboo/npc/monk.c line 58: Illegal LHS
+
+[Sun Nov  7 19:03:35 1999] u/m/mulder/area/naboo/npc/monk.c line 58: parse error
+
+[Sun Nov  7 19:03:35 1999] u/m/mulder/area/naboo/npc/monk.c line 59: Illegal LHS
+
+[Sun Nov  7 19:06:01 1999] u/m/mulder/area/naboo/npc/monk.c line 51: parse error
+
+[Sun Nov  7 19:06:01 1999] u/m/mulder/area/naboo/npc/monk.c line 57: Illegal LHS
+
+[Sun Nov  7 19:06:01 1999] u/m/mulder/area/naboo/npc/monk.c line 57: parse error
+
+[Sun Nov  7 19:06:01 1999] u/m/mulder/area/naboo/npc/monk.c line 58: Illegal LHS
+
+[Sun Nov  7 19:06:01 1999] u/m/mulder/area/naboo/npc/monk.c line 58: parse error
+
+[Sun Nov  7 19:06:01 1999] u/m/mulder/area/naboo/npc/monk.c line 59: Illegal LHS
+
+[Sun Nov  7 19:09:40 1999] u/m/mulder/area/naboo/npc/monk.c line 63: parse error
+
+[Sun Nov  7 19:09:40 1999] u/m/mulder/area/naboo/npc/monk.c line 69: Illegal LHS
+
+[Sun Nov  7 19:09:40 1999] u/m/mulder/area/naboo/npc/monk.c line 69: parse error
+
+[Sun Nov  7 19:09:40 1999] u/m/mulder/area/naboo/npc/monk.c line 70: Illegal LHS
+
+[Sun Nov  7 19:09:40 1999] u/m/mulder/area/naboo/npc/monk.c line 70: parse error
+
+[Sun Nov  7 19:09:40 1999] u/m/mulder/area/naboo/npc/monk.c line 71: Illegal LHS
+
+[Sun Nov  7 19:14:19 1999] u/m/mulder/area/naboo/npc/monk.c line 63: parse error
+
+[Sun Nov  7 19:14:19 1999] u/m/mulder/area/naboo/npc/monk.c line 69: Illegal LHS
+
+[Sun Nov  7 19:14:19 1999] u/m/mulder/area/naboo/npc/monk.c line 69: parse error
+
+[Sun Nov  7 19:14:19 1999] u/m/mulder/area/naboo/npc/monk.c line 70: Illegal LHS
+
+[Sun Nov  7 19:14:19 1999] u/m/mulder/area/naboo/npc/monk.c line 70: parse error
+
+[Sun Nov  7 19:14:19 1999] u/m/mulder/area/naboo/npc/monk.c line 71: Illegal LHS
+
+[Sun Nov  7 19:16:45 1999] u/m/mulder/area/naboo/npc/monk.c line 63: parse error
+
+[Sun Nov  7 19:16:45 1999] u/m/mulder/area/naboo/npc/monk.c line 69: Illegal LHS
+
+[Sun Nov  7 19:16:45 1999] u/m/mulder/area/naboo/npc/monk.c line 69: parse error
+
+[Sun Nov  7 19:16:45 1999] u/m/mulder/area/naboo/npc/monk.c line 70: Illegal LHS
+
+[Sun Nov  7 19:16:45 1999] u/m/mulder/area/naboo/npc/monk.c line 70: parse error
+
+[Sun Nov  7 19:16:45 1999] u/m/mulder/area/naboo/npc/monk.c line 71: Illegal LHS
+
+[Sun Nov  7 20:53:52 1999] u/m/mulder/area/naboo/npc/monk.c line 63: parse error
+
+[Sun Nov  7 20:53:52 1999] u/m/mulder/area/naboo/npc/monk.c line 69: Illegal LHS
+
+[Sun Nov  7 20:53:52 1999] u/m/mulder/area/naboo/npc/monk.c line 69: parse error
+
+[Sun Nov  7 20:53:52 1999] u/m/mulder/area/naboo/npc/monk.c line 70: Illegal LHS
+
+[Sun Nov  7 20:53:52 1999] u/m/mulder/area/naboo/npc/monk.c line 70: parse error
+
+[Sun Nov  7 20:53:52 1999] u/m/mulder/area/naboo/npc/monk.c line 71: Illegal LHS
+
+[Sun Nov  7 20:55:10 1999] u/m/mulder/area/naboo/npc/monk.c line 51: parse error
+
+[Sun Nov  7 20:55:10 1999] u/m/mulder/area/naboo/npc/monk.c line 57: Illegal LHS
+
+[Sun Nov  7 20:55:10 1999] u/m/mulder/area/naboo/npc/monk.c line 57: parse error
+
+[Sun Nov  7 20:55:10 1999] u/m/mulder/area/naboo/npc/monk.c line 58: Illegal LHS
+
+[Sun Nov  7 20:55:10 1999] u/m/mulder/area/naboo/npc/monk.c line 58: parse error
+
+[Sun Nov  7 20:55:10 1999] u/m/mulder/area/naboo/npc/monk.c line 59: Illegal LHS
+
+[Sun Nov  7 20:55:22 1999] u/m/mulder/area/naboo/npc/monk.c line 51: parse error
+
+[Sun Nov  7 20:55:22 1999] u/m/mulder/area/naboo/npc/monk.c line 57: Illegal LHS
+
+[Sun Nov  7 20:55:22 1999] u/m/mulder/area/naboo/npc/monk.c line 57: parse error
+
+[Sun Nov  7 20:55:22 1999] u/m/mulder/area/naboo/npc/monk.c line 58: Illegal LHS
+
+[Sun Nov  7 20:55:22 1999] u/m/mulder/area/naboo/npc/monk.c line 58: parse error
+
+[Sun Nov  7 20:55:22 1999] u/m/mulder/area/naboo/npc/monk.c line 59: Illegal LHS
+
+[Sun Nov  7 21:20:36 1999] u/m/mulder/area/naboo/npc/monk.c line 47: parse error
+
+[Sun Nov  7 21:20:36 1999] u/m/mulder/area/naboo/npc/monk.c line 50: Illegal terminator
+
+[Sun Nov  7 21:20:36 1999] u/m/mulder/area/naboo/npc/monk.c line 50: Text block exceeded maximum length
+
+[Sun Nov  7 21:20:36 1999] u/m/mulder/area/naboo/npc/monk.c line 51: Illegal terminator
+
+[Sun Nov  7 21:20:36 1999] u/m/mulder/area/naboo/npc/monk.c line 51: Text block exceeded maximum length
+
+[Sun Nov  7 21:20:36 1999] u/m/mulder/area/naboo/npc/monk.c line 56: $var illegal outside of function.
+
+[Sun Nov  7 21:21:02 1999] u/m/mulder/area/naboo/npc/monk.c line 47: parse error
+
+[Sun Nov  7 21:21:02 1999] u/m/mulder/area/naboo/npc/monk.c line 50: Illegal terminator
+
+[Sun Nov  7 21:21:02 1999] u/m/mulder/area/naboo/npc/monk.c line 50: Text block exceeded maximum length
+
+[Sun Nov  7 21:21:02 1999] u/m/mulder/area/naboo/npc/monk.c line 51: Illegal terminator
+
+[Sun Nov  7 21:21:02 1999] u/m/mulder/area/naboo/npc/monk.c line 51: Text block exceeded maximum length
+
+[Sun Nov  7 21:21:02 1999] u/m/mulder/area/naboo/npc/monk.c line 56: $var illegal outside of function.
+
+[Fri Jan  7 18:45:48 2000] u/m/mulder/area/naboo/npc/bru.c line 7: parse error
+
+[Fri Jan  7 18:47:46 2000] u/m/mulder/area/naboo/npc/bru.c line 7: parse error
+
+[Fri Jan  7 18:48:58 2000] u/m/mulder/area/naboo/npc/bru.c line 7: parse error
+
+[Fri Jan  7 18:49:23 2000] u/m/mulder/area/naboo/npc/bru.c line 7: parse error
+
+[Fri Jan  7 18:50:09 2000] u/m/mulder/area/naboo/npc/bru.c line 7: parse error
+
+[Fri Jan  7 18:51:24 2000] u/m/mulder/area/naboo/npc/bru.c line 19: parse error
+
+[Fri Jan  7 18:59:28 2000] u/m/mulder/area/naboo/npc/bru.c line 19: parse error
+
+[Fri Jan  7 19:01:47 2000] u/m/mulder/area/naboo/npc/bru.c line 20: parse error
+
+[Fri Jan  7 19:06:16 2000] u/m/mulder/area/naboo/npc/bru.c line 18: parse error
+
+[Sun Jan  9 14:35:12 2000] u/m/mulder/area/naboo/npc/guard1.c line 23: parse error
+
+[Sun Jan  9 15:03:43 2000] u/m/mulder/area/naboo/npc/guard1.c line 54: Undefined variable 'me'
+
+
+[Sun Jan  9 15:03:43 2000] u/m/mulder/area/naboo/npc/guard1.c line 56: Type of returned value doesn't match function return type ( int vs void ).
+
+[Sun Jan  9 15:05:23 2000] u/m/mulder/area/naboo/npc/guard1.c line 54: Undefined variable 'me'
+
+
+[Sun Jan  9 15:06:34 2000] u/m/mulder/area/naboo/npc/guard1.c line 57: Incorrect number of arguments.
+
+[Sun Jan  9 15:09:45 2000] u/m/mulder/area/naboo/npc/guard1.c line 59: Undefined variable 'me'
+
+
+[Sun Jan  9 15:13:03 2000] u/m/mulder/area/naboo/npc/guard1.c line 58: Incorrect number of arguments.
+
+[Sun Jan  9 15:15:29 2000] u/m/mulder/area/naboo/npc/guard1.c line 59: Undefined variable 'me'
+
+
+[Sun Jan  9 17:45:22 2000] u/m/mulder/area/naboo/middle.c line 20: Undefined variable 'look_board'
+
+
+[Sun Jan  9 17:45:22 2000] u/m/mulder/area/naboo/middle.c line 20: parse error
+
+[Sun Jan  9 17:46:59 2000] u/m/mulder/area/naboo/middle.c line 20: Undefined variable 'look_board'
+
+
+[Sun Jan  9 17:46:59 2000] u/m/mulder/area/naboo/middle.c line 20: parse error
+
+[Sun Jan  9 17:47:09 2000] u/m/mulder/area/naboo/middle.c line 20: Undefined variable 'look_board'
+
+
+[Sun Jan  9 17:47:09 2000] u/m/mulder/area/naboo/middle.c line 20: parse error
+
+[Sun Jan  9 17:51:11 2000] u/m/mulder/area/naboo/middle.c line 20: Undefined variable 'look_board'
+
+
+[Sun Jan  9 17:51:11 2000] u/m/mulder/area/naboo/middle.c line 20: parse error
+
+[Sun Jan  9 18:53:23 2000] u/m/mulder/area/naboo/npc/police.c line 88: Missing type for argument
+
+[Sun Jan  9 18:53:23 2000] u/m/mulder/area/naboo/npc/police.c line 89: parse error
+
+[Sun Jan  9 19:08:34 2000] u/m/mulder/area/naboo/npc/police.c line 58: Undefined variable 'i'
+
+
+[Sun Jan  9 20:17:57 2000] u/m/mulder/area/naboo/npc/citizen.c line 6: parse error
+
+[Sun Jan  9 20:17:57 2000] u/m/mulder/area/naboo/npc/citizen.c line 17: End of file in string
+
+[Sun Jan  9 20:19:45 2000] u/m/mulder/area/naboo/npc/citizen.c line 6: parse error
+
+[Sun Jan  9 20:19:45 2000] u/m/mulder/area/naboo/npc/citizen.c line 17: End of file in string
+
+[Sun Jan  9 20:20:01 2000] u/m/mulder/area/naboo/npc/rancor.c line 11: parse error
+
+[Sun Jan  9 20:20:01 2000] u/m/mulder/area/naboo/npc/rancor.c line 11: Illegal terminator
+
+[Sun Jan  9 20:20:01 2000] u/m/mulder/area/naboo/npc/rancor.c line 11: Text block exceeded maximum length
+
+[Sun Jan  9 20:20:01 2000] u/m/mulder/area/naboo/npc/rancor.c line 11: Illegal terminator
+
+[Sun Jan  9 20:20:01 2000] u/m/mulder/area/naboo/npc/rancor.c line 11: Text block exceeded maximum length
+
+[Sun Jan  9 20:20:01 2000] u/m/mulder/area/naboo/npc/rancor.c line 21: End of file in string
+
+[Sun Jan  9 20:21:35 2000] u/m/mulder/area/naboo/npc/citizen.c line 6: parse error
+
+[Sun Jan  9 20:21:35 2000] u/m/mulder/area/naboo/npc/citizen.c line 17: End of file in string
+
+[Sun Jan  9 20:21:57 2000] u/m/mulder/area/naboo/npc/citizen.c line 6: parse error
+
+[Sun Jan  9 20:21:57 2000] u/m/mulder/area/naboo/npc/citizen.c line 17: End of file in string
+
+[Sun Jan  9 20:26:02 2000] u/m/mulder/area/naboo/npc/rancor.c line 11: parse error
+
+[Sun Jan  9 20:26:02 2000] u/m/mulder/area/naboo/npc/rancor.c line 11: Illegal terminator
+
+[Sun Jan  9 20:26:02 2000] u/m/mulder/area/naboo/npc/rancor.c line 11: Text block exceeded maximum length
+
+[Sun Jan  9 20:26:02 2000] u/m/mulder/area/naboo/npc/rancor.c line 11: Illegal terminator
+
+[Sun Jan  9 20:26:02 2000] u/m/mulder/area/naboo/npc/rancor.c line 11: Text block exceeded maximum length
+
+[Sun Jan  9 20:26:02 2000] u/m/mulder/area/naboo/npc/rancor.c line 21: End of file in string
+
+[Sun Jan  9 20:28:20 2000] u/m/mulder/area/naboo/npc/rancor.c line 11: parse error
+
+[Sun Jan  9 20:28:20 2000] u/m/mulder/area/naboo/npc/rancor.c line 11: Illegal terminator
+
+[Sun Jan  9 20:28:20 2000] u/m/mulder/area/naboo/npc/rancor.c line 11: Text block exceeded maximum length
+
+[Sun Jan  9 20:28:20 2000] u/m/mulder/area/naboo/npc/rancor.c line 11: Illegal terminator
+
+[Sun Jan  9 20:28:20 2000] u/m/mulder/area/naboo/npc/rancor.c line 11: Text block exceeded maximum length
+
+[Sun Jan  9 20:28:20 2000] u/m/mulder/area/naboo/npc/rancor.c line 21: End of file in string
+
+[Sun Jan  9 20:28:26 2000] u/m/mulder/area/naboo/npc/rancor.c line 11: parse error
+
+[Sun Jan  9 20:28:26 2000] u/m/mulder/area/naboo/npc/rancor.c line 11: Illegal terminator
+
+[Sun Jan  9 20:28:26 2000] u/m/mulder/area/naboo/npc/rancor.c line 11: Text block exceeded maximum length
+
+[Sun Jan  9 20:28:26 2000] u/m/mulder/area/naboo/npc/rancor.c line 11: Illegal terminator
+
+[Sun Jan  9 20:28:26 2000] u/m/mulder/area/naboo/npc/rancor.c line 11: Text block exceeded maximum length
+
+[Sun Jan  9 20:28:26 2000] u/m/mulder/area/naboo/npc/rancor.c line 21: End of file in string
+
+[Sun Jan  9 20:29:59 2000] u/m/mulder/area/naboo/npc/beauty.c line 21: parse error
+
+[Sun Jan  9 20:30:52 2000] u/m/mulder/area/naboo/npc/beauty.c line 21: parse error
+
+[Sun Jan  9 20:43:54 2000] u/m/mulder/area/naboo/npc/citizen.c line 6: parse error
+
+[Sun Jan  9 20:43:54 2000] u/m/mulder/area/naboo/npc/citizen.c line 16: End of file in string
+
+[Sun Jan  9 21:20:32 2000] u/m/mulder/area/naboo/npc/wseller.c line 2: Unrecognised # directive
+
+[Sun Jan  9 21:20:32 2000] u/m/mulder/area/naboo/npc/wseller.c line 25: parse error
+
+[Sun Jan  9 21:20:32 2000] u/m/mulder/area/naboo/npc/wseller.c line 34: Illegal LHS
+
+[Sun Jan  9 21:20:32 2000] u/m/mulder/area/naboo/npc/wseller.c line 34: parse error
+
+[Sun Jan  9 21:22:37 2000] u/m/mulder/area/naboo/npc/wseller.c line 2: Unrecognised # directive
+
+[Sun Jan  9 21:22:37 2000] u/m/mulder/area/naboo/npc/wseller.c line 25: parse error
+
+[Sun Jan  9 21:23:50 2000] u/m/mulder/area/naboo/npc/wseller.c line 23: parse error
+
+[Sun Jan  9 21:25:32 2000] u/m/mulder/area/naboo/npc/wseller.c line 23: parse error
+
+[Mon Jan 10 15:03:08 2000] u/m/mulder/area/naboo/inn2.c line 1: parse error
+
+[Mon Jan 10 15:03:12 2000] u/m/mulder/area/naboo/inn2.c line 1: parse error
+
+[Mon Jan 10 15:03:59 2000] u/m/mulder/area/naboo/inn2.c line 1: parse error
+
+[Mon Jan 10 15:04:05 2000] u/m/mulder/area/naboo/inn2.c line 1: parse error
+
+[Mon Jan 10 15:04:27 2000] u/m/mulder/area/naboo/inn2.c line 1: parse error
+
+[Mon Jan 10 15:05:01 2000] u/m/mulder/area/naboo/inn2.c line 1: Unrecognised # directive
+
+[Mon Jan 10 15:05:01 2000] u/m/mulder/area/naboo/inn2.c line 6: Undefined variable 'HIY'
+
+
+[Mon Jan 10 15:05:01 2000] u/m/mulder/area/naboo/inn2.c line 6: parse error
+
+[Mon Jan 10 15:06:59 2000] u/m/mulder/area/naboo/inn2.c line 1: Unrecognised # directive
+
+[Mon Jan 10 15:06:59 2000] u/m/mulder/area/naboo/inn2.c line 6: Undefined variable 'HIY'
+
+
+[Mon Jan 10 15:06:59 2000] u/m/mulder/area/naboo/inn2.c line 6: parse error
+
+[Mon Jan 10 15:07:05 2000] u/m/mulder/area/naboo/inn2.c line 1: Unrecognised # directive
+
+[Mon Jan 10 15:07:05 2000] u/m/mulder/area/naboo/inn2.c line 6: Undefined variable 'HIY'
+
+
+[Mon Jan 10 15:07:05 2000] u/m/mulder/area/naboo/inn2.c line 6: parse error
+
+[Mon Jan 10 15:11:16 2000] u/m/mulder/area/naboo/inn2.c line 25: End of file in text block
+
+[Mon Jan 10 15:11:16 2000] u/m/mulder/area/naboo/inn2.c line 25: Wrong number of arguments to set
+    Expected: 2  Got: 1
+
+[Mon Jan 10 15:11:16 2000] u/m/mulder/area/naboo/inn2.c line 25: parse error
+
+[Mon Jan 10 15:11:16 2000] u/m/mulder/area/naboo/inn2.c line 25: Undefined variable 'desc'
+
+
+[Mon Jan 10 15:11:16 2000] u/m/mulder/area/naboo/inn2.c line 25: Illegal LHS
+
+[Mon Jan 10 15:11:16 2000] u/m/mulder/area/naboo/inn2.c line 26: Undefined variable 'str'
+
+
+[Mon Jan 10 16:57:13 2000] u/m/mulder/area/naboo/inn2.c line 2: Unrecognised # directive
+
+[Mon Jan 10 16:57:13 2000] u/m/mulder/area/naboo/inn2.c line 7: Undefined variable 'HIY'
+
+
+[Mon Jan 10 16:57:13 2000] u/m/mulder/area/naboo/inn2.c line 7: parse error
+
+[Mon Jan 10 17:05:04 2000] u/m/mulder/area/naboo/inn.c line 16: parse error
+
+[Mon Jan 10 22:12:27 2000] u/m/mulder/area/naboo/jungle/jungle5.c line 22: parse error
+
+[Mon Jan 10 22:13:04 2000] u/m/mulder/area/naboo/jungle/jungle5.c line 22: parse error
+
+[Mon Jan 10 22:13:12 2000] u/m/mulder/area/naboo/jungle/jungle5.c line 22: parse error
+
+[Mon Jan 10 22:13:35 2000] u/m/mulder/area/naboo/jungle/jungle5.c line 22: parse error
+
+[Mon Jan 10 22:30:35 2000] u/m/mulder/area/naboo/jungle/junglecenter.c line 7: Undefined variable 'MAC'
+
+
+[Mon Jan 10 22:30:35 2000] u/m/mulder/area/naboo/jungle/junglecenter.c line 7: parse error
+
+[Mon Jan 10 22:31:12 2000] u/m/mulder/area/naboo/jungle/junglecenter.c line 11: parse error
+
+[Mon Jan 10 22:59:53 2000] u/m/mulder/area/naboo/jungle/tree.c line 1: Unrecognised # directive
+
+[Mon Jan 10 22:59:53 2000] u/m/mulder/area/naboo/jungle/tree.c line 6: Undefined variable 'HIG'
+
+
+[Mon Jan 10 22:59:53 2000] u/m/mulder/area/naboo/jungle/tree.c line 6: parse error
+
+[Sun Jan 23 09:51:25 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 09:51:25 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 10:10:25 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 10:10:25 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 10:25:26 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 10:25:26 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 10:40:26 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 10:40:26 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 10:55:28 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 10:55:28 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 11:10:30 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 11:10:30 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 11:25:30 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 11:25:30 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 11:40:30 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 11:40:30 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 11:55:36 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 11:55:36 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 12:10:37 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 12:10:37 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 12:25:38 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 12:25:38 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 12:40:38 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 12:40:38 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 12:55:39 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 12:55:39 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 13:10:40 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 13:10:40 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 13:25:41 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 13:25:41 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 13:40:42 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 13:40:42 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 13:55:44 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 13:55:44 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 14:10:44 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 14:10:44 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 14:25:44 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 14:25:44 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 14:40:44 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 14:40:44 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 14:55:44 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 14:55:44 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 15:10:46 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 15:10:46 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 15:25:48 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 15:25:48 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 15:40:49 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 15:40:49 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 15:55:50 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 15:55:50 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 16:10:50 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 16:10:50 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 16:25:50 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 16:25:50 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 16:40:50 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 16:40:50 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 16:55:50 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 16:55:50 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 17:10:51 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 17:10:51 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 17:25:51 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 17:25:51 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 17:40:51 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 17:40:51 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 17:55:52 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 17:55:52 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 18:10:52 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 18:10:52 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 18:25:53 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 18:25:53 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 18:40:54 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 18:40:54 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 18:55:55 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 18:55:55 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 19:10:56 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 19:10:56 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 19:25:57 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 19:25:57 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 19:40:57 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 19:40:57 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 19:55:57 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 19:55:57 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 20:10:58 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 20:10:58 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 20:25:59 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 20:25:59 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 20:41:00 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 20:41:00 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 20:56:01 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 20:56:01 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 21:11:01 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 21:11:01 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 21:26:01 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 21:26:01 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 21:41:02 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 21:41:02 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 21:56:02 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 21:56:02 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 22:11:03 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 22:11:03 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 22:26:03 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 22:26:03 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 22:41:03 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 22:41:03 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 22:56:03 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 22:56:03 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 23:11:03 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 23:11:03 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 23:26:04 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 23:26:04 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 23:41:05 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 23:41:05 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sun Jan 23 23:56:06 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Sun Jan 23 23:56:06 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Jan 24 00:11:06 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Jan 24 00:11:06 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Jan 24 00:26:07 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Jan 24 00:26:07 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Jan 24 00:41:08 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Jan 24 00:41:08 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Jan 24 00:56:09 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Jan 24 00:56:09 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Jan 24 01:11:09 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Jan 24 01:11:09 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Jan 24 01:26:09 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Jan 24 01:26:09 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Jan 24 01:41:09 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Jan 24 01:41:09 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Jan 24 01:56:09 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Jan 24 01:56:09 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Jan 24 02:11:09 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Jan 24 02:11:09 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Jan 24 02:26:10 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Jan 24 02:26:10 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Jan 24 02:41:11 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Jan 24 02:41:11 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Jan 24 02:56:12 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Jan 24 02:56:12 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Jan 24 03:11:12 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Jan 24 03:11:12 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Jan 24 03:26:13 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Jan 24 03:26:13 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Jan 24 03:41:14 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Jan 24 03:41:14 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Jan 24 03:56:14 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Jan 24 03:56:14 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Jan 24 04:11:15 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Jan 24 04:11:15 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Jan 24 04:26:15 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Jan 24 04:26:15 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Jan 24 04:41:16 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Jan 24 04:41:16 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Jan 24 04:56:16 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Jan 24 04:56:16 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Jan 24 05:11:17 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Jan 24 05:11:17 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Jan 24 05:26:18 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Jan 24 05:26:18 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Jan 24 05:41:19 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Jan 24 05:41:19 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Jan 24 05:56:20 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Jan 24 05:56:20 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Jan 24 06:11:20 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Jan 24 06:11:20 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Jan 24 06:26:20 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Jan 24 06:26:20 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Jan 24 06:41:20 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Jan 24 06:41:20 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Jan 24 06:56:21 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Jan 24 06:56:21 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Jan 24 07:11:21 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Jan 24 07:11:21 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Jan 24 07:26:21 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Jan 24 07:26:21 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Jan 24 07:41:21 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Jan 24 07:41:21 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Jan 24 07:56:22 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Jan 24 07:56:22 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Jan 24 08:11:23 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Jan 24 08:11:23 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Jan 24 08:26:24 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Jan 24 08:26:24 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Tue Feb  1 22:48:06 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Tue Feb  1 22:48:06 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Tue Feb  1 23:13:48 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Tue Feb  1 23:13:48 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Tue Feb  1 23:28:49 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Tue Feb  1 23:28:49 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Tue Feb  1 23:43:49 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Tue Feb  1 23:43:49 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Tue Feb  1 23:58:50 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Tue Feb  1 23:58:50 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 00:13:51 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 00:13:51 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 00:28:51 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 00:28:51 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 00:43:52 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 00:43:52 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 00:58:52 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 00:58:52 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 01:13:52 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 01:13:52 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 01:28:52 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 01:28:52 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 01:43:52 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 01:43:52 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 01:58:53 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 01:58:53 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 02:13:53 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 02:13:53 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 02:28:53 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 02:28:53 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 02:43:54 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 02:43:54 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 02:58:55 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 02:58:55 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 03:13:55 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 03:13:55 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 03:28:55 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 03:28:55 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 03:43:56 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 03:43:56 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 03:58:57 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 03:58:57 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 04:13:58 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 04:13:58 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 04:28:59 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 04:28:59 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 04:43:59 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 04:43:59 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 04:58:59 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 04:58:59 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 05:14:00 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 05:14:00 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 05:29:00 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 05:29:00 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 05:44:00 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 05:44:00 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 05:59:01 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 05:59:01 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 06:14:02 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 06:14:02 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 06:29:02 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 06:29:02 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 06:44:02 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 06:44:02 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 06:59:02 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 06:59:02 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 07:14:02 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 07:14:02 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 07:29:02 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 07:29:02 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 07:44:03 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 07:44:03 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 07:59:04 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 07:59:04 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 08:14:04 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 08:14:04 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 08:29:06 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 08:29:06 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 08:44:07 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 08:44:07 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 08:59:08 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 08:59:08 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 09:14:09 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 09:14:09 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 09:29:10 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 09:29:10 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 09:44:11 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 09:44:11 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 09:59:12 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 09:59:12 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 10:14:13 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 10:14:13 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 10:29:14 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 10:29:14 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 10:44:14 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 10:44:14 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 10:59:14 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 10:59:14 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 11:14:15 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 11:14:15 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 11:29:15 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 11:29:15 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 11:44:15 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 11:44:15 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 11:59:16 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 11:59:16 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 12:14:16 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 12:14:16 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 12:29:16 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 12:29:16 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 12:44:17 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 12:44:17 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 12:59:18 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 12:59:18 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 13:14:18 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 13:14:18 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 13:29:18 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 13:29:18 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 13:44:19 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 13:44:19 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 13:59:20 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 13:59:20 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 14:14:21 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 14:14:21 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 14:29:21 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 14:29:21 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 14:44:21 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 14:44:21 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  2 14:59:21 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  2 14:59:21 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Feb  7 21:12:54 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Feb  7 21:12:54 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Feb  7 21:34:59 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Feb  7 21:34:59 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Feb  7 21:49:59 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Feb  7 21:49:59 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Feb  7 22:05:00 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Feb  7 22:05:00 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Feb  7 22:20:00 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Feb  7 22:20:00 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Feb  7 22:35:01 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Feb  7 22:35:01 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Feb  7 22:50:02 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Feb  7 22:50:02 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Feb  7 23:05:03 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Feb  7 23:05:03 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Feb  7 23:20:04 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Feb  7 23:20:04 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Feb  7 23:35:04 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Feb  7 23:35:04 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Mon Feb  7 23:50:04 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Mon Feb  7 23:50:04 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Tue Feb  8 00:05:05 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Tue Feb  8 00:05:05 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  9 18:10:23 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  9 18:10:23 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  9 18:26:29 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  9 18:26:29 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  9 18:41:29 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  9 18:41:29 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  9 18:56:29 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  9 18:56:29 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  9 19:11:29 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  9 19:11:29 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  9 19:26:29 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  9 19:26:29 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  9 19:41:29 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  9 19:41:29 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  9 19:56:29 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  9 19:56:29 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  9 20:11:29 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  9 20:11:29 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  9 20:26:30 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  9 20:26:30 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  9 20:41:30 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  9 20:41:30 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  9 20:56:30 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  9 20:56:30 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  9 21:11:30 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  9 21:11:30 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  9 21:26:31 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  9 21:26:31 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  9 21:41:32 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  9 21:41:32 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  9 21:56:33 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  9 21:56:33 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  9 22:11:34 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  9 22:11:34 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  9 22:26:34 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  9 22:26:34 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  9 22:41:34 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  9 22:41:34 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  9 22:56:35 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  9 22:56:35 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  9 23:11:35 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  9 23:11:35 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  9 23:26:36 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  9 23:26:36 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  9 23:41:37 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  9 23:41:37 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Wed Feb  9 23:56:38 2000] u/m/mulder/area/naboo/npc/bar.c line 40: Undefined variable 'ob'
+
+
+[Wed Feb  9 23:56:38 2000] u/m/mulder/area/naboo/npc/bar.c line 40: parse error
+
+[Sat Aug 11 18:07:51 2001] u/m/mulder/area/naboo/npc/citizen.c line 13: Warning: Function pointer returning string constant is NOT a function call before ,
+
+[Sat Aug 11 18:07:51 2001] u/m/mulder/area/naboo/npc/child.c line 7: Warning: Unknown \ escape. before C\n");       
+
+[Sat Aug 11 18:08:01 2001] u/m/mulder/area/naboo/jungle/npc/ewoks.c line 15: Warning: Function pointer returning string constant is NOT a function call before ,
+
+[Sat Aug 11 18:08:01 2001] u/m/mulder/area/naboo/jungle/npc/rancor.c line 15: Warning: Function pointer returning string constant is NOT a function call before ,
+
+[Sat Aug 11 18:09:11 2001] u/m/mulder/area/naboo/bar.c line 40: Undefined variable 'ob' before ->obj
+
+[Sat Aug 11 18:09:11 2001] u/m/mulder/area/naboo/bar.c line 40: parse error before ->obj
+
+[Sat Aug 11 18:09:36 2001] u/m/mulder/area/naboo/jungle/npc/nuna.c line 15: Warning: Function pointer returning string constant is NOT a function call before ,
+
+[Sat Aug 11 18:09:36 2001] u/m/mulder/area/naboo/jungle/npc/pekopeko.c line 19: Warning: Function pointer returning string constant is NOT a function call before ,
+
+[Sat Aug 11 18:37:36 2001] u/m/mulder/area/naboo/jungle/npc/nuna.c line 15: Warning: Function pointer returning string constant is NOT a function call before ,
+
+[Sat Aug 11 18:37:36 2001] u/m/mulder/area/naboo/jungle/npc/rancor.c line 15: Warning: Function pointer returning string constant is NOT a function call before ,
+
+[Sat Aug 11 19:08:53 2001] u/m/mulder/area/naboo/bar.c line 40: Undefined variable 'ob' before ->obj
+
+[Sat Aug 11 19:08:53 2001] u/m/mulder/area/naboo/bar.c line 40: parse error before ->obj
+
+[Sun Apr 14 01:14:42 2002] u/m/mulder/area/naboo/npc/citizen.c line 13: Warning: Function pointer returning string constant is NOT a function call before ,
+
+[Sun Apr 14 01:14:42 2002] u/m/mulder/area/naboo/npc/child.c line 7: Warning: Unknown \ escape. before C\n");       
+
+[Sun Apr 14 01:15:07 2002] u/m/mulder/area/naboo/jungle/npc/rancor.c line 15: Warning: Function pointer returning string constant is NOT a function call before ,
+
+[Sun Apr 14 01:15:07 2002] u/m/mulder/area/naboo/jungle/npc/ewoks.c line 15: Warning: Function pointer returning string constant is NOT a function call before ,
+
+[Sun Apr 14 01:15:11 2002] u/m/mulder/area/naboo/jungle/npc/shaak.c line 15: Warning: Function pointer returning string constant is NOT a function call before ,
+
+[Sun Apr 14 01:15:11 2002] u/m/mulder/area/naboo/jungle/npc/pekopeko.c line 19: Warning: Function pointer returning string constant is NOT a function call before ,
+
+[Sun Apr 14 01:15:11 2002] u/m/mulder/area/naboo/jungle/npc/nuna.c line 15: Warning: Function pointer returning string constant is NOT a function call before ,
+
+[Sun Apr 14 01:15:55 2002] u/m/mulder/area/naboo/bar.c line 40: Undefined variable 'ob' before ->obj
+
+[Sun Apr 14 01:15:55 2002] u/m/mulder/area/naboo/bar.c line 40: parse error before ->obj
+
+[Sun Apr 14 01:15:57 2002] u/m/mulder/area/naboo/bar.c line 40: Undefined variable 'ob' before ->obj
+
+[Sun Apr 14 01:15:57 2002] u/m/mulder/area/naboo/bar.c line 40: parse error before ->obj
+
+[Sun Apr 14 01:17:57 2002] u/m/mulder/area/naboo/bar.c line 40: Undefined variable 'ob' before ->obj
+
+[Sun Apr 14 01:17:57 2002] u/m/mulder/area/naboo/bar.c line 40: parse error before ->obj
+
+[Sun Apr 14 01:39:44 2002] u/m/mulder/area/naboo/bar.c line 40: Undefined variable 'ob' before ->obj
+
+[Sun Apr 14 01:39:44 2002] u/m/mulder/area/naboo/bar.c line 40: parse error before ->obj
+
+[Sun Apr 14 02:11:36 2002] u/m/mulder/area/naboo/bar.c line 40: Undefined variable 'ob' before ->obj
+
+[Sun Apr 14 02:11:36 2002] u/m/mulder/area/naboo/bar.c line 40: parse error before ->obj
+
+[Sun Apr 14 03:41:41 2002] u/m/mulder/area/naboo/bar.c line 40: Undefined variable 'ob' before ->obj
+
+[Sun Apr 14 03:41:41 2002] u/m/mulder/area/naboo/bar.c line 40: parse error before ->obj
+
+[Wed Jan 29 11:27:46 2003] u/m/mulder/area/naboo/npc/citizen.c line 13: Warning: Function pointer returning string constant is NOT a function call before ,
+
+[Wed Jan 29 11:27:52 2003] u/m/mulder/area/naboo/npc/child.c line 7: Warning: Unknown \ escape. before C\n");       
+
+[Wed Jan 29 11:28:00 2003] u/m/mulder/area/naboo/bar.c line 40: Undefined variable 'ob' before ->obj
+
+[Wed Jan 29 11:28:00 2003] u/m/mulder/area/naboo/bar.c line 40: parse error before ->obj
+
+[Wed Jan 29 11:28:10 2003] u/m/mulder/area/naboo/bar.c line 40: Undefined variable 'ob' before ->obj
+
+[Wed Jan 29 11:28:10 2003] u/m/mulder/area/naboo/bar.c line 40: parse error before ->obj
+
+[Wed Jan 29 11:28:37 2003] u/m/mulder/area/naboo/bar.c line 40: Undefined variable 'ob' before ->obj
+
+[Wed Jan 29 11:28:37 2003] u/m/mulder/area/naboo/bar.c line 40: parse error before ->obj
+
+[Wed Jan 29 11:28:43 2003] u/m/mulder/area/naboo/jungle/npc/rancor.c line 15: Warning: Function pointer returning string constant is NOT a function call before ,
+
+[Wed Jan 29 11:28:43 2003] u/m/mulder/area/naboo/jungle/npc/ewoks.c line 15: Warning: Function pointer returning string constant is NOT a function call before ,
+
+[Wed Jan 29 11:28:59 2003] u/m/mulder/area/naboo/jungle/npc/pekopeko.c line 19: Warning: Function pointer returning string constant is NOT a function call before ,
+
+[Wed Jan 29 11:28:59 2003] u/m/mulder/area/naboo/jungle/npc/nuna.c line 15: Warning: Function pointer returning string constant is NOT a function call before ,
+
+[Wed Jan 29 11:29:33 2003] u/m/mulder/area/naboo/jungle/npc/shaak.c line 15: Warning: Function pointer returning string constant is NOT a function call before ,
+
+[Wed Jan 29 11:30:07 2003] u/m/mulder/area/naboo/bar.c line 40: Undefined variable 'ob' before ->obj
+
+[Wed Jan 29 11:30:07 2003] u/m/mulder/area/naboo/bar.c line 40: parse error before ->obj
+
+[Wed Jan 29 11:30:19 2003] u/m/mulder/area/naboo/bar.c line 40: Undefined variable 'ob' before ->obj
+
+[Wed Jan 29 11:30:19 2003] u/m/mulder/area/naboo/bar.c line 40: parse error before ->obj
+
+[Wed Jan 29 12:08:13 2003] u/m/mulder/area/naboo/bar.c line 40: Undefined variable 'ob' before ->obj
+
+[Wed Jan 29 12:08:13 2003] u/m/mulder/area/naboo/bar.c line 40: parse error before ->obj
+
+[Wed Jan 29 12:19:16 2003] u/m/mulder/area/naboo/bar.c line 40: Undefined variable 'ob' before ->obj
+
+[Wed Jan 29 12:19:16 2003] u/m/mulder/area/naboo/bar.c line 40: parse error before ->obj
+

@@ -1,0 +1,49 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清华站∶精华区</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+<A Name="top"></a>
+发信人:&nbsp;tjb&nbsp;(老六),&nbsp;信区:&nbsp;Mud_Builder&nbsp;<BR>
+标&nbsp;&nbsp;题:&nbsp;想互连MUD的巫师请看这里&nbsp;<BR>
+发信站:&nbsp;BBS&nbsp;水木清华站&nbsp;(Mon&nbsp;Aug&nbsp;18&nbsp;16:20:47&nbsp;1997)&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;这里介绍一下我的经验,请各位巫师连好后&nbsp;<BR>
+别忘了通知一下TJB哟&nbsp;<BR>
+第一步:请看一下/adm/daemons/network/dns_master.c&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;将里面关于intermud的注释删去,&nbsp;<BR>
+第二步:将/include/mudlib.h中的INTERMUD_MUD_NAME&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;设成自己的MUDNAME如我的就是TJB'ES2&nbsp;<BR>
+第三步:最好把.h中的ROOT_UID设成自己&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;将一个.h中的ACCESS_CHECK中的annihilator这个后门&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关了&nbsp;<BR>
+∶<I>其实没有太大作用，我干脆就define&nbsp;ACCESS_CHECK(x)&nbsp;(1)&nbsp;</I><BR>
+第四步:在config.h中的LISTNODE中加入你要连的MUD&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如&quot;TJB'ES2&quot;&nbsp;:&nbsp;&quot;202.200.37.35&nbsp;4004&quot;,&nbsp;\&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;正如flyroc说的互连端口为游戏端口+4&nbsp;<BR>
+∶<I>这是安息尔做的不太好的，他可以用个mapping然后存盘的。&nbsp;</I><BR>
+∶<I>好象LISTNODE不是必要的，只要连上了一个，大家的就都连上了。&nbsp;</I><BR>
+第五步:将/adm/etc/preload中的网络精灵的注释删了&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;即/adm/daemons/network/dns_master调入&nbsp;<BR>
+update&nbsp;name_server&nbsp;<BR>
+∶<I>name&nbsp;server&nbsp;is&nbsp;useless.&nbsp;</I><BR>
+update&nbsp;dns_master&nbsp;<BR>
+update&nbsp;/cmds/wiz/mudlist&nbsp;<BR>
+(name_server,dns_master在/adm/daemons/network下)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;urs&nbsp;TJB&nbsp;<BR>
+if&nbsp;you&nbsp;have&nbsp;some&nbsp;problem&nbsp;pls&nbsp;Email&nbsp;<A HREF="mailto:tangjb@hotmail.com">tangjb@hotmail.com</A>&nbsp;<BR>
+or&nbsp;post&nbsp;in&nbsp;bbs&nbsp;<BR>
+xixi&nbsp;<BR>
+如果你做好了告诉我哟,我想和你连哟xixi&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+※&nbsp;来源:·BBS&nbsp;水木清华站&nbsp;bbs.net.tsinghua.edu.cn·[FROM:&nbsp;202.200.37.35]&nbsp;<BR>
+<A HREF="00000001.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一页</A>
+<A HREF="index.htm">回到目录</A>
+<A HREF="#top">回到页首</A>
+<A HREF="00000003.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+</BODY></HTML>

@@ -1,0 +1,587 @@
+u/s/sonicct/sonicct_b.c line 2: parse error
+u/s/sonicct/sonicct_b.c line 3: parse error
+u/s/sonicct/sonicct_b.c line 14: parse error
+u/s/sonicct/5.c line 37: parse error
+u/s/sonicct/5.c line 38: parse error
+u/s/sonicct/5.c line 39: Undefined variable 'ob'
+
+u/s/sonicct/5.c line 40: Undefined variable 'verb'
+
+u/s/sonicct/npc/1.c line 39: parse error
+u/s/sonicct/5.c line 24: parse error
+u/s/sonicct/5.c line 39: parse error
+u/s/sonicct/5.c line 28: parse error
+u/s/sonicct/5.c line 39: parse error
+u/s/sonicct/5.c line 28: parse error
+u/s/sonicct/5.c line 36: parse error
+u/s/sonicct/5.c line 21: parse error
+u/s/sonicct/npc/1.c line 39: parse error
+u/s/sonicct/5.c line 27: parse error
+u/s/sonicct/sungun.c line 34: Undefined function offensive_target
+u/s/sonicct/sungun.c line 34: Bad assignment ( object vs string ).
+u/s/sonicct/5.c line 27: parse error
+u/s/sonicct/sungun.c line 25: A reserved type name cannot be used as a function name.
+
+u/s/sonicct/sungun.c line 25: parse error
+u/s/sonicct/sungun.c line 34: Undefined function offensive_target
+u/s/sonicct/sonicct_b.c line 1: parse error
+u/s/sonicct/sonicct_b.c line 1: parse error
+u/s/sonicct/5.c line 27: parse error
+u/s/sonicct/sungun.c line 25: A reserved type name cannot be used as a function name.
+
+u/s/sonicct/sungun.c line 25: parse error
+u/s/sonicct/sungun.c line 34: Undefined function offensive_target
+u/s/sonicct/5.c line 27: parse error
+u/s/sonicct/5.c line 27: parse error
+u/s/sonicct/5.c line 27: parse error
+u/s/sonicct/5.c line 27: parse error
+u/s/sonicct/5.c line 27: parse error
+u/s/sonicct/5.c line 27: parse error
+u/s/sonicct/5.c line 27: parse error
+u/s/sonicct/5.c line 27: parse error
+u/s/sonicct/5.c line 27: parse error
+u/s/sonicct/5.c line 27: Undefined variable 'ob'
+
+u/s/sonicct/sungun.c line 25: A reserved type name cannot be used as a function name.
+
+u/s/sonicct/sungun.c line 25: parse error
+u/s/sonicct/sungun.c line 34: Undefined function offensive_target
+u/s/sonicct/sungun.c line 26: parse error
+u/s/sonicct/sungun.c line 24: parse error
+u/s/sonicct/sungun.c line 23: parse error
+u/s/sonicct/sungun.c line 23: parse error
+u/s/sonicct/sungun.c line 26: parse error
+u/s/sonicct/sungun.c line 27: Missing type
+u/s/sonicct/sungun.c line 28: Missing type
+u/s/sonicct/sungun.c line 29: Missing type
+u/s/sonicct/sungun.c line 30: Missing type
+u/s/sonicct/sungun.c line 31: parse error
+u/s/sonicct/sungun.c line 26: parse error
+u/s/sonicct/sungun.c line 27: Missing type
+u/s/sonicct/sungun.c line 28: Missing type
+u/s/sonicct/sungun.c line 29: Missing type
+u/s/sonicct/sungun.c line 30: Missing type
+u/s/sonicct/sungun.c line 31: parse error
+u/s/sonicct/sungun.c line 26: parse error
+u/s/sonicct/sungun.c line 27: Missing type
+u/s/sonicct/sungun.c line 28: Missing type
+u/s/sonicct/sungun.c line 29: Missing type
+u/s/sonicct/sungun.c line 30: Missing type
+u/s/sonicct/sungun.c line 31: parse error
+u/s/sonicct/sungun.c line 26: parse error
+u/s/sonicct/sungun.c line 27: Missing type
+u/s/sonicct/sungun.c line 28: Missing type
+u/s/sonicct/sungun.c line 29: Missing type
+u/s/sonicct/sungun.c line 30: Missing type
+u/s/sonicct/sungun.c line 31: parse error
+u/s/sonicct/sungun.c line 26: parse error
+u/s/sonicct/sungun.c line 27: Missing type
+u/s/sonicct/sungun.c line 28: Missing type
+u/s/sonicct/sungun.c line 29: Missing type
+u/s/sonicct/sungun.c line 30: Missing type
+u/s/sonicct/sungun.c line 31: parse error
+u/s/sonicct/sungun.c line 26: parse error
+u/s/sonicct/sungun.c line 27: Missing type
+u/s/sonicct/sungun.c line 28: Missing type
+u/s/sonicct/sungun.c line 29: Missing type
+u/s/sonicct/sungun.c line 30: Missing type
+u/s/sonicct/sungun.c line 31: parse error
+u/s/sonicct/sungun.c line 26: parse error
+u/s/sonicct/sungun.c line 27: Missing type
+u/s/sonicct/sungun.c line 28: Missing type
+u/s/sonicct/sungun.c line 29: Missing type
+u/s/sonicct/sungun.c line 30: Missing type
+u/s/sonicct/sungun.c line 31: parse error
+u/s/sonicct/sungun.c line 26: parse error
+u/s/sonicct/sungun.c line 27: Missing type
+u/s/sonicct/sungun.c line 28: Missing type
+u/s/sonicct/sungun.c line 29: Missing type
+u/s/sonicct/sungun.c line 30: Missing type
+u/s/sonicct/sungun.c line 31: parse error
+u/s/sonicct/sungun.c line 26: parse error
+u/s/sonicct/sungun.c line 27: Missing type
+u/s/sonicct/sungun.c line 28: Missing type
+u/s/sonicct/sungun.c line 29: Missing type
+u/s/sonicct/sungun.c line 30: Missing type
+u/s/sonicct/sungun.c line 31: parse error
+u/s/sonicct/sungun.c line 26: parse error
+u/s/sonicct/sungun.c line 27: Missing type
+u/s/sonicct/sungun.c line 28: Missing type
+u/s/sonicct/sungun.c line 29: Missing type
+u/s/sonicct/sungun.c line 30: Missing type
+u/s/sonicct/sungun.c line 31: parse error
+u/s/sonicct/sungun.c line 26: parse error
+u/s/sonicct/sungun.c line 27: Missing type
+u/s/sonicct/sungun.c line 28: Missing type
+u/s/sonicct/sungun.c line 29: Missing type
+u/s/sonicct/sungun.c line 30: Missing type
+u/s/sonicct/sungun.c line 31: parse error
+u/s/sonicct/sungun.c line 26: parse error
+u/s/sonicct/sungun.c line 27: Missing type
+u/s/sonicct/sungun.c line 28: Missing type
+u/s/sonicct/sungun.c line 29: Missing type
+u/s/sonicct/sungun.c line 30: Missing type
+u/s/sonicct/sungun.c line 31: parse error
+u/s/sonicct/sungun.c line 26: parse error
+u/s/sonicct/sungun.c line 27: Missing type
+u/s/sonicct/sungun.c line 28: Missing type
+u/s/sonicct/sungun.c line 29: Missing type
+u/s/sonicct/sungun.c line 30: Missing type
+u/s/sonicct/sungun.c line 31: parse error
+u/s/sonicct/sungun.c line 26: parse error
+u/s/sonicct/sungun.c line 27: Missing type
+u/s/sonicct/sungun.c line 28: Missing type
+u/s/sonicct/sungun.c line 29: Missing type
+u/s/sonicct/sungun.c line 30: Missing type
+u/s/sonicct/sungun.c line 31: parse error
+u/s/sonicct/sungun.c line 26: parse error
+u/s/sonicct/sungun.c line 27: Missing type
+u/s/sonicct/sungun.c line 28: Missing type
+u/s/sonicct/sungun.c line 29: Missing type
+u/s/sonicct/sungun.c line 30: Missing type
+u/s/sonicct/sungun.c line 31: parse error
+u/s/sonicct/sungun.c line 26: parse error
+u/s/sonicct/sungun.c line 27: Missing type
+u/s/sonicct/sungun.c line 28: Missing type
+u/s/sonicct/sungun.c line 29: Missing type
+u/s/sonicct/sungun.c line 30: Missing type
+u/s/sonicct/sungun.c line 31: parse error
+u/s/sonicct/finalgun.c line 46: Undefined function offensive_target
+u/s/sonicct/finalgun.c line 70: Undefined variable 'damage'
+
+u/s/sonicct/finalgun.c line 70: Undefined variable 'hp'
+
+u/s/sonicct/finalgun.c line 70: Undefined variable 'mp'
+
+u/s/sonicct/finalgun.c line 72: Undefined variable 'victim'
+
+u/s/sonicct/finalgun.c line 77: parse error
+u/s/sonicct/finalgun.c line 46: Undefined function offensive_target
+u/s/sonicct/finalgun.c line 80: A reserved type name cannot be used as a function name.
+
+u/s/sonicct/finalgun.c line 80: parse error
+u/s/sonicct/finalgun.c line 89: parse error
+u/s/sonicct/finalgun.c line 90: parse error
+u/s/sonicct/finalgun.c line 46: Undefined function offensive_target
+u/s/sonicct/finalgun.c line 80: A reserved type name cannot be used as a function name.
+
+u/s/sonicct/finalgun.c line 80: parse error
+u/s/sonicct/finalgun.c line 89: parse error
+u/s/sonicct/finalgun.c line 90: parse error
+u/s/sonicct/finalgun.c line 81: A reserved type name cannot be used as a function name.
+
+u/s/sonicct/finalgun.c line 81: parse error
+u/s/sonicct/finalgun.c line 90: parse error
+u/s/sonicct/finalgun.c line 91: parse error
+u/s/sonicct/finalgun.c line 81: A reserved type name cannot be used as a function name.
+
+u/s/sonicct/finalgun.c line 81: parse error
+u/s/sonicct/finalgun.c line 90: parse error
+u/s/sonicct/finalgun.c line 91: parse error
+u/s/sonicct/finalgun.c line 90: parse error
+u/s/sonicct/finalgun.c line 91: parse error
+u/s/sonicct/finalgun.c line 83: parse error
+u/s/sonicct/finalgun.c line 83: parse error
+u/s/sonicct/finalgun.c line 83: parse error
+u/s/sonicct/finalgun.c line 83: parse error
+u/s/sonicct/finalgun.c line 107: parse error
+u/s/sonicct/finalgun.c line 107: parse error
+u/s/sonicct/finalgun.c line 93: parse error
+u/s/sonicct/finalgun.c line 93: parse error
+u/s/sonicct/finalgun.c line 91: parse error
+u/s/sonicct/finalgun.c line 92: parse error
+u/s/sonicct/finalgun.c line 91: parse error
+u/s/sonicct/finalgun.c line 92: parse error
+u/s/sonicct/finalgun.c line 91: parse error
+u/s/sonicct/finalgun.c line 92: parse error
+u/s/sonicct/testfinalgun.c line 4: parse error
+u/s/sonicct/testfinalgun.c line 4: parse error
+u/s/sonicct/testfinalgun.c line 4: parse error
+u/s/sonicct/testfinalgun.c line 4: parse error
+u/s/sonicct/testfinalgun.c line 4: parse error
+u/s/sonicct/testfinalgun.c line 4: parse error
+u/s/sonicct/testfinalgun.c line 4: parse error
+u/s/sonicct/testfinalgun.c line 4: parse error
+u/s/sonicct/testfinalgun.c line 4: parse error
+u/s/sonicct/finalsword.c line 30: parse error
+u/s/sonicct/finalsword.c line 30: parse error
+u/s/sonicct/finalsword.c line 30: parse error
+u/s/sonicct/finalsword.c line 30: parse error
+u/s/sonicct/finalsword.c line 28: parse error
+u/s/sonicct/finalsword.c line 29: parse error
+u/s/sonicct/finalsword.c line 30: parse error
+u/s/sonicct/finalsword.c line 30: parse error
+u/s/sonicct/finalsword.c line 31: parse error
+u/s/sonicct/finalsword.c line 23: parse error
+u/s/sonicct/finalsword.c line 23: parse error
+u/s/sonicct/5.c line 10: parse error
+u/s/sonicct/5.c line 78: End of file in string
+u/s/sonicct/5.c line 24: parse error
+u/s/sonicct/5.c line 44: Illegal LHS
+u/s/sonicct/5.c line 44: Wrong number of arguments to set
+    Expected: 2  Got: 1
+u/s/sonicct/5.c line 44: parse error
+u/s/sonicct/5.c line 48: parse error
+u/s/sonicct/5.c line 24: parse error
+u/s/sonicct/5.c line 44: Illegal LHS
+u/s/sonicct/5.c line 44: Wrong number of arguments to set
+    Expected: 2  Got: 1
+u/s/sonicct/5.c line 44: parse error
+u/s/sonicct/5.c line 48: parse error
+u/s/sonicct/5.c line 23: parse error
+u/s/sonicct/5.c line 43: Illegal LHS
+u/s/sonicct/5.c line 43: Wrong number of arguments to set
+    Expected: 2  Got: 1
+u/s/sonicct/5.c line 43: parse error
+u/s/sonicct/5.c line 47: parse error
+u/s/sonicct/5.c line 23: parse error
+u/s/sonicct/5.c line 43: Illegal LHS
+u/s/sonicct/5.c line 43: Wrong number of arguments to set
+    Expected: 2  Got: 1
+u/s/sonicct/5.c line 43: parse error
+u/s/sonicct/5.c line 47: parse error
+u/s/sonicct/workroom.c line 7: Undefined variable 'HIR'
+
+u/s/sonicct/workroom.c line 7: parse error
+u/s/sonicct/workroom.c line 7: Undefined variable 'HIR'
+
+u/s/sonicct/workroom.c line 7: parse error
+u/s/sonicct/workroom.c line 7: Undefined variable 'HIR'
+
+u/s/sonicct/workroom.c line 7: parse error
+u/s/sonicct/test/ship.c line 133: parse error
+u/s/sonicct/test/ship.c line 158: Illegal terminator
+u/s/sonicct/test/ship.c line 158: Text block exceeded maximum length
+u/s/sonicct/test/ship.c line 158: Illegal terminator
+u/s/sonicct/test/ship.c line 158: Text block exceeded maximum length
+u/s/sonicct/test/ship.c line 159: Illegal terminator
+u/s/sonicct/test/ship.c line 133: parse error
+u/s/sonicct/test/ship.c line 158: Illegal terminator
+u/s/sonicct/test/ship.c line 158: Text block exceeded maximum length
+u/s/sonicct/test/ship.c line 158: Illegal terminator
+u/s/sonicct/test/ship.c line 158: Text block exceeded maximum length
+u/s/sonicct/test/ship.c line 159: Illegal terminator
+u/s/sonicct/test/ship.c line 156: parse error
+u/s/sonicct/test/ship.c line 163: Illegal LHS
+u/s/sonicct/test/ship.c line 165: Illegal LHS
+u/s/sonicct/test/ship.c line 165: parse error
+u/s/sonicct/test/ship.c line 187: Illegal LHS
+u/s/sonicct/test/ship.c line 187: parse error
+u/s/sonicct/test/ship.c line 156: parse error
+u/s/sonicct/test/ship.c line 163: Illegal LHS
+u/s/sonicct/test/ship.c line 165: Illegal LHS
+u/s/sonicct/test/ship.c line 165: parse error
+u/s/sonicct/test/ship.c line 187: Illegal LHS
+u/s/sonicct/test/ship.c line 187: parse error
+u/s/sonicct/test/ship.c line 156: parse error
+u/s/sonicct/test/ship.c line 163: Illegal LHS
+u/s/sonicct/test/ship.c line 165: Illegal LHS
+u/s/sonicct/test/ship.c line 165: parse error
+u/s/sonicct/test/ship.c line 187: Illegal LHS
+u/s/sonicct/test/ship.c line 187: parse error
+u/s/sonicct/test/ship.c line 156: parse error
+u/s/sonicct/test/ship.c line 163: Illegal LHS
+u/s/sonicct/test/ship.c line 165: Illegal LHS
+u/s/sonicct/test/ship.c line 165: parse error
+u/s/sonicct/test/ship.c line 187: Illegal LHS
+u/s/sonicct/test/ship.c line 187: parse error
+u/s/sonicct/test/ship.c line 160: parse error
+u/s/sonicct/test/ship.c line 163: Illegal LHS
+u/s/sonicct/test/ship.c line 163: parse error
+u/s/sonicct/test/ship.c line 165: Illegal LHS
+u/s/sonicct/test/ship.c line 173: parse error
+u/s/sonicct/test/ship.c line 160: parse error
+u/s/sonicct/test/ship.c line 163: Illegal LHS
+u/s/sonicct/test/ship.c line 163: parse error
+u/s/sonicct/test/ship.c line 165: Illegal LHS
+u/s/sonicct/test/ship.c line 173: parse error
+u/s/sonicct/npc/1.c line 39: parse error
+u/s/sonicct/npc/1.c line 39: parse error
+[Sat May  1 21:42:52 1999] u/s/sonicct/test/ship.c line 160: parse error
+
+[Sat May  1 21:42:52 1999] u/s/sonicct/test/ship.c line 163: Illegal LHS
+
+[Sat May  1 21:42:52 1999] u/s/sonicct/test/ship.c line 163: parse error
+
+[Sat May  1 21:42:52 1999] u/s/sonicct/test/ship.c line 165: Illegal LHS
+
+[Sat May  1 21:42:52 1999] u/s/sonicct/test/ship.c line 173: parse error
+
+[Sat May  1 21:43:58 1999] u/s/sonicct/test/ship.c line 160: parse error
+
+[Sat May  1 21:43:58 1999] u/s/sonicct/test/ship.c line 163: Illegal LHS
+
+[Sat May  1 21:43:58 1999] u/s/sonicct/test/ship.c line 163: parse error
+
+[Sat May  1 21:43:58 1999] u/s/sonicct/test/ship.c line 165: Illegal LHS
+
+[Sat May  1 21:43:58 1999] u/s/sonicct/test/ship.c line 173: parse error
+
+[Sat May  1 21:44:14 1999] u/s/sonicct/test/ship.c line 160: parse error
+
+[Sat May  1 21:44:14 1999] u/s/sonicct/test/ship.c line 163: Illegal LHS
+
+[Sat May  1 21:44:14 1999] u/s/sonicct/test/ship.c line 163: parse error
+
+[Sat May  1 21:44:14 1999] u/s/sonicct/test/ship.c line 165: Illegal LHS
+
+[Sat May  1 21:44:14 1999] u/s/sonicct/test/ship.c line 173: parse error
+
+[Sat May  1 21:45:12 1999] u/s/sonicct/test/ship.c line 160: parse error
+
+[Sat May  1 21:45:12 1999] u/s/sonicct/test/ship.c line 163: Illegal LHS
+
+[Sat May  1 21:45:12 1999] u/s/sonicct/test/ship.c line 163: parse error
+
+[Sat May  1 21:45:12 1999] u/s/sonicct/test/ship.c line 165: Illegal LHS
+
+[Sat May  1 21:45:12 1999] u/s/sonicct/test/ship.c line 173: parse error
+
+[Sat May  1 21:45:20 1999] u/s/sonicct/test/ship.c line 160: parse error
+
+[Sat May  1 21:45:20 1999] u/s/sonicct/test/ship.c line 163: Illegal LHS
+
+[Sat May  1 21:45:20 1999] u/s/sonicct/test/ship.c line 163: parse error
+
+[Sat May  1 21:45:20 1999] u/s/sonicct/test/ship.c line 165: Illegal LHS
+
+[Sat May  1 21:45:20 1999] u/s/sonicct/test/ship.c line 173: parse error
+
+[Sat May  1 21:45:54 1999] u/s/sonicct/test/ship.c line 160: parse error
+
+[Sat May  1 21:45:54 1999] u/s/sonicct/test/ship.c line 163: Illegal LHS
+
+[Sat May  1 21:45:54 1999] u/s/sonicct/test/ship.c line 163: parse error
+
+[Sat May  1 21:45:54 1999] u/s/sonicct/test/ship.c line 165: Illegal LHS
+
+[Sat May  1 21:45:54 1999] u/s/sonicct/test/ship.c line 173: parse error
+
+[Sat May  1 21:46:58 1999] u/s/sonicct/test/ship.c line 160: parse error
+
+[Sat May  1 21:46:58 1999] u/s/sonicct/test/ship.c line 163: Illegal LHS
+
+[Sat May  1 21:46:58 1999] u/s/sonicct/test/ship.c line 163: parse error
+
+[Sat May  1 21:46:58 1999] u/s/sonicct/test/ship.c line 165: Illegal LHS
+
+[Sat May  1 21:46:58 1999] u/s/sonicct/test/ship.c line 173: parse error
+
+[Sun May 16 16:15:58 1999] u/s/sonicct/npc/1.c line 39: parse error
+
+[Sun Jun 20 18:09:00 1999] u/s/sonicct/npc/1.c line 39: parse error
+
+[Sun Jun 20 18:09:10 1999] u/s/sonicct/npc/1.c line 39: parse error
+
+[Sun Jun 20 18:26:50 1999] u/s/sonicct/test/testsword.c line 92: parse error
+
+[Sun Jun 20 18:44:29 1999] u/s/sonicct/test/warrior.c line 68: parse error
+
+[Sun Jun 20 18:45:21 1999] u/s/sonicct/test/warrior.c line 69: parse error
+
+[Sun Jun 20 19:16:08 1999] u/s/sonicct/test/windcloth.c line 70: parse error
+
+[Sun Jun 20 19:16:08 1999] u/s/sonicct/test/windcloth.c line 116: Illegal terminator
+
+[Sun Jun 20 19:16:08 1999] u/s/sonicct/test/windcloth.c line 116: Text block exceeded maximum length
+
+[Sun Jun 20 19:16:08 1999] u/s/sonicct/test/windcloth.c line 135: Illegal terminator
+
+[Sun Jun 20 19:16:08 1999] u/s/sonicct/test/windcloth.c line 135: Text block exceeded maximum length
+
+[Sun Jun 20 19:16:08 1999] u/s/sonicct/test/windcloth.c line 137: Illegal terminator
+
+[Fri Jul  9 23:44:49 1999] u/s/sonicct/finalsword.c line 2: parse error
+
+[Fri Jul  9 23:45:43 1999] u/s/sonicct/finalsword.c line 2: parse error
+
+[Sat Jul 10 01:44:36 1999] u/s/sonicct/dragon.c line 62: parse error
+
+[Sat Jul 10 01:46:16 1999] u/s/sonicct/dragon.c line 62: parse error
+
+[Sat Jul 10 01:51:38 1999] u/s/sonicct/dragon.c line 62: parse error
+
+[Sat Jul 10 01:54:33 1999] u/s/sonicct/dragon.c line 111: Undefined variable 'DELAY'
+
+
+[Sat Jul 10 01:54:33 1999] u/s/sonicct/dragon.c line 120: Undefined variable 'SKILL_USAGE_DEFENSE'
+
+
+[Sat Jul 10 01:55:35 1999] u/s/sonicct/dragon.c line 111: Undefined variable 'DELAY'
+
+
+[Sat Jul 10 01:55:35 1999] u/s/sonicct/dragon.c line 120: Undefined variable 'SKILL_USAGE_DEFENSE'
+
+
+[Sat Jul 10 01:55:43 1999] u/s/sonicct/dragon.c line 111: Undefined variable 'DELAY'
+
+
+[Sat Jul 10 01:55:43 1999] u/s/sonicct/dragon.c line 120: Undefined variable 'SKILL_USAGE_DEFENSE'
+
+
+[Sat Jul 10 01:58:15 1999] u/s/sonicct/dragon.c line 111: Undefined variable 'DELAY'
+
+
+[Sat Jul 10 01:58:15 1999] u/s/sonicct/dragon.c line 120: Undefined variable 'SKILL_USAGE_DEFENSE'
+
+
+[Sat Jul 10 02:11:40 1999] u/s/sonicct/dragon.c line 111: Undefined variable 'DELAY'
+
+
+[Sat Jul 10 02:11:40 1999] u/s/sonicct/dragon.c line 120: Undefined variable 'SKILL_USAGE_DEFENSE'
+
+
+[Sat Jul 10 02:12:38 1999] u/s/sonicct/dragon.c line 111: Undefined variable 'DELAY'
+
+
+[Sat Jul 10 02:12:38 1999] u/s/sonicct/dragon.c line 120: Undefined variable 'SKILL_USAGE_DEFENSE'
+
+
+[Sat Jul 10 02:15:15 1999] u/s/sonicct/dragon.c line 111: Undefined variable 'DELAY'
+
+
+[Sat Jul 10 02:15:15 1999] u/s/sonicct/dragon.c line 120: Undefined variable 'SKILL_USAGE_DEFENSE'
+
+
+[Sat Jul 10 17:14:15 1999] u/s/sonicct/dragon.c line 85: parse error
+
+[Sun Sep  5 15:39:33 1999] u/s/sonicct/dagger.c line 12: parse error
+
+[Sun Sep  5 15:39:33 1999] u/s/sonicct/dagger.c line 18: $var illegal outside of function.
+
+[Sun Sep  5 15:39:33 1999] u/s/sonicct/dagger.c line 18: Illegal terminator
+
+[Sun Sep  5 15:39:33 1999] u/s/sonicct/dagger.c line 18: Text block exceeded maximum length
+
+[Sun Sep  5 15:39:33 1999] u/s/sonicct/dagger.c line 18: Illegal terminator
+
+[Sun Sep  5 15:39:33 1999] u/s/sonicct/dagger.c line 18: Text block exceeded maximum length
+
+[Sun Sep 12 19:35:23 1999] u/s/sonicct/nuna.c line 2: parse error
+
+[Sun Sep 12 19:35:31 1999] u/s/sonicct/nuna.c line 2: parse error
+
+[Sun Sep 12 20:01:47 1999] u/s/sonicct/nuna.c line 11: parse error
+
+[Sun Sep 12 20:01:49 1999] u/s/sonicct/nuna.c line 11: parse error
+
+[Sun Sep 12 20:07:05 1999] u/s/sonicct/nuna.c line 11: parse error
+
+[Sun Sep 12 20:07:49 1999] u/s/sonicct/nuna.c line 11: parse error
+
+[Sun Sep 12 20:07:51 1999] u/s/sonicct/nuna.c line 11: parse error
+
+[Sun Sep 12 20:09:40 1999] u/s/sonicct/nuna.c line 11: parse error
+
+[Sun Sep 12 20:10:18 1999] u/s/sonicct/nuna.c line 11: parse error
+
+[Sun Sep 12 20:12:42 1999] u/s/sonicct/nuna.c line 11: parse error
+
+[Sun Sep 12 20:12:46 1999] u/s/sonicct/nuna.c line 11: parse error
+
+[Sun Sep 12 20:30:09 1999] u/s/sonicct/pekopeko.c line 12: parse error
+
+[Tue Jan  4 22:24:38 2000] u/s/sonicct/test/warrior.c line 22: parse error
+
+[Tue Jan  4 22:24:38 2000] u/s/sonicct/test/warrior.c line 45: Illegal LHS
+
+[Tue Jan  4 22:24:38 2000] u/s/sonicct/test/warrior.c line 45: parse error
+
+[Tue Jan  4 22:24:38 2000] u/s/sonicct/test/warrior.c line 49: parse error
+
+[Tue Jan  4 22:25:10 2000] u/s/sonicct/test/warrior.c line 22: parse error
+
+[Tue Jan  4 22:25:10 2000] u/s/sonicct/test/warrior.c line 45: Illegal LHS
+
+[Tue Jan  4 22:25:10 2000] u/s/sonicct/test/warrior.c line 45: parse error
+
+[Tue Jan  4 22:25:10 2000] u/s/sonicct/test/warrior.c line 49: parse error
+
+[Tue Jan  4 22:42:48 2000] u/s/sonicct/test/warrior.c line 38: parse error
+
+[Tue Jan  4 22:42:48 2000] u/s/sonicct/test/warrior.c line 45: Illegal LHS
+
+[Tue Jan  4 22:42:48 2000] u/s/sonicct/test/warrior.c line 45: parse error
+
+[Tue Jan  4 22:42:48 2000] u/s/sonicct/test/warrior.c line 49: parse error
+
+[Tue Jan  4 22:46:50 2000] u/s/sonicct/test/warrior.c line 37: parse error
+
+[Tue Jan  4 22:57:41 2000] u/s/sonicct/test/warrior.c line 19: parse error
+
+[Wed Jan  5 01:17:14 2000] u/s/sonicct/test/finallance.c line 39: Undefined variable 'ap'
+
+
+[Wed Jan  5 01:18:00 2000] u/s/sonicct/test/finallance.c line 39: Undefined variable 'ap'
+
+
+[Wed Jan  5 01:18:00 2000] u/s/sonicct/test/finallance.c line 39: Undefined variable 'ap'
+
+
+[Wed Jan  5 01:18:06 2000] u/s/sonicct/test/finallance.c line 39: Undefined variable 'ap'
+
+
+[Wed Jan  5 01:18:10 2000] u/s/sonicct/test/finallance.c line 39: Undefined variable 'ap'
+
+
+[Wed Jan  5 01:18:10 2000] u/s/sonicct/test/finallance.c line 39: Undefined variable 'ap'
+
+
+[Wed Jan  5 01:34:11 2000] u/s/sonicct/test/finallance.c line 50: Undefined variable 'maxmp'
+
+
+[Wed Jan  5 01:34:11 2000] u/s/sonicct/test/finallance.c line 50: Undefined variable 'maxap'
+
+
+[Thu Jan  6 14:38:59 2000] u/s/sonicct/test/Angel/angelcloth.c line 4: parse error
+
+[Thu Jan  6 14:38:59 2000] u/s/sonicct/test/Angel/angelcloth2.c line 1: parse error
+
+[Thu Jan  6 14:39:44 2000] u/s/sonicct/test/Angel/angelcloth.c line 6: Undefined variable 'HIW'
+
+
+[Thu Jan  6 14:39:44 2000] u/s/sonicct/test/Angel/angelcloth.c line 6: parse error
+
+[Thu Jan  6 14:42:11 2000] u/s/sonicct/test/Angel/angelcloth.c line 6: Undefined variable 'HIW'
+
+
+[Thu Jan  6 14:42:11 2000] u/s/sonicct/test/Angel/angelcloth.c line 6: parse error
+
+[Thu Jan  6 14:44:05 2000] u/s/sonicct/test/Angel/angelcloth.c line 6: parse error
+
+[Thu Jan  6 14:45:21 2000] u/s/sonicct/test/Angel/angelcloth2.c line 2: parse error
+
+[Thu Jan  6 14:57:54 2000] u/s/sonicct/test/Angel/angelskirt2.c line 18: parse error
+
+[Thu Jan  6 15:01:43 2000] u/s/sonicct/test/Angel/seraphim.c line 25: parse error
+
+[Thu Jan  6 15:01:45 2000] u/s/sonicct/test/Angel/seraphim.c line 25: parse error
+
+[Thu Jan  6 15:27:27 2000] u/s/sonicct/test/Angel/angelboots2.c line 16: parse error
+
+[Fri Jan  7 17:50:37 2000] u/s/sonicct/area/npc/wp/lasersword.c line 6: parse error
+
+[Sun Jan  9 20:44:14 2000] u/s/sonicct/area/npc/citizen.c line 7: parse error
+
+[Sun Jan  9 20:44:14 2000] u/s/sonicct/area/npc/citizen.c line 19: End of file in string
+
+[Mon Jan 10 18:52:54 2000] u/s/sonicct/surcoat2.c line 32: Undefined variable 'CHINSE'
+
+
+[Mon Jan 10 18:52:54 2000] u/s/sonicct/surcoat2.c line 32: parse error
+
+[Mon Jan 10 18:54:28 2000] u/s/sonicct/surcoat2.c line 32: Undefined variable 'CHINSE'
+
+
+[Mon Jan 10 18:54:28 2000] u/s/sonicct/surcoat2.c line 32: parse error
+
+[Mon Jan 10 18:55:06 2000] u/s/sonicct/surcoat2.c line 32: Undefined variable 'CHINSE'
+
+
+[Mon Jan 10 18:55:06 2000] u/s/sonicct/surcoat2.c line 32: parse error
+
+[Tue Jan 11 15:12:53 2000] u/s/sonicct/test/suez2.c line 5: Undefined variable 'pig'
+
+
+[Tue Jan 11 15:12:53 2000] u/s/sonicct/test/suez2.c line 5: parse error
+

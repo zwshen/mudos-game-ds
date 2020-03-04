@@ -1,0 +1,6 @@
+#/obj/user.c
+conditions ([])
+dbase (["mp":60,"last_location":"/open/world1/wilfred/newbie/eq_bank","heart_modify":0,"mud_age":3525,"unit":"位","ap":60,"talk_point":8,"DS_DATA_VERSION":19991107,"cure_count":11,"actions":,"age":14,"gender":"男性","name":"蠻頭","id":"mento","channels":({"chat","rumor","tchat",}),"race":"human","addition_shield":10,"level":1,"Merits":(["sou":0,"bio":0,"bar":0,"tec":0,"wit":0,]),"hp":80,"birthday":1128423767,"addition_armor":10,"heart_beat_rate":6,"bellicosity":0,"exp":702,"dex":2,"startroom":"/open/world1/tmr/area/hotel","int":2,"con":2,"newbie":1,"str":2,"addition_damage":10,"max_hp":80,"wound":(["head":0,"body":0,"right_arm":0,"left_arm":0,"right_leg":0,"left_leg":0,]),"attitude":"peaceful","board_last_read":(["tmr_hotel_b":1128962733,]),"max_mp":60,"volume":7,"combat_exp":0,"default_actions":,"evil":-1,"guild_gifts":({5,5,5,5,}),"disable_type":" <毫無呼吸>","max_ap":60,"supply_point":60,])
+skills (["combat":2,"dodge":0,"unarmed":1,])
+learned (["dodge":0,"unarmed":0,])
+autoload ({})

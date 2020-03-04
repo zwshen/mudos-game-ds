@@ -1,0 +1,15 @@
+
+	to_float(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	ㄧ计嘿:
+		to_float - 盢俱计锣传Θ疊翴计.
+	ㄧ计粂猭:
+		float to_float( int i );
+
+		疊翴计 to_float( 俱计 i );
+	ㄧ计ノ猭:
+		to_float() 肚疊翴计篈计, 计单俱计 i.
+	把σㄧ计:
+		to_int(3), read_buffer(3), sprintf(3), sscanf(3)
+	も陆亩:
+		Phoebus@ZH	97.Jul.25.		(Writen 5/23/97)

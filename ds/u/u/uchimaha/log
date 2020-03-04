@@ -1,0 +1,2582 @@
+[Wed Jul 14 20:49:20 1999] u/u/uchimaha/ppp.c line 21: End of file in text block
+
+[Wed Jul 14 20:49:20 1999] u/u/uchimaha/ppp.c line 21: Undefined function p
+
+[Wed Jul 14 20:49:20 1999] u/u/uchimaha/ppp.c line 21: parse error
+
+[Wed Jul 14 21:03:48 1999] u/u/uchimaha/room1.c line 6: parse error
+
+[Wed Jul 14 21:03:48 1999] u/u/uchimaha/room1.c line 6: Illegal terminator
+
+[Wed Jul 14 21:03:48 1999] u/u/uchimaha/room1.c line 6: Text block exceeded maximum length
+
+[Wed Jul 14 21:03:48 1999] u/u/uchimaha/room1.c line 18: End of file in text block
+
+[Wed Jul 14 21:03:48 1999] u/u/uchimaha/room1.c line 29: End of file in string
+
+[Wed Jul 14 21:06:40 1999] u/u/uchimaha/room.c line 6: parse error
+
+[Wed Jul 14 21:06:40 1999] u/u/uchimaha/room.c line 6: Illegal terminator
+
+[Wed Jul 14 21:06:40 1999] u/u/uchimaha/room.c line 6: Text block exceeded maximum length
+
+[Wed Jul 14 21:06:40 1999] u/u/uchimaha/room.c line 18: End of file in text block
+
+[Wed Jul 14 21:06:40 1999] u/u/uchimaha/room.c line 19: Illegal terminator
+
+[Wed Jul 14 21:06:40 1999] u/u/uchimaha/room.c line 19: Text block exceeded maximum length
+
+[Wed Jul 14 21:10:44 1999] u/u/uchimaha/room.c line 6: parse error
+
+[Wed Jul 14 21:10:44 1999] u/u/uchimaha/room.c line 6: Illegal terminator
+
+[Wed Jul 14 21:10:44 1999] u/u/uchimaha/room.c line 6: Text block exceeded maximum length
+
+[Wed Jul 14 21:10:44 1999] u/u/uchimaha/room.c line 18: End of file in text block
+
+[Wed Jul 14 21:10:44 1999] u/u/uchimaha/room.c line 21: Illegal terminator
+
+[Wed Jul 14 21:10:44 1999] u/u/uchimaha/room.c line 21: Text block exceeded maximum length
+
+[Wed Jul 14 21:21:01 1999] u/u/uchimaha/qqqq.c line 14: parse error
+
+[Wed Jul 14 21:22:09 1999] u/u/uchimaha/qqqqq.c line 14: parse error
+
+[Wed Jul 14 22:12:32 1999] u/u/uchimaha/workroom.c line 21: End of file in text block
+
+[Wed Jul 14 22:12:32 1999] u/u/uchimaha/workroom.c line 21: parse error
+
+[Wed Jul 14 22:12:32 1999] u/u/uchimaha/workroom.c line 31: End of file in string
+
+[Wed Jul 14 22:13:56 1999] u/u/uchimaha/workroom.c line 21: End of file in text block
+
+[Wed Jul 14 22:13:56 1999] u/u/uchimaha/workroom.c line 21: parse error
+
+[Thu Jul 15 16:06:54 1999] u/u/uchimaha/eqs/necklace.c line 2: parse error
+
+[Thu Jul 15 16:07:32 1999] u/u/uchimaha/eqs/necklace.c line 2: parse error
+
+[Thu Jul 15 20:32:20 1999] u/u/uchimaha/birdarea/room1.c line 6: parse error
+
+[Thu Jul 15 20:32:20 1999] u/u/uchimaha/birdarea/room1.c line 6: Illegal terminator
+
+[Thu Jul 15 20:32:20 1999] u/u/uchimaha/birdarea/room1.c line 6: Text block exceeded maximum length
+
+[Thu Jul 15 20:32:20 1999] u/u/uchimaha/birdarea/room1.c line 25: End of file in text block
+
+[Thu Jul 15 20:32:20 1999] u/u/uchimaha/birdarea/room1.c line 26: Illegal terminator
+
+[Thu Jul 15 20:32:20 1999] u/u/uchimaha/birdarea/room1.c line 26: Text block exceeded maximum length
+
+[Thu Jul 15 20:43:25 1999] u/u/uchimaha/birdarea/room1.c line 6: parse error
+
+[Thu Jul 15 20:43:25 1999] u/u/uchimaha/birdarea/room1.c line 6: Illegal terminator
+
+[Thu Jul 15 20:43:25 1999] u/u/uchimaha/birdarea/room1.c line 6: Text block exceeded maximum length
+
+[Thu Jul 15 20:43:25 1999] u/u/uchimaha/birdarea/room1.c line 25: End of file in text block
+
+[Thu Jul 15 20:45:45 1999] u/u/uchimaha/birdarea/room1.c line 7: parse error
+
+[Thu Jul 15 20:45:45 1999] u/u/uchimaha/birdarea/room1.c line 25: End of file in text block
+
+[Thu Jul 15 20:46:53 1999] u/u/uchimaha/birdarea/room1.c line 7: parse error
+
+[Thu Jul 15 20:46:53 1999] u/u/uchimaha/birdarea/room1.c line 25: End of file in text block
+
+[Thu Jul 15 20:56:40 1999] u/u/uchimaha/birdarea/room1.c line 7: parse error
+
+[Thu Jul 15 20:56:40 1999] u/u/uchimaha/birdarea/room1.c line 17: Illegal terminator
+
+[Thu Jul 15 20:56:40 1999] u/u/uchimaha/birdarea/room1.c line 17: Text block exceeded maximum length
+
+[Thu Jul 15 20:56:40 1999] u/u/uchimaha/birdarea/room1.c line 26: End of file in string
+
+[Thu Jul 15 20:57:42 1999] u/u/uchimaha/birdarea/room1.c line 7: parse error
+
+[Thu Jul 15 20:58:32 1999] u/u/uchimaha/birdarea/room1.c line 7: parse error
+
+[Thu Jul 15 21:02:30 1999] u/u/uchimaha/birdarea/room1.c line 7: parse error
+
+[Thu Jul 15 21:05:47 1999] u/u/uchimaha/eqs/hehesword.c line 16: parse error
+
+[Thu Jul 15 21:05:47 1999] u/u/uchimaha/eqs/hehesword.c line 25: $var illegal outside of function.
+
+[Thu Jul 15 21:05:47 1999] u/u/uchimaha/eqs/hehesword.c line 26: $var illegal outside of function.
+
+[Thu Jul 15 21:05:47 1999] u/u/uchimaha/eqs/hehesword.c line 43: Illegal terminator
+
+[Thu Jul 15 21:05:47 1999] u/u/uchimaha/eqs/hehesword.c line 43: Text block exceeded maximum length
+
+[Thu Jul 15 21:05:47 1999] u/u/uchimaha/eqs/hehesword.c line 44: $var illegal outside of function.
+
+[Thu Jul 15 21:12:42 1999] u/u/uchimaha/eqs/hehesword.c line 16: parse error
+
+[Thu Jul 15 21:12:42 1999] u/u/uchimaha/eqs/hehesword.c line 25: $var illegal outside of function.
+
+[Thu Jul 15 21:12:42 1999] u/u/uchimaha/eqs/hehesword.c line 26: $var illegal outside of function.
+
+[Thu Jul 15 21:12:42 1999] u/u/uchimaha/eqs/hehesword.c line 43: Illegal terminator
+
+[Thu Jul 15 21:12:42 1999] u/u/uchimaha/eqs/hehesword.c line 43: Text block exceeded maximum length
+
+[Thu Jul 15 21:12:42 1999] u/u/uchimaha/eqs/hehesword.c line 44: $var illegal outside of function.
+
+[Thu Jul 15 21:20:35 1999] u/u/uchimaha/birdarea/room1.c line 7: parse error
+
+[Sat Jul 17 09:47:10 1999] u/u/uchimaha/area/birdarea/hole.c line 6: parse error
+
+[Sat Jul 17 09:47:57 1999] u/u/uchimaha/area/birdarea/hole.c line 6: parse error
+
+[Sat Jul 17 09:48:09 1999] u/u/uchimaha/area/birdarea/hole.c line 6: parse error
+
+[Sat Jul 17 09:51:21 1999] u/u/uchimaha/area/birdarea/hole.c line 6: parse error
+
+[Sat Jul 17 09:51:35 1999] u/u/uchimaha/area/birdarea/hole.c line 6: parse error
+
+[Sat Jul 17 09:51:57 1999] u/u/uchimaha/area/birdarea/hole.c line 6: parse error
+
+[Sat Jul 17 09:53:53 1999] u/u/uchimaha/area/birdarea/hole.c line 6: parse error
+
+[Sat Jul 17 09:54:05 1999] u/u/uchimaha/area/birdarea/hole.c line 6: parse error
+
+[Sat Jul 17 09:55:21 1999] u/u/uchimaha/area/birdarea/hole.c line 28: Illegal to redefine 'nomask' function "_query"
+
+[Sat Jul 17 09:55:21 1999] u/u/uchimaha/area/birdarea/hole.c line 28: Illegal to redefine 'nomask' function "_delete"
+
+[Sat Jul 17 09:55:21 1999] u/u/uchimaha/area/birdarea/hole.c line 28: Illegal to redefine 'nomask' function "_set"
+
+[Sat Jul 17 09:55:21 1999] u/u/uchimaha/area/birdarea/hole.c line 31: parse error
+
+[Sat Jul 17 11:26:26 1999] u/u/uchimaha/area/birdarea/eq/dagger.c line 5: parse error
+
+[Sat Jul 17 11:27:08 1999] u/u/uchimaha/area/birdarea/eq/dagger.c line 5: parse error
+
+[Sat Jul 17 11:27:40 1999] u/u/uchimaha/area/birdarea/eq/dagger.c line 5: parse error
+
+[Sat Jul 17 11:27:44 1999] u/u/uchimaha/area/birdarea/eq/dagger.c line 5: parse error
+
+[Sat Jul 17 11:30:26 1999] u/u/uchimaha/area/birdarea/eq/dagger.c line 7: Undefined variable 'HIR'
+
+
+[Sat Jul 17 11:30:26 1999] u/u/uchimaha/area/birdarea/eq/dagger.c line 7: parse error
+
+[Sat Jul 17 13:34:59 1999] u/u/uchimaha/area/birdarea/npc/guard.c line 16: parse error
+
+[Sat Jul 17 13:34:59 1999] u/u/uchimaha/area/birdarea/npc/guard.c line 45: End of file in string
+
+[Sat Jul 17 13:35:09 1999] u/u/uchimaha/area/birdarea/npc/guard.c line 16: parse error
+
+[Sat Jul 17 13:35:09 1999] u/u/uchimaha/area/birdarea/npc/guard.c line 45: End of file in string
+
+[Sat Jul 17 13:36:15 1999] u/u/uchimaha/area/birdarea/npc/guard.c line 16: parse error
+
+[Sat Jul 17 13:36:15 1999] u/u/uchimaha/area/birdarea/npc/guard.c line 29: Illegal LHS
+
+[Sat Jul 17 13:36:15 1999] u/u/uchimaha/area/birdarea/npc/guard.c line 29: Wrong number of arguments to set
+    Expected: 2  Got: 1
+
+[Sat Jul 17 13:36:15 1999] u/u/uchimaha/area/birdarea/npc/guard.c line 29: parse error
+
+[Sat Jul 17 13:36:15 1999] u/u/uchimaha/area/birdarea/npc/guard.c line 34: parse error
+
+[Sat Jul 17 13:39:40 1999] u/u/uchimaha/area/birdarea/npc/guard.c line 47: Illegal to redefine 'nomask' function "query_weight"
+
+[Sat Jul 17 13:39:40 1999] u/u/uchimaha/area/birdarea/npc/guard.c line 47: Illegal to redefine 'nomask' function "query_busy"
+
+[Sat Jul 17 13:39:40 1999] u/u/uchimaha/area/birdarea/npc/guard.c line 47: Illegal to redefine 'nomask' function "is_busy"
+
+[Sat Jul 17 13:39:40 1999] u/u/uchimaha/area/birdarea/npc/guard.c line 47: Illegal to redefine 'nomask' function "is_block"
+
+[Sat Jul 17 13:39:40 1999] u/u/uchimaha/area/birdarea/npc/guard.c line 47: Illegal to redefine 'nomask' function "command_hook"
+
+[Sat Jul 17 13:39:40 1999] u/u/uchimaha/area/birdarea/npc/guard.c line 47: Illegal to redefine 'nomask' function "set_path"
+
+[Sat Jul 17 13:40:14 1999] u/u/uchimaha/area/birdarea/npc/guard.c line 47: Illegal to redefine 'nomask' function "query_weight"
+
+[Sat Jul 17 13:40:14 1999] u/u/uchimaha/area/birdarea/npc/guard.c line 47: Illegal to redefine 'nomask' function "query_busy"
+
+[Sat Jul 17 13:40:14 1999] u/u/uchimaha/area/birdarea/npc/guard.c line 47: Illegal to redefine 'nomask' function "is_busy"
+
+[Sat Jul 17 13:40:14 1999] u/u/uchimaha/area/birdarea/npc/guard.c line 47: Illegal to redefine 'nomask' function "is_block"
+
+[Sat Jul 17 13:40:14 1999] u/u/uchimaha/area/birdarea/npc/guard.c line 47: Illegal to redefine 'nomask' function "command_hook"
+
+[Sat Jul 17 13:40:14 1999] u/u/uchimaha/area/birdarea/npc/guard.c line 47: Illegal to redefine 'nomask' function "set_path"
+
+[Sat Jul 17 13:40:28 1999] u/u/uchimaha/area/birdarea/npc/guard.c line 47: Illegal to redefine 'nomask' function "query_weight"
+
+[Sat Jul 17 13:40:28 1999] u/u/uchimaha/area/birdarea/npc/guard.c line 47: Illegal to redefine 'nomask' function "query_busy"
+
+[Sat Jul 17 13:40:28 1999] u/u/uchimaha/area/birdarea/npc/guard.c line 47: Illegal to redefine 'nomask' function "is_busy"
+
+[Sat Jul 17 13:40:28 1999] u/u/uchimaha/area/birdarea/npc/guard.c line 47: Illegal to redefine 'nomask' function "is_block"
+
+[Sat Jul 17 13:40:28 1999] u/u/uchimaha/area/birdarea/npc/guard.c line 47: Illegal to redefine 'nomask' function "command_hook"
+
+[Sat Jul 17 13:40:28 1999] u/u/uchimaha/area/birdarea/npc/guard.c line 47: Illegal to redefine 'nomask' function "set_path"
+
+[Sat Jul 17 19:19:02 1999] u/u/uchimaha/area/birdarea/npc/waiter.c line 25: parse error
+
+[Sat Jul 17 19:21:01 1999] u/u/uchimaha/area/birdarea/npc/waiter.c line 23: parse error
+
+[Sat Jul 17 19:21:39 1999] u/u/uchimaha/area/birdarea/npc/waiter.c line 24: Undefined variable 'ob'
+
+
+[Sat Jul 17 19:28:16 1999] u/u/uchimaha/area/birdarea/npc/man.c line 15: parse error
+
+[Sat Jul 17 19:28:16 1999] u/u/uchimaha/area/birdarea/npc/man.c line 41: End of file in string
+
+[Sun Jul 18 12:06:06 1999] u/u/uchimaha/area/birdarea/bird18.c line 21: parse error
+
+[Sun Jul 18 12:06:06 1999] u/u/uchimaha/area/birdarea/bird18.c line 38: $var illegal outside of function.
+
+[Sun Jul 18 12:06:06 1999] u/u/uchimaha/area/birdarea/bird18.c line 38: Illegal terminator
+
+[Sun Jul 18 12:06:06 1999] u/u/uchimaha/area/birdarea/bird18.c line 38: Text block exceeded maximum length
+
+[Sun Jul 18 12:06:06 1999] u/u/uchimaha/area/birdarea/bird18.c line 40: Illegal terminator
+
+[Sun Jul 18 12:06:06 1999] u/u/uchimaha/area/birdarea/bird18.c line 40: Text block exceeded maximum length
+
+[Sun Jul 18 12:06:20 1999] u/u/uchimaha/area/birdarea/bird18.c line 21: parse error
+
+[Sun Jul 18 12:06:20 1999] u/u/uchimaha/area/birdarea/bird18.c line 38: $var illegal outside of function.
+
+[Sun Jul 18 12:06:20 1999] u/u/uchimaha/area/birdarea/bird18.c line 38: Illegal terminator
+
+[Sun Jul 18 12:06:20 1999] u/u/uchimaha/area/birdarea/bird18.c line 38: Text block exceeded maximum length
+
+[Sun Jul 18 12:06:20 1999] u/u/uchimaha/area/birdarea/bird18.c line 40: Illegal terminator
+
+[Sun Jul 18 12:06:20 1999] u/u/uchimaha/area/birdarea/bird18.c line 40: Text block exceeded maximum length
+
+[Sun Jul 18 12:08:34 1999] u/u/uchimaha/area/birdarea/bird19.c line 45: Illegal to redefine 'nomask' function "_query"
+
+[Sun Jul 18 12:08:34 1999] u/u/uchimaha/area/birdarea/bird19.c line 45: Illegal to redefine 'nomask' function "_delete"
+
+[Sun Jul 18 12:08:34 1999] u/u/uchimaha/area/birdarea/bird19.c line 45: Illegal to redefine 'nomask' function "_set"
+
+[Sun Jul 18 12:08:34 1999] u/u/uchimaha/area/birdarea/bird19.c line 64: Redeclaration of function create.
+
+[Sun Jul 18 12:08:42 1999] u/u/uchimaha/area/birdarea/bird19.c line 45: Illegal to redefine 'nomask' function "_query"
+
+[Sun Jul 18 12:08:42 1999] u/u/uchimaha/area/birdarea/bird19.c line 45: Illegal to redefine 'nomask' function "_delete"
+
+[Sun Jul 18 12:08:42 1999] u/u/uchimaha/area/birdarea/bird19.c line 45: Illegal to redefine 'nomask' function "_set"
+
+[Sun Jul 18 12:08:42 1999] u/u/uchimaha/area/birdarea/bird19.c line 64: Redeclaration of function create.
+
+[Wed Jul 21 14:45:34 1999] u/u/uchimaha/eqs/hehesword.c line 27: Illegal to redefine 'nomask' function "query_weight"
+
+[Wed Jul 21 14:45:34 1999] u/u/uchimaha/eqs/hehesword.c line 27: Illegal to redefine 'nomask' function "_query"
+
+[Wed Jul 21 14:45:34 1999] u/u/uchimaha/eqs/hehesword.c line 27: Illegal to redefine 'nomask' function "_delete"
+
+[Wed Jul 21 14:45:34 1999] u/u/uchimaha/eqs/hehesword.c line 27: Illegal to redefine 'nomask' function "_set"
+
+[Wed Jul 21 14:45:34 1999] u/u/uchimaha/eqs/hehesword.c line 27: Illegal to redefine 'nomask' function "query_encumbrance"
+
+[Wed Jul 21 14:45:34 1999] u/u/uchimaha/eqs/hehesword.c line 27: Illegal to redefine 'nomask' function "over_encumbranced"
+
+[Wed Jul 21 14:45:46 1999] u/u/uchimaha/eqs/hehesword.c line 27: Illegal to redefine 'nomask' function "query_weight"
+
+[Wed Jul 21 14:45:46 1999] u/u/uchimaha/eqs/hehesword.c line 27: Illegal to redefine 'nomask' function "_query"
+
+[Wed Jul 21 14:45:46 1999] u/u/uchimaha/eqs/hehesword.c line 27: Illegal to redefine 'nomask' function "_delete"
+
+[Wed Jul 21 14:45:46 1999] u/u/uchimaha/eqs/hehesword.c line 27: Illegal to redefine 'nomask' function "_set"
+
+[Wed Jul 21 14:45:46 1999] u/u/uchimaha/eqs/hehesword.c line 27: Illegal to redefine 'nomask' function "query_encumbrance"
+
+[Wed Jul 21 14:45:46 1999] u/u/uchimaha/eqs/hehesword.c line 27: Illegal to redefine 'nomask' function "over_encumbranced"
+
+[Wed Jul 21 15:27:38 1999] u/u/uchimaha/eqs/armor.c line 5: Undefined variable 'HIC'
+
+
+[Wed Jul 21 15:27:38 1999] u/u/uchimaha/eqs/armor.c line 5: parse error
+
+[Wed Jul 21 15:27:44 1999] u/u/uchimaha/eqs/armor.c line 5: Undefined variable 'HIC'
+
+
+[Wed Jul 21 15:27:44 1999] u/u/uchimaha/eqs/armor.c line 5: parse error
+
+[Wed Jul 21 15:29:02 1999] u/u/uchimaha/eqs/armor.c line 5: Undefined variable 'HIC'
+
+
+[Wed Jul 21 15:29:02 1999] u/u/uchimaha/eqs/armor.c line 5: parse error
+
+[Wed Jul 21 15:29:08 1999] u/u/uchimaha/eqs/armor.c line 5: Undefined variable 'HIC'
+
+
+[Wed Jul 21 15:29:08 1999] u/u/uchimaha/eqs/armor.c line 5: parse error
+
+[Wed Jul 21 15:29:42 1999] u/u/uchimaha/eqs/armor.c line 5: Undefined variable 'HIC'
+
+
+[Wed Jul 21 15:29:42 1999] u/u/uchimaha/eqs/armor.c line 5: parse error
+
+[Wed Jul 21 15:29:52 1999] u/u/uchimaha/eqs/armor.c line 5: Undefined variable 'HIC'
+
+
+[Wed Jul 21 15:29:52 1999] u/u/uchimaha/eqs/armor.c line 5: parse error
+
+[Wed Jul 21 15:30:32 1999] u/u/uchimaha/eqs/armor.c line 5: Undefined variable 'HIC'
+
+
+[Wed Jul 21 15:30:32 1999] u/u/uchimaha/eqs/armor.c line 5: parse error
+
+[Wed Jul 21 15:31:26 1999] u/u/uchimaha/eqs/armor.c line 5: Undefined variable 'HIC'
+
+
+[Wed Jul 21 15:31:26 1999] u/u/uchimaha/eqs/armor.c line 5: parse error
+
+[Wed Jul 21 15:32:10 1999] u/u/uchimaha/eqs/armor.c line 5: Undefined variable 'HIC'
+
+
+[Wed Jul 21 15:32:10 1999] u/u/uchimaha/eqs/armor.c line 5: parse error
+
+[Wed Jul 21 15:33:12 1999] u/u/uchimaha/eqs/armor.c line 5: Undefined variable 'HIC'
+
+
+[Wed Jul 21 15:33:12 1999] u/u/uchimaha/eqs/armor.c line 5: parse error
+
+[Wed Jul 21 15:34:20 1999] u/u/uchimaha/eqs/necklace.c line 5: Undefined variable 'HIR'
+
+
+[Wed Jul 21 15:34:20 1999] u/u/uchimaha/eqs/necklace.c line 5: parse error
+
+[Thu Jul 22 16:17:07 1999] u/u/uchimaha/eqs/armor.c line 5: Undefined variable 'HIC'
+
+
+[Thu Jul 22 16:17:07 1999] u/u/uchimaha/eqs/armor.c line 5: parse error
+
+[Thu Jul 22 16:31:52 1999] u/u/uchimaha/eqs/necklace.c line 57: parse error
+
+[Thu Jul 22 16:31:52 1999] u/u/uchimaha/eqs/necklace.c line 60: Illegal LHS
+
+[Thu Jul 22 16:31:52 1999] u/u/uchimaha/eqs/necklace.c line 60: parse error
+
+[Thu Jul 22 16:31:52 1999] u/u/uchimaha/eqs/necklace.c line 62: Illegal LHS
+
+[Thu Jul 22 16:31:52 1999] u/u/uchimaha/eqs/necklace.c line 62: parse error
+
+[Thu Jul 22 16:31:52 1999] u/u/uchimaha/eqs/necklace.c line 64: Illegal LHS
+
+[Thu Jul 22 16:42:08 1999] u/u/uchimaha/eqs/dagger.c line 8: parse error
+
+[Thu Jul 22 16:42:08 1999] u/u/uchimaha/eqs/dagger.c line 8: Illegal terminator
+
+[Thu Jul 22 16:42:08 1999] u/u/uchimaha/eqs/dagger.c line 8: Text block exceeded maximum length
+
+[Thu Jul 22 16:43:06 1999] u/u/uchimaha/eqs/dagger.c line 8: parse error
+
+[Thu Jul 22 16:43:06 1999] u/u/uchimaha/eqs/dagger.c line 8: Illegal terminator
+
+[Thu Jul 22 16:43:06 1999] u/u/uchimaha/eqs/dagger.c line 8: Text block exceeded maximum length
+
+[Thu Jul 22 18:10:15 1999] u/u/uchimaha/shit.c line 54: parse error
+
+[Thu Jul 22 18:10:15 1999] u/u/uchimaha/shit.c line 61: $var illegal outside of function.
+
+[Thu Jul 22 18:10:15 1999] u/u/uchimaha/shit.c line 69: $var illegal outside of function.
+
+[Thu Jul 22 18:10:15 1999] u/u/uchimaha/shit.c line 86: $var illegal outside of function.
+
+[Thu Jul 22 18:10:15 1999] u/u/uchimaha/shit.c line 126: $var illegal outside of function.
+
+[Thu Jul 22 18:10:15 1999] u/u/uchimaha/shit.c line 126: $var illegal outside of function.
+
+[Thu Jul 22 18:10:25 1999] u/u/uchimaha/shit.c line 54: parse error
+
+[Thu Jul 22 18:10:25 1999] u/u/uchimaha/shit.c line 61: $var illegal outside of function.
+
+[Thu Jul 22 18:10:25 1999] u/u/uchimaha/shit.c line 69: $var illegal outside of function.
+
+[Thu Jul 22 18:10:25 1999] u/u/uchimaha/shit.c line 86: $var illegal outside of function.
+
+[Thu Jul 22 18:10:25 1999] u/u/uchimaha/shit.c line 126: $var illegal outside of function.
+
+[Thu Jul 22 18:10:25 1999] u/u/uchimaha/shit.c line 126: $var illegal outside of function.
+
+[Thu Jul 22 22:11:03 1999] u/u/uchimaha/area/birdarea/npc/shin-do-fun.c line 3: Undefined function set_name
+
+[Thu Jul 22 22:11:03 1999] u/u/uchimaha/area/birdarea/npc/shin-do-fun.c line 9: Undefined function set
+
+[Thu Jul 22 22:11:03 1999] u/u/uchimaha/area/birdarea/npc/shin-do-fun.c line 14: Undefined variable 'HIC'
+
+
+[Thu Jul 22 22:11:03 1999] u/u/uchimaha/area/birdarea/npc/shin-do-fun.c line 14: parse error
+
+[Thu Jul 22 22:11:43 1999] u/u/uchimaha/area/birdarea/npc/shin-do-fun.c line 3: Undefined function set_name
+
+[Thu Jul 22 22:11:43 1999] u/u/uchimaha/area/birdarea/npc/shin-do-fun.c line 9: Undefined function set
+
+[Thu Jul 22 22:11:43 1999] u/u/uchimaha/area/birdarea/npc/shin-do-fun.c line 14: Undefined variable 'HIC'
+
+
+[Thu Jul 22 22:11:43 1999] u/u/uchimaha/area/birdarea/npc/shin-do-fun.c line 14: parse error
+
+[Thu Jul 22 22:13:37 1999] u/u/uchimaha/area/birdarea/npc/fun.c line 26: parse error
+
+[Thu Jul 22 22:17:30 1999] u/u/uchimaha/area/birdarea/npc/fun.c line 26: parse error
+
+[Fri Jul 23 16:32:39 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 26: parse error
+
+[Fri Jul 23 17:50:57 1999] u/u/uchimaha/eqs/necklace.c line 8: Undefined variable 'HIW'
+
+
+[Fri Jul 23 17:50:57 1999] u/u/uchimaha/eqs/necklace.c line 8: parse error
+
+[Fri Jul 23 17:50:57 1999] u/u/uchimaha/eqs/necklace.c line 51: Illegal LHS
+
+[Fri Jul 23 17:50:57 1999] u/u/uchimaha/eqs/necklace.c line 51: parse error
+
+[Fri Jul 23 17:50:57 1999] u/u/uchimaha/eqs/necklace.c line 59: Undefined variable 'arg'
+
+
+[Fri Jul 23 17:50:57 1999] u/u/uchimaha/eqs/necklace.c line 59: Undefined variable 'me'
+
+
+[Fri Jul 23 18:21:19 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 3: Undefined function set_name
+
+[Fri Jul 23 18:21:19 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 8: Undefined function set
+
+[Fri Jul 23 18:21:19 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 13: Undefined variable 'HIC'
+
+
+[Fri Jul 23 18:21:19 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 13: parse error
+
+[Fri Jul 23 18:21:23 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 3: Undefined function set_name
+
+[Fri Jul 23 18:21:23 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 8: Undefined function set
+
+[Fri Jul 23 18:21:23 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 13: Undefined variable 'HIC'
+
+
+[Fri Jul 23 18:21:23 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 13: parse error
+
+[Fri Jul 23 18:21:33 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 3: Undefined function set_name
+
+[Fri Jul 23 18:21:33 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 8: Undefined function set
+
+[Fri Jul 23 18:21:33 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 13: Undefined variable 'HIC'
+
+
+[Fri Jul 23 18:21:33 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 13: parse error
+
+[Sat Jul 24 13:05:49 1999] u/u/uchimaha/area/birdarea/bird20.c line 36: No such inherited function ::init
+
+[Sat Jul 24 13:05:55 1999] u/u/uchimaha/area/birdarea/bird20.c line 36: No such inherited function ::init
+
+[Sat Jul 24 13:10:43 1999] u/u/uchimaha/area/birdarea/bird20.c line 38: No such inherited function ::init
+
+[Sat Jul 24 13:10:59 1999] u/u/uchimaha/area/birdarea/bird20.c line 38: No such inherited function ::init
+
+[Wed Jul 28 21:46:46 1999] u/u/uchimaha/area/birdarea/bird27.c line 5: parse error
+
+[Wed Jul 28 21:46:46 1999] u/u/uchimaha/area/birdarea/bird27.c line 25: End of file in string
+
+[Thu Jul 29 19:28:36 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 40: parse error
+
+[Thu Jul 29 19:28:42 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 40: parse error
+
+[Thu Jul 29 19:30:10 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 40: parse error
+
+[Thu Jul 29 19:30:14 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 40: parse error
+
+[Thu Jul 29 19:47:54 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 68: parse error
+
+[Thu Jul 29 19:47:58 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 68: parse error
+
+[Thu Jul 29 19:49:14 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 78: parse error
+
+[Thu Jul 29 19:49:18 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 78: parse error
+
+[Thu Jul 29 19:58:39 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 68: parse error
+
+[Thu Jul 29 20:00:36 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 75: A reserved type name cannot be used as a function name.
+
+
+[Thu Jul 29 20:00:36 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 75: parse error
+
+[Thu Jul 29 20:00:36 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 79: Illegal LHS
+
+[Thu Jul 29 20:00:36 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 80: Undefined variable 'me'
+
+
+[Thu Jul 29 20:00:36 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 82: Undefined variable 'ob'
+
+
+[Thu Jul 29 20:00:36 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 82: Undefined variable 'arg'
+
+
+[Thu Jul 29 20:01:14 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 68: parse error
+
+[Thu Jul 29 20:01:20 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 68: parse error
+
+[Thu Jul 29 20:04:24 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 68: parse error
+
+[Thu Jul 29 20:14:28 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 68: parse error
+
+[Thu Jul 29 20:15:42 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 68: parse error
+
+[Thu Jul 29 20:41:55 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 68: parse error
+
+[Thu Jul 29 20:42:09 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 68: parse error
+
+[Thu Jul 29 20:52:07 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 68: parse error
+
+[Thu Jul 29 20:54:47 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 126: parse error
+
+[Thu Jul 29 20:57:54 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 15: Undefined variable 'HIC'
+
+
+[Thu Jul 29 20:57:54 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 15: parse error
+
+[Thu Jul 29 20:57:54 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 44: Illegal LHS
+
+[Thu Jul 29 20:57:54 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 44: parse error
+
+[Thu Jul 29 20:57:54 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 76: Illegal LHS
+
+[Thu Jul 29 20:57:54 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 76: parse error
+
+[Thu Jul 29 21:06:05 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 2: Unrecognised # directive
+
+[Thu Jul 29 21:06:05 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 5: Undefined function set_name
+
+[Thu Jul 29 21:06:05 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 10: Undefined function set
+
+[Thu Jul 29 21:06:05 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 16: Undefined function set_skill
+
+[Thu Jul 29 21:06:05 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 22: Undefined function map_skill
+
+[Thu Jul 29 21:06:05 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 34: Undefined function setup
+
+[Thu Jul 29 21:06:39 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 1: Unrecognised # directive
+
+[Thu Jul 29 21:06:39 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 4: Undefined function set_name
+
+[Thu Jul 29 21:06:39 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 9: Undefined function set
+
+[Thu Jul 29 21:06:39 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 14: Undefined variable 'HIC'
+
+
+[Thu Jul 29 21:06:39 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 14: parse error
+
+[Thu Jul 29 21:06:39 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 43: Illegal LHS
+
+[Thu Jul 29 21:06:47 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 1: Unrecognised # directive
+
+[Thu Jul 29 21:06:47 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 4: Undefined function set_name
+
+[Thu Jul 29 21:06:47 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 9: Undefined function set
+
+[Thu Jul 29 21:06:47 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 14: Undefined variable 'HIC'
+
+
+[Thu Jul 29 21:06:47 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 14: parse error
+
+[Thu Jul 29 21:06:47 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 43: Illegal LHS
+
+[Thu Jul 29 21:08:28 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 1: Unrecognised # directive
+
+[Thu Jul 29 21:08:28 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 4: Undefined function set_name
+
+[Thu Jul 29 21:08:28 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 9: Undefined function set
+
+[Thu Jul 29 21:08:28 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 14: Undefined variable 'HIC'
+
+
+[Thu Jul 29 21:08:28 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 14: parse error
+
+[Thu Jul 29 21:08:28 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 43: Illegal LHS
+
+[Thu Jul 29 21:27:23 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 1: Unrecognised # directive
+
+[Thu Jul 29 21:27:23 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 4: Undefined function set_name
+
+[Thu Jul 29 21:27:23 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 9: Undefined function set
+
+[Thu Jul 29 21:27:23 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 14: Undefined variable 'HIC'
+
+
+[Thu Jul 29 21:27:23 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 14: parse error
+
+[Thu Jul 29 21:27:23 1999] u/u/uchimaha/area/birdarea/npc/fon.c line 43: Illegal LHS
+
+[Fri Jul 30 16:44:54 1999] u/u/uchimaha/area/birdarea/npc/cutter.c line 22: parse error
+
+[Sun Aug  1 15:44:18 1999] u/u/uchimaha/area/birdarea/en8.c line 18: parse error
+
+[Sun Aug  1 15:45:30 1999] u/u/uchimaha/area/birdarea/en8.c line 18: parse error
+
+[Sun Aug  1 15:45:36 1999] u/u/uchimaha/area/birdarea/en8.c line 18: parse error
+
+[Sun Aug  1 15:47:26 1999] u/u/uchimaha/area/birdarea/en8.c line 18: parse error
+
+[Sun Aug  1 15:47:30 1999] u/u/uchimaha/area/birdarea/en8.c line 18: parse error
+
+[Sun Aug  1 15:50:00 1999] u/u/uchimaha/area/birdarea/en8.c line 19: parse error
+
+[Sun Aug  1 15:50:04 1999] u/u/uchimaha/area/birdarea/en8.c line 19: parse error
+
+[Sun Aug  1 16:58:30 1999] u/u/uchimaha/area/birdarea/npc/eq/fist2.c line 19: parse error
+
+[Sun Aug  1 16:58:30 1999] u/u/uchimaha/area/birdarea/npc/eq/fist2.c line 19: $var illegal outside of function.
+
+[Sun Aug  1 16:58:30 1999] u/u/uchimaha/area/birdarea/npc/eq/fist2.c line 24: End of file in string
+
+[Sun Aug  1 16:58:58 1999] u/u/uchimaha/area/birdarea/npc/eq/fist2.c line 19: parse error
+
+[Sun Aug  1 16:58:58 1999] u/u/uchimaha/area/birdarea/npc/eq/fist2.c line 19: $var illegal outside of function.
+
+[Sun Aug  1 16:58:58 1999] u/u/uchimaha/area/birdarea/npc/eq/fist2.c line 24: End of file in string
+
+[Mon Aug  2 21:23:16 1999] u/u/uchimaha/c.c line 21: parse error
+
+[Mon Aug  2 21:23:16 1999] u/u/uchimaha/c.c line 22: Illegal terminator
+
+[Mon Aug  2 21:23:16 1999] u/u/uchimaha/c.c line 22: Text block exceeded maximum length
+
+[Mon Aug  2 21:23:16 1999] u/u/uchimaha/c.c line 23: Illegal terminator
+
+[Mon Aug  2 21:23:16 1999] u/u/uchimaha/c.c line 23: Text block exceeded maximum length
+
+[Mon Aug  2 21:23:16 1999] u/u/uchimaha/c.c line 23: Illegal terminator
+
+[Tue Aug  3 18:58:37 1999] u/u/uchimaha/shit.c line 28: parse error
+
+[Tue Aug  3 18:58:37 1999] u/u/uchimaha/shit.c line 44: Illegal terminator
+
+[Tue Aug  3 18:58:37 1999] u/u/uchimaha/shit.c line 44: Text block exceeded maximum length
+
+[Tue Aug  3 18:58:37 1999] u/u/uchimaha/shit.c line 62: $var illegal outside of function.
+
+[Tue Aug  3 18:58:37 1999] u/u/uchimaha/shit.c line 69: $var illegal outside of function.
+
+[Tue Aug  3 18:58:37 1999] u/u/uchimaha/shit.c line 77: $var illegal outside of function.
+
+[Tue Aug  3 18:58:39 1999] u/u/uchimaha/shit.c line 28: parse error
+
+[Tue Aug  3 18:58:39 1999] u/u/uchimaha/shit.c line 44: Illegal terminator
+
+[Tue Aug  3 18:58:39 1999] u/u/uchimaha/shit.c line 44: Text block exceeded maximum length
+
+[Tue Aug  3 18:58:39 1999] u/u/uchimaha/shit.c line 62: $var illegal outside of function.
+
+[Tue Aug  3 18:58:39 1999] u/u/uchimaha/shit.c line 69: $var illegal outside of function.
+
+[Tue Aug  3 18:58:39 1999] u/u/uchimaha/shit.c line 77: $var illegal outside of function.
+
+[Tue Aug  3 18:59:49 1999] u/u/uchimaha/shit.c line 29: parse error
+
+[Tue Aug  3 18:59:49 1999] u/u/uchimaha/shit.c line 45: Illegal terminator
+
+[Tue Aug  3 18:59:49 1999] u/u/uchimaha/shit.c line 45: Text block exceeded maximum length
+
+[Tue Aug  3 18:59:49 1999] u/u/uchimaha/shit.c line 63: $var illegal outside of function.
+
+[Tue Aug  3 18:59:49 1999] u/u/uchimaha/shit.c line 70: $var illegal outside of function.
+
+[Tue Aug  3 18:59:49 1999] u/u/uchimaha/shit.c line 78: $var illegal outside of function.
+
+[Tue Aug  3 18:59:53 1999] u/u/uchimaha/shit.c line 29: parse error
+
+[Tue Aug  3 18:59:53 1999] u/u/uchimaha/shit.c line 45: Illegal terminator
+
+[Tue Aug  3 18:59:53 1999] u/u/uchimaha/shit.c line 45: Text block exceeded maximum length
+
+[Tue Aug  3 18:59:53 1999] u/u/uchimaha/shit.c line 63: $var illegal outside of function.
+
+[Tue Aug  3 18:59:53 1999] u/u/uchimaha/shit.c line 70: $var illegal outside of function.
+
+[Tue Aug  3 18:59:53 1999] u/u/uchimaha/shit.c line 78: $var illegal outside of function.
+
+[Tue Aug  3 19:00:40 1999] u/u/uchimaha/shit.c line 27: parse error
+
+[Tue Aug  3 19:00:40 1999] u/u/uchimaha/shit.c line 45: Illegal terminator
+
+[Tue Aug  3 19:00:40 1999] u/u/uchimaha/shit.c line 45: Text block exceeded maximum length
+
+[Tue Aug  3 19:00:40 1999] u/u/uchimaha/shit.c line 63: $var illegal outside of function.
+
+[Tue Aug  3 19:00:40 1999] u/u/uchimaha/shit.c line 70: $var illegal outside of function.
+
+[Tue Aug  3 19:00:40 1999] u/u/uchimaha/shit.c line 78: $var illegal outside of function.
+
+[Tue Aug  3 19:00:44 1999] u/u/uchimaha/shit.c line 27: parse error
+
+[Tue Aug  3 19:00:44 1999] u/u/uchimaha/shit.c line 45: Illegal terminator
+
+[Tue Aug  3 19:00:44 1999] u/u/uchimaha/shit.c line 45: Text block exceeded maximum length
+
+[Tue Aug  3 19:00:44 1999] u/u/uchimaha/shit.c line 63: $var illegal outside of function.
+
+[Tue Aug  3 19:00:44 1999] u/u/uchimaha/shit.c line 70: $var illegal outside of function.
+
+[Tue Aug  3 19:00:44 1999] u/u/uchimaha/shit.c line 78: $var illegal outside of function.
+
+[Sat Aug 21 12:30:55 1999] u/u/uchimaha/eqs/fist.c line 21: parse error
+
+[Sat Aug 21 12:31:07 1999] u/u/uchimaha/eqs/fist.c line 21: parse error
+
+[Tue Aug 24 19:51:59 1999] u/u/uchimaha/area/birdarea/npc/kfox.c line 15: parse error
+
+[Tue Aug 24 19:52:27 1999] u/u/uchimaha/area/birdarea/npc/kfox.c line 15: parse error
+
+[Tue Aug 24 19:52:35 1999] u/u/uchimaha/area/birdarea/npc/kfox.c line 15: parse error
+
+[Tue Aug 24 19:54:46 1999] u/u/uchimaha/area/birdarea/npc/obj/pe.c line 4: Undefined variable 'HIR'
+
+
+[Tue Aug 24 19:54:46 1999] u/u/uchimaha/area/birdarea/npc/obj/pe.c line 4: parse error
+
+[Tue Aug 24 19:58:25 1999] u/u/uchimaha/area/birdarea/bird11.c line 19: parse error
+
+[Tue Aug 24 19:58:45 1999] u/u/uchimaha/area/birdarea/bird11.c line 19: parse error
+
+[Tue Aug 24 20:25:22 1999] u/u/uchimaha/area/birdarea/npc/kfox.c line 15: parse error
+
+[Tue Aug 24 20:25:32 1999] u/u/uchimaha/area/birdarea/npc/kfox.c line 15: parse error
+
+[Tue Aug 24 20:27:27 1999] u/u/uchimaha/area/birdarea/npc/kfox.c line 16: parse error
+
+[Tue Aug 24 20:31:12 1999] u/u/uchimaha/area/birdarea/npc/kfox.c line 16: parse error
+
+[Tue Aug 24 20:49:45 1999] u/u/uchimaha/area/birdarea/npc/kfox.c line 16: parse error
+
+[Tue Aug 24 20:50:41 1999] u/u/uchimaha/area/birdarea/npc/kfox.c line 16: parse error
+
+[Fri Oct 22 20:29:03 1999] u/u/uchimaha/eqs/dkfum.c line 7: parse error
+
+[Fri Oct 22 20:29:03 1999] u/u/uchimaha/eqs/dkfum.c line 25: End of file in string
+
+[Tue Oct 26 17:44:11 1999] u/u/uchimaha/area/birdarea/bird17.c line 26: Illegal to redefine 'nomask' function "_query"
+
+[Tue Oct 26 17:44:11 1999] u/u/uchimaha/area/birdarea/bird17.c line 26: Illegal to redefine 'nomask' function "_delete"
+
+[Tue Oct 26 17:44:11 1999] u/u/uchimaha/area/birdarea/bird17.c line 26: Illegal to redefine 'nomask' function "_set"
+
+[Tue Oct 26 17:44:11 1999] u/u/uchimaha/area/birdarea/bird17.c line 49: Redeclaration of function create.
+
+[Tue Oct 26 17:44:53 1999] u/u/uchimaha/area/birdarea/bird17.c line 26: Illegal to redefine 'nomask' function "_query"
+
+[Tue Oct 26 17:44:53 1999] u/u/uchimaha/area/birdarea/bird17.c line 26: Illegal to redefine 'nomask' function "_delete"
+
+[Tue Oct 26 17:44:53 1999] u/u/uchimaha/area/birdarea/bird17.c line 26: Illegal to redefine 'nomask' function "_set"
+
+[Tue Oct 26 17:44:53 1999] u/u/uchimaha/area/birdarea/bird17.c line 49: Redeclaration of function create.
+
+[Thu Oct 28 19:50:59 1999] u/u/uchimaha/area/birdarea/bird17.c line 26: Illegal to redefine 'nomask' function "_query"
+
+[Thu Oct 28 19:50:59 1999] u/u/uchimaha/area/birdarea/bird17.c line 26: Illegal to redefine 'nomask' function "_delete"
+
+[Thu Oct 28 19:50:59 1999] u/u/uchimaha/area/birdarea/bird17.c line 26: Illegal to redefine 'nomask' function "_set"
+
+[Thu Oct 28 19:50:59 1999] u/u/uchimaha/area/birdarea/bird17.c line 49: Redeclaration of function create.
+
+[Sat Oct 30 20:38:27 1999] u/u/uchimaha/eqs/blade.c line 20: Undefined function init_axe
+
+[Sat Oct 30 20:55:24 1999] u/u/uchimaha/eqs/necklace.c line 110: Illegal to redefine 'nomask' function "query_weight"
+
+[Sat Oct 30 20:55:24 1999] u/u/uchimaha/eqs/necklace.c line 110: Illegal to redefine 'nomask' function "_query"
+
+[Sat Oct 30 20:55:24 1999] u/u/uchimaha/eqs/necklace.c line 110: Illegal to redefine 'nomask' function "_delete"
+
+[Sat Oct 30 20:55:24 1999] u/u/uchimaha/eqs/necklace.c line 110: Illegal to redefine 'nomask' function "_set"
+
+[Sat Oct 30 20:55:24 1999] u/u/uchimaha/eqs/necklace.c line 110: Illegal to redefine 'nomask' function "query_encumbrance"
+
+[Sat Oct 30 20:55:24 1999] u/u/uchimaha/eqs/necklace.c line 110: Illegal to redefine 'nomask' function "over_encumbranced"
+
+[Mon Nov 29 21:29:26 1999] u/u/uchimaha/area/birdarea/npc/obj/hat.c line 3: parse error
+
+[Mon Nov 29 21:31:02 1999] u/u/uchimaha/area/birdarea/npc/obj/hat.c line 6: Undefined variable 'HAG'
+
+
+[Mon Nov 29 21:31:02 1999] u/u/uchimaha/area/birdarea/npc/obj/hat.c line 6: parse error
+
+[Mon Nov 29 21:31:08 1999] u/u/uchimaha/area/birdarea/npc/obj/hat.c line 6: Undefined variable 'HAG'
+
+
+[Mon Nov 29 21:31:08 1999] u/u/uchimaha/area/birdarea/npc/obj/hat.c line 6: parse error
+
+[Mon Nov 29 21:32:20 1999] u/u/uchimaha/area/birdarea/npc/obj/hat.c line 6: Undefined variable 'HAG'
+
+
+[Mon Nov 29 21:32:20 1999] u/u/uchimaha/area/birdarea/npc/obj/hat.c line 6: parse error
+
+[Mon Nov 29 21:34:32 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 9: parse error
+
+[Mon Nov 29 21:34:32 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 27: Illegal LHS
+
+[Mon Nov 29 21:34:32 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 27: parse error
+
+[Mon Nov 29 21:34:32 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 84: Illegal LHS
+
+[Mon Nov 29 21:34:32 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 84: parse error
+
+[Mon Nov 29 21:36:40 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 10: parse error
+
+[Mon Nov 29 21:36:40 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 28: Illegal LHS
+
+[Mon Nov 29 21:36:40 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 28: parse error
+
+[Mon Nov 29 21:36:40 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 85: Illegal LHS
+
+[Mon Nov 29 21:36:40 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 85: parse error
+
+[Mon Nov 29 21:46:21 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 10: parse error
+
+[Mon Nov 29 21:46:21 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 28: Illegal LHS
+
+[Mon Nov 29 21:46:21 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 28: parse error
+
+[Mon Nov 29 21:46:21 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 85: Illegal LHS
+
+[Mon Nov 29 21:46:21 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 85: parse error
+
+[Mon Nov 29 21:54:09 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 44: Undefined variable 'think'
+
+
+[Mon Nov 29 21:54:09 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 44: parse error
+
+[Mon Nov 29 21:54:09 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 85: Illegal LHS
+
+[Mon Nov 29 21:54:09 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 85: parse error
+
+[Mon Nov 29 21:54:23 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 44: Undefined variable 'think'
+
+
+[Mon Nov 29 21:54:23 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 44: parse error
+
+[Mon Nov 29 21:54:23 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 85: Illegal LHS
+
+[Mon Nov 29 21:54:23 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 85: parse error
+
+[Tue Nov 30 18:01:03 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 44: Undefined variable 'think'
+
+
+[Tue Nov 30 18:01:03 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 44: parse error
+
+[Tue Nov 30 18:01:03 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 85: Illegal LHS
+
+[Tue Nov 30 18:01:03 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 85: parse error
+
+[Tue Nov 30 18:03:46 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 75: parse error
+
+[Tue Nov 30 18:03:46 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 75: Illegal terminator
+
+[Tue Nov 30 18:03:46 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 75: Text block exceeded maximum length
+
+[Tue Nov 30 18:03:46 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 75: Illegal terminator
+
+[Tue Nov 30 18:03:46 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 75: Text block exceeded maximum length
+
+[Tue Nov 30 18:03:46 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 80: Illegal terminator
+
+[Tue Nov 30 21:33:46 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 75: parse error
+
+[Tue Nov 30 21:33:46 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 75: Illegal terminator
+
+[Tue Nov 30 21:33:46 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 75: Text block exceeded maximum length
+
+[Tue Nov 30 21:33:46 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 75: Illegal terminator
+
+[Tue Nov 30 21:33:46 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 75: Text block exceeded maximum length
+
+[Tue Nov 30 21:33:46 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 80: Illegal terminator
+
+[Tue Nov 30 21:35:23 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 75: parse error
+
+[Tue Nov 30 21:35:23 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 75: Illegal terminator
+
+[Tue Nov 30 21:35:23 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 75: Text block exceeded maximum length
+
+[Tue Nov 30 21:35:23 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 75: Illegal terminator
+
+[Tue Nov 30 21:35:23 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 75: Text block exceeded maximum length
+
+[Tue Nov 30 21:35:23 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 80: Illegal terminator
+
+[Tue Nov 30 21:37:22 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 75: parse error
+
+[Tue Nov 30 21:37:22 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 75: Illegal terminator
+
+[Tue Nov 30 21:37:22 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 75: Text block exceeded maximum length
+
+[Tue Nov 30 21:37:22 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 75: Illegal terminator
+
+[Tue Nov 30 21:37:22 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 75: Text block exceeded maximum length
+
+[Tue Nov 30 21:37:22 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 80: Illegal terminator
+
+[Tue Nov 30 21:38:27 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 75: parse error
+
+[Tue Nov 30 21:38:27 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 75: Illegal terminator
+
+[Tue Nov 30 21:38:27 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 75: Text block exceeded maximum length
+
+[Tue Nov 30 21:38:27 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 75: Illegal terminator
+
+[Tue Nov 30 21:38:27 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 75: Text block exceeded maximum length
+
+[Tue Nov 30 21:38:27 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 80: Illegal terminator
+
+[Tue Nov 30 22:16:17 1999] u/u/uchimaha/area/birdarea/npc/wang.c line 30: parse error
+
+[Mon Dec  6 18:14:30 1999] u/u/uchimaha/eqs/hehesword.c line 10: parse error
+
+[Mon Dec  6 18:14:30 1999] u/u/uchimaha/eqs/hehesword.c line 20: parse error
+
+[Mon Dec  6 18:14:32 1999] u/u/uchimaha/eqs/hehesword.c line 10: parse error
+
+[Mon Dec  6 18:14:32 1999] u/u/uchimaha/eqs/hehesword.c line 20: parse error
+
+[Fri Dec 17 22:23:39 1999] u/u/uchimaha/eqs/hehesword.c line 10: parse error
+
+[Fri Dec 17 22:23:39 1999] u/u/uchimaha/eqs/hehesword.c line 20: parse error
+
+[Sun Dec 26 20:35:32 1999] u/u/uchimaha/area/birdarea/en22.c line 55: End of file in text block
+
+[Sun Dec 26 20:35:32 1999] u/u/uchimaha/area/birdarea/en22.c line 55: parse error
+
+[Sun Dec 26 20:35:32 1999] u/u/uchimaha/area/birdarea/en22.c line 58: End of file in string
+
+[Sun Dec 26 20:36:57 1999] u/u/uchimaha/area/birdarea/en22.c line 53: End of file in text block
+
+[Sun Dec 26 20:36:57 1999] u/u/uchimaha/area/birdarea/en22.c line 54: parse error
+
+[Sun Dec 26 20:39:01 1999] u/u/uchimaha/area/birdarea/en22.c line 50: End of file in text block
+
+[Sun Dec 26 20:39:01 1999] u/u/uchimaha/area/birdarea/en22.c line 51: Undefined variable 'ce'
+
+
+[Sun Dec 26 20:39:01 1999] u/u/uchimaha/area/birdarea/en22.c line 51: parse error
+
+[Sun Dec 26 20:39:01 1999] u/u/uchimaha/area/birdarea/en22.c line 88: End of file in string
+
+[Sun Dec 26 20:40:12 1999] u/u/uchimaha/area/birdarea/en22.c line 54: End of file in text block
+
+[Sun Dec 26 20:40:12 1999] u/u/uchimaha/area/birdarea/en22.c line 54: parse error
+
+[Sun Dec 26 20:45:22 1999] u/u/uchimaha/area/birdarea/en22.c line 54: End of file in text block
+
+[Sun Dec 26 20:45:22 1999] u/u/uchimaha/area/birdarea/en22.c line 54: parse error
+
+[Sun Dec 26 20:54:00 1999] u/u/uchimaha/area/birdarea/en22.c line 54: End of file in text block
+
+[Sun Dec 26 20:54:00 1999] u/u/uchimaha/area/birdarea/en22.c line 54: Wrong number of arguments to set
+    Expected: 2  Got: 1
+
+[Sun Dec 26 20:54:00 1999] u/u/uchimaha/area/birdarea/en22.c line 56: parse error
+
+[Sun Dec 26 20:54:22 1999] u/u/uchimaha/area/birdarea/en22.c line 54: End of file in text block
+
+[Sun Dec 26 20:54:22 1999] u/u/uchimaha/area/birdarea/en22.c line 54: Wrong number of arguments to set
+    Expected: 2  Got: 1
+
+[Sun Dec 26 20:54:22 1999] u/u/uchimaha/area/birdarea/en22.c line 56: parse error
+
+[Sun Dec 26 20:56:11 1999] u/u/uchimaha/area/birdarea/en22.c line 54: End of file in text block
+
+[Sun Dec 26 20:56:11 1999] u/u/uchimaha/area/birdarea/en22.c line 55: parse error
+
+[Sun Dec 26 20:56:49 1999] u/u/uchimaha/area/birdarea/en22.c line 54: End of file in text block
+
+[Sun Dec 26 20:56:49 1999] u/u/uchimaha/area/birdarea/en22.c line 55: parse error
+
+[Sun Dec 26 22:15:18 1999] u/u/uchimaha/area/birdarea/en25.c line 29: parse error
+
+[Sun Dec 26 22:15:32 1999] u/u/uchimaha/area/birdarea/en25.c line 29: parse error
+
+[Thu Jan  6 21:18:58 2000] u/u/uchimaha/area/birdarea/village15.c line 18: parse error
+
+[Thu Jan  6 21:20:08 2000] u/u/uchimaha/area/birdarea/village15.c line 18: parse error
+
+[Sat Jan  8 16:16:41 2000] u/u/uchimaha/area/birdarea/npc/obj/hands.c line 2: parse error
+
+[Sat Jan  8 16:19:05 2000] u/u/uchimaha/area/birdarea/npc/chiu.c line 6: Undefined variable 'gin'
+
+
+[Sat Jan  8 16:19:05 2000] u/u/uchimaha/area/birdarea/npc/chiu.c line 6: parse error
+
+[Sat Jan  8 16:19:05 2000] u/u/uchimaha/area/birdarea/npc/chiu.c line 19: Illegal terminator
+
+[Sat Jan  8 16:19:05 2000] u/u/uchimaha/area/birdarea/npc/chiu.c line 19: Text block exceeded maximum length
+
+[Sat Jan  8 16:19:05 2000] u/u/uchimaha/area/birdarea/npc/chiu.c line 36: Illegal terminator
+
+[Sat Jan  8 16:19:05 2000] u/u/uchimaha/area/birdarea/npc/chiu.c line 36: Text block exceeded maximum length
+
+[Sat Jan  8 16:21:05 2000] u/u/uchimaha/area/birdarea/npc/chiu.c line 6: Undefined variable 'gin'
+
+
+[Sat Jan  8 16:21:05 2000] u/u/uchimaha/area/birdarea/npc/chiu.c line 6: parse error
+
+[Sat Jan  8 16:21:05 2000] u/u/uchimaha/area/birdarea/npc/chiu.c line 19: Illegal terminator
+
+[Sat Jan  8 16:21:05 2000] u/u/uchimaha/area/birdarea/npc/chiu.c line 19: Text block exceeded maximum length
+
+[Sat Jan  8 16:21:05 2000] u/u/uchimaha/area/birdarea/npc/chiu.c line 35: Illegal terminator
+
+[Sat Jan  8 16:21:05 2000] u/u/uchimaha/area/birdarea/npc/chiu.c line 35: Text block exceeded maximum length
+
+[Sat Jan  8 16:27:49 2000] u/u/uchimaha/area/birdarea/npc/chiu.c line 6: Undefined variable 'gin'
+
+
+[Sat Jan  8 16:27:49 2000] u/u/uchimaha/area/birdarea/npc/chiu.c line 6: parse error
+
+[Sat Jan  8 16:27:49 2000] u/u/uchimaha/area/birdarea/npc/chiu.c line 19: Illegal terminator
+
+[Sat Jan  8 16:27:49 2000] u/u/uchimaha/area/birdarea/npc/chiu.c line 19: Text block exceeded maximum length
+
+[Sat Jan  8 16:27:49 2000] u/u/uchimaha/area/birdarea/npc/chiu.c line 36: Illegal terminator
+
+[Sat Jan  8 16:27:49 2000] u/u/uchimaha/area/birdarea/npc/chiu.c line 36: Text block exceeded maximum length
+
+[Sat Jan  8 16:28:44 2000] u/u/uchimaha/area/birdarea/npc/chiu.c line 83: Undefined variable 'hands'
+
+
+[Sat Jan  8 16:30:58 2000] u/u/uchimaha/area/birdarea/npc/chiu.c line 83: Undefined variable 'hands'
+
+
+[Sun Jan  9 12:59:05 2000] u/u/uchimaha/area/birdarea/npc/villager2.c line 17: parse error
+
+[Sun Jan  9 13:00:14 2000] u/u/uchimaha/area/birdarea/npc/villager2.c line 17: parse error
+
+[Sat Feb  5 20:12:13 2000] u/u/uchimaha/dragonbox.c line 37: parse error
+
+[Sat Feb  5 20:12:13 2000] u/u/uchimaha/dragonbox.c line 39: Illegal LHS
+
+[Sat Feb  5 20:12:13 2000] u/u/uchimaha/dragonbox.c line 41: Illegal LHS
+
+[Sat Feb  5 20:12:13 2000] u/u/uchimaha/dragonbox.c line 43: Illegal LHS
+
+[Sat Feb  5 20:12:13 2000] u/u/uchimaha/dragonbox.c line 45: Illegal LHS
+
+[Sat Feb  5 20:12:13 2000] u/u/uchimaha/dragonbox.c line 45: Illegal terminator
+
+[Wed Feb  9 22:15:42 2000] u/u/uchimaha/area/birdarea/npc/man2.c line 86: Undefined variable 'plate'
+
+
+[Wed Feb  9 22:17:16 2000] u/u/uchimaha/area/birdarea/npc/man2.c line 86: Undefined variable 'plate'
+
+
+[Wed Feb  9 22:18:13 2000] u/u/uchimaha/area/birdarea/npc/man2.c line 86: Undefined variable 'wind'
+
+
+[Wed Feb  9 23:19:09 2000] u/u/uchimaha/area/birdarea/npc/man2.c line 42: parse error
+
+[Wed Feb  9 23:19:09 2000] u/u/uchimaha/area/birdarea/npc/man2.c line 61: Illegal LHS
+
+[Wed Feb  9 23:19:09 2000] u/u/uchimaha/area/birdarea/npc/man2.c line 61: parse error
+
+[Wed Feb  9 23:19:09 2000] u/u/uchimaha/area/birdarea/npc/man2.c line 62: Illegal LHS
+
+[Wed Feb  9 23:19:09 2000] u/u/uchimaha/area/birdarea/npc/man2.c line 62: parse error
+
+[Wed Feb  9 23:19:09 2000] u/u/uchimaha/area/birdarea/npc/man2.c line 63: Illegal LHS
+
+[Wed Feb  9 23:19:29 2000] u/u/uchimaha/area/birdarea/npc/man2.c line 42: parse error
+
+[Wed Feb  9 23:19:29 2000] u/u/uchimaha/area/birdarea/npc/man2.c line 61: Illegal LHS
+
+[Wed Feb  9 23:19:29 2000] u/u/uchimaha/area/birdarea/npc/man2.c line 61: parse error
+
+[Wed Feb  9 23:19:29 2000] u/u/uchimaha/area/birdarea/npc/man2.c line 62: Illegal LHS
+
+[Wed Feb  9 23:19:29 2000] u/u/uchimaha/area/birdarea/npc/man2.c line 62: parse error
+
+[Wed Feb  9 23:19:29 2000] u/u/uchimaha/area/birdarea/npc/man2.c line 63: Illegal LHS
+
+[Wed Feb  9 23:20:03 2000] u/u/uchimaha/area/birdarea/npc/man2.c line 42: parse error
+
+[Wed Feb  9 23:20:03 2000] u/u/uchimaha/area/birdarea/npc/man2.c line 61: Illegal LHS
+
+[Wed Feb  9 23:20:03 2000] u/u/uchimaha/area/birdarea/npc/man2.c line 61: parse error
+
+[Wed Feb  9 23:20:03 2000] u/u/uchimaha/area/birdarea/npc/man2.c line 62: Illegal LHS
+
+[Wed Feb  9 23:20:03 2000] u/u/uchimaha/area/birdarea/npc/man2.c line 62: parse error
+
+[Wed Feb  9 23:20:03 2000] u/u/uchimaha/area/birdarea/npc/man2.c line 63: Illegal LHS
+
+[Thu Feb 10 17:21:50 2000] u/u/uchimaha/area/birdarea/npc/man2.c line 42: parse error
+
+[Thu Feb 10 17:21:50 2000] u/u/uchimaha/area/birdarea/npc/man2.c line 61: Illegal LHS
+
+[Thu Feb 10 17:21:50 2000] u/u/uchimaha/area/birdarea/npc/man2.c line 61: parse error
+
+[Thu Feb 10 17:21:50 2000] u/u/uchimaha/area/birdarea/npc/man2.c line 62: Illegal LHS
+
+[Thu Feb 10 17:21:50 2000] u/u/uchimaha/area/birdarea/npc/man2.c line 62: parse error
+
+[Thu Feb 10 17:21:50 2000] u/u/uchimaha/area/birdarea/npc/man2.c line 63: Illegal LHS
+
+[Thu Feb 10 18:27:18 2000] u/u/uchimaha/area/birdarea/npc/test.c line 73: Undefined variable 'obj'
+
+
+[Thu Feb 10 18:27:18 2000] u/u/uchimaha/area/birdarea/npc/test.c line 86: A reserved type name cannot be used as a function name.
+
+
+[Thu Feb 10 18:27:18 2000] u/u/uchimaha/area/birdarea/npc/test.c line 86: parse error
+
+[Thu Feb 10 18:27:18 2000] u/u/uchimaha/area/birdarea/npc/test.c line 86: Illegal LHS
+
+[Thu Feb 10 18:27:18 2000] u/u/uchimaha/area/birdarea/npc/test.c line 87: Undefined variable 'wind'
+
+
+[Thu Feb 10 18:27:18 2000] u/u/uchimaha/area/birdarea/npc/test.c line 87: Undefined variable 'obj'
+
+
+[Thu Feb 10 18:28:03 2000] u/u/uchimaha/area/birdarea/npc/test.c line 86: A reserved type name cannot be used as a function name.
+
+
+[Thu Feb 10 18:28:03 2000] u/u/uchimaha/area/birdarea/npc/test.c line 86: parse error
+
+[Thu Feb 10 18:28:03 2000] u/u/uchimaha/area/birdarea/npc/test.c line 86: Illegal LHS
+
+[Thu Feb 10 18:28:03 2000] u/u/uchimaha/area/birdarea/npc/test.c line 87: Undefined variable 'wind_bag'
+
+
+[Thu Feb 10 18:28:03 2000] u/u/uchimaha/area/birdarea/npc/test.c line 87: Undefined variable 'obj'
+
+
+[Thu Feb 10 18:28:03 2000] u/u/uchimaha/area/birdarea/npc/test.c line 88: Undefined variable 'me'
+
+
+[Fri Feb 11 23:26:24 2000] u/u/uchimaha/area/birdarea/en41.c line 5: Undefined variable 'HIR'
+
+
+[Fri Feb 11 23:26:24 2000] u/u/uchimaha/area/birdarea/en41.c line 5: parse error
+
+[Fri Feb 11 23:26:24 2000] u/u/uchimaha/area/birdarea/en41.c line 32: Illegal LHS
+
+[Fri Feb 11 23:26:24 2000] u/u/uchimaha/area/birdarea/en41.c line 32: parse error
+
+[Fri Feb 11 23:47:30 2000] u/u/uchimaha/area/birdarea/en47.c line 24: Illegal to redefine 'nomask' function "_query"
+
+[Fri Feb 11 23:47:30 2000] u/u/uchimaha/area/birdarea/en47.c line 24: Illegal to redefine 'nomask' function "_delete"
+
+[Fri Feb 11 23:47:30 2000] u/u/uchimaha/area/birdarea/en47.c line 24: Illegal to redefine 'nomask' function "_set"
+
+[Fri Feb 11 23:47:30 2000] u/u/uchimaha/area/birdarea/en47.c line 43: Redeclaration of function create.
+
+[Sat Feb 12 21:32:42 2000] u/u/uchimaha/bird-eight.c line 27: parse error
+
+[Sat Feb 12 21:32:42 2000] u/u/uchimaha/bird-eight.c line 88: Undefined variable 'ob'
+
+
+[Sat Feb 12 21:32:42 2000] u/u/uchimaha/bird-eight.c line 88: Illegal LHS
+
+[Sat Feb 12 21:32:42 2000] u/u/uchimaha/bird-eight.c line 88: parse error
+
+[Sat Feb 12 21:32:42 2000] u/u/uchimaha/bird-eight.c line 89: Illegal LHS
+
+[Sat Feb 12 21:32:42 2000] u/u/uchimaha/bird-eight.c line 104: Illegal LHS
+
+[Sat Feb 12 21:33:28 2000] u/u/uchimaha/bird-eight.c line 26: parse error
+
+[Sat Feb 12 21:33:28 2000] u/u/uchimaha/bird-eight.c line 87: Undefined variable 'ob'
+
+
+[Sat Feb 12 21:33:28 2000] u/u/uchimaha/bird-eight.c line 87: Illegal LHS
+
+[Sat Feb 12 21:33:28 2000] u/u/uchimaha/bird-eight.c line 87: parse error
+
+[Sat Feb 12 21:33:28 2000] u/u/uchimaha/bird-eight.c line 88: Illegal LHS
+
+[Sat Feb 12 21:33:40 2000] u/u/uchimaha/bird-eight.c line 26: parse error
+
+[Sat Feb 12 21:33:40 2000] u/u/uchimaha/bird-eight.c line 87: Undefined variable 'ob'
+
+
+[Sat Feb 12 21:33:40 2000] u/u/uchimaha/bird-eight.c line 87: Illegal LHS
+
+[Sat Feb 12 21:33:40 2000] u/u/uchimaha/bird-eight.c line 87: parse error
+
+[Sat Feb 12 21:33:40 2000] u/u/uchimaha/bird-eight.c line 88: Illegal LHS
+
+[Sun Feb 13 12:48:44 2000] u/u/uchimaha/area/birdarea/npc/test.c line 64: Undefined variable 'ob'
+
+
+[Sun Feb 13 12:50:19 2000] u/u/uchimaha/area/birdarea/npc/test.c line 64: Undefined variable 'ob'
+
+
+[Sun Feb 13 12:53:19 2000] u/u/uchimaha/area/birdarea/npc/test.c line 64: Undefined variable 'ob'
+
+
+[Sun Feb 13 12:54:16 2000] u/u/uchimaha/area/birdarea/npc/test.c line 64: Undefined variable 'ob'
+
+
+[Sun Feb 13 12:55:34 2000] u/u/uchimaha/area/birdarea/npc/test.c line 64: Undefined variable 'ob'
+
+
+[Sun Feb 13 13:03:14 2000] u/u/uchimaha/area/birdarea/npc/wang.c line 44: Undefined variable 'think'
+
+
+[Sun Feb 13 13:03:14 2000] u/u/uchimaha/area/birdarea/npc/wang.c line 44: parse error
+
+[Sun Feb 13 13:03:14 2000] u/u/uchimaha/area/birdarea/npc/wang.c line 90: Illegal LHS
+
+[Sun Feb 13 13:03:14 2000] u/u/uchimaha/area/birdarea/npc/wang.c line 90: parse error
+
+[Sun Feb 13 17:25:03 2000] u/u/uchimaha/test.c line 34: Undefined variable 'obj'
+
+
+[Sun Feb 13 19:30:38 2000] u/u/uchimaha/area/birdarea/test.c line 27: parse error
+
+[Sun Feb 13 21:39:13 2000] u/u/uchimaha/area/birdarea/en71.c line 2: Illegal to redefine 'nomask' function "_query"
+
+[Sun Feb 13 21:39:13 2000] u/u/uchimaha/area/birdarea/en71.c line 2: Illegal to redefine 'nomask' function "_delete"
+
+[Sun Feb 13 21:39:13 2000] u/u/uchimaha/area/birdarea/en71.c line 2: Illegal to redefine 'nomask' function "_set"
+
+[Sun Feb 13 21:39:13 2000] u/u/uchimaha/area/birdarea/en71.c line 39: Undefined variable 'HIG'
+
+
+[Sun Feb 13 21:39:13 2000] u/u/uchimaha/area/birdarea/en71.c line 39: parse error
+
+[Sun Feb 13 21:39:13 2000] u/u/uchimaha/area/birdarea/en71.c line 40: Illegal LHS
+
+[Mon Feb 14 16:46:30 2000] u/u/uchimaha/area/birdarea/en3.c line 34: End of file in text block
+
+[Mon Feb 14 16:46:30 2000] u/u/uchimaha/area/birdarea/en3.c line 34: Undefined variable 'nesed'
+
+
+[Mon Feb 14 16:46:30 2000] u/u/uchimaha/area/birdarea/en3.c line 34: parse error
+
+[Mon Feb 14 16:46:30 2000] u/u/uchimaha/area/birdarea/en3.c line 36: Illegal terminator
+
+[Mon Feb 14 16:46:30 2000] u/u/uchimaha/area/birdarea/en3.c line 36: Text block exceeded maximum length
+
+[Mon Feb 14 16:46:30 2000] u/u/uchimaha/area/birdarea/en3.c line 38: Illegal terminator
+
+[Mon Feb 14 16:47:46 2000] u/u/uchimaha/area/birdarea/en3.c line 34: End of file in text block
+
+[Mon Feb 14 16:47:46 2000] u/u/uchimaha/area/birdarea/en3.c line 34: Undefined function er
+
+[Mon Feb 14 16:47:46 2000] u/u/uchimaha/area/birdarea/en3.c line 35: parse error
+
+[Mon Feb 14 16:47:46 2000] u/u/uchimaha/area/birdarea/en3.c line 43: Illegal LHS
+
+[Mon Feb 14 16:47:46 2000] u/u/uchimaha/area/birdarea/en3.c line 43: parse error
+
+[Mon Feb 14 16:47:46 2000] u/u/uchimaha/area/birdarea/en3.c line 49: Undefined variable 'arg'
+
+
+[Mon Feb 14 16:47:54 2000] u/u/uchimaha/area/birdarea/en3.c line 34: End of file in text block
+
+[Mon Feb 14 16:47:54 2000] u/u/uchimaha/area/birdarea/en3.c line 34: Undefined function er
+
+[Mon Feb 14 16:47:54 2000] u/u/uchimaha/area/birdarea/en3.c line 35: parse error
+
+[Mon Feb 14 16:47:54 2000] u/u/uchimaha/area/birdarea/en3.c line 43: Illegal LHS
+
+[Mon Feb 14 16:47:54 2000] u/u/uchimaha/area/birdarea/en3.c line 43: parse error
+
+[Mon Feb 14 16:47:54 2000] u/u/uchimaha/area/birdarea/en3.c line 49: Undefined variable 'arg'
+
+
+[Mon Feb 14 16:48:44 2000] u/u/uchimaha/area/birdarea/en3.c line 34: End of file in text block
+
+[Mon Feb 14 16:48:44 2000] u/u/uchimaha/area/birdarea/en3.c line 34: parse error
+
+[Mon Feb 14 16:48:44 2000] u/u/uchimaha/area/birdarea/en3.c line 35: $var illegal outside of function.
+
+[Mon Feb 14 16:48:44 2000] u/u/uchimaha/area/birdarea/en3.c line 35: Illegal terminator
+
+[Mon Feb 14 16:48:44 2000] u/u/uchimaha/area/birdarea/en3.c line 35: Text block exceeded maximum length
+
+[Mon Feb 14 16:48:44 2000] u/u/uchimaha/area/birdarea/en3.c line 38: Illegal LHS
+
+[Mon Feb 14 16:49:12 2000] u/u/uchimaha/area/birdarea/en3.c line 34: End of file in text block
+
+[Mon Feb 14 16:49:12 2000] u/u/uchimaha/area/birdarea/en3.c line 35: Undefined variable 'ger'
+
+
+[Mon Feb 14 16:49:12 2000] u/u/uchimaha/area/birdarea/en3.c line 35: parse error
+
+[Mon Feb 14 16:49:12 2000] u/u/uchimaha/area/birdarea/en3.c line 38: Illegal terminator
+
+[Mon Feb 14 16:49:12 2000] u/u/uchimaha/area/birdarea/en3.c line 38: Text block exceeded maximum length
+
+[Mon Feb 14 16:49:12 2000] u/u/uchimaha/area/birdarea/en3.c line 38: Illegal terminator
+
+[Mon Feb 14 16:50:20 2000] u/u/uchimaha/area/birdarea/en3.c line 34: End of file in text block
+
+[Mon Feb 14 16:50:20 2000] u/u/uchimaha/area/birdarea/en3.c line 34: parse error
+
+[Mon Feb 14 16:50:20 2000] u/u/uchimaha/area/birdarea/en3.c line 48: Illegal terminator
+
+[Mon Feb 14 16:50:20 2000] u/u/uchimaha/area/birdarea/en3.c line 48: Text block exceeded maximum length
+
+[Mon Feb 14 16:50:20 2000] u/u/uchimaha/area/birdarea/en3.c line 48: $var illegal outside of function.
+
+[Mon Feb 14 16:50:20 2000] u/u/uchimaha/area/birdarea/en3.c line 48: $var illegal outside of function.
+
+[Mon Feb 14 16:51:33 2000] u/u/uchimaha/area/birdarea/en3.c line 34: End of file in text block
+
+[Mon Feb 14 16:51:33 2000] u/u/uchimaha/area/birdarea/en3.c line 34: Undefined variable 'n'
+
+
+[Mon Feb 14 16:51:33 2000] u/u/uchimaha/area/birdarea/en3.c line 34: parse error
+
+[Mon Feb 14 16:51:33 2000] u/u/uchimaha/area/birdarea/en3.c line 34: Illegal terminator
+
+[Mon Feb 14 16:51:33 2000] u/u/uchimaha/area/birdarea/en3.c line 34: Text block exceeded maximum length
+
+[Mon Feb 14 16:51:33 2000] u/u/uchimaha/area/birdarea/en3.c line 34: Illegal terminator
+
+[Mon Feb 14 16:52:19 2000] u/u/uchimaha/area/birdarea/en3.c line 33: End of file in text block
+
+[Mon Feb 14 16:52:19 2000] u/u/uchimaha/area/birdarea/en3.c line 33: Undefined function _skill
+
+[Mon Feb 14 16:52:19 2000] u/u/uchimaha/area/birdarea/en3.c line 33: parse error
+
+[Mon Feb 14 16:52:19 2000] u/u/uchimaha/area/birdarea/en3.c line 55: Illegal LHS
+
+[Mon Feb 14 16:52:19 2000] u/u/uchimaha/area/birdarea/en3.c line 55: parse error
+
+[Mon Feb 14 16:52:19 2000] u/u/uchimaha/area/birdarea/en3.c line 81: Illegal LHS
+
+[Mon Feb 14 16:54:03 2000] u/u/uchimaha/area/birdarea/en3.c line 33: End of file in text block
+
+[Mon Feb 14 16:54:03 2000] u/u/uchimaha/area/birdarea/en3.c line 33: Undefined variable 'urn'
+
+
+[Mon Feb 14 16:54:03 2000] u/u/uchimaha/area/birdarea/en3.c line 33: parse error
+
+[Mon Feb 14 16:54:41 2000] u/u/uchimaha/area/birdarea/en3.c line 33: End of file in text block
+
+[Mon Feb 14 16:54:41 2000] u/u/uchimaha/area/birdarea/en3.c line 33: A reserved type name cannot be used as a function name.
+
+
+[Mon Feb 14 16:54:41 2000] u/u/uchimaha/area/birdarea/en3.c line 33: parse error
+
+[Mon Feb 14 16:54:41 2000] u/u/uchimaha/area/birdarea/en3.c line 35: Illegal LHS
+
+[Mon Feb 14 16:54:41 2000] u/u/uchimaha/area/birdarea/en3.c line 35: parse error
+
+[Mon Feb 14 16:54:41 2000] u/u/uchimaha/area/birdarea/en3.c line 47: Illegal LHS
+
+[Mon Feb 14 16:57:15 2000] u/u/uchimaha/area/birdarea/en3.c line 33: End of file in text block
+
+[Mon Feb 14 16:57:15 2000] u/u/uchimaha/area/birdarea/en3.c line 33: parse error
+
+[Mon Feb 14 16:57:15 2000] u/u/uchimaha/area/birdarea/en3.c line 33: Illegal terminator
+
+[Mon Feb 14 16:57:15 2000] u/u/uchimaha/area/birdarea/en3.c line 33: Text block exceeded maximum length
+
+[Mon Feb 14 16:57:15 2000] u/u/uchimaha/area/birdarea/en3.c line 110: Illegal terminator
+
+[Mon Feb 14 16:57:15 2000] u/u/uchimaha/area/birdarea/en3.c line 110: Text block exceeded maximum length
+
+[Mon Feb 14 16:57:49 2000] u/u/uchimaha/area/birdarea/en3.c line 33: End of file in text block
+
+[Mon Feb 14 16:57:49 2000] u/u/uchimaha/area/birdarea/en3.c line 36: Undefined variable 'artroom'
+
+
+[Mon Feb 14 16:57:49 2000] u/u/uchimaha/area/birdarea/en3.c line 36: parse error
+
+[Mon Feb 14 16:57:49 2000] u/u/uchimaha/area/birdarea/en3.c line 37: End of file in string
+
+[Mon Feb 14 16:59:38 2000] u/u/uchimaha/area/birdarea/en3.c line 27: parse error
+
+[Mon Feb 14 16:59:49 2000] u/u/uchimaha/area/birdarea/en3.c line 27: parse error
+
+[Mon Feb 14 17:00:55 2000] u/u/uchimaha/area/birdarea/en3.c line 27: parse error
+
+[Mon Feb 14 17:20:40 2000] u/u/uchimaha/area/birdarea/npc/fon.c line 46: Undefined variable 'me'
+
+
+[Mon Feb 14 17:23:12 2000] u/u/uchimaha/area/birdarea/npc/fon.c line 46: Undefined variable 'me'
+
+
+[Thu Feb 17 14:43:45 2000] u/u/uchimaha/stone.c line 46: Undefined function destrucu
+
+[Mon Feb 28 13:59:11 2000] u/u/uchimaha/area/birdarea/en21.c line 16: parse error
+
+[Mon Feb 28 13:59:14 2000] u/u/uchimaha/area/birdarea/en21.c line 16: parse error
+
+[Mon Mar  6 22:14:25 2000] u/u/uchimaha/area/birdarea/npc/guard.c line 17: Warning: Unknown \ escape.
+
+[Mon Mar  6 22:14:25 2000] u/u/uchimaha/area/birdarea/npc/guard.c line 17: Warning: Unknown \ escape.
+
+[Mon Mar  6 22:14:25 2000] u/u/uchimaha/area/birdarea/npc/guard.c line 17: Warning: Unknown \ escape.
+
+[Mon Mar  6 22:14:25 2000] u/u/uchimaha/area/birdarea/npc/guard.c line 17: Warning: Unknown \ escape.
+
+[Mon Mar  6 22:14:25 2000] u/u/uchimaha/area/birdarea/npc/guard.c line 17: Warning: Unknown \ escape.
+
+[Mon Mar  6 22:14:25 2000] u/u/uchimaha/area/birdarea/npc/guard.c line 17: Warning: Unknown \ escape.
+
+[Mon Mar  6 22:14:25 2000] u/u/uchimaha/area/birdarea/npc/guard.c line 18: Warning: Unknown \ escape.
+
+[Mon Mar  6 22:14:25 2000] u/u/uchimaha/area/birdarea/npc/guard.c line 18: Warning: Unknown \ escape.
+
+[Mon Mar  6 22:15:07 2000] u/u/uchimaha/area/birdarea/npc/guard.c line 17: Warning: Unknown \ escape.
+
+[Mon Mar  6 22:15:07 2000] u/u/uchimaha/area/birdarea/npc/guard.c line 17: Warning: Unknown \ escape.
+
+[Mon Mar  6 22:15:07 2000] u/u/uchimaha/area/birdarea/npc/guard.c line 17: Warning: Unknown \ escape.
+
+[Mon Mar  6 22:15:07 2000] u/u/uchimaha/area/birdarea/npc/guard.c line 17: Warning: Unknown \ escape.
+
+[Mon Mar  6 22:15:07 2000] u/u/uchimaha/area/birdarea/npc/guard.c line 17: Warning: Unknown \ escape.
+
+[Mon Mar  6 22:15:07 2000] u/u/uchimaha/area/birdarea/npc/guard.c line 17: Warning: Unknown \ escape.
+
+[Mon Mar  6 22:15:07 2000] u/u/uchimaha/area/birdarea/npc/guard.c line 18: Warning: Unknown \ escape.
+
+[Mon Mar  6 22:15:07 2000] u/u/uchimaha/area/birdarea/npc/guard.c line 18: Warning: Unknown \ escape.
+
+[Mon Mar  6 22:16:19 2000] u/u/uchimaha/area/birdarea/bird20.c line 4: Illegal to redefine 'nomask' function "_query"
+
+[Mon Mar  6 22:16:19 2000] u/u/uchimaha/area/birdarea/bird20.c line 4: Illegal to redefine 'nomask' function "_delete"
+
+[Mon Mar  6 22:16:19 2000] u/u/uchimaha/area/birdarea/bird20.c line 4: Illegal to redefine 'nomask' function "_set"
+
+[Mon Mar  6 22:16:19 2000] u/u/uchimaha/area/birdarea/bird20.c line 4: Illegal to redefine 'nomask' function "_query"
+
+[Mon Mar  6 22:16:19 2000] u/u/uchimaha/area/birdarea/bird20.c line 4: Illegal to redefine 'nomask' function "_delete"
+
+[Mon Mar  6 22:16:19 2000] u/u/uchimaha/area/birdarea/bird20.c line 4: Illegal to redefine 'nomask' function "_set"
+
+[Mon Mar  6 22:16:21 2000] u/u/uchimaha/area/birdarea/bird20.c line 4: Illegal to redefine 'nomask' function "_query"
+
+[Mon Mar  6 22:16:21 2000] u/u/uchimaha/area/birdarea/bird20.c line 4: Illegal to redefine 'nomask' function "_delete"
+
+[Mon Mar  6 22:16:21 2000] u/u/uchimaha/area/birdarea/bird20.c line 4: Illegal to redefine 'nomask' function "_set"
+
+[Mon Mar  6 22:16:21 2000] u/u/uchimaha/area/birdarea/bird20.c line 4: Illegal to redefine 'nomask' function "_query"
+
+[Mon Mar  6 22:16:21 2000] u/u/uchimaha/area/birdarea/bird20.c line 4: Illegal to redefine 'nomask' function "_delete"
+
+[Mon Mar  6 22:16:21 2000] u/u/uchimaha/area/birdarea/bird20.c line 4: Illegal to redefine 'nomask' function "_set"
+
+[Mon Mar  6 22:16:35 2000] u/u/uchimaha/area/birdarea/bird20.c line 4: Illegal to redefine 'nomask' function "_query"
+
+[Mon Mar  6 22:16:35 2000] u/u/uchimaha/area/birdarea/bird20.c line 4: Illegal to redefine 'nomask' function "_delete"
+
+[Mon Mar  6 22:16:35 2000] u/u/uchimaha/area/birdarea/bird20.c line 4: Illegal to redefine 'nomask' function "_set"
+
+[Mon Mar  6 22:17:48 2000] u/u/uchimaha/area/birdarea/bird20.c line 4: Illegal to redefine 'nomask' function "_query"
+
+[Mon Mar  6 22:17:48 2000] u/u/uchimaha/area/birdarea/bird20.c line 4: Illegal to redefine 'nomask' function "_delete"
+
+[Mon Mar  6 22:17:48 2000] u/u/uchimaha/area/birdarea/bird20.c line 4: Illegal to redefine 'nomask' function "_set"
+
+[Mon Mar  6 22:21:27 2000] u/u/uchimaha/area/birdarea/bird20.c line 4: Illegal to redefine 'nomask' function "_query"
+
+[Mon Mar  6 22:21:27 2000] u/u/uchimaha/area/birdarea/bird20.c line 4: Illegal to redefine 'nomask' function "_delete"
+
+[Mon Mar  6 22:21:27 2000] u/u/uchimaha/area/birdarea/bird20.c line 4: Illegal to redefine 'nomask' function "_set"
+
+[Mon Mar  6 22:21:33 2000] u/u/uchimaha/area/birdarea/bird20.c line 4: Illegal to redefine 'nomask' function "_query"
+
+[Mon Mar  6 22:21:33 2000] u/u/uchimaha/area/birdarea/bird20.c line 4: Illegal to redefine 'nomask' function "_delete"
+
+[Mon Mar  6 22:21:33 2000] u/u/uchimaha/area/birdarea/bird20.c line 4: Illegal to redefine 'nomask' function "_set"
+
+[Mon Mar  6 22:21:45 2000] u/u/uchimaha/area/birdarea/bird23.c line 4: Illegal to redefine 'nomask' function "_query"
+
+[Mon Mar  6 22:21:45 2000] u/u/uchimaha/area/birdarea/bird23.c line 4: Illegal to redefine 'nomask' function "_delete"
+
+[Mon Mar  6 22:21:45 2000] u/u/uchimaha/area/birdarea/bird23.c line 4: Illegal to redefine 'nomask' function "_set"
+
+[Mon Mar  6 22:22:03 2000] u/u/uchimaha/area/birdarea/bird24.c line 4: Illegal to redefine 'nomask' function "_query"
+
+[Mon Mar  6 22:22:03 2000] u/u/uchimaha/area/birdarea/bird24.c line 4: Illegal to redefine 'nomask' function "_delete"
+
+[Mon Mar  6 22:22:03 2000] u/u/uchimaha/area/birdarea/bird24.c line 4: Illegal to redefine 'nomask' function "_set"
+
+[Mon Mar  6 22:23:46 2000] u/u/uchimaha/area/birdarea/bird20.c line 4: Illegal to redefine 'nomask' function "_query"
+
+[Mon Mar  6 22:23:46 2000] u/u/uchimaha/area/birdarea/bird20.c line 4: Illegal to redefine 'nomask' function "_delete"
+
+[Mon Mar  6 22:23:46 2000] u/u/uchimaha/area/birdarea/bird20.c line 4: Illegal to redefine 'nomask' function "_set"
+
+[Mon Mar  6 22:24:00 2000] u/u/uchimaha/area/birdarea/bird23.c line 4: Illegal to redefine 'nomask' function "_query"
+
+[Mon Mar  6 22:24:00 2000] u/u/uchimaha/area/birdarea/bird23.c line 4: Illegal to redefine 'nomask' function "_delete"
+
+[Mon Mar  6 22:24:00 2000] u/u/uchimaha/area/birdarea/bird23.c line 4: Illegal to redefine 'nomask' function "_set"
+
+[Mon Mar  6 22:26:08 2000] u/u/uchimaha/area/birdarea/en8.c line 4: Illegal to redefine 'nomask' function "_query"
+
+[Mon Mar  6 22:26:08 2000] u/u/uchimaha/area/birdarea/en8.c line 4: Illegal to redefine 'nomask' function "_delete"
+
+[Mon Mar  6 22:26:08 2000] u/u/uchimaha/area/birdarea/en8.c line 4: Illegal to redefine 'nomask' function "_set"
+
+[Mon Mar  6 22:26:08 2000] u/u/uchimaha/area/birdarea/en8.c line 22: Warning: Unknown \ escape.
+
+[Mon Mar  6 22:26:08 2000] u/u/uchimaha/area/birdarea/en8.c line 22: Warning: Unknown \ escape.
+
+[Mon Mar  6 22:28:27 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 15: Warning: Unknown \ escape.
+
+[Mon Mar  6 22:28:27 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 15: Warning: Unknown \ escape.
+
+[Mon Mar  6 22:28:29 2000] u/u/uchimaha/area/birdarea/bird24.c line 4: Illegal to redefine 'nomask' function "_query"
+
+[Mon Mar  6 22:28:29 2000] u/u/uchimaha/area/birdarea/bird24.c line 4: Illegal to redefine 'nomask' function "_delete"
+
+[Mon Mar  6 22:28:29 2000] u/u/uchimaha/area/birdarea/bird24.c line 4: Illegal to redefine 'nomask' function "_set"
+
+[Mon Mar  6 22:31:01 2000] u/u/uchimaha/area/birdarea/bird25.c line 4: Illegal to redefine 'nomask' function "_query"
+
+[Mon Mar  6 22:31:01 2000] u/u/uchimaha/area/birdarea/bird25.c line 4: Illegal to redefine 'nomask' function "_delete"
+
+[Mon Mar  6 22:31:01 2000] u/u/uchimaha/area/birdarea/bird25.c line 4: Illegal to redefine 'nomask' function "_set"
+
+[Mon Mar  6 22:31:19 2000] u/u/uchimaha/area/birdarea/bird25.c line 4: Illegal to redefine 'nomask' function "_query"
+
+[Mon Mar  6 22:31:19 2000] u/u/uchimaha/area/birdarea/bird25.c line 4: Illegal to redefine 'nomask' function "_delete"
+
+[Mon Mar  6 22:31:19 2000] u/u/uchimaha/area/birdarea/bird25.c line 4: Illegal to redefine 'nomask' function "_set"
+
+[Mon Mar  6 22:33:54 2000] u/u/uchimaha/area/birdarea/npc/fighter2.c line 16: Warning: Unknown \ escape.
+
+[Mon Mar  6 22:33:54 2000] u/u/uchimaha/area/birdarea/npc/fighter2.c line 16: Warning: Unknown \ escape.
+
+[Mon Mar  6 22:34:26 2000] u/u/uchimaha/area/birdarea/npc/fon.c line 9: Warning: Unknown \ escape.
+
+[Mon Mar  6 22:34:26 2000] u/u/uchimaha/area/birdarea/npc/fon.c line 97: Warning: Unknown \ escape.
+
+[Mon Mar  6 22:34:26 2000] u/u/uchimaha/area/birdarea/npc/fon.c line 97: Warning: Unknown \ escape.
+
+[Mon Mar  6 22:34:56 2000] u/u/uchimaha/area/birdarea/npc/fon.c line 9: Warning: Unknown \ escape.
+
+[Mon Mar  6 22:34:56 2000] u/u/uchimaha/area/birdarea/npc/fon.c line 97: Warning: Unknown \ escape.
+
+[Mon Mar  6 22:34:56 2000] u/u/uchimaha/area/birdarea/npc/fon.c line 97: Warning: Unknown \ escape.
+
+[Mon Mar  6 22:35:18 2000] u/u/uchimaha/area/birdarea/npc/fon.c line 9: Warning: Unknown \ escape.
+
+[Mon Mar  6 22:35:18 2000] u/u/uchimaha/area/birdarea/npc/fon.c line 97: Warning: Unknown \ escape.
+
+[Mon Mar  6 22:35:18 2000] u/u/uchimaha/area/birdarea/npc/fon.c line 97: Warning: Unknown \ escape.
+
+[Mon Mar  6 22:36:20 2000] u/u/uchimaha/area/birdarea/npc/fon.c line 9: Warning: Unknown \ escape.
+
+[Mon Mar  6 22:36:20 2000] u/u/uchimaha/area/birdarea/npc/fon.c line 97: Warning: Unknown \ escape.
+
+[Mon Mar  6 22:36:20 2000] u/u/uchimaha/area/birdarea/npc/fon.c line 97: Warning: Unknown \ escape.
+
+[Wed Mar 22 21:13:19 2000] u/u/uchimaha/area/birdarea/npc/fighter2.c line 16: Warning: Unknown \ escape.
+
+[Wed Mar 22 21:13:19 2000] u/u/uchimaha/area/birdarea/npc/fighter2.c line 16: Warning: Unknown \ escape.
+
+[Wed Mar 22 21:13:25 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 15: Warning: Unknown \ escape.
+
+[Wed Mar 22 21:13:25 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 15: Warning: Unknown \ escape.
+
+[Wed May 31 20:50:44 2000] u/u/uchimaha/area/birdarea/en3.c line 3: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Wed May 31 20:50:44 2000] u/u/uchimaha/area/birdarea/en3.c line 3: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Wed May 31 20:50:44 2000] u/u/uchimaha/area/birdarea/en3.c line 3: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Wed May 31 20:50:44 2000] u/u/uchimaha/area/birdarea/en3.c line 3: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Wed May 31 20:50:44 2000] u/u/uchimaha/area/birdarea/en3.c line 3: Illegal to redefine 'nomask' function "add_light" before the end of line
+
+[Wed May 31 20:54:44 2000] u/u/uchimaha/area/birdarea/en4.c line 3: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Wed May 31 20:54:44 2000] u/u/uchimaha/area/birdarea/en4.c line 3: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Wed May 31 20:54:44 2000] u/u/uchimaha/area/birdarea/en4.c line 3: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Wed May 31 20:54:44 2000] u/u/uchimaha/area/birdarea/en4.c line 3: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Wed May 31 20:54:44 2000] u/u/uchimaha/area/birdarea/en4.c line 3: Illegal to redefine 'nomask' function "add_light" before the end of line
+
+[Wed May 31 20:55:38 2000] u/u/uchimaha/area/birdarea/en7.c line 3: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Wed May 31 20:55:38 2000] u/u/uchimaha/area/birdarea/en7.c line 3: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Wed May 31 20:55:38 2000] u/u/uchimaha/area/birdarea/en7.c line 3: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Wed May 31 20:55:38 2000] u/u/uchimaha/area/birdarea/en7.c line 3: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Wed May 31 20:55:38 2000] u/u/uchimaha/area/birdarea/en7.c line 3: Illegal to redefine 'nomask' function "add_light" before the end of line
+
+[Wed May 31 20:55:42 2000] u/u/uchimaha/area/birdarea/en7.c line 3: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Wed May 31 20:55:42 2000] u/u/uchimaha/area/birdarea/en7.c line 3: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Wed May 31 20:55:42 2000] u/u/uchimaha/area/birdarea/en7.c line 3: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Wed May 31 20:55:42 2000] u/u/uchimaha/area/birdarea/en7.c line 3: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Wed May 31 20:55:42 2000] u/u/uchimaha/area/birdarea/en7.c line 3: Illegal to redefine 'nomask' function "add_light" before the end of line
+
+[Wed May 31 20:56:50 2000] u/u/uchimaha/area/birdarea/en8.c line 4: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Wed May 31 20:56:50 2000] u/u/uchimaha/area/birdarea/en8.c line 4: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Wed May 31 20:56:50 2000] u/u/uchimaha/area/birdarea/en8.c line 4: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Wed May 31 20:56:50 2000] u/u/uchimaha/area/birdarea/en8.c line 4: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Wed May 31 20:56:50 2000] u/u/uchimaha/area/birdarea/en8.c line 4: Illegal to redefine 'nomask' function "add_light" before the end of line
+
+[Wed May 31 20:56:50 2000] u/u/uchimaha/area/birdarea/en8.c line 22: Warning: Unknown \ escape. before ^\ÀY¤F.\n",
+
+[Wed May 31 20:56:50 2000] u/u/uchimaha/area/birdarea/en8.c line 22: Warning: Unknown \ escape. before Y¤F.\n",
+
+[Wed May 31 20:57:30 2000] u/u/uchimaha/area/birdarea/en8.c line 20: Warning: Unknown \ escape. before ^\ÀY¤F.\n",
+
+[Wed May 31 20:57:30 2000] u/u/uchimaha/area/birdarea/en8.c line 20: Warning: Unknown \ escape. before Y¤F.\n",
+
+[Wed May 31 20:57:38 2000] u/u/uchimaha/area/birdarea/en8.c line 20: Warning: Unknown \ escape. before ^\ÀY¤F.\n",
+
+[Wed May 31 20:57:38 2000] u/u/uchimaha/area/birdarea/en8.c line 20: Warning: Unknown \ escape. before Y¤F.\n",
+
+[Wed May 31 20:58:30 2000] u/u/uchimaha/area/birdarea/en8.c line 20: Warning: Unknown \ escape. before Ó¦^ÀY¤F.\n",
+
+[Wed May 31 20:59:12 2000] u/u/uchimaha/area/birdarea/en8.c line 20: Warning: Unknown \ escape. before \\¸Ó\¦^\ÀY\¤F.\n",
+
+[Wed May 31 20:59:12 2000] u/u/uchimaha/area/birdarea/en8.c line 20: Warning: Unknown \ escape. before ^\ÀY\¤F.\n",
+
+[Wed May 31 20:59:12 2000] u/u/uchimaha/area/birdarea/en8.c line 20: Warning: Unknown \ escape. before Y\¤F.\n",
+
+[Wed May 31 20:59:12 2000] u/u/uchimaha/area/birdarea/en8.c line 20: Warning: Unknown \ escape. before F.\n",
+
+[Wed May 31 21:00:12 2000] u/u/uchimaha/area/birdarea/en8.c line 20: Warning: Unknown \ escape. before \\¸Ó\¦^\ÀY\¤F.\n",
+
+[Wed May 31 21:00:12 2000] u/u/uchimaha/area/birdarea/en8.c line 20: Warning: Unknown \ escape. before ^\ÀY\¤F.\n",
+
+[Wed May 31 21:00:12 2000] u/u/uchimaha/area/birdarea/en8.c line 20: Warning: Unknown \ escape. before Y\¤F.\n",
+
+[Wed May 31 21:00:12 2000] u/u/uchimaha/area/birdarea/en8.c line 20: Warning: Unknown \ escape. before F.\n",
+
+[Wed Aug  2 14:57:47 2000] u/u/uchimaha/area/birdarea/npc/guard.c line 17: Warning: Unknown \ escape. before \\¤£\¿ù\ªº\¼Ë\¤l\,
+
+[Wed Aug  2 14:57:47 2000] u/u/uchimaha/area/birdarea/npc/guard.c line 17: Warning: Unknown \ escape. before ù\ªº\¼Ë\¤l\,
+
+[Wed Aug  2 14:57:47 2000] u/u/uchimaha/area/birdarea/npc/guard.c line 17: Warning: Unknown \ escape. before º\¼Ë\¤l\,
+
+[Wed Aug  2 14:57:47 2000] u/u/uchimaha/area/birdarea/npc/guard.c line 17: Warning: Unknown \ escape. before Ë\¤l\,
+
+[Wed Aug  2 14:57:47 2000] u/u/uchimaha/area/birdarea/npc/guard.c line 17: Warning: Unknown \ escape. before l\,
+
+[Wed Aug  2 14:57:47 2000] u/u/uchimaha/area/birdarea/npc/guard.c line 17: Warning: Unknown \ escape. before the end of line
+
+[Wed Aug  2 14:57:47 2000] u/u/uchimaha/area/birdarea/npc/guard.c line 18: Warning: Unknown \ escape. before |\¥i¡C\n"
+
+[Wed Aug  2 14:57:47 2000] u/u/uchimaha/area/birdarea/npc/guard.c line 18: Warning: Unknown \ escape. before i¡C\n"
+
+[Wed Aug  2 15:07:15 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 15: Warning: Unknown \ escape. before £¿ù, ¦ý¬OªZ¥\«o¤£«ç»
+
+[Wed Aug  2 15:07:15 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 15: Warning: Unknown \ escape. before o¤£«ç»ò¼Ë¡C\n"
+
+[Wed Aug  2 15:10:50 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 45: End of file in text block before ()==this_player() )
+
+[Wed Aug  2 15:10:50 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 45: parse error before ()==this_player() )
+
+[Wed Aug  2 15:11:38 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 45: End of file in text block before ";
+
+[Wed Aug  2 15:11:38 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 45: parse error before ";
+
+[Wed Aug  2 15:12:58 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 26: End of file in text block before       this_object()-
+
+[Wed Aug  2 15:12:58 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 26: parse error before       this_object()-
+
+[Wed Aug  2 15:18:13 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 28: End of file in text block before the end of line
+
+[Wed Aug  2 15:18:13 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 28: parse error before the end of line
+
+[Wed Aug  2 15:20:09 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 28: End of file in text block before the end of line
+
+[Wed Aug  2 15:20:09 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 28: parse error before the end of line
+
+[Wed Aug  2 15:24:41 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 28: End of file in text block before (me), geteuid(ob), c
+
+[Wed Aug  2 15:24:41 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 28: parse error before (me), geteuid(ob), c
+
+[Wed Aug  2 15:25:13 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 28: End of file in text block before ¤F°_¨Ó¡C\n", environ
+
+[Wed Aug  2 15:25:13 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 28: parse error before ¤F°_¨Ó¡C\n", environ
+
+[Wed Aug  2 15:26:31 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 28: End of file in text block before  arg != "¥Û¾À" && ar
+
+[Wed Aug  2 15:26:31 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 28: parse error before  arg != "¥Û¾À" && ar
+
+[Wed Aug  2 15:27:23 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 28: End of file in text block before       }
+
+[Wed Aug  2 15:27:23 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 28: parse error before       }
+
+[Wed Aug  2 15:27:29 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 28: End of file in text block before f(!find_player(geteu
+
+[Wed Aug  2 15:27:29 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 28: parse error before f(!find_player(geteu
+
+[Wed Aug  2 15:27:47 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 28: End of file in text block before _insert", 1);
+
+[Wed Aug  2 15:27:47 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 28: parse error before _insert", 1);
+
+[Wed Aug  2 15:27:49 2000] u/u/uchimaha/area/birdarea/npc/fighter2.c line 16: Warning: Unknown \ escape. before ´¨Î, ¦Ó¥BªZ¥\¦³¤@©wª
+
+[Wed Aug  2 15:27:49 2000] u/u/uchimaha/area/birdarea/npc/fighter2.c line 16: Warning: Unknown \ escape. before ³¤@©wªº³y¦®¤F¡C\n"
+
+[Wed Aug  2 15:28:15 2000] u/u/uchimaha/area/birdarea/npc/fighter2.c line 16: Warning: Unknown \ escape. before ´¨Î, ¦Ó¥BªZ¥\¦³¤@©wª
+
+[Wed Aug  2 15:28:15 2000] u/u/uchimaha/area/birdarea/npc/fighter2.c line 16: Warning: Unknown \ escape. before ³¤@©wªº³y¦®¤F¡C\n"
+
+[Wed Aug  2 15:29:41 2000] u/u/uchimaha/area/birdarea/npc/fighter2.c line 29: End of file in text block before ;
+
+[Wed Aug  2 15:29:41 2000] u/u/uchimaha/area/birdarea/npc/fighter2.c line 29: parse error before ;
+
+[Wed Aug  2 15:32:28 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 21: parse error before ",({
+
+[Wed Aug  2 15:32:28 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 28: End of file in string before "no_cast",1);
+
+[Wed Aug  2 15:33:20 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 22: parse error before ",({
+
+[Wed Aug  2 15:33:20 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 29: End of file in string before o;
+
+[Wed Aug  2 15:43:56 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 22: parse error before ", 20);
+
+[Wed Aug  2 15:43:56 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 30: End of file in string before euid())) {
+
+[Wed Aug  2 15:44:02 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 22: parse error before ", 20);
+
+[Wed Aug  2 15:44:02 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 30: End of file in string before euid())) {
+
+[Wed Aug  2 15:45:12 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 27: parse error before /dagger2.c")->wield(
+
+[Wed Aug  2 15:45:12 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 30: End of file in string before the end of line
+
+[Wed Aug  2 15:49:10 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 20: Warning: Unknown \ escape. before E\n",
+
+[Wed Aug  2 15:50:18 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 20: Warning: Unknown \ escape. before E\n",
+
+[Wed Aug  2 15:52:04 2000] u/u/uchimaha/area/birdarea/npc/fighter.c line 20: Warning: Unknown \ escape. before E\n",
+
+[Wed Aug  2 15:56:55 2000] u/u/uchimaha/area/birdarea/npc/fon.c line 9: Warning: Unknown \ escape. before Hºâ¬O¨ì¤F¯«¥G¨ä§Þ¤F,
+
+[Wed Aug  2 15:56:55 2000] u/u/uchimaha/area/birdarea/npc/fon.c line 97: Warning: Unknown \ escape. before ´\¥\\¡Aºâ¬OµªÁÂÂ§¦n¤
+
+[Wed Aug  2 15:56:55 2000] u/u/uchimaha/area/birdarea/npc/fon.c line 97: Warning: Unknown \ escape. before \\¡Aºâ¬OµªÁÂÂ§¦n¤F¡C
+
+[Wed Aug  2 16:02:13 2000] u/u/uchimaha/area/birdarea/npc/fon.c line 100: Warning: Unknown \ escape. before ´\¥\\¡Aºâ¬OµªÁÂÂ§¦n¤
+
+[Wed Aug  2 16:02:13 2000] u/u/uchimaha/area/birdarea/npc/fon.c line 100: Warning: Unknown \ escape. before \\¡Aºâ¬OµªÁÂÂ§¦n¤F¡C
+
+[Wed Aug  2 16:03:11 2000] u/u/uchimaha/area/birdarea/npc/fon.c line 100: Warning: Unknown \ escape. before Aºâ¬OµªÁÂÂ§¦n¤F¡C");
+
+[Wed Aug  2 16:04:01 2000] u/u/uchimaha/area/birdarea/npc/fon.c line 100: Warning: Unknown \ escape. before Aºâ¬OµªÁÂÂ§¦n¤F¡C\n"
+
+[Wed Aug  2 16:05:09 2000] u/u/uchimaha/area/birdarea/npc/fon.c line 100: Warning: Unknown \ escape. before Aºâ¬OµªÁÂÂ§¦n¤F¡C");
+
+[Wed Aug  2 16:09:33 2000] u/u/uchimaha/area/birdarea/npc/fon.c line 100: Warning: Unknown \ escape. before Aºâ¬OµªÁÂÂ§¦n¤F¡C");
+
+[Wed Aug  2 16:15:03 2000] u/u/uchimaha/area/birdarea/npc/fon.c line 100: Warning: Unknown \ escape. before Aºâ¬OµªÁÂÂ§¦n¤F¡C");
+
+[Wed Aug  2 16:17:19 2000] u/u/uchimaha/area/birdarea/npc/test.c line 9: Warning: Unknown \ escape. before Hºâ¬O¨ì¤F¯«¥G¨ä§Þ¤F,
+
+[Wed Aug  2 16:17:19 2000] u/u/uchimaha/area/birdarea/npc/test.c line 97: Warning: Unknown \ escape. before Aºâ¬OµªÁÂÂ§¦n¤F¡C");
+
+[Wed Aug  2 16:30:32 2000] u/u/uchimaha/area/birdarea/en71.c line 36: Undefined variable 'force' before > 49)
+
+[Wed Aug  2 16:30:32 2000] u/u/uchimaha/area/birdarea/en71.c line 36: parse error before > 49)
+
+[Wed Aug  2 16:30:32 2000] u/u/uchimaha/area/birdarea/en71.c line 42: Illegal LHS before the end of line
+
+[Wed Aug  2 16:30:32 2000] u/u/uchimaha/area/birdarea/en71.c line 44: Illegal LHS before the end of line
+
+[Wed Aug  2 16:30:32 2000] u/u/uchimaha/area/birdarea/en71.c line 44: parse error before the end of line
+
+[Wed Aug  2 16:30:46 2000] u/u/uchimaha/area/birdarea/en71.c line 36: Undefined variable 'force' before > 49)
+
+[Wed Aug  2 16:30:46 2000] u/u/uchimaha/area/birdarea/en71.c line 36: parse error before > 49)
+
+[Wed Aug  2 16:30:46 2000] u/u/uchimaha/area/birdarea/en71.c line 42: Illegal LHS before the end of line
+
+[Wed Aug  2 16:30:46 2000] u/u/uchimaha/area/birdarea/en71.c line 44: Illegal LHS before the end of line
+
+[Wed Aug  2 16:30:46 2000] u/u/uchimaha/area/birdarea/en71.c line 44: parse error before the end of line
+
+[Sun Aug  6 20:50:38 2000] u/u/uchimaha/area/birdarea/npc/eq/fist2.c line 10: Warning: Unknown \ escape. before º¥­±`¤H¤]¥i¥HÅÜ¦¨­^¶
+
+[Mon Aug  7 19:08:08 2000] u/u/uchimaha/area/birdarea/npc/guard.c line 17: Warning: Unknown \ escape. before \\¤£\¿ù\ªº\¼Ë\¤l\,
+
+[Mon Aug  7 19:08:08 2000] u/u/uchimaha/area/birdarea/npc/guard.c line 17: Warning: Unknown \ escape. before ù\ªº\¼Ë\¤l\,
+
+[Mon Aug  7 19:08:08 2000] u/u/uchimaha/area/birdarea/npc/guard.c line 17: Warning: Unknown \ escape. before º\¼Ë\¤l\,
+
+[Mon Aug  7 19:08:08 2000] u/u/uchimaha/area/birdarea/npc/guard.c line 17: Warning: Unknown \ escape. before Ë\¤l\,
+
+[Mon Aug  7 19:08:08 2000] u/u/uchimaha/area/birdarea/npc/guard.c line 17: Warning: Unknown \ escape. before l\,
+
+[Mon Aug  7 19:08:08 2000] u/u/uchimaha/area/birdarea/npc/guard.c line 17: Warning: Unknown \ escape. before the end of line
+
+[Mon Aug  7 19:08:08 2000] u/u/uchimaha/area/birdarea/npc/guard.c line 18: Warning: Unknown \ escape. before |\¥i¡C\n"
+
+[Mon Aug  7 19:08:08 2000] u/u/uchimaha/area/birdarea/npc/guard.c line 18: Warning: Unknown \ escape. before i¡C\n"
+
+[Tue Aug  8 01:59:44 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 2: parse error before  create()
+
+[Tue Aug  8 02:15:56 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 2: parse error before  create()
+
+[Tue Aug  8 02:20:30 2000] u/u/uchimaha/area/ugelan/npc/cain2.c line 2: parse error before  create()
+
+[Tue Aug  8 02:20:36 2000] u/u/uchimaha/area/ugelan/npc/cain2.c line 2: parse error before  create()
+
+[Tue Aug  8 02:25:42 2000] u/u/uchimaha/area/ugelan/npc/cain2.c line 2: parse error before  create()
+
+[Tue Aug  8 02:25:44 2000] u/u/uchimaha/area/ugelan/npc/cain2.c line 2: parse error before  create()
+
+[Tue Aug  8 02:26:58 2000] u/u/uchimaha/area/ugelan/npc/cain2.c line 2: parse error before  create()
+
+[Tue Aug  8 02:28:18 2000] u/u/uchimaha/area/ugelan/npc/cain2.c line 2: parse error before  create()
+
+[Tue Aug  8 02:28:34 2000] u/u/uchimaha/area/ugelan/npc/cain2.c line 2: parse error before  create()
+
+[Tue Aug  8 15:28:43 2000] u/u/uchimaha/area/ugelan/npc/cain3.c line 2: parse error before  heal()
+
+[Tue Aug  8 15:28:47 2000] u/u/uchimaha/area/ugelan/npc/cain3.c line 2: parse error before  heal()
+
+[Tue Aug  8 15:29:01 2000] u/u/uchimaha/area/ugelan/npc/cain3.c line 2: parse error before  heal()
+
+[Tue Aug  8 15:38:58 2000] u/u/uchimaha/area/ugelan/npc/cain2.c line 2: parse error before  create()
+
+[Tue Aug  8 15:39:00 2000] u/u/uchimaha/area/ugelan/npc/cain2.c line 2: parse error before  create()
+
+[Tue Aug  8 15:40:42 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 2: parse error before  create()
+
+[Tue Aug  8 15:53:59 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 2: parse error before  create()
+
+[Tue Aug  8 15:59:09 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 2: parse error before  create()
+
+[Tue Aug  8 16:09:21 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 2: parse error before  create()
+
+[Tue Aug  8 16:38:47 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 2: parse error before  heal()
+
+[Tue Aug  8 17:39:47 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 60: parse error before ¸¯Àªk¯]"ªº¯]¤l, §Ú¥Ø
+
+[Tue Aug  8 17:39:47 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 78: Illegal LHS before the end of line
+
+[Tue Aug  8 17:39:47 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 78: parse error before the end of line
+
+[Tue Aug  8 17:39:47 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 115: Illegal LHS before the end of line
+
+[Tue Aug  8 17:39:47 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 115: parse error before the end of line
+
+[Tue Aug  8 17:39:47 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 116: Illegal LHS before the end of line
+
+[Tue Aug  8 17:40:33 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 60: parse error before ¸¯Àªk¯]"ªº¯]¤l, §Ú¥Ø
+
+[Tue Aug  8 17:40:33 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 78: Illegal LHS before the end of line
+
+[Tue Aug  8 17:40:33 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 78: parse error before the end of line
+
+[Tue Aug  8 17:40:33 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 115: Illegal LHS before the end of line
+
+[Tue Aug  8 17:40:33 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 115: parse error before the end of line
+
+[Tue Aug  8 17:40:33 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 116: Illegal LHS before the end of line
+
+[Tue Aug  8 17:41:19 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 60: parse error before ¸¯Àªk¯]"ªº¯]¤l, §Ú¥Ø
+
+[Tue Aug  8 17:41:19 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 78: Illegal LHS before the end of line
+
+[Tue Aug  8 17:41:19 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 78: parse error before the end of line
+
+[Tue Aug  8 17:41:19 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 115: Illegal LHS before the end of line
+
+[Tue Aug  8 17:41:19 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 115: parse error before the end of line
+
+[Tue Aug  8 17:41:19 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 116: Illegal LHS before the end of line
+
+[Tue Aug  8 17:53:21 2000] u/u/uchimaha/area/ugelan/npc/lance.c line 49: Wrong number of arguments to create_family
+    Expected: 3  Got: 1 before ;
+
+[Tue Aug  8 17:54:29 2000] u/u/uchimaha/area/ugelan/npc/lance.c line 49: Undefined function create_title before ;
+
+[Tue Aug  8 18:11:57 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 60: parse error before ¸¯Àªk¯]"ªº¯]¤l, §Ú¥Ø
+
+[Tue Aug  8 18:11:57 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 78: Illegal LHS before the end of line
+
+[Tue Aug  8 18:11:57 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 78: parse error before the end of line
+
+[Tue Aug  8 18:11:57 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 115: Illegal LHS before the end of line
+
+[Tue Aug  8 18:11:57 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 115: parse error before the end of line
+
+[Tue Aug  8 18:11:57 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 116: Illegal LHS before the end of line
+
+[Tue Aug  8 18:31:25 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 75: Reserved type name unexpected. before (object who,object o
+
+[Tue Aug  8 18:31:25 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 75: parse error before (object who,object o
+
+[Tue Aug  8 18:31:25 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 78: Illegal LHS before the end of line
+
+[Tue Aug  8 18:31:25 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 79: Undefined variable 'ob' before query("id") != "elem
+
+[Tue Aug  8 18:31:25 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 81: Undefined variable 'who' before query("id"));
+
+[Tue Aug  8 18:31:25 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 86: Undefined variable 'obj' before is_busy() )
+
+[Tue Aug  8 18:31:47 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 75: Reserved type name unexpected. before (object who,object o
+
+[Tue Aug  8 18:31:47 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 75: parse error before (object who,object o
+
+[Tue Aug  8 18:31:47 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 78: Illegal LHS before the end of line
+
+[Tue Aug  8 18:31:47 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 79: Undefined variable 'ob' before query("id") != "elem
+
+[Tue Aug  8 18:31:47 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 81: Undefined variable 'who' before query("id"));
+
+[Tue Aug  8 18:31:47 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 86: Undefined variable 'obj' before is_busy() )
+
+[Tue Aug  8 19:09:00 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 75: Reserved type name unexpected. before (object who,object o
+
+[Tue Aug  8 19:09:00 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 75: parse error before (object who,object o
+
+[Tue Aug  8 19:09:00 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 78: Illegal LHS before the end of line
+
+[Tue Aug  8 19:09:00 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 79: Undefined variable 'ob' before query("id") != "¯«ªZ
+
+[Tue Aug  8 19:09:00 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 81: Undefined variable 'who' before query("id"));
+
+[Tue Aug  8 19:09:00 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 93: Undefined variable 'obj' before start_busy(10);
+
+[Tue Aug  8 19:09:24 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 75: Reserved type name unexpected. before (object who,object o
+
+[Tue Aug  8 19:09:24 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 75: parse error before (object who,object o
+
+[Tue Aug  8 19:09:24 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 78: Illegal LHS before the end of line
+
+[Tue Aug  8 19:09:24 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 79: Undefined variable 'ob' before query("id") != "¯«ªZ
+
+[Tue Aug  8 19:09:24 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 81: Undefined variable 'who' before query("id"));
+
+[Tue Aug  8 19:09:24 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 93: Undefined variable 'obj' before start_busy(10);
+
+[Tue Aug  8 19:16:56 2000] u/u/uchimaha/area/ugelan/npc/wp/lightaxe.c line 45: Undefined function message_atck before ;
+
+[Tue Aug  8 19:19:02 2000] u/u/uchimaha/area/ugelan/npc/wp/lightaxe.c line 38: Undefined variable 'victim' before receive_damage("hp",
+
+[Tue Aug  8 19:19:02 2000] u/u/uchimaha/area/ugelan/npc/wp/lightaxe.c line 45: Undefined function message_atck before ;
+
+[Tue Aug  8 19:19:16 2000] u/u/uchimaha/area/ugelan/npc/wp/lightaxe.c line 38: Undefined variable 'victim' before receive_damage("hp",
+
+[Tue Aug  8 19:19:16 2000] u/u/uchimaha/area/ugelan/npc/wp/lightaxe.c line 45: Undefined function message_atck before ;
+
+[Tue Aug  8 19:19:24 2000] u/u/uchimaha/area/ugelan/npc/wp/lightaxe.c line 38: Undefined variable 'victim' before receive_damage("hp",
+
+[Tue Aug  8 19:19:24 2000] u/u/uchimaha/area/ugelan/npc/wp/lightaxe.c line 45: Undefined function message_atck before ;
+
+[Tue Aug  8 19:20:50 2000] u/u/uchimaha/area/ugelan/npc/wp/lightaxe.c line 38: Undefined variable 'victim' before receive_damage("hp",
+
+[Tue Aug  8 19:20:50 2000] u/u/uchimaha/area/ugelan/npc/wp/lightaxe.c line 45: Undefined function message_victim before ;
+
+[Tue Aug  8 19:23:08 2000] u/u/uchimaha/area/ugelan/npc/wp/lightaxe.c line 45: Undefined function message_victim before ;
+
+[Tue Aug  8 19:23:34 2000] u/u/uchimaha/area/ugelan/npc/wp/lightaxe.c line 45: Undefined function message_victim before ;
+
+[Wed Aug  9 13:39:37 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 66: parse error before the end of line
+
+[Wed Aug  9 13:39:37 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 75: Illegal LHS before the end of line
+
+[Wed Aug  9 13:39:37 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 75: parse error before the end of line
+
+[Wed Aug  9 13:39:37 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 111: Illegal LHS before the end of line
+
+[Wed Aug  9 13:39:37 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 111: parse error before the end of line
+
+[Wed Aug  9 13:39:37 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 112: Illegal LHS before the end of line
+
+[Wed Aug  9 13:39:49 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 66: parse error before the end of line
+
+[Wed Aug  9 13:39:49 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 75: Illegal LHS before the end of line
+
+[Wed Aug  9 13:39:49 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 75: parse error before the end of line
+
+[Wed Aug  9 13:39:49 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 111: Illegal LHS before the end of line
+
+[Wed Aug  9 13:39:49 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 111: parse error before the end of line
+
+[Wed Aug  9 13:39:49 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 112: Illegal LHS before the end of line
+
+[Wed Aug  9 13:44:48 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 71: Reserved type name unexpected. before (object who,object o
+
+[Wed Aug  9 13:44:48 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 71: parse error before (object who,object o
+
+[Wed Aug  9 13:44:48 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 74: Illegal LHS before the end of line
+
+[Wed Aug  9 13:44:48 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 75: Undefined variable 'ob' before query("id") != "¤¸¯À
+
+[Wed Aug  9 13:44:48 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 77: Undefined variable 'who' before query("id"));
+
+[Wed Aug  9 13:44:48 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 82: Undefined variable 'obj' before is_busy() )
+
+[Wed Aug  9 13:45:06 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 71: Reserved type name unexpected. before (object who,object o
+
+[Wed Aug  9 13:45:06 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 71: parse error before (object who,object o
+
+[Wed Aug  9 13:45:06 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 74: Illegal LHS before the end of line
+
+[Wed Aug  9 13:45:06 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 75: Undefined variable 'ob' before query("id") != "¤¸¯À
+
+[Wed Aug  9 13:45:06 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 77: Undefined variable 'who' before query("id"));
+
+[Wed Aug  9 13:45:06 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 82: Undefined variable 'obj' before is_busy() )
+
+[Wed Aug  9 13:49:56 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 125: Too many arguments to command before ;
+
+[Wed Aug  9 13:50:10 2000] u/u/uchimaha/area/ugelan/npc/cain.c line 125: Too many arguments to command before ;
+
+[Wed Aug  9 17:00:05 2000] u/u/uchimaha/area/birdarea/en72.c line 17: Warning: Unknown \ escape. before \\¤£\¿ù\¡A¥i¥H¸ÕµÛ¶]
+
+[Wed Aug  9 17:00:05 2000] u/u/uchimaha/area/birdarea/en72.c line 17: Warning: Unknown \ escape. before ù\¡A¥i¥H¸ÕµÛ¶]¹L¥h¡C
+
+[Wed Aug  9 17:00:05 2000] u/u/uchimaha/area/birdarea/en72.c line 17: Warning: Unknown \ escape. before A¥i¥H¸ÕµÛ¶]¹L¥h¡C\n"
+
+[Wed Aug  9 17:12:25 2000] u/u/uchimaha/area/ugelan/npc/eq/honorboots.c line 10: Warning: Unknown \ escape. before A¥Ñ°ê¤ý¿Ë¦Û½ç¤©¡A¥Nª
+
+[Thu Aug 10 00:46:39 2000] u/u/uchimaha/area/ugelan/npc/spells/elemental_firecloud.c line 100: parse error before  1;
+
+[Thu Aug 10 00:48:41 2000] u/u/uchimaha/area/ugelan/npc/spells/elemental_firecloud.c line 100: parse error before  1;
+
+[Thu Aug 10 00:50:25 2000] u/u/uchimaha/area/ugelan/npc/spells/elemental_firecloud.c line 100: parse error before  1;
+
+[Thu Aug 10 00:51:29 2000] u/u/uchimaha/area/ugelan/npc/spells/elemental_firecloud.c line 100: parse error before  1;
+
+[Thu Aug 10 12:33:44 2000] u/u/uchimaha/area/ugelan/npc/spells/elemental_firecloud.c line 100: parse error before  1;
+
+[Thu Aug 10 17:05:31 2000] u/u/uchimaha/guardshit.c line 19: No such inherited function ::init before ;
+
+[Thu Aug 10 17:05:51 2000] u/u/uchimaha/guardshit.c line 19: No such inherited function ::init before ;
+
+[Thu Aug 10 17:07:09 2000] u/u/uchimaha/guardshit.c line 20: No such inherited function ::init before ;
+
+[Thu Aug 10 17:16:29 2000] u/u/uchimaha/pigman.c line 28: parse error before "¦¹¸ô¤£³q.....:P\n"N
+
+[Sun Aug 20 17:43:35 2000] u/u/uchimaha/area/birdarea/en71.c line 40: Warning: Unknown \ escape. before O$Nªº¤º¥\¤£°÷²`«p¡A¤
+
+[Sun Aug 20 17:43:35 2000] u/u/uchimaha/area/birdarea/en71.c line 40: Warning: Unknown \ escape. before £°÷²`«p¡A¤j¥Û¨Ã¨S¦³¥
+
+[Sun Aug 20 17:44:31 2000] u/u/uchimaha/area/birdarea/en71.c line 40: Warning: Unknown \ escape. before O$Nªº\¤º\¥\\¤£\°÷\²`
+
+[Sun Aug 20 17:44:31 2000] u/u/uchimaha/area/birdarea/en71.c line 40: Warning: Unknown \ escape. before º\¥\\¤£\°÷\²`\«p\¡A¤
+
+[Sun Aug 20 17:44:31 2000] u/u/uchimaha/area/birdarea/en71.c line 40: Warning: Unknown \ escape. before \\¤£\°÷\²`\«p\¡A¤j\¥
+
+[Sun Aug 20 17:44:31 2000] u/u/uchimaha/area/birdarea/en71.c line 40: Warning: Unknown \ escape. before ÷\²`\«p\¡A¤j\¥Û\¨Ã\¨
+
+[Sun Aug 20 17:44:31 2000] u/u/uchimaha/area/birdarea/en71.c line 40: Warning: Unknown \ escape. before `\«p\¡A¤j\¥Û\¨Ã\¨S\¦
+
+[Sun Aug 20 17:44:31 2000] u/u/uchimaha/area/birdarea/en71.c line 40: Warning: Unknown \ escape. before p\¡A¤j\¥Û\¨Ã\¨S\¦³\¥
+
+[Sun Aug 20 17:44:31 2000] u/u/uchimaha/area/birdarea/en71.c line 40: Warning: Unknown \ escape. before A¤j\¥Û\¨Ã\¨S\¦³\¥ô\¦
+
+[Sun Aug 20 17:44:31 2000] u/u/uchimaha/area/birdarea/en71.c line 40: Warning: Unknown \ escape. before Û\¨Ã\¨S\¦³\¥ô\¦óªº¤Ï
+
+[Sun Aug 20 17:44:31 2000] u/u/uchimaha/area/birdarea/en71.c line 40: Warning: Unknown \ escape. before Ã\¨S\¦³\¥ô\¦óªº¤ÏÀ³¡
+
+[Sun Aug 20 17:44:31 2000] u/u/uchimaha/area/birdarea/en71.c line 40: Warning: Unknown \ escape. before S\¦³\¥ô\¦óªº¤ÏÀ³¡C\n
+
+[Sun Aug 20 17:44:31 2000] u/u/uchimaha/area/birdarea/en71.c line 40: Warning: Unknown \ escape. before ³\¥ô\¦óªº¤ÏÀ³¡C\n",m
+
+[Sun Aug 20 17:44:31 2000] u/u/uchimaha/area/birdarea/en71.c line 40: Warning: Unknown \ escape. before ô\¦óªº¤ÏÀ³¡C\n",me);
+
+[Sun Aug 20 17:44:31 2000] u/u/uchimaha/area/birdarea/en71.c line 40: Warning: Unknown \ escape. before óªº¤ÏÀ³¡C\n",me);
+
+[Sun Aug 20 17:45:09 2000] u/u/uchimaha/area/birdarea/en71.c line 40: Warning: Unknown \ escape. before O$Nªº¤º¥\¤£°÷²`«p¡A¤
+
+[Sun Aug 20 17:45:09 2000] u/u/uchimaha/area/birdarea/en71.c line 40: Warning: Unknown \ escape. before £°÷²`«p¡A¤j¥Û¨Ã¨S¦³¥
+
+[Sun Aug 20 17:47:35 2000] u/u/uchimaha/area/birdarea/en71.c line 52: Warning: Unknown \ escape. before O$Nªº¤º¥\¤£°÷/²`/«p¡
+
+[Sun Aug 20 17:47:35 2000] u/u/uchimaha/area/birdarea/en71.c line 52: Warning: Unknown \ escape. before £°÷/²`/«p¡A¤j¥Û¨Ã¨S¦
+
+[Sun Aug 20 17:49:23 2000] u/u/uchimaha/area/birdarea/en71.c line 52: Warning: Unknown \ escape. before ¬O/$N/ªº/¤º/¥\/¤£/°÷
+
+[Sun Aug 20 17:49:23 2000] u/u/uchimaha/area/birdarea/en71.c line 52: Warning: Unknown \ escape. before ¤£/°÷/²`«p¡A¤j¥Û¨Ã¨S
+
+[Sun Aug 20 17:50:47 2000] u/u/uchimaha/area/birdarea/en71.c line 52: Warning: Unknown \ escape. before O$Nªº¤º¥\¤£°÷²`«p¡A¤
+
+[Sun Aug 20 17:50:47 2000] u/u/uchimaha/area/birdarea/en71.c line 52: Warning: Unknown \ escape. before £°÷²`«p¡A¤j¥Û¨Ã¨S¦³¥
+
+[Sun Aug 20 17:53:53 2000] u/u/uchimaha/area/birdarea/en71.c line 50: Warning: Unknown \ escape. before O$Nªº¤º¥\¤£°÷²`«p¡A¤
+
+[Sun Aug 20 17:53:53 2000] u/u/uchimaha/area/birdarea/en71.c line 50: Warning: Unknown \ escape. before £°÷²`«p¡A¤j¥Û¨Ã¨S¦³¥
+
+[Sun Aug 20 17:57:53 2000] u/u/uchimaha/area/birdarea/en71.c line 50: Warning: Unknown \ escape. before \\¬O\$N\ªº\¤º\¥\\¤£\
+
+[Sun Aug 20 17:57:53 2000] u/u/uchimaha/area/birdarea/en71.c line 50: Warning: Unknown \ escape. before N\ªº\¤º\¥\\¤£\°÷\²`\
+
+[Sun Aug 20 17:57:53 2000] u/u/uchimaha/area/birdarea/en71.c line 50: Warning: Unknown \ escape. before º\¤º\¥\\¤£\°÷\²`\«p\
+
+[Sun Aug 20 17:57:53 2000] u/u/uchimaha/area/birdarea/en71.c line 50: Warning: Unknown \ escape. before º\¥\\¤£\°÷\²`\«p\¡A¤
+
+[Sun Aug 20 17:57:53 2000] u/u/uchimaha/area/birdarea/en71.c line 50: Warning: Unknown \ escape. before \\¤£\°÷\²`\«p\¡A¤j¥Û
+
+[Sun Aug 20 17:57:53 2000] u/u/uchimaha/area/birdarea/en71.c line 50: Warning: Unknown \ escape. before ÷\²`\«p\¡A¤j¥Û¨Ã¨S¦³
+
+[Sun Aug 20 17:57:53 2000] u/u/uchimaha/area/birdarea/en71.c line 50: Warning: Unknown \ escape. before `\«p\¡A¤j¥Û¨Ã¨S¦³¥ô¦
+
+[Sun Aug 20 17:57:53 2000] u/u/uchimaha/area/birdarea/en71.c line 50: Warning: Unknown \ escape. before p\¡A¤j¥Û¨Ã¨S¦³¥ô¦óªº
+
+[Sun Aug 20 17:57:53 2000] u/u/uchimaha/area/birdarea/en71.c line 50: Warning: Unknown \ escape. before A¤j¥Û¨Ã¨S¦³¥ô¦óªº¤ÏÀ
+
+[Sun Aug 20 17:58:13 2000] u/u/uchimaha/area/birdarea/en71.c line 50: Warning: Unknown \ escape. before \\¬O\$N\ªº\¤º\¥\\¤£\
+
+[Sun Aug 20 17:58:13 2000] u/u/uchimaha/area/birdarea/en71.c line 50: Warning: Unknown \ escape. before N\ªº\¤º\¥\\¤£\°÷\²`\
+
+[Sun Aug 20 17:58:13 2000] u/u/uchimaha/area/birdarea/en71.c line 50: Warning: Unknown \ escape. before º\¤º\¥\\¤£\°÷\²`\«p\
+
+[Sun Aug 20 17:58:13 2000] u/u/uchimaha/area/birdarea/en71.c line 50: Warning: Unknown \ escape. before º\¥\\¤£\°÷\²`\«p\¡A¤
+
+[Sun Aug 20 17:58:13 2000] u/u/uchimaha/area/birdarea/en71.c line 50: Warning: Unknown \ escape. before \\¤£\°÷\²`\«p\¡A¤j¥Û
+
+[Sun Aug 20 17:58:13 2000] u/u/uchimaha/area/birdarea/en71.c line 50: Warning: Unknown \ escape. before ÷\²`\«p\¡A¤j¥Û¨Ã¨S¦³
+
+[Sun Aug 20 17:58:13 2000] u/u/uchimaha/area/birdarea/en71.c line 50: Warning: Unknown \ escape. before `\«p\¡A¤j¥Û¨Ã¨S¦³¥ô¦
+
+[Sun Aug 20 17:58:13 2000] u/u/uchimaha/area/birdarea/en71.c line 50: Warning: Unknown \ escape. before p\¡A¤j¥Û¨Ã¨S¦³¥ô¦óªº
+
+[Sun Aug 20 17:58:13 2000] u/u/uchimaha/area/birdarea/en71.c line 50: Warning: Unknown \ escape. before A¤j¥Û¨Ã¨S¦³¥ô¦óªº¤ÏÀ
+
+[Sun Aug 20 17:59:37 2000] u/u/uchimaha/area/birdarea/en72.c line 17: Warning: Unknown \ escape. before \\¤£\¿ù\¡A¥i¥H¸ÕµÛ¶]
+
+[Sun Aug 20 17:59:37 2000] u/u/uchimaha/area/birdarea/en72.c line 17: Warning: Unknown \ escape. before ù\¡A¥i¥H¸ÕµÛ¶]¹L¥h¡C
+
+[Sun Aug 20 17:59:37 2000] u/u/uchimaha/area/birdarea/en72.c line 17: Warning: Unknown \ escape. before A¥i¥H¸ÕµÛ¶]¹L¥h¡C\n"
+
+[Sun Aug 20 18:01:43 2000] u/u/uchimaha/area/birdarea/en72.c line 17: Warning: Unknown \ escape. before \\¤£\¿ù\¡A¥i¥H¸ÕµÛ¶]
+
+[Sun Aug 20 18:01:43 2000] u/u/uchimaha/area/birdarea/en72.c line 17: Warning: Unknown \ escape. before ù\¡A¥i¥H¸ÕµÛ¶]¹L¥h¡C
+
+[Sun Aug 20 18:01:43 2000] u/u/uchimaha/area/birdarea/en72.c line 17: Warning: Unknown \ escape. before A¥i¥H¸ÕµÛ¶]¹L¥h¡C\n"
+
+[Sun Aug 20 18:34:04 2000] u/u/uchimaha/area/ugelan/kus1.c line 31: Undefined variable 'HIC' before  NOR ); 
+
+[Sun Aug 20 18:34:04 2000] u/u/uchimaha/area/ugelan/kus1.c line 31: parse error before  NOR ); 
+
+[Sun Aug 20 18:34:08 2000] u/u/uchimaha/area/ugelan/kus1.c line 31: Undefined variable 'HIC' before  NOR ); 
+
+[Sun Aug 20 18:34:08 2000] u/u/uchimaha/area/ugelan/kus1.c line 31: parse error before  NOR ); 
+
+[Sun Aug 20 18:41:18 2000] u/u/uchimaha/area/ugelan/kus1.c line 17: parse error before ",(["east":__DIR__"k
+
+[Sun Aug 20 18:41:18 2000] u/u/uchimaha/area/ugelan/kus1.c line 32: $var illegal outside of function pointer. before N¨«¶i¤F¤p²î¡C\n" ,me
+
+[Sun Aug 20 18:41:18 2000] u/u/uchimaha/area/ugelan/kus1.c line 58: End of file in string before ¡C\n"
+
+[Sun Aug 20 18:41:40 2000] u/u/uchimaha/area/ugelan/kus1.c line 17: parse error before ",(["east":__DIR__"k
+
+[Sun Aug 20 18:41:40 2000] u/u/uchimaha/area/ugelan/kus1.c line 32: $var illegal outside of function pointer. before N¨«¶i¤F¤p²î¡C\n" ,me
+
+[Sun Aug 20 18:41:40 2000] u/u/uchimaha/area/ugelan/kus1.c line 58: End of file in string before \n"
+
+[Sun Aug 20 18:52:22 2000] u/u/uchimaha/area/ugelan/boat.c line 14: Warning: Unknown \ escape. before ¡¤F­¹ª«, ³o¨k¤l¦n¹³«
+
+[Sun Aug 20 18:56:42 2000] u/u/uchimaha/area/ugelan/boat.c line 14: Warning: Unknown \ escape. before ¡¤F­¹ª«, ³o¨k¤l¦n¹³«
+
+[Sun Aug 20 19:01:44 2000] u/u/uchimaha/area/ugelan/boat.c line 14: Warning: Unknown \ escape. before ¡¤F­¹ª«, ³o¨k¤l¦n¹³«
+
+[Sun Aug 20 19:05:12 2000] u/u/uchimaha/area/birdarea/en71.c line 50: Warning: Unknown \ escape. before \\¬O\$N\ªº\¤º\¥\\¤£\
+
+[Sun Aug 20 19:05:12 2000] u/u/uchimaha/area/birdarea/en71.c line 50: Warning: Unknown \ escape. before N\ªº\¤º\¥\\¤£\°÷\²`\
+
+[Sun Aug 20 19:05:12 2000] u/u/uchimaha/area/birdarea/en71.c line 50: Warning: Unknown \ escape. before º\¤º\¥\\¤£\°÷\²`\«p\
+
+[Sun Aug 20 19:05:12 2000] u/u/uchimaha/area/birdarea/en71.c line 50: Warning: Unknown \ escape. before º\¥\\¤£\°÷\²`\«p\¡A¤
+
+[Sun Aug 20 19:05:12 2000] u/u/uchimaha/area/birdarea/en71.c line 50: Warning: Unknown \ escape. before \\¤£\°÷\²`\«p\¡A¤j¥Û
+
+[Sun Aug 20 19:05:12 2000] u/u/uchimaha/area/birdarea/en71.c line 50: Warning: Unknown \ escape. before ÷\²`\«p\¡A¤j¥Û¨Ã¨S¦³
+
+[Sun Aug 20 19:05:12 2000] u/u/uchimaha/area/birdarea/en71.c line 50: Warning: Unknown \ escape. before `\«p\¡A¤j¥Û¨Ã¨S¦³¥ô¦
+
+[Sun Aug 20 19:05:12 2000] u/u/uchimaha/area/birdarea/en71.c line 50: Warning: Unknown \ escape. before p\¡A¤j¥Û¨Ã¨S¦³¥ô¦óªº
+
+[Sun Aug 20 19:05:12 2000] u/u/uchimaha/area/birdarea/en71.c line 50: Warning: Unknown \ escape. before A¤j¥Û¨Ã¨S¦³¥ô¦óªº¤ÏÀ
+
+[Sun Aug 20 19:06:58 2000] u/u/uchimaha/area/birdarea/en71.c line 50: Warning: Unknown \ escape. before \\¬O\$N\ªº\¤º\¥\\¤£\
+
+[Sun Aug 20 19:06:58 2000] u/u/uchimaha/area/birdarea/en71.c line 50: Warning: Unknown \ escape. before N\ªº\¤º\¥\\¤£\°÷\²`\
+
+[Sun Aug 20 19:06:58 2000] u/u/uchimaha/area/birdarea/en71.c line 50: Warning: Unknown \ escape. before º\¤º\¥\\¤£\°÷\²`\«p\
+
+[Sun Aug 20 19:06:58 2000] u/u/uchimaha/area/birdarea/en71.c line 50: Warning: Unknown \ escape. before º\¥\\¤£\°÷\²`\«p\¡A¤
+
+[Sun Aug 20 19:06:58 2000] u/u/uchimaha/area/birdarea/en71.c line 50: Warning: Unknown \ escape. before \\¤£\°÷\²`\«p\¡A¤j¥Û
+
+[Sun Aug 20 19:06:58 2000] u/u/uchimaha/area/birdarea/en71.c line 50: Warning: Unknown \ escape. before ÷\²`\«p\¡A¤j¥Û¨Ã¨S¦³
+
+[Sun Aug 20 19:06:58 2000] u/u/uchimaha/area/birdarea/en71.c line 50: Warning: Unknown \ escape. before `\«p\¡A¤j¥Û¨Ã¨S¦³¥ô¦
+
+[Sun Aug 20 19:06:58 2000] u/u/uchimaha/area/birdarea/en71.c line 50: Warning: Unknown \ escape. before p\¡A¤j¥Û¨Ã¨S¦³¥ô¦óªº
+
+[Sun Aug 20 19:06:58 2000] u/u/uchimaha/area/birdarea/en71.c line 50: Warning: Unknown \ escape. before A¤j¥Û¨Ã¨S¦³¥ô¦óªº¤ÏÀ
+
+[Sun Aug 20 19:10:16 2000] u/u/uchimaha/area/birdarea/en72.c line 17: Warning: Unknown \ escape. before \\¤£\¿ù\¡A¥i¥H¸ÕµÛ¶]
+
+[Sun Aug 20 19:10:16 2000] u/u/uchimaha/area/birdarea/en72.c line 17: Warning: Unknown \ escape. before ù\¡A¥i¥H¸ÕµÛ¶]¹L¥h¡C
+
+[Sun Aug 20 19:10:16 2000] u/u/uchimaha/area/birdarea/en72.c line 17: Warning: Unknown \ escape. before A¥i¥H¸ÕµÛ¶]¹L¥h¡C\n"
+
+[Sun Aug 20 19:14:12 2000] u/u/uchimaha/area/birdarea/en72.c line 17: Warning: Unknown \ escape. before \\¤£\¿ù\¡A¥i¥H¸ÕµÛ¶]
+
+[Sun Aug 20 19:14:12 2000] u/u/uchimaha/area/birdarea/en72.c line 17: Warning: Unknown \ escape. before ù\¡A¥i¥H¸ÕµÛ¶]¹L¥h¡C
+
+[Sun Aug 20 19:14:12 2000] u/u/uchimaha/area/birdarea/en72.c line 17: Warning: Unknown \ escape. before A¥i¥H¸ÕµÛ¶]¹L¥h¡C\n"
+
+[Sun Aug 20 19:25:14 2000] u/u/uchimaha/area/ugelan/boat.c line 14: Warning: Unknown \ escape. before ¡¤F­¹ª«, ¥O¤H««²C¤T¤
+
+[Mon Aug 21 11:41:24 2000] u/u/uchimaha/area/ugelan/kus2.c line 13: parse error before ));
+
+[Mon Aug 21 11:41:28 2000] u/u/uchimaha/area/ugelan/kus2.c line 13: parse error before ));
+
+[Mon Aug 21 11:45:34 2000] u/u/uchimaha/area/ugelan/kus2.c line 13: parse error before ));
+
+[Mon Aug 21 11:45:38 2000] u/u/uchimaha/area/ugelan/kus2.c line 13: parse error before ));
+
+[Mon Aug 21 11:47:18 2000] u/u/uchimaha/area/ugelan/kus2.c line 14: parse error before ));
+
+[Thu Aug 24 14:27:18 2000] u/u/uchimaha/pig1.c line 24: Reserved type name unexpected. before ()
+
+[Thu Aug 24 14:27:18 2000] u/u/uchimaha/pig1.c line 24: parse error before ()
+
+[Thu Aug 24 14:27:18 2000] u/u/uchimaha/pig1.c line 33: parse error before ")¤j¤H±z³Ì¦³­Ó©Ê, ³Ì
+
+[Thu Aug 24 14:27:18 2000] u/u/uchimaha/pig1.c line 45: Illegal LHS before the end of line
+
+[Thu Aug 24 14:27:18 2000] u/u/uchimaha/pig1.c line 45: parse error before the end of line
+
+[Thu Aug 24 14:27:32 2000] u/u/uchimaha/pig1.c line 24: Reserved type name unexpected. before ()
+
+[Thu Aug 24 14:27:32 2000] u/u/uchimaha/pig1.c line 24: parse error before ()
+
+[Thu Aug 24 14:27:32 2000] u/u/uchimaha/pig1.c line 33: parse error before ")¤j¤H±z³Ì¦³­Ó©Ê, ³Ì
+
+[Thu Aug 24 14:27:32 2000] u/u/uchimaha/pig1.c line 45: Illegal LHS before the end of line
+
+[Thu Aug 24 14:27:32 2000] u/u/uchimaha/pig1.c line 45: parse error before the end of line
+
+[Thu Aug 24 14:44:01 2000] u/u/uchimaha/pig1.c line 24: Reserved type name unexpected. before ()
+
+[Thu Aug 24 14:44:01 2000] u/u/uchimaha/pig1.c line 24: parse error before ()
+
+[Thu Aug 24 14:44:01 2000] u/u/uchimaha/pig1.c line 33: parse error before ")¤j¤H±z³Ì¦³­Ó©Ê, ³Ì
+
+[Thu Aug 24 14:44:01 2000] u/u/uchimaha/pig1.c line 45: Illegal LHS before the end of line
+
+[Thu Aug 24 14:44:01 2000] u/u/uchimaha/pig1.c line 45: parse error before the end of line
+
+[Thu Aug 24 14:47:03 2000] u/u/uchimaha/pig1.c line 23: Reserved type name unexpected. before ()
+
+[Thu Aug 24 14:47:03 2000] u/u/uchimaha/pig1.c line 23: parse error before ()
+
+[Thu Aug 24 14:47:03 2000] u/u/uchimaha/pig1.c line 32: parse error before ")¤j¤H±z³Ì¦³­Ó©Ê, ³Ì
+
+[Thu Aug 24 14:47:03 2000] u/u/uchimaha/pig1.c line 42: Illegal LHS before the end of line
+
+[Thu Aug 24 14:47:03 2000] u/u/uchimaha/pig1.c line 42: parse error before the end of line
+
+[Thu Aug 24 14:47:27 2000] u/u/uchimaha/pig1.c line 23: Reserved type name unexpected. before ()
+
+[Thu Aug 24 14:47:27 2000] u/u/uchimaha/pig1.c line 23: parse error before ()
+
+[Thu Aug 24 14:47:27 2000] u/u/uchimaha/pig1.c line 32: parse error before ")¤j¤H±z³Ì¦³­Ó©Ê, ³Ì
+
+[Thu Aug 24 14:47:27 2000] u/u/uchimaha/pig1.c line 42: Illegal LHS before the end of line
+
+[Thu Aug 24 14:47:27 2000] u/u/uchimaha/pig1.c line 42: parse error before the end of line
+
+[Sun Oct  1 18:24:45 2000] u/u/uchimaha/workroom.c line 43: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Sun Oct  1 18:24:45 2000] u/u/uchimaha/workroom.c line 43: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Sun Oct  1 18:24:45 2000] u/u/uchimaha/workroom.c line 43: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Sun Oct  1 18:24:45 2000] u/u/uchimaha/workroom.c line 43: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Sun Oct  1 18:24:45 2000] u/u/uchimaha/workroom.c line 43: Illegal to redefine 'nomask' function "add_light" before the end of line
+
+[Sun Oct  1 18:24:45 2000] u/u/uchimaha/workroom.c line 81: Redeclaration of function create. before            
+
+[Sun Oct 15 14:27:02 2000] u/u/uchimaha/area/birdarea/npc/eq/fist2.c line 10: Warning: Unknown \ escape. before º¥­±`¤H¤]¥i¥HÅÜ¦¨­^¶
+
+[Sun Oct 15 14:28:04 2000] u/u/uchimaha/area/birdarea/npc/eq/fist2.c line 10: Warning: Unknown \ escape. before ªº/¥­±`/¤H/¤]/¥i/¥HÅ
+
+[Sun Oct 15 14:28:45 2000] u/u/uchimaha/area/birdarea/npc/eq/fist2.c line 10: Warning: Unknown \ escape. before º¥­±`¤H¤]¥i¥HÅÜ¦¨­^¶
+
+[Sun Oct 15 14:29:15 2000] u/u/uchimaha/area/birdarea/npc/eq/fist2.c line 10: Warning: Unknown \ escape. before ªº¥­±`¤H¤]¥i¥HÅÜ¦¨­^
+
+[Sun Oct 15 14:29:57 2000] u/u/uchimaha/area/birdarea/npc/eq/fist2.c line 10: Warning: Unknown \ escape. before ªº¥­±`¤H¤]¥i¥HÅÜ¦¨­^
+
+[Sun Oct 15 15:09:33 2000] u/u/uchimaha/area/birdarea/npc/kfox.c line 22: Left argument of -> is not a class before the end of line
+
+[Sun Oct 15 15:50:53 2000] u/u/uchimaha/area/birdarea/npc/fon.c line 113: Undefined variable 'ob' before name(1)+"§¹¦¨¤F¨·¿W­
+
+[Mon Oct 16 16:09:13 2000] u/u/uchimaha/area/birdarea/en9.c line 4: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Mon Oct 16 16:09:13 2000] u/u/uchimaha/area/birdarea/en9.c line 4: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Mon Oct 16 16:09:13 2000] u/u/uchimaha/area/birdarea/en9.c line 4: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Mon Oct 16 16:09:13 2000] u/u/uchimaha/area/birdarea/en9.c line 4: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Mon Oct 16 16:09:13 2000] u/u/uchimaha/area/birdarea/en9.c line 4: Illegal to redefine 'nomask' function "add_light" before the end of line
+
+[Tue Oct 17 21:31:06 2000] u/u/uchimaha/area/birdarea/en9.c line 4: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Tue Oct 17 21:31:06 2000] u/u/uchimaha/area/birdarea/en9.c line 4: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Tue Oct 17 21:31:06 2000] u/u/uchimaha/area/birdarea/en9.c line 4: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Tue Oct 17 21:31:06 2000] u/u/uchimaha/area/birdarea/en9.c line 4: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Tue Oct 17 21:31:06 2000] u/u/uchimaha/area/birdarea/en9.c line 4: Illegal to redefine 'nomask' function "add_light" before the end of line
+
+[Sun May 27 20:57:22 2001] u/u/uchimaha/marry.c line 65: parse error before ("$N®³¤F¤@­Óµ²±B§Ù«ü
+
+[Sun May 27 20:59:27 2001] u/u/uchimaha/marry.c line 65: parse error before ("$N®³¤F¤@"+ring->qu
+
+[Sun May 27 21:00:47 2001] u/u/uchimaha/marry.c line 66: parse error before ->save();
+
+[Sun May 27 21:05:47 2001] u/u/uchimaha/marry.c line 66: parse error before  1;
+
+[Sun May 27 21:19:21 2001] u/u/uchimaha/marry.c line 55: parse error before the end of line
+
+[Sun May 27 21:19:21 2001] u/u/uchimaha/marry.c line 65: Illegal LHS before the end of line
+
+[Sun May 27 21:19:21 2001] u/u/uchimaha/marry.c line 65: parse error before the end of line
+
+[Sun May 27 21:19:21 2001] u/u/uchimaha/marry.c line 72: Illegal LHS before  me = this_player();
+
+[Sun May 27 21:19:21 2001] u/u/uchimaha/marry.c line 72: parse error before the end of line
+
+[Sun May 27 21:19:21 2001] u/u/uchimaha/marry.c line 82: Illegal LHS before the end of line
+
+[Thu Jul 26 17:01:02 2001] u/u/uchimaha/t.c line 23: parse error before ") )
+
+[Thu Jul 26 17:01:02 2001] u/u/uchimaha/t.c line 24: $var illegal outside of function pointer. before N»¡¡G"+RANK_D->query
+
+[Thu Jul 26 17:01:02 2001] u/u/uchimaha/t.c line 24: Illegal terminator before ²É¥Í¥Í³y¤Æ¤¦¡C\n",me
+
+[Thu Jul 26 17:02:28 2001] u/u/uchimaha/t.c line 93: break statement outside loop before the end of line
+
+[Thu Jul 26 17:22:26 2001] u/u/uchimaha/area/birdarea/npc/t.c line 100: Warning: Unknown \ escape. before @¸Ú¨s³º¦³¦h°ª...\n"N
+
+[Thu Jul 26 17:22:26 2001] u/u/uchimaha/area/birdarea/npc/t.c line 102: parse error before the end of line
+
+[Thu Jul 26 17:23:43 2001] u/u/uchimaha/area/birdarea/npc/t.c line 99: parse error before ;
+
+[Thu Jul 26 18:47:08 2001] u/u/uchimaha/area/birdarea/rich1.c line 19: Undefined variable 'HIR' before NOR,"out",DOOR_OPENE
+
+[Thu Jul 26 18:47:08 2001] u/u/uchimaha/area/birdarea/rich1.c line 19: parse error before NOR,"out",DOOR_OPENE
+
+[Thu Jul 26 18:47:40 2001] u/u/uchimaha/area/birdarea/rich1.c line 19: Undefined function create_door before ;
+
+[Thu Jul 26 19:28:28 2001] u/u/uchimaha/area/birdarea/rich1.c line 19: Undefined function create_door before ;
+
+[Thu Jul 26 20:34:29 2001] u/u/uchimaha/area/birdarea/en8.c line 20: Warning: Unknown \ escape. before \\¸Ó\¦^\ÀY\¤F.\n",
+
+[Thu Jul 26 20:34:29 2001] u/u/uchimaha/area/birdarea/en8.c line 20: Warning: Unknown \ escape. before ^\ÀY\¤F.\n",
+
+[Thu Jul 26 20:34:29 2001] u/u/uchimaha/area/birdarea/en8.c line 20: Warning: Unknown \ escape. before Y\¤F.\n",
+
+[Thu Jul 26 20:34:29 2001] u/u/uchimaha/area/birdarea/en8.c line 20: Warning: Unknown \ escape. before F.\n",
+
+[Thu Jul 26 20:34:47 2001] u/u/uchimaha/area/birdarea/en8.c line 20: Warning: Unknown \ escape. before \\¸Ó\¦^\ÀY\¤F.\n",
+
+[Thu Jul 26 20:34:47 2001] u/u/uchimaha/area/birdarea/en8.c line 20: Warning: Unknown \ escape. before ^\ÀY\¤F.\n",
+
+[Thu Jul 26 20:34:47 2001] u/u/uchimaha/area/birdarea/en8.c line 20: Warning: Unknown \ escape. before Y\¤F.\n",
+
+[Thu Jul 26 20:34:47 2001] u/u/uchimaha/area/birdarea/en8.c line 20: Warning: Unknown \ escape. before F.\n",
+
+[Thu Jul 26 20:35:49 2001] u/u/uchimaha/area/birdarea/en8.c line 20: Warning: Unknown \ escape. before \¸Ó¦^ÀY¤F.\n",
+
+[Thu Jul 26 20:35:49 2001] u/u/uchimaha/area/birdarea/en8.c line 20: Warning: Unknown \ escape. before Ó¦^ÀY¤F.\n",
+
+[Thu Jul 26 20:37:01 2001] u/u/uchimaha/area/birdarea/en8.c line 20: Warning: Unknown \ escape. before \¸Ó¦^ÀY¤F.\n",
+
+[Thu Jul 26 20:37:01 2001] u/u/uchimaha/area/birdarea/en8.c line 20: Warning: Unknown \ escape. before Ó¦^ÀY¤F.\n",
+
+[Thu Jul 26 20:37:23 2001] u/u/uchimaha/area/birdarea/en8.c line 20: Warning: Unknown \ escape. before Ó¦^ÀY¤F.\n",
+
+[Thu Jul 26 20:38:12 2001] u/u/uchimaha/area/birdarea/en8.c line 3: parse error before  MOBROOM;
+
+[Thu Jul 26 20:38:32 2001] u/u/uchimaha/area/birdarea/en9.c line 4: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Thu Jul 26 20:38:32 2001] u/u/uchimaha/area/birdarea/en9.c line 4: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Thu Jul 26 20:38:32 2001] u/u/uchimaha/area/birdarea/en9.c line 4: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Thu Jul 26 20:38:32 2001] u/u/uchimaha/area/birdarea/en9.c line 4: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Thu Jul 26 20:38:32 2001] u/u/uchimaha/area/birdarea/en9.c line 4: Illegal to redefine 'nomask' function "add_light" before the end of line
+
+[Thu Jul 26 20:38:44 2001] u/u/uchimaha/area/birdarea/en9.c line 4: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Thu Jul 26 20:38:44 2001] u/u/uchimaha/area/birdarea/en9.c line 4: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Thu Jul 26 20:38:44 2001] u/u/uchimaha/area/birdarea/en9.c line 4: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Thu Jul 26 20:38:44 2001] u/u/uchimaha/area/birdarea/en9.c line 4: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Thu Jul 26 20:38:44 2001] u/u/uchimaha/area/birdarea/en9.c line 4: Illegal to redefine 'nomask' function "add_light" before the end of line
+
+[Thu Jul 26 20:40:04 2001] u/u/uchimaha/area/birdarea/en9.c line 4: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Thu Jul 26 20:40:04 2001] u/u/uchimaha/area/birdarea/en9.c line 4: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Thu Jul 26 20:40:04 2001] u/u/uchimaha/area/birdarea/en9.c line 4: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Thu Jul 26 20:40:04 2001] u/u/uchimaha/area/birdarea/en9.c line 4: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Thu Jul 26 20:40:04 2001] u/u/uchimaha/area/birdarea/en9.c line 4: Illegal to redefine 'nomask' function "add_light" before the end of line
+
+[Fri Jul 27 19:47:52 2001] u/u/uchimaha/area/birdarea/en71.c line 55: Warning: Unknown \ escape. before \\¬O\$N\ªº\¤º\¥\\¤£\
+
+[Fri Jul 27 19:47:52 2001] u/u/uchimaha/area/birdarea/en71.c line 55: Warning: Unknown \ escape. before N\ªº\¤º\¥\\¤£\°÷\²`\
+
+[Fri Jul 27 19:47:52 2001] u/u/uchimaha/area/birdarea/en71.c line 55: Warning: Unknown \ escape. before º\¤º\¥\\¤£\°÷\²`\«p\
+
+[Fri Jul 27 19:47:52 2001] u/u/uchimaha/area/birdarea/en71.c line 55: Warning: Unknown \ escape. before º\¥\\¤£\°÷\²`\«p\¡A¤
+
+[Fri Jul 27 19:47:52 2001] u/u/uchimaha/area/birdarea/en71.c line 55: Warning: Unknown \ escape. before \\¤£\°÷\²`\«p\¡A¤j¥Û
+
+[Fri Jul 27 19:47:52 2001] u/u/uchimaha/area/birdarea/en71.c line 55: Warning: Unknown \ escape. before ÷\²`\«p\¡A¤j¥Û¨Ã¨S¦³
+
+[Fri Jul 27 19:47:52 2001] u/u/uchimaha/area/birdarea/en71.c line 55: Warning: Unknown \ escape. before `\«p\¡A¤j¥Û¨Ã¨S¦³¥ô¦
+
+[Fri Jul 27 19:47:52 2001] u/u/uchimaha/area/birdarea/en71.c line 55: Warning: Unknown \ escape. before p\¡A¤j¥Û¨Ã¨S¦³¥ô¦óªº
+
+[Fri Jul 27 19:47:52 2001] u/u/uchimaha/area/birdarea/en71.c line 55: Warning: Unknown \ escape. before A¤j¥Û¨Ã¨S¦³¥ô¦óªº¤ÏÀ
+
+[Fri Jul 27 19:49:44 2001] u/u/uchimaha/area/birdarea/en71.c line 55: Warning: Unknown \ escape. before O$Nªº¤º¥\¤£°÷²`«p¡A¤
+
+[Fri Jul 27 19:49:44 2001] u/u/uchimaha/area/birdarea/en71.c line 55: Warning: Unknown \ escape. before £°÷²`«p¡A¤j¥Û¨Ã¨S¦³¥
+
+[Sat Jul 28 20:16:19 2001] u/u/uchimaha/test.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Sat Jul 28 20:16:19 2001] u/u/uchimaha/test.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b¾
+
+[Sat Jul 28 20:16:19 2001] u/u/uchimaha/test.c line 34: Undefined variable 'damage' before  580+random(250);
+
+[Sat Jul 28 20:17:27 2001] u/u/uchimaha/test.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Sat Jul 28 20:17:27 2001] u/u/uchimaha/test.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b¾
+
+[Sat Jul 28 20:17:27 2001] u/u/uchimaha/test.c line 34: Undefined variable 'damage' before  580+random(250);
+
+[Sat Jul 28 20:20:12 2001] u/u/uchimaha/test.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Sat Jul 28 20:20:12 2001] u/u/uchimaha/test.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b¾
+
+[Sat Jul 28 20:24:22 2001] u/u/uchimaha/test.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Sat Jul 28 20:24:22 2001] u/u/uchimaha/test.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b¾
+
+[Sat Jul 28 20:24:22 2001] u/u/uchimaha/test.c line 24: parse error before  special_attack(obje
+
+[Sat Jul 28 20:24:54 2001] u/u/uchimaha/test.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Sat Jul 28 20:24:54 2001] u/u/uchimaha/test.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b¾
+
+[Sat Aug  4 16:03:29 2001] u/u/uchimaha/area/birdarea/en22.c line 35: Warning: Value of conditional expression is unused before the end of line
+
+[Sat Aug  4 16:03:29 2001] u/u/uchimaha/area/birdarea/en22.c line 40: Warning: Value of conditional expression is unused before the end of line
+
+[Tue Aug 28 18:56:17 2001] u/u/uchimaha/pkroom.c line 5: Wrong number of arguments to set
+    Expected: 2  Got: 3 before ;
+
+[Tue Aug 28 18:56:27 2001] u/u/uchimaha/pkroom.c line 5: Wrong number of arguments to set
+    Expected: 2  Got: 3 before ;
+
+[Tue Aug 28 18:56:33 2001] u/u/uchimaha/pkroom.c line 5: Wrong number of arguments to set
+    Expected: 2  Got: 3 before ;
+
+[Tue Aug 28 19:25:50 2001] u/u/uchimaha/item/plate.c line 20: Undefined variable 'me' before query("hp") < 0 )
+
+[Tue Aug 28 19:25:50 2001] u/u/uchimaha/item/plate.c line 22: parse error before "hp", 1);
+
+[Tue Aug 28 19:25:50 2001] u/u/uchimaha/item/plate.c line 26: Warning: Value of conditional expression is unused before the end of line
+
+[Tue Aug 28 19:33:17 2001] u/u/uchimaha/item/plate.c line 21: parse error before =this_player();
+
+[Tue Aug 28 19:33:17 2001] u/u/uchimaha/item/plate.c line 21: Illegal LHS before the end of line
+
+[Tue Aug 28 19:33:17 2001] u/u/uchimaha/item/plate.c line 22: Undefined function ths_object before ;
+
+[Tue Aug 28 19:33:17 2001] u/u/uchimaha/item/plate.c line 22: Bad assignment ( object vs unknown ). before the end of line
+
+[Tue Aug 28 19:33:17 2001] u/u/uchimaha/item/plate.c line 25: parse error before "hp", 1);
+
+[Tue Aug 28 19:33:17 2001] u/u/uchimaha/item/plate.c line 29: Warning: Value of conditional expression is unused before the end of line
+
+[Tue Aug 28 19:34:54 2001] u/u/uchimaha/item/plate.c line 21: parse error before =this_player();
+
+[Tue Aug 28 19:34:54 2001] u/u/uchimaha/item/plate.c line 21: Illegal LHS before the end of line
+
+[Tue Aug 28 19:34:54 2001] u/u/uchimaha/item/plate.c line 25: parse error before "hp", 1);
+
+[Tue Aug 28 19:34:54 2001] u/u/uchimaha/item/plate.c line 29: Warning: Value of conditional expression is unused before the end of line
+
+[Tue Aug 28 19:45:41 2001] u/u/uchimaha/item/plate.c line 20: parse error before =this_player();
+
+[Tue Aug 28 19:45:41 2001] u/u/uchimaha/item/plate.c line 20: Illegal LHS before the end of line
+
+[Tue Aug 28 19:46:49 2001] u/u/uchimaha/item/plate.c line 20: parse error before =this_player();
+
+[Tue Aug 28 19:46:49 2001] u/u/uchimaha/item/plate.c line 20: Illegal LHS before the end of line
+
+[Tue Sep 18 20:18:15 2001] u/u/uchimaha/kfox.c line 51: Redeclaration of function special_attack. before the end of line
+
+[Fri Sep 21 19:46:56 2001] u/u/uchimaha/moxibustion.c line 7: parse error before )
+
+[Fri Sep 21 19:59:00 2001] u/u/uchimaha/moxibustion.c line 7: parse error before )
+
+[Sat Sep 22 00:23:41 2001] u/u/uchimaha/moxibustion.c line 7: parse error before )
+
+[Sun Sep 30 15:23:18 2001] u/u/uchimaha/moxibustion.c line 7: parse error before )
+
+[Sun Sep 30 15:41:30 2001] u/u/uchimaha/moxibustion.c line 66: parse error before "rekee" )
+
+[Sun Sep 30 15:41:30 2001] u/u/uchimaha/moxibustion.c line 68: Undefined variable 'me' before query_skill("moxibus
+
+[Sun Sep 30 15:41:30 2001] u/u/uchimaha/moxibustion.c line 68: Illegal LHS before the end of line
+
+[Sun Sep 30 15:41:30 2001] u/u/uchimaha/moxibustion.c line 68: parse error before the end of line
+
+[Sun Sep 30 15:41:30 2001] u/u/uchimaha/moxibustion.c line 69: Undefined variable 'sk' before  50) ? 50 + (( sk-50
+
+[Sun Sep 30 15:41:30 2001] u/u/uchimaha/moxibustion.c line 69: Illegal LHS before the end of line
+
+[Sun Sep 30 15:53:07 2001] u/u/uchimaha/moxibustion.c line 66: parse error before "rekee" )
+
+[Sun Sep 30 15:53:07 2001] u/u/uchimaha/moxibustion.c line 68: Undefined variable 'me' before query_skill("moxibus
+
+[Sun Sep 30 15:53:07 2001] u/u/uchimaha/moxibustion.c line 68: Illegal LHS before the end of line
+
+[Sun Sep 30 15:53:07 2001] u/u/uchimaha/moxibustion.c line 68: parse error before the end of line
+
+[Sun Sep 30 15:53:07 2001] u/u/uchimaha/moxibustion.c line 69: Undefined variable 'sk' before  50) ? 50 + (( sk-50
+
+[Sun Sep 30 15:53:07 2001] u/u/uchimaha/moxibustion.c line 69: Illegal LHS before the end of line
+
+[Wed Oct 10 20:13:21 2001] u/u/uchimaha/moxibustion.c line 66: parse error before "rekee" )
+
+[Wed Oct 10 20:13:21 2001] u/u/uchimaha/moxibustion.c line 68: Undefined variable 'me' before query_skill("moxibus
+
+[Wed Oct 10 20:13:21 2001] u/u/uchimaha/moxibustion.c line 68: Illegal LHS before the end of line
+
+[Wed Oct 10 20:13:21 2001] u/u/uchimaha/moxibustion.c line 68: parse error before the end of line
+
+[Wed Oct 10 20:13:21 2001] u/u/uchimaha/moxibustion.c line 69: Undefined variable 'sk' before  50) ? 50 + (( sk-50
+
+[Wed Oct 10 20:13:21 2001] u/u/uchimaha/moxibustion.c line 69: Illegal LHS before the end of line
+
+[Sat Jan 26 22:56:59 2002] u/u/uchimaha/kfox.c line 2: parse error before  create()
+

@@ -1,0 +1,88 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清華站︰精華區</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+<A Name="top"></a>
+發信人:&nbsp;sorceress&nbsp;(李大善人~~~以德服人),&nbsp;信區:&nbsp;Mud_Builder&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+標&nbsp;&nbsp;題:&nbsp;Allegro&nbsp;遊戲程序庫&nbsp;(編譯精靈)&nbsp;(轉載)&nbsp;<BR>
+發信站:&nbsp;BBS&nbsp;水木清華站&nbsp;(Mon&nbsp;Jun&nbsp;12&nbsp;20:46:18&nbsp;2000)&nbsp;<BR>
+&nbsp;<BR>
+【&nbsp;以下文字轉載自&nbsp;GAME_Designer&nbsp;討論區&nbsp;】&nbsp;<BR>
+【&nbsp;原文由&nbsp;cloudwu&nbsp;所發表&nbsp;】&nbsp;<BR>
+&nbsp;<BR>
+-&nbsp;信區:&nbsp;77&nbsp;-------------------------------------------------------------------&nbsp;<BR>
+&nbsp;&nbsp;信件:&nbsp;17&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日期:&nbsp;20&nbsp;Jun&nbsp;98&nbsp;&nbsp;22:13:06&nbsp;<BR>
+&nbsp;&nbsp;來自:&nbsp;Cloud&nbsp;Wu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;給:&nbsp;All&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;主題:&nbsp;Allegro&nbsp;手冊&nbsp;(編譯精靈)&nbsp;<BR>
+------------------------------------------------------------------------------&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;______&nbsp;&nbsp;&nbsp;___&nbsp;&nbsp;&nbsp;&nbsp;___&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;/\&nbsp;&nbsp;_&nbsp;&nbsp;\&nbsp;/\_&nbsp;\&nbsp;&nbsp;/\_&nbsp;\&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;\&nbsp;\&nbsp;\L\&nbsp;\\//\&nbsp;\&nbsp;\//\&nbsp;\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__&nbsp;&nbsp;&nbsp;_&nbsp;__&nbsp;&nbsp;&nbsp;___&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\&nbsp;\&nbsp;&nbsp;__&nbsp;\&nbsp;\&nbsp;\&nbsp;\&nbsp;&nbsp;\&nbsp;\&nbsp;\&nbsp;&nbsp;&nbsp;/'__`\&nbsp;/'_&nbsp;`\/\`'__\/&nbsp;__`\&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\&nbsp;\&nbsp;\/\&nbsp;\&nbsp;\_\&nbsp;\_&nbsp;\_\&nbsp;\_/\&nbsp;&nbsp;__//\&nbsp;\L\&nbsp;\&nbsp;\&nbsp;\//\&nbsp;\L\&nbsp;\&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\&nbsp;\_\&nbsp;\_\/\____\/\____\&nbsp;\____\&nbsp;\____&nbsp;\&nbsp;\_\\&nbsp;\____/&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\/_/\/_/\/____/\/____/\/____/\/___L\&nbsp;\/_/&nbsp;\/___/&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/\____/&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\_/__/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.0&nbsp;版&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一個遊戲程序庫&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;By&nbsp;Shawn&nbsp;Hargreaves,&nbsp;1994/97&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;雲風&nbsp;譯&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A HREF="mailto:cloudwu@163.net">cloudwu@163.net</A>&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6月20日&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A HREF="http://www.nease.net/~cloudwu">http://www.nease.net/~cloudwu</A>&nbsp;<BR>
+&nbsp;<BR>
+==========================================&nbsp;<BR>
+============&nbsp;&nbsp;編譯(Compiled)精靈&nbsp;=========&nbsp;<BR>
+==========================================&nbsp;<BR>
+編譯精靈是以現行機器碼指令形式儲存的,&nbsp;可以將&nbsp;<BR>
+指定的圖片畫在位圖上,&nbsp;它使用了&nbsp;mov&nbsp;指令和及時數據變量.&nbsp;<BR>
+這是畫掩式圖片的最快方法:&nbsp;在我的機器上&nbsp;<BR>
+畫被編譯過的精靈大約比使用&nbsp;draw_sprite()&nbsp;&nbsp;<BR>
+畫一個常規位圖快&nbsp;5&nbsp;倍.&nbsp;編譯精靈比較大,&nbsp;所以如果內存比較緊張的話你&nbsp;<BR>
+應該使用&nbsp;RLE&nbsp;精靈來替代它,&nbsp;並且它比&nbsp;RLE&nbsp;精靈有更多的限制,&nbsp;<BR>
+因為他們不支持剪裁.&nbsp;如果&nbsp;<BR>
+你試著向位圖邊緣畫,&nbsp;將使內存操作不可靠而且極有可能使系統死掉.&nbsp;<BR>
+你可以在運行時將位圖轉換成編譯精靈,&nbsp;<BR>
+或者你可以在&nbsp;grabber&nbsp;數據文件裡,&nbsp;建立一個位圖對像然後&nbsp;<BR>
+點選&nbsp;'線形編譯'&nbsp;或&nbsp;'&nbsp;Mode-X&nbsp;編譯'&nbsp;按紐來創建編譯精靈&nbsp;<BR>
+&nbsp;<BR>
+COMPILED_SPRITE&nbsp;*get_compiled_sprite(BITMAP&nbsp;*bitmap,&nbsp;int&nbsp;planar);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;以指定位圖來創建一個編譯精靈(必須是內存位圖).&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;編譯精靈是設備關聯的,&nbsp;因此你必須&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;指定是編譯成線形的還是平面的格式.&nbsp;如果你將畫在&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;內存位圖或&nbsp;mode&nbsp;13h&nbsp;和&nbsp;SVGA&nbsp;屏幕位圖上,&nbsp;第二個參數應傳入&nbsp;FALSE,&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;如果你將畫在&nbsp;mode-X&nbsp;或&nbsp;Xtended&nbsp;模式屏幕位圖上,&nbsp;就傳入&nbsp;TRUE.&nbsp;<BR>
+&nbsp;<BR>
+void&nbsp;destroy_compiled_sprite(COMPILED_SPRITE&nbsp;*sprite);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;摧毀一個由前面&nbsp;get_compiled_sprite()&nbsp;得到的編譯精靈結構.&nbsp;<BR>
+&nbsp;<BR>
+void&nbsp;draw_compiled_sprite(BITMAP&nbsp;*bmp,&nbsp;COMPILED_SPRITE&nbsp;*sprite,&nbsp;int&nbsp;x,&nbsp;int&nbsp;y);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;向位圖的指定位置畫一個編譯精靈.&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;精靈必須被編譯成正確的位圖類型&nbsp;(線形或平面).&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;這個函數不支持剪裁.&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;建議:&nbsp;也許不能剪裁編譯精靈並不是個問題,&nbsp;一個小技巧&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;是設置工作平面(內存位圖,&nbsp;mode-X&nbsp;虛擬屏幕&nbsp;或其他)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;比你實際需要的大那麼一點點,&nbsp;然後使用中間的一部分.&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;這樣你可以稍稍的超出邊界而沒什麼麻煩了...&nbsp;<BR>
+&nbsp;<BR>
+＞<I>&gt;&gt;&nbsp;_/_/_/_/&nbsp;&nbsp;_/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_/&nbsp;/-_/_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_&nbsp;/,&nbsp;_&nbsp;&nbsp;E-mail:&nbsp;&nbsp;&nbsp;&nbsp;<A HREF="mailto:cloud@188.com">cloud@188.com</A>&nbsp;</I><BR>
+＞<I>&nbsp;_/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_/&nbsp;&nbsp;_/&nbsp;&nbsp;_/&nbsp;&nbsp;_\&nbsp;/_&nbsp;/_//_/_/&nbsp;|_|&nbsp;江城浪子&nbsp;Cloud&nbsp;Wu&nbsp;歡迎你來&nbsp;</I><BR>
+_/_/_/_/&nbsp;&nbsp;_/_/_/_/_/&nbsp;&nbsp;<A HREF="http://www.nease.net/~cloudwu">http://www.nease.net/~cloudwu</A>&nbsp;&nbsp;雲風工作室&nbsp;【胖】&nbsp;<BR>
+&nbsp;<BR>
+...&nbsp;DOS&nbsp;從來不說&nbsp;&quot;EXCELLENT&nbsp;command&nbsp;or&nbsp;filename&quot;...&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+<A HREF="http://www.nease.net/~cloudwu">http://www.nease.net/~cloudwu</A>&nbsp;<BR>
+<A HREF="http://computer.igd.edu.cn/~cloud(沒更新)">http://computer.igd.edu.cn/~cloud(沒更新)</A>&nbsp;<BR>
+E-mail:&nbsp;<A HREF="mailto:cloudwu@163.net">cloudwu@163.net</A>&nbsp;<BR>
+&nbsp;<BR>
+※&nbsp;來源:‧BBS&nbsp;水木清華站&nbsp;bbs.net.tsinghua.edu.cn‧[FROM:&nbsp;202.197.71.16]&nbsp;<BR>
+<A HREF="00000014.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一頁</A>
+<A HREF="index.htm">回到目錄</A>
+<A HREF="#top">回到頁首</A>
+<A HREF="00000016.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+</BODY></HTML>

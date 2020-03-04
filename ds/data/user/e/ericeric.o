@@ -1,0 +1,6 @@
+#/obj/user.c
+conditions ([])
+dbase (["supply_point":4,"max_mp":60,"evil":-1,"gender":"男性","max_hp":80,"name":"翎子飛","channels":({"chat","rumor","tchat",}),"attitude":"peaceful","Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"addition_damage":10,"birthday":1174745394,"heart_beat_rate":6,"mp":60,"race":"human","startroom":"/open/world1/tmr/area/hotel","max_ap":60,"addition_shield":10,"ap":60,"age":14,"volume":7,"default_actions":,"mud_age":28,"newbie":1,"exp":777,"talk_point":2,"actions":,"dex":2,"int":2,"id":"ericeric","cure_count":2,"hp":80,"con":2,"str":2,"addition_armor":10,"guild_gifts":({5,5,5,5,}),"unit":"位","level":1,"DS_DATA_VERSION":19991107,])
+autoload ({})
+toDoList ([])
+solved ({})

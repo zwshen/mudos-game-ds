@@ -1,0 +1,3 @@
+¥Ø¿ý¡R/open/world1/mob/
+roach_1.c           ¤pÁ­½¸              roach_2.c           Á­½¸              
+sacer.c             ³¥ºl                

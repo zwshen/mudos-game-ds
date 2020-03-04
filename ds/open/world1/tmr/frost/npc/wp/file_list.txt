@@ -1,0 +1,5 @@
+¥Ø¿ý¡R/open/world1/tmr/frost/npc/wp/
+devil-dagger.c      ¨¸ÆF¤P­º            mist-tough_whip.c   ¾]¾C¶´Ã@          
+qing-yang-claw.c    «C¦Ï¤ö              steel-sword.c       ¥Õ¿ûªø¼C          
+taoism-claw.c       ¤Ñ¶ê                taoism-claw2.c      ¤Ñ¶ê¦a¤è¤ö        
+tiger-claw.c        ªê§Î¤ö              

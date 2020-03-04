@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions (["ill_zhongshu":1,])
+dbase (["DS_DATA_VERSION":19991107,"race":"human","actions":,"attitude":"peaceful","max_mp":60,"addition_damage":10,"help":"class/","channels":({"chat","rumor","tchat",}),"max_hp":80,"heart_modify":1,"birthday":1204436045,"id":"ericpowder","mp":60,"gender":"男性","name":"小心","unit":"位","guild_gifts":({5,5,5,5,}),"max_ap":60,"ap":60,"startroom":"/open/world1/tmr/area/hotel","bank":(["past":5,]),"last_location":"/open/world1/tmr/bagi/rift","cure_count":9,"war_score":3,"mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"age":14,"Merits":(["wit":0,"bar":0,"bio":0,"tec":0,"sou":0,]),"supply_point":60,"talk_point":8,"heart_beat_rate":6,"newbie":1,"exp":1470,"dex":2,"int":2,"default_actions":,"volume":7,"hp":80,"addition_shield":10,"con":2,"str":2,"wound":(["left_leg":0,"right_leg":0,"right_arm":0,"head":0,"left_arm":0,"body":0,]),"level":1,"MKS":5,"mud_age":1028,"evil":11,"addition_armor":10,])
+skills (["combat":3,"dodge":1,"parry":1,"unarmed":2,"strong-body":3,])
+learned (["combat":14,"dodge":4,"parry":0,"unarmed":12,"strong-body":13,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

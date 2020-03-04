@@ -1,0 +1,21 @@
+
+	allocate_buffer(3)	LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		allocate_buffer() - 配置記憶體給一個暫存區 (buffer).
+	函數語法:
+		buffer allocate_buffer( int size );
+
+		暫存區 allocate_buffer( 整數 size );
+	函數用法:
+		配置一塊有 size 個元素 (elements) 的暫存區. 元素
+		的數目必須大於 0, 而且不可超過系統設定的上限值 
+		(通常是 10000 左右) . 所有陣列元素的初始值
+		(initialized) 均為 0.
+	參考函數:
+		bufferp(3), read_buffer(3), write_buffer(3), sizeof(3),
+		to_int(3)
+	原著:
+		Truilkan
+	手冊翻譯:
+		Phoebus@ZH	1997.Aug.12.		(Writen 5/23/97)

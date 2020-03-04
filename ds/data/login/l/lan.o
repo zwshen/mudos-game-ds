@@ -1,0 +1,2 @@
+#/obj/login.c
+dbase (["level":28,"body":"/obj/user","name":"嵐","email":"bluefox780716@yahoo.com.tw","password":".z8VJVOqvUVkI","id":"lan","last_on":1166972470,"race":"human","error_login":({"於[Sun Apr 25 14:02:38 2004]嘗試由[233.246.192.210.dynamic.ttn.net]連線進入失敗。","於[Thu Jul 15 00:27:25 2004]嘗試由[218-172-90-218.dynamic.hinet.net]連線進入失敗。","於[Sat Jan 21 17:08:54 2006]嘗試由[59-121-55-203.dynamic.hinet.net]連線進入失敗。","於[Wed May 17 21:58:18 2006]嘗試由[adsl-220-229-137-32.TC.sparqnet.net]連線進入失敗。","於[Wed Oct  4 04:38:44 2006]嘗試由[203.70.184.16]連線進入失敗。",}),"last_from":"125.228.151.50",])

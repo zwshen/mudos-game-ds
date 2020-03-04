@@ -1,0 +1,135 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=bg2312">
+   <META NAME="Author" CONTENT="Spock">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.01 [en] (Win95; I) [Netscape]">
+   <TITLE>MudOS v21c2 參考文件 - lpc - types - general</TITLE>
+</HEAD>
+<BODY TEXT="#CCFFFF" BGCOLOR="#000000" LINK="#33FF33" VLINK="#FF0000" ALINK="#33CCFF" BACKGROUND="../../../image/ff/fftitleback.jpg" NOSAVE>
+
+<CENTER>
+<H1>
+<FONT COLOR="#FF99FF">general</FONT></H1></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+
+<P>類型用於四種地方:
+<UL><FONT COLOR="#FFCC99">聲明全局變量的類型.</FONT>
+<BR><FONT COLOR="#FFCC99">聲明函數的類型.</FONT>
+<BR><FONT COLOR="#FFCC99">聲明函數參數的類型.</FONT>
+<BR><FONT COLOR="#FFCC99">聲明函數里面的局部變量類型</FONT></UL>
+普通情況下, 可以完全忽略類型的數據, 把它當作是程序的說明. 例外的情況是驅動程序對程序最佳化
+(optimization) 時, 如果聲明 x　 為 int (整數) 變量, 則將 x + 0　 視為與
+x　 相同. 但是 x　 聲明為 string (字符串)　 變量時, 結果就不可能與前面一樣.
+當一個函數的基本類型已經聲明時, 會在函數內部強迫加上一個較嚴格的類型檢查
+(strict type checking) . <FONT COLOR="#99FF99">#pragma strict_types</FONT>　
+強迫函數必須有返回值 (return value),　 所以無法避免函數內部的嚴格類型檢查.
+這樣表示, 一定要定義所有參數的類型, 而變量只能儲存其聲明類型的值. call_other()
+函數定義為返回 unknown (未知) 類型值, 因為驅動程序不可能知道返回值得類型.
+如果定義了 <FONT COLOR="#FFCC99">CAST_CALL_OTHERS</FONT>,　 就必須指定返回值,
+結果就假設其類型為mixed　 (混合) . 指定 (cast) 返回值類型, 可以將類型名稱放在
+( ) (小括號) 裡面. 這樣子指定類型沒有什麼實際效果, 只是安慰編譯器而已.
+
+<P>範例如下, 查詢一個物件的簡稱:
+<UL><FONT COLOR="#99FF99">(string)call_other(ob, "short");</FONT>
+<UL>...或...</UL>
+<FONT COLOR="#99FF99">(string)ob->short();</FONT></UL>
+當一個函數以嚴格類型檢查時, 只能調用其他已經定義的函數. 如果函數尚未定義,
+就必須事先用函數原型 (prototype)　 使目前的函數能調用它們.
+
+<P>函數原型的例子:
+<UL><FONT COLOR="#99FF99">string func(int arg);</FONT></UL>
+注意, ;　 (分號) 代替了函數的內容. 所有的參數可以指定名稱, 卻不見得要跟實際的函數參數同名.
+也可以不寫參數的名字:
+<UL><FONT COLOR="#99FF99">string func(int);</FONT></UL>
+類型有兩種分類: 基本類型和特殊類型. 一個變量或函數最多只能指定一種基本類型,
+卻可以指定許多特殊類型.
+
+<P>只有編譯器用得到嚴格類型檢查, 執行時段 (runtime)　 則不用. 所以實際上,
+就算使用嚴格類型檢查, 也可以在一個字符串變量裡, 放上一個數字.
+
+<P>為什麼要使用嚴格類型檢查 ?　 我們還是建議您用它, 因為編譯器會在編譯程序時找出錯誤而省下許多除錯的時間.
+通常在執行時段中追蹤一個錯誤是很困難的.
+
+<P>基本類型分為兩組. 分別為存取變量值 (value)　 及存取位址 (address). int,
+string, float 屬於存取變量值的類型. 而 mapping, function, object, pointer
+(前面有 * 號的類型) 屬於位址. 如果把位址類型的值指定給一個變量, 或當作參數,
+它們會指向真正的數據所在. 也就是說, 如果改變一個數組的元素值, 則所有指向此數組的變量指針也會一起改變.
+但是要改變一個數組的大小, 一定要重新配置 (allocate) 一個新的數組. 比較運算符
+(comparison operator)「<FONT COLOR="#FFCC99">==</FONT>」對於前述的存取變量值一組的類型,
+會比較其真正的值. 但是對於 array, mapping 等等, 只會檢查兩者是否是相同的數組、映射等等.
+在此有一個很重要的提示是, 運算式: ({ 1 }) == ({ 1 })　 會產生偽值 (false),
+因為使用 <FONT COLOR="#FFCC99">({ ... })</FONT>　 這一對數組構造運算符
+(array construction operator-pair) , 會產生新的數組.
+<CENTER>
+<HR WIDTH="100%"><FONT COLOR="#FFFFCC">基本類型</FONT></CENTER>
+
+<HR WIDTH="100%">
+<BR><FONT COLOR="#FFCC99">int (整數)</FONT>
+<UL>整數 (32 bit).</UL>
+<FONT COLOR="#FFCC99">float (浮點數)</FONT>
+<UL>浮點數 (32 bit).</UL>
+<FONT COLOR="#FFCC99">string (字符串)</FONT>
+<UL>無限 (unlimited)　 的字符字符串 (沒有「\0」).</UL>
+<FONT COLOR="#FFCC99">object (物件)</FONT>
+<UL>一個物件指針.</UL>
+<FONT COLOR="#FFCC99">mapping (映射)</FONT>
+<UL>一種聯結 (associative)　 數組的形式; 請參考其他文件.</UL>
+<FONT COLOR="#FFCC99">function (函數指針)</FONT>
+<UL>一種特殊的類型, 以某種方式指向一個函數; 請參考其他文件.</UL>
+<FONT COLOR="#FFCC99">Arrays (數組)</FONT>
+<UL>在一個基本類型前面加上 *　 號以聲明數組. 譬如說, 聲明一個整數數組:
+<UL><FONT COLOR="#99FF99">int *arr;</FONT></UL>
+如果您想聲明一個數組的數組 (譯按: 即二元數組) , 要使用 mixed　 (混合) 類型,
+或是 mixed　 與其他類型的組合.</UL>
+<FONT COLOR="#FFCC99">void (無返回值)</FONT>
+<UL>這種類型只能用於函數. 它代表函數沒有任何返回值. 如果此函數有返回值
+(有類型檢查時) , 編譯器就會抱怨.</UL>
+<FONT COLOR="#FFCC99">mixed (混合)</FONT>
+<UL>此種類型很特殊, 這種類型可以使用任何類型的內容. 所以任何聲明為 mixed
+(混合) 類型的變量、函數、參數, 都不會引起編譯器的抱怨. 但是混合類型的目的並不在此.
+只有在一個變量真正包括不同的內容類型時, 才適於使用混合類型. 請盡量避免使用此種類型,
+因為讓一個函數返回不同類型的值, 是不好的程序寫法.</UL>
+
+<HR WIDTH="100%">
+<CENTER><FONT COLOR="#FFFFCC">特殊類型</FONT></CENTER>
+
+<HR WIDTH="100%">
+
+<P>有一些特殊類型, 可以加在基本類型之前. 這些特殊類型可以互相組合. 在一個繼承語句
+(inherit statement)　 之前指定某個特殊類型, 則繼承而來的類型也會與這個特殊類型合併.
+唯一的例外是 public　 (公共) 類型, 不可以再以 private 繼承語句定義為 private
+類型.
+<BR>　
+<BR><FONT COLOR="#FFCC99">varargs (不定參數)</FONT>
+<UL>這種類型的函數可以傳入不定數目的參數. 不是此類型的函數, 則會檢查參數的個數,
+如果數目不符會產生錯誤.</UL>
+<FONT COLOR="#FFCC99">private (私有)</FONT>
+<UL>可以用於函數和變量. 一個物件中的 private　 函數, 無法經由 call_other()
+被其他物件調用之. 而繼承此物件的其他物件也無法使用此函數.</UL>
+<FONT COLOR="#FFCC99">static (靜態)</FONT>
+<UL>這種特殊類型讓變量和函數的行為變得不太一樣. 對函數來說, 其效果類似於
+private,　 其他物件也無法利用 call_other() 調用此函數. static　 變量則無法使用
+save_object()　 儲存, 或 restore_object() 載入其值.</UL>
+<FONT COLOR="#FFCC99">public (公共)</FONT>
+<UL>定義為 public 類型的函數都能被其他物件調用, 甚至是繼承而來的 private
+函數也可以定義為 public.</UL>
+<FONT COLOR="#FFCC99">nomask (不可遮蓋)</FONT>
+<UL>任何定義為 nomask 的函數或變量, 都不能經由繼承再次重新定義. 但是可以依原來的定義使用之.
+nomask　 也阻止函數被 shadow() 投影.</UL>
+
+<HR WIDTH="100%">
+<CENTER><FONT COLOR="#FFFFCC">翻譯: Spock @ FF 97.Aug.11.</FONT></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+<CENTER><A HREF="../types.html">回到上一頁</A></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+</BODY>
+</HTML>

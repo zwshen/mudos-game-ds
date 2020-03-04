@@ -1,0 +1,5 @@
+#/obj/user.c
+conditions ([])
+dbase (["board_last_read":(["boo-lin_b":1032272312,]),"max_hp":80,"wound":(["head":0,"right_arm":0,"left_arm":0,"right_leg":0,"body":0,"left_leg":0,]),"attitude":"peaceful","max_mp":60,"evil":-1,"volume":7,"age":14,"guild_gifts":({5,5,5,5,}),"default_actions":,"gender":"¤k©Ê","unit":"¦ì","id":"summersnow","name":"®L³·","max_ap":60,"supply_point":60,"last_location":"/open/world1/cominging/area/bnorth","heart_modify":0,"hp":80,"ap":60,"exp":777,"dex":2,"int":2,"actions":,"DS_DATA_VERSION":19991107,"cure_count":0,"con":2,"str":2,"talk_point":8,"addition_shield":10,"race":"human","channels":({"chat","rumor","tchat",}),"mud_age":606,"level":1,"heart_beat_rate":6,"addition_armor":10,"birthday":1119325218,"Merits":(["bio":0,"tec":0,"sou":0,"bar":0,"wit":0,]),"wimpy":10,"startroom":"/open/world1/tmr/area/hotel","mp":60,"newbie":1,"addition_damage":10,])
+alias (["11":"save -1","12":"save -2",])
+autoload ({})

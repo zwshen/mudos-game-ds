@@ -1,0 +1,20 @@
+
+	query_host_name(3)	LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		query_host_name() - 傳回使用的主機名稱 (host name)
+	函數語法:
+		string query_host_name( void );
+
+		字串 query_host_name( 無參數 );
+	函數用法:
+		query_host_name() 傳回使用的主機名稱.
+	傳回值:
+		如果詢問主機成功, 則傳回一個字串.
+
+		如果失敗, 則傳回一個空字串.
+	參考函數:
+		resolve(3), socket_address(3), query_ip_name(3),
+		query_ip_number(3)
+	手冊翻譯:
+		Phoebus@ZH	97.Apr.30.		(Writen 5/23/97)

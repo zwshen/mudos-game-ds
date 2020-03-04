@@ -1,0 +1,28 @@
+
+	objects(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	ㄧ计嘿:
+		objects - 肚更ぇン皚 (array).
+	ㄧ计粂猭:
+		object *objects( string func, object ob ); 
+		object *objects( function f );
+
+		ン *objects( ﹃ func, ン ob );
+		ン *objects( ㄧΑ夹 f );
+	ㄧ计ノ猭:
+		objects() 肚 mud  柑竒更ぇン皚. 叫猔種, 
+		狦╰参砞﹚程皚 (maximum array size)び, 
+		objects() 肚皚ず甧穦い耞程よ. 硂妓
+		ㄓ, objects() 碞⊿Τぐ或ノ矪.
+
+		狦﹚ func ㎝ ob ㄢ把计, 玥穦㊣ ob->func(), 
+		┮Τ竒更ン func() 把计. 狦ㄧΑ肚
+		獶箂, ン碞穦砆 objects()  肚ㄓ. 狦琌箂玥
+		ぃ穦.
+
+		狦﹚ f, ┮Τ更ン常穦㊣ㄧΑ夹 f. ㄒ:
+		objects( (: clonep :) ) 穦肚瞷场確ン.
+	把σㄧ计:
+		livings(3), users(3)
+	も陆亩:
+		Phoebus@ZH	97.Apr.24.		(Writen 5/23/97)

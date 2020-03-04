@@ -1,0 +1,15 @@
+
+        all_inventory(3)        LP MudOSv21c7             (7 Jul 1996)
+
+	ㄧ计嘿:
+		all_inventory() - 肚ンず甧珇.
+	ㄧ计粂猭:
+		object *all_inventory( object ob );
+
+		ン *all_inventory( ン ob );
+	ㄧ计ノ猭:
+                肚皚, 皚ン ob ず甧珇.
+	把σㄧ计:
+		first_inventory(3), next_inventory(3), deep_inventory(3)
+        も陆亩:
+                Phoebus@ZH	1997.Aug.12.		(Writen 5/23/97)

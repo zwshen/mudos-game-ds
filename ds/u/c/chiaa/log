@@ -1,0 +1,474 @@
+[Wed Aug 11 15:15:36 2004] u/c/chiaa/hourse/hourse0.c line 4: Undefined variable 'HIY' before NOR);;  set("long", 
+
+[Wed Aug 11 15:15:36 2004] u/c/chiaa/hourse/hourse0.c line 4: parse error before NOR);;  set("long", 
+
+[Wed Aug 11 15:15:36 2004] u/c/chiaa/hourse/hourse0.c line 6: End of file in text block before /open/world1/faceoff
+
+[Wed Aug 11 15:17:45 2004] u/c/chiaa/hourse/hourse0.c line 4: Undefined variable 'HIY' before NOR);;  set("long", 
+
+[Wed Aug 11 15:17:45 2004] u/c/chiaa/hourse/hourse0.c line 4: parse error before NOR);;  set("long", 
+
+[Wed Aug 11 15:17:45 2004] u/c/chiaa/hourse/hourse0.c line 6: End of file in text block before me->query_int();
+
+[Wed Aug 11 15:17:47 2004] u/c/chiaa/hourse/hourse0.c line 4: Undefined variable 'HIY' before NOR);;  set("long", 
+
+[Wed Aug 11 15:17:47 2004] u/c/chiaa/hourse/hourse0.c line 4: parse error before NOR);;  set("long", 
+
+[Wed Aug 11 15:17:47 2004] u/c/chiaa/hourse/hourse0.c line 6: End of file in text block before me->query_int();
+
+[Wed Aug 11 15:18:41 2004] u/c/chiaa/hourse/hourse0.c line 4: Undefined variable 'HIY' before NOR);  set("long", @
+
+[Wed Aug 11 15:18:41 2004] u/c/chiaa/hourse/hourse0.c line 4: parse error before NOR);  set("long", @
+
+[Wed Aug 11 15:18:41 2004] u/c/chiaa/hourse/hourse0.c line 6: End of file in text block before n_armor",50+random(5
+
+[Wed Aug 11 15:18:55 2004] u/c/chiaa/hourse/hourse0.c line 4: Undefined variable 'HIY' before NOR);  set("long", @
+
+[Wed Aug 11 15:18:55 2004] u/c/chiaa/hourse/hourse0.c line 4: parse error before NOR);  set("long", @
+
+[Wed Aug 11 15:18:55 2004] u/c/chiaa/hourse/hourse0.c line 6: End of file in text block before Ã~©Ê(bar)
+
+[Wed Aug 11 15:18:59 2004] u/c/chiaa/hourse/hourse0.c line 4: Undefined variable 'HIY' before NOR);  set("long", @
+
+[Wed Aug 11 15:18:59 2004] u/c/chiaa/hourse/hourse0.c line 4: parse error before NOR);  set("long", @
+
+[Wed Aug 11 15:18:59 2004] u/c/chiaa/hourse/hourse0.c line 6: End of file in text block before Ã~©Ê(bar)
+
+[Wed Aug 11 15:19:41 2004] u/c/chiaa/hourse/hourse0.c line 4: Undefined variable 'HIY' before NOR);  set("long", @
+
+[Wed Aug 11 15:19:41 2004] u/c/chiaa/hourse/hourse0.c line 4: parse error before NOR);  set("long", @
+
+[Wed Aug 11 15:19:41 2004] u/c/chiaa/hourse/hourse0.c line 6: End of file in text block before Ã~©Ê(bar)
+
+[Wed Aug 11 15:20:12 2004] u/c/chiaa/hourse/hourse0.c line 4: Undefined variable 'HIY' before NOR);  set("long", @
+
+[Wed Aug 11 15:20:12 2004] u/c/chiaa/hourse/hourse0.c line 4: parse error before NOR);  set("long", @
+
+[Wed Aug 11 15:20:12 2004] u/c/chiaa/hourse/hourse0.c line 6: End of file in text block before p",3000);
+
+[Wed Aug 11 15:21:38 2004] u/c/chiaa/hourse/hourse0.c line 4: Undefined variable 'HIY' before NOR);  set("long", @
+
+[Wed Aug 11 15:21:38 2004] u/c/chiaa/hourse/hourse0.c line 4: parse error before NOR);  set("long", @
+
+[Wed Aug 11 15:21:38 2004] u/c/chiaa/hourse/hourse0.c line 6: End of file in text block before replac			"/std/room"
+
+[Wed Aug 11 15:34:14 2004] u/c/chiaa/hourse/hourse0.c line 4: End of file in text block before :               10,
+
+[Wed Aug 11 15:34:14 2004] u/c/chiaa/hourse/hourse0.c line 4: parse error before :               10,
+
+[Wed Aug 11 15:36:14 2004] u/c/chiaa/hourse/hourse0.c line 2: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Wed Aug 11 15:36:14 2004] u/c/chiaa/hourse/hourse0.c line 2: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Wed Aug 11 15:36:14 2004] u/c/chiaa/hourse/hourse0.c line 2: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Wed Aug 11 15:36:14 2004] u/c/chiaa/hourse/hourse0.c line 2: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Wed Aug 11 15:36:14 2004] u/c/chiaa/hourse/hourse0.c line 2: Illegal to redefine 'nomask' function "add_light" before the end of line
+
+[Wed Aug 11 15:36:14 2004] u/c/chiaa/hourse/hourse0.c line 7: End of file in text block before 37m"        /* Whit	
+
+[Wed Aug 11 15:37:07 2004] u/c/chiaa/hourse/hourse0.c line 4: End of file in text block before nªºÀJ¹³(statues)¡C\n
+
+[Wed Aug 11 15:37:07 2004] u/c/chiaa/hourse/hourse0.c line 4: parse error before nªºÀJ¹³(statues)¡C\n
+
+[Wed Aug 11 15:39:23 2004] u/c/chiaa/hourse/hh0.c line 3: End of file in text block before ®Ì¨Ó®Ì¥h¡A\n»á±y«vªº
+
+[Wed Aug 11 15:39:23 2004] u/c/chiaa/hourse/hh0.c line 3: parse error before ®Ì¨Ó®Ì¥h¡A\n»á±y«vªº
+
+[Wed Aug 11 15:40:34 2004] u/c/chiaa/hourse/hh0.c line 3: End of file in text block before the end of file
+
+[Wed Aug 11 15:40:34 2004] u/c/chiaa/hourse/hh0.c line 3: parse error before the end of file
+
+[Wed Aug 11 15:42:32 2004] u/c/chiaa/hourse/hh0.c line 4: End of file in text block before        ]));
+
+[Wed Aug 11 15:42:32 2004] u/c/chiaa/hourse/hh0.c line 4: parse error before        ]));
+
+[Wed Aug 11 15:42:50 2004] u/c/chiaa/hourse/hh0.c line 4: End of file in text block before        ]));
+
+[Wed Aug 11 15:42:50 2004] u/c/chiaa/hourse/hh0.c line 4: parse error before        ]));
+
+[Wed Aug 11 15:43:47 2004] u/c/chiaa/hourse/hh0.c line 4: End of file in text block before b¨Ã¨S¦³°Ñ¥[¥ô¦ó¶¤¥î¡
+
+[Wed Aug 11 15:43:47 2004] u/c/chiaa/hourse/hh0.c line 4: parse error before b¨Ã¨S¦³°Ñ¥[¥ô¦ó¶¤¥î¡
+
+[Wed Aug 11 15:44:01 2004] u/c/chiaa/hourse/hh0.c line 4: End of file in text block before b¨Ã¨S¦³°Ñ¥[¥ô¦ó¶¤¥î¡
+
+[Wed Aug 11 15:44:01 2004] u/c/chiaa/hourse/hh0.c line 4: parse error before b¨Ã¨S¦³°Ñ¥[¥ô¦ó¶¤¥î¡
+
+[Wed Aug 11 15:44:01 2004] u/c/chiaa/hourse/hh0.c line 4: End of file in text block before b¨Ã¨S¦³°Ñ¥[¥ô¦ó¶¤¥î¡
+
+[Wed Aug 11 15:44:01 2004] u/c/chiaa/hourse/hh0.c line 4: parse error before b¨Ã¨S¦³°Ñ¥[¥ô¦ó¶¤¥î¡
+
+[Wed Aug 11 15:44:55 2004] u/c/chiaa/hourse/hourse 0.c line 4: End of file in text block before 	str = name() + "(" 
+
+[Wed Aug 11 15:44:55 2004] u/c/chiaa/hourse/hourse 0.c line 4: parse error before 	str = name() + "(" 
+
+[Wed Aug 11 15:46:19 2004] u/c/chiaa/hourse/hourse0.c line 4: End of file in text block before claw" }) );
+
+[Wed Aug 11 15:46:19 2004] u/c/chiaa/hourse/hourse0.c line 4: parse error before claw" }) );
+
+[Wed Aug 11 15:46:45 2004] u/c/chiaa/hourse/hourse0.c line 4: End of file in text block before  server = user_path(
+
+[Wed Aug 11 15:46:45 2004] u/c/chiaa/hourse/hourse0.c line 4: parse error before  server = user_path(
+
+[Wed Aug 11 15:50:47 2004] u/c/chiaa/hourse/hhh0.c line 4: End of file in text block before p("reply")) )
+
+[Wed Aug 11 15:50:47 2004] u/c/chiaa/hourse/hhh0.c line 4: parse error before p("reply")) )
+
+[Wed Aug 11 15:57:15 2004] u/c/chiaa/hourse/hhh0.c line 6: End of file in text block before ã±ø¤p®|ÀR±o¦º±I¡A§A¦
+
+[Wed Aug 11 15:57:15 2004] u/c/chiaa/hourse/hhh0.c line 6: parse error before ã±ø¤p®|ÀR±o¦º±I¡A§A¦
+
+[Wed Aug 11 16:01:44 2004] u/c/chiaa/hourse/hhh0.c line 6: End of file in text block before () )
+
+[Wed Aug 11 16:01:44 2004] u/c/chiaa/hourse/hhh0.c line 6: parse error before () )
+
+[Wed Aug 11 16:02:08 2004] u/c/chiaa/hourse/hhh0.c line 6: End of file in text block before () )
+
+[Wed Aug 11 16:02:08 2004] u/c/chiaa/hourse/hhh0.c line 6: parse error before () )
+
+[Wed Aug 11 16:04:59 2004] u/c/chiaa/hourse/hhh0.c line 3: Undefined variable 'HIY' before NOR);;  set("long", 
+
+[Wed Aug 11 16:04:59 2004] u/c/chiaa/hourse/hhh0.c line 3: parse error before NOR);;  set("long", 
+
+[Wed Aug 11 16:04:59 2004] u/c/chiaa/hourse/hhh0.c line 4: End of file in text block before /world1/moonhide/are
+
+[Wed Aug 11 16:06:27 2004] u/c/chiaa/hourse/hhh0.c line 4: End of file in text block before );;}
+
+[Wed Aug 11 16:06:27 2004] u/c/chiaa/hourse/hhh0.c line 4: parse error before );;}
+
+[Wed Aug 11 16:06:41 2004] u/c/chiaa/hourse/hhh0.c line 4: End of file in text block before _temple/""room-30",
+
+[Wed Aug 11 16:06:41 2004] u/c/chiaa/hourse/hhh0.c line 4: parse error before _temple/""room-30",
+
+[Wed Aug 11 16:13:40 2004] u/c/chiaa/hourse/hhh0.c line 3: parse error before  create()
+
+[Wed Aug 11 16:17:59 2004] u/c/chiaa/hourse/hhh0.c line 4: End of file in text block before the end of line
+
+[Wed Aug 11 16:17:59 2004] u/c/chiaa/hourse/hhh0.c line 4: parse error before the end of line
+
+[Wed Aug 11 16:22:20 2004] u/c/chiaa/hourse/hhh0.c line 2: parse error before  create ()
+
+[Wed Aug 11 16:22:32 2004] u/c/chiaa/hourse/hhh0.c line 2: parse error before  create ()
+
+[Wed Aug 11 16:25:27 2004] u/c/chiaa/hourse/hhh0.c line 2: parse error before  create ()
+
+[Wed Aug 11 21:01:08 2004] u/c/chiaa/hourse/hhh0.c line 5: Undefined variable 'HIY' before NOR);
+
+[Wed Aug 11 21:01:08 2004] u/c/chiaa/hourse/hhh0.c line 5: parse error before NOR);
+
+[Wed Aug 11 21:01:16 2004] u/c/chiaa/hourse/hhh0.c line 5: Undefined variable 'HIY' before NOR);
+
+[Wed Aug 11 21:01:16 2004] u/c/chiaa/hourse/hhh0.c line 5: parse error before NOR);
+
+[Wed Aug 11 23:32:37 2004] u/c/chiaa/hourse/hourse0.c line 25: parse error before the end of file
+
+[Wed Aug 11 23:33:15 2004] u/c/chiaa/hourse/hourse0.c line 25: parse error before the end of file
+
+[Thu Aug 12 16:48:50 2004] u/c/chiaa/hourse/hourse0.c line 24: Undefined variable 'DOOR_CLOSED' before ;  //³Ð«Ø©Ð¶¡ªºªù,¥­
+
+[Thu Aug 12 16:48:50 2004] u/c/chiaa/hourse/hourse0.c line 24: Undefined function create_door before ;  //³Ð«Ø©Ð¶¡ªºªù,¥­
+
+[Thu Aug 12 16:49:56 2004] u/c/chiaa/hourse/hourse0.c line 25: Undefined variable 'DOOR_CLOSED' before ;  
+
+[Thu Aug 12 16:49:56 2004] u/c/chiaa/hourse/hourse0.c line 25: Undefined function create_door before ;  
+
+[Thu Aug 12 16:52:13 2004] u/c/chiaa/hourse/hourse0.c line 24: Undefined variable 'DOOR_CLOSED' before ;  
+
+[Thu Aug 12 16:52:13 2004] u/c/chiaa/hourse/hourse0.c line 24: Undefined function create_door before ;  
+
+[Thu Aug 12 16:52:23 2004] u/c/chiaa/hourse/hourse0.c line 24: Undefined variable 'DOOR_CLOSED' before ;  
+
+[Thu Aug 12 16:52:23 2004] u/c/chiaa/hourse/hourse0.c line 24: Undefined function create_door before ;  
+
+[Thu Aug 12 16:54:11 2004] u/c/chiaa/hourse/hourse0.c line 24: Undefined variable 'DOOR_CLOSED' before ;  
+
+[Thu Aug 12 16:54:11 2004] u/c/chiaa/hourse/hourse0.c line 24: Undefined function create_door before ;  
+
+[Thu Aug 12 16:54:15 2004] u/c/chiaa/hourse/hourse0.c line 24: Undefined variable 'DOOR_CLOSED' before ;  
+
+[Thu Aug 12 16:54:15 2004] u/c/chiaa/hourse/hourse0.c line 24: Undefined function create_door before ;  
+
+[Thu Aug 12 17:03:02 2004] u/c/chiaa/hourse/hourse0.c line 25: Undefined variable 'DOOR_CLOSED' before ;  
+
+[Thu Aug 12 17:14:55 2004] u/c/chiaa/hourse/hourse0.c line 2: Missing leading " or < in #include before inherit ROOM;
+
+[Thu Aug 12 17:14:55 2004] u/c/chiaa/hourse/hourse0.c line 24: Undefined variable 'DOOR_CLOSED' before ;
+
+[Thu Aug 12 21:03:54 2004] u/c/chiaa/thing/tea.c line 1: parse error before ;
+
+[Thu Aug 12 21:04:08 2004] u/c/chiaa/thing/tea.c line 1: parse error before ;
+
+[Thu Aug 12 21:13:39 2004] u/c/chiaa/hourse/hourse0.c line 1: parse error before [30m
+
+[Fri Aug 13 21:01:37 2004] u/c/chiaa/hourse/hourse3.c line 7: Warning: Unknown \ escape. before Ç");
+
+[Fri Aug 13 21:02:52 2004] u/c/chiaa/hourse/hourse3.c line 7: Warning: Unknown \ escape. before Ç");
+
+[Fri Aug 13 21:29:14 2004] u/c/chiaa/hourse/hourse0.c line 28: End of file in text block before die();
+
+[Fri Aug 13 21:29:14 2004] u/c/chiaa/hourse/hourse0.c line 28: parse error before die();
+
+[Thu Aug 19 21:30:49 2004] u/c/chiaa/obj/pot.c line 25: parse error before the end of file
+
+[Sun Aug 22 10:07:33 2004] u/c/chiaa/world2/nivi_entranceway.c line 8: parse error before ÔªÌ§ø¤J¤f");
+
+[Sun Aug 22 10:07:33 2004] u/c/chiaa/world2/nivi_entranceway.c line 21: Illegal terminator before ­Ó¥Y°_ªº¥Û¶ô,¥i¥H¸Õµ
+
+[Sun Aug 22 10:18:07 2004] u/c/chiaa/world2/nivi_entranceway.c line 8: parse error before ÔªÌ§ø¤J¤f");
+
+[Sun Aug 22 10:18:07 2004] u/c/chiaa/world2/nivi_entranceway.c line 21: Illegal terminator before ­Ó¥Y°_ªº¥Û¶ô,¥i¥H¸Õµ
+
+[Sun Aug 22 10:19:07 2004] u/c/chiaa/world2/nivi_entranceway.c line 8: parse error before ÔªÌ§ø¤J¤f");
+
+[Sun Aug 22 10:19:07 2004] u/c/chiaa/world2/nivi_entranceway.c line 21: Illegal terminator before ­Ó¥Y°_ªº¥Û¶ô,¥i¥H¸Õµ
+
+[Sun Aug 22 10:19:11 2004] u/c/chiaa/world2/nivi_entranceway.c line 8: parse error before ÔªÌ§ø¤J¤f");
+
+[Sun Aug 22 10:19:11 2004] u/c/chiaa/world2/nivi_entranceway.c line 21: Illegal terminator before ­Ó¥Y°_ªº¥Û¶ô,¥i¥H¸Õµ
+
+[Sun Aug 22 10:22:20 2004] u/c/chiaa/world2/nivi_entranceway.c line 8: parse error before ÔªÌ§ø¤J¤f");
+
+[Sun Aug 22 10:22:20 2004] u/c/chiaa/world2/nivi_entranceway.c line 21: Illegal terminator before ­Ó¥Y°_ªº¥Û¶ô,¥i¥H¸Õµ
+
+[Sun Aug 22 10:23:28 2004] u/c/chiaa/world2/nivi_entranceway.c line 8: parse error before ÔªÌ§ø¤J¤f");
+
+[Sun Aug 22 10:23:28 2004] u/c/chiaa/world2/nivi_entranceway.c line 21: Illegal terminator before ­Ó¥Y°_ªº¥Û¶ô,¥i¥H¸Õµ
+
+[Sun Aug 22 10:40:47 2004] u/c/chiaa/world2/nivi_entranceway.c line 8: parse error before ÔªÌ§ø¤J¤f");
+
+[Sun Aug 22 10:40:47 2004] u/c/chiaa/world2/nivi_entranceway.c line 21: Illegal terminator before ­Ó¥Y°_ªº¥Û¶ô,¥i¥H¸Õµ
+
+[Sun Aug 22 10:52:29 2004] u/c/chiaa/world2/nivi_entranceway.c line 8: parse error before ÔªÌ§ø¤J¤f");
+
+[Sun Aug 22 10:52:29 2004] u/c/chiaa/world2/nivi_entranceway.c line 21: Illegal terminator before ­Ó¥Y°_ªº¥Û¶ô,¥i¥H¸Õµ
+
+[Sun Aug 22 10:54:01 2004] u/c/chiaa/world2/nivi_entranceway.c line 43: parse error before the end of line
+
+[Sun Aug 22 10:55:54 2004] u/c/chiaa/world2/na.c line 43: parse error before the end of line
+
+[Sun Aug 22 11:07:05 2004] u/c/chiaa/world2/nivi_entranceway.c line 37: Undefined variable 'touch' before !=1 )
+
+[Sun Aug 22 11:08:20 2004] u/c/chiaa/world2/nivi_entranceway.c line 37: Undefined variable 'touch' before !=0 )
+
+[Sun Aug 22 11:12:09 2004] u/c/chiaa/world2/nivi_entranceway.c line 37: Undefined variable 'touch' before !=0 )
+
+[Sun Aug 22 18:00:03 2004] u/c/chiaa/world2/blackly_forest/nivi_entranceway.c line 37: parse error before Ü¼Æstr¤§¤¤¨Ñ§A³B²z¡@
+
+[Sun Aug 22 21:23:12 2004] u/c/chiaa/world2/blackly_forest/nivi_square1.c line 19: Undefined variable 'assembly_room' before ));
+
+[Sun Aug 22 21:23:12 2004] u/c/chiaa/world2/blackly_forest/nivi_square1.c line 19: parse error before ));
+
+[Sun Aug 22 21:24:12 2004] u/c/chiaa/world2/blackly_forest/nivi_square1.c line 19: Undefined variable 'assembly_room' before ));
+
+[Sun Aug 22 21:24:12 2004] u/c/chiaa/world2/blackly_forest/nivi_square1.c line 19: parse error before ));
+
+[Sun Aug 22 21:25:23 2004] u/c/chiaa/world2/blackly_forest/nivi_square1.c line 19: Undefined variable 'assembly_room' before ));
+
+[Sun Aug 22 21:25:23 2004] u/c/chiaa/world2/blackly_forest/nivi_square1.c line 19: parse error before ));
+
+[Sun Aug 22 21:30:40 2004] u/c/chiaa/world2/blackly_forest/assembly_room.c line 39: parse error before Ü¼Æstr¤§¤¤¨Ñ§A³B²z¡@
+
+[Sun Aug 22 21:30:46 2004] u/c/chiaa/world2/blackly_forest/assembly_room.c line 39: parse error before Ü¼Æstr¤§¤¤¨Ñ§A³B²z¡@
+
+[Mon Aug 23 15:41:39 2004] u/c/chiaa/obj/eq/qqq.c line 7: parse error before P¡u¤Ñ¥P¦Ð"¦XÅ±ªº¯«³T
+
+[Mon Aug 23 21:55:39 2004] u/c/chiaa/obj/eq/blood_sword.c line 5: parse error before ;
+
+[Tue Aug 24 09:44:41 2004] u/c/chiaa/obj/eq/conch_helmet.c line 16: parse error before ­¨î®Ú°©Åé½è15
+
+[Tue Aug 24 09:45:55 2004] u/c/chiaa/obj/eq/conch_helmet.c line 17: parse error before ¾¿m¤O+10
+
+[Tue Aug 24 10:10:29 2004] u/c/chiaa/obj/eq/sun_helmet.c line 20: parse error before N$n½w½wÀ¹¦bÀY¤W,¥þ¨­
+
+[Tue Aug 24 10:10:29 2004] u/c/chiaa/obj/eq/sun_helmet.c line 20: $var illegal outside of function pointer. before n½w½wÀ¹¦bÀY¤W,¥þ¨­´²
+
+[Tue Aug 24 10:10:29 2004] u/c/chiaa/obj/eq/sun_helmet.c line 21: $var illegal outside of function pointer. before N±N$n¨ø¤U,¥ú¨~ÀH§Y´²
+
+[Tue Aug 24 10:10:29 2004] u/c/chiaa/obj/eq/sun_helmet.c line 21: $var illegal outside of function pointer. before n¨ø¤U,¥ú¨~ÀH§Y´²¥h¡C
+
+[Tue Aug 24 10:10:29 2004] u/c/chiaa/obj/eq/sun_helmet.c line 27: End of file in string before "/open/world1/tmr/ar
+
+[Tue Aug 24 11:01:02 2004] u/c/chiaa/obj/eq/black_armor.c line 8: Illegal character constant before Ô¥Ò"NOR,({"black arm
+
+[Tue Aug 24 11:01:02 2004] u/c/chiaa/obj/eq/black_armor.c line 8: parse error before Ô¥Ò"NOR,({"black arm
+
+[Tue Aug 24 11:01:02 2004] u/c/chiaa/obj/eq/black_armor.c line 9: Illegal terminator before ¯ë²¯¥Ò¨Óªº»´¡C\n");
+
+[Tue Aug 24 11:03:21 2004] u/c/chiaa/obj/eq/black_armor.c line 26: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Tue Aug 24 11:03:21 2004] u/c/chiaa/obj/eq/black_armor.c line 26: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Tue Aug 24 11:03:21 2004] u/c/chiaa/obj/eq/black_armor.c line 26: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Tue Aug 24 11:03:21 2004] u/c/chiaa/obj/eq/black_armor.c line 26: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Tue Aug 24 11:03:21 2004] u/c/chiaa/obj/eq/black_armor.c line 26: Illegal to redefine 'nomask' function "query_encumbrance" before the end of line
+
+[Tue Aug 24 11:03:21 2004] u/c/chiaa/obj/eq/black_armor.c line 26: Illegal to redefine 'nomask' function "over_encumbranced" before the end of line
+
+[Tue Aug 24 11:29:31 2004] u/c/chiaa/obj/eq/leading_cloak.c line 4: parse error before ;
+
+[Tue Aug 24 16:01:51 2004] u/c/chiaa/obj/eq/hon len_belt.c line 4: parse error before ;
+
+[Tue Aug 24 16:28:29 2004] u/c/chiaa/obj/eq/ten down_boots.c line 14: parse error before the end of line
+
+[Tue Aug 24 16:30:56 2004] u/c/chiaa/obj/eq/ten down_boots.c line 14: parse error before the end of line
+
+[Tue Aug 24 16:39:50 2004] u/c/chiaa/obj/eq/wolf_boots.c line 23: parse error before the end of file
+
+[Tue Aug 24 16:55:33 2004] u/c/chiaa/obj/eq/dark red_shield.c line 14: Undefined variable 'set_weight4000' before ;  
+
+[Tue Aug 24 16:55:33 2004] u/c/chiaa/obj/eq/dark red_shield.c line 14: parse error before ;  
+
+[Thu Aug 26 20:35:12 2004] u/c/chiaa/obj/mob/dog.c line 22: parse error before ë³Ì¤j­È
+
+[Fri Aug 27 22:15:52 2004] u/c/chiaa/obj/mob/hermit crab.c line 26: parse error before Ê¤À¤ñ°Ê§@¾÷²v
+
+[Fri Aug 27 22:15:52 2004] u/c/chiaa/obj/mob/hermit crab.c line 26: Illegal terminator before ¾÷²v
+
+[Fri Aug 27 22:17:14 2004] u/c/chiaa/obj/mob/hermit crab.c line 29: parse error before //±o¨ìªºª÷¿úcoin sil
+
+[Fri Aug 27 22:17:14 2004] u/c/chiaa/obj/mob/hermit crab.c line 34: Illegal terminator before ¦¸
+
+[Fri Aug 27 22:18:16 2004] u/c/chiaa/obj/mob/hermit crab.c line 29: parse error before //±o¨ìªºª÷¿ú
+
+[Fri Aug 27 22:18:16 2004] u/c/chiaa/obj/mob/hermit crab.c line 34: Illegal terminator before ¦¸
+
+[Fri Aug 27 22:20:21 2004] u/c/chiaa/obj/mob/hermit crab.c line 29: parse error before //±o¨ìªºª÷¿ú
+
+[Fri Aug 27 22:20:21 2004] u/c/chiaa/obj/mob/hermit crab.c line 34: Illegal terminator before ¦¸
+
+[Fri Aug 27 22:22:52 2004] u/c/chiaa/obj/mob/hermit crab.c line 29: parse error before //±o¨ìªºª÷¿ú
+
+[Fri Aug 27 22:22:52 2004] u/c/chiaa/obj/mob/hermit crab.c line 34: Illegal terminator before ¦¸
+
+[Fri Aug 27 22:23:40 2004] u/c/chiaa/obj/mob/hermit crab.c line 29: parse error before //ºë³Ì¤j­È
+
+[Fri Aug 27 22:23:40 2004] u/c/chiaa/obj/mob/hermit crab.c line 33: Illegal terminator before ¦¸
+
+[Fri Aug 27 22:26:03 2004] u/c/chiaa/obj/mob/hermit crab.c line 29: parse error before 15¤ÀÄÁ¥X²{¤@¦¸
+
+[Fri Aug 27 22:26:03 2004] u/c/chiaa/obj/mob/hermit crab.c line 29: Illegal terminator before ¦¸
+
+[Fri Aug 27 22:26:45 2004] u/c/chiaa/obj/mob/hermit crab.c line 29: parse error before //15¤ÀÄÁ¥X²{¤@¦¸
+
+[Fri Aug 27 22:29:24 2004] u/c/chiaa/obj/mob/hermit crab.c line 29: parse error before the end of line
+
+[Fri Aug 27 22:30:54 2004] u/c/chiaa/obj/mob/hermit crab.c line 29: parse error before the end of line
+
+[Fri Aug 27 22:32:39 2004] u/c/chiaa/obj/mob/hermit crab.c line 29: parse error before the end of line
+
+[Fri Aug 27 22:38:14 2004] u/c/chiaa/obj/mob/hermit crab.c line 29: parse error before ();
+
+[Fri Aug 27 22:40:35 2004] u/c/chiaa/obj/mob/hermit crab.c line 29: parse error before the end of line
+
+[Fri Aug 27 22:42:12 2004] u/c/chiaa/obj/mob/hermit crab.c line 30: parse error before  
+
+[Fri Aug 27 22:44:12 2004] u/c/chiaa/obj/mob/hermit crab.c line 30: parse error before  
+
+[Fri Aug 27 22:47:13 2004] u/c/chiaa/obj/mob/hermit crab.c line 31: parse error before  
+
+[Fri Aug 27 22:48:19 2004] u/c/chiaa/obj/mob/hermit crab.c line 30: parse error before  
+
+[Fri Aug 27 22:49:20 2004] u/c/chiaa/obj/mob/hermit crab.c line 31: parse error before  
+
+[Fri Aug 27 22:57:28 2004] u/c/chiaa/obj/mob/qq.c line 31: parse error before  
+
+[Fri Aug 27 22:58:47 2004] u/c/chiaa/obj/mob/qq.c line 31: parse error before  
+
+[Fri Aug 27 23:00:05 2004] u/c/chiaa/obj/mob/qq.c line 31: parse error before  
+
+[Fri Aug 27 23:03:30 2004] u/c/chiaa/obj/mob/qq.c line 31: parse error before  
+
+[Fri Aug 27 23:06:49 2004] u/c/chiaa/obj/mob/qq.c line 32: parse error before  
+
+[Sat Aug 28 09:43:44 2004] u/c/chiaa/obj/mob/turtle.c line 27: Warning: Unknown \ escape. before ÊµÛ¥¦ªº¨­Åé\n",(: ra
+
+[Sat Aug 28 09:43:48 2004] u/c/chiaa/obj/mob/turtle.c line 27: Warning: Unknown \ escape. before ÊµÛ¥¦ªº¨­Åé\n",(: ra
+
+[Sat Aug 28 09:45:28 2004] u/c/chiaa/obj/mob/turtle.c line 27: Warning: Unknown \ escape. before ÊµÛ¥¦ªº¨­Åé\n",
+
+[Sat Aug 28 09:47:13 2004] u/c/chiaa/obj/mob/turtle.c line 27: Warning: Unknown \ escape. before ÊµÛ¥¦ªº¨­Åé\n",
+
+[Sat Aug 28 09:49:12 2004] u/c/chiaa/obj/mob/turtle.c line 27: Warning: Unknown \ escape. before ÊµÛ¥¦ªº¨­Åé\n",
+
+[Sat Aug 28 09:49:12 2004] u/c/chiaa/obj/mob/turtle.c line 42: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Sat Aug 28 09:49:12 2004] u/c/chiaa/obj/mob/turtle.c line 42: Illegal to redefine 'nomask' function "query_busy" before the end of line
+
+[Sat Aug 28 09:49:12 2004] u/c/chiaa/obj/mob/turtle.c line 42: Illegal to redefine 'nomask' function "is_busy" before the end of line
+
+[Sat Aug 28 09:49:12 2004] u/c/chiaa/obj/mob/turtle.c line 42: Illegal to redefine 'nomask' function "is_block" before the end of line
+
+[Sat Aug 28 09:49:12 2004] u/c/chiaa/obj/mob/turtle.c line 42: Illegal to redefine 'nomask' function "command_hook" before the end of line
+
+[Sat Aug 28 09:49:12 2004] u/c/chiaa/obj/mob/turtle.c line 42: Illegal to redefine 'nomask' function "set_path" before the end of line
+
+[Sat Aug 28 09:49:44 2004] u/c/chiaa/obj/mob/turtle.c line 27: Warning: Unknown \ escape. before ÊµÛ¥¦ªº¨­Åé\n",
+
+[Sat Aug 28 09:49:44 2004] u/c/chiaa/obj/mob/turtle.c line 42: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Sat Aug 28 09:49:44 2004] u/c/chiaa/obj/mob/turtle.c line 42: Illegal to redefine 'nomask' function "query_busy" before the end of line
+
+[Sat Aug 28 09:49:44 2004] u/c/chiaa/obj/mob/turtle.c line 42: Illegal to redefine 'nomask' function "is_busy" before the end of line
+
+[Sat Aug 28 09:49:44 2004] u/c/chiaa/obj/mob/turtle.c line 42: Illegal to redefine 'nomask' function "is_block" before the end of line
+
+[Sat Aug 28 09:49:44 2004] u/c/chiaa/obj/mob/turtle.c line 42: Illegal to redefine 'nomask' function "command_hook" before the end of line
+
+[Sat Aug 28 09:49:44 2004] u/c/chiaa/obj/mob/turtle.c line 42: Illegal to redefine 'nomask' function "set_path" before the end of line
+
+[Sat Aug 28 10:31:50 2004] u/c/chiaa/obj/mob/bat.c line 23: parse error before //¼ç¯à
+
+[Fri Sep 17 21:08:25 2004] u/c/chiaa/world2/blackly_forest/npc/trainee.c line 10: Warning: Unknown \ escape. before Òªº¦~»´¤H\n");//¤Hª«
+
+[Fri Sep 17 21:10:14 2004] u/c/chiaa/world2/blackly_forest/npc/trainee.c line 10: Warning: Unknown \ escape. before Òªº¦~»´¤H\n");
+
+[Fri Sep 17 21:15:32 2004] u/c/chiaa/world2/blackly_forest/npc/trainee.c line 10: Warning: Unknown \ escape. before Òªº¦~»´¤H\n");
+
+[Fri Sep 17 21:17:52 2004] u/c/chiaa/world2/blackly_forest/npc/trainee.c line 10: Warning: Unknown \ escape. before Òªº¤p¥ë¤l\n");
+
+[Fri Sep 17 21:22:12 2004] u/c/chiaa/world2/blackly_forest/npc/trainee.c line 10: Warning: Unknown \ escape. before Òªº¤p¥ë¤l\n");
+
+[Fri Sep 17 21:29:10 2004] u/c/chiaa/world2/blackly_forest/npc/trainee.c line 10: Warning: Unknown \ escape. before Òªº¤p¥ë¤l\n");
+
+[Fri Sep 17 21:33:11 2004] u/c/chiaa/world2/blackly_forest/npc/trainee.c line 10: Warning: Unknown \ escape. before Òªº¤p¥ë¤l\n");
+
+[Sun Sep 26 23:11:28 2004] u/c/chiaa/swlaoe_tribe/salle2.c line 22: parse error before the end of line
+
+[Sun Sep 26 23:11:28 2004] u/c/chiaa/swlaoe_tribe/salle2.c line 38: Illegal LHS before the end of line
+
+[Sun Sep 26 23:11:28 2004] u/c/chiaa/swlaoe_tribe/salle2.c line 38: parse error before the end of line
+
+[Sun Sep 26 23:13:30 2004] u/c/chiaa/swlaoe_tribe/salle2.c line 22: parse error before the end of line
+
+[Sun Sep 26 23:13:30 2004] u/c/chiaa/swlaoe_tribe/salle2.c line 38: Illegal LHS before the end of line
+
+[Sun Sep 26 23:13:30 2004] u/c/chiaa/swlaoe_tribe/salle2.c line 38: parse error before the end of line
+
+[Sun Sep 26 23:17:17 2004] u/c/chiaa/swlaoe_tribe/salle2.c line 22: parse error before the end of line
+
+[Sun Sep 26 23:17:17 2004] u/c/chiaa/swlaoe_tribe/salle2.c line 38: Illegal LHS before the end of line
+
+[Sun Sep 26 23:17:17 2004] u/c/chiaa/swlaoe_tribe/salle2.c line 38: parse error before the end of line
+
+[Sun Sep 26 23:19:00 2004] u/c/chiaa/swlaoe_tribe/salle2.c line 22: parse error before the end of line
+
+[Sun Sep 26 23:19:00 2004] u/c/chiaa/swlaoe_tribe/salle2.c line 40: Illegal LHS before the end of line
+
+[Sun Sep 26 23:19:00 2004] u/c/chiaa/swlaoe_tribe/salle2.c line 40: parse error before the end of line
+
+[Sun Sep 26 23:22:11 2004] u/c/chiaa/swlaoe_tribe/salle2.c line 22: parse error before the end of line
+
+[Sun Sep 26 23:22:11 2004] u/c/chiaa/swlaoe_tribe/salle2.c line 33: Illegal terminator before {
+
+[Sun Sep 26 23:23:27 2004] u/c/chiaa/swlaoe_tribe/salle2.c line 33: parse error before @
+
+[Sun Sep 26 23:24:30 2004] u/c/chiaa/swlaoe_tribe/salle2.c line 34: parse error before the end of line
+
+[Sun Sep 26 23:27:29 2004] u/c/chiaa/swlaoe_tribe/salle2.c line 31: parse error before the end of line
+
+[Sun Oct 10 20:30:09 2004] u/c/chiaa/area/obj/blade.c line 1: parse error before weapon.h> //weaponªZ
+

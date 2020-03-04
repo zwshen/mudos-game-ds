@@ -1,0 +1,15 @@
+
+	log(3)			LP MudOSv21c7		(7 Jul 1996)
+
+	ㄧ计嘿:
+		log() - 肚疊翴计礛癸计
+	ㄧ计粂猭:
+		float log( float f );
+
+		疊翴计 log( 疊翴计 f );
+	ㄧ计ノ猭:
+		肚把计 f  礛癸计. f ゲ斗タ.
+	把计:
+		exp(3), pow(3), sqrt(3)
+	も陆亩:
+		Phoebus@ZH	97.Feb.18.		(Writen 5/23/97)

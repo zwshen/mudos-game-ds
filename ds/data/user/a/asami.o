@@ -1,0 +1,6 @@
+#/obj/user.c
+ghost 1
+dbase (["dex":2,"quest":(["not_newbie":1,]),"heart_modify":0,"last_location":"/open/world2/anfernee/start/prayroom","hp":3,"default_actions":,"gender":"男性","int":2,"id":"asami","con":2,"mob_record":({"/open/world1/tmr/area/npc/dog","/open/world1/tmr/area/npc/dog",}),"addition_damage":10,"channels":({"chat","rumor","tchat",}),"name":"麻美","str":2,"DS_DATA_VERSION":19991107,"addition_shield":10,"ap":60,"max_hp":80,"race":"human","level":2,"wound":(["left_leg":0,"body":0,"head":0,"right_leg":0,"left_arm":0,"right_arm":0,]),"talk_point":11,"mud_age":360,"birthday":1098251568,"age":14,"cure_count":2,"actions":,"addition_armor":10,"evil":-1,"heart_beat_rate":6,"attitude":"peaceful","guild_rank":"無家可歸的流浪漢","max_ap":60,"disable_type":" <毫無呼吸>","bank":(["past":0,]),"MKS":2,"supply_point":44,"max_mp":60,"volume":7,"startroom":"/open/world2/lichi_town_2/map_5_26","combat_exp":0,"bellicosity":0,"mp":3,"Merits":(["sou":0,"wit":0,"tec":0,"bio":0,"bar":0,]),"guild_gifts":({5,5,5,5,}),"unit":"位","exp":371,])
+skills (["block":0,"whip":1,"combat":2,"parry":0,"dodge":0,"unarmed":2,])
+learned (["unarmed":0,])
+autoload ({})

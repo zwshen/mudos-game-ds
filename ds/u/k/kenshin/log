@@ -1,0 +1,648 @@
+[Tue Nov  5 19:39:14 2002] u/k/kenshin/sha-zin-gu/obj/npc/wp/bigcape.c line 4: parse error before ;
+
+[Tue Nov  5 20:03:27 2002] u/k/kenshin/sha-zin-gu/obj/npc/eq/surcoat.c line 3: parse error before ;
+
+[Fri Jan  3 13:20:04 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 37: parse error before "wp/goldwhip"    : 3
+
+[Fri Jan  3 13:20:41 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 37: parse error before "wp/goldwhip"    : 3
+
+[Fri Jan  3 13:22:05 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 38: parse error before "wp/goldwhip"    : 3
+
+[Fri Jan  3 13:22:37 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 38: parse error before "wp/goldwhip"    : 3
+
+[Fri Jan  3 13:30:32 2003] u/k/kenshin/sha-zin-gu/obj/npc/wp/bigcape.c line 3: parse error before ;
+
+[Fri Jan  3 13:32:12 2003] u/k/kenshin/sha-zin-gu/obj/npc/wp/bigcape.c line 3: parse error before ;
+
+[Fri Jan  3 13:41:43 2003] u/k/kenshin/sha-zin-gu/obj/npc/wpboss.c line 26: Undefined variable '_DIR__' before      : 30,  
+
+[Fri Jan  3 13:41:43 2003] u/k/kenshin/sha-zin-gu/obj/npc/wpboss.c line 26: parse error before      : 30,  
+
+[Fri Jan  3 13:56:51 2003] u/k/kenshin/sha-zin-gu/obj/npc/eq/mask.c line 6: parse error before F¤H­±¨ã"NOR, ({ "des
+
+[Fri Jan  3 13:56:51 2003] u/k/kenshin/sha-zin-gu/obj/npc/eq/mask.c line 21: End of file in string before t("current_light", 2
+
+[Fri Jan  3 15:04:26 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 26: parse error before jÁn³Û¥X"NOR":"HIR"§A
+
+[Fri Jan  3 15:07:45 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 27: parse error before open/world1/tmr/area
+
+[Fri Jan  3 15:07:45 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 28: $var illegal outside of function pointer. before N¤@°}¨g­·¡A$Nªï­·¦Ó¥
+
+[Fri Jan  3 15:07:45 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 28: Illegal terminator before °}¨g­·¡A$Nªï­·¦Ó¥X¡C
+
+[Sun Jan  5 15:59:55 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 27: parse error before open/world1/tmr/area
+
+[Sun Jan  5 15:59:55 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 28: $var illegal outside of function pointer. before N¤@°}¨g­·¡A$Nªï­·¦Ó¥
+
+[Sun Jan  5 15:59:55 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 28: Illegal terminator before °}¨g­·¡A$Nªï­·¦Ó¥X¡C
+
+[Sun Jan  5 16:04:04 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 2: parse error before  create()
+
+[Sun Jan  5 16:04:24 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 42: parse error before "){
+
+[Sun Jan  5 16:04:24 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 44: $var illegal outside of function pointer. before N¤@°}¨g­·¡A$Nªï­·¦Ó¥
+
+[Sun Jan  5 16:04:24 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 44: Illegal terminator before °}¨g­·¡A$Nªï­·¦Ó¥X¡C
+
+[Sun Jan  5 16:09:36 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 26: parse error before +"[1;37m"        "¤j
+
+[Sun Jan  5 16:09:36 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 28: $var illegal outside of function pointer. before N¤@°}¨g­·¡A$Nªï­·¦Ó¥
+
+[Sun Jan  5 16:09:36 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 28: Illegal terminator before °}¨g­·¡A$Nªï­·¦Ó¥X¡C
+
+[Sun Jan  5 16:10:04 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 26: parse error before ¤jÁn³ÛµÛ"NOR":"HIC"Â
+
+[Sun Jan  5 16:10:04 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 28: $var illegal outside of function pointer. before N¤@°}¨g­·¡A$Nªï­·¦Ó¥
+
+[Sun Jan  5 16:10:04 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 28: Illegal terminator before °}¨g­·¡A$Nªï­·¦Ó¥X¡C
+
+[Sun Jan  5 16:10:52 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 26: parse error before ->query("name")"HIW"
+
+[Sun Jan  5 16:10:52 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 28: $var illegal outside of function pointer. before N¤@°}¨g­·¡A$Nªï­·¦Ó¥
+
+[Sun Jan  5 16:10:52 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 28: Illegal terminator before °}¨g­·¡A$Nªï­·¦Ó¥X¡C
+
+[Sun Jan  5 16:11:18 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 26: parse error before ")"+HIW+"¤jÁn³ÛµÛ"NO
+
+[Sun Jan  5 16:11:40 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 26: parse error before ")+HIW+¤jÁn³ÛµÛ"NOR"
+
+[Sun Jan  5 16:12:33 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 26: parse error before ")¤jÁn³ÛµÛ"NOR":"HIC
+
+[Sun Jan  5 16:12:59 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 26: parse error before jÁn³ÛµÛ"NOR":"HIC"ÂÅ
+
+[Sun Jan  5 16:12:59 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 28: $var illegal outside of function pointer. before N¤@°}¨g­·¡A$Nªï­·¦Ó¥
+
+[Sun Jan  5 16:12:59 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 28: Illegal terminator before °}¨g­·¡A$Nªï­·¦Ó¥X¡C
+
+[Sun Jan  5 16:13:19 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 26: parse error before ")¤jÁn³ÛµÛ"NOR":"HIC
+
+[Sun Jan  5 16:13:31 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 26: parse error before ")¤jÁn³ÛµÛ"NOR":"HIC
+
+[Sun Jan  5 16:13:33 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 26: parse error before ")¤jÁn³ÛµÛ"NOR":"HIC
+
+[Sun Jan  5 16:15:01 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 26: parse error before jÁn³ÛµÛ"NOR":"HIC"ÂÅ
+
+[Sun Jan  5 16:15:01 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 28: Illegal terminator before °}¨g­·¡A$Nªï­·¦Ó¥X¡C
+
+[Sun Jan  5 16:17:20 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 26: parse error before jÁn³ÛµÛ"NOR":"HIC"ÂÅ
+
+[Sun Jan  5 16:17:20 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 28: Illegal terminator before °}¨g­·¡A$Nªï­·¦Ó¥X¡C
+
+[Sun Jan  5 16:23:08 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 26: parse error before ")¤jÁn³ÛµÛ"NOR":"HIC
+
+[Sun Jan  5 16:24:14 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 26: parse error before ")¤jÁn³ÛµÛ"NOR":"HIC
+
+[Sun Jan  5 16:30:12 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 73: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Sun Jan  5 16:30:12 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 73: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Sun Jan  5 16:30:12 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 73: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Sun Jan  5 16:30:12 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 73: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Sun Jan  5 16:30:12 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 73: Illegal to redefine 'nomask' function "query_encumbrance" before the end of line
+
+[Sun Jan  5 16:30:12 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/seal.c line 73: Illegal to redefine 'nomask' function "over_encumbranced" before the end of line
+
+[Sun Jan  5 17:58:37 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/passport.c line 20: End of file in text block before ine HIR ESC+"[1;31m"
+
+[Sun Jan  5 17:58:37 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/passport.c line 20: parse error before ine HIR ESC+"[1;31m"
+
+[Sun Jan  5 18:00:07 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/passport.c line 20: End of file in text block before , ([ /* sizeof() =="
+
+[Sun Jan  5 18:00:07 2003] u/k/kenshin/sha-zin-gu/obj/npc/item/passport.c line 20: parse error before , ([ /* sizeof() =="
+
+[Mon Jan  6 16:59:31 2003] u/k/kenshin/sha-zin-gu/room6.c line 22: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Mon Jan  6 16:59:31 2003] u/k/kenshin/sha-zin-gu/room6.c line 22: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Mon Jan  6 16:59:31 2003] u/k/kenshin/sha-zin-gu/room6.c line 22: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Mon Jan  6 16:59:31 2003] u/k/kenshin/sha-zin-gu/room6.c line 22: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Mon Jan  6 16:59:31 2003] u/k/kenshin/sha-zin-gu/room6.c line 22: Illegal to redefine 'nomask' function "add_light" before the end of line
+
+[Mon Jan  6 16:59:31 2003] u/k/kenshin/sha-zin-gu/room6.c line 36: Redeclaration of function create. before the end of line
+
+[Mon Jan  6 17:20:09 2003] u/k/kenshin/sha-zin-gu/room8.c line 5: parse error before Z¾¹çE);
+
+[Mon Jan  6 17:23:18 2003] u/k/kenshin/sha-zin-gu/room9.c line 5: parse error before Z¾¹çE);
+
+[Mon Jan  6 17:28:40 2003] u/k/kenshin/sha-zin-gu/room9.c line 14: parse error before ));
+
+[Mon Jan  6 17:31:29 2003] u/k/kenshin/sha-zin-gu/room12.c line 5: parse error before Z¾¹çE);
+
+[Mon Jan  6 17:34:34 2003] u/k/kenshin/sha-zin-gu/room12.c line 5: parse error before Z¾¹çE);
+
+[Mon Jan  6 17:53:28 2003] u/k/kenshin/sha-zin-gu/room15.c line 19: parse error before         set("light",
+
+[Wed Jan  8 17:03:33 2003] u/k/kenshin/sha-zin-gu/obj/waiter.c line 8: parse error before ","ccr" }) );
+
+[Wed Jan  8 17:03:33 2003] u/k/kenshin/sha-zin-gu/obj/waiter.c line 11: Illegal terminator before ¡A¦]¬°KenshinµL²á¡A³
+
+[Wed Jan  8 21:59:24 2003] u/k/kenshin/sha-zin-gu/room10.c line 3: parse error before  create()
+
+[Thu Jan  9 09:11:11 2003] u/k/kenshin/sha-zin-gu/room25.c line 6: parse error before Z¾Ç¤§®a¢w"HIC"¤jªù"N
+
+[Thu Jan  9 09:11:11 2003] u/k/kenshin/sha-zin-gu/room25.c line 19: End of file in string before ld1/tmr/advbonze/hil
+
+[Thu Jan  9 09:11:55 2003] u/k/kenshin/sha-zin-gu/room25.c line 6: parse error before ªZ¾Ç¤§®a¢w"HIC"¤jªù"
+
+[Thu Jan  9 09:11:55 2003] u/k/kenshin/sha-zin-gu/room25.c line 19: End of file in string before 5);
+
+[Thu Jan  9 09:12:13 2003] u/k/kenshin/sha-zin-gu/room25.c line 6: parse error before ªZ¾Ç¤§®a¢w"HIC"¤jªù"
+
+[Thu Jan  9 09:12:13 2003] u/k/kenshin/sha-zin-gu/room25.c line 19: End of file in string before \n" )
+
+[Thu Jan  9 16:44:52 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 160: parse error before Iªº¶Ë®`¡C\n"NOR,me,t
+
+[Thu Jan  9 16:44:52 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 182: End of file in string before "+"[1;31m"        "\
+
+[Thu Jan  9 16:45:30 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 160: parse error before Iªº¶Ë®`¡C\n"NOR,me,t
+
+[Thu Jan  9 16:45:30 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 182: End of file in string before "+"[1;31m"        "\
+
+[Thu Jan  9 16:47:12 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 3: parse error before  test.c
+
+[Thu Jan  9 16:48:07 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 160: parse error before Iªº¶Ë®`¡C\n"NOR,me,t
+
+[Thu Jan  9 16:48:07 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 182: End of file in string before "+"[1;31m"        "\
+
+[Thu Jan  9 16:48:37 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 160: Undefined variable 'damage' before " "NOR"ÂIªº¶Ë®`¡C\n"
+
+[Thu Jan  9 16:50:37 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 160: Undefined variable 'damage' before " "NOR"ÂIªº¶Ë®`¡C\n"
+
+[Thu Jan  9 16:51:38 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 160: Undefined variable 'damage' before " "NOR"ÂIªº¶Ë®`¡C\n"
+
+[Thu Jan  9 16:52:48 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 160: Undefined variable 'damage' before " "NOR"ÂIªº¶Ë®`¡C\n"
+
+[Thu Jan  9 17:04:40 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 167: Warning: Unknown \ escape. before AÁ×¶}¦¹§ðÀ»¡C\n"NOR,
+
+[Thu Jan  9 17:04:40 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 175: parse error before  1; 
+
+[Thu Jan  9 17:05:08 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 167: Warning: Unknown \ escape. before A\Á×¶}¦¹§ðÀ»¡C\n"NOR
+
+[Thu Jan  9 17:05:08 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 167: Warning: Unknown \ escape. before ×¶}¦¹§ðÀ»¡C\n"NOR,ta
+
+[Thu Jan  9 17:05:08 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 175: parse error before  1; 
+
+[Thu Jan  9 17:05:36 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 167: Warning: Unknown \ escape. before ×¶}¦¹§ðÀ»¡C\n"NOR,ta
+
+[Thu Jan  9 17:05:36 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 175: parse error before  1; 
+
+[Thu Jan  9 17:06:06 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 167: Warning: Unknown \ escape. before ×\¶}¦¹§ðÀ»¡C\n"NOR,t
+
+[Thu Jan  9 17:06:06 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 167: Warning: Unknown \ escape. before }¦¹§ðÀ»¡C\n"NOR,targ
+
+[Thu Jan  9 17:06:06 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 175: parse error before  1; 
+
+[Thu Jan  9 17:06:26 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 167: Warning: Unknown \ escape. before \Á×¶}¦¹§ðÀ»¡C\n"NOR,
+
+[Thu Jan  9 17:06:26 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 167: Warning: Unknown \ escape. before ×¶}¦¹§ðÀ»¡C\n"NOR,ta
+
+[Thu Jan  9 17:06:26 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 175: parse error before  1; 
+
+[Thu Jan  9 17:08:19 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 167: Warning: Unknown \ escape. before ×¶}¦¹§ðÀ»¡C\n"NOR,ta
+
+[Thu Jan  9 17:08:19 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 175: parse error before  1; 
+
+[Thu Jan  9 17:08:43 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 167: Warning: Unknown \ escape. before ´¥\Á×¶}¦¹§ðÀ»¡C\n"NO
+
+[Thu Jan  9 17:08:43 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 167: Warning: Unknown \ escape. before ×¶}¦¹§ðÀ»¡C\n"NOR,ta
+
+[Thu Jan  9 17:08:43 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 175: parse error before  1; 
+
+[Thu Jan  9 17:11:26 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 167: Reserved type name unexpected. before ()
+
+[Thu Jan  9 17:11:26 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 167: parse error before ()
+
+[Thu Jan  9 17:11:26 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 170: Illegal LHS before  ob = this_player(1)
+
+[Thu Jan  9 17:11:26 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 170: parse error before  ob = this_player(1)
+
+[Thu Jan  9 17:11:26 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 170: Illegal LHS before  
+
+[Thu Jan  9 17:11:26 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 171: Undefined variable 'ob' before the end of line
+
+[Thu Jan  9 17:23:37 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 154: parse error before çªö©M¤f¤¤³ä³ä¦Û»y¡G¤
+
+[Thu Jan  9 17:23:37 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 155: $var illegal outside of function pointer. before N»P¡i¤õ±NºÖ°­¡j¹F¦¨¨
+
+[Thu Jan  9 17:23:37 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 155: $var illegal outside of function pointer. before NªºÀY³¡­Á½Ä¡C
+
+[Thu Jan  9 17:23:37 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 156: $var illegal outside of function pointer. before N»P¡i¤ô±NºÖ°­¡j¹F¦¨¨
+
+[Thu Jan  9 17:23:37 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 156: $var illegal outside of function pointer. before NªºÁy³¡­Á½Ä¡C
+
+[Thu Jan  9 17:23:37 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 157: $var illegal outside of function pointer. before N»P¡i¤g±NºÖ°­¡j¹F¦¨¨
+
+[Thu Jan  9 17:27:16 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 163: parse error before n"¤­¤UÁ`¦X¦@³y¦¨$N"H
+
+[Thu Jan  9 17:27:16 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 174: Illegal LHS before  ob = this_player(1)
+
+[Thu Jan  9 17:27:16 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 174: parse error before  = this_player(1); 
+
+[Thu Jan  9 17:27:16 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 174: Illegal LHS before  
+
+[Thu Jan  9 17:27:16 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 175: Undefined variable 'ob' before the end of line
+
+[Thu Jan  9 17:27:16 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 178: Warning: Non-void functions must return a value. before the end of line
+
+[Thu Jan  9 17:27:16 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 185: Warning: Non-void functions must return a value. before the end of line
+
+[Thu Jan  9 17:27:16 2003] u/k/kenshin/sha-zin-gu/obj/npc/test.c line 188: parse error before the end of file
+
+[Thu Jan 30 22:05:51 2003] u/k/kenshin/pong.c line 20: parse error before n/nHIR"$N¤jÁnºw»¡¡G"
+
+[Thu Jan 30 22:06:21 2003] u/k/kenshin/pong.c line 20: parse error before n/n"HIR"$N¤jÁnºw»¡¡G
+
+[Thu Jan 30 22:06:21 2003] u/k/kenshin/pong.c line 20: $var illegal outside of function pointer. before N¤jÁnºw»¡¡G"HIW""+ar
+
+[Thu Jan 30 22:06:21 2003] u/k/kenshin/pong.c line 25: End of file in string before e":  "¼C¶Ë",
+
+[Thu Feb 13 16:30:27 2003] u/k/kenshin/sha-zin-gu/room28.c line 22: parse error before  "¦¹³B¦³¤@¶}Ãö¡I"\n"
+
+[Thu Feb 13 16:30:27 2003] u/k/kenshin/sha-zin-gu/room28.c line 37: $var illegal outside of function pointer. before N«ö¤U¦¹¶}Ãö«á¡A©³¤U¦
+
+[Thu Feb 13 16:30:27 2003] u/k/kenshin/sha-zin-gu/room28.c line 39: $var illegal outside of function pointer. before N¤@°}¤j¥s«á¡A²{¨­¦b¦
+
+[Thu Feb 13 16:30:27 2003] u/k/kenshin/sha-zin-gu/room28.c line 39: Illegal terminator before °}¤j¥s«á¡A²{¨­¦b¦¹¦a
+
+[Thu Feb 13 16:30:51 2003] u/k/kenshin/sha-zin-gu/room28.c line 22: parse error before  "¦¹³B¦³¤@¶}Ãö¡I"\n"
+
+[Thu Feb 13 16:30:51 2003] u/k/kenshin/sha-zin-gu/room28.c line 37: $var illegal outside of function pointer. before N«ö¤U¦¹¶}Ãö«á¡A©³¤U¦
+
+[Thu Feb 13 16:30:51 2003] u/k/kenshin/sha-zin-gu/room28.c line 39: $var illegal outside of function pointer. before N¤@°}¤j¥s«á¡A²{¨­¦b¦
+
+[Thu Feb 13 16:30:51 2003] u/k/kenshin/sha-zin-gu/room28.c line 39: Illegal terminator before °}¤j¥s«á¡A²{¨­¦b¦¹¦a
+
+[Thu Feb 13 16:31:33 2003] u/k/kenshin/sha-zin-gu/room28.c line 22: parse error before  "¦¹³B¦³¤@¶}Ãö¡I\n"
+
+[Thu Feb 13 16:31:33 2003] u/k/kenshin/sha-zin-gu/room28.c line 33: Illegal LHS before the end of line
+
+[Thu Feb 13 16:31:33 2003] u/k/kenshin/sha-zin-gu/room28.c line 33: parse error before the end of line
+
+[Thu Feb 13 16:33:56 2003] u/k/kenshin/sha-zin-gu/room28.c line 22: parse error before  "¦¹³B¦³¤@¶}Ãö¡I\n"
+
+[Thu Feb 13 16:33:56 2003] u/k/kenshin/sha-zin-gu/room28.c line 37: Illegal LHS before the end of line
+
+[Thu Feb 13 16:33:56 2003] u/k/kenshin/sha-zin-gu/room28.c line 37: parse error before the end of line
+
+[Thu Feb 13 16:34:16 2003] u/k/kenshin/sha-zin-gu/room28.c line 22: parse error before  "¤£ª¾¬O³q¨ì­þªº¶}Ãö
+
+[Thu Feb 13 16:34:16 2003] u/k/kenshin/sha-zin-gu/room28.c line 36: Illegal LHS before the end of line
+
+[Thu Feb 13 16:34:16 2003] u/k/kenshin/sha-zin-gu/room28.c line 36: parse error before the end of line
+
+[Thu Feb 13 16:35:00 2003] u/k/kenshin/sha-zin-gu/room28.c line 35: Undefined variable 'HIW' before NOR,me);
+
+[Thu Feb 13 16:35:00 2003] u/k/kenshin/sha-zin-gu/room28.c line 35: parse error before NOR,me);
+
+[Thu Feb 13 16:43:41 2003] u/k/kenshin/sha-zin-gu/room28.c line 20: parse error before  "¦³¤@¤£©úªº¶}Ãö¡C\n
+
+[Thu Feb 13 16:43:41 2003] u/k/kenshin/sha-zin-gu/room28.c line 35: Illegal LHS before the end of line
+
+[Thu Feb 13 16:43:41 2003] u/k/kenshin/sha-zin-gu/room28.c line 35: parse error before the end of line
+
+[Thu Feb 13 16:44:27 2003] u/k/kenshin/sha-zin-gu/room28.c line 20: parse error before  "¦³¤@¤£©úªº¶}Ãö¡C\n
+
+[Thu Feb 13 16:44:27 2003] u/k/kenshin/sha-zin-gu/room28.c line 35: Illegal LHS before the end of line
+
+[Thu Feb 13 16:44:27 2003] u/k/kenshin/sha-zin-gu/room28.c line 35: parse error before the end of line
+
+[Thu Feb 13 16:44:55 2003] u/k/kenshin/sha-zin-gu/room28.c line 20: parse error before  "¦³¤@¤£©úªº¶}Ãö¡C\n
+
+[Thu Feb 13 16:44:55 2003] u/k/kenshin/sha-zin-gu/room28.c line 36: Illegal LHS before the end of line
+
+[Thu Feb 13 16:44:55 2003] u/k/kenshin/sha-zin-gu/room28.c line 36: parse error before the end of line
+
+[Thu Feb 13 16:46:48 2003] u/k/kenshin/sha-zin-gu/room28.c line 35: Undefined variable 'HIW' before NOR,me);
+
+[Thu Feb 13 16:46:48 2003] u/k/kenshin/sha-zin-gu/room28.c line 35: parse error before NOR,me);
+
+[Thu Feb 13 16:47:26 2003] u/k/kenshin/sha-zin-gu/room28.c line 3: Unrecognised # directive before inherit ROOM;
+
+[Thu Feb 13 16:47:26 2003] u/k/kenshin/sha-zin-gu/room28.c line 36: Undefined variable 'HIW' before NOR,me);
+
+[Thu Feb 13 16:47:26 2003] u/k/kenshin/sha-zin-gu/room28.c line 36: parse error before NOR,me);
+
+[Thu Feb 13 16:47:48 2003] u/k/kenshin/sha-zin-gu/room28.c line 47: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Thu Feb 13 16:47:48 2003] u/k/kenshin/sha-zin-gu/room28.c line 47: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Thu Feb 13 16:47:48 2003] u/k/kenshin/sha-zin-gu/room28.c line 47: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Thu Feb 13 16:47:48 2003] u/k/kenshin/sha-zin-gu/room28.c line 47: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Thu Feb 13 16:47:48 2003] u/k/kenshin/sha-zin-gu/room28.c line 47: Illegal to redefine 'nomask' function "add_light" before the end of line
+
+[Thu Feb 13 16:47:48 2003] u/k/kenshin/sha-zin-gu/room28.c line 66: Redeclaration of function create. before  
+
+[Thu Feb 13 16:48:54 2003] u/k/kenshin/sha-zin-gu/room28.c line 21: parse error before  "¦³¤@¤£©úªº¶}Ãö¡C\n
+
+[Thu Feb 13 16:48:54 2003] u/k/kenshin/sha-zin-gu/room28.c line 36: Illegal LHS before the end of line
+
+[Thu Feb 13 16:48:54 2003] u/k/kenshin/sha-zin-gu/room28.c line 36: parse error before the end of line
+
+[Thu Feb 13 16:49:18 2003] u/k/kenshin/sha-zin-gu/room28.c line 21: parse error before  "¤@­Ó¶}Ãö¡A¦n¹³¬O«ö
+
+[Thu Feb 13 16:49:18 2003] u/k/kenshin/sha-zin-gu/room28.c line 35: Illegal LHS before the end of line
+
+[Thu Feb 13 16:49:18 2003] u/k/kenshin/sha-zin-gu/room28.c line 35: parse error before the end of line
+
+[Thu Feb 13 17:05:17 2003] u/k/kenshin/sha-zin-gu/room28.c line 8: Undefined function set before ;
+
+[Thu Feb 13 17:05:17 2003] u/k/kenshin/sha-zin-gu/room28.c line 23: Undefined function setup before ;
+
+[Thu Feb 13 17:05:51 2003] u/k/kenshin/sha-zin-gu/room28.c line 8: Undefined function set before ;
+
+[Thu Feb 13 17:05:51 2003] u/k/kenshin/sha-zin-gu/room28.c line 23: Undefined function setup before ;
+
+[Fri Feb 14 06:34:38 2003] u/k/kenshin/sha-zin-gu/obj/npc/eq/e-boots.c line 119: parse error before the end of file
+
+[Wed Feb 19 02:13:17 2003] u/k/kenshin/sha-zin-gu/obj/npc/eq/e-boots.c line 25: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Wed Feb 19 02:13:17 2003] u/k/kenshin/sha-zin-gu/obj/npc/eq/e-boots.c line 25: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Wed Feb 19 02:13:17 2003] u/k/kenshin/sha-zin-gu/obj/npc/eq/e-boots.c line 25: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Wed Feb 19 02:13:17 2003] u/k/kenshin/sha-zin-gu/obj/npc/eq/e-boots.c line 25: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Wed Feb 19 02:13:17 2003] u/k/kenshin/sha-zin-gu/obj/npc/eq/e-boots.c line 25: Illegal to redefine 'nomask' function "query_encumbrance" before the end of line
+
+[Wed Feb 19 02:13:17 2003] u/k/kenshin/sha-zin-gu/obj/npc/eq/e-boots.c line 25: Illegal to redefine 'nomask' function "over_encumbranced" before the end of line
+
+[Wed Feb 19 06:18:43 2003] u/k/kenshin/test.c line 1: parse error before ;
+
+[Wed Feb 19 06:19:41 2003] u/k/kenshin/test.c line 1: Unrecognised # directive before the end of line
+
+[Wed Feb 19 06:19:41 2003] u/k/kenshin/test.c line 3: parse error before ;
+
+[Wed Feb 19 06:20:14 2003] u/k/kenshin/test.c line 1: Unrecognised # directive before the end of line
+
+[Wed Feb 19 06:20:14 2003] u/k/kenshin/test.c line 3: parse error before ;
+
+[Sun Feb 23 17:01:19 2003] u/k/kenshin/sha-zin-gu/obj/npc/eq/god-neck.c line 12: parse error before @set("material", "go
+
+[Sun Feb 23 17:01:19 2003] u/k/kenshin/sha-zin-gu/obj/npc/eq/god-neck.c line 26: End of file in text block before )) set("armor_prop/a
+
+[Sun Feb 23 17:02:36 2003] u/k/kenshin/sha-zin-gu/obj/npc/eq/god-neck.c line 12: parse error before @ set("material", "g
+
+[Sun Feb 23 17:02:36 2003] u/k/kenshin/sha-zin-gu/obj/npc/eq/god-neck.c line 12: Illegal terminator before set("material", "gol
+
+[Sun Feb 23 17:17:06 2003] u/k/kenshin/sha-zin-gu/obj/npc/aeonian-beast.c line 46: $var illegal outside of function pointer. before N"HIG"§l¦¬¤F¤j¦ÛµMªº
+
+[Sun Feb 23 17:17:06 2003] u/k/kenshin/sha-zin-gu/obj/npc/aeonian-beast.c line 46: parse error before "HIG"§l¦¬¤F¤j¦ÛµMªº­
+
+[Sun Feb 23 17:17:06 2003] u/k/kenshin/sha-zin-gu/obj/npc/aeonian-beast.c line 63: $var illegal outside of function pointer. before N¨Ï¥X¤d¦~¤§¯µ¢w"HIR"
+
+[Sun Feb 23 17:17:06 2003] u/k/kenshin/sha-zin-gu/obj/npc/aeonian-beast.c line 63: Illegal terminator before Àþ¡@±þ"HIR"¡z«á¡AÀôÂ
+
+[Sun Feb 23 17:19:07 2003] u/k/kenshin/sha-zin-gu/obj/npc/aeonian-beast.c line 46: $var illegal outside of function pointer. before N"HIG"§l¦¬¤F¤j¦ÛµMªº
+
+[Sun Feb 23 17:19:07 2003] u/k/kenshin/sha-zin-gu/obj/npc/aeonian-beast.c line 46: parse error before "HIG"§l¦¬¤F¤j¦ÛµMªº­
+
+[Sun Feb 23 17:19:07 2003] u/k/kenshin/sha-zin-gu/obj/npc/aeonian-beast.c line 63: $var illegal outside of function pointer. before N¨Ï¥X¤d¦~¤§¯µ¢w"HIR"
+
+[Sun Feb 23 17:19:07 2003] u/k/kenshin/sha-zin-gu/obj/npc/aeonian-beast.c line 71: $var illegal outside of function pointer. before N³Q±j«lªº¤d¦~Àþ±þ¥´¨
+
+[Sun Feb 23 17:19:07 2003] u/k/kenshin/sha-zin-gu/obj/npc/aeonian-beast.c line 115: End of file in string before                     
+
+[Sat Mar  1 02:10:05 2003] u/k/kenshin/sha-zin-gu/obj/npc/aeonian-beast.c line 46: $var illegal outside of function pointer. before N"HIG"§l¦¬¤F¤j¦ÛµMªº
+
+[Sat Mar  1 02:10:05 2003] u/k/kenshin/sha-zin-gu/obj/npc/aeonian-beast.c line 46: parse error before "HIG"§l¦¬¤F¤j¦ÛµMªº­
+
+[Sat Mar  1 02:10:05 2003] u/k/kenshin/sha-zin-gu/obj/npc/aeonian-beast.c line 63: $var illegal outside of function pointer. before N¨Ï¥X¤d¦~¤§¯µ¢w"HIR"
+
+[Sat Mar  1 02:10:05 2003] u/k/kenshin/sha-zin-gu/obj/npc/aeonian-beast.c line 71: $var illegal outside of function pointer. before N³Q±j«lªº¤d¦~Àþ±þ¥´¨
+
+[Sat Mar  1 02:10:05 2003] u/k/kenshin/sha-zin-gu/obj/npc/aeonian-beast.c line 115: End of file in string before 18: mark="18"; break
+
+[Sat Mar  1 02:11:50 2003] u/k/kenshin/sha-zin-gu/obj/npc/aeonian-beast.c line 108: parse error before -ring);
+
+[Sat Mar  1 02:44:40 2003] u/k/kenshin/sha-zin-gu/obj/npc/aeonian-beast.c line 20: Undefined variable 'do_heal' before ), 
+
+[Sat Mar  1 02:44:40 2003] u/k/kenshin/sha-zin-gu/obj/npc/aeonian-beast.c line 20: parse error before ), 
+
+[Sat Mar  1 02:44:40 2003] u/k/kenshin/sha-zin-gu/obj/npc/aeonian-beast.c line 46: Illegal LHS before the end of line
+
+[Sat Mar  1 02:44:40 2003] u/k/kenshin/sha-zin-gu/obj/npc/aeonian-beast.c line 46: parse error before the end of line
+
+[Sat Mar  1 02:44:40 2003] u/k/kenshin/sha-zin-gu/obj/npc/aeonian-beast.c line 78: Illegal LHS before the end of line
+
+[Sat Mar  1 02:44:40 2003] u/k/kenshin/sha-zin-gu/obj/npc/aeonian-beast.c line 100: Undefined variable 'target' before query_armor()+random
+
+[Sat Mar  1 02:44:40 2003] u/k/kenshin/sha-zin-gu/obj/npc/aeonian-beast.c line 128: Warning: Unknown \ escape. before C"NOR);
+
+[Sat Mar  1 02:49:25 2003] u/k/kenshin/sha-zin-gu/obj/npc/aeonian-beast.c line 48: parse error before the end of line
+
+[Sat Mar  1 02:50:35 2003] u/k/kenshin/sha-zin-gu/obj/npc/aeonian-beast.c line 48: parse error before the end of line
+
+[Sat Mar  1 02:54:35 2003] u/k/kenshin/sha-zin-gu/obj/npc/aeonian-beast.c line 49: parse error before the end of line
+
+[Sat Mar  1 02:56:09 2003] u/k/kenshin/sha-zin-gu/obj/npc/aeonian-beast.c line 49: parse error before the end of line
+
+[Sat Mar  1 02:57:15 2003] u/k/kenshin/sha-zin-gu/obj/npc/aeonian-beast.c line 134: Warning: Unknown \ escape. before C"NOR);
+
+[Sat Mar  1 03:02:37 2003] u/k/kenshin/sha-zin-gu/obj/npc/aeonian-beast.c line 54: $var illegal outside of function pointer. before N"HIY"¨Ï¥X¡u¥j¥Íª«ºA
+
+[Sat Mar  1 03:02:37 2003] u/k/kenshin/sha-zin-gu/obj/npc/aeonian-beast.c line 54: parse error before "HIY"¨Ï¥X¡u¥j¥Íª«ºA´
+
+[Sat Mar  1 03:02:37 2003] u/k/kenshin/sha-zin-gu/obj/npc/aeonian-beast.c line 60: $var illegal outside of function pointer. before N"HIG"Àþ¶¡ÅD°Ê¡A¤§«á
+
+[Sat Mar  1 03:02:37 2003] u/k/kenshin/sha-zin-gu/obj/npc/aeonian-beast.c line 79: Illegal terminator before )¡C\n");
+
+[Sat Mar  1 03:03:33 2003] u/k/kenshin/sha-zin-gu/obj/npc/aeonian-beast.c line 85: $var illegal outside of function pointer. before N¤¿¬½"HIR"ªº¼ÉÀ»«d®z
+
+[Sat Mar  1 03:03:33 2003] u/k/kenshin/sha-zin-gu/obj/npc/aeonian-beast.c line 85: parse error before ¤¿¬½"HIR"ªº¼ÉÀ»«d®z¤
+
+[Sat Mar  1 03:03:33 2003] u/k/kenshin/sha-zin-gu/obj/npc/aeonian-beast.c line 104: Illegal terminator before §ì¡I¡I\n"NOR,target)
+
+[Sat Mar  1 03:04:12 2003] u/k/kenshin/sha-zin-gu/obj/npc/aeonian-beast.c line 134: Warning: Unknown \ escape. before C"NOR);
+
+[Sat Mar  1 03:10:48 2003] u/k/kenshin/sha-zin-gu/obj/npc/aeonian-beast.c line 44: Undefined function his_player before ->add_busy(random(1)
+
+[Sat Mar  1 03:37:12 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: End of file in text block before      "\n¡m±¡«°§Ö³ø¡n
+
+[Sat Mar  1 03:37:12 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: parse error before      "\n¡m±¡«°§Ö³ø¡n
+
+[Sat Mar  1 03:38:26 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: End of file in text block before : follow [<¥Íª«>|non
+
+[Sat Mar  1 03:38:26 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: parse error before : follow [<¥Íª«>|non
+
+[Sat Mar  1 03:38:30 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: End of file in text block before : follow [<¥Íª«>|non
+
+[Sat Mar  1 03:38:30 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: parse error before : follow [<¥Íª«>|non
+
+[Sat Mar  1 03:42:01 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: End of file in text block before ->delete_temp("movin
+
+[Sat Mar  1 03:42:01 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: parse error before ->delete_temp("movin
+
+[Sat Mar  1 03:46:44 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: End of file in text block before ¦³¤§«ü¥O¡C\n \n½d¨Ò:
+
+[Sat Mar  1 03:46:44 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: parse error before ¦³¤§«ü¥O¡C\n \n½d¨Ò:
+
+[Thu Mar  6 11:56:58 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: End of file in text block before pdate <ÀÉ¦W|here|me|
+
+[Thu Mar  6 11:56:58 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: parse error before pdate <ÀÉ¦W|here|me|
+
+[Thu Mar  6 12:00:13 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: End of file in text block before ""+"[0m"      ,me);
+
+[Thu Mar  6 12:00:13 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: parse error before ""+"[0m"      ,me);
+
+[Thu Mar  6 12:00:15 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: End of file in text block before );
+
+[Thu Mar  6 12:00:15 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: parse error before );
+
+[Thu Mar  6 12:00:17 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: End of file in text block before );
+
+[Thu Mar  6 12:00:17 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: parse error before );
+
+[Thu Mar  6 12:00:19 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: End of file in text block before );
+
+[Thu Mar  6 12:00:19 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: parse error before );
+
+[Fri Mar 21 23:37:22 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: End of file in text block before pdate <ÀÉ¦W|here|me|
+
+[Fri Mar 21 23:37:22 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: parse error before pdate <ÀÉ¦W|here|me|
+
+[Sun Mar 23 15:37:11 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 3: parse error before  create()
+
+[Sun Mar 23 15:37:13 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 3: parse error before  create()
+
+[Sun Mar 23 15:37:43 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: End of file in text block before ate <ÀÉ¦W|here|me|ª±
+
+[Sun Mar 23 15:37:43 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: parse error before ate <ÀÉ¦W|here|me|ª±
+
+[Sun Mar 23 15:37:45 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: End of file in text block before ate <ÀÉ¦W|here|me|ª±
+
+[Sun Mar 23 15:37:45 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: parse error before ate <ÀÉ¦W|here|me|ª±
+
+[Sun Mar 23 15:37:45 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: End of file in text block before ate <ÀÉ¦W|here|me|ª±
+
+[Sun Mar 23 15:37:45 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: parse error before ate <ÀÉ¦W|here|me|ª±
+
+[Sun Mar 23 15:37:47 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: End of file in text block before ate <ÀÉ¦W|here|me|ª±
+
+[Sun Mar 23 15:37:47 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: parse error before ate <ÀÉ¦W|here|me|ª±
+
+[Sun Mar 23 15:37:49 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: End of file in text block before ate <ÀÉ¦W|here|me|ª±
+
+[Sun Mar 23 15:37:49 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: parse error before ate <ÀÉ¦W|here|me|ª±
+
+[Sun Mar 23 15:37:51 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: End of file in text block before ate <ÀÉ¦W|here|me|ª±
+
+[Sun Mar 23 15:37:51 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: parse error before ate <ÀÉ¦W|here|me|ª±
+
+[Sun Mar 23 15:38:07 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: End of file in text block before ate <ÀÉ¦W|here|me|ª±
+
+[Sun Mar 23 15:38:07 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: parse error before ate <ÀÉ¦W|here|me|ª±
+
+[Sun Mar 23 15:38:34 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: End of file in text block before i]],
+
+[Sun Mar 23 15:38:34 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: parse error before i]],
+
+[Sun Mar 23 15:38:38 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: End of file in text block before i]],
+
+[Sun Mar 23 15:38:38 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: parse error before i]],
+
+[Sun Mar 23 15:39:58 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: End of file in text block before ame[i]]+ 1) * (skl[s
+
+[Sun Mar 23 15:39:58 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: parse error before ame[i]]+ 1) * (skl[s
+
+[Sun Mar 23 15:40:58 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: End of file in text block before ,me->name());
+
+[Sun Mar 23 15:40:58 2003] u/k/kenshin/sha-zin-gu/obj/table.c line 71: parse error before ,me->name());
+
+[Sun Apr 13 15:46:00 2003] u/k/kenshin/as.c line 3: parse error before  create()
+
+[Wed Apr 30 15:54:26 2003] u/k/kenshin/dream-fight/str_room.c line 130: End of file in text block before £ÂÂÀÉ¶Ü¡S[y/n]");
+
+[Wed Apr 30 15:54:26 2003] u/k/kenshin/dream-fight/str_room.c line 130: parse error before £ÂÂÀÉ¶Ü¡S[y/n]");
+
+[Wed Apr 30 15:54:50 2003] u/k/kenshin/dream-fight/str_room.c line 130: End of file in text block before £ÂÂÀÉ¶Ü¡S[y/n]");
+
+[Wed Apr 30 15:54:50 2003] u/k/kenshin/dream-fight/str_room.c line 130: parse error before £ÂÂÀÉ¶Ü¡S[y/n]");
+
+[Wed Apr 30 15:54:50 2003] u/k/kenshin/dream-fight/str_room.c line 130: End of file in text block before £ÂÂÀÉ¶Ü¡S[y/n]");
+
+[Wed Apr 30 15:54:50 2003] u/k/kenshin/dream-fight/str_room.c line 130: parse error before £ÂÂÀÉ¶Ü¡S[y/n]");
+
+[Wed Apr 30 15:54:52 2003] u/k/kenshin/dream-fight/str_room.c line 130: End of file in text block before £ÂÂÀÉ¶Ü¡S[y/n]");
+
+[Wed Apr 30 15:54:52 2003] u/k/kenshin/dream-fight/str_room.c line 130: parse error before £ÂÂÀÉ¶Ü¡S[y/n]");
+
+[Wed Apr 30 15:58:44 2003] u/k/kenshin/dream-fight/str_room.c line 130: End of file in text block before ÂÀÉ¶Ü¡S[y/n]");
+
+[Wed Apr 30 15:58:44 2003] u/k/kenshin/dream-fight/str_room.c line 130: parse error before ÂÀÉ¶Ü¡S[y/n]");
+
+[Wed Apr 30 15:59:28 2003] u/k/kenshin/dream-fight/str_room.c line 130: End of file in text block before ÂÀÉ¶Ü¡S[y/n]");
+
+[Wed Apr 30 15:59:28 2003] u/k/kenshin/dream-fight/str_room.c line 130: parse error before ÂÀÉ¶Ü¡S[y/n]");
+
+[Wed Apr 30 15:59:32 2003] u/k/kenshin/dream-fight/str_room.c line 130: End of file in text block before ÂÀÉ¶Ü¡S[y/n]");
+
+[Wed Apr 30 15:59:32 2003] u/k/kenshin/dream-fight/str_room.c line 130: parse error before ÂÀÉ¶Ü¡S[y/n]");
+
+[Wed Apr 30 15:59:40 2003] u/k/kenshin/dream-fight/str_room.c line 130: End of file in text block before ÂÀÉ¶Ü¡S[y/n]");
+
+[Wed Apr 30 15:59:40 2003] u/k/kenshin/dream-fight/str_room.c line 130: parse error before ÂÀÉ¶Ü¡S[y/n]");
+
+[Wed Apr 30 16:03:53 2003] u/k/kenshin/dream-fight/str_room.c line 130: End of file in text block before the end of file
+
+[Wed Apr 30 16:03:53 2003] u/k/kenshin/dream-fight/str_room.c line 130: parse error before the end of file
+
+[Wed Apr 30 16:05:08 2003] u/k/kenshin/dream-fight/str_room.c line 123: End of file in text block before ), "sys", sprintf("±
+
+[Wed Apr 30 16:05:08 2003] u/k/kenshin/dream-fight/str_room.c line 123: parse error before ), "sys", sprintf("±
+
+[Wed Apr 30 16:29:23 2003] u/k/kenshin/dream-fight/npc/lee.c line 46: Warning: Unknown \ escape. before ðªK,µ¹¦í§Ú¹j¾Àªº¤p§d
+
+[Wed Apr 30 16:29:59 2003] u/k/kenshin/dream-fight/npc/lee.c line 46: Warning: Unknown \ escape. before ð/ªK,µ¹¦í§Ú¹j¾Àªº¤p§
+
+[Wed Apr 30 16:30:11 2003] u/k/kenshin/dream-fight/npc/lee.c line 46: Warning: Unknown \ escape. before ð\ªK,µ¹¦í§Ú¹j¾Àªº¤p§
+
+[Wed Apr 30 16:30:11 2003] u/k/kenshin/dream-fight/npc/lee.c line 46: Warning: Unknown \ escape. before K,µ¹¦í§Ú¹j¾Àªº¤p§d´N
+
+[Wed Apr 30 16:30:29 2003] u/k/kenshin/dream-fight/npc/lee.c line 46: parse error before \¾ðªK",µ¹¦í§Ú¹j¾Àªº¤
+
+[Wed Apr 30 16:30:56 2003] u/k/kenshin/dream-fight/npc/lee.c line 46: Warning: Unknown \ escape. before [1m¾[1mð[1mª[1mK
+
+[Wed Apr 30 16:31:20 2003] u/k/kenshin/dream-fight/npc/lee.c line 46: Warning: Unknown \ escape. before ðªK,µ¹¦í§Ú¹j¾Àªº¤p§d
+
+[Wed Apr 30 16:33:42 2003] u/k/kenshin/dream-fight/npc/lee.c line 46: Warning: Unknown \ escape. before ðªK,µ¹¦í§Ú¹j¾Àªº¤p§d
+
+[Wed Apr 30 16:44:18 2003] u/k/kenshin/dream-fight/npc/wu.c line 27: Undefined variable 'kaleidoscope' before new(__DIR__"obj/kale
+
+[Wed Apr 30 16:44:18 2003] u/k/kenshin/dream-fight/npc/wu.c line 29: Warning: Unknown \ escape. before ðªK")
+
+[Wed Apr 30 16:44:18 2003] u/k/kenshin/dream-fight/npc/wu.c line 31: Warning: Unknown \ escape. before ðªK©O!?");    
+
+[Wed Apr 30 16:44:18 2003] u/k/kenshin/dream-fight/npc/wu.c line 36: Undefined variable 'me' before ;
+
+[Wed Apr 30 16:44:18 2003] u/k/kenshin/dream-fight/npc/wu.c line 37: Warning: Unknown \ escape. before ðªK¤F!!"); 
+
+[Wed Apr 30 16:46:28 2003] u/k/kenshin/dream-fight/npc/wu.c line 36: Undefined variable 'me' before ;
+
+[Wed Apr 30 16:47:33 2003] u/k/kenshin/dream-fight/npc/wu.c line 36: Undefined variable 'me' before ;
+
+[Wed Apr 30 17:12:00 2003] u/k/kenshin/dream-fight/npc/obj/holly.c line 6: Warning: Unknown \ escape. before ðªK"NOR, ({ "holly "
+
+[Sun May 25 11:15:18 2003] u/k/kenshin/look.c line 9: Undefined variable 'WHT' before NOR ,({ "silver wris
+
+[Sun May 25 11:15:18 2003] u/k/kenshin/look.c line 9: parse error before NOR ,({ "silver wris
+
+[Sun May 25 11:15:18 2003] u/k/kenshin/look.c line 42: Illegal LHS before the end of line
+
+[Sun May 25 11:15:18 2003] u/k/kenshin/look.c line 42: parse error before the end of line
+
+[Sun May 25 11:15:18 2003] u/k/kenshin/look.c line 44: Illegal LHS before  temp1, temp2;
+
+[Sun May 25 11:15:18 2003] u/k/kenshin/look.c line 44: Undefined variable 'temp1' before  temp2;
+
+[Thu May 29 11:47:59 2003] u/k/kenshin/wp.c line 1: parse error before [37m#include <ansi.h
+
+[Wed Aug  4 15:43:39 2004] u/k/kenshin/dream-fight/str_room.c line 123: End of file in text block before        {
+
+[Wed Aug  4 15:43:39 2004] u/k/kenshin/dream-fight/str_room.c line 123: parse error before        {
+

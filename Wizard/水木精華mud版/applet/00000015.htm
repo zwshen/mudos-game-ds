@@ -1,0 +1,58 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清华站∶精华区</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+<A Name="top"></a>
+发信人:&nbsp;Ranma&nbsp;(乱马~~青山依旧在，几度夕阳红),&nbsp;信区:&nbsp;Mud_Builder&nbsp;<BR>
+标&nbsp;&nbsp;题:&nbsp;mudos的时间限制的解决方法(转载)&nbsp;<BR>
+发信站:&nbsp;BBS&nbsp;水木清华站&nbsp;(Sat&nbsp;May&nbsp;16&nbsp;21:37:42&nbsp;1998)&nbsp;<BR>
+&nbsp;<BR>
+发信人:&nbsp;xgw&nbsp;(似的看法),&nbsp;信区:&nbsp;Mud_Wizard&nbsp;<BR>
+标&nbsp;&nbsp;题:&nbsp;Re:&nbsp;MUDOS有时间限制？&nbsp;<BR>
+发信站:&nbsp;广州网易&nbsp;BBS&nbsp;(Fri&nbsp;May&nbsp;15&nbsp;21:05:29&nbsp;1998),&nbsp;转信&nbsp;<BR>
+&nbsp;<BR>
+∶<I>&nbsp;hehe,本人是比较弱，调试也没好方法，先将preload里的文件逐个&nbsp;</I><BR>
+∶<I>&nbsp;注释了，将有问题的哪个挑出来，就是natured.c了。&nbsp;</I><BR>
+∶<I>&nbsp;然后进natured.c里看哪句话不顺眼，就把它注释了，用个赋值语句代替&nbsp;</I><BR>
+∶<I>&nbsp;，于是就找出来了。&nbsp;</I><BR>
+∶<I>&nbsp;hehe,很土吧。&nbsp;</I><BR>
+不错不错，要是我碰上这种一运行就PAGE&nbsp;FAULT的东东，没时间的话就把它kick&nbsp;out了，&nbsp;<BR>
+有时间就SOFEICE一大棒打过去了，看来咱们互补性强，可以合作合作，^_^&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;上次说到的修改方法因为改变了时间尺度，感觉不是太好，下面说说其它方法：&nbsp;<BR>
+一个是把natured.c里的&nbsp;&nbsp;#define&nbsp;TIME_TICK&nbsp;(time()*60)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;改成：#define&nbsp;TIME_TICK&nbsp;((time()-320000000)*60)&nbsp;<BR>
+也就是相当于你把系统时间调后了10年（三亿多秒呀，没想过吧，*_^)，可以用到2000多&nbsp;<BR>
+年啦，你也可以改成其它数值，不过不要改太大呵，hehe&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;当然了，最彻底的方法是从MUDOS入手，于是我看了看MUDOS源码（不过是用SICE&nbsp;<BR>
+看，:PP&nbsp;)，发觉当time()值太大变成负数时就会返回个莫名其妙的地址让你保护模式错，&nbsp;<BR>
+也不知是编程的问题还是编译的问题。我们不用管它，问题找到就好办了，只要把负数变&nbsp;<BR>
+成正数就行，用PCTOOLS在MUDOS（DRIVER.EXE）里找到下面代码：&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;33&nbsp;C0&nbsp;5F&nbsp;5E&nbsp;83&nbsp;C4&nbsp;04&nbsp;C3&nbsp;E8&nbsp;05&nbsp;<BR>
+改成：81&nbsp;36&nbsp;00&nbsp;00&nbsp;00&nbsp;80&nbsp;EB&nbsp;00&nbsp;E8&nbsp;05&nbsp;<BR>
+OK，这下natured.c也不用改了，而且没有任何时间限制，不错吧，xixi&nbsp;<BR>
+--&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一人有一个梦想&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;That's&nbsp;my&nbsp;ture&nbsp;MUD&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+※&nbsp;修改:．xgw&nbsp;于&nbsp;May&nbsp;15&nbsp;21:06:11&nbsp;修改本文．[FROM:&nbsp;202.96.154.72]&nbsp;<BR>
+※&nbsp;来源:．广州网易&nbsp;BBS&nbsp;bbs.nease.net．[FROM:&nbsp;202.96.154.72]&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;陌生的城市啊,熟悉的角落里&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;也曾彼此安慰,也曾相拥叹息,不管将会面对什么样的结局&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在漫天风沙里,望着你远去,我已悲伤得不能自已&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;多盼能送君千里,直到山穷水尽,一生和你相依!&nbsp;<BR>
+&nbsp;<BR>
+※&nbsp;来源:·BBS&nbsp;水木清华站&nbsp;bbs.net.tsinghua.edu.cn·[FROM:&nbsp;166.111.34.55]&nbsp;<BR>
+<A HREF="00000014.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一页</A>
+<A HREF="index.htm">回到目录</A>
+<A HREF="#top">回到页首</A>
+<A HREF="00000016.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+</BODY></HTML>

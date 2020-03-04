@@ -1,0 +1,18 @@
+
+	inherit_list(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		inherit_list() - 取得一個物件所繼承的父物件 (parents)
+				 清單.
+	函數語法:
+		string *inherit_list( object obj );
+
+		字串 *inherit_list( 物件 obj );
+	函數用法:
+		傳回物件 obj  所繼承之父物件的檔案名稱, 以字串陣列
+		(array) 的形式傳回. 例如: A 繼承 B, 而 B  繼承 C  ,
+		inherit_list(A) 會傳回一個含有 B 的陣列, 而沒有 C.
+	參考函數:
+		deep_inherit_list(3), inherits(3)
+	手冊翻譯:
+		Phoebus@ZH	97.Feb.14.		(Writen 5/23/97)

@@ -1,0 +1,2 @@
+#/obj/login.c
+dbase (["password":"MzqqbqTzWXFvk","race":"human","error_login":({"於[Tue Jun  6 22:09:30 2006]嘗試由[218-169-240-31.dynamic.hinet.net]連線進入失敗。","於[Tue Jun  6 22:16:52 2006]嘗試由[218-169-240-31.dynamic.hinet.net]連線進入失敗。","於[Thu Jun  8 00:49:24 2006]嘗試由[218-169-240-31.dynamic.hinet.net]連線進入失敗。","於[Tue Jun 13 00:05:37 2006]嘗試由[220-143-170-232.dynamic.hinet.net]連線進入失敗。","於[Fri Feb 22 00:30:49 2008]嘗試由[140.115.220.192]連線進入失敗。",}),"last_from":"218.164.88.203","name":"古漢魂","level":15,"body":"/obj/user","last_on":1174435388,"email":"stevench","id":"soul",])

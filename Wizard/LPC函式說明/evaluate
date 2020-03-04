@@ -1,0 +1,15 @@
+
+	evaluate(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		evaluate() - 執行一個函式指標 (function pointer)
+	函數語法:
+		mixed evaluate(mixed f, ...)
+
+		混合 evaluate( 混合 f, ... )
+	函數用法:
+		如果 f  是一個函式, 就會以第二個參數以後 (即上面 ...
+		的地方) 為 f  使用的參數呼叫 f. 而 f  如果有傳回值, 
+		evaluate( f, ... )  就相當於直接呼叫 f  的結果. 
+	手冊翻譯:
+		Phoebus@ZH	97.Feb.12.		(Writen 5/23/97)

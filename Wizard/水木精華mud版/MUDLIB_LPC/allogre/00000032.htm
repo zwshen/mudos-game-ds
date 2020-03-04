@@ -1,0 +1,73 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清華站︰精華區</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+<A Name="top"></a>
+發信人:&nbsp;sorceress&nbsp;(李大善人~~~以德服人),&nbsp;信區:&nbsp;Mud_Builder&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+標&nbsp;&nbsp;題:&nbsp;Allegro&nbsp;中譯文檔(RLE&nbsp;精靈)&nbsp;(轉載)&nbsp;<BR>
+發信站:&nbsp;BBS&nbsp;水木清華站&nbsp;(Mon&nbsp;Jun&nbsp;12&nbsp;20:54:34&nbsp;2000)&nbsp;<BR>
+&nbsp;<BR>
+【&nbsp;以下文字轉載自&nbsp;GAME_Designer&nbsp;討論區&nbsp;】&nbsp;<BR>
+【&nbsp;原文由&nbsp;cloudwu&nbsp;所發表&nbsp;】&nbsp;<BR>
+RLE&nbsp;精靈&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;get_rle_sprite&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;destroy_rle_sprite&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;draw_rle_sprite&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;draw_trans_rle_sprite&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;draw_lit_rle_sprite&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+因為位圖能夠以很多方式運用,&nbsp;位圖的數據結構也就非常的複雜了,&nbsp;並且包含了許多的數&nbsp;<BR>
+據.&nbsp;然而在許多情況下,&nbsp;你將發現你自己儲存的圖片僅僅只是需要復制到屏幕上,&nbsp;而不是用&nbsp;<BR>
+來做填充圖案等.&nbsp;如果是這樣,&nbsp;你最好將你的圖片儲存為&nbsp;RLE_SPRIT&nbsp;或&nbsp;COMPILED_SPRITE&nbsp;<BR>
+結構而不是常規位圖.&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+RLE&nbsp;精靈以一個簡單的運行行編碼格式儲存圖片,&nbsp;在這種格式裡&nbsp;重複的零點用一個長度統&nbsp;<BR>
+計數來表示,&nbsp;非零點串由計數器給出長度.&nbsp;RLE&nbsp;精靈通常比普通的位圖小的多,&nbsp;即因為行壓&nbsp;<BR>
+縮,&nbsp;又因為避免了許多無用的位圖數據結構.&nbsp;它們經常比普通位圖要工作的快,&nbsp;因為它不用&nbsp;<BR>
+比較每個點是否是零來決定&nbsp;是否應該畫出來,&nbsp;一個&nbsp;add&nbsp;就可能忽略掉整段零,&nbsp;而且可以用&nbsp;<BR>
+快速的串操作復制一大段非零的點.&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+然而,&nbsp;任何玉都有瑕疵,&nbsp;由於&nbsp;RLE&nbsp;精靈&nbsp;缺少柔韌性.&nbsp;你不能再在上面作畫,&nbsp;不能翻折,旋&nbsp;<BR>
+轉,或拉伸&nbsp;它們.&nbsp;事實上你唯一能做的是&nbsp;使用&nbsp;draw_rle_sprite()&nbsp;函數將它畫在位圖上,&nbsp;<BR>
+就相當於使用&nbsp;draw_sprite()&nbsp;畫一個常規的位圖.&nbsp;你可以在&nbsp;運行時將位圖轉換成&nbsp;RLE&nbsp;精&nbsp;<BR>
+靈,&nbsp;你也可以在&nbsp;grabber&nbsp;數據文件中&nbsp;選&nbsp;'RLE'&nbsp;按紐建立位圖來創建&nbsp;RLE&nbsp;精靈.&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+RLE_SPRITE&nbsp;*get_rle_sprite(BITMAP&nbsp;*bitmap);&nbsp;<BR>
+以指定的位圖為基礎來創建一個&nbsp;RLE&nbsp;精靈&nbsp;(必須是&nbsp;內存位圖).&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+void&nbsp;destroy_rle_sprite(RLE_SPRITE&nbsp;*sprite);&nbsp;<BR>
+摧毀一個由先前&nbsp;get_rle_sprite()&nbsp;創建的&nbsp;RLE&nbsp;精靈結構.&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+void&nbsp;draw_rle_sprite(BITMAP&nbsp;*bmp,&nbsp;RLE_SPRITE&nbsp;*sprite,&nbsp;int&nbsp;x,&nbsp;int&nbsp;y);&nbsp;<BR>
+將一個&nbsp;RLE&nbsp;精靈畫在位圖的指定位置.&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+void&nbsp;draw_trans_rle_sprite(BITMAP&nbsp;*bmp,&nbsp;RLE_SPRITE&nbsp;*sprite,&nbsp;int&nbsp;x,&nbsp;int&nbsp;y);&nbsp;<BR>
+draw_rle_sprite()&nbsp;的半透明版本.&nbsp;描述見&nbsp;draw_trans_sprite().&nbsp;這個只能使用在你設置&nbsp;<BR>
+了&nbsp;色彩映射表&nbsp;(&nbsp;256&nbsp;色模式)&nbsp;或混合表&nbsp;(真彩模式)&nbsp;以後.&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+void&nbsp;draw_lit_rle_sprite(BITMAP&nbsp;*bmp,&nbsp;RLE_SPRITE&nbsp;*sprite,&nbsp;int&nbsp;x,&nbsp;y,&nbsp;color);&nbsp;<BR>
+draw_rle_sprite()&nbsp;的淡化(Tint)&nbsp;版本.&nbsp;描述見&nbsp;draw_lit_sprite().&nbsp;這個只能使用在你&nbsp;<BR>
+設置了&nbsp;色彩映射表&nbsp;(&nbsp;256&nbsp;色模式)&nbsp;或混合表&nbsp;(真彩模式)&nbsp;以後.&nbsp;<BR>
+--&nbsp;<BR>
+<A HREF="http://www.cfido.net/cloud">http://www.cfido.net/cloud</A>&nbsp;<BR>
+<A HREF="http://computer.igd.edu.cn/~cloud">http://computer.igd.edu.cn/~cloud</A>&nbsp;<BR>
+<A HREF="http://linux.cqi.com.cn/~cloud">http://linux.cqi.com.cn/~cloud</A>&nbsp;<BR>
+<A HREF="http://www.nease.net/~cloudwu">http://www.nease.net/~cloudwu</A>&nbsp;(暫時不能更新)&nbsp;<BR>
+E-mail:&nbsp;<A HREF="mailto:cloudwu@263.net">cloudwu@263.net</A>&nbsp;<BR>
+&nbsp;<BR>
+※&nbsp;來源:‧BBS&nbsp;水木清華站&nbsp;bbs.net.tsinghua.edu.cn‧[FROM:&nbsp;202.197.71.16]&nbsp;&nbsp;<BR>
+<A HREF="00000031.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一頁</A>
+<A HREF="index.htm">回到目錄</A>
+<A HREF="#top">回到頁首</A>
+<A HREF="00000033.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+</BODY></HTML>

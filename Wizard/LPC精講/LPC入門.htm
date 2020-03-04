@@ -1,0 +1,169 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>LPC入門</title>
+</head>
+
+<body>
+
+<table height="2267">
+  <tr>
+    <td height="17"><font color="#ff0000">LPC入門</font></td>
+  </tr>
+  <tr>
+    <td height="2242"><br>
+      <p>LPC就是我們用來寫MUD的語言啦，它的語法和C 
+      基本一樣。它獨特之處在於有簡單的<br>
+      OOP特性(簡單但很有用:PP)，還有一個C裡面沒有的HASH表的類型：MAPPING<br>
+      LPC和C還有一個不同是其主函數是CREATE()而不是MAIN()。create()別寫錯哦:PP</p>
+      <p>LPC裡面主要的(也是寫MUD所足夠的)數據類型有int,string,mapping,object,<br>
+      mixed。下面主要講一下這些類型了。</p>
+      <p>因為整數類型對於寫MUD已經足夠，所以不用FLOAT了。同樣的，因為我們的<br>
+      漢字是雙字節的，所以CHAR類型其實也沒用，只需要STRING 
+      類型就可以了。<br>
+      STRING的定義，這裡要提一下：string常量的賦值，假如是常量的話可以只用<br>
+      “連接”的辦法代替string，例如:<br>
+      string str = &quot;我&quot; &quot;們&quot; ;那麼結果是str == &quot;我們&quot;<br>
+      同樣的str =<br>
+      &quot;我&quot;<br>
+      &quot;們&quot;;也是一樣，空格與換行在LPC編譯時是被忽略的，所以我們<br>
+      寫MUD的時侯不仿多些TAB和換行，這樣程序容易看些。<br>
+      當然，除了直接連接之外還可以用 + 
+      連接。在有變量的時侯就要用了。例如：<br>
+      string str0 = &quot;我們&quot;;<br>
+      string str1 = &quot;和&quot;+str0+&quot;大家&quot;;<br>
+      結果是str1 == &quot;和我們大家<br>
+      mixed是一個比較特別的類型。mixed 
+      類型的變量可以賦任何其他類型的值。<br>
+      這在未知變量類型的時侯非常有用。不過一般情況下很少會用到mixed。<br>
+      LPC裡面沒有“指針”的概念。在變量名前面加 * 
+      的定義表示數組。如int *a<br>
+      表示a 
+      是整數數組。一般來說我們定義數組時是未知其大小的。所以定義時不用像<br>
+      C 那樣給定大小。數組和MAPPING有些類似，所以將在下面和MAPPING一起講它們<br>
+      的操作。</p>
+      <p>LPC裡面沒有“指針”的概念。在變量名前面加 * 
+      的定義表示數組。如int *a<br>
+      表示a 
+      是整數數組。一般來說我們定義數組時是未知其大小的。所以定義時不用像<br>
+      C 那樣給定大小。數組和MAPPING有些類似，所以將在下面和MAPPING一起講它們<br>
+      的操作。</p>
+      <p>object, 是OOP概念了，在LPC裡面好像有CREATE()的都可以做object 
+      類型變量<br>
+      了。object 我們稱為“對像”，在MUD裡就是一件物品，一個房間或任何一個“具<br>
+      體”的東西，都是OBJECT。“對像”，在OOP中是一些數據與基於這些數據的函數的<br>
+      集合（好像文謅謅的？ :PP）嗯，object 
+      中的數據一般不能直接操作（至少在LPC<br>
+      裡面不能的 :PP），所以對object的操作只有賦值（對object類型的賦直 
+      ）和執行<br>
+      object的函數( private函數不能被外部調用 )。<br>
+      函數調用格式：<br>
+      eg. object ob;<br>
+      ob-&gt;test(1,2);</p>
+      <p>基本格式： object類型變量名-&gt;函數名(函數參數列);<br>
+      其中若該object 中未定義該函數名的函數則返回 0 
+      值（呵呵，不會有出錯信息的哦，<br>
+      所以千萬別寫錯名字了）。</p>
+      <p>寫了這麼多終於寫到LPC 最有特色的兩個類型了，mapping和數組。<br>
+      mapping和數組在“外觀”上有些類似，所以在一起寫了。前面提到過：mapping是<br>
+      散列表，具體如何這裡不詳述了，只希望大家一定要記住mapping的格式！！( 
+      實際<br>
+      上這格式只在給變量賦初值時用到 )mapping 格式如下：<br>
+      eg. mapping a = ([ &quot;ab&quot; : 1 ,<br>
+      &quot;cd&quot;: 2 ,<br>
+      ])<br>
+      標準格式：<br>
+      mapping 變量名 = ([<br>
+      key1 : value1 ,<br>
+      key2 : value2 ,<br>
+      ..........<br>
+      ..........<br>
+      ]);<br>
+      其中key可以是除了int以外的任何值！！ (好像char也不行吧 
+      :P )，包括任何數組<br>
+      甚至mapping也可以做key ,而value則可以是任意所有值。mapping的應用在於：<br>
+      可以用key來index得到相應的value值。如上面eg的，我們有：a[&quot;cd&quot;] 
+      == 2,....<br>
+      因為要用key來index的關係，在mapping中key值不能相等，若相等則覆蓋掉原來該<br>
+      key對應的value。寫的有些亂了，SORRY :P</p>
+      <p>那麼一個mapping怎麼改變它的值呢？有兩個方法(下面設mapping 
+      map )。<br>
+      1. map[key] = value;<br>
+      2. map += ([key : value ]);<br>
+      請大家留意第二種賦值方法，它跟我們將要提到的數組的方法一樣的 
+      。<br>
+      在mapping中“刪除”一個key （其相應value當然也沒了）方法是：<br>
+      map_delete(map,key);<br>
+      lpc裡面的系統函數(efun)的命名一般按參數順序來取名（ 
+      map_delete的參數就是<br>
+      map在前，被delete的key在後的 ），希望大家注意。<br>
+      另外mapping的efun還有values,keys,undefinedp<br>
+      大家可以直接在MUD裡 help efunname 來看幫助，也可以參閱 
+      /doc/lpc/types/mapping<br>
+      這一文件</p>
+      數組：<br>
+      即ARRAY，前面說過，LPC中的數組只要在類型後面加 * 
+      就可以了<br>
+      一般來說數組不用預先定大小<br>
+      但若有需要可以用allocate(size)來固定大小。如：a = 
+      allocate(10);<br>
+      在固定了SIZE之後好處是可以任意用下標定位來對數組元素操作。
+      <p>我的習慣是不用固定SIZE的數組，因為那樣更自由些。數組的操作在LPC裡是相當強的。<br>
+      最常見的是 +, - 操作，也是最useful的。<br>
+      +就是通常的“連接”操作，<br>
+      -是集合的“差”操作，如果沒有這兩個概念請看下面例子：<br>
+      a == ({ 1,2,2,3, })<br>
+      則a + ({2,3,4}) == ({ 1,2,2,3,2,3,4})<br>
+      a - ({ 2,1}) == ({3})</p>
+      <p>請注意 - 的時候會把所有相同的元素都消掉的.</p>
+      <p>結合上面例子可以知道ARRAY常量的表示方法了，就是 ({元素,元素,....})<br>
+      當然這只是一維數組（事實上我們用一維數組就足夠了，我想）<br>
+      在對數組的元素改變的時候，一般可以用直接賦值，如a[3] 
+      = 2;<br>
+      在對數組的元素改變的時候，一般可以用直接賦值，如a[3] 
+      = 2;<br>
+      如何刪除一個元素？假如你確定該元素的值唯一的話可以用 
+      - ({元素值 })<br>
+      但要是有同值元素的話就會把它也刪掉了，那不是我們所要的。<br>
+      一般常用的方法是把該元素賦一個“不可能值”，或者說“無用值”，<br>
+      然後再用 - 把該元素刪除掉，比如說<br>
+      我們確定數組內所有元素都為正，則我們可把那個元素賦值為0然後把數組 
+      -= ({0})</p>
+      <p>關於array的一個很有用的函數是member_array<br>
+      用法是 member_array(元素值，數組，起始下標（可選） ）;<br>
+      函數返回數組中從下標開始第一個元素值為所搜索值的元素下標。若無則返回-1;<br>
+      嗯，LPC的數組是跟C一樣的，下標從0開始到size-1 
+      ，請注意。<br>
+      member_array的參數中起始下標一般可缺省。<br>
+      eg: a = ({1,2,2,3})<br>
+      則 member_array(2,a) == 1<br>
+      member_array(2,a,2) == 2<br>
+      member_array(4,a) == -1</p>
+      <p>ARRAY和MAPPING可以說是LPC裡面最有用和最直接用的結構了。<br>
+      再加上兩個功能強大的函數：filter_array 和filter_mapping。<br>
+      我們有了filter就可以實現對ARRAY，MAPPING裡各元素的過濾操作。<br>
+      這樣一來我們就可以實現數據庫的操作了，這樣我們的LPC程序所擁有的功能<br>
+      是非常強大了</p>
+      <p>最後說一下多維數組的定義方法。<br>
+      多維數組一般各維SIZE固定的，有兩種方法定義：<br>
+      eg1:<br>
+      定義多維數組變量<br>
+      a = allocate(10);<br>
+      a[0] = allocate(10);<br>
+      a[1] = allocate(10);<br>
+      ...etc...<br>
+      也就定義了a [10][10]</p>
+      <p>eg2:<br>
+      用mixed 類型 = 多維數組常量<br>
+      mixed a;<br>
+      a = ({ ({ 1, 2, 3 }), ({ 1, 2, 3 }) });</p>
+    </td>
+  </tr>
+</table>
+
+</body>
+
+</html>

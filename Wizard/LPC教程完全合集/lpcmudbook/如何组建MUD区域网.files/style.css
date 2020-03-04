@@ -1,0 +1,24 @@
+A {
+	COLOR: black; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+BODY {
+	FONT-SIZE: 75%; FONT-FAMILY: "Verdana", "Arial", "ËÎÌו"
+}
+TD {
+	FONT-SIZE: 9pt
+}
+INPUT.buttonface {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 9pt; BACKGROUND: #ff9900; BORDER-LEFT: black 1px solid; COLOR: #ffffff; LINE-HEIGHT: normal; BORDER-BOTTOM: black 1px solid; FONT-STYLE: normal; HEIGHT: 18px; FONT-VARIANT: normal
+}
+INPUT.smallInput {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 9pt; BORDER-LEFT: black 1px solid; LINE-HEIGHT: normal; BORDER-BOTTOM: black 1px solid; FONT-STYLE: normal; HEIGHT: 18px; FONT-VARIANT: normal
+}
+.b1 {
+	FONT-SIZE: 12pt; FONT-FAMILY: "Verdana", "Arial", "ËÎÌו"
+}
+.b2 {
+	FONT-SIZE: 7pt; FONT-FAMILY: "Verdana", "Arial", "ËÎÌו"
+}

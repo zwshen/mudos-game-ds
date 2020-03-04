@@ -1,0 +1,33 @@
+u/e/eeman/0.c line 18: End of file in text block
+u/e/eeman/0.c line 18: Wrong number of arguments to set
+    Expected: 2  Got: 1
+u/e/eeman/0.c line 18: parse error
+u/e/eeman/0.c line 18: Undefined variable 'me'
+
+u/e/eeman/0.c line 18: Illegal LHS
+u/e/eeman/0.c line 19: Undefined variable 'file'
+
+u/e/eeman/0.c line 12: parse error
+u/e/eeman/0.c line 12: parse error
+u/e/eeman/workroom.c line 26: Undefined variable 'me'
+
+u/e/eeman/temp/room.c line 173: Type of returned value doesn't match function return type ( int vs void ).
+u/e/eeman/room.c line 4: Illegal to redefine 'nomask' function "_query"
+u/e/eeman/room.c line 4: Illegal to redefine 'nomask' function "_delete"
+u/e/eeman/room.c line 4: Illegal to redefine 'nomask' function "_set"
+u/e/eeman/room.c line 4: Illegal to redefine 'nomask' function "_query"
+u/e/eeman/room.c line 4: Illegal to redefine 'nomask' function "_delete"
+u/e/eeman/room.c line 4: Illegal to redefine 'nomask' function "_set"
+u/e/eeman/room.c line 4: Cannot #include /u/e/eeman/saveroom
+u/e/eeman/room.c line 4: Cannot #include /u/e/eeman/saveroom
+u/e/eeman/room.c line 4: Cannot #include /u/e/eeman/saveroom
+[Sun Jul 25 01:09:00 1999] u/e/eeman/temp/room.c line 173: Type of returned value doesn't match function return type ( int vs void ).
+
+[Sun Jul 25 01:09:10 1999] u/e/eeman/temp/room.c line 173: Type of returned value doesn't match function return type ( int vs void ).
+
+[Fri Sep 10 14:53:55 1999] u/e/eeman/temp/room.c line 173: Type of returned value doesn't match function return type ( int vs void ).
+
+[Sun Sep 12 16:32:11 1999] u/e/eeman/temp/a10.c line 57: Bad assignment ( object * vs object ).
+
+[Sun Sep 12 16:34:14 1999] u/e/eeman/temp/a10.c line 58: Bad assignment ( mapping vs object ).
+

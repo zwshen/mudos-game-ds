@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions ([])
+dbase (["addition_shield":10,"actions":,"heart_beat_rate":6,"DS_DATA_VERSION":19991107,"race":"human","max_mp":60,"max_hp":80,"channels":({"chat","rumor","tchat","sky","sam",}),"birthday":1124678384,"attitude":"peaceful","id":"flyin","mp":60,"last_location":"/open/world1/tmr/area/hotel","gender":"女性","name":"閒閒沒事","board_last_read":(["anoounce_b":1163166836,]),"bank":(["past":14275,]),"unit":"位","cure_count":6,"max_ap":60,"MKS":14,"addition_armor":10,"startroom":"/open/world1/tmr/area/hotel","combat_exp":3,"ap":60,"supply_point":60,"guild_gifts":({5,5,5,5,}),"default_actions":,"age":14,"bellicosity":0,"addition_damage":10,"Merits":(["bar":0,"bio":0,"tec":0,"sou":0,"wit":0,]),"talk_point":8,"newbie":1,"volume":7,"exp":2287,"dex":2,"mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/mvillager","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/wilfred/sand/npc/npc4","/open/world1/wilfred/sand/npc/npc4","/open/world1/wilfred/sand/npc/npc4","/open/world1/wilfred/sand/npc/npc4",}),"int":2,"wound":(["body":0,"right_arm":0,"right_leg":0,"head":0,"left_arm":0,"left_leg":0,]),"con":2,"str":2,"hp":80,"level":1,"disable_type":" <毫無呼吸>","evil":26,"mud_age":3757,"popularity":355,"heart_modify":0,])
+skills (["dodge":2,"unarmed":4,"combat":7,])
+learned (["dodge":13,"unarmed":25,"combat":6,])
+items ({})
+autoload ({"/obj/money/coin:5","/open/always/sky_mark",})
+toDoList ([])
+solved ({})

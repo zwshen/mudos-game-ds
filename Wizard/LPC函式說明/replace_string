@@ -1,0 +1,52 @@
+
+	replace_string(3)	LP MudOSv21c7		(7 Jul 1996)
+
+	ㄧ计嘿:
+		replace_string() - 蠢传﹃い才兵ン.
+	ㄧ计粂猭:
+		string replace_string( str, pattern, replace );
+		string replace_string( str, pattern, replace, max );
+		string replace_string( str, pattern, replace, first, last );
+
+		string str, pattern replace;
+		int max, first, last;
+
+		﹃ replace_string( str, pattern, replace );
+		﹃ replace_string( str, pattern, replace, max );
+		﹃ replace_string( str, pattern, replace, first, last );
+
+		﹃ str, pattern replace;
+		俱计 max, first, last;
+	ㄧ计ノ猭:
+		replace_string() 盢 str い┮Τ才兵ン pattern 蠢传Θ
+		﹚ replace. 狦 pattern ⊿Τず甧 (箂) , 碞肚
+		ㄓ str . 狦肚﹃禬筁﹚竡程﹃, 玥肚
+		 undefindp() 肚 1, stringp() 肚 0  .
+
+		replace_string() ﹚ replace  ﹃, ノㄓ埃
+		﹃い疭﹚. 羭ㄒㄓ弧: replace_string(" 1 2 3 ", " ", "")
+		穦肚 "123". replace_string() 磅︽硉ゑノ explode() ㎝
+		implode() е.
+
+		材㎝材き把计Τ礚 (硂琌甧玡セ). 硂ㄢ
+		把计Τノ:
+
+		材把计 first:
+
+		﹚﹃程蠢传碭Ω (眖 1  秨﹍衡). 狦硂柑﹚ 0,
+		碞讽琌场常传. ┮ replace_string("xyxx", "x", "z", 2) 
+		穦肚 "zyzx".
+
+		材き把计 last:
+
+		材き把计才兵ン〖瞅:
+		first < 1: 眖繷秨﹍场蠢传.
+		last == 0 ┪ last > 程蔼才计(max_matches): 场蠢传程. 
+		first > last: Чぃэ跑.
+		羭ㄒ: replace_string("xyxxy", "x", "z", 2, 3) 肚 "xyzzy".
+	把σㄧ计:
+		sscanf(3), explode(3), strsrch(3)
+	:
+		Zak@TMI-2 级糶兵ン场.
+	も陆亩:
+		Phoebus@ZH	97.Jun.2.		(Writen 5/23/97)

@@ -1,0 +1,54 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=bg2312">
+   <META NAME="Author" CONTENT="Spock">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.01 [en] (Win95; I) [Netscape]">
+   <TITLE>MudOS v21c2 參考文件 - efuns - filesystem - get_dir</TITLE>
+</HEAD>
+<BODY TEXT="#CCFFFF" BGCOLOR="#000000" LINK="#33FF33" VLINK="#FF0000" ALINK="#33CCFF" BACKGROUND="../../../image/ff/fftitleback.jpg" NOSAVE>
+
+<CENTER><FONT COLOR="#FF99FF"><FONT SIZE=+3>get_dir(3)　 MudOS v21c2　
+(5 Sep 1994)</FONT></FONT></CENTER>
+
+<HR WIDTH="100%">
+<BR><FONT COLOR="#FFFFCC">　名稱:</FONT>
+<UL>　 get_dir() - 返回有關一個文件系統目錄 (filesystem directory)　 的信息.</UL>
+<FONT COLOR="#FFFFCC">　語法:</FONT>
+<UL>　 mixed *get_dir( string dir, int default: 0 );
+
+<P>　 混合 *get_dir( 字符串 dir, 整數 預設值: 0 );</UL>
+<FONT COLOR="#FFFFCC">　用法:</FONT>
+<UL>　 如果 dir　 是一個文件名稱 (可以使用 *　 或是 ?　 號這種萬用字符
+(wildcards) ), 則返回一個符合指定名稱的字符串數組 (array of strings) . 如果
+dir　 是一個目錄名稱 (名稱以一個 /　 結束, 例如: "/u/", "/adm/"　 等等)
+, 則會返回目錄中所有的文件名稱.
+
+<P>　 如果第二的參數為 -1 , get_dir 會返回一個子數組的數組 ( array of subarrays)
+, 子數組的格式為:
+
+<P><FONT COLOR="#FFCC99">　 ({ filename, size_of_file, last_time_file_touched
+})</FONT>
+
+<P><FONT COLOR="#FFCC99">　 ({　 文件名稱, 文件大小, 最後一次的文件修改日期
+})</FONT>
+
+<P>　 文件名稱為一個字符串, 而最後一次的文件修改日期是一個整數, 為自從 1970
+年 1　 月 1　 日起算的秒數.　 (格式與 time(3) 函數一樣) . 文件大小的值與
+file_size(3) 函數返回的值相同; 文件大小的單位為位元 (bytes)　 , 如果文件大小為
+-2 , 表示文件為一個目錄.</UL>
+<FONT COLOR="#FFFFCC">　參考:</FONT>
+<UL>　 <A HREF="file_size.html">file_size(3)</A>, <A HREF="stat.html">stat(3)</A>,
+<A HREF="../system/time.html">time(3)</A></UL>
+<FONT COLOR="#FFFFCC">　翻譯:</FONT>
+<UL>　 Spock @ FF 97.Feb.14.　 (printed 3/16/95)</UL>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+<CENTER><A HREF="../filesystem.html">回到上一頁</A></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+</BODY>
+</HTML>

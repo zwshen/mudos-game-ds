@@ -1,0 +1,2 @@
+#/obj/login.c
+dbase (["id":"boa","name":"寶兒","email":"","password":"PBbmGNNyEi5wc","race":"human","error_login":({"於[Sun Jul  3 12:41:45 2005]嘗試由[adsl-61-66-56-138.KHON.sparqnet.net]連線進入失敗。",}),"level":8,"last_on":1120590305,"body":"/obj/user","last_from":"61-222-49-156.HINET-IP.hinet.net",])

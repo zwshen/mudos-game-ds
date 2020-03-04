@@ -1,0 +1,7 @@
+¥Ø¿ý¡R/open/world1/linjack/emperor/npc/wp/
+a_blade.c           ¤M                  b_staff.c           ªø¤M§ú            
+blade.c             ¨g¤M¡E¿B¥@          blade2.c            Âù¤b¤M            
+blade3.c            ¨g¤M¡E¿B¥@          cutless.c           Ås¤M              
+h_crossbow.c        ­«©¸                kris.c              µu¤M              
+s_arrow.c           ºë¿û©¸½b            stick.c             Äê¤ì±ø            
+

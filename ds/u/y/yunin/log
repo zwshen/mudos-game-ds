@@ -1,0 +1,523 @@
+[Mon Oct 15 01:21:22 2001] u/y/yunin/workroom.c line 53: parse error before ));
+
+[Mon Oct 15 01:22:14 2001] u/y/yunin/workroom.c line 53: parse error before ));
+
+[Mon Oct 15 01:22:18 2001] u/y/yunin/workroom.c line 53: parse error before ));
+
+[Mon Oct 15 01:27:10 2001] u/y/yunin/workroom.c line 43: parse error before ));
+
+[Mon Oct 15 01:33:38 2001] u/y/yunin/workroom.c line 57: parse error before ));
+
+[Mon Oct 15 01:41:52 2001] u/y/yunin/workroom.c line 57: parse error before ));
+
+[Mon Oct 15 01:49:13 2001] u/y/yunin/workroom.c line 55: parse error before ,
+
+[Thu Nov  8 21:12:02 2001] u/y/yunin/wp/w1.c line 73: Undefined variable 'v' before );
+
+[Thu Nov  8 21:12:02 2001] u/y/yunin/wp/w1.c line 73: parse error before );
+
+[Thu Nov  8 21:18:18 2001] u/y/yunin/wp/w1.c line 73: Undefined variable 'v' before );
+
+[Thu Nov  8 21:18:18 2001] u/y/yunin/wp/w1.c line 73: parse error before );
+
+[Thu Nov  8 21:19:59 2001] u/y/yunin/wp/w1.c line 73: Undefined variable 'v' before );
+
+[Thu Nov  8 21:19:59 2001] u/y/yunin/wp/w1.c line 73: parse error before );
+
+[Thu Nov  8 21:27:51 2001] u/y/yunin/wp/w1.c line 53: parse error before (object me,object vi
+
+[Thu Nov  8 21:28:27 2001] u/y/yunin/wp/w1.c line 73: Undefined variable 'v' before );
+
+[Thu Nov  8 21:28:27 2001] u/y/yunin/wp/w1.c line 73: parse error before );
+
+[Thu Nov  8 21:38:30 2001] u/y/yunin/npc/wolf.c line 87: Undefined variable 'user' before ());
+
+[Thu Nov  8 21:38:30 2001] u/y/yunin/npc/wolf.c line 87: parse error before ());
+
+[Thu Nov  8 21:38:30 2001] u/y/yunin/npc/wolf.c line 93: Warning: Unknown \ escape. before \n"NOR);
+
+[Thu Nov  8 21:40:23 2001] u/y/yunin/npc/wolf.c line 89: Undefined variable 'user' before ());
+
+[Thu Nov  8 21:40:23 2001] u/y/yunin/npc/wolf.c line 89: parse error before ());
+
+[Thu Nov  8 21:40:23 2001] u/y/yunin/npc/wolf.c line 95: Warning: Unknown \ escape. before \n"NOR);
+
+[Thu Nov  8 21:41:31 2001] u/y/yunin/npc/wolf.c line 89: Undefined variable 'user' before ());
+
+[Thu Nov  8 21:41:31 2001] u/y/yunin/npc/wolf.c line 89: parse error before ());
+
+[Thu Nov  8 21:41:31 2001] u/y/yunin/npc/wolf.c line 95: Warning: Unknown \ escape. before \n"NOR);
+
+[Thu Nov  8 21:44:34 2001] u/y/yunin/npc/wolf.c line 70: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Thu Nov  8 21:44:34 2001] u/y/yunin/npc/wolf.c line 70: Illegal to redefine 'nomask' function "query_busy" before the end of line
+
+[Thu Nov  8 21:44:34 2001] u/y/yunin/npc/wolf.c line 70: Illegal to redefine 'nomask' function "is_busy" before the end of line
+
+[Thu Nov  8 21:44:34 2001] u/y/yunin/npc/wolf.c line 70: Illegal to redefine 'nomask' function "is_block" before the end of line
+
+[Thu Nov  8 21:44:34 2001] u/y/yunin/npc/wolf.c line 70: Illegal to redefine 'nomask' function "command_hook" before the end of line
+
+[Thu Nov  8 21:44:34 2001] u/y/yunin/npc/wolf.c line 70: Illegal to redefine 'nomask' function "set_path" before the end of line
+
+[Thu Nov  8 21:47:39 2001] u/y/yunin/npc/wolf.c line 1: parse error before ,2000+random(1000));
+
+[Thu Nov  8 21:51:34 2001] u/y/yunin/npc/wolf.c line 53: parse error before )->wear();
+
+[Thu Nov  8 21:52:47 2001] u/y/yunin/npc/wolf.c line 53: parse error before )->wear();
+
+[Thu Nov  8 21:53:57 2001] u/y/yunin/npc/wolf.c line 53: parse error before "eq/e1.c")->wear();
+
+[Thu Nov  8 21:54:25 2001] u/y/yunin/npc/wolf.c line 53: parse error before "eq/e1")->wear();
+
+[Thu Nov  8 22:07:51 2001] u/y/yunin/npc/wolf.c line 83: Undefined variable 'user' before ());
+
+[Thu Nov  8 22:07:51 2001] u/y/yunin/npc/wolf.c line 83: parse error before ());
+
+[Thu Nov  8 22:07:51 2001] u/y/yunin/npc/wolf.c line 89: Warning: Unknown \ escape. before \n"NOR);
+
+[Thu Nov  8 22:20:47 2001] u/y/yunin/npc/wolf.c line 81: Undefined variable 'user' before ());
+
+[Thu Nov  8 22:20:47 2001] u/y/yunin/npc/wolf.c line 81: parse error before ());
+
+[Thu Nov  8 22:21:03 2001] u/y/yunin/npc/wolf.c line 81: Undefined variable 'user' before ());
+
+[Thu Nov  8 22:21:03 2001] u/y/yunin/npc/wolf.c line 81: parse error before ());
+
+[Thu Nov  8 22:22:09 2001] u/y/yunin/npc/wolf.c line 81: Undefined variable 'user' before ());
+
+[Thu Nov  8 22:22:09 2001] u/y/yunin/npc/wolf.c line 81: parse error before ());
+
+[Thu Nov  8 22:24:14 2001] u/y/yunin/npc/wolf.c line 7: Undefined function query_temp before  )
+
+[Thu Nov  8 22:24:14 2001] u/y/yunin/npc/wolf.c line 7: Bad assignment ( object vs unknown ). before the end of line
+
+[Thu Nov  8 22:24:14 2001] u/y/yunin/npc/wolf.c line 15: No such inherited function ::die before ;
+
+[Thu Nov  8 22:24:14 2001] u/y/yunin/npc/wolf.c line 23: Undefined variable 'HIM' before +ob->name(1)+"±þ¦º¤F
+
+[Thu Nov  8 22:24:14 2001] u/y/yunin/npc/wolf.c line 23: parse error before +ob->name(1)+"±þ¦º¤F
+
+[Thu Nov  8 22:26:39 2001] u/y/yunin/npc/wolf.c line 81: Undefined variable 'user' before ());
+
+[Thu Nov  8 22:26:39 2001] u/y/yunin/npc/wolf.c line 81: parse error before ());
+
+[Thu Nov  8 22:28:47 2001] u/y/yunin/npc/wolf.c line 81: Undefined variable 'user' before ());
+
+[Thu Nov  8 22:28:47 2001] u/y/yunin/npc/wolf.c line 81: parse error before ());
+
+[Thu Nov  8 22:31:04 2001] u/y/yunin/npc/wolf.c line 81: Undefined variable 'user' before ());
+
+[Thu Nov  8 22:31:04 2001] u/y/yunin/npc/wolf.c line 81: parse error before ());
+
+[Thu Nov  8 22:36:28 2001] u/y/yunin/npc/wolf.c line 7: Undefined function query_temp before  )
+
+[Thu Nov  8 22:36:28 2001] u/y/yunin/npc/wolf.c line 7: Bad assignment ( object vs unknown ). before the end of line
+
+[Thu Nov  8 22:36:28 2001] u/y/yunin/npc/wolf.c line 15: No such inherited function ::die before ;
+
+[Thu Nov  8 22:36:28 2001] u/y/yunin/npc/wolf.c line 23: Undefined variable 'HIM' before HIW"¤Ñ¬É"HIR"²r±N"HI
+
+[Thu Nov  8 22:36:28 2001] u/y/yunin/npc/wolf.c line 23: parse error before HIW"¤Ñ¬É"HIR"²r±N"HI
+
+[Sun Nov 18 20:43:58 2001] u/y/yunin/board.c line 15: Illegal character constant before _b");
+
+[Sun Nov 18 20:43:58 2001] u/y/yunin/board.c line 15: Undefined variable 'yunin' before _b");
+
+[Sun Nov 18 20:43:58 2001] u/y/yunin/board.c line 15: parse error before _b");
+
+[Sun Nov 18 20:43:58 2001] u/y/yunin/board.c line 30: End of file in string before orld1/tmr/"+"ghost-f
+
+[Sun Nov 18 20:44:10 2001] u/y/yunin/board.c line 15: Illegal character constant before _b");
+
+[Sun Nov 18 20:44:10 2001] u/y/yunin/board.c line 15: Undefined variable 'yunin' before _b");
+
+[Sun Nov 18 20:44:10 2001] u/y/yunin/board.c line 15: parse error before _b");
+
+[Sun Nov 18 20:44:10 2001] u/y/yunin/board.c line 30: End of file in string before "«e¸}", "«á¸}", "§À¤
+
+[Sun Nov 18 20:45:10 2001] u/y/yunin/board.c line 17: parse error before ",
+
+[Sun Nov 18 20:45:10 2001] u/y/yunin/board.c line 30: End of file in string before forest");
+
+[Sun Nov 18 20:45:50 2001] u/y/yunin/board.c line 17: parse error before ",
+
+[Sun Nov 18 20:45:50 2001] u/y/yunin/board.c line 30: End of file in string before ¨ç¦¡xxx()®É½Ð®³±¼¦¹¦
+
+[Sun Nov 18 20:47:41 2001] u/y/yunin/board.c line 17: parse error before ",
+
+[Sun Nov 18 20:47:41 2001] u/y/yunin/board.c line 30: End of file in string before zeof() == "/open/wor
+
+[Sun Nov 18 20:48:35 2001] u/y/yunin/board.c line 17: parse error before ",
+
+[Sun Nov 18 20:48:35 2001] u/y/yunin/board.c line 30: End of file in string before box","mail_ob" }) );
+
+[Mon Nov 19 19:52:13 2001] u/y/yunin/npc/yunin.c line 13: parse error before ", "¨k©Ê" );
+
+[Mon Nov 19 19:52:13 2001] u/y/yunin/npc/yunin.c line 62: End of file in string before         -6,
+
+[Mon Nov 19 20:43:07 2001] u/y/yunin/npc/lva.c line 55: parse error before .
+
+[Mon Nov 19 20:47:00 2001] u/y/yunin/npc/wp/w6.c line 48: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Mon Nov 19 20:47:00 2001] u/y/yunin/npc/wp/w6.c line 48: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Mon Nov 19 20:47:00 2001] u/y/yunin/npc/wp/w6.c line 48: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Mon Nov 19 20:47:00 2001] u/y/yunin/npc/wp/w6.c line 48: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Mon Nov 19 20:47:00 2001] u/y/yunin/npc/wp/w6.c line 48: Illegal to redefine 'nomask' function "query_encumbrance" before the end of line
+
+[Mon Nov 19 20:47:00 2001] u/y/yunin/npc/wp/w6.c line 48: Illegal to redefine 'nomask' function "over_encumbranced" before the end of line
+
+[Thu Dec  6 14:09:32 2001] u/y/yunin/npc/pill.c line 43: parse error before [1mH[1mI[1mC[1m"
+
+[Thu Dec  6 14:12:41 2001] u/y/yunin/npc/pill.c line 43: parse error before [0mHIC[0;1m"[0m¦B²
+
+[Thu Dec  6 14:13:17 2001] u/y/yunin/npc/pill.c line 43: parse error before [0mHIC[0;1m"[0m¦B²
+
+[Thu Dec  6 16:12:25 2001] u/y/yunin/npc/-.c line 126: parse error before n;
+
+[Thu Dec  6 16:12:25 2001] u/y/yunin/npc/-.c line 132: Illegal LHS before the end of line
+
+[Thu Dec  6 16:12:25 2001] u/y/yunin/npc/-.c line 149: parse error before  {
+
+[Thu Dec  6 16:14:14 2001] u/y/yunin/npc/-.c line 126: parse error before n;
+
+[Thu Dec  6 16:14:14 2001] u/y/yunin/npc/-.c line 132: Illegal LHS before the end of line
+
+[Thu Dec  6 16:14:14 2001] u/y/yunin/npc/-.c line 149: parse error before  {
+
+[Thu Dec  6 16:14:58 2001] u/y/yunin/npc/-.c line 125: parse error before n;
+
+[Thu Dec  6 16:14:58 2001] u/y/yunin/npc/-.c line 131: Illegal LHS before the end of line
+
+[Thu Dec  6 16:14:58 2001] u/y/yunin/npc/-.c line 148: parse error before  {
+
+[Thu Dec  6 16:15:32 2001] u/y/yunin/npc/-.c line 125: parse error before n;
+
+[Thu Dec  6 16:15:32 2001] u/y/yunin/npc/-.c line 131: Illegal LHS before the end of line
+
+[Thu Dec  6 16:15:32 2001] u/y/yunin/npc/-.c line 148: parse error before  {
+
+[Thu Dec  6 16:16:16 2001] u/y/yunin/npc/-.c line 125: parse error before n;
+
+[Thu Dec  6 16:16:16 2001] u/y/yunin/npc/-.c line 131: Illegal LHS before the end of line
+
+[Thu Dec  6 16:16:16 2001] u/y/yunin/npc/-.c line 148: parse error before  {
+
+[Thu Dec  6 16:21:46 2001] u/y/yunin/npc/-.c line 125: parse error before n;
+
+[Thu Dec  6 16:21:46 2001] u/y/yunin/npc/-.c line 131: Illegal LHS before the end of line
+
+[Thu Dec  6 16:21:46 2001] u/y/yunin/npc/-.c line 148: parse error before  {
+
+[Thu Dec  6 16:22:20 2001] u/y/yunin/npc/-.c line 125: parse error before n;
+
+[Thu Dec  6 16:22:20 2001] u/y/yunin/npc/-.c line 131: Illegal LHS before the end of line
+
+[Thu Dec  6 16:22:20 2001] u/y/yunin/npc/-.c line 148: parse error before  {
+
+[Thu Dec  6 16:23:12 2001] u/y/yunin/npc/--.c line 125: parse error before n;
+
+[Thu Dec  6 16:23:12 2001] u/y/yunin/npc/--.c line 131: Illegal LHS before the end of line
+
+[Thu Dec  6 16:23:12 2001] u/y/yunin/npc/--.c line 148: parse error before  {
+
+[Thu Dec  6 16:42:28 2001] u/y/yunin/godarea/room1.c line 21: End of file in text block before ss",
+
+[Thu Dec  6 16:42:28 2001] u/y/yunin/godarea/room1.c line 21: parse error before ss",
+
+[Thu Dec  6 16:43:25 2001] u/y/yunin/godarea/room1.c line 21: End of file in text block before oun3",
+
+[Thu Dec  6 16:43:25 2001] u/y/yunin/godarea/room1.c line 21: parse error before oun3",
+
+[Thu Dec  6 16:45:23 2001] u/y/yunin/godarea/room1.c line 21: End of file in text block before \n"
+
+[Thu Dec  6 16:45:23 2001] u/y/yunin/godarea/room1.c line 21: parse error before \n"
+
+[Thu Dec  6 16:48:38 2001] u/y/yunin/godarea/room1.c line 24: End of file in text block before replace_string( resu
+
+[Thu Dec  6 16:48:38 2001] u/y/yunin/godarea/room1.c line 24: parse error before replace_string( resu
+
+[Thu Dec  6 16:52:17 2001] u/y/yunin/godarea/room1.c line 5: Undefined function set before ;
+
+[Thu Dec  6 16:52:17 2001] u/y/yunin/godarea/room1.c line 22: End of file in text block before ean_up",0);
+
+[Thu Dec  6 16:52:17 2001] u/y/yunin/godarea/room1.c line 22: parse error before ean_up",0);
+
+[Thu Dec  6 17:32:47 2001] u/y/yunin/godarea/room1.c line 3: parse error before  create()
+
+[Thu Dec  6 17:35:32 2001] u/y/yunin/godarea/room1.c line 25: End of file in text block before  ]),
+
+[Thu Dec  6 17:35:32 2001] u/y/yunin/godarea/room1.c line 25: parse error before  ]),
+
+[Thu Dec  6 17:38:45 2001] u/y/yunin/godarea/room1.c line 25: End of file in text block before       set("outdoors"
+
+[Thu Dec  6 17:38:45 2001] u/y/yunin/godarea/room1.c line 25: parse error before       set("outdoors"
+
+[Thu Dec  6 17:39:01 2001] u/y/yunin/godarea/room1.c line 24: End of file in text block before gram(ROOM);
+
+[Thu Dec  6 17:39:01 2001] u/y/yunin/godarea/room1.c line 24: parse error before gram(ROOM);
+
+[Thu Dec  6 17:39:25 2001] u/y/yunin/godarea/room1.c line 24: End of file in text block before ram(ROOM);
+
+[Thu Dec  6 17:39:25 2001] u/y/yunin/godarea/room1.c line 24: parse error before ram(ROOM);
+
+[Thu Dec  6 17:41:16 2001] u/y/yunin/godarea/room1.c line 21: End of file in text block before ), "random_move" :),
+
+[Thu Dec  6 17:41:16 2001] u/y/yunin/godarea/room1.c line 21: parse error before ), "random_move" :),
+
+[Thu Dec  6 17:42:16 2001] u/y/yunin/godarea/room1.c line 21: End of file in text block before x of the msg we are 
+
+[Thu Dec  6 17:42:16 2001] u/y/yunin/godarea/room1.c line 21: parse error before x of the msg we are 
+
+[Thu Dec  6 17:45:53 2001] u/y/yunin/godarea/room1.c line 21: End of file in text block before e")+"¨Ã¤£±µ¨ü§Aªº©R¥
+
+[Thu Dec  6 17:45:53 2001] u/y/yunin/godarea/room1.c line 21: parse error before e")+"¨Ã¤£±µ¨ü§Aªº©R¥
+
+[Fri Dec  7 19:34:35 2001] u/y/yunin/godarea/room1.c line 21: End of file in text block before 	setup();
+
+[Fri Dec  7 19:34:35 2001] u/y/yunin/godarea/room1.c line 21: parse error before 	setup();
+
+[Fri Dec  7 19:35:02 2001] u/y/yunin/godarea/room1.c line 2: parse error before  create()
+
+[Fri Dec  7 20:43:33 2001] u/y/yunin/godarea/room5.c line 3: parse error before  ROOM;
+
+[Fri Dec  7 21:03:58 2001] u/y/yunin/godarea/room6.c line 14: parse error before ("exits", ([ /* size
+
+[Fri Dec  7 21:03:58 2001] u/y/yunin/godarea/room6.c line 35: Illegal LHS before the end of line
+
+[Fri Dec  7 21:03:58 2001] u/y/yunin/godarea/room6.c line 35: parse error before the end of line
+
+[Fri Dec  7 21:05:25 2001] u/y/yunin/godarea/room6.c line 14: parse error before ("exits", ([ /* size
+
+[Fri Dec  7 21:05:25 2001] u/y/yunin/godarea/room6.c line 35: Illegal LHS before the end of line
+
+[Fri Dec  7 21:05:25 2001] u/y/yunin/godarea/room6.c line 35: parse error before the end of line
+
+[Fri Dec  7 21:06:15 2001] u/y/yunin/godarea/room6.c line 14: parse error before ("exits", ([ /* size
+
+[Fri Dec  7 21:06:15 2001] u/y/yunin/godarea/room6.c line 35: Illegal LHS before the end of line
+
+[Fri Dec  7 21:06:15 2001] u/y/yunin/godarea/room6.c line 35: parse error before the end of line
+
+[Fri Dec  7 21:06:19 2001] u/y/yunin/godarea/room6.c line 14: parse error before ("exits", ([ /* size
+
+[Fri Dec  7 21:06:19 2001] u/y/yunin/godarea/room6.c line 35: Illegal LHS before the end of line
+
+[Fri Dec  7 21:06:19 2001] u/y/yunin/godarea/room6.c line 35: parse error before the end of line
+
+[Sun Dec  9 06:35:08 2001] u/y/yunin/godarea/room6.c line 14: parse error before ("exits", ([ /* size
+
+[Sun Dec  9 06:35:08 2001] u/y/yunin/godarea/room6.c line 35: Illegal LHS before the end of line
+
+[Sun Dec  9 06:35:08 2001] u/y/yunin/godarea/room6.c line 35: parse error before the end of line
+
+[Sun Dec  9 06:49:01 2001] u/y/yunin/godarea/room6.c line 4: parse error before  DOOR
+
+[Sun Dec  9 06:49:56 2001] u/y/yunin/godarea/room6.c line 4: parse error before  DOOR
+
+[Sun Dec  9 06:53:39 2001] u/y/yunin/godarea/room6.c line 4: parse error before  create()
+
+[Sun Dec  9 06:57:03 2001] u/y/yunin/godarea/room6.c line 28: Reserved type name unexpected. before ()
+
+[Sun Dec  9 06:57:03 2001] u/y/yunin/godarea/room6.c line 28: parse error before ()
+
+[Wed Dec 12 19:07:47 2001] u/y/yunin/yunin_b.c line 6: parse error before  create()
+
+[Sun Dec 16 00:06:50 2001] u/y/yunin/godarea/room8.c line 21: parse error before the end of line
+
+[Sun Dec 16 00:06:50 2001] u/y/yunin/godarea/room8.c line 37: Illegal LHS before the end of line
+
+[Sun Dec 16 00:06:50 2001] u/y/yunin/godarea/room8.c line 37: parse error before the end of line
+
+[Sun Dec 16 00:06:50 2001] u/y/yunin/godarea/room8.c line 49: End of file in string before rr );
+
+[Sun Dec 16 00:10:19 2001] u/y/yunin/godarea/room8.c line 3: parse error before  ROOM;
+
+[Sun Dec 16 00:11:24 2001] u/y/yunin/godarea/room8.c line 23: parse error before the end of line
+
+[Sun Dec 16 00:11:24 2001] u/y/yunin/godarea/room8.c line 39: Illegal LHS before the end of line
+
+[Sun Dec 16 00:11:24 2001] u/y/yunin/godarea/room8.c line 39: parse error before the end of line
+
+[Sun Dec 16 00:12:00 2001] u/y/yunin/godarea/room8.c line 22: parse error before the end of line
+
+[Sun Dec 16 00:12:00 2001] u/y/yunin/godarea/room8.c line 38: Illegal LHS before the end of line
+
+[Sun Dec 16 00:12:00 2001] u/y/yunin/godarea/room8.c line 38: parse error before the end of line
+
+[Sun Dec 16 00:13:51 2001] u/y/yunin/godarea/room8.c line 19: parse error before ",
+
+[Sun Dec 16 00:13:51 2001] u/y/yunin/godarea/room8.c line 21: Illegal terminator before ­Ó²ö¦W¨ä§®ªºÅKªO¡A§A
+
+[Sun Dec 16 00:15:17 2001] u/y/yunin/godarea/room8.c line 19: parse error before ", 
+
+[Sun Dec 16 00:15:17 2001] u/y/yunin/godarea/room8.c line 22: Illegal terminator before ­Ó²ö¦W¨ä§®ªºÅKªO¡A§A
+
+[Sun Dec 16 00:16:48 2001] u/y/yunin/godarea/room8.c line 19: parse error before ", 
+
+[Sun Dec 16 00:16:48 2001] u/y/yunin/godarea/room8.c line 41: $var illegal outside of function pointer. before N¥Î¤O©Ô¤FÅKªO¤WªºÂê¡
+
+[Sun Dec 16 00:16:48 2001] u/y/yunin/godarea/room8.c line 41: $var illegal outside of function pointer. before N¶^¤F¤U¥h¡C\n"NOR,me
+
+[Sun Dec 16 00:16:48 2001] u/y/yunin/godarea/room8.c line 49: End of file in string before   |\n  |  |  [33m|¢
+
+[Sun Dec 16 00:18:38 2001] u/y/yunin/godarea/room8.c line 19: parse error before ", 
+
+[Sun Dec 16 00:18:38 2001] u/y/yunin/godarea/room8.c line 22: Illegal terminator before ­Ó²ö¦W¨ä§®ªºÅKªO¡A§A
+
+[Sun Dec 16 00:19:19 2001] u/y/yunin/godarea/room8.c line 19: parse error before ", 
+
+[Sun Dec 16 00:19:19 2001] u/y/yunin/godarea/room8.c line 21: Illegal terminator before ­Ó²ö¦W¨ä§®ªºÅKªO¡A§A
+
+[Sun Dec 16 00:20:09 2001] u/y/yunin/godarea/room8.c line 19: parse error before ", 
+
+[Sun Dec 16 00:20:09 2001] u/y/yunin/godarea/room8.c line 21: Illegal terminator before /­Ó²ö¦W¨ä§®ªºÅKªO¡A§
+
+[Sun Dec 16 01:14:04 2001] u/y/yunin/123.c line 1: parse error before include <ansi.h>
+
+[Sun Dec 16 01:20:36 2001] u/y/yunin/skill/wsword.c line 2: parse error before include <ansi.h>
+
+[Sun Dec 16 01:20:58 2001] u/y/yunin/skill/wsword.c line 151: parse error before õ­±Åã¥X¤F°{°{ªº¥ú¯í¡
+
+[Sun Dec 16 01:20:58 2001] u/y/yunin/skill/wsword.c line 156: $var illegal outside of function pointer. before N±N¤â¤¤"+weapon->que
+
+[Sun Dec 16 01:20:58 2001] u/y/yunin/skill/wsword.c line 156: $var illegal outside of function pointer. before nªº"+limbs[random(si
+
+[Sun Dec 16 01:20:58 2001] u/y/yunin/skill/wsword.c line 159: $var illegal outside of function pointer. before n¸ú¶}¨Ó¤F!!¡C\n",me,
+
+[Sun Dec 16 01:20:58 2001] u/y/yunin/skill/wsword.c line 162: $var illegal outside of function pointer. before n»´¥©ªºÀÉ¤U¤F§ðÀ»¡C\
+
+[Sun Dec 16 01:20:58 2001] u/y/yunin/skill/wsword.c line 165: $var illegal outside of function pointer. before n¾÷¥©ªº¸ú¶}¤F¡C\n",m
+
+[Sun Dec 16 11:18:03 2001] u/y/yunin/skill/wind-sword.c line 1: parse error before include <ansi.h>
+
+[Sun Dec 16 11:18:28 2001] u/y/yunin/skill/wind-sword.c line 151: parse error before õ­±Åã¥X¤F°{°{ªº¥ú¯í¡
+
+[Sun Dec 16 11:18:28 2001] u/y/yunin/skill/wind-sword.c line 156: $var illegal outside of function pointer. before N±N¤â¤¤"+weapon->que
+
+[Sun Dec 16 11:18:28 2001] u/y/yunin/skill/wind-sword.c line 156: $var illegal outside of function pointer. before nªº"+limbs[random(si
+
+[Sun Dec 16 11:18:28 2001] u/y/yunin/skill/wind-sword.c line 159: $var illegal outside of function pointer. before n»´ÃP¤@ÅD¡A¸ú¶}¤F§ðÀ
+
+[Sun Dec 16 11:18:28 2001] u/y/yunin/skill/wind-sword.c line 159: Illegal terminator before ÅD¡A¸ú¶}¤F§ðÀ»!!¡C\n
+
+[Sat Dec 22 23:55:33 2001] u/y/yunin/workroom.c line 39: parse error before the end of line
+
+[Sun Dec 23 00:10:02 2001] u/y/yunin/godarea/room1.c line 5: parse error before  ROOM;
+
+[Sun Dec 23 00:37:38 2001] u/y/yunin/godarea/room12.c line 25: Undefined variable '__DIR_' before ,
+
+[Sun Dec 23 00:37:38 2001] u/y/yunin/godarea/room12.c line 25: parse error before ,
+
+[Sun Dec 23 02:01:47 2001] u/y/yunin/npc/yan.c line 16: parse error before |¶ð¤Ñ¤ý¤§¤@);
+
+[Sun Dec 23 02:01:47 2001] u/y/yunin/npc/yan.c line 16: Illegal terminator before );
+
+[Sun Dec 23 02:02:46 2001] u/y/yunin/npc/yan.c line 16: parse error before |¶ð¤Ñ¤ý¤§¤@);
+
+[Sun Dec 23 02:02:46 2001] u/y/yunin/npc/yan.c line 16: Illegal terminator before );
+
+[Sun Dec 23 02:05:47 2001] u/y/yunin/npc/yan.c line 16: parse error before |¶ð¤Ñ¤ý¤§¤@);
+
+[Sun Dec 23 02:05:47 2001] u/y/yunin/npc/yan.c line 16: Illegal terminator before );
+
+[Sun Dec 23 02:08:02 2001] u/y/yunin/npc/yan.c line 16: parse error before |¶ð¤Ñ¤ý¤§¤@);
+
+[Sun Dec 23 02:08:02 2001] u/y/yunin/npc/yan.c line 16: Illegal terminator before );
+
+[Sun Dec 23 03:02:39 2001] u/y/yunin/npc/eq/shu11.c line 1: parse error before ansi.h>
+
+[Sun Dec 23 03:21:27 2001] u/y/yunin/npc/eq/shu4.c line 6: parse error before  lo cloth","cloth" }
+
+[Sun Dec 23 03:21:27 2001] u/y/yunin/npc/eq/shu4.c line 23: End of file in string before con",weight()/1200);
+
+[Sun Dec 23 03:22:07 2001] u/y/yunin/npc/eq/shu4.c line 23: End of file in text block before en/world3/tmr/basic/
+
+[Sun Dec 23 03:22:07 2001] u/y/yunin/npc/eq/shu4.c line 23: parse error before en/world3/tmr/basic/
+
+[Sun Dec 23 03:23:46 2001] u/y/yunin/npc/eq/shu4.c line 23: End of file in text block before ô":"ÄÝ©ó¸ûªì¯Åªº¤Wºô
+
+[Sun Dec 23 03:23:46 2001] u/y/yunin/npc/eq/shu4.c line 23: parse error before ô":"ÄÝ©ó¸ûªì¯Åªº¤Wºô
+
+[Sun Dec 23 03:27:19 2001] u/y/yunin/npc/eq/shu4.c line 23: End of file in text block before the end of line
+
+[Sun Dec 23 03:27:19 2001] u/y/yunin/npc/eq/shu4.c line 23: parse error before the end of line
+
+[Sun Dec 23 03:30:10 2001] u/y/yunin/npc/eq/shu4.c line 31: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Sun Dec 23 03:30:10 2001] u/y/yunin/npc/eq/shu4.c line 31: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Sun Dec 23 03:30:10 2001] u/y/yunin/npc/eq/shu4.c line 31: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Sun Dec 23 03:30:10 2001] u/y/yunin/npc/eq/shu4.c line 31: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Sun Dec 23 03:30:10 2001] u/y/yunin/npc/eq/shu4.c line 31: Illegal to redefine 'nomask' function "query_encumbrance" before the end of line
+
+[Sun Dec 23 03:30:10 2001] u/y/yunin/npc/eq/shu4.c line 31: Illegal to redefine 'nomask' function "over_encumbranced" before the end of line
+
+[Sun Dec 23 03:41:07 2001] u/y/yunin/npc/eq/shu1.c line 26: Wrong number of arguments to set
+    Expected: 2  Got: 1 before ;
+
+[Sun Dec 23 03:43:44 2001] u/y/yunin/npc/eq/shu0.c line 5: Undefined function set_name before ;
+
+[Sun Dec 23 03:43:44 2001] u/y/yunin/npc/eq/shu0.c line 6: Undefined function set before ;
+
+[Sun Dec 23 03:43:44 2001] u/y/yunin/npc/eq/shu0.c line 7: Undefined function set_weight before ;
+
+[Sun Dec 23 03:43:44 2001] u/y/yunin/npc/eq/shu0.c line 9: Undefined function set_default_object before ;
+
+[Sun Dec 23 03:43:44 2001] u/y/yunin/npc/eq/shu0.c line 19: Undefined function setup before ;
+
+[Sun Dec 23 03:45:36 2001] u/y/yunin/npc/eq/shu0.c line 5: Undefined function set_name before ;
+
+[Sun Dec 23 03:45:36 2001] u/y/yunin/npc/eq/shu0.c line 6: Undefined function set before ;
+
+[Sun Dec 23 03:45:36 2001] u/y/yunin/npc/eq/shu0.c line 7: Undefined function set_weight before ;
+
+[Sun Dec 23 03:45:36 2001] u/y/yunin/npc/eq/shu0.c line 9: Undefined function set_default_object before ;
+
+[Sun Dec 23 03:45:36 2001] u/y/yunin/npc/eq/shu0.c line 19: Undefined function setup before ;
+
+[Sun Dec 23 03:50:28 2001] u/y/yunin/npc/eq/shu0.c line 5: Undefined function set_name before ;
+
+[Sun Dec 23 03:50:28 2001] u/y/yunin/npc/eq/shu0.c line 9: Undefined function set before ;
+
+[Sun Dec 23 03:50:28 2001] u/y/yunin/npc/eq/shu0.c line 10: Undefined function set_weight before ; 
+
+[Sun Dec 23 03:50:28 2001] u/y/yunin/npc/eq/shu0.c line 12: Undefined function set_default_object before ;
+
+[Sun Dec 23 03:50:28 2001] u/y/yunin/npc/eq/shu0.c line 21: Undefined function setup before ;
+
+[Sun Dec 23 04:02:31 2001] u/y/yunin/npc/wp/o1.c line 20: parse error before the end of file
+
+[Sun Dec 23 04:04:36 2001] u/y/yunin/npc/wp/o1.c line 2: parse error before ;
+
+[Sun Dec 23 04:21:50 2001] u/y/yunin/shop.c line 14: parse error before "boss" : 1,
+
+[Sun Dec 23 04:48:53 2001] u/y/yunin/npc/eq/shu2.c line 5: Undefined function set_name before ;
+
+[Sun Dec 23 04:48:53 2001] u/y/yunin/npc/eq/shu2.c line 6: Undefined function set before ;
+
+[Sun Dec 23 04:48:53 2001] u/y/yunin/npc/eq/shu2.c line 7: Undefined function set_weight before ;
+
+[Sun Dec 23 04:48:53 2001] u/y/yunin/npc/eq/shu2.c line 9: Undefined function set_default_object before ;
+
+[Sun Dec 23 04:48:53 2001] u/y/yunin/npc/eq/shu2.c line 19: Undefined function setup before ;
+
+[Sun Dec 23 04:53:43 2001] u/y/yunin/npc/eq/shu12.c line 2: parse error before ;
+
+[Sun Dec 23 04:54:27 2001] u/y/yunin/npc/eq/shu12.c line 2: parse error before ;
+
+[Sun Dec 23 04:54:29 2001] u/y/yunin/npc/eq/shu12.c line 2: parse error before ;
+
+[Sun Dec 23 04:54:35 2001] u/y/yunin/npc/eq/shu12.c line 2: parse error before ;
+
+[Sun Dec 23 04:55:27 2001] u/y/yunin/npc/eq/shu12.c line 2: parse error before ;
+
+[Sun Dec 23 04:55:29 2001] u/y/yunin/npc/eq/shu12.c line 2: parse error before ;
+
+[Sun Dec 23 04:55:31 2001] u/y/yunin/npc/eq/shu12.c line 2: parse error before ;
+

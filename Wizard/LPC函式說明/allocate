@@ -1,0 +1,18 @@
+
+	allocate(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		allocate() - 配置記憶體給一個陣列 (array).
+	函數語法:
+		mixed *allocate( int size );
+
+		混合 *allocate( 整數 size );
+	函數用法:
+		配置記憶體給一個有 size 個元素 (element)  的陣列. 
+		元素的數目必須大於 0, 而且不可以超過系統設定的上限
+		(通常約 10000 左右) . 所有元素的初始值 (initialized)
+		均為 0.
+	參考函數:
+		sizeof(3), allocate_mapping(3)
+	手冊翻譯:
+		Phoebus@ZH	1997.Aug.12.		(Writen 5/23/97)

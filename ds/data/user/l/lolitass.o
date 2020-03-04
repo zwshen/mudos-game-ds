@@ -1,0 +1,7 @@
+#/obj/user.c
+conditions ([])
+dbase (["race":"tiger","addition_damage":10,"DS_DATA_VERSION":19991107,"supply_point":60,"actions":,"default_actions":,"max_mp":64,"help":"cmds/","channels":({"chat","rumor","tchat",}),"max_hp":110,"birthday":1193313778,"id":"lolitass","Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"gender":"¤k©Ê","name":"®¦","mp":61,"heart_beat_rate":6,"max_ap":64,"ap":64,"startroom":"/open/world1/tmr/area/hotel","heart_modify":0,"age":14,"attitude":"peaceful","board_last_read":(["tmr_hotel_b":1149970157,]),"newbie":1,"exp":777,"addition_shield":10,"dex":2,"unit":"¦ì","int":2,"con":2,"str":2,"talk_point":8,"level":1,"hp":110,"last_location":"/open/world1/wilfred/meadow/room30","volume":7,"evil":-1,"addition_armor":10,"wound":(["head":0,"left_arm":0,"right_leg":0,"left_leg":0,"body":0,"right_arm":0,]),"mud_age":521,"cure_count":15,"guild_gifts":({5,5,5,5,}),])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

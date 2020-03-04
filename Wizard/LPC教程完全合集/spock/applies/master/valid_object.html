@@ -1,0 +1,41 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=bg2312">
+   <META NAME="Author" CONTENT="Spock">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.01 [en] (Win95; I) [Netscape]">
+   <TITLE>MudOS v21c2 参考文件 - applies - master - valid_object</TITLE>
+</HEAD>
+<BODY TEXT="#CCFFFF" BGCOLOR="#000000" LINK="#33FF33" VLINK="#FF0000" ALINK="#33CCFF" BACKGROUND="../../../image/ff/fftitleback.jpg" NOSAVE>
+
+<CENTER><FONT COLOR="#FF99FF"><FONT SIZE=+3>valid_object(4)　 MudOS v21c2　
+(5 Sep 1994)</FONT></FONT></CENTER>
+
+<HR WIDTH="100%">
+<BR><FONT COLOR="#FFFFCC">　名称:</FONT>
+<UL>　 valid_object - 控制是否载入某个物件.</UL>
+<FONT COLOR="#FFFFCC">　语法:</FONT>
+<UL>　 int valid_object( object obj );
+
+<P>　 整数 valid_object( 物件 obj );</UL>
+<FONT COLOR="#FFFFCC">　用法:</FONT>
+<UL>　 载入一个物件之后, 驱动程序会以新创造的此物件为参数, 调用主控物件
+(master object)　 的 valid_object(). 如果 valid_object() 存在, 并返回 0,
+则会摧毁此物件并使载入物件的外部函数 (efun) 产生错误输出. 如果此函数不存在或是返回
+1, 则载入物件的过程就跟平常一样. 在模拟外部函数 (simul_efun) 中使用 nomask
+和 inherit() 外部函数, 再与 valid_object() 并用的话, 可以安全限制 destruct()
+函数.</UL>
+<FONT COLOR="#FFFFCC">　参考:</FONT>
+<UL>　 <A HREF="valid_override.html">valid_override(4)</A></UL>
+<FONT COLOR="#FFFFCC">　翻译:</FONT>
+<UL>　 Spock @ FF 97.Aug.7.　 (printed 3/16/95)</UL>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+<CENTER><A HREF="../master.html">回到上一页</A></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+</BODY>
+</HTML>

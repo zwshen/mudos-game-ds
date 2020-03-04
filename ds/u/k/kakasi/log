@@ -1,0 +1,438 @@
+[Sun Apr 22 17:27:13 2001] u/k/kakasi/workroom.c line 33: Warning: Unknown \ escape. before  / \
+
+[Sun Apr 22 17:27:13 2001] u/k/kakasi/workroom.c line 34: Warning: Unknown \ escape. before  _ \
+
+[Sun Apr 22 17:27:13 2001] u/k/kakasi/workroom.c line 35: Warning: Unknown \ escape. before |/ \ \
+
+[Sun Apr 22 17:27:13 2001] u/k/kakasi/workroom.c line 35: Warning: Unknown \ escape. before \
+
+[Sun Apr 22 17:27:13 2001] u/k/kakasi/workroom.c line 36: Warning: Unknown \ escape. before    \ \
+
+[Sun Apr 22 17:27:13 2001] u/k/kakasi/workroom.c line 36: Warning: Unknown \ escape. before \
+
+[Sun Apr 22 17:27:13 2001] u/k/kakasi/workroom.c line 37: Warning: Unknown \ escape. before \
+
+[Sun Apr 22 17:27:13 2001] u/k/kakasi/workroom.c line 42: Warning: Unknown \ escape. before |||¢i||||/¡ş
+
+[Sun Apr 22 17:27:13 2001] u/k/kakasi/workroom.c line 45: String too long before ||||||||¢i¢i¢i||||||
+
+[Sun Apr 22 17:27:13 2001] u/k/kakasi/workroom.c line 45: parse error before ||||||||¢i¢i¢i||||||
+
+[Sun Apr 22 17:52:33 2001] u/k/kakasi/npc/ka.c line 46: End of file in text block before Æp¶i­ş¸Ì ?\n");
+
+[Sun Apr 22 17:52:33 2001] u/k/kakasi/npc/ka.c line 46: parse error before Æp¶i­ş¸Ì ?\n");
+
+[Sun Apr 22 17:56:06 2001] u/k/kakasi/npc/ka.c line 54: End of file in text block before µ¥¯Å20¥H¤W¤~¯à¶i¥h¡C
+
+[Sun Apr 22 17:56:06 2001] u/k/kakasi/npc/ka.c line 54: parse error before µ¥¯Å20¥H¤W¤~¯à¶i¥h¡C
+
+[Sun Apr 22 17:58:03 2001] u/k/kakasi/npc/ka.c line 39: End of file in text block before rget ) target = pres
+
+[Sun Apr 22 17:58:03 2001] u/k/kakasi/npc/ka.c line 39: parse error before rget ) target = pres
+
+[Sun Apr 22 18:09:00 2001] u/k/kakasi/wp/dagger.c line 24: Reserved type name unexpected. before (object me,object vi
+
+[Sun Apr 22 18:09:00 2001] u/k/kakasi/wp/dagger.c line 24: parse error before (object me,object vi
+
+[Sun Apr 22 21:01:36 2001] u/k/kakasi/wp/dagger.c line 24: Reserved type name unexpected. before (object me,object vi
+
+[Sun Apr 22 21:01:36 2001] u/k/kakasi/wp/dagger.c line 24: parse error before (object me,object vi
+
+[Sun Apr 22 21:20:56 2001] u/k/kakasi/wp/dagger.c line 24: Reserved type name unexpected. before (object me,object vi
+
+[Sun Apr 22 21:20:56 2001] u/k/kakasi/wp/dagger.c line 24: parse error before (object me,object vi
+
+[Sun Apr 22 21:20:56 2001] u/k/kakasi/wp/dagger.c line 32: Illegal terminator before ¨ë"HIW"³y¦¨·¥¤jªº¨ë¶
+
+[Sun Apr 22 21:23:30 2001] u/k/kakasi/wp/dagger.c line 24: Reserved type name unexpected. before (object me,object vi
+
+[Sun Apr 22 21:23:30 2001] u/k/kakasi/wp/dagger.c line 24: parse error before (object me,object vi
+
+[Sun Apr 22 21:23:30 2001] u/k/kakasi/wp/dagger.c line 32: Illegal terminator before ¨ë"HIW"³y¦¨·¥¤jªº¨ë¶
+
+[Sun Apr 22 21:24:53 2001] u/k/kakasi/wp/dagger.c line 24: Reserved type name unexpected. before (object me,object vi
+
+[Sun Apr 22 21:24:53 2001] u/k/kakasi/wp/dagger.c line 24: parse error before (object me,object vi
+
+[Sun Apr 22 21:26:05 2001] u/k/kakasi/wp/dagger.c line 24: Reserved type name unexpected. before (object me,object vi
+
+[Sun Apr 22 21:26:05 2001] u/k/kakasi/wp/dagger.c line 24: parse error before (object me,object vi
+
+[Sun Apr 22 21:29:08 2001] u/k/kakasi/wp/dagger.c line 24: Reserved type name unexpected. before (object me,object vi
+
+[Sun Apr 22 21:29:08 2001] u/k/kakasi/wp/dagger.c line 24: parse error before (object me,object vi
+
+[Sun Apr 22 21:29:08 2001] u/k/kakasi/wp/dagger.c line 33: Illegal terminator before ¨ë¡A"HIW"³y¦¨·¥¤jªº¨
+
+[Sun Apr 22 21:29:38 2001] u/k/kakasi/wp/dagger.c line 24: Reserved type name unexpected. before (object me,object vi
+
+[Sun Apr 22 21:29:38 2001] u/k/kakasi/wp/dagger.c line 24: parse error before (object me,object vi
+
+[Sun Apr 22 21:57:01 2001] u/k/kakasi/eq/mask.c line 7: parse error before ´"NOR,({"sha-lon mas
+
+[Sun Apr 22 21:58:46 2001] u/k/kakasi/eq/mask.c line 7: parse error before ´"NOR,({"sha-lon mas
+
+[Sun Apr 22 22:00:28 2001] u/k/kakasi/eq/mask.c line 7: parse error before ´"NOR, ({"sha-lon ma
+
+[Tue Apr 24 21:57:41 2001] u/k/kakasi/eq/mask.c line 7: parse error before ´"NOR, ({"sha-lon ma
+
+[Fri Apr 27 21:25:21 2001] u/k/kakasi/wp/dagger.c line 34: parse error before n"NOR,me,victim); 
+
+[Fri Apr 27 21:25:21 2001] u/k/kakasi/wp/dagger.c line 43: End of file in string before r("ITEM : material ¸
+
+[Fri Apr 27 22:00:01 2001] u/k/kakasi/npc/kakasi.c line 1: parse error before ansi.c>
+
+[Fri Apr 27 22:00:37 2001] u/k/kakasi/npc/ka.c line 2: Cannot #include ansi.c before inherit NPC;
+
+[Fri Apr 27 22:00:37 2001] u/k/kakasi/npc/ka.c line 11: parse error before £¸Ô);
+
+[Fri Apr 27 22:00:37 2001] u/k/kakasi/npc/ka.c line 41: Illegal terminator before ­ÓÅ@¨ã¡Aµ¹¤F"HIG$n¡C
+
+[Fri Apr 27 22:01:11 2001] u/k/kakasi/npc/ka.c line 1: Cannot #include ansi.c before inherit NPC;
+
+[Fri Apr 27 22:01:11 2001] u/k/kakasi/npc/ka.c line 5: Undefined variable 'HIC' before ,({"kakasi","chi mu"
+
+[Fri Apr 27 22:01:11 2001] u/k/kakasi/npc/ka.c line 5: parse error before ,({"kakasi","chi mu"
+
+[Fri Apr 27 22:01:11 2001] u/k/kakasi/npc/ka.c line 42: Illegal LHS before the end of line
+
+[Fri Apr 27 22:01:11 2001] u/k/kakasi/npc/ka.c line 42: parse error before the end of line
+
+[Fri Apr 27 22:01:41 2001] u/k/kakasi/npc/ka.c line 1: Cannot #include ansi.c before inherit NPC;
+
+[Fri Apr 27 22:01:41 2001] u/k/kakasi/npc/ka.c line 5: Undefined variable 'HIC' before NOR,({"kakasi","chi 
+
+[Fri Apr 27 22:01:41 2001] u/k/kakasi/npc/ka.c line 5: parse error before NOR,({"kakasi","chi 
+
+[Fri Apr 27 22:01:41 2001] u/k/kakasi/npc/ka.c line 42: Illegal LHS before the end of line
+
+[Fri Apr 27 22:01:41 2001] u/k/kakasi/npc/ka.c line 42: parse error before the end of line
+
+[Fri Apr 27 22:05:57 2001] u/k/kakasi/npc/ka.c line 10: parse error before £¸Ô);
+
+[Fri Apr 27 22:05:57 2001] u/k/kakasi/npc/ka.c line 42: Illegal LHS before the end of line
+
+[Fri Apr 27 22:05:57 2001] u/k/kakasi/npc/ka.c line 42: parse error before the end of line
+
+[Fri Apr 27 22:09:40 2001] u/k/kakasi/npc/ka.c line 10: parse error before £¸Ô);
+
+[Fri Apr 27 22:09:40 2001] u/k/kakasi/npc/ka.c line 42: Illegal LHS before the end of line
+
+[Fri Apr 27 22:09:40 2001] u/k/kakasi/npc/ka.c line 42: parse error before the end of line
+
+[Fri Apr 27 22:15:26 2001] u/k/kakasi/room/test.c line 6: parse error before ú¸Õªº©Ğ¶¡
+
+[Sun Apr 29 14:20:53 2001] u/k/kakasi/npc/wu.c line 25: Undefined variable 'wuchen' before staff);
+
+[Sun Apr 29 14:20:53 2001] u/k/kakasi/npc/wu.c line 25: Undefined variable 'staff' before ;
+
+[Sun Apr 29 14:20:53 2001] u/k/kakasi/npc/wu.c line 26: Undefined variable 'quanyin' before steps);
+
+[Sun Apr 29 14:20:53 2001] u/k/kakasi/npc/wu.c line 26: Undefined variable 'steps' before ;
+
+[Sun Apr 29 14:20:53 2001] u/k/kakasi/npc/wu.c line 27: Undefined variable 'buddha' before force);
+
+[Sun Apr 29 14:20:53 2001] u/k/kakasi/npc/wu.c line 27: Undefined variable 'force' before ;
+
+[Sun Apr 29 14:36:50 2001] u/k/kakasi/wp/w_staff.c line 13: parse error before n");
+
+[Sun Apr 29 14:36:50 2001] u/k/kakasi/wp/w_staff.c line 22: End of file in string before the end of line
+
+[Sun Apr 29 14:37:25 2001] u/k/kakasi/wp/w_staff.c line 22: parse error before the end of file
+
+[Sun Apr 29 14:38:03 2001] u/k/kakasi/wp/w_staff.c line 6: parse error before  staff","staff"}));
+
+[Sun Apr 29 14:38:03 2001] u/k/kakasi/wp/w_staff.c line 22: End of file in string before the end of line
+
+[Sun Apr 29 14:39:17 2001] u/k/kakasi/wp/w_staff.c line 6: parse error before  staff" , "staff" })
+
+[Sun Apr 29 14:39:17 2001] u/k/kakasi/wp/w_staff.c line 22: End of file in string before ing arg)
+
+[Sun Apr 29 14:39:47 2001] u/k/kakasi/wp/w_staff.c line 22: parse error before the end of file
+
+[Sun Apr 29 14:45:17 2001] u/k/kakasi/npc/wu.c line 25: Undefined variable 'wuchen' before staff);
+
+[Sun Apr 29 14:45:17 2001] u/k/kakasi/npc/wu.c line 25: Undefined variable 'staff' before ;
+
+[Sun Apr 29 14:45:17 2001] u/k/kakasi/npc/wu.c line 47: parse error before Ú°µ¤F³o»ò¦hÃa¨Æ§Úª¾§
+
+[Sun Apr 29 14:45:51 2001] u/k/kakasi/npc/wu.c line 25: Undefined variable 'wuchen' before staff);
+
+[Sun Apr 29 14:45:51 2001] u/k/kakasi/npc/wu.c line 25: Undefined variable 'staff' before ;
+
+[Sun Apr 29 14:45:51 2001] u/k/kakasi/npc/wu.c line 47: parse error before C\n\n"+NOR
+
+[Sun Apr 29 14:45:51 2001] u/k/kakasi/npc/wu.c line 62: $var illegal outside of function pointer. before N"HIY"³ä³ä¦Û»y¡A°¨¤W
+
+[Sun Apr 29 14:45:51 2001] u/k/kakasi/npc/wu.c line 69: End of file in string before ¤F¡C\n")	""+"[1;37m
+
+[Sun Apr 29 14:47:44 2001] u/k/kakasi/npc/wu.c line 25: Undefined variable 'wuchen' before staff);
+
+[Sun Apr 29 14:47:44 2001] u/k/kakasi/npc/wu.c line 25: Undefined variable 'staff' before ;
+
+[Sun Apr 29 15:01:20 2001] u/k/kakasi/test.c line 17: parse error before u/k/kakasi/npc/wu" :
+
+[Sun Apr 29 15:01:20 2001] u/k/kakasi/test.c line 25: End of file in string before shuting down...
+
+[Sun Apr 29 15:19:54 2001] u/k/kakasi/npc/ka.c line 42: parse error before u/k/kakasi/eq/mask2"
+
+[Sun Apr 29 15:19:54 2001] u/k/kakasi/npc/ka.c line 44: Illegal terminator before Án¤£¨£¤F!?\n"NOR,ob)
+
+[Mon May  7 06:54:38 2001] u/k/kakasi/...c line 109: parse error before  ITEM;
+
+[Mon May  7 06:54:38 2001] u/k/kakasi/...c line 151: parse error before the end of line
+
+[Mon May  7 06:55:28 2001] u/k/kakasi/...c line 109: parse error before  ITEM;
+
+[Mon May  7 06:55:28 2001] u/k/kakasi/...c line 151: parse error before the end of line
+
+[Mon May  7 06:56:10 2001] u/k/kakasi/...c line 109: parse error before  ITEM;
+
+[Mon May  7 06:56:10 2001] u/k/kakasi/...c line 151: parse error before the end of line
+
+[Mon May  7 06:56:25 2001] u/k/kakasi/...c line 109: parse error before  ITEM;
+
+[Mon May  7 06:56:25 2001] u/k/kakasi/...c line 151: parse error before the end of line
+
+[Mon May  7 06:57:05 2001] u/k/kakasi/...c line 104: parse error before the end of file
+
+[Sat May 26 22:05:47 2001] u/k/kakasi/area/a3.c line 20: parse error before the end of line
+
+[Sat May 26 22:05:47 2001] u/k/kakasi/area/a3.c line 29: Illegal LHS before the end of line
+
+[Sat May 26 22:05:47 2001] u/k/kakasi/area/a3.c line 29: parse error before the end of line
+
+[Sat May 26 22:21:25 2001] u/k/kakasi/npc/b1.c line 19: Undefined variable 'north' before  || !this_player()->
+
+[Sat May 26 22:21:25 2001] u/k/kakasi/npc/b1.c line 20: Undefined variable 'south' before  || !this_player()->
+
+[Sat May 26 22:21:25 2001] u/k/kakasi/npc/b1.c line 21: parse error before ( name() + ±N§AÄd¤F¤
+
+[Sun May 27 16:14:27 2001] u/k/kakasi/area/a4.c line 6: Undefined function et before ;
+
+[Sun Jun 10 16:53:18 2001] u/k/kakasi/t1.c line 24: parse error before u"HIR"§Æ§Æ¨½¼w¥d¡ã"H
+
+[Sun Jun 10 16:53:18 2001] u/k/kakasi/t1.c line 25: $var illegal outside of function pointer. before N"HIW"²H²Hªº®ø¥¢¦b¤H
+
+[Sun Jun 10 16:53:18 2001] u/k/kakasi/t1.c line 26: Illegal terminator before ª½¥sµÛ"NOR);
+
+[Sun Jun 10 16:55:05 2001] u/k/kakasi/t1.c line 24: parse error before u"HIR"§Æ§Æ¨½¼w¥d¡ã"H
+
+[Sun Jun 10 16:55:05 2001] u/k/kakasi/t1.c line 25: $var illegal outside of function pointer. before N"HIW"²H²Hªº®ø¥¢¦b¤H
+
+[Sun Jun 10 16:55:05 2001] u/k/kakasi/t1.c line 26: Illegal terminator before ª½¥sµÛ"NOR);
+
+[Sun Jun 10 19:50:23 2001] u/k/kakasi/area/a3.c line 34: Undefined function et before ;
+
+[Sun Jun 10 19:50:23 2001] u/k/kakasi/area/a3.c line 76: parse error before the end of file
+
+[Sun Jun 10 19:51:03 2001] u/k/kakasi/area/a3.c line 34: Undefined function et before ;
+
+[Sun Jun 10 20:03:07 2001] u/k/kakasi/npc/b1.c line 28: Undefined function do_chat before ;
+
+[Sun Jun 10 20:06:16 2001] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Sun Jun 10 20:06:16 2001] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+
+[Sun Jun 10 20:07:44 2001] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Sun Jun 10 20:07:44 2001] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+
+[Mon Jun 18 12:37:06 2001] u/k/kakasi/ii.c line 22: parse error before );
+
+[Tue Jun 19 16:51:51 2001] u/k/kakasi/ii.c line 24: parse error before ;
+
+[Sun Jun 24 11:42:03 2001] u/k/kakasi/ii.c line 28: End of file in string before  = resolve_path(me->
+
+[Sun Jun 24 11:42:03 2001] u/k/kakasi/ii.c line 28: parse error before  = resolve_path(me->
+
+[Sun Jul 15 03:07:41 2001] u/k/kakasi/p.c line 1: parse error before #include <ansi.h>  /
+
+[Sun Sep  2 08:57:10 2001] u/k/kakasi/workroom.c line 35: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Sun Sep  2 08:57:10 2001] u/k/kakasi/workroom.c line 35: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Sun Sep  2 08:57:10 2001] u/k/kakasi/workroom.c line 35: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Sun Sep  2 08:57:10 2001] u/k/kakasi/workroom.c line 35: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Sun Sep  2 08:57:10 2001] u/k/kakasi/workroom.c line 35: Illegal to redefine 'nomask' function "add_light" before the end of line
+
+[Sun Sep  2 08:57:10 2001] u/k/kakasi/workroom.c line 65: Redeclaration of function create. before the end of line
+
+[Sun Sep  2 08:57:24 2001] u/k/kakasi/workroom.c line 35: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Sun Sep  2 08:57:24 2001] u/k/kakasi/workroom.c line 35: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Sun Sep  2 08:57:24 2001] u/k/kakasi/workroom.c line 35: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Sun Sep  2 08:57:24 2001] u/k/kakasi/workroom.c line 35: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Sun Sep  2 08:57:24 2001] u/k/kakasi/workroom.c line 35: Illegal to redefine 'nomask' function "add_light" before the end of line
+
+[Sun Sep  2 08:57:24 2001] u/k/kakasi/workroom.c line 65: Redeclaration of function create. before the end of line
+
+[Sun Sep  2 09:29:31 2001] u/k/kakasi/newbie/room1.c line 27: End of file in text block before id(getuid());
+
+[Sun Sep  2 09:29:31 2001] u/k/kakasi/newbie/room1.c line 27: parse error before id(getuid());
+
+[Sun Sep  2 09:30:18 2001] u/k/kakasi/newbie/room1.c line 27: End of file in text block before );
+
+[Sun Sep  2 09:30:18 2001] u/k/kakasi/newbie/room1.c line 27: parse error before );
+
+[Sun Sep  2 09:30:50 2001] u/k/kakasi/newbie/room1.c line 27: End of file in text block before }
+
+[Sun Sep  2 09:30:50 2001] u/k/kakasi/newbie/room1.c line 27: parse error before }
+
+[Wed Aug  4 15:47:34 2004] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Wed Aug  4 15:47:34 2004] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+
+[Wed Aug  4 16:13:10 2004] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Wed Aug  4 16:13:10 2004] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+
+[Wed Aug  4 16:28:10 2004] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Wed Aug  4 16:28:10 2004] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+
+[Wed Aug  4 16:43:11 2004] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Wed Aug  4 16:43:11 2004] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+
+[Wed Aug  4 17:13:12 2004] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Wed Aug  4 17:13:12 2004] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+
+[Wed Aug  4 17:43:13 2004] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Wed Aug  4 17:43:13 2004] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+
+[Wed Aug  4 18:13:14 2004] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Wed Aug  4 18:13:14 2004] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+
+[Wed Aug  4 18:28:14 2004] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Wed Aug  4 18:28:14 2004] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+
+[Wed Aug  4 18:58:15 2004] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Wed Aug  4 18:58:15 2004] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+
+[Wed Aug  4 19:13:16 2004] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Wed Aug  4 19:13:16 2004] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+
+[Wed Aug  4 19:43:17 2004] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Wed Aug  4 19:43:17 2004] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+
+[Wed Aug  4 20:13:18 2004] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Wed Aug  4 20:13:18 2004] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+
+[Wed Aug  4 20:43:19 2004] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Wed Aug  4 20:43:19 2004] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+
+[Wed Aug  4 21:13:20 2004] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Wed Aug  4 21:13:20 2004] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+
+[Wed Aug  4 21:28:20 2004] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Wed Aug  4 21:28:20 2004] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+
+[Wed Aug  4 21:58:21 2004] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Wed Aug  4 21:58:21 2004] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+
+[Wed Aug  4 22:28:22 2004] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Wed Aug  4 22:28:22 2004] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+
+[Wed Aug  4 22:43:23 2004] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Wed Aug  4 22:43:23 2004] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+
+[Wed Aug  4 23:13:24 2004] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Wed Aug  4 23:13:24 2004] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+
+[Wed Aug  4 23:28:24 2004] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Wed Aug  4 23:28:24 2004] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+
+[Wed Aug  4 23:58:25 2004] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Wed Aug  4 23:58:25 2004] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+
+[Thu Aug  5 00:28:26 2004] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Thu Aug  5 00:28:26 2004] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+
+[Thu Aug  5 00:43:27 2004] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Thu Aug  5 00:43:27 2004] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+
+[Thu Aug  5 00:58:27 2004] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Thu Aug  5 00:58:27 2004] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+
+[Thu Aug  5 01:13:28 2004] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Thu Aug  5 01:13:28 2004] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+
+[Thu Aug  5 01:28:28 2004] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Thu Aug  5 01:28:28 2004] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+
+[Thu Aug  5 02:13:30 2004] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Thu Aug  5 02:13:30 2004] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+
+[Thu Aug  5 02:43:31 2004] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Thu Aug  5 02:43:31 2004] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+
+[Thu Aug  5 02:58:31 2004] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Thu Aug  5 02:58:31 2004] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+
+[Thu Aug  5 03:28:32 2004] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Thu Aug  5 03:28:32 2004] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+
+[Thu Aug  5 03:58:33 2004] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Thu Aug  5 03:58:33 2004] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+
+[Thu Aug  5 04:28:34 2004] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Thu Aug  5 04:28:34 2004] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+
+[Thu Aug  5 04:58:35 2004] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Thu Aug  5 04:58:35 2004] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+
+[Thu Aug  5 05:13:36 2004] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Thu Aug  5 05:13:36 2004] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+
+[Thu Aug  5 05:43:37 2004] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Thu Aug  5 05:43:37 2004] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+
+[Thu Aug  5 05:58:37 2004] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Thu Aug  5 05:58:37 2004] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+
+[Thu Aug  5 06:28:38 2004] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Thu Aug  5 06:28:38 2004] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+
+[Thu Aug  5 06:58:39 2004] u/k/kakasi/npc/b1.c line 27: Undefined variable 'retur' before  0;
+
+[Thu Aug  5 06:58:39 2004] u/k/kakasi/npc/b1.c line 27: parse error before  0;
+

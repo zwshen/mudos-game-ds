@@ -1,0 +1,16 @@
+
+	load_object(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		load_object() - 以檔案名稱來尋找或載入一個物件
+	函數語法:
+		object load_object( string str );
+
+		物件 load_object( 字串 str );
+	函數用法:
+		用檔案名稱 str  尋找物件. 如果檔案存在而且物件尚未
+		載入, 則載入檔案. 否則此函式就傳回 0.
+	參考函數:
+		file_name(3), stat(3), find_object(3)
+	手冊翻譯:
+		Phoebus@ZH	97.Feb.18.		(Writen 5/23/97)

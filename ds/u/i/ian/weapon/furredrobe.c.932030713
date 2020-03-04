@@ -1,0 +1,33 @@
+#include <armor.h>
+
+inherit CLOTH;
+ 
+void create()
+{
+set_name("¥Ö¸Ê",({"furred robe","robe"}) );
+set("long","³o¬O¤@¥ó«p­«ªº¥Ö¸Ê, ¦³¨}¦nªº¿m´H®ÄªG¡C¥~­±ÂÐ¤W¤@¼hÁ¡Á÷¡C\n");
+set_weight(1275);
+        if( clonep() )
+                set_default_object(__FILE__);
+        else {
+set("material", "cloth");
+set("unit", "¥ó");
+set("value",215);
+
+set("limit_con",3);
+
+//  armor_prop/dex
+//  armor_prop/str
+//  armor_prop/int
+//  armor_prop/con
+//  armor_prop/armor    ª«²z¨¾Å@
+//  armor_prop/shield   «Dª«²z¨¾Å@
+// armor_prop/hit       ©R¤¤²v
+//  armor_prop/hit      ©R¤¤²v
+[A//  armor_prop/dodge    °{¸ú²v
+
+set("armor_prop/armor", 20);
+set("armor_prop/shield", 15);
+        }
+        setup();
+}

@@ -1,0 +1,7 @@
+#/obj/user.c
+ghost 1
+dbase (["volume":7,"con":2,"mud_age":2430,"unit":"位","addition_damage":10,"hp":3,"str":2,"actions":,"level":1,"DS_DATA_VERSION":19991107,"gender":"男性","default_actions":,"max_mp":64,"evil":11,"name":"巧","bellicosity":0,"mob_record":({"/open/world1/acme/bonze/npc/bonze3","/open/world1/acme/bonze/npc/dog","/open/world1/acme/bonze/npc/dog","/open/world1/acme/bonze/npc/dog","/open/world1/tmr/area/npc/traveler","/open/world1/tmr/area/npc/traveler","/open/world1/tmr/area/npc/dog","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"channels":({"chat","rumor","tchat",}),"max_hp":110,"guild_gifts":({5,5,5,5,}),"birthday":1168090991,"war_score":13,"cure_count":19,"race":"tiger","MKS":12,"combat_exp":4,"addition_shield":10,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"startroom":"/open/world1/tmr/area/hotel","mp":3,"supply_point":61,"talk_point":8,"last_location":"/open/world2/anfernee/start/prayroom","heart_beat_rate":6,"age":14,"attitude":"peaceful","addition_armor":10,"wound":(["left_leg":0,"right_arm":0,"head":0,"left_arm":0,"body":0,"right_leg":0,]),"max_ap":64,"ap":64,"newbie":1,"exp":2479,"id":"cubi","dex":2,"disable_type":" <毫無呼吸>","heart_modify":0,"int":2,])
+skills (["dagger":2,"unarmed":4,"combat":6,"strong-body":2,"dodge":3,])
+learned (["combat":27,"dodge":1,])
+alias (["g":"get all from corpse","sa":"sac corpse",])
+autoload ({})

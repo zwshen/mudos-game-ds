@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["int":2,"max_ap":60,"con":2,"str":2,"supply_point":2,"addition_damage":10,"max_hp":80,"age":14,"channels":({"chat","rumor","tchat",}),"ap":60,"cure_count":1,"actions":,"race":"human","level":1,"attitude":"peaceful","talk_point":1,"gender":"¨k©Ê","birthday":1112481490,"id":"sunmoyeah","max_mp":60,"volume":7,"unit":"¦ì","name":"¼Ü²öÒ³","evil":-1,"guild_gifts":({5,5,5,5,}),"default_actions":,"mud_age":12,"startroom":"/open/world2/anfernee/start/hall","newbie":1,"mp":60,"addition_shield":10,"hp":80,"Merits":(["wit":0,"bar":0,"tec":0,"sou":0,"bio":0,]),"exp":777,"DS_DATA_VERSION":19991107,"addition_armor":10,"heart_beat_rate":6,"dex":2,])
+autoload ({})

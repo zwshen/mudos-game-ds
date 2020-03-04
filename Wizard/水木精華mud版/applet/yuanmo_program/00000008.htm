@@ -1,0 +1,85 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清华站∶精华区</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+<A Name="top"></a>
+发信人:&nbsp;sorceress&nbsp;(李大善人~~~以德服人),&nbsp;信区:&nbsp;Mud_Builder&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+标&nbsp;&nbsp;题:&nbsp;source&nbsp;-&nbsp;menu.h&nbsp;(转载)&nbsp;<BR>
+发信站:&nbsp;BBS&nbsp;水木清华站&nbsp;(Wed&nbsp;Jun&nbsp;14&nbsp;17:38:42&nbsp;2000)&nbsp;<BR>
+&nbsp;<BR>
+【&nbsp;以下文字转载自&nbsp;GAME_Designer&nbsp;讨论区&nbsp;】&nbsp;<BR>
+【&nbsp;原文由&nbsp;yuanmo&nbsp;所发表&nbsp;】&nbsp;<BR>
+//menu.h&nbsp;<BR>
+&nbsp;<BR>
+#include&lt;stdio.h&gt;&nbsp;<BR>
+#include&lt;conio.h&gt;&nbsp;<BR>
+#include&quot;allegro.h&quot;&nbsp;<BR>
+#include&quot;color.h&quot;&nbsp;<BR>
+&nbsp;<BR>
+enum{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ITEM_ATTR_NORMAL,&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ITEM_ATTR_CHECK,&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ITEM_ATTR_RADIO&nbsp;<BR>
+};&nbsp;<BR>
+enum{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SHOWMENU_NORMAL,&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SHOWMENU_IN,&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SHOWMENU_OUT&nbsp;<BR>
+};&nbsp;<BR>
+&nbsp;<BR>
+void&nbsp;ReadFonts(BITMAP&nbsp;**fonts,int&nbsp;num,char&nbsp;*name);&nbsp;<BR>
+void&nbsp;DrawFont(BITMAP&nbsp;*font,BITMAP&nbsp;*dest,int&nbsp;x,int&nbsp;y,int&nbsp;color);&nbsp;<BR>
+&nbsp;<BR>
+class&nbsp;CPopupMenu&nbsp;<BR>
+{&nbsp;<BR>
+protected:&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;m_backSX;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;m_backSY;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;m_backSizeX;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;m_backSizeY;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;m_menuSX;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;m_menuSY;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;m_menuSizeX;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;m_menuSizeY;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;m_currentItem;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;m_numItems;&nbsp;<BR>
+//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;char&nbsp;m_menuDescription[16][128];&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BITMAP&nbsp;*m_fonts[16];&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;m_itemID[16];&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;m_itemAttr[16];&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bool&nbsp;m_checkState[16];&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;m_showCount;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CColor&nbsp;*m_pallete;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BITMAP&nbsp;*m_VBuffer;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BITMAP&nbsp;*m_backup;//shaded&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BITMAP&nbsp;*m_back;//not&nbsp;shaded&nbsp;;)&nbsp;<BR>
+public:&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CPopupMenu();&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;~CPopupMenu();&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;AddItem(char&nbsp;*fontname,int&nbsp;ID,int&nbsp;attr,int&nbsp;state=false);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;void&nbsp;ShowMenu(int&nbsp;mode=SHOWMENU_NORMAL);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;DoMenu();&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;void&nbsp;SetVBuffer(BITMAP&nbsp;*buff){m_VBuffer=buff;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bool&nbsp;GetCheckState(int&nbsp;ID);&nbsp;<BR>
+protected:&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;void&nbsp;ShowItem(int&nbsp;count);&nbsp;<BR>
+};&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+人是爱玩游戏的动物&nbsp;<BR>
+&nbsp;<BR>
+<A HREF="mailto:yuanmo@263.net">yuanmo@263.net</A>&nbsp;<BR>
+&nbsp;<BR>
+※&nbsp;来源:·BBS&nbsp;水木清华站&nbsp;bbs.net.tsinghua.edu.cn·[FROM:&nbsp;166.111.167.151]&nbsp;<BR>
+<A HREF="00000007.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一页</A>
+<A HREF="index.htm">回到目录</A>
+<A HREF="#top">回到页首</A>
+<A HREF="00000009.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+</BODY></HTML>

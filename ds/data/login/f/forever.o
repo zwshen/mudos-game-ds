@@ -1,0 +1,2 @@
+#/obj/login.c
+dbase (["race":"human","body":"/obj/user","error_login":({"於[Sat Jun  3 12:17:48 2006]嘗試由[218-162-174-172.dynamic.hinet.net]連線進入失敗。","於[Sun Nov 19 22:29:38 2006]嘗試由[163.22.12.25]連線進入失敗。","於[Thu Nov 23 09:06:43 2006]嘗試由[163.22.12.25]連線進入失敗。","於[Tue Nov 28 07:08:26 2006]嘗試由[163.22.12.25]連線進入失敗。",}),"last_on":1473258265,"last_from":"1.171.42.177","email":"","name":"永遠","id":"forever","level":25,"password":"/nemOBWbHbTpA",])

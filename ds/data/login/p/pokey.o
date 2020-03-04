@@ -1,0 +1,2 @@
+#/obj/login.c
+dbase (["id":"pokey","name":"吳柏昇生","email":"","password":"XVIcTtGrVamz.","race":"human","error_login":({"於[Wed Oct 20 13:10:24 2004]嘗試由[163.32.78.28]連線進入失敗。","於[Wed Oct 20 13:13:39 2004]嘗試由[163.32.78.28]連線進入失敗。","於[Sun Nov  7 12:43:45 2004]嘗試由[210.203.53.229]連線進入失敗。","於[Sun Nov  7 12:43:53 2004]嘗試由[210.203.53.229]連線進入失敗。","於[Sun Dec 12 00:54:14 2004]嘗試由[61-30-176-230.dynamic.tfn.net.tw]連線進入失敗。",}),"level":26,"last_on":1123237363,"body":"/obj/user","last_from":"61-30-176-7.dynamic.tfn.net.tw",])

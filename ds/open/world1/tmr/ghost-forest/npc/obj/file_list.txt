@@ -1,0 +1,5 @@
+¥Ø¿ý¡R/open/world1/tmr/ghost-forest/npc/obj/
+egg.c               °­óç³J              firewood.c          ®ãªK              
+meat.c              °­óç¦×              powder.c            ¥Õ¯»¥½            
+redkey.c            ¬õ¦âÆ_°Í            seal.c              ÅX­·²Å            
+

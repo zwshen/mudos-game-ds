@@ -1,0 +1,9 @@
+#/obj/user.c
+dbase (["volume":7,"DS_DATA_VERSION":19991107,"ap":98,"env":([]),"heart_beat_rate":6,"Merits":(["bar":0,"bio":0,"tec":0,"sou":0,"wit":0,]),"wound":(["body":0,"right_arm":0,"left_leg":0,"right_leg":0,"left_arm":0,"head":0,]),"talk_point":20,"unit":"¦ì","addition":(["int":2,"con":2,]),"channels":({"chat","rumor","tchat",}),"max_mp":98,"newbie":1,"exp":56100697,"attitude":"peaceful","cure_count":6,"dex":2,"last_location":"/open/world1/cominging/area/sidestreet3","int":2,"con":2,"max_ap":98,"level":5,"popularity":2190,"birthday":1164840003,"age":62,"supply_point":141,"evil":-1,"guild_rank":"¥|³B¬y®öªº«_ÀIªÌ","heart_modify":0,"skill":(["literate":37,"strong-body":37,]),"nickname":"ÆF¤Û©v[0m","addition_shield":10,"mud_age":4159825,"hp":160,"default_actions":,"mp":98,"race":"tiger","max_hp":160,"guild_gifts":({5,5,5,5,}),"addition_armor":10,"actions":,"id":"horse","war_art":7600,"startroom":"/open/world1/tmr/area/hotel","gender":"¨k©Ê","str":2,"name":"Å]¤O¤p°¨","addition_damage":10,])
+skills (["literate":39,"strong-body":39,"combat":1,])
+learned (["literate":0,"strong-body":0,"combat":0,])
+items ({})
+alias (["s":"south",])
+autoload ({})
+toDoList ([])
+solved ({})

@@ -1,0 +1,57 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清华站∶精华区</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+<A Name="top"></a>
+发信人:&nbsp;sorceress&nbsp;(李大善人~~~以德服人),&nbsp;信区:&nbsp;Mud_Builder&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+标&nbsp;&nbsp;题:&nbsp;source&nbsp;-&nbsp;color.h&nbsp;(转载)&nbsp;<BR>
+发信站:&nbsp;BBS&nbsp;水木清华站&nbsp;(Wed&nbsp;Jun&nbsp;14&nbsp;17:38:21&nbsp;2000)&nbsp;<BR>
+&nbsp;<BR>
+【&nbsp;以下文字转载自&nbsp;GAME_Designer&nbsp;讨论区&nbsp;】&nbsp;<BR>
+【&nbsp;原文由&nbsp;yuanmo&nbsp;所发表&nbsp;】&nbsp;<BR>
+//color.h&nbsp;<BR>
+&nbsp;<BR>
+#ifndef&nbsp;__COLOR_H&nbsp;<BR>
+#define&nbsp;__COLOR_H&nbsp;<BR>
+&nbsp;<BR>
+#include&quot;allegro.h&quot;&nbsp;<BR>
+&nbsp;<BR>
+class&nbsp;CColor&nbsp;<BR>
+{&nbsp;<BR>
+protected:&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PALLETE&nbsp;m_pallete;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned&nbsp;char&nbsp;*m_colorIndex;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RGB&nbsp;m_trend;&nbsp;<BR>
+public:&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;m_depth;&nbsp;<BR>
+public:&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CColor();&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;~CColor();&nbsp;<BR>
+public:&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;void&nbsp;GetColorMap();&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;void&nbsp;GetColorMap(PALLETE&nbsp;pallete);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;void&nbsp;CreateColorIndex(PALLETE&nbsp;pallete,RGB&nbsp;into,int&nbsp;depth=16);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;void&nbsp;CreateColorIndex();&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned&nbsp;char&nbsp;GetColorIndex(int&nbsp;colorID,int&nbsp;depth)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{return&nbsp;m_colorIndex[(depth&lt;&lt;8)+colorID];}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned&nbsp;char&nbsp;FindNearestColor(RGB&nbsp;color);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;void&nbsp;DarkenRect(BITMAP&nbsp;*VBuffer,int&nbsp;sx,int&nbsp;sy,int&nbsp;w,int&nbsp;h,int&nbsp;depth);&nbsp;<BR>
+};&nbsp;<BR>
+#endif&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+人是爱玩游戏的动物&nbsp;<BR>
+&nbsp;<BR>
+<A HREF="mailto:yuanmo@263.net">yuanmo@263.net</A>&nbsp;<BR>
+&nbsp;<BR>
+※&nbsp;来源:·BBS&nbsp;水木清华站&nbsp;bbs.net.tsinghua.edu.cn·[FROM:&nbsp;166.111.167.151]&nbsp;<BR>
+<A HREF="00000002.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一页</A>
+<A HREF="index.htm">回到目录</A>
+<A HREF="#top">回到页首</A>
+<A HREF="00000004.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+</BODY></HTML>

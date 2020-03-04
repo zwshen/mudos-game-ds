@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["default_actions":,"age":14,"max_ap":60,"supply_point":22,"channels":({"chat","rumor","tchat",}),"race":"human","level":1,"unit":"位","last_location":"/open/world1/tmr/area/street4","talk_point":8,"birthday":1086499038,"gender":"女性","id":"king","name":"星辰風雪","startroom":"/open/world1/tmr/area/hotel","mud_age":160,"cure_count":11,"actions":,"newbie":1,"guild_gifts":({5,5,5,5,}),"hp":80,"exp":777,"dex":2,"int":2,"mp":60,"con":2,"str":2,"addition_shield":10,"addition_armor":10,"heart_beat_rate":6,"ap":60,"addition_damage":10,"max_hp":80,"attitude":"peaceful","evil":-1,"max_mp":60,"volume":7,"Merits":(["tec":0,"bar":0,"bio":0,"sou":0,"wit":0,]),"DS_DATA_VERSION":19991107,])
+autoload ({})

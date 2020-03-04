@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions (["ill_fashao":7,])
+dbase (["help":"cmds/","DS_DATA_VERSION":19991107,"wound":(["left_arm":0,"body":0,"left_leg":0,"head":0,"right_leg":0,"right_arm":0,]),"bellicosity":0,"addition_armor":10,"MKS":15,"attitude":"peaceful","max_hp":90,"talk_point":11,"channels":({"chat","rumor","tchat",}),"disable_type":" <毫無呼吸>","mud_age":3182,"newbie":1,"supply_point":80,"exp":46558,"dex":4,"hp":27,"int":2,"con":2,"level":2,"mp":60,"birthday":1245054666,"max_ap":70,"bank":(["past":57,]),"last_location":"/open/world1/wilfred/meadow/room30","guild_gifts":({5,5,5,5,}),"Merits":(["bar":0,"tec":0,"sou":0,"bio":0,"wit":0,]),"evil":26,"volume":7,"war_score":8,"heart_beat_rate":6,"popularity":0,"default_actions":,"war_art":7,"guild_rank":"無家可歸的流浪漢","mob_record":({"/open/world1/tmr/area/npc/farmer","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog","/open/world1/acme/area/npc/dog","/open/world1/cominging/area/npc/traveller","/open/world1/cominging/area/npc/child","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/smith","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove",}),"actions":,"unit":"位","ap":70,"addition_damage":10,"cure_count":9,"combat_exp":0,"age":14,"race":"titan","heart_modify":1,"max_mp":60,"id":"sleep","addition_shield":10,"startroom":"/open/world1/tmr/area/hotel","gender":"男性","str":3,"name":"捲毛不是罪",])
+skills (["parry":1,"combat":6,"dodge":2,"unarmed":3,"dagger":4,"strong-body":3,])
+learned (["parry":1,"combat":47,"dodge":11,"dagger":24,"strong-body":15,])
+items ({})
+autoload ({"/obj/money/coin:200",})
+toDoList ([])
+solved ({})

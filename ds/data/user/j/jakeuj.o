@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["ap":60,"hp":80,"mp":60,"addition_shield":10,"age":14,"cure_count":10,"exp":777,"addition_armor":10,"dex":2,"int":2,"con":2,"str":2,"attitude":"peaceful","level":1,"newbie":1,"volume":7,"supply_point":60,"guild_gifts":({5,5,5,5,}),"addition_damage":10,"DS_DATA_VERSION":19991107,"heart_modify":0,"channels":({"chat","rumor","tchat",}),"birthday":1163128907,"talk_point":8,"id":"jakeuj","race":"human","mud_age":438,"unit":"位","startroom":"/open/world1/tmr/area/hotel","default_actions":,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"gender":"女性","name":"御星","wound":(["right_arm":0,"body":0,"left_leg":0,"head":0,"left_arm":0,"right_leg":0,]),"heart_beat_rate":6,"actions":,"max_mp":60,"max_ap":60,"evil":-1,"max_hp":80,])
+autoload ({})

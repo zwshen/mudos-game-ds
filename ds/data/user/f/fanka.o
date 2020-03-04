@@ -1,0 +1,9 @@
+#/obj/user.c
+dbase (["heart_beat_rate":6,"env":([]),"DS_DATA_VERSION":19991107,"MKS":12,"heart_modify":0,"war_score":16,"ap":60,"wimpy":30,"age":15,"addition_armor":10,"channels":({"chat","rumor","tchat","god",}),"mud_age":90748,"addition_shield":10,"hp":80,"attitude":"peaceful","volume":7,"newbie":1,"addition_damage":10,"exp":3058,"dex":2,"help":"cmds/","int":2,"con":2,"level":1,"max_hp":80,"birthday":1200373132,"talk_point":8,"evil":-14,"cure_count":4,"last_location":"/open/world1/tmr/area/ms1","unit":"位","combat_exp":2,"mp":110,"max_mp":110,"bank":(["past":12,]),"mob_record":({"/open/world1/acme/bonze/npc/dog","/open/world1/tmr/area/npc/traveler","/open/world1/tmr/area/npc/traveler","/open/world1/tmr/area/npc/dog","/open/world1/tmr/area/npc/dog","/open/world1/wilfred/sand/npc/npc34","/open/world1/wilfred/sand/npc/npc28","/open/world1/wilfred/sand/npc/npc4","/open/world1/wilfred/sand/npc/npc4","/open/world1/wilfred/sand/npc/npc4","/open/world1/wilfred/sand/npc/npc4","/open/world1/tmr/area/npc/vag",}),"supply_point":60,"guild_gifts":({5,5,5,5,}),"default_actions":,"race":"celestial","actions":,"max_ap":60,"Merits":(["bar":0,"bio":0,"tec":0,"sou":0,"wit":0,]),"id":"fanka","wound":(["body":0,"left_arm":0,"right_arm":0,"left_leg":0,"head":0,"right_leg":0,]),"startroom":"/open/world1/tmr/area/hotel","gender":"男性","board_last_read":(["boo-lin_b":1163611422,"tmr_hotel_b":1160978119,]),"str":2,"name":"問情",])
+skills (["parry":1,"unarmed":6,"combat":8,"strong-body":13,"dodge":4,"blade":2,])
+learned (["parry":0,"unarmed":41,"combat":84,"strong-body":106,"dodge":9,"blade":10,])
+items ({})
+alias (["godhere":"do look off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,enter,n,n,n,n,n,n,n,n,u,miracle crown,look on,l,miracle crown","sacc":"sac corpse","ga":"get all","inn":"inactive",])
+autoload ({"/obj/money/coin:730","/open/always/god_mark",})
+toDoList ([])
+solved ({})

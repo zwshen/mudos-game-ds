@@ -1,0 +1,6 @@
+#/obj/user.c
+ghost 1
+dbase (["channels":({"chat","rumor","tchat","god",}),"actions":,"age":78,"attitude":"peaceful","race":"human","level":1,"birthday":1058705810,"max_mp":60,"max_ap":60,"mud_age":5610118,"last_location":"/open/world2/anfernee/start/prayroom","startroom":"/open/world2/lichi_town_2/map_5_26","gender":"男性","id":"dididi","newbie":1,"talk_point":8,"name":"弟弟","combat_exp":492079,"cure_count":9,"mp":1,"Merits":(["sou":0,"tec":0,"bio":0,"wit":0,"bar":0,]),"volume":7,"heart_beat_rate":6,"default_actions":,"evil":-1,"addition_shield":10,"exp":400500700,"disable_type":" <毫無呼吸>","dex":2,"int":2,"con":2,"addition_armor":10,"str":2,"max_hp":80,"hp":1,"ap":60,"bellicosity":0,"addition_damage":10,"unit":"位","supply_point":18,"MKS":54945,"DS_DATA_VERSION":19991107,"popularity":16592,"guild_gifts":({5,5,5,5,}),])
+skills (["combat":2,"unarmed":2,])
+learned ([])
+autoload ({})

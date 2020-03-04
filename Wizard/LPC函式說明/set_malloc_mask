@@ -1,0 +1,21 @@
+
+	set_malloc_mask(3)	LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		set_malloc_mask() - 設定控制記憶體配置的除錯資料顯示
+				    的遮罩 (the mask controlling
+				    display of malloc debug info).
+	函數語法:
+		void set_malloc_mask( int mask );
+
+		無傳回值 set_malloc_mask( 整數 mask );
+	函數用法:
+		這個超越函式 (efun) 只有在編譯 mud  驅動程式 (driver)
+		時, options.h 中 DEBUGMALLOC  和 DEBUGMALLOC_EXTENSIONS 
+		皆同時定義時才有效. 此遮罩 (mask) 控制驅動程式配置記憶體
+		和釋放記憶體時, 顯示多少與記憶體相關的除錯訊息. 詳細資料
+		請參閱驅動程式原始碼中的 md.c 
+	參考函數:
+		debugmalloc(3)
+	手冊翻譯:
+		Phoebus@ZH	97.Jul.21.		(Writen 5/23/97)

@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions ([])
+dbase (["help":"cmds/","DS_DATA_VERSION":19991107,"wound":(["left_arm":0,"body":0,"head":0,"left_leg":0,"right_leg":0,"right_arm":0,]),"addition_armor":10,"MKS":1,"cwd":"/","attitude":"peaceful","max_hp":1060,"talk_point":156,"channels":({"chat","rumor","tchat","moon","god","sam","music","sky","wiz","bala","war","game","warn","ft","sys",}),"disable_type":" <²@µL©I§l>","mud_age":1705381,"supply_point":1040,"newbie":1,"exp":2002027,"hp":1060,"dex":50,"int":50,"con":50,"level":50,"mp":795,"birthday":1190525328,"max_ap":795,"bank":(["past":99999999,]),"guild_gifts":({5,5,5,5,}),"last_location":"/u/t/tmr/room/square","Merits":(["bar":3,"tec":3,"sou":3,"bio":3,"wit":3,]),"volume":7,"evil":-1,"heart_beat_rate":6,"war_score":1,"default_actions":,"war_art":4517180,"mob_record":({"/open/world1/tmr/area/npc/dog",}),"actions":,"unit":"¦ì","ap":795,"addition_damage":10,"cure_count":17,"race":"nightelf","friend":({"julie","tmr","lestat","sword","bluerex","manto","ayumi","gamewind","whoami","godfire","lyforever","watermoon",}),"age":33,"combat_exp":32,"max_mp":795,"heart_modify":0,"id":"rurumi","addition_shield":10,"startroom":"/u/t/tmr/room/room1","gender":"¤k©Ê","str":50,"name":"ÂPÂP¦Ì",])
+skills (["combat":10,"dodge":1,"unarmed":10,"blade":0,"strong-body":100,])
+learned (["combat":176,"dodge":0,"unarmed":29,"blade":1,"strong-body":27,])
+items ({})
+autoload ({"/u/t/tmr/ring","/open/world1/tmr/game/2006_moon/ankle_save","/u/t/tmr/white-cloth",})
+toDoList ([])
+solved ({})

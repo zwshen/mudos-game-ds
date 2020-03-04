@@ -1,0 +1,330 @@
+                    第五章   變量控制和流程控制 
+ 
+                    第一節  序言 
+  到今天，你應該能自己編寫一些簡單的 Object 了，通過使用你所在 
+的 Mud 的標準的 Object 庫。 你應該知道什麼是繼承了，還有你應該 
+能自己寫一些函數來表現你自己的 Object 特有的性質了。在這一章， 
+你將知道 Lpc 的最基本的一些元素，比如：表達式、操作符等，在你 
+自己寫的函數通過一些基本元素的組合來操縱變量，通過流程控制來使 
+的你的函數更為複雜，而不是線性執行到最後。 
+ 
+                    第二節 變量 
+ 
+2.1 值和變量 
+  從根本來說，任意兩個 Object 不同的地方有兩個方面： 
+1) 一些函數不同 
+2) 各個變量的值不同 
+ 
+  舉個例子，所有的玩家 Object 有完全一樣的函數。因此他們不同的 
+只是保持的值不同。比如，玩家名字叫做 "falcon" 和 "trill" 不同， 
+其最根本的不同的是因為變量 "dbase/id" 這個值不同，一個是"falcon" 
+另一個是 "trill" 。 
+  因此，在 Mud 中的變化就是各個 Object 中的值的變化。函數是用來 
+命名那些可以改變操縱變量的特殊的一些過程。舉個例子，函數 create() 
+就是這樣一個過程：初始化一個 Object 的各個變量的值的一個過程。 
+在函數里面，有個特別的東西叫做 指令 用於直接改變操縱變量。 
+ 
+2.2 局部和全局變量 
+ 
+  和大多數的編程語言一樣，Lpc 的變量可以被聲明成一個函數的局部 
+變量，也可以是全局變量(這個全局變量只在一個 Object 內部是全局的， 
+對於其他 Object 的函數是不能訪問的)。局部變量在一個函數定義內部 
+聲明，只在這個函數內部使用。別的函數無法得知它的存在。全部變量 
+則只要所在的 Object 存在時間內，可以被這個 Obejct 聲明的任何函數 
+調用，就是它一直在內存中存在。看看下面的兩個例子： 
+ 
+----- 
+int x; 
+ 
+int GetX() 
+{ 
+    return x; 
+} 
+ 
+void SetX( int y ) 
+{ 
+    x = y; 
+} 
+----- 
+ 
+----- 
+void SetX( int y ) 
+{ 
+    int x; 
+ 
+    x = y; 
+    write( "x is set to x" + x + " and will now be forgotten.\n" ); 
+} 
+----- 
+ 
+在第一個例子裡面，x 在所有的函數的外部聲明，所以它可以被它後面 
+的任何函數使用。在這個例子中，x 就是一個全局變量。 
+在第二個例子中，x 在函數 SetX() 的內部聲明。它只有在函數 SetX() 
+被執行時才存在。然後，它就消失了。在這個例子中，x 是局部變量。 
+ 
+2.2 表達式和操作符 
+ 
+  在 Lpc 中表達式和操作符的意義和 C/C++ 的完全一樣，如果你在這個 
+方面一無所知，那就去找一本 C/C++ 的入門的書。 
+  在本章的附錄中列出 Lpc 常用的各個操作符的用法，以及 MudOS提供 
+的一些特別操作符。 
+ 
+2,3 小結 
+  現在你應該知道在不同地方聲明一個變量的區別了。我們在上面說的 
+全局變量和一般的 C/C++ 中的全局變量的意義不同。一般的，在 C/C++ 
+的全局變量在這個程序執行整個過程一直存在，但是 Lpc 的全局變量實 
+際是“類變量”，或者說是“Ojbect 變量”，一個 Object 的全局變量， 
+在 Object 存在時存在，而沒有真正的永遠存在的“全局變量”。通過 
+對操作符，變量、常量和函數的組合，你能得到一個很複雜的表達式， 
+比如： 
+    i = ( x = sizeof( users() ) > 0 ) ? 
+        x -- : ( ( sizeof( children( NPC ) - 1 ); 
+  現在大家應該能知道上面的表達式的值了吧？其中 efun users() 返回 
+所有的玩家，children( NPC ) 返回所有 NPC 復制的 Object, sizeof()能 
+得知一個 array 或者 mapping 的大小。 
+ 
+                    第三節 流程控制 
+ 
+2.1 流程控制 
+  在上一節的例子中： 
+ 
+----- 
+void SetX( int y ) 
+{ 
+    int x; 
+ 
+    x = y; 
+    write( "x is set to x" + x + " and will now be forgotten.\n" ); 
+} 
+----- 
+ 
+  你可能只想在 y > 1 時候把這個值賦予 x。怎麼辦，那就是流程控制 
+的。流程控制，就是控制程序的執行過程。Lpc 和流程控制和 C/C++ 
+幾乎可以說是完全一樣。 
+ 
+2.2 流程控制語句 
+  由於 Lpc 的流程控制實際上 C 的一樣，我就不再介紹了。在本章的 
+附錄二中，列出了 Lpc 的流程控制語句。 
+  強調一點，switch 可以完全由 if else if else 替代，比如： 
+ 
+    switch ( id ) 
+    { 
+    case "trill" : 
+        write( "你是飛鳥。\n" ); 
+        break; 
+    case "falcon" : 
+        write( "你是狐兒。\n" ); 
+        break; 
+    case "qyz" : 
+        write( "你是小馬。\n" ); 
+        break; 
+    default : 
+        write( "你是誰？\n" ); 
+        break; 
+    } 
+ 
+可以寫成這樣： 
+ 
+    if ( id == "trill" ) 
+    { 
+        write( "你是飛鳥。\n" ); 
+    } 
+    else if ( id == "falcon") 
+    { 
+        write( "你是狐兒。\n" ); 
+    } 
+    else if ( id == "qyz" ) 
+    { 
+        write( "你是小馬。\n" ); 
+    } 
+    else 
+    { 
+        write("你是誰？\n"); 
+    } 
+ 
+  但是 switch 語句更加貼近 CPU 的執行方式，也更自然。所以最好使 
+用 switch 語句，而不是 if else if else 的形式。 
+ 
+小結： 
+  這一章介紹的實際是 C 的東西，所以如果你對於 C 語言不熟悉的話， 
+就找一本入門的書，看看變量，常量和流程控制的介紹。如果你對 C 有 
+寫了解了，到現在，你應該能很容易的寫一些簡單的 room, npc 了。 
+ 
+附錄一 
+Lpc 操作符 
+ 
+  在這一附錄，詳細說明大部分的 Lpc 操作符。 
+ 
+  Lpc 的操作符大概有下面這些： 
+=   +   -   *   /   %   +=  -=  *=  /=  %= 
+--  ++  ==  !=  >   <   >=  <=  !   &&  || 
+->  ? :     >>  <<  <<= >>= &   |   ^   &= 
+|=  ^=  ... 
+ 
+  這些操作符的說明有點枯燥無味，但是最好還是看看，因為有些操作 
+符的行為有些怪異。 
+ 
+= 賦值操作符 ( assignment operator ): 
+    例子: x = 5; 
+    操作值 把等號右邊表達式的值賦予左邊的變量。等號左邊只能是 
+            變量，就是說你不能賦予一個表達式值。 
+ 
++ 加號 ( addition operator ): 
+    例子: x + 7 
+    操作值：把加號左右的兩個表達式的值(如果都是數值)加在一起， 
+            得到一個值。如果有一個表達式的值是 string 類型的，一 
+            個是 int 或者 float 類型，就直接把 int 和 float 的數值 
+            變成相應的字符串，接在 string 的對應的左邊或右邊。如 
+            果兩個都是數組，那麼就把兩個數組和在一起得到一個新的 
+            數組。 
+ 
+- 減號 (subtraction operator ): 
+    例子: x - 7 
+    操作值：這個和 + 剛好現反。 
+ 
+* 乘號 ( multiplication operator ): 
+    例子: x * 7 
+    操作值：和數學上的乘法沒有什麼區別。 
+ 
+/ 除法 ( division operator ): 
+    例子: x / 7 
+    操作值：和數學上的除法沒有什麼區別。 
+ 
++= additive assignment operator: 
+    例子: x += 5 
+    操作值：如果是 a += b，那就就是 a = a + b。 
+ 
+-= subtraction assignment operator 
+    例子: x -= 7 
+    操作值：如果是 a -= b，那就就是 a = a - b。 
+ 
+*= multiplicative assignment operator 
+    例子: x *= 7 
+    操作值：如果是 a *= b，那就就是 a = a * b。 
+ 
+/= division assignment operator 
+    例子: x /= 7 
+    操作值：如果是 a /= b，那就就是 a = a / b。 
+ 
+++ post/pre-increment operators 
+    例子: i ++ or ++ i 
+    操作值： 
+      i ++ 返回的值是 i，然後在把 i 加 1 
+      ++ i 返回的值是 i + 1 
+ 
+-- post/pre-decrement operators 
+    例子: i-- or --i 
+    操作值： 
+      i -- 返回的值是 i 
+      -- i 返回的值是 i - 1 
+ 
+== equality operator 
+!= inequality operator 
+＞ greater than operator 
+< less than operator 
+＞= greater than or equal to operator 
+<= less than or equal to operator 
+    例子: x == y x != y x > y x < y    x >= y    x <= y 
+&& logical and operator 
+|| logical or operator 
+    例子: x && y      x || y 
+! negation operator 
+    例子: !x 
+-> the call other operator 
+    例子: this_player()->GetKeyName() 
+    操作值：調用一個 Object 的一個成員函數，左邊必須是一個 Object 
+            右邊是 Object 的一個函數，如果不存在，那麼就返回 0。 
+    例子：task->event 
+    操作值：返回一個 class 類型的變量的中的一個變量 
+ 
+? : conditional operator 
+    例子: x ? y : z 
+    返回值：如果 x 是為真，那麼就返回 y 的值，為假，就返回 z 的值 
+ 
+這些操作符和 C 語言的完全一樣。 
+ 
+下面的是高頒布的 MudOS 提供的： 
+ 
+＞> << 
+    循環右移和左移 
+& | ^ 
+    按位做 與 或 異或 
+<<= >>= &= |=  ^= 
+    如果是 a X= b 那麼就是 a = a X b 
+這些和 C 的也一樣。 
+ 
+... 
+    返回一個數組的第一個元素。 
+ 
+ 
+附錄二 
+流程控制語句： 
+if ( 表達式 ) 
+{ 
+    指令集 
+} 
+ 
+if ( 表達式 ) 
+{ 
+    指令集 
+} 
+else 
+{ 
+    指令集 
+} 
+ 
+if( 表達式 ) 
+{ 
+    指令集 
+} 
+else if ( 表達式 ) 
+{ 
+    指令集 
+} 
+else 
+{ 
+    指令集 
+} 
+ 
+while ( 表達式 ) 
+{ 
+    指令集 
+} 
+ 
+ 
+switch ( 表達式 ) 
+{ 
+case ( 表達式 ): 
+    指令集; 
+    break; 
+default: 
+    指令集 
+} 
+ 
+for( 表達式; 表達式; 表達式 ) 
+這些和 C 的完全一樣 
+ 
+return 
+    結束這次函數的執行 
+continue 
+    忽略這次循環 
+break 
+    跳出循環體 
+ 
+高頒布的 MudOS 新提供的： 
+ 
+foreach()循環 
+ 
+foreach ( 變量類型 in 數組 ) 
+比如： 
+ 
+void test() 
+{ 
+    foreach( object player in users() ) 
+    { 
+        tell_object( player, "hi..just a test." ); 
+    } 
+} 
+users() 這個 efun 返回一個 Object 的數組，所有在線的玩家。 
+ 
+foreach () 循環對數組中的每個元素，做一次循環。 

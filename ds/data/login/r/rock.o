@@ -1,0 +1,2 @@
+#/obj/login.c
+dbase (["level":5,"body":"/obj/user","name":"落客","email":"@","id":"rock","password":"fVmi73nmloaqI","race":"human","last_on":1167187268,"last_from":"60.244.34.38","error_login":({"於[Sun Apr  2 22:23:23 2006]嘗試由[58.99.35.72]連線進入失敗。","於[Sun Apr  2 22:25:20 2006]嘗試由[58.99.35.72]連線進入失敗。",}),])

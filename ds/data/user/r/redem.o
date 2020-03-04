@@ -1,0 +1,6 @@
+#/obj/user.c
+conditions ([])
+dbase (["actions":,"age":14,"evil":-1,"gender":"男性","addition_damage":10,"name":"窮八極","channels":({"chat","rumor","tchat",}),"unit":"位","birthday":1176139453,"default_actions":,"max_mp":64,"race":"tiger","help":"class/bagi","max_hp":110,"startroom":"/open/world1/tmr/area/hotel","heart_beat_rate":6,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"mp":64,"cure_count":10,"addition_shield":10,"attitude":"peaceful","max_ap":64,"ap":64,"mud_age":148,"newbie":1,"exp":777,"supply_point":20,"talk_point":8,"dex":2,"int":2,"id":"redem","addition_armor":10,"hp":110,"guild_gifts":({5,5,5,5,}),"con":2,"str":2,"level":1,"DS_DATA_VERSION":19991107,"volume":7,])
+autoload ({})
+toDoList ([])
+solved ({})

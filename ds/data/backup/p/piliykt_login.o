@@ -1,0 +1,2 @@
+#/obj/login.c
+dbase (["id":"piliykt","name":"用功\的人最美","email":"","last_on":1057848344,"password":"cAqb.sVV3.K6k","last_from":"155.c161.ethome.net.tw","level":500,"race":"human","error_login":({"於[Sun Feb 16 14:16:01 2003]嘗試由[218-164-65-56.HINET-IP.hinet.net]連線進入失敗。","於[Thu Apr 10 14:53:54 2003]嘗試由[140.111.99.50]連線進入失敗。","於[Thu Apr 17 15:09:46 2003]嘗試由[140.111.99.127]連線進入失敗。","於[Fri Jun 13 20:30:23 2003]嘗試由[74.c161.ethome.net.tw]連線進入失敗。","於[Sat Jul  5 09:25:23 2003]嘗試由[155.c161.ethome.net.tw]連線進入失敗。",}),"body":"/obj/user","new_mail":1,])

@@ -1,0 +1,979 @@
+[Fri Feb 22 00:40:03 2002] u/d/dreamcast/bestsword.c line 1: parse error before ;
+
+[Fri Feb 22 20:11:01 2002] u/d/dreamcast/workroom.c line 11: End of file in text block before rld2/wp/iron_blade_1
+
+[Fri Feb 22 20:11:01 2002] u/d/dreamcast/workroom.c line 11: parse error before rld2/wp/iron_blade_1
+
+[Fri Feb 22 20:11:31 2002] u/d/dreamcast/workroom.c line 11: End of file in text block before i_town_1/"""/open/wo
+
+[Fri Feb 22 20:11:31 2002] u/d/dreamcast/workroom.c line 11: parse error before i_town_1/"""/open/wo
+
+[Fri Feb 22 20:18:03 2002] u/d/dreamcast/workroom.c line 11: End of file in text block before  "beast");
+
+[Fri Feb 22 20:18:03 2002] u/d/dreamcast/workroom.c line 11: parse error before  "beast");
+
+[Fri Feb 22 20:18:21 2002] u/d/dreamcast/workroom.c line 11: End of file in text block before  "beast");
+
+[Fri Feb 22 20:18:21 2002] u/d/dreamcast/workroom.c line 11: parse error before  "beast");
+
+[Fri Feb 22 20:19:17 2002] u/d/dreamcast/workroom.c line 11: End of file in text block before wn_1/""map_14_7",
+
+[Fri Feb 22 20:19:17 2002] u/d/dreamcast/workroom.c line 11: parse error before wn_1/""map_14_7",
+
+[Fri Feb 22 21:01:44 2002] u/d/dreamcast/workroom.c line 11: End of file in text block before     set("con",18);
+
+[Fri Feb 22 21:01:44 2002] u/d/dreamcast/workroom.c line 11: parse error before     set("con",18);
+
+[Fri Feb 22 22:03:48 2002] u/d/dreamcast/workroom.c line 11: End of file in text block before r_b");
+
+[Fri Feb 22 22:03:48 2002] u/d/dreamcast/workroom.c line 11: parse error before r_b");
+
+[Fri Feb 22 22:07:54 2002] u/d/dreamcast/workroom.c line 11: End of file in text block before euid( geteuid(me) );
+
+[Fri Feb 22 22:07:54 2002] u/d/dreamcast/workroom.c line 11: parse error before euid( geteuid(me) );
+
+[Fri Feb 22 22:08:38 2002] u/d/dreamcast/workroom.c line 11: End of file in text block before êµÛ¤@°¦¤s½Þ¦b¯NµÛ¡A°
+
+[Fri Feb 22 22:08:38 2002] u/d/dreamcast/workroom.c line 11: parse error before êµÛ¤@°¦¤s½Þ¦b¯NµÛ¡A°
+
+[Fri Feb 22 22:08:42 2002] u/d/dreamcast/workroom.c line 11: End of file in text block before êµÛ¤@°¦¤s½Þ¦b¯NµÛ¡A°
+
+[Fri Feb 22 22:08:42 2002] u/d/dreamcast/workroom.c line 11: parse error before êµÛ¤@°¦¤s½Þ¦b¯NµÛ¡A°
+
+[Fri Feb 22 22:08:56 2002] u/d/dreamcast/workroom.c line 11: End of file in text block before êµÛ¤@°¦¤s½Þ¦b¯NµÛ¡A°
+
+[Fri Feb 22 22:08:56 2002] u/d/dreamcast/workroom.c line 11: parse error before êµÛ¤@°¦¤s½Þ¦b¯NµÛ¡A°
+
+[Fri Feb 22 22:12:05 2002] u/d/dreamcast/workroom.c line 11: End of file in text block before ESS_CHECK(x) ((!x)||
+
+[Fri Feb 22 22:12:05 2002] u/d/dreamcast/workroom.c line 11: parse error before ESS_CHECK(x) ((!x)||
+
+[Fri Feb 22 22:29:42 2002] u/d/dreamcast/testroom.c line 8: parse error before ("long", "...")
+
+[Fri Feb 22 23:28:10 2002] u/d/dreamcast/workroom.c line 11: parse error before ("/obj/board/dreamca
+
+[Fri Feb 22 23:32:39 2002] u/d/dreamcast/workroom.c line 12: parse error before the end of line
+
+[Fri Feb 22 23:33:23 2002] u/d/dreamcast/workroom.c line 10: parse error before the end of line
+
+[Fri Feb 22 23:47:28 2002] u/d/dreamcast/bestsword.c line 11: Undefined variable 'u' before d/dreamcast);
+
+[Fri Feb 22 23:47:28 2002] u/d/dreamcast/bestsword.c line 11: Undefined variable 'd' before dreamcast);
+
+[Fri Feb 22 23:47:28 2002] u/d/dreamcast/bestsword.c line 11: Undefined variable 'dreamcast' before ;
+
+[Fri Feb 22 23:48:14 2002] u/d/dreamcast/bestsword.c line 11: Undefined variable 'u' before d/dreamcast/bestswor
+
+[Fri Feb 22 23:48:14 2002] u/d/dreamcast/bestsword.c line 11: Undefined variable 'd' before dreamcast/bestsword.
+
+[Fri Feb 22 23:48:14 2002] u/d/dreamcast/bestsword.c line 11: Undefined variable 'dreamcast' before bestsword.c);
+
+[Fri Feb 22 23:48:14 2002] u/d/dreamcast/bestsword.c line 11: Undefined variable 'bestsword' before c);
+
+[Fri Feb 22 23:48:14 2002] u/d/dreamcast/bestsword.c line 11: parse error before c);
+
+[Fri Feb 22 23:48:30 2002] u/d/dreamcast/bestsword.c line 11: Undefined variable 'u' before d/dreamcast/bestswor
+
+[Fri Feb 22 23:48:30 2002] u/d/dreamcast/bestsword.c line 11: Undefined variable 'd' before dreamcast/bestsword.
+
+[Fri Feb 22 23:48:30 2002] u/d/dreamcast/bestsword.c line 11: Undefined variable 'dreamcast' before bestsword.c);
+
+[Fri Feb 22 23:48:30 2002] u/d/dreamcast/bestsword.c line 11: Undefined variable 'bestsword' before c);
+
+[Fri Feb 22 23:48:30 2002] u/d/dreamcast/bestsword.c line 11: parse error before c);
+
+[Fri Feb 22 23:51:25 2002] u/d/dreamcast/bestsword.c line 11: Undefined variable '_FILE_' before ;
+
+[Fri Feb 22 23:52:07 2002] u/d/dreamcast/bestsword.c line 11: Undefined variable '_DIR_' before ;
+
+[Fri Feb 22 23:57:23 2002] u/d/dreamcast/bestsword.c line 11: Undefined variable 'bestsword' before c);
+
+[Fri Feb 22 23:57:23 2002] u/d/dreamcast/bestsword.c line 11: parse error before c);
+
+[Fri Feb 22 23:58:53 2002] u/d/dreamcast/bestsword.c line 11: Wrong number of arguments to set_default_object
+    Expected: 1  Got: 0 before ;
+
+[Sat Feb 23 00:10:00 2002] u/d/dreamcast/skysword.c line 1: parse error before the end of line
+
+[Sat Feb 23 00:12:15 2002] u/d/dreamcast/skysword.c line 9: parse error before  {
+
+[Sat Feb 23 00:12:15 2002] u/d/dreamcast/skysword.c line 15: parse error before );
+
+[Sat Feb 23 00:13:07 2002] u/d/dreamcast/skysword.c line 9: parse error before  {
+
+[Sat Feb 23 00:13:07 2002] u/d/dreamcast/skysword.c line 15: parse error before );
+
+[Sat Feb 23 00:16:12 2002] u/d/dreamcast/skysword.c line 9: parse error before  {
+
+[Sat Feb 23 00:16:12 2002] u/d/dreamcast/skysword.c line 15: parse error before );
+
+[Sat Feb 23 00:19:13 2002] u/d/dreamcast/1.c line 1: parse error before the end of line
+
+[Sat Feb 23 00:29:06 2002] u/d/dreamcast/sword1.c line 8: parse error before (__FILE__)
+
+[Sat Feb 23 00:29:06 2002] u/d/dreamcast/sword1.c line 12: Illegal terminator before §â¤j¯«¥Îªº¼C¡C\n)
+
+[Sat Feb 23 00:30:47 2002] u/d/dreamcast/sword1.c line 8: parse error before (__FILE__)
+
+[Sat Feb 23 00:30:47 2002] u/d/dreamcast/sword1.c line 16: $var illegal outside of function pointer. before N¥k¤â¥ÎºÉ¥þ¨­ªº¤O®ð§
+
+[Sat Feb 23 00:30:47 2002] u/d/dreamcast/sword1.c line 16: Illegal terminator before ¦n¼C´¤¦b¤â¤¤¡C\n)
+
+[Sat Feb 23 00:31:17 2002] u/d/dreamcast/sword1.c line 8: parse error before (__FILE__)
+
+[Sat Feb 23 00:31:27 2002] u/d/dreamcast/sword1.c line 8: parse error before (__FILE__)
+
+[Sat Feb 23 00:33:07 2002] u/d/dreamcast/sword1.c line 8: parse error before (__FILE__)
+
+[Sat Feb 23 00:35:02 2002] u/d/dreamcast/sword1.c line 9: parse error before  {
+
+[Sat Feb 23 00:35:02 2002] u/d/dreamcast/sword1.c line 15: parse error before );
+
+[Sat Feb 23 00:37:47 2002] u/d/dreamcast/2.c line 9: parse error before  {
+
+[Sat Feb 23 00:37:47 2002] u/d/dreamcast/2.c line 15: parse error before );
+
+[Sat Feb 23 00:38:57 2002] u/d/dreamcast/2.c line 1: parse error before ;
+
+[Sat Feb 23 00:39:51 2002] u/d/dreamcast/2.c line 9: parse error before  {
+
+[Sat Feb 23 00:39:51 2002] u/d/dreamcast/2.c line 15: parse error before );
+
+[Sat Feb 23 00:40:31 2002] u/d/dreamcast/2.c line 9: parse error before  {
+
+[Sat Feb 23 00:40:31 2002] u/d/dreamcast/2.c line 15: parse error before );
+
+[Sat Feb 23 00:41:54 2002] u/d/dreamcast/2.c line 1: parse error before ;
+
+[Sat Feb 23 00:45:51 2002] u/d/dreamcast/2.c line 9: parse error before  {
+
+[Sat Feb 23 00:45:51 2002] u/d/dreamcast/2.c line 15: parse error before );
+
+[Sat Feb 23 18:10:15 2002] u/d/dreamcast/basichelmet.c line 19: parse error before 11);
+
+[Sat Feb 23 18:50:09 2002] u/d/dreamcast/basicboots.c line 6: parse error before ]"HIW"¹u"NOR, ({"Dre
+
+[Sat Feb 23 18:50:09 2002] u/d/dreamcast/basicboots.c line 23: End of file in string before  );
+
+[Sat Feb 23 18:51:11 2002] u/d/dreamcast/basicboots.c line 6: parse error before ]"HIW"¹u"NOR, ({"Dre
+
+[Sat Feb 23 18:51:11 2002] u/d/dreamcast/basicboots.c line 23: End of file in string before setup();
+
+[Sat Feb 23 18:52:13 2002] u/d/dreamcast/basicboots.c line 11: Warning: Unknown \ escape. before h­Þ»î\n");
+
+[Sat Feb 23 18:54:04 2002] u/d/dreamcast/basicboots.c line 6: parse error before ]"HIW"¹u"NOR, ({"Dre
+
+[Sat Feb 23 18:54:04 2002] u/d/dreamcast/basicboots.c line 23: End of file in string before   ]) );
+
+[Sat Feb 23 18:54:48 2002] u/d/dreamcast/basicboots.c line 6: parse error before ]"HIW"¹u"NOR, ({"Dre
+
+[Sat Feb 23 18:54:48 2002] u/d/dreamcast/basicboots.c line 23: End of file in string before otify_fail("³o¸Ì¤£¯à
+
+[Sat Feb 23 18:54:54 2002] u/d/dreamcast/basicboots.c line 6: parse error before ]"HIW"¹u"NOR, ({"Dre
+
+[Sat Feb 23 18:54:54 2002] u/d/dreamcast/basicboots.c line 23: End of file in string before otify_fail("³o¸Ì¤£¯à
+
+[Sat Feb 23 18:55:06 2002] u/d/dreamcast/basicboots.c line 6: parse error before ]"HIW"¹u"NOR, ({"Dre
+
+[Sat Feb 23 18:55:06 2002] u/d/dreamcast/basicboots.c line 23: End of file in string before !obj) return notify_
+
+[Sat Feb 23 19:27:56 2002] u/d/dreamcast/basicshield.c line 2: parse error before ;
+
+[Sat Feb 23 20:43:23 2002] u/d/dreamcast/colorpill.c line 4: Single '#' in identifier -- use '##' for token pasting before nclude <ansi2.h>
+
+[Sat Feb 23 20:45:27 2002] u/d/dreamcast/colorpill.c line 1: Single '#' in identifier -- use '##' for token pasting before nclude <ansi2.h>
+
+[Sat Feb 23 20:58:01 2002] u/d/dreamcast/colorpill.c line 21: Undefined variable 'HIW' before BLK,
+
+[Sat Feb 23 20:58:01 2002] u/d/dreamcast/colorpill.c line 21: Undefined variable 'BLK' before the end of line
+
+[Sat Feb 23 20:58:01 2002] u/d/dreamcast/colorpill.c line 22: Undefined variable 'NOR' before WHT,
+
+[Sat Feb 23 20:58:01 2002] u/d/dreamcast/colorpill.c line 22: Undefined variable 'WHT' before the end of line
+
+[Sat Feb 23 20:58:01 2002] u/d/dreamcast/colorpill.c line 24: Undefined variable 'RED' before the end of line
+
+[Sat Feb 23 20:58:01 2002] u/d/dreamcast/colorpill.c line 25: Undefined variable 'HIR' before the end of line
+
+[Sat Feb 23 20:58:43 2002] u/d/dreamcast/colorpill.c line 20: Undefined variable 'HIW' before BLK,
+
+[Sat Feb 23 20:58:43 2002] u/d/dreamcast/colorpill.c line 20: Undefined variable 'BLK' before the end of line
+
+[Sat Feb 23 20:58:43 2002] u/d/dreamcast/colorpill.c line 21: Undefined variable 'NOR' before WHT,
+
+[Sat Feb 23 20:58:43 2002] u/d/dreamcast/colorpill.c line 21: Undefined variable 'WHT' before the end of line
+
+[Sat Feb 23 20:58:43 2002] u/d/dreamcast/colorpill.c line 23: Undefined variable 'RED' before the end of line
+
+[Sat Feb 23 20:58:43 2002] u/d/dreamcast/colorpill.c line 24: Undefined variable 'HIR' before the end of line
+
+[Sat Feb 23 20:59:52 2002] u/d/dreamcast/colorpill.c line 19: Undefined variable 'HIW' before BLK,
+
+[Sat Feb 23 20:59:52 2002] u/d/dreamcast/colorpill.c line 19: Undefined variable 'BLK' before the end of line
+
+[Sat Feb 23 20:59:52 2002] u/d/dreamcast/colorpill.c line 20: Undefined variable 'NOR' before WHT,
+
+[Sat Feb 23 20:59:52 2002] u/d/dreamcast/colorpill.c line 20: Undefined variable 'WHT' before the end of line
+
+[Sat Feb 23 20:59:52 2002] u/d/dreamcast/colorpill.c line 22: Undefined variable 'RED' before the end of line
+
+[Sat Feb 23 20:59:52 2002] u/d/dreamcast/colorpill.c line 23: Undefined variable 'HIR' before the end of line
+
+[Sat Feb 23 21:06:48 2002] u/d/dreamcast/colorpill.c line 22: Undefined variable 'HIW' before BLK,
+
+[Sat Feb 23 21:06:48 2002] u/d/dreamcast/colorpill.c line 22: Undefined variable 'BLK' before the end of line
+
+[Sat Feb 23 21:06:48 2002] u/d/dreamcast/colorpill.c line 23: Undefined variable 'NOR' before WHT,
+
+[Sat Feb 23 21:06:48 2002] u/d/dreamcast/colorpill.c line 23: Undefined variable 'WHT' before the end of line
+
+[Sat Feb 23 21:06:48 2002] u/d/dreamcast/colorpill.c line 25: Undefined variable 'RED' before the end of line
+
+[Sat Feb 23 21:06:48 2002] u/d/dreamcast/colorpill.c line 26: Undefined variable 'HIR' before the end of line
+
+[Sat Feb 23 21:08:06 2002] u/d/dreamcast/colorpill.c line 85: parse error before (HIW"\n$N¦Y¤U¤@Áû$n"
+
+[Sat Feb 23 21:09:00 2002] u/d/dreamcast/colorpill.c line 86: parse error before message_vision(HIW"\
+
+[Sat Feb 23 21:13:58 2002] u/d/dreamcast/colorpill.c line 86: parse error before message_vision(HIW"\
+
+[Sat Feb 23 23:29:40 2002] u/d/dreamcast/basicpants.c line 5: Undefined variable 'HIM' before HIC"¤Û"HIW"¼e¿Ç" ,({
+
+[Sat Feb 23 23:29:40 2002] u/d/dreamcast/basicpants.c line 5: parse error before HIC"¤Û"HIW"¼e¿Ç" ,({
+
+[Sat Feb 23 23:39:35 2002] u/d/dreamcast/basicgloves.c line 3: Unrecognised # directive before {
+
+[Sat Feb 23 23:39:35 2002] u/d/dreamcast/basicgloves.c line 4: parse error before the end of line
+
+[Sat Feb 23 23:40:16 2002] u/d/dreamcast/basicgloves.c line 4: parse error before the end of line
+
+[Sat Feb 23 23:41:48 2002] u/d/dreamcast/basicgloves.c line 5: Undefined function set_name before ;
+
+[Sat Feb 23 23:41:48 2002] u/d/dreamcast/basicgloves.c line 6: Undefined function set before ;
+
+[Sat Feb 23 23:41:48 2002] u/d/dreamcast/basicgloves.c line 7: Undefined function set_weight before ;
+
+[Sat Feb 23 23:41:48 2002] u/d/dreamcast/basicgloves.c line 9: Undefined function set_default_object before ;
+
+[Sat Feb 23 23:41:48 2002] u/d/dreamcast/basicgloves.c line 20: Undefined function setup before ;
+
+[Sat Feb 23 23:42:36 2002] u/d/dreamcast/basicgloves.c line 5: Undefined function set_name before ;
+
+[Sat Feb 23 23:42:36 2002] u/d/dreamcast/basicgloves.c line 6: Undefined function set before ;
+
+[Sat Feb 23 23:42:36 2002] u/d/dreamcast/basicgloves.c line 7: Undefined function set_weight before ;
+
+[Sat Feb 23 23:42:36 2002] u/d/dreamcast/basicgloves.c line 9: Undefined function set_default_object before ;
+
+[Sat Feb 23 23:42:36 2002] u/d/dreamcast/basicgloves.c line 20: Undefined function setup before ;
+
+[Sat Feb 23 23:44:13 2002] u/d/dreamcast/basicgloves.c line 3: parse error before ; 
+
+[Sat Feb 23 23:45:11 2002] u/d/dreamcast/basicgloves.c line 2: parse error before ; 
+
+[Sun Feb 24 00:00:02 2002] u/d/dreamcast/basicleggings.c line 7: Warning: Unknown \ escape. before H¥Ò",({"Dreamcast le
+
+[Sun Feb 24 00:02:34 2002] u/d/dreamcast/basicleggings.c line 7: parse error before H"HIC"¥Ò",({"Dreamca
+
+[Sun Feb 24 00:02:34 2002] u/d/dreamcast/basicleggings.c line 9: Warning: Unknown \ escape. before «¨­¤W¨ú¤Uªº×H¥Ò¡A¾Ú»
+
+[Sun Feb 24 00:02:34 2002] u/d/dreamcast/basicleggings.c line 27: End of file in string before l("¬Ý²M·¡¤@ÂI¡M¨º¨Ã¤
+
+[Sun Feb 24 00:03:41 2002] u/d/dreamcast/basicleggings.c line 7: parse error before H"HIC"¥Ò",({"Dreamca
+
+[Sun Feb 24 00:03:41 2002] u/d/dreamcast/basicleggings.c line 9: Warning: Unknown \ escape. before «¨­¤W¨ú¤Uªº×H¥Ò¡A¾Ú»
+
+[Sun Feb 24 00:03:41 2002] u/d/dreamcast/basicleggings.c line 27: End of file in string before l("¬Ý²M·¡¤@ÂI¡M¨º¨Ã¤
+
+[Sun Feb 24 00:05:25 2002] u/d/dreamcast/basicleggings.c line 7: parse error before H"HIC"¥Ò",({"Dreamca
+
+[Sun Feb 24 00:05:25 2002] u/d/dreamcast/basicleggings.c line 9: Warning: Unknown \ escape. before «¨­¤W¨ú¤Uªº×H¥Ò¡A¾Ú»
+
+[Sun Feb 24 00:05:25 2002] u/d/dreamcast/basicleggings.c line 27: End of file in string before 1mø[1m [1m [1mù[
+
+[Sun Feb 24 00:06:23 2002] u/d/dreamcast/basicleggings.c line 7: parse error before H"HIC"¥Ò"NOR,({"Drea
+
+[Sun Feb 24 00:06:23 2002] u/d/dreamcast/basicleggings.c line 9: Warning: Unknown \ escape. before «¨­¤W¨ú¤Uªº×H¥Ò¡A¾Ú»
+
+[Sun Feb 24 00:06:23 2002] u/d/dreamcast/basicleggings.c line 27: End of file in string before [1m [1m [1mù[1mø
+
+[Sun Feb 24 00:08:58 2002] u/d/dreamcast/basicleggings.c line 6: parse error before H"HIC"¥Ò"NOR ,({"Dre
+
+[Sun Feb 24 00:08:58 2002] u/d/dreamcast/basicleggings.c line 7: Illegal terminator before ³t«×¡E");
+
+[Sun Feb 24 00:10:03 2002] u/d/dreamcast/basicleggings.c line 6: parse error before H¥Ò"NOR ,({"Dreamcas
+
+[Sun Feb 24 00:10:03 2002] u/d/dreamcast/basicleggings.c line 7: Illegal terminator before ³t«×¡E");
+
+[Sun Feb 24 00:10:45 2002] u/d/dreamcast/basicleggings.c line 6: parse error before H¥Ò"NOR ,({"Dreamcas
+
+[Sun Feb 24 00:10:45 2002] u/d/dreamcast/basicleggings.c line 7: Illegal terminator before ³t«×¡E");
+
+[Sun Feb 24 00:59:09 2002] u/d/dreamcast/basicblade.c line 5: Undefined variable 'HIM' before HIR"Às"HIY"Ãz"HIC"±Û
+
+[Sun Feb 24 00:59:09 2002] u/d/dreamcast/basicblade.c line 5: parse error before HIR"Às"HIY"Ãz"HIC"±Û
+
+[Sun Feb 24 00:59:47 2002] u/d/dreamcast/basicblade.c line 5: Undefined variable 'HIM' before HIY"Ãz±Û"BLU"»î"RED"
+
+[Sun Feb 24 00:59:47 2002] u/d/dreamcast/basicblade.c line 5: parse error before HIY"Ãz±Û"BLU"»î"RED"
+
+[Sun Feb 24 01:00:52 2002] u/d/dreamcast/basicblade.c line 4: parse error before the end of line
+
+[Sun Feb 24 01:03:27 2002] u/d/dreamcast/basicblade.c line 13: parse error before o¬ODreamcast³Ì·RªºÄ_
+
+[Sun Feb 24 01:03:57 2002] u/d/dreamcast/basicblade.c line 13: parse error before o¬ODreamcast³Ì·RªºÄ_
+
+[Sun Feb 24 01:04:03 2002] u/d/dreamcast/basicblade.c line 13: parse error before o¬ODreamcast³Ì·RªºÄ_
+
+[Sun Feb 24 01:17:53 2002] u/d/dreamcast/fist1.c line 3: Cannot #include std_fist.c before the end of line
+
+[Sun Feb 24 01:17:53 2002] u/d/dreamcast/fist1.c line 7: Undefined function set_name before ;
+
+[Sun Feb 24 01:17:53 2002] u/d/dreamcast/fist1.c line 8: Undefined function set_weight before ;
+
+[Sun Feb 24 01:17:53 2002] u/d/dreamcast/fist1.c line 10: Undefined function set_default_object before ;
+
+[Sun Feb 24 01:17:53 2002] u/d/dreamcast/fist1.c line 13: Undefined function set before ;
+
+[Sun Feb 24 01:17:53 2002] u/d/dreamcast/fist1.c line 21: Undefined function init_fist before ;
+
+[Sun Feb 24 01:18:56 2002] u/d/dreamcast/fist1.c line 3: Cannot #include std_fist.c before the end of line
+
+[Sun Feb 24 01:18:56 2002] u/d/dreamcast/fist1.c line 7: Undefined function set_name before ;
+
+[Sun Feb 24 01:18:56 2002] u/d/dreamcast/fist1.c line 8: Undefined function set_weight before ;
+
+[Sun Feb 24 01:18:56 2002] u/d/dreamcast/fist1.c line 10: Undefined function set_default_object before ;
+
+[Sun Feb 24 01:18:56 2002] u/d/dreamcast/fist1.c line 13: Undefined function set before ;
+
+[Sun Feb 24 01:18:56 2002] u/d/dreamcast/fist1.c line 21: Undefined function init_fist before ;
+
+[Sun Feb 24 01:19:24 2002] u/d/dreamcast/fist1.c line 6: Undefined function set_name before ;
+
+[Sun Feb 24 01:19:24 2002] u/d/dreamcast/fist1.c line 7: Undefined function set_weight before ;
+
+[Sun Feb 24 01:19:24 2002] u/d/dreamcast/fist1.c line 9: Undefined function set_default_object before ;
+
+[Sun Feb 24 01:19:24 2002] u/d/dreamcast/fist1.c line 12: Undefined function set before ;
+
+[Sun Feb 24 01:19:24 2002] u/d/dreamcast/fist1.c line 20: Undefined function init_fist before ;
+
+[Sun Feb 24 01:19:24 2002] u/d/dreamcast/fist1.c line 21: Undefined function setup before ;
+
+[Sun Feb 24 13:18:50 2002] u/d/dreamcast/room1.c line 12: parse error before "/d/dreamcast/basicr
+
+[Sun Feb 24 13:21:51 2002] u/d/dreamcast/room1.c line 11: Undefined variable '_DIR_' before the end of line
+
+[Sun Feb 24 13:21:51 2002] u/d/dreamcast/room1.c line 11: parse error before the end of line
+
+[Sun Feb 24 13:22:13 2002] u/d/dreamcast/room1.c line 11: Undefined variable '_DIR_' before ,
+
+[Sun Feb 24 13:22:13 2002] u/d/dreamcast/room1.c line 11: parse error before ,
+
+[Sun Feb 24 14:59:24 2002] u/d/dreamcast/infinite10.c line 13: parse error before the end of line
+
+[Sun Feb 24 15:10:12 2002] u/d/dreamcast/infinite10.c line 14: Undefined function create_door before ;
+
+[Sun Feb 24 15:11:18 2002] u/d/dreamcast/infinite10.c line 14: Undefined function create_door before ;
+
+[Sun Feb 24 15:12:08 2002] u/d/dreamcast/infinite10.c line 14: Undefined function create_door before ;
+
+[Sun Feb 24 15:13:43 2002] u/d/dreamcast/infinite10.c line 14: Undefined function create_door before ;
+
+[Sun Feb 24 15:15:23 2002] u/d/dreamcast/infinite10.c line 14: Undefined function create_door before ;
+
+[Sun Feb 24 15:17:02 2002] u/d/dreamcast/infinite10.c line 14: Undefined function create_door before ;
+
+[Sun Feb 24 15:45:32 2002] u/d/dreamcast/infinite10.c line 25: Undefined variable 'skyevilkey' before ;
+
+[Sun Feb 24 15:47:35 2002] u/d/dreamcast/infinite10.c line 25: Undefined variable 'skyevilkey' before ;
+
+[Sun Feb 24 15:48:29 2002] u/d/dreamcast/infinite10.c line 25: Undefined variable 'skyevilkey' before ;
+
+[Sun Feb 24 15:54:09 2002] u/d/dreamcast/infinite10.c line 25: Undefined variable 'skyevilkey' before ;
+
+[Sun Feb 24 15:58:00 2002] u/d/dreamcast/infinite10.c line 25: Undefined variable 'skyevilkey' before ;
+
+[Sun Feb 24 15:59:08 2002] u/d/dreamcast/skyevil1.c line 16: Undefined variable 'skyevilkey' before ;
+
+[Sun Feb 24 16:02:03 2002] u/d/dreamcast/infinite10.c line 25: Undefined variable 'skyevilkey' before ;
+
+[Sun Feb 24 16:02:03 2002] u/d/dreamcast/infinite10.c line 26: Undefined variable 'room' before create_door("up","¤Ñ
+
+[Sun Feb 24 16:04:10 2002] u/d/dreamcast/infinite10.c line 26: Undefined variable 'room' before create_door("up","¤Ñ
+
+[Sun Feb 24 16:04:10 2002] u/d/dreamcast/infinite10.c line 26: Undefined variable 'skyevilkey' before ;
+
+[Sun Feb 24 16:05:34 2002] u/d/dreamcast/infinite10.c line 26: Undefined variable 'room' before create_door("up","¤Ñ
+
+[Sun Feb 24 16:05:34 2002] u/d/dreamcast/infinite10.c line 26: Undefined variable 'skyevilkey' before ;
+
+[Sun Feb 24 16:13:41 2002] u/d/dreamcast/infinite10.c line 43: parse error before the end of line
+
+[Sun Feb 24 16:15:51 2002] u/d/dreamcast/infinite10.c line 39: parse error before the end of line
+
+[Sun Feb 24 16:16:36 2002] u/d/dreamcast/infinite10.c line 42: parse error before the end of line
+
+[Sun Feb 24 16:17:26 2002] u/d/dreamcast/infinite10.c line 24: Undefined variable 'HIM' before NOR,"up",DOOR_LOCKED
+
+[Sun Feb 24 16:17:26 2002] u/d/dreamcast/infinite10.c line 24: parse error before NOR,"up",DOOR_LOCKED
+
+[Sun Feb 24 16:18:32 2002] u/d/dreamcast/infinite10.c line 24: Undefined variable 'HIM' before NOR,"up",DOOR_LOCKED
+
+[Sun Feb 24 16:18:32 2002] u/d/dreamcast/infinite10.c line 24: parse error before NOR,"up",DOOR_LOCKED
+
+[Sun Feb 24 16:19:29 2002] u/d/dreamcast/infinite10.c line 24: Undefined variable 'HIM' before NOR,"up",DOOR_LOCKED
+
+[Sun Feb 24 16:19:29 2002] u/d/dreamcast/infinite10.c line 24: parse error before NOR,"up",DOOR_LOCKED
+
+[Sun Feb 24 17:02:11 2002] u/d/dreamcast/infinite10.c line 16: Reserved type name unexpected. before  down()
+
+[Sun Feb 24 17:02:11 2002] u/d/dreamcast/infinite10.c line 16: parse error before  down()
+
+[Sun Feb 24 17:02:11 2002] u/d/dreamcast/infinite10.c line 20: Undefined variable 'unlock' before ("unlock down") ) ob
+
+[Sun Feb 24 17:02:11 2002] u/d/dreamcast/infinite10.c line 20: Illegal LHS before ("unlock down") ) ob
+
+[Sun Feb 24 17:02:11 2002] u/d/dreamcast/infinite10.c line 20: Illegal LHS before the end of line
+
+[Sun Feb 24 17:02:11 2002] u/d/dreamcast/infinite10.c line 21: Undefined variable 'ob' before the end of line
+
+[Sun Feb 24 17:04:50 2002] u/d/dreamcast/infinite10.c line 16: Reserved type name unexpected. before ()
+
+[Sun Feb 24 17:04:50 2002] u/d/dreamcast/infinite10.c line 16: parse error before ()
+
+[Sun Feb 24 17:04:50 2002] u/d/dreamcast/infinite10.c line 20: Illegal LHS before  ob = this_player(1)
+
+[Sun Feb 24 17:04:50 2002] u/d/dreamcast/infinite10.c line 20: parse error before  ob = this_player(1)
+
+[Sun Feb 24 17:04:50 2002] u/d/dreamcast/infinite10.c line 20: Illegal LHS before the end of line
+
+[Sun Feb 24 17:04:50 2002] u/d/dreamcast/infinite10.c line 21: Undefined variable 'ob' before the end of line
+
+[Sun Feb 24 17:18:46 2002] u/d/dreamcast/testwolf.c line 18: Reserved type name unexpected. before ()
+
+[Sun Feb 24 17:18:46 2002] u/d/dreamcast/testwolf.c line 18: parse error before ()
+
+[Sun Feb 24 17:18:46 2002] u/d/dreamcast/testwolf.c line 21: Illegal LHS before the end of line
+
+[Sun Feb 24 17:18:46 2002] u/d/dreamcast/testwolf.c line 21: parse error before the end of line
+
+[Sun Feb 24 17:18:46 2002] u/d/dreamcast/testwolf.c line 22: Illegal LHS before the end of line
+
+[Sun Feb 24 17:18:46 2002] u/d/dreamcast/testwolf.c line 23: Undefined variable 'ob' before  
+
+[Sun Feb 24 17:18:46 2002] u/d/dreamcast/testwolf.c line 29: Warning: Unknown \ escape. before O¦p¦ó¡I¡I¡I¡v"\n\n"+
+
+[Sun Feb 24 17:22:53 2002] u/d/dreamcast/testwolf.c line 54: Undefined variable 'HIY' before ¬ðµM"HIM"¨¸¤Ñ¤j§¯"HI
+
+[Sun Feb 24 17:22:53 2002] u/d/dreamcast/testwolf.c line 54: parse error before ¬ðµM"HIM"¨¸¤Ñ¤j§¯"HI
+
+[Sun Feb 24 17:22:53 2002] u/d/dreamcast/testwolf.c line 54: Warning: Unknown \ escape. before O¦p¦ó¡I¡I¡I¡v"\n\n"+
+
+[Sun Feb 24 17:22:53 2002] u/d/dreamcast/testwolf.c line 64: End of file in string before x\n     ¢u¢w¢q¢w¢q¢
+
+[Sun Feb 24 17:25:44 2002] u/d/dreamcast/testwolf.c line 54: Undefined variable 'HIY' before ¬ðµM"HIM"¨¸¤Ñ¤j§¯"HI
+
+[Sun Feb 24 17:25:44 2002] u/d/dreamcast/testwolf.c line 54: parse error before ¬ðµM"HIM"¨¸¤Ñ¤j§¯"HI
+
+[Sun Feb 24 17:25:44 2002] u/d/dreamcast/testwolf.c line 54: Warning: Unknown \ escape. before O¦p¦ó¡I¡I¡I¡v"\n\n"+
+
+[Sun Feb 24 17:25:44 2002] u/d/dreamcast/testwolf.c line 64: End of file in string before      return;
+
+[Sun Feb 24 17:32:40 2002] u/d/dreamcast/testwolf.c line 54: Undefined variable 'HIY' before HIC" ¬ðµMÅ¥¨ì"HIM"¨¸
+
+[Sun Feb 24 17:32:40 2002] u/d/dreamcast/testwolf.c line 54: parse error before HIC" ¬ðµMÅ¥¨ì"HIM"¨¸
+
+[Sun Feb 24 17:32:40 2002] u/d/dreamcast/testwolf.c line 54: Warning: Unknown \ escape. before O¦p¦ó¡I¡I¡I¡v+NOR \n
+
+[Sun Feb 24 17:35:47 2002] u/d/dreamcast/testwolf.c line 4: Undefined function set_name before ;
+
+[Sun Feb 24 17:35:47 2002] u/d/dreamcast/testwolf.c line 9: Undefined function set before ;
+
+[Sun Feb 24 17:35:47 2002] u/d/dreamcast/testwolf.c line 16: Undefined function setup before ;
+
+[Sun Feb 24 17:35:47 2002] u/d/dreamcast/testwolf.c line 39: Undefined function add_money before ;
+
+[Sun Feb 24 17:35:47 2002] u/d/dreamcast/testwolf.c line 45: Undefined function query_temp before  )
+
+[Sun Feb 24 17:35:47 2002] u/d/dreamcast/testwolf.c line 45: Bad assignment ( object vs unknown ). before the end of line
+
+[Sun Feb 24 17:35:47 2002] u/d/dreamcast/testwolf.c line 55: Warning: Unknown \ escape. before O¦p¦ó¡I¡I¡I¡v+NOR"
+
+[Sun Feb 24 17:39:10 2002] u/d/dreamcast/guardwolf.c line 30: Undefined variable 'HIY' before the end of line
+
+[Sun Feb 24 17:39:10 2002] u/d/dreamcast/guardwolf.c line 30: parse error before the end of line
+
+[Sun Feb 24 17:39:10 2002] u/d/dreamcast/guardwolf.c line 31: Illegal terminator before Á@§Aªº¥\¤O¦p¦ó¡I¡I¡I
+
+[Sun Feb 24 17:41:41 2002] u/d/dreamcast/guardwolf.c line 4: Undefined function set_name before ;
+
+[Sun Feb 24 17:41:41 2002] u/d/dreamcast/guardwolf.c line 9: Undefined function set before ;
+
+[Sun Feb 24 17:41:41 2002] u/d/dreamcast/guardwolf.c line 16: Undefined function setup before ;
+
+[Sun Feb 24 17:41:41 2002] u/d/dreamcast/guardwolf.c line 17: Undefined function add_money before ;
+
+[Sun Feb 24 17:41:41 2002] u/d/dreamcast/guardwolf.c line 22: Undefined function query_temp before  )
+
+[Sun Feb 24 17:41:41 2002] u/d/dreamcast/guardwolf.c line 22: Bad assignment ( object vs unknown ). before the end of line
+
+[Sun Feb 24 17:43:37 2002] u/d/dreamcast/guardwolf.c line 30: Undefined variable 'HIY' before the end of line
+
+[Sun Feb 24 17:43:37 2002] u/d/dreamcast/guardwolf.c line 30: parse error before the end of line
+
+[Sun Feb 24 17:43:37 2002] u/d/dreamcast/guardwolf.c line 40: End of file in string before [ %d ±i¯d¨¥¡M%d ±i¥¼
+
+[Sun Feb 24 17:44:38 2002] u/d/dreamcast/guardwolf.c line 30: Undefined variable 'HIY' before the end of line
+
+[Sun Feb 24 17:44:38 2002] u/d/dreamcast/guardwolf.c line 30: parse error before the end of line
+
+[Sun Feb 24 17:44:42 2002] u/d/dreamcast/guardwolf.c line 30: Undefined variable 'HIY' before the end of line
+
+[Sun Feb 24 17:44:42 2002] u/d/dreamcast/guardwolf.c line 30: parse error before the end of line
+
+[Sun Feb 24 17:49:07 2002] u/d/dreamcast/guardwolf.c line 1: parse error before [33m inherit NPC;[0
+
+[Sun Feb 24 17:54:58 2002] u/d/dreamcast/guardwolf.c line 41: parse error before [30m[0m
+
+[Sun Feb 24 17:55:22 2002] u/d/dreamcast/guardwolf.c line 41: parse error before [30m[0m
+
+[Sun Feb 24 17:56:56 2002] u/d/dreamcast/guardwolf.c line 41: parse error before [30m[0m
+
+[Sun Feb 24 17:57:21 2002] u/d/dreamcast/guardwolf.c line 41: parse error before [30m[0m
+
+[Sun Feb 24 17:57:39 2002] u/d/dreamcast/guardwolf.c line 41: parse error before [30m[0m
+
+[Sun Feb 24 17:58:01 2002] u/d/dreamcast/guardwolf.c line 41: parse error before [30m[0m
+
+[Sun Feb 24 18:12:03 2002] u/d/dreamcast/guardwolf.c line 31: parse error before ðµMÅ¥¨ì"HIM"¨¸¤Ñ¤j§¯
+
+[Sun Feb 24 18:12:03 2002] u/d/dreamcast/guardwolf.c line 38: End of file in string before turn 1;
+
+[Sun Feb 24 18:14:12 2002] u/d/dreamcast/guardwolf.c line 31: parse error before ðµMÅ¥¨ì"HIM"¨¸¤Ñ¤j§¯
+
+[Sun Feb 24 18:14:12 2002] u/d/dreamcast/guardwolf.c line 38: End of file in string before ring query_long(int 
+
+[Sun Feb 24 18:15:28 2002] u/d/dreamcast/guardwolf.c line 31: parse error before ðµMÅ¥¨ì¨¸¤Ñ¤j§¯¤j¯º¡
+
+[Sun Feb 24 18:15:28 2002] u/d/dreamcast/guardwolf.c line 38: End of file in string before 0, i, out_mob;
+
+[Sun Feb 24 18:16:02 2002] u/d/dreamcast/guardwolf.c line 31: parse error before ðµMÅ¥¨ì¨¸¤Ñ¤j§¯¤j¯º¡
+
+[Sun Feb 24 18:16:02 2002] u/d/dreamcast/guardwolf.c line 38: End of file in string before the end of line
+
+[Sun Feb 24 18:16:47 2002] u/d/dreamcast/guardwolf.c line 31: parse error before ðµMÅ¥¨ì¨¸¤Ñ¤j§¯¤j¯º¡
+
+[Sun Feb 24 18:16:47 2002] u/d/dreamcast/guardwolf.c line 38: End of file in string before the end of line
+
+[Sun Feb 24 18:19:09 2002] u/d/dreamcast/guardwolf.c line 32: parse error before ->add("popularity",3
+
+[Mon Feb 25 18:10:36 2002] u/d/dreamcast/basicroom.c line 9: parse error before P§T"«Ê¦L¦b¦¹¡A¦Ó¦b¥L
+
+[Mon Feb 25 18:11:58 2002] u/d/dreamcast/basicroom.c line 9: parse error before P§T"«Ê¦L¦b¦¹¡A¦Ó¦b¥L
+
+[Mon Feb 25 18:13:11 2002] u/d/dreamcast/basicroom.c line 10: Undefined variable 'test' before  ("exits", ([
+
+[Mon Feb 25 18:13:11 2002] u/d/dreamcast/basicroom.c line 10: parse error before  ("exits", ([
+
+[Mon Feb 25 18:14:53 2002] u/d/dreamcast/basicroom.c line 9: parse error before P§T"«Ê¦L¦b¦¹¡A¦Ó¦b¥L
+
+[Mon Feb 25 18:17:54 2002] u/d/dreamcast/basicroom.c line 10: parse error before o¸Ì´N¬O¹©¹©¤j¦WªºÃö¥
+
+[Mon Feb 25 18:17:54 2002] u/d/dreamcast/basicroom.c line 11: Illegal terminator before ­Ó¶Ç»¡¡A¬Û¶Ç³o¸Ì´¿¸g
+
+[Mon Feb 25 18:19:05 2002] u/d/dreamcast/basicroom.c line 10: parse error before o¸Ì´N¬O¹©¹©¤j¦WªºÃö¥
+
+[Mon Feb 25 18:19:05 2002] u/d/dreamcast/basicroom.c line 11: Illegal terminator before ­Ó¶Ç»¡¡A¬Û¶Ç³o¸Ì´¿¸g
+
+[Mon Feb 25 18:20:05 2002] u/d/dreamcast/basicroom.c line 10: parse error before o¸Ì´N¬O¹©¹©¤j¦WªºÃö¥
+
+[Mon Feb 25 18:20:05 2002] u/d/dreamcast/basicroom.c line 11: Illegal terminator before ­Ó¶Ç»¡¡A¬Û¶Ç³o¸Ì´¿¸g
+
+[Mon Feb 25 18:21:09 2002] u/d/dreamcast/basicroom.c line 10: parse error before o¸Ì´N¬O¹©¹©¤j¦WªºÃö¥
+
+[Mon Feb 25 18:21:09 2002] u/d/dreamcast/basicroom.c line 11: Illegal terminator before ­Ó¶Ç»¡¡A¬Û¶Ç³o¸Ì´¿¸g
+
+[Mon Feb 25 22:03:40 2002] u/d/dreamcast/guardwolf.c line 22: Undefined variable 'combat_exp' before 10000);
+
+[Wed Feb 27 18:28:42 2002] u/d/dreamcast/basiccloth.c line 23: Reserved type name unexpected. before ()
+
+[Wed Feb 27 18:28:42 2002] u/d/dreamcast/basiccloth.c line 23: parse error before ()
+
+[Wed Feb 27 18:28:42 2002] u/d/dreamcast/basiccloth.c line 29: parse error before the end of line
+
+[Wed Feb 27 18:28:50 2002] u/d/dreamcast/basiccloth.c line 23: Reserved type name unexpected. before ()
+
+[Wed Feb 27 18:28:50 2002] u/d/dreamcast/basiccloth.c line 23: parse error before ()
+
+[Wed Feb 27 18:28:50 2002] u/d/dreamcast/basiccloth.c line 29: parse error before the end of line
+
+[Wed Feb 27 20:18:13 2002] u/d/dreamcast/guardwolf.c line 28: parse error before the end of line
+
+[Wed Feb 27 20:18:13 2002] u/d/dreamcast/guardwolf.c line 37: Illegal LHS before the end of line
+
+[Wed Feb 27 20:18:13 2002] u/d/dreamcast/guardwolf.c line 37: parse error before the end of line
+
+[Wed Feb 27 20:18:13 2002] u/d/dreamcast/guardwolf.c line 38: Illegal LHS before the end of line
+
+[Wed Feb 27 20:18:13 2002] u/d/dreamcast/guardwolf.c line 38: parse error before the end of line
+
+[Wed Feb 27 20:18:49 2002] u/d/dreamcast/guardwolf.c line 28: parse error before the end of line
+
+[Wed Feb 27 20:18:49 2002] u/d/dreamcast/guardwolf.c line 37: Illegal LHS before the end of line
+
+[Wed Feb 27 20:18:49 2002] u/d/dreamcast/guardwolf.c line 37: parse error before the end of line
+
+[Wed Feb 27 20:18:49 2002] u/d/dreamcast/guardwolf.c line 38: Illegal LHS before the end of line
+
+[Wed Feb 27 20:18:49 2002] u/d/dreamcast/guardwolf.c line 38: parse error before the end of line
+
+[Wed Feb 27 20:25:46 2002] u/d/dreamcast/guardwolf.c line 14: parse error before the end of line
+
+[Wed Feb 27 20:26:30 2002] u/d/dreamcast/guardwolf.c line 4: Undefined function set_name before ;
+
+[Wed Feb 27 20:26:30 2002] u/d/dreamcast/guardwolf.c line 5: Undefined function set before ;
+
+[Wed Feb 27 20:26:30 2002] u/d/dreamcast/guardwolf.c line 10: parse error before  NPC;
+
+[Wed Feb 27 20:26:30 2002] u/d/dreamcast/guardwolf.c line 25: No such inherited function ::init before ;
+
+[Wed Feb 27 20:26:30 2002] u/d/dreamcast/guardwolf.c line 31: Undefined function name before  + "±N§AÄd¤F¤U¨Ó¡C\n
+
+[Wed Feb 27 20:26:30 2002] u/d/dreamcast/guardwolf.c line 31: Invalid argument types to '+' ( unknown vs string ) before ;
+
+[Wed Feb 27 20:27:40 2002] u/d/dreamcast/guardwolf.c line 4: Undefined function set_name before ;
+
+[Wed Feb 27 20:27:40 2002] u/d/dreamcast/guardwolf.c line 5: Undefined function set before ;
+
+[Wed Feb 27 20:27:40 2002] u/d/dreamcast/guardwolf.c line 10: parse error before  NPC;
+
+[Wed Feb 27 20:27:40 2002] u/d/dreamcast/guardwolf.c line 25: No such inherited function ::init before ;
+
+[Wed Feb 27 20:27:40 2002] u/d/dreamcast/guardwolf.c line 31: Undefined function name before  + "±N§AÄd¤F¤U¨Ó¡C\n
+
+[Wed Feb 27 20:27:40 2002] u/d/dreamcast/guardwolf.c line 31: Invalid argument types to '+' ( unknown vs string ) before ;
+
+[Wed Feb 27 20:28:04 2002] u/d/dreamcast/guardwolf.c line 4: Undefined function set_name before ;
+
+[Wed Feb 27 20:28:04 2002] u/d/dreamcast/guardwolf.c line 5: Undefined function set before ;
+
+[Wed Feb 27 20:28:04 2002] u/d/dreamcast/guardwolf.c line 10: parse error before  NPC;
+
+[Wed Feb 27 20:28:04 2002] u/d/dreamcast/guardwolf.c line 25: No such inherited function ::init before ;
+
+[Wed Feb 27 20:28:04 2002] u/d/dreamcast/guardwolf.c line 31: Undefined function name before  + "±N§AÄd¤F¤U¨Ó¡C\n
+
+[Wed Feb 27 20:28:04 2002] u/d/dreamcast/guardwolf.c line 31: Invalid argument types to '+' ( unknown vs string ) before ;
+
+[Wed Feb 27 20:29:13 2002] u/d/dreamcast/guardwolf.c line 11: parse error before  NPC;
+
+[Wed Feb 27 20:29:39 2002] u/d/dreamcast/guardwolf.c line 15: parse error before the end of line
+
+[Wed Feb 27 20:44:51 2002] u/d/dreamcast/guardwolf.c line 12: Undefined variable 'combat_exp' before 50000)
+
+[Wed Feb 27 20:44:51 2002] u/d/dreamcast/guardwolf.c line 13: parse error before (max_hp,15000);
+
+[Wed Feb 27 20:45:17 2002] u/d/dreamcast/guardwolf.c line 12: Undefined variable 'combat_exp' before 50000);
+
+[Wed Feb 27 20:45:17 2002] u/d/dreamcast/guardwolf.c line 13: Undefined variable 'max_hp' before 15000);
+
+[Wed Feb 27 21:13:04 2002] u/d/dreamcast/basiccloth.c line 23: Reserved type name unexpected. before ()
+
+[Wed Feb 27 21:13:04 2002] u/d/dreamcast/basiccloth.c line 23: parse error before ()
+
+[Wed Feb 27 21:13:04 2002] u/d/dreamcast/basiccloth.c line 29: parse error before the end of line
+
+[Wed Feb 27 21:14:24 2002] u/d/dreamcast/basiccloth.c line 23: Reserved type name unexpected. before ()
+
+[Wed Feb 27 21:14:24 2002] u/d/dreamcast/basiccloth.c line 23: parse error before ()
+
+[Wed Feb 27 21:14:24 2002] u/d/dreamcast/basiccloth.c line 30: parse error before the end of line
+
+[Wed Feb 27 21:15:37 2002] u/d/dreamcast/basiccloth.c line 23: Reserved type name unexpected. before ()
+
+[Wed Feb 27 21:15:37 2002] u/d/dreamcast/basiccloth.c line 23: parse error before ()
+
+[Wed Feb 27 21:15:37 2002] u/d/dreamcast/basiccloth.c line 30: parse error before the end of line
+
+[Wed Feb 27 21:17:27 2002] u/d/dreamcast/basiccloth.c line 23: Reserved type name unexpected. before ()
+
+[Wed Feb 27 21:17:27 2002] u/d/dreamcast/basiccloth.c line 23: parse error before ()
+
+[Wed Feb 27 21:17:27 2002] u/d/dreamcast/basiccloth.c line 30: parse error before the end of line
+
+[Wed Feb 27 21:19:34 2002] u/d/dreamcast/basiccloth.c line 24: parse error before  init()
+
+[Wed Feb 27 21:21:41 2002] u/d/dreamcast/basiccloth.c line 24: parse error before the end of line
+
+[Wed Feb 27 21:23:21 2002] u/d/dreamcast/basiccloth.c line 24: parse error before the end of line
+
+[Wed Feb 27 21:23:39 2002] u/d/dreamcast/basiccloth.c line 25: parse error before  init()
+
+[Wed Feb 27 21:24:21 2002] u/d/dreamcast/basiccloth.c line 24: parse error before the end of line
+
+[Wed Feb 27 21:25:48 2002] u/d/dreamcast/basiccloth.c line 25: Illegal to declare local variable of type void. before ()
+
+[Wed Feb 27 21:25:48 2002] u/d/dreamcast/basiccloth.c line 25: parse error before )
+
+[Wed Feb 27 21:28:53 2002] u/d/dreamcast/basiccloth.c line 25: Illegal to declare local variable of type void. before ()
+
+[Wed Feb 27 21:28:53 2002] u/d/dreamcast/basiccloth.c line 25: parse error before )
+
+[Wed Feb 27 21:33:40 2002] u/d/dreamcast/guardwolf.c line 13: Undefined variable 'human' before ;
+
+[Wed Feb 27 21:35:01 2002] u/d/dreamcast/guardwolf.c line 13: parse error before HÃþ);
+
+[Wed Feb 27 21:35:01 2002] u/d/dreamcast/guardwolf.c line 40: Illegal LHS before the end of line
+
+[Wed Feb 27 21:35:01 2002] u/d/dreamcast/guardwolf.c line 41: parse error before  = this_player(1);
+
+[Wed Feb 27 21:35:01 2002] u/d/dreamcast/guardwolf.c line 41: Illegal LHS before the end of line
+
+[Wed Feb 27 21:35:01 2002] u/d/dreamcast/guardwolf.c line 42: Undefined variable 'ob' before  
+
+[Wed Feb 27 21:35:57 2002] u/d/dreamcast/guardwolf.c line 28: parse error before  ); 
+
+[Thu Feb 28 00:31:07 2002] u/d/dreamcast/basiccloth.c line 25: Illegal to declare local variable of type void. before ()
+
+[Thu Feb 28 00:31:07 2002] u/d/dreamcast/basiccloth.c line 25: parse error before )
+
+[Thu Feb 28 12:48:44 2002] u/d/dreamcast/superbook.c line 14: Warning: Unknown \ escape. before À¯«·´¥@À»¡E\n");
+
+[Thu Feb 28 13:03:35 2002] u/d/dreamcast/superbook.c line 13: Warning: Unknown \ escape. before å¥@·À¯«À»¡E\n");
+
+[Thu Feb 28 13:04:43 2002] u/d/dreamcast/superbook.c line 13: Warning: Unknown \ escape. before å¥@·À¯«À»¡E\n");
+
+[Thu Feb 28 13:05:21 2002] u/d/dreamcast/superbook.c line 6: Undefined variable 'HIR' before NOR,({"super book","
+
+[Thu Feb 28 13:05:21 2002] u/d/dreamcast/superbook.c line 6: parse error before NOR,({"super book","
+
+[Thu Feb 28 13:05:21 2002] u/d/dreamcast/superbook.c line 13: Warning: Unknown \ escape. before å¥@·À¯«À»¡E\n");
+
+[Thu Feb 28 13:05:21 2002] u/d/dreamcast/superbook.c line 28: Illegal LHS before the end of line
+
+[Thu Feb 28 13:05:21 2002] u/d/dreamcast/superbook.c line 28: parse error before the end of line
+
+[Thu Feb 28 13:05:21 2002] u/d/dreamcast/superbook.c line 31: Undefined variable 'arg' before  environment(me));
+
+[Thu Feb 28 13:05:21 2002] u/d/dreamcast/superbook.c line 31: Undefined variable 'me' before );
+
+[Thu Feb 28 13:06:19 2002] u/d/dreamcast/superbook.c line 14: Warning: Unknown \ escape. before å¥@·À¯«À»¡E\n");
+
+[Thu Feb 28 13:06:43 2002] u/d/dreamcast/superbook.c line 14: Warning: Unknown \ escape. before å¥@·À¯«À»¡E\n");
+
+[Thu Feb 28 13:07:10 2002] u/d/dreamcast/superbook.c line 14: Warning: Unknown \ escape. before .Åå¥@·À¯«À»¡E");
+
+[Thu Feb 28 13:07:50 2002] u/d/dreamcast/superbook.c line 14: Warning: Unknown \ escape. before .Åå¥@·À¯«À»¡E"
+
+[Thu Feb 28 13:07:50 2002] u/d/dreamcast/superbook.c line 15: parse error before the end of line
+
+[Thu Feb 28 13:07:50 2002] u/d/dreamcast/superbook.c line 29: Illegal LHS before the end of line
+
+[Thu Feb 28 13:07:50 2002] u/d/dreamcast/superbook.c line 29: parse error before the end of line
+
+[Thu Feb 28 13:07:50 2002] u/d/dreamcast/superbook.c line 32: Undefined variable 'arg' before  environment(me));
+
+[Thu Feb 28 13:07:50 2002] u/d/dreamcast/superbook.c line 32: Undefined variable 'me' before );
+
+[Thu Feb 28 13:07:50 2002] u/d/dreamcast/superbook.c line 32: Illegal LHS before the end of line
+
+[Thu Feb 28 13:08:08 2002] u/d/dreamcast/superbook.c line 14: Warning: Unknown \ escape. before »¡E");
+
+[Thu Feb 28 13:08:30 2002] u/d/dreamcast/superbook.c line 14: Warning: Unknown \ escape. before E");
+
+[Thu Feb 28 13:08:54 2002] u/d/dreamcast/superbook.c line 16: parse error before ", 100);
+
+[Thu Feb 28 13:08:54 2002] u/d/dreamcast/superbook.c line 37: Illegal terminator before ¤ÑÅ]Ä_¨å¡v¥u¯à¹ï¾Ô°«
+
+[Thu Feb 28 13:09:44 2002] u/d/dreamcast/superbook.c line 14: Warning: Unknown \ escape. before E");
+
+[Thu Feb 28 13:11:13 2002] u/d/dreamcast/superbook.c line 14: Warning: Unknown \ escape. before E");
+
+[Thu Feb 28 13:12:35 2002] u/d/dreamcast/superbook.c line 14: Warning: Unknown \ escape. before E");
+
+[Thu Feb 28 13:13:34 2002] u/d/dreamcast/superbook.c line 14: parse error before o¬O¤ÑÅ]·À¥@®É©Ò¥Îªº¤
+
+[Thu Feb 28 13:13:34 2002] u/d/dreamcast/superbook.c line 14: Illegal terminator before ®É©Ò¥Îªº¤@¥»®Ñ¡A°O¸ü
+
+[Thu Feb 28 13:13:58 2002] u/d/dreamcast/superbook.c line 14: Warning: Unknown \ escape. before E"
+
+[Thu Feb 28 13:13:58 2002] u/d/dreamcast/superbook.c line 15: parse error before the end of line
+
+[Thu Feb 28 13:13:58 2002] u/d/dreamcast/superbook.c line 29: Illegal LHS before the end of line
+
+[Thu Feb 28 13:13:58 2002] u/d/dreamcast/superbook.c line 29: parse error before the end of line
+
+[Thu Feb 28 13:13:58 2002] u/d/dreamcast/superbook.c line 32: Undefined variable 'arg' before  environment(me));
+
+[Thu Feb 28 13:13:58 2002] u/d/dreamcast/superbook.c line 32: Undefined variable 'me' before );
+
+[Thu Feb 28 13:13:58 2002] u/d/dreamcast/superbook.c line 32: Illegal LHS before the end of line
+
+[Thu Feb 28 13:14:24 2002] u/d/dreamcast/superbook.c line 14: parse error before ¼¤@¯ëªº®Ñ
+
+[Thu Feb 28 13:14:24 2002] u/d/dreamcast/superbook.c line 14: Illegal terminator before ¯ëªº®Ñ
+
+[Thu Feb 28 13:14:48 2002] u/d/dreamcast/superbook.c line 14: parse error before ¼
+
+[Thu Feb 28 13:14:48 2002] u/d/dreamcast/superbook.c line 29: Illegal LHS before the end of line
+
+[Thu Feb 28 13:14:48 2002] u/d/dreamcast/superbook.c line 29: parse error before the end of line
+
+[Thu Feb 28 13:14:48 2002] u/d/dreamcast/superbook.c line 32: Undefined variable 'arg' before  environment(me));
+
+[Thu Feb 28 13:14:48 2002] u/d/dreamcast/superbook.c line 32: Undefined variable 'me' before );
+
+[Thu Feb 28 13:14:48 2002] u/d/dreamcast/superbook.c line 32: Illegal LHS before the end of line
+
+[Thu Feb 28 13:15:14 2002] u/d/dreamcast/superbook.c line 14: parse error before o¬O¤ÑÅ]·À¥@®É©Ò¥Îªº¤
+
+[Thu Feb 28 13:15:14 2002] u/d/dreamcast/superbook.c line 14: Illegal terminator before ®É©Ò¥Îªº¤@¥»®Ñ¡A°O¸ü
+
+[Thu Feb 28 13:16:22 2002] u/d/dreamcast/superbook.c line 15: parse error before the end of line
+
+[Thu Feb 28 13:16:22 2002] u/d/dreamcast/superbook.c line 29: Illegal LHS before the end of line
+
+[Thu Feb 28 13:16:22 2002] u/d/dreamcast/superbook.c line 29: parse error before the end of line
+
+[Thu Feb 28 13:16:22 2002] u/d/dreamcast/superbook.c line 32: Undefined variable 'arg' before  environment(me));
+
+[Thu Feb 28 13:16:22 2002] u/d/dreamcast/superbook.c line 32: Undefined variable 'me' before );
+
+[Thu Feb 28 13:16:22 2002] u/d/dreamcast/superbook.c line 32: Illegal LHS before the end of line
+
+[Thu Feb 28 13:18:19 2002] u/d/dreamcast/killbook.c line 13: Warning: Unknown \ escape. before å¥@·À¯«À»¡E\n");
+
+[Thu Feb 28 13:19:03 2002] u/d/dreamcast/killbook.c line 6: Undefined variable 'HIR' before NOR,({"you ming book
+
+[Thu Feb 28 13:19:03 2002] u/d/dreamcast/killbook.c line 6: parse error before NOR,({"you ming book
+
+[Thu Feb 28 13:19:03 2002] u/d/dreamcast/killbook.c line 28: Illegal LHS before the end of line
+
+[Thu Feb 28 13:19:03 2002] u/d/dreamcast/killbook.c line 28: parse error before the end of line
+
+[Thu Feb 28 13:19:03 2002] u/d/dreamcast/killbook.c line 31: Undefined variable 'arg' before  environment(me));
+
+[Thu Feb 28 13:19:03 2002] u/d/dreamcast/killbook.c line 31: Undefined variable 'me' before );
+
+[Thu Feb 28 13:19:27 2002] u/d/dreamcast/killbook.c line 6: Undefined variable 'HIR' before NOR,({"kill book","b
+
+[Thu Feb 28 13:19:27 2002] u/d/dreamcast/killbook.c line 6: parse error before NOR,({"kill book","b
+
+[Thu Feb 28 13:19:27 2002] u/d/dreamcast/killbook.c line 28: Illegal LHS before the end of line
+
+[Thu Feb 28 13:19:27 2002] u/d/dreamcast/killbook.c line 28: parse error before the end of line
+
+[Thu Feb 28 13:19:27 2002] u/d/dreamcast/killbook.c line 31: Undefined variable 'arg' before  environment(me));
+
+[Thu Feb 28 13:19:27 2002] u/d/dreamcast/killbook.c line 31: Undefined variable 'me' before );
+
+[Thu Feb 28 13:20:14 2002] u/d/dreamcast/killbook.c line 6: Undefined variable 'HIR' before NOR,({"kill book","b
+
+[Thu Feb 28 13:20:14 2002] u/d/dreamcast/killbook.c line 6: parse error before NOR,({"kill book","b
+
+[Thu Feb 28 13:20:14 2002] u/d/dreamcast/killbook.c line 28: Illegal LHS before the end of line
+
+[Thu Feb 28 13:20:14 2002] u/d/dreamcast/killbook.c line 28: parse error before the end of line
+
+[Thu Feb 28 13:20:14 2002] u/d/dreamcast/killbook.c line 31: Undefined variable 'arg' before  environment(me));
+
+[Thu Feb 28 13:20:14 2002] u/d/dreamcast/killbook.c line 31: Undefined variable 'me' before );
+
+[Thu Feb 28 13:20:58 2002] u/d/dreamcast/killbook.c line 13: Warning: Unknown \ escape. before å¥@·À¯«À»¡E\n");
+
+[Thu Feb 28 13:30:19 2002] u/d/dreamcast/basiccloth.c line 25: Illegal to declare local variable of type void. before ()
+
+[Thu Feb 28 13:30:19 2002] u/d/dreamcast/basiccloth.c line 25: parse error before )
+
+[Thu Feb 28 13:30:41 2002] u/d/dreamcast/basiccloth.c line 25: Illegal to declare local variable of type void. before ()
+
+[Thu Feb 28 13:30:41 2002] u/d/dreamcast/basiccloth.c line 25: parse error before )
+
+[Thu Feb 28 13:32:03 2002] u/d/dreamcast/basiccloth.c line 25: Illegal to declare local variable of type void. before ()
+
+[Thu Feb 28 13:32:03 2002] u/d/dreamcast/basiccloth.c line 25: parse error before )
+
+[Thu Feb 28 13:33:44 2002] u/d/dreamcast/basiccloth.c line 2: parse error before ;
+
+[Thu Feb 28 13:34:10 2002] u/d/dreamcast/basiccloth.c line 2: parse error before ;
+
+[Thu Feb 28 13:34:52 2002] u/d/dreamcast/basiccloth.c line 2: parse error before ;
+
+[Thu Feb 28 13:35:38 2002] u/d/dreamcast/basiccloth.c line 2: parse error before ;
+
+[Thu Feb 28 13:36:12 2002] u/d/dreamcast/basiccloth.c line 2: parse error before ;
+
+[Thu Feb 28 13:36:20 2002] u/d/dreamcast/basiccloth.c line 2: parse error before ;
+
+[Thu Feb 28 13:38:53 2002] u/d/dreamcast/basiccloth.c line 2: parse error before ;
+
+[Thu Feb 28 13:40:05 2002] u/d/dreamcast/basiccloth.c line 2: parse error before ;
+
+[Thu Feb 28 13:40:36 2002] u/d/dreamcast/basiccloth.c line 2: parse error before ;
+
+[Thu Feb 28 13:41:08 2002] u/d/dreamcast/basiccloth.c line 2: parse error before ;
+
+[Thu Feb 28 13:44:21 2002] u/d/dreamcast/basiccloth.c line 9: Undefined function set_name before ;
+
+[Thu Feb 28 13:44:21 2002] u/d/dreamcast/basiccloth.c line 10: Undefined function set_weight before ;
+
+[Thu Feb 28 13:44:21 2002] u/d/dreamcast/basiccloth.c line 12: Undefined function set_default_object before ;
+
+[Thu Feb 28 13:44:21 2002] u/d/dreamcast/basiccloth.c line 17: Undefined function set before ;
+
+[Thu Feb 28 13:44:21 2002] u/d/dreamcast/basiccloth.c line 26: Undefined function setup before ;
+
+[Thu Feb 28 13:44:47 2002] u/d/dreamcast/basiccloth.c line 9: Undefined function set_name before ;
+
+[Thu Feb 28 13:44:47 2002] u/d/dreamcast/basiccloth.c line 10: Undefined function set_weight before ;
+
+[Thu Feb 28 13:44:47 2002] u/d/dreamcast/basiccloth.c line 12: Undefined function set_default_object before ;
+
+[Thu Feb 28 13:44:47 2002] u/d/dreamcast/basiccloth.c line 17: Undefined function set before ;
+
+[Thu Feb 28 13:44:47 2002] u/d/dreamcast/basiccloth.c line 26: Undefined function setup before ;
+
+[Thu Feb 28 13:45:11 2002] u/d/dreamcast/basiccloth.c line 9: Undefined function set_name before ;
+
+[Thu Feb 28 13:45:11 2002] u/d/dreamcast/basiccloth.c line 10: Undefined function set_weight before ;
+
+[Thu Feb 28 13:45:11 2002] u/d/dreamcast/basiccloth.c line 12: Undefined function set_default_object before ;
+
+[Thu Feb 28 13:45:11 2002] u/d/dreamcast/basiccloth.c line 17: Undefined function set before ;
+
+[Thu Feb 28 13:45:11 2002] u/d/dreamcast/basiccloth.c line 26: Undefined function setup before ;
+
+[Thu Feb 28 13:48:32 2002] u/d/dreamcast/basiccloth.c line 7: parse error before [33m      [0m  set_
+
+[Thu Feb 28 13:48:32 2002] u/d/dreamcast/basiccloth.c line 23: parse error before ,40);
+
+[Thu Feb 28 14:44:49 2002] u/d/dreamcast/killbook.c line 13: Warning: Unknown \ escape. before å¥@·À¯«À»¡E\n");
+
+[Thu Feb 28 14:46:39 2002] u/d/dreamcast/killbook.c line 13: Warning: Unknown \ escape. before å¥@·À¯«À»¡E\n");
+
+[Thu Feb 28 15:21:12 2002] u/d/dreamcast/killbook.c line 13: Warning: Unknown \ escape. before å¥@·À¯«À»¡E\n");
+
+[Thu Feb 28 17:09:39 2002] u/d/dreamcast/killbook.c line 13: Warning: Unknown \ escape. before å¥@·À¯«À»¡E\n");
+
+[Fri Mar  1 16:20:17 2002] u/d/dreamcast/livingroom.c line 4: parse error before  create()
+
+[Fri Mar  1 16:22:38 2002] u/d/dreamcast/livingroom.c line 4: parse error before  create()
+
+[Fri Mar  1 16:24:22 2002] u/d/dreamcast/livingroom.c line 4: parse error before  create()
+
+[Fri Mar  1 16:30:30 2002] u/d/dreamcast/livingroom.c line 3: parse error before  create()
+
+[Fri Mar  1 16:32:45 2002] u/d/dreamcast/livingroom.c line 2: parse error before  ROOM
+
+[Fri Mar  1 16:35:52 2002] u/d/dreamcast/livingroom.c line 2: parse error before  ROOM
+
+[Fri Mar  1 18:19:23 2002] u/d/dreamcast/killbook.c line 13: Warning: Unknown \ escape. before å¥@·À¯«À»¡E\n");
+
+[Fri Mar  1 18:42:36 2002] u/d/dreamcast/livingroom.c line 13: parse error before the end of line
+
+[Fri Mar  1 18:48:07 2002] u/d/dreamcast/livingroom.c line 10: parse error before o¸Ì¬Odream±M¥Îªº«ÈÆU
+
+[Fri Mar  1 18:48:07 2002] u/d/dreamcast/livingroom.c line 22: End of file in string before /shengsan/aovandis/"
+

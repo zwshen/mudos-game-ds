@@ -1,0 +1,12 @@
+¥Ø¿ý¡R/open/world1/cominging/purple_sun/npc/
+bear_war.c          ³¥ºµ                big_bear.c          ¤jºµ              
+boar_war.c          ¤s½Þ                king.c              Ã~¤ý¤§¤ý          
+leopard.c           ³¥°\\               leopard_war.c       °\\               
+mouse.c             ¦Ñ¹«                oldman.c            ¦¿¼Ö³Ó            
+oldman2.c           ¬x«è®Ù              oldman3.c           ¼s¦Û¦¨            
+oldman4.c           ©P¶i¤s              passenger.c         ¸ô¤H              
+rod_war.c           ³¥óç                small_bear.c        ¤pºµ              
+snake_war.c         ¤jÁ¯³D              squirrel.c          ªQ¹«              
+tiger.c             ¦Ñªê                tiger_war.c         ²rªê              
+wildcat.c           ³¥¿ß                wildcat_war.c       ³¥¿ß              
+

@@ -1,0 +1,15 @@
+¥Ø¿ý¡R/open/world1/faceoff/sky/npc/eq/
+chini_boots.c       ©_­Ù°©¼i            chini_wrist.c       ©_­Ù°©ÅN          
+cloth.c             ¥¬¦ç                ghost_blade.c       ÃR×H              
+ghost_bone.c        ÃR¯á                ghost_fist.c        ÃR®±              
+ghost_staff.c       ÃRÀV                ghost_whip.c        ÃR¯á              
+maigu_gloves.c      ·À°©¥Ö´x            maigu_leggings.c    ·À°©¥Ö×H          
+silk_cloth.c        ¤ÑÅúµ·¦ç            sky_cloth.c         ¤Ñ¾Â¹D¦ç          
+sky_sword.c         ¤Ñ«C¼C              star_necklace.c     âf¬PÃì            
+steel_necklace.c    ¿ûÁå                steel_stick.c       ¿û´Ò              
+steel_sword.c       ¿û¼C                stone.c             ³Á±ë¥Û            
+test.c              ©_­Ù°©ÅN            test2.c             ©_­Ù°©ÅN          
+white_wrist.c       ²M¥ÉµÃ              white_wrists.c      ²M¥ÉµÃ            
+wind_leg.c          ¹Ð­·×H              wind_wrists.c       ²M­·µÃ            
+wo_cloak.c          Ãú®ð¤§Âz            wo_waist.c          Ãú®ð¤§Äñ          
+world_staff.c       ©Ø¥@§ú              

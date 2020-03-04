@@ -1,0 +1,47 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=bg2312">
+   <META NAME="Author" CONTENT="Spock">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.01 [en] (Win95; I) [Netscape]">
+   <TITLE>MudOS v21c2 把σゅン - efuns - arrays - map_array</TITLE>
+</HEAD>
+<BODY TEXT="#CCFFFF" BGCOLOR="#000000" LINK="#33FF33" VLINK="#FF0000" ALINK="#33CCFF" BACKGROUND="../../../image/ff/fftitleback.jpg" NOSAVE>
+
+<CENTER><FONT COLOR="#FF99FF"><FONT SIZE=+3>map_array(3) MudOS v21c2
+(5 Sep 1994)</FONT></FONT></CENTER>
+
+<HR WIDTH="100%">
+<BR><FONT COLOR="#FFFFCC">嘿:</FONT>
+<UL> map_array() - 竒パㄧ计э计舱じ (element)</UL>
+<FONT COLOR="#FFFFCC">粂猭:</FONT>
+<UL> mixed *map_array( mixed *arr, string fun, object ob, mixed extra,
+... );
+<BR> mixed *map_array( mixed *arr, function f, mixed extra, ... );
+
+<P> 睼 *map_array( 睼 *arr, 才﹃ fun, ン ob, 睼 extra, ... );
+<BR> 睼 *map_array( 睼 *arr, ㄧ计皐 f, 睼 extra, ... );</UL>
+<FONT COLOR="#FFFFCC">ノ猭:</FONT>
+<UL> 竒パ ob->fun() ┪ f 矪瞶– arr いじぇ, 穝计舱.
+– arr いじ穦讽Θ﹚ㄧ计把计秸ノΩ﹚ㄧ计. 把计 extra
+穦–Ω秸ノㄧ计讽Θ材把计. 玥ㄧ计笲:
+
+<P><FONT COLOR="#99FF99"> foreach (index) arr[index] = ob->fun(arr[index],extra);</FONT>
+
+<P> ob->fun( arr[.index.], extra ) 穦蠢传奔计舱いじ. 狦
+arr ぃ琌计舱, 玥 map_array()  0.</UL>
+<FONT COLOR="#FFFFCC">把σ:</FONT>
+<UL> <A HREF="filter_array.html">filter_array(3)</A>, <A HREF="sort_array.html">sort_array(3)</A>,
+<A HREF="../general/map.html">map(3)</A></UL>
+<FONT COLOR="#FFFFCC">陆亩:</FONT>
+<UL> Spock @ FF 97.Feb.18. (printed 3/16/95)</UL>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+<CENTER><A HREF="../arrays.html"></A></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+</BODY>
+</HTML>

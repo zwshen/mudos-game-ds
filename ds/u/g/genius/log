@@ -1,0 +1,517 @@
+[Sat Jul 28 15:45:14 2001] u/g/genius/workroom.c line 1: Unrecognised # directive before the end of line
+
+[Sat Jul 28 15:45:14 2001] u/g/genius/workroom.c line 12: parse error before the end of file
+
+[Sat Jul 28 15:48:01 2001] u/g/genius/workroom.c line 1: Unrecognised # directive before the end of line
+
+[Sat Jul 28 15:48:01 2001] u/g/genius/workroom.c line 14: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Sat Jul 28 15:48:01 2001] u/g/genius/workroom.c line 14: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Sat Jul 28 15:48:01 2001] u/g/genius/workroom.c line 14: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Sat Jul 28 15:48:01 2001] u/g/genius/workroom.c line 14: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Sat Jul 28 15:48:01 2001] u/g/genius/workroom.c line 14: Illegal to redefine 'nomask' function "add_light" before the end of line
+
+[Sat Jul 28 15:49:25 2001] u/g/genius/workroom.c line 3: parse error before  create()
+
+[Sat Jul 28 15:55:35 2001] u/g/genius/workroom.c line 11: parse error before the end of line
+
+[Sat Jul 28 15:55:43 2001] u/g/genius/workroom.c line 11: parse error before the end of line
+
+[Sat Jul 28 15:57:23 2001] u/g/genius/workroom.c line 3: parse error before  create()
+
+[Sat Jul 28 16:00:04 2001] u/g/genius/workroom.c line 1: Unrecognised # directive before inherit ROOM;
+
+[Sun Jul 29 20:14:08 2001] u/g/genius/workroom.c line 7: $var illegal outside of function pointer. before HIC$ & "ST");
+
+[Sun Jul 29 20:14:08 2001] u/g/genius/workroom.c line 7: parse error before $ & "ST");
+
+[Sun Jul 29 20:14:08 2001] u/g/genius/workroom.c line 7: $var illegal outside of function pointer. before  & "ST");
+
+[Sun Jul 29 20:15:27 2001] u/g/genius/workroom.c line 7: $var illegal outside of function pointer. before HIC$ "ST");
+
+[Sun Jul 29 20:15:27 2001] u/g/genius/workroom.c line 7: parse error before HIC$ "ST");
+
+[Sun Jul 29 20:15:27 2001] u/g/genius/workroom.c line 7: $var illegal outside of function pointer. before  "ST");
+
+[Sun Jul 29 20:15:37 2001] u/g/genius/workroom.c line 7: $var illegal outside of function pointer. before HIC$ "ST");
+
+[Sun Jul 29 20:15:37 2001] u/g/genius/workroom.c line 7: parse error before HIC$ "ST");
+
+[Sun Jul 29 20:15:37 2001] u/g/genius/workroom.c line 7: $var illegal outside of function pointer. before  "ST");
+
+[Sun Jul 29 20:20:50 2001] u/g/genius/workroom.c line 7: Undefined variable 'short' before [36mTEST[0m)
+
+[Sun Jul 29 20:20:50 2001] u/g/genius/workroom.c line 7: parse error before [36mTEST[0m)
+
+[Sun Jul 29 20:22:09 2001] u/g/genius/workroom.c line 7: Undefined variable 'short' before [36mTEST[0m)
+
+[Sun Jul 29 20:22:09 2001] u/g/genius/workroom.c line 7: parse error before [36mTEST[0m)
+
+[Mon Jul 30 02:12:25 2001] u/g/genius/workroom.c line 22: parse error before the end of line
+
+[Mon Jul 30 02:13:13 2001] u/g/genius/workroom.c line 22: parse error before the end of line
+
+[Mon Jul 30 02:13:27 2001] u/g/genius/workroom.c line 21: parse error before the end of line
+
+[Mon Jul 30 02:13:33 2001] u/g/genius/workroom.c line 21: parse error before the end of line
+
+[Mon Jul 30 14:07:14 2001] u/g/genius/workroom.c line 22: Warning: Unknown \ escape. before ªLPCªº¼gªk, ½Ð¤j®a¦h
+
+[Mon Jul 30 14:07:20 2001] u/g/genius/workroom.c line 22: Warning: Unknown \ escape. before ªLPCªº¼gªk, ½Ð¤j®a¦h
+
+[Mon Jul 30 14:08:56 2001] u/g/genius/workroom.c line 22: Warning: Unknown \ escape. before ªLPCªº¼gªk\n½Ð¤j®a¦h
+
+[Mon Jul 30 14:09:51 2001] u/g/genius/workroom.c line 22: Warning: Unknown \ escape. before ªLPCªº¼gªk\n½Ð¤j®a¦h
+
+[Mon Jul 30 14:11:59 2001] u/g/genius/workroom.c line 13: Undefined variable 'LONG' before ;
+
+[Mon Jul 30 14:11:59 2001] u/g/genius/workroom.c line 13: parse error before ;
+
+[Mon Jul 30 15:12:50 2001] u/g/genius/helmet.c line 19: Warning: Unknown \ escape. before h!!\n"NOR);
+
+[Mon Jul 30 15:14:04 2001] u/g/genius/helmet.c line 19: Warning: Unknown \ escape. before h!!\n"NOR);
+
+[Mon Jul 30 15:14:08 2001] u/g/genius/helmet.c line 19: Warning: Unknown \ escape. before h!!\n"NOR);
+
+[Mon Jul 30 15:14:48 2001] u/g/genius/helmet.c line 19: Warning: Unknown \ escape. before h!\n"NOR);
+
+[Mon Jul 30 15:15:02 2001] u/g/genius/helmet.c line 19: Warning: Unknown \ escape. before h!\n"NOR);
+
+[Mon Jul 30 15:19:03 2001] u/g/genius/helmet.c line 20: Warning: Unknown \ escape. before h!!\n"NOR);
+
+[Mon Jul 30 15:26:22 2001] u/g/genius/helmet.c line 18: Warning: Unknown \ escape. before h!!\n"NOR);
+
+[Mon Jul 30 15:29:43 2001] u/g/genius/helmet.c line 20: Warning: Unknown \ escape. before h!!\n"NOR);
+
+[Mon Jul 30 15:34:32 2001] u/g/genius/helmet.c line 20: Warning: Unknown \ escape. before h!!\n"NOR);
+
+[Mon Jul 30 15:42:49 2001] u/g/genius/helmet.c line 20: Warning: Unknown \ escape. before h!!\n"NOR);
+
+[Mon Jul 30 15:48:04 2001] u/g/genius/helmet.c line 21: Undefined function et before ;
+
+[Mon Jul 30 15:48:08 2001] u/g/genius/helmet.c line 21: Undefined function et before ;
+
+[Mon Jul 30 15:48:08 2001] u/g/genius/helmet.c line 21: Undefined function et before ;
+
+[Mon Jul 30 15:48:10 2001] u/g/genius/helmet.c line 21: Undefined function et before ;
+
+[Mon Jul 30 15:48:16 2001] u/g/genius/helmet.c line 21: Undefined function et before ;
+
+[Mon Jul 30 15:48:16 2001] u/g/genius/helmet.c line 21: Undefined function et before ;
+
+[Mon Jul 30 15:48:18 2001] u/g/genius/helmet.c line 21: Undefined function et before ;
+
+[Mon Jul 30 15:48:36 2001] u/g/genius/helmet.c line 21: Undefined function et before ;
+
+[Mon Jul 30 15:48:42 2001] u/g/genius/helmet.c line 21: Undefined function et before ;
+
+[Mon Jul 30 15:48:55 2001] u/g/genius/helmet.c line 21: Undefined function et before ;
+
+[Mon Jul 30 15:49:01 2001] u/g/genius/helmet.c line 21: Undefined function et before ;
+
+[Mon Jul 30 15:49:07 2001] u/g/genius/helmet.c line 21: Undefined function et before ;
+
+[Mon Jul 30 15:49:11 2001] u/g/genius/helmet.c line 21: Undefined function et before ;
+
+[Mon Jul 30 17:04:06 2001] u/g/genius/workroom.c line 9: parse error before ("long", @LONG
+
+[Tue Jul 31 00:36:06 2001] u/g/genius/npc/testm.c line 8: parse error before ("long", "§A¥i¥H¥´¥L
+
+[Tue Jul 31 00:36:50 2001] u/g/genius/npc/testm.c line 8: parse error before ("long", "§A¥i¥H¥´¥L
+
+[Tue Jul 31 14:34:05 2001] u/g/genius/npc/fightm.c line 17: Reserved type name unexpected. before (object me)
+
+[Tue Jul 31 14:34:05 2001] u/g/genius/npc/fightm.c line 17: parse error before (object me)
+
+[Tue Jul 31 14:34:59 2001] u/g/genius/npc/fightm.c line 17: Reserved type name unexpected. before ()
+
+[Tue Jul 31 14:34:59 2001] u/g/genius/npc/fightm.c line 17: parse error before ()
+
+[Fri Aug  3 23:25:25 2001] u/g/genius/npc/fightm.c line 9: Undefined variable 'HIR' before NOR);
+
+[Fri Aug  3 23:25:25 2001] u/g/genius/npc/fightm.c line 9: parse error before NOR);
+
+[Fri Aug  3 23:26:45 2001] u/g/genius/npc/fightm.c line 9: Undefined variable 'HIR' before NOR);
+
+[Fri Aug  3 23:26:45 2001] u/g/genius/npc/fightm.c line 9: parse error before NOR);
+
+[Fri Aug  3 23:26:51 2001] u/g/genius/npc/fightm.c line 9: Undefined variable 'HIR' before NOR);
+
+[Fri Aug  3 23:26:51 2001] u/g/genius/npc/fightm.c line 9: parse error before NOR);
+
+[Sun Aug  5 00:22:58 2001] u/g/genius/area/npc/hugebeetle.c line 11: parse error before ("race","³¥Ã~");
+
+[Sun Aug  5 10:44:08 2001] u/g/genius/area/startroom.c line 24: parse error before the end of line
+
+[Sun Aug  5 10:46:06 2001] u/g/genius/area/startroom.c line 22: parse error before the end of line
+
+[Sun Aug  5 10:48:13 2001] u/g/genius/area/startroom.c line 1: parse error before u/g/genius/area> mor
+
+[Sun Aug  5 10:48:45 2001] u/g/genius/area/firstroom.c line 1: parse error before u/g/genius/area> mor
+
+[Sun Aug  5 10:53:51 2001] u/g/genius/fightroom.c line 20: Undefined variable 'hide_exits' before  ([
+
+[Sun Aug  5 10:54:53 2001] u/g/genius/fightroom.c line 20: Undefined variable 'hide_exits' before  ([
+
+[Sun Aug  5 10:54:53 2001] u/g/genius/fightroom.c line 22: parse error before the end of line
+
+[Mon Aug  6 10:56:44 2001] u/g/genius/area/npc/beetleguard.c line 7: parse error before ("gender","¶¯©Ê");
+
+[Mon Aug  6 11:37:34 2001] u/g/genius/fightroom.c line 26: Reserved type name unexpected. before ()
+
+[Mon Aug  6 11:37:34 2001] u/g/genius/fightroom.c line 26: parse error before ()
+
+[Mon Aug  6 11:37:34 2001] u/g/genius/fightroom.c line 28: Warning: Unknown \ escape. before i¥H«ö«ö¬Ý(touch)¡C\n
+
+[Mon Aug  6 11:37:34 2001] u/g/genius/fightroom.c line 47: parse error before  "/u/g/genius/area/f
+
+[Mon Aug  6 11:38:55 2001] u/g/genius/fightroom.c line 26: Reserved type name unexpected. before ()
+
+[Mon Aug  6 11:38:55 2001] u/g/genius/fightroom.c line 26: parse error before ()
+
+[Mon Aug  6 11:38:55 2001] u/g/genius/fightroom.c line 28: Warning: Unknown \ escape. before i¥H«ö«ö¬Ý(touch)¡C\n
+
+[Mon Aug  6 11:38:55 2001] u/g/genius/fightroom.c line 53: parse error before ,([
+
+[Mon Aug  6 11:40:05 2001] u/g/genius/fightroom.c line 34: Reserved type name unexpected. before ()
+
+[Mon Aug  6 11:40:05 2001] u/g/genius/fightroom.c line 34: parse error before ()
+
+[Mon Aug  6 11:40:05 2001] u/g/genius/fightroom.c line 48: parse error before  "/u/g/genius/area/f
+
+[Mon Aug  6 11:41:05 2001] u/g/genius/fightroom.c line 37: Warning: Unknown \ escape. before i¥H«ö«ö¬Ý(touch)¡C\n
+
+[Mon Aug  6 11:41:05 2001] u/g/genius/fightroom.c line 57: parse error before  "/u/g/genius/area/f
+
+[Mon Aug  6 11:42:36 2001] u/g/genius/fightroom.c line 56: parse error before  "/u/g/genius/area/f
+
+[Mon Aug  6 11:44:14 2001] u/g/genius/fightroom.c line 37: Warning: Unknown \ escape. before i¥H«ö«ö¬Ý(touch)¡C\n
+
+[Mon Aug  6 11:44:14 2001] u/g/genius/fightroom.c line 57: parse error before  "/u/g/genius/area/f
+
+[Mon Aug  6 11:45:05 2001] u/g/genius/fightroom.c line 57: parse error before  "/u/g/genius/area/f
+
+[Mon Aug  6 12:00:33 2001] u/g/genius/fightroom.c line 46: parse error before (!arg || arg!="butto
+
+[Mon Aug  6 12:13:01 2001] u/g/genius/fightroom.c line 46: Reserved type name unexpected. before =random(9);
+
+[Mon Aug  6 12:13:01 2001] u/g/genius/fightroom.c line 46: parse error before =random(9);
+
+[Mon Aug  6 12:13:01 2001] u/g/genius/fightroom.c line 46: Illegal LHS before the end of line
+
+[Mon Aug  6 12:13:01 2001] u/g/genius/fightroom.c line 47: Undefined variable 'arg' before  arg!="wall") return
+
+[Mon Aug  6 12:13:01 2001] u/g/genius/fightroom.c line 48: Undefined variable 'tempI' before 2)
+
+[Mon Aug  6 12:13:01 2001] u/g/genius/fightroom.c line 55: Undefined variable 'me' before ;
+
+[Mon Aug  6 12:13:39 2001] u/g/genius/fightroom.c line 6: parse error before ;
+
+[Mon Aug  6 12:14:01 2001] u/g/genius/fightroom.c line 18: Undefined variable 'dooropen' before 0;
+
+[Mon Aug  6 12:14:01 2001] u/g/genius/fightroom.c line 50: Reserved type name unexpected. before =random(9);
+
+[Mon Aug  6 12:14:01 2001] u/g/genius/fightroom.c line 50: parse error before =random(9);
+
+[Mon Aug  6 12:14:01 2001] u/g/genius/fightroom.c line 50: Illegal LHS before the end of line
+
+[Mon Aug  6 12:14:01 2001] u/g/genius/fightroom.c line 51: Undefined variable 'arg' before  arg!="button") retu
+
+[Mon Aug  6 12:14:01 2001] u/g/genius/fightroom.c line 52: Undefined variable 'tempI' before 3)
+
+[Mon Aug  6 12:14:21 2001] u/g/genius/fightroom.c line 49: Reserved type name unexpected. before =random(9);
+
+[Mon Aug  6 12:14:21 2001] u/g/genius/fightroom.c line 49: parse error before =random(9);
+
+[Mon Aug  6 12:14:21 2001] u/g/genius/fightroom.c line 49: Illegal LHS before the end of line
+
+[Mon Aug  6 12:14:21 2001] u/g/genius/fightroom.c line 50: Undefined variable 'arg' before  arg!="button") retu
+
+[Mon Aug  6 12:14:21 2001] u/g/genius/fightroom.c line 51: Undefined variable 'tempI' before 3)
+
+[Mon Aug  6 12:14:21 2001] u/g/genius/fightroom.c line 58: Undefined variable 'me' before ;
+
+[Mon Aug  6 12:16:46 2001] u/g/genius/fightroom.c line 49: Reserved type name unexpected. before ;
+
+[Mon Aug  6 12:16:46 2001] u/g/genius/fightroom.c line 49: parse error before ;
+
+[Mon Aug  6 12:16:46 2001] u/g/genius/fightroom.c line 50: Illegal LHS before the end of line
+
+[Mon Aug  6 12:16:46 2001] u/g/genius/fightroom.c line 51: Undefined variable 'arg' before  arg!="button") retu
+
+[Mon Aug  6 12:16:46 2001] u/g/genius/fightroom.c line 52: Undefined variable 'tempI' before 3)
+
+[Mon Aug  6 12:16:46 2001] u/g/genius/fightroom.c line 59: Undefined variable 'me' before ;
+
+[Mon Aug  6 12:29:18 2001] u/g/genius/fightroom.c line 5: parse error before ,buttonAppear;
+
+[Mon Aug  6 12:29:36 2001] u/g/genius/fightroom.c line 5: parse error before ,buttonAppear;
+
+[Mon Aug  6 12:30:28 2001] u/g/genius/fightroom.c line 5: parse error before ;bool buttonAppear;
+
+[Mon Aug  6 12:31:02 2001] u/g/genius/fightroom.c line 7: Missing type for global variable declaration before the end of line
+
+[Mon Aug  6 12:31:02 2001] u/g/genius/fightroom.c line 8: Missing type for global variable declaration before the end of line
+
+[Mon Aug  6 12:31:02 2001] u/g/genius/fightroom.c line 58: Bad assignment ( unknown vs int ). before the end of line
+
+[Mon Aug  6 12:31:02 2001] u/g/genius/fightroom.c line 79: Bad assignment ( unknown vs int ). before the end of line
+
+[Mon Aug  6 12:31:02 2001] u/g/genius/fightroom.c line 84: parse error before  ("exits/enter") ;
+
+[Mon Aug  6 12:31:02 2001] u/g/genius/fightroom.c line 85: Illegal LHS before the end of line
+
+[Mon Aug  6 12:31:55 2001] u/g/genius/fightroom.c line 84: parse error before  ("exits/enter") ;
+
+[Mon Aug  6 12:31:55 2001] u/g/genius/fightroom.c line 85: Illegal LHS before the end of line
+
+[Mon Aug  6 12:32:35 2001] u/g/genius/fightroom.c line 84: parse error before  ("exits/enter") ;
+
+[Mon Aug  6 12:32:35 2001] u/g/genius/fightroom.c line 85: Illegal LHS before the end of line
+
+[Mon Aug  6 12:33:53 2001] u/g/genius/fightroom.c line 84: parse error before  ("exits/enter") ;
+
+[Mon Aug  6 12:33:53 2001] u/g/genius/fightroom.c line 85: Illegal LHS before the end of line
+
+[Mon Aug  6 12:34:27 2001] u/g/genius/fightroom.c line 84: parse error before ("exits/enter") ;
+
+[Mon Aug  6 12:34:27 2001] u/g/genius/fightroom.c line 85: Illegal LHS before the end of line
+
+[Mon Aug  6 12:50:06 2001] u/g/genius/fightroom.c line 84: parse error before  ("exits/enter","/u/
+
+[Mon Aug  6 12:50:06 2001] u/g/genius/fightroom.c line 85: Illegal LHS before the end of line
+
+[Mon Aug  6 12:51:16 2001] u/g/genius/fightroom.c line 85: parse error before =0;
+
+[Mon Aug  6 12:51:16 2001] u/g/genius/fightroom.c line 85: Illegal LHS before the end of line
+
+[Mon Aug  6 12:52:27 2001] u/g/genius/fightroom.c line 86: parse error before the end of line
+
+[Mon Aug  6 12:54:29 2001] u/g/genius/fightroom.c line 86: parse error before the end of line
+
+[Mon Aug  6 12:55:42 2001] u/g/genius/fightroom.c line 84: Wrong number of arguments to set
+    Expected: 2  Got: 3 before ;
+
+[Mon Aug  6 13:17:32 2001] u/g/genius/fightroom.c line 7: Missing type for global variable declaration before the end of line
+
+[Mon Aug  6 13:17:32 2001] u/g/genius/fightroom.c line 8: Missing type for global variable declaration before the end of line
+
+[Mon Aug  6 13:17:32 2001] u/g/genius/fightroom.c line 60: Bad assignment ( unknown vs int ). before the end of line
+
+[Mon Aug  6 13:17:32 2001] u/g/genius/fightroom.c line 81: Bad assignment ( unknown vs int ). before the end of line
+
+[Mon Aug  6 13:18:11 2001] u/g/genius/fightroom.c line 6: Missing type for global variable declaration before the end of line
+
+[Mon Aug  6 13:18:11 2001] u/g/genius/fightroom.c line 58: Bad assignment ( unknown vs int ). before the end of line
+
+[Mon Aug  6 13:18:13 2001] u/g/genius/fightroom.c line 6: Missing type for global variable declaration before the end of line
+
+[Mon Aug  6 13:18:13 2001] u/g/genius/fightroom.c line 58: Bad assignment ( unknown vs int ). before the end of line
+
+[Mon Aug  6 13:38:19 2001] u/g/genius/fightroom.c line 41: Undefined variable 'me' before is_busy() ) return n
+
+[Mon Aug  6 13:38:19 2001] u/g/genius/fightroom.c line 41: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Mon Aug  6 13:39:35 2001] u/g/genius/fightroom.c line 47: Undefined variable 'me' before is_busy() ) {notify_
+
+[Mon Aug  6 13:39:35 2001] u/g/genius/fightroom.c line 48: Reserved type name unexpected. before ;
+
+[Mon Aug  6 13:39:35 2001] u/g/genius/fightroom.c line 48: parse error before ;
+
+[Mon Aug  6 13:39:35 2001] u/g/genius/fightroom.c line 50: Illegal LHS before the end of line
+
+[Mon Aug  6 13:39:35 2001] u/g/genius/fightroom.c line 51: Undefined variable 'tempI' before random(9);
+
+[Mon Aug  6 13:39:35 2001] u/g/genius/fightroom.c line 52: Undefined variable 'arg' before  arg!="wall") return
+
+[Tue Aug  7 11:01:16 2001] u/g/genius/area/al0.c line 3: Undefined function set before ;
+
+[Tue Aug  7 11:01:16 2001] u/g/genius/area/al0.c line 11: parse error before .c",
+
+[Tue Aug  7 11:01:16 2001] u/g/genius/area/al0.c line 16: End of file in string before p(tuned_ch) && membe
+
+[Tue Aug  7 11:01:44 2001] u/g/genius/area/al0.c line 4: parse error before  ROOM;
+
+[Tue Aug  7 11:01:44 2001] u/g/genius/area/al0.c line 6: parse error before the end of line
+
+[Tue Aug  7 11:04:49 2001] u/g/genius/area/al0.c line 18: parse error before .c",
+
+[Tue Aug  7 11:04:49 2001] u/g/genius/area/al0.c line 26: End of file in string before , 0);
+
+[Tue Aug  7 11:11:03 2001] u/g/genius/area/test.c line 15: parse error before u/g/genius/workroom.
+
+[Tue Aug  7 11:11:03 2001] u/g/genius/area/test.c line 25: End of file in string before oid create()
+
+[Tue Aug  7 11:14:30 2001] u/g/genius/area/firstroom.c line 20: parse error before ",
+
+[Tue Aug  7 11:14:30 2001] u/g/genius/area/firstroom.c line 24: End of file in string before tatus(me)=="(admin)"
+
+[Tue Aug  7 11:19:02 2001] u/g/genius/area/al0.c line 13: parse error before ",
+
+[Tue Aug  7 11:19:02 2001] u/g/genius/area/al0.c line 23: End of file in string before ªº¥h¸ô¡C\n¤jÆU¸Ì¬ðµM
+
+[Wed Aug  8 12:48:34 2001] u/g/genius/area/al4.c line 1: Unrecognised # directive before inherit ROOM;
+
+[Wed Aug  8 12:48:34 2001] u/g/genius/area/al4.c line 6: Undefined variable 'HIC' before );
+
+[Wed Aug  8 12:48:34 2001] u/g/genius/area/al4.c line 6: parse error before );
+
+[Wed Aug  8 14:45:13 2001] u/g/genius/area/npc/scarecrow.c line 3: parse error before  NPC;
+
+[Wed Aug  8 16:44:49 2001] u/g/genius/area/obj/eagle.c line 22: End of file in text block before the end of line
+
+[Wed Aug  8 16:44:49 2001] u/g/genius/area/obj/eagle.c line 22: parse error before the end of line
+
+[Wed Aug  8 16:45:36 2001] u/g/genius/area/obj/eagle.c line 22: End of file in text block before     ¢ª¢i¢©          
+
+[Wed Aug  8 16:45:36 2001] u/g/genius/area/obj/eagle.c line 22: parse error before     ¢ª¢i¢©          
+
+[Wed Aug  8 16:45:36 2001] u/g/genius/area/obj/eagle.c line 22: End of file in text block before     ¢ª¢i¢©          
+
+[Wed Aug  8 16:45:36 2001] u/g/genius/area/obj/eagle.c line 22: parse error before     ¢ª¢i¢©          
+
+[Wed Aug  8 16:45:42 2001] u/g/genius/area/obj/eagle.c line 22: End of file in text block before     ¢ª¢i¢©          
+
+[Wed Aug  8 16:45:42 2001] u/g/genius/area/obj/eagle.c line 22: parse error before     ¢ª¢i¢©          
+
+[Wed Aug  8 16:45:44 2001] u/g/genius/area/obj/eagle.c line 22: End of file in text block before     ¢ª¢i¢©          
+
+[Wed Aug  8 16:45:44 2001] u/g/genius/area/obj/eagle.c line 22: parse error before     ¢ª¢i¢©          
+
+[Wed Aug  8 17:25:12 2001] u/g/genius/area/firstroom.c line 23: parse error before  1,
+
+[Wed Aug  8 17:25:20 2001] u/g/genius/area/firstroom.c line 23: parse error before  1,
+
+[Wed Aug  8 17:30:29 2001] u/g/genius/area/firstroom.c line 23: parse error before  1,
+
+[Wed Aug  8 18:10:45 2001] u/g/genius/area/f11.c line 13: parse error before __DIR__"f12"
+
+[Wed Aug  8 18:11:50 2001] u/g/genius/area/f11.c line 14: parse error before         "southeast":
+
+[Wed Aug  8 18:12:10 2001] u/g/genius/area/f11.c line 14: parse error before         "southeast":
+
+[Thu Aug  9 00:38:08 2001] u/g/genius/area/npc/mayor.c line 16: Undefined variable 'HIR' before +HIG+"¾Ô¤h"NOR);
+
+[Thu Aug  9 00:38:08 2001] u/g/genius/area/npc/mayor.c line 16: parse error before +HIG+"¾Ô¤h"NOR);
+
+[Thu Aug  9 00:42:36 2001] u/g/genius/area/r2.c line 21: parse error before ("no_clean_up", 0);
+
+[Thu Aug  9 01:19:27 2001] u/g/genius/area/npc/beetlemini.c line 28: != always true because of incompatible types ( string vs object ). before  return 0;
+
+[Thu Aug  9 01:19:27 2001] u/g/genius/area/npc/beetlemini.c line 28: != always true because of incompatible types ( string vs object ). before  return 0;
+
+[Thu Aug  9 09:11:55 2001] u/g/genius/npc/moneyman.c line 34: parse error before the end of line
+
+[Thu Aug  9 09:12:45 2001] u/g/genius/npc/moneyman.c line 33: Wrong number of arguments to carry_object
+    Expected: 1  Got: 2 before the end of line
+
+[Thu Aug  9 09:12:45 2001] u/g/genius/npc/moneyman.c line 34: parse error before the end of line
+
+[Thu Aug  9 09:13:20 2001] u/g/genius/npc/moneyman.c line 33: Wrong number of arguments to carry_object
+    Expected: 1  Got: 2 before ;
+
+[Thu Aug  9 09:47:18 2001] u/g/genius/wp/wizburnhands.c line 39: Reserved type name unexpected. before ;
+
+[Thu Aug  9 09:47:18 2001] u/g/genius/wp/wizburnhands.c line 39: parse error before ;
+
+[Thu Aug  9 09:47:18 2001] u/g/genius/wp/wizburnhands.c line 46: Undefined variable 'me' before query_wit)*10+(me->q
+
+[Thu Aug  9 09:47:18 2001] u/g/genius/wp/wizburnhands.c line 46: Left argument of -> is not a class before *10+(me->query_int)*
+
+[Thu Aug  9 09:47:18 2001] u/g/genius/wp/wizburnhands.c line 46: Left argument of -> is not a class before *5)+10) - (random((v
+
+[Thu Aug  9 09:47:18 2001] u/g/genius/wp/wizburnhands.c line 46: Undefined variable 'victim' before query_dex)*3))
+
+[Fri Aug 10 10:55:17 2001] u/g/genius/area/npc/beetleguard.c line 11: parse error before ),
+
+[Fri Aug 10 10:56:52 2001] u/g/genius/area/npc/beetleguard.c line 11: parse error before ),
+
+[Fri Aug 10 10:56:56 2001] u/g/genius/area/npc/beetleguard.c line 11: parse error before ),
+
+[Fri Aug 10 10:57:18 2001] u/g/genius/area/npc/beetleguard.c line 11: parse error before ),
+
+[Fri Aug 10 11:09:52 2001] u/g/genius/area/npc/beetleguard.c line 19: parse error before º­I¥Ò©¿µM¼µ¤j¡A©¹$nª
+
+[Fri Aug 10 11:09:52 2001] u/g/genius/area/npc/beetleguard.c line 19: $var illegal outside of function pointer. before nªº$l¼³¤F¹L¥h"NOR,
+
+[Fri Aug 10 11:09:52 2001] u/g/genius/area/npc/beetleguard.c line 19: $var illegal outside of function pointer. before l¼³¤F¹L¥h"NOR,
+
+[Fri Aug 10 11:09:52 2001] u/g/genius/area/npc/beetleguard.c line 33: Warning: Unknown \ escape. before h¡A¥O¤H¹J¨£´N¤£´H¦Ó·
+
+[Fri Aug 10 11:09:52 2001] u/g/genius/area/npc/beetleguard.c line 47: Illegal terminator before ¬°Äµ§Ù¡C\n",
+
+[Fri Aug 10 11:11:10 2001] u/g/genius/area/npc/beetleguard.c line 11: parse error before u¨£"$N"HIW"ªºÄ²Å½¹³Ã
+
+[Fri Aug 10 11:26:47 2001] u/g/genius/npc/fightm.c line 7: Undefined variable 'HIR' before NOR);
+
+[Fri Aug 10 11:26:47 2001] u/g/genius/npc/fightm.c line 7: parse error before NOR);
+
+[Fri Aug 10 12:11:15 2001] u/g/genius/colorroom.c line 7: $var illegal outside of function pointer. before HIG$¤­HIY"ÃC"HIC"¤»"
+
+[Fri Aug 10 12:11:15 2001] u/g/genius/colorroom.c line 7: parse error before +"[1;32m"        $¤­
+
+[Fri Aug 10 12:11:15 2001] u/g/genius/colorroom.c line 7: $var illegal outside of function pointer. before ¤­HIY"ÃC"HIC"¤»"HIR"
+
+[Fri Aug 10 13:28:46 2001] u/g/genius/obj/cream.c line 5: Undefined variable 'HIB' before NOR,({"Black Cherry 
+
+[Fri Aug 10 13:28:46 2001] u/g/genius/obj/cream.c line 5: parse error before NOR,({"Black Cherry 
+
+[Fri Aug 10 13:41:04 2001] u/g/genius/obj/coffee.c line 4: Undefined function set_name before ;
+
+[Fri Aug 10 13:41:04 2001] u/g/genius/obj/coffee.c line 5: Undefined function set_weight before ;
+
+[Fri Aug 10 13:41:04 2001] u/g/genius/obj/coffee.c line 7: Undefined function set_default_object before ;
+
+[Fri Aug 10 13:41:04 2001] u/g/genius/obj/coffee.c line 9: Undefined function set before ;
+
+[Fri Aug 10 13:41:04 2001] u/g/genius/obj/coffee.c line 15: Undefined function setup before ;
+
+[Fri Aug 10 13:42:28 2001] u/g/genius/obj/coffee.c line 5: Undefined function set_name before ;
+
+[Fri Aug 10 13:42:28 2001] u/g/genius/obj/coffee.c line 6: Undefined function set_weight before ;
+
+[Fri Aug 10 13:42:28 2001] u/g/genius/obj/coffee.c line 8: Undefined function set_default_object before ;
+
+[Fri Aug 10 13:42:28 2001] u/g/genius/obj/coffee.c line 16: Undefined function setup before ;
+
+[Fri Aug 10 14:34:20 2001] u/g/genius/obj/test.c line 29: parse error before ->set("env/msg_min",
+
+[Fri Aug 10 15:02:56 2001] u/g/genius/colorroom.c line 25: parse error before ", ([
+
+[Fri Aug 10 15:02:56 2001] u/g/genius/colorroom.c line 31: End of file in string before n");
+
+[Fri Aug 10 15:03:16 2001] u/g/genius/colorroom.c line 25: parse error before ", ([
+
+[Fri Aug 10 15:03:16 2001] u/g/genius/colorroom.c line 31: End of file in string before ther to the file t "
+
+[Fri Aug 10 15:03:57 2001] u/g/genius/colorroom.c line 19: parse error before "$HBWHT$¦â"NOR
+
+[Fri Aug 10 15:04:01 2001] u/g/genius/colorroom.c line 19: parse error before "$HBWHT$¦â"NOR
+
+[Fri Aug 10 15:06:19 2001] u/g/genius/colorroom.c line 24: parse error before ("exits", ([
+
+[Fri Aug 10 15:11:45 2001] u/g/genius/colorroom.c line 18: parse error before "$BWHT$¦â"NOR"¡@¡@¡@
+
+[Sat Aug 11 16:54:55 2001] u/g/genius/obj/hope.c line 3: parse error before ;
+
+[Sat Aug 11 16:55:27 2001] u/g/genius/obj/hope.c line 3: parse error before ;
+
+[Sat Aug 11 16:56:33 2001] u/g/genius/obj/hope.c line 3: parse error before ;
+
+[Sun Aug 12 08:28:16 2001] u/g/genius/area/npc/sellgirl.c line 28: parse error before  );
+
+[Fri Aug 17 14:10:46 2001] u/g/genius/npc/jojo.c line 1: Unrecognised # directive before the end of line
+
+[Fri Aug 17 14:10:46 2001] u/g/genius/npc/jojo.c line 7: Undefined variable 'HIB' before NOR, ({"jojo"}) );
+
+[Fri Aug 17 14:10:46 2001] u/g/genius/npc/jojo.c line 7: parse error before NOR, ({"jojo"}) );
+
+[Fri Aug 17 14:11:26 2001] u/g/genius/npc/jojo.c line 1: Unrecognised # directive before the end of line
+
+[Fri Aug 17 14:11:26 2001] u/g/genius/npc/jojo.c line 7: Undefined variable 'HIB' before NOR, ({"jojo"}) );
+
+[Fri Aug 17 14:11:26 2001] u/g/genius/npc/jojo.c line 7: parse error before NOR, ({"jojo"}) );
+

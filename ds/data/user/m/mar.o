@@ -1,0 +1,8 @@
+#/obj/user.c
+dbase (["gender":"女性","channels":({"chat","rumor","tchat",}),"evil":2,"name":"黑色衛生紙","birthday":1178296072,"attitude":"peaceful","max_mp":60,"war_score":0,"addition_damage":10,"max_hp":80,"heart_modify":0,"race":"human","startroom":"/open/world1/tmr/area/hotel","guild_gifts":({5,5,5,5,}),"help":"newbie/","talk_point":8,"mp":60,"max_ap":60,"heart_beat_rate":6,"ap":60,"board_last_read":(["magic-card_b":1057657067,"tmr_hotel_b":1177785113,]),"addition_shield":10,"mud_age":2836,"newbie":1,"wound":(["head":0,"right_arm":0,"left_leg":0,"right_leg":0,"body":0,"left_arm":0,]),"default_actions":,"exp":860,"dex":2,"mob_record":({"/open/world1/cominging/area/npc/dove",}),"last_location":"/open/world1/tmr/area/inn_2f","cure_count":10,"int":2,"id":"mar","MKS":1,"hp":80,"age":14,"con":2,"volume":7,"str":2,"Merits":(["bio":0,"tec":0,"sou":0,"wit":0,"bar":0,]),"unit":"位","level":1,"combat_exp":1,"DS_DATA_VERSION":19991107,"actions":,"supply_point":60,"addition_armor":10,])
+skills (["dodge":1,"combat":2,"unarmed":1,"strong-body":3,])
+learned (["dodge":0,"combat":0,"unarmed":4,"strong-body":6,])
+items ({})
+autoload ({"/obj/money/coin:10000",})
+toDoList ([])
+solved ({})

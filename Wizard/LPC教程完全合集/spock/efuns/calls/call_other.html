@@ -1,0 +1,57 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=bg2312">
+   <META NAME="Author" CONTENT="Spock">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.01 [en] (Win95; I) [Netscape]">
+   <TITLE>MudOS v21c2 把σゅン - efuns - calls - call_other</TITLE>
+</HEAD>
+<BODY TEXT="#CCFFFF" BGCOLOR="#000000" LINK="#33FF33" VLINK="#FF0000" ALINK="#33CCFF" BACKGROUND="../../../image/ff/fftitleback.jpg" NOSAVE>
+
+<CENTER><FONT COLOR="#FF99FF"><FONT SIZE=+3>call_other(3) MudOS v21c2
+(5 Sep 1994)</FONT></FONT></CENTER>
+
+<HR WIDTH="100%">
+<BR><FONT COLOR="#FFFFCC">嘿:</FONT>
+<UL> call_other() - 秸ノンいㄧ计.</UL>
+<FONT COLOR="#FFFFCC">粂猭:</FONT>
+<UL> unknown call_other( object ob | object *obs, string func | mixed
+*args, ... );
+
+<P> ゼ call_other( ン ob ┪ ン *obs, 才﹃ func ┪ 睼 *args, ...
+);</UL>
+<FONT COLOR="#FFFFCC">ノ猭:</FONT>
+<UL> ノ匡拒把计 (argument) 秸ノンいㄧ计. 璶跌砆秸ノㄧ计τ﹚,
+┮ㄏノㄧ计程浪琩. func 琌ン ob い砆秸ノㄧ计嘿,
+τ材材... 单单把计, 玥穦肚 func い, 讽Θ func 材材把计.
+ call_other() い, 狦材把计琌ン计舱, call_other() 碞穦硋秸ノウ,
+τ穦跑Θ计舱. 狦材把计琌计舱, ê计舱い材じ
+(element) ゲ斗琌才﹃ (璶秸ノㄧ计) , τㄤじ碞穦砆讽Θ璶肚ㄧ计把计.
+
+<P> 硂柑Τㄏノ call_other() よ猭:
+
+<P><FONT COLOR="#99FF99"> object ob </FONT>┪<FONT COLOR="#99FF99">
+object *obs -> func( ... );</FONT>
+<BR></UL>
+<FONT COLOR="#FFFFCC"> 絛ㄒ:</FONT>
+<UL> <FONT COLOR="#99FF99">call_other( ob, "query", "name" );</FONT>
+<BR> 糶Θ
+<BR> <FONT COLOR="#99FF99">ob->query("name");</FONT>
+
+<P> 狦 call_other() 材把计琌计舱, рㄒ糶Θ:
+<BR> <FONT COLOR="#99FF99">call_other( ob, ({ "query", "name" }));</FONT>
+
+<P> 硂柑Τㄏノ计舱絛ㄒ:
+<BR> <FONT COLOR="#99FF99">users()->quit();</FONT></UL>
+<FONT COLOR="#FFFFCC">陆亩:</FONT>
+<UL> Spock @ FF 96.Oct.16. (printed 3/16/95)</UL>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+<CENTER><A HREF="../calls.html"></A></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+</BODY>
+</HTML>

@@ -1,0 +1,15 @@
+
+	sqrt(3)			MudOS v21c2		(5 Sep 1994)
+
+	嘿:
+		sqrt() - 肚疊翴计キよ (square root).
+	粂猭:
+		float sqrt( float f );
+
+		疊翴计 sqrt( 疊翴计 f );
+	ノ猭:
+		sqrt() 肚把计 f  タキよ. f ぃ璽.
+	把σ:
+		exp(3), log(3), pow(3)
+	陆亩:
+		Spock @ FF	97.jul.23.		(printed 3/16/95)

@@ -1,0 +1,1229 @@
+[Oct 15 20:32] msr logged out from 61.224.151.48.
+[Oct 15 20:32] msr connected from 61.224.151.48.
+[Oct 15 20:32] msr logged out from 61.224.151.48.
+[Oct 15 20:33] msr connected from 210.66.217.157.
+[Oct 15 20:33] msr logged out from 210.66.217.157.
+No such key in temp_map: 0.
+[Oct 15 20:34] msr failed/incorrect login from 210.66.217.157.
+[Oct 15 20:34] msr connected from 210.66.217.157.
+[Oct 15 20:35] msr logged out from 210.66.217.157.
+[Oct 17 23:02] alickyuen connected from 218.102.194.195.
+[Oct 17 23:03] alickyuen logged out from 218.102.194.195.
+No such key in temp_map: 0.
+[Jan 24 01:03] whoami denied access from 61.229.129.128.
+[Jan 24 01:03] tmr connected from 61.229.129.128.
+[Jan 24 01:03] whoami denied access from 61.229.129.128.
+[Jan 24 01:03] whoami denied access from 61.229.129.128.
+[Jan 24 01:03] tmr logged out from 61.229.129.128.
+No such fd in socket_info: 3.
+[Jan 24 01:04] manto denied access from 140.113.94.190.
+[Jan 24 01:04] whoami denied access from 61.229.129.128.
+[Jan 24 01:04] manto denied access from 61.229.129.128.
+[Jan 24 01:04] manto denied access from 61.229.129.128.
+[Jan 24 01:04] whoami denied access from 61.229.129.128.
+[Jan 24 01:04] whoami denied access from 61.229.129.128.
+No such key in temp_map: 0.
+[Jan 24 01:22] whoami connected from 61.229.129.128.
+[Jan 24 01:22] manto connected from 140.113.94.190.
+[Jan 24 01:24] manto logged out from 140.113.94.190.
+[Jan 24 01:28] whoami cd to /u/w/whoami/skybird.
+[Jan 24 02:15] whoami logged out from 140.113.94.190.
+No such fd in socket_info: 3.
+[Jan 24 13:17] manto connected from 140.113.94.190.
+[Jan 24 13:17] manto cd to /u/m/manto.
+[Jan 24 13:17] manto mkd /u/m/manto/area3.
+[Jan 24 13:17] manto cd to /u/m/manto/area3.
+[Jan 24 13:17] manto cd to /u/m/manto.
+[Jan 24 13:19] manto cd to /u/m/manto/area3.
+[Jan 24 13:19] manto cd to /u/m/manto/area3.
+[Jan 24 13:19] manto mkd /u/m/manto/area3/npc.
+[Jan 24 13:19] manto cd to /u/m/manto/area3/npc.
+[Jan 24 13:19] manto cd to /u/m/manto/area3.
+[Jan 24 13:19] manto cd to /u/m/manto/area3/npc.
+[Jan 24 13:20] manto cd to /u/m/manto/area3/npc.
+[Jan 24 13:20] manto stor /u/m/manto/area3/npc/boa.c (ASCII).
+[Jan 24 13:21] manto cd to /u/m/manto/area3/npc.
+[Jan 24 13:21] manto stor /u/m/manto/area3/npc/cobra.c (ASCII).
+[Jan 24 13:22] manto cd to /u/m/manto/area3/npc.
+[Jan 24 13:22] manto mkd /u/m/manto/area3/npc/obj.
+[Jan 24 13:22] manto cd to /u/m/manto/area3/npc/obj.
+[Jan 24 13:22] manto cd to /u/m/manto/area3/npc.
+[Jan 24 13:22] manto cd to /u/m/manto/area3/npc/obj.
+[Jan 24 13:23] manto cd to /u/m/manto/area3/npc/obj.
+[Jan 24 13:23] manto stor /u/m/manto/area3/npc/obj/boafur.c (ASCII).
+[Jan 24 13:23] manto cd to /u/m/manto/area3.
+[Jan 24 13:23] manto cd to /u/m/manto/area3.
+[Jan 24 13:23] manto stor /u/m/manto/area3/backyard05.c (ASCII).
+[Jan 24 13:23] manto cd to /u/m/manto/area3.
+[Jan 24 13:23] manto stor /u/m/manto/area3/backyard06.c (ASCII).
+[Jan 24 13:23] manto cd to /u/m/manto/area3.
+[Jan 24 13:23] manto stor /u/m/manto/area3/backyard07.c (ASCII).
+[Jan 24 13:23] manto cd to /u/m/manto/area3.
+[Jan 24 13:23] manto stor /u/m/manto/area3/backyard08.c (ASCII).
+[Jan 24 13:23] manto cd to /u/m/manto/area3.
+[Jan 24 13:23] manto stor /u/m/manto/area3/backyard09.c (ASCII).
+[Jan 24 13:23] manto cd to /u/m/manto/area3.
+[Jan 24 13:23] manto stor /u/m/manto/area3/chick01.c (ASCII).
+[Jan 24 13:23] manto cd to /u/m/manto/area3.
+[Jan 24 13:23] manto stor /u/m/manto/area3/chick02.c (ASCII).
+[Jan 24 13:24] manto cd to /u/m/manto/area3.
+[Jan 24 13:24] manto stor /u/m/manto/area3/chick03.c (ASCII).
+[Jan 24 13:32] manto cd to /u/m/manto/area3.
+[Jan 24 13:32] manto stor /u/m/manto/area3/lake01.c (ASCII).
+[Jan 24 13:41] manto cd to /u/m/manto/area3.
+[Jan 24 13:41] manto stor /u/m/manto/area3/lane03.c (ASCII).
+[Jan 24 13:41] manto cd to /u/m/manto/area3.
+[Jan 24 13:41] manto stor /u/m/manto/area3/lane04.c (ASCII).
+[Jan 24 13:42] manto cd to /u/m/manto/area3.
+[Jan 24 13:42] manto stor /u/m/manto/area3/lane05.c (ASCII).
+[Jan 24 13:42] manto cd to /u/m/manto/area3.
+[Jan 24 13:42] manto stor /u/m/manto/area3/lane01.c (ASCII).
+[Jan 24 13:42] manto cd to /u/m/manto/area3.
+[Jan 24 13:42] manto stor /u/m/manto/area3/lane02.c (ASCII).
+[Jan 24 13:56] manto cd to /u/m/manto/area3.
+[Jan 24 13:56] manto stor /u/m/manto/area3/laneout.c (ASCII).
+[Jan 24 13:59] manto dele /u/m/manto/area3/backyard05.c.
+[Jan 24 13:59] manto cd to /u/m/manto/area3.
+[Jan 24 13:59] manto stor /u/m/manto/area3/backyard05.c (ASCII).
+[Jan 24 13:59] manto dele /u/m/manto/area3/backyard06.c.
+[Jan 24 13:59] manto dele /u/m/manto/area3/backyard07.c.
+[Jan 24 13:59] manto dele /u/m/manto/area3/backyard08.c.
+[Jan 24 13:59] manto dele /u/m/manto/area3/backyard09.c.
+[Jan 24 14:02] manto cd to /u/m/manto/area3.
+[Jan 24 14:02] manto stor /u/m/manto/area3/backyard07.c (ASCII).
+[Jan 24 14:02] manto cd to /u/m/manto/area3.
+[Jan 24 14:02] manto stor /u/m/manto/area3/backyard08.c (ASCII).
+[Jan 24 14:02] manto cd to /u/m/manto/area3.
+[Jan 24 14:02] manto stor /u/m/manto/area3/backyard09.c (ASCII).
+[Jan 24 14:02] manto cd to /u/m/manto/area3.
+[Jan 24 14:02] manto stor /u/m/manto/area3/backyard06.c (ASCII).
+[Jan 24 14:05] manto dele /u/m/manto/area3/chick01.c.
+[Jan 24 14:05] manto cd to /u/m/manto/area3.
+[Jan 24 14:05] manto stor /u/m/manto/area3/chick01.c (ASCII).
+[Jan 24 14:06] manto dele /u/m/manto/area3/chick02.c.
+[Jan 24 14:06] manto dele /u/m/manto/area3/chick03.c.
+[Jan 24 14:06] manto cd to /u/m/manto/area3.
+[Jan 24 14:06] manto stor /u/m/manto/area3/chick02.c (ASCII).
+[Jan 24 14:06] manto cd to /u/m/manto/area3.
+[Jan 24 14:06] manto stor /u/m/manto/area3/chick03.c (ASCII).
+[Jan 24 14:07] manto cd to /u/m/manto/area3.
+[Jan 24 14:07] manto mkd /u/m/manto/area3/obj.
+[Jan 24 14:07] manto cd to /u/m/manto/area3/obj.
+[Jan 24 14:07] manto cd to /u/m/manto/area3.
+[Jan 24 14:07] manto cd to /u/m/manto/area3/obj.
+[Jan 24 14:07] manto cd to /u/m/manto/area3/obj.
+[Jan 24 14:07] manto stor /u/m/manto/area3/obj/fire.c (ASCII).
+[Jan 24 14:12] manto cd to /u/m/manto/area3.
+[Jan 24 14:12] manto dele /u/m/manto/area3/backyard05.c.
+[Jan 24 14:12] manto cd to /u/m/manto/area3.
+[Jan 24 14:12] manto stor /u/m/manto/area3/backyard05.c (ASCII).
+[Jan 24 14:13] manto dele /u/m/manto/area3/backyard05.c.
+[Jan 24 14:13] manto dele /u/m/manto/area3/backyard08.c.
+[Jan 24 14:13] manto cd to /u/m/manto/area3.
+[Jan 24 14:13] manto stor /u/m/manto/area3/backyard05.c (ASCII).
+[Jan 24 14:14] manto cd to /u/m/manto/area3.
+[Jan 24 14:14] manto stor /u/m/manto/area3/backyard08.c (ASCII).
+[Jan 24 14:16] manto dele /u/m/manto/area3/laneout.c.
+[Jan 24 14:16] manto cd to /u/m/manto/area3.
+[Jan 24 14:16] manto stor /u/m/manto/area3/laneout.c (ASCII).
+[Jan 24 14:21] manto cd to /u/m/manto.
+[Jan 24 14:21] manto retr /u/m/manto/poison.c (ASCII).
+[Jan 24 14:30] manto cd to /u/m/manto.
+[Jan 24 14:30] manto stor /u/m/manto/cold_poison.c (ASCII).
+[Jan 24 14:30] manto cd to /u/m/manto.
+[Jan 24 14:30] manto stor /u/m/manto/hot_poison.c (ASCII).
+[Jan 24 15:16] manto logged out from 140.113.94.190.
+[Jan 24 15:23] whoami connected from 61.229.129.128.
+[Jan 24 15:23] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 24 15:23] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 24 15:23] whoami stor /u/w/whoami/skyowl_skills/skyowl-dagger.c (ASCII).
+[Jan 24 15:24] whoami retr /u/w/whoami/skyowl_skills/bird-eight.c (ASCII).
+[Jan 24 16:05] manto connected from 140.113.94.190.
+[Jan 24 16:05] manto dele /u/m/manto/cold_poison.c.
+[Jan 24 16:05] manto dele /u/m/manto/hot_poison.c.
+[Jan 24 16:05] manto cd to /u/m/manto.
+[Jan 24 16:05] manto stor /u/m/manto/cold_poison.c (ASCII).
+[Jan 24 16:05] manto cd to /u/m/manto.
+[Jan 24 16:05] manto stor /u/m/manto/hot_poison.c (ASCII).
+[Jan 24 16:05] manto cd to /u/m/manto.
+[Jan 24 16:05] manto stor /u/m/manto/super_poison.c (ASCII).
+[Jan 24 16:10] whoami logged out from 140.113.94.190.
+[Jan 24 16:16] manto cd to /u/m/manto/area3.
+[Jan 24 16:16] manto retr /u/m/manto/area3/chick01.c (ASCII).
+[Jan 24 16:16] manto retr /u/m/manto/area3/chick02.c (ASCII).
+[Jan 24 16:16] manto retr /u/m/manto/area3/chick03.c (ASCII).
+[Jan 24 16:18] manto dele /u/m/manto/area3/chick01.c.
+[Jan 24 16:18] manto dele /u/m/manto/area3/chick02.c.
+[Jan 24 16:18] manto dele /u/m/manto/area3/chick03.c.
+[Jan 24 16:18] manto cd to /u/m/manto/area3.
+[Jan 24 16:18] manto stor /u/m/manto/area3/chick01.c (ASCII).
+[Jan 24 16:18] manto cd to /u/m/manto/area3.
+[Jan 24 16:18] manto stor /u/m/manto/area3/chick02.c (ASCII).
+[Jan 24 16:18] manto cd to /u/m/manto/area3.
+[Jan 24 16:18] manto stor /u/m/manto/area3/chick03.c (ASCII).
+[Jan 24 16:41] manto logged out from 140.113.94.190.
+No such fd in socket_info: 3.
+[Jan 24 20:04] manto connected from 140.113.94.190.
+[Jan 24 20:04] manto cd to /u/m/manto/area3.
+[Jan 24 20:04] manto retr /u/m/manto/area3/backyard05.c (ASCII).
+[Jan 24 20:04] manto retr /u/m/manto/area3/backyard06.c (ASCII).
+[Jan 24 20:04] manto retr /u/m/manto/area3/backyard07.c (ASCII).
+[Jan 24 20:04] manto retr /u/m/manto/area3/backyard08.c (ASCII).
+[Jan 24 20:04] manto retr /u/m/manto/area3/backyard09.c (ASCII).
+[Jan 24 20:04] manto retr /u/m/manto/area3/chick01.c (ASCII).
+[Jan 24 20:04] manto retr /u/m/manto/area3/chick02.c (ASCII).
+[Jan 24 20:04] manto retr /u/m/manto/area3/chick03.c (ASCII).
+[Jan 24 20:04] manto retr /u/m/manto/area3/lake01.c (ASCII).
+[Jan 24 20:04] manto retr /u/m/manto/area3/lane01.c (ASCII).
+[Jan 24 20:04] manto retr /u/m/manto/area3/lane02.c (ASCII).
+[Jan 24 20:04] manto retr /u/m/manto/area3/lane03.c (ASCII).
+[Jan 24 20:04] manto retr /u/m/manto/area3/lane04.c (ASCII).
+[Jan 24 20:04] manto retr /u/m/manto/area3/lane05.c (ASCII).
+[Jan 24 20:04] manto retr /u/m/manto/area3/laneout.c (ASCII).
+[Jan 24 20:09] manto dele /u/m/manto/area3/backyard05.c.
+[Jan 24 20:09] manto dele /u/m/manto/area3/backyard06.c.
+[Jan 24 20:09] manto dele /u/m/manto/area3/backyard07.c.
+[Jan 24 20:09] manto dele /u/m/manto/area3/backyard08.c.
+[Jan 24 20:09] manto dele /u/m/manto/area3/backyard09.c.
+[Jan 24 20:09] manto dele /u/m/manto/area3/chick01.c.
+[Jan 24 20:09] manto dele /u/m/manto/area3/chick02.c.
+[Jan 24 20:09] manto dele /u/m/manto/area3/chick03.c.
+[Jan 24 20:09] manto cd to /u/m/manto/area3.
+[Jan 24 20:09] manto stor /u/m/manto/area3/chink02.c (ASCII).
+[Jan 24 20:09] manto cd to /u/m/manto/area3.
+[Jan 24 20:09] manto stor /u/m/manto/area3/chink03.c (ASCII).
+[Jan 24 20:09] manto cd to /u/m/manto/area3.
+[Jan 24 20:09] manto stor /u/m/manto/area3/backyard05.c (ASCII).
+[Jan 24 20:09] manto cd to /u/m/manto/area3.
+[Jan 24 20:09] manto stor /u/m/manto/area3/backyard06.c (ASCII).
+[Jan 24 20:10] manto cd to /u/m/manto/area3.
+[Jan 24 20:10] manto stor /u/m/manto/area3/backyard07.c (ASCII).
+[Jan 24 20:10] manto cd to /u/m/manto/area3.
+[Jan 24 20:10] manto stor /u/m/manto/area3/backyard08.c (ASCII).
+[Jan 24 20:10] manto cd to /u/m/manto/area3.
+[Jan 24 20:10] manto stor /u/m/manto/area3/backyard09.c (ASCII).
+[Jan 24 20:10] manto cd to /u/m/manto/area3.
+[Jan 24 20:10] manto stor /u/m/manto/area3/chink01.c (ASCII).
+[Jan 24 20:58] manto logged out from 140.113.94.190.
+[Jan 25 19:21] whoami connected from 61.229.129.128.
+[Jan 25 19:21] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 25 19:21] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 25 19:21] whoami stor /u/w/whoami/skyowl_skills/wing-eight.c (ASCII).
+[Jan 25 19:21] whoami cd to /u/w/whoami.
+[Jan 25 19:21] whoami logged out from 61.229.129.128.
+[Jan 25 19:23] whoami connected from 61.229.129.128.
+[Jan 25 19:23] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 25 19:23] whoami size /u/w/whoami/skyowl_skills/wing-eight.c.
+[Jan 25 19:24] whoami logged out from 61.229.129.128.
+[Jan 25 19:24] whoami connected from 61.229.129.128.
+[Jan 25 19:24] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 25 19:24] whoami stor /u/w/whoami/skyowl_skills/wing-eight.c (ASCII).
+[Jan 25 19:24] whoami cd to /u/w/whoami.
+[Jan 25 19:25] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 25 19:25] whoami size /u/w/whoami/skyowl_skills/wing-eight.c.
+[Jan 25 19:26] whoami logged out from 61.229.129.128.
+[Jan 25 19:26] whoami connected from 61.229.129.128.
+[Jan 25 19:26] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 25 19:26] whoami stor /u/w/whoami/skyowl_skills/wing-eight.c (ASCII).
+[Jan 25 19:27] whoami dele /u/w/whoami/skyowl_skills/wing-eight.c.
+[Jan 25 19:27] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 25 19:27] whoami stor /u/w/whoami/skyowl_skills/wing-eight.c (ASCII).
+[Jan 25 20:14] whoami logged out from 61.229.129.128.
+[Jan 25 22:35] whoami connected from 61.229.129.128.
+[Jan 25 22:35] whoami logged out from 61.229.129.128.
+[Jan 25 22:57] whoami connected from 61.229.129.128.
+[Jan 25 22:57] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 25 22:57] whoami dele /u/w/whoami/skyowl_skills/wing-eight.c.
+[Jan 25 22:57] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 25 22:57] whoami stor /u/w/whoami/skyowl_skills/wing-eight.c (ASCII).
+[Jan 25 23:16] whoami dele /u/w/whoami/skyowl_skills/wing-eight.c.
+[Jan 25 23:16] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 25 23:16] whoami stor /u/w/whoami/skyowl_skills/wing-eight.c (ASCII).
+[Jan 26 00:02] whoami logged out from 61.229.129.128.
+[Jan 26 16:25] whoami connected from 61.229.129.128.
+[Jan 26 16:25] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 26 16:25] whoami dele /u/w/whoami/skyowl_skills/wing-eight.c.
+[Jan 26 17:12] whoami logged out from 61.229.129.128.
+[Jan 26 17:28] whoami connected from 61.229.129.128.
+[Jan 26 17:28] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 26 17:28] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 26 17:28] whoami stor /u/w/whoami/skyowl_skills/wing-eight.c (ASCII).
+[Jan 26 17:28] whoami cd to /u/w/whoami.
+[Jan 26 17:28] whoami logged out from 61.229.129.128.
+[Jan 26 17:44] whoami connected from 61.229.129.128.
+[Jan 26 17:44] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 26 17:44] whoami dele /u/w/whoami/skyowl_skills/wing-eight.c.
+[Jan 26 17:45] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 26 17:45] whoami stor /u/w/whoami/skyowl_skills/wing-eight.c (ASCII).
+[Jan 26 18:33] whoami logged out from 61.229.129.128.
+[Jan 26 19:32] whoami connected from 61.229.129.128.
+[Jan 26 19:32] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 26 19:32] whoami dele /u/w/whoami/skyowl_skills/wing-eight.c.
+[Jan 26 19:32] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 26 19:32] whoami stor /u/w/whoami/skyowl_skills/wing-eight.c (ASCII).
+[Jan 26 20:18] whoami logged out from 61.229.129.128.
+[Jan 26 20:59] whoami connected from 61.229.129.128.
+[Jan 26 20:59] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 26 20:59] whoami dele /u/w/whoami/skyowl_skills/wing-eight.c.
+[Jan 26 20:59] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 26 20:59] whoami stor /u/w/whoami/skyowl_skills/wing-eight.c (ASCII).
+[Jan 26 21:45] whoami logged out from 61.229.129.128.
+[Jan 26 22:17] whoami connected from 61.229.129.128.
+[Jan 26 22:17] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 26 22:17] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 26 22:17] whoami stor /u/w/whoami/skyowl_skills/shouyu-poison.c (ASCII).
+[Jan 26 22:17] whoami cd to /u/w/whoami.
+[Jan 26 22:18] whoami logged out from 61.229.129.128.
+[Jan 26 22:19] whoami connected from 61.229.129.128.
+[Jan 26 22:19] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 26 22:19] whoami dele /u/w/whoami/skyowl_skills/shouyu-poison.c.
+[Jan 26 22:20] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 26 22:20] whoami stor /u/w/whoami/skyowl_skills/shouyu-poison.c (ASCII).
+[Jan 26 22:20] whoami dele /u/w/whoami/skyowl_skills/shouyu-poison.c.
+[Jan 26 22:21] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 26 22:21] whoami stor /u/w/whoami/skyowl_skills/shouyu-poison.c (ASCII).
+[Jan 26 22:25] whoami dele /u/w/whoami/skyowl_skills/shouyu-poison.c.
+[Jan 26 22:25] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 26 22:25] whoami stor /u/w/whoami/skyowl_skills/shouyu-poison.c (ASCII).
+[Jan 26 23:12] whoami logged out from 61.229.129.128.
+[Jan 27 02:23] whoami connected from 61.229.129.128.
+[Jan 27 02:23] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 27 02:23] whoami dele /u/w/whoami/skyowl_skills/wing-eight.c.
+[Jan 27 02:30] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 27 02:30] whoami stor /u/w/whoami/skyowl_skills/body-decayed.c (ASCII).
+[Jan 27 02:30] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 27 02:30] whoami stor /u/w/whoami/skyowl_skills/cold-poison.c (ASCII).
+[Jan 27 02:30] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 27 02:30] whoami stor /u/w/whoami/skyowl_skills/gu-poison.c (ASCII).
+[Jan 27 02:30] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 27 02:30] whoami stor /u/w/whoami/skyowl_skills/hot-poison.c (ASCII).
+[Jan 27 02:30] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 27 02:30] whoami stor /u/w/whoami/skyowl_skills/scotoad-poison.c (ASCII).
+[Jan 27 02:30] whoami size /u/w/whoami/skyowl_skills/shouyu-poison.c.
+[Jan 27 02:31] whoami logged out from 61.229.129.128.
+[Jan 27 02:31] whoami connected from 61.229.129.128.
+[Jan 27 02:31] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 27 02:31] whoami stor /u/w/whoami/skyowl_skills/shouyu-poison.c (ASCII).
+[Jan 27 03:18] whoami logged out from 61.229.129.128.
+[Jan 28 09:23] whoami connected from 220.139.223.253.
+[Jan 28 09:23] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 28 09:23] whoami dele /u/w/whoami/skyowl_skills/body-decayed.c.
+[Jan 28 09:23] whoami dele /u/w/whoami/skyowl_skills/cold-poison.c.
+[Jan 28 09:23] whoami dele /u/w/whoami/skyowl_skills/gu-poison.c.
+[Jan 28 09:23] whoami dele /u/w/whoami/skyowl_skills/hot-poison.c.
+[Jan 28 09:23] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 28 09:23] whoami stor /u/w/whoami/skyowl_skills/cold-poison.c (ASCII).
+[Jan 28 09:23] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 28 09:23] whoami stor /u/w/whoami/skyowl_skills/gu-poison.c (ASCII).
+[Jan 28 09:23] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 28 09:23] whoami stor /u/w/whoami/skyowl_skills/hot-poison.c (ASCII).
+[Jan 28 09:24] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 28 09:24] whoami stor /u/w/whoami/skyowl_skills/body-decayed.c (ASCII).
+[Jan 28 09:24] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 28 09:24] whoami stor /u/w/whoami/skyowl_skills/scotoad-poison.c (ASCII).
+[Jan 28 09:24] whoami size /u/w/whoami/skyowl_skills/shouyu-poison.c.
+[Jan 28 09:25] whoami logged out from 220.139.223.253.
+[Jan 28 09:25] whoami connected from 220.139.223.253.
+[Jan 28 09:25] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 28 09:25] whoami stor /u/w/whoami/skyowl_skills/shouyu-poison.c (ASCII).
+[Jan 28 09:29] whoami dele /u/w/whoami/skyowl_skills/shouyu-poison.c.
+[Jan 28 09:30] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 28 09:30] whoami stor /u/w/whoami/skyowl_skills/shouyu-poison.c (ASCII).
+[Jan 28 09:52] whoami dele /u/w/whoami/skyowl_skills/shouyu-poison.c.
+[Jan 28 09:52] whoami cd to /u/w/whoami/skyowl_skills.
+[Jan 28 09:52] whoami stor /u/w/whoami/skyowl_skills/shouyu-poison.c (ASCII).
+[Jan 28 10:40] whoami logged out from 220.139.223.253.
+[Jan 28 21:11] whoami connected from 220.139.223.253.
+[Jan 28 21:11] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 28 21:11] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 28 21:11] whoami stor /u/w/whoami/skyowl_skills/medication/medication_machine.c (ASCII).
+[Jan 28 21:13] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 28 21:13] whoami stor /u/w/whoami/skyowl_skills/medication/medication_machine.c (ASCII).
+[Jan 28 21:21] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 28 21:21] whoami stor /u/w/whoami/skyowl_skills/medication/golden_drug.c (ASCII).
+[Jan 28 21:23] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 28 21:23] whoami stor /u/w/whoami/skyowl_skills/medication/medication_machine.c (ASCII).
+[Jan 28 21:25] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 28 21:25] whoami stor /u/w/whoami/skyowl_skills/medication/medication_machine.c (ASCII).
+[Jan 28 21:26] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 28 21:26] whoami stor /u/w/whoami/skyowl_skills/medication/medication_machine.c (ASCII).
+[Jan 28 21:26] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 28 21:26] whoami stor /u/w/whoami/skyowl_skills/medication/medication_machine.c (ASCII).
+[Jan 28 21:28] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 28 21:28] whoami stor /u/w/whoami/skyowl_skills/medication/medication_machine.c (ASCII).
+[Jan 28 21:30] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 28 21:30] whoami stor /u/w/whoami/skyowl_skills/medication/medication_machine.c (ASCII).
+[Jan 28 21:30] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 28 21:30] whoami stor /u/w/whoami/skyowl_skills/medication/golden_drug.c (ASCII).
+[Jan 28 21:36] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 28 21:36] whoami stor /u/w/whoami/skyowl_skills/medication/medication_machine.c (ASCII).
+[Jan 28 21:38] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 28 21:38] whoami stor /u/w/whoami/skyowl_skills/medication/medication_machine.c (ASCII).
+[Jan 28 21:39] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 28 21:39] whoami stor /u/w/whoami/skyowl_skills/medication/medication_machine.c (ASCII).
+[Jan 28 21:41] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 28 21:41] whoami stor /u/w/whoami/skyowl_skills/medication/medication_machine.c (ASCII).
+[Jan 28 21:43] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 28 21:43] whoami stor /u/w/whoami/skyowl_skills/medication/medication_machine.c (ASCII).
+[Jan 28 21:43] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 28 21:43] whoami stor /u/w/whoami/skyowl_skills/medication/medication_machine.c (ASCII).
+[Jan 28 22:32] whoami logged out from 220.139.223.253.
+[Jan 29 00:49] whoami connected from 220.139.223.253.
+[Jan 29 00:49] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 29 00:49] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 29 00:49] whoami stor /u/w/whoami/skyowl_skills/medication/medication_machine.c (ASCII).
+[Jan 29 00:49] whoami cd to /u/w/whoami.
+[Jan 29 00:50] whoami logged out from 220.139.223.253.
+[Jan 29 00:51] whoami connected from 220.139.223.253.
+[Jan 29 00:51] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 29 00:51] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 29 00:51] whoami stor /u/w/whoami/skyowl_skills/medication/medication_machine.c (ASCII).
+[Jan 29 00:53] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 29 00:53] whoami stor /u/w/whoami/skyowl_skills/medication/medication_machine.c (ASCII).
+[Jan 29 00:55] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 29 00:55] whoami stor /u/w/whoami/skyowl_skills/medication/medication_machine.c (ASCII).
+[Jan 29 00:56] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 29 00:56] whoami stor /u/w/whoami/skyowl_skills/medication/medication_machine.c (ASCII).
+[Jan 29 01:03] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 29 01:03] whoami stor /u/w/whoami/skyowl_skills/medication/medication_machine.c (ASCII).
+[Jan 29 01:04] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 29 01:04] whoami stor /u/w/whoami/skyowl_skills/medication/medication_machine.c (ASCII).
+[Jan 29 01:04] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 29 01:04] whoami stor /u/w/whoami/skyowl_skills/medication/medication_machine.c (ASCII).
+[Jan 29 01:08] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 29 01:08] whoami stor /u/w/whoami/skyowl_skills/medication/medication_machine.c (ASCII).
+[Jan 29 01:10] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 29 01:10] whoami stor /u/w/whoami/skyowl_skills/medication/medication_machine.c (ASCII).
+[Jan 29 01:11] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 29 01:11] whoami stor /u/w/whoami/skyowl_skills/medication/medication_machine.c (ASCII).
+[Jan 29 01:14] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 29 01:14] whoami stor /u/w/whoami/skyowl_skills/medication/medication_machine.c (ASCII).
+[Jan 29 01:14] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 29 01:14] whoami stor /u/w/whoami/skyowl_skills/medication/medication_machine.c (ASCII).
+[Jan 29 01:15] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 29 01:15] whoami stor /u/w/whoami/skyowl_skills/medication/medication_machine.c (ASCII).
+[Jan 29 01:17] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 29 01:17] whoami stor /u/w/whoami/skyowl_skills/medication/medication_machine.c (ASCII).
+[Jan 29 01:18] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 29 01:18] whoami stor /u/w/whoami/skyowl_skills/medication/medication_machine.c (ASCII).
+[Jan 29 01:40] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 29 01:40] whoami stor /u/w/whoami/skyowl_skills/medication/medication_machine.c (ASCII).
+[Jan 29 01:42] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 29 01:42] whoami stor /u/w/whoami/skyowl_skills/medication/medication_machine.c (ASCII).
+[Jan 29 01:44] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 29 01:44] whoami stor /u/w/whoami/skyowl_skills/medication/medication_machine.c (ASCII).
+[Jan 29 01:47] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 29 01:47] whoami stor /u/w/whoami/skyowl_skills/medication/medication_machine.c (ASCII).
+[Jan 29 02:35] whoami logged out from 220.139.223.253.
+[Jan 29 15:31] whoami connected from 61.229.137.114.
+[Jan 29 15:31] whoami cd to /u/w/whoami/skyowl_skills/medication.
+[Jan 29 16:17] whoami logged out from 61.229.137.114.
+No such key in temp_map: 0.
+[Aug 20 22:34] anonymous failed/incorrect login from 58.153.7.152.
+[Aug 20 22:34] anonymous failed/incorrect login from 58.153.7.152.
+[Aug 20 22:34] alickyuen connected from 58.153.7.152.
+[Aug 20 22:34] alickyuen connected from 58.153.7.152.
+[Aug 20 22:37] anonymous failed/incorrect login from 58.153.7.152.
+[Aug 20 22:37] alickyuen connected from 58.153.7.152.
+[Aug 20 22:37] alickyuen connected from 58.153.7.152.
+[Aug 20 22:42] alickyuen logged out from 58.153.7.152.
+[Aug 20 22:42] alickyuen cd to /u/a/alickyuen.
+[Aug 20 22:47] alickyuen cd to /u/a/alickyuen.
+[Aug 20 22:52] alickyuen logged out from 58.153.7.152.
+[Aug 20 22:55] alickyuen logged out from 58.153.7.152.
+[Aug 20 23:01] alickyuen logged out from 58.153.7.152.
+No such fd in socket_info: 4.
+[Aug 20 23:18] alickyuen connected from 58.153.7.152.
+[Aug 20 23:20] alickyuen cd to /u/a/alickyuen/help.
+[Aug 20 23:22] alickyuen logged out from 58.153.7.152.
+No such key in temp_map: 0.
+[Nov 18 18:34] tmr failed/incorrect login from 140.124.181.163.
+[Nov 18 18:34] tmr failed/incorrect login from 140.124.181.163.
+[Nov 18 18:34] tmr failed/incorrect login from 140.124.181.163.
+[Nov 18 18:34] tmr failed/incorrect login from 140.124.181.163.
+[Nov 18 18:34] tmr failed/incorrect login from 140.124.181.163.
+[Nov 18 18:35] manto failed/incorrect login from 140.113.134.104.
+No such key in temp_map: 0.
+[Nov 18 18:37] tmr failed/incorrect login from 140.124.181.163.
+No such key in temp_map: 0.
+[Nov 18 18:37] tmr failed/incorrect login from 140.124.181.163.
+[Nov 18 18:37] tmr failed/incorrect login from 140.124.181.163.
+[Nov 18 18:37] tmr failed/incorrect login from 140.124.181.163.
+No such key in temp_map: 0.
+[Nov 18 18:47] tmr connected from 140.124.181.163.
+[Nov 18 18:47] tmr cd to /u/t.
+[Nov 18 18:47] tmr cd to /u.
+[Nov 18 18:47] tmr cd to /.
+[Nov 18 18:48] tmr cd to /.
+[Nov 18 18:48] tmr connected from 140.124.181.163.
+[Nov 18 18:48] tmr cd to /.
+[Nov 18 18:48] tmr retr /ds.config (BINARY).
+[Nov 18 18:49] tmr logged out from 140.124.181.163.
+[Nov 18 18:49] tmr logged out from 140.124.181.163.
+No such fd in socket_info: 3.
+[Nov 18 19:27] manto connected from 140.113.134.104.
+[Nov 18 19:28] manto cd to /u/m/manto.
+[Nov 18 19:28] manto stor /u/m/manto/map_01 (BINARY).
+[Nov 18 19:37] manto size /u/m/manto/map_01.
+[Nov 18 19:37] manto logged out from 140.113.134.104.
+[Nov 18 19:37] manto connected from 140.113.134.104.
+[Nov 18 19:38] manto connected from 218.166.33.239.
+[Nov 18 19:38] manto logged out from 218.166.33.239.
+[Nov 18 19:38] manto connected from 218.166.33.239.
+[Nov 18 19:38] manto cd to /u/m/manto.
+[Nov 18 19:38] manto stor /u/m/manto/test.txt (ASCII).
+[Nov 18 19:39] manto logged out from 218.166.33.239.
+[Nov 18 19:40] manto connected from 218.166.33.239.
+[Nov 18 19:40] manto cd to /u/m/manto.
+[Nov 18 19:40] manto stor /u/m/manto/test.txt (ASCII).
+[Nov 18 19:41] manto stor /u/m/manto/test.txt (ASCII).
+[Nov 18 19:42] manto stor /u/m/manto/test.txt (ASCII).
+[Nov 18 19:43] manto logged out from 218.166.33.239.
+[Nov 18 19:49] manto connected from 218.166.33.239.
+[Nov 18 19:49] manto cd to /u/m/manto.
+[Nov 18 19:49] manto stor /u/m/manto/test.txt (ASCII).
+[Nov 18 19:50] manto logged out from 218.166.33.239.
+[Nov 18 19:52] manto cd to /u/m.
+[Nov 18 19:52] manto cd to /u.
+[Nov 18 19:52] manto logged out from 218.166.33.239.
+[Nov 18 19:52] manto connected from 218.166.33.239.
+[Nov 18 19:56] manto connected from 218.166.33.239.
+[Nov 18 19:56] manto cd to /u/m/manto.
+[Nov 18 19:56] manto stor /u/m/manto/test.txt (ASCII).
+[Nov 18 19:57] manto stor /u/m/manto/test.txt (ASCII).
+[Nov 18 19:58] manto stor /u/m/manto/test.txt (ASCII).
+[Nov 18 19:59] manto logged out from 218.166.33.239.
+[Nov 18 20:06] manto connected from 218.166.33.239.
+[Nov 18 20:06] manto cd to /u/m/manto.
+[Nov 18 20:06] manto stor /u/m/manto/test.txt (ASCII).
+[Nov 18 20:07] manto logged out from 218.166.33.239.
+[Nov 18 20:08] manto logged out from 218.166.33.239.
+No such fd in socket_info: 3.
+[Nov 18 20:08] manto connected from 218.166.33.239.
+[Nov 18 20:08] manto cd to /u/m/manto.
+[Nov 18 20:09] manto stor /u/m/manto/test.txt (ASCII).
+[Nov 18 20:09] manto stor /u/m/manto/test.txt (ASCII).
+[Nov 18 20:10] manto logged out from 218.166.33.239.
+[Nov 18 22:31] manto connected from 218.166.33.239.
+[Nov 18 22:31] manto connected from 218.166.33.239.
+[Nov 18 22:31] manto cd to /u/m/manto.
+[Nov 18 22:31] manto stor /u/m/manto/map.txt (ASCII).
+[Nov 18 22:32] manto logged out from 218.166.33.239.
+[Nov 18 22:33] manto connected from 218.166.33.239.
+[Nov 18 22:33] manto cd to /u/m/manto.
+[Nov 18 22:33] manto stor /u/m/manto/map.txt (ASCII).
+[Nov 18 22:34] manto logged out from 218.166.33.239.
+[Nov 18 22:47] manto logged out from 218.166.33.239.
+No such fd in socket_info: 3.
+[Nov 18 22:48] manto connected from 218.166.33.239.
+[Nov 18 22:48] manto cd to /u/m/manto.
+[Nov 18 22:49] manto stor /u/m/manto/map.txt (ASCII).
+[Nov 18 22:50] manto logged out from 218.166.33.239.
+[Nov 18 22:51] manto connected from 218.166.33.239.
+[Nov 18 22:51] manto cd to /u/m/manto.
+[Nov 18 22:51] manto stor /u/m/manto/map.txt (ASCII).
+[Nov 18 22:52] manto logged out from 218.166.33.239.
+[Nov 18 22:54] manto connected from 218.166.33.239.
+[Nov 18 22:54] manto cd to /u/m/manto.
+[Nov 18 22:54] manto stor /u/m/manto/map.txt (ASCII).
+[Nov 18 22:55] manto stor /u/m/manto/map.txt (ASCII).
+[Nov 18 22:56] manto logged out from 218.166.33.239.
+[Nov 18 22:57] manto connected from 218.166.33.239.
+[Nov 18 22:57] manto cd to /u/m/manto.
+[Nov 18 22:57] manto stor /u/m/manto/map.txt (ASCII).
+[Nov 18 22:58] manto logged out from 218.166.33.239.
+[Nov 18 23:02] manto connected from 218.166.33.239.
+[Nov 18 23:02] manto cd to /u/m/manto.
+[Nov 18 23:02] manto stor /u/m/manto/map.txt (ASCII).
+[Nov 18 23:03] manto logged out from 218.166.33.239.
+[Nov 18 23:04] manto connected from 218.166.33.239.
+[Nov 18 23:04] manto cd to /u/m/manto.
+[Nov 18 23:04] manto stor /u/m/manto/map.txt (ASCII).
+[Nov 18 23:05] manto logged out from 218.166.33.239.
+[Nov 18 23:05] manto connected from 218.166.33.239.
+[Nov 18 23:05] manto cd to /u/m/manto.
+[Nov 18 23:05] manto stor /u/m/manto/map.txt (ASCII).
+[Nov 18 23:06] manto stor /u/m/manto/map.txt (ASCII).
+[Nov 18 23:07] manto logged out from 218.166.33.239.
+[Nov 18 23:22] manto connected from 218.166.33.239.
+[Nov 18 23:22] manto cd to /u/m/manto.
+[Nov 18 23:22] manto stor /u/m/manto/map.txt (ASCII).
+[Nov 18 23:23] manto logged out from 218.166.33.239.
+[Nov 18 23:25] manto connected from 218.166.33.239.
+[Nov 18 23:25] manto cd to /u/m/manto.
+[Nov 18 23:25] manto stor /u/m/manto/map.txt (ASCII).
+[Nov 18 23:26] manto logged out from 218.166.33.239.
+[Nov 19 00:22] manto connected from 218.166.33.239.
+[Nov 19 00:22] manto cd to /u/m/manto.
+[Nov 19 00:22] manto connected from 218.166.33.239.
+[Nov 19 00:22] manto cd to /u/m/manto.
+[Nov 19 00:22] manto stor /u/m/manto/map2.txt (ASCII).
+[Nov 19 00:24] manto logged out from 218.166.33.239.
+[Nov 19 00:27] manto connected from 218.166.33.239.
+[Nov 19 00:27] manto cd to /u/m/manto.
+[Nov 19 00:27] manto stor /u/m/manto/map2.txt (ASCII).
+[Nov 19 00:28] manto logged out from 218.166.33.239.
+[Nov 19 00:28] manto connected from 218.166.33.239.
+[Nov 19 00:28] manto cd to /u/m/manto.
+[Nov 19 00:28] manto stor /u/m/manto/map2.txt (ASCII).
+[Nov 19 00:30] manto logged out from 218.166.33.239.
+[Nov 19 00:33] manto connected from 218.166.33.239.
+[Nov 19 00:33] manto cd to /u/m/manto.
+[Nov 19 00:33] manto stor /u/m/manto/map2.txt (ASCII).
+[Nov 19 00:34] manto stor /u/m/manto/map2.txt (ASCII).
+[Nov 19 00:34] manto stor /u/m/manto/map2.txt (ASCII).
+[Nov 19 00:35] manto logged out from 218.166.33.239.
+[Nov 19 00:38] manto logged out from 218.166.33.239.
+No such fd in socket_info: 3.
+[Nov 19 00:38] manto connected from 218.166.33.239.
+[Nov 19 00:38] manto cd to /u/m/manto.
+[Nov 19 00:38] manto stor /u/m/manto/map2.txt (ASCII).
+[Nov 19 00:39] manto stor /u/m/manto/map2.txt (ASCII).
+[Nov 19 00:39] manto stor /u/m/manto/map2.txt (ASCII).
+[Nov 19 00:39] manto stor /u/m/manto/map2.txt (ASCII).
+[Nov 19 00:40] manto logged out from 218.166.33.239.
+[Nov 19 09:09] manto connected from 218.166.33.239.
+[Nov 19 09:10] manto connected from 218.166.33.239.
+[Nov 19 09:10] manto cd to /u/m/manto.
+[Nov 19 09:10] manto stor /u/m/manto/room.txt (ASCII).
+[Nov 19 09:11] manto logged out from 218.166.33.239.
+[Nov 19 09:16] manto connected from 218.166.33.239.
+[Nov 19 09:16] manto cd to /u/m/manto.
+[Nov 19 09:16] manto stor /u/m/manto/room.txt (ASCII).
+[Nov 19 09:17] manto logged out from 218.166.33.239.
+[Nov 19 09:19] manto connected from 218.166.33.239.
+[Nov 19 09:19] manto cd to /u/m/manto.
+[Nov 19 09:19] manto stor /u/m/manto/room.txt (ASCII).
+[Nov 19 09:20] manto logged out from 218.166.33.239.
+[Nov 19 09:26] manto logged out from 218.166.33.239.
+No such fd in socket_info: 3.
+[Nov 19 09:26] manto connected from 218.166.33.239.
+[Nov 19 09:26] manto cd to /u/m/manto.
+[Nov 19 09:26] manto connected from 218.166.33.239.
+[Nov 19 09:26] manto cd to /u/m/manto.
+[Nov 19 09:26] manto stor /u/m/manto/room2f.txt (ASCII).
+[Nov 19 09:27] manto logged out from 218.166.33.239.
+[Nov 19 09:32] manto connected from 218.166.33.239.
+[Nov 19 09:32] manto cd to /u/m/manto.
+[Nov 19 09:32] manto stor /u/m/manto/room2f.txt (ASCII).
+[Nov 19 09:33] manto logged out from 218.166.33.239.
+[Nov 19 09:44] manto logged out from 218.166.33.239.
+No such fd in socket_info: 3.
+[Nov 19 09:50] manto connected from 218.166.33.239.
+[Nov 19 09:50] manto cd to /u/m/manto.
+[Nov 19 09:50] manto stor /u/m/manto/room2f.txt (ASCII).
+[Nov 19 09:51] manto logged out from 218.166.33.239.
+[Nov 19 10:14] manto connected from 218.166.33.239.
+[Nov 19 10:14] manto connected from 218.166.33.239.
+[Nov 19 10:14] manto cd to /u/m/manto.
+[Nov 19 10:14] manto cd to /u/m/manto.
+[Nov 19 10:14] manto stor /u/m/manto/room1f.txt (ASCII).
+[Nov 19 10:15] manto logged out from 218.166.33.239.
+[Nov 19 10:16] manto connected from 218.166.33.239.
+[Nov 19 10:16] manto cd to /u/m/manto.
+[Nov 19 10:16] manto stor /u/m/manto/room1f.txt (ASCII).
+[Nov 19 10:17] manto logged out from 218.166.33.239.
+[Nov 19 10:32] manto logged out from 218.166.33.239.
+[Nov 19 10:46] manto connected from 218.166.33.239.
+[Nov 19 10:46] manto cd to /u/m/manto.
+[Nov 19 10:46] manto connected from 218.166.33.239.
+[Nov 19 10:46] manto cd to /u/m/manto.
+[Nov 19 10:46] manto retr /u/m/manto/weapon_box.c (ASCII).
+[Nov 19 10:47] manto retr /u/m/manto/equip_box.c (ASCII).
+[Nov 19 10:47] manto retr /u/m/manto/item_box.c (ASCII).
+[Nov 19 10:48] manto logged out from 218.166.33.239.
+[Nov 19 10:58] manto connected from 218.166.33.239.
+[Nov 19 10:58] manto cd to /u/m/manto.
+[Nov 19 10:58] manto stor /u/m/manto/room1f.txt (ASCII).
+[Nov 19 10:59] manto logged out from 218.166.33.239.
+[Nov 19 11:01] manto connected from 218.166.33.239.
+[Nov 19 11:01] manto cd to /u/m/manto.
+[Nov 19 11:01] manto stor /u/m/manto/room1f.txt (ASCII).
+[Nov 19 11:02] manto logged out from 218.166.33.239.
+[Nov 19 11:02] manto logged out from 218.166.33.239.
+No such fd in socket_info: 3.
+[Nov 19 11:05] manto connected from 218.166.33.239.
+[Nov 19 11:05] manto cd to /u/m/manto.
+[Nov 19 11:05] manto stor /u/m/manto/room1f.txt (ASCII).
+[Nov 19 11:06] manto logged out from 218.166.33.239.
+[Nov 19 11:20] manto connected from 218.166.33.239.
+[Nov 19 11:20] manto cd to /u/m/manto.
+[Nov 19 11:21] manto stor /u/m/manto/equip_box.c (ASCII).
+[Nov 19 11:21] manto stor /u/m/manto/item_box.c (ASCII).
+[Nov 19 11:21] manto stor /u/m/manto/weapon_box.c (ASCII).
+[Nov 19 11:22] manto logged out from 218.166.33.239.
+[Nov 19 11:25] manto connected from 218.166.33.239.
+[Nov 19 11:25] manto cd to /u/m/manto.
+[Nov 19 11:25] manto stor /u/m/manto/weapon_box.c (ASCII).
+[Nov 19 11:25] manto stor /u/m/manto/item_box.c (ASCII).
+[Nov 19 11:25] manto stor /u/m/manto/equip_box.c (ASCII).
+[Nov 19 11:26] manto logged out from 218.166.33.239.
+[Nov 19 11:30] manto connected from 218.166.33.239.
+[Nov 19 11:30] manto cd to /u/m/manto.
+[Nov 19 11:30] manto stor /u/m/manto/equip_box.c (ASCII).
+[Nov 19 11:30] manto stor /u/m/manto/weapon_box.c (ASCII).
+[Nov 19 11:30] manto stor /u/m/manto/equip_box.c (ASCII).
+[Nov 19 11:30] manto stor /u/m/manto/item_box.c (ASCII).
+[Nov 19 11:31] manto logged out from 218.166.33.239.
+[Nov 19 11:32] manto connected from 218.166.33.239.
+[Nov 19 11:32] manto cd to /u/m/manto.
+[Nov 19 11:32] manto stor /u/m/manto/item_box.c (ASCII).
+[Nov 19 11:32] manto stor /u/m/manto/equip_box.c (ASCII).
+[Nov 19 11:32] manto stor /u/m/manto/weapon_box.c (ASCII).
+[Nov 19 11:33] manto logged out from 218.166.33.239.
+[Nov 19 11:35] manto connected from 218.166.33.239.
+[Nov 19 11:35] manto cd to /u/m/manto.
+[Nov 19 11:35] manto stor /u/m/manto/item_box.c (ASCII).
+[Nov 19 11:35] manto stor /u/m/manto/equip_box.c (ASCII).
+[Nov 19 11:35] manto stor /u/m/manto/weapon_box.c (ASCII).
+[Nov 19 11:36] manto logged out from 218.166.33.239.
+[Nov 19 11:37] manto connected from 218.166.33.239.
+[Nov 19 11:37] manto cd to /u/m/manto.
+[Nov 19 11:37] manto stor /u/m/manto/weapon_box.c (ASCII).
+[Nov 19 11:37] manto stor /u/m/manto/item_box.c (ASCII).
+[Nov 19 11:37] manto stor /u/m/manto/equip_box.c (ASCII).
+[Nov 19 11:38] manto logged out from 218.166.33.239.
+[Nov 19 11:43] manto connected from 218.166.33.239.
+[Nov 19 11:43] manto cd to /u/m/manto.
+[Nov 19 11:43] manto stor /u/m/manto/room2f.txt (ASCII).
+[Nov 19 11:44] manto logged out from 218.166.33.239.
+[Nov 19 13:35] manto connected from 218.166.33.239.
+[Nov 19 13:35] manto connected from 218.166.33.239.
+[Nov 19 13:35] manto cd to /u/m/manto.
+[Nov 19 13:35] manto retr /u/m/manto/sky_mark.c (ASCII).
+[Nov 19 13:36] manto logged out from 218.166.33.239.
+[Nov 19 13:53] manto logged out from 218.166.33.239.
+No such fd in socket_info: 3.
+[Nov 19 15:43] manto connected from 218.166.33.239.
+[Nov 19 15:43] manto connected from 218.166.33.239.
+[Nov 19 15:43] manto cd to /u/m/manto.
+[Nov 19 15:43] manto stor /u/m/manto/sky_mark.c (ASCII).
+[Nov 19 15:44] manto logged out from 218.166.33.239.
+[Nov 19 15:49] manto connected from 218.166.33.239.
+[Nov 19 15:49] manto cd to /u/m/manto.
+[Nov 19 15:49] manto stor /u/m/manto/sky_mark.c (ASCII).
+[Nov 19 15:49] manto stor /u/m/manto/sky_mark.c (ASCII).
+[Nov 19 15:50] manto stor /u/m/manto/sky_mark.c (ASCII).
+[Nov 19 15:51] manto logged out from 218.166.33.239.
+[Nov 19 15:51] manto connected from 218.166.33.239.
+[Nov 19 15:51] manto cd to /u/m/manto.
+[Nov 19 15:51] manto stor /u/m/manto/sky_mark.c (ASCII).
+[Nov 19 15:52] manto logged out from 218.166.33.239.
+[Nov 19 15:54] manto connected from 218.166.33.239.
+[Nov 19 15:54] manto cd to /u/m/manto.
+[Nov 19 15:54] manto stor /u/m/manto/sky_mark.c (ASCII).
+[Nov 19 15:55] manto logged out from 218.166.33.239.
+[Nov 19 15:56] manto connected from 218.166.33.239.
+[Nov 19 15:56] manto cd to /u/m/manto.
+[Nov 19 15:57] manto stor /u/m/manto/sky_mark.c (ASCII).
+[Nov 19 15:58] manto logged out from 218.166.33.239.
+[Nov 19 15:59] manto logged out from 218.166.33.239.
+No such fd in socket_info: 3.
+[Nov 19 15:59] manto connected from 218.166.33.239.
+[Nov 19 15:59] manto cd to /u/m/manto.
+[Nov 19 15:59] manto stor /u/m/manto/sky_mark.c (ASCII).
+[Nov 19 16:00] manto logged out from 218.166.33.239.
+[Nov 19 16:01] manto connected from 218.166.33.239.
+[Nov 19 16:01] manto cd to /u/m/manto.
+[Nov 19 16:01] manto stor /u/m/manto/sky_mark.c (ASCII).
+[Nov 19 16:02] manto logged out from 218.166.33.239.
+[Nov 19 16:05] manto connected from 218.166.33.239.
+[Nov 19 16:05] manto cd to /u/m/manto.
+[Nov 19 16:05] manto stor /u/m/manto/sky_mark.c (ASCII).
+[Nov 19 16:06] manto logged out from 218.166.33.239.
+[Nov 19 16:13] manto connected from 218.166.33.239.
+[Nov 19 16:13] manto cd to /u/m/manto.
+[Nov 19 16:13] manto stor /u/m/manto/sky_mark.c (ASCII).
+[Nov 19 16:14] manto logged out from 218.166.33.239.
+[Nov 19 16:22] manto connected from 218.166.33.239.
+[Nov 19 16:22] manto cd to /u/m/manto.
+[Nov 19 16:22] manto stor /u/m/manto/sky_mark.c (ASCII).
+[Nov 19 16:23] manto logged out from 218.166.33.239.
+[Nov 19 16:24] manto connected from 218.166.33.239.
+[Nov 19 16:24] manto cd to /u/m/manto.
+[Nov 19 16:24] manto stor /u/m/manto/sky_mark.c (ASCII).
+[Nov 19 16:25] manto logged out from 218.166.33.239.
+[Nov 19 16:39] manto connected from 218.166.33.239.
+[Nov 19 16:39] manto cd to /u/m/manto.
+[Nov 19 16:39] manto stor /u/m/manto/sky_mark.c (ASCII).
+[Nov 19 16:40] manto logged out from 218.166.33.239.
+[Nov 19 16:47] manto connected from 218.166.33.239.
+[Nov 19 16:47] manto cd to /u/m/manto.
+[Nov 19 16:47] manto stor /u/m/manto/sky_mark.c (ASCII).
+[Nov 19 16:48] manto stor /u/m/manto/sky_mark.c (ASCII).
+[Nov 19 16:48] manto stor /u/m/manto/sky_mark.c (ASCII).
+[Nov 19 16:49] manto logged out from 218.166.33.239.
+[Nov 19 16:52] manto connected from 218.166.33.239.
+[Nov 19 16:52] manto cd to /u/m/manto.
+[Nov 19 16:52] manto stor /u/m/manto/sky_mark.c (ASCII).
+[Nov 19 16:53] manto logged out from 218.166.33.239.
+[Nov 19 16:56] manto connected from 218.166.33.239.
+[Nov 19 16:56] manto cd to /u/m/manto.
+[Nov 19 16:56] manto stor /u/m/manto/sky_mark.c (ASCII).
+[Nov 19 16:57] manto logged out from 218.166.33.239.
+[Nov 19 16:58] manto connected from 218.166.33.239.
+[Nov 19 16:58] manto cd to /u/m/manto.
+[Nov 19 16:58] manto stor /u/m/manto/sky_mark.c (ASCII).
+[Nov 19 16:59] manto stor /u/m/manto/sky_mark.c (ASCII).
+[Nov 19 17:00] manto stor /u/m/manto/sky_mark.c (ASCII).
+[Nov 19 17:01] manto logged out from 218.166.33.239.
+[Nov 19 17:02] manto connected from 218.166.33.239.
+[Nov 19 17:02] manto cd to /u/m/manto.
+[Nov 19 17:02] manto stor /u/m/manto/sky_mark.c (ASCII).
+[Nov 19 17:03] manto logged out from 218.166.33.239.
+[Nov 19 17:04] manto connected from 218.166.33.239.
+[Nov 19 17:04] manto cd to /u/m/manto.
+[Nov 19 17:04] manto stor /u/m/manto/sky_mark.c (ASCII).
+[Nov 19 17:05] manto logged out from 218.166.33.239.
+[Nov 19 17:06] manto connected from 218.166.33.239.
+[Nov 19 17:06] manto cd to /u/m/manto.
+[Nov 19 17:06] manto stor /u/m/manto/sky_mark.c (ASCII).
+[Nov 19 17:06] manto stor /u/m/manto/sky_mark.c (ASCII).
+[Nov 19 17:07] manto logged out from 218.166.33.239.
+[Nov 19 17:10] manto connected from 218.166.33.239.
+[Nov 19 17:10] manto cd to /u/m/manto.
+[Nov 19 17:10] manto stor /u/m/manto/sky_mark.c (ASCII).
+[Nov 19 17:11] manto logged out from 218.166.33.239.
+[Nov 19 17:14] manto connected from 218.166.33.239.
+[Nov 19 17:14] manto cd to /u/m/manto.
+[Nov 19 17:14] manto stor /u/m/manto/sky_mark.c (ASCII).
+[Nov 19 17:15] manto stor /u/m/manto/sky_mark.c (ASCII).
+[Nov 19 17:16] manto logged out from 218.166.33.239.
+[Nov 19 17:16] manto connected from 218.166.33.239.
+[Nov 19 17:16] manto cd to /u/m/manto.
+[Nov 19 17:16] manto stor /u/m/manto/sky_mark.c (ASCII).
+[Nov 19 17:17] manto logged out from 218.166.33.239.
+[Nov 19 17:37] manto connected from 218.166.33.239.
+[Nov 19 17:37] manto cd to /u/m/manto.
+[Nov 19 17:37] manto stor /u/m/manto/sky_mark.c (ASCII).
+[Nov 19 17:38] manto stor /u/m/manto/sky_mark.c (ASCII).
+[Nov 19 17:39] manto logged out from 218.166.33.239.
+[Nov 19 17:41] manto connected from 218.166.33.239.
+[Nov 19 17:41] manto cd to /u/m/manto.
+[Nov 19 17:41] manto stor /u/m/manto/mark_machine.c (ASCII).
+[Nov 19 17:42] manto logged out from 218.166.33.239.
+[Nov 19 19:43] manto connected from 218.166.33.239.
+[Nov 19 19:43] manto connected from 218.166.33.239.
+[Nov 19 19:43] manto cd to /u/m/manto.
+[Nov 19 19:43] manto stor /u/m/manto/sky_mark.c (ASCII).
+[Nov 19 19:44] manto stor /u/m/manto/sky_mark.c (ASCII).
+[Nov 19 19:44] manto stor /u/m/manto/sky_mark.c (ASCII).
+[Nov 19 19:45] manto logged out from 218.166.33.239.
+[Nov 19 19:47] manto connected from 218.166.33.239.
+[Nov 19 19:47] manto cd to /u/m/manto.
+[Nov 19 19:47] manto stor /u/m/manto/sky_mark.c (ASCII).
+[Nov 19 19:48] manto logged out from 218.166.33.239.
+[Nov 19 19:49] manto connected from 218.166.33.239.
+[Nov 19 19:49] manto cd to /u/m/manto.
+[Nov 19 19:49] manto stor /u/m/manto/sky_mark.c (ASCII).
+[Nov 19 19:50] manto logged out from 218.166.33.239.
+[Nov 19 19:59] manto logged out from 218.166.33.239.
+No such fd in socket_info: 3.
+[Nov 20 16:52] manto connected from 218.166.36.124.
+[Nov 20 16:52] manto connected from 218.166.36.124.
+[Nov 20 16:52] manto cd to /u/m/manto.
+[Nov 20 16:52] manto retr /u/m/manto/heaven_eq_box.c (ASCII).
+[Nov 20 16:52] manto retr /u/m/manto/heaven_wp_box.c (ASCII).
+[Nov 20 16:53] manto logged out from 218.166.36.124.
+[Nov 20 16:56] manto dele /u/m/manto/heaven_eq_box.c.
+[Nov 20 16:56] manto dele /u/m/manto/heaven_wp_box.c.
+[Nov 20 16:56] manto dele /u/m/manto/equip_box.c.
+[Nov 20 16:56] manto connected from 218.166.36.124.
+[Nov 20 16:56] manto cd to /u/m/manto.
+[Nov 20 16:56] manto stor /u/m/manto/heaven_eq_box.c (ASCII).
+[Nov 20 16:56] manto stor /u/m/manto/heaven_item_box.c (ASCII).
+[Nov 20 16:56] manto stor /u/m/manto/heaven_wp_box.c (ASCII).
+[Nov 20 16:57] manto logged out from 218.166.36.124.
+[Nov 20 16:59] manto connected from 218.166.36.124.
+[Nov 20 16:59] manto cd to /u/m/manto.
+[Nov 20 16:59] manto stor /u/m/manto/heaven_wp_box.c (ASCII).
+[Nov 20 17:00] manto logged out from 218.166.36.124.
+[Nov 20 17:02] manto logged out from 218.166.36.124.
+No such key in temp_map: 0.
+[May  4 15:05] manto connected from 58.115.141.250.
+[May  4 15:05] manto failed/incorrect login from 58.115.141.250.
+[May  4 15:05] manto logged out from 58.115.141.250.
+[May  4 15:05] manto connected from 58.115.141.250.
+[May  4 15:06] manto connected from 58.115.141.250.
+[May  4 15:06] manto cd to /u/m/manto.
+[May  4 15:06] manto retr /u/m/manto/a.c (ASCII).
+[May  4 15:06] manto retr /u/m/manto/ankle.c (ASCII).
+[May  4 15:06] manto retr /u/m/manto/big2.c (ASCII).
+[May  4 15:06] manto retr /u/m/manto/cannon0.c (ASCII).
+[May  4 15:06] manto retr /u/m/manto/cannon_base.c (ASCII).
+[May  4 15:06] manto retr /u/m/manto/cmds (ASCII).
+[May  4 15:06] manto retr /u/m/manto/cold_poison.c (ASCII).
+[May  4 15:06] manto retr /u/m/manto/heaven_eq_box.c (ASCII).
+[May  4 15:06] manto retr /u/m/manto/heaven_wp_box.c (ASCII).
+[May  4 15:06] manto retr /u/m/manto/hot_poison.c (ASCII).
+[May  4 15:06] manto retr /u/m/manto/item_box.c (ASCII).
+[May  4 15:06] manto retr /u/m/manto/js_mage.c (ASCII).
+[May  4 15:06] manto retr /u/m/manto/kfox.c (ASCII).
+[May  4 15:06] manto retr /u/m/manto/l.c (ASCII).
+[May  4 15:06] manto retr /u/m/manto/log (ASCII).
+[May  4 15:06] manto retr /u/m/manto/mage-glasses.c (ASCII).
+[May  4 15:06] manto retr /u/m/manto/mage-gloves.c (ASCII).
+[May  4 15:06] manto retr /u/m/manto/mage-hat.c (ASCII).
+[May  4 15:06] manto retr /u/m/manto/mage.c (ASCII).
+[May  4 15:06] manto retr /u/m/manto/manto_b.c (ASCII).
+[May  4 15:06] manto retr /u/m/manto/manto_b.o (BINARY).
+[May  4 15:06] manto retr /u/m/manto/map.txt (ASCII).
+[May  4 15:06] manto retr /u/m/manto/map2.txt (ASCII).
+[May  4 15:06] manto retr /u/m/manto/map_01 (ASCII).
+[May  4 15:06] manto retr /u/m/manto/mark_machine.c (ASCII).
+[May  4 15:06] manto retr /u/m/manto/moon_box.c (ASCII).
+[May  4 15:06] manto retr /u/m/manto/moon_cake1.c (ASCII).
+[May  4 15:06] manto retr /u/m/manto/moon_statue.c (ASCII).
+[May  4 15:06] manto retr /u/m/manto/moon_statue2.c (ASCII).
+[May  4 15:06] manto retr /u/m/manto/poison.c (ASCII).
+[May  4 15:06] manto retr /u/m/manto/q.c (ASCII).
+[May  4 15:06] manto retr /u/m/manto/room.c (ASCII).
+[May  4 15:06] manto retr /u/m/manto/room.txt (ASCII).
+[May  4 15:06] manto retr /u/m/manto/room1f.txt (ASCII).
+[May  4 15:06] manto retr /u/m/manto/room2f.txt (ASCII).
+[May  4 15:06] manto retr /u/m/manto/sky_mark.c (ASCII).
+[May  4 15:06] manto retr /u/m/manto/super_poison.c (ASCII).
+[May  4 15:06] manto retr /u/m/manto/test.txt (ASCII).
+[May  4 15:06] manto retr /u/m/manto/tmr_b.c (ASCII).
+[May  4 15:06] manto retr /u/m/manto/weapon_box.c (ASCII).
+[May  4 15:06] manto retr /u/m/manto/workroom.c (ASCII).
+[May  4 15:06] tmr failed/incorrect login from 58.115.141.250.
+[May  4 15:06] tmr connected from 58.115.141.250.
+[May  4 15:06] tmr cd to /u/t.
+[May  4 15:06] tmr cd to /u.
+[May  4 15:07] tmr cd to /u/m.
+[May  4 15:07] tmr cd to /u.
+[May  4 15:07] tmr cd to /.
+[May  4 15:07] tmr logged out from 58.115.141.250.
+[May  4 15:07] manto cd to /u/m/manto/area3.
+[May  4 15:07] manto logged out from 58.115.141.250.
+No such fd in socket_info: 5.
+[May  4 15:07] manto connected from 58.115.141.250.
+[May  4 15:07] manto cd to /u/m/manto/area3.
+[May  4 15:07] manto retr /u/m/manto/area3/backyard05.c (ASCII).
+[May  4 15:07] manto retr /u/m/manto/area3/backyard06.c (ASCII).
+[May  4 15:07] manto retr /u/m/manto/area3/backyard07.c (ASCII).
+[May  4 15:07] manto retr /u/m/manto/area3/backyard08.c (ASCII).
+[May  4 15:07] manto retr /u/m/manto/area3/backyard09.c (ASCII).
+[May  4 15:07] manto retr /u/m/manto/area3/chink01.c (ASCII).
+[May  4 15:07] manto retr /u/m/manto/area3/chink02.c (ASCII).
+[May  4 15:07] manto retr /u/m/manto/area3/chink03.c (ASCII).
+[May  4 15:07] manto retr /u/m/manto/area3/lake01.c (ASCII).
+[May  4 15:07] manto retr /u/m/manto/area3/lane01.c (ASCII).
+[May  4 15:07] manto retr /u/m/manto/area3/lane02.c (ASCII).
+[May  4 15:07] manto retr /u/m/manto/area3/lane03.c (ASCII).
+[May  4 15:07] manto retr /u/m/manto/area3/lane04.c (ASCII).
+[May  4 15:07] manto retr /u/m/manto/area3/lane05.c (ASCII).
+[May  4 15:07] manto retr /u/m/manto/area3/laneout.c (ASCII).
+[May  4 15:08] manto logged out from 58.115.141.250.
+[May  4 15:10] manto cd to /u/m/manto/area3/npc.
+[May  4 15:10] manto connected from 58.115.141.250.
+[May  4 15:10] manto cd to /u/m/manto/area3/npc.
+[May  4 15:10] manto retr /u/m/manto/area3/npc/boa.c (ASCII).
+[May  4 15:10] manto retr /u/m/manto/area3/npc/cobra.c (ASCII).
+[May  4 15:10] manto cd to /u/m/manto/area3.
+[May  4 15:10] manto cd to /u/m/manto.
+[May  4 15:10] manto cd to /open/world1/manto.
+[May  4 15:10] manto cd to /open/world1.
+[May  4 15:11] manto logged out from 58.115.141.250.
+[May  4 15:12] manto cd to /open/world1/manto/12gong.
+[May  4 15:12] manto connected from 58.115.141.250.
+[May  4 15:12] manto cd to /open/world1/manto/12gong.
+[May  4 15:12] manto retr /open/world1/manto/12gong/aquarius.c (ASCII).
+[May  4 15:12] manto retr /open/world1/manto/12gong/aquarius.c (ASCII).
+[May  4 15:12] manto retr /open/world1/manto/12gong/baiyang.c (ASCII).
+[May  4 15:12] manto retr /open/world1/manto/12gong/cancer.c (ASCII).
+[May  4 15:12] manto retr /open/world1/manto/12gong/capricorn.c (ASCII).
+[May  4 15:12] manto retr /open/world1/manto/12gong/genini.c (ASCII).
+[May  4 15:12] manto retr /open/world1/manto/12gong/leo.c (ASCII).
+[May  4 15:12] manto retr /open/world1/manto/12gong/libra.c (ASCII).
+[May  4 15:12] manto retr /open/world1/manto/12gong/pisces.c (ASCII).
+[May  4 15:12] manto retr /open/world1/manto/12gong/room01.c (ASCII).
+[May  4 15:12] manto retr /open/world1/manto/12gong/room02.c (ASCII).
+[May  4 15:12] manto retr /open/world1/manto/12gong/room03.c (ASCII).
+[May  4 15:12] manto retr /open/world1/manto/12gong/room04.c (ASCII).
+[May  4 15:12] manto retr /open/world1/manto/12gong/room05.c (ASCII).
+[May  4 15:12] manto retr /open/world1/manto/12gong/room06.c (ASCII).
+[May  4 15:12] manto retr /open/world1/manto/12gong/room07.c (ASCII).
+[May  4 15:12] manto retr /open/world1/manto/12gong/room08.c (ASCII).
+[May  4 15:12] manto retr /open/world1/manto/12gong/room09.c (ASCII).
+[May  4 15:12] manto retr /open/world1/manto/12gong/room10.c (ASCII).
+[May  4 15:12] manto retr /open/world1/manto/12gong/room11.c (ASCII).
+[May  4 15:12] manto retr /open/world1/manto/12gong/room12.c (ASCII).
+[May  4 15:12] manto retr /open/world1/manto/12gong/room13.c (ASCII).
+[May  4 15:12] manto retr /open/world1/manto/12gong/room14.c (ASCII).
+[May  4 15:12] manto retr /open/world1/manto/12gong/room15.c (ASCII).
+[May  4 15:12] manto retr /open/world1/manto/12gong/room16.c (ASCII).
+[May  4 15:12] manto retr /open/world1/manto/12gong/room17.c (ASCII).
+[May  4 15:12] manto retr /open/world1/manto/12gong/room18.c (ASCII).
+[May  4 15:12] manto retr /open/world1/manto/12gong/room19.c (ASCII).
+[May  4 15:12] manto retr /open/world1/manto/12gong/room20.c (ASCII).
+[May  4 15:12] manto retr /open/world1/manto/12gong/room21.c (ASCII).
+[May  4 15:12] manto retr /open/world1/manto/12gong/room22.c (ASCII).
+[May  4 15:12] manto retr /open/world1/manto/12gong/room23.c (ASCII).
+[May  4 15:12] manto retr /open/world1/manto/12gong/room24.c (ASCII).
+[May  4 15:12] manto retr /open/world1/manto/12gong/sagittarius.c (ASCII).
+[May  4 15:12] manto retr /open/world1/manto/12gong/scorpio.c (ASCII).
+[May  4 15:12] manto retr /open/world1/manto/12gong/taurus.c (ASCII).
+[May  4 15:12] manto retr /open/world1/manto/12gong/virgo.c (ASCII).
+[May  4 15:12] manto cd to /open/world1/manto/12gong/npc.
+[May  4 15:13] manto cd to /open/world1/manto/12gong/npc.
+[May  4 15:13] manto retr /open/world1/manto/12gong/npc/baiyang.c (ASCII).
+[May  4 15:13] manto retr /open/world1/manto/12gong/npc/cancer.c (ASCII).
+[May  4 15:13] manto retr /open/world1/manto/12gong/npc/fighter01.c (ASCII).
+[May  4 15:13] manto retr /open/world1/manto/12gong/npc/fighter02.c (ASCII).
+[May  4 15:13] manto retr /open/world1/manto/12gong/npc/fighter03.c (ASCII).
+[May  4 15:13] manto retr /open/world1/manto/12gong/npc/genini.c (ASCII).
+[May  4 15:13] manto retr /open/world1/manto/12gong/npc/libra.c (ASCII).
+[May  4 15:13] manto retr /open/world1/manto/12gong/npc/star.h (ASCII).
+[May  4 15:13] manto retr /open/world1/manto/12gong/npc/taurus.c (ASCII).
+[May  4 15:13] manto cd to /open/world1/manto/12gong/npc/wp.
+[May  4 15:13] manto cd to /open/world1/manto/12gong/npc/wp.
+[May  4 15:13] manto retr /open/world1/manto/12gong/npc/wp/barbarian_axe.c (ASCII).
+[May  4 15:13] manto retr /open/world1/manto/12gong/npc/wp/cow_needle.c (ASCII).
+[May  4 15:13] manto retr /open/world1/manto/12gong/npc/wp/fist.c (ASCII).
+[May  4 15:13] manto retr /open/world1/manto/12gong/npc/wp/foreverbolt.c (ASCII).
+[May  4 15:13] manto retr /open/world1/manto/12gong/npc/wp/longsword.c (ASCII).
+[May  4 15:13] manto cd to /open/world1/manto/12gong/npc.
+[May  4 15:13] manto retr /open/world1/manto/12gong/npc/wp/typhon_bane.c (ASCII).
+[May  4 15:13] manto retr /open/world1/manto/12gong/npc/wp/tyrfing_sword.c (ASCII).
+[May  4 15:13] manto cd to /open/world1/manto/12gong/npc/eq.
+[May  4 15:13] manto cd to /open/world1/manto/12gong/npc/eq.
+[May  4 15:13] manto retr /open/world1/manto/12gong/npc/eq/war_plate.c (ASCII).
+[May  4 15:13] manto cd to /open/world1/manto/12gong/npc.
+[May  4 15:13] manto cd to /open/world1/manto/12gong.
+[May  4 15:13] manto cd to /open/world1/manto.
+[May  4 15:14] manto cd to /open/world1/manto/dragon_festival.
+[May  4 15:14] manto cd to /open/world1/manto/dragon_festival.
+[May  4 15:14] manto retr /open/world1/manto/dragon_festival/mob01.c (ASCII).
+[May  4 15:14] manto retr /open/world1/manto/dragon_festival/black_pig.c (ASCII).
+[May  4 15:14] manto retr /open/world1/manto/dragon_festival/mob01.c (ASCII).
+[May  4 15:14] manto retr /open/world1/manto/dragon_festival/mob03.c (ASCII).
+[May  4 15:14] manto retr /open/world1/manto/dragon_festival/mob06.c (ASCII).
+[May  4 15:14] manto retr /open/world1/manto/dragon_festival/npc02.c (ASCII).
+[May  4 15:14] manto retr /open/world1/manto/dragon_festival/npc04.c (ASCII).
+[May  4 15:14] manto retr /open/world1/manto/dragon_festival/room01.c (ASCII).
+[May  4 15:14] manto retr /open/world1/manto/dragon_festival/room02.c (ASCII).
+[May  4 15:14] manto retr /open/world1/manto/dragon_festival/room03.c (ASCII).
+[May  4 15:14] manto retr /open/world1/manto/dragon_festival/room04.c (ASCII).
+[May  4 15:14] manto retr /open/world1/manto/dragon_festival/room05.c (ASCII).
+[May  4 15:14] manto retr /open/world1/manto/dragon_festival/room06.c (ASCII).
+[May  4 15:14] manto retr /open/world1/manto/dragon_festival/room07.c (ASCII).
+[May  4 15:14] manto retr /open/world1/manto/dragon_festival/room08.c (ASCII).
+[May  4 15:14] manto retr /open/world1/manto/dragon_festival/room09.c (ASCII).
+[May  4 15:14] manto retr /open/world1/manto/dragon_festival/room10.c (ASCII).
+[May  4 15:14] manto retr /open/world1/manto/dragon_festival/room11.c (ASCII).
+[May  4 15:14] manto retr /open/world1/manto/dragon_festival/room12.c (ASCII).
+[May  4 15:14] manto retr /open/world1/manto/dragon_festival/room13.c (ASCII).
+[May  4 15:14] manto retr /open/world1/manto/dragon_festival/room14.c (ASCII).
+[May  4 15:14] manto retr /open/world1/manto/dragon_festival/room15.c (ASCII).
+[May  4 15:14] manto retr /open/world1/manto/dragon_festival/room16.c (ASCII).
+[May  4 15:14] manto cd to /open/world1/manto.
+[May  4 15:14] manto cd to /open/world1/manto.
+[May  4 15:14] manto retr /open/world1/manto/index (ASCII).
+[May  4 15:14] manto cd to /open/world1/manto/pudu_mountain.
+[May  4 15:14] manto cd to /open/world1/manto/pudu_mountain.
+[May  4 15:14] manto retr /open/world1/manto/pudu_mountain/temple01.c (ASCII).
+[May  4 15:14] manto retr /open/world1/manto/pudu_mountain/temple02.c (ASCII).
+[May  4 15:14] manto retr /open/world1/manto/pudu_mountain/temple03.c (ASCII).
+[May  4 15:14] manto retr /open/world1/manto/pudu_mountain/temple04.c (ASCII).
+[May  4 15:14] manto retr /open/world1/manto/pudu_mountain/temple05.c (ASCII).
+[May  4 15:14] manto retr /open/world1/manto/pudu_mountain/temple06.c (ASCII).
+[May  4 15:15] manto retr /open/world1/manto/pudu_mountain/temple07.c (ASCII).
+[May  4 15:15] manto retr /open/world1/manto/pudu_mountain/temple08.c (ASCII).
+[May  4 15:15] manto retr /open/world1/manto/pudu_mountain/temple09.c (ASCII).
+[May  4 15:15] manto retr /open/world1/manto/pudu_mountain/temple10.c (ASCII).
+[May  4 15:15] manto retr /open/world1/manto/pudu_mountain/temple11.c (ASCII).
+[May  4 15:15] manto retr /open/world1/manto/pudu_mountain/temple12.c (ASCII).
+[May  4 15:15] manto retr /open/world1/manto/pudu_mountain/temple13.c (ASCII).
+[May  4 15:15] manto retr /open/world1/manto/pudu_mountain/temple14.c (ASCII).
+[May  4 15:15] manto retr /open/world1/manto/pudu_mountain/way00.c (ASCII).
+[May  4 15:15] manto retr /open/world1/manto/pudu_mountain/way01.c (ASCII).
+[May  4 15:15] manto retr /open/world1/manto/pudu_mountain/way02.c (ASCII).
+[May  4 15:15] manto retr /open/world1/manto/pudu_mountain/way03.c (ASCII).
+[May  4 15:15] manto retr /open/world1/manto/pudu_mountain/way04.c (ASCII).
+[May  4 15:15] manto retr /open/world1/manto/pudu_mountain/way05.c (ASCII).
+[May  4 15:15] manto retr /open/world1/manto/pudu_mountain/way05n.c (ASCII).
+[May  4 15:15] manto retr /open/world1/manto/pudu_mountain/way05n2.c (ASCII).
+[May  4 15:15] manto retr /open/world1/manto/pudu_mountain/way06.c (ASCII).
+[May  4 15:15] manto retr /open/world1/manto/pudu_mountain/way07.c (ASCII).
+[May  4 15:15] manto retr /open/world1/manto/pudu_mountain/way08.c (ASCII).
+[May  4 15:15] manto retr /open/world1/manto/pudu_mountain/way09.c (ASCII).
+[May  4 15:15] manto retr /open/world1/manto/pudu_mountain/way10.c (ASCII).
+[May  4 15:15] manto retr /open/world1/manto/pudu_mountain/way11.c (ASCII).
+[May  4 15:15] manto retr /open/world1/manto/pudu_mountain/way12.c (ASCII).
+[May  4 15:15] manto retr /open/world1/manto/pudu_mountain/way13.c (ASCII).
+[May  4 15:15] manto cd to /open/world1/manto/pudu_mountain/obj.
+[May  4 15:15] manto cd to /open/world1/manto/pudu_mountain/obj.
+[May  4 15:15] manto retr /open/world1/manto/pudu_mountain/obj/seat.c (ASCII).
+[May  4 15:15] manto retr /open/world1/manto/pudu_mountain/obj/stool.c (ASCII).
+[May  4 15:15] manto retr /open/world1/manto/pudu_mountain/obj/table.c (ASCII).
+[May  4 15:15] manto cd to /open/world1/manto/pudu_mountain/npc.
+[May  4 15:15] manto cd to /open/world1/manto/pudu_mountain/npc.
+[May  4 15:15] manto retr /open/world1/manto/pudu_mountain/npc/bonze.c (ASCII).
+[May  4 15:15] manto retr /open/world1/manto/pudu_mountain/npc/liu.c (ASCII).
+[May  4 15:15] manto retr /open/world1/manto/pudu_mountain/npc/man.c (ASCII).
+[May  4 15:15] manto retr /open/world1/manto/pudu_mountain/npc/scholar.c (ASCII).
+[May  4 15:15] manto retr /open/world1/manto/pudu_mountain/npc/shop.c (ASCII).
+[May  4 15:15] manto cd to /open/world1/manto/pudu_mountain/npc/eq.
+[May  4 15:15] manto cd to /open/world1/manto/pudu_mountain/npc/eq.
+[May  4 15:15] manto retr /open/world1/manto/pudu_mountain/npc/eq/bonze_cloth.c (ASCII).
+[May  4 15:15] manto retr /open/world1/manto/pudu_mountain/npc/eq/bonze_cloth2.c (ASCII).
+[May  4 15:15] manto cd to /open/world1/manto/pudu_mountain/npc/wp.
+[May  4 15:15] manto cd to /open/world1/manto/pudu_mountain/npc.
+[May  4 15:15] manto cd to /open/world1/manto/pudu_mountain.
+[May  4 15:16] manto logged out from 58.115.141.250.
+[May  4 15:32] manto logged out from 58.115.141.250.
+[Jun 16 17:44] manto connected from 219.70.179.123.
+[Jun 16 17:44] manto cd to /open/world1.
+[Jun 16 17:44] manto cd to /open/world1/acme.
+[Jun 16 17:45] manto cd to /open/world1/tmr/gumu.
+[Jun 16 17:46] manto connected from 219.70.179.123.
+[Jun 16 17:46] manto cd to /open/world1/tmr/gumu.
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/anhe1.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/anhe2.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/baimatang.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/bianhou.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/caodi.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/caodi2.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/ceting.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/cexiang.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/chucangshi.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/file_list.txt (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/hanshuitan.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/houting.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/huangshalin.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/jianshi.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/jingxiu.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/jitan.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/kongdi.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/liangong.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/liangong1.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/liangong2.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/liangong3.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/lingshi.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/lingwu.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/mishi1.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/mishi2.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/mishi3.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/mishi4.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/mishi5.c (ASCII).
+[Jun 16 17:46] manto cd to /open/world1/tmr/gumu/npc.
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/mishi6.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/mishi7.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/mishi8.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/mudao01.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/mudao02.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/mudao03.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/mudao04.c (ASCII).
+[Jun 16 17:46] manto logged out from 219.70.179.123.
+[Jun 16 17:46] manto connected from 219.70.179.123.
+[Jun 16 17:46] manto cd to /open/world1/tmr/gumu.
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/mudao05.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/mudao05_e.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/mudao05_w.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/mudao06.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/mudao07.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/mudao08.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/mudao08_e.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/mudao08_e2.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/mudao09.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/mudao09e.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/mudao09w1.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/mudao09w2.c (ASCII).
+[Jun 16 17:46] manto retr /open/world1/tmr/gumu/mudao09w3.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/mudao09w4.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/mudao09w5.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/mudao09w6.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/mudao09w7.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/mudao09w8.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/mudao10.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/mudao11.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/mudao12.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/mudao13.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/mudao14.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/mudao15.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/mudao16.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/mudao17.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/mudao18.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/mudao19.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/mudao20.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/mudao21.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/mudao21_s.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/mudao21_s2.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/mudao21_s3.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/mudao21_s4.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/mudao22.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/mudao23.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/mumen.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/qianliu1.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/qianliu2.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/qianting.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/qinshi.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/rope.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/shanlu1.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/shanlu2.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/shanlu3.c (ASCII).
+[Jun 16 17:47] manto cd to /open/world1/tmr/gumu.
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/shanlu4.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/shanlu5.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/shanlu6.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/shiguan.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/shishi.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/shishi0.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/shishi1.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/shishi2.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/shishi3.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/shishi4.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/shishi5.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/shishi6.c (ASCII).
+[Jun 16 17:47] manto cd to /open/world1/tmr/gumu/obj.
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/shulin0.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/shulin1.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/shulin2.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/shulin3.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/shulin4.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/shulin5.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/shulin6.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/tree.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/woshi.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/woshi1.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/xiaoting.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/xiaowu1.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/xiaowu2.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/xiaowu3.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/xiuxishi.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/xuanya.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/yaofang.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/zhengting.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/zhongting.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/zhufeng.c (ASCII).
+[Jun 16 17:47] manto cd to /open/world1/tmr/gumu/npc.
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/npc/apprentice.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/npc/apprentice2.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/npc/apprentice3.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/npc/butterfly.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/npc/dumang.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/npc/girl1.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/npc/girl2.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/npc/lee.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/npc/maque.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/npc/stake.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/npc/sun.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/npc/tree.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/npc/yi-zhi-ping.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/npc/yufeng.c (ASCII).
+[Jun 16 17:47] manto cd to /open/world1/tmr/gumu/obj.
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/obj/bed.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/obj/bishou.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/obj/box.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/obj/fengjiang.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/obj/fengmi.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/obj/fire.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/obj/goldkey.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/obj/head.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/obj/huju-jia.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/obj/ping.c (ASCII).
+[Jun 16 17:47] manto retr /open/world1/tmr/gumu/obj/silverkey.c (ASCII).
+[Jun 16 17:47] manto logged out from 219.70.179.123.
+[Jun 16 18:02] manto logged out from 219.70.179.123.

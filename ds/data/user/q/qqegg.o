@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["con":2,"mud_age":0,"hp":120,"guild_gifts":({5,5,5,5,}),"attitude":"peaceful","str":2,"volume":7,"level":1,"actions":,"DS_DATA_VERSION":19991107,"gender":"女性","evil":-1,"name":"可愛蛋","addition_shield":10,"max_mp":54,"channels":({"chat","rumor","tchat",}),"heart_beat_rate":6,"birthday":1166445838,"max_hp":120,"unit":"位","race":"ogre","addition_armor":10,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"startroom":"/open/world1/tmr/area/hotel","mp":54,"default_actions":,"addition_damage":10,"age":14,"last_location":"/open/world1/tmr/area/street4","max_ap":66,"ap":66,"newbie":1,"exp":777,"id":"qqegg","dex":2,"int":2,])
+autoload ({})

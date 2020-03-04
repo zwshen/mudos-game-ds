@@ -1,0 +1,2 @@
+#/obj/login.c
+dbase (["id":"muder","new_mail":1,"email":"","name":"上官憐兒","password":"LauSLBIxmS34Y","last_on":1032691762,"race":"human","level":39,"last_from":"telnet.hinet.net","error_login":({"於[Mon Jul 15 00:16:27 2002]嘗試由[61-229-74-2.HINET-IP.hinet.net]連線進入失敗。","於[Mon Jul 15 23:18:40 2002]嘗試由[61-229-74-217.HINET-IP.hinet.net]連線進入失敗。","於[Sat Jul 27 03:57:21 2002]嘗試由[203.69.143.46]連線進入失敗。","於[Wed Jul 31 01:06:26 2002]嘗試由[61-229-79-253.HINET-IP.hinet.net]連線進入失敗。","於[Sat Aug  3 23:19:39 2002]嘗試由[u129-138.u61-70.giga.net.tw]連線進入失敗。",}),"body":"/obj/user",])

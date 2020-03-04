@@ -1,0 +1,16 @@
+¥Ø¿ý¡R/u/f/faceoff/area/npc/obj/
+bag.c               ®È¦æ­I¥]            blood_horse.c       «n®ü¨ª°¨          
+boatman.c           ²î¦Ñ¤j              carp_meat.c         ÃU³½¦×            
+cflag.c             ¥|±m¥OºX            clam_shell.c        ¥¨°F´ß            
+dump.c              ¤j¿N¥]              east_mark.c         ªF°Æ®vªº©x¦L      
+eel_meat.c          ÅÁ³½¦×              feather.c           ÆN¦Ð              
+fish_meat.c         ³½¦×                flag.c              ¥OºX              
+int_pill.c          ¼z³q¯«¤¦            letter.c            ¤â¥¾              
+manto.c             ÄCÀY                mark.c              À²°O              
+mountain_vegetable.c  ¤sµæ                needle.c            »È°w              
+paper.c             Ã±¥X±ø              pill1.c             ¶Â¥ÉÂ_Äò¤Y        
+shark_bone.c        ÃT°©                tea.c               «C¯ó¯ù            
+tea2.c              çx¯ù                torch.c             ¤õ§â              
+tunny_meat.c        ÂC³½¦×              wang_mark.c         ¤ýÅQªº©x¦L        
+west_mark.c         ¦è°Æ®vªº©x¦L        wine.c              ¥Õ¤z              
+

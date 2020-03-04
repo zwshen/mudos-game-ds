@@ -1,0 +1,7 @@
+#/obj/user.c
+conditions ([])
+dbase (["default_actions":,"heart_beat_rate":6,"DS_DATA_VERSION":19991107,"addition_shield":10,"actions":,"addition_damage":10,"mp":54,"guild_gifts":({5,5,5,5,}),"addition_armor":10,"channels":({"chat","rumor","tchat",}),"unit":"位","max_ap":66,"newbie":1,"exp":777,"dex":2,"cure_count":17,"int":2,"con":2,"level":1,"last_location":"/open/world1/faceoff/sky/ten27","supply_point":34,"birthday":1225949230,"ap":66,"talk_point":8,"evil":-1,"attitude":"peaceful","age":14,"max_mp":54,"max_hp":120,"race":"ogre","Merits":(["sou":0,"bio":0,"wit":0,"bar":0,"tec":0,]),"id":"wildwolf","mud_age":254,"startroom":"/open/world1/tmr/area/hotel","hp":120,"gender":"男性","volume":7,"str":2,"name":"大灰狼",])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

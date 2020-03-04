@@ -1,0 +1,7 @@
+#/obj/user.c
+conditions ([])
+dbase (["DS_DATA_VERSION":19991107,"race":"human","actions":,"max_mp":60,"channels":({"chat","rumor","tchat",}),"help":"equip/all_eq","max_hp":80,"heart_modify":0,"birthday":1198679133,"id":"tteesss","heart_beat_rate":6,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"gender":"女性","mp":60,"guild_gifts":({5,5,5,5,}),"name":"試試","attitude":"peaceful","max_ap":60,"ap":60,"startroom":"/open/world1/tmr/area/hotel","cure_count":15,"addition_shield":10,"age":14,"unit":"位","supply_point":60,"newbie":1,"talk_point":8,"default_actions":,"addition_armor":10,"exp":777,"dex":2,"int":2,"con":2,"str":2,"hp":80,"level":1,"volume":7,"wound":(["body":0,"right_arm":0,"head":0,"right_leg":0,"left_arm":0,"left_leg":0,]),"addition_damage":10,"evil":-1,"mud_age":1990,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

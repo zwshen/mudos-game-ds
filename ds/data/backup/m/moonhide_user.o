@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["mp":60,"con":2,"talk_point":8,"addition_armor":10,"hp":80,"max_hp":80,"unit":"位","id":"moonhide","gender":"男性","str":2,"supply_point":20,"addition_shield":10,"max_mp":60,"volume":7,"name":"帥氣豪","startroom":"/open/world1/tmr/area/hotel","newbie":1,"guild_gifts":({5,5,5,5,}),"heart_beat_rate":6,"default_actions":,"cwd":"/u/m/moonhide/","cure_count":10,"ap":60,"evil":-1,"channels":({"chat","rumor","tchat",}),"DS_DATA_VERSION":19991107,"mud_age":158,"level":1,"race":"human","exp":777,"birthday":1019801923,"age":14,"dex":2,"actions":,"addition_damage":10,"max_ap":60,"Merits":(["bio":0,"tec":0,"sou":0,"bar":0,"wit":0,]),"attitude":"peaceful","int":2,])
+autoload ({})

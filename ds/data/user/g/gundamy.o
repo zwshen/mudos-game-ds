@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["int":2,"wound":(["left_arm":0,"right_leg":0,"left_leg":0,"right_arm":0,"body":0,"head":0,]),"con":2,"str":2,"cure_count":18,"DS_DATA_VERSION":19991107,"actions":,"attitude":"peaceful","guild_gifts":({5,5,5,5,}),"volume":7,"max_mp":60,"ap":60,"default_actions":,"addition_shield":10,"evil":-1,"Merits":(["sou":0,"bio":0,"wit":0,"tec":0,"bar":0,]),"channels":({"chat","rumor","tchat",}),"gender":"男性","age":14,"id":"gundamy","board_last_read":(["now_malo_b":1085207571,]),"addition_armor":10,"heart_beat_rate":6,"name":"紅髮洛克","race":"human","level":1,"talk_point":8,"max_ap":60,"birthday":1110589255,"supply_point":60,"unit":"位","last_location":"/open/world2/mainland1/map_23_6","heart_modify":0,"mp":60,"mud_age":882,"startroom":"/open/world2/lichi_town_2/map_5_26","hp":80,"addition_damage":10,"newbie":1,"exp":777,"max_hp":80,"dex":2,])
+autoload ({})

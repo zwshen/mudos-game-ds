@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["supply_point":32,"max_mp":60,"Merits":(["bar":0,"bio":0,"wit":0,"tec":0,"sou":0,]),"volume":7,"unit":"位","gender":"男性","id":"cmd","evil":-1,"mud_age":246,"channels":({"chat","rumor","tchat",}),"exp":777,"name":"達叔","race":"human","ap":60,"dex":2,"DS_DATA_VERSION":19991107,"default_actions":,"age":14,"int":2,"level":1,"con":2,"addition_damage":10,"birthday":1116948985,"str":2,"addition_shield":10,"mp":60,"max_hp":80,"guild_gifts":({5,5,5,5,}),"cure_count":16,"talk_point":8,"actions":,"addition_armor":10,"heart_beat_rate":6,"attitude":"peaceful","startroom":"/open/world1/tmr/area/school/school1","hp":80,"max_ap":60,"newbie":1,])
+autoload ({})

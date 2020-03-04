@@ -1,0 +1,17 @@
+ 
+	find_object(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		find_object() - 以指定的檔案名稱尋找一個物件.
+	函數語法:
+		object find_object( string str );
+
+		物件 find_object( 字串 str );
+	函數用法:
+		用檔案名稱 str  尋找一個物件. 如果要尋找的物件是一個復
+		制出來的物件, 亦可以用 file_name()  傳回的檔案名稱作為
+		參數來尋找.
+	參考函數:
+		file_name(3), stat(3)
+	手冊翻譯:
+		Phoebus@ZH	97.Feb.12.		(Writen 5/23/97)

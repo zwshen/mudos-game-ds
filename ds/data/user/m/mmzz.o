@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions ([])
+dbase (["popularity":0,"unit":"¦ì","DS_DATA_VERSION":19991107,"supply_point":60,"ap":66,"mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove",}),"default_actions":,"actions":,"talk_point":8,"addition_shield":10,"channels":({"chat","rumor","tchat",}),"Merits":(["bar":0,"bio":0,"tec":0,"sou":0,"wit":0,]),"newbie":1,"addition_armor":10,"exp":669,"max_hp":120,"dex":3,"int":2,"con":2,"max_ap":66,"level":1,"birthday":1246006124,"volume":7,"addition_damage":10,"guild_gifts":({5,5,5,5,}),"MKS":4,"evil":11,"attitude":"peaceful","war_art":0,"wound":(["right_arm":0,"body":0,"left_leg":0,"right_leg":0,"left_arm":0,"head":0,]),"heart_beat_rate":6,"heart_modify":0,"mud_age":704,"hp":118,"age":14,"race":"ogre","bank":(["past":4,]),"max_mp":54,"board_last_read":(["tmr_hotel_b":1244532831,]),"last_location":"/open/world1/tmr/area/wynd","id":"mmzz","war_score":0,"mp":54,"help":"world/","cure_count":6,"startroom":"/open/world1/tmr/area/hotel","gender":"¨k©Ê","str":2,"name":"±s¶ºÄ{",])
+skills (["dodge":1,"parry":0,"unarmed":2,"combat":3,])
+learned (["dodge":6,"parry":1,"unarmed":7,"combat":13,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

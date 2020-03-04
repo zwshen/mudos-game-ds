@@ -1,0 +1,55 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清華站︰精華區</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+<A Name="top"></a>
+發信人:&nbsp;peacock&nbsp;(孔雀明王),&nbsp;信區:&nbsp;Mud_Builder&nbsp;<BR>
+標&nbsp;&nbsp;題:&nbsp;Re:&nbsp;問題請教&nbsp;<BR>
+發信站:&nbsp;BBS&nbsp;水木清華站&nbsp;(Fri&nbsp;Jan&nbsp;30&nbsp;14:21:34&nbsp;1998)&nbsp;<BR>
+&nbsp;<BR>
+這位老哥大概還不會犯這種低級錯吧。&nbsp;<BR>
+我要提醒一下的是mapping的index只不能是int型。*_^&nbsp;<BR>
+這是許多初學者常出的問題了。&nbsp;<BR>
+mapping的index可以是string，可以是object，甚至可以是mapping和數組,&nbsp;<BR>
+但就是不能是int。&nbsp;<BR>
+呵呵，是不是這個錯呀？&nbsp;<BR>
+【&nbsp;在&nbsp;Ranma&nbsp;(亂馬~~想和你去吹吹風)&nbsp;的大作中提到:&nbsp;】&nbsp;<BR>
+︰<I>&nbsp;做數組index的好像只能是int,你看看你數組index的變量是什麼吧&nbsp;</I><BR>
+︰<I>&nbsp;【&nbsp;在&nbsp;Soo&nbsp;(天都之子)&nbsp;的大作中提到:&nbsp;】&nbsp;</I><BR>
+︰<I>&nbsp;:&nbsp;indexing&nbsp;on&nbsp;illegal&nbsp;type&nbsp;是指什麼?出錯的程序是一個nppc的.h&nbsp;file.&nbsp;</I><BR>
+&nbsp;<BR>
+祝大家春節愉快&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+※&nbsp;來源:‧BBS&nbsp;水木清華站&nbsp;bbs.net.tsinghua.edu.cn‧[FROM:&nbsp;166.111.8.123]&nbsp;<BR>
+發信人:&nbsp;peacock&nbsp;(孔雀明王),&nbsp;信區:&nbsp;Mud_Builder&nbsp;<BR>
+標&nbsp;&nbsp;題:&nbsp;Re:&nbsp;問題請教&nbsp;<BR>
+發信站:&nbsp;BBS&nbsp;水木清華站&nbsp;(Sat&nbsp;Jan&nbsp;31&nbsp;19:17:13&nbsp;1998)&nbsp;<BR>
+&nbsp;<BR>
+【&nbsp;在&nbsp;Soo&nbsp;(天都之子)&nbsp;的大作中提到:&nbsp;】&nbsp;<BR>
+︰<I>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;environment(ob)&nbsp;!=&nbsp;environment(me)&nbsp;)&nbsp;return;&nbsp;</I><BR>
+︰<I>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;ob-&gt;query(&quot;party&quot;)[&quot;party_name&quot;]&nbsp;==&nbsp;HIG&nbsp;&quot;明教&quot;&nbsp;NOR&nbsp;)&nbsp;</I><BR>
+問題就在這行。&nbsp;<BR>
+你不能肯定ob的dbase裡有沒有party這項吧？&nbsp;<BR>
+想想看，如果是一個新人會怎麼樣？ob-&gt;query(&quot;party&quot;)&nbsp;返回&nbsp;0，&nbsp;<BR>
+&nbsp;0[&quot;party_name&quot;]當然illegal&nbsp;index啦。&nbsp;<BR>
+你可以定義一個&nbsp;mapping&nbsp;party&nbsp;=&nbsp;ob-&gt;query(&quot;party&quot;);&nbsp;<BR>
+再在前面加上一行&nbsp;if&nbsp;(&nbsp;!mappingp(&nbsp;party&nbsp;)&nbsp;)&nbsp;return;&nbsp;<BR>
+那就OK了。&nbsp;<BR>
+&nbsp;<BR>
+提醒一點，mapping(array)在未定義的時候都是0，這時它們還不是mapping(array)。&nbsp;<BR>
+0&nbsp;!=&nbsp;([])&nbsp;同樣的&nbsp;0&nbsp;!=&nbsp;({})。&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+※&nbsp;修改:‧peacock&nbsp;於&nbsp;Jan&nbsp;31&nbsp;19:17:38&nbsp;修改本文‧[FROM:&nbsp;&nbsp;&nbsp;166.111.8.130]&nbsp;<BR>
+※&nbsp;來源:‧BBS&nbsp;水木清華站&nbsp;bbs.net.tsinghua.edu.cn‧[FROM:&nbsp;166.111.8.130]&nbsp;<BR>
+<A HREF="00000015.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一頁</A>
+<A HREF="index.htm">回到目錄</A>
+<A HREF="#top">回到頁首</A>
+<A HREF="00000017.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+</BODY></HTML>

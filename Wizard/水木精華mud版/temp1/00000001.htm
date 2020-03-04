@@ -1,0 +1,59 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清華站︰精華區</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+<A Name="top"></a>
+發信人:&nbsp;yeung&nbsp;(流星雨),&nbsp;信區:&nbsp;Mud_Builder&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+標&nbsp;&nbsp;題:&nbsp;$l的來源&nbsp;<BR>
+發信站:&nbsp;BBS&nbsp;水木清華站&nbsp;(Wed&nbsp;Jul&nbsp;21&nbsp;20:46:59&nbsp;1999)&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+一般用來代表部位:&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+在顯示的時候常常是這樣的:&nbsp;<BR>
+object&nbsp;*limbs,limb;&nbsp;<BR>
+&nbsp;<BR>
+limbs&nbsp;=&nbsp;victim-&gt;query(&quot;limbs&quot;);&nbsp;<BR>
+limb&nbsp;=&nbsp;limbs[random(sizeof(limbs))];&nbsp;<BR>
+&nbsp;<BR>
+result&nbsp;=&nbsp;replace_string(&nbsp;result,&nbsp;&quot;$l&quot;,&nbsp;limb&nbsp;);&nbsp;<BR>
+&nbsp;<BR>
+而部位在哪裡定義的呢?看看這裡&nbsp;<BR>
+&nbsp;<BR>
+比如人類&nbsp;human.c&nbsp;<BR>
+&nbsp;<BR>
+void&nbsp;create()&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;seteuid(getuid());&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;set(&quot;unit&quot;,&nbsp;&quot;位&quot;);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;set(&quot;gender&quot;,&nbsp;&quot;男性&quot;);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;set(&quot;can_speak&quot;,&nbsp;1);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;set(&quot;attitude&quot;,&nbsp;&quot;peaceful&quot;);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;set(&quot;limbs&quot;,&nbsp;({&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;頭部&quot;,&nbsp;&quot;頸部&quot;,&nbsp;&quot;胸口&quot;,&nbsp;&quot;後心&quot;,&nbsp;&quot;左肩&quot;,&nbsp;&quot;右肩&quot;,&nbsp;&quot;左臂&quot;,&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;右臂&quot;,&nbsp;&quot;左手&quot;,&nbsp;&quot;右手&quot;,&nbsp;&quot;腰間&quot;,&nbsp;&quot;小腹&quot;,&nbsp;&quot;左腿&quot;,&nbsp;&quot;右腿&quot;,&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;左腳&quot;,&nbsp;&quot;右腳&quot;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;})&nbsp;);&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+這下就明白了吧.&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+夢後樓台高鎖，酒醒簾幕低垂&nbsp;<BR>
+去年春恨卻來時，落花人獨立，微雨燕雙飛&nbsp;<BR>
+&nbsp;<BR>
+記得小蘋初見，兩重心字羅衣&nbsp;<BR>
+琵琶弦上說相思，當時明月在，曾照彩雲歸&nbsp;<BR>
+&nbsp;<BR>
+※&nbsp;來源:‧BBS&nbsp;水木清華站&nbsp;bbs.net.tsinghua.edu.cn‧[FROM:&nbsp;162.105.138.49]&nbsp;<BR>
+<A HREF="00000000.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一頁</A>
+<A HREF="index.htm">回到目錄</A>
+<A HREF="#top">回到頁首</A>
+<A HREF="00000002.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+</BODY></HTML>

@@ -1,0 +1,6 @@
+#/obj/user.c
+conditions ([])
+dbase (["dex":2,"int":2,"startroom":"/open/world1/tmr/area/hotel","con":2,"heart_modify":0,"last_location":"/open/world1/tmr/area/wbridge","str":2,"newbie":1,"addition_damage":10,"mud_age":655,"talk_point":8,"max_hp":80,"DS_DATA_VERSION":19991107,"cure_count":2,"actions":,"attitude":"peaceful","guild_gifts":({5,5,5,5,}),"gender":"男性","wound":(["body":0,"head":0,"left_arm":0,"right_arm":0,"left_leg":0,"right_leg":0,]),"name":"代表你","volume":7,"evil":2,"max_mp":60,"combat_exp":2,"id":"abde","MKS":7,"default_actions":,"unit":"位","mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog","/open/world1/tmr/area/npc/dog","/open/world1/tmr/area/npc/frog","/open/world1/tmr/area/npc/frog","/open/world1/tmr/area/npc/frog","/open/world1/tmr/area/npc/frog",}),"addition_shield":10,"channels":({"chat","rumor","tchat",}),"race":"human","mp":60,"Merits":(["tec":0,"sou":0,"wit":0,"bio":0,"bar":0,]),"level":1,"addition_armor":10,"hp":80,"heart_beat_rate":6,"birthday":1130089700,"ap":60,"max_ap":60,"age":14,"supply_point":60,"exp":1824,])
+skills (["combat":4,"dodge":1,"unarmed":3,])
+learned (["combat":28,"dodge":5,"unarmed":21,])
+autoload ({})

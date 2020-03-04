@@ -1,0 +1,8 @@
+#/obj/user.c
+dbase (["default_actions":,"heart_beat_rate":6,"DS_DATA_VERSION":19991107,"addition_shield":10,"actions":,"addition_damage":10,"mp":54,"guild_gifts":({5,5,5,5,}),"addition_armor":10,"channels":({"chat","rumor","tchat",}),"unit":"位","max_ap":66,"newbie":1,"exp":630,"dex":2,"heart_modify":0,"cure_count":3,"int":2,"con":2,"combat_exp":0,"level":1,"last_location":"/open/world1/tmr/ghost-forest/forest6","supply_point":46,"birthday":1223720613,"bellicosity":0,"ap":66,"talk_point":8,"evil":-1,"attitude":"peaceful","age":14,"disable_type":" <毫無呼吸>","max_mp":54,"max_hp":120,"race":"ogre","Merits":(["sou":0,"bio":0,"wit":0,"bar":0,"tec":0,]),"id":"boneyards","mud_age":386,"startroom":"/open/world1/tmr/area/hotel","hp":120,"gender":"女性","volume":7,"str":2,"name":"聯名牌",])
+skills (["unarmed":1,"combat":2,"dodge":0,])
+learned (["unarmed":0,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

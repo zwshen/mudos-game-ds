@@ -1,0 +1,9 @@
+#/obj/user.c
+ghost 1
+dbase (["mp":1,"DS_DATA_VERSION":19991107,"cure_count":14,"Merits":(["bar":0,"bio":0,"tec":0,"sou":0,"wit":0,]),"ap":70,"combat_exp":2,"attitude":"peaceful","popularity":0,"MKS":20,"talk_point":8,"supply_point":61,"bellicosity":0,"channels":({"chat","rumor","tchat",}),"newbie":1,"exp":1311,"dex":2,"int":2,"max_ap":70,"con":2,"volume":7,"war_art":0,"level":1,"birthday":1245223593,"unit":"¦ì","heart_beat_rate":6,"max_hp":90,"default_actions":,"age":14,"evil":15,"addition_shield":10,"actions":,"addition_armor":10,"nickname":"[1;33m¶Àª÷¤â«ü§Ö¨Ó³­§Ú[0m","mud_age":4784,"hp":1,"race":"titan","wound":(["right_arm":0,"body":0,"left_leg":0,"right_leg":0,"left_arm":0,"head":0,]),"disable_type":" <²@µL©I§l>","last_location":"/open/world2/anfernee/start/prayroom","bank":(["past":22,]),"addition_damage":10,"mob_record":({"/open/world1/tmr/area/npc/dog","/open/world1/tmr/area/npc/too","/open/world1/tmr/area/npc/uo","/open/world1/cominging/area/npc/child1","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/smith","/open/world1/tmr/area/npc/dog","/open/world1/tmr/area/npc/traveler","/open/world1/tmr/area/npc/traveler","/open/world1/tmr/area/npc/seller","/open/world1/tmr/area/npc/dog","/open/world1/cominging/area/npc/dog","/open/world1/cominging/area/npc/child","/open/world1/cominging/area/npc/sparrow","/open/world1/tmr/area/npc/smith","/open/world1/tmr/area/npc/shan",}),"war_score":24,"id":"sexydoll","heart_modify":1,"help":"world/","startroom":"/open/world1/tmr/area/hotel","guild_gifts":({5,5,5,5,}),"gender":"¤k©Ê","max_mp":60,"str":5,"name":"¶º®q·R",])
+skills (["dodge":3,"strong-body":4,"sword":3,"parry":0,"unarmed":5,"combat":8,])
+learned (["dodge":6,"parry":2,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

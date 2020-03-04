@@ -1,0 +1,9 @@
+¥Ø¿ý¡R/open/world1/tmr/frost/npc/eq/
+bigloves.c          ²¦®aÅ@¤â            frostarmor.c        ´Hº«¾ÔñZ          
+frostboots.c        ´Hº«ªø¹u            frostcloth.c        ´Hº«§ô¨­          
+frosthands.c        ´Hº«Å@¤â            frosthead.c         ´Hº«ÀY¤y          
+frostlegging.c      ´Hº«Å@»L            frostmask.c         ´Hº«ÅK­±          
+frostneck.c         ´Hº«Å@¨­²Å          green-pants.c       «C¦âªø¿Ç          
+mist-jade.c         ¾]¦ö²Å              shoe.c              ¯ó¾c              
+thousandbone-shield.c  ¤d°©¬Þ              tian-demon_cloak.c  ¤Ñ§¯¤æ½´          
+tian-demon_cloak2.c  ¤Ñ§¯¤æ½´            

@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions ([])
+dbase (["default_actions":,"heart_beat_rate":6,"DS_DATA_VERSION":19991107,"addition_shield":10,"actions":,"help":"setup/","addition_damage":10,"mp":110,"board_last_read":(["tmr_hotel_b":1150134537,]),"guild_gifts":({5,5,5,5,}),"addition_armor":10,"mob_record":({"/open/world1/acme/bonze/npc/dog",}),"channels":({"chat","rumor","tchat",}),"unit":"位","max_ap":60,"newbie":1,"exp":976,"dex":2,"cure_count":15,"int":2,"heart_modify":0,"con":2,"last_location":"/open/world1/tmr/ghost-forest/forest12","level":1,"supply_point":60,"birthday":1222348587,"ap":60,"talk_point":8,"evil":-1,"attitude":"peaceful","war_score":1,"age":14,"max_mp":110,"max_hp":80,"race":"celestial","bank":(["past":1,]),"Merits":(["sou":0,"bio":0,"wit":0,"bar":0,"tec":0,]),"MKS":1,"id":"jef","mud_age":1434,"startroom":"/open/world1/tmr/area/hotel","wound":(["body":0,"left_arm":0,"right_arm":0,"left_leg":0,"head":0,"right_leg":0,]),"hp":36,"gender":"男性","volume":7,"str":2,"name":"小豪",])
+skills (["parry":1,"combat":3,"unarmed":3,"dodge":1,])
+learned (["parry":1,"combat":32,"unarmed":1,"dodge":6,])
+items ({})
+autoload ({"/obj/money/coin:150",})
+toDoList ([])
+solved ({})

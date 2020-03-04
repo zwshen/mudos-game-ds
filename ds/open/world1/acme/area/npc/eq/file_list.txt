@@ -1,0 +1,10 @@
+¥Ø¿ý¡R/open/world1/acme/area/npc/eq/
+armor.c             ©þÝr¾Ô¥Ò            b_boots.c           ¹¬¾c              
+b_cloth.c           ³P¸Æ                boots.c             ©þÝrªø¹u          
+boots1.c            ¥¬¾c                boots2.c            ¤ì¾c              
+cloth.c             ¥¬¦ç                cloth2.c            ¦ÐÁlÂÅ­m          
+cloth3.c            ¯»¬õ¯À¦ç            hat.c               ©þÝrÀY²¯          
+hat2.c              ¦Ï¥Ö´U              neck.c              ¦ò¯]              
+ring.c              ©þÝr§Ù«ü            surcoat.c           ¯«ªZ©Ü­·          
+waist.c             ¬õÀA¸y±a            wrists.c            ¯«ªZÅ@µÃ          
+

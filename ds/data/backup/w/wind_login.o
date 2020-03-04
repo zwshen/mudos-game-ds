@@ -1,0 +1,2 @@
+#/obj/login.c
+dbase (["body":"/obj/user","name":"瑋","password":"RDFhOPQfGAthc","error_login":({"於[Thu Sep 15 21:00:51 2005]嘗試由[220-143-164-93.dynamic.hinet.net]連線進入失敗。","於[Sun Oct  2 06:15:16 2005]嘗試由[218-164-101-195.dynamic.hinet.net]連線進入失敗。","於[Mon Feb 27 23:42:39 2006]嘗試由[220-143-161-157.dynamic.hinet.net]連線進入失敗。","於[Sat Mar 25 03:57:14 2006]嘗試由[218-164-104-217.dynamic.hinet.net]連線進入失敗。","於[Mon Oct  9 00:35:14 2006]嘗試由[218.164.114.208]連線進入失敗。",}),"email":" ","race":"human","id":"wind",])

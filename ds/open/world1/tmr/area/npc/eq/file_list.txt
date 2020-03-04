@@ -1,0 +1,7 @@
+¥Ø¿ý¡R/open/world1/tmr/area/npc/eq/
+armor.c             ²¯¥Ò                boots.c             ¥Ö¹u              
+cloth.c             ¥¬¦ç                dab-aqua-armor.c    ÂI²G­IÅì          
+dab-aqua-armor2.c   ÂI²G­IÅì            furrier.c           ¥Ö¦ç              
+heart_cloth.c       Æ[·N»n              jade.c              ¥É¨Ø              
+ring.c              ¬h§Ù                suncap.c            ¾B¶§´U            
+white_cloth.c       ¥Õ¦â¥¬¦ç            

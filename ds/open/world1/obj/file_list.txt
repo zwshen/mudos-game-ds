@@ -1,0 +1,13 @@
+¥Ø¿ý¡R/open/world1/obj/
+bear_bolt.c         ºµ¤§ÁuÅs            black_pearl.c       ¶Â¬Ã¯]            
+blood_horse.c       «n®ü¨ª°¨            bolt.c              ©¸½b              
+carp_meat.c         ÃU³½¦×              clam_shell.c        ¥¨°F´ß            
+corpse.c            ¸H«Í                east_mark.c         ªF°Æ®vªº©x¦L      
+eel_meat.c          ÅÁ³½¦×              fish_meat.c         ³½¦×              
+game_card.c         °ÑÁÉÃÒ              gold_tackle.c       ª÷µ·º®ºô          
+light_cloth.c       ¬ÂÄn³½¥Ö            manto.c             ÄCÀY              
+mark.c              À²°O                paper.c             Ã±¥X±ø            
+pearl.c             ¬Ã¯]                shark_bone.c        ÃT°©              
+ts_bag.c            ¦ÊÄ_³U              tunny_meat.c        ÂC³½¦×            
+wang_mark.c         ¤ýÅQªº©x¦L          west_mark.c         ¦è°Æ®vªº©x¦L      
+wood_arrow.c        ¤ì½b                

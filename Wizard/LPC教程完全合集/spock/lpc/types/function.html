@@ -1,0 +1,193 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=bg2312">
+   <META NAME="Author" CONTENT="Spock">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.01 [en] (Win95; I) [Netscape]">
+   <TITLE>MudOS v21c2 把σゅン - lpc - types - function</TITLE>
+</HEAD>
+<BODY TEXT="#CCFFFF" BGCOLOR="#000000" LINK="#33FF33" VLINK="#FF0000" ALINK="#33CCFF" BACKGROUND="../../../image/ff/fftitleback.jpg" NOSAVE>
+
+<CENTER>
+<H1>
+<FONT COLOR="#FF99FF">function</FONT></H1></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+<CENTER><FONT COLOR="#FFFFCC">阀├ :</FONT></CENTER>
+
+<HR WIDTH="100%">
+
+<P>MudOS Τ贺嘿 function (ㄧ计皐) 跑秖摸. 硂贺摸跑秖ノㄓ贺ぃㄧ计.
+眤砛Ν剪眡рㄧ计讽琘ㄇ场ㄧ计 (efuns) 把计. 羭ㄒㄓ弧, 钩琌筁耾计舱场ㄧ计.
+ウ弄计舱, 竒パㄧ计筁耾计舱いじ. 琵ㄧ计獶箂 (non-zero)
+じ碞玂痙ㄓ, 挡狦穝计舱. 肚参, 硂妓暗璶肚ン㎝ㄧ计嘿.
+瞷, ノㄧ计皐硂贺跑秖摸暗. ㄧ计皐Τㄧ计獺, 祔磅︽ㄤㄧ计.
+
+<P>ㄧ计皐承硑﹚跑秖:
+<UL><FONT COLOR="#FFCC99">function f = (: local_func :);</FONT></UL>
+ f ノㄤ祘瑈祘┪场ㄧ计い, 炊硄跑秖:
+<UL><FONT COLOR="#99FF99">foo(f); map_array( ({ 1, 2 }), f);</FONT></UL>
+┪琌祔磅︽ f:
+<UL><FONT COLOR="#99FF99">x = evaluate(f, "hi");</FONT></UL>
+︽磅︽, 穦秸ノ f ㄧ计, τ "hi" 讽Θ把计肚ㄧ计. ㄤ狦:
+<UL><FONT COLOR="#99FF99">x = local_func("hi");</FONT></UL>
+ㄏノㄧ计皐矪琌, 狦眤稱ㄏノぃㄧ计, 惠璶э跑ㄧ计皐跑秖.
+
+<P>猔種 evaluate() 把计狦ぃ琌ㄧ计, 碞穦把计. ┮眤暗
+<BR>ㄆ:
+<UL><FONT COLOR="#99FF99">void set_short(mixed x) { short = x; }</FONT>
+<BR><FONT COLOR="#99FF99">mixed query_short() { return evaluate(short);
+}</FONT></UL>
+硂妓, 虏虫ンノ set_short("Whatever"); 笷Θ
+<BR>set_short( (: short_func :) ); 狦.
+
+<P>
+<HR WIDTH="100%">
+<CENTER><FONT COLOR="#FFFFCC">ヘ玡ㄧ计皐贺摸 :</FONT></CENTER>
+
+<HR WIDTH="100%">
+
+<P>程虏虫ㄧ计皐┮瓃. 琌虏虫ンいЫ场ㄧ计
+(local function),  (: function_name :). ㄧ计皐珹ㄧ计把计,
+ㄒ:
+<UL><FONT COLOR="#99FF99">string foo( string a, string b ) {</FONT>
+<UL><FONT COLOR="#99FF99">return "(" + a "," + b + ")";</FONT></UL>
+<FONT COLOR="#99FF99">}</FONT></UL>
+
+<UL><FONT COLOR="#99FF99">void create() {</FONT>
+<UL><FONT COLOR="#99FF99">function f = (: foo, "left" :);</FONT>
+<BR><FONT COLOR="#99FF99">printf( "%s %s\n", evaluate(f), evaluate(f, "right")
+);</FONT></UL>
+<FONT COLOR="#99FF99">}</FONT></UL>
+穦:<FONT COLOR="#FFCCFF"> (left,0) (left,right)</FONT>
+
+<P>
+<HR WIDTH="100%">
+
+<P>材贺ㄧ计皐琌场ㄧ计皐, 碞琌 (: efun_name :). 硂妓籔Ы场ㄧ计皐摸.
+拇弧, objects() 场ㄧ计璶肚ㄧ计, ヴㄏㄧ计痷ン. ┮:
+<UL><FONT COLOR="#FFCC99">objects( (: clonep :) )</FONT></UL>
+穦笴栏い┮Τ確ン (clones). 眤ㄏノ把计:
+<BR>
+<UL><FONT COLOR="#99FF99">void create() {</FONT>
+<UL><FONT COLOR="#99FF99">int i;</FONT>
+<BR><FONT COLOR="#99FF99">function f = (: write, "Hello, world!\n" :);</FONT>
+
+<P><FONT COLOR="#99FF99">for (i=0; i&lt;3; i++) { evaluate(f); }</FONT></UL>
+<FONT COLOR="#99FF99">}</FONT></UL>
+碞穦:
+
+<P><FONT COLOR="#FFCCFF">Hello, world!</FONT>
+<BR><FONT COLOR="#FFCCFF">Hello, world!</FONT>
+<BR><FONT COLOR="#FFCCFF">Hello, world!</FONT>
+
+<P>猔種, 癸ㄧ计皐ㄓ弧, simul_efuns (家览场ㄧ计) 籔场ㄧ计琌.
+
+<P>
+<HR WIDTH="100%">
+
+<P>材贺Α琌 call_other ㄧ计皐, 籔玡 MudOS ┮ㄏノㄧ计皐摸摸.
+ㄤΑ (: object, function :). 璶ㄏノ把计杠, 莱盢ㄧ计嘿籔把计计舱ノ.
+琌絛ㄒ:
+<BR>
+<UL><FONT COLOR="#99FF99">void create()</FONT>
+<BR><FONT COLOR="#99FF99">{</FONT>
+<UL><FONT COLOR="#99FF99">string *ret;</FONT>
+<BR><FONT COLOR="#99FF99">function f = (: this_player(), "query" :);</FONT>
+
+<P><FONT COLOR="#99FF99">ret = map( ({ "name", "short", "long" }), f );</FONT>
+<BR><FONT COLOR="#99FF99">write(implode(ret, "\n"));</FONT></UL>
+<FONT COLOR="#99FF99">}</FONT></UL>
+硂妓穦籔 <FONT COLOR="#99FF99">this_player()->query("name"), this_player()->query("short"),</FONT>
+<BR><FONT COLOR="#99FF99">㎝ this_player()->query("long")</FONT> 挡狦.
+
+<P>璶ㄏㄧ计皐钡秸ノ query("short") :
+<UL><FONT COLOR="#99FF99">f = (: this_player(), ({ "query", "short" })
+:)</FONT></UL>
+琌笷妓ヘ暗猭把σ:
+<UL><FONT COLOR="#99FF99">f = (: call_other, this_player(), "query", "short"
+:) </FONT>/* 场ㄧ计皐, ㄏノ call_other */
+<BR><FONT COLOR="#99FF99">f = (: this_player()->query("short") :)
+</FONT>// Τ笲衡Α; 叫ǎゅ.</UL>
+
+<HR WIDTH="100%">
+
+<P>材贺Α琌笲衡Α (expression) ㄧ计皐. 碞琌 (: 笲衡Α :). 笲衡Αㄧ计皐い,
+把计ノ $1, $2, $3 ... , 羭ㄒ:
+<UL><FONT COLOR="#99FF99">evaluate( (: $1 + $2 :), 3, 4)
+</FONT>//  7.</UL>
+硂ノ sort_array, 絛ㄒ:
+<UL><FONT COLOR="#99FF99">top_ten = sort_array( player_list,</FONT></UL>
+
+<UL>
+<UL><FONT COLOR="#99FF99">(: $2->query_level() - $1->query_level :) )[0..9];</FONT></UL>
+</UL>
+
+<HR WIDTH="100%">
+<BR>材き贺Α琌ぃ (anonymous) ㄧ计:
+<BR>
+<UL><FONT COLOR="#99FF99">void create() {</FONT>
+<UL><FONT COLOR="#99FF99">function f = function(int x) {</FONT>
+<UL><FONT COLOR="#99FF99">int y;</FONT>
+
+<P><FONT COLOR="#99FF99">switch(x) {</FONT>
+<UL><FONT COLOR="#99FF99">case 1: y = 3;</FONT>
+<BR><FONT COLOR="#99FF99">case 2: y = 5;</FONT></UL>
+<FONT COLOR="#99FF99">}</FONT>
+<BR><FONT COLOR="#99FF99">return y - 2;</FONT></UL>
+<FONT COLOR="#99FF99"> };</FONT>
+
+<P><FONT COLOR="#99FF99">printf("%i %i %i\n", (*f)(1), (*f)(2), (*f)(3));</FONT></UL>
+<FONT COLOR="#99FF99">}</FONT></UL>
+穦: <FONT COLOR="#FFCCCC">1 3 -2</FONT>
+
+<P>猔種, (*f)(...) 单 evaluate(f, ...) , 玂痙硂贺粂猭琌籔侣甧.
+ヴ炊硄ㄧ计猭 (legal) 糶猭, 常ノぃㄧ计.
+
+<P>
+<HR WIDTH="100%">
+<CENTER><FONT COLOR="#FFFFCC">ぐ或磅︽ (evaluate) ㄧ计 ?</FONT></CENTER>
+
+<HR WIDTH="100%">
+
+<P>承硑盿Τ把计场ㄧ计Ы场ㄧ计家览场ㄧ计皐, 穦磅︽ㄧ计. τ笲衡Α㎝┦
+(functional) ㄧ计皐, Τㄏノㄧ计皐磅︽ㄧ计:
+<UL><FONT COLOR="#99FF99">(: destruct, this_player() :) </FONT>/*
+承硑硂ㄧ计皐, 碞穦篟反 this_player(). ㄧ计承硑磅︽. */
+<BR><FONT COLOR="#99FF99">(: destruct(this_player()) :) </FONT>/*
+祔ㄏノㄧ计皐, 穦篟反 this_player()" */</UL>
+, ぃ笲衡Αㄧ计皐柑, ㄏノЫ场跑秖. 磅︽硂ㄧ计皐ぇ,
+硂Ы场跑秖碞ぃ. 琌ノ硂よ猭秆∕:
+<UL><FONT COLOR="#99FF99">(: destruct( $(this_player) ) :)
+</FONT>// 籔材絛ㄒ.</UL>
+$(whatever) ボ璶磅︽ whatever, 玂痙ㄤ. 讽磅︽ㄧ计, 肚硂.
+硂妓ㄓΤ瞯:
+<UL><FONT COLOR="#99FF99">map_array(listeners,</FONT>
+<UL><FONT COLOR="#99FF99">(: tell_object($1, $(this_player()->query_name())
++ " bows.\n") :) );</FONT></UL>
+</UL>
+暗Ω call_other , τぃ惠璶–常暗. ㄆㄖ才﹃:
+<UL><FONT COLOR="#99FF99">map_array(listeners,</FONT>
+<UL><FONT COLOR="#99FF99">(: tell_object($1, $(this_player()->query_name()
++ " bows.\n")) :) );</FONT></UL>
+</UL>
+猔種, 硂薄, 硂妓暗:
+<UL><FONT COLOR="#99FF99">map_array(listeners,</FONT>
+<UL><FONT COLOR="#99FF99">(: tell_object, this_player()->query_name() +
+" bows.\n" :) );</FONT></UL>
+</UL>
+
+<CENTER>
+<HR WIDTH="100%"><FONT COLOR="#FFFFCC">陆亩: Spock @ FF 97.Aug.10.</FONT></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+<CENTER><A HREF="../types.html"></A></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+</BODY>
+</HTML>

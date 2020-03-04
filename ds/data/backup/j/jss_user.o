@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["addition_shield":10,"evil":-1,"startroom":"/open/world1/tmr/area/hotel","exp":777,"cure_count":4,"dex":2,"newbie":1,"int":2,"addition_armor":10,"con":2,"str":2,"hp":80,"max_hp":80,"age":14,"DS_DATA_VERSION":19991107,"guild_gifts":({5,5,5,5,}),"ap":60,"max_ap":60,"last_location":"/obj/void","actions":,"addition_damage":10,"max_mp":60,"default_actions":,"mud_age":71,"gender":"男性","id":"jss","supply_point":8,"name":"悠閒一號","channels":({"chat","rumor","tchat",}),"cwd":"/u/j/jss/","unit":"位","level":1,"race":"human","birthday":1062866155,"mp":60,"Merits":(["wit":0,"bar":0,"bio":0,"tec":0,"sou":0,]),"attitude":"peaceful","talk_point":4,"volume":7,"heart_beat_rate":6,])
+autoload ({})

@@ -1,0 +1,8 @@
+#/obj/user.c
+conditions ([])
+dbase (["heart_modify":0,"bank":(["past":0,]),"supply_point":60,"actions":,"DS_DATA_VERSION":19991107,"race":"celestial","age":14,"heart_beat_rate":6,"max_mp":110,"default_actions":,"max_hp":80,"channels":({"chat","rumor","tchat",}),"addition_shield":10,"birthday":1201614391,"id":"panyu","mp":110,"talk_point":7,"volume":7,"guild_gifts":({5,5,5,5,}),"newbie":1,"exp":777,"unit":"位","dex":2,"wound":(["body":0,"right_arm":0,"right_leg":0,"head":0,"left_leg":0,"left_arm":0,]),"Merits":(["bio":0,"tec":0,"sou":0,"wit":0,"bar":0,]),"gender":"女性","int":2,"addition_armor":10,"attitude":"peaceful","name":"無聊人物","con":2,"hp":80,"str":2,"level":1,"board_last_read":(["tmr_hotel_b":1149967516,]),"cure_count":8,"max_ap":60,"evil":-1,"last_location":"/open/world1/tmr/ghost-forest/forest13","ap":60,"mud_age":710,"startroom":"/open/world1/tmr/area/hotel","addition_damage":10,])
+skills (["dodge":1,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

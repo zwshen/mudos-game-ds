@@ -1,0 +1,8 @@
+#/obj/user.c
+conditions (["ill_fashao":34,])
+dbase (["war_score":2,"volume":7,"evil":-1,"gender":"¨k©Ê","heart_modify":0,"last_location":"/open/world1/tmr/area/street3","actions":,"name":"²¢²¢°é","channels":({"chat","rumor","tchat",}),"age":14,"addition_damage":10,"birthday":1174206602,"bank":(["past":0,]),"default_actions":,"race":"human","help":"newbie/newbie","max_mp":60,"startroom":"/open/world1/tmr/area/hotel","max_hp":80,"heart_beat_rate":6,"mp":60,"max_ap":60,"cure_count":19,"addition_shield":10,"ap":60,"attitude":"peaceful","mob_record":({"/open/world1/tmr/area/npc/dog",}),"mud_age":591,"newbie":1,"exp":986,"talk_point":8,"dex":2,"int":2,"id":"kuamo","supply_point":60,"hp":80,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"con":2,"str":2,"wound":(["head":0,"left_leg":0,"right_leg":0,"left_arm":0,"right_arm":0,"body":0,]),"addition_armor":10,"level":1,"MKS":1,"unit":"¦ì","DS_DATA_VERSION":19991107,"guild_gifts":({5,5,5,5,}),])
+skills (["strong-body":1,"combat":1,"unarmed":1,"block":1,"sword":1,"parry":1,"dodge":1,])
+learned (["strong-body":0,"combat":4,"unarmed":4,"dodge":1,])
+autoload ({})
+toDoList ([])
+solved ({})

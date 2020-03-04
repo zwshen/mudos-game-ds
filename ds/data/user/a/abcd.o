@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["addition_shield":10,"age":14,"heart_beat_rate":6,"addition_armor":10,"Merits":(["bar":0,"wit":0,"bio":0,"sou":0,"tec":0,]),"gender":"¤k©Ê","id":"abcd","name":"£t","addition_damage":10,"max_hp":80,"attitude":"peaceful","DS_DATA_VERSION":19991107,"volume":7,"max_mp":60,"hp":80,"guild_gifts":({5,5,5,5,}),"default_actions":,"mp":56,"talk_point":2,"exp":777,"dex":2,"int":2,"con":2,"evil":-1,"str":2,"mud_age":124,"channels":({"chat","rumor","tchat",}),"race":"human","max_ap":60,"level":1,"supply_point":16,"birthday":1123230102,"last_location":"/open/world1/tmr/area/hotel","startroom":"/open/world2/anfernee/start/login","unit":"¦ì","newbie":1,"ap":60,"cure_count":8,"actions":,])
+autoload ({})

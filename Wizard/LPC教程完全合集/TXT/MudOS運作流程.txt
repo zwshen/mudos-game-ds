@@ -1,0 +1,20 @@
+    今天我看了站上的一些文章，加上查看原程序，把mudos啟動後，程序
+運行的流程搞清楚了。小弟覺得只要有一個好的mudos，就可寫出新的mudlib
+框架。我拿用戶連接來解釋程序的運行流程。
+    在config.xxx文件中指出了master和global兩個文件，這是十分重要的
+文件。mudos啟動後會加載上述兩個文件（其它文件也有，但上述文件為主要
+）進入內存，mudos中定義了一些特殊的函數，例如create()、init()等等，
+這些函數都是在特定事件中由mudos自動調用的。當用戶在port口請求連接的
+時候，mudos自動調用master.c中的connect()函數，然後connect()函數調用
+LOGIN_OB這個物件，而LOGIN_OB是個物件常量，在global.h中定義LOGIN_OB
+的值是"/clone/user/login.c"，也就是說connect()調用了login.c這個物件
+在login.c中有一些特殊函數，如果按照用戶正確登陸的流程，mudos自動調
+用login.c中logon()這個特殊函數。在logon()中由調用LOGIN_D這一物件常
+量，LOGIN_D在global.h文件中所定義的值是"/adm/daemons/logind"，於是
+mudos又把logind.c調入內存並運行。
+    我們一般認為mudos在編譯前在它的設置文件中定義了用戶login的程序
+路徑及文件名，編譯後路徑和文件名不可改，在用戶連入的時候，mudos根據
+路逕自動啟動用戶登陸程序。其實非也，mudos只是一個對mud進行低級支持
+的程序。
+    我們可以利用mudos，完全拋棄已有的mudlib框架，進行新的創作。這樣
+才能使中國的mud種類走向多樣化。

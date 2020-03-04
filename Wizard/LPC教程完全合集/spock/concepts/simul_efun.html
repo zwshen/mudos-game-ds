@@ -1,0 +1,57 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=bg2312">
+   <META NAME="Author" CONTENT="Spock">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.01 [en] (Win95; I) [Netscape]">
+   <TITLE>MudOS v21c2 参考文件 - concepts - simul_efun</TITLE>
+</HEAD>
+<BODY TEXT="#CCFFFF" BGCOLOR="#000000" LINK="#33FF33" VLINK="#FF0000" ALINK="#33CCFF" BACKGROUND="../../image/ff/fftitleback.jpg" NOSAVE>
+
+<CENTER>
+<H1>
+<FONT COLOR="#FF99FF">模拟外部函数 (simul_efun)</FONT></H1></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+<CENTER><FONT COLOR="#FFFFCC">模拟外部函数 (simulated efunctions (simul_efuns)
+)</FONT></CENTER>
+
+<HR WIDTH="100%">
+
+<P>mudlib 可以撰写模拟的外部函数 (efunction). 所有模拟的外部函数必须定义在一个特殊的文件中
+(此文件的名称及目录位置定义在 config.example 中) (译按: config.example
+为一个示范文件, 是启动 driver 程序时必须读取的 mud 组态档. 手上有 ES 2
+mudlib 的人, 可以在 es2/adm/etc 目录中找到 config.ES2 这个文件. 有 MudOS
+v21c2 原始码的人, 在 MudOS_v21c2/src 目录中可以找到 config.example) .
+
+<P>编译一个物件时, 发现一个函数调用 (非 call_other 调用) 在物件中没有定义过,
+也不是一个外部函数时, 则驱动程序会寻找模拟外部函数的名单, 看看此函数调用是否为模拟外部函数.
+如果名单上有此函数, 则驱动程序就以 call_other 的方式调用此函数 (定义在模拟外部函数文件里面).
+请注意, call_other　 的返回结果不需要事先定型 (typecast), 因为编译器会自动设定其类型.
+
+<P>模拟外部函数有许多用途. 其中一个是修改外部函数的作用 (甚至取消其作用),
+却不需要修改驱动程序 (只需要把模拟外部函数取名为相同的外部函数即可). 假设您想修改
+move_object() 外部函数, 您可以定义一个同名的模拟外部函数. 这个也叫做 move_object()
+的模拟外部函数可以用来检查不同的条件限制, 然后再调用 efun::move_object().
+efun:: 这个前置词一定要加上去, 驱动程序才知道您想调用原来的 move_object()
+外部函数, 而不是重覆调用一次模拟的move_object(). (请注意, master.c 里的
+valid_override() 可以用来控制 efun:: 到底可以对哪一个模拟外部函数越权 (override).
+模拟外部函数也可以加上一些函数, 这些函数也许有许多物件需要调用它们, 却不适合放在一个继承物件的文件中.
+
+<P>所有在模拟外部函数文件中, 声明为静态 (static) 的函数, 不能从模拟外部函数文件以外去调用它.
+
+<P>
+<HR WIDTH="100%">
+<CENTER><FONT COLOR="#FFFFCC">翻译: Spock @ FF 97.Aug.9.</FONT></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+<CENTER><A HREF="../concepts_index.html">回到上一页</A></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+</BODY>
+</HTML>

@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["dex":2,"max_ap":60,"startroom":"/open/world1/tmr/area/hotel","int":2,"age":14,"id":"tetanus","con":2,"ap":60,"max_mp":60,"volume":7,"newbie":1,"str":2,"mp":60,"evil":-1,"guild_gifts":({5,5,5,5,}),"mud_age":0,"last_location":"/open/world1/tmr/area/school/school1","default_actions":,"channels":({"chat","rumor","tchat",}),"race":"human","DS_DATA_VERSION":19991107,"addition_damage":10,"Merits":(["bio":0,"wit":0,"sou":0,"tec":0,"bar":0,]),"level":1,"addition_shield":10,"hp":80,"max_hp":80,"unit":"¦ì","birthday":1127184476,"gender":"¤k©Ê","actions":,"addition_armor":10,"heart_beat_rate":6,"attitude":"peaceful","exp":777,"name":"¦×¬r±ìµß",])
+autoload ({})

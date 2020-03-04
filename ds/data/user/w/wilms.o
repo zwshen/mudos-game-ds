@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["hp":80,"age":14,"Merits":(["sou":0,"bar":0,"tec":0,"wit":0,"bio":0,]),"default_actions":,"exp":777,"dex":2,"DS_DATA_VERSION":19991107,"addition_shield":10,"int":2,"ap":60,"con":2,"str":2,"addition_armor":10,"guild_gifts":({5,5,5,5,}),"heart_beat_rate":6,"mp":60,"max_ap":60,"supply_point":16,"last_location":"/open/world1/wilfred/newbie/eq_bank","evil":-1,"gender":"¨k©Ê","id":"wilms","addition_damage":10,"channels":({"chat","rumor","tchat",}),"name":"¶³","race":"human","talk_point":8,"max_hp":80,"level":1,"birthday":1116136053,"cure_count":8,"actions":,"attitude":"peaceful","mud_age":119,"max_mp":60,"volume":7,"startroom":"/open/world1/tmr/area/hotel","unit":"¦ì","newbie":1,])
+autoload ({})

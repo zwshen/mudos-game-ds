@@ -1,0 +1,2 @@
+#/obj/login.c
+dbase (["password":"OwpKTKAI0r06g","name":"黑烏一號","error_login":({"於[Sun May 30 19:33:48 2004]嘗試由[61-231-195-240.dynamic.hinet.net]連線進入失敗。","於[Fri Sep 17 18:44:34 2004]嘗試由[61-231-208-80.dynamic.hinet.net]連線進入失敗。","於[Sun Nov 21 21:44:36 2004]嘗試由[61-231-203-158.dynamic.hinet.net]連線進入失敗。","於[Sun Nov 21 21:44:56 2004]嘗試由[61-231-203-158.dynamic.hinet.net]連線進入失敗。","於[Thu Sep 20 01:12:50 2007]嘗試由[125.224.76.81]連線進入失敗。",}),"race":"human","last_from":"222-156-192-244.dynamic.hiway.net.tw","level":10,"body":"/obj/user","id":"macs","email":"","last_on":1103388454,])

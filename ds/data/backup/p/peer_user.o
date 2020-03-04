@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["dex":2,"mp":60,"last_location":"/open/world1/tmr/area/hotel","heart_modify":0,"int":2,"con":2,"cwf":"/u/p/peer/workroom.c","str":2,"mud_age":9565,"addition_damage":10,"startroom":"/open/world1/tmr/area/hotel","max_hp":80,"wound":(["left_leg":0,"body":0,"head":0,"right_leg":0,"left_arm":0,"right_arm":0,]),"newbie":1,"attitude":"peaceful","actions":,"cure_count":13,"age":14,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"volume":7,"max_mp":60,"DS_DATA_VERSION":19991107,"ap":60,"default_actions":,"gender":"¤k©Ê","id":"peer","name":"","addition_shield":10,"guild_gifts":({5,5,5,5,}),"cwd":"/u/p/peer/","addition_armor":10,"heart_beat_rate":6,"board_last_read":(["tmr_hotel_b":1091700825,"peer_b":1091701206,]),"max_ap":60,"channels":({"chat","rumor","tchat","wiz",}),"supply_point":60,"evil":-1,"level":1,"race":"human","talk_point":8,"hp":80,"unit":"¦ì","exp":777,"birthday":1091696218,])
+autoload ({})

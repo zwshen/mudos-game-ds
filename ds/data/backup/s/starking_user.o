@@ -1,0 +1,6 @@
+#/obj/user.c
+conditions ([])
+dbase (["class2":"¯e­·ªù","family":(["title":"¼C¤h","privs":-1,"family_name":"¯e­·ªù¶i¶¥","generation":3,]),"channels":({"chat","rumor","tchat","god",}),"attitude":"peaceful","age":78,"actions":,"race":"human","level":50,"heart_modify":0,"max_mp":315,"birthday":1058705602,"max_ap":1155,"wound":(["right_leg":0,"left_arm":0,"left_leg":0,"body":0,"head":0,"right_arm":0,]),"last_location":"/open/world1/tmr/area/street4","mud_age":5550911,"startroom":"/open/world1/tmr/area/hotel","gender":"¨k©Ê","id":"starking","newbie":1,"talk_point":156,"name":"¹çªi","combat_exp":766754,"cure_count":0,"mp":89,"Merits":(["sou":2,"tec":3,"bio":5,"wit":2,"bar":5,]),"volume":7,"heart_beat_rate":6,"default_actions":,"addition_shield":10,"evil":0,"exp":322249588,"dex":85,"int":19,"addition_armor":10,"con":75,"str":80,"max_hp":1540,"hp":570,"env":([]),"bank":(["past":6886,]),"ap":552,"addition_damage":10,"unit":"¦ì","supply_point":905,"adv_class":2,"class1":"¯e­·ªù","MKS":1,"DS_DATA_VERSION":19991107,"mob_record":({"/open/world1/tmr/area/npc/too",}),"guild_rank":"[1;37mÁa¾î¤Ñ¤U¤@¥N¼C¤h[0m","popularity":11545,"title":"¯e­·ªù¶i¶¥²Ä¤T¥N¼C¤h","guild_gifts":({4,6,5,5,}),"is_me_can_pk":1,])
+skills (["combat":1,"fogseven":80,"force":63,])
+learned (["combat":0,])
+autoload ({"/obj/money/coin:985",})

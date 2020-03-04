@@ -1,0 +1,18 @@
+
+	dumpallobj(3)		MudOS v21c2		(5 Sep 1994)
+
+	嘿:
+		dumpallobj() - 厨┮Τ更ぇンㄇ参璸戈.
+	粂猭:
+		void dumpallobj( string | void );
+
+		礚肚 dumpallobj( ﹃ ┪ 礚把计 );
+	ノ猭:
+		硂ㄧ计穦┮Τ竒更ぇン. 狦⊿Τ﹚
+		把计, 硂ㄇ戈癟穦渡 /OBJ_DUMP  硂郎柑. 狦
+		Τ﹚把计, 玥把计碞琌﹚璶块郎嘿.
+	把σ:
+		mud_status(3), debug_info(3)
+
+	陆亩:	Spock @ FF	97.Feb.04.		(printed 3/16/95)
+

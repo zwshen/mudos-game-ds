@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["volume":7,"hp":90,"addition_damage":10,"cure_count":9,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"talk_point":8,"supply_point":18,"heart_beat_rate":6,"last_location":"/open/world1/tmr/area/street4","age":14,"newbie":1,"id":"prace","exp":777,"dex":2,"int":2,"unit":"位","mud_age":130,"con":2,"str":2,"level":1,"actions":,"default_actions":,"gender":"女性","DS_DATA_VERSION":19991107,"name":"無名","evil":-1,"max_mp":60,"channels":({"chat","rumor","tchat",}),"birthday":1168165836,"guild_gifts":({5,5,5,5,}),"max_hp":90,"race":"titan","startroom":"/open/world1/tmr/area/hotel","addition_shield":10,"mp":60,"attitude":"peaceful","addition_armor":10,"max_ap":70,"ap":70,])
+autoload ({})

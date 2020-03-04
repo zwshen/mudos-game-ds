@@ -1,0 +1,8 @@
+#/obj/user.c
+dbase (["heart_beat_rate":6,"attitude":"peaceful","DS_DATA_VERSION":19991107,"addition_shield":10,"ap":64,"mp":64,"volume":7,"talk_point":8,"addition_armor":10,"mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"channels":({"chat","rumor","tchat",}),"addition_damage":10,"newbie":1,"exp":1996,"wound":(["right_arm":0,"body":0,"right_leg":0,"left_leg":0,"left_arm":0,"head":0,]),"war_score":6,"dex":2,"int":2,"max_ap":64,"con":2,"bank":(["past":2,]),"max_mp":64,"level":1,"default_actions":,"birthday":1185102571,"MKS":12,"evil":29,"last_location":"/open/world1/tmr/area/inn_2f","cure_count":16,"max_hp":110,"combat_exp":1,"age":14,"supply_point":60,"mud_age":5055,"guild_gifts":({5,5,5,5,}),"hp":110,"race":"tiger","Merits":(["bio":0,"bar":0,"tec":0,"wit":0,"sou":0,]),"id":"wszaq","actions":,"startroom":"/open/world1/tmr/area/hotel","heart_modify":0,"help":"newbie/","gender":"男性","str":2,"unit":"位","name":"小肯",])
+skills (["dodge":3,"strong-body":2,"parry":1,"unarmed":3,"combat":5,])
+learned (["dodge":12,"strong-body":9,"parry":1,"unarmed":31,"combat":37,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

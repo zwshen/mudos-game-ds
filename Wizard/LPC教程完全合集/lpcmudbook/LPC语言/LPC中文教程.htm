@@ -1,0 +1,1008 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>新wiz学习</title>
+</head>
+
+<body background="Back047.gif" tppabs="http://playxkx.easthome.net/Back047.gif" bgproperties="fixed">
+
+<p><font face="楷体_GB2312">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="4"> 
+LPC中文教程</font></font> 
+</p> 
+ 
+<p>　 
+</p> 
+ 
+<p><font face="楷体_GB2312">第一章 Lpc程序和编程环境<br>   
+<br>   
+第一节 编程环境<br>   
+<br>   
+通常我们所见到的Mud大多是LpMud。LpMuds使用Unix的指令和文件<br>   
+结构。如果你对Unix有所了解，那么LpMud中的一些指令和它的文件<br>   
+结构与普通的Unix基本一样。如果你从未使用过Unix，那么它Dos不<br>   
+同的是在文件的路径用"/"，而不是Dos的"\".<br>   
+一个典型的LpMud的文件是这样的:<br>   
+/clone/player/player.c<br>   
+"/clone/player/"是路径，player.c是文件名。<br>   
+在多数的LpMud中，下面这些的基本的Unix指令是可以使用的：<br>   
+pwd, cd, ls, rm, mv, cp, mkdir, rmdir, more, tail, cat, ed<br>   
+如果从未使用过Unix，那么下面这张表也许是有用的。<br>   
+pwd: 显示当前目录<br>   
+cd: 改换你当前的工作目录，和Dos的cd一样。<br>   
+ls: 列出指定目录下的所有文件，如果没有指定任何目录，那就列<br>   
+出当前目录底下的文件。和Dos的dir一样。<br>   
+rm: 删除一个文件 和Dos的rmdir一样<br>   
+mv: 从命名一个文件 和Dos的move一样<br>   
+cp: 复制一个文件 和Dos的copy一样<br>   
+mkdir: 创建一个目录<br>   
+rmdir: 删除一个目录<br>   
+more: 按页显示一个文件在你的当前屏幕。<br>   
+cat: 显示整个文件。和Dos的type一样。<br>   
+tail: 现在一个文件的结尾几行。<br>   
+ed: 允许你使用Mud自带的编辑器，编辑一个文件。<br>   
+<br>   
+　<br>
+<br>
+第二节 Lpc程序<br>   
+<br>   
+2.1 Lpc程序。<br>   
+Lpc的程序看起来和一般的C区别不断大，语法基本一样，但是<br>   
+Lpc和一般的语言有着根本的不同，Lpc程序是编写一个一个的"Object"。<br>   
+这有什么区别呢？一般的程序是在执行过程中，通常有一个明显的<br>   
+开始和和结束。程序从一个地方开始，然后顺序执行下去，到了结<br>   
+束的地方就中断了。Lpc的Object不是这样的。<br>   
+所谓的不同的Mud，实际上是一些不同的Lpc的Object在一个Driver<br>   
+的上的各种不同的表现。也就说，Lpc的Object是运行在一个Driver<br>   
+上的。这些Object组成了LpMud的丰富多彩的世界。Driver几乎不参<br>   
+与创建你所接触到的世界，它所完成的工作只是让那些Lpc的Object<br>   
+活动起来。Lpc的Object可能没有明显的开始和结束的标志，它可能<br>   
+永远在工作。 和一般的程序一样，Lpc“程序”也是由一个或多个<br>   
+文件组成。一个Lpc的Object是按如下方式被执行的：Driver把和这<br>   
+个Object相关的文件读入内存，然后解释执行。但是要记住的是，<br>   
+读入内存，并不是说，它就开始按顺序执行。<br>   
+<br>   
+2.2 Driver和Mudlib关系<br>   
+在有些游戏中，整个游戏包括Driver和游戏世界都用C写好，这样<br>   
+能快一些，但是游戏的扩充性很差，巫师们不可能在游戏进行中添<br>   
+加任何东西。LpMud则相反。Driver理论上应该和玩家所接触的世界<br>   
+几乎没有任何直接的联系。游戏世界应该是自己独立的，而且是“即<br>   
+玩即加”的。这就是为什么LpMud使用Lpc作为编程语言的原因。它<br>   
+允许你创建一个游戏世界，再由Driver在需要时读入解释执行。Lpc<br>   
+甚至比C更简单，更容易明白，但是它可以创建一个可以让许多人在<br>   
+上面游戏的世界。<br>   
+在你写完一个Lpc的文件时，它存在于主机的硬盘上。在游戏进行<br>   
+中，当需要整个Object时，这份文件将被调入内存，一个特殊的函<br>   
+数被调用来初始化这个Object的一些变量。现在你不用关心什么是<br>   
+变量，什么是函数以及游戏本身怎样来调用这个object，你只要记<br>   
+住Driver从硬盘中读入一个文件，然后放在内存中，如果没有任何<br>   
+错误的话。<br>   
+<br>   
+2.3 一个Object被装人内存。<br>   
+一个Object不会也不必有一个特点的地方让Driver去执行它，通<br>   
+常Drvier会在Object中找一个地方去初始化它。一般都是这个函数<br>   
+叫做create()。<br>   
+Lpc的Object是一些变量(它的值能变化)和函数(函数通常是用来<br>   
+操纵那些变量的一段程序)的组合。函数操纵变量的方式有：调用<br>   
+其他函数，使用Driver内部定义的函数(efun)，基本的Lpc表达式<br>   
+以及流控制。<br>   
+我们来看个变量的例子: wiz_level。这个变量记录你的巫师等<br>   
+级，如果是0呢，通常是普普通通的玩家了。这个值如果越大就表<br>   
+示你的巫师等级越高。这个也同时控制了你能不能执行一些巫师<br>   
+指令。基本上来说，一个Object就是一些变量“堆”在一起的东<br>   
+西。一个Object改变了，也就是某一个或者一些变量改变了。<br>   
+总的来说，一个Object如果要被内存中的另一个Object调用，<br>   
+Driver会去找这个Object的那堆变量放在哪里，如果这些变量没<br>   
+有值，那么Driver会调用一个特定的函数create来初始化这些变<br>   
+量。<br>   
+但是create()不是Lpc代码开始执行的地方，只是大多数的Object<br>   
+从这里开始。事实上，create()可以不存在。如果这个Object不<br>   
+需要对变量初始化，那么create()可以不存在。那么这样的Object<br>   
+开始执行的地方就完全的不同于一般的Object，可以从任何地方开<br>   
+始。<br>   
+<br>   
+那么究竟什么是Lpc的Object？Lpc的Object就是一堆变量的集合，<br>   
+它带有一个或者更多的函数来操纵控制这些变量，函数的排列顺序<br>   
+是无所谓的，随便那个排在前面对这个Object的特性没有影响。<br>   
+<br>   
+2.3 代码风格<br>   
+在上面说过函数的顺序对这个Object的特性是毫无影响的。<br>   
+但是一个有着良好代码风格的程序对LpMud是很重要的。因为<br>   
+LpMud通常不会也不可能是一个人完成的，如果程序没有较好<br>   
+的可读性，那么别人理解你的“作品”是很困难的。而且有个<br>   
+良好的程序风格能给人以优雅的感觉，因此希望大家写的Lpc<br>   
+程序能有个好的风格。大家中的有些人可能以后会加入XO team<br>   
+创建自己梦想中的世界，我们要求你采用如下的格式书写程序。<br>   
+<br>   
+2.3.1 头文件<br>   
+在一个文件的开头是一段说明。采用如下格式：<br>   
+<br>   
+/* /u/trill/obj/test.c<br>   
+* from XO Object Library<br>   
+* 测试用的Object<br>   
+* created by trill 19970808<br>   
+* version @(#) test.c 2.1@(#)<br>   
+* last modified by trill 19971008<br>   
+* 测试tell_wizard这个simul_efun<br>   
+*/<br>   
+第一行是这个文件的绝对路径，就是全路径。<br>   
+第二行是它所在的Mudlib<br>   
+第三行是它的功能的简单的描述，可以超过一行。<br>   
+第四行是这个文件的作者和创建时间。<br>   
+第五行是它的版本号，可能做了多次修改，甚至可能会重写，<br>   
+这个数字2.1标志了它大概做过多少次改动。<br>   
+第六行是最后一次修改的人和时间。<br>   
+第七行是最后一些修改什么东西。<br>   
+<br>   
+对于一个Object我们要求必须有这样一段说明，特别是前面<br>   
+的五行必须存在，如果做了改动那么最后两行也要加上。<br>   
+这样一般的一个Object，我们从这段说明就能了解到一些很重<br>   
+要的信息。<br>   
+<br>   
+下面是include一些文件和继承(inherit)一些Object。<br>   
+<br>   
+#include &lt;ansi.h><br>   
+#include "include/test.h"<br>   
+<br>   
+inherit NPC;<br>   
+<br>   
+先系统的文件，后自己定义的一些头文件。特别要求的是必须<br>   
+有个和这个Object同名的".h"文件，比如"test.h"放在这个<br>   
+Object所在的目录的下一级目录"include"底下，就是说在<br>   
+include部分的最后一行是#include "include/test.h"。<br>   
+在test.h定义所有在test.c用到的函数的原形，以及定义一些<br>   
+宏和常量。<br>   
+这样做的好处是：<br>   
+第一不用出现一个函数在引用时没有说明，<br>   
+第二如果想知道这个Object有什么函数，直接看这个文件就可以<br>   
+了，不必去看那个test.c，可能test.c非常长。<br>   
+第三如果建立一个help系统，用来查询每个Object存在的函数，<br>   
+那么这样直接去读test.h就可以，否则是一件很麻烦的事。<br>   
+<br>   
+关于inherit我们在继承部分再说。<br>   
+<br>   
+2.3.2 变量说明<br>   
+<br>   
+在变量说明部分，大家最好在每个变量后面加一个简单的说明。<br>   
+<br>   
+2.3.3 函数<br>   
+<br>   
+一个Object的函数的顺序和名字对这个Object的表现是毫无影<br>   
+响的。但是为了让这个Object有良好的可读性，我们要求一个Object<br>   
+的函数按如下方式排列和命名：<br>   
+首先是变量的接口部分，这些函数统一用Set+变量名来改变该<br>   
+变量的值，用Get+变量来返回变量的值。比如<br>   
+<br>   
+static int level;<br>   
+<br>   
+void SetLevl(int i)<br>   
+{<br>   
+level = i;<br>   
+}<br>   
+<br>   
+int GetLevel()<br>   
+{<br>   
+return level;<br>   
+}<br>   
+其次是一些操纵和控制变量的一些函数。比如<br>   
+<br>   
+void AddLevel(int i)<br>   
+{<br>   
+一个Object的函数的顺序和名字对这个Object的表现是毫无影<br>   
+响的。但是为了让这个Object有良好的可读性，我们要求一个Object<br>   
+的函数按如下方式排列和命名：<br>   
+首先是变量的接口部分，这些函数统一用Set+变量名来改变该<br>   
+变量的值，用Get+变量来返回变量的值。比如<br>   
+<br>   
+static int level;<br>   
+<br>   
+void SetLevl(int i)<br>   
+{<br>   
+level = i;<br>   
+}<br>   
+<br>   
+int GetLevel()<br>   
+{<br>   
+return level;<br>   
+}<br>   
+其次是一些操纵和控制变量的一些函数。比如<br>   
+<br>   
+void AddLevel(int i)<br>   
+{<br>   
+level += i;<br>   
+}<br>   
+<br>   
+这两类函数要求每个单词的第一字母大写。<br>   
+<br>   
+再是一些Object所能做的事件(event)，比如战斗，结婚等等。比如<br>   
+<br>   
+void eventQuit()<br>   
+{<br>   
+...<br>   
+}<br>   
+<br>   
+这些函数要求事件的每个单词的第一字母大写，比如eventFight,<br>   
+eventMarry等等。<br>   
+<br>   
+再下面的是由Driver调用的一些函数，比如create(), heart_beat,<br>   
+setup()。<br>   
+<br>   
+最后是一些这个Object自己私有的函数，完成一些特别的功能。这些<br>   
+函数通常让要求每个单词的小写，中间用下划线(_)隔开。<br>   
+<br>   
+要注意的是每个函数之间用一个空行隔开。<br>   
+<br>   
+这些是对一个文件的整体要求，如果你有兴趣将来在XO team写程序，<br>   
+最好从现在开始就养成这样的编程习惯。如果你是别的Mud里面的巫师，<br>   
+我想一个Mud里面最好也有一个统一的整齐的风格。<br>   
+也许你会问，这样要求有必要吗？这样太麻烦，程序写了自己能明<br>   
+白就可以了。这是不对的，LpMud是大家合作的项目，如果你做的程序<br>   
+别人没法看懂，不知道写的东西里面有些什么，能调用什么函数，那<br>   
+么实际上你写的东西是失败的，没人会去用它，它可能永远“死”在<br>   
+硬盘上。而且函数统一的命名法能尽快找到你所需要的函数，同时也<br>   
+能提高整个程序的可读性。<br>   
+对于代码风格XO还有一些别的要求，我们将在以后的文章中介绍，<br>   
+如果你加入了XO team，代码风格将是第一篇要读的文章。<br>   
+<br>   
+小结:<br>   
+关于Lpc程序和编程环境，就介绍到这里。看完这一章，我想大家<br>   
+要记住的是LpMud是采用Lpc做为编程语言，Unix文件结构作为文件组<br>   
+织形式。Lpc是编写Object的一种语言，它的程序没有特殊的开始和<br>   
+结束的标志。如果Object被使用到，那么它被调入内存，如果这个<br>   
+Object有一个叫create()的函数，首先被执行，来初始化一些变量。<br>   
+Lpc的Object是一堆变量的集合，同时带有一些能操纵改变这些变量<br>   
+的函数。Lpc的代码风格，我想一个Mud最好有一个统一的风格，特别<br>   
+的XO有自己的特别的要求。<br>   
+<br>   
+<br>   
+<br>   
+<br>   
+<br>   
+第二章 Lpc的数据类型<br>   
+<br>   
+第一节 序言<br>   
+<br>   
+Lpc的Object是由零个或更多一些的被一个或一个以上函数操纵<br>   
+控制的变量组成的。在代码中函数排列的顺序是不影响Object的特<br>   
+性，但是影响代码的可读性。当你写的那个Object被第一次调用时，<br>   
+Driver将你写的代码装入内存。当每一个Object被调入内存时，所<br>   
+有的变量是没有值的。create()这个函数被调用来初始化Object的<br>   
+值。create()这个函数在Object装入内存后立即被调用。在你读本<br>   
+文时可能对编程一无所知，你可能不知道什么是函数以及它是怎么<br>   
+调用的；或许你有了一些编程的经验，你可能对一个新创建的Object<br>   
+的函数相互调用过程是怎样开始感到迷惑。在这些困惑得到解决之<br>   
+前，你更有必要了解的是这些函数操纵控制的到底是什么东西。所<br>   
+以你最好先来读读这一章：Lpc的数据类型。可以这么说，几乎90％<br>   
+的错误（包括丢失{}和()）是由于错误的使用Lpc的数据类型。我认<br>   
+为真正理解这一章能帮助你更容易的编程。<br>   
+<br>   
+　<br>
+<br>
+第二节 让计算机理解你<br>   
+<br>   
+2.1 计算机语言<br>   
+众所周知的计算机懂得的语言实际上由“0”和“1”组成的机器<br>   
+码。计算机根本不懂得人类的自然语言，实际上它也不懂得我们使<br>   
+用的高级语言，比如BASIC，C，C++，Pascal等等。这些高级语言<br>   
+能让我们更容易的实现我们的想法。但是这些高级语言最终都要被<br>   
+翻译成“0”和“1”组成的计算机语言。<br>   
+有两种方法能把高级语言翻译成计算机语言：编译和解释。编译<br>   
+类的在程序写完之后用一个编译器将其翻译成计算机语言。编译在<br>   
+程序执行之前就完成了。解释类的翻译的过程在程序执行时进行。<br>   
+由于解释类的语言程序是边执行边解释，所以一般都要比编译编译<br>   
+执行的慢。<br>   
+不管是哪种语言，他们最终都要被翻译成0和1。但是变量，那些<br>   
+你存在内存里面的变量，却不可能只是0和1。<br>   
+所以你必须有一种你<br>   
+使用的那种编程语言里面的方法来告诉计算机这些0和1应该被当做<br>   
+整数还是字符，或者是字符串，或者别的什么东西。这样就必须使<br>   
+用到数据类型。<br>   
+<br>   
+2.2 数据类型<br>   
+一个简单的例子：你现在有了一个变量，你把它叫做‘x’并且<br>   
+赋予它一个十进制整数值65。在Lpc你可以这样的语句来做这件事：<br>   
+<br>   
+------<br>   
+x = 65;<br>   
+------<br>   
+<br>   
+接着你可以做象下面这样的事：<br>   
+<br>   
+-----<br>   
+write(x + "\n");<br>   
+y = x + 5;<br>   
+-----<br>   
+第一行把65和字母"a"输出到屏幕上<br>   
+第二行把70这个值赋于变量y<br>   
+对计算机来说有个问题:它不知道你所说的 x = 65;中的65什么意思.<br>   
+你认为是65,但是计算机可能认为是:<br>   
+00000000000000000000000001000001<br>   
+但是,对计算机来说,字母'A'也是被当做:<br>   
+00000000000000000000000001000001<br>   
+所以,当你想让计算机明白 write( x + "\n" );, 它必须有一种方法<br>   
+知道你想看到的是65而不是'A'.<br>   
+计算机就是通过数据类型来区分65和'A'. 一种数据类型简单的说就<br>   
+是在内存的某处, 那里代表了或者说指向某个给定的变量, 这些内存<br>   
+储存的数据是什么类型的. 每个LPC的变量都必须有它对应的变量类型.<br>   
+在上面给的例子, 本应在那些代码之前有下面一行:<br>   
+<br>   
+-----<br>   
+int x;<br>   
+----<br>   
+<br>   
+这一行告诉Driver x应该指向什么类型的值, 它应该被当做数据类型'int'<br>   
+来使用. 'int' 是一个32位的整数. 到这里, 你应该有数据类型的基本<br>   
+印象, 以及为什么必须有数据类型. 他们可以让Driver知道计算机存在<br>   
+内存里面的'0'和'1'到底是什么东西.<br>   
+<br>   
+2.3 Lpc的数据类型<br>   
+<br>   
+所有的LpMud的Driver都会有以下的数据类型：<br>   
+<br>   
+void, int, string, object, mixed, int *, string *,<br>   
+object *, mixed *<br>   
+<br>   
+大多数的Driver都会有下面这些重要的数据类型：<br>   
+<br>   
+float, mapping, float *, mapping *<br>   
+<br>   
+有一些Driver同时还支持下面这些数据类型：<br>   
+<br>   
+function, struct, class, char<br>   
+<br>   
+特别的有MudOS支持的数据类型：(以v22pre8为例)<br>   
+<br>   
+void, int, string, object, float, mapping, function,<br>   
+class, mixed, int *, string *, object *, float *,<br>   
+mapping *, function *, class *, mixed *<br>   
+<br>   
+2.4 一些简单的数据类型<br>   
+在Lpc入门里面将介绍以下的数据类型:<br>   
+void, int, float, string, object, 以及mixed. 对于复杂的数据<br>   
+类型比如: mapping, array, 以及一些不常用的类型比如: class,<br>   
+function, 我将在Lpc进阶介绍. 这一节我们主要介绍三种数据类型:<br>   
+int(整型), float(浮点数)和string(字符串).<br>   
+<br>   
+一个int(整型)是一个整数, 比如1, 42, -18, 0, -10002938这些<br>   
+都是整型. 在MudOS中一个整型是一个32位的整数, 有符号的整数.<br>   
+在实际中int得到广泛的使用, 比如开始介绍变量中的wiz_level,<br>   
+再比如生物的天赋, 年龄等都通常都是int(整型).<br>   
+一个float(浮点数)是一个实数, 比如2.034, -102.3453, 0.0,<br>   
+1132741034.33这些都是一个浮点数. 在MudOS中一个浮点数也是一个<br>   
+32位的实数, 有符号的实数. float通常不常用.<br>   
+在Object的数值性质中, 我们通常也就使用int和float, 甚至只用<br>   
+int, 在变量的初始化中int和float自动被赋为0. 但是一般的Driver<br>   
+比如MudOS不检查数值越界的情况, 还要注意的是这里的int和float<br>   
+都是有符号的数, 这两点要注意.<br>   
+string(字符串)是由一或更多的字符组成, 比如"a", "我是飞鸟!",<br>   
+"42", "飞鸟15岁.", "I am Trill.", 这些都是字符串. 注意的是,<br>   
+字符串都是被""括起来, 这样第一能区别象int(整型)42和string(字<br>   
+符串)"42", 第二可以区别变量名(比如 room)和同名的字符串(比如<br>   
+"room"). string类型的变量在初始化时, 如果没有显式的赋于一个<br>   
+字符串比如: 空字符串"", 那将是0, 就是一空的指针.<br>   
+作为最基本的数据类型int, float和string, 是一些复杂的数据<br>   
+类型的基础. 对这些数据进行运算和操作的操作符, 将在后面介绍,<br>   
+不过Lpc的操作符和一般的C/C++的操作符一致. 只是有一点, 就+<br>   
+Lpc支持string和int或者float直接相加, 比如我们上面提到的:<br>   
+<br>   
+write(x + "\n");<br>   
+<br>   
+"\n"是一个字符, x是一个整型的变量, 在Lpc解释执行中, 自动将<br>   
+x代表的数值转化成一个字符串, 然后把两个字符串接在一起.<br>   
+当你在编程中使用一个变量, 你必须首先让Driver知道这个变量<br>   
+代表什么样的数据类型. 这个过程叫做变量声明. 这必须在一个函<br>   
+数或者一个Object的开始部分进行变量声明. 怎么做呢阿? 就是把<br>   
+数据类型的名字放在你所要用的变量名前面, 举个例子:<br>   
+<br>   
+-----<br>   
+void add_x_and_y()<br>   
+{<br>   
+int x;<br>   
+int y;<br>   
+<br>   
+x = 2;<br>   
+y = x + x * x;<br>   
+}<br>   
+----<br>   
+<br>   
+上面就是一个完整的函数. 函数名就是add_x_and_y(). 在这个函数中<br>   
+一开始声明落两个变量x, y都是int.<br>   
+<br>   
+下面介绍MudOS支持的数据类型:<br>   
+int<br>   
+一个整数(32位).<br>   
+float<br>   
+一个浮点数(32位).<br>   
+string<br>   
+无限长的字符串.<br>   
+object<br>   
+指向一个对象的指针.<br>   
+mapping<br>   
+一个关系型数组.<br>   
+function<br>   
+一种特殊的指针, 指向(object, 函数名)这样一个组合.<br>   
+arrays<br>   
+数组的声明采用使用 '*' 跟在一种基本的类型.<br>   
+void<br>   
+这种类型对变量没有任何用处, 只对函数有用. 它表明这个函数<br>   
+不返回任何值.<br>   
+mixed<br>   
+这是一种特殊的数据类型, 可以指向任何的数据类型. 如果一个<br>   
+变量被声明成mixed, 那么Driver不会对它做任何检查.<br>   
+class<br>   
+自定义的数据类型, 类似C的struct而和C++和class不一样.<br>   
+一上是MudOS支持的数据类型.<br>   
+<br>   
+小结:<br>   
+对一个变量, Driver需要知道存在计算机内存中的'0'和'1'到底<br>   
+指的什么东西, 这样我们引入落数据类型. 我们学习3种简单的数据<br>   
+类型, 同时了解了MudOS支持的各种数据类型. 对于各种操作符, 不<br>   
+同数据类型有各自不同的操作符, 比如你让 "飞鸟"/"trill", 那<br>   
+Driver一定会返回一个错误的. 大多数数的操作符和C/C++的一样,<br>   
+只是+ 还支持字符串和数字相加.<br>   
+<br>   
+<br>   
+<br>   
+<br>   
+第三章 Lpc的函数<br>   
+<br>   
+第一节 序言<br>   
+<br>   
+在前面的介绍中，大家应该知道了Lpc的Object包含能处理变量的函数。<br>   
+当函数被执行时，它的工作就是处理操作变量，还有是调用(call)别的函<br>   
+数。变量在函数中被改变操作。变量必须有个数据类型使得计算机能明白<br>   
+它指向的内存中"0"和"1"到底是什么东西。一个Object的性质通常由它的<br>   
+包含的变量确定，但是它的特性的表现却是依赖于它包含的函数。一个<br>   
+Object如果不含有任何一个函数那是不可想象的。那么：什么是函数。<br>   
+<br>   
+　<br>
+<br>
+第二节 函数<br>   
+<br>   
+2.1 什么是函数？<br>   
+和数学的函数一样，你给Lpc的函数一个值，它能返回一个值。有些语<br>   
+言，比如Pascal，会区分过程和函数。Lpc和C/C++一样，没有过程，但是<br>   
+明白这种区别还是有用的。Pascal叫做过程的东西，Lpc叫做类型是void<br>   
+的函数。换句话说，过程就是什么都不返回的函数。Pascal叫做函数的，<br>   
+必须返回一些东西。在Lpc中，最无聊的，最简单的，但也是正确的函数<br>   
+是这样的：<br>   
+<br>   
+-----<br>   
+void eventDoNothing() {}<br>   
+-----<br>   
+<br>   
+这个函数不接收任何输入，不执行指令，也不返回任何值。<br>   
+<br>   
+每一个Lpc函数都由三部分组成：<br>   
+1) 函数声明<br>   
+2) 函数定义<br>   
+3) 函数调用<br>   
+<br>   
+和变量一样，函数必须先有个声明。这样可以让Driver知道：<br>   
+1) 这个函数将返回的是哪种数据类型。<br>   
+2) 需要的输入是什么，多少。通常把输入叫做参数。<br>   
+一个函数声明通常是这样的：<br>   
+类型 函数名(参数1, 参数2, ..., 参数N);<br>   
+下面是一个函数声明的例子，这个函数叫 DrinkWater，有一个string<br>   
+类型的参数，返回的是一个int。<br>   
+<br>   
+-----<br>   
+int eventDrinkWater(string str);<br>   
+-----<br>   
+<br>   
+在上面的声明中, str是输入的参数的变量名，也可以没有。就是说可以<br>   
+象下面这样声明 eventDrinkWater()<br>   
+<br>   
+-----<br>   
+int eventDrinkWater(string);<br>   
+-----<br>   
+<br>   
+函数定义就是代码，它描述了这个函数对传人的参数究竟做了些什么。<br>   
+函数调用就是别的函数在任何地方使用执行了这个函数。一个函数在它<br>   
+写完后永远不会被调用，那这个函数的存在的唯一意义只能是浪费内存和<br>   
+硬盘。一个函数写出来的目的是为了被调用。<br>   
+下面是两个函数相互调用的例子，两个函数是 eventPrintValue() 和<br>   
+add(),<br>   
+<br>   
+-----<br>   
+/* 首先是函数声明，这个通常是在一个Object的开始部分。<br>   
+*/<br>   
+<br>   
+void eventPrintValue();<br>   
+int add(int x, int y);<br>   
+<br>   
+/* 其次是函数 write_vals() 的函数定义。我们假定这个函数将被调用<br>   
+* 是为了描述这个Object.<br>   
+*/<br>   
+void eventPrintValue()<br>   
+{<br>   
+int x;<br>   
+<br>   
+x = add(2, 2); // 我们指定 x 接收调用函数 add() 后返回的值。<br>   
+write(x + "\n");<br>   
+}<br>   
+<br>   
+/* 最后是函数 add() 的函数定义。 */<br>   
+int add(int x, int y)<br>   
+{<br>   
+return (x + y);<br>   
+}<br>   
+-----<br>   
+<br>   
+有一点是指明的，在XO的编程的风格我们要求所有的函数都必须有声<br>   
+明，这个在我们最开始时候说明过。但是实际上必须有函数声明的函数<br>   
+是那些被调用在函数定义之前的函数。我们规定必须有函数声明，这个<br>   
+只是规定，但是它会给编程带来好处。<br>   
+<br>   
+在这一节我们知道什么是函数，函数是由什么组成。要记住，写一个<br>   
+函数的根本目的是为用它，调用它。一个函数永远不会被调用，那它就<br>   
+失去了存在的价值。通常别人使用你写的函数，通常只关心它能对传人<br>   
+的参数做些什么加工，就是这个函数的功能是什么，返回什么。因此一<br>   
+个函数有一个好的函数名，能直接描述这个函数的功能是很重要的。我<br>   
+在第一章中说明了XO规定的对函数的命名机制。采用统一的命名方式有<br>   
+助于相互合作提高效率。<br>   
+<br>   
+2.2 Efuns<br>   
+也许你已经听说过efun这个词了，他们是外部定义的函数，是<br>   
+externally defined function 的缩写。就是说，他们是由Mud Driver<br>   
+定义好的。如果参加过Lpc的编程，或者看过Lpc的代码，你可能找到这<br>   
+样的一些表达式：this_player(), strcmp(), implode(), filter()，<br>   
+等等，看起来象是一个函数，而你找遍整个Object以及这个Object继承<br>   
+的所有Object中都没有这些函数，这就表明他们是efun。efun存在价值<br>   
+是因为他们执行起来要比一般的Object带有的函数速度快的多，为什么<br>   
+快呢，因为他们是以计算机直接能理解的二进制的形式存在。对于Object<br>   
+内部定义的函数，我们通常叫他们是lfun(local function)。一个巫师<br>   
+主要工作也就是编写一些lfun组成的Object。<br>   
+在上面的例子中的 eventPrintValue() 中调用了两个函数，第一个是<br>   
+函数 add(), 这个是有你声明和定义的，这个就是lfun。第二次调用，<br>   
+是调用函数 write() 这个函数通常就是efun。Driver已经替你声明和定<br>   
+义好了。你所要做只是调用它。<br>   
+efun被创立是为了<br>   
+1) 处理一些很常用的，每天都有许多函数会调用的。<br>   
+2) 处理internet socket的输入输出。<br>   
+3) 以及一些Lpc很难处理的事，毕竟Lpc是C的很小的子集。<br>   
+efun是用C写好的，内嵌在Driver里面的。在Mud起来之前，和Driver<br>   
+一起编译好的，他们执行起来会快的多。但是正和你期望的一样，他们<br>   
+的调用和你写的函数的调用方法是完全一样的。总的来说，需要关心的<br>   
+和一般函数一样，它需要传入什么参数，它将会返回什么的东西。<br>   
+<br>   
+怎样得到一些efun的信息，比如传入参数和返回的类型，通常在一个<br>   
+Mud里面，你可以在类似这样的 /doc/efun 的目录底下找到，或者直接<br>   
+用 help &lt;efun名> 指令就可以得到帮助。efun及其依赖于你所在的Mud<br>   
+的Driver，不同的Driver带有的efun区别是很大。<br>   
+对于XO，使用的是MudOS，一般的efun，只要用 help 指令就能得到<br>   
+帮助，或者你多看看源码，看看别人是怎样使用的，当然你如果无论如<br>   
+何也不能明白一个efun，你可以问问大巫师，他们通常会很乐意和你探<br>   
+讨的。但是有一点是指出，能自己解决的问题最好自己解决。<br>   
+<br>   
+2.3 自己动手写函数<br>   
+<br>   
+用Lpc写Object的函数，是为了表现这个Object的特性。这个特性的<br>   
+函数实际上就是一些代码按顺序排列，排列的顺序决定了这个函数。一<br>   
+个函数被调用，函数的代码就按照函数定义中代码按顺序执行。在<br>   
+eventPrintValue()中，下面这个语句：<br>   
+<br>   
+-----<br>   
+x = add(2, 2);<br>   
+-----<br>   
+<br>   
+必须在 efun: write() 之前调用，如果你想看到正确的结果。<br>   
+<br>   
+为了返回这个函数执行后的值，必须这么做：使用 "return" 指令和后<br>   
+面跟着和这个函数数据类型一样的一个值。在上面的 add()，这个指令是<br>   
+"return ( x + y );"，( x + y )的值就是返回给 eventPrintValue()<br>   
+以及赋给 x 的那个值。更进一步的说，"return" 结束当前函数的执行<br>   
+并把控制权返回给调用它的那个函数。实际上，return 可以返回跟在<br>   
+它后面的一个表达式的值。如果想停止一个类型为void的函数的执行，<br>   
+只要简单使用 "return;"，不返回任何值。强调一点，想要返回的表达<br>   
+式的值的数据类型 必须 和函数自己的数据类型一致。<br>   
+那到底如何写一个函数(lfun)？<br>   
+一个函数定义通常按次序有下面部分：<br>   
+1) 函数返回数据类型<br>   
+2) 函数名<br>   
+3) 以 ( 开始，以 ) 结束的函数列表<br>   
+4) 一个 { 标志这个函数从这里开始执行<br>   
+5) 变量声明，在这个函数将要使用的变量<br>   
+6) 计算机指令，各种语句，表达式，以及调用别的函数。<br>   
+7) 一个 } 标志函数代码部分到次结束。除非这个函数的类型说明成<br>   
+void，在 } 之前必须有个 return 返回和这个函数的数据类型，在<br>   
+return 后继续执行调用这个函数的那个函数。<br>   
+<br>   
+举个平凡的例子：<br>   
+<br>   
+-----<br>   
+int my_function( string target )<br>   
+{<br>   
+string name;<br>   
+object ppl<br>   
+<br>   
+name = "Trill";<br>   
+if ( ppl = find_player( target ) )<br>   
+{<br>   
+tell_object( ppl, "hi. My name is " + name + ". \n" )<br>   
+return 1;<br>   
+}<br>   
+else<br>   
+{<br>   
+tell_object( this_player(), "sorry, i don't find the target : "<br>   
++ name + ".\n" );<br>   
+return 0;<br>   
+}<br>   
+return 0;<br>   
+}<br>   
+-----<br>   
+<br>   
+这个函数接收一个 string 类型的参数，执行一些指令，返回一个 int<br>   
+型的整数。<br>   
+<br>   
+第三节 小结<br>   
+定义了Lpc的Object的文件实际是由一些函数组成的。所有的函数，按<br>   
+顺序由以下部分组成：<br>   
+1) 函数声明<br>   
+2) 函数定义(函数体)<br>   
+3) 函数调用<br>   
+3) The call<br>   
+函数声明通常出现在这个文件的开头，在任何一个函数定义之前。必<br>   
+须做到是，每个函数的被调用之前有函数的声明。在 XO 中规定严格一<br>   
+些所有的函数必须有声明。<br>   
+函数定义可以出现在文件的任何地方，只要在它的声明之后就可以了。<br>   
+有一点要注意，不要在一个函数内部定义另一个函数。在 XO 中规定是<br>   
+函数的定义按照一个给定的次序。<br>   
+函数调用通常在别的函数定义的内部，如果你想要你的代码执行你写<br>   
+的函数的话。当然也可以出现这个函数自己的函数定义内部，但是对于<br>   
+一个新的巫师来说，最好别这么做，因为这样可能导致无限的循环。<br>   
+<br>   
+每个 Driver 有自己一套 efun ，这些函数 Driver 已经替你声明过了，<br>   
+也已经定义好了。efun 通常执行起来要比你自己写的函数快一些。更进<br>   
+一步说，每个 MudLib 有一些特殊的函数看起来非常象 efun，他们也已<br>   
+经声明过了，定义好了。他们被叫做 simul_efun，或者 sefun，或者叫<br>   
+做 模拟 efun。对于 efun 的帮助，通常在 /doc/efun，或者<br>   
+/help/wizard/efun，等类型的目录底下。很多 Mud 会提供一个指令，比<br>   
+如 "man" 或 "help" 来提供在线帮助。<br>   
+<br>   
+注意：<br>   
+有些 Driver 对函数的类型检查不严格，甚至忽略你对函数那些特殊<br>   
+的声明，比如 private 等等。但是不要管这个，你应该这样一个良好的<br>   
+习惯，对函数的类型有严格声明。为什么？<br>   
+<br>   
+1)对别的人(包括以后你自己)能更容易读你的程序，更快理解你这<br>   
+部分代码想描述什么。这个对调试程序也是很有用的，大部分的<br>   
+程序错误(包括 () 和 {} 的丢失)通常是数据类型不匹配。<br>   
+2)因为这个被认为是个好的编程习惯。<br>   
+<br>   
+<br>   
+<br>   
+<br>   
+第四章 Lpc的继承简介<br>   
+<br>   
+第一节 前言<br>   
+<br>   
+通过上一章的阅读，你应该知道Lpc的函数的基本工作方式。你应该学<br>   
+会如何声明和调用函数。更进一步，你应该有能力自己写函数定义，即<br>   
+使你是首次接触Lpc。你知道了函数调用是如何执行的，函数必须有一个<br>   
+返回值，除非是 void 类型的。<br>   
+下面我们来看一个例子。看看巫师的工作室，可能几乎都有类似下面<br>   
+的一段代码。(这个不同的 MudLib 是不一样的)<br>   
+<br>   
+-----<br>   
+<br>   
+void create();<br>   
+<br>   
+inherit "/std/room";<br>   
+<br>   
+void create()<br>   
+{<br>   
+room::create();<br>   
+<br>   
+set( "short", "巫师工作室");<br>   
+set( "long", "这是一片未曾开垦的土地，需要巫师的画笔去描绘。\n" );<br>   
+<br>   
+set( "exits", ([<br>   
+"trill" : "/u/trill/workroom",<br>   
+]);<br>   
+<br>   
+create_door("south", "时空之门", "north", 0);<br>   
+setup();<br>   
+}<br>   
+<br>   
+-----<br>   
+<br>   
+如果你理解了前面的几章，你应该能立刻指出几点：<br>   
+1) create() 是一个函数的定义部分。"void create();" 是它的函数<br>   
+声明，却有在 create() 里面有个 room::create() 没有声明。<br>   
+2) 它调用了set(), create_door(), setup()，在代码中却没有声明。<br>   
+3) 在第三行，既不是变量声明也不是函数声明，更不是函数定义。<br>   
+这一章就是回答以下问题的：<br>   
+1) room::create()是什么东西？<br>   
+2) 函数 set()，create_door()，在哪里声明、哪里定义？<br>   
+3) 第三行是什么东西？<br>   
+<br>   
+　<br>
+<br>
+第二节 面对对象编程(OOP)的继承<br>   
+<br>   
+继承是面对对象编程的一个基本特性。它使你能写一些基本的代码能<br>   
+以不同的方式被不同的程序使用。一个 MudLib 做的就是创建一些基本<br>   
+的 Object ，在此基础上你能用他们创建自己特殊的 Object。<br>   
+如果不得不写那些定义巫师工作室所必须的所有代码，你可能要写超<br>   
+过 1000 行的代码，这样你才可能有这个 room 所需要的所有函数。如果<br>   
+每个 room 都必须这么做的话，首先是浪费硬盘空间；其次，你写的代<br>   
+码可能根本无法和别人的写的代码组合在一起，每个人对 room 扩展的<br>   
+特性的各种函数搞出每个人自己的标准。比如，你可能把 room 的长描<br>   
+述的接口函数叫做 GetLong()，别的巫师可能喜欢把它命名为 query_long()。<br>   
+这个就是各个 MudLib 不兼容的根本问题，因为它们 Object 相互继承、<br>   
+调用上使用不同的协议。<br>   
+OOP 能克服上面的问题。在上面的例子中，你直接使用的函数都定义<br>   
+在继承的叫做 "/std/room.c" 的 Object 里面了。它有所有那些 room 常<br>   
+用的函数的定义。当你写创建一个特别的 room，你通过继承得到 room<br>   
+的的基本的功能，通过加入你自己写的函数，这样就把它变成了一个独<br>   
+特的 room 了。<br>   
+OOP 通过继承不只是提高了代码的可重用性，而且它可以是你只关心<br>   
+继承基本的 Object 后，那些特性需要改变的，而不用考虑那些东西是<br>   
+需要的，就是说当你看到别人写好的 Object 时，发现已经很象你心中<br>   
+所想的东西，就只有一点点不符合，那你所要做只是继承原先的 Object，<br>   
+然后加入和想的那一点点不同的东西就可以了。<br>   
+OOP 当然不只是继承，还有别的一些。但是对于我们现在是谈论继承<br>   
+的最基本的概念。<br>   
+<br>   
+　<br>
+<br>
+第三节 继承是如何工作的？<br>   
+<br>   
+还记得最开始提的三个问题吗？在这一节里面，将解答这些问题。<br>   
+首先最后一个问题：<br>   
+例子中的第三行：<br>   
+-----<br>   
+inherit "/std/room";<br>   
+-----<br>   
+是做什么？<br>   
+我想到了现在，你应该你猜出来这一行确保你写的巫师工作室继承了<br>   
+标准的 room: "/std/room.c" 的特性。通过继承获得标准 room 的功能，<br>   
+你就可以使用那些已经在 "/std/room.c" 底下声明和定义好的所有函数。<br>   
+这就是为什么你可以直接使用 set(), create_door() 这些函数的原因了。<br>   
+在你自己写的函数 create()，你只要设置那些你要的值就可以了。这些<br>   
+值使得你的 room 与众不同，但确保和别的 Object 能相互作用。<br>   
+那 room::create() 是做什么的？<br>   
+你可能看到类似的东西比如： ::create()、::init()等。可能现在完全<br>   
+理解有些困难。你只要有个印象就可以了。<br>   
+在你继承的那些 Object 中，可能会有 create() 函数，但是在你写的<br>   
+的 Object 中也有 create() 了，那么 Driver 将只调用你写 create() 来<br>   
+完成一些初始化工作，一般情况下这是你所希望的。可是，有时候，你<br>   
+发现你继承的 Object，比如 /std/room.c 中的 create()，也是有用的，<br>   
+那怎办？那么你可以这么做：<br>   
+在你写的 room 的 create() 当中加入<br>   
+<br>   
+-----------------<br>   
+room::create();<br>   
+-----------------<br>   
+<br>   
+这一行，"::"这个操作符加在一个函数 example() 的前面，那么它就调<br>   
+用它继承的 Object 中的那个函数，如果 "::"的前面没有任何限定，那<br>   
+么就调用所有继承的当前的一级的 Object 中叫做 example() 的函数，<br>   
+如果有限定，那么就只调用给定的 Object 的叫做 example() 的函数，<br>   
+在我们的例子就调用 /std/room.c 的 create() 函数。<br>   
+"::"这个操作符，是用于调用继承的 Object 一个特殊的函数。通常<br>   
+把 "::" 操作符叫做 域访问操作符 。<br>   
+一个对比例子：<br>   
+<br>   
+-----<br>   
+#1<br>   
+<br>   
+inherit "/std/room";<br>   
+<br>   
+void create()<br>   
+{<br>   
+create();<br>   
+}<br>   
+<br>   
+-----<br>   
+<br>   
+-----<br>   
+#2<br>   
+<br>   
+inherit "/std/room";<br>   
+<br>   
+void create()<br>   
+{<br>   
+room::create();<br>   
+}<br>   
+<br>   
+-----<br>   
+<br>   
+例子 1 的后果是灾难性的。当它被装入内存中，Driver 调用 create()，<br>   
+接着 create() 调用 create()，create() 还接着调用 create()，如此往<br>   
+复永无穷尽。就是说，create() 持续不断的调用自己，除非 Driver 发<br>   
+现这是一个太深的递归，将其强制退出。<br>   
+例子 2 是对的，但是除了浪费内存之外没有任何作用，因为它和 room.c<br>   
+的功能没有区别。对于这个 Object，Driver 调用它的 create()，在它的<br>   
+create() 通过 room::create() 返回去调用 room.c 中的 create()。<br>   
+<br>   
+总的来说，每个 MudLib 都是不同的，每个自己有一套标准函数的集<br>   
+合，它们对于一些基本的功能都能完成。有些功能特性多有些，有些少<br>   
+一些，有些在一些特殊方面完成特殊的工作，比如 Es2 带了对中文的处<br>   
+理。但是如果这个 MudLib 如果比较完善的话，它一般要提供一些标准<br>   
+的 Object 的特性和功能的说明。一般可能在 "/doc/build" 底下，可能<br>   
+叫做 "room_prop"、"monster_prop" 等。看看这些，你会得到你继承的<br>   
+Object 的有的函数，它们的输入参数，返回的数据类型，以及能完成<br>   
+什么工作。<br>   
+<br>   
+　<br>
+<br>
+第四节 小结<br>   
+<br>   
+实际上复杂对象的继承是很复杂的，就这么简单解释是远远不够的。<br>   
+这篇简介只是在你创建一些简单的 Object 能使用继承。更全面的讨论<br>   
+我们将在 Lpc进阶 里面看到。<br>   
+现在你应该知道：<br>   
+1) 每个 MudLib 有自己的一套基本 Object 的库，有着一些基本的<br>   
+功能，巫师们通过继承能更容易创建自己的 Object，不同的<br>   
+Object 之间的交互作用也更容易一些。<br>   
+2) 每个 MudLib 有自己一套标准。通常有自己一些文档说明标准的<br>   
+Object 是什么，有什么样的功能。<br>   
+3) 你可以用这样继承别的 Object 的功能：<br>   
+<br>   
+-----<br>   
+inherit "filename";<br>   
+-----<br>   
+<br>   
+这里的 filename 是被继承的 Object 的文件名。inherit "xxx"<br>   
+要在你的写的代码的开头部分。<br>   
+<br>   
+<br>   
+<br>   
+<br>   
+<br>   
+第六章 数据类型：object<br>   
+<br>   
+第一节 序言<br>   
+<br>   
+这是 Lpc 入门的最后一节，到现在，如果前面几章都读过了，你应该<br>   
+能写出一些简单的 object，比如 room 。而且能给 room 写一些简单的<br>   
+特写，通过添加一些函数。<br>   
+<br>   
+第二节 作为数据类型的 object<br>   
+<br>   
+2.1 数据类型 object<br>   
+在这一章中，你将了解更复杂一些的数据类型：object。一个 object<br>   
+类型的变量是指向一个装入内存的真正存在的 object 。象别的数据类<br>   
+型一样，你用 object 后面跟一个变量名来声明：<br>   
+<br>   
+object oTest;<br>   
+<br>   
+它有些特殊，它几乎没有什么操作符可以作用 object 这种数据类型。<br>   
+其实，也是的，让一个 room / npc 那是什么东西？而且一般的 efun，<br>   
+比如 write(), say() 也是不能操作 object 的，但是你会了解到，对于<br>   
+object 这中数据类型，有一些很重要的 efun。<br>   
+<br>   
+2.2 efun: this_object()<br>   
+这个 efun 返回一个 object，当前被执行的函数所在的那个 object。<br>   
+也就是说，在一个文件中，this_object() 提交的 object 是这样的：<br>   
+如果这个文件写的 object 如果自己被复制装入内存单独存在，那么就<br>   
+是这个 object，如果这个文件被继承了，那么就是继承的文件进行上一<br>   
+个过程，看它是不是单独存在，也就是没有再继承的文件了。可能有些<br>   
+难也理解，让我们看这个例子，比如你写了一个 object 叫 name.c，它<br>   
+被 player.c 继承了，那么 this_object() 实际返回的是 player.c 那个<br>   
+object，而不是 name.c 。我们再来看一个使用 this_object() 的实例：<br>   
+<br>   
+你想让一个 npc 走到一朵花旁边闻一下，但是条件是那个 npc 能自<br>   
+由运动，比如：没有晕倒，没有在战斗。<br>   
+你可以这么做：<br>   
+<br>   
+void eventSmellFlower()<br>   
+{<br>   
+if( this_object()->can_act() )<br>   
+{<br>   
+write( this_object()->query( "name" ) + "走到花的边上闻了闻。\n" );<br>   
+this_object()->add( "kee", 5 );<br>   
+}<br>   
+}<br>   
+<br>   
+can_act() 在 npc.c 里面是没有定义的，而且可能它继承的任何 object<br>   
+中也没有定义。那么，如果写成这样： if ( can_act() )，driver 没有<br>   
+在当前文件和继承的所有文件里面找到 can_act()，那就会有个编译错<br>   
+误的，但是 this_object()->can_act() 就不会出现这样的错误，就算是<br>   
+can_act() 根本不存在，那么结果是返回 0 ，就是 if 测试的表达式的<br>   
+结果是假的。这样有人会问：那这个 efun 有必要存在吗？driver 在<br>   
+编译是会自动搜索它继承的所有 object，不是自然有 this_object 了<br>   
+吗？ 确实，但是有时，这个 object (暂时叫做 A )会被别的 object (B)<br>   
+继承的，别的 object (B)可能会有这个函数，而且有时候 B 可能会重载<br>   
+A 和 A 继承的函数，而你不想让那些重载的函数失去作用，那么就采用<br>   
+this_object()-> 的形式。<br>   
+<br>   
+2.3 调用别的 Object 里面的函数<br>   
+这就是我们引入 object 这种数据类型的最大好处了。它能让我们调<br>   
+用别的 Object 里面的函数。在上面的例子中，我们可以知道当前的<br>   
+Object 能不动。下面的例子，你可以增加一个 player 身上的钱。<br>   
+调用别的 object 里面的函数，可以用下面两种方法：<br>   
+<br>   
+object->function(parameters)<br>   
+call_other(object, "function", parameters);<br>   
+<br>   
+example:<br>   
+this_player()->add_money( "silver", 5 );<br>   
+call_other( this_player(), "add_money", "silver", 5 );<br>   
+<br>   
+在某些时候( 很不精确的说法 )，mud 是一个由玩家命令触发的函数<br>   
+调用的链式反应。当一个 player 触发了一个函数调用链，那么这个 player<br>   
+就是 eufn this_player() 返回的那个 object。就是说，因为 this_player()<br>   
+依赖那个触发事件序列那个 player，那么你应该小心的使用 this_player()<br>   
+这个 efun，如果你把 this_player() 放在一些函数，这些函数别调用通<br>   
+常可能是 driver 来调用的，或者不一定是 player 来触发的，那么使用<br>   
+this_player() 最好不要出现在那些函数里面。比如 create(), setup()。<br>   
+<br>   
+2.4 lfun: init()<br>   
+在任何时候，一个“活的”的 object，接近一个 object (进入一个新<br>   
+房间，或者另一个 object 进入同一个 room )，init() 将自动被调用。<br>   
+利用这个，你可以写一些自动触发的效果，比如，你进入一家客栈，小<br>   
+二和你打招呼，看看这样一个例子：<br>   
+<br>   
+void init() {<br>   
+::init();<br>   
+if ( this_object()->can_act() )<br>   
+{<br>   
+this_object()->eventGreet( this_player() );<br>   
+}<br>   
+}<br>   
+<br>   
+eventGreet() 可以是下面那样：<br>   
+<br>   
+void eventGreet( object ob )<br>   
+{<br>   
+if ( !ob || environment( ob ) != environment( this_object() ) )<br>   
+{<br>   
+return ;<br>   
+}<br>   
+else<br>   
+{<br>   
+write( "小二说道：这位客官，您想要点什么？\n" );<br>   
+}<br>   
+}<br>   
+<br>   
+efun environment() 返回一个 object 所在的环境，比如一个 player 所<br>   
+在的 room，一把剑所在的 player 等等。<br>   
+<br>   
+2.5 在你的 room 里面放入一个 object<br>   
+看下面的一个例子，你可以在一个 player 所在的房间放入一条蛇：<br>   
+<br>   
+void test()<br>   
+{<br>   
+object env, snake;<br>   
+<br>   
+env = environment( this_player() );<br>   
+if ( objectp( env ) )<br>   
+{<br>   
+snake = clone_object( "/clone/monster/snake" );<br>   
+if ( objectp( snake ) )<br>   
+{<br>   
+snake->move( env );<br>   
+}<br>   
+}<br>   
+}<br>   
+<br>   
+例子中用到了一个 efun objectp ，这个 efun 判断传入的参数是不是一<br>   
+个真实的 object，如果是就返回真，否则就是假。efun clone_object()<br>   
+则试着把一个文件调入内存，变成一个 object。最后一个函数 move，<br>   
+这个显然不是一个 efun，但是总的来说，一般会调用 efun move_object<br>   
+把一个 object 放到另一个 object 的内部。<br>   
+<br>   
+小结 ( 也是 lpc 入门的小结 )<br>   
+在本章，我们了解作为数据类型的 object。同时也了解一些 efun：<br>   
+this_object(), this_player() environment() clone_object() objectp()<br>   
+的使用。还有 init() 这个特别的函数的使用。<br>   
+<br>   
+到了现在，你应该有足够的知识编写一些漂亮的东西了。当然，我强<br>   
+调过一点，你必须了解你为之开发的 mud，了解它的 mudlib，它的风格，<br>   
+多多阅读 mud 带的文档和说明。当然只是了解 lpc 入门 介绍的东西，<br>   
+对 lpc 的了解是很基础的，如果你想更进一步，最好的方法是，多读<br>   
+程序，多写程序，积累经验。Lpc 只是 C 的很小的一个子集，有一点点<br>   
+的特殊的东西，是很容易掌握的。<br>   
+<br>   
+<br>   
+</font>   
+</p>  
+   
+</body>   
+   
+</html>   

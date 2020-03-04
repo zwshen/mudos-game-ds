@@ -1,0 +1,6 @@
+#/obj/user.c
+conditions ([])
+dbase (["talk_point":11,"addition_armor":10,"Merits":(["tec":0,"sou":0,"bar":0,"bio":0,"wit":0,]),"heart_beat_rate":6,"exp":1111,"dex":2,"int":2,"con":2,"cure_count":6,"evil":12,"str":2,"race":"human","channels":({"chat","rumor","tchat",}),"max_hp":80,"level":2,"age":14,"combat_exp":2,"mob_record":({"/open/world1/tmr/area/npc/too","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"birthday":1123457908,"addition_damage":10,"gender":"女性","max_ap":60,"guild_gifts":({5,5,5,5,}),"name":"勇敢女孩","startroom":"/open/world1/tmr/area/hotel","id":"fiona","last_location":"/open/world1/tmr/area/street1","bank":(["past":0,]),"supply_point":80,"actions":,"volume":7,"attitude":"peaceful","newbie":1,"guild_rank":"楚楚可憐的小ㄚ頭","unit":"位","mp":60,"heart_modify":0,"DS_DATA_VERSION":19991107,"max_mp":60,"mud_age":1030,"wound":(["left_leg":0,"right_leg":0,"body":0,"head":0,"left_arm":0,"right_arm":0,]),"ap":60,"default_actions":,"hp":80,"MKS":6,"addition_shield":10,])
+skills (["combat":6,"parry":1,"block":1,"unarmed":5,"sword":1,"dodge":3,])
+learned (["combat":74,"unarmed":17,"dodge":10,])
+autoload ({"/obj/money/coin:3",})

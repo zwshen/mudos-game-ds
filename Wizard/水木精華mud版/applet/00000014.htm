@@ -1,0 +1,61 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清华站∶精华区</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+<A Name="top"></a>
+发信人:&nbsp;Ranma&nbsp;(乱马~~青山依旧在，几度夕阳红),&nbsp;信区:&nbsp;Mud_Builder&nbsp;<BR>
+标&nbsp;&nbsp;题:&nbsp;Re:&nbsp;再提valid_read中的euid问题&nbsp;<BR>
+发信站:&nbsp;BBS&nbsp;水木清华站&nbsp;(Sun&nbsp;Apr&nbsp;19&nbsp;06:58:12&nbsp;1998)&nbsp;<BR>
+&nbsp;<BR>
+用这个，调通了的&nbsp;<BR>
+int&nbsp;valid_read(string&nbsp;file,&nbsp;mixed&nbsp;user,&nbsp;string&nbsp;func)&nbsp;<BR>
+{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;string&nbsp;euid,&nbsp;status,&nbsp;path,&nbsp;dir;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;i;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(&nbsp;!objectp(user)&nbsp;)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;error(&quot;TRUST_D-&gt;valid_read:&nbsp;Invalid&nbsp;argument&nbsp;type&nbsp;of&nbsp;user.\n&quot;);&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;Get&nbsp;the&nbsp;euid&nbsp;and&nbsp;status&nbsp;of&nbsp;the&nbsp;user.&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;euid&nbsp;=&nbsp;geteuid(user);&nbsp;<BR>
+//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;write(sprintf(&quot;user:%O,&nbsp;euid:%s\n&quot;,user,euid));&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(sscanf(file,&quot;/adm/%*s&quot;&nbsp;)&nbsp;)&nbsp;return&nbsp;1;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(&nbsp;!euid&nbsp;)&nbsp;return&nbsp;1;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;status&nbsp;=&nbsp;get_status(user);&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(&nbsp;euid==ROOT_UID&nbsp;)&nbsp;return&nbsp;1;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(&nbsp;sscanf(file,&nbsp;&quot;/u/&quot;&nbsp;+&nbsp;euid[0..0]&nbsp;+&nbsp;&quot;/&quot;&nbsp;+&nbsp;euid&nbsp;+&nbsp;&quot;/%*s&quot;)&nbsp;)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;1;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(sscanf(file,&nbsp;&quot;/u/%s/%s/%*s&quot;,path,dir)&nbsp;){&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(status&nbsp;==&nbsp;&quot;(admin)&quot;&nbsp;)&nbsp;return&nbsp;1;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;if&nbsp;(strlen(path)==1&nbsp;&amp;&amp;&nbsp;dir&nbsp;!=&nbsp;euid)&nbsp;return&nbsp;0;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;1;&nbsp;<BR>
+&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;陌生的城市啊,熟悉的角落里&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;也曾彼此安慰,也曾相拥叹息,不管将会面对什么样的结局&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在漫天风沙里,望着你远去,我已悲伤得不能自已&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;多盼能送君千里,直到山穷水尽,一生和你相依!&nbsp;<BR>
+&nbsp;<BR>
+※&nbsp;来源:·BBS&nbsp;水木清华站&nbsp;bbs.net.tsinghua.edu.cn·[FROM:&nbsp;166.111.34.55]&nbsp;<BR>
+<A HREF="00000013.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一页</A>
+<A HREF="index.htm">回到目录</A>
+<A HREF="#top">回到页首</A>
+<A HREF="00000015.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+</BODY></HTML>

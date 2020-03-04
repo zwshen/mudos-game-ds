@@ -1,0 +1,16 @@
+
+	acos (3)		LP MudOSv21c7		(7 Jul 1996)
+
+	ㄧ计嘿:
+		acos() - 肚疊翴计 (float) は緇┒ 
+		(arccosine).
+	ㄧ计粂猭:
+		float acos( float f );
+
+		疊翴计 acos( 疊翴计 f );
+	ㄧ计ノ猭:
+                肚把计 f は緇┒, f 虫琌褃 (radians).
+	把σㄧ计:
+		asin(3), atan(3), cos(3), sin(3), tan(3)
+	も陆亩:
+                Phoebus@ZH	1997.Aug.11.		(Writen 5/24/97)

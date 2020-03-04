@@ -1,0 +1,14 @@
+¥Ø¿ý¡R/open/world1/cominging/area/npc/eq/
+boots.c             ­««p¥Ö¹u            bronzering.c        «C»É«üÀô          
+cloudarmor.c        ºñ±m²¯¥Ò            corsletmanteau.c    ¥Ò«`              
+defaulteq.c         ¹w³Æ¦çª«            e_cloth.c           º¡¦½µuÅ¨          
+flurryneck.c        ¯e­·                flyarmor.c          ­¸¦Ð              
+flyboots.c          »´¨B                gloves.c            ¥¬®M¤â            
+hookgloves.c        ÅI¤M                incrystate.c        µw¥Ö¥Ò            
+mightwrists.c       ±j¤OÅ@µÃ            s_cloth.c           Á¡µ·¦ç­m          
+sandal.c            ¯ó¾c                snakecloth.c        ³DÅì              
+steelhead.c         ÅKÀY²¯              steelshield.c       ¿ûÅKÅ@¬Þ          
+surcoat.c           Â¸¥¬©Ü­·            swatheshoe.c        Äñ¥¬¾c            
+tg_armor.c          ¥ÖñZ¥Ò              tg_boots.c          ¹L½¥ªø¹u          
+whiterobe.c         ²b¥Õªø³T            wrists.c            Äñ¥¬Å@µÃ          
+yungcloth.c         ÀmÄÊ                

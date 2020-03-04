@@ -1,0 +1,5 @@
+#/obj/user.c
+conditions ([])
+dbase (["age":14,"DS_DATA_VERSION":19991107,"max_mp":60,"cure_count":6,"title":"情城池第三代弟子","actions":,"family":(["generation":3,"family_name":"情城池","title":"弟子","privs":-1,]),"attitude":"peaceful","quest":(["love2":1,"love1":1,]),"default_actions":,"gender":"女性","name":"我愛羅","max_ap":60,"supply_point":60,"combat_exp":1000,"channels":({"chat","rumor","tchat",}),"race":"human","level":1,"id":"wahaha","heart_modify":0,"wound":(["left_arm":0,"right_arm":0,"left_leg":0,"right_leg":0,"body":0,"head":0,]),"birthday":1146935357,"mp":38,"ap":60,"startroom":"/open/world1/tmr/area/hotel","hp":80,"newbie":1,"exp":2777,"Merits":(["wit":0,"tec":0,"bio":0,"bar":0,"sou":0,]),"dex":2,"int":2,"con":2,"str":2,"bank":(["past":0,]),"guild_gifts":({5,5,5,5,}),"evil":-1,"addition_shield":10,"heart_beat_rate":6,"volume":7,"addition_armor":10,"addition_damage":10,"guild_rank":"情城池之入門學徒","mud_age":1045,"class1":"情城池","talk_point":8,"max_hp":80,"last_location":"/open/world1/tmr/area/hotel","unit":"位","adv_class":1,])
+skills (["combat":1,])
+autoload ({})

@@ -1,0 +1,49 @@
+1.Driver:
+ftp nctuccca.edu.tw
+在 /packages/networking/MUD/LPmud/MudOS/driver/minor 下
+可找到 MudOS_v21c2.tar.gz    745784 bytes (好像就是 ES2 現在用的版本)
+
+解開之後進入 MudOS_v21c2/src 
+
+如果你是用 Linux 的話
+修改 GNUmakefile or Makefile 的 #UALARM=ualarm.c to UALARM=ualarm.c
+
+為了使 Driver 有最其本的中文能力　要修改 
+comm.c 中的
+  static void telnet_neg P2(char *, to, char *, from) {..}
+  裡面的 if (ch & 0x80) {  => if (ch == 0xff ) {
+
+然後直接打 make ,因為在 Linux 下會先讀 GNUmakefile 的關係
+在編譯中途會 cd packages;gmake 然後就中斷了
+此時只需 cd packages;make;cd ..;make 就可以造出 driver 了
+copy driver /mud/bin/driver
+
+2.ES2 Mudlib:
+關於使用權力的說明請看 MUD 版 5/24 日 - ES2 mudlib test release 一文
+(Annihilator 大神的作品)
+=>
+ES2 mudlib release 在 TMCA 的 ftp site, IP address: 140.114.70.217
+檔名: /pub/ES2/ESII_1.0b.tar.gz, 壓縮檔 442K, 解壓縮約需 2M 空間　 
+
+假設抓回來之後在 /mud/lib 下解開成 /mud/lib/es2
+修改其中的 adm/etc/wizlist 
+加入你所要用的 id (等級) 例如 test (admin) 
+
+Copy Driver src 中的 Config.example to /mud/bin/es2config
+修改裡面的:
+name: 你自己的ES2名字
+port number : 4000
+mudlib directory : /mud/lib/es2
+binary directory : /mud/bin        (這一行是 MUD driver 的執行檔目錄)
+global include file : "/include/globals.h"    
+                      (!! 要把預設的 config.h 改成 globals.h )
+
+cd /mud/bin; driver es2config&
+然後用你自己設好的 id login　理論上就可以用了
+
+以神的 id 提升其他角色的方法:
+promote <id> (等級)
+例如:
+promote newchar (admin)
+promote newcat (arch)
+promote newdog (wizard)

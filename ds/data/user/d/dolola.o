@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions ([])
+dbase (["race":"human","addition_damage":10,"DS_DATA_VERSION":19991107,"supply_point":38,"actions":,"default_actions":,"max_mp":60,"channels":({"chat","rumor","tchat",}),"max_hp":80,"birthday":1194181749,"id":"dolola","Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"gender":"¤k©Ê","env":([]),"name":"°Â°Õ","mp":10,"heart_beat_rate":6,"max_ap":60,"ap":60,"startroom":"/open/world1/tmr/area/hotel","heart_modify":0,"age":14,"attitude":"peaceful","newbie":1,"exp":737,"addition_shield":10,"dex":2,"unit":"¦ì","int":2,"con":2,"bank":(["past":1970,]),"str":2,"talk_point":8,"level":1,"hp":10,"last_location":"/open/world1/tmr/dragoncity/hotel","volume":7,"wound":(["head":3,]),"evil":-1,"addition_armor":10,"mud_age":290,"cure_count":19,"guild_gifts":({5,5,5,5,}),])
+skills (["unarmed":0,"combat":1,"blade":5,])
+learned (["unarmed":1,"combat":0,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

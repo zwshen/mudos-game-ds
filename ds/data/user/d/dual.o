@@ -1,0 +1,6 @@
+#/obj/user.c
+conditions ([])
+dbase (["dex":2,"supply_point":60,"int":2,"guild_gifts":({5,5,5,5,}),"con":2,"str":2,"evil":2,"heart_modify":1,"last_location":"/open/world1/tmr/area/school/wood3","env":(["get":"YES",]),"addition_damage":10,"channels":({"chat","rumor","tchat",}),"age":14,"race":"human","level":1,"max_hp":80,"ap":60,"wound":(["left_arm":0,"right_leg":0,"left_leg":0,"right_arm":0,"body":0,"head":0,]),"talk_point":8,"birthday":1113329458,"cure_count":2,"actions":,"attitude":"peaceful","mud_age":631,"max_mp":60,"volume":7,"startroom":"/open/world1/tmr/area/hotel","gender":"女性","id":"dual","MKS":2,"name":"修馬赫","newbie":1,"mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"default_actions":,"DS_DATA_VERSION":19991107,"addition_shield":10,"addition_armor":10,"hp":80,"heart_beat_rate":6,"unit":"位","mp":60,"max_ap":60,"Merits":(["sou":0,"wit":0,"tec":0,"bio":0,"bar":0,]),"exp":1159,])
+skills (["unarmed":0,"parry":0,"combat":1,"dodge":0,"dagger":0,])
+learned (["unarmed":2,"parry":1,"combat":7,"dodge":1,"dagger":2,])
+autoload ({"/obj/money/coin:51",})

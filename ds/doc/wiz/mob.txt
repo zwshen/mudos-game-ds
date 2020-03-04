@@ -1,0 +1,195 @@
+¡¼¡¼¡¼ NPC ¡¼¡¼¡¼
+
+¡¼ object carry_object(string file)
+
+½Æ»s NPC ¨­¤W©ÒÄâ±aªºªF¦è.
+
+¡¼ object add_money(string type, int amount)
+
+³]©w NPC ¨­¤W©ÒÄâ±aªº¿ú¹ôºØÃþ¤Î¼Æ¶q.
+
+¡¼ int accept_fight(object who)
+
+§P©w NPC ¬O§_±µ¨ü¬D¾Ô (fight). ­º¥ýÀË¬d NPC ªº¾Ô°«¦æ¬° (attitude), 
+§P©w¬O§_¥i¥H³Q³ò¼Þ. ¦A¨Ó§P©w NPC ¦Û¨­ªºÅé¤O, ¨Ã¨Ì attitude ªº³]©w¨M
+©w¬O§_±µ¨ü¬D¾Ô. 
+
+¡¼ int chat()
+
+¦pªG NPC ¦³³]©w¥ô¦ó©T©w®É¶¡·|°õ¦æªº¨Æ¶µ, «h¦¹¨ç¼Æ·|¨Ì·Ó chat_chance
+©Ò³]ªº¼Æ¦r¶Ã¼Æ¨M©w¬O§_¥i¥H°õ¦æ, ­Y¥i, «h¶Ã¼Æ¨M©w­n°õ¦æ¨º¤@¶µ, ¦pªG¸Ó
+¨Æ¶µ¬°¤å¦r¦r¦ê, «hª½±µÅã¥Ü¸Ó¦r¦ê, ­Y¬°¨ç¼Æ³]©w, «h©I¥s¨Ã°õ¦æ¸Ó¨ç¼Æ.
+
+¡¼ int random_move()
+
+¤º©wªº NPC ³}µó¨ç¼Æ, ¨t²Î·|¶Ã¼Æ¨M©w¤@­Ó¥X¤f¨Ã¸ÕµÛ¨Ï¸Ó NPC ©¹¨º­Ó¤è¦V
+²¾°Ê. (¦pªG¦³¥X¤fªº¸Ü)
+
+¡¼ void cast_spell(string spell)
+
+¨Ï¤@­Ó NPC ¬Iªk. ­º¥ý½T©w NPC ·|¬Iªk (ÀË¬d§Þ¯à) ±µ¤U¨Ó¥Ñ¨t²Î¶Ã¼Æ¨M©w
+¬Iªk¹ï¶H.
+¥Ø«e§Ú´ú¸Õªº¥Îªk¬Ovoid cast1_spell(string spell)
+
+¡¼ int return_home(object home)
+
+±N³Q¸j¨«ªº NPC °e¦^®a, ­º¥ý¨t²Î·|§P©w NPC ¬O§_³B©ó¾Ô°«ª¬ºA¤¤, ¦pªG¬O
+¨º´N¥u¦nµ¥¤U¦¸¤F... ¤£µM NPC ´N¤j·n¤jÂ\ªºÅÜ¦^¥h¤F.
+
+¢[1m
+[3] ª`·N                                     Às½¼(Tue Apr 27)
+----------------------------------------------------------------------
+¦³¥[¤J void init() ªº©Çª«­nª`·N°Õ!!
+µo²{¤j¤jªºbug
+
+¦pªG§A¦³ init() ¨º¤@©w­n¦b init() ²Ä¤@¦æ¥[¤J ::inti();
+¥i¥H°Ñ¦Ò goto 2 ªFÃäªº ¤ý¤jµo wang
+
+¢[1m ¦pªG¤£¥[¤Wªº¤U³õ¦p¤U:
+1. ¤£·|°O¤³ (¤£·|¥D°Ê§ðÀ»)
+2. ¦]¬°¤£·|¥D°Ê§ðÀ»©Ò¥H ¤@¨ÇÀ³¸Ó·|¥D°Ê§ðÀ»ªº¤]¤£·|¥´¤H
+3. ¸Ó·|followªº¤]¤£·|follow
+
+¢[1m ¦³¥[¤Jinit()ªº, ¤@¯ë¬O master waiter °Ó¤H banker
+¥H¤Î¨ä¥Lªº quest NPC
+
+¢[1m ¦³ªº§Ö§ï, ¥u­n¥[¤@¦æ ::init()
+
+¢[1m ©Ð¶¡ªº init() ©Mª««~ªº init() ¤]­n¤p¤ßÀË¬d´ú¸Õ,
+¤£¹L¤@¯ëªºroom©Mª««~À³¸Ó¤£¥Î¥[ ::init() 
+°£«D§A¦³ inherit ¯S§OªºªF¦è, ¦p MOBROOM... (¤£©ñ¤ßÁÙ¬O¦A´£¿ô¤@¹M)
+¢[0m
+
+
+
+
+####©Çª«°ò¥»¸ê®Æ####
+¤@­Ó©Çª«ªº°ò¥»¸ê®Æ¦³ 
+
+level µ¥¯Å ¼vÅT©Çª«±j«×¥D­n¦]¯À, ¦]¬°©Ò¦³ÄÝ©Ê¤£¯à¶W¹Llv ¤Ó¦h
+age   ¦~ÄÖ
+
+race  ºØ±Ú ¥i¥H¬° "¤HÃþ" "³¥Ã~" "§¯Å]" ¥H«á¦A¼W¥[
+      ºØ±Ú­Y¬O"³¥Ã~", «h­n³]©w limbs ©M verbs 
+	³¥Ã~(beast) ªºverbs ¦³"hoof"ÃÞ "bite"«r "claw"§ì "poke"°Ö
+
+gender ©Ê§O: ¨t²Î®Ú¾Ú¦¹³]©wµ¹¤©¤HºÙ¥N¦Wµü. ¥i¥H¬° "¤¤©Ê¯«" "¨k©Ê" "¤k©Ê" "¶¯©Ê" "»Û©Ê"
+	     ¨ä¤HºÙ¥N¦Wµü¤À§O¬° "Í¢" "¥L" "¦o" ©M "¨e"
+	
+str   	¤O¶q »P§ðÀ»¤O©M­t­«¦³Ãö
+dex   	©R¤¤ ©R¤¤²v »P °{¸ú²v
+con   	Åé½è »P¥Í©R¤O¤W­­©M¥Í©R¤O¦^ÂÐ³t«×¦³Ãö
+int   	´¼¼z »P¾Ç²ß©M¬Iªk¦³Ãö
+	(ps ÄÝ©Ê¦pªG¤£³]©w, «h¨t²Î·|¦Û°Ê·Óµ¥¯Å¨M©w)
+
+max_hp 	¥Í©R¤O³Ì¤j­È
+max_mp 	Åé¤O³Ì¤j­È
+
+exp 		¸gÅç­È
+combat_exp 	¾Ô°«¼ô½m«×
+
+war_score ¾Ô¥\  ¨ä­È¬°1~5ÂI¬°¨Î.(¥u¦³¾Ôª§®Éªº©Çª«¥i¥H³]©w¦¹­È)
+
+evil  °}Àç (°}Àç­È±q -999 ¨ì 999 ¤£¹L¤@¯ë³Ì¦n³]¦b-99 ¨ì +99 ¥H¤º)
+            ¥¿ªºªí¥Ü¨¸´c, ­tªºªí¥Üµ½¨}
+
+skill §Þ¯à
+
+	¨Ò¦p: set_skill("dodge",50);
+
+temp_apply ¾Ô°«ªþ¥[¸Ë³Æ®ÄªG ³q±`¬O«ü eq ªþ¥[ªº¼È®É©Ê®ÄªG
+¦p
+        set_temp("apply/damage", 10);	//ªþ¥[¶Ë®`¤O
+        set_temp("apply/hit", 10);	//ªþ¥[©R¤¤²v
+        set_temp("apply/armor", 3);	//ªþ¥[ª«²z©Ê¨¾Å@¤O
+	set_temp("apply/shield", 3);	//ªþ¥[«Dª«²z©Ê(Å]ªk)¨¾Å@¤O
+
+temp_spell ¾Ô°«ªþ¥[ªk³N®ÄªG «ü¬Iªk³y¦¨ªº¼È®É©Ê®ÄªG.
+¦p
+        set_temp("spell/damage", 10);	//ªþ¥[¶Ë®`¤O
+        set_temp("spell/hit", 10);	//ªþ¥[©R¤¤²v
+        set_temp("sepll/armor", 3);	//ªþ¥[ª«²z©Ê¨¾Å@¤O
+	set_temp("spell/shield", 3);	//ªþ¥[«Dª«²z©Ê(Å]ªk)¨¾Å@¤O
+
+·Q­nÅý©Çª«¥D°Ê±þ¤Hªº¸Ü ­n³] set("attitude", "aggressive");
+----------------------------------------------------------------------
+¦pªG set("attitude","killer"); ¨º³o­Ómob·|auto kill ÁÙ·| follow ³á.
+
+
+¡¼¡¼¡¼ 3¤ë23¤é ·s¼W!! ¡¼¡¼¡¼
+
+ talk.c ¬°¤FÅý¥ô°È§ó¦³ÅÜ¤Æ¥H¤ÎNPC§ó¥Í°Ê, ¥[¤F¦¹¤@«ü¥O.
+ 
+  ¥H¤U¬°NPC·s¼W¨ç¼Æ, ¹ïÀ³©ótalk ¥i¥H°µ¨ì©Ò¦³°Ê§@.
+
+ ¡¼1. talk_action [¦^À³°Ê§@]
+
+     ­YNPC¦³¥[¤J¦¹¨ç¦¡, «h talk ®É·|NPC°õ¦æ¦¹¨ç¦¡¤§°Ê§@.
+
+     return 1 «h¤£·|¥X²{ talk_reply°T®§, ­Y¬°return 0; «h°õ¦æ§¹action«á·|©I¥sreply
+ 
+ ½d¨Ò:(/u/l/luky/npc/passenger.c)
+
+	 int talk_action(object me)	
+	 {
+	  command("smile "+me->query("id") );
+ 	  return 1;
+ 	 }
+
+ ¡¼2.talk_reply [¦^À³°T®§]
+ 
+      ­YNPC¦³³]©w¦¹¦r¦ê( set("talk_reply",<°T®§>); ) «h¦btalk®É·|»¡¥X¦¹<°T®§>¦r¦ê.
+
+      ¦r¦ê¤¤¥i¥H¦³$N(NPC¦WºÙ) $n(ª±®a¦WºÙ) µ¥µ¥¥N¸¹;
+
+      ­Y¨S¦³³], «h·|¥HNPCªººA«×³]©w¨Ó¨M©w·|À³°T®§, ­YºA«×¬°"killer"«h·|¶}©l§ðÀ».
+
+
+
+
+// dog.c
+inherit NPC;
+
+void create()
+{
+        set_name("³¥ª¯", ({ "dog" }) );
+        set("long", "¤@°¦´ý¨­Å¼¤¼¤¼ªº³¥ª¯¡C\n");
+        set("race", "³¥Ã~");
+	set("gender","»Û©Ê");   // 1999.2.28 ¼W¥[¦¹µù¸Ñ
+        set("age", 3);
+        set("level",2);
+        
+        set("str", 14);		// ¨ä¥L¤£³]«h¨t²Î·|¦Û°Ê²£¥Í(¨Ì·Ólevel)
+        set("dex", 16);		//
+
+        set("limbs", ({ "ÀY³¡", "¨­Åé", "«e¸}", "«á¸}", "§À¤Ú" }) ); //¨ü§ð³¡¦ì
+        set("verbs", ({ "bite", "claw" }) );			     //§ðÀ»¤è¦¡
+	
+	set_skill("dodge",32);	//°{¸ú§Þ¯à
+
+        set("chat_chance", 6);
+        set("chat_msg", ({
+                (: this_object(), "random_move" :),	//·|¦Û¤v¨«°Ê
+                "³¥ª¯¥Î»ó¤l»D¤F»D§Aªº¸}¡C\n",
+                "³¥ª¯¦b§Aªº¸}Ãä®Á®ÁÀ¿À¿ªº¡M·Q°QªF¦è¦Y¡C\n",
+                "³¥ª¯¹ïµÛ§A·n¤F·n§À¤Ú¡C\n",
+                "³¥ª¯¥Î«á»L§ì¤F§ì¦Û¤vªº¦Õ¦·¡C\n" }) );
+                
+        set_temp("apply/damage", 10);	//ªþ¥[¶Ë®`¤O
+        set_temp("apply/hit", 10);	//ªþ¥[©R¤¤²v
+        set_temp("apply/armor", 3);	//ªþ¥[¨¾Å@¤O
+
+        setup();
+}
+
+int accept_object(object who, object ob)	//¥i±µ¨üªF¦èªº§PÂ_
+{
+        if( ob->id("bone") ) {
+                set_leader(who);
+                message("vision", name() + "°ª¿³¦a¨L¨L¥s¤F°_¨Ó¡C\n", environment());
+                return 1;	//¶Ç¦^1´Nªí¥Ü¥i±µ¨üªF¦è
+        }
+}
+
+
+

@@ -1,0 +1,17 @@
+
+	clone_object(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		clone_object() - 載入一個物件的復制物件
+	函數語法:
+		object clone_object( string name );
+
+		物件 clone_object( 字串 name );
+	函數用法:
+		根據定義的 name 載入一個新的物件 (object) , 並且給此
+		物件一個獨有的名稱. 此函式傳回一個新的物件. 一個物件
+		的 environment()  傳回值如果不為 0  的話, 就無法復制.
+	參考函數:
+		destruct(3), move_object(3), new(3)
+	手冊翻譯:
+		Phoebus@ZH	97.Jan.27.		(Writen 5/23/97)

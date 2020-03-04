@@ -1,0 +1,17 @@
+
+	in_input(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	ㄧ计嘿:
+		in_input() - 耞產琌タ input_to ㄧΑ块
+			     家Αい
+	ㄧ计粂猭:
+		int in_input( object default : F_THIS_OBJECT );
+
+		俱计 in_input( ン 箇砞 : F_THIS_OBJECT );
+	ㄧ计ノ猭:
+		狦ンタ input_to ┪琌 get_char ㄧΑ块家Αい,
+		玥肚 1.
+	把σㄧ计:
+		get_char(3), input_to(3)
+	も陆亩:
+		Phoebus@ZH	97.Feb.14.		(Writen 5/23/97)

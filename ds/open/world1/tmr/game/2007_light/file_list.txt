@@ -1,0 +1,5 @@
+¥Ø¿ý¡R/open/world1/tmr/game/2007_light/
+light_lamp.c        ¬èºÖ¤Ñ¿O            oil.c               ¤Ñ¿O¿Oªo          
+oil2.c              ¤Ñ¿O°ª¯Å¿Oªo        oil3.c              ¤Ñ¿O³»¯Å¿Oªo      
+oil4.c              ¤@¤½¤çªº¿Oªo        oil5.c              ¿Oªo§U¿U¾¹        
+wish_lamp_doll.c    ¤Ñ¿O«½«½            

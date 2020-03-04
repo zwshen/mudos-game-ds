@@ -1,0 +1,75 @@
+<HTML>
+<HEAD>
+<TITLE>BBSれ睲地弘地跋</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBSれ睲地弘地跋</H1></CENTER>
+<A Name="top"></a>
+祇獺:&nbsp;jameson&nbsp;(ㄤ),&nbsp;獺跋:&nbsp;Mud_Builder&nbsp;<BR>
+夹&nbsp;&nbsp;肈:&nbsp;LPC&nbsp;Manual&nbsp;-&nbsp;Introduction&nbsp;(1)&nbsp;<BR>
+祇獺:&nbsp;BBS&nbsp;れ睲地&nbsp;(Fri&nbsp;May&nbsp;23&nbsp;14:15:58&nbsp;1997)&nbsp;<BR>
+&nbsp;<BR>
+Introduction&nbsp;<BR>
+&nbsp;<BR>
+This&nbsp;tutorial&nbsp;is&nbsp;intended&nbsp;to&nbsp;be&nbsp;something&nbsp;that&nbsp;anyone&nbsp;can&nbsp;read&nbsp;and&nbsp;learn&nbsp;from.&nbsp;Now,&nbsp;this&nbsp;is,&nbsp;of&nbsp;<BR>
+course,&nbsp;impossible,&nbsp;so&nbsp;let's&nbsp;amend&nbsp;that&nbsp;a&nbsp;bit.&nbsp;It's&nbsp;a&nbsp;tutorial&nbsp;that&nbsp;anyone&nbsp;with&nbsp;at&nbsp;least&nbsp;a&nbsp;bit&nbsp;of&nbsp;<BR>
+knowledge&nbsp;of&nbsp;programming&nbsp;and&nbsp;a&nbsp;will&nbsp;to&nbsp;learn&nbsp;can&nbsp;use.&nbsp;You&nbsp;don't&nbsp;have&nbsp;to&nbsp;know&nbsp;about&nbsp;C&nbsp;before&nbsp;<BR>
+you&nbsp;start,&nbsp;and&nbsp;I&nbsp;believe&nbsp;that&nbsp;even&nbsp;true&nbsp;virgins&nbsp;might&nbsp;be&nbsp;able&nbsp;to&nbsp;learn&nbsp;how&nbsp;to&nbsp;code.&nbsp;They&nbsp;will,&nbsp;of&nbsp;<BR>
+course,&nbsp;have&nbsp;a&nbsp;much&nbsp;harder&nbsp;job&nbsp;though.&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+Experienced&nbsp;coders,&nbsp;even&nbsp;mud&nbsp;coders,&nbsp;will&nbsp;need&nbsp;to&nbsp;read&nbsp;the&nbsp;tutorial&nbsp;since&nbsp;it&nbsp;explains&nbsp;concepts&nbsp;that&nbsp;<BR>
+are&nbsp;unique&nbsp;for&nbsp;this&nbsp;game,&nbsp;but&nbsp;they&nbsp;will&nbsp;be&nbsp;able&nbsp;to&nbsp;skim&nbsp;most&nbsp;of&nbsp;it&nbsp;and&nbsp;focus&nbsp;only&nbsp;on&nbsp;the&nbsp;trickier&nbsp;<BR>
+bits.&nbsp;I&nbsp;leave&nbsp;the&nbsp;selection&nbsp;of&nbsp;what&nbsp;is&nbsp;and&nbsp;what&nbsp;is&nbsp;not&nbsp;important&nbsp;to&nbsp;you,&nbsp;the&nbsp;reader,&nbsp;since&nbsp;you're&nbsp;the&nbsp;<BR>
+only&nbsp;one&nbsp;who&nbsp;knows&nbsp;how&nbsp;much&nbsp;you&nbsp;need&nbsp;to&nbsp;learn.&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+As&nbsp;the&nbsp;LPC&nbsp;language&nbsp;in&nbsp;actual&nbsp;application&nbsp;is&nbsp;closely&nbsp;knitted&nbsp;to&nbsp;the&nbsp;mudlib&nbsp;which&nbsp;it&nbsp;is&nbsp;used&nbsp;in,&nbsp;I&nbsp;<BR>
+will&nbsp;also&nbsp;cover&nbsp;part&nbsp;of&nbsp;that.&nbsp;However,&nbsp;I&nbsp;will&nbsp;not&nbsp;teach&nbsp;you&nbsp;how&nbsp;to&nbsp;use&nbsp;the&nbsp;mudlib&nbsp;in&nbsp;detail,&nbsp;you'll&nbsp;<BR>
+have&nbsp;to&nbsp;read&nbsp;other&nbsp;documents&nbsp;for&nbsp;that.&nbsp;All&nbsp;of&nbsp;this&nbsp;makes&nbsp;this&nbsp;tutorial&nbsp;pretty&nbsp;specific&nbsp;for&nbsp;games,&nbsp;and&nbsp;<BR>
+Genesis&nbsp;in&nbsp;particular.&nbsp;Keep&nbsp;this&nbsp;in&nbsp;mind&nbsp;if&nbsp;you&nbsp;are&nbsp;reading&nbsp;it&nbsp;on&nbsp;another&nbsp;game.&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+I&nbsp;hope&nbsp;you'll&nbsp;find&nbsp;the&nbsp;tutorial&nbsp;useful&nbsp;and&nbsp;worth&nbsp;the&nbsp;effort&nbsp;it&nbsp;takes&nbsp;to&nbsp;read.&nbsp;It&nbsp;sure&nbsp;took&nbsp;a&nbsp;lot&nbsp;of&nbsp;effort&nbsp;<BR>
+to&nbsp;write,&nbsp;so&nbsp;it'd&nbsp;better&nbsp;not&nbsp;be&nbsp;for&nbsp;nothing!&nbsp;:)&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;Acknowledgments:&nbsp;Thanks&nbsp;for&nbsp;helping&nbsp;out&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;Tutorial&nbsp;Setup:&nbsp;The&nbsp;way&nbsp;the&nbsp;tutorial&nbsp;works&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;History:&nbsp;A&nbsp;brief&nbsp;historical&nbsp;entry&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;Gamedriver/Mudlib:&nbsp;What&nbsp;is&nbsp;what?&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;Administrative&nbsp;Setup:&nbsp;How&nbsp;is&nbsp;the&nbsp;mud&nbsp;run?&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;Writing&nbsp;Code:&nbsp;How&nbsp;it&nbsp;should&nbsp;look.&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+i&nbsp;-&nbsp;Acknowledgments&nbsp;<BR>
+&nbsp;<BR>
+I'd&nbsp;like&nbsp;to&nbsp;start&nbsp;by&nbsp;thanking&nbsp;Thorsten&nbsp;Lockert&nbsp;and&nbsp;Christian&nbsp;Markus,&nbsp;perhaps&nbsp;better&nbsp;known&nbsp;as&nbsp;Plugh&nbsp;<BR>
+and&nbsp;Olorin,&nbsp;for&nbsp;their&nbsp;help&nbsp;in&nbsp;proofreading&nbsp;this&nbsp;text,&nbsp;suggesting&nbsp;improvements&nbsp;and&nbsp;in&nbsp;general&nbsp;being&nbsp;<BR>
+supportive&nbsp;and&nbsp;providing&nbsp;constructive&nbsp;feedback.&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+Without&nbsp;them&nbsp;this&nbsp;rather&nbsp;lengthy&nbsp;project&nbsp;would&nbsp;have&nbsp;taken&nbsp;even&nbsp;longer&nbsp;(mind-boggling,&nbsp;but&nbsp;true)&nbsp;<BR>
+to&nbsp;complete&nbsp;and&nbsp;ended&nbsp;up&nbsp;a&nbsp;lot&nbsp;worse.&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+ii&nbsp;-&nbsp;Tutorial&nbsp;Setup&nbsp;<BR>
+&nbsp;<BR>
+The&nbsp;manual&nbsp;is&nbsp;divided&nbsp;into&nbsp;three&nbsp;progressively&nbsp;more&nbsp;advanced&nbsp;chapters.&nbsp;The&nbsp;first&nbsp;chapter&nbsp;will&nbsp;be&nbsp;<BR>
+explain&nbsp;basics&nbsp;about&nbsp;coding&nbsp;and&nbsp;LPC&nbsp;without&nbsp;delving&nbsp;too&nbsp;deep&nbsp;into&nbsp;specifics.&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+The&nbsp;second&nbsp;chapter&nbsp;will&nbsp;be&nbsp;for&nbsp;a&nbsp;more&nbsp;intermediate&nbsp;level&nbsp;of&nbsp;coding,&nbsp;explaining&nbsp;in&nbsp;full&nbsp;all&nbsp;the&nbsp;<BR>
+aspects&nbsp;of&nbsp;functions&nbsp;and&nbsp;operators&nbsp;that&nbsp;might&nbsp;have&nbsp;been&nbsp;treated&nbsp;a&nbsp;bit&nbsp;too&nbsp;easy&nbsp;in&nbsp;the&nbsp;first&nbsp;chapter.&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+e)'&nbsp;comment&nbsp;after&nbsp;all&nbsp;occurrences&nbsp;of&nbsp;the&nbsp;<BR>
+male&nbsp;`he',&nbsp;but&nbsp;that&nbsp;strikes&nbsp;me&nbsp;as&nbsp;more&nbsp;than&nbsp;just&nbsp;a&nbsp;bit&nbsp;silly.&nbsp;Until&nbsp;the&nbsp;English&nbsp;language&nbsp;comes&nbsp;up&nbsp;<BR>
+with&nbsp;a&nbsp;strictly&nbsp;neutral&nbsp;pronoun&nbsp;I'll&nbsp;stick&nbsp;to&nbsp;using&nbsp;the&nbsp;all-inclusive&nbsp;male&nbsp;one.&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+Chapters&nbsp;that&nbsp;describe&nbsp;efuns/sfuns/lfuns/macros&nbsp;in&nbsp;detail&nbsp;have&nbsp;a&nbsp;subcaption&nbsp;with&nbsp;the&nbsp;names&nbsp;of&nbsp;the&nbsp;<BR>
+discussed&nbsp;items&nbsp;within&nbsp;brackets&nbsp;for&nbsp;easy&nbsp;finding&nbsp;if&nbsp;you're&nbsp;just&nbsp;browsing&nbsp;the&nbsp;tutorial&nbsp;later.&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+“&nbsp;ㄓ方:BBS&nbsp;れ睲地&nbsp;bbs.net.tsinghua.edu.cn[FROM:&nbsp;160.12.37.81]&nbsp;<BR>
+<A HREF="00000001.htm">絞</A>
+<A HREF='javascript:history.go(-1)'></A>
+<A HREF="index.htm">ヘ魁</A>
+<A HREF="#top"></A>
+<A HREF="00000003.htm">絞</A>
+</H1></CENTER>
+<CENTER><H1>BBSれ睲地弘地跋</H1></CENTER>
+</BODY></HTML>

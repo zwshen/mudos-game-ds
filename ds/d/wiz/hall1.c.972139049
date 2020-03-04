@@ -1,0 +1,45 @@
+// Room: /d/wiz/hall1.c
+
+inherit ROOM;
+
+void create()
+{
+ set("short", "§Å®v¥æ½ËÆU");
+ set("long", @LONG
+
+  ³o¸Ì¬O§Å®v²á¤Ñ°Q½×ªº¦a¤è¡A¦pªG§Å®v­Ì­n¶}·|ªº¸Ü¡A¤]¦h¥b·|¿ï¦b³o
+¸ÌÁ|¦æ¡C©¹ªF¬O[1;33m§Å®v·|«È«Ç[0m¡A¬O§Å®v±µ«Ýª±®aªº¦a¤è¡C¥_Ãä¬O§Å®v­Ì³ø§i
+¤u§@­p¹º»P¤u§@¶i«×ªº[1;32mÂ²³ø«Ç[0m¡C±q¼Ó±è©¹¤W¨«¥i¥H¨ì¦UÃþ«¬ªº§Å®v°Q½×°Ï
+¡A³Ì³»¼Óªº±K«Ç¬ODS[1;34m°ª®p·|Ä³ÆU[0m¡Aªù¸T¬Û·íÄY®æ¡C³o¸ÌÁÙ¦³¤T­Ó³y«¬¬Û²§
+ªºªù¡A¥i¥H¤À§O³q¨ì[1;35m¤T¤j®É¥Nªº¤u§@°Q½×ÆU[0m¡C³o¸Ì¦³­Ó[1;37m§G§iÄæ[0m¡A±i¶Kªº³£
+¬O§Å®v­Ì¥²¶·ª¾¹Dªº­«­n³qª¾»P¤½§i¡A¤@©w­n¬Ý§¹¤~¥i¥HÂ÷¶}³á¡C
+
+LONG
+	);
+ set("light",1);
+ set("exits", ([ /* sizeof() == 2 */
+    "future" : "/open/world3/meetroom",
+    "past"   : "/open/world1/meetroom",
+    "now"    : "/open/world2/meetroom",
+    "north"  : __DIR__"jobroom",
+    "up"     : __DIR__"hall_area",
+    "east"   : __DIR__"entrance",
+//    "west"   : __DIR__"testroom",
+    "down"   : __DIR__"meetroom",
+ ]));
+  set("objects",([
+// __DIR__"npc/npc_wiz":1,
+// "/obj/box":1,
+ ]));
+ set("no_clean_up", 0);
+ set("valid_startroom", 1);
+ setup();
+ call_other("/obj/board/wizard_b", "???");
+}
+
+int valid_leave(object me, string dir)
+{
+        if( dir=="east" && !userp(me) )
+                return notify_fail("«Dª±®a¨¤¦â¤£¯à¶i¤J¶}©ñ°Ï°ì¡C\n");
+        return ::valid_leave(me, dir);
+}

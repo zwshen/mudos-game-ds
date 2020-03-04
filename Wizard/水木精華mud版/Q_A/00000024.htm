@@ -1,0 +1,43 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清華站︰精華區</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+<A Name="top"></a>
+發信人:&nbsp;minux&nbsp;(呵呵),&nbsp;信區:&nbsp;Mud_Builder&nbsp;<BR>
+標&nbsp;&nbsp;題:&nbsp;Re:&nbsp;UID和EUID有啥區別？&nbsp;<BR>
+發信站:&nbsp;BBS&nbsp;水木清華站&nbsp;(Wed&nbsp;Nov&nbsp;18&nbsp;12:39:32&nbsp;1998)&nbsp;<BR>
+&nbsp;<BR>
+【&nbsp;在&nbsp;kfk&nbsp;(狂風)&nbsp;的大作中提到:&nbsp;】&nbsp;<BR>
+︰<I>&nbsp;&nbsp;在程序中經常看見UID和EUID，到底它們有什麼&nbsp;</I><BR>
+︰<I>&nbsp;&nbsp;區別和聯繫呢？是用來幹什麼的呢？對於MUD的&nbsp;</I><BR>
+︰<I>&nbsp;&nbsp;運行起什麼樣的作用呢？&nbsp;</I><BR>
+︰<I>&nbsp;&nbsp;哪位大俠給解釋一下？謝了！！&nbsp;</I><BR>
+&nbsp;<BR>
+是mudlib借鋻unix的uid/euid機制的一種實現吧&nbsp;<BR>
+&nbsp;<BR>
+uid是不能變的，由那個object的文件所決定的，在object&nbsp;create的時候由系統設置&nbsp;<BR>
+好像是由creator_file這個master裡的func設定的&nbsp;<BR>
+所以只有getuid而沒有setuid，一般來說通過getuid來確定某object的原始權限&nbsp;<BR>
+&nbsp;<BR>
+euid是effective&nbsp;user&nbsp;id&nbsp;,&nbsp;可以理解為運行時的有效id,是可以在&nbsp;<BR>
+func執行時通過seteuid來設置，設置時會根據master裡的valid_seteuid來做安全檢查&nbsp;<BR>
+但在如es2這樣的mudlib裡這種安全檢查比較弱，所以seteuid機制沒法得到可靠的&nbsp;<BR>
+安全保障&nbsp;<BR>
+&nbsp;<BR>
+uid/euid機制主要用於系統安全方面，可以設定某些uid&nbsp;or&nbsp;euid的object&nbsp;<BR>
+不可以或者可以做某種操作，如讀，寫，ln,seteuid等等&nbsp;<BR>
+可以從系統內部控制不同等級的player/wiz的權限&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+※&nbsp;來源:‧BBS&nbsp;水木清華站&nbsp;bbs.net.tsinghua.edu.cn‧[FROM:&nbsp;202.116.65.31]&nbsp;<BR>
+<A HREF="00000023.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一頁</A>
+<A HREF="index.htm">回到目錄</A>
+<A HREF="#top">回到頁首</A>
+<A HREF="00000025.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+</BODY></HTML>

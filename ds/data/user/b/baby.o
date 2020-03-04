@@ -1,0 +1,8 @@
+#/obj/user.c
+conditions ([])
+dbase (["max_mp":60,"supply_point":60,"max_hp":90,"attitude":"peaceful","talk_point":6,"mp":60,"last_location":"/open/world1/tmr/area/inn_2f","max_ap":70,"guild_gifts":({5,5,5,5,}),"ap":70,"heart_modify":0,"newbie":1,"exp":777,"hp":90,"dex":2,"int":2,"con":2,"str":2,"heart_beat_rate":6,"volume":7,"level":1,"id":"baby","default_actions":,"DS_DATA_VERSION":19991107,"evil":-1,"addition_shield":10,"channels":({"chat","rumor","tchat",}),"birthday":1187261753,"gender":"¤k©Ê","name":"¨©Ä_","race":"titan","addition_armor":10,"startroom":"/open/world1/tmr/area/hotel","unit":"¦ì","addition_damage":10,"mud_age":17060,"age":14,"wound":(["body":0,"head":0,"right_leg":0,"right_arm":0,"left_leg":0,"left_arm":0,]),"actions":,"cure_count":0,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"bank":([]),])
+items ({})
+alias (["/":"recall start",])
+autoload ({})
+toDoList ([])
+solved ({})

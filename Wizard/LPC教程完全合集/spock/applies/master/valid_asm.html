@@ -1,0 +1,45 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=bg2312">
+   <META NAME="Author" CONTENT="Spock">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.01 [en] (Win95; I) [Netscape]">
+   <TITLE>MudOS v21c2 参考文件 - applies - master - valid_asm</TITLE>
+</HEAD>
+<BODY TEXT="#CCFFFF" BGCOLOR="#000000" LINK="#33FF33" VLINK="#FF0000" ALINK="#33CCFF" BACKGROUND="../../../image/ff/fftitleback.jpg" NOSAVE>
+
+<CENTER><FONT COLOR="#FF99FF"><FONT SIZE=+3>valid_asm(4)　 MudOS v21c2　
+(5 Sep 1994)</FONT></FONT></CENTER>
+
+<HR WIDTH="100%">
+<BR><FONT COLOR="#FFFFCC">　名称:</FONT>
+<UL>　 valid_asm - 控制 LPC->C 编译的物件是否能使用 asm { }</UL>
+<FONT COLOR="#FFFFCC">　语法:</FONT>
+<UL>　 int valid_asm( string file );
+
+<P>　 整数 valid_asm( 字符串 file );</UL>
+<FONT COLOR="#FFFFCC">　用法:</FONT>
+<UL>　 编译驱动程序时如果开启 LPC_TO_C 选项, 则 LPC　 源代码中一旦出现
+asm { }　 结构就会调用 valid_asm()　 函数. 如果此函数返回 0, 就中断编译过程并产生错误.
+
+<P>　 asm { } 结构的用法如下:
+
+<P><FONT COLOR="#99FF99">　 asm {</FONT>
+<BR><FONT COLOR="#99FF99">　　 &lt; C 源代码 ></FONT>
+<BR><FONT COLOR="#99FF99">　 }</FONT>
+
+<P>　 如此一来, 可以在 asm { } 之间插入 C　 源代码.</UL>
+<FONT COLOR="#FFFFCC">　参考:</FONT>
+<UL>　 <A HREF="valid_compile_to_c.html">valid_compile_to_c(4)</A></UL>
+<FONT COLOR="#FFFFCC">　翻译:</FONT>
+<UL>　 Spock @ FF 97.Aug.6.　 (printed 3/16/95)</UL>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+<CENTER><A HREF="../master.html">回到上一页</A></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+</BODY>
+</HTML>

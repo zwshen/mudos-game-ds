@@ -1,0 +1,46 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=bg2312">
+   <META NAME="Author" CONTENT="Spock">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.01 [en] (Win95; I) [Netscape]">
+   <TITLE>MudOS v21c2 参考文件 - applies - master - creator_file</TITLE>
+</HEAD>
+<BODY TEXT="#CCFFFF" BGCOLOR="#000000" LINK="#33FF33" VLINK="#FF0000" ALINK="#33CCFF" BACKGROUND="../../../image/ff/fftitleback.jpg" NOSAVE>
+
+<CENTER><FONT COLOR="#FF99FF"><FONT SIZE=+3>creator_file(4)　 MudOS v21c2　
+(5 Sep 1994)</FONT></FONT></CENTER>
+
+<HR WIDTH="100%">
+<BR><FONT COLOR="#FFFFCC">　名称:</FONT>
+<UL>　 creator_file - 对一个新创造的物件指定其使用者识别名称 (user id,
+uid).</UL>
+<FONT COLOR="#FFFFCC">　语法:</FONT>
+<UL>　 string creator_file(string filename);
+
+<P>　 字符串 creator_file( 字符串 file_name );</UL>
+<FONT COLOR="#FFFFCC">　用法:</FONT>
+<UL>　 每次创造一个新的物件时, 会调用主控物件中 (master object) 的 creator_file()
+函数. 此物件的文件名称是 creator_file() 函是唯一的参数. 而 creator_file
+返回的字符串是此物件设定的使用者识别名称. 如果编译驱动程序时, 于 options.h
+开启了AUTO_SETUID , 则用同一个识别名称作为此物件的有效使用者识别名称 (effective
+user id, euid)
+
+<P>　 唯一的例外: 如果编译驱动程序时, 开启了 AUTO_TRUST_BACKBONE , 而 creator_file()
+返回骨干使用者识别名称 (backbone uid)［与主控物件中 get_bb_uid() 返回的值相同］,
+则此物件的使用者识别名称和有效使用者识别名称都以载入它的物件为准.</UL>
+<FONT COLOR="#FFFFCC">　参考:</FONT>
+<UL>　 <A HREF="../../efuns/mudlib/seteuid.html">seteuid(3)</A>, <A HREF="../../efuns/objects/new.html">new(3)</A>,
+<A HREF="../../efuns/objects/clone_object.html">clone_object(3)</A>, <A HREF="../../efuns/calls/call_other.html">call_other(3)</A></UL>
+<FONT COLOR="#FFFFCC">　翻译:</FONT>
+<UL>　 Spock @ FF 97.Aug.6.　 (printed 3/16/95)</UL>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+<CENTER><A HREF="../master.html">回到上一页</A></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+</BODY>
+</HTML>

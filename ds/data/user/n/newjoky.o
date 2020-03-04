@@ -1,0 +1,6 @@
+#/obj/user.c
+conditions ([])
+dbase (["max_mp":54,"DS_DATA_VERSION":19991107,"evil":-1,"gender":"男性","unit":"位","name":"中文阿","max_hp":120,"guild_gifts":({5,5,5,5,}),"channels":({"chat","rumor","tchat",}),"talk_point":2,"birthday":1172989335,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"race":"ogre","default_actions":,"addition_shield":10,"mp":54,"startroom":"/open/world1/tmr/area/hotel","cure_count":2,"heart_beat_rate":6,"addition_armor":10,"supply_point":4,"attitude":"peaceful","newbie":1,"exp":777,"age":14,"dex":2,"max_ap":66,"volume":7,"int":2,"ap":66,"con":2,"id":"newjoky","actions":,"addition_damage":10,"mud_age":28,"str":2,"level":1,"hp":120,])
+autoload ({})
+toDoList ([])
+solved ({})

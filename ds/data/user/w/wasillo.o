@@ -1,0 +1,10 @@
+#/obj/user.c
+conditions (["ill_zhongshu":8,])
+dbase (["max_mp":60,"supply_point":58,"attitude":"peaceful","max_hp":90,"talk_point":8,"heart_beat_rate":6,"mp":60,"max_ap":70,"ap":70,"heart_modify":1,"newbie":1,"exp":1250,"dex":2,"hp":84,"int":2,"con":2,"guild_gifts":({5,5,5,5,}),"str":2,"level":1,"default_actions":,"volume":7,"id":"wasillo","addition_shield":10,"DS_DATA_VERSION":19991107,"evil":11,"mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"channels":({"chat","rumor","tchat",}),"birthday":1186233684,"gender":"男性","war_score":1,"addition_armor":10,"name":"路過的阿錡","Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"race":"titan","startroom":"/open/world1/tmr/area/hotel","addition_damage":10,"bank":(["past":5,]),"mud_age":435,"unit":"位","age":14,"wound":(["body":0,"head":0,"right_leg":0,"right_arm":0,"left_leg":0,"left_arm":0,]),"cure_count":9,"actions":,"MKS":5,"last_location":"/open/world1/tmr/area/street4",])
+skills (["combat":3,"parry":0,"unarmed":0,"dagger":2,"strong-body":1,"dodge":0,])
+learned (["combat":11,"parry":1,"unarmed":2,"dagger":5,"strong-body":2,"dodge":2,])
+items ({})
+alias (["sa":"do sac all,g","sk":"do skills","g":"do get all",])
+autoload ({})
+toDoList ([])
+solved ({})

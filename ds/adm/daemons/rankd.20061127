@@ -1,0 +1,316 @@
+// rankd.c
+// §ó·s¤é´Á: 1999.10.23
+// §ó·sªÌ: Shengsan
+
+#include <ansi.h>
+
+string *guest_list = ({
+        "aoe", "nye", "anfernee", "eeman","ankion","release", "etlin", "msr",
+});
+
+string *past_list = ({
+        "linjack","faceoff","truewind","cominging", "moon", "muder","macs"
+});
+
+string *now_list = ({
+        "eeman","mephisto","domy","sevil","wilfred","sub",
+});
+
+string *future_list = ({
+        "morral", "tmr", "alickyuen", "formation", "acme", "kkeenn", "msr",
+});
+
+
+string *past_west_list = ({ "baal", "piliykt", "uchimaha", "jangshow", "sdo" });
+string query_rank(object ob)
+{
+        string eff_class,group,id;
+        if( ob->query("class2") ) eff_class=ob->query("class2");
+        else if( ob->query("class1") ) eff_class=ob->query("class1");
+        else if( ob->query("class") ) eff_class=ob->query("class");
+        else eff_class="none";
+
+        if( ob->is_ghost() ) return HIB "¡i °­  »î ¡j" NOR;
+        id=ob->query("id");
+        if(wizardp(ob))
+        {
+                //¯S§O«ü©w
+                if( id=="shengsan" ) return "[1;44;37m¡i³Ð¥@¯«´L¡j" NOR;
+                if( id=="luky"           ) return "[1;41;37m¡i°£¿ù¤j®v¡j" NOR;
+                if( id=="eeman"           ) return HIR "¡i²Â³J§Å®v¡j" NOR;
+                if( id=="passenger" ) return NOR+BLK"  ¸g¹L¦Ó¤w  "NOR;
+                if( id=="wilfred" ) return HIC"¡iµo¿S¨ó·|¡j"NOR;
+                if( id=="alickyuen" ) return HIG"¡i"HIY"¡¸"HIW"¯«¸t"HIY"¡¸"HIG"¡j"NOR;
+		if( id=="kkeenn" ) return HIW"¡i·s¤â¾É®v¡j"NOR; 
+		if( id=="baal" ) return HIW"¡i"HIG"¥j¦è"HIW"ÅU°Ý¡j"NOR;
+                if( id=="quiet" ) return HIW"¡i"HIG"µLÁnµL®§"HIW"¡j"NOR;
+                if( id=="cha" ) return HIG"¡i"HIB" ¼o  ´í "HIG"¡j"NOR;
+
+                if(member_array(id, guest_list)!=-1) return HIW"¡i¶W¯ÅÅU°Ý¡j"NOR;
+                else if(member_array(id, past_list)!=-1) group="¡i¤Ó¥j";
+                else if(member_array(id, now_list)!=-1) group="¡i¼¯µn";
+                else if(member_array(id, future_list)!=-1) group="¡i¥¼¨Ó";
+                else if(member_array(id, past_west_list)!=-1) group="¡i¥j¦è";
+                else group="¡i"NOR"¨£²ß";
+                
+                if(ob->query("gender")=="¤k©Ê")
+                {
+                  switch(wizhood(ob))
+                  {
+                        case "(admin)":                        return HIW +group+HIW"¥D®_¡j" NOR;
+                        case "(arch)":                        return HIC +group+HIC"¤k¯«¡j" NOR;
+                        case "(wizard)":                return HIG +group+HIG"¤k§Å¡j" NOR;
+                        case "(apprentice)":                return HIY +group+HIY"¥P¤k¡j" NOR;
+                        default:                return HIM +group+"¤p§¯¡j" NOR;
+                  }
+                }
+                 else
+                {
+                  switch(wizhood(ob))
+                  {
+                        case "(admin)":                        return HIW +group+HIW"¥D®_¡j" NOR;
+                        case "(arch)":                        return HIC +group+HIC"¤j¯«¡j" NOR;
+                        case "(wizard)":                return HIG +group+HIG"§Å®v¡j" NOR;
+                        case "(apprentice)":                return HIY +group+HIY"¤Ñ¨Ï¡j" NOR;
+                        default:                return HIM +group+HIM"¤p§¯¡j" NOR;
+                  }
+                }
+        }        
+        
+        switch(ob->query("gender"))
+        {
+                case "¤k©Ê":
+                        if( ((int)ob->query("PKS") > 4999) ) return HIM"¡i ­×  Ã¹ ¡j"NOR;
+                        if( ((int)ob->query("PKS") > 999) ) return HIM"¡i ¤d¤H±Ù ¡j"NOR;
+                        if( ((int)ob->query("PKS") > 99) ) return HIR"¡i ¦Ê¤H±Ù ¡j"NOR;
+                        if( ((int)ob->query("PKS") > 30) ) return RED"¡i ±þ¤HÅ] ¡j"NOR;
+                        switch(eff_class)
+                        {
+                            case "¤K·¥ªù":        return "¡i ¤kªZªÌ ¡j";
+                            case "¯e­·ªù":        return "¡i ¤k¼C«È ¡j";
+                                case "¯«ªZ±Ð":                return "¡i ¤k¹D¤h ¡j";
+                                case "thief":                return "¡i ¤k  µs ¡j";
+                                case "­â¶³¦x":                return "¡i ¥§  ©h ¡j";
+                                case "adventurer":        return "¡i ¤k«iªÌ ¡j";
+                                case "±¡«°¦À":                return "¡i ¤kÃ@¤â ¡j";
+                                default:                return "¡i ¤p¤k«Ä ¡j";
+                        }         
+        
+                default:
+                        if( ((int)ob->query("PKS") > 4999) ) return HIM"¡i ¦º  ¯« ¡j"NOR;
+                        if( ((int)ob->query("PKS") > 999) ) return HIM"¡i ¤d¤H±Ù ¡j"NOR;
+                        if( ((int)ob->query("PKS") > 99) ) return HIR"¡i ¦Ê¤H±Ù ¡j"NOR;
+                        if( ((int)ob->query("PKS") > 30) ) return RED"¡i ±þ¤HÅ] ¡j"NOR;
+                        switch(eff_class)
+                        {
+                            case "¤K·¥ªù":        return "¡i ªZ  ªÌ ¡j";
+                            case "¯e­·ªù":        return "¡i ¼C  «È ¡j";
+                                case "¯«ªZ±Ð":                return "¡i ¹D  ¤h ¡j";
+                                case "thief":                return "¡i ¤p  °½ ¡j";
+                                case "adventurer":        return "¡i «_ÀIªÌ ¡j";
+                                case "­â¶³¦x":                return "¡i ¹¬  «Q ¡j";
+                                default:                return "¡i ·s  ¤â ¡j";
+                        }
+        }
+}
+
+string query_level(object ob)
+{
+        string rank,class1;
+        rank = ob->query("guild_rank");
+/* 
+        if( ! rank || rank=="==¨S¦³Rank¸ê°T==")
+        {
+                class1=ob->query("class1");
+                if(class1=="¤K·¥ªù") return "¤K·¥ªù²Ä¤C¥N§Ì¤l";
+                if(class1=="¯«ªZ±Ð") return "¯«ªZ±Ð²Ä¤T¥N±Ð®{";
+                if(class1=="¯e­·ªù") return "¯e­·ªù²Ä¥|¥N§Ì¤l";
+
+                if( ob->query("gender") == "¤k©Ê" )
+                        return "ªì¬V­·¹Ðªº¤p¬ü¤k";
+                else
+                        return "¥|³B¬°®aªº¬y®öº~";
+        }
+*/
+        if(!rank)
+        {
+                if( ob->query("gender") == "¤k©Ê" )
+                        rank = "ªì¬V­·¹Ðªº¤p¬ü¤k";
+                else
+                        rank = "¥|³B¬°®aªº¬y®öº~";        
+        }
+        return rank;
+
+}
+
+string query_respect(object ob)
+{
+        int age;
+        string str,eff_class;
+        if(!ob) return "ªB¤Í";
+        if( stringp(str = ob->query("rank_info/respect")) )
+                return str;
+        if(ob->query("race")=="beast") return "ÆFÃ~";
+        if(ob->query("race")=="monster") return "ÆFÃ~";
+        if(ob->query("race")=="protoss")
+        {
+                return "¯«±ÚªB¤Í";
+        }
+        if(ob->query("race")=="zerg")
+        {
+                return "²§«¬ªB¤Í";
+        }
+        if( ob->query("class2") ) eff_class=ob->query("class2");
+        else if( ob->query("class1") ) eff_class=ob->query("class1");
+        else if( ob->query("class") ) eff_class=ob->query("class");
+        else eff_class="none";
+        
+        age = ob->query("age");
+        switch(ob->query("gender"))
+        {
+                case "¤k©Ê":
+                        switch(eff_class)
+                        {
+                                case "none":
+                                default:
+                                                if( age < 18 ) return "¤p©f";
+                                                else if( age < 50 ) return "¤p©j";
+                                                else return "±C±C";
+                                                break;
+                        }
+
+                default:
+                        switch(eff_class)
+                        {
+                                case "none":
+                                default:
+                                                if( age < 20 ) return "¤p¦Ñ§Ì";
+                                                else if( age < 50 ) return "¦Ñ­ô";
+                                                else return "¦Ñ«e½ú";
+                                                break;
+                        }
+        }
+}
+
+string query_rude(object ob)
+{
+        int age;
+        string str,eff_class;
+        if(!ob) return "²V³J";
+        if( stringp(str = ob->query("rank_info/rude")) )
+                return str;
+        if(ob->query("race")=="³¥Ã~") return "¯b¥Í";
+        if(ob->query("race")=="monster") return "§¯©Ç";
+        if(ob->query("race")=="protoss")
+        {
+                return "Áà¤K©Ç";
+        }
+        if(ob->query("race")=="zerg")
+        {
+                return "¤j¯äÂÎ";
+        }
+        if( ob->query("class2") ) eff_class=ob->query("class2");
+        else if( ob->query("class1") ) eff_class=ob->query("class1");
+        else if( ob->query("class") ) eff_class=ob->query("class");
+        else eff_class="none";
+
+        age = ob->query("age");
+        switch(ob->query("gender"))
+        {
+                case "¤k©Ê":
+                        switch(eff_class)
+                        {
+                                case "none":
+                                default:
+                                        if( age < 30 ) return "½â¤H";
+                                        else return "§¯°ü";
+                                        break;
+                        }
+                        
+                default:
+                        switch(eff_class)
+                        {
+                                case "none":
+                                default:
+                                                if( age < 20 ) return "²V²y";
+                                                if( age < 50 ) return "¯ä¸é";
+                                                else return "¦Ñ©Çª«";
+                                                break;
+                        }
+        }
+}
+
+string query_self(object ob)
+{
+        int age;
+        string str,eff_class;
+
+        if( stringp(str = ob->query("rank_info/self")) )
+                return str;
+        if(ob->query("race")=="³¥Ã~") return "§Ú";
+        if( ob->query("class2") ) eff_class=ob->query("class2");
+        else if( ob->query("class1") ) eff_class=ob->query("class1");
+        else if( ob->query("class") ) eff_class=ob->query("class");
+        else eff_class="none";
+        
+        age = ob->query("age");
+        switch(ob->query("gender"))
+        {
+                case "¤k©Ê":
+                        switch(eff_class)
+                        {
+                                case "none":
+                                default:
+                                                if( age < 30 ) return "¤p©f";
+                                                else return "¦b¤U";
+                                                break;
+                        }
+        
+                default:
+                        switch(eff_class)
+                        {
+                                case "none":
+                                default:
+                                                if( age < 50 ) return "¦b¤U";
+                                                else return "¦ÑÀY¤l";
+                                                break;
+                        }
+        }
+}
+
+string query_self_rude(object ob)
+{
+        int age;
+        string str,eff_class;
+
+        if( stringp(str = ob->query("rank_info/self_rude")) )
+                return str;
+        if(ob->query("race")=="³¥Ã~") return "§Ú";
+        if( ob->query("class2") ) eff_class=ob->query("class2");
+        else if( ob->query("class1") ) eff_class=ob->query("class1");
+        else if( ob->query("class") ) eff_class=ob->query("class");
+        else eff_class="none";
+
+        age = ob->query("age");
+        switch(ob->query("gender")) {
+                case "¤k©Ê":
+                        switch(eff_class)
+                        {
+                                case "none":
+                                default:
+                                                if( age < 40 ) return "¥»©h®Q";
+                                                else return "¦Ñ®Q";
+                                                break;
+                        }
+                        
+                default:
+                        switch(eff_class)
+                        {
+                                case "none":
+                                default:
+                                                if( age < 50 ) return "¥»¤j·Ý";
+                                                else return "¦Ñ¤Ò";
+                                                break;
+                        }
+        }
+}

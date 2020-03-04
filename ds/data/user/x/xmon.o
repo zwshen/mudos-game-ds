@@ -1,0 +1,6 @@
+#/obj/user.c
+conditions ([])
+dbase (["MKS":5,"unit":"位","addition_shield":10,"heart_beat_rate":6,"addition_armor":10,"mud_age":506,"mp":60,"talk_point":8,"DS_DATA_VERSION":19991107,"gender":"男性","name":"風雪月舞","addition_damage":10,"id":"xmon","max_hp":80,"wound":(["right_arm":0,"left_arm":0,"right_leg":0,"left_leg":0,"head":0,"body":0,]),"attitude":"peaceful","mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"race":"human","channels":({"chat","rumor","tchat",}),"max_mp":60,"volume":7,"ap":60,"hp":80,"level":1,"birthday":1116511835,"exp":229,"default_actions":,"dex":2,"int":2,"con":2,"str":4,"startroom":"/open/world1/tmr/area/hotel","newbie":1,"max_ap":60,"supply_point":60,"last_location":"/open/world1/wilfred/newbie/eq_bank","heart_modify":0,"Merits":(["tec":0,"bar":0,"sou":0,"bio":0,"wit":0,]),"age":14,"guild_gifts":({5,5,5,5,}),"actions":,"cure_count":14,"evil":11,])
+skills (["dodge":1,"unarmed":2,"combat":3,])
+learned (["dodge":2,"unarmed":9,"combat":9,])
+autoload ({"/obj/money/coin:5",})

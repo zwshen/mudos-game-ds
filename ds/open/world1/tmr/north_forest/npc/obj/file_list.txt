@@ -1,0 +1,11 @@
+ヘ魁/open/world1/tmr/north_forest/npc/obj/
+bloodstar-hammer.c  ﹀瑈琍凌            frost-cloth.c       流ブ︾          
+frost-cloth2.c      流ブ︾            frost-fur.c         流硁を          
+frost-hammer.c      流瑈琍凌          juniper-shield.c    捞れ            
+star-hammer.c       瑈琍凌              stick.c             れ次              
+thorn-stick.c       れ次            troll-force.c       エ臸ぇ          
+troll-pants.c       穞ベエ臸を壳        troll-ring.c        此ぇз          
+troll-ring2.c       此ぇз            troll-skirt.c       穞ベエ臸を溉      
+troll_blood.c       エ臸﹀睪            troll_chest_bone.c  エ臸癌          
+troll_head_bone.c   エ臸繷癌            troll_spinal_bone.c  エ臸凑癌        
+

@@ -1,0 +1,34 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清華站︰精華區</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+<A Name="top"></a>
+發信人:&nbsp;minux&nbsp;(呵呵),&nbsp;信區:&nbsp;Mud_Builder&nbsp;<BR>
+標&nbsp;&nbsp;題:&nbsp;Re:&nbsp;到底是什麼決定了你的mud系統的更新速度?&nbsp;<BR>
+發信站:&nbsp;BBS&nbsp;水木清華站&nbsp;(Tue&nbsp;Sep&nbsp;15&nbsp;17:05:27&nbsp;1998)&nbsp;<BR>
+&nbsp;<BR>
+【&nbsp;在&nbsp;kite&nbsp;(漂流四方)&nbsp;的大作中提到:&nbsp;】&nbsp;<BR>
+︰<I>&nbsp;【&nbsp;在&nbsp;sbaa&nbsp;(老貓)&nbsp;的大作中提到:&nbsp;】&nbsp;</I><BR>
+︰<I>&nbsp;系統刷新的小周期,即食物和飲水減少1的時間,&nbsp;</I><BR>
+︰<I>&nbsp;以及戰鬥的速度等.當然不是npC刷新這樣簡單&nbsp;</I><BR>
+︰<I>&nbsp;的問題了.&nbsp;</I><BR>
+&nbsp;<BR>
+1.heart_beat在編譯mudos的時候在options.h裡面定義的&nbsp;<BR>
+一般是兩秒跳一次&nbsp;<BR>
+2.消耗食物和水是在char的heart_beat()函數里面寫的，看看就知道了&nbsp;<BR>
+3.戰鬥是每次heart_beat()裡面調用attack的時候實現的，也是看char.c&nbsp;<BR>
+&nbsp;<BR>
+以上是es2的情況了&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+※&nbsp;來源:‧BBS&nbsp;水木清華站&nbsp;bbs.net.tsinghua.edu.cn‧[FROM:&nbsp;202.116.65.2]&nbsp;<BR>
+<A HREF="00000022.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一頁</A>
+<A HREF="index.htm">回到目錄</A>
+<A HREF="#top">回到頁首</A>
+<A HREF="00000024.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+</BODY></HTML>

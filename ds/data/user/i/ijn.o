@@ -1,0 +1,6 @@
+#/obj/user.c
+conditions ([])
+dbase (["max_ap":60,"supply_point":60,"last_location":"/open/world1/tmr/area/street4","heart_modify":1,"age":14,"channels":({"chat","rumor","tchat",}),"ap":60,"level":1,"race":"human","actions":,"cure_count":14,"board_last_read":(["sex_board":1037721675,"tmr_hotel_b":1112005801,]),"birthday":1112200864,"gender":"男性","talk_point":8,"id":"ijn","name":"遊魂","unit":"位","evil":11,"startroom":"/open/world1/tmr/area/school/school1","mud_age":4481,"newbie":1,"mp":60,"addition_shield":10,"hp":77,"Merits":(["bar":0,"wit":0,"sou":0,"tec":0,"bio":0,]),"exp":1454,"mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove",}),"dex":2,"heart_beat_rate":6,"addition_armor":10,"int":2,"con":2,"str":2,"bank":(["past":1100,]),"addition_damage":10,"max_hp":80,"wound":(["head":0,"body":0,"left_leg":0,"right_arm":0,"right_leg":0,"left_arm":0,]),"attitude":"peaceful","volume":7,"max_mp":60,"MKS":4,"default_actions":,"guild_gifts":({5,5,5,5,}),"DS_DATA_VERSION":19991107,])
+skills (["combat":3,"dodge":1,"sword":2,])
+learned (["combat":21,"dodge":1,"sword":13,])
+autoload ({"/obj/money/coin:16",})

@@ -1,0 +1,10 @@
+#/obj/user.c
+dbase (["help":"class/bagi","supply_point":54,"class1":"八極門","DS_DATA_VERSION":19991107,"addition_shield":10,"max_hp":80,"last_location":"/open/world1/tmr/area/ms1","env":([]),"attitude":"peaceful","cure_count":0,"addition_armor":10,"talk_point":8,"combat_exp":4,"title":"八極門第七代俠客","channels":({"chat","rumor","tchat",}),"MKS":10,"addition_damage":10,"age":14,"mud_age":1698,"family":(["family_name":"八極門","generation":7,"privs":-1,"title":"俠客",]),"newbie":1,"exp":3103,"dex":2,"hp":47,"int":2,"mp":110,"con":2,"level":1,"Merits":(["bar":0,"tec":0,"sou":0,"bio":0,"wit":0,]),"wound":(["left_arm":0,"body":0,"left_leg":0,"head":0,"right_leg":0,"right_arm":0,]),"birthday":1238619566,"max_ap":60,"mob_record":({"/open/world1/tmr/area/npc/farmer","/open/world1/tmr/area/npc/uo","/open/world1/tmr/area/npc/too","/open/world1/tmr/area/npc/traveler","/open/world1/tmr/area/npc/traveler","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"evil":14,"war_score":19,"default_actions":,"actions":,"guild_gifts":({10,7,0,3,}),"heart_modify":1,"max_mp":110,"volume":7,"ap":9,"heart_beat_rate":6,"bank":(["past":9,]),"race":"celestial","id":"dindin","adv_class":1,"startroom":"/open/world1/tmr/area/hotel","unit":"位","gender":"男性","str":2,"name":"皮條客",])
+skills (["parry":1,"horse-steps":1,"fork":1,"unarmed":6,"dodge":4,"da-fork":1,"bagi_fist":5,"combat":8,"strong-body":3,])
+learned (["parry":4,"combat":107,"dodge":26,"unarmed":93,"strong-body":1,"bagi_fist":40,])
+skill_map (["unarmed":"bagi_fist",])
+items ({})
+alias (["r":"recall","z":"get all from corpse","sa":"sac corpse",])
+autoload ({"/obj/money/coin:100",})
+toDoList ([])
+solved ({})

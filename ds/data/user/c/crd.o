@@ -1,0 +1,7 @@
+#/obj/user.c
+conditions ([])
+dbase (["Merits":(["tec":0,"bar":0,"bio":0,"sou":0,"wit":0,]),"max_ap":60,"age":14,"supply_point":60,"mud_age":3176,"talk_point":8,"heart_modify":0,"last_location":"/open/world1/tmr/area/mstart","DS_DATA_VERSION":19991107,"find_butter":1,"guild_gifts":({5,5,5,5,}),"gender":"¤k©Ê","name":"¼K¼K","actions":,"cure_count":8,"id":"crd","mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog","/open/world1/tmr/area/school/npc/butterfly",}),"race":"human","channels":({"chat","rumor","tchat",}),"level":1,"hp":60,"birthday":1116086006,"addition_shield":10,"mp":60,"exp":1286,"dex":2,"heart_beat_rate":6,"addition_armor":10,"int":2,"startroom":"/open/world1/tmr/area/hotel","board_last_read":(["tmr_hotel_b":1131463412,]),"con":2,"str":2,"wimpy":50,"bank":(["past":1152,]),"addition_damage":10,"max_hp":80,"wound":(["head":0,"body":0,"right_arm":0,"left_arm":0,"left_leg":0,"right_leg":0,]),"MKS":6,"attitude":"peaceful","ap":60,"unit":"¦ì","volume":7,"max_mp":60,"combat_exp":2,"default_actions":,"quest":(["not_newbie":1,]),"evil":11,])
+skills (["literate":2,"combat":4,"parry":5,"dagger":5,"block":5,"dodge":5,"unarmed":5,])
+learned (["literate":7,"combat":0,"dodge":4,"unarmed":25,])
+alias (["tr":"train $*","fi":"finger $*","en":"enable $*","g":"get all from corpse $*","gl":"get all","so":"sac corpse","li":"list $*","lc":"look corpse $*",])
+autoload ({"/obj/money/coin:109",})

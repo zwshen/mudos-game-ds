@@ -1,0 +1,55 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=bg2312">
+   <META NAME="Author" CONTENT="Spock">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.01 [en] (Win95; I) [Netscape]">
+   <TITLE>MudOS v21c2 把σゅン - efuns - interactive - add_action</TITLE>
+</HEAD>
+<BODY TEXT="#CCFFFF" BGCOLOR="#000000" LINK="#33FF33" VLINK="#FF0000" ALINK="#33CCFF" BACKGROUND="../../../image/ff/fftitleback.jpg" NOSAVE>
+
+<CENTER><FONT COLOR="#FF99FF"><FONT SIZE=+3>add_action(3) MudOS v21c2
+(5 Sep 1994)</FONT></FONT></CENTER>
+
+<HR WIDTH="100%">
+<BR><FONT COLOR="#FFFFCC">嘿:</FONT>
+<UL> add_action() - рЫ场ㄧ计 (local function) 秈產ノ㏑笆迭
+(command verb).</UL>
+<FONT COLOR="#FFFFCC">粂猭:</FONT>
+<UL> void add_action( string | function fun, string | string *cmd, int
+flag );
+
+<P> 礚肚 add_action( 才﹃ ┪ ㄧ计 fun, 才﹃ ┪ 才﹃ *cmd, 俱计 flag
+);</UL>
+<FONT COLOR="#FFFFCC">ノ猭:</FONT>
+<UL> 讽產龄籔 &lt;cmd> 才㏑, 秸ノЫ场ㄧ计 (local function)
+fun. 產㏑い┮ゴ把计 (argument), 穦才﹃肚砆秸ノㄧ计. 狦㏑岿粇,
+玥 0, ⊿岿玥ゲ斗 1.
+
+<P> 狦材把计琌计舱, 玥┮Τ计舱い㏑穦秸ノ材ㄧ计. ノ
+query_verb() т秸ノㄧ计㏑.
+
+<P> 狦琌岿粇㏑, 玥穦膥尿穓碝ㄤ㏑, т才㏑把计┪岿粇倒產.
+
+<P> 硄盽 add_action() 穦砆 init() 祘秸ノ. Τ﹚竡㏑ンゲ斗琌產钡牟:
+產ンセō砆產拟盿產┮矪┬丁┪琌籔產矪┬丁ン.
+
+<P> 狦把计 &lt;flag> 琌 1 , 璶把计玡才 (leading characters)
+才笆㏑ &lt;cmd> , τ俱笆㏑才 (entire verb) 穦パ query_verb()
+. 狦把计琌 2 , 挡狦玡, 琌 query_verb() 穦 &lt;cmd> 才
+(characters following &lt;cmd>).</UL>
+<FONT COLOR="#FFFFCC">把σ:</FONT>
+<UL> <A HREF="../parsing/query_verb.html">query_verb(3)</A>, <A HREF="remove_action.html">remove_action(3)</A>,
+<A HREF="../../applies/general/init.html">init(4)</A></UL>
+<FONT COLOR="#FFFFCC">陆亩:</FONT>
+<UL> Spock @ FF 96.Oct.11. (printed 3/16/95)</UL>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+<CENTER><A HREF="../interactive.html"></A></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+</BODY>
+</HTML>

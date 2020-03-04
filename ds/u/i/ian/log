@@ -1,0 +1,327 @@
+[Wed Jul 14 13:12:30 1999] u/i/ian/workroom.c line 3: parse error
+
+[Wed Jul 14 17:31:40 1999] u/i/ian/workroom.c line 3: parse error
+
+[Wed Jul 14 17:48:46 1999] u/i/ian/workroom.c line 3: parse error
+
+[Wed Jul 14 17:48:54 1999] u/i/ian/workroom.c line 3: parse error
+
+[Wed Jul 14 17:51:06 1999] u/i/ian/workroom.c line 3: parse error
+
+[Wed Jul 14 18:06:14 1999] u/i/ian/workroom.c line 3: parse error
+
+[Wed Jul 14 18:06:58 1999] u/i/ian/workroom.c line 3: parse error
+
+[Wed Jul 14 18:07:02 1999] u/i/ian/workroom.c line 3: parse error
+
+[Wed Jul 14 18:11:09 1999] u/i/ian/workroom.c line 3: parse error
+
+[Wed Jul 14 18:14:33 1999] u/i/ian/workroom.c line 3: parse error
+
+[Wed Jul 14 18:20:52 1999] u/i/ian/workroom.c line 3: parse error
+
+[Wed Jul 14 18:21:06 1999] u/i/ian/workroom.c line 3: parse error
+
+[Wed Jul 14 18:45:50 1999] u/i/ian/workroom.c line 16: parse error
+
+[Wed Jul 14 18:45:54 1999] u/i/ian/workroom.c line 16: parse error
+
+[Wed Jul 14 18:48:06 1999] u/i/ian/workroom.c line 16: parse error
+
+[Wed Jul 14 18:48:24 1999] u/i/ian/workroom.c line 16: parse error
+
+[Wed Jul 14 18:52:04 1999] u/i/ian/workroom.c line 16: parse error
+
+[Wed Jul 14 18:56:16 1999] u/i/ian/workroom.c line 16: parse error
+
+[Thu Jul 15 17:07:03 1999] u/i/ian/weapon/furredrobe.c line 1: parse error
+
+[Thu Jul 15 17:07:41 1999] u/i/ian/weapon/furredrobe.c line 1: parse error
+
+[Thu Jul 15 17:09:13 1999] u/i/ian/weapon/furredrobe.c line 1: parse error
+
+[Thu Jul 15 17:09:43 1999] u/i/ian/weapon/furredrobe.c line 1: parse error
+
+[Thu Jul 15 17:11:36 1999] u/i/ian/weapon/furredrobe.c line 1: parse error
+
+[Thu Jul 15 17:14:48 1999] u/i/ian/weapon/furredrobe.c line 1: parse error
+
+[Thu Jul 15 17:17:22 1999] u/i/ian/weapon/furredrobe.c line 27: parse error
+
+[Thu Jul 15 17:20:34 1999] u/i/ian/weapon/furredrobe.c line 27: parse error
+
+[Thu Jul 15 18:53:56 1999] u/i/ian/area/birdpill1.c line 16: parse error
+
+[Thu Jul 15 19:03:18 1999] u/i/ian/area/birdpill1.c line 16: parse error
+
+[Thu Jul 15 19:05:34 1999] u/i/ian/area/birdpill1.c line 16: parse error
+
+[Thu Jul 15 23:41:17 1999] u/i/ian/workroom.c line 17: parse error
+
+[Thu Jul 15 23:41:27 1999] u/i/ian/workroom.c line 17: parse error
+
+[Thu Jul 15 23:42:43 1999] u/i/ian/workroom.c line 17: parse error
+
+[Fri Jul 16 00:30:51 1999] u/i/ian/area/birdpill5.c line 17: parse error
+
+[Fri Jul 16 00:30:51 1999] u/i/ian/area/birdpill5.c line 25: End of file in string
+
+[Fri Jul 16 00:32:06 1999] u/i/ian/area/birdpill5.c line 17: parse error
+
+[Fri Jul 16 00:32:06 1999] u/i/ian/area/birdpill5.c line 25: End of file in string
+
+[Fri Jul 16 00:32:34 1999] u/i/ian/area/birdpill5.c line 17: parse error
+
+[Fri Jul 16 00:32:34 1999] u/i/ian/area/birdpill5.c line 25: End of file in string
+
+[Fri Jul 16 00:33:14 1999] u/i/ian/area/birdpill5.c line 17: parse error
+
+[Fri Jul 16 00:35:54 1999] u/i/ian/area/birdpill5.c line 17: parse error
+
+[Fri Jul 16 00:48:23 1999] u/i/ian/area/birdpill5.c line 17: parse error
+
+[Fri Jul 16 00:49:35 1999] u/i/ian/area/birdpill5.c line 17: parse error
+
+[Fri Jul 16 20:55:02 1999] u/i/ian/workroom.c line 17: Undefined variable 'open'
+
+
+[Fri Jul 16 20:55:02 1999] u/i/ian/workroom.c line 17: Bad argument 1 to '/': "string "
+
+[Fri Jul 16 20:55:02 1999] u/i/ian/workroom.c line 17: Undefined variable 'world1'
+
+
+[Fri Jul 16 20:55:02 1999] u/i/ian/workroom.c line 17: Undefined variable 'tmr'
+
+
+[Fri Jul 16 20:55:02 1999] u/i/ian/workroom.c line 17: Undefined variable 'area'
+
+
+[Fri Jul 16 20:55:02 1999] u/i/ian/workroom.c line 18: Undefined variable 'hotel'
+
+
+[Fri Jul 16 20:55:18 1999] u/i/ian/workroom.c line 17: Undefined variable 'open'
+
+
+[Fri Jul 16 20:55:18 1999] u/i/ian/workroom.c line 17: Bad argument 1 to '/': "string "
+
+[Fri Jul 16 20:55:18 1999] u/i/ian/workroom.c line 17: Undefined variable 'world1'
+
+
+[Fri Jul 16 20:55:18 1999] u/i/ian/workroom.c line 17: Undefined variable 'tmr'
+
+
+[Fri Jul 16 20:55:18 1999] u/i/ian/workroom.c line 17: Undefined variable 'area'
+
+
+[Fri Jul 16 20:55:18 1999] u/i/ian/workroom.c line 18: Undefined variable 'hotel'
+
+
+[Sat Jul 17 00:27:07 1999] u/i/ian/workroom2.c line 16: parse error
+
+[Sat Jul 17 00:27:15 1999] u/i/ian/workroom2.c line 16: parse error
+
+[Sat Jul 17 00:27:59 1999] u/i/ian/workroom2.c line 17: parse error
+
+[Sat Jul 17 00:28:09 1999] u/i/ian/workroom2.c line 17: parse error
+
+[Sat Jul 17 00:30:32 1999] u/i/ian/workroom2.c line 17: parse error
+
+[Sat Jul 17 00:32:10 1999] u/i/ian/workroom2.c line 15: parse error
+
+[Sat Jul 17 00:32:10 1999] u/i/ian/workroom2.c line 24: End of file in string
+
+[Sat Jul 17 00:33:14 1999] u/i/ian/workroom2.c line 18: parse error
+
+[Sat Jul 17 00:34:37 1999] u/i/ian/workroom2.c line 18: parse error
+
+[Sat Jul 17 00:40:32 1999] u/i/ian/workroom2.c line 15: parse error
+
+[Sat Jul 17 00:42:43 1999] u/i/ian/workroom2.c line 15: parse error
+
+[Sat Jul 17 00:44:13 1999] u/i/ian/workroom.c line 19: parse error
+
+[Sat Jul 17 01:51:44 1999] u/i/ian/workroom.c line 21: parse error
+
+[Sat Jul 17 01:53:28 1999] u/i/ian/workroom.c line 21: parse error
+
+[Sat Jul 17 01:54:34 1999] u/i/ian/workroom.c line 21: parse error
+
+[Sat Jul 17 01:55:34 1999] u/i/ian/workroom.c line 21: parse error
+
+[Sat Jul 17 01:55:50 1999] u/i/ian/workroom.c line 21: parse error
+
+[Sat Jul 17 02:01:27 1999] u/i/ian/workroom2.c line 17: Illegal character constant
+
+[Sat Jul 17 02:01:27 1999] u/i/ian/workroom2.c line 17: parse error
+
+[Sat Jul 17 02:01:27 1999] u/i/ian/workroom2.c line 26: End of file in string
+
+[Sat Jul 17 02:26:12 1999] u/i/ian/mob/penguin.c line 10: parse error
+
+[Sat Jul 17 02:53:36 1999] u/i/ian/mob/penguin.c line 10: parse error
+
+[Sat Jul 17 02:54:42 1999] u/i/ian/mob/penguin.c line 13: parse error
+
+[Sat Jul 17 02:54:42 1999] u/i/ian/mob/penguin.c line 41: Illegal terminator
+
+[Sat Jul 17 02:54:42 1999] u/i/ian/mob/penguin.c line 41: Text block exceeded maximum length
+
+[Sat Jul 17 02:54:42 1999] u/i/ian/mob/penguin.c line 46: End of file in string
+
+[Sat Jul 17 02:56:02 1999] u/i/ian/mob/penguin.c line 13: parse error
+
+[Sat Jul 17 02:56:02 1999] u/i/ian/mob/penguin.c line 41: Illegal terminator
+
+[Sat Jul 17 02:56:02 1999] u/i/ian/mob/penguin.c line 41: Text block exceeded maximum length
+
+[Sat Jul 17 02:56:02 1999] u/i/ian/mob/penguin.c line 46: End of file in string
+
+[Sat Jul 17 03:30:03 1999] u/i/ian/area/birdpilla6.c line 16: Undefined variable 'say'
+
+
+[Sat Jul 17 03:30:03 1999] u/i/ian/area/birdpilla6.c line 16: parse error
+
+[Sat Jul 17 03:39:26 1999] u/i/ian/area/birdpilla6.c line 16: Undefined variable '__DIIR__'
+
+
+[Sat Jul 17 03:39:26 1999] u/i/ian/area/birdpilla6.c line 16: parse error
+
+[Sat Jul 17 03:39:26 1999] u/i/ian/area/birdpilla6.c line 24: End of file in string
+
+[Sat Jul 17 03:41:08 1999] u/i/ian/area/birdpilla6.c line 16: Undefined variable '__DIIR__'
+
+
+[Sat Jul 17 03:41:08 1999] u/i/ian/area/birdpilla6.c line 16: parse error
+
+[Sat Jul 17 03:41:08 1999] u/i/ian/area/birdpilla6.c line 24: End of file in string
+
+[Sat Jul 17 03:41:26 1999] u/i/ian/area/birdpilla6.c line 16: Undefined variable '__DIIR__'
+
+
+[Sat Jul 17 03:41:26 1999] u/i/ian/area/birdpilla6.c line 16: parse error
+
+[Sat Jul 17 03:41:26 1999] u/i/ian/area/birdpilla6.c line 24: End of file in string
+
+[Sat Jul 17 03:43:04 1999] u/i/ian/area/birdpilla6.c line 16: Undefined variable '__DIIR__'
+
+
+[Sat Jul 17 03:43:04 1999] u/i/ian/area/birdpilla6.c line 16: parse error
+
+[Sat Jul 17 03:43:04 1999] u/i/ian/area/birdpilla6.c line 24: End of file in string
+
+[Sat Jul 17 03:44:22 1999] u/i/ian/area/birdpilla6.c line 19: parse error
+
+[Sat Jul 17 03:44:22 1999] u/i/ian/area/birdpilla6.c line 24: End of file in string
+
+[Sat Jul 17 03:45:16 1999] u/i/ian/area/birdpilla6.c line 19: parse error
+
+[Sat Jul 17 03:45:16 1999] u/i/ian/area/birdpilla6.c line 24: End of file in string
+
+[Sat Jul 17 09:05:34 1999] u/i/ian/area/birdpilla6.c line 19: parse error
+
+[Sat Jul 17 09:05:34 1999] u/i/ian/area/birdpilla6.c line 24: End of file in string
+
+[Sat Jul 17 09:05:44 1999] u/i/ian/area/birdpilla6.c line 19: parse error
+
+[Sat Jul 17 09:05:44 1999] u/i/ian/area/birdpilla6.c line 24: End of file in string
+
+[Sat Jul 17 10:06:19 1999] u/i/ian/area/birdpilla6.c line 19: parse error
+
+[Sat Jul 17 10:06:19 1999] u/i/ian/area/birdpilla6.c line 24: End of file in string
+
+[Sat Jul 17 10:06:35 1999] u/i/ian/area/birdpilla6.c line 19: parse error
+
+[Sat Jul 17 10:06:35 1999] u/i/ian/area/birdpilla6.c line 24: End of file in string
+
+[Sat Jul 17 10:06:47 1999] u/i/ian/area/birdpilla6.c line 19: parse error
+
+[Sat Jul 17 10:06:47 1999] u/i/ian/area/birdpilla6.c line 24: End of file in string
+
+[Sat Jul 17 10:13:47 1999] u/i/ian/area/birdpilla6.c line 19: parse error
+
+[Sat Jul 17 10:13:47 1999] u/i/ian/area/birdpilla6.c line 24: End of file in string
+
+[Sat Jul 17 10:17:55 1999] u/i/ian/area/birdpill5.c line 16: parse error
+
+[Sat Jul 17 11:46:21 1999] u/i/ian/area/birdpilla6.c line 19: parse error
+
+[Sat Jul 17 11:46:21 1999] u/i/ian/area/birdpilla6.c line 24: End of file in string
+
+[Sat Jul 17 22:21:33 1999] u/i/ian/area/birdpilla7.c line 21: parse error
+
+[Sat Jul 17 22:26:25 1999] u/i/ian/area/birdpilla7.c line 21: parse error
+
+[Sat Jul 17 22:26:45 1999] u/i/ian/area/birdpilla7.c line 21: parse error
+
+[Sat Jul 17 22:30:25 1999] u/i/ian/area/birdpilla7.c line 21: parse error
+
+[Sun Jul 18 09:33:05 1999] u/i/ian/area/birdpilla7.c line 21: parse error
+
+[Sun Jul 18 09:36:03 1999] u/i/ian/area/birdpilla7.c line 21: parse error
+
+[Sun Jul 18 09:37:43 1999] u/i/ian/area/birdpilla7.c line 21: parse error
+
+[Sun Jul 18 12:43:31 1999] u/i/ian/area/birdpilla7.c line 21: parse error
+
+[Sun Jul 18 13:15:11 1999] u/i/ian/area/birdpilla7.c line 21: parse error
+
+[Sun Jul 18 16:34:41 1999] u/i/ian/area/birdpilla7.c line 21: parse error
+
+[Sun Jul 18 17:15:20 1999] u/i/ian/area/birdpilla7.c line 23: parse error
+
+[Sun Jul 18 17:15:20 1999] u/i/ian/area/birdpilla7.c line 25: Illegal terminator
+
+[Sun Jul 18 17:15:20 1999] u/i/ian/area/birdpilla7.c line 25: Text block exceeded maximum length
+
+[Sun Jul 18 17:15:20 1999] u/i/ian/area/birdpilla7.c line 34: Illegal terminator
+
+[Sun Jul 18 17:15:20 1999] u/i/ian/area/birdpilla7.c line 34: Text block exceeded maximum length
+
+[Sun Jul 18 17:15:20 1999] u/i/ian/area/birdpilla7.c line 41: End of file in string
+
+[Sun Jul 18 21:04:46 1999] u/i/ian/area/guild.c line 25: parse error
+
+[Sun Jul 18 21:04:46 1999] u/i/ian/area/guild.c line 30: End of file in string
+
+[Sun Jul 18 21:06:30 1999] u/i/ian/area/guild.c line 25: parse error
+
+[Sun Jul 18 21:06:30 1999] u/i/ian/area/guild.c line 30: End of file in string
+
+[Sun Jul 18 21:08:50 1999] u/i/ian/area/guild.c line 25: parse error
+
+[Sun Jul 18 21:08:50 1999] u/i/ian/area/guild.c line 30: End of file in string
+
+[Sun Jul 18 21:44:37 1999] u/i/ian/area/guild1_1.c line 16: parse error
+
+[Sun Jul 18 21:51:20 1999] u/i/ian/area/guild1_2.c line 16: parse error
+
+[Fri Jul 23 00:27:09 1999] u/i/ian/area/guild5.c line 27: parse error
+
+[Sun Jul 25 16:46:52 1999] u/i/ian/area/guildc.c line 17: parse error
+
+[Sun Jul 25 23:32:12 1999] u/i/ian/area/center4.c line 7: parse error
+
+[Sun Jul 25 23:32:12 1999] u/i/ian/area/center4.c line 7: Illegal terminator
+
+[Sun Jul 25 23:32:12 1999] u/i/ian/area/center4.c line 7: Text block exceeded maximum length
+
+[Sun Jul 25 23:32:12 1999] u/i/ian/area/center4.c line 8: Illegal terminator
+
+[Sun Jul 25 23:32:12 1999] u/i/ian/area/center4.c line 8: Text block exceeded maximum length
+
+[Sun May 28 19:07:36 2000] u/i/ian/area/guild5.c line 28: Warning: Unknown \ escape. before ¹\»\\¦í\¤F\, ¬Ý¨Ó¬O¦
+
+[Sun May 28 19:07:36 2000] u/i/ian/area/guild5.c line 28: Warning: Unknown \ escape. before \\¦í\¤F\, ¬Ý¨Ó¬O¦³¤H
+
+[Sun May 28 19:07:36 2000] u/i/ian/area/guild5.c line 28: Warning: Unknown \ escape. before F\, ¬Ý¨Ó¬O¦³¤Hªø
+
+[Sun May 28 19:07:36 2000] u/i/ian/area/guild5.c line 28: Warning: Unknown \ escape. before  ¬Ý¨Ó¬O¦³¤Hªø
+
+[Tue Aug  8 17:38:43 2000] u/i/ian/area/guild5.c line 28: Warning: Unknown \ escape. before ¹\»\\¦í\¤F\, ¬Ý¨Ó¬O¦
+
+[Tue Aug  8 17:38:43 2000] u/i/ian/area/guild5.c line 28: Warning: Unknown \ escape. before \\¦í\¤F\, ¬Ý¨Ó¬O¦³¤H
+
+[Tue Aug  8 17:38:43 2000] u/i/ian/area/guild5.c line 28: Warning: Unknown \ escape. before F\, ¬Ý¨Ó¬O¦³¤Hªø
+
+[Tue Aug  8 17:38:43 2000] u/i/ian/area/guild5.c line 28: Warning: Unknown \ escape. before  ¬Ý¨Ó¬O¦³¤Hªø
+

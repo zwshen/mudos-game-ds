@@ -1,0 +1,7 @@
+#/obj/user.c
+conditions ([])
+dbase (["DS_DATA_VERSION":19991107,"guild_gifts":({5,5,5,5,}),"unit":"位","wound":(["left_arm":0,"body":0,"left_leg":0,"head":0,"right_leg":0,"right_arm":0,]),"volume":7,"attitude":"peaceful","talk_point":8,"max_hp":80,"channels":({"chat","rumor","tchat",}),"mud_age":524,"newbie":1,"supply_point":60,"exp":777,"dex":2,"hp":80,"int":2,"addition_shield":10,"con":2,"level":1,"birthday":1230527885,"max_ap":60,"mp":60,"Merits":(["bar":0,"tec":0,"sou":0,"bio":0,"wit":0,]),"addition_armor":10,"evil":-1,"last_location":"/open/world1/tmr/area/street4","heart_beat_rate":6,"default_actions":,"addition_damage":10,"actions":,"ap":60,"cure_count":15,"race":"human","age":14,"heart_modify":0,"max_mp":60,"id":"kuye","startroom":"/open/world1/tmr/area/hotel","gender":"男性","str":2,"name":"豆花",])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

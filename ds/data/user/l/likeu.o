@@ -1,0 +1,6 @@
+#/obj/user.c
+conditions ([])
+dbase (["guild_gifts":({5,5,5,5,}),"heart_modify":0,"last_location":"/open/world1/tmr/area/hotel","bellicosity":0,"bank":(["past":23000,]),"mud_age":2419,"talk_point":8,"mp":60,"DS_DATA_VERSION":19991107,"cure_count":18,"actions":,"gender":"男性","ap":60,"name":"阿顯","age":14,"id":"likeu","evil":11,"addition_shield":10,"channels":({"chat","rumor","tchat",}),"race":"human","mob_record":({"/open/world1/tmr/area/npc/dog","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"level":1,"addition_armor":10,"heart_beat_rate":6,"hp":80,"birthday":1129873072,"exp":1439,"dex":2,"startroom":"/open/world1/tmr/area/hotel","int":2,"con":2,"str":2,"addition_damage":10,"unit":"位","MKS":6,"max_hp":80,"wound":(["body":0,"head":0,"left_arm":0,"right_arm":0,"left_leg":0,"right_leg":0,]),"attitude":"peaceful","max_mp":60,"volume":7,"combat_exp":2,"quest":(["not_newbie":1,]),"default_actions":,"board_last_read":(["tmr_hotel_b":1130168548,"sex_board":1038139056,]),"Merits":(["bar":0,"sou":0,"wit":0,"tec":0,"bio":0,]),"disable_type":" <毫無呼吸>","max_ap":60,"supply_point":60,])
+skills (["combat":3,"dodge":1,"unarmed":3,])
+learned (["combat":4,"unarmed":2,])
+autoload ({"/obj/money/coin:1200",})

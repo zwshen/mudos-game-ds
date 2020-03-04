@@ -1,0 +1,9 @@
+¥Ø¿ý¡R/open/world1/tmr/north_bar/npc/
+anthropophagi-monster.c  ­¹¤HÃ~              dinosaur.c          ¥û´Ý¼ÉÀs          
+dinosaur1.c         ®£¤öÀs              dinosaur2.c         ¨³±°Às            
+dinosaur3.c         ¥j¥Í®£Às            horn-monster.c      ¶Â¨¤Ã~            
+mayor.c             §õ§øªø              mucus-odd.c         ÂH²G©Ç            
+old_beggar.c        ¦Ñ¤^¤¢              predator-monster.c  ­¹¦×Ã~            
+rough-monster.c     µßµ·Ã~              single-monster.c    ¿W²´Ã~            
+soul.c              ¼v¤ö¨¸»î            villager.c          §ø¥Á              
+

@@ -1,0 +1,17 @@
+
+	arrayp(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	ㄧ计嘿:
+		arrayp() - 倒﹚跑计琌皚 (array).
+	ㄧ计粂猭:
+		int arrayp( mixed arg );
+
+		俱计 arrayp( 睼 arg );
+	ㄧ计ノ猭:
+		狦 arg 琌皚, 碞肚 1.
+	把σㄧ计:
+		mapp(3), stringp(3), objectp(3), intp(3), bufferp(3),
+		floatp(3), functionp(3), nullp(3), undefinedp(3), 
+		errorp(3), pointerp(3)
+	も陆亩:
+		Phoebus@ZH	1997.Aug.16.		(Writen 5/26/97)

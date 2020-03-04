@@ -1,0 +1,51 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清华站∶精华区</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+<A Name="top"></a>
+发信人:&nbsp;Ranma&nbsp;(乱马~~想和你去吹吹风),&nbsp;信区:&nbsp;Mud_Builder&nbsp;<BR>
+标&nbsp;&nbsp;题:&nbsp;关于对mudlib的加密&nbsp;<BR>
+发信站:&nbsp;BBS&nbsp;水木清华站&nbsp;(Wed&nbsp;Jan&nbsp;21&nbsp;12:45:12&nbsp;1998)&nbsp;<BR>
+&nbsp;<BR>
+仔细翻翻mudos的source&nbsp;code，终于想出加密的方法啦，不过&nbsp;<BR>
+没有去试验，所以一旦你应用本方法后出现系统崩溃，显示器爆炸，&nbsp;<BR>
+引起头痛脑热，心脏病发作，本马概不负责。&nbsp;<BR>
+&nbsp;<BR>
+先讲讲原理。众所周知，mudlib中有binaries目录，里面存放&nbsp;<BR>
+半编译代码，但这些半成品是不能脱离原代码运行的。mudos&nbsp;<BR>
+在load-object&nbsp;(in&nbsp;simulate.c)的时候先调用load_binary&nbsp;(in&nbsp;&nbsp;<BR>
+binary.c)，load_binary()先进行depend检查，如果发现原文件&nbsp;<BR>
+更新过，原.h文件更新过，或driver更新过等等，就return&nbsp;一个&nbsp;<BR>
+false,这样在load_object()中再根据不同的情况进行处理，或是&nbsp;<BR>
+重新编译，或是报个出错信息&nbsp;。&nbsp;<BR>
+&nbsp;<BR>
+进行加密的办法也很简单，不用改mudos，想办法骗过depend检查&nbsp;<BR>
+就行了。我想出一个办法，首先保证所有的.b文件都存在，一个玩过&nbsp;<BR>
+很久的lib都可以，实在不行就编一个lib程序，load所有的object,&nbsp;<BR>
+这样自动生成.b文件，更好的方法是查一下有关编译部分的mudos&nbsp;<BR>
+代码，好象有个save_binary()，查一下我上面说的两个文件，一&nbsp;<BR>
+定找的出来的，编一个程序，直接写出所有的.b文件，这样可以避免&nbsp;<BR>
+load_object中出现的问题。&nbsp;<BR>
+然后将每个源文件清零，但不要删掉，以骗过mudos，这就是fengyun&nbsp;<BR>
+中为什么都是一些长度为0的.c文件了.最后touch一下所有的.b文件，&nbsp;<BR>
+让它们比.c文件更新。ok？，so&nbsp;easy，不是吗？&nbsp;<BR>
+&nbsp;<BR>
+最后一定要注意在mudlib运行过程中，一定不要让巫师touch任何源文件，&nbsp;<BR>
+阿铁当初就是这样谆谆告戒我的:))&nbsp;<BR>
+--&nbsp;<BR>
+小楼一夜听秋雨&nbsp;<BR>
+--&nbsp;<BR>
+伫倚危楼风细细&nbsp;望极春愁&nbsp;黯黯生天际&nbsp;&nbsp;草色烟光残照里&nbsp;无言谁会凭栏意[0&nbsp;<BR>
+拟把疏狂图一醉&nbsp;对酒当歌&nbsp;强乐还无味&nbsp;&nbsp;衣带渐宽终不悔&nbsp;为伊消得人憔悴&nbsp;<BR>
+&nbsp;<BR>
+※&nbsp;来源:·BBS&nbsp;水木清华站&nbsp;bbs.net.tsinghua.edu.cn·[FROM:&nbsp;166.111.5.17]&nbsp;<BR>
+<A HREF="00000009.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一页</A>
+<A HREF="index.htm">回到目录</A>
+<A HREF="#top">回到页首</A>
+<A HREF="00000011.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+</BODY></HTML>

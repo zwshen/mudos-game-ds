@@ -1,0 +1,10 @@
+#/obj/user.c
+conditions ([])
+dbase (["DS_DATA_VERSION":19991107,"war_art":0,"addition_armor":10,"addition_damage":10,"ap":64,"age":14,"mud_age":1546,"channels":({"chat","rumor","tchat",}),"hp":110,"mp":47,"attitude":"peaceful","supply_point":60,"newbie":1,"exp":1369,"dex":2,"MKS":9,"int":2,"last_location":"/open/world1/tmr/area/inn_2f","con":2,"level":1,"birthday":1221557170,"war_score":4,"bank":(["past":10,]),"talk_point":8,"cure_count":3,"Merits":(["tec":0,"sou":0,"bio":0,"wit":0,"bar":0,]),"evil":11,"combat_exp":3,"max_mp":64,"popularity":0,"heart_modify":1,"guild_gifts":({5,5,5,5,}),"unit":"位","mob_record":({"/open/world1/cominging/area/npc/traveller","/open/world1/cominging/area/npc/traveller","/open/world1/linjack/emperor/npc/p_vendor","/open/world1/cominging/area/npc/child","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"default_actions":,"actions":,"wound":(["body":0,"left_arm":0,"right_arm":0,"left_leg":0,"head":0,"right_leg":0,]),"race":"tiger","addition_shield":10,"max_ap":64,"id":"vvx","startroom":"/open/world1/tmr/area/hotel","heart_beat_rate":6,"gender":"男性","str":3,"max_hp":110,"volume":7,"name":"卡撐魔王",])
+skills (["parry":1,"combat":6,"unarmed":3,"dodge":2,"sword":3,])
+learned (["parry":2,"combat":34,"unarmed":31,"dodge":17,"sword":10,])
+items ({})
+alias (["g":"get all from corpse",])
+autoload ({"/obj/money/coin:650",})
+toDoList ([])
+solved ({})

@@ -1,0 +1,16 @@
+
+	restore_variable(3)	LP MudOSv21c7		(7 Jul 1996)
+
+	ㄧ计嘿:
+		restore_variable() - 眖﹃弄跑计.
+	ㄧ计粂猭:
+		mixed restore_variable( string value );
+
+		睼 restore_variable( ﹃ value );
+	ㄧ计ノ猭:
+		眖﹃弄跑计. ﹃Α籔 save_object() ㎝
+		restore_object() ┮ㄏノ.
+	把σㄧ计:
+		restore_object(3)
+	も陆亩:
+		Phoebus@ZH	97.Jun.2.		(Writen 5/23/97)

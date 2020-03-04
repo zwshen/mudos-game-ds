@@ -1,0 +1,41 @@
+[程式必須的概念]
+    你必須了解, 在 LPC 中最重要的一個概念是物件(object) 當你想
+做任何動作時, 都要考慮到這個動作是哪一個 object 所做的, 不然很
+容易導致錯誤　LPC 的語法並不嚴謹, 有些場合為了省事可以將函數是
+由哪個物件所作的省略掉, 例如我們在 create() 函數中最常看到的
+set(), 事實上最嚴謹的寫法應為 this_object()->set()　write() 則
+為 this_player()->write()　
+    說這麼多只是為了強調一件事: 你能抓出一個物品的 object 變數
+就能讓他幹一切他所能做的事　
+
+[this_object() 與 this_player()]
+    這兩個函數是系統所提供的函數, 也是最最好用的兩個函數　在你
+寫作一個物件 (房間　物品...etc.)時, this_object() 表示自己這個
+物件　
+    this_player() 則比較複雜, 它會傳回一個屬於玩家型別的物件　
+這個玩家在 init 中就是觸發 init 的那個玩家　this_player() 會跟
+著函數呼叫一直傳遞給所有被 init 呼叫的函數, 包括 add_action 中
+所定義出來的函數, 在這些函數中, this_player() 就是表示做動作的
+那個人　
+
+[present() 函數]
+    常常, 我們只知道一個物件的名字, 卻不能用個 object 型別的變
+數指向它　 object present(string "id",object env) 函數在此時就
+可以派上用場, 你給定你要找的物件的名字, 與它的所在地 (某個房間
+或某個人), 函數就會傳回他所找到的物件　
+    簡單的想, present 函數其實就是在一個房間裡找出某個名字的物
+品的函數　它是同類型找物品的函數中最有用的一個, 其餘的函數還有
+find_player(), find_living() 等等　
+
+[environment(), first_inventory(), next_inventory(), all_inventory()]
+    這一組函數跟物件所處在的位置有關　 environment(object ob)
+傳回了物件 ob 所處在的地點, 例如 ob 是個玩家或生物, 那麼這個函
+數會傳回 ob 所在的房間; 如果 ob 是個物品, 那麼傳回的就是攜帶著
+ ob 的生物, 或是 ob 所在的房間 (如果沒有任何人帶著它)
+    first_inventory(object ob)  所傳回的是 ob 中的第一個物件,
+如果 ob 是房間, 則傳回第一個物品或是生物, 如果 ob 是生物, 則傳
+回他身上所帶的第一個物品　
+    next_inventory(object ob) 通常跟著 first_inventory()  一起
+使用　它的功用是傳回 ob 的下一個物品, 在同一個 environment 中　
+    all_inventory(object ob) 類似於 first_inventory(),  但是它
+所傳回的是包含了所有物品的一整個陣列　

@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["addition_shield":10,"newbie":1,"addition_armor":10,"heart_beat_rate":6,"addition_damage":10,"max_hp":80,"gender":"男性","id":"nic","wound":(["right_arm":0,"left_leg":0,"right_leg":0,"body":0,"head":0,"left_arm":0,]),"name":"尼克","ap":60,"attitude":"peaceful","max_mp":60,"volume":7,"hp":80,"default_actions":,"exp":777,"board_last_read":(["tmr_hotel_b":1115357986,]),"age":14,"dex":2,"int":2,"con":2,"Merits":(["sou":0,"bar":0,"bio":0,"wit":0,"tec":0,]),"str":2,"max_ap":60,"DS_DATA_VERSION":19991107,"supply_point":60,"heart_modify":0,"mp":60,"unit":"位","cure_count":2,"actions":,"channels":({"chat","rumor","tchat","es",}),"race":"human","level":1,"talk_point":8,"birthday":1110797182,"guild_gifts":({5,5,5,5,}),"mud_age":619,"startroom":"/open/world1/tmr/area/hotel","evil":-1,])
+autoload ({})

@@ -1,0 +1,5 @@
+#/obj/user.c
+dbase (["con":2,"heart_modify":0,"talk_point":0,"addition_armor":10,"hp":80,"id":"siamese","gender":"男性","str":2,"wound":(["left_leg":0,"right_leg":0,"left_arm":0,"right_arm":0,"body":0,"head":0,]),"disable_type":" <毫無呼吸>","heart_beat_rate":6,"default_actions":,"name":"賽恩斯","startroom":"/open/world1/tmr/area/hotel","mob_record":({"/open/world1/tmr/area/npc/dog","/open/world1/tmr/area/npc/dog",}),"last_location":"/open/world1/tmr/area/round4","cure_count":19,"evil":-1,"guild_gifts":({5,5,5,5,}),"newbie":1,"ap":60,"mp":60,"unit":"位","age":14,"channels":({"chat","rumor","tchat",}),"bellicosity":0,"DS_DATA_VERSION":19991107,"actions":,"addition_damage":10,"Merits":(["bio":0,"bar":0,"wit":0,"tec":0,"sou":0,]),"attitude":"peaceful","mud_age":625,"level":1,"race":"human","max_hp":80,"exp":1129,"birthday":1019615873,"MKS":2,"dex":2,"combat_exp":0,"supply_point":60,"addition_shield":10,"max_ap":60,"max_mp":60,"volume":7,"int":2,])
+skills (["dodge":0,"combat":2,"unarmed":1,])
+learned (["dodge":0,"combat":10,"unarmed":4,])
+autoload ({})

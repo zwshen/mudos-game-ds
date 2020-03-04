@@ -1,0 +1,15 @@
+
+	sqrt(3)			LP MudOSv21c7		(7 Jul 1996)
+
+	ㄧ计嘿:
+		sqrt() - 肚疊翴计キよ (square root).
+	ㄧ计粂猭:
+		float sqrt( float f );
+
+		疊翴计 sqrt( 疊翴计 f );
+	ㄧ计ノ猭:
+		sqrt() 肚把计 f  タキよ. f ぃ璽.
+	把σㄧ计:
+		exp(3), log(3), pow(3)
+	も陆亩:
+		Phoebus@ZH	97.jul.23.		(Writen 5/23/97)

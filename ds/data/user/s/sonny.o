@@ -1,0 +1,5 @@
+#/obj/user.c
+conditions ([])
+dbase (["dex":2,"int":2,"startroom":"/open/world1/tmr/area/hotel","con":2,"str":2,"newbie":1,"default_actions":,"mud_age":645,"talk_point":8,"addition_shield":10,"DS_DATA_VERSION":19991107,"addition_armor":10,"heart_beat_rate":6,"ap":60,"gender":"¤k©Ê","unit":"¦ì","max_ap":60,"supply_point":60,"name":"ªüÀö","evil":-1,"id":"sonny","heart_modify":0,"last_location":"/open/world1/kkeenn/love/room25","guild_gifts":({5,5,5,5,}),"age":14,"addition_damage":10,"mp":34,"max_hp":80,"channels":({"chat","rumor","tchat",}),"race":"human","wound":(["body":0,"head":0,"left_arm":0,"right_arm":0,"left_leg":0,"right_leg":0,]),"level":1,"cure_count":0,"actions":,"hp":80,"attitude":"peaceful","birthday":1137343653,"max_mp":60,"Merits":(["sou":0,"bar":0,"bio":0,"wit":0,"tec":0,]),"volume":7,"exp":777,])
+alias (["see":"search here",])
+autoload ({})

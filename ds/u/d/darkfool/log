@@ -1,0 +1,74 @@
+u/d/darkfool/workroom.c line 17: parse error
+u/d/darkfool/workroom.c line 16: parse error
+u/d/darkfool/workroom.c line 3: parse error
+u/d/darkfool/workroom.c line 3: parse error
+u/d/darkfool/workroom.c line 3: parse error
+u/d/darkfool/workroom.c line 3: parse error
+u/d/darkfool/workroom.c line 3: parse error
+u/d/darkfool/workroom.c line 3: parse error
+u/d/darkfool/workroom.c line 15: End of file in text block
+u/d/darkfool/workroom.c line 15: Undefined variable 'ime'
+
+u/d/darkfool/workroom.c line 15: Undefined variable 'd'
+
+u/d/darkfool/workroom.c line 15: parse error
+u/d/darkfool/workroom.c line 16: Illegal LHS
+u/d/darkfool/workroom.c line 18: Undefined variable 'h'
+
+u/d/darkfool/workroom.c line 15: parse error
+u/d/darkfool/workroom.c line 3: parse error
+u/d/darkfool/workroom.c line 3: parse error
+u/d/darkfool/workroom.c line 3: parse error
+u/d/darkfool/workroom.c line 3: parse error
+u/d/darkfool/workroom.c line 3: parse error
+u/d/darkfool/workroom.c line 3: parse error
+u/d/darkfool/workroom.c line 3: parse error
+u/d/darkfool/workroom.c line 3: parse error
+u/d/darkfool/workroom.c line 3: parse error
+u/d/darkfool/workroom.c line 3: parse error
+u/d/darkfool/workroom.c line 3: parse error
+u/d/darkfool/workroom.c line 3: parse error
+u/d/darkfool/workroom.c line 3: parse error
+u/d/darkfool/workroom.c line 3: parse error
+u/d/darkfool/workroom.c line 3: parse error
+u/d/darkfool/area/road2.c line 28: Undefined variable 'HIW'
+
+u/d/darkfool/area/road2.c line 28: parse error
+u/d/darkfool/area/road2.c line 28: Undefined variable 'HIW'
+
+u/d/darkfool/area/road2.c line 28: parse error
+u/d/darkfool/area/road2.c line 28: Undefined variable 'HIW'
+
+u/d/darkfool/area/road2.c line 28: parse error
+u/d/darkfool/area/road2.c line 28: parse error
+u/d/darkfool/area/road2.c line 28: parse error
+u/d/darkfool/area/road2.c line 16: parse error
+u/d/darkfool/area/road2.c line 16: parse error
+u/d/darkfool/area/road2.c line 16: parse error
+u/d/darkfool/area/road2.c line 16: parse error
+u/d/darkfool/area/road2.c line 16: parse error
+u/d/darkfool/area/road2.c line 16: parse error
+u/d/darkfool/npc.c line 8: Undefined variable 'BLINK'
+
+u/d/darkfool/npc.c line 8: parse error
+u/d/darkfool/sword.c line 12: parse error
+u/d/darkfool/sword.c line 13: Illegal terminator
+u/d/darkfool/sword.c line 13: Text block exceeded maximum length
+u/d/darkfool/sword.c line 15: Illegal terminator
+u/d/darkfool/sword.c line 15: Text block exceeded maximum length
+u/d/darkfool/sword.c line 18: $var illegal outside of function.
+u/d/darkfool/sword.c line 12: parse error
+u/d/darkfool/sword.c line 13: Illegal terminator
+u/d/darkfool/sword.c line 13: Text block exceeded maximum length
+u/d/darkfool/sword.c line 15: Illegal terminator
+u/d/darkfool/sword.c line 15: Text block exceeded maximum length
+u/d/darkfool/sword.c line 18: $var illegal outside of function.
+u/d/darkfool/sword.c line 13: parse error
+u/d/darkfool/sword.c line 13: parse error
+u/d/darkfool/sword.c line 13: parse error
+[Sun Aug 01 15:47:40 1999] u/d/darkfool/area1/13.c line 28: Undefined variable 'computer'
+
+[Tue Aug 03 16:31:08 1999] u/d/darkfool/area1/5.c line 22: End of file in text block
+
+[Tue Aug 03 16:31:08 1999] u/d/darkfool/area1/5.c line 22: Syntax error
+

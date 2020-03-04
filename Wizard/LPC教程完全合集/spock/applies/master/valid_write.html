@@ -1,0 +1,40 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=bg2312">
+   <META NAME="Author" CONTENT="Spock">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.01 [en] (Win95; I) [Netscape]">
+   <TITLE>MudOS v21c2 参考文件 - applies - master - valid_write</TITLE>
+</HEAD>
+<BODY TEXT="#CCFFFF" BGCOLOR="#000000" LINK="#33FF33" VLINK="#FF0000" ALINK="#33CCFF" BACKGROUND="../../../image/ff/fftitleback.jpg" NOSAVE>
+
+<CENTER><FONT COLOR="#FF99FF"><FONT SIZE=+3>valid_write(4)　 MudOS v21c2　
+(5 Sep 1994)</FONT></FONT></CENTER>
+
+<HR WIDTH="100%">
+<BR><FONT COLOR="#FFFFCC">　名称:</FONT>
+<UL>　 valid_write - 检查一个人是否有权限写入一个文件.</UL>
+<FONT COLOR="#FFFFCC">　语法:</FONT>
+<UL>　 int valid_write( string file, mixed user, string func );
+
+<P>　 整数 valid_write( 字符串 file, 混合 user, 字符串 func );</UL>
+<FONT COLOR="#FFFFCC">　用法:</FONT>
+<UL>　 每次当一个使用者尝试写入文件时, 驱动程序会调用主控物
+<BR>　 件的 valid_write()　 以检查此人的写入权限. 此函数的参
+<BR>　 数 file 为文件名称, user　 为尝试写入此档的人名, func
+<BR>　 为造成调用 valid_write()　 的函数名称. 如果
+<BR>　 valid_write() 返回非零值, 则准许写入.</UL>
+<FONT COLOR="#FFFFCC">　参考:</FONT>
+<UL>　 <A HREF="valid_read.html">valid_read(4)</A></UL>
+<FONT COLOR="#FFFFCC">　翻译:</FONT>
+<UL>　 Spock @ FF 97.Aug.7.　 (printed 3/16/95)</UL>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+<CENTER><A HREF="../master.html">回到上一页</A></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+</BODY>
+</HTML>

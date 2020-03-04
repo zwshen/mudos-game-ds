@@ -1,0 +1,6 @@
+#/obj/user.c
+conditions ([])
+dbase (["hp":80,"volume":7,"env":([]),"unit":"位","Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"talk_point":8,"age":14,"last_location":"/open/world1/cominging/area/sidestreet3","newbie":1,"cure_count":7,"wound":(["head":0,"left_leg":0,"right_arm":0,"left_arm":0,"body":0,"right_leg":0,]),"id":"adol","exp":777,"dex":2,"int":2,"mud_age":1292,"con":2,"attitude":"peaceful","str":2,"guild_gifts":({5,5,5,5,}),"level":1,"supply_point":34,"actions":,"DS_DATA_VERSION":19991107,"gender":"男性","evil":-1,"name":"亞特魯","addition_shield":10,"max_mp":110,"channels":({"chat","rumor","tchat",}),"birthday":1164976510,"heart_beat_rate":6,"max_hp":80,"heart_modify":0,"race":"celestial","addition_armor":10,"startroom":"/open/world1/tmr/area/hotel","mp":110,"default_actions":,"addition_damage":10,"max_ap":60,"ap":60,])
+skills (["literate":2,])
+learned (["literate":18,])
+autoload ({"/obj/money/coin:9440",})

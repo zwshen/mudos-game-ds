@@ -1,0 +1,17 @@
+
+	cp(3)			LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		cp() - 復制一個檔案
+	函數語法:
+		int cp( string src, string dst );
+
+		整數 cp( 字串 src, 字串 dst );
+	函數用法:
+		復制檔案 src 為檔案 dst.
+	傳回值:
+		如果復制成功就傳回 1, 失敗則傳回負值.
+	參考函數:
+		rm(3), rmdir(3), rename(3), link(3)
+	手冊翻譯:
+		Phoebus@ZH	97.Jan.27.		(Writen 5/23/97)

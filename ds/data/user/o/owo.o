@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions (["ill_zhongshu":37,])
+dbase (["DS_DATA_VERSION":19991107,"max_mp":66,"age":14,"disable_type":" <毫無呼吸>","bellicosity":0,"max_hp":84,"race":"evil","heart_beat_rate":6,"addition_armor":10,"mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog","/open/world1/tmr/area/npc/farmer","/open/world1/tmr/area/npc/traveler","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/too","/open/world1/tmr/area/npc/dog","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"war_score":19,"channels":({"chat","rumor","tchat","bala",}),"default_actions":,"mp":66,"unit":"位","talk_point":8,"birthday":1213014100,"hp":61,"volume":7,"id":"owo","MKS":20,"guild_gifts":({5,5,5,5,}),"wound":(["left_leg":0,"right_leg":0,"right_arm":0,"head":0,"left_arm":0,"body":0,]),"newbie":1,"addition_damage":10,"addition_shield":10,"exp":3575,"dex":2,"max_ap":100,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"gender":"女性","int":2,"ap":100,"mud_age":7021,"name":"煩ㄟ","con":2,"str":2,"level":1,"last_location":"/open/world1/tmr/area/round2","cure_count":1,"evil":40,"startroom":"/open/world1/tmr/area/hotel","combat_exp":3,"actions":,"attitude":"peaceful","heart_modify":0,"supply_point":60,])
+skills (["combat":8,"dodge":3,"parry":0,"unarmed":6,"strong-body":5,])
+learned (["combat":88,"dodge":16,"parry":1,"unarmed":41,"strong-body":12,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

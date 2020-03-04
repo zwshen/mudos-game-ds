@@ -1,0 +1,254 @@
+[Wed Jan 26 00:11:24 2000] u/s/superbug/workroom.c line 5: $var illegal outside of function.
+
+[Wed Jan 26 00:11:24 2000] u/s/superbug/workroom.c line 5: parse error
+
+[Wed Jan 26 00:11:24 2000] u/s/superbug/workroom.c line 5: $var illegal outside of function.
+
+[Wed Jan 26 00:11:24 2000] u/s/superbug/workroom.c line 5: $var illegal outside of function.
+
+[Wed Jan 26 00:11:24 2000] u/s/superbug/workroom.c line 5: $var illegal outside of function.
+
+[Wed Jan 26 00:16:29 2000] u/s/superbug/workroom.c line 5: $var illegal outside of function.
+
+[Wed Jan 26 00:16:29 2000] u/s/superbug/workroom.c line 5: parse error
+
+[Wed Jan 26 00:16:29 2000] u/s/superbug/workroom.c line 5: $var illegal outside of function.
+
+[Wed Jan 26 00:17:01 2000] u/s/superbug/workroom.c line 5: $var illegal outside of function.
+
+[Wed Jan 26 00:17:01 2000] u/s/superbug/workroom.c line 5: parse error
+
+[Wed Jan 26 00:19:13 2000] u/s/superbug/workroom.c line 24: End of file in text block
+
+[Wed Jan 26 00:19:13 2000] u/s/superbug/workroom.c line 26: parse error
+
+[Wed Jan 26 00:19:13 2000] u/s/superbug/workroom.c line 70: Undefined variable 'func'
+
+
+[Wed Jan 26 00:19:13 2000] u/s/superbug/workroom.c line 70: Undefined variable 'args'
+
+
+[Wed Jan 26 00:19:13 2000] u/s/superbug/workroom.c line 70: Illegal LHS
+
+[Wed Jan 26 00:19:13 2000] u/s/superbug/workroom.c line 70: parse error
+
+[Wed Jan 26 00:19:21 2000] u/s/superbug/workroom.c line 24: End of file in text block
+
+[Wed Jan 26 00:19:21 2000] u/s/superbug/workroom.c line 26: parse error
+
+[Wed Jan 26 00:19:21 2000] u/s/superbug/workroom.c line 70: Undefined variable 'func'
+
+
+[Wed Jan 26 00:19:21 2000] u/s/superbug/workroom.c line 70: Undefined variable 'args'
+
+
+[Wed Jan 26 00:19:21 2000] u/s/superbug/workroom.c line 70: Illegal LHS
+
+[Wed Jan 26 00:19:21 2000] u/s/superbug/workroom.c line 70: parse error
+
+[Wed Jan 26 00:34:43 2000] u/s/superbug/board.c line 2: parse error
+
+[Wed Jan 26 09:02:37 2000] u/s/superbug/train1/1.c line 9: parse error
+
+[Wed Jan 26 09:02:37 2000] u/s/superbug/train1/1.c line 9: Illegal terminator
+
+[Wed Jan 26 09:02:37 2000] u/s/superbug/train1/1.c line 9: Text block exceeded maximum length
+
+[Wed Jan 26 09:02:37 2000] u/s/superbug/train1/1.c line 10: Illegal terminator
+
+[Wed Jan 26 09:02:37 2000] u/s/superbug/train1/1.c line 10: Text block exceeded maximum length
+
+[Wed Jan 26 09:04:23 2000] u/s/superbug/train1/1.c line 10: parse error
+
+[Wed Jan 26 09:04:39 2000] u/s/superbug/train1/1.c line 10: parse error
+
+[Wed Jan 26 09:06:01 2000] u/s/superbug/train1/1.c line 10: parse error
+
+[Wed Jan 26 09:14:47 2000] u/s/superbug/train1/1.c line 10: parse error
+
+[Wed Jan 26 09:25:22 2000] u/s/superbug/train1/1.c line 10: parse error
+
+[Wed Jan 26 09:25:50 2000] u/s/superbug/train1/1.c line 10: parse error
+
+[Wed Jan 26 09:27:10 2000] u/s/superbug/train1/1.c line 10: parse error
+
+[Wed Jan 26 09:43:46 2000] u/s/superbug/train1/1.c line 23: Undefined variable 'HIC'
+
+
+[Wed Jan 26 09:43:46 2000] u/s/superbug/train1/1.c line 23: parse error
+
+[Wed Jan 26 12:02:26 2000] u/s/superbug/train1/1.c line 23: Undefined variable 'HIC'
+
+
+[Wed Jan 26 12:02:26 2000] u/s/superbug/train1/1.c line 23: parse error
+
+[Wed Jan 26 12:23:17 2000] u/s/superbug/train1/1.c line 4: parse error
+
+[Wed Jan 26 12:26:00 2000] u/s/superbug/train1/1.c line 9: parse error
+
+[Wed Jan 26 12:27:31 2000] u/s/superbug/train1/1.c line 9: parse error
+
+[Wed Jan 26 12:28:18 2000] u/s/superbug/train1/1.c line 9: parse error
+
+[Wed Jan 26 12:28:38 2000] u/s/superbug/train1/1.c line 9: parse error
+
+[Wed Jan 26 12:29:20 2000] u/s/superbug/train1/1.c line 9: parse error
+
+[Wed Jan 26 12:35:07 2000] u/s/superbug/train1/2.c line 8: parse error
+
+[Wed Jan 26 12:35:07 2000] u/s/superbug/train1/2.c line 11: Illegal terminator
+
+[Wed Jan 26 12:35:07 2000] u/s/superbug/train1/2.c line 11: Text block exceeded maximum length
+
+[Wed Jan 26 12:36:26 2000] u/s/superbug/train1/2.c line 8: parse error
+
+[Wed Jan 26 12:36:58 2000] u/s/superbug/train1/2.c line 8: parse error
+
+[Wed Jan 26 12:37:34 2000] u/s/superbug/train1/2.c line 8: parse error
+
+[Wed Jan 26 12:39:06 2000] u/s/superbug/train1/2.c line 8: parse error
+
+[Wed Jan 26 16:39:06 2000] u/s/superbug/train1/1.c line 17: parse error
+
+[Wed Jan 26 21:17:40 2000] u/s/superbug/train1/2.c line 24: End of file in text block
+
+[Wed Jan 26 21:17:40 2000] u/s/superbug/train1/2.c line 24: Wrong number of arguments to set
+    Expected: 2  Got: 1
+
+[Wed Jan 26 21:17:40 2000] u/s/superbug/train1/2.c line 28: Undefined variable 'replac'
+
+
+[Wed Jan 26 21:17:40 2000] u/s/superbug/train1/2.c line 28: parse error
+
+[Wed Jan 26 21:23:09 2000] u/s/superbug/train1/2.c line 24: End of file in text block
+
+[Wed Jan 26 21:23:09 2000] u/s/superbug/train1/2.c line 24: parse error
+
+[Wed Jan 26 23:31:24 2000] u/s/superbug/train1/1.c line 10: parse error
+
+[Wed Jan 26 23:52:33 2000] u/s/superbug/train/1.c line 18: Undefined variable 'HIC'
+
+
+[Wed Jan 26 23:52:33 2000] u/s/superbug/train/1.c line 18: parse error
+
+[Wed Jan 26 23:59:35 2000] u/s/superbug/train/1.c line 22: parse error
+
+[Wed Jan 26 23:59:57 2000] u/s/superbug/train/1.c line 23: parse error
+
+[Thu Jan 27 00:00:33 2000] u/s/superbug/train/1.c line 23: parse error
+
+[Thu Jan 27 11:44:33 2000] u/s/superbug/train/3.c line 16: parse error
+
+[Thu Jan 27 11:44:33 2000] u/s/superbug/train/3.c line 26: End of file in string
+
+[Thu Jan 27 11:45:33 2000] u/s/superbug/train/3.c line 16: parse error
+
+[Thu Jan 27 11:45:33 2000] u/s/superbug/train/3.c line 25: End of file in string
+
+[Thu Jan 27 11:45:45 2000] u/s/superbug/train/3.c line 16: parse error
+
+[Thu Jan 27 11:45:45 2000] u/s/superbug/train/3.c line 25: End of file in string
+
+[Thu Jan 27 11:49:54 2000] u/s/superbug/train/3.c line 16: parse error
+
+[Thu Jan 27 11:49:54 2000] u/s/superbug/train/3.c line 24: End of file in string
+
+[Thu Jan 27 21:42:22 2000] u/s/superbug/train/4.c line 20: parse error
+
+[Thu Jan 27 21:42:22 2000] u/s/superbug/train/4.c line 35: $var illegal outside of function.
+
+[Thu Jan 27 21:42:22 2000] u/s/superbug/train/4.c line 35: Illegal terminator
+
+[Thu Jan 27 21:42:22 2000] u/s/superbug/train/4.c line 35: Text block exceeded maximum length
+
+[Thu Jan 27 21:42:22 2000] u/s/superbug/train/4.c line 36: $var illegal outside of function.
+
+[Thu Jan 27 21:42:22 2000] u/s/superbug/train/4.c line 36: Illegal terminator
+
+[Thu Jan 27 21:42:36 2000] u/s/superbug/train/test.c line 20: parse error
+
+[Thu Jan 27 21:42:36 2000] u/s/superbug/train/test.c line 35: $var illegal outside of function.
+
+[Thu Jan 27 21:42:36 2000] u/s/superbug/train/test.c line 35: Illegal terminator
+
+[Thu Jan 27 21:42:36 2000] u/s/superbug/train/test.c line 35: Text block exceeded maximum length
+
+[Thu Jan 27 21:42:36 2000] u/s/superbug/train/test.c line 36: $var illegal outside of function.
+
+[Thu Jan 27 21:42:36 2000] u/s/superbug/train/test.c line 36: Illegal terminator
+
+[Thu Jan 27 21:44:44 2000] u/s/superbug/train/4.c line 20: parse error
+
+[Thu Jan 27 21:44:44 2000] u/s/superbug/train/4.c line 35: $var illegal outside of function.
+
+[Thu Jan 27 21:44:44 2000] u/s/superbug/train/4.c line 35: Illegal terminator
+
+[Thu Jan 27 21:44:44 2000] u/s/superbug/train/4.c line 35: Text block exceeded maximum length
+
+[Thu Jan 27 21:44:44 2000] u/s/superbug/train/4.c line 36: $var illegal outside of function.
+
+[Thu Jan 27 21:44:44 2000] u/s/superbug/train/4.c line 36: Illegal terminator
+
+[Thu Jan 27 21:46:43 2000] u/s/superbug/train/4.c line 20: parse error
+
+[Thu Jan 27 21:46:43 2000] u/s/superbug/train/4.c line 35: $var illegal outside of function.
+
+[Thu Jan 27 21:46:43 2000] u/s/superbug/train/4.c line 35: Illegal terminator
+
+[Thu Jan 27 21:46:43 2000] u/s/superbug/train/4.c line 35: Text block exceeded maximum length
+
+[Thu Jan 27 21:46:43 2000] u/s/superbug/train/4.c line 36: $var illegal outside of function.
+
+[Thu Jan 27 21:46:43 2000] u/s/superbug/train/4.c line 36: Illegal terminator
+
+[Thu Jan 27 22:14:29 2000] u/s/superbug/train/test.c line 42: parse error
+
+[Thu Jan 27 22:15:27 2000] u/s/superbug/train/test.c line 42: parse error
+
+[Fri Jan 28 01:29:47 2000] u/s/superbug/train/3.c line 19: parse error
+
+[Fri Jan 28 01:29:47 2000] u/s/superbug/train/3.c line 37: Illegal LHS
+
+[Fri Jan 28 01:29:47 2000] u/s/superbug/train/3.c line 37: parse error
+
+[Fri Jan 28 01:32:21 2000] u/s/superbug/train/3.c line 19: parse error
+
+[Fri Jan 28 01:32:21 2000] u/s/superbug/train/3.c line 37: Illegal LHS
+
+[Fri Jan 28 01:32:21 2000] u/s/superbug/train/3.c line 37: parse error
+
+[Fri Jan 28 01:34:30 2000] u/s/superbug/train/3.c line 18: parse error
+
+[Fri Jan 28 01:34:30 2000] u/s/superbug/train/3.c line 36: Illegal LHS
+
+[Fri Jan 28 01:34:30 2000] u/s/superbug/train/3.c line 36: parse error
+
+[Fri Jan 28 01:45:13 2000] u/s/superbug/train/3.c line 39: parse error
+
+[Sun Jan 30 02:22:20 2000] u/s/superbug/superbug.c line 1: Unrecognised # directive
+
+[Sun Jan 30 02:22:20 2000] u/s/superbug/superbug.c line 2: parse error
+
+[Sun Jan 30 22:41:09 2000] u/s/superbug/train/1.c line 22: parse error
+
+[Mon Jan 31 20:50:57 2000] u/s/superbug/train/a-18.c line 7: $var illegal outside of function.
+
+[Mon Jan 31 20:50:57 2000] u/s/superbug/train/a-18.c line 7: parse error
+
+[Mon Jan 31 20:50:57 2000] u/s/superbug/train/a-18.c line 7: $var illegal outside of function.
+
+[Mon Jan 31 20:50:57 2000] u/s/superbug/train/a-18.c line 7: $var illegal outside of function.
+
+[Mon Jan 31 20:50:57 2000] u/s/superbug/train/a-18.c line 7: $var illegal outside of function.
+
+[Mon Jan 31 20:51:23 2000] u/s/superbug/train/a-18.c line 7: Undefined variable 'HIB'
+
+
+[Mon Jan 31 20:51:23 2000] u/s/superbug/train/a-18.c line 7: parse error
+
+[Mon Jan 31 20:52:04 2000] u/s/superbug/train/a-18.c line 7: $var illegal outside of function.
+
+[Mon Jan 31 20:52:04 2000] u/s/superbug/train/a-18.c line 7: parse error
+
+[Mon Jan 31 20:52:04 2000] u/s/superbug/train/a-18.c line 7: $var illegal outside of function.
+

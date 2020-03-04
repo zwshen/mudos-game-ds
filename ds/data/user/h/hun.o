@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions ([])
+dbase (["DS_DATA_VERSION":19991107,"wound":(["left_arm":0,"body":0,"left_leg":0,"head":0,"right_leg":0,"right_arm":0,]),"addition_armor":10,"MKS":1,"attitude":"peaceful","max_hp":80,"talk_point":8,"channels":({"chat","rumor","tchat",}),"mud_age":1505,"newbie":1,"supply_point":60,"exp":27528,"dex":2,"hp":80,"int":2,"con":2,"level":1,"mp":110,"birthday":1244705016,"max_ap":60,"bank":(["past":1,]),"last_location":"/open/world1/wilfred/newbie/eq_fixroom","guild_gifts":({5,5,5,5,}),"Merits":(["bar":0,"tec":0,"sou":0,"bio":0,"wit":0,]),"evil":0,"volume":7,"war_score":4,"heart_beat_rate":6,"default_actions":,"war_art":2,"mob_record":({"/open/world1/tmr/area/npc/too",}),"actions":,"unit":"位","ap":60,"addition_damage":10,"cure_count":19,"combat_exp":2,"age":14,"race":"celestial","heart_modify":0,"max_mp":110,"id":"hun","addition_shield":10,"startroom":"/open/world1/tmr/area/hotel","gender":"男性","str":2,"name":"漂浪秋天",])
+skills (["parry":0,"combat":5,"dodge":2,"unarmed":4,])
+learned (["parry":2,"combat":48,"dodge":15,"unarmed":19,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

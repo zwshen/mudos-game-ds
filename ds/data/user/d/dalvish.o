@@ -1,0 +1,8 @@
+#/obj/user.c
+dbase (["addition_shield":10,"actions":,"heart_beat_rate":6,"DS_DATA_VERSION":19991107,"race":"tiger","max_mp":64,"max_hp":110,"channels":({"chat","rumor","tchat",}),"attitude":"peaceful","birthday":1196698570,"id":"dalvish","last_location":"/open/world1/tmr/area/street4","mp":64,"gender":"男性","name":"達比修","cure_count":13,"unit":"位","max_ap":64,"combat_exp":1,"startroom":"/open/world1/tmr/area/hotel","ap":64,"addition_armor":10,"supply_point":26,"guild_gifts":({5,5,5,5,}),"default_actions":,"age":14,"bellicosity":0,"addition_damage":10,"Merits":(["bar":0,"bio":0,"tec":0,"sou":0,"wit":0,]),"talk_point":8,"newbie":1,"volume":7,"exp":700,"dex":2,"int":2,"con":2,"hp":110,"str":2,"level":1,"disable_type":" <毫無呼吸>","evil":-1,"mud_age":214,])
+skills (["dodge":1,"combat":1,])
+learned (["combat":2,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

@@ -1,0 +1,20 @@
+
+	query_privs(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		query_privs() - 傳回一個物件的私有字串 (privs string).
+	函數語法:
+		string query_privs( object ob );
+
+		字串 query_privs( 物件 ob );
+	函數用法:
+		傳回一個物件的私有字串. 此私有字串由主宰物件 (master
+		object) 於編譯程式時, privs_file()  函式決定. 而此字
+		串可由 set_privs()  函式更改.
+
+		query_privs() 只有在驅動程式 (driver) 編譯時, 定義
+		PRIVS 才有效.
+	參考函數:
+		privs_file(4), set_privs(3)
+	手冊翻譯:
+		Phoebus@ZH	97.Jul.25.		(Writen 5/23/97)

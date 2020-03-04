@@ -1,0 +1,15 @@
+
+	wizardp(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		wizardp() - 判斷指定的物件是否執行過 enable_wizard()
+	函數語法:
+		int wizardp( object );
+
+		整數 wizardp( 物件 );
+	函數用法:
+		如果 arg  曾執行過 enable_wizard(), wizardp() 就傳回 1.
+	參考函數:
+		disable_wizard(3), enable_wizard(3)
+	手冊翻譯:
+		Phoebus@ZH	97.jul.25.		(Writen 5/23/97)

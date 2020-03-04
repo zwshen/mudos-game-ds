@@ -1,0 +1,499 @@
+[Tue Jan 16 23:48:07 2001] u/k/kula/workroom.c line 20: Undefined function call_object before ;
+
+[Wed Jul 25 16:24:58 2001] u/k/kula/workroom.c line 20: Undefined function call_object before ;
+
+[Wed Jul 25 23:07:24 2001] u/k/kula/workroom.c line 20: Undefined function call_object before ;
+
+[Wed Jul 25 23:21:59 2001] u/k/kula/workroom.c line 20: Undefined function call_object before ;
+
+[Wed Jul 25 23:26:34 2001] u/k/kula/workroom.c line 20: Undefined function call_object before ;
+
+[Wed Jul 25 23:38:02 2001] u/k/kula/workroom.c line 20: Undefined function call_object before ;
+
+[Wed Jul 25 23:43:33 2001] u/k/kula/workroom.c line 19: Undefined function call_object before ;
+
+[Wed Jul 25 23:44:48 2001] u/k/kula/workroom.c line 19: Undefined function call_object before ;
+
+[Thu Jul 26 00:33:59 2001] u/k/kula/cring.c line 1: parse error before include <ansi.h>
+
+[Thu Jul 26 00:40:55 2001] u/k/kula/cring.c line 12: parse error before ;
+
+[Thu Jul 26 00:41:31 2001] u/k/kula/cring.c line 12: parse error before ;
+
+[Thu Jul 26 00:42:53 2001] u/k/kula/cring.c line 1: parse error before include <ansi.h>
+
+[Thu Jul 26 00:43:21 2001] u/k/kula/cring.c line 1: Missing leading " or < in #include before #include <mudlib.h>
+
+[Thu Jul 26 00:43:21 2001] u/k/kula/cring.c line 12: parse error before ;
+
+[Thu Jul 26 00:43:46 2001] u/k/kula/cring.c line 12: parse error before ;
+
+[Fri Jul 27 01:02:17 2001] u/k/kula/workroom.c line 17: parse error before ("light",1);
+
+[Fri Jul 27 01:02:47 2001] u/k/kula/workroom.c line 17: parse error before ("light",1);
+
+[Sun Nov 18 10:19:24 2001] u/k/kula/test/wp3.c line 4: parse error before the end of line
+
+[Sun Nov 18 10:21:28 2001] u/k/kula/test/wp3.c line 4: parse error before the end of line
+
+[Sun Nov 18 10:39:08 2001] u/k/kula/test/wp3.c line 20: parse error before ("TOW_HANDS")
+
+[Sun Nov 18 10:39:08 2001] u/k/kula/test/wp3.c line 35: Undefined function radom before ;
+
+[Sun Nov 18 10:39:08 2001] u/k/kula/test/wp3.c line 35: Bad assignment ( int vs unknown ). before the end of line
+
+[Sun Nov 18 10:39:08 2001] u/k/kula/test/wp3.c line 37: Undefined variable 'target' before freeztime); }
+
+[Sun Nov 18 10:39:08 2001] u/k/kula/test/wp3.c line 37: Undefined variable 'freeztime' before ; }
+
+[Sun Nov 18 10:39:08 2001] u/k/kula/test/wp3.c line 44: Illegal to redeclare local name 'freeztime' before ;
+
+[Sun Nov 18 10:42:23 2001] u/k/kula/test/wp3.c line 20: parse error before (30);
+
+[Sun Nov 18 10:42:23 2001] u/k/kula/test/wp3.c line 34: Undefined function radom before ;
+
+[Sun Nov 18 10:42:23 2001] u/k/kula/test/wp3.c line 34: Bad assignment ( int vs unknown ). before the end of line
+
+[Sun Nov 18 10:42:23 2001] u/k/kula/test/wp3.c line 36: Undefined variable 'target' before ; }
+
+[Sun Nov 18 10:42:23 2001] u/k/kula/test/wp3.c line 44: Bad argument number 1 to '-': "unknown " before the end of line
+
+[Sun Nov 18 10:42:23 2001] u/k/kula/test/wp3.c line 53: parse error before n\n"NOR,me);
+
+[Sun Nov 18 10:48:17 2001] u/k/kula/test/wp3.c line 4: parse error before ;
+
+[Sun Nov 18 10:48:53 2001] u/k/kula/test/wp3.c line 20: Wrong number of arguments to set
+    Expected: 2  Got: 1 before ;
+
+[Sun Nov 18 10:48:53 2001] u/k/kula/test/wp3.c line 35: Undefined function radom before ;
+
+[Sun Nov 18 10:48:53 2001] u/k/kula/test/wp3.c line 35: Bad assignment ( int vs unknown ). before the end of line
+
+[Sun Nov 18 10:48:53 2001] u/k/kula/test/wp3.c line 37: Undefined variable 'target' before ; }
+
+[Sun Nov 18 10:48:53 2001] u/k/kula/test/wp3.c line 45: Bad argument number 1 to '-': "unknown " before the end of line
+
+[Sun Nov 18 10:48:53 2001] u/k/kula/test/wp3.c line 54: parse error before n\n"NOR,me);
+
+[Sun Nov 18 10:53:06 2001] u/k/kula/test/wp3.c line 20: Wrong number of arguments to set
+    Expected: 2  Got: 1 before ;
+
+[Sun Nov 18 10:53:06 2001] u/k/kula/test/wp3.c line 35: Undefined function radom before ;
+
+[Sun Nov 18 10:53:06 2001] u/k/kula/test/wp3.c line 35: Bad assignment ( int vs unknown ). before the end of line
+
+[Sun Nov 18 10:53:06 2001] u/k/kula/test/wp3.c line 39: No such inherited function reaturn::shock before ; }
+
+[Sun Nov 18 10:53:06 2001] u/k/kula/test/wp3.c line 45: Bad argument number 1 to '-': "unknown " before the end of line
+
+[Sun Nov 18 10:53:06 2001] u/k/kula/test/wp3.c line 68: parse error before A¸gÅç¤£¨¬¡AµLªk¨Ï¥ÎÂ
+
+[Sun Nov 18 10:56:39 2001] u/k/kula/test/wp3.c line 20: Wrong number of arguments to set
+    Expected: 2  Got: 1 before ;
+
+[Sun Nov 18 10:56:39 2001] u/k/kula/test/wp3.c line 35: Undefined function radom before ;
+
+[Sun Nov 18 10:56:39 2001] u/k/kula/test/wp3.c line 35: Bad assignment ( int vs unknown ). before the end of line
+
+[Sun Nov 18 10:56:39 2001] u/k/kula/test/wp3.c line 39: No such inherited function reaturn::shock before ; }
+
+[Sun Nov 18 10:56:39 2001] u/k/kula/test/wp3.c line 45: Bad assignment ( int vs unknown ). before the end of line
+
+[Sun Nov 18 10:58:34 2001] u/k/kula/test/wp3.c line 20: Wrong number of arguments to set
+    Expected: 2  Got: 1 before ;
+
+[Sun Nov 18 10:58:34 2001] u/k/kula/test/wp3.c line 35: Undefined function radom before ;
+
+[Sun Nov 18 10:58:34 2001] u/k/kula/test/wp3.c line 35: Bad assignment ( int vs unknown ). before the end of line
+
+[Sun Nov 18 10:58:34 2001] u/k/kula/test/wp3.c line 45: Bad assignment ( int vs unknown ). before the end of line
+
+[Sun Nov 18 11:01:10 2001] u/k/kula/test/wp3.c line 20: Wrong number of arguments to set
+    Expected: 2  Got: 1 before ;
+
+[Sun Nov 18 11:10:27 2001] u/k/kula/test/wp3.c line 20: Wrong number of arguments to set
+    Expected: 2  Got: 1 before ;
+
+[Sun Nov 18 11:10:27 2001] u/k/kula/test/wp3.c line 29: parse error before (random(100)>65)
+
+[Sun Nov 18 11:12:38 2001] u/k/kula/test/wp3.c line 20: Wrong number of arguments to set
+    Expected: 2  Got: 1 before ;
+
+[Sun Nov 18 11:12:38 2001] u/k/kula/test/wp3.c line 29: parse error before  hits;
+
+[Sun Nov 18 11:12:38 2001] u/k/kula/test/wp3.c line 30: Illegal LHS before the end of line
+
+[Sun Nov 18 11:12:38 2001] u/k/kula/test/wp3.c line 31: Undefined variable 'hits' before  18)
+
+[Sun Nov 18 11:12:38 2001] u/k/kula/test/wp3.c line 32: Undefined variable 'target' before ; }
+
+[Sun Nov 18 11:16:51 2001] u/k/kula/test/wp3.c line 29: parse error before (a>70)
+
+[Sun Nov 18 11:17:58 2001] u/k/kula/test/wp3.c line 29: parse error before (a>=70)
+
+[Sun Nov 18 16:56:44 2001] u/k/kula/test/wp3.c line 29: Reserved type name unexpected. before ;
+
+[Sun Nov 18 16:56:44 2001] u/k/kula/test/wp3.c line 29: parse error before ;
+
+[Sun Nov 18 16:56:44 2001] u/k/kula/test/wp3.c line 30: Illegal LHS before the end of line
+
+[Sun Nov 18 16:56:44 2001] u/k/kula/test/wp3.c line 31: Undefined variable 'a' before 1)
+
+[Sun Nov 18 16:56:44 2001] u/k/kula/test/wp3.c line 32: Undefined variable 'me' before ;
+
+[Sun Nov 18 16:58:20 2001] u/k/kula/test/wp3.c line 29: Reserved type name unexpected. before ;
+
+[Sun Nov 18 16:58:20 2001] u/k/kula/test/wp3.c line 29: parse error before ;
+
+[Sun Nov 18 16:58:20 2001] u/k/kula/test/wp3.c line 30: Illegal LHS before the end of line
+
+[Sun Nov 18 16:58:20 2001] u/k/kula/test/wp3.c line 31: Undefined variable 'a' before 1)
+
+[Sun Nov 18 16:58:20 2001] u/k/kula/test/wp3.c line 32: Undefined variable 'me' before ;
+
+[Sun Nov 18 16:58:41 2001] u/k/kula/test/wp3.c line 29: Reserved type name unexpected. before ;
+
+[Sun Nov 18 16:58:41 2001] u/k/kula/test/wp3.c line 29: parse error before ;
+
+[Sun Nov 18 16:58:41 2001] u/k/kula/test/wp3.c line 30: Illegal LHS before the end of line
+
+[Sun Nov 18 16:58:41 2001] u/k/kula/test/wp3.c line 31: Undefined variable 'a' before 1)
+
+[Sun Nov 18 16:58:41 2001] u/k/kula/test/wp3.c line 32: Undefined variable 'me' before ;
+
+[Fri Nov 23 00:29:42 2001] u/k/kula/test/wp3.c line 58: parse error before ->start_busy(freezti
+
+[Sun Dec 30 01:39:56 2001] u/k/kula/test/wp9.c line 5: parse error before ;
+
+[Sun Dec 30 01:41:08 2001] u/k/kula/test/wp9.c line 4: parse error before ;
+
+[Sun Dec 30 01:43:51 2001] u/k/kula/test/wp9.c line 4: parse error before ;
+
+[Sun Dec 30 01:45:15 2001] u/k/kula/test/wp9.c line 5: parse error before ;
+
+[Sun Dec 30 01:46:22 2001] u/k/kula/test/wp9.c line 23: parse error before (4);
+
+[Sun Dec 30 01:46:22 2001] u/k/kula/test/wp9.c line 38: Undefined variable 'target' before  present(arg, enviro
+
+[Sun Dec 30 01:46:22 2001] u/k/kula/test/wp9.c line 62: parse error before the end of line
+
+[Tue Jan  8 23:50:31 2002] u/k/kula/test/wp12.c line 5: parse error before the end of line
+
+[Tue Jan  8 23:51:31 2002] u/k/kula/test/wp12.c line 5: parse error before ;
+
+[Tue Jan  8 23:52:09 2002] u/k/kula/test/wp12.c line 23: parse error before (45,TWO_HANDED);
+
+[Tue Jan  8 23:52:09 2002] u/k/kula/test/wp12.c line 48: Undefined function offensive_target before ;
+
+[Tue Jan  8 23:52:09 2002] u/k/kula/test/wp12.c line 48: Bad assignment ( object vs unknown ). before the end of line
+
+[Wed Jan  9 00:01:51 2002] u/k/kula/test/wp12.c line 48: Undefined function offensive_target before ;
+
+[Wed Jan  9 00:01:51 2002] u/k/kula/test/wp12.c line 48: Bad assignment ( object vs unknown ). before the end of line
+
+[Thu Jan 10 23:36:20 2002] u/k/kula/test/wp12.c line 48: Undefined function offensive_target before ;
+
+[Thu Jan 10 23:36:20 2002] u/k/kula/test/wp12.c line 48: Bad assignment ( object vs unknown ). before the end of line
+
+[Thu Jan 10 23:47:46 2002] u/k/kula/test/wp12.c line 48: Undefined function offensive_target before ;
+
+[Thu Jan 10 23:47:46 2002] u/k/kula/test/wp12.c line 48: Bad assignment ( object vs unknown ). before the end of line
+
+[Fri Jan 11 19:55:44 2002] u/k/kula/test/wp12.c line 48: Undefined function offensive_target before ;
+
+[Fri Jan 11 19:55:44 2002] u/k/kula/test/wp12.c line 48: Bad assignment ( object vs unknown ). before the end of line
+
+[Fri Jan 11 20:45:25 2002] u/k/kula/scandy.c line 5: Undefined variable 'HIY' before NOR, ({ "candy" }) )
+
+[Fri Jan 11 20:45:25 2002] u/k/kula/scandy.c line 5: parse error before NOR, ({ "candy" }) )
+
+[Fri Jan 11 20:45:25 2002] u/k/kula/scandy.c line 21: Illegal LHS before the end of line
+
+[Fri Jan 11 20:45:25 2002] u/k/kula/scandy.c line 21: parse error before the end of line
+
+[Fri Jan 11 20:45:25 2002] u/k/kula/scandy.c line 25: Illegal LHS before the end of line
+
+[Fri Jan 11 20:45:25 2002] u/k/kula/scandy.c line 25: parse error before the end of line
+
+[Fri Jan 11 21:01:40 2002] u/k/kula/iceshield.c line 22: parse error before ) );
+
+[Fri Jan 11 21:28:21 2002] u/k/kula/test/wp14.c line 22: Undefined function init_staff before ;
+
+[Fri Jan 11 21:28:21 2002] u/k/kula/test/wp14.c line 51: Warning: Unknown \ escape. before §«ë§a~~¡I¡I¡I¡z\n\n"
+
+[Fri Jan 11 21:28:21 2002] u/k/kula/test/wp14.c line 66: Undefined variable 'times' before i++)
+
+[Fri Jan 11 21:30:56 2002] u/k/kula/test/wp14.c line 50: Warning: Unknown \ escape. before §«ë§a~~¡I¡I¡I¡z\n\n"
+
+[Fri Jan 11 21:33:00 2002] u/k/kula/test/wp14.c line 50: Warning: Unknown \ escape. before §«ë§a¡I¡I¡I¡z\n\n"NO
+
+[Fri Jan 11 21:38:37 2002] u/k/kula/test/wp14.c line 50: Warning: Unknown \ escape. before §«ë§a¡I¡I¡I¡z\n\n"NO
+
+[Fri Jan 11 21:38:37 2002] u/k/kula/test/wp14.c line 72: Undefined variable 'retune' before ;
+
+[Fri Jan 11 21:38:37 2002] u/k/kula/test/wp14.c line 72: parse error before ;
+
+[Fri Jan 11 21:39:45 2002] u/k/kula/test/wp14.c line 50: Warning: Unknown \ escape. before §«ë§a¡I¡z\n\n"NOR,me
+
+[Fri Jan 11 21:39:45 2002] u/k/kula/test/wp14.c line 72: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Fri Jan 11 21:44:00 2002] u/k/kula/test/wp14.c line 50: Warning: Unknown \ escape. before §«ë§a¡I¡z\n\n"NOR,me
+
+[Fri Jan 11 21:44:00 2002] u/k/kula/test/wp14.c line 74: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Fri Jan 11 21:45:21 2002] u/k/kula/test/wp14.c line 50: Warning: Unknown \ escape. before §«ë§a¡I¡z\n\n"NOR,me
+
+[Fri Jan 11 21:46:29 2002] u/k/kula/test/wp14.c line 50: Warning: Unknown \ escape. before §«ë§a¡I¡z\n\n"NOR,me
+
+[Fri Jan 11 21:51:15 2002] u/k/kula/test/wp14.c line 51: Warning: Unknown \ escape. before M¤³«ë§a¡I¡z\n\n"NOR,
+
+[Fri Jan 11 22:04:32 2002] u/k/kula/test/wp14.c line 1: parse error before  1;
+
+[Fri Jan 11 22:05:27 2002] u/k/kula/test/wp14.c line 35: parse error before =this_player();
+
+[Fri Jan 11 22:05:27 2002] u/k/kula/test/wp14.c line 35: Illegal LHS before the end of line
+
+[Fri Jan 11 22:05:27 2002] u/k/kula/test/wp14.c line 39: Undefined function offensive_target before ;
+
+[Fri Jan 11 22:05:27 2002] u/k/kula/test/wp14.c line 39: Bad assignment ( object vs unknown ). before the end of line
+
+[Fri Jan 11 22:05:27 2002] u/k/kula/test/wp14.c line 42: parse error before  (( this_object()->q
+
+[Fri Jan 11 22:05:27 2002] u/k/kula/test/wp14.c line 72: Warning: Unknown \ escape. before A¥þ¨­µo¥X¦å¥ú¡A¹ïµÛ"
+
+[Fri Jan 11 22:05:27 2002] u/k/kula/test/wp14.c line 73: Illegal LHS before i < times;i++)
+
+[Fri Jan 11 22:27:52 2002] u/k/kula/girlsword.c line 1: parse error before  cat girlsword.c
+
+[Fri Jan 11 22:28:08 2002] u/k/kula/girlsword.c line 97: parse error before the end of line
+
+[Fri Jan 11 22:28:08 2002] u/k/kula/girlsword.c line 128: Undefined variable 'me' before query_temp("weapon")
+
+[Fri Jan 11 22:28:08 2002] u/k/kula/girlsword.c line 128: Illegal LHS before the end of line
+
+[Fri Jan 11 22:28:08 2002] u/k/kula/girlsword.c line 128: parse error before the end of line
+
+[Sun Jan 13 10:52:40 2002] u/k/kula/wire_com.c line 198: Undefined variable 'victims' before  != -1)
+
+[Sun Jan 13 10:52:40 2002] u/k/kula/wire_com.c line 223: Undefined variable 'ROBOT_CHECK' before test_me(ob);
+
+[Sun Jan 13 10:52:40 2002] u/k/kula/wire_com.c line 230: parse error before ()->save()
+
+[Sun Jan 13 10:52:40 2002] u/k/kula/wire_com.c line 244: Illegal LHS before the end of file
+
+[Sun Jan 13 10:52:40 2002] u/k/kula/wire_com.c line 244: parse error before the end of file
+
+[Sun Jan 13 11:06:09 2002] u/k/kula/ppcandy.c line 91: No such inherited function ::reset before ;
+
+[Sun Jan 13 11:11:51 2002] u/k/kula/test/wp12.c line 48: Undefined function offensive_target before ;
+
+[Sun Jan 13 11:11:51 2002] u/k/kula/test/wp12.c line 48: Bad assignment ( object vs unknown ). before the end of line
+
+[Sun Jan 13 11:23:32 2002] u/k/kula/cring.c line 255: Undefined variable 'victims' before  != -1)
+
+[Sun Jan 13 11:23:32 2002] u/k/kula/cring.c line 264: parse error before  notify_fail("§A¤£¯à
+
+[Sun Jan 13 11:23:32 2002] u/k/kula/cring.c line 279: Illegal LHS before ->save()
+
+[Sun Jan 13 11:23:32 2002] u/k/kula/cring.c line 279: parse error before ->save()
+
+[Sun Jan 13 11:23:32 2002] u/k/kula/cring.c line 301: Illegal LHS before the end of file
+
+[Sun Jan 13 11:23:32 2002] u/k/kula/cring.c line 301: parse error before the end of file
+
+[Sun Jan 13 11:26:31 2002] u/k/kula/cring.c line 77: parse error before the end of line
+
+[Sun Jan 13 11:28:03 2002] u/k/kula/cring.c line 79: parse error before the end of line
+
+[Sun Jan 13 11:29:56 2002] u/k/kula/cring.c line 265: parse error before  notify_fail("§A¤£¯à
+
+[Sun Jan 13 11:29:56 2002] u/k/kula/cring.c line 280: Illegal LHS before ->save()
+
+[Sun Jan 13 11:29:56 2002] u/k/kula/cring.c line 280: parse error before ->save()
+
+[Sun Jan 13 11:29:56 2002] u/k/kula/cring.c line 301: Illegal LHS before the end of file
+
+[Sun Jan 13 11:29:56 2002] u/k/kula/cring.c line 301: parse error before the end of file
+
+[Wed Feb 27 23:48:24 2002] u/k/kula/test/wp12.c line 48: Undefined function offensive_target before ;
+
+[Wed Feb 27 23:48:24 2002] u/k/kula/test/wp12.c line 48: Bad assignment ( object vs unknown ). before the end of line
+
+[Wed Feb 27 23:48:28 2002] u/k/kula/test/wp14.c line 35: parse error before =this_player();
+
+[Wed Feb 27 23:48:28 2002] u/k/kula/test/wp14.c line 35: Illegal LHS before the end of line
+
+[Wed Feb 27 23:48:28 2002] u/k/kula/test/wp14.c line 39: Undefined function offensive_target before ;
+
+[Wed Feb 27 23:48:28 2002] u/k/kula/test/wp14.c line 39: Bad assignment ( object vs unknown ). before the end of line
+
+[Wed Feb 27 23:48:28 2002] u/k/kula/test/wp14.c line 42: parse error before  (( this_object()->q
+
+[Wed Feb 27 23:48:28 2002] u/k/kula/test/wp14.c line 72: Warning: Unknown \ escape. before A¥þ¨­µo¥X¦å¥ú¡A¹ïµÛ"
+
+[Wed Feb 27 23:48:28 2002] u/k/kula/test/wp14.c line 73: Illegal LHS before i < times;i++)
+
+[Thu Feb 28 00:45:38 2002] u/k/kula/icefist.c line 38: No such inherited function ::attack before ;
+
+[Thu Feb 28 00:45:38 2002] u/k/kula/icefist.c line 67: Redeclaration of function attack. before the end of line
+
+[Thu Feb 28 00:45:38 2002] u/k/kula/icefist.c line 99: Undefined function radom before +15);
+
+[Thu Feb 28 00:45:38 2002] u/k/kula/icefist.c line 99: Invalid argument types to '+' ( unknown vs int ) before ;
+
+[Thu Feb 28 00:45:38 2002] u/k/kula/icefist.c line 159: Redeclaration of function do_hits. before the end of line
+
+[Thu Feb 28 00:45:38 2002] u/k/kula/icefist.c line 176: parse error before the end of line
+
+[Thu Feb 28 00:52:30 2002] u/k/kula/icefist.c line 37: No such inherited function ::attack before ;
+
+[Thu Feb 28 00:52:30 2002] u/k/kula/icefist.c line 66: Redeclaration of function attack. before the end of line
+
+[Thu Feb 28 00:52:30 2002] u/k/kula/icefist.c line 175: parse error before the end of line
+
+[Thu Feb 28 00:57:04 2002] u/k/kula/icefist.c line 65: Redeclaration of function attack. before the end of line
+
+[Thu Feb 28 10:57:19 2002] u/k/kula/icefist.c line 65: Redeclaration of function attack. before the end of line
+
+[Thu Feb 28 10:57:25 2002] u/k/kula/icefist.c line 65: Redeclaration of function attack. before the end of line
+
+[Thu Feb 28 10:57:29 2002] u/k/kula/icefist.c line 65: Redeclaration of function attack. before the end of line
+
+[Thu Feb 28 12:06:35 2002] u/k/kula/icefist.c line 65: Redeclaration of function attack. before the end of line
+
+[Thu Feb 28 12:06:48 2002] u/k/kula/icefist.c line 65: Redeclaration of function attack. before the end of line
+
+[Thu Feb 28 12:07:10 2002] u/k/kula/icefist.c line 65: Redeclaration of function attack. before the end of line
+
+[Thu Feb 28 12:07:38 2002] u/k/kula/icefist.c line 65: Redeclaration of function attack. before the end of line
+
+[Thu Feb 28 12:07:40 2002] u/k/kula/icefist.c line 65: Redeclaration of function attack. before the end of line
+
+[Thu Feb 28 12:07:42 2002] u/k/kula/icefist.c line 65: Redeclaration of function attack. before the end of line
+
+[Fri Mar  1 08:56:50 2002] u/k/kula/icefist.c line 65: Redeclaration of function attack. before the end of line
+
+[Fri Mar  1 12:42:28 2002] u/k/kula/icefist.c line 65: Redeclaration of function attack. before the end of line
+
+[Fri Mar  1 12:47:35 2002] u/k/kula/icefist.c line 65: Redeclaration of function attack. before the end of line
+
+[Fri Mar  1 13:10:10 2002] u/k/kula/icefist.c line 65: Redeclaration of function attack. before the end of line
+
+[Fri Mar  1 13:40:11 2002] u/k/kula/icefist.c line 65: Redeclaration of function attack. before the end of line
+
+[Fri Mar  1 13:55:11 2002] u/k/kula/icefist.c line 65: Redeclaration of function attack. before the end of line
+
+[Fri Mar  1 14:25:12 2002] u/k/kula/icefist.c line 65: Redeclaration of function attack. before the end of line
+
+[Fri Mar  1 14:40:13 2002] u/k/kula/icefist.c line 65: Redeclaration of function attack. before the end of line
+
+[Fri Mar  1 14:55:13 2002] u/k/kula/icefist.c line 65: Redeclaration of function attack. before the end of line
+
+[Fri Mar  1 15:25:14 2002] u/k/kula/icefist.c line 65: Redeclaration of function attack. before the end of line
+
+[Fri Mar  1 15:40:15 2002] u/k/kula/icefist.c line 65: Redeclaration of function attack. before the end of line
+
+[Fri Mar  1 15:55:15 2002] u/k/kula/icefist.c line 65: Redeclaration of function attack. before the end of line
+
+[Fri Mar  1 16:25:16 2002] u/k/kula/icefist.c line 65: Redeclaration of function attack. before the end of line
+
+[Fri Mar  1 16:40:17 2002] u/k/kula/icefist.c line 65: Redeclaration of function attack. before the end of line
+
+[Fri Mar  1 16:55:17 2002] u/k/kula/icefist.c line 65: Redeclaration of function attack. before the end of line
+
+[Fri Mar  1 17:25:18 2002] u/k/kula/icefist.c line 65: Redeclaration of function attack. before the end of line
+
+[Fri Mar  1 17:40:19 2002] u/k/kula/icefist.c line 65: Redeclaration of function attack. before the end of line
+
+[Fri Mar  1 17:55:19 2002] u/k/kula/icefist.c line 65: Redeclaration of function attack. before the end of line
+
+[Fri Mar  1 18:10:20 2002] u/k/kula/icefist.c line 65: Redeclaration of function attack. before the end of line
+
+[Fri Mar  1 18:55:22 2002] u/k/kula/icefist.c line 65: Redeclaration of function attack. before the end of line
+
+[Fri Mar  1 19:10:22 2002] u/k/kula/icefist.c line 65: Redeclaration of function attack. before the end of line
+
+[Fri Mar  1 19:32:47 2002] u/k/kula/icefist.c line 61: Undefined variable 'victim' before me);
+
+[Fri Mar  1 19:32:47 2002] u/k/kula/icefist.c line 65: Redeclaration of function attack. before the end of line
+
+[Fri Mar  1 19:33:41 2002] u/k/kula/icefist.c line 65: Redeclaration of function attack. before the end of line
+
+[Thu Nov 18 15:59:03 2004] u/k/kula/wire_com.c line 4: parse error before  query_ips(object *a
+
+[Thu Nov 18 16:03:40 2004] u/k/kula/coldbreath.c line 1: parse error before the end of line
+
+[Thu Nov 18 16:05:12 2004] u/k/kula/coldbreath.c line 1: parse error before the end of line
+
+[Thu Nov 18 16:08:25 2004] u/k/kula/pear.c line 2: parse error before  create()
+
+[Thu Nov 18 16:09:06 2004] u/k/kula/pear.c line 2: parse error before  create()
+
+[Thu Nov 18 16:15:07 2004] u/k/kula/pear.c line 2: parse error before  create()
+
+[Thu Nov 18 16:18:16 2004] u/k/kula/wire_com.c line 4: parse error before  query_ips(object *a
+
+[Thu Nov 18 16:18:16 2004] u/k/kula/coldbreath.c line 1: parse error before the end of line
+
+[Thu Nov 18 16:18:53 2004] u/k/kula/pear.c line 2: parse error before  create()
+
+[Thu Nov 18 16:23:00 2004] u/k/kula/pear.c line 2: parse error before  create()
+
+[Thu Nov 18 16:24:34 2004] u/k/kula/coldbreath.c line 1: parse error before the end of line
+
+[Thu Nov 18 16:25:37 2004] u/k/kula/pear.c line 2: parse error before  create()
+
+[Thu Nov 18 16:25:49 2004] u/k/kula/pear.c line 4: parse error before ]©ú¯], ({ pearl }) )
+
+[Thu Nov 18 16:25:49 2004] u/k/kula/pear.c line 9: Illegal terminator before Áû¤ÑÂÅ¦âªº¤p¯]¤l¡A¦b
+
+[Thu Nov 18 16:30:28 2004] u/k/kula/wire_com.c line 1: Missing leading " or < in #include before #include mudlib.h
+
+[Thu Nov 18 16:30:28 2004] u/k/kula/wire_com.c line 2: Missing leading " or < in #include before #include command.h
+
+[Thu Nov 18 16:30:28 2004] u/k/kula/wire_com.c line 3: Missing leading " or < in #include before the end of line
+
+[Thu Nov 18 16:30:28 2004] u/k/kula/wire_com.c line 14: parse error before _²§¤ô´¹, ({crystal})
+
+[Thu Nov 18 16:30:28 2004] u/k/kula/wire_com.c line 45: Illegal LHS before i<user_amount;i++)
+
+[Thu Nov 18 16:30:28 2004] u/k/kula/wire_com.c line 45: Illegal LHS before i<user_amount;i++)
+
+[Thu Nov 18 16:32:59 2004] u/k/kula/coldbreath.c line 1: Missing leading " or < in #include before #include ansi.h
+
+[Thu Nov 18 16:32:59 2004] u/k/kula/coldbreath.c line 2: Missing leading " or < in #include before inherit SURCOAT;
+
+[Thu Nov 18 16:32:59 2004] u/k/kula/coldbreath.c line 3: parse error before ;
+
+[Thu Nov 18 16:44:16 2004] u/k/kula/coldbreath.c line 4: parse error before  create()
+
+[Thu Nov 18 16:47:59 2004] u/k/kula/wire_com.c line 71: Reserved type name unexpected. before (object *all_ppl, ob
+
+[Thu Nov 18 16:47:59 2004] u/k/kula/wire_com.c line 71: parse error before (object *all_ppl, ob
+
+[Thu Nov 18 16:47:59 2004] u/k/kula/wire_com.c line 76: Undefined variable 'current_ppl' before ) return "µL";
+
+[Thu Nov 18 16:47:59 2004] u/k/kula/wire_com.c line 76: Illegal LHS before  return "µL";
+
+[Thu Nov 18 16:47:59 2004] u/k/kula/wire_com.c line 76: parse error before  return "µL";
+
+[Thu Nov 18 16:47:59 2004] u/k/kula/wire_com.c line 77: Illegal LHS before i<sizeof(all_ppl);i+
+
+[Thu Nov 18 16:47:59 2004] u/k/kula/wire_com.c line 77: Warning: Value of conditional expression is unused before i++)
+
+[Mon Dec  6 13:44:37 2004] u/k/kula/wire_com.c line 71: Reserved type name unexpected. before (object *all_ppl, ob
+
+[Mon Dec  6 13:44:37 2004] u/k/kula/wire_com.c line 71: parse error before (object *all_ppl, ob
+
+[Mon Dec  6 13:44:37 2004] u/k/kula/wire_com.c line 76: Undefined variable 'current_ppl' before ) return "µL";
+
+[Mon Dec  6 13:44:37 2004] u/k/kula/wire_com.c line 76: Illegal LHS before  return "µL";
+
+[Mon Dec  6 13:44:37 2004] u/k/kula/wire_com.c line 76: parse error before  return "µL";
+
+[Mon Dec  6 13:44:37 2004] u/k/kula/wire_com.c line 77: Illegal LHS before i<sizeof(all_ppl);i+
+
+[Mon Dec  6 13:44:37 2004] u/k/kula/wire_com.c line 77: Warning: Value of conditional expression is unused before i++)
+
+[Tue Jan 29 16:04:44 2008] /u/k/kula/icefist.c line 154: Warning: Unused local variable 'i' around the end of line
+

@@ -1,0 +1,18 @@
+
+	destruct(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	ㄧ计嘿:
+		destruct() - 眖笴栏い綪反ン.
+	ㄧ计粂猭:
+		void destruct( object ob );
+
+		礚肚 destruct( ン ob );
+	ㄧ计ノ猭:
+		Ч篟反ン ob. ㊣ destruct() ぇ, 穦睲埃┮Τ
+		办跑计 (global variables), 逞跋办跑计㎝把计.
+		狦 ob 琌 this_object() , ㄧΑご穦磅︽, 琌程
+		ミㄨ肚计.
+	把σㄧ计:
+		clone_object(3), new(3), destruct_env_of(4), move(4)
+	も陆亩:
+		Phoebus@ZH	97.Feb.04.		(Writen 5/23/97)

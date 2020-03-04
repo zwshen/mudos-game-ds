@@ -1,0 +1,16 @@
+
+	crypt(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		crypt() - 對一個字串進行編碼.
+	函數語法:
+		string crypt( string str, string seed );
+
+		字串 crypt( 字串 str, 字串 seed );
+	函數用法:
+		以字串 seed 的前兩個字元當作種子數, 對字串 str  進行
+		編碼. 如果 seed 為 0  , 就會用隨機數字進行編碼.
+
+		傳回字串的前兩個字母即為種子數.
+	手冊翻譯:
+		Phoebus@ZH	97.Jan.27.		(Writen 5/23/97)

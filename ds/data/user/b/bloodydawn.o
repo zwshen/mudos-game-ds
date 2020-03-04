@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions ([])
+dbase (["race":"human","addition_damage":10,"DS_DATA_VERSION":19991107,"supply_point":60,"actions":,"default_actions":,"max_mp":60,"channels":({"chat","rumor","tchat",}),"max_hp":80,"birthday":1173142086,"id":"bloodydawn","Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"gender":"男性","mp":60,"name":"血色曙光","heart_beat_rate":6,"max_ap":60,"ap":60,"startroom":"/open/world1/tmr/area/hotel","heart_modify":0,"MKS":1,"age":14,"attitude":"peaceful","newbie":1,"addition_shield":10,"exp":933,"unit":"位","dex":2,"int":2,"con":2,"str":2,"talk_point":8,"level":1,"hp":80,"mob_record":({"/open/world1/tmr/area/npc/dog",}),"last_location":"/open/world1/tmr/area/street5","volume":7,"war_score":1,"wound":(["head":0,"left_leg":0,"right_leg":0,"left_arm":0,"body":0,"right_arm":0,]),"addition_armor":10,"evil":-1,"cure_count":19,"mud_age":567,"guild_gifts":({5,5,5,5,}),])
+skills (["unarmed":1,"combat":1,])
+learned (["unarmed":1,"combat":3,])
+items ({})
+autoload ({"/obj/money/coin:1",})
+toDoList ([])
+solved ({})

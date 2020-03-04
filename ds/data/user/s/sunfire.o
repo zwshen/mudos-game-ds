@@ -1,0 +1,7 @@
+#/obj/user.c
+conditions ([])
+dbase (["addition_shield":10,"actions":,"heart_beat_rate":6,"DS_DATA_VERSION":19991107,"race":"evil","max_mp":66,"max_hp":84,"channels":({"chat","rumor","tchat",}),"attitude":"peaceful","birthday":1196076390,"id":"sunfire","mp":66,"last_location":"/open/world1/kkeenn/love/room2","gender":"¤k©Ê","name":"ªwªÜ","cure_count":4,"unit":"¦ì","max_ap":100,"startroom":"/open/world1/tmr/area/hotel","ap":100,"addition_armor":10,"supply_point":60,"guild_gifts":({5,5,5,5,}),"default_actions":,"age":14,"addition_damage":10,"Merits":(["bar":0,"bio":0,"tec":0,"sou":0,"wit":0,]),"talk_point":8,"newbie":1,"volume":7,"exp":777,"dex":2,"int":2,"wound":(["body":0,"right_arm":0,"right_leg":0,"head":0,"left_leg":0,"left_arm":0,]),"con":2,"hp":84,"str":2,"level":1,"evil":-1,"heart_modify":1,"mud_age":1857,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

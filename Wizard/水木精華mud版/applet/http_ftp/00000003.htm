@@ -1,0 +1,537 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清华站∶精华区</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+<A Name="top"></a>
+发信人:&nbsp;nightwatch&nbsp;(夜游神),&nbsp;信区:&nbsp;Mud_Builder&nbsp;<BR>
+标&nbsp;&nbsp;题:&nbsp;在MUD中增加HTTP和FTP服务(4)&nbsp;<BR>
+发信站:&nbsp;BBS&nbsp;水木清华站&nbsp;(Tue&nbsp;Jan&nbsp;26&nbsp;18:29:35&nbsp;1999)&nbsp;WWW-POST&nbsp;<BR>
+&nbsp;<BR>
+以下是我在MUD中编写的一些在MUDLIB中实现&nbsp;<BR>
+HTTP服务和FTP服务的程序&nbsp;<BR>
+&nbsp;<BR>
+以下部分在校园网已经测试通过。有兴趣的话请帮&nbsp;<BR>
+我查查BUG.&nbsp;<BR>
+&nbsp;<BR>
+如果你想在你的MUD中用这些程序的话，把你的&nbsp;<BR>
+Email和MUD服务器地址端口告诉我吧。&nbsp;<BR>
+&nbsp;<BR>
+<A HREF="MailTo:"></A>&nbsp;hhx_<A HREF="mailto:imu@263.net">imu@263.net</A>&nbsp;<BR>
+&nbsp;<BR>
+----------------------------------------------------------------&nbsp;<BR>
+好了，现在看看HTTP服务是怎么实现的。&nbsp;<BR>
+这个程序也源于LIMA,功能有很大增强，&nbsp;<BR>
+象一个真正的HTTP服务器了。&nbsp;<BR>
+&nbsp;<BR>
+请看第二部分：&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;http_send_nomodified(object&nbsp;socket)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;string&nbsp;head;&nbsp;<BR>
+&nbsp;&nbsp;class&nbsp;client_request&nbsp;req=requests[socket];&nbsp;<BR>
+&nbsp;&nbsp;refresh_active(socket);&nbsp;<BR>
+&nbsp;&nbsp;head=sprintf(&quot;HTTP/1.1&nbsp;304&nbsp;Not&nbsp;Modified\r\n&quot;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;Date:&nbsp;%s\r\n&quot;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;Server:&nbsp;XYJ/4.51\r\n&quot;+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(req-&gt;keepalive?&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;Keep-Alive:&nbsp;timeout=&quot;+KEEPALIVE+&quot;,&nbsp;max=99\r\n&quot;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;Connection:&nbsp;Keep-Alive\r\n&quot;:&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;Connection:&nbsp;close\r\n&quot;)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+&quot;\r\n&quot;,&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;time_string(time()));&nbsp;<BR>
+#ifdef&nbsp;LOG_RESPOND&nbsp;<BR>
+&nbsp;&nbsp;log_http(head,socket);&nbsp;<BR>
+#endif&nbsp;<BR>
+&nbsp;&nbsp;map_delete(sending,socket);&nbsp;<BR>
+&nbsp;&nbsp;socket-&gt;send(head);&nbsp;<BR>
+&nbsp;&nbsp;refresh_alive(socket);&nbsp;<BR>
+&nbsp;&nbsp;return;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;http_send_moved(object&nbsp;socket,string&nbsp;movedto)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;string&nbsp;head;&nbsp;<BR>
+&nbsp;&nbsp;class&nbsp;client_request&nbsp;req=requests[socket];&nbsp;<BR>
+&nbsp;&nbsp;refresh_active(socket);&nbsp;<BR>
+&nbsp;&nbsp;head=sprintf(&quot;HTTP/1.1&nbsp;302&nbsp;Object&nbsp;moved\r\n&quot;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;Date:&nbsp;%s\r\n&quot;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;Server:&nbsp;XYJ/4.51\r\n&quot;+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(req-&gt;keepalive?&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;Keep-Alive:&nbsp;timeout=&quot;+KEEPALIVE+&quot;,&nbsp;max=99\r\n&quot;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;Connection:&nbsp;Keep-Alive\r\n&quot;:&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;Connection:&nbsp;close\r\n&quot;)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+&quot;Location:&nbsp;&quot;+movedto+&quot;\r\n&quot;,&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;time_string(time()));&nbsp;<BR>
+#ifdef&nbsp;LOG_RESPOND&nbsp;<BR>
+&nbsp;&nbsp;log_http(head,socket);&nbsp;<BR>
+#endif&nbsp;<BR>
+&nbsp;&nbsp;map_delete(sending,socket);&nbsp;<BR>
+&nbsp;&nbsp;socket-&gt;send(head);&nbsp;<BR>
+&nbsp;&nbsp;refresh_alive(socket);&nbsp;<BR>
+&nbsp;&nbsp;return;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;output_error(string&nbsp;header,&nbsp;string&nbsp;text,&nbsp;object&nbsp;socket)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;string&nbsp;head;&nbsp;<BR>
+&nbsp;&nbsp;string&nbsp;content;&nbsp;<BR>
+&nbsp;&nbsp;class&nbsp;client_request&nbsp;req=requests[socket];&nbsp;<BR>
+&nbsp;&nbsp;refresh_active(socket);&nbsp;<BR>
+&nbsp;&nbsp;content=&quot;&lt;html&gt;&lt;head&gt;&lt;title&gt;&quot;+header+&quot;&lt;/title&gt;&lt;/head&gt;&quot;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+&quot;&lt;body&gt;&lt;h1&gt;&quot;+header+&quot;&lt;/h1&gt;&quot;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+&quot;&lt;p&gt;&quot;+text+&quot;\n&lt;/body&gt;&lt;/html&gt;\r\n&quot;;&nbsp;<BR>
+&nbsp;&nbsp;head=sprintf(&quot;HTTP/1.1&nbsp;&quot;+header+&quot;\r\n&quot;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;Date:&nbsp;%s\r\n&quot;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;Server:&nbsp;XYJ/4.51\r\n&quot;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+(req-&gt;keepalive?&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;Keep-Alive:&nbsp;timeout=&quot;+KEEPALIVE+&quot;,&nbsp;max=99\r\n&quot;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;Connection:&nbsp;Keep-Alive\r\n&quot;:&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;Connection:&nbsp;close\r\n&quot;)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+&quot;Content-Length:&nbsp;&quot;+sizeof(content)+&quot;\r\n&quot;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ext_type(&quot;html&quot;)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+&quot;\r\n&quot;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+content,&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;time_string(time()));&nbsp;<BR>
+#ifdef&nbsp;LOG_RESPOND&nbsp;<BR>
+&nbsp;&nbsp;log_http(head,socket);&nbsp;<BR>
+#endif&nbsp;<BR>
+&nbsp;&nbsp;map_delete(sending,socket);&nbsp;<BR>
+&nbsp;&nbsp;socket-&gt;send(head);&nbsp;<BR>
+&nbsp;&nbsp;refresh_alive(socket);&nbsp;<BR>
+&nbsp;&nbsp;return;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;handle_post_request(class&nbsp;client_request&nbsp;req,&nbsp;object&nbsp;&nbsp;<BR>
+sock)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;string&nbsp;file&nbsp;=&nbsp;convert_to_actual_path(req-&gt;request);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;string&nbsp;result;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;string&nbsp;extention,args;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;object&nbsp;cgi;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;log_http(&quot;POST&nbsp;&quot;+req-&gt;request+&quot;&nbsp;with&nbsp;args:&quot;+req-&gt;content,sock);&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;sscanf(req-&gt;request,&nbsp;&quot;%s?%s&quot;,&nbsp;file,&nbsp;args);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if(!file)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	file&nbsp;=&nbsp;convert_to_actual_path(req-&gt;request);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;sscanf(file,&quot;%s.%s&quot;,file,extention);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!extention)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extention=&quot;c&quot;;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(strsrch(file,CGI_DIR)!=0&amp;&amp;strsrch(file,SCGI_DIR)!=0)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;log_http(&quot;Gateway&nbsp;&quot;+file+&quot;.&quot;+extention+&quot;&nbsp;not&nbsp;in&nbsp;cgi&nbsp;directory&quot;,sock);&nbsp;<BR>
+&nbsp;<BR>
+	&nbsp;&nbsp;output_error(&quot;502&nbsp;Bad&nbsp;Gateway&quot;,&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;Illegal&nbsp;gateway&quot;,&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sock);&nbsp;<BR>
+	return;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;file_size(file+&quot;.&quot;+extention)&nbsp;&lt;&nbsp;1&nbsp;)&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;log_http(&quot;Gateway&nbsp;&quot;+file+&quot;.&quot;+extention+&quot;&nbsp;not&nbsp;found&quot;,sock);&nbsp;<BR>
+	output_error(&quot;404&nbsp;Not&nbsp;found&quot;,&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;The&nbsp;requested&nbsp;URL&nbsp;was&nbsp;not&nbsp;found&quot;,&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sock);&nbsp;<BR>
+	return;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!args)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;args=req-&gt;content;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(req-&gt;content&amp;&amp;req-&gt;content!=&quot;&quot;)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;args+=&quot;&amp;&quot;+req-&gt;content;&nbsp;<BR>
+	cgi=find_object(file);&nbsp;<BR>
+	if&nbsp;(!cgi)&nbsp;<BR>
+	&nbsp;&nbsp;cgi=load_object(file);&nbsp;<BR>
+	if&nbsp;(!cgi)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;result=0;&nbsp;<BR>
+	else&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;result=cgi-&gt;main(req-&gt;content);&nbsp;<BR>
+	if&nbsp;(&nbsp;!result&nbsp;)&nbsp;<BR>
+	{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;log_http(&quot;Gateway&nbsp;&quot;+file+&quot;.&quot;+extention+&quot;&nbsp;error&quot;,sock);&nbsp;<BR>
+	&nbsp;&nbsp;output_error(&quot;502&nbsp;Bad&nbsp;Gateway&quot;,&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;CGI&nbsp;runtime&nbsp;error&nbsp;or&nbsp;bad&nbsp;URL&quot;,&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sock);&nbsp;<BR>
+	&nbsp;&nbsp;return;&nbsp;<BR>
+	}&nbsp;<BR>
+	http_send(result,sock,0,time(),0,0);&nbsp;<BR>
+	refresh_alive(sock);&nbsp;<BR>
+}&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;handle_get_request(class&nbsp;client_request&nbsp;req,&nbsp;object&nbsp;&nbsp;<BR>
+socket)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;string&nbsp;extention,&nbsp;args;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;string&nbsp;file;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;object&nbsp;cgi;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;t;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;log_http(&quot;GET&nbsp;&quot;+req-&gt;request,socket);&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;sscanf(req-&gt;request,&nbsp;&quot;%s?%s&quot;,&nbsp;file,&nbsp;args);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if(!file)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;	file&nbsp;=&nbsp;req-&gt;request;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;file&nbsp;=&nbsp;convert_to_actual_path(file);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;sscanf(file,&quot;%s.%s&quot;,file,extention);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!extention)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extention=&quot;&quot;;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(strsrch(file,CGI_DIR)==0||strsrch(file,SCGI_DIR)==0)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;mixed&nbsp;result;&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(extention==&quot;&quot;)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extention=&quot;c&quot;;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;file_size(file+&quot;.&quot;+extention)&nbsp;&lt;&nbsp;1&nbsp;)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;log_http(&quot;Gateway&nbsp;&quot;+file+&quot;.&quot;+extention+&quot;&nbsp;not&nbsp;found&quot;,socket);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;output_error(&quot;404&nbsp;Not&nbsp;found&quot;,&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;The&nbsp;requested&nbsp;URL&nbsp;was&nbsp;not&nbsp;found&quot;,&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;socket);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;if(!args)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;args=&quot;&quot;;&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;cgi=find_object(file);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!cgi)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cgi=load_object(file);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;	if&nbsp;(!cgi)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;result=0;&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;result=cgi-&gt;main(args);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;!result&nbsp;)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;log_http(&quot;Gateway&nbsp;&quot;+file+&quot;.&quot;+extention+&quot;&nbsp;error&quot;,socket);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;output_error(&quot;502&nbsp;Bad&nbsp;Gateway&quot;,&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;CGI&nbsp;runtime&nbsp;error&nbsp;or&nbsp;bad&nbsp;URL&quot;,&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;socket);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return;&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;http_send(result,socket,0,time(),0,0);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;refresh_alive(socket);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;return;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;file_size(file+&quot;.&quot;+extention)&nbsp;&lt;&nbsp;1&nbsp;)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;log_http(&quot;File&nbsp;&quot;+file+&quot;.&quot;+extention+&quot;&nbsp;not&nbsp;found&quot;,socket);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;output_error(&quot;404&nbsp;Not&nbsp;found&quot;,&nbsp;&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;The&nbsp;requested&nbsp;URL&nbsp;was&nbsp;not&nbsp;found&quot;,&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;socket);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(req-&gt;rangefrom&gt;=0)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sending[socket]=({&nbsp;file+&quot;.&quot;+extention,req-&gt;rangefrom,req-&gt;rangeto&nbsp;&nbsp;<BR>
+});&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sending[socket]=({&nbsp;file+&quot;.&quot;+extention,0,-1&nbsp;});&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;socket-&gt;set_write_callback(&nbsp;(:write_callback:)&nbsp;);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;t=stat(file+&quot;.&quot;+extention)[1];&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(req-&gt;modified_since&lt;t)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;http_send(write_callback(socket),socket,extention,t,req-&gt;rangefrom&nbsp;<BR>
+＞<I>=0,file+&quot;.&quot;+extention);&nbsp;</I><BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;http_send_nomodified(socket);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;return;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;class&nbsp;client_request&nbsp;alloc_request(object&nbsp;socket)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;class&nbsp;client_request&nbsp;req&nbsp;=&nbsp;new(class&nbsp;client_request);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;req-&gt;keepalive&nbsp;=&nbsp;0;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;req-&gt;headers&nbsp;=&nbsp;([]);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;req-&gt;reached_end_of_headers&nbsp;=&nbsp;0;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;req-&gt;any_input_yet_p&nbsp;=&nbsp;0;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;req-&gt;end_of_input&nbsp;=&nbsp;0;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;req-&gt;remaining_content_length&nbsp;=&nbsp;0;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;req-&gt;content&nbsp;=&nbsp;&quot;&quot;;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;req-&gt;modified_since=0;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;req-&gt;rangefrom=-1;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;req-&gt;rangeto=-1;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;requests[socket]&nbsp;=&nbsp;req;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;req;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;handle_request(object&nbsp;socket)&nbsp;<BR>
+{&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;class&nbsp;client_request&nbsp;req;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;req&nbsp;=&nbsp;requests[socket];&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if(!req&nbsp;||&nbsp;req-&gt;end_of_input)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	//&nbsp;A&nbsp;read&nbsp;sometimes&nbsp;gets&nbsp;called&nbsp;after&nbsp;we've&nbsp;groked&nbsp;everything...&nbsp;<BR>
+	return;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if(!req-&gt;reached_end_of_headers)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;req-&gt;end_of_input&nbsp;=&nbsp;1;&nbsp;<BR>
+	&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;switch&nbsp;(req-&gt;method)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;case&nbsp;&quot;GET&quot;:&nbsp;<BR>
+	handle_get_request(req,&nbsp;socket);&nbsp;<BR>
+	break;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;case&nbsp;&quot;POST&quot;:&nbsp;<BR>
+	handle_post_request(req,&nbsp;socket);&nbsp;<BR>
+	break;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;default:&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;log_http(&quot;Method&nbsp;&quot;+req-&gt;method+&quot;&nbsp;not&nbsp;implemented&quot;,socket);&nbsp;<BR>
+	output_error(&quot;501&nbsp;Method&nbsp;not&nbsp;implemented.&quot;,&nbsp;&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;Right&nbsp;now&nbsp;only&nbsp;the&nbsp;GET&nbsp;and&nbsp;POST&nbsp;methods&nbsp;are&nbsp;implemented.&quot;,&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;socket);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;map_delete(requests,&nbsp;socket);&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;add_text_to_request(string&nbsp;text,&nbsp;object&nbsp;socket)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;class&nbsp;client_request&nbsp;req;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;req&nbsp;=&nbsp;requests[socket];&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;req-&gt;remaining_content_length-=strlen(text);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;req-&gt;content+=text;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if(req-&gt;remaining_content_length&nbsp;&lt;&nbsp;0)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	req-&gt;content&nbsp;=&nbsp;req-&gt;content[0..&lt;(-(req-&gt;remaining_content_length))+1];&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if(req-&gt;remaining_content_length&nbsp;&lt;=&nbsp;0)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	handle_request(socket);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;look_for_useful_header_info(object&nbsp;socket)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;class&nbsp;client_request&nbsp;req;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;req&nbsp;=&nbsp;requests[socket];&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(req-&gt;headers[&quot;range&quot;])&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;ret;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ret=sscanf(req-&gt;headers[&quot;range&quot;],&quot;bytes=%d-%d&quot;,req-&gt;rangefrom,req-&gt;ran&nbsp;<BR>
+geto);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(ret==0)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;req-&gt;rangefrom=-1;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;if&nbsp;(ret==1)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(req-&gt;rangefrom&lt;0)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;req-&gt;rangefrom=-1;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;req-&gt;rangeto=-1;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;req-&gt;rangefrom=-1;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;req-&gt;modified_since=string_time(req-&gt;headers[&quot;if-modified-since&quot;]);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if(!req-&gt;keepalive)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	string&nbsp;connection_type;&nbsp;<BR>
+&nbsp;<BR>
+	connection_type&nbsp;=&nbsp;req-&gt;headers[&quot;connection&quot;];&nbsp;<BR>
+	if(connection_type&nbsp;&amp;&amp;&nbsp;lower_case(connection_type)&nbsp;==&nbsp;&quot;keep-alive&quot;)&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;req-&gt;keepalive&nbsp;=&nbsp;-1;&nbsp;<BR>
+	}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if(req-&gt;keepalive)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	string&nbsp;content_length_header;&nbsp;<BR>
+	content_length_header&nbsp;=&nbsp;req-&gt;headers[&quot;content-length&quot;];&nbsp;<BR>
+	if(content_length_header)&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;req-&gt;remaining_content_length&nbsp;=&nbsp;to_int(content_length_header);&nbsp;<BR>
+	}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;string&nbsp;parse_headers(string&nbsp;text,&nbsp;object&nbsp;socket)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;class&nbsp;client_request&nbsp;req;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;string&nbsp;header_name,&nbsp;header_value;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;string&nbsp;*&nbsp;lines;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;i&nbsp;=&nbsp;0;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;req&nbsp;=&nbsp;requests[socket];&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;text=replace_string(text,&quot;\r&quot;,&quot;&quot;);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(text==&quot;\n&quot;)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lines=({&nbsp;&quot;&quot;&nbsp;});&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lines&nbsp;=&nbsp;explode(text,&nbsp;&quot;\n&quot;)-({&nbsp;0&nbsp;});&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!lines||!sizeof(lines))&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;0;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if(!req-&gt;any_input_yet_p)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	string&nbsp;*&nbsp;request_line&nbsp;=&nbsp;explode(lines[0],&nbsp;&quot;&nbsp;&quot;);&nbsp;<BR>
+	if&nbsp;(!request_line||sizeof(request_line)&lt;3)&nbsp;<BR>
+	&nbsp;&nbsp;return&nbsp;0;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;req-&gt;method&nbsp;=&nbsp;request_line[0];&nbsp;<BR>
+	req-&gt;request&nbsp;=&nbsp;request_line[1];&nbsp;<BR>
+	req-&gt;http_version&nbsp;=&nbsp;request_line[2];&nbsp;<BR>
+	i&nbsp;=&nbsp;1;&nbsp;<BR>
+	req-&gt;any_input_yet_p&nbsp;=&nbsp;1;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;for(;i&lt;sizeof(lines);i++)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	string&nbsp;line&nbsp;=&nbsp;trim_spaces(lines[i]);&nbsp;<BR>
+	int&nbsp;colon_index;&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+	if(!strlen(line))&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;look_for_useful_header_info(socket);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;req-&gt;reached_end_of_headers&nbsp;=&nbsp;1;&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;if(sizeof(lines)&nbsp;!=&nbsp;i+1)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+		return&nbsp;implode(lines[i+1..],&nbsp;&quot;\n&quot;);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+		return&nbsp;0;&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+	}&nbsp;<BR>
+	colon_index&nbsp;=&nbsp;strsrch(lines[i],&nbsp;':');&nbsp;<BR>
+	header_name&nbsp;=&nbsp;lower_case(trim_spaces(lines[i][0..(colon_index-1)]));&nbsp;<BR>
+	header_value&nbsp;=&nbsp;trim_spaces(lines[i][colon_index+1..]);&nbsp;<BR>
+	req-&gt;headers[header_name]&nbsp;=&nbsp;header_value;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;look_for_useful_header_info(socket);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+/*&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!req-&gt;keepalive)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	req-&gt;reached_end_of_headers&nbsp;=&nbsp;1;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;*/&nbsp;&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;0;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;add_to_request(object&nbsp;socket,&nbsp;string&nbsp;text)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;class&nbsp;client_request&nbsp;req;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;req&nbsp;=&nbsp;requests[socket];&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if(!req)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	req&nbsp;=&nbsp;alloc_request(socket);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;We&nbsp;haven't&nbsp;gotten&nbsp;to&nbsp;the&nbsp;end&nbsp;of&nbsp;headers&nbsp;yet.&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if(!(req-&gt;reached_end_of_headers))&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	text&nbsp;=&nbsp;parse_headers(text,&nbsp;socket);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if(text)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	add_text_to_request(text,&nbsp;socket);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if(req-&gt;remaining_content_length&nbsp;&lt;=&nbsp;0&nbsp;&amp;&amp;&nbsp;req-&gt;reached_end_of_headers)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	handle_request(socket);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+void&nbsp;http_read(object&nbsp;socket,&nbsp;buffer&nbsp;data)&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;string&nbsp;request;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;refresh_active(socket);&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!data)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;log_http(&quot;Connented&quot;,socket);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;initial&nbsp;connect&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;request&nbsp;=&nbsp;read_buffer(data);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;!request&nbsp;)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;	return;&nbsp;<BR>
+#ifdef&nbsp;LOG_RECEIVE&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;log_http(request,socket);&nbsp;<BR>
+#endif&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;add_to_request(socket,&nbsp;request);&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+void&nbsp;http_close(object&nbsp;socket)&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;log_http(&quot;Leaved(socket&nbsp;closed&nbsp;by&nbsp;peer)&quot;,socket);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;map_delete(alive_socket,socket);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;map_delete(active_socket,socket);&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;test_alive()&nbsp;<BR>
+{&nbsp;<BR>
+	int&nbsp;i;&nbsp;<BR>
+	object&nbsp;*&nbsp;s;&nbsp;<BR>
+	s=keys(alive_socket);&nbsp;<BR>
+	for(i=0;i&lt;sizeof(s);i++)&nbsp;<BR>
+	&nbsp;&nbsp;if&nbsp;(!s[i]||time()-alive_socket[s[i]][&quot;time&quot;]&gt;KEEPALIVE+5)&nbsp;<BR>
+	&nbsp;&nbsp;{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;map_delete(alive_socket,s[i]);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(s[i])&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;log_http(&quot;Keepalive&nbsp;time&nbsp;out&quot;,s[i]);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;destruct(s[i]);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+	&nbsp;&nbsp;}&nbsp;<BR>
+	s=keys(active_socket);&nbsp;<BR>
+	for(i=0;i&lt;sizeof(s);i++)&nbsp;<BR>
+	&nbsp;&nbsp;if&nbsp;(!s[i]||time()-active_socket[s[i]][&quot;time&quot;]&gt;KICKOUT)&nbsp;<BR>
+	&nbsp;&nbsp;{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;map_delete(active_socket,s[i]);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(s[i])&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;log_http(&quot;No&nbsp;respond,&nbsp;kick&nbsp;out&quot;,s[i]);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;destruct(s[i]);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+	&nbsp;&nbsp;}&nbsp;<BR>
+	remove_call_out(&quot;test_alive&quot;);&nbsp;<BR>
+	call_out(&quot;test_alive&quot;,5);	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+nomask&nbsp;void&nbsp;remove()&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;remove_alive();&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;remove_active();&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(http_sock)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;destruct(http_sock);&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+nomask&nbsp;void&nbsp;create()&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;string&nbsp;ret;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;ret&nbsp;=&nbsp;catch(http_sock&nbsp;=&nbsp;new(SOCKET,&nbsp;SKT_STYLE_LISTEN_B,&nbsp;PORT_HTTP,&nbsp;&nbsp;<BR>
+	(:&nbsp;http_read&nbsp;:),&nbsp;(:&nbsp;http_close&nbsp;:)));&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;ret&nbsp;)&nbsp;{&nbsp;<BR>
+	if&nbsp;(&nbsp;http_sock&nbsp;)&nbsp;{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;destruct(http_sock);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;http_sock&nbsp;=&nbsp;0;&nbsp;<BR>
+	}&nbsp;<BR>
+	error(ret);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;call_out(&quot;test_alive&quot;,5);	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+}&nbsp;<BR>
+//**&nbsp;&nbsp;added&nbsp;to&nbsp;stop&nbsp;the&nbsp;daemon&nbsp;from&nbsp;cleaning&nbsp;itself&nbsp;up&nbsp;<BR>
+&nbsp;<BR>
+void&nbsp;clean_up()&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;0;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+※&nbsp;来源:·BBS&nbsp;水木清华站&nbsp;bbs.net.tsinghua.edu.cn·[FROM:&nbsp;202.207.8.112]&nbsp;&nbsp;<BR>
+<A HREF="00000002.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一页</A>
+<A HREF="index.htm">回到目录</A>
+<A HREF="#top">回到页首</A>
+<A HREF="00000004.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+</BODY></HTML>

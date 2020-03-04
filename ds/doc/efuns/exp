@@ -1,0 +1,16 @@
+
+	exp(3)			MudOS v21c2		(5 Sep 1994)
+
+	嘿:
+		exp() - 疊翴计计, 礛癸计 e  ┏计
+			璸衡ㄤ.
+	粂猭:
+		float exp( float f );
+
+		疊翴计 exp( 疊翴计 f );
+	ノ猭:
+		exp() 肚 e^f .
+	把σ:
+		log(3), pow(3), sqrt(3)
+	陆亩:
+		Spock @ FF	97.Feb.12.		(printed 3/16/95)

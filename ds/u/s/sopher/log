@@ -1,0 +1,732 @@
+u/s/sopher/workroom.c line 2: parse error
+u/s/sopher/workroom.c line 2: parse error
+u/s/sopher/workroom.c line 2: parse error
+u/s/sopher/workroom.c line 2: parse error
+u/s/sopher/workroom.c line 2: parse error
+u/s/sopher/workroom.c line 2: parse error
+u/s/sopher/workroom.c line 2: parse error
+u/s/sopher/workroom.c line 2: parse error
+u/s/sopher/workroom.c line 2: parse error
+u/s/sopher/workroom.c line 2: parse error
+u/s/sopher/workroom.c line 2: parse error
+u/s/sopher/workroom.c line 2: parse error
+u/s/sopher/workroom.c line 2: parse error
+u/s/sopher/workroom.c line 2: parse error
+u/s/sopher/workroom.c line 2: parse error
+u/s/sopher/workroom.c line 2: parse error
+u/s/sopher/workroom.c line 24: parse error
+u/s/sopher/workroom.c line 24: parse error
+u/s/sopher/workroom.c line 24: parse error
+u/s/sopher/workroom.c line 26: Illegal to redefine 'nomask' function "_query"
+u/s/sopher/workroom.c line 26: Illegal to redefine 'nomask' function "_delete"
+u/s/sopher/workroom.c line 26: Illegal to redefine 'nomask' function "_set"
+u/s/sopher/workroom.c line 44: Redeclaration of function create.
+u/s/sopher/workroom.c line 46: parse error
+u/s/sopher/workroom.c line 2: parse error
+u/s/sopher/workroom.c line 4: parse error
+u/s/sopher/workroom.c line 4: parse error
+u/s/sopher/workroom.c line 24: Illegal to redefine 'nomask' function "_query"
+u/s/sopher/workroom.c line 24: Illegal to redefine 'nomask' function "_delete"
+u/s/sopher/workroom.c line 24: Illegal to redefine 'nomask' function "_set"
+u/s/sopher/workroom.c line 32: Redeclaration of function create.
+u/s/sopher/workroom.c line 23: parse error
+u/s/sopher/workroom.c line 23: parse error
+u/s/sopher/workroom.c line 23: parse error
+u/s/sopher/workroom.c line 23: parse error
+u/s/sopher/workroom.c line 29: Illegal to redefine 'nomask' function "_query"
+u/s/sopher/workroom.c line 29: Illegal to redefine 'nomask' function "_delete"
+u/s/sopher/workroom.c line 29: Illegal to redefine 'nomask' function "_set"
+u/s/sopher/workroom.c line 47: Redeclaration of function create.
+u/s/sopher/workroom.c line 52: Redeclaration of function init.
+u/s/sopher/workroom.c line 30: Illegal to redefine 'nomask' function "_query"
+u/s/sopher/workroom.c line 30: Illegal to redefine 'nomask' function "_delete"
+u/s/sopher/workroom.c line 30: Illegal to redefine 'nomask' function "_set"
+u/s/sopher/workroom.c line 48: Redeclaration of function create.
+u/s/sopher/workroom.c line 53: Redeclaration of function init.
+u/s/sopher/workroom.c line 55: Illegal to redefine 'nomask' function "_query"
+u/s/sopher/workroom.c line 26: parse error
+u/s/sopher/workroom.c line 26: Illegal to redefine 'nomask' function "_query"
+u/s/sopher/workroom.c line 26: Illegal to redefine 'nomask' function "_delete"
+u/s/sopher/workroom.c line 26: Illegal to redefine 'nomask' function "_set"
+u/s/sopher/workroom.c line 44: Redeclaration of function create.
+u/s/sopher/workroom.c line 24: parse error
+u/s/sopher/npc/sophon.c line 9: parse error
+u/s/sopher/npc/sophon.c line 16: End of file in string
+u/s/sopher/npc/sophon.c line 6: parse error
+u/s/sopher/npc/sophon.c line 9: Illegal terminator
+u/s/sopher/npc/sophon.c line 9: Text block exceeded maximum length
+u/s/sopher/npc/sophon.c line 9: Illegal terminator
+u/s/sopher/npc/sophon.c line 9: Text block exceeded maximum length
+u/s/sopher/npc/sophon.c line 9: Illegal terminator
+u/s/sopher/npc/sophon.c line 6: parse error
+u/s/sopher/npc/sophon.c line 6: parse error
+u/s/sopher/npc/sophon.c line 6: parse error
+u/s/sopher/npc/sophon.c line 6: parse error
+u/s/sopher/sophon.c line 6: parse error
+u/s/sopher/sophon.c line 6: parse error
+u/s/sopher/sophon.c line 14: parse error
+u/s/sopher/sophon.c line 26: End of file in string
+u/s/sopher/sophon.c line 14: parse error
+u/s/sopher/sophon.c line 26: End of file in string
+u/s/sopher/sophon.c line 10: Illegal terminator
+u/s/sopher/sophon.c line 10: Text block exceeded maximum length
+u/s/sopher/sophon.c line 10: Undefined variable 'LONG'
+
+u/s/sopher/sophon.c line 10: parse error
+u/s/sopher/sophon.c line 10: Illegal terminator
+u/s/sopher/sophon.c line 10: Text block exceeded maximum length
+u/s/sopher/sophon.c line 26: End of file in text block
+u/s/sopher/sophon.c line 26: Undefined variable 'pon_prop'
+
+u/s/sopher/sophon.c line 27: A reserved type name cannot be used as a function name.
+
+u/s/sopher/sophon.c line 27: parse error
+u/s/sopher/sophon.c line 33: End of file in string
+u/s/sopher/npc/npceq/light_sword.c line 25: parse error
+u/s/sopher/npc/npceq/light_sword.c line 59: parse error
+u/s/sopher/npc/npceq/light_sword.c line 25: parse error
+u/s/sopher/npc/npceq/light_sword.c line 59: parse error
+u/s/sopher/npc/npceq/light_sword.c line 26: parse error
+u/s/sopher/npc/npceq/light_sword.c line 60: parse error
+u/s/sopher/npc/npceq/light_sword.c line 111: Illegal LHS
+u/s/sopher/npc/npceq/light_sword.c line 111: parse error
+u/s/sopher/npc/npceq/light_sword.c line 112: Illegal LHS
+u/s/sopher/npc/npceq/light_sword.c line 112: parse error
+u/s/sopher/npc/npceq/light_sword.c line 25: parse error
+u/s/sopher/npc/npceq/light_sword.c line 59: parse error
+u/s/sopher/npc/npceq/light_sword.c line 25: parse error
+u/s/sopher/npc/npceq/light_sword.c line 59: parse error
+u/s/sopher/npc/npceq/light_sword.c line 25: parse error
+u/s/sopher/npc/npceq/light_sword.c line 66: parse error
+u/s/sopher/npc/npceq/light_sword.c line 25: parse error
+u/s/sopher/npc/npceq/light_sword.c line 66: parse error
+u/s/sopher/npc/npceq/light_sword.c line 25: parse error
+u/s/sopher/npc/npceq/light_sword.c line 25: parse error
+u/s/sopher/npc/npceq/light_sword.c line 25: parse error
+u/s/sopher/npc/npceq/light_sword.c line 25: parse error
+u/s/sopher/npc/npceq/light_sword.c line 25: parse error
+u/s/sopher/npc/npceq/light_sword.c line 25: parse error
+u/s/sopher/npc/npceq/light_sword.c line 25: parse error
+u/s/sopher/npc/npceq/light_sword.c line 25: parse error
+u/s/sopher/npc/npceq/light_sword.c line 25: parse error
+u/s/sopher/npc/npceq/light_sword.c line 25: parse error
+u/s/sopher/npc/npceq/light_sword.c line 50: parse error
+u/s/sopher/npc/npceq/light_sword.c line 50: parse error
+u/s/sopher/npc/npceq/light_sword.c line 1: parse error
+u/s/sopher/npc/npceq/light_sword.c line 1: parse error
+u/s/sopher/npc/npceq/light_sword.c line 50: parse error
+u/s/sopher/npc/npceq/light_sword.c line 50: parse error
+u/s/sopher/npc/npceq/light_sword.c line 50: parse error
+u/s/sopher/npc/npceq/light_sword.c line 50: parse error
+u/s/sopher/npc/npceq/light_sword.c line 25: parse error
+u/s/sopher/npc/npceq/light_sword.c line 59: parse error
+u/s/sopher/npc/npceq/light_sword.c line 25: parse error
+u/s/sopher/npc/npceq/light_sword.c line 25: parse error
+u/s/sopher/npc/npceq/light_sword.c line 50: parse error
+u/s/sopher/npc/npceq/light_sword.c line 50: parse error
+u/s/sopher/npc/npceq/light_sword.c line 52: parse error
+u/s/sopher/npc/npceq/light_sword.c line 33: Undefined variable 'str'
+
+u/s/sopher/npc/npceq/light_sword.c line 33: Undefined variable 'dex'
+
+u/s/sopher/npc/npceq/light_sword.c line 33: Undefined variable 'str'
+
+u/s/sopher/npc/npceq/light_sword.c line 33: Undefined variable 'dex'
+
+u/s/sopher/npc/npceq/light_blade.c line 19: Undefined function init_axe
+u/s/sopher/npc/npceq/light_blade.c line 19: Undefined function init_axe
+u/s/sopher/npc/npceq/dragon_cloth.c line 6: parse error
+u/s/sopher/npc/npceq/dragon_cloth.c line 6: parse error
+u/s/sopher/npc/npceq/dragon_cloth.c line 6: parse error
+u/s/sopher/npc/npceq/dragon_cloth.c line 9: Undefined variable '_FILE_'
+
+u/s/sopher/npc/npceq/dragon_cloth.c line 11: parse error
+u/s/sopher/npc/npceq/dragon_cloth.c line 9: Undefined variable '_FILE_'
+
+u/s/sopher/npc/npceq/dragon_cloth.c line 11: parse error
+u/s/sopher/npc/npceq/dragon_cloth.c line 9: Undefined variable '_FILE_'
+
+u/s/sopher/npc/npceq/dragon_cloth.c line 11: parse error
+u/s/sopher/npc/npceq/dragon_cloth.c line 9: Undefined variable '_FILE_'
+
+u/s/sopher/npc/npceq/dragon_cloth.c line 11: parse error
+u/s/sopher/npc/npceq/dragon_cloth.c line 20: parse error
+u/s/sopher/npc/npceq/dragon_cloth.c line 12: parse error
+u/s/sopher/npc/npceq/dragon_cloth.c line 12: parse error
+u/s/sopher/npc/sophon.c line 6: parse error
+u/s/sopher/npc/npceq/dragon_blade.c line 1: parse error
+u/s/sopher/npc/npceq/dragon_blade.c line 1: parse error
+u/s/sopher/npc/npceq/dragon_blade.c line 33: Undefined variable 'dodge'
+
+u/s/sopher/npc/npceq/dragon_blade.c line 33: Undefined variable 'ob'
+
+u/s/sopher/npc/npceq/dragon_blade.c line 36: parse error
+u/s/sopher/npc/npceq/dragon_blade.c line 58: Illegal terminator
+u/s/sopher/npc/npceq/dragon_blade.c line 58: Text block exceeded maximum length
+u/s/sopher/npc/npceq/dragon_blade.c line 58: $var illegal outside of function.
+u/s/sopher/npc/npceq/dragon_blade.c line 33: Undefined variable 'dodge'
+
+u/s/sopher/npc/npceq/dragon_blade.c line 33: Undefined variable 'ob'
+
+u/s/sopher/npc/npceq/dragon_blade.c line 36: parse error
+u/s/sopher/npc/npceq/dragon_blade.c line 37: $var illegal outside of function.
+u/s/sopher/npc/npceq/dragon_blade.c line 33: Undefined variable 'dodge'
+
+u/s/sopher/npc/npceq/dragon_blade.c line 33: Undefined variable 'ob'
+
+u/s/sopher/npc/npceq/dragon_blade.c line 36: parse error
+u/s/sopher/npc/npceq/dragon_blade.c line 37: $var illegal outside of function.
+u/s/sopher/npc/npceq/d_blade.c line 33: Undefined variable 'dodge'
+
+u/s/sopher/npc/npceq/d_blade.c line 33: Undefined variable 'ob'
+
+u/s/sopher/npc/npceq/d_blade.c line 42: parse error
+u/s/sopher/npc/npceq/d_blade.c line 53: $var illegal outside of function.
+u/s/sopher/npc/npceq/d_blade.c line 53: Illegal terminator
+u/s/sopher/npc/npceq/d_blade.c line 53: Text block exceeded maximum length
+u/s/sopher/npc/npceq/light_spear.c line 19: $var illegal outside of function.
+u/s/sopher/npc/npceq/light_spear.c line 19: parse error
+u/s/sopher/npc/npceq/light_spear.c line 19: $var illegal outside of function.
+u/s/sopher/npc/npceq/light_spear.c line 36: $var illegal outside of function.
+u/s/sopher/npc/npceq/light_spear.c line 37: $var illegal outside of function.
+u/s/sopher/npc/npceq/light_spear.c line 37: Illegal terminator
+u/s/sopher/npc/npceq/light_spear.c line 19: $var illegal outside of function.
+u/s/sopher/npc/npceq/light_spear.c line 19: parse error
+u/s/sopher/npc/npceq/light_spear.c line 19: $var illegal outside of function.
+u/s/sopher/npc/npceq/light_spear.c line 35: $var illegal outside of function.
+u/s/sopher/npc/npceq/light_spear.c line 36: $var illegal outside of function.
+u/s/sopher/npc/npceq/light_spear.c line 36: Illegal terminator
+u/s/sopher/npc/npceq/light_spear.c line 24: A reserved type name cannot be used as a function name.
+
+u/s/sopher/npc/npceq/light_spear.c line 24: parse error
+u/s/sopher/npc/npceq/light_spear.c line 30: Undefined variable 'me'
+
+u/s/sopher/npc/npceq/light_spear.c line 30: Illegal LHS
+u/s/sopher/npc/npceq/light_spear.c line 31: Undefined variable 'con'
+
+u/s/sopher/npc/npceq/light_spear.c line 32: Undefined variable 'dodge'
+
+u/s/sopher/npc/npceq/light_spear.c line 24: A reserved type name cannot be used as a function name.
+
+u/s/sopher/npc/npceq/light_spear.c line 24: parse error
+u/s/sopher/npc/npceq/light_spear.c line 30: Undefined variable 'me'
+
+u/s/sopher/npc/npceq/light_spear.c line 30: Illegal LHS
+u/s/sopher/npc/npceq/light_spear.c line 31: Undefined variable 'con'
+
+u/s/sopher/npc/npceq/light_spear.c line 32: Undefined variable 'dodge'
+
+u/s/sopher/npc/npceq/light_spear.c line 24: A reserved type name cannot be used as a function name.
+
+u/s/sopher/npc/npceq/light_spear.c line 24: parse error
+u/s/sopher/npc/npceq/light_spear.c line 30: Undefined variable 'me'
+
+u/s/sopher/npc/npceq/light_spear.c line 30: Illegal LHS
+u/s/sopher/npc/npceq/light_spear.c line 31: Undefined variable 'con'
+
+u/s/sopher/npc/npceq/light_spear.c line 32: Undefined variable 'dodge'
+
+u/s/sopher/npc/npceq/light_spear.c line 24: A reserved type name cannot be used as a function name.
+
+u/s/sopher/npc/npceq/light_spear.c line 24: parse error
+u/s/sopher/npc/npceq/light_spear.c line 30: Undefined variable 'me'
+
+u/s/sopher/npc/npceq/light_spear.c line 30: Illegal LHS
+u/s/sopher/npc/npceq/light_spear.c line 31: Undefined variable 'con'
+
+u/s/sopher/npc/npceq/light_spear.c line 32: Undefined variable 'dodge'
+
+u/s/sopher/npc/npceq/spear.c line 23: A reserved type name cannot be used as a function name.
+
+u/s/sopher/npc/npceq/spear.c line 23: parse error
+u/s/sopher/npc/npceq/spear.c line 29: Undefined variable 'me'
+
+u/s/sopher/npc/npceq/spear.c line 29: Illegal LHS
+u/s/sopher/npc/npceq/spear.c line 30: Undefined variable 'con'
+
+u/s/sopher/npc/npceq/spear.c line 31: Undefined variable 'dodge'
+
+u/s/sopher/npc/npceq/spear.c line 23: A reserved type name cannot be used as a function name.
+
+u/s/sopher/npc/npceq/spear.c line 23: parse error
+u/s/sopher/npc/npceq/spear.c line 30: Undefined variable 'me'
+
+u/s/sopher/npc/npceq/spear.c line 30: Illegal LHS
+u/s/sopher/npc/npceq/spear.c line 31: Undefined variable 'con'
+
+u/s/sopher/npc/npceq/spear.c line 32: Undefined variable 'dodge'
+
+u/s/sopher/npc/npceq/light_lance.c line 41: parse error
+u/s/sopher/npc/npceq/light_lance.c line 46: $var illegal outside of function.
+u/s/sopher/npc/npceq/light_lance.c line 46: Illegal terminator
+u/s/sopher/npc/npceq/light_lance.c line 46: Text block exceeded maximum length
+u/s/sopher/npc/npceq/light_lance.c line 47: Illegal terminator
+u/s/sopher/npc/npceq/light_lance.c line 47: Text block exceeded maximum length
+u/s/sopher/npc/npceq/light_lance.c line 42: parse error
+u/s/sopher/npc/npceq/light_lance.c line 46: $var illegal outside of function.
+u/s/sopher/npc/npceq/light_lance.c line 46: Illegal terminator
+u/s/sopher/npc/npceq/light_lance.c line 46: Text block exceeded maximum length
+u/s/sopher/npc/npceq/light_lance.c line 47: Illegal terminator
+u/s/sopher/npc/npceq/light_lance.c line 47: Text block exceeded maximum length
+u/s/sopher/area/light1.c line 19: End of file in text block
+u/s/sopher/area/light1.c line 21: Undefined variable 'arg'
+
+u/s/sopher/area/light1.c line 21: Type of returned value doesn't match function return type ( int vs void ).
+u/s/sopher/area/light1.c line 22: Undefined variable 'spl'
+
+u/s/sopher/area/light1.c line 22: Undefined variable 'trg'
+
+u/s/sopher/area/light1.c line 24: Undefined variable 'target'
+
+u/s/sopher/area/light_1.c line 19: End of file in text block
+u/s/sopher/area/light_1.c line 19: parse error
+u/s/sopher/area/light_1.c line 22: End of file in string
+u/s/sopher/area/light_1.c line 24: End of file in text block
+u/s/sopher/area/light_1.c line 24: Undefined variable '_prop'
+
+u/s/sopher/area/light_1.c line 25: Undefined variable 'armor'
+
+u/s/sopher/area/light_1.c line 25: parse error
+u/s/sopher/area/light_1.c line 29: End of file in string
+u/s/sopher/area/light1.c line 24: End of file in text block
+u/s/sopher/area/light1.c line 25: Undefined variable 'armor'
+
+u/s/sopher/area/light1.c line 25: parse error
+u/s/sopher/area/light1.c line 29: End of file in string
+u/s/sopher/area/light_1.c line 15: parse error
+u/s/sopher/area/light_1.c line 25: Illegal terminator
+u/s/sopher/area/light_1.c line 25: Text block exceeded maximum length
+u/s/sopher/area/light_1.c line 27: End of file in string
+u/s/sopher/area/light_1.c line 15: parse error
+u/s/sopher/area/light_1.c line 24: End of file in string
+u/s/sopher/area/light_1.c line 15: parse error
+u/s/sopher/area/light_1.c line 23: End of file in string
+u/s/sopher/area/light_1.c line 14: parse error
+u/s/sopher/area/light_1.c line 23: End of file in string
+u/s/sopher/area/flower_road1.c line 13: parse error
+u/s/sopher/area/flower_road1.c line 16: Illegal terminator
+u/s/sopher/area/flower_road1.c line 16: Text block exceeded maximum length
+u/s/sopher/area/flower_road1.c line 18: Illegal terminator
+u/s/sopher/area/flower_road1.c line 18: Text block exceeded maximum length
+u/s/sopher/area/flower_road1.c line 19: Illegal terminator
+u/s/sopher/area/hell_enter.c line 24: parse error
+u/s/sopher/area/hell_enter.c line 24: parse error
+u/s/sopher/area/hell_enter.c line 25: parse error
+u/s/sopher/area/hell_door.c line 22: parse error
+u/s/sopher/area/hell_door.c line 14: parse error
+u/s/sopher/area/hell_door.c line 22: End of file in string
+u/s/sopher/area/hell_door.c line 14: parse error
+u/s/sopher/area/hell_door.c line 23: End of file in string
+u/s/sopher/area/hell_door.c line 14: parse error
+u/s/sopher/area/hell_door.c line 23: End of file in string
+u/s/sopher/area/hell_door.c line 14: parse error
+u/s/sopher/area/hell_door.c line 14: parse error
+u/s/sopher/area/npc/npceq/dragon_cloth.c line 6: parse error
+u/s/sopher/area/npc/npceq/dragon_cloth.c line 21: End of file in string
+u/s/sopher/area/npc/npceq/dragon_cloth.c line 6: parse error
+u/s/sopher/area/npc/npceq/dragon_cloth.c line 21: End of file in string
+u/s/sopher/area/npc/npceq/dragon_cloth.c line 6: parse error
+u/s/sopher/area/npc/npceq/dragon_cloth.c line 20: End of file in string
+u/s/sopher/area/npc/npceq/dragon_cloth.c line 6: parse error
+u/s/sopher/area/npc/npceq/dragon_cloth.c line 20: End of file in string
+u/s/sopher/area/npc/npceq/dragon_cloth.c line 6: parse error
+u/s/sopher/area/npc/npceq/dragon_cloth.c line 20: End of file in string
+u/s/sopher/area/npc/npceq/dragon_cloth.c line 6: parse error
+u/s/sopher/area/npc/npceq/dragon_cloth.c line 21: End of file in string
+u/s/sopher/area/npc/npceq/dragon_cloth.c line 7: parse error
+u/s/sopher/area/npc/npceq/dragon_cloth.c line 22: End of file in string
+u/s/sopher/area/npc/npceq/dragon_cloth.c line 7: parse error
+u/s/sopher/area/npc/npceq/dragon_cloth.c line 22: End of file in string
+u/s/sopher/area/npc/npceq/dragon_cloth.c line 7: parse error
+u/s/sopher/area/npc/npceq/dragon_cloth.c line 21: End of file in string
+u/s/sopher/area/npc/npceq/dragon_cloth.c line 7: parse error
+u/s/sopher/area/npc/npceq/dragon_cloth.c line 21: End of file in string
+u/s/sopher/area/flower_road1.c line 25: parse error
+u/s/sopher/area/flower_room.c line 25: End of file in text block
+u/s/sopher/area/flower_room.c line 25: parse error
+u/s/sopher/area/flower_room.c line 28: End of file in string
+u/s/sopher/area/npc/dragon_soilder.c line 5: Undefined variable 'soilder'
+
+u/s/sopher/area/npc/dragon_soilder.c line 12: parse error
+u/s/sopher/area/npc/dragon_soilder.c line 19: Illegal terminator
+u/s/sopher/area/npc/dragon_soilder.c line 19: Text block exceeded maximum length
+u/s/sopher/area/npc/dragon_soilder.c line 44: End of file in string
+u/s/sopher/area/npc/dragon_soilder.c line 5: Undefined variable 'soilder'
+
+u/s/sopher/area/npc/dragon_soilder.c line 12: parse error
+u/s/sopher/area/npc/dragon_soilder.c line 40: End of file in string
+u/s/sopher/area/npc/dragon_soilder.c line 5: Undefined variable 'soilder'
+
+u/s/sopher/area/npc/dragon_soilder.c line 31: parse error
+u/s/sopher/area/npc/dragon_soilder.c line 5: Undefined variable 'soilder'
+
+u/s/sopher/area/npc/dragon_soilder.c line 31: parse error
+u/s/sopher/area/npc/dragon_soilder.c line 5: Undefined variable 'soilder'
+
+u/s/sopher/area/npc/dragon_soilder.c line 5: Undefined variable 'soilder'
+
+u/s/sopher/area/npc/waregabo.c line 22: parse error
+u/s/sopher/area/npc/waregabo.c line 22: parse error
+u/s/sopher/area/dragon_kingroom1.c line 27: parse error
+u/s/sopher/area/npc/waregabo.c line 43: A reserved type name cannot be used as a function name.
+
+u/s/sopher/area/npc/waregabo.c line 43: parse error
+u/s/sopher/area/npc/waregabo.c line 46: Illegal LHS
+u/s/sopher/area/npc/waregabo.c line 46: parse error
+u/s/sopher/area/npc/waregabo.c line 47: Illegal LHS
+u/s/sopher/area/npc/waregabo.c line 49: Undefined variable 'ob'
+
+u/s/sopher/area/npc/waregabo.c line 43: A reserved type name cannot be used as a function name.
+
+u/s/sopher/area/npc/waregabo.c line 43: parse error
+u/s/sopher/area/npc/waregabo.c line 46: Illegal LHS
+u/s/sopher/area/npc/waregabo.c line 46: parse error
+u/s/sopher/area/npc/waregabo.c line 47: Illegal LHS
+u/s/sopher/area/npc/waregabo.c line 49: Undefined variable 'ob'
+
+u/s/sopher/area/npc/waregabo.c line 43: A reserved type name cannot be used as a function name.
+
+u/s/sopher/area/npc/waregabo.c line 43: parse error
+u/s/sopher/area/npc/waregabo.c line 46: Illegal LHS
+u/s/sopher/area/npc/waregabo.c line 46: parse error
+u/s/sopher/area/npc/waregabo.c line 47: Illegal LHS
+u/s/sopher/area/npc/waregabo.c line 49: Undefined variable 'ob'
+
+u/s/sopher/area/npc/waregabo.c line 44: parse error
+u/s/sopher/area/npc/waregabo.c line 44: parse error
+u/s/sopher/area/npc/waregabo.c line 44: parse error
+u/s/sopher/area/npc/waregabo.c line 44: parse error
+u/s/sopher/area/npc/waregabo.c line 44: parse error
+u/s/sopher/area/npc/waregabo.c line 44: parse error
+u/s/sopher/area/npc/garrison.c line 16: parse error
+u/s/sopher/area/npc/garrison.c line 24: End of file in string
+u/s/sopher/area/npc/garrison.c line 5: parse error
+u/s/sopher/area/npc/garrison.c line 5: parse error
+u/s/sopher/area/npc/garrison.c line 16: parse error
+u/s/sopher/area/npc/garrison.c line 26: End of file in string
+u/s/sopher/area/npc/garrison.c line 16: parse error
+u/s/sopher/area/npc/garrison.c line 26: End of file in string
+u/s/sopher/area/npc/garrison.c line 1: parse error
+u/s/sopher/area/npc/garrison.c line 1: parse error
+u/s/sopher/area/npc/garrison.c line 15: parse error
+u/s/sopher/area/npc/garrison.c line 26: End of file in string
+u/s/sopher/area/npc/garrison.c line 15: parse error
+u/s/sopher/area/npc/garrison.c line 24: End of file in string
+u/s/sopher/area/npc/garrison.c line 27: End of file in string
+u/s/sopher/area/npc/garrison.c line 27: parse error
+u/s/sopher/area/npc/garrison.c line 15: parse error
+u/s/sopher/area/npc/garrison.c line 26: End of file in string
+u/s/sopher/area/npc/garrison.c line 16: parse error
+u/s/sopher/area/npc/garrison.c line 16: parse error
+u/s/sopher/area/npc/garrison.c line 15: parse error
+u/s/sopher/area/npc/garrison.c line 25: End of file in string
+u/s/sopher/area/npc/garrison.c line 16: parse error
+u/s/sopher/area/npc/garrison.c line 16: parse error
+u/s/sopher/area/dragon_door.c line 22: parse error
+u/s/sopher/area/dragon_door.c line 28: End of file in string
+u/s/sopher/area/dragon1.c line 21: parse error
+u/s/sopher/area/dragon1.c line 25: End of file in string
+u/s/sopher/area/dragon1.c line 21: parse error
+u/s/sopher/area/dragon1.c line 25: End of file in string
+u/s/sopher/area/npc/garrison.c line 15: parse error
+u/s/sopher/area/npc/garrison.c line 22: End of file in string
+u/s/sopher/area/npc/garrison.c line 15: parse error
+u/s/sopher/area/npc/garrison.c line 22: End of file in string
+u/s/sopher/area/npc/garrison.c line 15: parse error
+u/s/sopher/area/npc/garrison.c line 22: End of file in string
+u/s/sopher/area/npc/garrison.c line 15: parse error
+u/s/sopher/area/npc/garrison.c line 22: End of file in string
+u/s/sopher/area/npc/garrison.c line 15: parse error
+u/s/sopher/area/npc/garrison.c line 22: End of file in string
+u/s/sopher/area/npc/soilder.c line 18: parse error
+u/s/sopher/area/npc/soilder.c line 18: parse error
+u/s/sopher/area/dragon1.c line 21: parse error
+u/s/sopher/area/dragon1.c line 25: End of file in string
+u/s/sopher/area/dragon1.c line 22: parse error
+u/s/sopher/area/dragon1.c line 22: parse error
+u/s/sopher/area/dragon1.c line 28: Illegal to redefine 'nomask' function "_query"
+u/s/sopher/area/dragon1.c line 28: Illegal to redefine 'nomask' function "_delete"
+u/s/sopher/area/dragon1.c line 28: Illegal to redefine 'nomask' function "_set"
+u/s/sopher/area/dragon1.c line 46: parse error
+u/s/sopher/area/npc/dragon_knight.c line 16: parse error
+u/s/sopher/area/npc/dragon_knight.c line 26: End of file in string
+u/s/sopher/area/npc/dragon_knight.c line 16: parse error
+u/s/sopher/area/npc/dragon_knight.c line 26: End of file in string
+u/s/sopher/area/dragon7.c line 18: Undefined variable 'look_sign'
+
+u/s/sopher/area/dragon7.c line 18: parse error
+u/s/sopher/area/dragon7.c line 18: Undefined variable 'look_sign'
+
+u/s/sopher/area/dragon7.c line 18: parse error
+u/s/sopher/area/dragon7.c line 13: Undefined variable 'look_sign'
+
+u/s/sopher/area/dragon7.c line 13: parse error
+u/s/sopher/area/dragon7.c line 13: Undefined variable 'look_sign'
+
+u/s/sopher/area/dragon7.c line 13: parse error
+u/s/sopher/area/npc/npcwp/knight_stab.c line 16: Undefined variable 'init'
+
+u/s/sopher/area/npc/npcwp/knight_stab.c line 16: parse error
+u/s/sopher/area/npc/knight.c line 16: parse error
+u/s/sopher/area/npc/knight.c line 33: End of file in string
+u/s/sopher/area/npc/knight.c line 16: parse error
+u/s/sopher/area/npc/knight.c line 34: End of file in string
+u/s/sopher/area/npc/knight.c line 16: parse error
+u/s/sopher/area/npc/knight.c line 34: End of file in string
+u/s/sopher/area/npc/knight.c line 16: parse error
+u/s/sopher/area/npc/knight.c line 33: End of file in string
+u/s/sopher/area/npc/knight.c line 16: parse error
+u/s/sopher/area/npc/knight.c line 34: End of file in string
+u/s/sopher/area/npc/knight.c line 16: parse error
+u/s/sopher/area/npc/knight.c line 35: End of file in string
+u/s/sopher/area/npc/knight.c line 16: parse error
+u/s/sopher/area/npc/knight.c line 34: End of file in string
+u/s/sopher/area/npc/knight.c line 16: parse error
+u/s/sopher/area/npc/knight.c line 37: End of file in string
+u/s/sopher/area/npc/knight.c line 16: parse error
+u/s/sopher/area/npc/knight.c line 35: End of file in string
+u/s/sopher/area/npc/knight.c line 16: parse error
+u/s/sopher/area/npc/knight.c line 34: End of file in string
+u/s/sopher/area/npc/knight.c line 16: parse error
+u/s/sopher/area/npc/knight.c line 34: End of file in string
+u/s/sopher/area/npc/knight.c line 16: parse error
+u/s/sopher/area/npc/knight.c line 34: End of file in string
+u/s/sopher/area/npc/knight.c line 17: parse error
+u/s/sopher/area/npc/knight.c line 51: Illegal terminator
+u/s/sopher/area/npc/knight.c line 51: Text block exceeded maximum length
+u/s/sopher/area/npc/knight.c line 16: parse error
+u/s/sopher/area/npc/knight.c line 35: End of file in string
+u/s/sopher/area/npc/knight.c line 16: parse error
+u/s/sopher/area/npc/knight.c line 35: End of file in string
+u/s/sopher/area/npc/guard.c line 15: parse error
+u/s/sopher/area/npc/guard.c line 22: End of file in string
+u/s/sopher/area/npc/knight.c line 16: parse error
+u/s/sopher/area/npc/knight.c line 35: End of file in string
+u/s/sopher/area/npc/knight.c line 16: parse error
+u/s/sopher/area/npc/knight.c line 36: End of file in string
+u/s/sopher/area/npc/knight.c line 16: parse error
+u/s/sopher/area/npc/knight.c line 34: End of file in string
+u/s/sopher/area/npc/knight.c line 16: parse error
+u/s/sopher/area/npc/knight.c line 34: End of file in string
+u/s/sopher/area/npc/knight.c line 16: parse error
+u/s/sopher/area/npc/knight.c line 34: End of file in string
+u/s/sopher/area/npc/knight.c line 19: parse error
+u/s/sopher/area/npc/knight.c line 29: End of file in string
+u/s/sopher/area/npc/knight.c line 19: parse error
+u/s/sopher/area/npc/knight.c line 29: End of file in string
+u/s/sopher/area/npc/knight.c line 19: parse error
+u/s/sopher/area/npc/knight.c line 41: Illegal terminator
+u/s/sopher/area/npc/knight.c line 41: Text block exceeded maximum length
+u/s/sopher/area/npc/knight.c line 45: End of file in string
+u/s/sopher/area/npc/knight.c line 19: parse error
+u/s/sopher/area/npc/knight.c line 42: Illegal terminator
+u/s/sopher/area/npc/knight.c line 42: Text block exceeded maximum length
+u/s/sopher/area/npc/knight.c line 46: End of file in string
+u/s/sopher/area/npc/knight.c line 19: parse error
+u/s/sopher/area/npc/knight.c line 30: End of file in string
+u/s/sopher/area/npc/knight.c line 19: parse error
+u/s/sopher/area/npc/knight.c line 30: End of file in string
+u/s/sopher/area/npc/knight.c line 19: parse error
+u/s/sopher/area/npc/knight.c line 30: End of file in string
+u/s/sopher/area/npc/knight.c line 32: Illegal to redefine 'nomask' function "query_weight"
+u/s/sopher/area/npc/knight.c line 32: Illegal to redefine 'nomask' function "query_busy"
+u/s/sopher/area/npc/knight.c line 32: Illegal to redefine 'nomask' function "is_busy"
+u/s/sopher/area/npc/knight.c line 32: Illegal to redefine 'nomask' function "command_hook"
+u/s/sopher/area/npc/knight.c line 32: Illegal to redefine 'nomask' function "set_path"
+u/s/sopher/area/npc/knight.c line 32: Illegal to redefine 'nomask' function "enable_player"
+u/s/sopher/area/npc/knight.c line 30: End of file in text block
+u/s/sopher/area/npc/knight.c line 33: End of file in string
+u/s/sopher/area/npc/knight.c line 33: parse error
+u/s/sopher/area/npc/knight.c line 31: End of file in text block
+u/s/sopher/area/npc/knight.c line 31: parse error
+u/s/sopher/area/npc/knight.c line 37: End of file in string
+u/s/sopher/area/npc/knight.c line 20: parse error
+u/s/sopher/area/npc/knight.c line 20: parse error
+u/s/sopher/area/npc/guard.c line 15: parse error
+u/s/sopher/area/npc/guard.c line 17: Illegal terminator
+u/s/sopher/area/npc/guard.c line 17: Text block exceeded maximum length
+u/s/sopher/area/npc/guard.c line 22: End of file in string
+u/s/sopher/area/npc/guard.c line 15: parse error
+u/s/sopher/area/npc/guard.c line 17: Illegal terminator
+u/s/sopher/area/npc/guard.c line 17: Text block exceeded maximum length
+u/s/sopher/area/npc/guard.c line 22: End of file in string
+u/s/sopher/area/npc/npcwp/light_spear.c line 39: parse error
+u/s/sopher/area/npc/npcwp/light_spear.c line 41: $var illegal outside of function.
+u/s/sopher/area/npc/npcwp/light_spear.c line 41: Illegal terminator
+u/s/sopher/area/npc/npcwp/light_spear.c line 41: Text block exceeded maximum length
+u/s/sopher/area/npc/npcwp/light_spear.c line 43: Illegal terminator
+u/s/sopher/area/npc/npcwp/light_spear.c line 43: Text block exceeded maximum length
+u/s/sopher/area/npc/npcwp/light_spear.c line 54: parse error
+u/s/sopher/area/npc/npcwp/light_spear.c line 61: End of file in string
+u/s/sopher/area/npc/npcwp/light_spear.c line 54: parse error
+u/s/sopher/area/npc/npcwp/light_spear.c line 61: End of file in string
+u/s/sopher/area/npc/npcwp/light_spear.c line 54: parse error
+u/s/sopher/area/npc/npcwp/light_spear.c line 61: End of file in string
+u/s/sopher/area/npc/guard.c line 23: Illegal to redefine 'nomask' function "query_weight"
+u/s/sopher/area/npc/guard.c line 23: Illegal to redefine 'nomask' function "query_busy"
+u/s/sopher/area/npc/guard.c line 23: Illegal to redefine 'nomask' function "is_busy"
+u/s/sopher/area/npc/guard.c line 23: Illegal to redefine 'nomask' function "command_hook"
+u/s/sopher/area/npc/guard.c line 23: Illegal to redefine 'nomask' function "set_path"
+u/s/sopher/area/npc/guard.c line 23: Illegal to redefine 'nomask' function "enable_player"
+u/s/sopher/area/dragon7.c line 38: parse error
+u/s/sopher/area/npc/npcwp/fire_sword.c line 19: $var illegal outside of function.
+u/s/sopher/area/npc/npcwp/fire_sword.c line 19: parse error
+u/s/sopher/area/npc/npcwp/fire_sword.c line 19: Illegal terminator
+u/s/sopher/area/npc/npcwp/fire_sword.c line 19: Text block exceeded maximum length
+u/s/sopher/area/npc/npcwp/fire_sword.c line 19: $var illegal outside of function.
+u/s/sopher/area/npc/npcwp/fire_sword.c line 22: End of file in string
+u/s/sopher/area/warrior.c line 45: Illegal to redefine 'nomask' function "_query"
+u/s/sopher/area/warrior.c line 45: Illegal to redefine 'nomask' function "_delete"
+u/s/sopher/area/warrior.c line 45: Illegal to redefine 'nomask' function "_set"
+u/s/sopher/area/warrior.c line 70: Redeclaration of function create.
+u/s/sopher/area/npc/npcwp/rockets.c line 12: parse error
+u/s/sopher/area/npc/npcwp/rockets.c line 12: parse error
+u/s/sopher/area/npc/npcwp/rockets.c line 21: parse error
+u/s/sopher/area/npc/npcwp/rockets.c line 21: parse error
+u/s/sopher/area/npc/sphuna.c line 1: parse error
+u/s/sopher/area/npc/sphuna.c line 1: parse error
+u/s/sopher/area/npc/sphuna.c line 1: parse error
+u/s/sopher/area/npc/sphuna.c line 1: parse error
+u/s/sopher/area/npc/sfuna.c line 22: parse error
+u/s/sopher/area/npc/sfuna.c line 47: End of file in string
+u/s/sopher/area/npc/sfuna.c line 22: parse error
+u/s/sopher/area/npc/sfuna.c line 47: End of file in string
+u/s/sopher/area/npc/sfuna.c line 22: parse error
+u/s/sopher/area/npc/sfuna.c line 42: $var illegal outside of function.
+u/s/sopher/area/npc/sfuna.c line 47: End of file in string
+u/s/sopher/area/npc/sfuna.c line 22: parse error
+u/s/sopher/area/npc/sfuna.c line 36: $var illegal outside of function.
+u/s/sopher/area/npc/sfuna.c line 41: End of file in string
+u/s/sopher/area/npc/sfuna.c line 22: parse error
+u/s/sopher/area/npc/sfuna.c line 27: End of file in string
+u/s/sopher/area/npc/sfuna.c line 20: parse error
+u/s/sopher/area/npc/sfuna.c line 25: End of file in string
+u/s/sopher/area/npc/item/saintwater.c line 6: Undefined variable 'HIW'
+
+u/s/sopher/area/npc/item/saintwater.c line 6: parse error
+u/s/sopher/area/npc/item/saintwater.c line 3: Unrecognised # directive
+u/s/sopher/area/npc/item/saintwater.c line 6: Undefined variable 'HIW'
+
+u/s/sopher/area/npc/item/saintwater.c line 6: parse error
+u/s/sopher/area/npc/corpse.c line 36: Undefined variable 'environmen'
+
+u/s/sopher/area/npc/corpse.c line 36: parse error
+u/s/sopher/area/npc/corpse.c line 36: Undefined variable 'environmen'
+
+u/s/sopher/area/npc/corpse.c line 40: parse error
+u/s/sopher/area/npc/corpse.c line 36: Undefined variable 'environmen'
+
+u/s/sopher/area/npc/corpse.c line 39: parse error
+u/s/sopher/area/npc/corpse.c line 36: Undefined variable 'environmen'
+
+u/s/sopher/area/npc/corpse.c line 36: Undefined variable 'environmen'
+
+u/s/sopher/area/npc/corpse.c line 36: Undefined function environmen
+u/s/sopher/area/npc/corpse.c line 36: Undefined function environmen
+u/s/sopher/area/npc/monster.c line 2: Unrecognised # directive
+u/s/sopher/area/npc/monster.c line 5: Undefined variable 'YEL'
+
+u/s/sopher/area/npc/monster.c line 5: parse error
+u/s/sopher/area/npc/hunter.c line 26: parse error
+u/s/sopher/area/npc/hunter.c line 37: End of file in string
+u/s/sopher/area/npc/hunter.c line 26: parse error
+u/s/sopher/area/npc/hunter.c line 36: End of file in string
+u/s/sopher/area/npc/monster.c line 12: parse error
+u/s/sopher/area/npc/monster.c line 12: parse error
+u/s/sopher/area/npc/monster.c line 22: parse error
+u/s/sopher/area/npc/monster.c line 22: parse error
+u/s/sopher/area/npc/monster.c line 22: parse error
+u/s/sopher/area/npc/monster.c line 22: parse error
+u/s/sopher/area/npc/monster.c line 27: parse error
+u/s/sopher/area/npc/monster.c line 36: End of file in string
+u/s/sopher/area/npc/monster.c line 22: parse error
+u/s/sopher/area/npc/monster.c line 22: parse error
+u/s/sopher/area/npc/monster.c line 22: parse error
+u/s/sopher/area/npc/monster.c line 22: parse error
+u/s/sopher/area/npc/hunter.c line 27: parse error
+u/s/sopher/area/npc/hunter.c line 37: End of file in string
+u/s/sopher/area/npc/hunter.c line 27: parse error
+u/s/sopher/area/npc/hunter.c line 36: End of file in string
+u/s/sopher/area/npc/hunter.c line 27: parse error
+u/s/sopher/area/npc/hunter.c line 35: End of file in string
+u/s/sopher/area/npc/hunter.c line 27: parse error
+u/s/sopher/area/npc/hunter.c line 35: End of file in string
+u/s/sopher/area/timedoor.c line 36: parse error
+u/s/sopher/area/timedoor.c line 36: parse error
+u/s/sopher/area/npc/npcwp/gun.c line 1: parse error
+u/s/sopher/area/npc/npcwp/gun.c line 1: parse error
+u/s/sopher/area/npc/npcwp/gun.c line 1: parse error
+u/s/sopher/area/npc/npcwp/gun.c line 1: Unrecognised # directive
+u/s/sopher/area/npc/npcwp/gun.c line 2: parse error
+u/s/sopher/area/npc/npcwp/gun.c line 1: Unrecognised # directive
+u/s/sopher/area/npc/npcwp/gun.c line 2: Unrecognised # directive
+u/s/sopher/area/npc/npcwp/gun.c line 3: parse error
+u/s/sopher/area/npc/npcwp/gun.c line 1: Unrecognised # directive
+u/s/sopher/area/npc/npcwp/gun.c line 3: parse error
+u/s/sopher/area/npc/npcwp/gun.c line 24: parse error
+u/s/sopher/area/npc/npcwp/gun.c line 24: parse error
+u/s/sopher/area/npc/npcwp/gun.c line 24: parse error
+u/s/sopher/area/npc/npcwp/gun.c line 24: parse error
+u/s/sopher/area/npc/npcwp/gun.c line 24: parse error
+u/s/sopher/area/npc/npcwp/gun.c line 24: parse error
+u/s/sopher/area/npc/fguard.c line 16: parse error
+u/s/sopher/area/npc/fguard.c line 26: End of file in string
+u/s/sopher/area/npc/fguard.c line 16: parse error
+u/s/sopher/area/npc/fguard.c line 16: parse error
+u/s/sopher/area/npc/npcwp/sopher's_sword.c line 6: Undefined variable 'CYB'
+
+u/s/sopher/area/npc/npcwp/sopher's_sword.c line 6: parse error
+u/s/sopher/area/npc/npcwp/sopher's_sword.c line 24: Illegal LHS
+u/s/sopher/area/npc/npcwp/sopher's_sword.c line 24: parse error
+u/s/sopher/area/npc/npcwp/sopher's_sword.c line 25: Illegal LHS
+u/s/sopher/area/npc/npcwp/sopher's_sword.c line 25: parse error
+u/s/sopher/area/npc/npcwp/sopher.c line 6: Undefined variable 'CYB'
+
+u/s/sopher/area/npc/npcwp/sopher.c line 6: parse error
+u/s/sopher/area/npc/npcwp/sopher.c line 24: Illegal LHS
+u/s/sopher/area/npc/npcwp/sopher.c line 24: parse error
+u/s/sopher/area/npc/npcwp/sopher.c line 25: Illegal LHS
+u/s/sopher/area/npc/npcwp/sopher.c line 25: parse error
+u/s/sopher/skill.c line 40: parse error
+u/s/sopher/skill.c line 40: Illegal terminator
+u/s/sopher/skill.c line 40: Text block exceeded maximum length
+u/s/sopher/skill.c line 40: $var illegal outside of function.
+u/s/sopher/skill.c line 41: Illegal terminator
+u/s/sopher/skill.c line 41: Text block exceeded maximum length
+u/s/sopher/skill.c line 40: parse error
+u/s/sopher/skill.c line 40: Illegal terminator
+u/s/sopher/skill.c line 40: Text block exceeded maximum length
+u/s/sopher/skill.c line 40: $var illegal outside of function.
+u/s/sopher/skill.c line 41: Illegal terminator
+u/s/sopher/skill.c line 41: Text block exceeded maximum length
+u/s/sopher/fly-blade.c line 17: parse error
+u/s/sopher/fly-blade.c line 17: parse error
+u/s/sopher/fly-blade.c line 17: parse error
+u/s/sopher/fly-blade.c line 15: parse error
+u/s/sopher/fly-blade.c line 15: parse error
+u/s/sopher/fly-blade.c line 15: parse error
+u/s/sopher/fly-blade.c line 15: parse error
+u/s/sopher/fly-blade.c line 15: parse error
+u/s/sopher/fly-blade.c line 15: parse error
+u/s/sopher/fly-blade.c line 287: Undefined variable 'enem'
+
+u/s/sopher/fly-blade.c line 287: parse error
+u/s/sopher/fly-blade.c line 299: Illegal LHS
+u/s/sopher/fly-blade.c line 299: parse error
+u/s/sopher/fly-blade.c line 300: Illegal LHS
+u/s/sopher/fly-blade.c line 300: parse error
+u/s/sopher/fly-blade.c line 286: Undefined variable 'enem'
+
+u/s/sopher/fly-blade.c line 286: parse error
+u/s/sopher/fly-blade.c line 286: Undefined variable 'enem'
+
+u/s/sopher/fly-blade.c line 286: parse error
+u/s/sopher/area/npc/npcwp/sopher.c line 6: Undefined variable 'CYB'
+
+u/s/sopher/area/npc/npcwp/sopher.c line 6: parse error
+u/s/sopher/area/npc/npcwp/sopher.c line 24: Illegal LHS
+u/s/sopher/area/npc/npcwp/sopher.c line 24: parse error
+u/s/sopher/area/npc/npcwp/sopher.c line 25: Illegal LHS
+u/s/sopher/area/npc/npcwp/sopher.c line 25: parse error
+[Apr 30 19:03:24]u/s/sopher/area/time4.c line 16: parse error
+[Apr 30 19:03:30]u/s/sopher/area/time4.c line 16: parse error

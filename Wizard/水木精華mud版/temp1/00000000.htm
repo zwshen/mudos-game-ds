@@ -1,0 +1,57 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清華站︰精華區</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+<A Name="top"></a>
+發信人:&nbsp;yeung&nbsp;(流星雨),&nbsp;信區:&nbsp;Mud_Builder&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+標&nbsp;&nbsp;題:&nbsp;偶來個比較真理的版本，歡迎指正。&nbsp;<BR>
+發信站:&nbsp;BBS&nbsp;水木清華站&nbsp;(Wed&nbsp;Jul&nbsp;21&nbsp;13:56:05&nbsp;1999)&nbsp;<BR>
+&nbsp;<BR>
+【&nbsp;在&nbsp;nerd&nbsp;(總以為自己已經長大)&nbsp;的大作中提到:&nbsp;】&nbsp;<BR>
+︰<I>&nbsp;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~哪來的說法?:PP&nbsp;</I><BR>
+︰<I>&nbsp;嗯.&nbsp;userp和interactive好像還是有區別的.&nbsp;斷線的玩家不知道屬於&nbsp;</I><BR>
+︰<I>&nbsp;哪個..disable_command又不知道屬於哪個.&nbsp;</I><BR>
+︰<I>&nbsp;好像是連線的就屬於userp&nbsp;</I><BR>
+︰<I>&nbsp;enable_command的屬於interactive&nbsp;</I><BR>
+&nbsp;<BR>
+錯了。&nbsp;<BR>
+&nbsp;<BR>
+enable_commands是讓一個object是living()的，然後&nbsp;<BR>
+可以使用command()來發出一個命令，&nbsp;<BR>
+和interactive沒關係，npc也是enable_commands的。如果object&nbsp;<BR>
+enable_comands了，就可以用catch_tell來截獲收到的一切信息。&nbsp;<BR>
+&nbsp;<BR>
+連線的玩家是interactive的,但是斷線的就不是。&nbsp;<BR>
+&nbsp;<BR>
+而不管現在是不是斷線，只要曾經interactive過，就是userp的&nbsp;<BR>
+&nbsp;<BR>
+它們對應的列表函數：&nbsp;<BR>
+&nbsp;<BR>
+容易誤解的是，users()返回的實際上是所有interactive的object,而不是userp的.&nbsp;<BR>
+livings()返回的是所有enable_commands也就是living的object,包括npc,player等。&nbsp;<BR>
+我不知道哪個函數可以返回所有的userp()的object。除非自己寫一個這樣的：&nbsp;<BR>
+&nbsp;<BR>
+object&nbsp;*all_users()&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;filter_array(livings(),(:userp($1):));&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+夢後樓台高鎖，酒醒簾幕低垂&nbsp;<BR>
+去年春恨卻來時，落花人獨立，微雨燕雙飛&nbsp;<BR>
+&nbsp;<BR>
+記得小蘋初見，兩重心字羅衣&nbsp;<BR>
+琵琶弦上說相思，當時明月在，曾照彩雲歸&nbsp;<BR>
+&nbsp;<BR>
+※&nbsp;修改:‧yeung&nbsp;於&nbsp;Jul&nbsp;21&nbsp;13:58:26&nbsp;修改本文‧[FROM:&nbsp;&nbsp;162.105.138.49]&nbsp;<BR>
+※&nbsp;修改:‧yeung&nbsp;於&nbsp;Jul&nbsp;21&nbsp;13:59:47&nbsp;修改本文‧[FROM:&nbsp;&nbsp;162.105.138.49]&nbsp;<BR>
+※&nbsp;來源:‧BBS&nbsp;水木清華站&nbsp;bbs.net.tsinghua.edu.cn‧[FROM:&nbsp;162.105.138.49]&nbsp;<BR>
+<A HREF='javascript:history.go(-1)'>返回上一頁</A>
+<A HREF="index.htm">回到目錄</A>
+<A HREF="#top">回到頁首</A>
+<A HREF="00000001.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+</BODY></HTML>

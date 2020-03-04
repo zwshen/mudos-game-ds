@@ -1,0 +1,15 @@
+
+	atan(3)			MudOS v21c2		(5 Sep 1994)
+
+	嘿:
+		atan() - 肚疊翴计タち (tangent).
+	粂猭:
+		float atan( float f );
+
+		疊翴计 atan( 疊翴计 f );
+	ノ猭:
+                肚把计 f  はタち, f 虫琌褃 (radians).
+	把σ:
+		acos(3), asin(3), cos(3), sin(3), tan(3)
+	陆亩:
+		Spock @ FF	96.Oct.15.		(printed 3/16/95)

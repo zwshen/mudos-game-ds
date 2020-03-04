@@ -1,0 +1,54 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=bg2312">
+   <META NAME="Author" CONTENT="Spock">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.01 [en] (Win95; I) [Netscape]">
+   <TITLE>MudOS v21c2 参考文件 - applies - general - init</TITLE>
+</HEAD>
+<BODY TEXT="#CCFFFF" BGCOLOR="#000000" LINK="#33FF33" VLINK="#FF0000" ALINK="#33CCFF" BACKGROUND="../../../image/ff/fftitleback.jpg" NOSAVE>
+
+<CENTER><FONT COLOR="#FF99FF"><FONT SIZE=+3>init(4)　　 MudOS v21c2　 (5
+Sep 1994)</FONT></FONT></CENTER>
+
+<HR WIDTH="100%">
+<BR><FONT COLOR="#FFFFCC">　名称:</FONT>
+<UL>　 init - move_object() 调用物件中的 init() 以初始化 (initialize)　
+动词 (verb) 与动作 (action).</UL>
+<FONT COLOR="#FFFFCC">　语法:</FONT>
+<UL>　 void init( void );
+
+<P>　 无返回值 init( 无参数 );</UL>
+<FONT COLOR="#FFFFCC">　用法:</FONT>
+<UL>　 当 mudlib 把物件 A　 放入物件 B　 时, 驱动程序 (即 move_object()
+函数)　 会做以下的动作:
+
+<P>　 1.　 如果 A　 是活的 (living),　 让 A　 在 B　 里面调用 A 的 init()
+函数.
+
+<P>　 2.　 不管 A　 是否为活的物件, 让 B　 的内容物 (inventory) 里面, 所有活的物件调用
+A　 的 init().
+
+<P>　 3.　 如果 A　 是活的, 让 A　 调用位于 B　 的内容物里面所有物件的
+init().
+
+<P>　 请注意: 一个物件必须曾调用过 enable_command(3)　 才视为活的物件.
+
+<P>　 一般来说, 一个物件的 init(4) 函数用来调用 add_command(3), 添加此物件提供的动词命令
+(command).</UL>
+<FONT COLOR="#FFFFCC">　参考:</FONT>
+<UL>　 <A HREF="reset.html">reset(4)</A>, <A HREF="../../efuns/objects/move_object.html">move_object(3)</A>,
+<A HREF="../../efuns/interactive/enable_commands.html">enable_commands(3)</A>,
+<A HREF="../../efuns/mudlib/living.html">living(3)</A>, <A HREF="../../efuns/interactive/add_action.html">add_action(3)</A></UL>
+<FONT COLOR="#FFFFCC">　翻译:</FONT>
+<UL>　 Spock @ FF 97.Aug.5.　 (printed 3/16/95)</UL>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+<CENTER><A HREF="../general.html">回到上一页</A></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+</BODY>
+</HTML>

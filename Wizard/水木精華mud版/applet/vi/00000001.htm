@@ -1,0 +1,76 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清华站∶精华区</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+<A Name="top"></a>
+发信人:&nbsp;linxue&nbsp;(林雪),&nbsp;信区:&nbsp;Mud_Builder&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+标&nbsp;&nbsp;题:&nbsp;/cmds/wiz/vi.c&nbsp;<BR>
+发信站:&nbsp;BBS&nbsp;水木清华站&nbsp;(Thu&nbsp;Oct&nbsp;&nbsp;7&nbsp;23:57:57&nbsp;1999)&nbsp;<BR>
+&nbsp;<BR>
+//&nbsp;/cmds/wiz/me.c&nbsp;<BR>
+//&nbsp;<BR>
+//&nbsp;<A HREF="mailto:Kenny@Broken.History">Kenny@Broken.History</A>&nbsp;(6/18/1996)&nbsp;<BR>
+&nbsp;<BR>
+inherit&nbsp;F_CLEAN_UP;&nbsp;<BR>
+inherit&nbsp;F_VI;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;继承编辑功能&nbsp;<BR>
+&nbsp;<BR>
+int&nbsp;file_exists(string&nbsp;file);&nbsp;<BR>
+&nbsp;<BR>
+int&nbsp;main(object&nbsp;me,&nbsp;string&nbsp;arg)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;string&nbsp;file,&nbsp;oldfile;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;object&nbsp;ob;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(in_edit(me))&nbsp;return&nbsp;notify_fail(&quot;你已经在使用编辑器了。\n&quot;);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!arg)&nbsp;return&nbsp;notify_fail(&quot;指令格式：vi&nbsp;&lt;档名&gt;|&lt;物件名&gt;\n&quot;);&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;seteuid(geteuid(me));&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;file&nbsp;=&nbsp;resolve_path(me-&gt;query(&quot;cwd&quot;),&nbsp;arg);&nbsp;//&nbsp;取得档名&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!file_exists(file))&nbsp;//&nbsp;check&nbsp;virtual&nbsp;object&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;string&nbsp;*path=explode(file,&nbsp;&quot;/&quot;);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;file&nbsp;=&nbsp;&quot;/&quot;+implode(path[0..&lt;2],&nbsp;&quot;/&quot;)+&quot;/_&quot;+path[&lt;1];&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}续&nbsp;41%&nbsp;==&nbsp;(q&nbsp;离开，b&nbsp;前一页，其他继续下一页)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!file_exists(file))&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;新档&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ob&nbsp;=&nbsp;present(arg,&nbsp;me);&nbsp;&nbsp;//&nbsp;检查身上的物件&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!ob)&nbsp;ob&nbsp;=&nbsp;present(arg,&nbsp;environment(me));&nbsp;//&nbsp;检查房间里的物件&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(ob&nbsp;&amp;&amp;&nbsp;me-&gt;visible(ob))&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;file&nbsp;=&nbsp;base_name(ob)&nbsp;+&nbsp;&quot;.c&quot;;&nbsp;//&nbsp;取得物件的档名&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;&nbsp;&nbsp;&nbsp;file&nbsp;=&nbsp;oldfile;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;start_edit(file);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;呼叫编辑器，开始编辑&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;1;&nbsp;<BR>
+}&nbsp;//&nbsp;main()&nbsp;<BR>
+&nbsp;<BR>
+int&nbsp;file_exists(string&nbsp;file)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!stringp(file)&nbsp;||&nbsp;file==&quot;&quot;)&nbsp;return&nbsp;0;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;file_size(file)&gt;=0;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+int&nbsp;&nbsp;help(object&nbsp;me)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;write(@HELP&nbsp;<BR>
+指令格式：vi&nbsp;&lt;档名&gt;|&lt;物件名&gt;b&nbsp;前一页，其他继续下一页)&nbsp;<BR>
+&nbsp;<BR>
+利用此一指令可直接在线上编辑档案，详细说明请看编辑器内的线上辅助说明。&nbsp;<BR>
+&nbsp;<BR>
+相关指令：edit、update。&nbsp;<BR>
+HELP&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;1;&nbsp;<BR>
+}&nbsp;//&nbsp;help()&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+※&nbsp;来源:·BBS&nbsp;水木清华站&nbsp;bbs.net.tsinghua.edu.cn·[FROM:&nbsp;202.119.24.206]&nbsp;<BR>
+<A HREF="00000000.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一页</A>
+<A HREF="index.htm">回到目录</A>
+<A HREF="#top">回到页首</A>
+<A HREF="00000002.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+</BODY></HTML>

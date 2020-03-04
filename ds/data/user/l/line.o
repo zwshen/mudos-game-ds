@@ -1,0 +1,10 @@
+#/obj/user.c
+conditions (["ill_dongshang":8,])
+dbase (["volume":7,"DS_DATA_VERSION":19991107,"ap":75,"env":([]),"heart_beat_rate":6,"Merits":(["bio":0,"bar":0,"tec":0,"wit":0,"sou":0,]),"wound":(["right_arm":0,"body":0,"right_leg":0,"left_leg":0,"left_arm":0,"head":0,]),"talk_point":20,"unit":"¦ì","addition":(["con":1,]),"channels":({"chat","rumor","tchat",}),"max_mp":60,"newbie":1,"exp":4212666,"attitude":"peaceful","dex":2,"cure_count":12,"int":2,"last_location":"/open/world1/tmr/area/inn_2f","max_ap":75,"con":2,"level":5,"birthday":1166006797,"popularity":603,"age":17,"evil":-1,"supply_point":141,"guild_rank":"¦¨¼ô¼a´Aªº¤p©h®Q","heart_modify":0,"skill":(["strong-body":18,]),"nickname":"¨¸·¥[0m","addition_shield":10,"mud_age":308733,"default_actions":,"mp":60,"hp":100,"race":"human","max_hp":100,"guild_gifts":({5,5,5,5,}),"addition_armor":10,"actions":,"id":"line","war_art":633,"startroom":"/open/world1/tmr/area/hotel","gender":"¤k©Ê","str":2,"name":"«õªü¨a","addition_damage":10,])
+skills (["strong-body":19,])
+learned (["strong-body":64,])
+items ({})
+alias (["stone":"do look off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,w,w,w,w,w,n,ne,u,ne,n,nw,sw,u,se,ne,u,w,nw,u,look on,s,","r":"recall start","ssky":"do e,n,n,n,w,w,n,ne,ne,n,n,ne,ne,n,e,n,n,nw,eu,ne,n,n,n,n,n,n,n,ne,n,n,","war":"do look off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,e,n,n,nw,eu,ne,n,n,n,n,n,n,n,ne,n,n,nu,n,nw,nw,w,w,w,l on,s","gogo":"do look off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,w,w,w,s,w,sw,sw,s,s,look on,e",])
+autoload ({})
+toDoList ([])
+solved ({})

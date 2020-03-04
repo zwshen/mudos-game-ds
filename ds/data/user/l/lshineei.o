@@ -1,0 +1,9 @@
+#/obj/user.c
+dbase (["war_score":11,"max_mp":110,"guild_gifts":({5,5,5,5,}),"max_hp":80,"talk_point":8,"mp":110,"guild_rank":"情城池之入門學徒","max_ap":60,"default_actions":,"ap":60,"MKS":13,"newbie":1,"exp":2543,"dex":2,"addition_shield":10,"int":2,"hp":80,"con":2,"heart_beat_rate":6,"id":"lshineei","str":2,"level":1,"DS_DATA_VERSION":19991107,"volume":7,"mob_record":({"/open/world1/tmr/area/npc/too","/open/world1/tmr/area/npc/traveler","/open/world1/tmr/area/npc/traveler","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/traveler","/open/world1/tmr/area/npc/traveler","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove",}),"channels":({"chat","rumor","tchat",}),"unit":"位","addition_armor":10,"evil":24,"birthday":1184678531,"cure_count":0,"gender":"女性","name":"女王","combat_exp":2,"supply_point":60,"addition_damage":10,"startroom":"/open/world1/tmr/area/hotel","race":"celestial","heart_modify":0,"title":"情城池第三代弟子","mud_age":935,"bank":(["past":1762,]),"age":14,"wound":(["right_leg":0,"right_arm":0,"body":0,"left_arm":0,"left_leg":0,"head":0,]),"family":(["privs":-1,"generation":3,"title":"弟子","family_name":"情城池",]),"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"attitude":"peaceful","actions":,"class1":"情城池","adv_class":1,"last_location":"/open/world1/kkeenn/love/room27",])
+skills (["strong-body":2,"parry":1,"dodge":3,"masen_whip":1,"combat":6,"whip":4,])
+learned (["strong-body":0,"parry":2,"dodge":2,"combat":94,"whip":49,])
+items ({})
+alias (["g":"do get all","sa":"do sac all",])
+autoload ({"/obj/money/coin:700","/open/world1/kkeenn/love/npc/obj/whip0",})
+toDoList ([])
+solved ({})

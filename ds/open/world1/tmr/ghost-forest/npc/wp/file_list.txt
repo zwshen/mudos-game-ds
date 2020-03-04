@@ -1,0 +1,4 @@
+¥Ø¿ý¡R/open/world1/tmr/ghost-forest/npc/wp/
+axe.c               µL·À¥¨©ò            copper_cane.c       ¶À»É´Ò            
+fist.c              Âê©RÏe´x            pike.c              °­´cºj            
+staff.c             ¤C¤CÀ¦§ú            

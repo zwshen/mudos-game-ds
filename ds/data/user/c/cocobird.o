@@ -1,0 +1,7 @@
+#/obj/user.c
+conditions ([])
+dbase (["unit":"位","DS_DATA_VERSION":19991107,"supply_point":60,"ap":60,"default_actions":,"actions":,"talk_point":8,"addition_shield":10,"channels":({"chat","rumor","tchat",}),"Merits":(["bar":0,"bio":0,"tec":0,"sou":0,"wit":0,]),"newbie":1,"addition_armor":10,"exp":777,"max_hp":80,"dex":2,"int":2,"con":2,"max_ap":60,"level":1,"birthday":1246118876,"volume":7,"addition_damage":10,"guild_gifts":({5,5,5,5,}),"evil":-1,"attitude":"peaceful","wound":(["right_arm":0,"body":0,"left_leg":0,"right_leg":0,"left_arm":0,"head":0,]),"heart_beat_rate":6,"heart_modify":0,"mud_age":898,"hp":80,"age":14,"race":"human","max_mp":60,"id":"cocobird","mp":60,"help":"race/","cure_count":0,"startroom":"/open/world1/tmr/area/hotel","gender":"男性","str":2,"name":"發條鳥",])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

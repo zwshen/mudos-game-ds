@@ -1,0 +1,10 @@
+#/obj/user.c
+conditions ([])
+dbase (["supply_point":824,"class1":"±¡«°¦À","DS_DATA_VERSION":19991107,"addition_shield":10,"max_hp":898,"addition":(["dex":2,"con":1,]),"last_location":"/open/world1/cominging/area/bnorth3","env":(["brief":1,]),"attitude":"peaceful","cure_count":18,"addition_armor":10,"talk_point":122,"combat_exp":1,"title":"±¡«°¦À²Ä¤G¥N§Ì¤l","channels":({"chat","rumor","tchat",}),"popularity":77,"skill":(["seven-love":59,]),"MKS":2,"addition_damage":10,"age":14,"mud_age":2570,"family":(["family_name":"±¡«°¦À","generation":2,"privs":-1,"title":"§Ì¤l",]),"newbie":1,"exp":21244779,"hp":298,"dex":38,"int":20,"mp":390,"con":38,"Merits":(["bar":3,"tec":1,"sou":0,"bio":3,"wit":1,]),"level":39,"wound":(["left_arm":0,"body":0,"head":0,"left_leg":0,"right_leg":0,"right_arm":0,]),"birthday":1226614829,"no_check_class":1,"max_ap":840,"mob_record":({"/open/world1/kkeenn/love/npc/guard","/open/world1/kkeenn/love/npc/dwller",}),"evil":2,"war_score":127,"default_actions":,"guild_rank":"[1;36m½¬¦À¦A²{Ã@®ðÂù­×[0m","actions":,"guild_gifts":({4,6,3,7,}),"class2":"±¡«°¦À","volume":7,"max_mp":390,"heart_modify":0,"ap":68,"heart_beat_rate":6,"bank":(["past":422296,]),"race":"evil","id":"lovedragon","adv_class":2,"startroom":"/open/world1/tmr/area/hotel","gender":"¤k©Ê","unit":"¦ì","war_art":0,"str":38,"name":"±¡Às",])
+skills (["parry":60,"seven-love":78,"dodge":90,"thousand-hair":60,"run_cloud":80,"force":85,"masen_whip":80,"combat":5,"block":25,"whip":80,"literate":0,])
+learned (["seven-love":159,"thousand-hair":106,"dodge":4,"run_cloud":6,"force":139,"masen_whip":118,"combat":59,"whip":93,"literate":2,])
+items ({})
+alias (["g":"do get all from corpse,sac corpse","tr":"do train $*,train $*,train $*,train $*,train $*,train $*,train $*,train $*,train $*,train $*,train $*,train $*,train $*,train $*,train $*,train $*,train $*,train $*,train $*,train $*","e1":"exert seven-love love","h2":"exert thousand-hair","e4":"exert thousand-hair on $*","e3":"exert masen_whip on $*","e2":"exert seven-love reap","h1":"exert run_cloud $*",])
+autoload ({"/open/always/doll","/open/always/doll","/obj/money/coin:2925",})
+toDoList ([])
+solved ({})

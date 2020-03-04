@@ -1,0 +1,103 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清华站∶精华区</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+<A Name="top"></a>
+发信人:&nbsp;say&nbsp;(秋枫),&nbsp;信区:&nbsp;Mud_Builder&nbsp;<BR>
+标&nbsp;&nbsp;题:&nbsp;一个简单的系统监测程序&nbsp;<BR>
+发信站:&nbsp;BBS&nbsp;水木清华站&nbsp;(Mon&nbsp;Feb&nbsp;&nbsp;1&nbsp;17:36:02&nbsp;1999)&nbsp;WWW-POST&nbsp;<BR>
+&nbsp;<BR>
+/*&nbsp;&nbsp;<BR>
+*&nbsp;&nbsp;analyzed.c&nbsp;<BR>
+*&nbsp;&nbsp;Copyright&nbsp;(C)&nbsp;1999&nbsp;Hunter@JNUMUD&nbsp;<BR>
+*&nbsp;&nbsp;Base&nbsp;on&nbsp;ES2&nbsp;TOO&nbsp;MUD&nbsp;<BR>
+*/&nbsp;<BR>
+&nbsp;<BR>
+#include&nbsp;&lt;ansi.h&gt;&nbsp;<BR>
+&nbsp;<BR>
+inherit&nbsp;F_DBASE;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+void&nbsp;create()&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;seteuid(getuid());&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;set(&quot;name&quot;,&nbsp;&quot;分析精灵&quot;);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;set(&quot;id&quot;,&nbsp;&quot;analyzd&quot;);&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+void&nbsp;report_system_msg&nbsp;(string&nbsp;msg)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;CHANNEL_D-&gt;do_channel(this_object(),&nbsp;&quot;sys&quot;,&nbsp;msg);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;log_file(&quot;analyzd&quot;,&quot;[&quot;+ctime(time())+&quot;]&nbsp;&quot;+msg+&quot;\n&quot;);&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+void&nbsp;report_system_object_msg&nbsp;(object&nbsp;ob,&nbsp;string&nbsp;msg)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;CHANNEL_D-&gt;do_channel(this_object(),&nbsp;&quot;sys&quot;,&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ob-&gt;name()&nbsp;+&nbsp;&quot;(&quot;&nbsp;+&nbsp;capitalize(ob-&gt;query(&quot;id&quot;))&nbsp;+&nbsp;&quot;)&quot;&nbsp;+&nbsp;msg);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;log_file(&quot;analyzd&quot;,&quot;[&quot;+ctime(time())+&quot;]&nbsp;&quot;+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ob-&gt;name()+&quot;(&quot;+capitalize(ob-&gt;query(&quot;id&quot;))+&quot;)&quot;+msg+&quot;\n&quot;);&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+void&nbsp;analyze(object&nbsp;ob,string&nbsp;prop,mixed&nbsp;data)&nbsp;<BR>
+{&nbsp;<BR>
+	string&nbsp;temp;&nbsp;<BR>
+	object&nbsp;pre;&nbsp;<BR>
+	pre=previous_object(1);&nbsp;<BR>
+&nbsp;<BR>
+	if(&nbsp;objectp(pre)&nbsp;||&nbsp;(&nbsp;objectp(pre)&nbsp;&amp;&amp;&nbsp;userp(pre)&nbsp;)&nbsp;)&nbsp;&nbsp;<BR>
+	{&nbsp;<BR>
+		if(userp(ob)&nbsp;)&nbsp;temp=sprintf(&quot;%s&nbsp;change&nbsp;his&nbsp;%s&nbsp;from&nbsp;&nbsp;%d&nbsp;to&nbsp;%d&nbsp;at&nbsp;&nbsp;<BR>
+%s\n&quot;,ob-&gt;query(&quot;id&quot;),prop,ob-&gt;query(prop),data,base_name(pre))&nbsp;;&nbsp;<BR>
+&nbsp;<BR>
+		if(&nbsp;file_name(pre)[0..2]==&quot;/u/&quot;&nbsp;&amp;&amp;&nbsp;userp(ob)&nbsp;)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;			ANALYZE_D-&gt;report_system_msg&nbsp;(ob-&gt;query(&quot;id&quot;)+&quot;被&quot;+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;				base_name(pre)+&quot;修改了&quot;+prop&nbsp;);&nbsp;<BR>
+		&nbsp;<BR>
+		else&nbsp;if(ob&nbsp;&amp;&amp;&nbsp;userp(ob))&nbsp;<BR>
+			switch(prop){&nbsp;<BR>
+				case&nbsp;&quot;force&quot;:&nbsp;<BR>
+				case&nbsp;&quot;max_force&quot;:&nbsp;<BR>
+				case&nbsp;&quot;mana&quot;:&nbsp;<BR>
+				case&nbsp;&quot;max_mana&quot;:&nbsp;<BR>
+				case&nbsp;&quot;atman&quot;:&nbsp;<BR>
+				case&nbsp;&quot;max_atman&quot;:&nbsp;<BR>
+					if(data-&nbsp;ob-&gt;query(prop)&gt;100)&nbsp;&nbsp;<BR>
+						ANALYZE_D-&gt;report_system_msg(temp);&nbsp;<BR>
+					break;&nbsp;<BR>
+				case&nbsp;&quot;combat_exp&quot;:&nbsp;<BR>
+					if(&nbsp;data-dbase[&quot;combat_exp&quot;]&gt;10000&nbsp;)&nbsp;&nbsp;<BR>
+						ANALYZE_D-&gt;report_system_msg(temp);&nbsp;<BR>
+					break;&nbsp;<BR>
+				case&nbsp;&quot;str&quot;:&nbsp;<BR>
+				case&nbsp;&quot;con&quot;:&nbsp;<BR>
+				case&nbsp;&quot;kar&quot;:&nbsp;<BR>
+				case&nbsp;&quot;int&quot;:&nbsp;<BR>
+				case&nbsp;&quot;spi&quot;:&nbsp;<BR>
+				case&nbsp;&quot;int&quot;:&nbsp;<BR>
+					if(&nbsp;data-&nbsp;ob-&gt;query(&quot;prop&quot;)&gt;3&nbsp;)&nbsp;&nbsp;<BR>
+						ANALYZE_D-&gt;report_system_msg(temp);&nbsp;<BR>
+					break;&nbsp;<BR>
+				case&nbsp;&quot;potential&quot;:&nbsp;<BR>
+					if(&nbsp;data-&nbsp;dbase[&quot;potential&quot;]&gt;100&nbsp;)&nbsp;&nbsp;<BR>
+						ANALYZE_D-&gt;report_system_msg(temp);&nbsp;<BR>
+					break;&nbsp;<BR>
+				default:&nbsp;<BR>
+					break;&nbsp;<BR>
+			}&nbsp;<BR>
+	}&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+※&nbsp;来源:·BBS&nbsp;水木清华站&nbsp;bbs.net.tsinghua.edu.cn·[FROM:&nbsp;202.116.9.82]&nbsp;&nbsp;<BR>
+<A HREF="00000018.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一页</A>
+<A HREF="index.htm">回到目录</A>
+<A HREF="#top">回到页首</A>
+<A HREF="00000020.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+</BODY></HTML>

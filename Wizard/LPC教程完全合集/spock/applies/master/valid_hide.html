@@ -1,0 +1,39 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=bg2312">
+   <META NAME="Author" CONTENT="Spock">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.01 [en] (Win95; I) [Netscape]">
+   <TITLE>MudOS v21c2 参考文件 - applies - master - valid_hide</TITLE>
+</HEAD>
+<BODY TEXT="#CCFFFF" BGCOLOR="#000000" LINK="#33FF33" VLINK="#FF0000" ALINK="#33CCFF" BACKGROUND="../../../image/ff/fftitleback.jpg" NOSAVE>
+
+<CENTER><FONT COLOR="#FF99FF"><FONT SIZE=+3>valid_hide(4)　 MudOS v21c2　
+(5 Sep 1994)</FONT></FONT></CENTER>
+
+<HR WIDTH="100%">
+<BR><FONT COLOR="#FFFFCC">　名称:</FONT>
+<UL>　 valid_hide - 允许或禁止一个物件具有匿踪 (hide) 和看到匿踪物件的能力.</UL>
+<FONT COLOR="#FFFFCC">　语法:</FONT>
+<UL>　 int valid_hide( object ob );
+
+<P>　 整数 valid_hide( 物件 ob );</UL>
+<FONT COLOR="#FFFFCC">　用法:</FONT>
+<UL>　 在主控物件中 (master.c) 加上 valid_hide() 可以让物件具有自我匿踪和看到其他匿踪物件的能力.
+当一个物件使用　 set_hide()　 函数以进入匿踪状态时, 此物件就当成 valid_hide()　
+的唯一参数调用此函数. valid_hide() 允许此物件匿踪时应返回 1, 反之则返回
+0. 当一个物件想看到匿踪状态的物件时, 也以同样的方式调用此函数.</UL>
+<FONT COLOR="#FFFFCC">　参考:</FONT>
+<UL>　 <A HREF="../../efuns/objects/set_hide.html">set_hide(3)</A></UL>
+<FONT COLOR="#FFFFCC">　翻译:</FONT>
+<UL>　 Spock @ FF 97.Aug.7.　 (printed 3/16/95)</UL>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+<CENTER><A HREF="../master.html">回到上一页</A></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+</BODY>
+</HTML>

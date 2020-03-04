@@ -1,0 +1,58 @@
+u/m/matlab/area/start.c line 26: End of file in text block
+u/m/matlab/area/start.c line 26: Undefined variable 'me'
+
+u/m/matlab/area/start.c line 26: Undefined function ironment
+u/m/matlab/area/start.c line 26: parse error
+u/m/matlab/area/start.c line 27: Undefined variable 'arg'
+
+u/m/matlab/area/start.c line 27: Illegal LHS
+u/m/matlab/area/start.c line 26: End of file in text block
+u/m/matlab/area/start.c line 27: Undefined variable 'an_up'
+
+u/m/matlab/area/start.c line 27: parse error
+u/m/matlab/area/start.c line 33: End of file in string
+u/m/matlab/area/start.c line 26: End of file in text block
+u/m/matlab/area/start.c line 26: parse error
+u/m/matlab/area/r2.c line 13: parse error
+u/m/matlab/area/r4.c line 30: parse error
+u/m/matlab/area/r4.c line 34: End of file in string
+u/m/matlab/area/r4.c line 30: parse error
+u/m/matlab/area/r4.c line 34: End of file in string
+u/m/matlab/area/r4.c line 30: parse error
+u/m/matlab/area/r4.c line 30: parse error
+u/m/matlab/area/r4.c line 31: $var illegal outside of function.
+u/m/matlab/area/r4.c line 31: Illegal terminator
+u/m/matlab/area/r4.c line 31: Text block exceeded maximum length
+u/m/matlab/area/r4.c line 31: Illegal terminator
+u/m/matlab/area/r4.c line 31: Text block exceeded maximum length
+u/m/matlab/area/r4.c line 30: parse error
+u/m/matlab/area/r4.c line 31: $var illegal outside of function.
+u/m/matlab/area/r4.c line 31: Illegal terminator
+u/m/matlab/area/r4.c line 31: Text block exceeded maximum length
+u/m/matlab/area/r4.c line 31: Illegal terminator
+u/m/matlab/area/r4.c line 31: Text block exceeded maximum length
+u/m/matlab/area/r4.c line 31: parse error
+u/m/matlab/area/r4.c line 32: parse error
+u/m/matlab/area/r4.c line 32: Undefined function elseif
+u/m/matlab/area/r4.c line 33: parse error
+u/m/matlab/area/r4.c line 32: parse error
+u/m/matlab/area/r4.c line 32: parse error
+u/m/matlab/area/r4.c line 32: parse error
+u/m/matlab/area/r4.c line 32: parse error
+u/m/matlab/area/r4.c line 32: parse error
+u/m/matlab/area/r4.c line 42: Undefined variable '_DIR_'
+
+u/m/matlab/area/r4.c line 42: parse error
+u/m/matlab/area/r4.c line 34: parse error
+[Sun Sep 21 00:45:50 2008] /u/m/matlab/area/r4.c line 21: "#pragma strict_types" requires type of function before )
+
+[Sun Sep 21 00:45:50 2008] /u/m/matlab/area/r4.c line 21: Warning: Function inherited from '/std/room.c' does not match current function in return type ( void vs unknown ) before the end of line
+
+[Sun Sep 21 00:45:50 2008] /u/m/matlab/area/r4.c line 21: "#pragma strict_types" requires type of function before )
+
+[Sun Sep 21 00:45:50 2008] /u/m/matlab/area/r4.c line 21: Warning: Function inherited from '/std/room.c' does not match current function in return type ( void vs unknown ) before the end of line
+
+[Sun Sep 21 00:45:52 2008] /u/m/matlab/area/r4.c line 21: "#pragma strict_types" requires type of function before )
+
+[Sun Sep 21 00:45:52 2008] /u/m/matlab/area/r4.c line 21: Warning: Function inherited from '/std/room.c' does not match current function in return type ( void vs unknown ) before the end of line
+

@@ -1,0 +1,6 @@
+#/obj/user.c
+conditions ([])
+dbase (["int":2,"wound":(["left_arm":0,"left_leg":0,"right_arm":0,"head":0,"right_leg":0,"body":0,]),"talk_point":8,"con":2,"heart_beat_rate":6,"str":2,"addition_damage":10,"addition_armor":10,"volume":7,"max_mp":60,"max_ap":60,"supply_point":60,"DS_DATA_VERSION":19991107,"actions":,"heart_modify":0,"gender":"男性","default_actions":,"name":"小賈兒","mob_record":({"/open/world1/tmr/area/npc/dog",}),"mp":60,"max_hp":80,"id":"gary","last_location":"/open/world1/wilfred/newbie/eq_bank","unit":"位","channels":({"chat","rumor","tchat",}),"race":"human","guild_gifts":({5,5,5,5,}),"level":1,"Merits":(["wit":0,"tec":0,"sou":0,"bar":0,"bio":0,]),"birthday":1144471314,"MKS":1,"cure_count":16,"ap":60,"hp":80,"attitude":"peaceful","age":14,"evil":-1,"startroom":"/open/world1/tmr/area/hotel","exp":990,"addition_shield":10,"mud_age":1747,"newbie":1,"dex":2,])
+skills (["combat":1,"unarmed":0,])
+learned (["combat":1,"unarmed":2,])
+autoload ({"/obj/money/coin:1",})

@@ -1,0 +1,7 @@
+ヘ魁/u/t/tmr/game/2006_c/eq/
+ankle.c             竧较                beard.c             竧较              
+boots.c             竧较                box.c               絚いぇ          
+cloth.c             竧较                gloves.c            竧较              
+hat.c               竧较                pants.c             竧较              
+ring.c              竧较                waist.c             竧较              
+

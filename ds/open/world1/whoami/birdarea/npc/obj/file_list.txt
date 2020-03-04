@@ -1,0 +1,13 @@
+¥Ø¿ý¡R/open/world1/whoami/birdarea/npc/obj/
+ sword1.c           ³±¶§ªø¼C            bag.c               ¯«­·              
+dumpling.c          ¦×¥]¤l              fur.c               îî©]              
+fur2.c              ¤Ñª¯¥Ö              hands.c             îî                
+hat.c               Ô±ª°­±¸n            iron.c              ÅK¥Û              
+iron2.c             ºëÅK¥Û              moon-stone.c        ³± ¥Û             
+noodle.c            ³t­¹ÄÑ              pe.c                ¤E                
+pill.c              ¤j¸É¤Y              scroll.c            ¡m¨¾¨ã¡n          
+seal.c              ¥l³ê²Å              stone.c             ¤­                
+sun-moon_iron_stone.c  ³±                  sun-moon_stone.c    ³±                
+sun-stone.c         ¶§ ¥Û               sword.c             ³±                
+sword1.c            ³±                  teeth.c             îî©]              
+water.c             ¤s¬u¤ô              

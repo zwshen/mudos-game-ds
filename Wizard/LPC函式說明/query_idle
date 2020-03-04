@@ -1,0 +1,16 @@
+
+	query_idle(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	ㄧ计嘿:
+		query_idle()  - 高拜が笆 (interactive) 產竒
+				祇 (idle) 碭.
+	ㄧ计粂猭:
+		int query_idle( object ob );
+
+		俱计 query_idle( ン ob );
+	ㄧ计ノ猭:
+		高拜が笆 (interactive) 產ン竒祇 (idle) 碭.
+	把σㄧ计:
+		in_edit(3), in_input(3)
+	も陆亩:
+		Phoebus@ZH	97.May.1.		(Writen 5/23/97)

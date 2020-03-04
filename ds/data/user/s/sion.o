@@ -1,0 +1,8 @@
+#/obj/user.c
+dbase (["DS_DATA_VERSION":19991107,"attitude":"peaceful","race":"evil","default_actions":,"mp":66,"MKS":5,"volume":7,"bellicosity":0,"addition_shield":10,"channels":({"chat","rumor","tchat",}),"Merits":(["bio":0,"tec":0,"sou":0,"wit":0,"bar":0,]),"help":"newbie/","wound":(["body":0,"right_arm":0,"right_leg":0,"head":0,"left_leg":0,"left_arm":0,]),"birthday":1200243867,"id":"sion","last_location":"/open/world1/cominging/area/bdoor1","disable_type":" <毫無呼吸>","cure_count":15,"talk_point":8,"newbie":1,"exp":1152,"dex":2,"gender":"男性","int":2,"combat_exp":0,"heart_modify":0,"addition_armor":10,"guild_gifts":({5,5,5,5,}),"name":"天印道邪","con":2,"hp":84,"str":2,"supply_point":60,"heart_beat_rate":6,"level":1,"actions":,"max_mp":66,"mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"unit":"位","max_ap":100,"max_hp":84,"evil":11,"war_score":1,"ap":100,"age":14,"mud_age":838,"startroom":"/open/world1/tmr/area/hotel","addition_damage":10,])
+skills (["dodge":1,"unarmed":3,"combat":4,"parry":0,])
+learned ([])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

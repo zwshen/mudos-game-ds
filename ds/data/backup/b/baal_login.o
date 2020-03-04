@@ -1,0 +1,2 @@
+#/obj/login.c
+dbase (["body":"/obj/user","id":"baal","name":"索思爵士","new_mail":1,"last_on":1055785236,"email":"cltnchiu@","last_from":"61-216-64-15.HINET-IP.hinet.net","password":"SqSQVjidSy2sA","race":"human","level":50,"error_login":({"於[Sun Dec  8 10:33:07 2002]嘗試由[61-217-12-160.HINET-IP.hinet.net]連線進入失敗。","於[Wed Dec 11 19:58:55 2002]嘗試由[61-216-65-106.HINET-IP.hinet.net]連線進入失敗。","於[Sat Mar  1 21:00:19 2003]嘗試由[61-217-14-20.HINET-IP.hinet.net]連線進入失敗。","於[Sat May 31 12:51:58 2003]嘗試由[61-216-64-68.HINET-IP.hinet.net]連線進入失敗。",}),])

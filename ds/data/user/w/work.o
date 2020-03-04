@@ -1,0 +1,6 @@
+#/obj/user.c
+conditions (["ill_fashao":29,])
+dbase (["max_ap":60,"heart_modify":0,"addition_shield":10,"ap":60,"hp":80,"unit":"位","default_actions":,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"addition_armor":10,"volume":7,"last_location":"/open/world1/tmr/area/street4","addition_damage":10,"board_last_read":(["tmr_hotel_b":1165842290,]),"talk_point":8,"heart_beat_rate":6,"newbie":1,"exp":777,"id":"work","dex":2,"int":2,"guild_gifts":({5,5,5,5,}),"con":2,"age":14,"mud_age":1399,"str":2,"level":1,"wound":(["right_arm":0,"body":0,"left_leg":0,"right_leg":0,"head":0,"left_arm":0,]),"gender":"男性","name":"麥香奶茶","evil":-1,"DS_DATA_VERSION":19991107,"channels":({"chat","rumor","tchat",}),"actions":,"birthday":1124820919,"race":"human","max_mp":60,"cure_count":12,"startroom":"/open/world1/tmr/area/hotel","attitude":"peaceful","max_hp":80,"supply_point":60,"mp":60,])
+skills (["strong-body":0,])
+learned (["strong-body":1,])
+autoload ({})

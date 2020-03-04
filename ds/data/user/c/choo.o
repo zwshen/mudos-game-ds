@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions ([])
+dbase (["age":14,"DS_DATA_VERSION":19991107,"max_hp":80,"last_location":"/open/world1/tmr/area/square","ap":60,"guild_gifts":({5,5,5,5,}),"volume":7,"MKS":1,"board_last_read":(["tmr_hotel_b":1116929243,"flurry_b":1079764850,"boo-lin_b":1113753905,]),"channels":({"chat","rumor","tchat",}),"mud_age":16604,"addition_shield":10,"hp":80,"newbie":1,"exp":1048,"dex":2,"mp":60,"int":2,"attitude":"peaceful","con":2,"supply_point":60,"level":1,"birthday":1108065744,"addition_armor":10,"talk_point":8,"evil":-1,"mob_record":({"/open/world1/tmr/area/npc/dog",}),"cure_count":19,"addition_damage":10,"max_mp":60,"heart_modify":0,"Merits":(["bar":0,"bio":0,"tec":0,"sou":0,"wit":0,]),"race":"human","max_ap":60,"default_actions":,"id":"choo","wound":(["left_arm":0,"body":0,"right_arm":0,"left_leg":0,"head":0,"right_leg":0,]),"actions":,"unit":"位","startroom":"/open/world1/tmr/area/hotel","gender":"男性","str":2,"name":"花生","heart_beat_rate":6,])
+skills (["combat":2,"unarmed":1,"strong-body":3,"dodge":0,])
+learned (["combat":1,"unarmed":2,"strong-body":32,"dodge":1,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

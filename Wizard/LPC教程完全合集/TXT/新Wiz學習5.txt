@@ -1,0 +1,16 @@
+[更進一步的提示]
+    LPC 的函數群有三個, efun, lfun, simul_efun　它們提供了絕大
+部分的功能　有空不妨多多 help efun, help lfun... 看看, 這會給你
+帶來非常大的收穫　
+
+[關於輸出輸入訊息的各個函數的提示]
+can_read_chinese
+printf, sprintf
+scanf, sscanf
+write, say, shout
+tell_object, tell_room
+
+[關於物件操作的函數]
+clone, new
+destruct, remove
+move, move_player, move_around

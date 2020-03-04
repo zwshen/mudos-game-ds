@@ -1,0 +1,2 @@
+#/obj/login.c
+dbase (["id":"faceoff","name":"變臉","new_mail":1,"email":"","password":"KYpjIcplt8xn2","last_on":1038929348,"race":"human","level":28,"last_from":"61-216-30-151.HINET-IP.hinet.net","error_login":({"於[Tue Apr 18 20:47:56 2000]嘗試由[h188.s98.ts30.hinet.net]連線進入失敗。","於[Mon May 29 17:20:54 2000]嘗試由[h208.s94.ts30.hinet.net]連線進入失敗。","於[Fri Sep 22 21:54:38 2000]嘗試由[h61.s92.ts30.hinet.net]連線進入失敗。","於[Sun Dec 17 14:56:39 2000]嘗試由[h117.s92.ts30.hinet.net]連線進入失敗。","於[Fri Jun 15 00:33:09 2001]嘗試由[tp230-28.dialup.seed.net.tw]連線進入失敗。",}),"body":"/obj/user",])

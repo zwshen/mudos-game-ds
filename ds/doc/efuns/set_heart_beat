@@ -1,0 +1,22 @@
+
+	set_heart_beat(3)	MudOS v21c2		(5 Sep 1994)
+
+	嘿:
+		set_heart_beat() - 秨﹍┪ンみ铬 (heartbeat).
+	粂猭:
+		int set_heart_beat( int flag );
+
+		俱计 set_heart_beat( 俱计 flag );
+	ノ猭:
+		把计﹚ 0  ンみ铬.
+		把计﹚ 1  穦ㄏ硂ン–Ωみ铬㊣ heart_beat() 
+		ㄧΑΩ.  (–Ωみ铬计硄盽琌ㄢ牧, 琌 mud  
+		恨瞶﹚竡ぃ计)
+		把计﹚ 1  计, 玥硂ン–筳ぶΩみ铬
+		㊣Ω heart_beat().
+		惠璶猔種琌, 眤 mud  恨瞶盢╰参砞﹚ 1  
+		计跌 1.
+	把σ:
+		heart_beat(4), query_heart_beat(3)
+	陆亩:
+		Spock @ FF	97.Jul.21.		(printed 3/16/95)

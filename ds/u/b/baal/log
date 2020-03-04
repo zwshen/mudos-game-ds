@@ -1,0 +1,1714 @@
+[Sun Oct 15 11:45:36 2000] u/b/baal/npc/birdguard.c line 7: Warning: Unknown \ escape. before \\¨Ã\¤£\²`\«p\, ¦ý¤@
+
+[Sun Oct 15 11:45:36 2000] u/b/baal/npc/birdguard.c line 7: Warning: Unknown \ escape. before £\²`\«p\, ¦ý¤@Âù¤â´x
+
+[Sun Oct 15 11:45:36 2000] u/b/baal/npc/birdguard.c line 7: Warning: Unknown \ escape. before `\«p\, ¦ý¤@Âù¤â´x«o²
+
+[Sun Oct 15 11:45:36 2000] u/b/baal/npc/birdguard.c line 7: Warning: Unknown \ escape. before p\, ¦ý¤@Âù¤â´x«o²Ê
+
+[Sun Oct 15 11:45:36 2000] u/b/baal/npc/birdguard.c line 7: Warning: Unknown \ escape. before  ¦ý¤@Âù¤â´x«o²Ê
+
+[Sun Oct 15 11:45:36 2000] u/b/baal/npc/birdguard.c line 8: Warning: Unknown \ escape. before \\¤Ò\¤£\®e\¤p\òó\."
+
+[Sun Oct 15 11:45:36 2000] u/b/baal/npc/birdguard.c line 8: Warning: Unknown \ escape. before £\®e\¤p\òó\."
+
+[Sun Oct 15 11:45:36 2000] u/b/baal/npc/birdguard.c line 8: Warning: Unknown \ escape. before e\¤p\òó\."
+
+[Sun Oct 15 11:45:36 2000] u/b/baal/npc/birdguard.c line 8: Warning: Unknown \ escape. before p\òó\."
+
+[Sun Oct 15 11:45:36 2000] u/b/baal/npc/birdguard.c line 8: Warning: Unknown \ escape. before ó\."
+
+[Sun Oct 15 11:45:36 2000] u/b/baal/npc/birdguard.c line 8: Warning: Unknown \ escape. before "
+
+[Sun Oct 15 15:17:13 2000] u/b/baal/mob/cain.c line 2: parse error before  NPC;
+
+[Sun Oct 15 15:19:45 2000] u/b/baal/mob/cain.c line 2: parse error before  NPC;
+
+[Mon Oct 16 00:23:29 2000] u/b/baal/workroom2.c line 6: parse error before ("long", @LONG
+
+[Mon Oct 16 19:10:58 2000] u/b/baal/workroom.c line 28: Undefined variable 'DOOR_CLOSED' before ;
+
+[Mon Oct 16 19:10:58 2000] u/b/baal/workroom.c line 28: Undefined function create_door before ;
+
+[Mon Oct 16 19:12:26 2000] u/b/baal/workroom.c line 28: Undefined variable 'DOOR_CLOSED' before ;
+
+[Mon Oct 16 19:12:26 2000] u/b/baal/workroom.c line 28: Undefined function create_door before ;
+
+[Mon Oct 16 19:13:18 2000] u/b/baal/workroom.c line 28: Undefined variable 'DOOR_CLOSED' before ;
+
+[Mon Oct 16 19:13:18 2000] u/b/baal/workroom.c line 28: Undefined function create_door before ;
+
+[Mon Oct 16 19:22:52 2000] u/b/baal/workroom2.c line 21: Undefined variable 'DOOR_CLOSED' before ;
+
+[Mon Oct 16 19:22:52 2000] u/b/baal/workroom2.c line 21: Undefined function create_door before ;
+
+[Mon Oct 16 19:23:10 2000] u/b/baal/workroom.c line 26: Undefined variable 'DOOR_CLOSED' before ;
+
+[Mon Oct 16 19:23:10 2000] u/b/baal/workroom.c line 26: Undefined function create_door before ;
+
+[Tue Oct 17 20:08:40 2000] u/b/baal/weapon/helldog.c line 2: parse error before  create()
+
+[Tue Oct 17 20:33:48 2000] u/b/baal/weapon/blackrosesword.c line 17: Undefined function init_blade before ;
+
+[Tue Oct 17 22:20:03 2000] u/b/baal/weapon/blackrosesword.c line 17: Undefined function init_blade before ;
+
+[Tue Oct 17 22:41:24 2000] u/b/baal/npc/birdguard.c line 7: Warning: Unknown \ escape. before \\¨Ã\¤£\²`\«p\, ¦ý¤@
+
+[Tue Oct 17 22:41:24 2000] u/b/baal/npc/birdguard.c line 7: Warning: Unknown \ escape. before £\²`\«p\, ¦ý¤@Âù¤â´x
+
+[Tue Oct 17 22:41:24 2000] u/b/baal/npc/birdguard.c line 7: Warning: Unknown \ escape. before `\«p\, ¦ý¤@Âù¤â´x«o²
+
+[Tue Oct 17 22:41:24 2000] u/b/baal/npc/birdguard.c line 7: Warning: Unknown \ escape. before p\, ¦ý¤@Âù¤â´x«o²Ê
+
+[Tue Oct 17 22:41:24 2000] u/b/baal/npc/birdguard.c line 7: Warning: Unknown \ escape. before  ¦ý¤@Âù¤â´x«o²Ê
+
+[Tue Oct 17 22:41:24 2000] u/b/baal/npc/birdguard.c line 8: Warning: Unknown \ escape. before \\¤Ò\¤£\®e\¤p\òó\."
+
+[Tue Oct 17 22:41:24 2000] u/b/baal/npc/birdguard.c line 8: Warning: Unknown \ escape. before £\®e\¤p\òó\."
+
+[Tue Oct 17 22:41:24 2000] u/b/baal/npc/birdguard.c line 8: Warning: Unknown \ escape. before e\¤p\òó\."
+
+[Tue Oct 17 22:41:24 2000] u/b/baal/npc/birdguard.c line 8: Warning: Unknown \ escape. before p\òó\."
+
+[Tue Oct 17 22:41:24 2000] u/b/baal/npc/birdguard.c line 8: Warning: Unknown \ escape. before ó\."
+
+[Tue Oct 17 22:41:24 2000] u/b/baal/npc/birdguard.c line 8: Warning: Unknown \ escape. before "
+
+[Thu Oct 19 19:33:21 2000] u/b/baal/area/dst/dst1.c line 34: Undefined variable '_DIR_' before ,
+
+[Thu Oct 19 19:33:21 2000] u/b/baal/area/dst/dst1.c line 34: parse error before ,
+
+[Thu Oct 19 19:35:35 2000] u/b/baal/area/dst/dst1.c line 34: Undefined variable '_DIR_' before ,
+
+[Thu Oct 19 19:35:35 2000] u/b/baal/area/dst/dst1.c line 34: parse error before ,
+
+[Thu Oct 19 19:37:07 2000] u/b/baal/area/dst/dst1.c line 33: parse error before u/b/baal/area/dst"ds
+
+[Sun Oct 22 17:39:58 2000] u/b/baal/area/dst/dstg1.c line 1: parse error before ->set("guild_rank",
+
+[Sun Oct 22 17:40:22 2000] u/b/baal/area/dst/dstg1.c line 1: parse error before ->set("guild_rank",
+
+[Sun Oct 22 17:41:22 2000] u/b/baal/area/dst/dstg1.c line 23: Reserved type name unexpected. before ()
+
+[Sun Oct 22 17:41:22 2000] u/b/baal/area/dst/dstg1.c line 23: parse error before ()
+
+[Sun Oct 22 17:41:22 2000] u/b/baal/area/dst/dstg1.c line 41: "#pragma strict_types" requires type of function before "outdoors","land");
+
+[Sun Oct 22 17:41:22 2000] u/b/baal/area/dst/dstg1.c line 41: parse error before ,"land");
+
+[Sun Oct 22 17:42:34 2000] u/b/baal/area/dst/dstg1.c line 23: Reserved type name unexpected. before ()
+
+[Sun Oct 22 17:42:34 2000] u/b/baal/area/dst/dstg1.c line 23: parse error before ()
+
+[Sun Oct 22 17:42:34 2000] u/b/baal/area/dst/dstg1.c line 41: "#pragma strict_types" requires type of function before "outdoors","land");
+
+[Sun Oct 22 17:42:34 2000] u/b/baal/area/dst/dstg1.c line 41: parse error before ,"land");
+
+[Sun Oct 22 17:46:34 2000] u/b/baal/area/dst/dstg1.c line 23: Reserved type name unexpected. before ()
+
+[Sun Oct 22 17:46:34 2000] u/b/baal/area/dst/dstg1.c line 23: parse error before ()
+
+[Sun Oct 22 17:46:34 2000] u/b/baal/area/dst/dstg1.c line 40: "#pragma strict_types" requires type of function before "outdoors","land");
+
+[Sun Oct 22 17:46:34 2000] u/b/baal/area/dst/dstg1.c line 40: parse error before ,"land");
+
+[Sun Oct 22 17:46:48 2000] u/b/baal/area/dst/dstg1.c line 23: Reserved type name unexpected. before ()
+
+[Sun Oct 22 17:46:48 2000] u/b/baal/area/dst/dstg1.c line 23: parse error before ()
+
+[Sun Oct 22 17:46:48 2000] u/b/baal/area/dst/dstg1.c line 40: "#pragma strict_types" requires type of function before "outdoors","land");
+
+[Sun Oct 22 17:46:48 2000] u/b/baal/area/dst/dstg1.c line 40: parse error before ,"land");
+
+[Sun Oct 22 17:49:19 2000] u/b/baal/area/dst/dstg1.c line 44: "#pragma strict_types" requires type of function before "outdoors","land");
+
+[Sun Oct 22 17:49:19 2000] u/b/baal/area/dst/dstg1.c line 44: parse error before ,"land");
+
+[Wed Nov  1 11:02:46 2000] u/b/baal/workroom2.c line 53: Redeclaration of function init. before the end of line
+
+[Wed Nov  1 11:03:42 2000] u/b/baal/workroom2.c line 53: Redeclaration of function init. before the end of line
+
+[Wed Nov  1 11:03:46 2000] u/b/baal/workroom2.c line 53: Redeclaration of function init. before the end of line
+
+[Wed Nov  1 11:03:52 2000] u/b/baal/workroom2.c line 53: Redeclaration of function init. before the end of line
+
+[Wed Nov  1 11:09:45 2000] u/b/baal/workroom2.c line 88: Redeclaration of function init. before the end of line
+
+[Wed Nov  1 13:52:03 2000] u/b/baal/workroom2.c line 88: Redeclaration of function init. before the end of line
+
+[Wed Nov  1 13:52:09 2000] u/b/baal/workroom2.c line 88: Redeclaration of function init. before the end of line
+
+[Wed Nov  1 13:56:24 2000] u/b/baal/workroom2.c line 88: Redeclaration of function init. before the end of line
+
+[Wed Nov  1 13:59:22 2000] u/b/baal/workroom2.c line 88: Redeclaration of function init. before the end of line
+
+[Wed Nov  1 17:39:48 2000] u/b/baal/workroom2.c line 88: Redeclaration of function init. before the end of line
+
+[Wed Nov  1 18:08:40 2000] u/b/baal/workroom2.c line 88: Redeclaration of function init. before the end of line
+
+[Fri Nov 10 18:49:07 2000] u/b/baal/area/dst/dst1.c line 22: Warning: Unknown \ escape. before I
+
+[Fri Nov 10 18:49:07 2000] u/b/baal/area/dst/dst1.c line 23: Warning: Unknown \ escape. before |\ !
+
+[Fri Nov 10 18:49:07 2000] u/b/baal/area/dst/dst1.c line 23: Warning: Unknown \ escape. before !
+
+[Fri Nov 10 18:49:07 2000] u/b/baal/area/dst/dst1.c line 25: Warning: Unknown \ escape. before \ !    
+
+[Fri Nov 10 18:49:07 2000] u/b/baal/area/dst/dst1.c line 25: Warning: Unknown \ escape. before !    
+
+[Fri Nov 10 18:49:07 2000] u/b/baal/area/dst/dst1.c line 27: Warning: Unknown \ escape. before \ ! 
+
+[Fri Nov 10 18:49:07 2000] u/b/baal/area/dst/dst1.c line 27: Warning: Unknown \ escape. before ! 
+
+[Fri Nov 10 18:49:07 2000] u/b/baal/area/dst/dst1.c line 29: Warning: Unknown \ escape. before \=|¡I|¡Ä!¡Ä!_
+
+[Fri Nov 10 18:49:07 2000] u/b/baal/area/dst/dst1.c line 29: Warning: Unknown \ escape. before |¡I|¡Ä!¡Ä!_
+
+[Fri Nov 10 18:49:07 2000] u/b/baal/area/dst/dst1.c line 30: Warning: Unknown \ escape. before |¡I|¡ÄI¡ÄI_
+
+[Fri Nov 10 18:49:07 2000] u/b/baal/area/dst/dst1.c line 36: String too long before ¡Ä|_ùø ùø_|¡Ä|¡Ä|¡Ä|
+
+[Fri Nov 10 18:49:07 2000] u/b/baal/area/dst/dst1.c line 36: parse error before ¡Ä|_ùø ùø_|¡Ä|¡Ä|¡Ä|
+
+[Fri Nov 10 19:03:27 2000] u/b/baal/area/dst/dst2.c line 28: parse error before ","land");
+
+[Fri Nov 10 19:03:27 2000] u/b/baal/area/dst/dst2.c line 33: End of file in string before       ]),
+
+[Fri Nov 10 19:07:21 2000] u/b/baal/area/dst/dst3.c line 22: parse error before @®y°ªÁq¤J¶³ªºÅ]ªk°ª¶
+
+[Fri Nov 10 19:07:21 2000] u/b/baal/area/dst/dst3.c line 22: Illegal terminator before ®y°ªÁq¤J¶³ªºÅ]ªk°ª¶ð
+
+[Sat Nov 11 13:12:32 2000] u/b/baal/area/dst/dstg1.c line 1: Single '#' in identifier -- use '##' for token pasting before nclude ansi.h
+
+[Sat Nov 11 13:14:45 2000] u/b/baal/area/dst/dstg1.c line 1: Single '#' in identifier -- use '##' for token pasting before nclude <ansi.h>
+
+[Sat Nov 11 18:59:06 2000] u/b/baal/area/dst/dstg1.c line 56: Warning: Unknown \ escape. before º¤j¶H¨S©R¦üªº©b°k, ³
+
+[Sat Nov 11 19:01:35 2000] u/b/baal/area/dst/dstg1.c line 56: Warning: Unknown \ escape. before ¥\»\\ªº\¤j\¶H\¨S©R¦ü
+
+[Sat Nov 11 19:01:35 2000] u/b/baal/area/dst/dstg1.c line 56: Warning: Unknown \ escape. before \\ªº\¤j\¶H\¨S©R¦üªº©
+
+[Sat Nov 11 19:01:35 2000] u/b/baal/area/dst/dstg1.c line 56: Warning: Unknown \ escape. before j\¶H\¨S©R¦üªº©b°k, ³
+
+[Sat Nov 11 19:01:35 2000] u/b/baal/area/dst/dstg1.c line 56: Warning: Unknown \ escape. before H\¨S©R¦üªº©b°k, ³Q¤@
+
+[Sat Nov 11 19:01:35 2000] u/b/baal/area/dst/dstg1.c line 56: Warning: Unknown \ escape. before S©R¦üªº©b°k, ³Q¤@°¦¥
+
+[Sun Nov 12 14:24:52 2000] u/b/baal/area/dst/dstg1.c line 90: Redeclaration of function init. before the end of line
+
+[Sun Nov 12 14:28:58 2000] u/b/baal/area/dst/dstg1.c line 90: Redeclaration of function init. before the end of line
+
+[Sun Nov 12 14:29:46 2000] u/b/baal/area/dst/dstg1.c line 91: Redeclaration of function init. before the end of line
+
+[Sun Nov 12 14:33:35 2000] u/b/baal/area/dst/dstg1.c line 88: parse error before string arg)
+
+[Sun Nov 12 14:33:35 2000] u/b/baal/area/dst/dstg1.c line 91: Illegal LHS before the end of line
+
+[Sun Nov 12 14:33:35 2000] u/b/baal/area/dst/dstg1.c line 103: parse error before the end of file
+
+[Sun Nov 12 14:34:57 2000] u/b/baal/area/dst/dstg1.c line 88: parse error before the end of file
+
+[Sun Nov 12 14:36:29 2000] u/b/baal/area/dst/dstg1.c line 87: Illegal to declare local variable of type void. before ()
+
+[Sun Nov 12 14:36:29 2000] u/b/baal/area/dst/dstg1.c line 87: parse error before )
+
+[Sun Nov 12 14:36:29 2000] u/b/baal/area/dst/dstg1.c line 91: Reserved type name unexpected. before (string arg)
+
+[Sun Nov 12 14:36:29 2000] u/b/baal/area/dst/dstg1.c line 91: parse error before (string arg)
+
+[Sun Nov 12 14:36:29 2000] u/b/baal/area/dst/dstg1.c line 94: Illegal LHS before the end of line
+
+[Sun Nov 12 14:36:29 2000] u/b/baal/area/dst/dstg1.c line 95: Undefined variable 'arg' before  "¤jªù") 
+
+[Sun Nov 12 14:37:17 2000] u/b/baal/area/dst/dstg1.c line 86: parse error before the end of file
+
+[Sun Nov 12 14:38:57 2000] u/b/baal/area/dst/dstg1.c line 86: parse error before the end of file
+
+[Sun Nov 12 20:26:22 2000] u/b/baal/area/dst/dstg1.c line 5: Undefined variable 'MAG' before NOR);
+
+[Sun Nov 12 20:26:22 2000] u/b/baal/area/dst/dstg1.c line 5: parse error before NOR);
+
+[Sun Nov 12 20:26:22 2000] u/b/baal/area/dst/dstg1.c line 75: Illegal LHS before the end of line
+
+[Sun Nov 12 20:26:22 2000] u/b/baal/area/dst/dstg1.c line 75: parse error before the end of line
+
+[Sun Nov 12 20:26:22 2000] u/b/baal/area/dst/dstg1.c line 94: Illegal LHS before the end of line
+
+[Sun Nov 12 20:26:22 2000] u/b/baal/area/dst/dstg1.c line 94: parse error before the end of line
+
+[Sun Nov 12 20:35:27 2000] u/b/baal/area/dst/dstg1.c line 89: parse error before string arg)
+
+[Sun Nov 12 20:35:27 2000] u/b/baal/area/dst/dstg1.c line 92: Illegal LHS before the end of line
+
+[Sun Nov 12 20:35:27 2000] u/b/baal/area/dst/dstg1.c line 104: parse error before the end of file
+
+[Mon Nov 13 11:49:52 2000] u/b/baal/area/dst/npc/reciter1.c line 10: parse error before @¦ì¥¿Ås¸y¡B¨ª¸}¯¸¦b¥
+
+[Mon Nov 13 11:49:52 2000] u/b/baal/area/dst/npc/reciter1.c line 10: Illegal terminator before ¦ì¥¿Ås¸y¡B¨ª¸}¯¸¦b¥Ð
+
+[Mon Nov 13 12:03:26 2000] u/b/baal/area/dst/npc/reciter1.c line 23: "#pragma strict_types" requires type of function before "chat_msg",({
+
+[Mon Nov 13 12:03:26 2000] u/b/baal/area/dst/npc/reciter1.c line 23: parse error before ,({
+
+[Mon Nov 13 12:52:46 2000] u/b/baal/area/dst/dstg1.c line 6: Undefined variable 'MAG' before NOR);
+
+[Mon Nov 13 12:52:46 2000] u/b/baal/area/dst/dstg1.c line 6: parse error before NOR);
+
+[Mon Nov 13 12:52:46 2000] u/b/baal/area/dst/dstg1.c line 80: Illegal LHS before the end of line
+
+[Mon Nov 13 12:52:46 2000] u/b/baal/area/dst/dstg1.c line 80: parse error before the end of line
+
+[Mon Nov 13 12:52:46 2000] u/b/baal/area/dst/dstg1.c line 94: Illegal LHS before the end of line
+
+[Mon Nov 13 12:52:46 2000] u/b/baal/area/dst/dstg1.c line 94: parse error before the end of line
+
+[Mon Nov 13 12:54:08 2000] u/b/baal/area/dst/dstg1.c line 6: Undefined variable 'MAG' before NOR);
+
+[Mon Nov 13 12:54:08 2000] u/b/baal/area/dst/dstg1.c line 6: parse error before NOR);
+
+[Mon Nov 13 12:54:08 2000] u/b/baal/area/dst/dstg1.c line 80: Illegal LHS before the end of line
+
+[Mon Nov 13 12:54:08 2000] u/b/baal/area/dst/dstg1.c line 80: parse error before the end of line
+
+[Mon Nov 13 12:54:08 2000] u/b/baal/area/dst/dstg1.c line 94: Illegal LHS before the end of line
+
+[Mon Nov 13 12:54:08 2000] u/b/baal/area/dst/dstg1.c line 94: parse error before the end of line
+
+[Mon Nov 13 12:56:09 2000] u/b/baal/area/dst/dstg1.c line 3: parse error before  ROOM;
+
+[Thu Nov 16 20:16:29 2000] u/b/baal/area/dst/obj/smokesalmon.c line 10: parse error before G¤H¤§Â§Æg"ªº±o·N¤§§@
+
+[Fri Nov 17 23:27:22 2000] u/b/baal/area/dst/npc/reciter1.c line 51: Undefined variable 'HIW' before NOR,ob);
+
+[Fri Nov 17 23:27:22 2000] u/b/baal/area/dst/npc/reciter1.c line 51: parse error before NOR,ob);
+
+[Fri Nov 17 23:30:04 2000] u/b/baal/area/dst/npc/reciter2.c line 46: Undefined variable 'HIW' before NOR, users());
+
+[Fri Nov 17 23:30:04 2000] u/b/baal/area/dst/npc/reciter2.c line 46: parse error before NOR, users());
+
+[Fri Nov 17 23:31:16 2000] u/b/baal/area/dst/npc/reciter2.c line 46: Undefined variable 'HIW' before NOR,);
+
+[Fri Nov 17 23:31:16 2000] u/b/baal/area/dst/npc/reciter2.c line 46: parse error before NOR,);
+
+[Sun Nov 19 01:00:12 2000] u/b/baal/area/dst/npc/reciter2.c line 46: Undefined variable 'HIW' before NOR,);
+
+[Sun Nov 19 01:00:12 2000] u/b/baal/area/dst/npc/reciter2.c line 46: parse error before NOR,);
+
+[Sun Nov 19 01:04:52 2000] u/b/baal/area/dst/npc/reciter2.c line 47: Too few arguments to message before ;
+
+[Sun Nov 19 01:04:52 2000] u/b/baal/area/dst/npc/reciter2.c line 48: Too few arguments to message before ;
+
+[Sun Nov 19 01:04:52 2000] u/b/baal/area/dst/npc/reciter2.c line 49: Too few arguments to message before ;
+
+[Sun Nov 19 01:13:49 2000] u/b/baal/area/dst/npc/reciter2.c line 47: Too few arguments to message before ;
+
+[Sun Nov 19 01:13:49 2000] u/b/baal/area/dst/npc/reciter2.c line 48: Too few arguments to message before ;
+
+[Sun Nov 19 01:13:49 2000] u/b/baal/area/dst/npc/reciter2.c line 49: Too few arguments to message before ;
+
+[Sun Nov 19 01:15:31 2000] u/b/baal/area/dst/npc/reciter2.c line 48: Too few arguments to message before ;
+
+[Sun Nov 19 01:15:31 2000] u/b/baal/area/dst/npc/reciter2.c line 49: Too few arguments to message before ;
+
+[Sun Nov 19 01:15:31 2000] u/b/baal/area/dst/npc/reciter2.c line 50: Too few arguments to message before ;
+
+[Sat Nov 25 00:29:52 2000] u/b/baal/area/dst/dstg2.c line 37: Undefined variable 'DOOR_CLOSED' before ;
+
+[Sat Nov 25 00:29:52 2000] u/b/baal/area/dst/dstg2.c line 37: Undefined function create_door before ;
+
+[Sat Nov 25 00:31:44 2000] u/b/baal/area/dst/dstg2.c line 37: Undefined variable 'DOOR_CLOSED' before ;
+
+[Sat Nov 25 00:31:44 2000] u/b/baal/area/dst/dstg2.c line 37: Undefined function create_door before ;
+
+[Sat Nov 25 00:33:16 2000] u/b/baal/area/dst/dstg2.c line 38: Undefined variable 'DOOR_CLOSED' before ;
+
+[Sat Nov 25 00:33:20 2000] u/b/baal/area/dst/dstg2.c line 38: Undefined variable 'DOOR_CLOSED' before ;
+
+[Sun Nov 26 11:55:18 2000] u/b/baal/workroom.c line 23: parse error before the end of line
+
+[Sun Nov 26 11:55:42 2000] u/b/baal/workroom.c line 24: parse error before ("outdoors","land");
+
+[Sun Nov 26 11:55:44 2000] u/b/baal/workroom.c line 24: parse error before ("outdoors","land");
+
+[Sun Nov 26 13:38:22 2000] u/b/baal/workroom.c line 54: parse error before ""HBBLU""HIR"½ÞÀY( "
+
+[Sun Nov 26 13:38:22 2000] u/b/baal/workroom.c line 61: Illegal LHS before the end of line
+
+[Sun Nov 26 13:38:22 2000] u/b/baal/workroom.c line 61: parse error before the end of line
+
+[Sun Nov 26 14:07:28 2000] u/b/baal/area/dst/npc/wp/cksword.c line 19: parse error before u¨ê¡vªº¤@Án¡A$N¨³³tµ
+
+[Sun Nov 26 14:07:28 2000] u/b/baal/area/dst/npc/wp/cksword.c line 19: Illegal terminator before Án¡A$N¨³³tµL¤ñªº©â¥X
+
+[Sun Nov 26 14:07:30 2000] u/b/baal/area/dst/npc/wp/cksword.c line 19: parse error before u¨ê¡vªº¤@Án¡A$N¨³³tµ
+
+[Sun Nov 26 14:07:30 2000] u/b/baal/area/dst/npc/wp/cksword.c line 19: Illegal terminator before Án¡A$N¨³³tµL¤ñªº©â¥X
+
+[Sun Dec  3 17:17:42 2000] u/b/baal/testwr.c line 86: parse error before (environment(this_pl
+
+[Thu Dec 14 20:10:14 2000] u/b/baal/backup/ming_mark.c line 59: parse error before î¿V°ó","¤Ñ¼Ï°ó","«C¤
+
+[Thu Dec 14 20:10:14 2000] u/b/baal/backup/ming_mark.c line 128: Illegal terminator before ­Ó«Õ«ÕªºÁn­µ: §A, ¦]
+
+[Fri Dec 15 00:06:14 2000] u/b/baal/backup/ming_mark.c line 59: parse error before î¿V°ó","¤Ñ¼Ï°ó","«C¤
+
+[Fri Dec 15 00:06:14 2000] u/b/baal/backup/ming_mark.c line 128: Illegal terminator before ­Ó«Õ«ÕªºÁn­µ: §A, ¦]
+
+[Fri Dec 15 00:06:18 2000] u/b/baal/backup/ming_mark.c line 59: parse error before î¿V°ó","¤Ñ¼Ï°ó","«C¤
+
+[Fri Dec 15 00:06:18 2000] u/b/baal/backup/ming_mark.c line 128: Illegal terminator before ­Ó«Õ«ÕªºÁn­µ: §A, ¦]
+
+[Fri Dec 15 23:15:19 2000] u/b/baal/backup/ming_mark.c line 59: parse error before î¿V°ó","¤Ñ¼Ï°ó","«C¤
+
+[Fri Dec 15 23:15:19 2000] u/b/baal/backup/ming_mark.c line 128: Illegal terminator before ­Ó«Õ«ÕªºÁn­µ: §A, ¦]
+
+[Fri Dec 15 23:15:59 2000] u/b/baal/backup/ming_mark.c line 59: Warning: Unknown \ escape. before p\°ó,"îî\¿V\°ó","¤Ñ¼
+
+[Fri Dec 15 23:15:59 2000] u/b/baal/backup/ming_mark.c line 59: Warning: Unknown \ escape. before ó,"îî\¿V\°ó","¤Ñ¼Ï°ó
+
+[Fri Dec 15 23:15:59 2000] u/b/baal/backup/ming_mark.c line 59: parse error before î\¿V\°ó","¤Ñ¼Ï°ó","«
+
+[Fri Dec 15 23:15:59 2000] u/b/baal/backup/ming_mark.c line 128: Illegal terminator before ­Ó«Õ«ÕªºÁn­µ: §A, ¦]
+
+[Fri Dec 15 23:16:33 2000] u/b/baal/backup/ming_mark.c line 59: parse error before îî¿V°ó","¤Ñ¼Ï°ó","«C
+
+[Fri Dec 15 23:16:33 2000] u/b/baal/backup/ming_mark.c line 128: Illegal terminator before ­Ó«Õ«ÕªºÁn­µ: §A, ¦]
+
+[Fri Dec 15 23:16:55 2000] u/b/baal/backup/ming_mark.c line 59: parse error before î¿V°ó","¤Ñ¼Ï°ó","«C\
+
+[Fri Dec 15 23:16:55 2000] u/b/baal/backup/ming_mark.c line 128: Illegal terminator before ­Ó«Õ«ÕªºÁn­µ: §A, ¦]
+
+[Fri Dec 15 23:16:57 2000] u/b/baal/backup/ming_mark.c line 59: parse error before î¿V°ó","¤Ñ¼Ï°ó","«C\
+
+[Fri Dec 15 23:16:57 2000] u/b/baal/backup/ming_mark.c line 128: Illegal terminator before ­Ó«Õ«ÕªºÁn­µ: §A, ¦]
+
+[Fri Dec 15 23:17:33 2000] u/b/baal/backup/ming_mark.c line 59: parse error before îî¿V°ó","¤Ñ¼Ï°ó","«C
+
+[Fri Dec 15 23:17:33 2000] u/b/baal/backup/ming_mark.c line 128: Illegal terminator before ­Ó«Õ«ÕªºÁn­µ: §A, ¦]
+
+[Fri Dec 22 22:36:58 2000] u/b/baal/item/chtree.c line 35: parse error before ));
+
+[Fri Dec 22 22:37:42 2000] u/b/baal/item/chtree.c line 35: parse error before ));
+
+[Fri Dec 22 22:38:23 2000] u/b/baal/item/chtree.c line 35: parse error before ));
+
+[Fri Dec 22 22:49:59 2000] u/b/baal/item/chtree.c line 8: parse error before n\t¤@´Ê±¾º¡¤F¤C±m¿O¹
+
+[Fri Dec 22 22:49:59 2000] u/b/baal/item/chtree.c line 8: Illegal terminator before ´Ê±¾º¡¤F¤C±m¿O¹¢¡B¶ì
+
+[Fri Dec 22 22:50:39 2000] u/b/baal/item/chtree.c line 8: parse error before n\t¤@´Ê±¾º¡¤F¤C±m¿O¹
+
+[Fri Dec 22 22:50:39 2000] u/b/baal/item/chtree.c line 8: Illegal terminator before ´Ê±¾º¡¤F¤C±m¿O¹¢¡B¶ì
+
+[Fri Dec 22 22:51:29 2000] u/b/baal/item/chtree.c line 9: parse error before n\t¤@´Ê±¾º¡¤F¤C±m¿O¹
+
+[Fri Dec 22 22:51:29 2000] u/b/baal/item/chtree.c line 9: Illegal terminator before ´Ê±¾º¡¤F¤C±m¿O¹¢¡B¶ì
+
+[Fri Dec 22 22:52:21 2000] u/b/baal/item/chtree.c line 8: parse error before n\t¤@´Ê±¾º¡¤F¤C±m¿O¹
+
+[Fri Dec 22 22:52:21 2000] u/b/baal/item/chtree.c line 8: Illegal terminator before ´Ê±¾º¡¤F¤C±m¿O¹¢¡B¶ì
+
+[Mon Jan  1 11:59:07 2001] u/b/baal/item/ttscroll_dst.c line 29: parse error before  {
+
+[Mon Jan  1 12:13:04 2001] u/b/baal/item/ttscroll_dst.c line 29: parse error before  {
+
+[Mon Jan  1 12:13:36 2001] u/b/baal/item/ttscroll_dst.c line 28: parse error before  {
+
+[Mon Jan  1 12:15:44 2001] u/b/baal/item/ttscroll_dst.c line 28: parse error before  {
+
+[Mon Jan  1 13:11:10 2001] u/b/baal/item/ttscroll_dst.c line 43: parse error before  call_out("dest_obj"
+
+[Mon Jan  1 13:11:48 2001] u/b/baal/item/ttscroll_dst.c line 45: parse error before  call_out("dest_obj"
+
+[Fri May  4 21:33:52 2001] u/b/baal/npc/birdguard.c line 7: Warning: Unknown \ escape. before \\¨Ã\¤£\²`\«p\, ¦ý¤@
+
+[Fri May  4 21:33:52 2001] u/b/baal/npc/birdguard.c line 7: Warning: Unknown \ escape. before £\²`\«p\, ¦ý¤@Âù¤â´x
+
+[Fri May  4 21:33:52 2001] u/b/baal/npc/birdguard.c line 7: Warning: Unknown \ escape. before `\«p\, ¦ý¤@Âù¤â´x«o²
+
+[Fri May  4 21:33:52 2001] u/b/baal/npc/birdguard.c line 7: Warning: Unknown \ escape. before p\, ¦ý¤@Âù¤â´x«o²Ê
+
+[Fri May  4 21:33:52 2001] u/b/baal/npc/birdguard.c line 7: Warning: Unknown \ escape. before  ¦ý¤@Âù¤â´x«o²Ê
+
+[Fri May  4 21:33:52 2001] u/b/baal/npc/birdguard.c line 8: Warning: Unknown \ escape. before \\¤Ò\¤£\®e\¤p\òó\."
+
+[Fri May  4 21:33:52 2001] u/b/baal/npc/birdguard.c line 8: Warning: Unknown \ escape. before £\®e\¤p\òó\."
+
+[Fri May  4 21:33:52 2001] u/b/baal/npc/birdguard.c line 8: Warning: Unknown \ escape. before e\¤p\òó\."
+
+[Fri May  4 21:33:52 2001] u/b/baal/npc/birdguard.c line 8: Warning: Unknown \ escape. before p\òó\."
+
+[Fri May  4 21:33:52 2001] u/b/baal/npc/birdguard.c line 8: Warning: Unknown \ escape. before ó\."
+
+[Fri May  4 21:33:52 2001] u/b/baal/npc/birdguard.c line 8: Warning: Unknown \ escape. before "
+
+[Fri May  4 21:48:36 2001] u/b/baal/area/guild5.c line 28: Warning: Unknown \ escape. before ¹\»\\¦í\¤F\, ¬Ý¨Ó¬O¦
+
+[Fri May  4 21:48:36 2001] u/b/baal/area/guild5.c line 28: Warning: Unknown \ escape. before \\¦í\¤F\, ¬Ý¨Ó¬O¦³¤H
+
+[Fri May  4 21:48:36 2001] u/b/baal/area/guild5.c line 28: Warning: Unknown \ escape. before F\, ¬Ý¨Ó¬O¦³¤Hªø
+
+[Fri May  4 21:48:36 2001] u/b/baal/area/guild5.c line 28: Warning: Unknown \ escape. before  ¬Ý¨Ó¬O¦³¤Hªø
+
+[Mon May 28 21:00:01 2001] u/b/baal/ming_clan/lighttop.c line 30: Undefined function ming before ;
+
+[Mon May 28 21:00:01 2001] u/b/baal/ming_clan/lighttop.c line 77: Redeclaration of function ming. before the end of line
+
+[Mon May 28 21:00:03 2001] u/b/baal/ming_clan/lighttop.c line 30: Undefined function ming before ;
+
+[Mon May 28 21:00:03 2001] u/b/baal/ming_clan/lighttop.c line 77: Redeclaration of function ming. before the end of line
+
+[Mon May 28 21:08:12 2001] u/b/baal/ming_clan/lighttop.c line 30: Undefined function ming before ;
+
+[Mon May 28 21:08:12 2001] u/b/baal/ming_clan/lighttop.c line 77: Redeclaration of function ming. before the end of line
+
+[Mon May 28 21:08:16 2001] u/b/baal/ming_clan/lighttop.c line 30: Undefined function ming before ;
+
+[Mon May 28 21:08:16 2001] u/b/baal/ming_clan/lighttop.c line 77: Redeclaration of function ming. before the end of line
+
+[Mon May 28 21:08:54 2001] u/b/baal/ming_clan/lighttop.c line 30: Undefined function ming before ;
+
+[Mon May 28 21:08:54 2001] u/b/baal/ming_clan/lighttop.c line 77: Redeclaration of function ming. before the end of line
+
+[Mon May 28 21:19:09 2001] u/b/baal/ming_clan/item/ming_mark.c line 55: parse error before î¿V°ó","¤Ñ¼Ï°ó","«C¤
+
+[Mon May 28 21:19:09 2001] u/b/baal/ming_clan/item/ming_mark.c line 124: Illegal terminator before ­Ó«Õ«ÕªºÁn­µ: §A, ¦]
+
+[Mon Jun  4 18:22:43 2001] u/b/baal/ming_clan/lighttop.c line 30: Undefined function ming before ;
+
+[Mon Jun  4 18:22:43 2001] u/b/baal/ming_clan/lighttop.c line 77: Redeclaration of function ming. before the end of line
+
+[Sun Jul  1 17:41:22 2001] u/b/baal/ming_clan/lighttop.c line 30: Undefined function ming before ;
+
+[Sun Jul  1 17:41:22 2001] u/b/baal/ming_clan/lighttop.c line 77: Redeclaration of function ming. before the end of line
+
+[Sun Jul  1 17:57:27 2001] u/b/baal/ming_clan/darkfire.c line 16: parse error before "skycenter",
+
+[Sun Jul  1 18:20:36 2001] u/b/baal/ming_clan/lighttop.c line 30: Undefined function ming before ;
+
+[Sun Jul  1 18:20:36 2001] u/b/baal/ming_clan/lighttop.c line 77: Redeclaration of function ming. before the end of line
+
+[Sun Jul  1 18:24:33 2001] u/b/baal/ming_clan/lighttop.c line 30: Undefined function ming before ;
+
+[Sun Jul  1 18:24:33 2001] u/b/baal/ming_clan/lighttop.c line 77: Redeclaration of function ming. before the end of line
+
+[Sun Jul  1 18:24:39 2001] u/b/baal/ming_clan/lighttop.c line 30: Undefined function ming before ;
+
+[Sun Jul  1 18:24:39 2001] u/b/baal/ming_clan/lighttop.c line 77: Redeclaration of function ming. before the end of line
+
+[Tue Jul  3 00:02:54 2001] u/b/baal/ming_clan/lighttop.c line 30: Undefined function ming before ;
+
+[Tue Jul  3 00:02:54 2001] u/b/baal/ming_clan/lighttop.c line 77: Redeclaration of function ming. before the end of line
+
+[Tue Jul  3 00:16:32 2001] u/b/baal/ming_clan/item/ming_mark.c line 55: parse error before î¿V°ó","¤Ñ¼Ï°ó","«C¤
+
+[Tue Jul  3 00:16:32 2001] u/b/baal/ming_clan/item/ming_mark.c line 124: Illegal terminator before ­Ó«Õ«ÕªºÁn­µ: §A, ¦]
+
+[Wed Jul  4 19:52:09 2001] u/b/baal/ming_clan/lighttop.c line 30: Undefined function ming before ;
+
+[Wed Jul  4 19:52:09 2001] u/b/baal/ming_clan/lighttop.c line 77: Redeclaration of function ming. before the end of line
+
+[Thu Jul  5 20:17:05 2001] u/b/baal/ming_clan/lighttop.c line 30: Undefined function ming before ;
+
+[Thu Jul  5 20:17:05 2001] u/b/baal/ming_clan/lighttop.c line 77: Redeclaration of function ming. before the end of line
+
+[Thu Jul  5 20:20:02 2001] u/b/baal/ming_clan/lighttop.c line 9: parse error before  create()
+
+[Thu Jul  5 20:20:06 2001] u/b/baal/ming_clan/lighttop.c line 9: parse error before  create()
+
+[Thu Jul  5 20:21:52 2001] u/b/baal/ming_clan/lighttop.c line 9: parse error before  create()
+
+[Thu Jul  5 21:01:56 2001] u/b/baal/ming_clan/ming_cablecar.c line 18: Reserved type name unexpected. before (object me, string d
+
+[Thu Jul  5 21:01:56 2001] u/b/baal/ming_clan/ming_cablecar.c line 18: parse error before (object me, string d
+
+[Thu Jul  5 21:03:43 2001] u/b/baal/ming_clan/ming_cablecar.c line 36: parse error before the end of line
+
+[Thu Jul  5 21:04:49 2001] u/b/baal/ming_clan/ming_cablecar.c line 36: parse error before the end of line
+
+[Thu Jul 26 20:07:52 2001] u/b/baal/area/dst/npc/poorguard.c line 34: parse error before set_temp("DST/basicd
+
+[Thu Jul 26 20:26:42 2001] u/b/baal/area/dst/npc/wp/rustyspear.c line 3: parse error before ;
+
+[Thu Jul 26 20:26:48 2001] u/b/baal/area/dst/npc/wp/rustyspear.c line 3: parse error before ;
+
+[Thu Jul 26 20:30:45 2001] u/b/baal/area/dst/npc/wp/rustyspear.c line 17: Undefined function init_sword before ;
+
+[Thu Jul 26 20:43:35 2001] u/b/baal/area/dst/npc/poorguard.c line 5: Warning: Unknown \ escape. before ^V^P^Fu^]^C", ({ "da
+
+[Thu Jul 26 20:49:41 2001] u/b/baal/area/dst/npc/poorguard.c line 82: Too few arguments to message before ;
+
+[Thu Jul 26 22:20:08 2001] u/b/baal/area/dst/npc/eq/badleatherarmor.c line 16: parse error before the end of line
+
+[Thu Jul 26 22:20:08 2001] u/b/baal/area/dst/npc/eq/badleatherarmor.c line 24: parse error before the end of line
+
+[Thu Jul 26 22:20:24 2001] u/b/baal/area/dst/npc/eq/badleatherarmor.c line 16: parse error before the end of line
+
+[Thu Jul 26 22:20:24 2001] u/b/baal/area/dst/npc/eq/badleatherarmor.c line 24: parse error before the end of line
+
+[Thu Jul 26 22:22:01 2001] u/b/baal/area/dst/npc/eq/badarmor.c line 13: parse error before the end of line
+
+[Thu Jul 26 22:22:01 2001] u/b/baal/area/dst/npc/eq/badarmor.c line 21: parse error before the end of line
+
+[Fri Jul 27 18:54:40 2001] u/b/baal/area/dst/obj/elemental-gem.c line 1: parse error before [33m#include <ansi.h
+
+[Fri Jul 27 18:55:06 2001] u/b/baal/area/dst/obj/elemental-gem.c line 1: parse error before [33m#include <ansi.h
+
+[Sat Jul 28 12:44:17 2001] u/b/baal/area/dst/npc/skeguard1.c line 5: Warning: Unknown \ escape. before u½Ã"MAG"(®£Äß)", ({ 
+
+[Sat Jul 28 12:44:17 2001] u/b/baal/area/dst/npc/skeguard1.c line 12: Warning: Unknown \ escape. before u½Ã¬O·t´µ¼w¶ðªºªk®v­
+
+[Sat Jul 28 14:26:26 2001] u/b/baal/area/dst/npc/skeguard1.c line 5: Warning: Unknown \ escape. before \\¦u\½Ã"MAG"(®£Äß)"N
+
+[Sat Jul 28 14:26:26 2001] u/b/baal/area/dst/npc/skeguard1.c line 5: Warning: Unknown \ escape. before Ã"MAG"(®£Äß)"NOR, ({
+
+[Sat Jul 28 14:26:26 2001] u/b/baal/area/dst/npc/skeguard1.c line 12: Warning: Unknown \ escape. before u½Ã¬O·t´µ¼w¶ðªºªk®v­
+
+[Sat Jul 28 14:26:58 2001] u/b/baal/area/dst/npc/skeguard1.c line 5: Warning: Unknown \ escape. before ¦u/½Ã"MAG"(®£Äß)"NOR
+
+[Sat Jul 28 14:26:58 2001] u/b/baal/area/dst/npc/skeguard1.c line 12: Warning: Unknown \ escape. before u½Ã¬O·t´µ¼w¶ðªºªk®v­
+
+[Sat Jul 28 14:30:15 2001] u/b/baal/area/dst/npc/skeguard1.c line 5: Warning: Unknown \ escape. before \\¦u\½Ã"MAG"(®£Äß)"N
+
+[Sat Jul 28 14:30:15 2001] u/b/baal/area/dst/npc/skeguard1.c line 5: Warning: Unknown \ escape. before Ã"MAG"(®£Äß)"NOR, ({
+
+[Sat Jul 28 14:30:15 2001] u/b/baal/area/dst/npc/skeguard1.c line 12: Warning: Unknown \ escape. before u½Ã¬O·t´µ¼w¶ðªºªk®v­
+
+[Sat Jul 28 15:07:48 2001] u/b/baal/area/dst/npc/skeguard1.c line 5: Warning: Unknown \ escape. before \\¦u\½Ã"MAG"(®£Äß)"N
+
+[Sat Jul 28 15:07:48 2001] u/b/baal/area/dst/npc/skeguard1.c line 5: Warning: Unknown \ escape. before Ã"MAG"(®£Äß)"NOR, ({
+
+[Sat Jul 28 15:07:48 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã¬O·t´µ¼w¶ðªºªk®v­
+
+[Sat Jul 28 15:07:48 2001] u/b/baal/area/dst/npc/skeguard1.c line 36: $var illegal outside of function pointer. before n¯Ý¤¤¤@°}¼@µh¡I¬Ý¨Ó³
+
+[Sat Jul 28 15:07:48 2001] u/b/baal/area/dst/npc/skeguard1.c line 36: parse error before n¯Ý¤¤¤@°}¼@µh¡I¬Ý¨Ó³
+
+[Sat Jul 28 15:07:48 2001] u/b/baal/area/dst/npc/skeguard1.c line 36: Illegal terminator before °}¼@µh¡I¬Ý¨Ó³oªÑ«Í®ð
+
+[Sat Jul 28 15:07:56 2001] u/b/baal/area/dst/npc/skeguard1.c line 5: Warning: Unknown \ escape. before \\¦u\½Ã"MAG"(®£Äß)"N
+
+[Sat Jul 28 15:07:56 2001] u/b/baal/area/dst/npc/skeguard1.c line 5: Warning: Unknown \ escape. before Ã"MAG"(®£Äß)"NOR, ({
+
+[Sat Jul 28 15:07:56 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã¬O·t´µ¼w¶ðªºªk®v­
+
+[Sat Jul 28 15:07:56 2001] u/b/baal/area/dst/npc/skeguard1.c line 36: $var illegal outside of function pointer. before n¯Ý¤¤¤@°}¼@µh¡I¬Ý¨Ó³
+
+[Sat Jul 28 15:07:56 2001] u/b/baal/area/dst/npc/skeguard1.c line 36: parse error before n¯Ý¤¤¤@°}¼@µh¡I¬Ý¨Ó³
+
+[Sat Jul 28 15:07:56 2001] u/b/baal/area/dst/npc/skeguard1.c line 36: Illegal terminator before °}¼@µh¡I¬Ý¨Ó³oªÑ«Í®ð
+
+[Sat Jul 28 15:09:57 2001] u/b/baal/area/dst/npc/skeguard1.c line 5: Warning: Unknown \ escape. before \\¦u\½Ã"MAG"(®£Äß)"N
+
+[Sat Jul 28 15:09:57 2001] u/b/baal/area/dst/npc/skeguard1.c line 5: Warning: Unknown \ escape. before Ã"MAG"(®£Äß)"NOR, ({
+
+[Sat Jul 28 15:09:57 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã¬O·t´µ¼w¶ðªºªk®v­
+
+[Sat Jul 28 15:09:57 2001] u/b/baal/area/dst/npc/skeguard1.c line 36: $var illegal outside of function pointer. before n¯Ý¤¤¤@°}¼@µh¡I¬Ý¨Ó³
+
+[Sat Jul 28 15:09:57 2001] u/b/baal/area/dst/npc/skeguard1.c line 36: parse error before n¯Ý¤¤¤@°}¼@µh¡I¬Ý¨Ó³
+
+[Sat Jul 28 15:09:57 2001] u/b/baal/area/dst/npc/skeguard1.c line 36: Illegal terminator before °}¼@µh¡I¬Ý¨Ó³oªÑ«Í®ð
+
+[Sat Jul 28 15:15:21 2001] u/b/baal/area/dst/npc/skeguard1.c line 5: Warning: Unknown \ escape. before \\¦u\½Ã"MAG"(®£Äß)"N
+
+[Sat Jul 28 15:15:21 2001] u/b/baal/area/dst/npc/skeguard1.c line 5: Warning: Unknown \ escape. before Ã"MAG"(®£Äß)"NOR, ({
+
+[Sat Jul 28 15:15:21 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã¬O·t´µ¼w¶ðªºªk®v­
+
+[Sat Jul 28 15:18:16 2001] u/b/baal/area/dst/npc/skeguard1.c line 5: Warning: Unknown \ escape. before \\¦u\½Ã"MAG"(®£Äß)"N
+
+[Sat Jul 28 15:18:16 2001] u/b/baal/area/dst/npc/skeguard1.c line 5: Warning: Unknown \ escape. before Ã"MAG"(®£Äß)"NOR, ({
+
+[Sat Jul 28 15:18:16 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã¬O·t´µ¼w¶ðªºªk®v­
+
+[Sat Jul 28 15:18:26 2001] u/b/baal/area/dst/npc/skeguard1.c line 5: Warning: Unknown \ escape. before \\¦u\½Ã"MAG"(®£Äß)"N
+
+[Sat Jul 28 15:18:26 2001] u/b/baal/area/dst/npc/skeguard1.c line 5: Warning: Unknown \ escape. before Ã"MAG"(®£Äß)"NOR, ({
+
+[Sat Jul 28 15:18:26 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã¬O·t´µ¼w¶ðªºªk®v­
+
+[Sat Jul 28 15:21:37 2001] u/b/baal/area/dst/npc/skeguard1.c line 5: Warning: Unknown \ escape. before \\¦u\½Ã"MAG"(®£Äß)"N
+
+[Sat Jul 28 15:21:37 2001] u/b/baal/area/dst/npc/skeguard1.c line 5: Warning: Unknown \ escape. before Ã"MAG"(®£Äß)"NOR, ({
+
+[Sat Jul 28 15:21:37 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã¬O·t´µ¼w¶ðªºªk®v­
+
+[Sat Jul 28 15:21:37 2001] u/b/baal/area/dst/npc/skeguard1.c line 27: Illegal to redeclare local name 'me' before  = this_player();
+
+[Sat Jul 28 15:21:37 2001] u/b/baal/area/dst/npc/skeguard1.c line 27: Type mismatch ( int vs object ) when initializing me before the end of line
+
+[Sat Jul 28 15:22:35 2001] u/b/baal/area/dst/npc/skeguard1.c line 5: Warning: Unknown \ escape. before \\¦u\½Ã"MAG"(®£Äß)"N
+
+[Sat Jul 28 15:22:35 2001] u/b/baal/area/dst/npc/skeguard1.c line 5: Warning: Unknown \ escape. before Ã"MAG"(®£Äß)"NOR, ({
+
+[Sat Jul 28 15:22:35 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã¬O·t´µ¼w¶ðªºªk®v­
+
+[Sat Jul 28 15:22:35 2001] u/b/baal/area/dst/npc/skeguard1.c line 27: Illegal to redeclare local name 'me' before  = this_player();
+
+[Sat Jul 28 15:22:35 2001] u/b/baal/area/dst/npc/skeguard1.c line 27: Type mismatch ( int vs object ) when initializing me before the end of line
+
+[Sat Jul 28 15:24:50 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã¬O·t´µ¼w¶ðªºªk®v­
+
+[Sat Jul 28 15:24:50 2001] u/b/baal/area/dst/npc/skeguard1.c line 27: Illegal to redeclare local name 'me' before  = this_player();
+
+[Sat Jul 28 15:24:50 2001] u/b/baal/area/dst/npc/skeguard1.c line 27: Type mismatch ( int vs object ) when initializing me before the end of line
+
+[Sat Jul 28 15:25:18 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã¬O·t´µ¼w¶ðªºªk®v­
+
+[Sat Jul 28 15:25:18 2001] u/b/baal/area/dst/npc/skeguard1.c line 27: Illegal to redeclare local name 'me' before  = this_player();
+
+[Sat Jul 28 15:25:18 2001] u/b/baal/area/dst/npc/skeguard1.c line 27: Type mismatch ( int vs object ) when initializing me before the end of line
+
+[Sat Jul 28 15:26:00 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã¬O·t´µ¼w¶ðªºªk®v­
+
+[Sat Jul 28 15:26:00 2001] u/b/baal/area/dst/npc/skeguard1.c line 27: Illegal to redeclare local name 'me' before  = this_player();
+
+[Sat Jul 28 15:26:00 2001] u/b/baal/area/dst/npc/skeguard1.c line 27: Type mismatch ( int vs object ) when initializing me before the end of line
+
+[Sat Jul 28 15:26:40 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Sat Jul 28 15:26:40 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b¾
+
+[Sat Jul 28 15:26:40 2001] u/b/baal/area/dst/npc/skeguard1.c line 27: Illegal to redeclare local name 'me' before  = this player();
+
+[Sat Jul 28 15:26:40 2001] u/b/baal/area/dst/npc/skeguard1.c line 27: Undefined variable 'this' before ();
+
+[Sat Jul 28 15:26:40 2001] u/b/baal/area/dst/npc/skeguard1.c line 27: parse error before ();
+
+[Sat Jul 28 15:26:40 2001] u/b/baal/area/dst/npc/skeguard1.c line 32: Illegal LHS before the end of line
+
+[Sat Jul 28 15:26:40 2001] u/b/baal/area/dst/npc/skeguard1.c line 40: parse error before  1;
+
+[Sat Jul 28 15:27:22 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Sat Jul 28 15:27:22 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b¾
+
+[Sat Jul 28 15:27:22 2001] u/b/baal/area/dst/npc/skeguard1.c line 27: Illegal to redeclare local name 'me' before  = this player();
+
+[Sat Jul 28 15:27:22 2001] u/b/baal/area/dst/npc/skeguard1.c line 27: Undefined variable 'this' before ();
+
+[Sat Jul 28 15:27:22 2001] u/b/baal/area/dst/npc/skeguard1.c line 27: parse error before ();
+
+[Sat Jul 28 15:27:22 2001] u/b/baal/area/dst/npc/skeguard1.c line 32: Illegal LHS before the end of line
+
+[Sat Jul 28 15:27:22 2001] u/b/baal/area/dst/npc/skeguard1.c line 40: parse error before  1;
+
+[Sat Jul 28 15:28:43 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Sat Jul 28 15:28:43 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b¾
+
+[Sat Jul 28 15:30:27 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Sat Jul 28 15:30:27 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b¾
+
+[Sat Jul 28 15:30:27 2001] u/b/baal/area/dst/npc/skeguard1.c line 17: Reserved type name unexpected. before ()
+
+[Sat Jul 28 15:30:27 2001] u/b/baal/area/dst/npc/skeguard1.c line 17: parse error before ()
+
+[Sat Jul 28 15:30:27 2001] u/b/baal/area/dst/npc/skeguard1.c line 21: parse error before ,80);
+
+[Sat Jul 28 15:31:20 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Sat Jul 28 15:31:20 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b¾
+
+[Sat Jul 28 15:35:45 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Sat Jul 28 15:35:45 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b¾
+
+[Sat Jul 28 15:38:08 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Sat Jul 28 15:38:08 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b¾
+
+[Sat Jul 28 15:46:28 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Sat Jul 28 15:46:28 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b¾
+
+[Sat Jul 28 15:46:28 2001] u/b/baal/area/dst/npc/skeguard1.c line 33: Undefined variable 'hitrole' before  50)
+
+[Sat Jul 28 15:46:28 2001] u/b/baal/area/dst/npc/skeguard1.c line 35: Undefined variable 'damage' before  580+random(250);
+
+[Sat Jul 28 16:26:36 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Sat Jul 28 16:26:36 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b¾
+
+[Sat Jul 28 16:29:19 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Sat Jul 28 16:29:19 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b¾
+
+[Sat Jul 28 16:33:14 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Sat Jul 28 16:33:14 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b¾
+
+[Sat Jul 28 20:46:22 2001] u/b/baal/area/dst/npc/skeguard1.c line 14: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Sat Jul 28 20:46:22 2001] u/b/baal/area/dst/npc/skeguard1.c line 14: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b¾
+
+[Sat Jul 28 21:35:41 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Sat Jul 28 21:35:41 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Sat Jul 28 21:35:41 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Sat Jul 28 21:41:29 2001] u/b/baal/area/dst/npc/poorguard.c line 5: Warning: Unknown \ escape. before ^V^P^Fu^]^C", ({ "da
+
+[Sat Jul 28 21:41:29 2001] u/b/baal/area/dst/npc/poorguard.c line 85: Too few arguments to message before ;
+
+[Sat Jul 28 21:43:44 2001] u/b/baal/area/dst/npc/poorguard.c line 5: Warning: Unknown \ escape. before ^V^P^Fu^]^C", ({ "da
+
+[Mon Jul 30 01:30:45 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Mon Jul 30 01:30:45 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Mon Jul 30 01:30:45 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Mon Jul 30 01:32:21 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Mon Jul 30 01:32:21 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Mon Jul 30 01:32:21 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Mon Jul 30 01:33:40 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Mon Jul 30 01:33:40 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Mon Jul 30 01:33:40 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Mon Jul 30 01:35:28 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Mon Jul 30 01:35:28 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Mon Jul 30 01:35:28 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Mon Jul 30 01:39:39 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Mon Jul 30 01:39:39 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Mon Jul 30 01:39:39 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Mon Jul 30 01:39:39 2001] u/b/baal/area/dst/npc/skeguard1.c line 30: Illegal to redeclare local name 'damage' before ;
+
+[Mon Jul 30 01:40:12 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Mon Jul 30 01:40:12 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Mon Jul 30 01:40:12 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Wed Aug  1 13:29:33 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Wed Aug  1 13:29:33 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Wed Aug  1 13:29:33 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Fri Aug  3 16:27:29 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Fri Aug  3 16:27:29 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Fri Aug  3 16:27:29 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Mon Aug  6 13:47:13 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Mon Aug  6 13:47:13 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Mon Aug  6 13:47:13 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Wed Aug  8 23:57:42 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Wed Aug  8 23:57:42 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Wed Aug  8 23:57:42 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Thu Aug  9 16:14:37 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Thu Aug  9 16:14:37 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Thu Aug  9 16:14:37 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Fri Aug 10 13:32:01 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Fri Aug 10 13:32:01 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Fri Aug 10 13:32:01 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Fri Aug 10 20:57:31 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Fri Aug 10 20:57:31 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Fri Aug 10 20:57:31 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Sat Aug 11 23:11:10 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Sat Aug 11 23:11:10 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Sat Aug 11 23:11:10 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Sun Aug 12 18:55:12 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Sun Aug 12 18:55:12 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Sun Aug 12 18:55:12 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Mon Aug 13 13:58:18 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Mon Aug 13 13:58:18 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Mon Aug 13 13:58:18 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Thu Aug 16 12:56:59 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Thu Aug 16 12:56:59 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Thu Aug 16 12:56:59 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Thu Aug 16 22:42:59 2001] u/b/baal/area/pill/npc/master.c line 265: parse error before the end of file
+
+[Thu Aug 16 22:45:02 2001] u/b/baal/area/pill/npc/master.c line 265: parse error before the end of file
+
+[Fri Aug 17 14:01:23 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Fri Aug 17 14:01:23 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Fri Aug 17 14:01:23 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Mon Aug 20 09:35:23 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Mon Aug 20 09:35:23 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Mon Aug 20 09:35:23 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Wed Aug 22 12:15:30 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Wed Aug 22 12:15:30 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Wed Aug 22 12:15:30 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Wed Aug 22 19:53:28 2001] u/b/baal/ming_clan/item/ming_mark.c line 55: parse error before î¿V°ó","¤Ñ¼Ï°ó","«C¤
+
+[Wed Aug 22 19:53:28 2001] u/b/baal/ming_clan/item/ming_mark.c line 124: Illegal terminator before ­Ó«Õ«ÕªºÁn­µ: §A, ¦]
+
+[Wed Aug 22 20:20:36 2001] u/b/baal/ming_clan/ming_mark.c line 56: parse error before î¿V°ó","¤Ñ¼Ï°ó","«C¤
+
+[Wed Aug 22 20:20:36 2001] u/b/baal/ming_clan/ming_mark.c line 125: Illegal terminator before ­Ó«Õ«ÕªºÁn­µ: §A, ¦]
+
+[Wed Aug 22 20:20:48 2001] u/b/baal/ming_clan/ming_mark.c line 56: parse error before î¿V°ó","¤Ñ¼Ï°ó","«C¤
+
+[Wed Aug 22 20:20:48 2001] u/b/baal/ming_clan/ming_mark.c line 125: Illegal terminator before ­Ó«Õ«ÕªºÁn­µ: §A, ¦]
+
+[Wed Aug 22 20:22:04 2001] u/b/baal/ming_clan/ming_mark.c line 56: parse error before î¿V°ó","¤Ñ¼Ï°ó","«C¤
+
+[Wed Aug 22 20:22:04 2001] u/b/baal/ming_clan/ming_mark.c line 125: Illegal terminator before ­Ó«Õ«ÕªºÁn­µ: §A, ¦]
+
+[Wed Aug 22 21:18:53 2001] u/b/baal/area/dst/npc/poorguard.c line 78: parse error before , ob;
+
+[Wed Aug 22 21:18:53 2001] u/b/baal/area/dst/npc/poorguard.c line 79: Illegal LHS before the end of line
+
+[Wed Aug 22 21:18:53 2001] u/b/baal/area/dst/npc/poorguard.c line 81: Reserved type name unexpected. before ;
+
+[Wed Aug 22 21:18:53 2001] u/b/baal/area/dst/npc/poorguard.c line 81: parse error before ;
+
+[Wed Aug 22 21:18:53 2001] u/b/baal/area/dst/npc/poorguard.c line 83: Illegal LHS before the end of line
+
+[Wed Aug 22 21:18:53 2001] u/b/baal/area/dst/npc/poorguard.c line 83: parse error before the end of line
+
+[Sat Aug 25 15:07:14 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Sat Aug 25 15:07:14 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Sat Aug 25 15:07:14 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Sat Aug 25 21:43:03 2001] u/b/baal/ming_clan/item/ming_mark.c line 55: parse error before î¿V°ó","¤Ñ¼Ï°ó","«C¤
+
+[Sat Aug 25 21:43:03 2001] u/b/baal/ming_clan/item/ming_mark.c line 124: Illegal terminator before ­Ó«Õ«ÕªºÁn­µ: §A, ¦]
+
+[Sat Aug 25 21:45:42 2001] u/b/baal/ming_clan/item/ming_mark.c line 189: parse error before "]+°ó¥D    "; break;
+
+[Sat Aug 25 21:45:42 2001] u/b/baal/ming_clan/item/ming_mark.c line 190: Illegal LHS before "]+"Å@ªk"; break;
+
+[Sat Aug 25 21:45:42 2001] u/b/baal/ming_clan/item/ming_mark.c line 190: Illegal terminator before ªk"; break;
+
+[Sat Aug 25 21:45:50 2001] u/b/baal/ming_clan/item/ming_mark.c line 189: parse error before "]+°ó¥D    "; break;
+
+[Sat Aug 25 21:45:50 2001] u/b/baal/ming_clan/item/ming_mark.c line 190: Illegal LHS before "]+"Å@ªk"; break;
+
+[Sat Aug 25 21:45:50 2001] u/b/baal/ming_clan/item/ming_mark.c line 190: Illegal terminator before ªk"; break;
+
+[Sat Aug 25 21:48:19 2001] u/b/baal/ming_clan/item/ming_mark.c line 234: parse error before [i]->query("id")
+
+[Sat Aug 25 21:48:19 2001] u/b/baal/ming_clan/item/ming_mark.c line 237: Illegal LHS before =query_idle(users[i]
+
+[Sat Aug 25 21:48:19 2001] u/b/baal/ming_clan/item/ming_mark.c line 237: parse error before =query_idle(users[i]
+
+[Sat Aug 25 21:48:19 2001] u/b/baal/ming_clan/item/ming_mark.c line 238: Illegal LHS before (users[i]->query_tem
+
+[Sat Aug 25 21:48:19 2001] u/b/baal/ming_clan/item/ming_mark.c line 238: parse error before (users[i]->query_tem
+
+[Sat Aug 25 21:48:19 2001] u/b/baal/ming_clan/item/ming_mark.c line 239: Illegal LHS before (users[i]->query_tem
+
+[Sat Aug 25 21:48:51 2001] u/b/baal/ming_clan/item/ming_mark.c line 234: parse error before [i]->query("id")
+
+[Sat Aug 25 21:48:51 2001] u/b/baal/ming_clan/item/ming_mark.c line 237: Illegal LHS before =query_idle(users[i]
+
+[Sat Aug 25 21:48:51 2001] u/b/baal/ming_clan/item/ming_mark.c line 237: parse error before =query_idle(users[i]
+
+[Sat Aug 25 21:48:51 2001] u/b/baal/ming_clan/item/ming_mark.c line 238: Illegal LHS before (users[i]->query_tem
+
+[Sat Aug 25 21:48:51 2001] u/b/baal/ming_clan/item/ming_mark.c line 238: parse error before (users[i]->query_tem
+
+[Sat Aug 25 21:48:51 2001] u/b/baal/ming_clan/item/ming_mark.c line 239: Illegal LHS before (users[i]->query_tem
+
+[Mon Aug 27 07:52:20 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Mon Aug 27 07:52:20 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Mon Aug 27 07:52:20 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Tue Aug 28 15:58:36 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Tue Aug 28 15:58:36 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Tue Aug 28 15:58:36 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Wed Aug 29 01:49:58 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Wed Aug 29 01:49:58 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Wed Aug 29 01:49:58 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Fri Aug 31 00:41:52 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Fri Aug 31 00:41:52 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Fri Aug 31 00:41:52 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Wed Sep  5 10:55:08 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Wed Sep  5 10:55:08 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Wed Sep  5 10:55:08 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Fri Sep  7 23:04:08 2001] u/b/baal/area/ugelan/w1st1.c line 30: Warning: Unknown \ escape. before                     
+
+[Fri Sep  7 23:04:08 2001] u/b/baal/area/ugelan/w1st1.c line 31: Warning: Unknown \ escape. before                     
+
+[Fri Sep  7 23:04:08 2001] u/b/baal/area/ugelan/w1st1.c line 32: Warning: Unknown \ escape. before ____________________
+
+[Fri Sep  7 23:04:08 2001] u/b/baal/area/ugelan/w1st1.c line 42: String too long before                 |   
+
+[Fri Sep  7 23:04:08 2001] u/b/baal/area/ugelan/w1st1.c line 42: parse error before                 |   
+
+[Fri Sep  7 23:05:50 2001] u/b/baal/area/ugelan/w1st1.c line 26: Warning: Unknown \ escape. before                \n
+
+[Fri Sep  7 23:05:50 2001] u/b/baal/area/ugelan/w1st1.c line 27: Warning: Unknown \ escape. before               \n
+
+[Fri Sep  7 23:05:50 2001] u/b/baal/area/ugelan/w1st1.c line 28: Warning: Unknown \ escape. before              \n
+
+[Fri Sep  7 23:05:50 2001] u/b/baal/area/ugelan/w1st1.c line 30: Warning: Unknown \ escape. before                     
+
+[Fri Sep  7 23:05:50 2001] u/b/baal/area/ugelan/w1st1.c line 31: Warning: Unknown \ escape. before                     
+
+[Fri Sep  7 23:05:50 2001] u/b/baal/area/ugelan/w1st1.c line 32: Warning: Unknown \ escape. before ____________________
+
+[Fri Sep  7 23:05:50 2001] u/b/baal/area/ugelan/w1st1.c line 40: String too long before                     
+
+[Fri Sep  7 23:05:50 2001] u/b/baal/area/ugelan/w1st1.c line 40: parse error before                     
+
+[Fri Sep  7 23:10:10 2001] u/b/baal/area/ugelan/w1st1.c line 28: parse error before @­ÓÅK»sªº¤U¤ô¹D»\¡A¤
+
+[Fri Sep  7 23:10:10 2001] u/b/baal/area/ugelan/w1st1.c line 28: Illegal terminator before ­ÓÅK»sªº¤U¤ô¹D»\¡A¤W
+
+[Fri Sep  7 23:10:18 2001] u/b/baal/area/ugelan/w1st1.c line 28: parse error before @­ÓÅK»sªº¤U¤ô¹D»\¡A¤
+
+[Fri Sep  7 23:10:18 2001] u/b/baal/area/ugelan/w1st1.c line 28: Illegal terminator before ­ÓÅK»sªº¤U¤ô¹D»\¡A¤W
+
+[Fri Sep  7 23:12:44 2001] u/b/baal/area/ugelan/w1st1.c line 25: parse error before ¤@­ÓÅK»sªº¤U¤ô¹D»\¡A
+
+[Fri Sep  7 23:12:44 2001] u/b/baal/area/ugelan/w1st1.c line 25: Illegal terminator before ­ÓÅK»sªº¤U¤ô¹D»\¡A¤W
+
+[Fri Sep  7 23:14:25 2001] u/b/baal/area/ugelan/w1st1.c line 25: parse error before ¤@­ÓÅK»sªº¤U¤ô¹D»\¡A
+
+[Fri Sep  7 23:14:25 2001] u/b/baal/area/ugelan/w1st1.c line 25: Illegal terminator before ­ÓÅK»sªº¤U¤ô¹D»\¡A¤W
+
+[Fri Sep  7 23:14:57 2001] u/b/baal/area/ugelan/w1st1.c line 25: parse error before K»sªº¤U¤ô¹D»\¡A¤W­±¦
+
+[Fri Sep  7 23:14:57 2001] u/b/baal/area/ugelan/w1st1.c line 26: Illegal terminator before §`¡A¸Ì­±¿n¤F¨Ç¾ð¸­¸ò
+
+[Fri Sep  7 23:17:12 2001] u/b/baal/area/ugelan/w1st1.c line 25: parse error before @­ÓÅK»sªº¤U¤ô¹D»\¡A¤
+
+[Fri Sep  7 23:17:12 2001] u/b/baal/area/ugelan/w1st1.c line 25: Illegal terminator before ­ÓÅK»sªº¤U¤ô¹D»\¡A¤W
+
+[Fri Sep  7 23:18:10 2001] u/b/baal/area/ugelan/w1st1.c line 25: parse error before @­ÓÅK»sªº¤U¤ô¹D»\¡A¤
+
+[Fri Sep  7 23:18:10 2001] u/b/baal/area/ugelan/w1st1.c line 25: Illegal terminator before ­ÓÅK»sªº¤U¤ô¹D»\¡A¤W
+
+[Fri Sep  7 23:19:06 2001] u/b/baal/area/ugelan/w1st1.c line 25: parse error before @­ÓÅK»sªº¤U¤ô¹D»\¡A¤
+
+[Fri Sep  7 23:19:06 2001] u/b/baal/area/ugelan/w1st1.c line 25: Illegal terminator before ­ÓÅK»sªº¤U¤ô¹D»\¡A¤W
+
+[Fri Sep  7 23:20:33 2001] u/b/baal/area/ugelan/w1st1.c line 25: parse error before @­ÓÅK»sªº¤U¤ô¹D»\¡A¤
+
+[Fri Sep  7 23:20:33 2001] u/b/baal/area/ugelan/w1st1.c line 25: Illegal terminator before ­ÓÅK»sªº¤U¤ô¹D»\¡A¤W
+
+[Fri Sep  7 23:22:59 2001] u/b/baal/area/ugelan/w1st1.c line 25: parse error before @­ÓÅK»sªº¤U¤ô¹D»\¡A¤
+
+[Fri Sep  7 23:22:59 2001] u/b/baal/area/ugelan/w1st1.c line 25: Illegal terminator before ­ÓÅK»sªº¤U¤ô¹D»\¡A¤W
+
+[Fri Sep  7 23:24:16 2001] u/b/baal/area/ugelan/w1st1.c line 24: parse error before @­ÓÅK»sªº¤U¤ô¹D»\¡A¤
+
+[Fri Sep  7 23:24:16 2001] u/b/baal/area/ugelan/w1st1.c line 24: Illegal terminator before ­ÓÅK»sªº¤U¤ô¹D»\¡A¤W
+
+[Fri Sep  7 23:27:33 2001] u/b/baal/area/ugelan/w1st1.c line 25: Warning: Unknown \ escape. before A¤W­±¦³¤Õ¬}¨Ñ¿n¤ô¬y¤
+
+[Sat Sep  8 13:25:25 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Sat Sep  8 13:25:25 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Sat Sep  8 13:25:25 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Mon Sep 10 23:26:50 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Mon Sep 10 23:26:50 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Mon Sep 10 23:26:50 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Fri Sep 14 22:15:49 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Fri Sep 14 22:15:49 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Fri Sep 14 22:15:49 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Sun Sep 16 17:15:31 2001] u/b/baal/ming_clan/item/ming_mark.c line 234: parse error before [i]->query("id")
+
+[Sun Sep 16 17:15:31 2001] u/b/baal/ming_clan/item/ming_mark.c line 237: Illegal LHS before =query_idle(users[i]
+
+[Sun Sep 16 17:15:31 2001] u/b/baal/ming_clan/item/ming_mark.c line 237: parse error before =query_idle(users[i]
+
+[Sun Sep 16 17:15:31 2001] u/b/baal/ming_clan/item/ming_mark.c line 238: Illegal LHS before (users[i]->query_tem
+
+[Sun Sep 16 17:15:31 2001] u/b/baal/ming_clan/item/ming_mark.c line 238: parse error before (users[i]->query_tem
+
+[Sun Sep 16 17:15:31 2001] u/b/baal/ming_clan/item/ming_mark.c line 239: Illegal LHS before (users[i]->query_tem
+
+[Sun Sep 16 17:19:24 2001] u/b/baal/ming_clan/item/ming_mark.c line 235: parse error before (users[i]->query_tem
+
+[Sun Sep 16 17:19:24 2001] u/b/baal/ming_clan/item/ming_mark.c line 235: Illegal LHS before the end of line
+
+[Sun Sep 16 17:19:24 2001] u/b/baal/ming_clan/item/ming_mark.c line 250: Reserved type name unexpected. before (string arg)
+
+[Sun Sep 16 17:19:24 2001] u/b/baal/ming_clan/item/ming_mark.c line 250: parse error before (string arg)
+
+[Sun Sep 16 17:19:24 2001] u/b/baal/ming_clan/item/ming_mark.c line 255: Illegal LHS before the end of line
+
+[Sun Sep 16 17:19:24 2001] u/b/baal/ming_clan/item/ming_mark.c line 257: Undefined variable 'arg' before  return notify_fail(
+
+[Sun Sep 16 17:21:27 2001] u/b/baal/ming_clan/item/ming_mark.c line 235: parse error before (users[i]->query_tem
+
+[Sun Sep 16 17:21:27 2001] u/b/baal/ming_clan/item/ming_mark.c line 235: Illegal LHS before the end of line
+
+[Sun Sep 16 17:21:27 2001] u/b/baal/ming_clan/item/ming_mark.c line 250: Reserved type name unexpected. before (string arg)
+
+[Sun Sep 16 17:21:27 2001] u/b/baal/ming_clan/item/ming_mark.c line 250: parse error before (string arg)
+
+[Sun Sep 16 17:21:27 2001] u/b/baal/ming_clan/item/ming_mark.c line 255: Illegal LHS before the end of line
+
+[Sun Sep 16 17:21:27 2001] u/b/baal/ming_clan/item/ming_mark.c line 257: Undefined variable 'arg' before  return notify_fail(
+
+[Sun Sep 16 17:22:53 2001] u/b/baal/ming_clan/item/ming_mark.c line 235: parse error before (users[i]->query_tem
+
+[Sun Sep 16 17:22:53 2001] u/b/baal/ming_clan/item/ming_mark.c line 235: Illegal LHS before the end of line
+
+[Sun Sep 16 17:22:53 2001] u/b/baal/ming_clan/item/ming_mark.c line 235: parse error before the end of line
+
+[Sun Sep 16 17:22:53 2001] u/b/baal/ming_clan/item/ming_mark.c line 236: Illegal LHS before the end of line
+
+[Sun Sep 16 17:22:53 2001] u/b/baal/ming_clan/item/ming_mark.c line 236: parse error before the end of line
+
+[Sun Sep 16 17:22:53 2001] u/b/baal/ming_clan/item/ming_mark.c line 237: Illegal LHS before the end of line
+
+[Sun Sep 16 17:23:11 2001] u/b/baal/ming_clan/item/ming_mark.c line 235: parse error before (users[i]->query_tem
+
+[Sun Sep 16 17:23:11 2001] u/b/baal/ming_clan/item/ming_mark.c line 235: Illegal LHS before the end of line
+
+[Sun Sep 16 17:23:11 2001] u/b/baal/ming_clan/item/ming_mark.c line 250: Reserved type name unexpected. before (string arg)
+
+[Sun Sep 16 17:23:11 2001] u/b/baal/ming_clan/item/ming_mark.c line 250: parse error before (string arg)
+
+[Sun Sep 16 17:23:11 2001] u/b/baal/ming_clan/item/ming_mark.c line 255: Illegal LHS before the end of line
+
+[Sun Sep 16 17:23:11 2001] u/b/baal/ming_clan/item/ming_mark.c line 257: Undefined variable 'arg' before  return notify_fail(
+
+[Sun Sep 16 17:47:19 2001] u/b/baal/area/ugelan/w1st2.c line 38: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Sun Sep 16 17:47:19 2001] u/b/baal/area/ugelan/w1st2.c line 38: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Sun Sep 16 17:47:19 2001] u/b/baal/area/ugelan/w1st2.c line 38: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Sun Sep 16 17:47:19 2001] u/b/baal/area/ugelan/w1st2.c line 38: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Sun Sep 16 17:47:19 2001] u/b/baal/area/ugelan/w1st2.c line 38: Illegal to redefine 'nomask' function "add_light" before the end of line
+
+[Sun Sep 16 17:47:19 2001] u/b/baal/area/ugelan/w1st2.c line 71: Redeclaration of function create. before the end of line
+
+[Sun Sep 16 17:48:01 2001] u/b/baal/area/ugelan/w1st2.c line 37: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Sun Sep 16 17:48:01 2001] u/b/baal/area/ugelan/w1st2.c line 37: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Sun Sep 16 17:48:01 2001] u/b/baal/area/ugelan/w1st2.c line 37: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Sun Sep 16 17:48:01 2001] u/b/baal/area/ugelan/w1st2.c line 37: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Sun Sep 16 17:48:01 2001] u/b/baal/area/ugelan/w1st2.c line 37: Illegal to redefine 'nomask' function "add_light" before the end of line
+
+[Sun Sep 16 17:48:01 2001] u/b/baal/area/ugelan/w1st2.c line 70: Redeclaration of function create. before the end of line
+
+[Sun Sep 16 18:14:27 2001] u/b/baal/area/ugelan/w1st3.c line 21: parse error before ": __DIR__"w1st4",
+
+[Sun Sep 16 18:14:27 2001] u/b/baal/area/ugelan/w1st3.c line 26: Illegal terminator before ­ÓÅK»sªº¤U¤ô¹D»\\¡A¤
+
+[Sun Sep 16 18:15:39 2001] u/b/baal/area/ugelan/w1st3.c line 30: parse error before  "¦b¤H¦æ¹D¨âÃäªº¥W¼Ñ
+
+[Sun Sep 16 18:16:15 2001] u/b/baal/area/ugelan/w1st3.c line 29: parse error before n",
+
+[Sun Sep 16 18:16:15 2001] u/b/baal/area/ugelan/w1st3.c line 30: Illegal terminator before §`¡A¸Ì­±¿n¤F¨Ç¾ð¸­¸ò
+
+[Sun Sep 16 18:50:54 2001] u/b/baal/ming_clan/ming_mark.c line 56: parse error before î¿V°ó","¤Ñ¼Ï°ó","«C¤
+
+[Sun Sep 16 18:50:54 2001] u/b/baal/ming_clan/ming_mark.c line 125: Illegal terminator before ­Ó«Õ«ÕªºÁn­µ: §A, ¦]
+
+[Sun Sep 16 19:08:49 2001] u/b/baal/ming_clan/item/ming_mark.c line 235: parse error before (users[i]->query_tem
+
+[Sun Sep 16 19:08:49 2001] u/b/baal/ming_clan/item/ming_mark.c line 235: Illegal LHS before the end of line
+
+[Sun Sep 16 19:08:49 2001] u/b/baal/ming_clan/item/ming_mark.c line 250: Reserved type name unexpected. before (string arg)
+
+[Sun Sep 16 19:08:49 2001] u/b/baal/ming_clan/item/ming_mark.c line 250: parse error before (string arg)
+
+[Sun Sep 16 19:08:49 2001] u/b/baal/ming_clan/item/ming_mark.c line 255: Illegal LHS before the end of line
+
+[Sun Sep 16 19:08:49 2001] u/b/baal/ming_clan/item/ming_mark.c line 257: Undefined variable 'arg' before  return notify_fail(
+
+[Sun Sep 16 21:31:30 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Sun Sep 16 21:31:30 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Sun Sep 16 21:31:30 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Mon Sep 17 01:20:42 2001] u/b/baal/area/ugelan/npc/obj/gmsoup.c line 16: Undefined variable 'MAG' before  NOR );
+
+[Mon Sep 17 01:20:42 2001] u/b/baal/area/ugelan/npc/obj/gmsoup.c line 16: parse error before  NOR );
+
+[Mon Sep 17 01:21:17 2001] u/b/baal/area/ugelan/npc/obj/gmsoup.c line 16: Undefined variable 'MAG' before  NOR );
+
+[Mon Sep 17 01:21:17 2001] u/b/baal/area/ugelan/npc/obj/gmsoup.c line 16: parse error before  NOR );
+
+[Wed Sep 19 21:39:42 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Wed Sep 19 21:39:42 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Wed Sep 19 21:39:42 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Fri Sep 21 23:50:56 2001] u/b/baal/area/ugelan/npc/brinnkeeper.c line 64: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Fri Sep 21 23:50:56 2001] u/b/baal/area/ugelan/npc/brinnkeeper.c line 64: Illegal to redefine 'nomask' function "query_busy" before the end of line
+
+[Fri Sep 21 23:50:56 2001] u/b/baal/area/ugelan/npc/brinnkeeper.c line 64: Illegal to redefine 'nomask' function "is_busy" before the end of line
+
+[Fri Sep 21 23:50:56 2001] u/b/baal/area/ugelan/npc/brinnkeeper.c line 64: Illegal to redefine 'nomask' function "is_block" before the end of line
+
+[Fri Sep 21 23:50:56 2001] u/b/baal/area/ugelan/npc/brinnkeeper.c line 64: Illegal to redefine 'nomask' function "command_hook" before the end of line
+
+[Fri Sep 21 23:50:56 2001] u/b/baal/area/ugelan/npc/brinnkeeper.c line 64: Illegal to redefine 'nomask' function "set_path" before the end of line
+
+[Sun Sep 23 09:22:49 2001] u/b/baal/area/ugelan/brinn.c line 22: Warning: Unknown \ escape. before hªºªo¦Ã¡A¦ü¥GÁÙ¦³¦å¸
+
+[Sun Sep 23 09:24:00 2001] u/b/baal/area/ugelan/brinn.c line 22: Warning: Unknown \ escape. before \¦hªºªo¦Ã¡A¦ü¥GÁÙ¦³¦
+
+[Sun Sep 23 09:24:00 2001] u/b/baal/area/ugelan/brinn.c line 22: Warning: Unknown \ escape. before hªºªo¦Ã¡A¦ü¥GÁÙ¦³¦å¸
+
+[Sun Sep 23 09:24:42 2001] u/b/baal/area/ugelan/brinn.c line 22: Warning: Unknown \ escape. before h/ªºªo¦Ã¡A¦ü¥GÁÙ¦³¦å
+
+[Sun Sep 23 09:25:06 2001] u/b/baal/area/ugelan/brinn.c line 22: Warning: Unknown \ escape. before ¦hªºªo¦Ã¡A¦ü¥GÁÙ¦³¦å
+
+[Sun Sep 23 20:45:06 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Sun Sep 23 20:45:06 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Sun Sep 23 20:45:06 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Mon Sep 24 00:48:48 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Mon Sep 24 00:48:48 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Mon Sep 24 00:48:48 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Mon Sep 24 00:48:58 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 00:49:02 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 01:09:48 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 01:39:49 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 02:09:50 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 02:24:51 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 02:39:51 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 03:09:52 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 03:39:53 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 04:09:55 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 04:24:55 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 04:39:56 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 04:54:57 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 05:24:58 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 05:39:59 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 06:10:00 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 06:40:01 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 07:10:02 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 07:40:04 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 07:55:04 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 08:10:05 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 08:25:05 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 08:40:06 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 09:10:07 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 09:40:08 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 10:10:09 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 10:25:09 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 10:55:10 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 11:25:11 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 11:55:12 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 12:25:13 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 12:55:14 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 13:25:15 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 13:55:16 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 14:10:17 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 14:40:18 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 15:10:19 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 15:40:20 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 15:55:20 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 16:25:21 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 16:40:22 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 17:10:23 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 17:25:23 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 17:55:24 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 18:25:25 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 18:40:26 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 19:10:27 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 19:40:28 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 19:55:28 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 20:10:29 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 20:40:30 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 21:10:31 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 21:25:31 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 21:40:32 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 22:10:33 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 22:25:33 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 22:40:34 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 22:55:34 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Mon Sep 24 23:40:36 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Tue Sep 25 00:10:37 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Tue Sep 25 00:40:38 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Tue Sep 25 00:55:38 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Tue Sep 25 01:25:40 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Tue Sep 25 01:40:40 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Tue Sep 25 01:55:41 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Tue Sep 25 02:25:42 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Tue Sep 25 02:40:42 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Tue Sep 25 02:55:43 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Tue Sep 25 03:10:43 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Tue Sep 25 03:25:44 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Tue Sep 25 03:55:45 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Tue Sep 25 04:25:46 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Tue Sep 25 04:55:47 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Tue Sep 25 05:25:48 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Tue Sep 25 05:55:49 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Tue Sep 25 06:10:49 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Tue Sep 25 06:40:50 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Tue Sep 25 07:10:51 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Tue Sep 25 07:25:52 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Tue Sep 25 07:40:52 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Tue Sep 25 08:10:53 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Tue Sep 25 08:40:54 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Tue Sep 25 08:55:55 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Tue Sep 25 09:10:55 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Tue Sep 25 10:10:57 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Tue Sep 25 10:25:58 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Tue Sep 25 10:55:59 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Tue Sep 25 11:10:59 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Tue Sep 25 11:26:00 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Tue Sep 25 11:56:01 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Tue Sep 25 12:11:01 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Tue Sep 25 12:41:02 2001] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Wed Sep 26 15:12:41 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Wed Sep 26 15:12:41 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Wed Sep 26 15:12:41 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Mon Oct  1 10:10:29 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Mon Oct  1 10:10:29 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Mon Oct  1 10:10:29 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Sun Oct  7 18:03:03 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Sun Oct  7 18:03:03 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Sun Oct  7 18:03:03 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Wed Oct 10 03:50:24 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Wed Oct 10 03:50:24 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Wed Oct 10 03:50:24 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Wed Oct 17 21:53:40 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Wed Oct 17 21:53:40 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Wed Oct 17 21:53:40 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Tue Oct 30 11:38:09 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Tue Oct 30 11:38:09 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Tue Oct 30 11:38:09 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Sat Nov 10 17:53:07 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Sat Nov 10 17:53:07 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Sat Nov 10 17:53:07 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Thu Dec  6 05:55:44 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Thu Dec  6 05:55:44 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Thu Dec  6 05:55:44 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Sat Dec  8 00:18:06 2001] u/b/baal/area/ugelan/npc/eq/platearmor.c line 7: Warning: Unknown \ escape. before h¾Ô¤h·R¥Îªº¸Ë³Æ¡C\n"
+
+[Sat Dec  8 00:20:47 2001] u/b/baal/area/ugelan/npc/eq/platearmor.c line 7: Warning: Unknown \ escape. before h\¾Ô¤h·R¥Îªº¸Ë³Æ¡C\n
+
+[Sat Dec  8 00:20:47 2001] u/b/baal/area/ugelan/npc/eq/platearmor.c line 7: Warning: Unknown \ escape. before Ô¤h·R¥Îªº¸Ë³Æ¡C\n");
+
+[Sat Dec  8 00:21:37 2001] u/b/baal/area/ugelan/npc/eq/platearmor.c line 7: Warning: Unknown \ escape. before h/¾Ô¤h·R¥Îªº¸Ë³Æ¡C\n
+
+[Sat Dec  8 00:22:07 2001] u/b/baal/area/ugelan/npc/eq/platearmor.c line 7: Warning: Unknown \ escape. before h¾Ô¤h·R¥Îªº¸Ë³Æ¡C\n"
+
+[Sat Dec  8 00:22:47 2001] u/b/baal/area/ugelan/npc/eq/platearmor.c line 7: Warning: Unknown \ escape. before ¦h¾Ô¤h·R¥Îªº¸Ë³Æ¡C\n
+
+[Sat Dec  8 00:23:39 2001] u/b/baal/area/ugelan/npc/eq/platearmor.c line 7: Warning: Unknown \ escape. before ¦h/¾Ô¤h·R¥Îªº¸Ë³Æ¡C\
+
+[Sat Dec  8 00:53:12 2001] u/b/baal/area/ugelan/npc/wp/woodspear.c line 2: parse error before ;
+
+[Sun Dec  9 23:13:10 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Sun Dec  9 23:13:10 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Sun Dec  9 23:13:10 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Sun Dec 16 00:30:26 2001] u/b/baal/area/ugelan/ugw2.c line 33: Undefined variable 'DOOR_CLOSED' before ;
+
+[Sun Dec 16 00:30:26 2001] u/b/baal/area/ugelan/ugw2.c line 33: Undefined function create_door before ;
+
+[Sun Dec 16 00:30:28 2001] u/b/baal/area/ugelan/ugw2.c line 33: Undefined variable 'DOOR_CLOSED' before ;
+
+[Sun Dec 16 00:30:28 2001] u/b/baal/area/ugelan/ugw2.c line 33: Undefined function create_door before ;
+
+[Sun Dec 16 00:30:58 2001] u/b/baal/area/ugelan/ugw2.c line 33: Undefined variable 'DOOR_CLOSED' before ;
+
+[Sun Dec 16 00:30:58 2001] u/b/baal/area/ugelan/ugw2.c line 33: Undefined function create_door before ;
+
+[Sun Dec 16 00:33:23 2001] u/b/baal/area/ugelan/ugwcommand.c line 26: Undefined variable 'DOOR_CLOSED' before ;
+
+[Sun Dec 16 00:33:23 2001] u/b/baal/area/ugelan/ugwcommand.c line 26: Undefined function create_door before ;
+
+[Sun Dec 16 00:33:33 2001] u/b/baal/area/ugelan/ugw2.c line 33: Undefined variable 'DOOR_CLOSED' before ;
+
+[Sun Dec 16 00:33:33 2001] u/b/baal/area/ugelan/ugw2.c line 33: Undefined function create_door before ;
+
+[Sun Dec 16 00:33:33 2001] u/b/baal/area/ugelan/ugw2.c line 33: Undefined variable 'DOOR_CLOSED' before ;
+
+[Sun Dec 16 00:33:33 2001] u/b/baal/area/ugelan/ugw2.c line 33: Undefined function create_door before ;
+
+[Sun Dec 16 00:33:37 2001] u/b/baal/area/ugelan/ugwcommand.c line 26: Undefined variable 'DOOR_CLOSED' before ;
+
+[Sun Dec 16 00:33:37 2001] u/b/baal/area/ugelan/ugwcommand.c line 26: Undefined function create_door before ;
+
+[Sun Dec 16 00:35:02 2001] u/b/baal/area/ugelan/ugwcommand.c line 29: Undefined variable 'DOOR_CLOSED' before ;
+
+[Sun Dec 16 00:35:02 2001] u/b/baal/area/ugelan/ugwcommand.c line 29: Undefined function create_door before ;
+
+[Sat Dec 29 21:27:42 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Sat Dec 29 21:27:42 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Sat Dec 29 21:27:42 2001] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Tue Jan 22 16:14:20 2002] u/b/baal/area/ugelan/ugw3.c line 27: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Tue Jan 22 16:14:20 2002] u/b/baal/area/ugelan/ugw3.c line 27: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Tue Jan 22 16:14:20 2002] u/b/baal/area/ugelan/ugw3.c line 27: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Tue Jan 22 16:14:20 2002] u/b/baal/area/ugelan/ugw3.c line 27: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Tue Jan 22 16:14:20 2002] u/b/baal/area/ugelan/ugw3.c line 27: Illegal to redefine 'nomask' function "add_light" before the end of line
+
+[Tue Jan 22 16:14:20 2002] u/b/baal/area/ugelan/ugw3.c line 55: Redeclaration of function create. before the end of line
+
+[Sun May 26 15:47:20 2002] u/b/baal/mob/cain.c line 2: parse error before  NPC;
+
+[Thu May 30 20:37:59 2002] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Thu May 30 20:37:59 2002] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Thu May 30 20:37:59 2002] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Fri Jul  5 11:35:09 2002] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Fri Jul  5 11:35:09 2002] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Fri Jul  5 11:35:09 2002] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Thu Jul 18 18:04:33 2002] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Thu Jul 18 18:04:33 2002] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Thu Jul 18 18:04:33 2002] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Sun Jul 28 18:29:45 2002] u/b/baal/area/ugelan/fruitstore1.c line 37: parse error before the end of file
+
+[Sun Aug  4 19:35:23 2002] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Sun Aug  4 19:35:23 2002] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Sun Aug  4 19:35:23 2002] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Tue Aug 27 21:11:39 2002] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Tue Aug 27 21:11:39 2002] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Tue Aug 27 21:11:39 2002] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Thu Sep  5 22:52:22 2002] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Thu Sep  5 22:52:22 2002] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Thu Sep  5 22:52:22 2002] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Wed Sep 11 03:40:49 2002] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Wed Sep 11 03:40:49 2002] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Wed Sep 11 03:40:49 2002] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Tue Sep 17 19:30:49 2002] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Tue Sep 17 19:30:49 2002] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Tue Sep 17 19:30:49 2002] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Fri Sep 27 18:51:23 2002] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Fri Sep 27 18:51:23 2002] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Fri Sep 27 18:51:23 2002] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Wed Oct 23 09:16:03 2002] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Wed Oct 23 09:16:03 2002] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Wed Oct 23 09:16:03 2002] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Wed Dec 11 23:12:33 2002] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Wed Dec 11 23:12:33 2002] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Wed Dec 11 23:12:33 2002] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Sat Jan  4 23:45:43 2003] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Sat Jan  4 23:45:43 2003] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Sat Jan  4 23:45:43 2003] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Fri Jan 17 21:23:26 2003] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Fri Jan 17 21:23:26 2003] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Fri Jan 17 21:23:26 2003] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Wed Jan 29 13:43:25 2003] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Wed Jan 29 13:43:25 2003] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Wed Jan 29 13:43:25 2003] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Sat Apr 12 21:04:13 2003] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Sat Apr 12 21:04:13 2003] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Sat Apr 12 21:04:13 2003] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Sat May  3 20:55:04 2003] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Sat May  3 20:55:04 2003] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Sat May  3 20:55:04 2003] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Sun Feb 22 22:30:55 2004] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Sun Feb 22 22:30:55 2004] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Sun Feb 22 22:30:55 2004] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Mon Jul 12 13:17:14 2004] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Mon Jul 12 13:17:14 2004] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Mon Jul 12 13:17:14 2004] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Fri Aug  6 23:13:23 2004] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Fri Aug  6 23:13:23 2004] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Fri Aug  6 23:13:23 2004] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Mon Aug 30 16:25:33 2004] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Mon Aug 30 16:25:33 2004] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Mon Aug 30 16:25:33 2004] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Fri Sep  3 19:41:33 2004] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Fri Sep  3 19:41:33 2004] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Fri Sep  3 19:41:33 2004] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Sat Sep 18 08:40:35 2004] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Sat Sep 18 08:40:35 2004] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Sat Sep 18 08:40:35 2004] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Sun Sep 19 16:31:51 2004] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Sun Sep 19 16:31:51 2004] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Sun Sep 19 16:31:51 2004] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Sun Sep 26 01:51:26 2004] u/b/baal/weapon/item_box.c line 23: Undefined function add_money before ;
+
+[Sun Sep 26 01:53:53 2004] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Sun Sep 26 01:53:53 2004] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Sun Sep 26 01:53:53 2004] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Sat Feb 26 17:15:55 2005] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Sat Feb 26 17:15:55 2005] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Sat Feb 26 17:15:55 2005] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Thu May  5 04:21:42 2005] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Thu May  5 04:21:42 2005] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Thu May  5 04:21:42 2005] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+
+[Thu Sep  1 17:31:32 2005] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before u½Ã\¬O·t´µ¼w¶ðªºªk®v
+
+[Thu Sep  1 17:31:32 2005] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before O·t´µ¼w¶ðªºªk®v­Ì¦b\
+
+[Thu Sep  1 17:31:32 2005] u/b/baal/area/dst/npc/skeguard1.c line 13: Warning: Unknown \ escape. before D¨ì¦MÀI®É©Ò·|©Û³êªº´
+

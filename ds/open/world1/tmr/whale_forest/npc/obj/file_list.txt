@@ -1,0 +1,6 @@
+¥Ø¿ý¡R/d/whale_forest/npc/obj/
+branche.c           ¬\¾ðªK              gloves.c            ºø¥¬¤â®M          
+heaven-sword.c      ­«¼C                heavy-sword.c       ­«¼C              
+pellet.c            ÄH³½¯ó              shortaxe.c          ¤p¤ì©ò            
+shortpike.c         µuºj                steel-gloves.c      ¿û»sµÃ¥Ò          
+

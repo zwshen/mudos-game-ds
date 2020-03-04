@@ -1,0 +1,7 @@
+#/obj/user.c
+conditions ([])
+dbase (["DS_DATA_VERSION":19991107,"default_actions":,"ap":60,"mob_record":({"/open/world1/tmr/area/npc/dog",}),"bank":(["past":0,]),"max_ap":60,"channels":({"chat","rumor","tchat",}),"supply_point":61,"evil":-1,"race":"human","gender":"女性","level":1,"id":"how","talk_point":8,"name":"不惑仙","birthday":1101043346,"heart_modify":0,"last_location":"/open/world1/wu_sha_town/seacoun19","MKS":1,"age":14,"startroom":"/open/world1/tmr/area/hotel","newbie":1,"cure_count":11,"actions":,"mud_age":1358,"hp":80,"exp":1002,"dex":2,"int":2,"con":2,"str":2,"addition_shield":10,"env":([]),"addition_armor":10,"heart_beat_rate":6,"Merits":(["sou":0,"wit":0,"bar":0,"tec":0,"bio":0,]),"guild_gifts":({5,5,5,5,}),"unit":"位","mp":60,"addition_damage":10,"max_hp":80,"wound":(["left_arm":0,"right_leg":0,"left_leg":0,"right_arm":0,"body":0,"head":0,]),"attitude":"peaceful","max_mp":60,"volume":7,])
+skills (["parry":1,"unarmed":1,"sword":1,"combat":1,"dodge":1,"dagger":1,"blade":1,])
+learned (["combat":5,"unarmed":3,])
+alias (["g":"get all","zzz":"inactive","x":"deposit 1000","ato":"do l off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,w,w,w,w,w,n,ne,u,ne,n,nw,sw,u,se,ne,u,w,nw,u,n,n,in,n,n,say 好,l on","r":"recall start","gs123":"do l off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,e,n,e,e,e,e,n,n,e,l on","cw":"do look off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,enter,n,n,n,n,n,n,n,n,look on,l","sa":"sac all","z":"search here",])
+autoload ({"/obj/money/coin:6791",})

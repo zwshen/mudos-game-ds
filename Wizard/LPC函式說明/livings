@@ -1,0 +1,17 @@
+
+	livings(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		livings() - 傳回所有活著 (living) 物件的一個陣列
+	函數語法:
+		object *livings( void );
+
+		物件 *livings( 無參數 );
+	函數用法:
+		傳回指向所有活著物件之指標 (pointer)  的一個陣列.
+		活著的物件是指曾經呼叫過 enable_commands()  的物件.
+	參考函數:
+		enable_commands(3), find_living(3), users(3), 
+		objects(3)
+	手冊翻譯:
+		Phoebus@ZH	97.Feb.18.		(Writen 5/23/97)

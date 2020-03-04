@@ -1,0 +1,18 @@
+
+	apply(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	ㄧ计嘿:
+		apply() - 矪瞶ㄧ计夹 (function pointer).
+	ㄧ计粂猭:
+		mixed apply( mixed f, mixed *args )
+
+		睼 apply( 睼 f, 睼 *args )
+	ㄧ计ノ猭:
+		狦 f 琌ㄧΑ, 碞穦㊣ f ノ皚 args 讽 f
+		把计 (argument).
+
+		〖ㄒ:
+			apply( f, ({ 1, 2, 3 }) ); 籔 
+			evaluate( f, 1, 2, 3 ); 琌.
+	も陆亩:
+		Phoebus@ZH   1997.Aug.14.			(Writen 5/23/97)

@@ -1,0 +1,2 @@
+#/obj/login.c
+dbase (["email":"","id":"jonny","password":"G.LoQQVCr90YM","name":"神諸","race":"human","level":18,"error_login":({"於[Fri Jul 18 12:32:06 2003]嘗試由[KH210-203-54-69.2-4.pl.apol.com.tw]連線進入失敗。","於[Tue Oct 28 13:32:13 2003]嘗試由[163.18.217.97]連線進入失敗。","於[Sat Oct 30 16:34:13 2004]嘗試由[218-172-246-215.dynamic.hinet.net]連線進入失敗。","於[Sun Oct 31 10:49:42 2004]嘗試由[218-172-159-237.dynamic.hinet.net]連線進入失敗。","於[Wed Nov  3 21:20:52 2004]嘗試由[218-172-169-52.dynamic.hinet.net]連線進入失敗。",}),"body":"/obj/user","last_on":1073109338,"last_from":"218-172-171-197.HINET-IP.hinet.net",])

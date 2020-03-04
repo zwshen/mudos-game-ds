@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["int":2,"addition_armor":10,"con":2,"heart_beat_rate":6,"str":2,"max_ap":60,"supply_point":2,"age":14,"guild_gifts":({5,5,5,5,}),"addition_damage":10,"Merits":(["wit":0,"bar":0,"bio":0,"tec":0,"sou":0,]),"channels":({"chat","rumor","tchat",}),"max_hp":80,"ap":60,"race":"human","level":1,"cure_count":1,"talk_point":1,"actions":,"attitude":"peaceful","gender":"女性","birthday":1109512839,"id":"stojakovic","name":"桐文劍儒","max_mp":60,"volume":7,"mud_age":12,"startroom":"/open/world2/lichi_town_2/map_5_26","evil":-1,"default_actions":,"unit":"位","newbie":1,"hp":80,"addition_shield":10,"mp":60,"exp":777,"DS_DATA_VERSION":19991107,"dex":2,])
+autoload ({})

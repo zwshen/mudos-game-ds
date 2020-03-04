@@ -1,0 +1,38 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=bg2312">
+   <META NAME="Author" CONTENT="Spock">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.01 [en] (Win95; I) [Netscape]">
+   <TITLE>MudOS v21c2 参考文件 - applies - master - slow_shutdown</TITLE>
+</HEAD>
+<BODY TEXT="#CCFFFF" BGCOLOR="#000000" LINK="#33FF33" VLINK="#FF0000" ALINK="#33CCFF" BACKGROUND="../../../image/ff/fftitleback.jpg" NOSAVE>
+
+<CENTER><FONT COLOR="#FF99FF"><FONT SIZE=+3>slow_shutdown(4) MudOS v21c2　
+(5 Sep 1994)</FONT></FONT></CENTER>
+
+<HR WIDTH="100%">
+<BR><FONT COLOR="#FFFFCC">　名称:</FONT>
+<UL>　 slow_shutdown - 告知 mud　 目前正处于缓慢关闭 (slow shutdown) 的过程中.</UL>
+<FONT COLOR="#FFFFCC">　语法:</FONT>
+<UL>　 void slow_shutdown( int minutes );
+
+<P>　 无返回值 slow_shutdown( 整数 minutes );</UL>
+<FONT COLOR="#FFFFCC">　用法:</FONT>
+<UL>　 当驱动程序无法从堆 (heap) 中配置 (allocate) 更多的内存, 而只能使用保留的内存区块
+(memory block) 时, 主控物件会调用此函数. 此函数只有在组态文件中设定了「内存区块保留大小」(译按:
+原名 "reserved memory" ) 才会被调用. 距离关闭时间还剩下几分钟则为此函数的参数.</UL>
+<FONT COLOR="#FFFFCC">　参考:</FONT>
+<UL>　 <A HREF="crash.html">crash(4)</A>, <A HREF="../../efuns/system/shutdown.html">shutdown(3)</A></UL>
+<FONT COLOR="#FFFFCC">　翻译:</FONT>
+<UL>　 Spock @ FF 97.Aug.6.　 (printed 3/16/95)</UL>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+<CENTER><A HREF="../master.html">回到上一页</A></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+</BODY>
+</HTML>

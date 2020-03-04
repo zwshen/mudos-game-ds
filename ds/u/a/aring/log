@@ -1,0 +1,776 @@
+[Thu Jan  6 14:21:02 2005] u/a/aring/workroom.c line 2: parse error before  create() 
+
+[Thu Jan  6 14:21:30 2005] u/a/aring/workroom.c line 6: Warning: Unknown \ escape. before C
+
+[Thu Jan  6 14:21:48 2005] u/a/aring/workroom.c line 6: Warning: Unknown \ escape. before ½¾\¡C
+
+[Thu Jan  6 14:21:48 2005] u/a/aring/workroom.c line 6: Warning: Unknown \ escape. before C
+
+[Thu Jan  6 14:22:00 2005] u/a/aring/workroom.c line 6: Warning: Unknown \ escape. before \¡C
+
+[Thu Jan  6 14:22:00 2005] u/a/aring/workroom.c line 6: Warning: Unknown \ escape. before C
+
+[Thu Jan  6 14:22:10 2005] u/a/aring/workroom.c line 6: Warning: Unknown \ escape. before C
+
+[Thu Jan  6 14:22:14 2005] u/a/aring/workroom.c line 6: Warning: Unknown \ escape. before C
+
+[Thu Jan  6 14:23:51 2005] u/a/aring/aring_b.c line 16: parse error before the end of file
+
+[Thu Jan  6 14:24:25 2005] u/a/aring/aring_b.c line 17: parse error before the end of file
+
+[Thu Jan  6 14:26:29 2005] u/a/aring/workroom.c line 19: parse error before , "???");
+
+[Wed Feb  9 02:08:51 2005] u/a/aring/packet.c line 16: Reserved type name unexpected. before ()
+
+[Wed Feb  9 02:08:51 2005] u/a/aring/packet.c line 16: parse error before ()
+
+[Wed Feb  9 02:08:51 2005] u/a/aring/packet.c line 53: parse error before the end of file
+
+[Wed Feb  9 02:09:54 2005] u/a/aring/packet.c line 17: Reserved type name unexpected. before ()
+
+[Wed Feb  9 02:09:54 2005] u/a/aring/packet.c line 17: parse error before ()
+
+[Wed Feb  9 02:09:54 2005] u/a/aring/packet.c line 54: parse error before the end of file
+
+[Wed Feb  9 02:10:44 2005] u/a/aring/packet.c line 21: No such inherited function ::init before ;
+
+[Wed Feb  9 02:10:44 2005] u/a/aring/packet.c line 55: parse error before the end of file
+
+[Wed Feb  9 02:11:12 2005] u/a/aring/packet.c line 20: No such inherited function ::init before ;
+
+[Wed Feb  9 02:11:12 2005] u/a/aring/packet.c line 54: parse error before the end of file
+
+[Wed Feb  9 02:11:32 2005] u/a/aring/packet.c line 49: parse error before ",temp); //Àx¦s¬ö¿ý
+
+[Wed Feb  9 02:11:32 2005] u/a/aring/packet.c line 53: End of file in string before ¦s¬ö¿ý
+
+[Wed Feb  9 02:13:57 2005] u/a/aring/packet.c line 20: No such inherited function ::init before ;
+
+[Wed Feb  9 02:13:57 2005] u/a/aring/packet.c line 55: parse error before the end of file
+
+[Wed Feb  9 02:15:33 2005] u/a/aring/packet.c line 50: Undefined variable 'lis' before ()->set("gived",temp
+
+[Wed Feb  9 02:15:33 2005] u/a/aring/packet.c line 50: parse error before ()->set("gived",temp
+
+[Wed Feb  9 02:17:06 2005] u/a/aring/packet.c line 53: parse error before the end of file
+
+[Wed Feb  9 02:19:18 2005] u/a/aring/packet.c line 52: parse error before the end of file
+
+[Wed Feb  9 02:20:37 2005] u/a/aring/packet.c line 49: parse error before ",temp); //Àx¦s¬ö¿ý
+
+[Wed Feb  9 02:20:37 2005] u/a/aring/packet.c line 55: End of file in string before tp(weapon = ob->quer
+
+[Wed Feb  9 02:24:48 2005] u/a/aring/test.c line 21: parse error before the end of line
+
+[Wed Feb  9 02:24:48 2005] u/a/aring/test.c line 28: Illegal LHS before *temp=({});
+
+[Wed Feb  9 02:24:48 2005] u/a/aring/test.c line 28: parse error before temp=({});
+
+[Wed Feb  9 02:24:48 2005] u/a/aring/test.c line 28: Illegal LHS before the end of line
+
+[Wed Feb  9 02:24:48 2005] u/a/aring/test.c line 29: Reserved type name unexpected. before ppl,cake;
+
+[Wed Feb  9 02:24:48 2005] u/a/aring/test.c line 29: parse error before ppl,cake;
+
+[Wed Feb  9 02:41:27 2005] u/a/aring/test.c line 74: Undefined variable 'target' before query_condition("poi
+
+[Wed Feb  9 02:41:27 2005] u/a/aring/test.c line 74: parse error before ;
+
+[Wed Feb  9 02:41:27 2005] u/a/aring/test.c line 96: Illegal LHS before the end of line
+
+[Wed Feb  9 02:41:43 2005] u/a/aring/test.c line 74: parse error before ;
+
+[Wed Feb  9 02:41:43 2005] u/a/aring/test.c line 96: Illegal LHS before the end of line
+
+[Wed Feb  9 02:43:16 2005] u/a/aring/test.c line 74: parse error before ;
+
+[Wed Feb  9 02:43:16 2005] u/a/aring/test.c line 96: Illegal LHS before the end of line
+
+[Wed Feb  9 02:44:28 2005] u/a/aring/test.c line 73: Undefined variable 'target' before query("hp")/10);
+
+[Wed Feb  9 02:46:02 2005] u/a/aring/test.c line 113: Overlapping cases: include/globals.h: and include/globals.h:. before the end of line
+
+[Wed Feb  9 02:46:23 2005] u/a/aring/test.c line 73: parse error before ;
+
+[Wed Feb  9 02:46:23 2005] u/a/aring/test.c line 94: Illegal LHS before the end of line
+
+[Wed Feb  9 02:48:21 2005] u/a/aring/test.c line 86: Undefined variable 'rand' before ("world:world1:visio
+
+[Wed Feb  9 02:48:21 2005] u/a/aring/test.c line 86: parse error before ("world:world1:visio
+
+[Wed Feb  9 02:48:21 2005] u/a/aring/test.c line 94: Illegal LHS before the end of line
+
+[Wed Feb  9 02:48:21 2005] u/a/aring/test.c line 94: parse error before the end of line
+
+[Wed Feb  9 02:48:21 2005] u/a/aring/test.c line 99: Illegal LHS before the end of line
+
+[Wed Feb  9 02:48:21 2005] u/a/aring/test.c line 99: parse error before the end of line
+
+[Wed Feb  9 02:48:39 2005] u/a/aring/test.c line 86: Undefined variable 'rand' before ("world:world1:visio
+
+[Wed Feb  9 02:48:39 2005] u/a/aring/test.c line 86: parse error before ("world:world1:visio
+
+[Wed Feb  9 02:48:39 2005] u/a/aring/test.c line 94: Illegal LHS before the end of line
+
+[Wed Feb  9 02:48:39 2005] u/a/aring/test.c line 94: parse error before the end of line
+
+[Wed Feb  9 02:48:39 2005] u/a/aring/test.c line 99: Illegal LHS before the end of line
+
+[Wed Feb  9 02:48:39 2005] u/a/aring/test.c line 99: parse error before the end of line
+
+[Wed Feb  9 02:56:07 2005] u/a/aring/test.c line 1: parse error before include <ansi.h>
+
+[Wed Feb  9 02:56:32 2005] u/a/aring/test.c line 46: parse error before Óª±®a§C¯Å¬õ¥]¡C\n"NO
+
+[Wed Feb  9 02:56:32 2005] u/a/aring/test.c line 61: Illegal terminator before ...\n");
+
+[Wed Feb  9 03:05:06 2005] u/a/aring/test.c line 85: Left argument of -> is not a class before (HIC"$N¥´¶}¤F"HIR"¬õ
+
+[Wed Feb  9 03:05:06 2005] u/a/aring/test.c line 85: parse error before (HIC"$N¥´¶}¤F"HIR"¬õ
+
+[Wed Feb  9 03:05:06 2005] u/a/aring/test.c line 88: Illegal LHS before the end of line
+
+[Wed Feb  9 03:25:02 2005] u/a/aring/test.c line 87: parse error before the end of line
+
+[Wed Feb  9 03:25:02 2005] u/a/aring/test.c line 88: Illegal LHS before the end of line
+
+[Wed Feb  9 03:26:18 2005] u/a/aring/test.c line 87: parse error before the end of line
+
+[Wed Feb  9 03:26:18 2005] u/a/aring/test.c line 88: Illegal LHS before the end of line
+
+[Wed Feb  9 03:31:28 2005] u/a/aring/tt.c line 107: Overlapping cases: include/globals.h: and include/globals.h:. before the end of line
+
+[Wed Feb  9 03:34:41 2005] u/a/aring/packet.c line 46: parse error before Óª±®a§C¯Å¬õ¥]¡C\n"NO
+
+[Wed Feb  9 03:34:41 2005] u/a/aring/packet.c line 61: Illegal terminator before ...\n");
+
+[Wed Feb  9 03:42:03 2005] u/a/aring/packet.c line 20: No such inherited function ::init before ;
+
+[Wed Feb  9 03:42:03 2005] u/a/aring/packet.c line 49: parse error before Óª±®a¬õ¥]¡C\n"NOR);
+
+[Wed Feb  9 03:42:03 2005] u/a/aring/packet.c line 65: Illegal terminator before ...\n");
+
+[Wed Feb  9 03:42:31 2005] u/a/aring/packet.c line 46: parse error before  else               
+
+[Wed Feb  9 03:42:31 2005] u/a/aring/packet.c line 48: parse error before Óª±®a¬õ¥]¡C\n"NOR);
+
+[Wed Feb  9 03:42:31 2005] u/a/aring/packet.c line 64: Illegal terminator before ...\n");
+
+[Wed Feb  9 03:43:28 2005] u/a/aring/packet.c line 46: parse error before  else               
+
+[Wed Feb  9 03:43:28 2005] u/a/aring/packet.c line 54: Reserved type name unexpected. before (string str)
+
+[Wed Feb  9 03:43:28 2005] u/a/aring/packet.c line 54: parse error before (string str)
+
+[Wed Feb  9 03:43:28 2005] u/a/aring/packet.c line 58: Illegal LHS before  
+
+[Wed Feb  9 03:43:28 2005] u/a/aring/packet.c line 59: Undefined variable 'me' before  this_player();
+
+[Wed Feb  9 03:43:28 2005] u/a/aring/packet.c line 61: Undefined variable 'str' before  str != "packet")
+
+[Wed Feb  9 03:45:10 2005] u/a/aring/packet.c line 112: parse error before  1;
+
+[Wed Feb  9 09:52:51 2005] u/a/aring/packet.c line 53: parse error before ->receive_wound("rig
+
+[Wed Feb  9 09:52:51 2005] u/a/aring/packet.c line 62: Illegal LHS before the end of line
+
+[Wed Feb  9 09:52:51 2005] u/a/aring/packet.c line 62: parse error before the end of line
+
+[Wed Feb  9 09:52:51 2005] u/a/aring/packet.c line 67: Illegal LHS before the end of line
+
+[Wed Feb  9 09:52:51 2005] u/a/aring/packet.c line 67: parse error before the end of line
+
+[Wed Feb  9 09:52:51 2005] u/a/aring/packet.c line 72: Illegal LHS before the end of line
+
+[Wed Feb  9 09:53:53 2005] u/a/aring/packet.c line 53: parse error before ->receive_wound("rig
+
+[Wed Feb  9 09:53:53 2005] u/a/aring/packet.c line 62: Illegal LHS before the end of line
+
+[Wed Feb  9 09:54:11 2005] u/a/aring/packet.c line 53: parse error before ->receive_wound("rig
+
+[Wed Feb  9 09:54:11 2005] u/a/aring/packet.c line 62: Illegal LHS before the end of line
+
+[Wed Feb  9 09:54:13 2005] u/a/aring/packet.c line 53: parse error before ->receive_wound("rig
+
+[Wed Feb  9 09:54:13 2005] u/a/aring/packet.c line 62: Illegal LHS before the end of line
+
+[Wed Feb  9 09:54:17 2005] u/a/aring/packet.c line 53: parse error before ->receive_wound("rig
+
+[Wed Feb  9 09:54:17 2005] u/a/aring/packet.c line 62: Illegal LHS before the end of line
+
+[Wed Feb  9 09:55:15 2005] u/a/aring/packet.c line 53: parse error before ->receive_wound("rig
+
+[Wed Feb  9 09:55:15 2005] u/a/aring/packet.c line 62: Illegal LHS before the end of line
+
+[Wed Feb  9 09:55:17 2005] u/a/aring/packet.c line 53: parse error before ->receive_wound("rig
+
+[Wed Feb  9 09:55:17 2005] u/a/aring/packet.c line 62: Illegal LHS before the end of line
+
+[Wed Feb  9 09:55:27 2005] u/a/aring/packet.c line 53: parse error before ->receive_wound("rig
+
+[Wed Feb  9 09:55:27 2005] u/a/aring/packet.c line 62: Illegal LHS before the end of line
+
+[Wed Feb  9 09:56:56 2005] u/a/aring/packet.c line 53: parse error before ->receive_wound("rig
+
+[Wed Feb  9 09:56:56 2005] u/a/aring/packet.c line 62: Illegal LHS before the end of line
+
+[Wed Feb  9 09:57:34 2005] u/a/aring/packet.c line 53: parse error before ->receive_wound("rig
+
+[Wed Feb  9 09:57:34 2005] u/a/aring/packet.c line 62: Illegal LHS before the end of line
+
+[Wed Feb  9 09:58:16 2005] u/a/aring/packet.c line 53: parse error before ->receive_wound("rig
+
+[Wed Feb  9 09:58:16 2005] u/a/aring/packet.c line 62: Illegal LHS before the end of line
+
+[Wed Feb  9 10:00:13 2005] u/a/aring/packet.c line 52: Undefined variable 'random' before ->receive_wound("lef
+
+[Wed Feb  9 10:00:13 2005] u/a/aring/packet.c line 52: parse error before ->receive_wound("lef
+
+[Wed Feb  9 10:00:13 2005] u/a/aring/packet.c line 62: Illegal LHS before the end of line
+
+[Wed Feb  9 10:00:13 2005] u/a/aring/packet.c line 62: parse error before the end of line
+
+[Wed Feb  9 10:00:13 2005] u/a/aring/packet.c line 67: Illegal LHS before the end of line
+
+[Wed Feb  9 10:00:13 2005] u/a/aring/packet.c line 67: parse error before the end of line
+
+[Wed Feb  9 10:00:29 2005] u/a/aring/packet.c line 52: Undefined variable 'random' before ->receive_wound("lef
+
+[Wed Feb  9 10:00:29 2005] u/a/aring/packet.c line 52: parse error before ->receive_wound("lef
+
+[Wed Feb  9 10:00:29 2005] u/a/aring/packet.c line 62: Illegal LHS before the end of line
+
+[Wed Feb  9 10:00:29 2005] u/a/aring/packet.c line 62: parse error before the end of line
+
+[Wed Feb  9 10:00:29 2005] u/a/aring/packet.c line 67: Illegal LHS before the end of line
+
+[Wed Feb  9 10:00:29 2005] u/a/aring/packet.c line 67: parse error before the end of line
+
+[Wed Feb  9 10:00:37 2005] u/a/aring/packet.c line 52: Undefined variable 'random' before ->receive_wound("lef
+
+[Wed Feb  9 10:00:37 2005] u/a/aring/packet.c line 52: parse error before ->receive_wound("lef
+
+[Wed Feb  9 10:00:37 2005] u/a/aring/packet.c line 62: Illegal LHS before the end of line
+
+[Wed Feb  9 10:00:37 2005] u/a/aring/packet.c line 62: parse error before the end of line
+
+[Wed Feb  9 10:00:37 2005] u/a/aring/packet.c line 67: Illegal LHS before the end of line
+
+[Wed Feb  9 10:00:37 2005] u/a/aring/packet.c line 67: parse error before the end of line
+
+[Wed Feb  9 10:01:57 2005] u/a/aring/packet.c line 52: Undefined variable 'random' before ->receive_wound("lef
+
+[Wed Feb  9 10:01:57 2005] u/a/aring/packet.c line 52: parse error before ->receive_wound("lef
+
+[Wed Feb  9 10:01:57 2005] u/a/aring/packet.c line 62: Illegal LHS before the end of line
+
+[Wed Feb  9 10:01:57 2005] u/a/aring/packet.c line 62: parse error before the end of line
+
+[Wed Feb  9 10:01:57 2005] u/a/aring/packet.c line 67: Illegal LHS before the end of line
+
+[Wed Feb  9 10:01:57 2005] u/a/aring/packet.c line 67: parse error before the end of line
+
+[Wed Feb  9 10:05:01 2005] u/a/aring/packet.c line 52: Undefined variable 'random' before ->receive_wound("lef
+
+[Wed Feb  9 10:05:01 2005] u/a/aring/packet.c line 52: parse error before ->receive_wound("lef
+
+[Wed Feb  9 10:05:01 2005] u/a/aring/packet.c line 62: Illegal LHS before the end of line
+
+[Wed Feb  9 10:05:01 2005] u/a/aring/packet.c line 62: parse error before the end of line
+
+[Wed Feb  9 10:05:01 2005] u/a/aring/packet.c line 67: Illegal LHS before the end of line
+
+[Wed Feb  9 10:05:01 2005] u/a/aring/packet.c line 67: parse error before the end of line
+
+[Fri Feb 11 01:49:38 2005] u/a/aring/symbol.c line 188: Undefined variable 'BLINK' before +"[1;33m"        ,in
+
+[Fri Feb 11 01:49:38 2005] u/a/aring/symbol.c line 188: parse error before +"[1;33m"        ,in
+
+[Fri Feb 11 01:49:38 2005] u/a/aring/symbol.c line 219: Illegal LHS before the end of line
+
+[Fri Feb 11 01:49:38 2005] u/a/aring/symbol.c line 219: parse error before the end of line
+
+[Fri Feb 11 01:49:38 2005] u/a/aring/symbol.c line 224: Undefined variable 'symbol' before ["lv"]-30;
+
+[Fri Feb 11 01:49:38 2005] u/a/aring/symbol.c line 224: Illegal LHS before the end of line
+
+[Tue Jul  5 14:43:10 2005] u/a/aring/workroom.c line 20: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Tue Jul  5 14:43:10 2005] u/a/aring/workroom.c line 20: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Tue Jul  5 14:43:10 2005] u/a/aring/workroom.c line 20: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Tue Jul  5 14:43:10 2005] u/a/aring/workroom.c line 20: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Tue Jul  5 14:43:10 2005] u/a/aring/workroom.c line 20: Illegal to redefine 'nomask' function "add_light" before the end of line
+
+[Tue Jul  5 14:43:10 2005] u/a/aring/workroom.c line 37: Redeclaration of function create. before the end of line
+
+[Tue Jul  5 14:45:49 2005] u/a/aring/workroom.c line 20: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Tue Jul  5 14:45:49 2005] u/a/aring/workroom.c line 20: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Tue Jul  5 14:45:49 2005] u/a/aring/workroom.c line 20: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Tue Jul  5 14:45:49 2005] u/a/aring/workroom.c line 20: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Tue Jul  5 14:45:49 2005] u/a/aring/workroom.c line 20: Illegal to redefine 'nomask' function "add_light" before the end of line
+
+[Tue Jul  5 14:45:49 2005] u/a/aring/workroom.c line 37: Redeclaration of function create. before the end of line
+
+[Tue Aug  9 14:22:23 2005] u/a/aring/tomb/8.c line 22: End of file in text block before nt(item, me);
+
+[Tue Aug  9 14:22:23 2005] u/a/aring/tomb/8.c line 22: parse error before nt(item, me);
+
+[Tue Aug  9 14:23:03 2005] u/a/aring/tomb/8.c line 22: End of file in text block before  1;
+
+[Tue Aug  9 14:23:03 2005] u/a/aring/tomb/8.c line 22: parse error before  1;
+
+[Tue Aug  9 14:34:59 2005] u/a/aring/tomb/13.c line 10: parse error before C
+
+[Tue Aug  9 14:34:59 2005] u/a/aring/tomb/13.c line 24: End of file in string before ");
+
+[Tue Aug  9 14:35:27 2005] u/a/aring/tomb/13.c line 10: parse error before C
+
+[Tue Aug  9 14:35:27 2005] u/a/aring/tomb/13.c line 23: End of file in string before 	"/std/room");
+
+[Tue Aug  9 16:23:27 2005] u/a/aring/test.c line 61: parse error before ("¡i¨t²Î°T®§¡j§ä´M¦¹
+
+[Tue Aug  9 16:23:27 2005] u/a/aring/test.c line 67: Illegal LHS before i<4;i++)
+
+[Tue Aug  9 16:23:27 2005] u/a/aring/test.c line 68: Illegal LHS before the end of line
+
+[Tue Aug  9 16:23:27 2005] u/a/aring/test.c line 68: parse error before the end of line
+
+[Tue Aug  9 16:23:27 2005] u/a/aring/test.c line 69: Illegal LHS before i<sizeof(obs);i++)
+
+[Tue Aug  9 16:23:27 2005] u/a/aring/test.c line 72: Illegal LHS before the end of line
+
+[Tue Aug  9 16:58:55 2005] u/a/aring/promise/7-tower/testroom.c line 53: parse error before  
+
+[Fri Aug 19 20:58:29 2005] u/a/aring/free.c line 54: parse error before A¿ô¨Ó®ÉµoÄ±¦Û¤v¤w³Q½
+
+[Fri Aug 19 20:58:29 2005] u/a/aring/free.c line 54: Illegal terminator before ¸}¡C\n"
+
+[Fri Aug 19 21:03:01 2005] u/a/aring/free.c line 56: parse error before A¿ô¨Ó®ÉµoÄ±¦Û¤v¤w³Q½
+
+[Fri Aug 19 21:03:01 2005] u/a/aring/free.c line 56: Illegal terminator before ¸}¡C\n"
+
+[Fri Aug 19 22:04:37 2005] u/a/aring/tt.c line 55: parse error before A¿ô¨Ó®ÉµoÄ±¦Û¤v¤w³Q½
+
+[Fri Aug 19 22:04:37 2005] u/a/aring/tt.c line 55: Illegal terminator before ¸}¡C\n"
+
+[Fri Aug 19 22:05:47 2005] u/a/aring/tt.c line 57: Undefined variable 'targ' before  1;
+
+[Fri Aug 19 22:05:47 2005] u/a/aring/tt.c line 57: parse error before  1;
+
+[Tue Aug 23 00:50:26 2005] u/a/aring/tomb/5.c line 27: End of file in text block before phase)
+
+[Tue Aug 23 00:50:26 2005] u/a/aring/tomb/5.c line 27: parse error before phase)
+
+[Tue Aug 23 00:50:26 2005] u/a/aring/tomb/5.c line 27: End of file in text block before phase)
+
+[Tue Aug 23 00:50:26 2005] u/a/aring/tomb/5.c line 27: parse error before phase)
+
+[Tue Aug 23 00:50:26 2005] u/a/aring/tomb/5.c line 27: End of file in text block before phase)
+
+[Tue Aug 23 00:50:26 2005] u/a/aring/tomb/5.c line 27: parse error before phase)
+
+[Tue Aug 23 00:50:36 2005] u/a/aring/tomb/5.c line 27: End of file in text block before    40,
+
+[Tue Aug 23 00:50:36 2005] u/a/aring/tomb/5.c line 27: parse error before    40,
+
+[Tue Aug 23 00:50:38 2005] u/a/aring/tomb/5.c line 27: End of file in text block before    40,
+
+[Tue Aug 23 00:50:38 2005] u/a/aring/tomb/5.c line 27: parse error before    40,
+
+[Tue Aug 23 00:50:38 2005] u/a/aring/tomb/5.c line 27: End of file in text block before    40,
+
+[Tue Aug 23 00:50:38 2005] u/a/aring/tomb/5.c line 27: parse error before    40,
+
+[Tue Aug 23 00:50:38 2005] u/a/aring/tomb/5.c line 27: End of file in text block before    40,
+
+[Tue Aug 23 00:50:38 2005] u/a/aring/tomb/5.c line 27: parse error before    40,
+
+[Tue Aug 23 00:50:50 2005] u/a/aring/tomb/5.c line 27: End of file in text block before  = present(arg, envi
+
+[Tue Aug 23 00:50:50 2005] u/a/aring/tomb/5.c line 27: parse error before  = present(arg, envi
+
+[Tue Aug 23 00:50:50 2005] u/a/aring/tomb/5.c line 27: End of file in text block before  = present(arg, envi
+
+[Tue Aug 23 00:50:50 2005] u/a/aring/tomb/5.c line 27: parse error before  = present(arg, envi
+
+[Tue Aug 23 00:50:50 2005] u/a/aring/tomb/5.c line 27: End of file in text block before  = present(arg, envi
+
+[Tue Aug 23 00:50:50 2005] u/a/aring/tomb/5.c line 27: parse error before  = present(arg, envi
+
+[Tue Aug 23 00:51:08 2005] u/a/aring/tomb/5.c line 27: End of file in text block before ¤å¦r¥[¤W§Aªº©m¦W«áÅã
+
+[Tue Aug 23 00:51:08 2005] u/a/aring/tomb/5.c line 27: parse error before ¤å¦r¥[¤W§Aªº©m¦W«áÅã
+
+[Tue Aug 23 00:51:36 2005] u/a/aring/tomb/5.c line 27: End of file in text block before ¤å¦r¥[¤W§Aªº©m¦W«áÅã
+
+[Tue Aug 23 00:51:36 2005] u/a/aring/tomb/5.c line 27: parse error before ¤å¦r¥[¤W§Aªº©m¦W«áÅã
+
+[Tue Aug 23 00:51:36 2005] u/a/aring/tomb/5.c line 27: End of file in text block before ¤å¦r¥[¤W§Aªº©m¦W«áÅã
+
+[Tue Aug 23 00:51:36 2005] u/a/aring/tomb/5.c line 27: parse error before ¤å¦r¥[¤W§Aªº©m¦W«áÅã
+
+[Tue Aug 23 00:51:38 2005] u/a/aring/tomb/5.c line 27: End of file in text block before ¤å¦r¥[¤W§Aªº©m¦W«áÅã
+
+[Tue Aug 23 00:51:38 2005] u/a/aring/tomb/5.c line 27: parse error before ¤å¦r¥[¤W§Aªº©m¦W«áÅã
+
+[Tue Aug 23 00:52:06 2005] u/a/aring/tomb/5.c line 27: End of file in text block before ¤å¦r¥[¤W§Aªº©m¦W«áÅã
+
+[Tue Aug 23 00:52:06 2005] u/a/aring/tomb/5.c line 27: parse error before ¤å¦r¥[¤W§Aªº©m¦W«áÅã
+
+[Tue Aug 23 01:18:53 2005] u/a/aring/tomb/5.c line 27: End of file in text block before e" : 1,
+
+[Tue Aug 23 01:18:53 2005] u/a/aring/tomb/5.c line 27: parse error before e" : 1,
+
+[Tue Nov  1 19:33:04 2005] u/a/aring/test.c line 1: parse error before include <ansi.h>
+
+[Tue Nov  1 19:33:30 2005] u/a/aring/test.c line 1: parse error before include <weapon.h>
+
+[Tue Nov  1 19:34:09 2005] u/a/aring/test.c line 1: parse error before include <ansi.h>
+
+[Tue Nov  1 19:56:36 2005] u/a/aring/tc.c line 1: parse error before include <ansi.h>
+
+[Tue Nov  1 20:02:56 2005] u/a/aring/cm.c line 1: parse error before include <armor.h>
+
+[Sat Jan 21 01:03:46 2006] u/a/aring/promise/ygo/new/pk_ob.c line 534: Warning: Unknown \ escape. before W\¤@±i¥d¡I\n",me);
+
+[Sat Jan 21 01:03:46 2006] u/a/aring/promise/ygo/new/pk_ob.c line 534: Warning: Unknown \ escape. before @±i¥d¡I\n",me);
+
+[Mon Jan 23 03:34:21 2006] u/a/aring/test.c line 2: parse error before include <ansi.h>
+
+[Mon Jan 23 03:34:53 2006] u/a/aring/test.c line 1: parse error before include <ansi.h> 
+
+[Mon Jan 23 03:36:23 2006] u/a/aring/test.c line 2: parse error before include <ansi.h>
+
+[Sat Jan 28 18:38:18 2006] u/a/aring/red-packet.c line 1: parse error before include <ansi.h>
+
+[Mon Feb 13 21:29:32 2006] u/a/aring/test.c line 2: parse error before  ROOM;
+
+[Tue Feb 14 03:11:50 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Tue Feb 14 03:11:50 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Thu Feb 16 16:35:58 2006] u/a/aring/bag.c line 1: parse error before include <ansi.h>;
+
+[Thu Feb 16 16:37:50 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Thu Feb 16 16:37:50 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Thu Feb 16 16:38:24 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Thu Feb 16 16:38:24 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Thu Feb 16 16:38:30 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Thu Feb 16 16:38:30 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Thu Feb 16 16:38:32 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Thu Feb 16 16:38:32 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Thu Feb 16 16:38:32 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Thu Feb 16 16:38:32 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Thu Feb 16 16:38:32 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Thu Feb 16 16:38:32 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Thu Feb 16 16:38:34 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Thu Feb 16 16:38:34 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Thu Feb 16 16:38:34 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Thu Feb 16 16:38:34 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Thu Feb 16 16:38:34 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Thu Feb 16 16:38:34 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Thu Feb 16 16:38:34 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Thu Feb 16 16:38:34 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Thu Feb 16 16:38:34 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Thu Feb 16 16:38:34 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Thu Feb 16 16:38:34 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Thu Feb 16 16:38:34 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Thu Feb 16 16:38:36 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Thu Feb 16 16:38:36 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Thu Feb 16 16:38:43 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Thu Feb 16 16:38:43 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Thu Feb 16 18:55:40 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Thu Feb 16 18:55:40 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Sun Feb 19 03:22:27 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Sun Feb 19 03:22:27 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Sun Feb 19 22:46:40 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Sun Feb 19 22:46:40 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Thu Feb 23 01:32:30 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Thu Feb 23 01:32:30 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Fri Feb 24 23:13:38 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Fri Feb 24 23:13:38 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Sat Feb 25 21:40:44 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Sat Feb 25 21:40:44 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Mon Feb 27 20:01:06 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Mon Feb 27 20:01:06 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Mon Feb 27 20:17:39 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Mon Feb 27 20:17:39 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Thu Mar  2 00:34:49 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Thu Mar  2 00:34:49 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Thu Mar  2 04:09:54 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Thu Mar  2 04:09:54 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Fri Mar  3 20:35:57 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Fri Mar  3 20:35:57 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Sun Mar  5 14:54:35 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Sun Mar  5 14:54:35 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Sun Mar  5 20:51:20 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Sun Mar  5 20:51:20 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Mon Mar  6 02:27:05 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Mon Mar  6 02:27:05 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Mon Mar  6 13:44:09 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Mon Mar  6 13:44:09 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Tue Mar  7 01:13:04 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Tue Mar  7 01:13:04 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Wed Mar  8 02:38:16 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Wed Mar  8 02:38:16 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Wed Mar  8 02:50:25 2006] u/a/aring/pp.c line 104: parse error before the end of line
+
+[Wed Mar  8 02:53:30 2006] u/a/aring/pp.c line 44: parse error before the end of line
+
+[Wed Mar  8 03:01:30 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Wed Mar  8 03:01:30 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Thu Mar  9 03:09:30 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Thu Mar  9 03:09:30 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Mon Mar 13 18:23:06 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Mon Mar 13 18:23:06 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Fri Mar 17 10:39:56 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Fri Mar 17 10:39:56 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Fri Mar 17 20:43:48 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Fri Mar 17 20:43:48 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Wed Mar 22 00:42:37 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Wed Mar 22 00:42:37 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Wed Mar 22 20:29:54 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Wed Mar 22 20:29:54 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Thu Mar 23 13:58:01 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Thu Mar 23 13:58:01 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Thu Mar 23 13:58:05 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Thu Mar 23 13:58:05 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Thu Mar 23 23:39:38 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Thu Mar 23 23:39:38 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Thu Mar 23 23:49:07 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Thu Mar 23 23:49:07 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Mon Mar 27 00:23:19 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Mon Mar 27 00:23:19 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Wed Mar 29 19:54:39 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Wed Mar 29 19:54:39 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Thu Mar 30 21:41:38 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Thu Mar 30 21:41:38 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Sat Apr  1 09:22:07 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Sat Apr  1 09:22:07 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Mon Apr  3 15:30:28 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Mon Apr  3 15:30:28 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Wed Apr  5 02:18:35 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Wed Apr  5 02:18:35 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Fri Apr  7 00:58:53 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Fri Apr  7 00:58:53 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Sun Apr  9 21:42:25 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Sun Apr  9 21:42:25 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Tue Apr 11 02:30:53 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Tue Apr 11 02:30:53 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Wed Apr 12 07:57:16 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Wed Apr 12 07:57:16 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Thu Apr 13 16:04:16 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Thu Apr 13 16:04:16 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Sat Apr 15 16:15:53 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Sat Apr 15 16:15:53 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Sun Apr 16 19:40:07 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Sun Apr 16 19:40:07 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Thu Apr 20 02:38:30 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Thu Apr 20 02:38:30 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Wed May 17 01:31:09 2006] u/a/aring/language.c line 1: parse error before  me;
+
+[Wed May 17 01:31:39 2006] u/a/aring/language.c line 1: parse error before  me;
+
+[Wed May 17 01:31:57 2006] u/a/aring/language.c line 11: Reserved type name unexpected. before )(msg);
+
+[Wed May 17 01:31:57 2006] u/a/aring/language.c line 11: parse error before )(msg);
+
+[Thu May 18 08:21:05 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Thu May 18 08:21:05 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Sun Jun 11 10:46:32 2006] u/a/aring/workroom.c line 22: Reserved type name unexpected. before ()
+
+[Sun Jun 11 10:46:32 2006] u/a/aring/workroom.c line 22: parse error before ()
+
+[Tue Oct  3 00:37:08 2006] u/a/aring/workroom.c line 22: syntax error
+
+[Wed Oct  4 12:26:37 2006] u/a/aring/workroom.c line 22: syntax error
+
+[Thu Oct  5 17:46:28 2006] u/a/aring/tomb/5.c line 27: End of file in text block
+
+[Thu Oct  5 17:46:28 2006] u/a/aring/tomb/5.c line 27: syntax error
+
+[Thu Oct  5 17:46:28 2006] u/a/aring/tomb/5.c line 27: End of file in text block
+
+[Thu Oct  5 17:46:28 2006] u/a/aring/tomb/5.c line 27: syntax error
+
+[Sat Oct  7 00:15:30 2006] u/a/aring/workroom.c line 22: syntax error
+
+[Sat Oct  7 00:38:57 2006] u/a/aring/workroom.c line 22: syntax error
+
+[Mon Oct  9 00:07:37 2006] u/a/aring/promise/game_gift/sky_shield.c line 23: syntax error
+
+[Mon Oct  9 00:07:37 2006] u/a/aring/promise/game_gift/sky_shield.c line 35: End of file in string
+
+[Mon Oct  9 22:18:16 2006] u/a/aring/workroom.c line 22: syntax error
+
+[Mon Oct  9 22:33:51 2006] u/a/aring/workroom.c line 22: syntax error
+
+[Thu Oct 12 18:12:16 2006] u/a/aring/workroom.c line 22: syntax error
+
+[Fri Oct 13 02:50:19 2006] u/a/aring/workroom.c line 22: syntax error
+
+[Fri Oct 13 02:52:59 2006] u/a/aring/workroom.c line 16: syntax error
+
+[Fri Oct 13 02:52:59 2006] u/a/aring/workroom.c line 28: Illegal LHS
+
+[Fri Oct 13 02:52:59 2006] u/a/aring/workroom.c line 28: syntax error
+
+[Fri Oct 13 02:53:27 2006] u/a/aring/workroom.c line 18: syntax error
+
+[Fri Oct 13 02:53:27 2006] u/a/aring/workroom.c line 30: Illegal LHS
+
+[Fri Oct 13 02:53:27 2006] u/a/aring/workroom.c line 30: syntax error
+
+[Fri Oct 13 02:54:17 2006] u/a/aring/workroom.c line 23: syntax error
+
+[Fri Oct 13 03:03:12 2006] u/a/aring/wo.c line 48: Redeclaration of function init.
+
+[Fri Oct 13 03:03:12 2006] u/a/aring/wo.c line 71: syntax error
+
+[Fri Oct 13 03:03:12 2006] u/a/aring/wo.c line 77: End of file in string
+
+[Fri Oct 13 03:03:54 2006] u/a/aring/wo.c line 48: Redeclaration of function init.
+
+[Fri Oct 13 03:03:54 2006] u/a/aring/wo.c line 71: syntax error
+
+[Fri Oct 13 03:03:54 2006] u/a/aring/wo.c line 77: End of file in string
+
+[Fri Oct 13 03:04:48 2006] u/a/aring/wo.c line 70: syntax error
+
+[Fri Oct 13 03:04:48 2006] u/a/aring/wo.c line 76: End of file in string
+
+[Fri Oct 13 03:07:12 2006] u/a/aring/wo.c line 71: syntax error
+
+[Fri Oct 13 03:07:12 2006] u/a/aring/wo.c line 77: End of file in string
+
+[Fri Oct 13 03:09:12 2006] u/a/aring/wo.c line 71: syntax error
+
+[Fri Oct 13 03:09:12 2006] u/a/aring/wo.c line 77: End of file in string
+
+[Fri Oct 13 03:10:02 2006] u/a/aring/wo.c line 71: syntax error
+
+[Fri Oct 13 03:10:02 2006] u/a/aring/wo.c line 77: End of file in string
+
+[Fri Oct 13 04:24:48 2006] u/a/aring/workroom.c line 26: Bad argument 2 to efun load_object()
+

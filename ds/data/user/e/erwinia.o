@@ -1,0 +1,7 @@
+#/obj/user.c
+conditions ([])
+dbase (["gender":"男性","channels":({"chat","rumor","tchat",}),"evil":-1,"name":"無心飄逸","birthday":1177861967,"attitude":"peaceful","max_mp":54,"addition_damage":10,"max_hp":120,"race":"ogre","startroom":"/open/world1/tmr/area/hotel","guild_gifts":({5,5,5,5,}),"talk_point":8,"mp":54,"max_ap":66,"heart_beat_rate":6,"ap":66,"addition_shield":10,"mud_age":250,"newbie":1,"default_actions":,"exp":777,"dex":2,"last_location":"/open/world1/tmr/area/street4","cure_count":17,"int":2,"id":"erwinia","hp":120,"age":14,"con":2,"volume":7,"str":2,"Merits":(["bio":0,"tec":0,"sou":0,"wit":0,"bar":0,]),"unit":"位","level":1,"DS_DATA_VERSION":19991107,"actions":,"supply_point":34,"addition_armor":10,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

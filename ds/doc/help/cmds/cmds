@@ -1,0 +1,40 @@
+[0m[33;1m                                                     Shengsan@DS[37m¡i2002/04/16¡j
+[0m[32;1m¡i[33m°Ê§@Ãþ«ü¥O[32m¡j==============================================================[33m¡·
+[0m look     Æ[¬Ý(l)         go       ²¾°Ê              follow   ¸òÂÜ
+[0m open     ¶}ªù            close    Ãöªù              lock     Âêªù
+[0m unlock   ¶}Âê            give     µ¹¤©              put      ©ñ¸m
+[0m drop     ¥á±ó            get      ®³¨ú              wear     ¸Ë³Æ¨¾¨ã
+[0m remove   ¨ø°£¨¾¨ã(rem)   wield    ¸Ë³ÆªZ¾¹(wi)      unwield  ¨ø°£ªZ¾¹(uwi)
+[0m use      ¨Ï¥Îª««~        sac      ²M°£ª««~         [31;1m*[36msearch   ·j¬d
+[0m[31;1m*[36mteam     ²Õ¶¤(¨ó¤O¼Ò¦¡)[0m  hest     ©R¥O«Dª±®a¨¤¦â   [31;1m*[0mauc      ©ç½æª««~
+[0m joinclub ¥Ó½Ð¤JÀ°
+[0m[32;1m¡i[33mÀËµøÃþ«ü¥O[32m¡j==============================================================[33m¡·
+[0m inventory ª««~(i)        score    ª¬ºA(sc)         hp        Â²²¤ª¬ºA
+[0m level     ¤É¯Å»Ý¨D       id       ­^¤å¥N¸¹         who       ½u¤Wª±®a
+[0m finger    ½Õ¬dª±®a       skills   §Þ¯à¦Cªí(sk)     spells    ªk³N¦Cªí
+[0m moblist   ©Çª«¦Cªí       wizlist  §Å®v¦Cªí         consider  µû¦ô¹ï¤â(con)
+[0m balance   ¬d¸ß¦s´Ú      [31;1m*[36mmap      ªþªñ¦a¹Ï[0m 
+[0m[32;1m¡i[33m¾Ô°«¥Î«ü¥O[32m¡j==============================================================[33m¡·
+[0m kill      ¶}¾Ô(k)        cast     ¬Iªk(c)          exert     ¨Ï¥Î§Þ¯à(ex)
+[0m wimpy     ¦Û°Ê°k¤`       shoot    ®gÀ»(ss)         fight     ª±®a¸û¶q
+[0m[31;1m*[36msurrender °±¤î°lÀ»[0m       defend   «OÅ@¥L¤H
+[0m[32;1m¡i[33m·¾³q¥Î«ü¥O[32m¡j==============================================================[33m¡·
+[0m ask       ¸ß°Ý           say      »¡¸Ü (')         tell      §i¶D
+[0m reply     ¦^µª          [31;1m*[36mtalk     ¥´±´®ø®§(¥iÀò±oNPCªì¨B´£¥Ü)
+[0m shout     §o³Û           whisper  ®¨®¨¸Ü           semote    °Ê§@¦Cªí          
+[0m emote     °Ê§@           chat     ®É¥NÀW¹D        *chat      ¤½¶}°Ê§@
+[0m tchat     ¸ó®ÉªÅ¶¢²á    [31;1m*[0mft       ¦n¤Í¤½¶}ÀW¹D     tune      ÀW¹D³]©w
+[0m[32;1m¡i[33m¨ä¥L[32m¡j====================================================================[33m¡·
+[0m alias     ¦Û­q¼öÁä       help     ½u¤W¨D§U         passwd    §ó§ï±K½X
+[0m quit      Â÷½u           save     Àx¦s             suicide   ¦Û±þ
+[0m time      ¹CÀ¸®É¶¡       set      ³]©w             unset     ¨ú®ø³]©w
+[0m to        ªø¦ê¿é¤J       uptime   ¨t²Î°õ¦æ®É¶¡     version   §@·~ª©¥»
+[0m title     ÀY»ÎÀËµø       nick     ¦Û­q¥~¸¹         recall    ¦^¨ì¥XµoÂI
+[0m do        ³sÄò°õ¦æ       secure   «O¦sª««~(sec)    [36;1mreport    ¦^³øbug
+[0m post      ±i¶K¤å³¹       describe ¥~»ª±Ô­z         followup  ¦^À³¤å³¹
+[0m signature ³]©wÃ±¦WÀÉ     abandon  ©ñ±ó§Þ¯à         date      ²{¦b®É¶¡
+[0m cal       ¸U¦~¾ä         inactive ³]©w¶¢¸m¼Ò¦¡     prompt    ³]©w©R¥O´£¥Ü¦r¤¸
+[0m[33;1m¡·[32m==========================================================================[33m¡·
+[0m  [34;1m¡¹[33m [37m¦pªG§A¬O§Å®vªº¸Ü¡M½Ð¥Î [33mhelp wizcmds[37m ¬d¸ß§Å®v±M¥Î«ü¥O¡C
+[0m[33;1m  [34m¡¹[33m [37m½Ð¥Î [36mhelp <«ü¥O>[37m ¨Ó¬d¬Ý¸Ô²Ó«ü¥O»¡©ú¡C
+[0m[33;1m¡·[32m==========================================================================[33m¡·[0m

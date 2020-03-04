@@ -1,0 +1,7 @@
+#/obj/user.c
+conditions ([])
+dbase (["combat_exp":2,"DS_DATA_VERSION":19991107,"default_actions":,"MKS":6,"Merits":(["bio":0,"sou":0,"bar":0,"tec":0,"wit":0,]),"guild_gifts":({5,5,5,5,}),"unit":"位","max_ap":60,"supply_point":60,"channels":({"chat","rumor","tchat",}),"level":1,"race":"human","gender":"男性","id":"krishna","last_location":"/open/world1/tmr/area/street5","heart_modify":0,"talk_point":8,"birthday":1076847659,"name":"黑天","startroom":"/open/world1/tmr/area/hotel","actions":,"cure_count":3,"newbie":1,"exp":1465,"hp":80,"evil":11,"dex":2,"int":2,"mud_age":951,"con":2,"str":2,"addition_shield":10,"board_last_read":(["magic-card_b":1057657067,"guitar_b":1082253619,"bug_b":1073990469,"tmr_hotel_b":1083421772,"query_b":1073821162,]),"heart_beat_rate":6,"addition_armor":10,"mob_record":({"/open/world1/tmr/area/npc/smith","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"mp":60,"addition_damage":10,"max_hp":80,"wound":(["left_arm":0,"right_leg":0,"head":0,"body":0,"left_leg":0,"right_arm":0,]),"attitude":"peaceful","ap":60,"age":14,"max_mp":60,"volume":7,])
+skills (["unarmed":3,"combat":4,"dodge":2,])
+learned (["unarmed":14,"combat":12,"dodge":0,])
+alias (["cc":"consider $*","qq":"sac corpse $*","q":"get all from corpse $*",])
+autoload ({"/obj/money/coin:6",})

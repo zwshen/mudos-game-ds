@@ -1,0 +1,6 @@
+#/obj/user.c
+conditions ([])
+dbase (["ap":60,"dex":2,"wound":(["left_arm":0,"right_leg":0,"left_leg":0,"right_arm":0,"body":0,"head":0,]),"DS_DATA_VERSION":19991107,"mud_age":1262,"int":2,"con":2,"str":2,"evil":-1,"addition_shield":10,"unit":"¦ì","Merits":(["wit":0,"bio":0,"bar":0,"tec":0,"sou":0,]),"guild_gifts":({5,5,5,5,}),"addition_armor":10,"MKS":1,"mp":60,"default_actions":,"max_ap":60,"channels":({"chat","rumor","tchat",}),"cure_count":4,"race":"human","gender":"¨k©Ê","level":1,"id":"jvbba","heart_modify":0,"talk_point":8,"addition_damage":10,"name":"§b§bµæ³¾","birthday":1102907183,"age":14,"attitude":"peaceful","supply_point":60,"actions":,"startroom":"/open/world1/tmr/area/hotel","mob_record":({"/open/world1/tmr/area/npc/dog",}),"volume":7,"newbie":1,"last_location":"/open/world1/tmr/area/street4","max_hp":80,"heart_beat_rate":6,"hp":80,"max_mp":60,"exp":1017,])
+skills (["unarmed":0,"combat":1,])
+learned (["unarmed":2,"combat":1,])
+autoload ({})

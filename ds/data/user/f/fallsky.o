@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["int":2,"talk_point":1,"ap":60,"con":2,"str":2,"actions":,"unit":"¦ì","DS_DATA_VERSION":19991107,"max_hp":80,"gender":"¨k©Ê","name":"¹k¹Ð","default_actions":,"board_last_read":(["tmr_hotel_b":1140944814,]),"cure_count":1,"guild_gifts":({5,5,5,5,}),"id":"fallsky","attitude":"peaceful","channels":({"chat","rumor","tchat",}),"race":"human","evil":-1,"level":1,"addition_shield":10,"birthday":1140983551,"heart_beat_rate":6,"hp":80,"addition_damage":10,"addition_armor":10,"max_ap":60,"volume":7,"supply_point":2,"mp":60,"age":14,"startroom":"/open/world1/tmr/area/hotel","exp":777,"max_mp":60,"Merits":(["bio":0,"tec":0,"sou":0,"wit":0,"bar":0,]),"mud_age":12,"newbie":1,"dex":2,])
+autoload ({})

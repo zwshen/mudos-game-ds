@@ -1,0 +1,16 @@
+¥Ø¿ý¡R/open/world1/acme/area/npc/wp/
+arrow.c             ¤ì½b                axe.c               ©òÀY              
+axe2.c              ¤p¤â©ò              blade.c             ¬å¤M              
+blade2.c            µ´¦a¨¸¤M            blade3.c            ¤j¤M              
+bow.c               ªø¤}                dagger.c            ¤P­º              
+evilsword.c         ¹@¨¸¼C              fist.c              ÀA¦ç¤ö            
+godsword.c          ¯«ªZ¼C              hammer.c            ÅKÂñ              
+hoe.c               ¾SÀY                hung.c              ¬õ¹Ð¼C            
+longsword.c         ªø¼C                longsword1.c        ©þÝrªø¼C          
+longsword2.c        ÀA¦ç¼C              peachsword.c        ¤Ñ®v®ç¤ì¼C        
+pike.c              ­¸¾_ºj              pike2.c             ÀA¦çºj            
+rod.c               ³¨¬ñ                s_blade.c           ¹Ð­·¤M            
+staff.c             ÁI§ú                stick.c             ªø´Ò              
+sunsword.c          Äà¤é¼C              sword.c             µu¼C              
+sword1.c            ¤ì¼C                sword2.c            ª÷¿ú¼C            
+sword3.c            ¾Ô¤Ñ¯«¼C            

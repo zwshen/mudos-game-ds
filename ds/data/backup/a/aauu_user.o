@@ -1,0 +1,7 @@
+#/obj/user.c
+conditions ([])
+dbase (["default_actions":,"DS_DATA_VERSION":19991107,"MKS":14,"volume":7,"attitude":"peaceful","combat_exp":4,"heart_modify":0,"actions":,"max_ap":60,"channels":({"chat","rumor","tchat",}),"race":"human","gender":"男性","level":1,"talk_point":8,"name":"小明","birthday":1009014318,"exp":3525,"mob_record":({"/open/world2/npc/beast_fish_1","/open/world2/npc/beast_fish_1","/open/world1/wilfred/sand/npc/npc28","/open/world1/tmr/area/npc/vag","/open/world1/tmr/area/npc/mvillager","/open/world1/tmr/area/npc/mvillager","/open/world1/tmr/area/npc/mvillager","/open/world1/tmr/area/npc/frog","/open/world1/tmr/area/npc/frog","/open/world1/tmr/area/npc/frog","/open/world1/tmr/area/npc/frog","/open/world1/tmr/area/npc/dog","/open/world1/tmr/area/npc/traveler","/open/world1/tmr/area/npc/dog",}),"dex":2,"int":2,"startroom":"/open/world2/lichi_town_2/map_5_26","con":2,"newbie":1,"str":2,"heart_beat_rate":6,"age":14,"cure_count":16,"id":"aauu","max_mp":60,"unit":"位","ap":60,"evil":-11,"hp":80,"addition_shield":10,"max_hp":80,"Merits":(["bio":0,"tec":0,"sou":0,"wit":0,"bar":0,]),"guild_gifts":({5,5,5,5,}),"mp":60,"addition_armor":10,"addition_damage":10,"mud_age":1513,"disable_type":" <毫無呼吸>","bellicosity":0,"supply_point":60,"last_location":"/open/world2/lichi_town_2/map_5_26",])
+skills (["dodge":4,"blade":3,"unarmed":6,"combat":9,])
+learned (["blade":1,"combat":11,"unarmed":6,])
+alias (["x":"drink pot",])
+autoload ({"/obj/money/dollar:2",})

@@ -1,0 +1,16 @@
+
+	mkdir(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		mkdir() - 創造一個目錄.
+	函數語法:
+		int mkdir( string directory );
+
+		整數 mkdir( 字串 directory );
+	函數用法:
+		創造指定的目錄. 成功傳回 1, 失敗則傳回 0.
+	參考函數:
+		rm(3), rmdir(3), link(3)
+	手冊翻譯:
+		Phoebus@ZH	97.Apr.15.		(Writen 5/23/97)
+

@@ -1,0 +1,16 @@
+
+	pow(3)			LP MudOSv21c7		(7 Jul 1996)
+
+	ㄧ计嘿:
+		pow() - 璸衡疊翴计 (float) 经.
+	ㄧ计粂猭:
+		float pow( float x, float y );
+
+		疊翴计 pow( 疊翴计 x, 疊翴计 y );
+	ㄧ计ノ猭:
+		pow() 肚 x  y Ωよ. 狦 x 琌 0.0, y ゲ斗タ计.
+		狦 x 璽计, y ゲ斗俱计.
+	把σㄧ计:
+		exp(3), log(3), sqrt(3)
+	も陆亩:
+		Phoebus@ZH	97.Apr.24.		(Writen 5/23/97)

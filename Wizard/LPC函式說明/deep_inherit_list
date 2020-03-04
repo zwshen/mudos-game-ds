@@ -1,0 +1,17 @@
+
+	deep_inherit_list(3)	LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		deep_inherit_list() - 取得一個物件所繼承的父物件.
+				      (parent object)
+	函數語法:
+		string *deep_inherit_list( object obj );
+
+		字串 *deep_inherit_list( 物件 obj );
+	函數用法:
+		傳回一個物件所繼承之所有父物件的檔案名稱, 包括直接繼承
+		與間接繼承的父物件.
+	參考函數:
+		inherit_list(3), inherits(3)
+	手冊翻譯:
+		Phoebus@ZH	97.Feb.04.		(Writen 5/23/97)

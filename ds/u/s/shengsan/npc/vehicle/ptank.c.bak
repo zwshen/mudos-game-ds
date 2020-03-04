@@ -1,0 +1,84 @@
+// ¹p¾^¾Ô¨®
+
+#include <ansi.h>
+
+inherit VEHICLE;
+
+void create()
+{
+	set_name(HIG"¹p¾^¾Ô¨®"NOR,({"power tank","power","tank"}));
+	set("short", "[1;36m¹p¾^¾Ô¨®¾r¾p®y[0m");
+	set("long", @LONG
+	¢~¢w¢w¢w¢w¢w¢w¢w¢¡¢~¢w¢w¢w¢w¢w¢w¢w¢¡¢~¢w¢w¢w¢w¢w¢w¢w¢¡
+	¢x Searching... ¢x¢x      ¢s      ¢x¢x              ¢x
+	¢x              ¢x¢x              ¢x¢x             2¢x
+	¢x              ¢x¢x¢u    ¢q    ¢t¢x¢x            19¢x
+	¢x              ¢x¢x              ¢x¢x   -----+-----¢x
+	¢x              ¢x¢x      ¢r      ¢x¢x   0123456789A¢x
+	¢¢¢w¢w¢w¢w¢w¢w¢w¢£¢¢¢w¢w¢w¢w¢w¢w¢w¢£¢¢¢w¢w¢w¢w¢w¢w¢w¢£
+	  ³o¸Ì¦³¼Æ­ÓºÊ±±¿Ã¹õ¡AµL®ÉµL¨è¦aºÊ±±µÛ¹p¾^¾Ô¨®¦a¥|©P¡C
+LONG
+	);
+	set("exits", ([ /* sizeof() == 0 */
+            ]));
+            
+	set_max_capacity(9999999999);
+	set_max_encumbrance(900000099);
+	set_weight(999999999);
+	if( clonep() )
+		set_default_object(__FILE__);
+	else {
+		set("unit", "¥x");
+		set("long", "³o¬O¤@¥x¹p¾^¾Ô¨®¡C\n");
+		set("value", 99999999);
+	}
+	setup();
+}
+
+void init()
+{
+	add_action("do_enter","enter");
+	add_action("do_leave","leave");
+	add_action("do_lookout","vlook");
+	add_action("do_vgo","vgo");
+}
+
+int do_enter()
+{
+	object me;
+	object env;
+	me = this_player();
+	if(!enter_vehicle(me))
+		write("¥¢±ÑÅo...\n");
+	else
+		write("Ya!!!¦¨¥\\¤F...\n");
+
+	return 1;
+}
+
+int do_leave()
+{
+	object me;
+	object env;
+	me = this_player();
+	if(!leave_vehicle(me))
+		write("¥¢±ÑÅo...\n");
+	else
+		write("Ya!!!¦¨¥\\¤F...\n");
+
+	return 1;
+}
+
+int do_vlook(string arg)
+{
+	string line;
+	line = look_out(arg);
+	return 1;
+}
+
+int do_vgo(string arg)
+{
+	v_go(arg);
+	return 1;
+}
+

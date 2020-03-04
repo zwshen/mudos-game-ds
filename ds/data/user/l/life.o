@@ -1,0 +1,7 @@
+#/obj/user.c
+conditions ([])
+dbase (["DS_DATA_VERSION":19991107,"max_mp":60,"Merits":(["bar":0,"wit":0,"bio":0,"tec":0,"sou":0,]),"volume":7,"combat_exp":1,"title":"疾風門第四代弟子","default_actions":,"unit":"位","evil":1,"adv_class":1,"channels":({"chat","rumor","tchat",}),"max_ap":75,"guild_gifts":({5,5,5,5,}),"level":1,"gender":"男性","race":"human","id":"life","mob_record":({"/open/world1/tmr/area/npc/mvillager","/open/world1/tmr/area/npc/mvillager","/open/world1/tmr/area/npc/farmer",}),"supply_point":60,"talk_point":8,"birthday":1100851957,"name":"粗眉毛弟弟","heart_modify":1,"last_location":"/open/world1/tmr/area/vroad3","startroom":"/open/world1/tmr/area/hotel","family":(["title":"弟子","privs":-1,"generation":4,"family_name":"疾風門",]),"newbie":1,"age":14,"cure_count":18,"exp":721,"hp":100,"actions":,"dex":3,"mud_age":1634,"int":2,"ap":75,"con":3,"str":3,"addition_shield":10,"heart_beat_rate":6,"addition_armor":10,"MKS":3,"mp":60,"bank":(["past":0,]),"addition_damage":10,"max_hp":100,"wound":(["left_arm":0,"right_leg":0,"left_leg":0,"right_arm":0,"body":0,"head":0,]),"class1":"疾風門","attitude":"peaceful",])
+skills (["parry":0,"sword":4,"unarmed":1,"combat":5,"dodge":2,"sorgi_sword":3,])
+learned (["parry":2,"sword":4,"unarmed":3,"combat":20,"dodge":9,"sorgi_sword":17,])
+alias (["v":"sac corpse","1":"exert sorgi_sword","b":"get all","rs":"recall","a":"do e,n,n,n,w,w,n,ne,ne,n,n,ne,n,w,n,w,w,w,nw,w,w,n,nw,w,n,n,nw,n,n,nd,n,n,nu,n,n,nd,n,n,nu,n,e",])
+autoload ({"/obj/money/coin:254",})

@@ -1,0 +1,176 @@
+[Fri Sep 27 18:26:48 2002] u/f/frank/eggcity/city1.c line 3: parse error before  create()
+
+[Fri Sep 27 18:28:54 2002] u/f/frank/eggcity/city1.c line 3: parse error before  create()
+
+[Fri Sep 27 18:32:13 2002] u/f/frank/eggcity/city1.c line 3: parse error before  create()
+
+[Fri Sep 27 18:34:06 2002] u/f/frank/eggcity/city1.c line 16: parse error before " : __DIR__"city8",
+
+[Fri Sep 27 18:34:06 2002] u/f/frank/eggcity/city1.c line 34: End of file in string before ¤ùâ ùò¢¤¢¤|¢¤|¢¤|¢¤|
+
+[Fri Sep 27 19:09:26 2002] u/f/frank/eggcity/city1.c line 16: parse error before " : __DIR__"city8",
+
+[Fri Sep 27 19:09:26 2002] u/f/frank/eggcity/city1.c line 34: End of file in string before  ³oªF¦è¤£¯àÃM¡C\n");
+
+[Fri Sep 27 19:26:38 2002] u/f/frank/eggcity/city5.c line 13: parse error before the end of line
+
+[Sat Oct  5 13:19:45 2002] u/f/frank/eggcity/npc/city-soldier.c line 14: parse error before the end of line
+
+[Sat Oct  5 13:21:46 2002] u/f/frank/eggcity/npc/city-soldier.c line 14: parse error before the end of line
+
+[Sat Oct  5 13:22:40 2002] u/f/frank/eggcity/npc/city-soldier.c line 14: parse error before the end of line
+
+[Sun Oct  6 11:14:05 2002] u/f/frank/eggcity/npc/obj/banditspants.c line 1: parse error before ;
+
+[Sun Oct  6 11:16:23 2002] u/f/frank/eggcity/npc/obj/banditspants.c line 1: parse error before ;
+
+[Sun Oct  6 11:17:56 2002] u/f/frank/eggcity/npc/obj/pants.c line 1: parse error before ;
+
+[Sun Oct  6 11:28:45 2002] u/f/frank/eggcity/npc/obj/stellblade.c line 5: parse error before û¤M, ({ "stell blade
+
+[Sun Oct  6 11:31:50 2002] u/f/frank/eggcity/npc/obj/steelblade.c line 5: parse error before û¤M, ({ "steel blade
+
+[Sun Oct  6 13:39:01 2002] u/f/frank/eggcity/npc/obj/gem-kerchief.c line 2: parse error before ;
+
+[Sun Oct  6 13:46:03 2002] u/f/frank/eggcity/npc/obj/gem-ring.c line 4: Undefined variable 'HIC' before NOR,({"gem ring","ri
+
+[Sun Oct  6 13:46:03 2002] u/f/frank/eggcity/npc/obj/gem-ring.c line 4: parse error before NOR,({"gem ring","ri
+
+[Sun Oct  6 13:46:07 2002] u/f/frank/eggcity/npc/obj/gem-ring.c line 4: Undefined variable 'HIC' before NOR,({"gem ring","ri
+
+[Sun Oct  6 13:46:07 2002] u/f/frank/eggcity/npc/obj/gem-ring.c line 4: parse error before NOR,({"gem ring","ri
+
+[Sun Oct  6 13:46:07 2002] u/f/frank/eggcity/npc/obj/gem-ring.c line 4: Undefined variable 'HIC' before NOR,({"gem ring","ri
+
+[Sun Oct  6 13:46:07 2002] u/f/frank/eggcity/npc/obj/gem-ring.c line 4: parse error before NOR,({"gem ring","ri
+
+[Sun Oct  6 13:46:13 2002] u/f/frank/eggcity/npc/obj/gem-ring.c line 4: Undefined variable 'HIC' before NOR,({"gem ring","ri
+
+[Sun Oct  6 13:46:13 2002] u/f/frank/eggcity/npc/obj/gem-ring.c line 4: parse error before NOR,({"gem ring","ri
+
+[Sun Oct  6 13:48:20 2002] u/f/frank/eggcity/npc/obj/gem-ring.c line 4: Undefined variable 'HIC' before NOR,({"willow ring",
+
+[Sun Oct  6 13:48:20 2002] u/f/frank/eggcity/npc/obj/gem-ring.c line 4: parse error before NOR,({"willow ring",
+
+[Fri Oct 11 19:43:08 2002] u/f/frank/eggcity/city10.c line 3: Undefined function set before ;
+
+[Fri Oct 11 19:43:08 2002] u/f/frank/eggcity/city10.c line 26: Undefined function setup before ;
+
+[Sat Oct 12 19:14:37 2002] u/f/frank/eggcity/city14.c line 33: End of file in text block before g material;
+
+[Sat Oct 12 19:14:37 2002] u/f/frank/eggcity/city14.c line 33: parse error before g material;
+
+[Sat Oct 12 19:17:30 2002] u/f/frank/eggcity/city14.c line 60: End of file in text block before l_room(this_object()
+
+[Sat Oct 12 19:17:30 2002] u/f/frank/eggcity/city14.c line 60: parse error before l_room(this_object()
+
+[Sat Oct 12 19:18:35 2002] u/f/frank/eggcity/city14.c line 31: End of file in text block before   replace_program(RO
+
+[Sat Oct 12 19:18:35 2002] u/f/frank/eggcity/city14.c line 31: parse error before   replace_program(RO
+
+[Sat Oct 12 19:19:45 2002] u/f/frank/eggcity/city14.c line 31: End of file in text block before b) return;
+
+[Sat Oct 12 19:19:45 2002] u/f/frank/eggcity/city14.c line 31: parse error before b) return;
+
+[Sat Oct 12 19:20:53 2002] u/f/frank/eggcity/city14.c line 30: End of file in text block before  ob = this_player(1)
+
+[Sat Oct 12 19:20:53 2002] u/f/frank/eggcity/city14.c line 30: parse error before  ob = this_player(1)
+
+[Fri Oct 18 20:27:45 2002] u/f/frank/eggcity/npc/yang.c line 1: parse error before include <ansi.h>
+
+[Fri Oct 18 20:28:18 2002] u/f/frank/eggcity/npc/yang.c line 1: parse error before include <ansi.h>
+
+[Fri Oct 18 20:29:12 2002] u/f/frank/eggcity/npc/yang.c line 109: End of file in text block before                     
+
+[Fri Oct 18 20:29:12 2002] u/f/frank/eggcity/npc/yang.c line 109: parse error before                     
+
+[Fri Oct 18 20:42:06 2002] u/f/frank/eggcity/npc/yang.c line 110: End of file in text block before  return act;
+
+[Fri Oct 18 20:42:06 2002] u/f/frank/eggcity/npc/yang.c line 110: parse error before  return act;
+
+[Fri Oct 18 20:50:56 2002] u/f/frank/eggcity/npc/yang.c line 110: End of file in text block before ddexp +"	""+"[0m"  
+
+[Fri Oct 18 20:50:56 2002] u/f/frank/eggcity/npc/yang.c line 110: parse error before ddexp +"	""+"[0m"  
+
+[Fri Oct 18 20:52:29 2002] u/f/frank/eggcity/npc/yang.c line 1: parse error before include <ansi.h>
+
+[Fri Oct 18 20:53:45 2002] u/f/frank/eggcity/npc/yang.c line 1: parse error before include <ansi.h>
+
+[Fri Oct 18 21:00:37 2002] u/f/frank/eggcity/npc/yang.c line 1: parse error before include <ansi.h>
+
+[Fri Oct 18 21:01:22 2002] u/f/frank/eggcity/npc/yang.c line 1: parse error before include <ansi.h>
+
+[Fri Oct 18 21:01:54 2002] u/f/frank/eggcity/npc/yang.c line 1: parse error before include <ansi.h>
+
+[Fri Oct 18 21:02:40 2002] u/f/frank/eggcity/npc/yang.c line 1: parse error before include <ansi.h>
+
+[Fri Oct 18 21:04:33 2002] u/f/frank/eggcity/npc/yang.c line 1: parse error before include <ansi.c>
+
+[Fri Oct 18 21:06:53 2002] u/f/frank/eggcity/city14.c line 33: End of file in text block before e(e[i]);
+
+[Fri Oct 18 21:06:53 2002] u/f/frank/eggcity/city14.c line 33: parse error before e(e[i]);
+
+[Fri Oct 18 21:08:06 2002] u/f/frank/eggcity/city14.c line 33: End of file in text block before e(e[i]);
+
+[Fri Oct 18 21:08:06 2002] u/f/frank/eggcity/city14.c line 33: parse error before e(e[i]);
+
+[Fri Oct 18 21:08:58 2002] u/f/frank/eggcity/city14.c line 33: End of file in text block before 	retu		"/adm/daemons
+
+[Fri Oct 18 21:08:58 2002] u/f/frank/eggcity/city14.c line 33: parse error before 	retu		"/adm/daemons
+
+[Sat Oct 19 10:57:41 2002] u/f/frank/eggcity/city14.c line 33: End of file in text block before otify_fail("§A­n¥h­þ
+
+[Sat Oct 19 10:57:41 2002] u/f/frank/eggcity/city14.c line 33: parse error before otify_fail("§A­n¥h­þ
+
+[Sat Oct 19 10:58:41 2002] u/f/frank/eggcity/city14.c line 29: End of file in text block before  tmp = "/"+tmp;
+
+[Sat Oct 19 10:58:41 2002] u/f/frank/eggcity/city14.c line 29: parse error before  tmp = "/"+tmp;
+
+[Sun Oct 20 10:15:12 2002] u/f/frank/eggcity/npc/yang.c line 6: parse error before ("long",@LONG
+
+[Sun Oct 20 10:20:26 2002] u/f/frank/eggcity/npc/yang.c line 6: parse error before ("long",@LONG
+
+[Sun Oct 20 10:21:38 2002] u/f/frank/eggcity/npc/yang.c line 6: parse error before ("long",@LONG
+
+[Sun Oct 20 10:56:37 2002] u/f/frank/eggcity/npc/obj/cloth.c line 7: parse error before (2000);
+
+[Sun Oct 20 10:56:37 2002] u/f/frank/eggcity/npc/obj/cloth.c line 28: parse error before the end of line
+
+[Sun Oct 20 10:56:57 2002] u/f/frank/eggcity/npc/obj/cloth.c line 7: parse error before (2000);
+
+[Sun Oct 20 10:56:57 2002] u/f/frank/eggcity/npc/obj/cloth.c line 28: parse error before the end of line
+
+[Sun Oct 20 10:58:10 2002] u/f/frank/eggcity/npc/obj/cloth.c line 7: parse error before (2000);
+
+[Sun Oct 20 10:58:10 2002] u/f/frank/eggcity/npc/obj/cloth.c line 28: parse error before the end of line
+
+[Sun Oct 20 11:06:40 2002] u/f/frank/eggcity/npc/obj/whip.c line 3: parse error before ;
+
+[Sun Oct 20 11:09:21 2002] u/f/frank/eggcity/npc/yang.c line 35: parse error before (__DIR__"obj/cloth")
+
+[Sun Oct 20 11:09:21 2002] u/f/frank/eggcity/npc/yang.c line 42: Undefined variable 'target' before query_dex();
+
+[Sun Oct 20 11:09:21 2002] u/f/frank/eggcity/npc/yang.c line 42: Illegal LHS before the end of line
+
+[Sun Oct 20 11:09:21 2002] u/f/frank/eggcity/npc/yang.c line 43: Undefined variable 'tcon' before target->query_con();
+
+[Sun Oct 20 11:09:21 2002] u/f/frank/eggcity/npc/yang.c line 44: Undefined variable 'hitchance' before 2) > tdex+tcon)
+
+[Sun Oct 20 11:09:21 2002] u/f/frank/eggcity/npc/yang.c line 44: Undefined variable 'tdex' before tcon)
+
+[Sun Oct 20 16:21:43 2002] u/f/frank/eggcity/npc/man.c line 27: parse error before the end of line
+
+[Sun Oct 20 16:22:03 2002] u/f/frank/eggcity/npc/man.c line 27: parse error before the end of line
+
+[Sun Oct 20 16:35:07 2002] u/f/frank/eggcity/city22.c line 28: End of file in text block before arget(me);
+
+[Sun Oct 20 16:35:07 2002] u/f/frank/eggcity/city22.c line 28: parse error before arget(me);
+
+[Sun Oct 20 16:36:42 2002] u/f/frank/eggcity/city22.c line 27: End of file in text block before rget(me);
+
+[Sun Oct 20 16:36:42 2002] u/f/frank/eggcity/city22.c line 27: parse error before rget(me);
+
+[Sun Oct 20 16:39:12 2002] u/f/frank/eggcity/city22.c line 28: End of file in text block before n«OÅ@¡C\n");
+
+[Sun Oct 20 16:39:12 2002] u/f/frank/eggcity/city22.c line 28: parse error before n«OÅ@¡C\n");
+

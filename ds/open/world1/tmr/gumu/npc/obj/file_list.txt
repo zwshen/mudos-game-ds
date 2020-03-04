@@ -1,0 +1,7 @@
+¥Ø¿ý¡R/open/world1/tmr/gumu/npc/obj/
+cap.c               ¹D«a                fuchen.c            ©Ø¹Ð              
+ice-silver_needle.c  ¦B¾z»È°w            jade-bracelet.c     ²M¥É¤âÅN          
+letter.c            «H                  robe.c              ¦Ç¦â¹D³T          
+silver-ankle.c      »È¨¬Áå              white-robe.c        ¥Õ³T              
+yellow-shirt.c      ¶À­m                yinsuo.c            »È¯Á              
+yinsuo2.c           ª÷»ÈÂù¯Á            

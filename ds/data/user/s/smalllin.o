@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions (["ill_fashao":25,])
+dbase (["volume":7,"DS_DATA_VERSION":19991107,"race":"celestial","wound":(["body":0,"right_arm":0,"right_leg":0,"head":0,"left_leg":0,"left_arm":0,]),"channels":({"chat","rumor","tchat",}),"birthday":1198237490,"id":"smalllin","heart_modify":0,"actions":,"gender":"¤k©Ê","max_mp":110,"name":"ßNßN","max_hp":80,"attitude":"peaceful","unit":"¦ì","heart_beat_rate":6,"max_ap":60,"startroom":"/open/world1/tmr/area/hotel","guild_gifts":({5,5,5,5,}),"mp":110,"ap":60,"last_location":"/open/world1/tmr/area/round1","Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"addition_shield":10,"help":"class/","cure_count":10,"supply_point":60,"talk_point":8,"addition_armor":10,"default_actions":,"newbie":1,"exp":777,"dex":2,"int":2,"con":2,"hp":80,"age":14,"str":2,"level":1,"addition_damage":10,"evil":-1,"mud_age":458,])
+skills (["strong-body":1,])
+learned (["strong-body":5,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

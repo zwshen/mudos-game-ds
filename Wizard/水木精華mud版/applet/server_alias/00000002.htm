@@ -1,0 +1,74 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清华站∶精华区</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+<A Name="top"></a>
+发信人:&nbsp;yeung&nbsp;(流星雨),&nbsp;信区:&nbsp;Mud_Builder&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+标&nbsp;&nbsp;题:&nbsp;server-side&nbsp;trigger&nbsp;<BR>
+发信站:&nbsp;BBS&nbsp;水木清华站&nbsp;(Mon&nbsp;Jul&nbsp;26&nbsp;07:00:39&nbsp;1999)&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+每当网络速度太慢而导致你的指令无法及时送出的时候,你一定会有&nbsp;<BR>
+把机器砸掉的冲动,尤其是看到屏幕突然不动,等传过来的时候已经&nbsp;<BR>
+在黄泉路上,实在是很不爽的一种事情.&nbsp;<BR>
+&nbsp;<BR>
+基于这种考虑,我们提出server-side&nbsp;trigger的概念,即允许用户自&nbsp;<BR>
+定义一些简单的trigger,在服务器对用户发出这些信息之前就有机会触发&nbsp;<BR>
+这些trigger,执行一系列事先定义好的命令.&nbsp;<BR>
+&nbsp;<BR>
+和server-side&nbsp;alias一起,client端可以变的更&quot;瘦&quot;,最终能彻底淘汰&nbsp;<BR>
+zmud是最好了,不过,相信80%的时候,zmud都是在用来快速走路和触发一些&nbsp;<BR>
+简单的trigger,然后是timer.&nbsp;<BR>
+&nbsp;<BR>
+这样一来,虽然比zmud还差些,不过也已经可以用个最破的telnet来舒服的玩&nbsp;<BR>
+mud了,包括计划中的简单java-applet-client(当然是放在主页里面啦)&nbsp;<BR>
+&nbsp;<BR>
+目前server-side&nbsp;trigger只支持子串匹配和正则表达式的匹配,还不能够&nbsp;<BR>
+把匹配的变量取出来.&nbsp;<BR>
+&nbsp;<BR>
+可以匹配带颜色的pattern&nbsp;<BR>
+&nbsp;<BR>
+int&nbsp;help&nbsp;(object&nbsp;me)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;write(@HELP&nbsp;<BR>
+指令格式&nbsp;:&nbsp;trigger&nbsp;&lt;触发信息&gt;&nbsp;&lt;触发后欲执行之命令&gt;&nbsp;<BR>
+&nbsp;&nbsp;<BR>
+当你从系统接收到&lt;触发信息&gt;的时候,可以让系统自动执行一个&nbsp;<BR>
+或者一系列预先定义好的指令(可以是你定义的alias).&nbsp;<BR>
+&nbsp;&nbsp;<BR>
+例如:&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'trigger&nbsp;英俊男子身着布衣走了过来。&nbsp;hi'&nbsp;会在&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;出现“英俊男子身着布衣走了过来。”的时候自动执行一个&nbsp;&quot;hi&quot;&nbsp;的指令。&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'trigger'&nbsp;後不加参数则列出你所有的trigger。&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'trigger&nbsp;sc'&nbsp;会消除&nbsp;sc&nbsp;这个trigger。&nbsp;(如果你设定过这个trigger的话)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'trigger&nbsp;on'&nbsp;会打开trigger触发。&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'trigger&nbsp;off'会关闭trigger的触发。&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'trigger&nbsp;xxxx&nbsp;$gag'&nbsp;会不显示所有包含xxxx的信息。比如敲这个指令&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'trigger&nbsp;流星雨&nbsp;$gag',这样你就看不到他的一切话了。&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'trigger&nbsp;OnDisconnect&nbsp;quit'&nbsp;会在你断线的时候自动执行&nbsp;'quit'&nbsp;指令,&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当然也可以是别的指令&nbsp;<BR>
+HELP&nbsp;<BR>
+);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;1;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+梦后楼台高锁，酒醒帘幕低垂&nbsp;<BR>
+去年春恨却来时，落花人独立，微雨燕双飞&nbsp;<BR>
+&nbsp;<BR>
+记得小苹初见，两重心字罗衣&nbsp;<BR>
+琵琶弦上说相思，当时明月在，曾照彩云归&nbsp;<BR>
+&nbsp;<BR>
+※&nbsp;修改:·yeung&nbsp;於&nbsp;Jul&nbsp;26&nbsp;07:02:32&nbsp;修改本文·[FROM:&nbsp;&nbsp;162.105.138.49]&nbsp;<BR>
+※&nbsp;来源:·BBS&nbsp;水木清华站&nbsp;bbs.net.tsinghua.edu.cn·[FROM:&nbsp;162.105.138.49]&nbsp;<BR>
+<A HREF="00000001.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一页</A>
+<A HREF="index.htm">回到目录</A>
+<A HREF="#top">回到页首</A>
+<A HREF="00000003.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+</BODY></HTML>

@@ -1,0 +1,82 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清華站︰精華區</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+<A Name="top"></a>
+發信人:&nbsp;sorceress&nbsp;(李大善人~~~以德服人),&nbsp;信區:&nbsp;Mud_Builder&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+標&nbsp;&nbsp;題:&nbsp;Allegro&nbsp;遊戲程序庫（簡介)&nbsp;(轉載)&nbsp;<BR>
+發信站:&nbsp;BBS&nbsp;水木清華站&nbsp;(Mon&nbsp;Jun&nbsp;12&nbsp;20:40:12&nbsp;2000)&nbsp;<BR>
+&nbsp;<BR>
+【&nbsp;以下文字轉載自&nbsp;GAME_Designer&nbsp;討論區&nbsp;】&nbsp;<BR>
+【&nbsp;原文由&nbsp;cloudwu&nbsp;所發表&nbsp;】&nbsp;<BR>
+Allegro&nbsp;是一個很棒的遊戲程序庫(for&nbsp;DJGPP)&nbsp;<BR>
+為了推廣這個好東東，我試著翻譯它的手冊&nbsp;<BR>
+原文有2千多行，我經過兩個晚上才翻譯了&nbsp;400&nbsp;行&nbsp;<BR>
+所用工具為&nbsp;TT&nbsp;0.93&nbsp;(可以在我的homepage&nbsp;上找到)&nbsp;<BR>
+以下文字是使用&nbsp;TT時生成的，沒有整理，大家將就著看吧&nbsp;<BR>
+我的&nbsp;E&nbsp;文很差(每次考試不及格）有寫文字由於沒看明白&nbsp;<BR>
+請大家不要見笑,翻譯速度也很慢，不知這個工作到何年何月&nbsp;<BR>
+才能幹完。（如果想幫我翻譯一部分的朋友，請&nbsp;E-mail&nbsp;聯繫:)&nbsp;<BR>
+好了:)&nbsp;下面是我在&nbsp;Homepage&nbsp;上對&nbsp;allegro&nbsp;做的一點介紹&nbsp;<BR>
+　　目前的遊戲開發者基本上走的兩條路子，一則ＤＯＳ，一則瘟&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;酒舞。兩種操作平台各有優勢，使用瘟酒舞便可不受各種硬件的限&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;制；而採用ＤＯＳ編程卻可以取得更高的程序運行效率，可惜對程&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;序員的技術要求更高。　　　　　　　　　　　　　　　　　　　&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　其實對於軟件成品的質量來看，除了一些３Ｄ遊戲利用瘟酒舞&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;取得硬件加速的威力外，工作在ＤＯＳ下的遊戲一般可以發揮整台&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;機器的能力。　　　　　　　　　　　　　　　　　　　　　　　&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　雲風走的ＤＯＳ一路，也曾鑽研各種聲卡，顯卡的編程，真是&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;苦不堪言。想過將自己的研究成果做成程序庫供後來人使用，可工&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;程未完，便發現了ＡＬＬＥＧＲＯ這個專為遊戲開發人員設計的超&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;強程序庫。一經試用，如同打通全身經脈無比舒暢，不敢獨享，馬&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;上制作此頁，解救各位奮戰在ＤＯＳ裡的同志。　　　　　　　　&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　實例為證：雲風拿到ＡＬＬＥＧＲＯ後，連學帶做，奮戰兩個&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;通宵，完成了一個美工音樂音效皆上檔次的ＡＣＴ　ＧＡＭＥ。其&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;威力可見一斑：）　　　　　　　　　　　　　　　　　　　　　&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;領略一下Ａｌｌｅｇｒｏ的超強特性&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;支持&nbsp;VGA&nbsp;13h&nbsp;標準模式&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;支持&nbsp;22&nbsp;種&nbsp;Mode-X&nbsp;模式及&nbsp;640x400&nbsp;的&nbsp;X&nbsp;擴展模式&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;支持&nbsp;8,15,16,24,32&nbsp;bit&nbsp;色彩深度的&nbsp;SVGA&nbsp;模式&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;支持&nbsp;VESA&nbsp;2.0&nbsp;標準包括線形緩衝&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;支持&nbsp;ATI,Cirrus,Paradise,S3,Trident,Tseng,Video-7&nbsp;等多種顯卡&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;擁有繪點,直線,矩形,圓,多邊形,bezier&nbsp;曲線,填充...函數&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;精靈可以被旋轉,改變大小等,而且數據壓縮儲存&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一流的半透明,光影效果&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;硬件捲屏,Mode-X&nbsp;屏幕操作,調色版處理&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;可以播放&nbsp;FLI/FLC&nbsp;文件&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;背景播放&nbsp;MIDI&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;同時處理&nbsp;32&nbsp;個音效,播放時軟件處理效果.(循環,倒放,淡出等)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;支持&nbsp;Adlib,SB,SB&nbsp;Pro,SB16,AWE32,MPU-401,還有軟波表!&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;處理鍵盤,鼠標,遊戲杆易如反掌&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;支持高頻時鐘中斷,軟件模擬垂直掃描線中斷&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;所有數據文件可以被放入一個LZSS算法壓縮的DAT文件中&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;提供一個管理&nbsp;DAT&nbsp;文件的軟件&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一個數學函數庫,使用整數模擬小數,三角函數查表獲得&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3D&nbsp;矢量/矩陣&nbsp;處理&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GUI&nbsp;對話管理/文件選擇&nbsp;界面&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　難道這些還不能讓你動心嗎？那麼更重要的一點，這套程序庫&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;是用&nbsp;ＤＪＧＰＰ和ＤＪＡＳＭ混合編程。全３２位的代碼，由世界&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;上無數高手優化而成，而大蝦您也可以自己改進其源代碼：）　　&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;馬上加入Ａｌｌｅｇｒｏ的行列中來吧&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;你可以在&nbsp;<A HREF="http://www.talula.demon.co.uk/allegro/找到Allegro的最新版">http://www.talula.demon.co.uk/allegro/找到Allegro的最新版</A>&nbsp;<BR>
+btw,電腦報&nbsp;4&nbsp;上有&nbsp;allegro&nbsp;3.0&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+<A HREF="http://www.nease.net/~cloudwu">http://www.nease.net/~cloudwu</A>&nbsp;<BR>
+<A HREF="http://computer.igd.edu.cn/~cloud">http://computer.igd.edu.cn/~cloud</A>&nbsp;<BR>
+E-mail:&nbsp;<A HREF="mailto:cloudwu@163.net">cloudwu@163.net</A>&nbsp;<BR>
+&nbsp;<BR>
+※&nbsp;來源:‧BBS&nbsp;水木清華站&nbsp;bbs.net.tsinghua.edu.cn‧[FROM:&nbsp;202.197.71.12]&nbsp;<BR>
+<A HREF='javascript:history.go(-1)'>返回上一頁</A>
+<A HREF="index.htm">回到目錄</A>
+<A HREF="#top">回到頁首</A>
+<A HREF="00000001.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+</BODY></HTML>

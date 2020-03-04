@@ -1,0 +1,7 @@
+¥Ø¿ý¡R/open/world1/tmr/cow_area/npc/
+npc1.c              ¬º¤û                npc10.c             ·t¶Â¥À¤û          
+npc11.c             ·t¶Â                npc2.c              ¤û³Õ¤h            
+npc3.c              ©ºªF¬º¤û            npc4.c              ©º¦è¬º¤û          
+npc5.c              ©º«n¬º¤û            npc6.c              ©º¥_¬º¤û          
+npc7.c              ¤j¶À¬º¤û            npc8.c              ³¥¾Ô¬º¤û          
+npc9.c              ºÆ¨g¬º¤û            

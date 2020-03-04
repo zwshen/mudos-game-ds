@@ -1,0 +1,8 @@
+#/obj/user.c
+dbase (["help":"class/wind","DS_DATA_VERSION":19991107,"wound":(["left_arm":0,"body":0,"left_leg":0,"head":0,"right_leg":0,"right_arm":0,]),"bellicosity":0,"addition_armor":10,"attitude":"peaceful","max_hp":110,"talk_point":8,"channels":({"chat","rumor","tchat",}),"disable_type":" <毫無呼吸>","mud_age":1976,"newbie":1,"supply_point":60,"exp":700,"dex":2,"hp":110,"int":2,"con":2,"level":1,"mp":64,"birthday":1244978985,"max_ap":64,"last_location":"/open/world1/cominging/area/boo-lin2","guild_gifts":({5,5,5,5,}),"Merits":(["bar":0,"tec":0,"sou":0,"bio":0,"wit":0,]),"evil":-1,"volume":7,"heart_beat_rate":6,"default_actions":,"actions":,"unit":"位","ap":64,"addition_damage":10,"cure_count":8,"combat_exp":0,"age":14,"race":"tiger","heart_modify":0,"max_mp":64,"id":"hoopig","addition_shield":10,"startroom":"/open/world1/tmr/area/hotel","gender":"男性","str":2,"name":"呼豬",])
+skills (["combat":2,"dodge":1,"unarmed":0,"strong-body":2,])
+learned (["combat":1,"unarmed":0,"strong-body":7,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

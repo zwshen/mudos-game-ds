@@ -1,0 +1,36 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清華站︰精華區</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+<A Name="top"></a>
+發信人:&nbsp;peacock&nbsp;(孔雀明王),&nbsp;信區:&nbsp;Mud_Builder&nbsp;<BR>
+標&nbsp;&nbsp;題:&nbsp;Re:&nbsp;如何解決natured.c的問題？&nbsp;<BR>
+發信站:&nbsp;BBS&nbsp;水木清華站&nbsp;(Tue&nbsp;Jan&nbsp;20&nbsp;19:33:24&nbsp;1998)&nbsp;<BR>
+&nbsp;<BR>
+【&nbsp;在&nbsp;Soo&nbsp;(天都之子)&nbsp;的大作中提到:&nbsp;】&nbsp;<BR>
+︰<I>&nbsp;在mud中，時辰的變化是natured中延遲callout產生的。&nbsp;</I><BR>
+︰<I>&nbsp;可是我維護的一個mud經常無法正常callout，time顯示正常，而&nbsp;</I><BR>
+︰<I>&nbsp;天像一直都是正午的太陽。請教問題何在呢？&nbsp;</I><BR>
+︰<I>&nbsp;另外，callout產生的過程中或有callout的程序都無法調用this_player()-&gt;save()，&nbsp;</I><BR>
+︰<I>&nbsp;是否如此？如何解決？望不吝下教。&nbsp;</I><BR>
+︰<I>&nbsp;chat*&nbsp;thank&nbsp;</I><BR>
+你要是看了callout的help就知道了。callout中this_player是沒有定義的，所以&nbsp;<BR>
+this_player()也返回不了值啦。&nbsp;<BR>
+解決的方法是這樣的：&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;callout(&nbsp;func_name,&nbsp;delay_time,&nbsp;arg1,arg2,...);&nbsp;<BR>
+所以把this_player作為一個參數傳進去就行了。&nbsp;<BR>
+比如&nbsp;&nbsp;callout(&nbsp;&quot;greeting&quot;,&nbsp;1,&nbsp;this_player()&nbsp;);&nbsp;<BR>
+店小二里很常見的例子啦。&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+※&nbsp;來源:‧BBS&nbsp;水木清華站&nbsp;bbs.net.tsinghua.edu.cn‧[FROM:&nbsp;166.111.8.125]&nbsp;<BR>
+<A HREF="00000011.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一頁</A>
+<A HREF="index.htm">回到目錄</A>
+<A HREF="#top">回到頁首</A>
+<A HREF="00000013.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+</BODY></HTML>

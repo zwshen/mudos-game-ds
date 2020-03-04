@@ -1,0 +1,10 @@
+#/obj/user.c
+conditions ([])
+dbase (["DS_DATA_VERSION":19991107,"race":"ogre","actions":,"adv_class":1,"popularity":96,"max_mp":126,"channels":({"chat","rumor","tchat",}),"war_art":94,"heart_modify":0,"max_hp":450,"birthday":1200787117,"id":"redmoon","heart_beat_rate":6,"title":"八極門第七代俠客","Merits":(["tec":0,"sou":0,"wit":0,"bar":1,"bio":0,]),"family":(["family_name":"八極門","generation":7,"privs":-1,"title":"俠客",]),"mp":126,"gender":"男性","guild_gifts":({10,7,0,3,}),"name":"紅月","attitude":"peaceful","max_ap":264,"addition":(["con":1,]),"ap":264,"startroom":"/open/world1/tmr/area/hotel","env":([]),"cure_count":3,"skill":(["strong-body":18,]),"addition_shield":10,"class1":"八極門","supply_point":202,"age":14,"unit":"位","last_location":"/open/world1/cominging/purple_sun/4f1","default_actions":,"newbie":1,"talk_point":29,"addition_armor":10,"exp":447370,"dex":10,"int":8,"con":12,"str":16,"hp":450,"guild_rank":"八極門之初出茅蘆","volume":7,"level":8,"bank":(["past":171588,]),"wound":(["body":0,"right_arm":0,"head":0,"right_leg":0,"left_arm":0,"left_leg":0,]),"addition_damage":10,"evil":-1,"mud_age":84805,])
+skills (["bagi_fist":21,"dodge":25,"unarmed":25,"blade":25,"strong-body":21,"da-fork":21,"horse-steps":28,"parry":25,"axe":25,"hammer":25,"whip":25,"dagger":25,"staff":25,"block":25,"fork":25,"sword":25,])
+learned (["strong-body":0,])
+items ({})
+alias (["re":"recall start","p1":"exert bagi_fist","p3":"exert horse-steps down-power","p2":"exert da-fork",])
+autoload ({"/obj/money/coin:492",})
+toDoList ([])
+solved ({})

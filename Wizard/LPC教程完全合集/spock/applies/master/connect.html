@@ -1,0 +1,38 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=bg2312">
+   <META NAME="Author" CONTENT="Spock">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.01 [en] (Win95; I) [Netscape]">
+   <TITLE>MudOS v21c2 参考文件 - applies - master - connect</TITLE>
+</HEAD>
+<BODY TEXT="#CCFFFF" BGCOLOR="#000000" LINK="#33FF33" VLINK="#FF0000" ALINK="#33CCFF" BACKGROUND="../../../image/ff/fftitleback.jpg" NOSAVE>
+
+<CENTER><FONT COLOR="#FF99FF"><FONT SIZE=+3>connect(4)　 MudOS v21c2　
+(5 Sep 1994)</FONT></FONT></CENTER>
+
+<HR WIDTH="100%">
+<BR><FONT COLOR="#FFFFCC">　名称:</FONT>
+<UL>　 connect - 为新的使用者取得一个物件.</UL>
+<FONT COLOR="#FFFFCC">　语法:</FONT>
+<UL>　 object connect( void );
+
+<P>　 物件 connect( 无参数 );</UL>
+<FONT COLOR="#FFFFCC">　用法:</FONT>
+<UL>　 当一个新使用者与驱动程序连线时, 驱动程序会调用主控物件 (master object)
+中的 connect(). connect() 返回的物件, 其作用在于当作初始使用者物件 (initial
+user object). 请注意, 可以使用 exec(3)　 函数将使用者连线的物件从初始使用者物件转换到其他的物件上.</UL>
+<FONT COLOR="#FFFFCC">　参考:</FONT>
+<UL>　 <A HREF="../../efuns/interactive/exec.html">exec(3)</A>, <A HREF="../interactive/logon.html">logon(4)</A></UL>
+<FONT COLOR="#FFFFCC">　翻译:</FONT>
+<UL>　 Spock @ FF 97.Aug.6.　 (printed 3/16/95)</UL>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+<CENTER><A HREF="../master.html">回到上一页</A></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+</BODY>
+</HTML>

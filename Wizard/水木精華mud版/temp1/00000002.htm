@@ -1,0 +1,49 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清華站︰精華區</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+<A Name="top"></a>
+發信人:&nbsp;yeung&nbsp;(流星雨),&nbsp;信區:&nbsp;Mud_Builder&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+標&nbsp;&nbsp;題:&nbsp;關於$N,$n和其他&nbsp;<BR>
+發信站:&nbsp;BBS&nbsp;水木清華站&nbsp;(Wed&nbsp;Jul&nbsp;21&nbsp;20:55:56&nbsp;1999)&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+在系統定義message_vision這個s_efun的裡面:&nbsp;<BR>
+比如:&nbsp;<BR>
+&nbsp;<BR>
+varargs&nbsp;void&nbsp;message_vision(string&nbsp;msg,&nbsp;object&nbsp;me,&nbsp;object&nbsp;you)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;....&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;my_gender&nbsp;=&nbsp;(string)me-&gt;query(&quot;gender&quot;);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;str1&nbsp;=&nbsp;replace_string(msg,&nbsp;&nbsp;&quot;$P&quot;,&nbsp;gender_self(my_gender));&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;str1&nbsp;=&nbsp;replace_string(str1,&nbsp;&quot;$N&quot;,&nbsp;gender_self(my_gender));&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;str3&nbsp;=&nbsp;replace_string(msg,&nbsp;&nbsp;&quot;$P&quot;,&nbsp;my_name);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;str3&nbsp;=&nbsp;replace_string(str3,&nbsp;&quot;$N&quot;,&nbsp;my_name);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;....&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//然後就是一大堆什麼我你他她它的之類的了來針對當事人做替換.&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+message_vision(msg,ob1,ob2)&nbsp;<BR>
+&nbsp;<BR>
+$N是ob1的名字,對於ob1就是&quot;你&quot;,$P就是性別上的代稱,比如&quot;她&quot;&nbsp;<BR>
+一般大寫的代表ob1的,小寫代表ob2的&nbsp;<BR>
+--&nbsp;<BR>
+夢後樓台高鎖，酒醒簾幕低垂&nbsp;<BR>
+去年春恨卻來時，落花人獨立，微雨燕雙飛&nbsp;<BR>
+&nbsp;<BR>
+記得小蘋初見，兩重心字羅衣&nbsp;<BR>
+琵琶弦上說相思，當時明月在，曾照彩雲歸&nbsp;<BR>
+&nbsp;<BR>
+※&nbsp;來源:‧BBS&nbsp;水木清華站&nbsp;bbs.net.tsinghua.edu.cn‧[FROM:&nbsp;162.105.138.49]&nbsp;<BR>
+<A HREF="00000001.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一頁</A>
+<A HREF="index.htm">回到目錄</A>
+<A HREF="#top">回到頁首</A>
+<A HREF="00000003.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+</BODY></HTML>

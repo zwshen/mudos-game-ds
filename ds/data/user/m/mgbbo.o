@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions ([])
+dbase (["DS_DATA_VERSION":19991107,"guild_gifts":({3,7,3,7,}),"unit":"位","wound":(["left_arm":0,"body":0,"left_leg":0,"head":0,"right_leg":0,"right_arm":0,]),"title":"凌雲寺第五代弟子","volume":7,"attitude":"peaceful","talk_point":8,"max_hp":110,"class1":"凌雲寺","channels":({"chat","rumor","tchat",}),"family":(["privs":-1,"title":"弟子","family_name":"凌雲寺","generation":5,]),"mud_age":326,"newbie":1,"supply_point":44,"exp":777,"guild_rank":"凌雲寺第五代弟子","dex":2,"hp":110,"int":2,"addition_shield":10,"con":2,"level":1,"birthday":1229712569,"max_ap":64,"mp":64,"Merits":(["bar":0,"tec":0,"sou":0,"bio":0,"wit":0,]),"addition_armor":10,"evil":-1,"last_location":"/open/world1/acme/bonze/b14","heart_beat_rate":6,"default_actions":,"addition_damage":10,"actions":,"ap":64,"cure_count":2,"race":"tiger","age":14,"heart_modify":0,"max_mp":64,"id":"mgbbo","adv_class":1,"startroom":"/open/world1/tmr/area/hotel","env":([]),"gender":"男性","bank":(["past":0,]),"str":2,"name":"明路",])
+skills (["parry":1,"buddha-force":1,"dodge":1,"staff":1,"quanyin-steps":1,"block":1,"wuchen-staff":1,"literate":1,])
+spells (["recite-sutra":1,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

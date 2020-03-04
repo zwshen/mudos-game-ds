@@ -1,0 +1,10 @@
+#/obj/user.c
+conditions ([])
+dbase (["DS_DATA_VERSION":19991107,"cure_count":19,"help":"newbie/","race":"human","actions":,"addition_shield":10,"max_mp":60,"channels":({"chat","rumor","tchat",}),"max_hp":80,"heart_modify":0,"birthday":1193371007,"id":"sbar","env":([]),"war_score":16,"combat_exp":4,"addition_armor":10,"mp":60,"supply_point":60,"max_ap":60,"gender":"男性","Merits":(["sou":0,"wit":0,"bar":0,"bio":0,"tec":0,]),"default_actions":,"ap":60,"name":"小鬼","MKS":15,"guild_gifts":({5,5,5,5,}),"startroom":"/open/world1/tmr/area/hotel","addition_damage":10,"board_last_read":(["tmr_hotel_b":1193194348,]),"attitude":"peaceful","age":14,"heart_beat_rate":6,"mob_record":({"/open/world1/tmr/area/npc/dog","/open/world1/tmr/area/npc/dog","/open/world1/tmr/area/npc/frog","/open/world1/tmr/area/npc/frog","/open/world1/tmr/area/npc/frog","/open/world1/tmr/area/npc/frog","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"talk_point":8,"hp":80,"bank":(["past":15,]),"newbie":1,"exp":2797,"dex":2,"int":2,"mud_age":2712,"volume":7,"con":2,"str":2,"level":1,"wound":(["right_arm":0,"right_leg":0,"left_leg":0,"head":0,"left_arm":0,"body":0,]),"evil":23,"unit":"位","last_location":"/open/world1/wu_sha_town/seacoun6",])
+skills (["combat":7,"blade":3,"dodge":3,"parry":1,"unarmed":4,])
+learned (["combat":39,"blade":5,"dodge":21,"parry":4,"unarmed":14,])
+items ({})
+alias (["vo":"do look off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,enter,n,n,n,n,n,n,n,n,e,e,e,n,e,look on,l",])
+autoload ({"/obj/money/coin:726",})
+toDoList ([])
+solved ({})

@@ -1,0 +1,17 @@
+
+	remove_call_out(3)	LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		remove_call_out() - 取消一個延遲中的外部呼叫 (call_out).
+	函數語法:
+		int remove_call_out( string fun );
+
+		整數 remove_call_out( 字串 fun );
+	函數用法:
+		取消目前這個物件延遲呼叫的外部呼叫函式 fun. 傳回值就是
+		外部呼叫還剩下多少延遲時間. 如果函式 fun  已經沒有延遲
+		的外部呼叫, 就傳回 -1.
+	參考函數:
+		call_out(3), call_out_info(3).
+	手冊翻譯:
+		Phoebus@ZH	97.May.27.		(Writen 5/23/97)

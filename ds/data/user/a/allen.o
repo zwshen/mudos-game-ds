@@ -1,0 +1,5 @@
+#/obj/user.c
+dbase (["dex":2,"unit":"位","mud_age":320,"int":2,"addition_damage":10,"DS_DATA_VERSION":19991107,"con":2,"max_hp":80,"str":2,"wound":(["left_arm":0,"right_leg":0,"left_leg":0,"right_arm":0,"body":0,"head":0,]),"disable_type":" <毫無呼吸>","attitude":"peaceful","actions":,"cure_count":0,"age":14,"volume":7,"max_mp":60,"bellicosity":0,"combat_exp":0,"channels":({"chat","rumor","tchat",}),"default_actions":,"race":"human","gender":"女性","level":1,"id":"allen","talk_point":8,"addition_shield":10,"name":"朱家煌","birthday":1104212399,"mp":60,"addition_armor":10,"heart_beat_rate":6,"Merits":(["wit":0,"sou":0,"bar":0,"tec":0,"bio":0,]),"ap":60,"max_ap":60,"guild_gifts":({5,5,5,5,}),"startroom":"/open/world1/tmr/area/hotel","supply_point":40,"evil":-1,"newbie":1,"heart_modify":0,"last_location":"/open/world1/tmr/area/hotel","hp":80,"exp":701,])
+skills (["unarmed":1,"combat":2,"dodge":1,])
+learned (["dodge":0,])
+autoload ({})

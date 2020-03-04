@@ -1,0 +1,5 @@
+#/obj/mailbox.c
+dbase (["name":"¤å®õ¨Óªº«H½c","long":"		³o¬O¤@­Ó¥Î¨Ó±H«H¡B¦¬«Hªº«H½c¡M§A¥i¥H¥Î¥H¤U«ü¥O¨Ó³B²z§Aªº¶l¥ó¡R						mail <¬Y¤H>               ±H«Hµ¹§O¤H¡C		replymail <«H¥ó½s¸¹>      ¦^«Hµ¹µo«HªÌ¡C		forward <«H¥ó½s¸¹> <¬Y¤H> ±N¬Y«Ê«HÂà±Hµ¹§O¤H¡C		from                      ¬d¬Ý«H½c¤¤ªº«H¥ó¡C		read <«H¥ó½s¸¹>           ¾\\Åª¤@«Ê«H¥ó¡C		discard <«H¥ó½s¸¹>        ¥á±ó¤@«Ê«H¥ó¡C","owner_id":"bluerex","unit":"­Ó","no_put":1,"no_drop":1,"id":"mailbox","no_insert":1,])
+mails ({(["title":"­«­n¨Æ¥ó!!","from":"¼Z¸¨(diroe)","to":"bluerex","time":1172170351,"text":"´N¬O¨S¨Æ  ¸ÕÅç¬Ý¬Ý[0m",]),(["title":"passwd","from":"ÀØ±T¥¬(ayumi)","to":"bluerex","time":1180098002,"text":"passwd_A¥i¥Hµn¤Jaysee you[0m",]),(["title":"save eq","from":"ÂùÂù(christine)","to":"bluerex","time":1203951431,"text":"³Â·Ð½Ð±N§Ú¤¤ªºsave eqÂà¥Ñbluerex³B²z...[0m",]),})
+last_read_time 1203951431
+newest_mail_time 1203951431

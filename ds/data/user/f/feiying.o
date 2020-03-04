@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions ([])
+dbase (["help":"class/","DS_DATA_VERSION":19991107,"supply_point":60,"addition_armor":10,"env":(["wimpy":40,]),"class1":"疾風門","attitude":"peaceful","addition_damage":10,"talk_point":8,"cure_count":17,"channels":({"chat","rumor","tchat",}),"combat_exp":0,"max_hp":84,"mud_age":1207,"newbie":1,"exp":710,"hp":84,"dex":2,"heart_beat_rate":6,"int":2,"con":2,"age":14,"level":1,"birthday":1176759509,"guild_gifts":({5,7,0,8,}),"max_ap":100,"bank":(["past":0,]),"evil":-1,"unit":"位","default_actions":,"mp":66,"adv_class":1,"actions":,"bellicosity":0,"ap":100,"title":"疾風門第四代弟子","volume":7,"race":"evil","family":(["title":"弟子","family_name":"疾風門","generation":4,"privs":-1,]),"disable_type":" <毫無呼吸>","id":"feiying","heart_modify":0,"Merits":(["bar":0,"tec":0,"sou":0,"bio":0,"wit":0,]),"max_mp":66,"addition_shield":10,"startroom":"/open/world1/tmr/area/hotel","last_location":"/open/world1/tmr/area/street4","gender":"男性","str":2,"name":"飛影",])
+skills (["sword":2,"combat":3,"dodge":1,"sorgi_sword":1,"strong-body":2,])
+learned ([])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

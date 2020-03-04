@@ -1,0 +1,998 @@
+[Sun Sep 30 23:03:02 2001] u/t/truewind/workroom.c line 6: Undefined variable 'WHT' before ); 
+
+[Sun Sep 30 23:03:02 2001] u/t/truewind/workroom.c line 6: parse error before ); 
+
+[Sun Sep 30 23:03:02 2001] u/t/truewind/workroom.c line 17: End of file in text block before  1:	
+
+[Sun Sep 30 23:05:09 2001] u/t/truewind/workroom.c line 6: Undefined variable 'WHT' before ); 
+
+[Sun Sep 30 23:05:09 2001] u/t/truewind/workroom.c line 6: parse error before ); 
+
+[Sun Sep 30 23:05:09 2001] u/t/truewind/workroom.c line 17: End of file in text block before ,3);
+
+[Sun Sep 30 23:06:21 2001] u/t/truewind/workroom.c line 10: parse error before )
+
+[Sun Sep 30 23:06:39 2001] u/t/truewind/workroom.c line 10: parse error before )
+
+[Sun Sep 30 23:07:07 2001] u/t/truewind/workroom.c line 10: parse error before )
+
+[Sun Sep 30 23:09:54 2001] u/t/truewind/workroom.c line 10: parse error before )
+
+[Sun Sep 30 23:10:30 2001] u/t/truewind/workroom.c line 10: parse error before )
+
+[Sun Sep 30 23:12:23 2001] u/t/truewind/workroom.c line 10: parse error before )
+
+[Sun Sep 30 23:28:32 2001] u/t/truewind/workroom.c line 10: parse error before )
+
+[Sun Sep 30 23:29:06 2001] u/t/truewind/workroom.c line 15: End of file in text block before ght", 1);
+
+[Sun Sep 30 23:29:06 2001] u/t/truewind/workroom.c line 15: parse error before ght", 1);
+
+[Sun Sep 30 23:29:14 2001] u/t/truewind/workroom.c line 15: End of file in text block before ght", 1);
+
+[Sun Sep 30 23:29:14 2001] u/t/truewind/workroom.c line 15: parse error before ght", 1);
+
+[Sun Sep 30 23:30:50 2001] u/t/truewind/workroom.c line 14: End of file in text block before L¨ç¦¡xxx()®É½Ð®³±¼¦¹
+
+[Sun Sep 30 23:30:50 2001] u/t/truewind/workroom.c line 14: parse error before L¨ç¦¡xxx()®É½Ð®³±¼¦¹
+
+[Sun Sep 30 23:37:51 2001] u/t/truewind/workroom.c line 8: parse error before ä¹L±V);
+
+[Sun Sep 30 23:42:30 2001] u/t/truewind/workroom.c line 18: parse error before 
+
+[Sun Sep 30 23:42:38 2001] u/t/truewind/workroom.c line 18: parse error before 
+
+[Sun Sep 30 23:45:47 2001] u/t/truewind/workroom1.c line 7: Undefined variable 'HIW' before );
+
+[Sun Sep 30 23:45:47 2001] u/t/truewind/workroom1.c line 7: parse error before );
+
+[Sun Sep 30 23:46:42 2001] u/t/truewind/workroom1.c line 7: Undefined variable 'HIW' before );
+
+[Sun Sep 30 23:46:42 2001] u/t/truewind/workroom1.c line 7: parse error before );
+
+[Mon Oct  1 00:17:26 2001] u/t/truewind/workroom.c line 17: parse error before ("valid_startroom", 
+
+[Mon Oct  1 00:17:30 2001] u/t/truewind/workroom.c line 17: parse error before ("valid_startroom", 
+
+[Mon Oct  1 00:19:45 2001] u/t/truewind/workroom.c line 22: parse error before 
+
+[Mon Oct  1 03:48:20 2001] u/t/truewind/test.c line 11: Undefined function create_door before  
+
+[Mon Oct  1 03:48:20 2001] u/t/truewind/test.c line 12: parse error before the end of line
+
+[Mon Oct  1 03:58:47 2001] u/t/truewind/test.c line 12: Undefined function create_door before the end of line
+
+[Mon Oct  1 03:58:47 2001] u/t/truewind/test.c line 13: parse error before the end of line
+
+[Mon Oct  1 04:16:40 2001] u/t/truewind/minetown.c line 18: parse error before the end of line
+
+[Mon Oct  1 04:18:27 2001] u/t/truewind/minetown.c line 16: parse error before the end of line
+
+[Mon Oct  1 04:19:05 2001] u/t/truewind/minetown.c line 16: parse error before the end of line
+
+[Mon Oct  1 04:20:16 2001] u/t/truewind/minetown.c line 16: parse error before the end of line
+
+[Mon Oct  1 04:20:36 2001] u/t/truewind/minetown.c line 16: parse error before the end of line
+
+[Mon Oct  1 04:20:40 2001] u/t/truewind/minetown.c line 16: parse error before the end of line
+
+[Mon Oct  1 04:26:58 2001] u/t/truewind/minetown1.c line 9: Warning: Unknown \ escape. before b´×¤º¦³¤°»ò§A
+
+[Mon Oct  1 04:26:58 2001] u/t/truewind/minetown1.c line 12: parse error before ", ([/* sizeof() == 
+
+[Mon Oct  1 04:26:58 2001] u/t/truewind/minetown1.c line 16: End of file in string before 			"/std/room");
+
+[Mon Oct  1 04:27:18 2001] u/t/truewind/minetown1.c line 10: Warning: Unknown \ escape. before b´×¤º¦³¤°»ò§A·|·P¿³½
+
+[Mon Oct  1 04:27:18 2001] u/t/truewind/minetown1.c line 12: parse error before ", ([/* sizeof() == 
+
+[Mon Oct  1 04:27:18 2001] u/t/truewind/minetown1.c line 16: End of file in string before ("outdoors","land");
+
+[Mon Oct  1 04:28:08 2001] u/t/truewind/minetown1.c line 11: Warning: Unknown \ escape. before b´×¤º¦³¤°»ò§A·|·P¿³½
+
+[Mon Oct  1 04:28:08 2001] u/t/truewind/minetown1.c line 13: parse error before ", ([/* sizeof() == 
+
+[Mon Oct  1 04:28:08 2001] u/t/truewind/minetown1.c line 17: End of file in string before nment(me)->query("no
+
+[Mon Oct  1 04:28:48 2001] u/t/truewind/minetown1.c line 11: Warning: Unknown \ escape. before b´×¤º¦³¤°»ò§A·|·P¿³½
+
+[Mon Oct  1 04:28:48 2001] u/t/truewind/minetown1.c line 14: parse error before ", ([/* sizeof() == 
+
+[Mon Oct  1 04:28:48 2001] u/t/truewind/minetown1.c line 18: End of file in string before ¡C\n");
+
+[Mon Oct  1 04:30:07 2001] u/t/truewind/minetown1.c line 11: Warning: Unknown \ escape. before b´×¤º¦³¤°»ò§A·|·P¿³½
+
+[Mon Oct  1 04:30:07 2001] u/t/truewind/minetown1.c line 14: parse error before ", ([/* sizeof() == 
+
+[Mon Oct  1 04:30:07 2001] u/t/truewind/minetown1.c line 18: End of file in string before "bite","claw" }) ); 
+
+[Mon Oct  1 04:30:29 2001] u/t/truewind/minetown1.c line 11: Warning: Unknown \ escape. before b´×¤º¦³¤°»ò§A·|·P¿³½
+
+[Mon Oct  1 04:30:29 2001] u/t/truewind/minetown1.c line 14: parse error before ", ([/* sizeof() == 
+
+[Mon Oct  1 04:30:29 2001] u/t/truewind/minetown1.c line 18: End of file in string before claw" }) );         
+
+[Mon Oct  1 04:31:27 2001] u/t/truewind/minetown1.c line 10: Warning: Unknown \ escape. before b´×¤º¦³¤°»ò§A·|·P¿³½
+
+[Mon Oct  1 04:31:27 2001] u/t/truewind/minetown1.c line 11: parse error before ", ([/* sizeof() == 
+
+[Mon Oct  1 04:31:27 2001] u/t/truewind/minetown1.c line 15: End of file in string before       "north" : __DI
+
+[Mon Oct  1 04:32:19 2001] u/t/truewind/minetown1.c line 10: Warning: Unknown \ escape. before b´×¤º¦³¤°»ò§A·|·P¿³½
+
+[Mon Oct  1 04:33:06 2001] u/t/truewind/minetown1.c line 9: Warning: Unknown \ escape. before the end of line
+
+[Mon Oct  1 04:34:18 2001] u/t/truewind/minetown1.c line 9: Warning: Unknown \ escape. before b
+
+[Mon Oct  1 04:35:20 2001] u/t/truewind/minetown1.c line 9: Warning: Unknown \ escape. before b
+
+[Mon Oct  1 04:35:20 2001] u/t/truewind/minetown1.c line 11: Illegal character constant before the end of line
+
+[Mon Oct  1 04:35:20 2001] u/t/truewind/minetown1.c line 11: parse error before the end of line
+
+[Mon Oct  1 04:36:25 2001] u/t/truewind/minetown1.c line 9: Warning: Unknown \ escape. before b
+
+[Mon Oct  1 04:36:31 2001] u/t/truewind/minetown1.c line 9: Warning: Unknown \ escape. before b
+
+[Mon Oct  1 04:36:55 2001] u/t/truewind/minetown1.c line 9: Warning: Unknown \ escape. before ³§A·|·P¿³½ìªºªF¦è¡C\
+
+[Mon Oct  1 04:44:55 2001] u/t/truewind/minetown1.c line 12: parse error before 
+
+[Mon Oct  1 05:20:19 2001] u/t/truewind/npc/1.c line 7: Undefined variable 'HIW' before NOR, ({ "Snow fox" }
+
+[Mon Oct  1 05:20:19 2001] u/t/truewind/npc/1.c line 7: parse error before NOR, ({ "Snow fox" }
+
+[Mon Oct  1 13:14:36 2001] u/t/truewind/truewind_b.c line 14: parse error before +"[1;37m"        "¥¨
+
+[Tue Oct  2 01:06:25 2001] u/t/truewind/minetown2.c line 14: parse error before ("exits", ([ /* size
+
+[Tue Oct  2 01:06:33 2001] u/t/truewind/minetown2.c line 14: parse error before ("exits", ([ /* size
+
+[Tue Oct  2 01:06:52 2001] u/t/truewind/minetown2.c line 14: parse error before ("exits", ([ /* size
+
+[Tue Oct  2 01:07:36 2001] u/t/truewind/minetown2.c line 14: parse error before ("exits", ([ /* size
+
+[Tue Oct  2 01:08:47 2001] u/t/truewind/minetown2.c line 14: parse error before ("exits", ([ /* size
+
+[Tue Oct  2 02:49:55 2001] u/t/truewind/cave.c line 8: Warning: Unknown \ escape. before ]
+
+[Tue Oct  2 02:49:55 2001] u/t/truewind/cave.c line 9: Warning: Unknown \ escape. before F´X¥ó­·²M´­ªº¦çªA¡Aª
+
+[Tue Oct  2 02:50:17 2001] u/t/truewind/cave.c line 8: Warning: Unknown \ escape. before ]
+
+[Tue Oct  2 02:50:17 2001] u/t/truewind/cave.c line 9: Warning: Unknown \ escape. before F´X¥ó­·²M´­ªº¦çªA¡Aª
+
+[Tue Oct  2 02:53:28 2001] u/t/truewind/cave.c line 9: Warning: Unknown \ escape. before F´X¥ó­·²M´­ªº¦çªA¡Aª
+
+[Tue Oct  2 14:04:52 2001] u/t/truewind/workroom.c line 31: Reserved type name unexpected. before (object me)
+
+[Tue Oct  2 14:04:52 2001] u/t/truewind/workroom.c line 31: parse error before (object me)
+
+[Tue Oct  2 14:04:52 2001] u/t/truewind/workroom.c line 44: parse error before the end of line
+
+[Tue Oct  2 14:06:33 2001] u/t/truewind/workroom.c line 32: Reserved type name unexpected. before (object me)
+
+[Tue Oct  2 14:06:33 2001] u/t/truewind/workroom.c line 32: parse error before (object me)
+
+[Tue Oct  2 14:08:09 2001] u/t/truewind/workroom.c line 32: Reserved type name unexpected. before (object me)
+
+[Tue Oct  2 14:08:09 2001] u/t/truewind/workroom.c line 32: parse error before (object me)
+
+[Tue Oct  2 14:11:10 2001] u/t/truewind/workroom.c line 33: Reserved type name unexpected. before (object me)
+
+[Tue Oct  2 14:11:10 2001] u/t/truewind/workroom.c line 33: parse error before (object me)
+
+[Tue Oct  2 14:13:13 2001] u/t/truewind/workroom.c line 33: Reserved type name unexpected. before (object me)
+
+[Tue Oct  2 14:13:13 2001] u/t/truewind/workroom.c line 33: parse error before (object me)
+
+[Tue Oct  2 14:17:18 2001] u/t/truewind/workroom.c line 33: Reserved type name unexpected. before (object me)
+
+[Tue Oct  2 14:17:18 2001] u/t/truewind/workroom.c line 33: parse error before (object me)
+
+[Tue Oct  2 14:18:00 2001] u/t/truewind/workroom.c line 33: Reserved type name unexpected. before (object me)
+
+[Tue Oct  2 14:18:00 2001] u/t/truewind/workroom.c line 33: parse error before (object me)
+
+[Tue Oct  2 14:19:23 2001] u/t/truewind/workroom.c line 32: Reserved type name unexpected. before (object me)
+
+[Tue Oct  2 14:19:23 2001] u/t/truewind/workroom.c line 32: parse error before (object me)
+
+[Tue Oct  2 14:24:32 2001] u/t/truewind/workroom.c line 32: Reserved type name unexpected. before (object me)
+
+[Tue Oct  2 14:24:32 2001] u/t/truewind/workroom.c line 32: parse error before (object me)
+
+[Tue Oct  2 14:26:39 2001] u/t/truewind/workroom.c line 32: Reserved type name unexpected. before (object me)
+
+[Tue Oct  2 14:26:39 2001] u/t/truewind/workroom.c line 32: parse error before (object me)
+
+[Tue Oct  2 14:28:19 2001] u/t/truewind/workroom.c line 34: Reserved type name unexpected. before (object me)
+
+[Tue Oct  2 14:28:19 2001] u/t/truewind/workroom.c line 34: parse error before (object me)
+
+[Tue Oct  2 14:28:55 2001] u/t/truewind/workroom.c line 33: Reserved type name unexpected. before (object me)
+
+[Tue Oct  2 14:28:55 2001] u/t/truewind/workroom.c line 33: parse error before (object me)
+
+[Tue Oct  2 14:31:13 2001] u/t/truewind/workroom.c line 33: Reserved type name unexpected. before (object me)
+
+[Tue Oct  2 14:31:13 2001] u/t/truewind/workroom.c line 33: parse error before (object me)
+
+[Tue Oct  2 14:52:15 2001] u/t/truewind/workroom.c line 33: Reserved type name unexpected. before (object me)
+
+[Tue Oct  2 14:52:15 2001] u/t/truewind/workroom.c line 33: parse error before (object me)
+
+[Tue Oct  2 17:42:53 2001] u/t/truewind/workroom.c line 33: Reserved type name unexpected. before (object me)
+
+[Tue Oct  2 17:42:53 2001] u/t/truewind/workroom.c line 33: parse error before (object me)
+
+[Tue Oct  2 17:47:34 2001] u/t/truewind/workroom.c line 33: Reserved type name unexpected. before (object me)
+
+[Tue Oct  2 17:47:34 2001] u/t/truewind/workroom.c line 33: parse error before (object me)
+
+[Tue Oct  2 17:47:50 2001] u/t/truewind/workroom.c line 33: Reserved type name unexpected. before (object me)
+
+[Tue Oct  2 17:47:50 2001] u/t/truewind/workroom.c line 33: parse error before (object me)
+
+[Tue Oct  2 23:27:56 2001] u/t/truewind/workroom.c line 33: Reserved type name unexpected. before (object me)
+
+[Tue Oct  2 23:27:56 2001] u/t/truewind/workroom.c line 33: parse error before (object me)
+
+[Tue Oct  2 23:28:28 2001] u/t/truewind/workroom.c line 33: Reserved type name unexpected. before (object me)
+
+[Tue Oct  2 23:28:28 2001] u/t/truewind/workroom.c line 33: parse error before (object me)
+
+[Tue Oct  2 23:34:28 2001] u/t/truewind/workroom.c line 33: Reserved type name unexpected. before (object me)
+
+[Tue Oct  2 23:34:28 2001] u/t/truewind/workroom.c line 33: parse error before (object me)
+
+[Tue Oct  2 23:34:52 2001] u/t/truewind/workroom.c line 33: Reserved type name unexpected. before (object me)
+
+[Tue Oct  2 23:34:52 2001] u/t/truewind/workroom.c line 33: parse error before (object me)
+
+[Thu Oct  4 01:32:48 2001] u/t/truewind/minetown_bill.c line 19: Reserved type name unexpected. before (object me)
+
+[Thu Oct  4 01:32:48 2001] u/t/truewind/minetown_bill.c line 19: parse error before (object me)
+
+[Thu Oct  4 01:43:39 2001] u/t/truewind/minetown_bill.c line 7: Undefined variable 'HIB' before NOR"°s§a");
+
+[Thu Oct  4 01:43:39 2001] u/t/truewind/minetown_bill.c line 7: parse error before NOR"°s§a");
+
+[Thu Oct  4 01:45:03 2001] u/t/truewind/minetown_bill.c line 7: Undefined variable 'BLU' before NOR"°s§a");
+
+[Thu Oct  4 01:45:03 2001] u/t/truewind/minetown_bill.c line 7: parse error before NOR"°s§a");
+
+[Thu Oct  4 01:45:13 2001] u/t/truewind/minetown_bill.c line 7: Undefined variable 'BLU' before NOR"°s§a");
+
+[Thu Oct  4 01:45:13 2001] u/t/truewind/minetown_bill.c line 7: parse error before NOR"°s§a");
+
+[Thu Oct  4 04:37:49 2001] u/t/truewind/minetown2.c line 15: parse error before "system" : "§A¬Ý¨ì¤@
+
+[Thu Oct  4 04:38:13 2001] u/t/truewind/minetown2.c line 17: parse error before the end of line
+
+[Thu Oct  4 04:39:46 2001] u/t/truewind/minetown2.c line 16: parse error before  
+
+[Thu Oct  4 04:40:38 2001] u/t/truewind/minetown2.c line 16: parse error before  
+
+[Thu Oct  4 04:41:30 2001] u/t/truewind/minetown2.c line 16: parse error before  
+
+[Thu Oct  4 04:42:17 2001] u/t/truewind/minetown2.c line 16: parse error before  
+
+[Thu Oct  4 04:42:43 2001] u/t/truewind/minetown2.c line 15: parse error before  "§A¬Ý¨ì¤@±øºÞ½u±q¤g
+
+[Thu Oct  4 04:43:01 2001] u/t/truewind/minetown2.c line 15: parse error before  "§A¬Ý¨ì¤@±øºÞ½u±q¤g
+
+[Thu Oct  4 08:33:54 2001] u/t/truewind/workroom.c line 17: parse error before @¡@__DIR__"npc/fox":
+
+[Thu Oct  4 08:33:54 2001] u/t/truewind/workroom.c line 17: Illegal terminator before ¡@__DIR__"npc/fox":1
+
+[Thu Oct  4 08:34:56 2001] u/t/truewind/workroom.c line 18: parse error before @¡@__DIR__"fox":1 ,
+
+[Thu Oct  4 08:34:56 2001] u/t/truewind/workroom.c line 18: Illegal terminator before ¡@__DIR__"fox":1 ,
+
+[Thu Oct  4 08:35:25 2001] u/t/truewind/workroom.c line 18: parse error before @¡@__DIR__"fox":1 ,
+
+[Thu Oct  4 08:35:25 2001] u/t/truewind/workroom.c line 18: Illegal terminator before ¡@__DIR__"fox":1 ,
+
+[Thu Oct  4 08:36:39 2001] u/t/truewind/workroom.c line 17: parse error before @¡@__DIR__"fox":1 ,
+
+[Thu Oct  4 08:36:39 2001] u/t/truewind/workroom.c line 17: Illegal terminator before ¡@__DIR__"fox":1 ,
+
+[Thu Oct  4 08:37:15 2001] u/t/truewind/workroom.c line 17: parse error before @¡@__DIR__"fox":1 ,
+
+[Thu Oct  4 08:37:15 2001] u/t/truewind/workroom.c line 17: Illegal terminator before ¡@__DIR__"fox":1 ,
+
+[Thu Oct  4 08:37:43 2001] u/t/truewind/workroom.c line 17: parse error before @¡@__DIR__"fox":1 ,
+
+[Thu Oct  4 08:37:43 2001] u/t/truewind/workroom.c line 17: Illegal terminator before ¡@__DIR__"fox":1 ,
+
+[Thu Oct  4 08:38:05 2001] u/t/truewind/workroom.c line 17: parse error before @¡@__DIR__"Tsiping":
+
+[Thu Oct  4 08:38:05 2001] u/t/truewind/workroom.c line 17: Illegal terminator before ¡@__DIR__"Tsiping":1
+
+[Thu Oct  4 08:38:40 2001] u/t/truewind/workroom.c line 17: parse error before @¡@__DIR__"tsiping":
+
+[Thu Oct  4 08:38:40 2001] u/t/truewind/workroom.c line 17: Illegal terminator before ¡@__DIR__"tsiping":1
+
+[Thu Oct  4 21:22:49 2001] u/t/truewind/Minetown/area/minetown1.c line 23: parse error before the end of line
+
+[Thu Oct  4 21:24:06 2001] u/t/truewind/Minetown/area/minetown1.c line 23: parse error before the end of line
+
+[Thu Oct  4 21:37:40 2001] u/t/truewind/Minetown/area/minetown.c line 15: parse error before u/t/truewind/workroo
+
+[Sat Oct  6 02:52:05 2001] u/t/truewind/Minetown/area/npc/chef.c line 22: parse error before the end of file
+
+[Sun Oct  7 04:04:33 2001] u/t/truewind/Minetown/area/eq/cannon.c line 47: Undefined variable 'msg' before this_object()->query
+
+[Sun Oct  7 04:04:33 2001] u/t/truewind/Minetown/area/eq/cannon.c line 64: Undefined variable 'damage' before this_object()->query
+
+[Mon Oct  8 09:04:06 2001] u/t/truewind/Minetown/area/npc/foodman.c line 100: Warning: do_vendor_list() inherited from both /feature/vendor.c (via /std/char/shopman.c) and /feature/vendor.c; using the definition in /std/char/shopman.c. before the end of file
+
+[Mon Oct  8 09:04:06 2001] u/t/truewind/Minetown/area/npc/foodman.c line 100: Warning: price_string() inherited from both /feature/vendor.c (via /std/char/shopman.c) and /feature/vendor.c; using the definition in /std/char/shopman.c. before the end of file
+
+[Mon Oct  8 09:04:06 2001] u/t/truewind/Minetown/area/npc/foodman.c line 100: Warning: compelete_trade() inherited from both /feature/vendor.c (via /std/char/shopman.c) and /feature/vendor.c; using the definition in /std/char/shopman.c. before the end of file
+
+[Mon Oct  8 09:04:06 2001] u/t/truewind/Minetown/area/npc/foodman.c line 100: Warning: buy_object() inherited from both /feature/vendor.c (via /std/char/shopman.c) and /feature/vendor.c; using the definition in /std/char/shopman.c. before the end of file
+
+[Mon Oct  8 17:00:32 2001] u/t/truewind/Minetown/area/npc/obj/manto.c line 5: Undefined variable 'HIR' before NOR,({"heal pill"}))
+
+[Mon Oct  8 17:00:32 2001] u/t/truewind/Minetown/area/npc/obj/manto.c line 5: parse error before NOR,({"heal pill"}))
+
+[Wed Oct 10 02:17:50 2001] u/t/truewind/Minetown/area/npc/obj/pill.c line 21: parse error before ,1);
+
+[Wed Oct 10 02:20:33 2001] u/t/truewind/Minetown/area/npc/obj/pill.c line 19: parse error before  100,
+
+[Wed Oct 10 02:20:33 2001] u/t/truewind/Minetown/area/npc/obj/pill.c line 25: parse error before ,1);
+
+[Wed Oct 10 02:22:05 2001] u/t/truewind/Minetown/area/npc/obj/pill.c line 19: parse error before  100,
+
+[Wed Oct 10 02:22:44 2001] u/t/truewind/Minetown/area/npc/obj/pill.c line 19: parse error before  100,
+
+[Wed Oct 10 02:23:32 2001] u/t/truewind/Minetown/area/npc/obj/pill.c line 19: parse error before  100,
+
+[Wed Oct 10 02:24:32 2001] u/t/truewind/Minetown/area/npc/obj/pill.c line 19: parse error before  120,
+
+[Wed Oct 10 02:25:08 2001] u/t/truewind/Minetown/area/npc/obj/pill.c line 19: parse error before  120,
+
+[Wed Oct 10 02:25:43 2001] u/t/truewind/Minetown/area/npc/obj/pill.c line 18: parse error before  120);
+
+[Wed Oct 10 02:27:01 2001] u/t/truewind/Minetown/area/npc/obj/pill.c line 19: parse error before ,
+
+[Wed Oct 10 02:27:43 2001] u/t/truewind/Minetown/area/npc/obj/pill.c line 19: parse error before ,
+
+[Wed Oct 10 02:29:06 2001] u/t/truewind/Minetown/area/npc/obj/pill.c line 19: parse error before ,
+
+[Wed Oct 10 02:29:48 2001] u/t/truewind/Minetown/area/npc/obj/pill.c line 17: parse error before the end of line
+
+[Wed Oct 10 02:30:18 2001] u/t/truewind/Minetown/area/npc/obj/pill.c line 17: parse error before the end of line
+
+[Fri Oct 12 01:09:26 2001] u/t/truewind/Minetown/area/eq/EA_fist.c line 2: parse error before ;
+
+[Fri Oct 12 01:11:13 2001] u/t/truewind/Minetown/area/eq/EA_fist.c line 2: parse error before ;
+
+[Fri Oct 12 01:11:59 2001] u/t/truewind/Minetown/area/eq/EA_fist.c line 2: parse error before ;
+
+[Sun Oct 14 00:47:08 2001] u/t/truewind/Minetown/area/npc/leader.c line 5: Undefined variable 'HIR' before NOR"«Â·G", ({"Armstr
+
+[Sun Oct 14 00:47:08 2001] u/t/truewind/Minetown/area/npc/leader.c line 5: parse error before NOR"«Â·G", ({"Armstr
+
+[Mon Oct 15 03:34:54 2001] u/t/truewind/Minetown/area/npc/crazyweasel.c line 52: Undefined variable 'do_clean' before ),
+
+[Mon Oct 15 03:34:54 2001] u/t/truewind/Minetown/area/npc/crazyweasel.c line 52: parse error before ),
+
+[Mon Oct 15 03:34:54 2001] u/t/truewind/Minetown/area/npc/crazyweasel.c line 68: Illegal LHS before the end of line
+
+[Mon Oct 15 03:34:54 2001] u/t/truewind/Minetown/area/npc/crazyweasel.c line 68: parse error before the end of line
+
+[Mon Oct 15 03:34:54 2001] u/t/truewind/Minetown/area/npc/crazyweasel.c line 69: Illegal LHS before the end of line
+
+[Mon Oct 15 03:34:54 2001] u/t/truewind/Minetown/area/npc/crazyweasel.c line 69: parse error before the end of line
+
+[Mon Oct 15 03:36:11 2001] u/t/truewind/Minetown/area/npc/crazyweasel.c line 52: Undefined variable 'do_clean' before ),
+
+[Mon Oct 15 03:36:11 2001] u/t/truewind/Minetown/area/npc/crazyweasel.c line 52: parse error before ),
+
+[Mon Oct 15 03:36:11 2001] u/t/truewind/Minetown/area/npc/crazyweasel.c line 68: Illegal LHS before the end of line
+
+[Mon Oct 15 03:36:11 2001] u/t/truewind/Minetown/area/npc/crazyweasel.c line 68: parse error before the end of line
+
+[Mon Oct 15 03:36:11 2001] u/t/truewind/Minetown/area/npc/crazyweasel.c line 69: Illegal LHS before the end of line
+
+[Mon Oct 15 03:36:11 2001] u/t/truewind/Minetown/area/npc/crazyweasel.c line 69: parse error before the end of line
+
+[Tue Oct 16 15:02:15 2001] u/t/truewind/Minetown/area/npc/weasel.c line 71: parse error before n\n\t"¦Ã¬V¤ô·½ªº"YEL
+
+[Tue Oct 16 15:03:10 2001] u/t/truewind/Minetown/area/npc/weasel.c line 66: parse error before n\n\t"¦Ã¬V¤ô·½ªº"YEL
+
+[Tue Oct 16 15:03:50 2001] u/t/truewind/Minetown/area/npc/weasel.c line 66: parse error before n\n\t"¦Ã¬V¤ô·½ªº"YEL
+
+[Tue Oct 16 15:05:18 2001] u/t/truewind/Minetown/area/npc/weasel.c line 66: parse error before n\n\t""¦Ã¬V¤ô·½ªº"YE
+
+[Tue Oct 16 15:06:25 2001] u/t/truewind/Minetown/area/npc/weasel.c line 66: parse error before n\n\t""¦Ã¬V¤ô·½ªº"YE
+
+[Tue Oct 16 20:19:05 2001] u/t/truewind/Minetown/area/npc/obj/corpse.c line 2: parse error before the end of file
+
+[Tue Oct 16 20:19:45 2001] u/t/truewind/Minetown/area/npc/obj/corpse.c line 19: parse error before the end of file
+
+[Tue Oct 16 20:19:53 2001] u/t/truewind/Minetown/area/npc/obj/corpse.c line 19: parse error before the end of file
+
+[Tue Oct 16 20:21:08 2001] u/t/truewind/Minetown/area/npc/obj/corpse.c line 18: parse error before the end of file
+
+[Tue Oct 16 20:22:14 2001] u/t/truewind/Minetown/area/npc/obj/corpse.c line 17: parse error before the end of file
+
+[Tue Oct 16 20:24:43 2001] u/t/truewind/Minetown/area/npc/obj/corpse.c line 7: Undefined function set_name before ;
+
+[Tue Oct 16 20:24:43 2001] u/t/truewind/Minetown/area/npc/obj/corpse.c line 8: Undefined function set before ;
+
+[Tue Oct 16 20:24:43 2001] u/t/truewind/Minetown/area/npc/obj/corpse.c line 9: Undefined function set_weight before ;
+
+[Tue Oct 16 20:24:43 2001] u/t/truewind/Minetown/area/npc/obj/corpse.c line 11: Undefined function set_default_object before ;
+
+[Tue Oct 16 20:24:43 2001] u/t/truewind/Minetown/area/npc/obj/corpse.c line 16: Undefined function setup before ;
+
+[Tue Oct 16 20:24:43 2001] u/t/truewind/Minetown/area/npc/obj/corpse.c line 18: parse error before the end of file
+
+[Tue Oct 16 22:18:27 2001] u/t/truewind/Minetown/area/npc/obj/corpse.c line 2: parse error before ;
+
+[Tue Oct 16 22:19:14 2001] u/t/truewind/Minetown/area/npc/obj/corpse.c line 2: parse error before ;
+
+[Wed Oct 17 01:35:58 2001] u/t/truewind/Minetown/area/npc/obj/corpse.c line 19: parse error before the end of file
+
+[Wed Oct 17 01:36:20 2001] u/t/truewind/Minetown/area/npc/obj/corpse.c line 16: parse error before the end of file
+
+[Sat Oct 20 11:40:08 2001] u/t/truewind/Minetown/area/obj/billboard.c line 15: End of file in text block before ºµ}²¨\n¡A¨Ã¤£¦p­è­è¦
+
+[Sat Oct 20 11:40:08 2001] u/t/truewind/Minetown/area/obj/billboard.c line 15: parse error before ºµ}²¨\n¡A¨Ã¤£¦p­è­è¦
+
+[Sat Oct 20 11:42:45 2001] u/t/truewind/Minetown/area/obj/billboard.c line 7: Undefined variable 'WIR' before YEL"¨®"HIB"³õ"HIC"©Û
+
+[Sat Oct 20 11:42:45 2001] u/t/truewind/Minetown/area/obj/billboard.c line 7: parse error before YEL"¨®"HIB"³õ"HIC"©Û
+
+[Sat Oct 20 11:43:29 2001] u/t/truewind/Minetown/area/obj/billboard.c line 7: Undefined variable 'WIR' before NOR YEL"¨®"NOR HIB"³
+
+[Sat Oct 20 11:43:29 2001] u/t/truewind/Minetown/area/obj/billboard.c line 7: parse error before NOR YEL"¨®"NOR HIB"³
+
+[Sat Oct 20 11:53:05 2001] u/t/truewind/Minetown/area/npc/bill.c line 14: parse error before ("chat_chance", 5);
+
+[Sat Oct 27 02:47:39 2001] u/t/truewind/Minetown/area/npc/meat-eat-worm.c line 23: parse error before 
+
+[Sat Oct 27 02:49:16 2001] u/t/truewind/Minetown/area/npc/meat-eat-worm.c line 23: parse error before 
+
+[Sat Oct 27 02:49:48 2001] u/t/truewind/Minetown/area/npc/meat-eat-worm.c line 23: parse error before 
+
+[Sat Oct 27 02:50:44 2001] u/t/truewind/Minetown/area/npc/meat-eat-worm.c line 23: parse error before 
+
+[Sat Oct 27 02:51:39 2001] u/t/truewind/Minetown/area/npc/meat-eat-worm.c line 23: parse error before 
+
+[Sat Oct 27 02:52:05 2001] u/t/truewind/Minetown/area/npc/meat-eat-worm.c line 23: parse error before 
+
+[Sat Oct 27 02:53:15 2001] u/t/truewind/Minetown/area/npc/meat-eat-worm.c line 23: parse error before 
+
+[Sat Oct 27 02:53:51 2001] u/t/truewind/Minetown/area/npc/meat-eat-worm.c line 23: parse error before 
+
+[Sat Oct 27 02:54:53 2001] u/t/truewind/Minetown/area/npc/meat-eat-worm.c line 23: parse error before 
+
+[Sat Oct 27 02:55:01 2001] u/t/truewind/Minetown/area/npc/meat-eat-worm.c line 23: parse error before 
+
+[Sat Oct 27 02:55:21 2001] u/t/truewind/Minetown/area/npc/meat-eat-worm.c line 23: parse error before 
+
+[Sat Oct 27 02:57:48 2001] u/t/truewind/Minetown/area/npc/meat-eat-worm.c line 14: Warning: Function pointer returning string constant is NOT a function call before ,
+
+[Sat Oct 27 02:58:42 2001] u/t/truewind/Minetown/area/npc/meat-eat-worm.c line 14: Warning: Function pointer returning string constant is NOT a function call before ,
+
+[Sun Oct 28 03:20:59 2001] u/t/truewind/Minetown/area/npc/leader.c line 33: parse error before  1;
+
+[Mon Oct 29 01:02:22 2001] u/t/truewind/Minetown/area/npc/leader.c line 21: parse error before ));
+
+[Mon Oct 29 01:02:22 2001] u/t/truewind/Minetown/area/npc/leader.c line 32: Undefined variable 'target' before query_dex();
+
+[Mon Oct 29 01:02:22 2001] u/t/truewind/Minetown/area/npc/leader.c line 32: Illegal LHS before the end of line
+
+[Mon Oct 29 01:02:22 2001] u/t/truewind/Minetown/area/npc/leader.c line 32: parse error before the end of line
+
+[Mon Oct 29 01:02:22 2001] u/t/truewind/Minetown/area/npc/leader.c line 33: Illegal LHS before the end of line
+
+[Mon Oct 29 01:02:22 2001] u/t/truewind/Minetown/area/npc/leader.c line 33: parse error before the end of line
+
+[Sun Nov  4 02:30:47 2001] u/t/truewind/Minetown/area/machinefield5.c line 28: Reserved type name unexpected. before (string str)
+
+[Sun Nov  4 02:30:47 2001] u/t/truewind/Minetown/area/machinefield5.c line 28: parse error before (string str)
+
+[Sun Nov  4 02:30:47 2001] u/t/truewind/Minetown/area/machinefield5.c line 63: parse error before );
+
+[Sun Nov  4 02:34:44 2001] u/t/truewind/Minetown/area/machinefield5.c line 28: Reserved type name unexpected. before ()
+
+[Sun Nov  4 02:34:44 2001] u/t/truewind/Minetown/area/machinefield5.c line 28: parse error before ()
+
+[Sun Nov  4 02:34:44 2001] u/t/truewind/Minetown/area/machinefield5.c line 40: Undefined variable 'HIG' before "§A¨«¦V©U§£°ï¸Ì...\n
+
+[Sun Nov  4 02:34:44 2001] u/t/truewind/Minetown/area/machinefield5.c line 40: Undefined variable 'NOR' before ;
+
+[Sun Nov  4 02:34:44 2001] u/t/truewind/Minetown/area/machinefield5.c line 64: parse error before the end of line
+
+[Sun Nov  4 02:34:55 2001] u/t/truewind/Minetown/area/machinefield5.c line 28: Reserved type name unexpected. before ()
+
+[Sun Nov  4 02:34:55 2001] u/t/truewind/Minetown/area/machinefield5.c line 28: parse error before ()
+
+[Sun Nov  4 02:34:55 2001] u/t/truewind/Minetown/area/machinefield5.c line 40: Undefined variable 'HIG' before "§A¨«¦V©U§£°ï¸Ì...\n
+
+[Sun Nov  4 02:34:55 2001] u/t/truewind/Minetown/area/machinefield5.c line 40: Undefined variable 'NOR' before ;
+
+[Sun Nov  4 02:34:55 2001] u/t/truewind/Minetown/area/machinefield5.c line 64: parse error before the end of line
+
+[Sun Nov  4 02:38:52 2001] u/t/truewind/Minetown/area/machinefield5.c line 28: Reserved type name unexpected. before ()
+
+[Sun Nov  4 02:38:52 2001] u/t/truewind/Minetown/area/machinefield5.c line 28: parse error before ()
+
+[Sun Nov  4 02:38:52 2001] u/t/truewind/Minetown/area/machinefield5.c line 40: Undefined variable 'HIG' before "§A¨«¦V©U§£°ï¸Ì...\n
+
+[Sun Nov  4 02:38:52 2001] u/t/truewind/Minetown/area/machinefield5.c line 40: Undefined variable 'NOR' before ;
+
+[Sun Nov  4 02:38:52 2001] u/t/truewind/Minetown/area/machinefield5.c line 64: parse error before the end of line
+
+[Sun Nov  4 02:39:24 2001] u/t/truewind/Minetown/area/machinefield5.c line 28: Reserved type name unexpected. before ()
+
+[Sun Nov  4 02:39:24 2001] u/t/truewind/Minetown/area/machinefield5.c line 28: parse error before ()
+
+[Sun Nov  4 02:39:24 2001] u/t/truewind/Minetown/area/machinefield5.c line 38: Undefined variable 'HIG' before "§A¨«¦V©U§£°ï¸Ì...\n
+
+[Sun Nov  4 02:39:24 2001] u/t/truewind/Minetown/area/machinefield5.c line 38: Undefined variable 'NOR' before ;
+
+[Sun Nov  4 02:39:24 2001] u/t/truewind/Minetown/area/machinefield5.c line 62: parse error before the end of line
+
+[Sun Nov  4 02:41:22 2001] u/t/truewind/Minetown/area/machinefield5.c line 32: parse error before ()
+
+[Sun Nov  4 02:42:03 2001] u/t/truewind/Minetown/area/machinefield5.c line 66: parse error before the end of line
+
+[Sun Nov  4 02:50:01 2001] u/t/truewind/Minetown/area/machinefield5.c line 63: parse error before the end of line
+
+[Sun Nov  4 02:56:43 2001] u/t/truewind/Minetown/area/machinefield5.c line 63: parse error before the end of line
+
+[Sun Nov  4 03:11:30 2001] u/t/truewind/Minetown/area/machinefield5.c line 34: Too few arguments to add_action before ;
+
+[Mon Nov  5 12:31:50 2001] u/t/truewind/Minetown/area/machinefield5.c line 3: parse error before the end of line
+
+[Mon Nov  5 13:55:28 2001] u/t/truewind/Minetown/area/sewer1.c line 3: parse error before the end of line
+
+[Mon Nov  5 13:55:55 2001] u/t/truewind/Minetown/area/sewer1.c line 3: parse error before the end of line
+
+[Mon Nov  5 13:56:57 2001] u/t/truewind/Minetown/area/sewer1.c line 3: parse error before the end of line
+
+[Mon Nov  5 13:57:51 2001] u/t/truewind/Minetown/area/sewer1.c line 3: parse error before the end of line
+
+[Mon Nov  5 13:57:55 2001] u/t/truewind/Minetown/area/sewer1.c line 3: parse error before the end of line
+
+[Sun Nov 18 03:04:05 2001] u/t/truewind/Minetown/area/pool06.c line 17: parse error before the end of line
+
+[Sun Nov 18 03:05:29 2001] u/t/truewind/Minetown/area/pool06.c line 17: parse error before the end of line
+
+[Sun Nov 18 03:14:54 2001] u/t/truewind/Minetown/area/npc/leader.c line 9: parse error before Ç¤â"¡C\n");
+
+[Sun Nov 18 03:14:54 2001] u/t/truewind/Minetown/area/npc/leader.c line 33: Undefined variable 'target' before query_dex();
+
+[Sun Nov 18 03:14:54 2001] u/t/truewind/Minetown/area/npc/leader.c line 33: Illegal LHS before the end of line
+
+[Sun Nov 18 03:14:54 2001] u/t/truewind/Minetown/area/npc/leader.c line 33: parse error before the end of line
+
+[Sun Nov 18 03:14:54 2001] u/t/truewind/Minetown/area/npc/leader.c line 34: Illegal LHS before the end of line
+
+[Sun Nov 18 03:14:54 2001] u/t/truewind/Minetown/area/npc/leader.c line 34: parse error before the end of line
+
+[Sun Nov 18 11:42:53 2001] u/t/truewind/Minetown/area/pool01.c line 8: parse error before n"+
+
+[Sun Nov 18 11:42:53 2001] u/t/truewind/Minetown/area/pool01.c line 9: Illegal terminator before ±ø¤@±øªººÞ½u½¯©µ¦b¥|
+
+[Sun Nov 18 11:54:03 2001] u/t/truewind/Minetown/area/pool02.c line 6: Undefined variable 'NOR' before +
+
+[Sun Nov 18 11:54:03 2001] u/t/truewind/Minetown/area/pool02.c line 6: parse error before +
+
+[Tue Nov 20 01:57:46 2001] u/t/truewind/whip1.c line 18: parse error before ¿"¦a©â¥X¡AÄñÂ¶¦b¤â¤W
+
+[Tue Nov 20 01:59:12 2001] u/t/truewind/whip1.c line 25: Reserved type name unexpected. before (object me,object vi
+
+[Tue Nov 20 01:59:12 2001] u/t/truewind/whip1.c line 25: parse error before (object me,object vi
+
+[Fri Jan 25 22:15:17 2002] u/t/truewind/Minetown/area/npc/rat.c line 6: parse error before ç®g¹«,({"Radiated ra
+
+[Fri Jan 25 22:15:27 2002] u/t/truewind/Minetown/area/npc/rat.c line 6: parse error before ç®g¹«,({"Radiated ra
+
+[Fri Jan 25 22:17:22 2002] u/t/truewind/Minetown/area/npc/rat.c line 6: parse error before ç®g¹«,({"Radiated ra
+
+[Fri Jan 25 22:19:03 2002] u/t/truewind/Minetown/area/npc/rat.c line 6: parse error before ç®g¹«,({"Radiated ra
+
+[Fri Jan 25 22:22:22 2002] u/t/truewind/Minetown/area/npc/rat.c line 6: parse error before ç®g¹«,({"Radiated ra
+
+[Fri Jan 25 22:38:56 2002] u/t/truewind/Minetown/area/npc/rat.c line 6: parse error before ç®g¹«,({"Radiated ra
+
+[Fri Jan 25 22:40:39 2002] u/t/truewind/Minetown/area/npc/rat.c line 6: parse error before ç®g¹«,({"Radiated ra
+
+[Fri Jan 25 22:40:43 2002] u/t/truewind/Minetown/area/npc/rat.c line 6: parse error before ç®g¹«,({"Radiated ra
+
+[Fri Jan 25 22:41:03 2002] u/t/truewind/Minetown/area/npc/rat.c line 6: parse error before ç®g¹«,({"Radiated ra
+
+[Sun Mar 31 10:46:54 2002] u/t/truewind/Minetown/area/minetown1.c line 27: Reserved type name unexpected. before (object me, string d
+
+[Sun Mar 31 10:46:54 2002] u/t/truewind/Minetown/area/minetown1.c line 27: parse error before (object me, string d
+
+[Sun Mar 31 10:47:46 2002] u/t/truewind/Minetown/area/minetown1.c line 27: Reserved type name unexpected. before (object me, string d
+
+[Sun Mar 31 10:47:46 2002] u/t/truewind/Minetown/area/minetown1.c line 27: parse error before (object me, string d
+
+[Sun Mar 31 10:48:04 2002] u/t/truewind/Minetown/area/minetown1.c line 27: Reserved type name unexpected. before (object me, string d
+
+[Sun Mar 31 10:48:04 2002] u/t/truewind/Minetown/area/minetown1.c line 27: parse error before (object me, string d
+
+[Sun Mar 31 10:49:21 2002] u/t/truewind/Minetown/area/minetown1.c line 27: Reserved type name unexpected. before (object me, string d
+
+[Sun Mar 31 10:49:21 2002] u/t/truewind/Minetown/area/minetown1.c line 27: parse error before (object me, string d
+
+[Sun Mar 31 11:08:35 2002] u/t/truewind/Minetown/area/minetown1.c line 27: Reserved type name unexpected. before (object me, string d
+
+[Sun Mar 31 11:08:35 2002] u/t/truewind/Minetown/area/minetown1.c line 27: parse error before (object me, string d
+
+[Sun Mar 31 11:08:37 2002] u/t/truewind/Minetown/area/minetown1.c line 27: Reserved type name unexpected. before (object me, string d
+
+[Sun Mar 31 11:08:37 2002] u/t/truewind/Minetown/area/minetown1.c line 27: parse error before (object me, string d
+
+[Sun Mar 31 11:08:47 2002] u/t/truewind/Minetown/area/minetown1.c line 27: Reserved type name unexpected. before (object me, string d
+
+[Sun Mar 31 11:08:47 2002] u/t/truewind/Minetown/area/minetown1.c line 27: parse error before (object me, string d
+
+[Sun Mar 31 11:09:01 2002] u/t/truewind/Minetown/area/minetown1.c line 27: Reserved type name unexpected. before (object me, string d
+
+[Sun Mar 31 11:09:01 2002] u/t/truewind/Minetown/area/minetown1.c line 27: parse error before (object me, string d
+
+[Sun Mar 31 14:26:52 2002] u/t/truewind/Minetown/area/minetown1.c line 27: Reserved type name unexpected. before (object me, string d
+
+[Sun Mar 31 14:26:52 2002] u/t/truewind/Minetown/area/minetown1.c line 27: parse error before (object me, string d
+
+[Sun Mar 31 15:48:49 2002] u/t/truewind/Minetown/area/minetown1.c line 27: Reserved type name unexpected. before (object me, string d
+
+[Sun Mar 31 15:48:49 2002] u/t/truewind/Minetown/area/minetown1.c line 27: parse error before (object me, string d
+
+[Mon Apr  1 02:07:25 2002] u/t/truewind/Minetown/area/minetown1.c line 27: Reserved type name unexpected. before (object me, string d
+
+[Mon Apr  1 02:07:25 2002] u/t/truewind/Minetown/area/minetown1.c line 27: parse error before (object me, string d
+
+[Mon Apr  1 02:07:25 2002] u/t/truewind/Minetown/area/minetown1.c line 27: Reserved type name unexpected. before (object me, string d
+
+[Mon Apr  1 02:07:25 2002] u/t/truewind/Minetown/area/minetown1.c line 27: parse error before (object me, string d
+
+[Mon Apr  1 02:07:27 2002] u/t/truewind/Minetown/area/minetown1.c line 27: Reserved type name unexpected. before (object me, string d
+
+[Mon Apr  1 02:07:27 2002] u/t/truewind/Minetown/area/minetown1.c line 27: parse error before (object me, string d
+
+[Mon Apr  1 02:07:27 2002] u/t/truewind/Minetown/area/minetown1.c line 27: Reserved type name unexpected. before (object me, string d
+
+[Mon Apr  1 02:07:27 2002] u/t/truewind/Minetown/area/minetown1.c line 27: parse error before (object me, string d
+
+[Mon Apr  1 02:12:47 2002] u/t/truewind/Minetown/area/minetown1.c line 27: Reserved type name unexpected. before (object me, string d
+
+[Mon Apr  1 02:12:47 2002] u/t/truewind/Minetown/area/minetown1.c line 27: parse error before (object me, string d
+
+[Mon Apr  1 02:12:47 2002] u/t/truewind/Minetown/area/minetown1.c line 27: Reserved type name unexpected. before (object me, string d
+
+[Mon Apr  1 02:12:47 2002] u/t/truewind/Minetown/area/minetown1.c line 27: parse error before (object me, string d
+
+[Mon Apr  1 02:14:15 2002] u/t/truewind/Minetown/area/minetown1.c line 33: Reserved type name unexpected. before (object me, string d
+
+[Mon Apr  1 02:14:15 2002] u/t/truewind/Minetown/area/minetown1.c line 33: parse error before (object me, string d
+
+[Mon Apr  1 02:15:40 2002] u/t/truewind/Minetown/area/minetown1.c line 34: parse error before the end of file
+
+[Mon Apr  1 02:25:27 2002] u/t/truewind/Minetown/area/minetownhotel.c line 67: Reserved type name unexpected. before (object me)
+
+[Mon Apr  1 02:25:27 2002] u/t/truewind/Minetown/area/minetownhotel.c line 67: parse error before (object me)
+
+[Mon Apr  1 02:26:51 2002] u/t/truewind/Minetown/area/minetownhotel.c line 67: Reserved type name unexpected. before (object me)
+
+[Mon Apr  1 02:26:51 2002] u/t/truewind/Minetown/area/minetownhotel.c line 67: parse error before (object me)
+
+[Mon Apr  1 02:27:49 2002] u/t/truewind/Minetown/area/minetownhotel.c line 67: Reserved type name unexpected. before (object me)
+
+[Mon Apr  1 02:27:49 2002] u/t/truewind/Minetown/area/minetownhotel.c line 67: parse error before (object me)
+
+[Thu Apr 11 15:37:34 2002] u/t/truewind/Minetown/area/npc/worker.c line 5: Undefined variable 'HIG' before NOR"Äq¤u", ({"weak w
+
+[Thu Apr 11 15:37:34 2002] u/t/truewind/Minetown/area/npc/worker.c line 5: parse error before NOR"Äq¤u", ({"weak w
+
+[Thu Apr 11 15:37:56 2002] u/t/truewind/Minetown/area/npc/worker.c line 5: Undefined variable 'HIG' before NOR"Äq¤u",({"weak wo
+
+[Thu Apr 11 15:37:56 2002] u/t/truewind/Minetown/area/npc/worker.c line 5: parse error before NOR"Äq¤u",({"weak wo
+
+[Thu Apr 11 15:38:56 2002] u/t/truewind/Minetown/area/npc/worker.c line 5: Undefined variable 'GRN' before NOR"Äq¤u",({"weak wo
+
+[Thu Apr 11 15:38:56 2002] u/t/truewind/Minetown/area/npc/worker.c line 5: parse error before NOR"Äq¤u",({"weak wo
+
+[Thu Apr 11 16:02:27 2002] u/t/truewind/Minetown/area/npc/eq/eq.c line 8: parse error before @¥ó¯}¯}ÄêÄêªº¦çªA¡A¬
+
+[Thu Apr 11 16:02:27 2002] u/t/truewind/Minetown/area/npc/eq/eq.c line 8: Illegal terminator before ¥ó¯}¯}ÄêÄêªº¦çªA¡A¬Ý
+
+[Thu Apr 11 16:03:20 2002] u/t/truewind/Minetown/area/npc/eq/eq.c line 8: parse error before @¥ó¯}¯}ÄêÄêªº¦çªA¡A¬
+
+[Thu Apr 11 16:03:20 2002] u/t/truewind/Minetown/area/npc/eq/eq.c line 8: Illegal terminator before ¥ó¯}¯}ÄêÄêªº¦çªA¡A¬Ý
+
+[Thu Apr 11 16:03:52 2002] u/t/truewind/Minetown/area/npc/eq/eq.c line 8: parse error before @¥ó¯}¯}ÄêÄêªº¦çªA¡A¬
+
+[Thu Apr 11 16:03:52 2002] u/t/truewind/Minetown/area/npc/eq/eq.c line 8: Illegal terminator before ¥ó¯}¯}ÄêÄêªº¦çªA¡A¬Ý
+
+[Thu Apr 11 16:04:56 2002] u/t/truewind/Minetown/area/npc/eq/eq.c line 22: parse error before the end of file
+
+[Thu Apr 11 16:05:00 2002] u/t/truewind/Minetown/area/npc/eq/eq.c line 22: parse error before the end of file
+
+[Thu Apr 11 16:10:58 2002] u/t/truewind/Minetown/area/npc/eq/eq.c line 21: parse error before the end of file
+
+[Thu Apr 11 16:11:42 2002] u/t/truewind/Minetown/area/npc/eq/eq.c line 21: parse error before the end of file
+
+[Thu Apr 11 17:28:45 2002] u/t/truewind/Minetown/area/minetown5.c line 26: parse error before the end of line
+
+[Sun Apr 14 16:23:38 2002] u/t/truewind/Minetown/area/machinefield5.c line 59: parse error before  __DIR__"machinefiel
+
+[Sun Apr 14 17:15:19 2002] u/t/truewind/Minetown/area/npc/weaselking.c line 27: parse error before the end of line
+
+[Fri Apr 19 14:01:00 2002] u/t/truewind/sword.c line 12: Warning: Unknown \ escape. before h±øÀs«¬±ø¯¾§@¬°¦å¼Ñ¡
+
+[Fri Apr 19 14:26:49 2002] u/t/truewind/cloth.c line 12: Warning: Unknown \ escape. before h¶Â¥Õ®ð¹Îªº¹Ïµe...¡C
+
+[Fri Apr 19 14:26:49 2002] u/t/truewind/cloth.c line 19: Undefined function init_cloth before ;
+
+[Fri Apr 19 14:27:54 2002] u/t/truewind/cloth.c line 12: Warning: Unknown \ escape. before h¶Â¥Õ®ð¹Îªº¹Ïµe...¡C
+
+[Fri Apr 19 14:27:54 2002] u/t/truewind/cloth.c line 19: Undefined function init_cloth before ;
+
+[Fri Apr 19 14:30:22 2002] u/t/truewind/cloth.c line 12: Warning: Unknown \ escape. before h¶Â¥Õ®ð¹Îªº¹Ïµe...¡C
+
+[Fri Apr 19 14:30:22 2002] u/t/truewind/cloth.c line 34: Undefined variable 'wounds' before ;i++)
+
+[Fri Apr 19 14:30:26 2002] u/t/truewind/cloth.c line 12: Warning: Unknown \ escape. before h¶Â¥Õ®ð¹Îªº¹Ïµe...¡C
+
+[Fri Apr 19 14:30:26 2002] u/t/truewind/cloth.c line 34: Undefined variable 'wounds' before ;i++)
+
+[Fri Apr 19 14:31:51 2002] u/t/truewind/cloth.c line 9: Warning: Unknown \ escape. before h¶Â¥Õ®ð¹Îªº¹Ïµe...¡C
+
+[Fri Apr 19 14:31:51 2002] u/t/truewind/cloth.c line 30: Undefined variable 'wounds' before ;i++)
+
+[Fri Apr 19 14:33:17 2002] u/t/truewind/cloth.c line 9: Warning: Unknown \ escape. before h¶Â¥Õ®ð¹Îªº¹Ïµe...¡C
+
+[Fri Apr 19 14:33:17 2002] u/t/truewind/cloth.c line 30: Undefined variable 'wounds' before ;i++)
+
+[Fri Apr 19 14:34:36 2002] u/t/truewind/cloth.c line 12: Warning: Unknown \ escape. before h¶Â¥Õ®ð¹Îªº¹Ïµe...¡C
+
+[Fri Apr 19 14:34:36 2002] u/t/truewind/cloth.c line 20: Reserved type name unexpected. before () { return 1; }
+
+[Fri Apr 19 14:34:36 2002] u/t/truewind/cloth.c line 20: parse error before () { return 1; }
+
+[Fri Apr 19 14:34:36 2002] u/t/truewind/cloth.c line 34: Undefined variable 'wounds' before ;i++)
+
+[Fri Apr 19 14:35:22 2002] u/t/truewind/cloth.c line 12: Warning: Unknown \ escape. before h¶Â¥Õ®ð¹Îªº¹Ïµe...¡C
+
+[Fri Apr 19 14:35:22 2002] u/t/truewind/cloth.c line 35: Undefined variable 'wounds' before ;i++)
+
+[Fri Apr 19 14:38:55 2002] u/t/truewind/cloth.c line 12: Warning: Unknown \ escape. before h¶Â¥Õ®ð¹Îªº¹Ïµe...¡C
+
+[Fri Apr 19 14:38:55 2002] u/t/truewind/cloth.c line 36: Undefined variable 'wounds' before ;i++)
+
+[Fri Apr 19 14:40:41 2002] u/t/truewind/cloth.c line 12: Warning: Unknown \ escape. before h¶Â¥Õ®ð¹Îªº¹Ïµe...¡C
+
+[Fri Apr 19 14:41:14 2002] u/t/truewind/cloth.c line 12: Warning: Unknown \ escape. before h¶Â¥Õ®ð¹Îªº¹Ïµe...¡C
+
+[Fri Apr 19 14:41:46 2002] u/t/truewind/cloth.c line 28: End of file in text block before   set("light",0);
+
+[Fri Apr 19 14:41:46 2002] u/t/truewind/cloth.c line 28: parse error before   set("light",0);
+
+[Fri Apr 19 14:42:34 2002] u/t/truewind/cloth.c line 25: End of file in text block before );
+
+[Fri Apr 19 14:42:34 2002] u/t/truewind/cloth.c line 25: parse error before );
+
+[Fri Apr 19 14:44:02 2002] u/t/truewind/cloth.c line 12: Warning: Unknown \ escape. before h¶Â¥Õ®ð¹Îªº¹Ïµe...¡C
+
+[Fri Apr 19 14:44:55 2002] u/t/truewind/cloth.c line 12: Warning: Unknown \ escape. before h¶Â¥Õ®ð¹Îªº¹Ïµe...¡C
+
+[Fri Apr 19 14:46:03 2002] u/t/truewind/cloth.c line 12: Warning: Unknown \ escape. before h¶Â¥Õ®ð¹Îªº¹Ïµe...¡C
+
+[Fri Apr 19 22:15:24 2002] u/t/truewind/sword.c line 12: Warning: Unknown \ escape. before h±øÀs«¬±ø¯¾§@¬°¦å¼Ñ¡
+
+[Fri Apr 19 22:17:38 2002] u/t/truewind/sword.c line 12: Warning: Unknown \ escape. before h±øÀs«¬±ø¯¾§@¬°¦å¼Ñ¡
+
+[Fri Apr 19 23:23:00 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 82: Undefined variable 'HIC' before NOR)  return 0;
+
+[Fri Apr 19 23:23:00 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 82: parse error before NOR)  return 0;
+
+[Fri Apr 19 23:23:00 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 98: Illegal LHS before the end of line
+
+[Fri Apr 19 23:23:00 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 98: parse error before the end of line
+
+[Fri Apr 19 23:23:00 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 100: Illegal LHS before the end of line
+
+[Fri Apr 19 23:23:00 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 100: parse error before the end of line
+
+[Fri Apr 19 23:23:04 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 82: Undefined variable 'HIC' before NOR)  return 0;
+
+[Fri Apr 19 23:23:04 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 82: parse error before NOR)  return 0;
+
+[Fri Apr 19 23:23:04 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 98: Illegal LHS before the end of line
+
+[Fri Apr 19 23:23:04 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 98: parse error before the end of line
+
+[Fri Apr 19 23:23:04 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 100: Illegal LHS before the end of line
+
+[Fri Apr 19 23:23:04 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 100: parse error before the end of line
+
+[Fri Apr 19 23:23:20 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 82: parse error before T¨®§N«o¾¹"NOR")  ret
+
+[Fri Apr 19 23:23:20 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 98: Illegal LHS before the end of line
+
+[Fri Apr 19 23:23:20 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 98: parse error before the end of line
+
+[Fri Apr 19 23:23:20 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 100: Illegal LHS before the end of line
+
+[Fri Apr 19 23:23:20 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 100: parse error before the end of line
+
+[Fri Apr 19 23:28:38 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 82: Undefined variable 'HIC' before NOR)  return 0;
+
+[Fri Apr 19 23:28:38 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 82: parse error before NOR)  return 0;
+
+[Fri Apr 19 23:28:38 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 98: Illegal LHS before the end of line
+
+[Fri Apr 19 23:28:38 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 98: parse error before the end of line
+
+[Fri Apr 19 23:28:38 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 100: Illegal LHS before the end of line
+
+[Fri Apr 19 23:28:38 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 100: parse error before the end of line
+
+[Fri Apr 19 23:42:04 2002] u/t/truewind/Minetown/area/npc/obj/pill2.c line 7: parse error before ÷¨®¦Ñ³Á¯S»s"¡C\n");
+
+[Sat Apr 20 11:06:02 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 99: Undefined variable 'me' before HIY"(¥Ñ©ó§¹¦¨¥ô°È¡A§
+
+[Sat Apr 20 11:06:02 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 99: Undefined variable 'HIY' before NOR);
+
+[Sat Apr 20 11:06:02 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 99: parse error before NOR);
+
+[Sat Apr 20 11:06:02 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 100: Illegal LHS before the end of line
+
+[Sat Apr 20 11:06:02 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 100: parse error before the end of line
+
+[Sat Apr 20 11:06:02 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 102: Illegal LHS before the end of line
+
+[Sat Apr 20 11:06:02 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 99: Undefined variable 'me' before HIY"(¥Ñ©ó§¹¦¨¥ô°È¡A§
+
+[Sat Apr 20 11:06:02 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 99: Undefined variable 'HIY' before NOR);
+
+[Sat Apr 20 11:06:02 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 99: parse error before NOR);
+
+[Sat Apr 20 11:06:02 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 100: Illegal LHS before the end of line
+
+[Sat Apr 20 11:06:02 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 100: parse error before the end of line
+
+[Sat Apr 20 11:06:02 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 102: Illegal LHS before the end of line
+
+[Sat Apr 20 11:06:02 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 99: Undefined variable 'me' before HIY"(¥Ñ©ó§¹¦¨¥ô°È¡A§
+
+[Sat Apr 20 11:06:02 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 99: Undefined variable 'HIY' before NOR);
+
+[Sat Apr 20 11:06:02 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 99: parse error before NOR);
+
+[Sat Apr 20 11:06:02 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 100: Illegal LHS before the end of line
+
+[Sat Apr 20 11:06:02 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 100: parse error before the end of line
+
+[Sat Apr 20 11:06:02 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 102: Illegal LHS before the end of line
+
+[Sat Apr 20 11:09:59 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 99: Undefined variable 'me' before HIY"(¥Ñ©ó§¹¦¨¥ô°È¡A§
+
+[Sat Apr 20 11:09:59 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 99: Undefined variable 'HIY' before NOR);
+
+[Sat Apr 20 11:09:59 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 99: parse error before NOR);
+
+[Sat Apr 20 11:09:59 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 100: Illegal LHS before the end of line
+
+[Sat Apr 20 11:09:59 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 100: parse error before the end of line
+
+[Sat Apr 20 11:09:59 2002] u/t/truewind/Minetown/area/npc/machinedealer.c line 102: Illegal LHS before the end of line
+
+[Tue Sep 24 21:26:50 2002] u/t/truewind/workroom.c line 26: parse error before u/t/truewind/newarea
+
+[Tue Sep 24 21:27:00 2002] u/t/truewind/workroom.c line 26: parse error before u/t/truewind/newarea
+
+[Tue Sep 24 21:29:12 2002] u/t/truewind/newarea/1/r01.c line 8: parse error before pÀmÆU"¡A¨Ó¦¹ªºÄÌ¤H¾¥
+
+[Tue Sep 24 21:29:12 2002] u/t/truewind/newarea/1/r01.c line 10: Warning: Unknown \ escape. before ]¤F¡A³o´N¬O¨ì´Â¤Ñ¼Óª
+
+[Tue Sep 24 21:29:34 2002] u/t/truewind/newarea/1/r01.c line 8: parse error before pÀmÆU"¡A¨Ó¦¹ªºÄÌ¤H¾¥
+
+[Tue Sep 24 21:29:34 2002] u/t/truewind/newarea/1/r01.c line 10: Warning: Unknown \ escape. before ]¤F¡A³o´N¬O¨ì´Â¤Ñ¼Óª
+
+[Tue Sep 24 21:30:27 2002] u/t/truewind/newarea/1/r01.c line 8: parse error before pÀmÆU"¡A¨Ó¦¹ªºÄÌ¤H¾¥
+
+[Tue Sep 24 21:30:27 2002] u/t/truewind/newarea/1/r01.c line 10: Warning: Unknown \ escape. before ]¤F¡A³o´N¬O¨ì´Â¤Ñ¼Óª
+
+[Tue Sep 24 21:32:51 2002] u/t/truewind/newarea/1/r01.c line 10: Warning: Unknown \ escape. before ]¤F¡A³o´N¬O¨ì´Â¤Ñ¼Óª
+
+[Tue Sep 24 21:32:51 2002] u/t/truewind/newarea/1/r01.c line 13: parse error before the end of line
+
+[Tue Sep 24 21:34:08 2002] u/t/truewind/newarea/1/r01.c line 10: Warning: Unknown \ escape. before ]¤F¡A³o´N¬O¨ì´Â¤Ñ¼Óª
+
+[Tue Sep 24 21:34:08 2002] u/t/truewind/newarea/1/r01.c line 11: parse error before ;
+
+[Tue Sep 24 21:35:20 2002] u/t/truewind/newarea/1/r01.c line 10: Warning: Unknown \ escape. before ]¤F¡A³o´N¬O¨ì´Â¤Ñ¼Óª
+
+[Tue Sep 24 21:35:20 2002] u/t/truewind/newarea/1/r01.c line 11: parse error before ;
+
+[Tue Sep 24 21:36:51 2002] u/t/truewind/newarea/1/r01.c line 10: Warning: Unknown \ escape. before ]¤F¡A³o´N¬O¨ì´Â¤Ñ¼Óª
+
+[Tue Sep 24 21:37:43 2002] u/t/truewind/newarea/1/r01.c line 10: Warning: Unknown \ escape. before ]¤F¡A³o´N¬O¨ì´Â¤Ñ¼Óª
+
+[Tue Sep 24 21:38:17 2002] u/t/truewind/newarea/1/r01.c line 10: Warning: Unknown \ escape. before ]¤F¡A³o´N¬O¨ì´Â¤Ñ¼Óª
+
+[Tue Sep 24 21:41:06 2002] u/t/truewind/newarea/1/r01.c line 11: parse error before ;
+
+[Tue Sep 24 21:41:44 2002] u/t/truewind/newarea/1/r01.c line 13: parse error before ", 1);
+
+[Tue Sep 24 21:41:44 2002] u/t/truewind/newarea/1/r01.c line 21: End of file in string before }
+
+[Tue Sep 24 21:43:16 2002] u/t/truewind/newarea/1/r01.c line 10: Warning: Unknown \ escape. before ]¤F¡A³o´N¬O¨ì´Â¤Ñ¼Óª
+
+[Tue Sep 24 21:43:16 2002] u/t/truewind/newarea/1/r01.c line 11: parse error before ì¦]¡C\n\n");
+
+[Tue Sep 24 21:43:16 2002] u/t/truewind/newarea/1/r01.c line 21: End of file in string before \n"
+
+[Tue Sep 24 21:44:09 2002] u/t/truewind/newarea/1/r01.c line 10: Warning: Unknown \ escape. before ]©M¸ËæC¤F¡A³o´N¬O¨ì´
+
+[Tue Sep 24 21:44:09 2002] u/t/truewind/newarea/1/r01.c line 11: parse error before ì¦]¡C\n\n");
+
+[Tue Sep 24 21:44:09 2002] u/t/truewind/newarea/1/r01.c line 21: End of file in string before \n"
+
+[Tue Sep 24 21:49:04 2002] u/t/truewind/newarea/1/r01.c line 10: Warning: Unknown \ escape. before ]©M¸ËæC¤F¡A³o´N¬O¨ì´
+
+[Tue Sep 24 21:51:05 2002] u/t/truewind/newarea/1/r01.c line 10: Warning: Unknown \ escape. before ]©M¸ËæC¤F¡A³o´N¬O¨ì´
+
+[Tue Sep 24 21:55:32 2002] u/t/truewind/newarea/1/r04.c line 8: parse error before pÀmÆU"¡A¨Ó¦¹ªºÄÌ¤H¾¥
+
+[Tue Sep 24 23:00:04 2002] u/t/truewind/newarea/1/r11.c line 8: Warning: Unknown \ escape. before hªº¦rµe¡Aµe¤¤ªº¥K¤H²
+
+[Tue Sep 24 23:00:28 2002] u/t/truewind/newarea/1/r12.c line 8: Warning: Unknown \ escape. before hªº¦rµe¡Aµe¤¤ªº¥K¤H²
+
+[Tue Sep 24 23:00:28 2002] u/t/truewind/newarea/1/r09.c line 8: Warning: Unknown \ escape. before hªº¦rµe¡Aµe¤¤ªº¥K¤H²
+
+[Tue Sep 24 23:00:30 2002] u/t/truewind/newarea/1/r10.c line 8: Warning: Unknown \ escape. before hªº¦rµe¡Aµe¤¤ªº¥K¤H²
+
+[Fri Sep 27 18:26:33 2002] u/t/truewind/newarea/1/rc.c line 11: parse error before n");
+
+[Fri Sep 27 18:26:33 2002] u/t/truewind/newarea/1/rc.c line 21: End of file in string before "status_desc")) str+
+
+[Fri Sep 27 18:27:12 2002] u/t/truewind/newarea/1/rc.c line 11: parse error before n");
+
+[Fri Sep 27 18:27:12 2002] u/t/truewind/newarea/1/rc.c line 21: End of file in string before ""npc/wu" : 1,
+
+[Fri Sep 27 18:34:34 2002] u/t/truewind/newarea/1/ra.c line 21: parse error before the end of line
+
+[Fri Sep 27 19:00:16 2002] u/t/truewind/newarea/1/ra.c line 23: Reserved type name unexpected. before ()
+
+[Fri Sep 27 19:00:16 2002] u/t/truewind/newarea/1/ra.c line 23: parse error before ()
+
+[Fri Sep 27 19:00:16 2002] u/t/truewind/newarea/1/ra.c line 44: parse error before the end of file
+
+[Fri Sep 27 19:02:24 2002] u/t/truewind/newarea/1/obj/flower.c line 6: parse error before áÃ¤,({"heal pill","p
+
+[Fri Sep 27 19:04:29 2002] u/t/truewind/newarea/1/obj/flower.c line 6: parse error before áÃ¤,({"sakura petal"
+
+[Fri Sep 27 19:04:35 2002] u/t/truewind/newarea/1/obj/flower.c line 6: parse error before áÃ¤,({"sakura petal"
+
+[Fri Sep 27 23:42:52 2002] u/t/truewind/newarea/1/npc/01.c line 17: parse error before "wp/wpo1.c")->wield(
+
+[Fri Sep 27 23:43:30 2002] u/t/truewind/newarea/1/npc/01.c line 17: parse error before "wp/wp01.c")->wield(
+
+[Fri Sep 27 23:44:58 2002] u/t/truewind/newarea/1/npc/01.c line 17: parse error before "wp/wp01")->wield();
+
+[Fri Sep 27 23:54:07 2002] u/t/truewind/newarea/1/npc/02.c line 17: parse error before the end of file
+
+[Sat Sep 28 00:00:07 2002] u/t/truewind/newarea/1/npc/05.c line 17: parse error before the end of file
+
+[Sat Sep 28 00:01:03 2002] u/t/truewind/newarea/1/npc/03.c line 17: parse error before the end of file
+
+[Sat Sep 28 00:01:05 2002] u/t/truewind/newarea/1/npc/04.c line 17: parse error before the end of file
+
+[Sat Oct  5 19:47:33 2002] u/t/truewind/newarea/1/obj/desk03.c line 5: parse error before , ({ "table" }));
+
+[Sat Oct  5 19:48:32 2002] u/t/truewind/newarea/1/obj/desk03.c line 5: parse error before , ({ "table" }));
+

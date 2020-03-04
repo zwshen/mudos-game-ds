@@ -1,0 +1,7 @@
+#/obj/user.c
+conditions ([])
+dbase (["supply_point":60,"DS_DATA_VERSION":19991107,"addition_shield":10,"max_hp":80,"attitude":"peaceful","cure_count":10,"addition_armor":10,"talk_point":8,"channels":({"chat","rumor","tchat",}),"addition_damage":10,"age":14,"mud_age":444,"newbie":1,"exp":777,"dex":2,"hp":80,"int":2,"mp":60,"con":2,"level":1,"Merits":(["bar":0,"tec":0,"sou":0,"bio":0,"wit":0,]),"wound":(["left_arm":0,"body":0,"left_leg":0,"head":0,"right_leg":0,"right_arm":0,]),"birthday":1238830151,"max_ap":60,"evil":-1,"default_actions":,"actions":,"guild_gifts":({5,5,5,5,}),"heart_modify":0,"max_mp":60,"volume":7,"ap":60,"heart_beat_rate":6,"race":"human","id":"nikon","startroom":"/open/world1/tmr/area/hotel","unit":"¦ì","gender":"¨k©Ê","str":2,"name":"ªd±d",])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

@@ -1,0 +1,114 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>新wiz学习</title>
+</head>
+
+<body background="Back047.gif" tppabs="http://cdxkx.easthome.net/Back047.gif" bgproperties="fixed">
+
+<p><font face="楷体_GB2312">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="4"> 
+MUDLIB的结构</font>&nbsp;&nbsp;</font></p>
+<p><font face="楷体_GB2312">转载于泥潭王国<br>
+目前国内流行的MUD(确切说是 MudLib)大都是从 东方故事2 (也就是常说的 es2) 发<br>  
+展而来, 就MUD 的结构而言大同小异.<br>  
+<br>  
+Mud 主控文件是 /adm/obj/master.c<br>  
+<br>  
+/adm 管理员(天神)目录<br>  
+<br>  
+/adm/obj 主控对象 MASTER_OB 和 外部函数仿真对象 SIMUL_EFUN_OB<br>  
+<br>  
+/adm/etc&nbsp;<br> 
+<br> 
+/adm/etc/nature/day_phase 一天时间设置，可用它和 natured.c 来实现定时做某件事。<br>  
+如 自动存盘，fy3 的山西土匪<br>  
+<br>  
+/adm/simul_efun  外部仿真函数 simulated external function<br>  
+<br>  
+/adm/daemons 守护(daemons)对象<br>  
+<br>  
+/adm/daemons/network/ 网际连接控制<br>  
+<br>  
+/adm/daemons/network/services 网际服务<br>  
+<br>  
+/adm/daemons/race 人物种族<br>  
+<br>  
+/cmds 命令目录<br>  
+<br>  
+/daemon<br>  
+<br>  
+/daemon/condition 状态<br>  
+<br>  
+/daemon/skill 武功技能<br>  
+<br>  
+/daemon/class&nbsp;<br> 
+<br> 
+/data 数据存放目录，包括 login data, 玩家数据，npc 数据，留言板数据等。<br>  
+<br>  
+/doc 文档说明<br>  
+<br>  
+/feature 属性<br>  
+<br>  
+/include 头文件目录<br>  
+<br>  
+/include/globals.h 全局定义的头文件<br>  
+<br>  
+/include/net 网际服务的头文件<br>  
+<br>  
+/include/net/dns.h 网际服务的头文件<br>  
+<br>  
+/include/net/config.h 网际服务的头文件<br>  
+<br>  
+/include/net/daemons.h 网际服务的头文件<br>  
+<br>  
+/include/race 人物种族的头文件<br>  
+<br>  
+/log 日志文件目录<br>  
+<br>  
+/obj or /clone 全局物品，局部区域用的物品尽量放在自己区域下面的 obj目录中。<br>  
+<br>  
+/obj/login.c 玩家的登录对象。<br>  
+<br>  
+/obj/user.c 玩家的用户对象。(一个玩家对象由 login,user 对象组成)<br>  
+<br>  
+/open 公开目录,一般用作 wiz 的工作目录。<br>  
+<br>  
+/std or /inherit 标准对象(基类)<br>  
+<br>  
+<br>  
+quest 具体要看情况定,以目前国内流行的MUD而言一般是这样的:<br>  
+首先,有个领任务的地方或人,如 fy 的天机老人,es2 的朱半仙.<br>  
+现在的任务一般分为两部分:杀人和找东西.<br>  
+找东西很容易,只要在接受东西时,判断一下是否是任务指定的物品<br>  
+和时间是否超出就行,.<br>  
+杀人就要判断杀叻指定的人后时间是否超出时间,这就要修改<br>  
+文件 /adm/daemons/combatd.c 的函数killer_reward(),加入这些判断<br>  
+决定是否给予奖励就行. 注:killer_reward() 是当 character 如<br>  
+npc,玩家被杀时调用的.<br>  
+<br>  
+至于在哪些程序可以给人物增加或减少一些参数变量。<br>  
+可看以下文件:<br>  
+/std/char.c<br>  
+/std/char/npc.c<br>  
+/std/char/master.c<br>  
+/feature/attribute.c<br>  
+/feature/dbase.c<br>  
+<br>  
+要开发新的MUD,以下目录要多看看<br>  
+<br>  
+fy,xyj,es2<br>  
+/adm/daemons<br>  
+/feature<br>  
+/std<br>  
+<br>  
+xkx<br>  
+/adm/daemons<br>  
+/feature<br>  
+/inherit</font></p>  
+  
+</body>  
+  
+</html>  

@@ -1,0 +1,53 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=bg2312">
+   <META NAME="Author" CONTENT="Spock">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.01 [en] (Win95; I) [Netscape]">
+   <TITLE>MudOS v21c2 把σゅン - efuns - functions - bind</TITLE>
+</HEAD>
+<BODY TEXT="#CCFFFF" BGCOLOR="#000000" LINK="#33FF33" VLINK="#FF0000" ALINK="#33CCFF" BACKGROUND="../../../image/ff/fftitleback.jpg" NOSAVE>
+
+<CENTER><FONT COLOR="#FF99FF"><FONT SIZE=+3>bind(3) MudOS v21c2 (5
+Sep 1994)</FONT></FONT></CENTER>
+
+<HR WIDTH="100%">
+<BR><FONT COLOR="#FFFFCC">嘿:</FONT>
+<UL> bind() - 跑ㄧ计皐 (function pointer) ┮ㄧ计.</UL>
+<FONT COLOR="#FFFFCC">粂猭:</FONT>
+<UL> function bind( function f, object ob )
+
+<P> ㄧ计皐 bind( ㄧ计 f, ン ob )</UL>
+<FONT COLOR="#FFFFCC">ノ猭:</FONT>
+<UL>  f ㄧ计皐, 琌皐妮ン ob , τぃ琌承硑 f ン.
+狦 f 承硑砆篟反f 琌场ㄧ计 (emulated function,  efun) 皐┪琌皐场ㄧ计穦癸
+this_object 暗ㄇ矪瞶, bind() 碞Τノ.
+<BR></UL>
+<FONT COLOR="#FFFFCC"> 絛ㄒ:</FONT>
+<UL>
+<UL><FONT COLOR="#99FF99"> void make_living(object ob) {</FONT>
+<UL><FONT COLOR="#99FF99"> function f;</FONT><FONT COLOR="#99FF99"></FONT>
+
+<P><FONT COLOR="#99FF99"> f = bind( (: enable_commands :), ob );</FONT><FONT COLOR="#99FF99"></FONT>
+
+<P><FONT COLOR="#99FF99"> evaluate(f);</FONT></UL>
+<FONT COLOR="#99FF99"> }</FONT></UL>
+
+
+<P> ㄒノ, 讽ン ob 矪瞶 enable_commands() 场ㄧ计.
+猔種 !! 硂ㄒ穦ま祇ㄇ╰参繧,  bind() 琵眏ㄤン磅︽琿方絏.
+璶ňゎ bind() 砆垒ノ, Τ北ンㄧ计 (master apply) valid_bind()
+ノㄓ∕﹚ bind() 磅︽籔. 秸ノ bind() , 狦 valid_bind() 
+1 磅︽,  0 碞礚猭磅︽.</UL>
+<FONT COLOR="#FFFFCC">陆亩:</FONT>
+<UL> Spock @ FF 96.Oct.16. (printed 3/16/95)</UL>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+<CENTER><A HREF="../functions.html"></A></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+</BODY>
+</HTML>

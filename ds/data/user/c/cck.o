@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions ([])
+dbase (["help":"equip/all_eq","supply_point":60,"DS_DATA_VERSION":19991107,"addition_armor":10,"attitude":"peaceful","addition_damage":10,"talk_point":8,"cure_count":2,"max_hp":80,"combat_exp":0,"channels":({"chat","rumor","tchat",}),"board_last_read":(["tmr_hotel_b":1223351736,]),"mud_age":5976,"newbie":1,"exp":704,"hp":80,"dex":2,"int":2,"heart_beat_rate":6,"con":2,"age":14,"level":1,"birthday":1161285015,"max_ap":60,"guild_gifts":({5,5,5,5,}),"wound":(["body":0,"left_arm":0,"head":0,"left_leg":0,"right_leg":0,"right_arm":0,]),"bank":(["past":100000,]),"evil":-1,"unit":"位","default_actions":,"mp":60,"actions":,"bellicosity":0,"ap":60,"volume":7,"race":"human","id":"cck","disable_type":" <毫無呼吸>","heart_modify":0,"Merits":(["bar":0,"tec":0,"sou":0,"bio":0,"wit":0,]),"max_mp":60,"addition_shield":10,"startroom":"/open/world1/tmr/area/hotel","gender":"男性","last_location":"/open/world1/tmr/area/street4","str":2,"name":"渫星雨",])
+skills (["combat":3,"dodge":1,"unarmed":2,])
+learned ([])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

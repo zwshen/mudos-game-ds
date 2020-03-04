@@ -1,0 +1,8 @@
+#/obj/user.c
+conditions ([])
+dbase (["supply_point":60,"actions":,"age":14,"unit":"位","MKS":3,"heart_modify":0,"war_art":7,"max_mp":60,"guild_gifts":({5,5,5,5,}),"max_hp":80,"env":([]),"war_score":2,"popularity":6,"default_actions":,"Merits":(["bio":0,"tec":0,"sou":0,"wit":0,"bar":0,]),"max_ap":60,"talk_point":8,"ap":60,"mp":60,"newbie":1,"last_location":"/open/world1/faceoff/sky/ten27","addition_shield":10,"exp":47691,"heart_beat_rate":6,"dex":2,"int":2,"id":"visiter","hp":80,"con":2,"str":2,"level":1,"DS_DATA_VERSION":19991107,"addition_armor":10,"bellicosity":0,"evil":-1,"gender":"男性","volume":7,"name":"阿乖","channels":({"chat","rumor","tchat",}),"birthday":1176736994,"board_last_read":(["tmr_hotel_b":1150134537,]),"addition_damage":10,"race":"human","startroom":"/open/world1/tmr/area/hotel","disable_type":" <毫無呼吸>","mob_record":({"/open/world1/tmr/area/npc/frog","/open/world1/tmr/area/npc/dog","/open/world1/tmr/area/npc/seller",}),"mud_age":4028,"cure_count":6,"wound":(["right_leg":0,"left_leg":0,"left_arm":0,"right_arm":0,"body":0,"head":0,]),"combat_exp":1,"attitude":"peaceful",])
+skills (["parry":0,"strong-body":2,"dodge":2,"combat":5,"unarmed":3,])
+learned (["combat":29,"unarmed":8,])
+autoload ({"/obj/money/coin:2",})
+toDoList ([])
+solved ({})

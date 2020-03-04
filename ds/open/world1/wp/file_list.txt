@@ -1,0 +1,13 @@
+¥Ø¿ý¡R/open/world1/wp/
+belis_spear.c       ²¦¨½´µ¥Ù            cv_whip.c           ¨g­µÃ@            
+ds_dagger.c         Às«r                ds_fist.c           °\\¤ö             
+ds_pike.c           Åb°Ö                ds_staff.c          ·tª÷­è¾¹          
+ds_sword.c          ªê§q                ds_whip.c           ³D¤ú              
+flame_blade.c       ª¢°©¤M              ghost_fork.c        °­¤e              
+ghost_sword.c       °­ÀYªø¼C            hammer_16.c         ¤jÅKÂñ            
+pike_13.c           µuºj                purple_hammer.c     µµª¢Âñ            
+soon_flame.c        Àþª¢                steel_staff.c       ª÷­è§ú            
+stone_axe.c         ªø¬`¥Û©ò            th_sword.c          ¹p¯«¼C            
+tiger_claw.c        ª¢ªê¤ö              wind_soul.c         ­·»î              
+wood_bow.c          ¥¨¤ì¤}              woodfist_8.c        ¤ì»s«üªê          
+

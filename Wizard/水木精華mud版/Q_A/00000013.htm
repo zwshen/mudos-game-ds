@@ -1,0 +1,63 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清華站︰精華區</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+<A Name="top"></a>
+發信人:&nbsp;Ranma&nbsp;(亂馬~~想和你去吹吹風),&nbsp;信區:&nbsp;Mud_Builder&nbsp;<BR>
+標&nbsp;&nbsp;題:&nbsp;關於對mudlib的加密&nbsp;<BR>
+發信站:&nbsp;BBS&nbsp;水木清華站&nbsp;(Wed&nbsp;Jan&nbsp;21&nbsp;12:45:12&nbsp;1998)&nbsp;<BR>
+&nbsp;<BR>
+仔細翻翻mudos的source&nbsp;code，終於想出加密的方法啦，不過&nbsp;<BR>
+沒有去試驗，所以一旦你應用本方法後出現系統崩潰，顯示器爆炸，&nbsp;<BR>
+引起頭痛腦熱，心臟病發作，本馬概不負責。&nbsp;<BR>
+&nbsp;<BR>
+先講講原理。眾所周知，mudlib中有binaries目錄，裡面存放&nbsp;<BR>
+半編譯代碼，但這些半成品是不能脫離原代碼運行的。mudos&nbsp;<BR>
+在load-object&nbsp;(in&nbsp;simulate.c)的時候先調用load_binary&nbsp;(in&nbsp;&nbsp;<BR>
+binary.c)，load_binary()先進行depend檢查，如果發現原文件&nbsp;<BR>
+更新過，原.h文件更新過，或driver更新過等等，就return&nbsp;一個&nbsp;<BR>
+false,這樣在load_object()中再根據不同的情況進行處理，或是&nbsp;<BR>
+重新編譯，或是報個出錯信息&nbsp;。&nbsp;<BR>
+&nbsp;<BR>
+進行加密的辦法也很簡單，不用改mudos，想辦法騙過depend檢查&nbsp;<BR>
+就行了。我想出一個辦法，首先保證所有的.b文件都存在，一個玩過&nbsp;<BR>
+很久的lib都可以，實在不行就編一個lib程序，load所有的object,&nbsp;<BR>
+這樣自動生成.b文件，更好的方法是查一下有關編譯部分的mudos&nbsp;<BR>
+代碼，好像有個save_binary()，查一下我上面說的兩個文件，一&nbsp;<BR>
+定找的出來的，編一個程序，直接寫出所有的.b文件，這樣可以避免&nbsp;<BR>
+load_object中出現的問題。&nbsp;<BR>
+然後將每個源文件清零，但不要刪掉，以騙過mudos，這就是fengyun&nbsp;<BR>
+中為什麼都是一些長度為0的.c文件了.最後touch一下所有的.b文件，&nbsp;<BR>
+讓它們比.c文件更新。ok？，so&nbsp;easy，不是嗎？&nbsp;<BR>
+&nbsp;<BR>
+最後一定要注意在mudlib運行過程中，一定不要讓巫師touch任何源文件，&nbsp;<BR>
+阿鐵當初就是這樣諄諄告戒我的:))&nbsp;<BR>
+--&nbsp;<BR>
+小樓一夜聽秋雨&nbsp;<BR>
+--&nbsp;<BR>
+佇倚危樓風細細&nbsp;望極春愁&nbsp;黯黯生天際&nbsp;&nbsp;草色煙光殘照裡&nbsp;無言誰會憑欄意[0&nbsp;<BR>
+擬把疏狂圖一醉&nbsp;對酒當歌&nbsp;強樂還無味&nbsp;&nbsp;衣帶漸寬終不悔&nbsp;為伊消得人憔悴&nbsp;<BR>
+&nbsp;<BR>
+※&nbsp;來源:‧BBS&nbsp;水木清華站&nbsp;bbs.net.tsinghua.edu.cn‧[FROM:&nbsp;166.111.5.17]&nbsp;<BR>
+&nbsp;<BR>
+發信人:&nbsp;sbaa&nbsp;(老貓),&nbsp;信區:&nbsp;Mud_Builder&nbsp;<BR>
+標&nbsp;&nbsp;題:&nbsp;Re:&nbsp;關於對mudlib的加密&nbsp;<BR>
+發信站:&nbsp;BBS&nbsp;水木清華站&nbsp;(Thu&nbsp;Jan&nbsp;22&nbsp;14:44:16&nbsp;1998)&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+還有問題，改動很大的&nbsp;<BR>
+有些文件默認找.c的文件，像update,goto等&nbsp;<BR>
+在錢莊換錢，它判斷有無這種貨幣是查.c文件的長度，不為0就有，這些都要改，&nbsp;<BR>
+還有一些可能還不清楚的地方，風雲也沒有全用.b&nbsp;<BR>
+不少還是.c的源碼&nbsp;<BR>
+我直接改mudos,看看能不能盡量少些bug!&nbsp;<BR>
+<A HREF="00000012.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一頁</A>
+<A HREF="index.htm">回到目錄</A>
+<A HREF="#top">回到頁首</A>
+<A HREF="00000014.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+</BODY></HTML>

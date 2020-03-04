@@ -1,0 +1,23 @@
+
+	nullp(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		nullp() - 判斷指定的一個變數是否為空值 (null).
+	函數語法:
+		int nullp( mixed arg );
+
+		整數 nullp( 混合 arg );
+	函數用法:
+		如果 arg 是空值就傳回 1. arg 在以下三種狀況視為空值:
+
+		1. arg 還未初始化 (initialize).
+
+		2. arg 指向一個已被摧毀的物件.
+
+		3. arg 是一個函式的參數, 對應到一個實際上已經遺失的參數.
+	參考函數:
+		mapp(3), stringp(3), pointerp(3), objectp(3), intp(3),
+		bufferp(3), floatp(3), functionp(3), undefinedp(3),
+		errorp(3)
+	手冊翻譯:
+		Phoebus@ZH	97.Apr.24.		(Writen 5/23/97)

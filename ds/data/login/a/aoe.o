@@ -1,0 +1,2 @@
+#/obj/login.c
+dbase (["name":"阿貓","password":"yW2YjnciLky5E","error_login":({"於[Mon Sep 16 15:32:42 2002]嘗試由[sw59-173-62.adsl.seed.net.tw]連線進入失敗。","於[Wed Nov 13 16:31:49 2002]嘗試由[sw59-169-15.adsl.seed.net.tw]連線進入失敗。","於[Sat Jun  7 04:00:32 2003]嘗試由[sw59-76-243.adsl.seed.net.tw]連線進入失敗。","於[Sat Jul 12 19:43:20 2003]嘗試由[sw67-162-61.adsl.seed.net.tw]連線進入失敗。","於[Fri Jul 18 06:55:15 2003]嘗試由[sw67-165-239.adsl.seed.net.tw]連線進入失敗。",}),"race":"human","new_mail":1,"level":1,"last_from":"163.25.101.118","body":"/obj/user","id":"aoe","email":"","last_on":1192107482,])

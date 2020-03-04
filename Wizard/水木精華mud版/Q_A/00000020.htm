@@ -1,0 +1,83 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清華站︰精華區</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+<A Name="top"></a>
+發信人:&nbsp;andylau&nbsp;(戰鬥),&nbsp;信區:&nbsp;Mud_Builder&nbsp;<BR>
+&nbsp;<BR>
+【&nbsp;在&nbsp;peacock&nbsp;(孔雀明王)&nbsp;的大作中提到:&nbsp;】&nbsp;<BR>
+︰<I>&nbsp;身為斑竹，竟然說出這種不負責任的話來，簡直是該打了。&nbsp;</I><BR>
+︰<I>&nbsp;就算猜不出人家的問題在哪裡，你好歹得說明白怎麼個“能”吧。&nbsp;</I><BR>
+︰<I>&nbsp;算了，你的漏我來補。&nbsp;</I><BR>
+︰<I>&nbsp;QYZ&nbsp;說能是因為我們曾經試過在pre8跑，沒踫上什麼問題。&nbsp;</I><BR>
+︰<I>&nbsp;你編譯後有問題，最好說一下你是在什麼條件下編譯的，OPtion文件&nbsp;</I><BR>
+︰<I>&nbsp;是怎麼改的。&nbsp;</I><BR>
+︰<I>&nbsp;如你所知，ES2中的seteuid()等都是efun，而設的值都是string型的。&nbsp;</I><BR>
+︰<I>&nbsp;這和系統提供的seteuid()是不同的。如果你的option.h不對的話就&nbsp;</I><BR>
+︰<I>&nbsp;會有問題。&nbsp;</I><BR>
+&nbsp;<BR>
+&nbsp;&nbsp;先多謝各位了！&nbsp;<BR>
+&nbsp;&nbsp;我再Linux&nbsp;2.0&nbsp;下編譯MudOS,&nbsp;Options.h文件因為不知怎麼改好，就&nbsp;<BR>
+沒有動；在改動前文提到的兩個有關EUID的定義後編譯通過，可是出現&nbsp;<BR>
+新的問題：在load&nbsp;/feature/dbase時發生錯誤，不能調入運行，而且在&nbsp;<BR>
+natured.c中也發生錯誤我想問題還是出在options.h的定義上。能不能&nbsp;<BR>
+請peacock把你的options.h發給我對照一下呢？&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;還有一個問題，我在用MudOSv21c2運行一個新LIB的時候，&nbsp;<BR>
+提示：&nbsp;Segmentation&nbsp;fault&nbsp;(core&nbsp;dumped)&nbsp;<BR>
+&nbsp;&nbsp;這是什麼原因，該怎麼改？&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+發信人:&nbsp;peacock&nbsp;(孔雀明王),&nbsp;信區:&nbsp;Mud_Builder&nbsp;<BR>
+標&nbsp;&nbsp;題:&nbsp;Re:&nbsp;mudos&nbsp;v21b7&nbsp;編譯要多大內存？&nbsp;<BR>
+發信站:&nbsp;BBS&nbsp;水木清華站&nbsp;(Thu&nbsp;Aug&nbsp;&nbsp;7&nbsp;11:28:48&nbsp;1997)&nbsp;<BR>
+&nbsp;<BR>
+【&nbsp;在&nbsp;nullvoid&nbsp;(空靈)&nbsp;的大作中提到:&nbsp;】&nbsp;<BR>
+︰<I>&nbsp;我在slackware&nbsp;linux下編譯v21b7總告訴我&nbsp;</I><BR>
+︰<I>&nbsp;virtual&nbsp;memory&nbsp;exhausted.&nbsp;</I><BR>
+︰<I>&nbsp;我物理內存是16M，可用內存也有10M，為何不過呢？&nbsp;</I><BR>
+virtual&nbsp;memory是虛存啦。和你的RAM是不同的。我用&nbsp;<BR>
+的是RedHat&nbsp;Linux，要設置交換分區的說。對Slackware&nbsp;<BR>
+到是不孰。hehe&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+※&nbsp;來源:‧BBS&nbsp;水木清華站&nbsp;bbs.net.tsinghua.edu.cn‧[FROM:&nbsp;166.111.5.93]&nbsp;<BR>
+發信人:&nbsp;nullvoid&nbsp;(空靈),&nbsp;信區:&nbsp;Mud_Builder&nbsp;<BR>
+標&nbsp;&nbsp;題:&nbsp;Re:&nbsp;mudos&nbsp;v21b7&nbsp;編譯要多大內存？&nbsp;<BR>
+發信站:&nbsp;BBS&nbsp;水木清華站&nbsp;(Thu&nbsp;Aug&nbsp;&nbsp;7&nbsp;11:41:25&nbsp;1997)&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+非也，非也，&nbsp;<BR>
+我內存6M時只能編到一個link.c文件，而擠到10M時能多編好多&nbsp;<BR>
+到了一個&nbsp;interpret.c&nbsp;&nbsp;<BR>
+我感覺是virtual&nbsp;memory如果不設置，系統會自己分配一些的。&nbsp;<BR>
+&nbsp;<BR>
+能告訴我redhat是如何設置的嗎？聊作參考。&nbsp;<BR>
+謝謝！&nbsp;<BR>
+&nbsp;<BR>
+【&nbsp;在&nbsp;peacock&nbsp;(孔雀明王)&nbsp;的大作中提到:&nbsp;】&nbsp;<BR>
+︰<I>&nbsp;virtual&nbsp;memory是虛存啦。和你的RAM是不同的。我用&nbsp;</I><BR>
+︰<I>&nbsp;的是RedHat&nbsp;Linux，要設置交換分區的說。對Slackware&nbsp;</I><BR>
+︰<I>&nbsp;到是不孰。hehe&nbsp;</I><BR>
+&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(&quot;`-''-/&quot;).___..--''&quot;`-._&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`@_&nbsp;@&nbsp;&nbsp;)&nbsp;&nbsp;&nbsp;`-.&nbsp;&nbsp;(&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;).`-.__.`)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(_Y_.)'&nbsp;&nbsp;._&nbsp;&nbsp;&nbsp;)&nbsp;&nbsp;`._&nbsp;`.&nbsp;``-..-'&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_..`--'_..-_/&nbsp;&nbsp;/--'_.'&nbsp;,'&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;____(il),-''&nbsp;&nbsp;(li),'&nbsp;&nbsp;((!.-'&nbsp;&nbsp;<BR>
+<A HREF="mailto:mailto:zxq@public.intercom.co.cn">mailto:zxq@public.intercom.co.cn</A>&nbsp;<BR>
+&nbsp;<BR>
+※&nbsp;來源:‧BBS&nbsp;水木清華站&nbsp;bbs.net.tsinghua.edu.cn‧[FROM:&nbsp;166.111.5.199]&nbsp;<BR>
+<A HREF="00000019.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一頁</A>
+<A HREF="index.htm">回到目錄</A>
+<A HREF="#top">回到頁首</A>
+<A HREF="00000021.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+</BODY></HTML>

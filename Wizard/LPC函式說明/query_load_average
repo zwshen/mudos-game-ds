@@ -1,0 +1,18 @@
+
+	query_load_average(3)	LP MudOSv21c7		(7 Jul 1996)
+
+	ㄧ计嘿:
+		query_load_average()  - 厨 mud ╰参キА璽更秖 (load
+					average).
+	ㄧ计粂猭:
+		string query_load_average( void );
+
+		﹃ query_load_average( 礚把计 );
+	ㄧ计ノ猭:
+		硂ㄧΑ肚﹃, 厨ㄢ参璸计:
+		(1) キА–牧ㄏノ㏑计秖.
+		(2) キА–牧絪亩祘Α︽计.
+	把σㄧ计:
+		rusage(3)
+	も陆亩:
+		Phoebus@ZH	97.May.1.		(Writen 5/23/97)

@@ -1,0 +1,17 @@
+
+	capitalize(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		capitalize() - 把一個字串的第一個英文字元
+			       (character) 轉成大寫.
+	函數語法:
+		string capitalize( string str );
+
+		字串 capitalize( 字串 str );
+	函數用法:
+		把傳入字串 str 的第一個英文字元轉成大寫, 並傳回一個
+		轉換後的字串.
+	參考函數:
+		lower_case(3)
+	手冊翻譯:
+		Phoebus@ZH	1997.Aug.16.		(Writen 5/23/97)

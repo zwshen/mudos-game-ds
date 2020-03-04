@@ -1,0 +1,2394 @@
+----------------------------------------------------------------------------
+¹Ú¤Û¤C°ì (MudOS v22) starting up on FreeBSD - Wed May  4 02:55:56 2005
+
+
+Connected to address server on localhost port 3990
+
+Loading preloaded files ...
+Initializations complete.
+
+Accepting connections on port 7000.
+
+°õ¦æ®É¬q¿ù»~¡R*Bad argument 1 to capitalize()
+Expected: string Got: 0.
+
+µ{¦¡¡Radm/daemons/channeld.c ²Ä262¦æ
+ª«¥ó: adm/daemons/channeld
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:command_hook()     <- feature/command.c:²Ä71¦æ [ª«¥ó:obj/user#1334 ("¬Y¤H")]
+¨ç¼Æ:main()             <- cmds/usr/finger.c:²Ä16¦æ [ª«¥ó:cmds/usr/finger]
+¨ç¼Æ:finger_all()       <- adm/daemons/fingerd.c:²Ä341¦æ [ª«¥ó:adm/daemons/fingerd]
+¨ç¼Æ:process_ip_name()  <- adm/daemons/fingerd.c:²Ä42¦æ [ª«¥ó:adm/daemons/fingerd]
+¨ç¼Æ:create()           <- adm/daemons/ip_d.c:²Ä29¦æ [ª«¥ó:adm/daemons/ip_d]
+¨ç¼Æ:do_channel()       <- adm/daemons/channeld.c:²Ä262¦æ [ª«¥ó:adm/daemons/channeld]
+=======================¥H¤W¿ù»~½ĞºÉ§Ö­×´_========================
+
+¿ù»~°T®§³QÄdºI: 
+°õ¦æ®É¬q¿ù»~¡R*call_other() couldn't find object
+
+µ{¦¡¡Ru/a/alickyuen/eval.alickyuen.c ²Ä23¦æ
+ª«¥ó: u/a/alickyuen/eval.alickyuen
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:command_hook()     <- feature/command.c:²Ä71¦æ [ª«¥ó:obj/user#241 ("«Â­·»ş»şªº°K¥@³Í¢I¡Å¢I")]
+¨ç¼Æ:main()             <- cmds/adm/eval.c:²Ä62¦æ [ª«¥ó:cmds/adm/eval]
+¨ç¼Æ:CATCH()            <- cmds/adm/eval.c:²Ä62¦æ [ª«¥ó:cmds/adm/eval]
+¨ç¼Æ:eval()             <- u/a/alickyuen/eval.alickyuen.c:²Ä23¦æ [ª«¥ó:u/a/alickyuen/eval.alickyuen]
+=======================¥H¤W¿ù»~½ĞºÉ§Ö­×´_========================
+
+Error in error handler: *Too deep recursion.
+program: /daemon/skill/npc/sword.c, object: /daemon/skill/npc/sword#419, file: /daemon/skill/npc/sword.c:169
+'     heart_beat' in '      std/char/npc.c' ('daemon/skill/npc/sword#419') /std/char/npc.c:281
+arguments were ()
+locals were: 0,0,0,0
+'     heart_beat' in '          std/char.c' ('daemon/skill/npc/sword#419') /std/char.c:155
+arguments were ()
+locals were: 0,0,0,([ /* sizeof() == 43 */
+  "dex" : 100,
+  "default_actions" : (: call_other,     "/adm/daemons/race/human.c",     "query_action" :),
+  "no_get" : 1,
+  "long" : "¤@§â¥Ñ¸UÂAÆF©Òµo¥Xªº¼C®ğ±±¨î¦ÓÄÆ¯B¦bªÅ¤¤ªº­¸¼C¡D
+",
+  "exp" : 31295,
+  "combat_exp" : 25000,
+  "evil" : -21,
+  "hp" : 9780,
+  "max_mp" : 3020,
+  "volume" : 10,
+  "unit" : "§â",
+  "ap" : 2520,
+  "age" : 27,
+  "no_sac" : 1,
+  "cure_count" : 9,
+  "actions" : (: call_other,     "/adm/daemons/race/human.c",     "query_action" :),
+  "level" : 50,
+  "race" : "human",
+  "attitude" : "peaceful",
+  "wound" : ([ /* sizeof() == 6 */
+      "left_arm" : 0,
+      "left_leg" : 0,
+      "right_leg" : 0,
+      "body" : 0,
+      "head" : 0,
+      "right_arm" : 0,
+    ]),
+  "durable" : 98,
+  "damage" : 212,
+  "max_hp" : 9780,
+  "name" : "[1;37m­¸¡C[0m[1;33mÆFÁô¼C[0m[0m",
+  "id" : "flying sword",
+  "destruct" : 0,
+  "addition_damage" : 50,
+  "gender" : "¨k©Ê",
+  "Merits" : ([ /* sizeof() == 5 */
+      "bio" : 5,
+      "sou" : 6,
+      "wit" : 6,
+      "tec" : 6,
+      "bar" : 5,
+    ]),
+  "heart_modify" : 0,
+  "mp" : 3020,
+  "status_desc" : "¥¿¦bªÅ¤¤ÄÆ¯BµÛ",
+  "exp_point" : 0,
+  "no_give" : 1,
+  "max_ap" : 2520,
+  "addition_armor" : 75,
+  "guild_gifts" : ({ /* sizeof() == 4 */
+      5,
+      5,
+      5,
+      5
+    }),
+  "heart_beat_rate" : 6,
+  "value" : 1,
+  "addition_shield" : 16,
+  "str" : 95,
+  "con" : 76,
+  "int" : 101,
+]),0,0,0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#419') /daemon/skill/npc/sword.c:169
+arguments were ()
+locals were: 0
+Heart beat in daemon/skill/npc/sword#419 turned off.
+Error in error handler: *Bad argument 1 to capitalize()
+Expected: string Got: 0.
+program: /adm/daemons/channeld.c, object: /adm/daemons/channeld, file: /adm/daemons/channeld.c:262
+'           stop' in 'daemon/skill/sevenstar.c' ('daemon/skill/sevenstar') /daemon/skill/sevenstar.c:278
+arguments were (0)
+'  error_handler' in '    adm/obj/master.c' ('      adm/obj/master') /adm/obj/master.c:293
+arguments were (([ /* sizeof() == 6 */
+  "object" : daemon/skill/sevenstar,
+  "error" : "*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+",
+  "file" : "daemon/skill/sevenstar.c",
+  "trace" : ({ /* sizeof() == 1 */
+      ([ /* sizeof() == 6 */
+        "object" : daemon/skill/sevenstar,
+        "arguments" : ({ /* sizeof() == 1 */
+            0
+          }),
+        "file" : "daemon/skill/sevenstar.c",
+        "program" : "daemon/skill/sevenstar.c",
+        "line" : 278,
+        "function" : "stop",
+      ])
+    }),
+  "program" : "daemon/skill/sevenstar.c",
+  "line" : 278,
+]),0)
+'   report_error' in '    adm/obj/master.c' ('      adm/obj/master') /adm/obj/master.c:280
+arguments were (([ /* sizeof() == 6 */
+  "object" : daemon/skill/sevenstar,
+  "error" : "*Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+",
+  "file" : "daemon/skill/sevenstar.c",
+  "trace" : ({ /* sizeof() == 1 */
+      ([ /* sizeof() == 6 */
+        "object" : daemon/skill/sevenstar,
+        "arguments" : ({ /* sizeof() == 1 */
+            0
+          }),
+        "file" : "daemon/skill/sevenstar.c",
+        "program" : "daemon/skill/sevenstar.c",
+        "line" : 278,
+        "function" : "stop",
+      ])
+    }),
+  "program" : "daemon/skill/sevenstar.c",
+  "line" : 278,
+]))
+'     do_channel' in 'adm/daemons/channeld.c' ('adm/daemons/channeld') /adm/daemons/channeld.c:262
+arguments were (adm/obj/master,"sys","daemon/skill/sevenstar.c ²Ä 278 ¦æ¡Aª«¥ó¡G/daemon/skill/sevenstar
+        *Bad argument 1 to call_other()
+Expected: string or array or object Got: 0.
+",0)
+locals were: 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Error in error handler: *Too deep recursion.
+program: /daemon/skill/npc/sword.c, object: /daemon/skill/npc/sword#435, file: /daemon/skill/npc/sword.c:169
+'     heart_beat' in '      std/char/npc.c' ('daemon/skill/npc/sword#435') /std/char/npc.c:281
+arguments were ()
+locals were: 0,0,0,0
+'     heart_beat' in '          std/char.c' ('daemon/skill/npc/sword#435') /std/char.c:155
+arguments were ()
+locals were: 0,0,0,([ /* sizeof() == 43 */
+  "dex" : 96,
+  "default_actions" : (: call_other,     "/adm/daemons/race/human.c",     "query_action" :),
+  "no_get" : 1,
+  "long" : "¤@§â¥Ñ¸UÂAÆF©Òµo¥Xªº¼C®ğ±±¨î¦ÓÄÆ¯B¦bªÅ¤¤ªº­¸¼C¡D
+",
+  "exp" : 32371,
+  "combat_exp" : 25000,
+  "evil" : -24,
+  "hp" : 9780,
+  "max_mp" : 2940,
+  "volume" : 10,
+  "unit" : "§â",
+  "ap" : 2520,
+  "age" : 36,
+  "no_sac" : 1,
+  "cure_count" : 9,
+  "actions" : (: call_other,     "/adm/daemons/race/human.c",     "query_action" :),
+  "level" : 50,
+  "race" : "human",
+  "attitude" : "peaceful",
+  "wound" : ([ /* sizeof() == 6 */
+      "left_arm" : 0,
+      "left_leg" : 0,
+      "right_leg" : 0,
+      "body" : 0,
+      "head" : 0,
+      "right_arm" : 0,
+    ]),
+  "durable" : 98,
+  "damage" : 212,
+  "max_hp" : 9780,
+  "name" : "[1;37m­¸¡C[0m[1;33mÆFÁô¼C[0m[0m",
+  "id" : "flying sword",
+  "destruct" : 0,
+  "addition_damage" : 50,
+  "gender" : "¨k©Ê",
+  "Merits" : ([ /* sizeof() == 5 */
+      "bio" : 5,
+      "sou" : 5,
+      "wit" : 5,
+      "tec" : 6,
+      "bar" : 5,
+    ]),
+  "heart_modify" : 0,
+  "mp" : 2940,
+  "status_desc" : "¥¿¦bªÅ¤¤ÄÆ¯BµÛ",
+  "exp_point" : 0,
+  "no_give" : 1,
+  "max_ap" : 2520,
+  "addition_armor" : 75,
+  "guild_gifts" : ({ /* sizeof() == 4 */
+      5,
+      5,
+      5,
+      5
+    }),
+  "heart_beat_rate" : 6,
+  "value" : 1,
+  "addition_shield" : 16,
+  "str" : 97,
+  "con" : 76,
+  "int" : 97,
+]),0,0,0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#435') /daemon/skill/npc/sword.c:169
+arguments were ()
+locals were: 0
+Heart beat in daemon/skill/npc/sword#435 turned off.
+Error in error handler: *Too deep recursion.
+program: /daemon/skill/npc/sword.c, object: /daemon/skill/npc/sword#553, file: /daemon/skill/npc/sword.c:169
+'     heart_beat' in '      std/char/npc.c' ('daemon/skill/npc/sword#553') /std/char/npc.c:281
+arguments were ()
+locals were: 0,0,0,0
+'     heart_beat' in '          std/char.c' ('daemon/skill/npc/sword#553') /std/char.c:155
+arguments were ()
+locals were: 0,0,0,([ /* sizeof() == 43 */
+  "dex" : 95,
+  "default_actions" : (: call_other,     "/adm/daemons/race/human.c",     "query_action" :),
+  "no_get" : 1,
+  "long" : "¤@§â¥Ñ¸UÂAÆF©Òµo¥Xªº¼C®ğ±±¨î¦ÓÄÆ¯B¦bªÅ¤¤ªº­¸¼C¡D
+",
+  "exp" : 31105,
+  "combat_exp" : 25000,
+  "evil" : -43,
+  "hp" : 9900,
+  "max_mp" : 2860,
+  "volume" : 11,
+  "unit" : "§â",
+  "ap" : 2600,
+  "age" : 28,
+  "no_sac" : 1,
+  "cure_count" : 6,
+  "actions" : (: call_other,     "/adm/daemons/race/human.c",     "query_action" :),
+  "level" : 50,
+  "race" : "human",
+  "attitude" : "peaceful",
+  "wound" : ([ /* sizeof() == 6 */
+      "left_arm" : 0,
+      "left_leg" : 0,
+      "right_leg" : 0,
+      "body" : 0,
+      "head" : 0,
+      "right_arm" : 0,
+    ]),
+  "durable" : 98,
+  "damage" : 212,
+  "max_hp" : 9900,
+  "name" : "[1;37m­¸¡C[0m[1;33mÆFÁô¼C[0m[0m",
+  "id" : "flying sword",
+  "destruct" : 0,
+  "addition_damage" : 50,
+  "gender" : "¨k©Ê",
+  "Merits" : ([ /* sizeof() == 5 */
+      "bio" : 5,
+      "sou" : 5,
+      "wit" : 5,
+      "tec" : 6,
+      "bar" : 5,
+    ]),
+  "heart_modify" : 0,
+  "mp" : 2860,
+  "status_desc" : "¥¿¦bªÅ¤¤ÄÆ¯BµÛ",
+  "exp_point" : 0,
+  "no_give" : 1,
+  "max_ap" : 2600,
+  "addition_armor" : 75,
+  "guild_gifts" : ({ /* sizeof() == 4 */
+      5,
+      5,
+      5,
+      5
+    }),
+  "heart_beat_rate" : 6,
+  "value" : 1,
+  "addition_shield" : 16,
+  "str" : 96,
+  "con" : 80,
+  "int" : 93,
+]),0,0,0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#553') /daemon/skill/npc/sword.c:169
+arguments were ()
+locals were: 0
+Heart beat in daemon/skill/npc/sword#553 turned off.
+Error in error handler: *Too deep recursion.
+program: /daemon/skill/npc/sword.c, object: /daemon/skill/npc/sword#547, file: /daemon/skill/npc/sword.c:169
+'     heart_beat' in '      std/char/npc.c' ('daemon/skill/npc/sword#547') /std/char/npc.c:281
+arguments were ()
+locals were: 0,0,0,0
+'     heart_beat' in '          std/char.c' ('daemon/skill/npc/sword#547') /std/char.c:155
+arguments were ()
+locals were: 0,0,0,([ /* sizeof() == 43 */
+  "dex" : 95,
+  "default_actions" : (: call_other,     "/adm/daemons/race/human.c",     "query_action" :),
+  "no_get" : 1,
+  "long" : "¤@§â¥Ñ¸UÂAÆF©Òµo¥Xªº¼C®ğ±±¨î¦ÓÄÆ¯B¦bªÅ¤¤ªº­¸¼C¡D
+",
+  "exp" : 30968,
+  "combat_exp" : 25000,
+  "evil" : -36,
+  "hp" : 9930,
+  "max_mp" : 2900,
+  "volume" : 11,
+  "unit" : "§â",
+  "ap" : 2620,
+  "age" : 40,
+  "no_sac" : 1,
+  "cure_count" : 8,
+  "actions" : (: call_other,     "/adm/daemons/race/human.c",     "query_action" :),
+  "level" : 50,
+  "race" : "human",
+  "attitude" : "peaceful",
+  "wound" : ([ /* sizeof() == 6 */
+      "left_arm" : 0,
+      "left_leg" : 0,
+      "right_leg" : 0,
+      "body" : 0,
+      "head" : 0,
+      "right_arm" : 0,
+    ]),
+  "durable" : 98,
+  "damage" : 212,
+  "max_hp" : 9930,
+  "name" : "[1;37m­¸¡C[0m[1;33mÆFÁô¼C[0m[0m",
+  "id" : "flying sword",
+  "destruct" : 0,
+  "addition_damage" : 50,
+  "gender" : "¨k©Ê",
+  "Merits" : ([ /* sizeof() == 5 */
+      "bio" : 5,
+      "sou" : 5,
+      "wit" : 5,
+      "tec" : 6,
+      "bar" : 6,
+    ]),
+  "heart_modify" : 0,
+  "mp" : 2900,
+  "status_desc" : "¥¿¦bªÅ¤¤ÄÆ¯BµÛ",
+  "exp_point" : 0,
+  "no_give" : 1,
+  "max_ap" : 2620,
+  "addition_armor" : 75,
+  "guild_gifts" : ({ /* sizeof() == 4 */
+      5,
+      5,
+      5,
+      5
+    }),
+  "heart_beat_rate" : 6,
+  "value" : 1,
+  "addition_shield" : 16,
+  "str" : 100,
+  "con" : 81,
+  "int" : 95,
+]),0,0,0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#547') /daemon/skill/npc/sword.c:169
+arguments were ()
+locals were: 0
+Heart beat in daemon/skill/npc/sword#547 turned off.
+Error in error handler: *Too deep recursion.
+program: /daemon/skill/npc/sword.c, object: /daemon/skill/npc/sword#482, file: /daemon/skill/npc/sword.c:169
+'     heart_beat' in '      std/char/npc.c' ('daemon/skill/npc/sword#482') /std/char/npc.c:281
+arguments were ()
+locals were: 0,0,0,0
+'     heart_beat' in '          std/char.c' ('daemon/skill/npc/sword#482') /std/char.c:155
+arguments were ()
+locals were: 0,0,0,([ /* sizeof() == 43 */
+  "dex" : 97,
+  "default_actions" : (: call_other,     "/adm/daemons/race/human.c",     "query_action" :),
+  "no_get" : 1,
+  "long" : "¤@§â¥Ñ¸UÂAÆF©Òµo¥Xªº¼C®ğ±±¨î¦ÓÄÆ¯B¦bªÅ¤¤ªº­¸¼C¡D
+",
+  "exp" : 32212,
+  "combat_exp" : 25000,
+  "evil" : -12,
+  "hp" : 9990,
+  "max_mp" : 2860,
+  "volume" : 11,
+  "unit" : "§â",
+  "ap" : 2660,
+  "age" : 18,
+  "no_sac" : 1,
+  "cure_count" : 8,
+  "actions" : (: call_other,     "/adm/daemons/race/human.c",     "query_action" :),
+  "level" : 50,
+  "race" : "human",
+  "attitude" : "peaceful",
+  "wound" : ([ /* sizeof() == 6 */
+      "left_arm" : 0,
+      "left_leg" : 0,
+      "right_leg" : 0,
+      "body" : 0,
+      "head" : 0,
+      "right_arm" : 0,
+    ]),
+  "durable" : 98,
+  "damage" : 212,
+  "max_hp" : 9990,
+  "name" : "[1;37m­¸¡C[0m[1;33mÆFÁô¼C[0m[0m",
+  "id" : "flying sword",
+  "destruct" : 0,
+  "addition_damage" : 50,
+  "gender" : "¨k©Ê",
+  "Merits" : ([ /* sizeof() == 5 */
+      "bio" : 6,
+      "sou" : 5,
+      "wit" : 5,
+      "tec" : 6,
+      "bar" : 5,
+    ]),
+  "heart_modify" : 0,
+  "mp" : 2860,
+  "status_desc" : "¥¿¦bªÅ¤¤ÄÆ¯BµÛ",
+  "exp_point" : 0,
+  "no_give" : 1,
+  "max_ap" : 2660,
+  "addition_armor" : 75,
+  "guild_gifts" : ({ /* sizeof() == 4 */
+      5,
+      5,
+      5,
+      5
+    }),
+  "heart_beat_rate" : 6,
+  "value" : 1,
+  "addition_shield" : 16,
+  "str" : 96,
+  "con" : 83,
+  "int" : 93,
+]),0,0,0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:173
+arguments were ()
+locals were: 0
+'        heal_up' in 'daemon/skill/npc/sword.c' ('daemon/skill/npc/sword#482') /daemon/skill/npc/sword.c:169
+arguments were ()
+locals were: 0
+Heart beat in daemon/skill/npc/sword#482 turned off.
+get_user_data: read on fd 19
+System Error: get_user_data: read:Operation timed out
+
+°õ¦æ®É¬q¿ù»~¡R*F_SKILL: ¨S¦³¦¹SKILL (sorgi-sword)
+
+µ{¦¡¡Rfeature/skill.c ²Ä65¦æ
+ª«¥ó: obj/user#6819 ("¬Y¤H")
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:do_setall()        <- u/o/orzer/wp/flow-pants2.c:²Ä217¦æ [ª«¥ó:u/o/orzer/wp/flow-pants2#7343 ("[1;34m¹p[1;31m¡C[1;36m»a¬y[0m[36m¿Ç[0m")]
+¨ç¼Æ:set_skill()        <- feature/skill.c:²Ä65¦æ [ª«¥ó:obj/user#6819 ("¬Y¤H")]
+=======================¥H¤W¿ù»~½ĞºÉ§Ö­×´_========================
+
+
+°õ¦æ®É¬q¿ù»~¡R*Bad argument 1 to file_name()
+Expected: object Got: 0.
+
+µ{¦¡¡Radm/obj/simul_efun.c ²Ä37¦æ
+ª«¥ó: adm/obj/simul_efun
+¨ç¼Æ©I¥s¦^·¹:
+¨ç¼Æ:check_only()       <- u/o/orzer/wp/xxx.c:²Ä22¦æ [ª«¥ó:u/o/orzer/wp/xxx#8363 ("²½ÆF²Å")]
+¨ç¼Æ:base_name()        <- adm/obj/simul_efun.c:²Ä37¦æ [ª«¥ó:adm/obj/simul_efun]
+=======================¥H¤W¿ù»~½ĞºÉ§Ö­×´_========================
+
+get_user_data: read on fd 10
+System Error: get_user_data: read:Operation timed out
+Error in error handler: *Bad argument 1 to capitalize()
+Expected: string Got: 0.
+program: /adm/daemons/channeld.c, object: /adm/daemons/channeld, file: /adm/daemons/channeld.c:262
+'     heart_beat' in '      std/char/npc.c' ('open/world1/ksj/east_island/npc/autarou#17230') /std/char/npc.c:227
+arguments were ()
+locals were: 0,0,0,0
+'           chat' in '      std/char/npc.c' ('open/world1/ksj/east_island/npc/autarou#17230') /std/char/npc.c:148
+arguments were ()
+locals were: ({ /* sizeof() == 1 */
+  (: <code>() :)
+}),50,0
+'     <function>' in '          <function>' ('open/world1/ksj/east_island/npc/autarou#17230') 
+'     <function>' in 'open/world1/ksj/east_island/npc/autarou.c' ('open/world1/ksj/east_island/npc/autarou#17230') /open/world1/ksj/east_island/npc/autarou.c:48
+arguments were ()
+'      normal_ai' in 'open/world1/ksj/east_island/npc/autarou.c' ('open/world1/ksj/east_island/npc/autarou#17230') /open/world1/ksj/east_island/npc/autarou.c:88
+arguments were ()
+locals were: open/world1/ksj/east_island/npc/autarou#17230 ("¬h¥Í¡D¶ø¤Ó­¦"),0,0,0,0,0,0,0,0
+'  error_handler' in '    adm/obj/master.c' ('      adm/obj/master') /adm/obj/master.c:293
+arguments were (([ /* sizeof() == 6 */
+  "object" : open/world1/ksj/east_island/npc/autarou#17230 ("¬h¥Í¡D¶ø¤Ó­¦"),
+  "error" : "*Bad argument 1 to environment()
+Expected: object Got: 0.
+",
+  "file" : "open/world1/ksj/east_island/npc/autarou.c",
+  "trace" : ({ /* sizeof() == 5 */
+      ([ /* sizeof() == 7 */
+        "object" : open/world1/ksj/east_island/npc/autarou#17230 ("¬h¥Í¡D¶ø¤Ó­¦"),
+        "file" : "std/char/npc.c",
+        "program" : "std/char/npc.c",
+        "locals" : ({ /* sizeof() == 4 */
+            0,
+            0,
+            0,
+            0
+          }),
+        "arguments" : ({ }),
+        "line" : 227,
+        "function" : "heart_beat",
+      ]),
+      ([ /* sizeof() == 7 */
+        "object" : open/world1/ksj/east_island/npc/autarou#17230 ("¬h¥Í¡D¶ø¤Ó­¦"),
+        "file" : "std/char/npc.c",
+        "program" : "std/char/npc.c",
+        "locals" : ({ /* sizeof() == 3 */
+            ({ /* sizeof() == 1 */
+              (: <code>() :)
+            }),
+            50,
+            0
+          }),
+        "arguments" : ({ }),
+        "line" : 148,
+        "function" : "chat",
+      ]),
+      ([ /* sizeof() == 5 */
+        "object" : open/world1/ksj/east_island/npc/autarou#17230 ("¬h¥Í¡D¶ø¤Ó­¦"),
+        "file" : "",
+        "program" : "<function>",
+        "line" : 0,
+        "function" : "<function>",
+      ]),
+      ([ /* sizeof() == 6 */
+        "object" : open/world1/ksj/east_island/npc/autarou#17230 ("¬h¥Í¡D¶ø¤Ó­¦"),
+        "file" : "open/world1/ksj/east_island/npc/autarou.c",
+        "program" : "open/world1/ksj/east_island/npc/autarou.c",
+        "arguments" : ({ }),
+        "line" : 48,
+        "function" : "<function>",
+      ]),
+      ([ /* sizeof() == 7 */
+        "object" : open/world1/ksj/east_island/npc/autarou#17230 ("¬h¥Í¡D¶ø¤Ó­¦"),
+        "file" : "open/world1/ksj/east_island/npc/autarou.c",
+        "program" : "open/world1/ksj/east_island/npc/autarou.c",
+        "locals" : ({ /* sizeof() == 9 */
+            open/world1/ksj/east_island/npc/autarou#17230 ("¬h¥Í¡D¶ø¤Ó­¦"),
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          }),
+        "arguments" : ({ }),
+        "line" : 88,
+        "function" : "normal_ai",
+      ])
+    }),
+  "program" : "open/world1/ksj/east_island/npc/autarou.c",
+  "line" : 88,
+]),0)
+'   report_error' in '    adm/obj/master.c' ('      adm/obj/master') /adm/obj/master.c:280
+arguments were (([ /* sizeof() == 6 */
+  "object" : open/world1/ksj/east_island/npc/autarou#17230 ("¬h¥Í¡D¶ø¤Ó­¦"),
+  "error" : "*Bad argument 1 to environment()
+Expected: object Got: 0.
+",
+  "file" : "open/world1/ksj/east_island/npc/autarou.c",
+  "trace" : ({ /* sizeof() == 5 */
+      ([ /* sizeof() == 7 */
+        "object" : open/world1/ksj/east_island/npc/autarou#17230 ("¬h¥Í¡D¶ø¤Ó­¦"),
+        "file" : "std/char/npc.c",
+        "program" : "std/char/npc.c",
+        "locals" : ({ /* sizeof() == 4 */
+            0,
+            0,
+            0,
+            0
+          }),
+        "arguments" : ({ }),
+        "line" : 227,
+        "function" : "heart_beat",
+      ]),
+      ([ /* sizeof() == 7 */
+        "object" : open/world1/ksj/east_island/npc/autarou#17230 ("¬h¥Í¡D¶ø¤Ó­¦"),
+        "file" : "std/char/npc.c",
+        "program" : "std/char/npc.c",
+        "locals" : ({ /* sizeof() == 3 */
+            ({ /* sizeof() == 1 */
+              (: <code>() :)
+            }),
+            50,
+            0
+          }),
+        "arguments" : ({ }),
+        "line" : 148,
+        "function" : "chat",
+      ]),
+      ([ /* sizeof() == 5 */
+        "object" : open/world1/ksj/east_island/npc/autarou#17230 ("¬h¥Í¡D¶ø¤Ó­¦"),
+        "file" : "",
+        "program" : "<function>",
+        "line" : 0,
+        "function" : "<function>",
+      ]),
+      ([ /* sizeof() == 6 */
+        "object" : open/world1/ksj/east_island/npc/autarou#17230 ("¬h¥Í¡D¶ø¤Ó­¦"),
+        "file" : "open/world1/ksj/east_island/npc/autarou.c",
+        "program" : "open/world1/ksj/east_island/npc/autarou.c",
+        "arguments" : ({ }),
+        "line" : 48,
+        "function" : "<function>",
+      ]),
+      ([ /* sizeof() == 7 */
+        "object" : open/world1/ksj/east_island/npc/autarou#17230 ("¬h¥Í¡D¶ø¤Ó­¦"),
+        "file" : "open/world1/ksj/east_island/npc/autarou.c",
+        "program" : "open/world1/ksj/east_island/npc/autarou.c",
+        "locals" : ({ /* sizeof() == 9 */
+            open/world1/ksj/east_island/npc/autarou#17230 ("¬h¥Í¡D¶ø¤Ó­¦"),
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          }),
+        "arguments" : ({ }),
+        "line" : 88,
+        "function" : "normal_ai",
+      ])
+    }),
+  "program" : "open/world1/ksj/east_island/npc/autarou.c",
+  "line" : 88,
+]))
+'     do_channel' in 'adm/daemons/channeld.c' ('adm/daemons/channeld') /adm/daemons/channeld.c:262
+arguments were (adm/obj/master,"sys","open/world1/ksj/east_island/npc/autarou.c ²Ä 88 ¦æ¡Aª«¥ó¡G/open/world1/ksj/east_island/npc/autarou#17230
+        *Bad argument 1 to environment()
+Expected: object Got: 0.
+",0)
+locals were: 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heart beat in open/world1/ksj/east_island/npc/autarou#17230 turned off.
+get_user_data: read on fd 21
+System Error: get_user_data: read:Connection reset by peer
+Error in error handler: *Bad argument 1 to capitalize()
+Expected: string Got: 0.
+program: /adm/daemons/channeld.c, object: /adm/daemons/channeld, file: /adm/daemons/channeld.c:262
+'     heart_beat' in '      std/char/npc.c' ('open/world1/kkeenn/love/npc/master_1#7384') /std/char/npc.c:227
+arguments were ()
+locals were: 0,0,0,0
+'           chat' in '      std/char/npc.c' ('open/world1/kkeenn/love/npc/master_1#7384') /std/char/npc.c:148
+arguments were ()
+locals were: ({ /* sizeof() == 7 */
+  (: <code>() :),
+  (: <code>() :),
+  (: special :),
+  (: <code>() :),
+  (: <code>() :),
+  (: <code>() :),
+  (: <code>() :)
+}),40,2
+'     <function>' in '          <function>' ('open/world1/kkeenn/love/npc/master_1#7384') 
+'        special' in 'open/world1/kkeenn/love/npc/master_1.c' ('open/world1/kkeenn/love/npc/master_1#7384') /open/world1/kkeenn/love/npc/master_1.c:355
+arguments were ()
+locals were: open/world1/kkeenn/love/npc/master_1#7384 ("[1;37m¤Ñ¤s³·[0m"),({ /* sizeof() == 1 */
+  obj/user#18008 ("ÀØ±T¥¬")
+}),400
+' message_vision' in 'adm/obj/simul_efun.c' ('  adm/obj/simul_efun') /adm/simul_efun/message.c:24
+arguments were ("[1;37m
+$N±N¤â¤¤ªºÃ@¤l¥æ¦Ü¥ª¤â¡A¹B°_¦Û³ĞµÛ¯«¯µµ´©Û
+		¡i[1;31mµ´±¡·À¹D[1;37m¡j¡I¡I
+¤@ªÑ¤£¥¢±j¤j¤S­İ¦³µL¤ñ´d¶Ëªº¯u®ğªï­±¦V$n®u±²¦Ó¥h¡A$n¦b±¹¤â¤£¤Îªº±¡ªp¤§¤U
+¨ºªÑ¯u®ğª½±µ©R¤¤$nªº¯İµÄ¡A$n¬ğµMÅÜªº³·¥Õ¡A¦ü¥G¬O¨ü¨ì¤Q¤ÀÄY­«ªº¤º¶Ë¡I",open/world1/kkeenn/love/npc/master_1#7384 ("[1;37m¤Ñ¤s³·[0m"),({ /* sizeof() == 1 */
+  obj/user#18008 ("ÀØ±T¥¬")
+}))
+locals were: "¤k©Ê",({ /* sizeof() == 1 */
+  "¤k©Ê"
+}),"[1;37m¤Ñ¤s³·[0m",({ /* sizeof() == 1 */
+  "ÀØ±T¥¬"
+}),"[1;37m
+©p±N¤â¤¤ªºÃ@¤l¥æ¦Ü¥ª¤â¡A¹B°_¦Û³ĞµÛ¯«¯µµ´©Û
+		¡i[1;31mµ´±¡·À¹D[1;37m¡j¡I¡I
+¤@ªÑ¤£¥¢±j¤j¤S­İ¦³µL¤ñ´d¶Ëªº¯u®ğªï­±¦V$n®u±²¦Ó¥h¡A$n¦b±¹¤â¤£¤Îªº±¡ªp¤§¤U
+¨ºªÑ¯u®ğª½±µ©R¤¤$nªº¯İµÄ¡A$n¬ğµMÅÜªº³·¥Õ¡A¦ü¥G¬O¨ü¨ì¤Q¤ÀÄY­«ªº¤º¶Ë¡I","[1;37m
+$N±N¤â¤¤ªºÃ@¤l¥æ¦Ü¥ª¤â¡A¹B°_¦Û³ĞµÛ¯«¯µµ´©Û
+		¡i[1;31mµ´±¡·À¹D[1;37m¡j¡I¡I
+¤@ªÑ¤£¥¢±j¤j¤S­İ¦³µL¤ñ´d¶Ëªº¯u®ğªï­±¦V$n®u±²¦Ó¥h¡A$n¦b±¹¤â¤£¤Îªº±¡ªp¤§¤U
+¨ºªÑ¯u®ğª½±µ©R¤¤$nªº¯İµÄ¡A$n¬ğµMÅÜªº³·¥Õ¡A¦ü¥G¬O¨ü¨ì¤Q¤ÀÄY­«ªº¤º¶Ë¡I","[1;37m
+[1;37m¤Ñ¤s³·[0m±N¤â¤¤ªºÃ@¤l¥æ¦Ü¥ª¤â¡A¹B°_¦Û³ĞµÛ¯«¯µµ´©Û
+		¡i[1;31mµ´±¡·À¹D[1;37m¡j¡I¡I
+¤@ªÑ¤£¥¢±j¤j¤S­İ¦³µL¤ñ´d¶Ëªº¯u®ğªï­±¦V$n®u±²¦Ó¥h¡A$n¦b±¹¤â¤£¤Îªº±¡ªp¤§¤U
+¨ºªÑ¯u®ğª½±µ©R¤¤$nªº¯İµÄ¡A$n¬ğµMÅÜªº³·¥Õ¡A¦ü¥G¬O¨ü¨ì¤Q¤ÀÄY­«ªº¤º¶Ë¡I"
+'    gender_self' in 'adm/obj/simul_efun.c' ('  adm/obj/simul_efun') /adm/simul_efun/gender.c:5
+arguments were (({ /* sizeof() == 1 */
+  "¤k©Ê"
+}))
+'  error_handler' in '    adm/obj/master.c' ('      adm/obj/master') /adm/obj/master.c:293
+arguments were (([ /* sizeof() == 6 */
+  "object" : adm/obj/simul_efun,
+  "error" : "*Bad argument 1 to switch
+Expected: string Got: ({ /* sizeof() == 1 */
+  "¤k©Ê"
+}).
+",
+  "file" : "adm/simul_efun/gender.c",
+  "trace" : ({ /* sizeof() == 6 */
+      ([ /* sizeof() == 7 */
+        "object" : open/world1/kkeenn/love/npc/master_1#7384 ("[1;37m¤Ñ¤s³·[0m"),
+        "arguments" : ({ }),
+        "file" : "std/char/npc.c",
+        "program" : "std/char/npc.c",
+        "locals" : ({ /* sizeof() == 4 */
+            0,
+            0,
+            0,
+            0
+          }),
+        "line" : 227,
+        "function" : "heart_beat",
+      ]),
+      ([ /* sizeof() == 7 */
+        "object" : open/world1/kkeenn/love/npc/master_1#7384 ("[1;37m¤Ñ¤s³·[0m"),
+        "arguments" : ({ }),
+        "file" : "std/char/npc.c",
+        "program" : "std/char/npc.c",
+        "locals" : ({ /* sizeof() == 3 */
+            ({ /* sizeof() == 7 */
+              (: <code>() :),
+              (: <code>() :),
+              (: special :),
+              (: <code>() :),
+              (: <code>() :),
+              (: <code>() :),
+              (: <code>() :)
+            }),
+            40,
+            2
+          }),
+        "line" : 148,
+        "function" : "chat",
+      ]),
+      ([ /* sizeof() == 5 */
+        "object" : open/world1/kkeenn/love/npc/master_1#7384 ("[1;37m¤Ñ¤s³·[0m"),
+        "file" : "",
+        "program" : "<function>",
+        "line" : 0,
+        "function" : "<function>",
+      ]),
+      ([ /* sizeof() == 7 */
+        "object" : open/world1/kkeenn/love/npc/master_1#7384 ("[1;37m¤Ñ¤s³·[0m"),
+        "arguments" : ({ }),
+        "file" : "open/world1/kkeenn/love/npc/master_1.c",
+        "program" : "open/world1/kkeenn/love/npc/master_1.c",
+        "locals" : ({ /* sizeof() == 3 */
+            open/world1/kkeenn/love/npc/master_1#7384 ("[1;37m¤Ñ¤s³·[0m"),
+            ({ /* sizeof() == 1 */
+              obj/user#18008 ("ÀØ±T¥¬")
+            }),
+            400
+          }),
+        "line" : 355,
+        "function" : "special",
+      ]),
+      ([ /* sizeof() == 7 */
+        "object" : adm/obj/simul_efun,
+        "arguments" : ({ /* sizeof() == 3 */
+            "[1;37m
+$N±N¤â¤¤ªºÃ@¤l¥æ¦Ü¥ª¤â¡A¹B°_¦Û³ĞµÛ¯«¯µµ´©Û
+		¡i[1;31mµ´±¡·À¹D[1;37m¡j¡I¡I
+¤@ªÑ¤£¥¢±j¤j¤S­İ¦³µL¤ñ´d¶Ëªº¯u®ğªï­±¦V$n®u±²¦Ó¥h¡A$n¦b±¹¤â¤£¤Îªº±¡ªp¤§¤U
+¨ºªÑ¯u®ğª½±µ©R¤¤$nªº¯İµÄ¡A$n¬ğµMÅÜªº³·¥Õ¡A¦ü¥G¬O¨ü¨ì¤Q¤ÀÄY­«ªº¤º¶Ë¡I",
+            open/world1/kkeenn/love/npc/master_1#7384 ("[1;37m¤Ñ¤s³·[0m"),
+            ({ /* sizeof() == 1 */
+              obj/user#18008 ("ÀØ±T¥¬")
+            })
+          }),
+        "file" : "adm/simul_efun/message.c",
+        "program" : "adm/obj/simul_efun.c",
+        "locals" : ({ /* sizeof() == 7 */
+            "¤k©Ê",
+            ({ /* sizeof() == 1 */
+              "¤k©Ê"
+            }),
+            "[1;37m¤Ñ¤s³·[0m",
+            ({ /* sizeof() == 1 */
+              "ÀØ±T¥¬"
+            }),
+            "[1;37m
+©p±N¤â¤¤ªºÃ@¤l¥æ¦Ü¥ª¤â¡A¹B°_¦Û³ĞµÛ¯«¯µµ´©Û
+		¡i[1;31mµ´±¡·À¹D[1;37m¡j¡I¡I
+¤@ªÑ¤£¥¢±j¤j¤S­İ¦³µL¤ñ´d¶Ëªº¯u®ğªï­±¦V$n®u±²¦Ó¥h¡A$n¦b±¹¤â¤£¤Îªº±¡ªp¤§¤U
+¨ºªÑ¯u®ğª½±µ©R¤¤$nªº¯İµÄ¡A$n¬ğµMÅÜªº³·¥Õ¡A¦ü¥G¬O¨ü¨ì¤Q¤ÀÄY­«ªº¤º¶Ë¡I",
+            "[1;37m
+$N±N¤â¤¤ªºÃ@¤l¥æ¦Ü¥ª¤â¡A¹B°_¦Û³ĞµÛ¯«¯µµ´©Û
+		¡i[1;31mµ´±¡·À¹D[1;37m¡j¡I¡I
+¤@ªÑ¤£¥¢±j¤j¤S­İ¦³µL¤ñ´d¶Ëªº¯u®ğªï­±¦V$n®u±²¦Ó¥h¡A$n¦b±¹¤â¤£¤Îªº±¡ªp¤§¤U
+¨ºªÑ¯u®ğª½±µ©R¤¤$nªº¯İµÄ¡A$n¬ğµMÅÜªº³·¥Õ¡A¦ü¥G¬O¨ü¨ì¤Q¤ÀÄY­«ªº¤º¶Ë¡I",
+            "[1;37m
+[1;37m¤Ñ¤s³·[0m±N¤â¤¤ªºÃ@¤l¥æ¦Ü¥ª¤â¡A¹B°_¦Û³ĞµÛ¯«¯µµ´©Û
+		¡i[1;31mµ´±¡·À¹D[1;37m¡j¡I¡I
+¤@ªÑ¤£¥¢±j¤j¤S­İ¦³µL¤ñ´d¶Ëªº¯u®ğªï­±¦V$n®u±²¦Ó¥h¡A$n¦b±¹¤â¤£¤Îªº±¡ªp¤§¤U
+¨ºªÑ¯u®ğª½±µ©R¤¤$nªº¯İµÄ¡A$n¬ğµMÅÜªº³·¥Õ¡A¦ü¥G¬O¨ü¨ì¤Q¤ÀÄY­«ªº¤º¶Ë¡I"
+          }),
+        "line" : 24,
+        "function" : "message_vision",
+      ]),
+      ([ /* sizeof() == 6 */
+        "object" : adm/obj/simul_efun,
+        "arguments" : ({ /* sizeof() == 1 */
+            ({ /* sizeof() == 1 */
+              "¤k©Ê"
+            })
+          }),
+        "file" : "adm/simul_efun/gender.c",
+        "program" : "adm/obj/simul_efun.c",
+        "line" : 5,
+        "function" : "gender_self",
+      ])
+    }),
+  "program" : "adm/obj/simul_efun.c",
+  "line" : 5,
+]),0)
+'   report_error' in '    adm/obj/master.c' ('      adm/obj/master') /adm/obj/master.c:280
+arguments were (([ /* sizeof() == 6 */
+  "object" : adm/obj/simul_efun,
+  "error" : "*Bad argument 1 to switch
+Expected: string Got: ({ /* sizeof() == 1 */
+  "¤k©Ê"
+}).
+",
+  "file" : "adm/simul_efun/gender.c",
+  "trace" : ({ /* sizeof() == 6 */
+      ([ /* sizeof() == 7 */
+        "object" : open/world1/kkeenn/love/npc/master_1#7384 ("[1;37m¤Ñ¤s³·[0m"),
+        "arguments" : ({ }),
+        "file" : "std/char/npc.c",
+        "program" : "std/char/npc.c",
+        "locals" : ({ /* sizeof() == 4 */
+            0,
+            0,
+            0,
+            0
+          }),
+        "line" : 227,
+        "function" : "heart_beat",
+      ]),
+      ([ /* sizeof() == 7 */
+        "object" : open/world1/kkeenn/love/npc/master_1#7384 ("[1;37m¤Ñ¤s³·[0m"),
+        "arguments" : ({ }),
+        "file" : "std/char/npc.c",
+        "program" : "std/char/npc.c",
+        "locals" : ({ /* sizeof() == 3 */
+            ({ /* sizeof() == 7 */
+              (: <code>() :),
+              (: <code>() :),
+              (: special :),
+              (: <code>() :),
+              (: <code>() :),
+              (: <code>() :),
+              (: <code>() :)
+            }),
+            40,
+            2
+          }),
+        "line" : 148,
+        "function" : "chat",
+      ]),
+      ([ /* sizeof() == 5 */
+        "object" : open/world1/kkeenn/love/npc/master_1#7384 ("[1;37m¤Ñ¤s³·[0m"),
+        "file" : "",
+        "program" : "<function>",
+        "line" : 0,
+        "function" : "<function>",
+      ]),
+      ([ /* sizeof() == 7 */
+        "object" : open/world1/kkeenn/love/npc/master_1#7384 ("[1;37m¤Ñ¤s³·[0m"),
+        "arguments" : ({ }),
+        "file" : "open/world1/kkeenn/love/npc/master_1.c",
+        "program" : "open/world1/kkeenn/love/npc/master_1.c",
+        "locals" : ({ /* sizeof() == 3 */
+            open/world1/kkeenn/love/npc/master_1#7384 ("[1;37m¤Ñ¤s³·[0m"),
+            ({ /* sizeof() == 1 */
+              obj/user#18008 ("ÀØ±T¥¬")
+            }),
+            400
+          }),
+        "line" : 355,
+        "function" : "special",
+      ]),
+      ([ /* sizeof() == 7 */
+        "object" : adm/obj/simul_efun,
+        "arguments" : ({ /* sizeof() == 3 */
+            "[1;37m
+$N±N¤â¤¤ªºÃ@¤l¥æ¦Ü¥ª¤â¡A¹B°_¦Û³ĞµÛ¯«¯µµ´©Û
+		¡i[1;31mµ´±¡·À¹D[1;37m¡j¡I¡I
+¤@ªÑ¤£¥¢±j¤j¤S­İ¦³µL¤ñ´d¶Ëªº¯u®ğªï­±¦V$n®u±²¦Ó¥h¡A$n¦b±¹¤â¤£¤Îªº±¡ªp¤§¤U
+¨ºªÑ¯u®ğª½±µ©R¤¤$nªº¯İµÄ¡A$n¬ğµMÅÜªº³·¥Õ¡A¦ü¥G¬O¨ü¨ì¤Q¤ÀÄY­«ªº¤º¶Ë¡I",
+            open/world1/kkeenn/love/npc/master_1#7384 ("[1;37m¤Ñ¤s³·[0m"),
+            ({ /* sizeof() == 1 */
+              obj/user#18008 ("ÀØ±T¥¬")
+            })
+          }),
+        "file" : "adm/simul_efun/message.c",
+        "program" : "adm/obj/simul_efun.c",
+        "locals" : ({ /* sizeof() == 7 */
+            "¤k©Ê",
+            ({ /* sizeof() == 1 */
+              "¤k©Ê"
+            }),
+            "[1;37m¤Ñ¤s³·[0m",
+            ({ /* sizeof() == 1 */
+              "ÀØ±T¥¬"
+            }),
+            "[1;37m
+©p±N¤â¤¤ªºÃ@¤l¥æ¦Ü¥ª¤â¡A¹B°_¦Û³ĞµÛ¯«¯µµ´©Û
+		¡i[1;31mµ´±¡·À¹D[1;37m¡j¡I¡I
+¤@ªÑ¤£¥¢±j¤j¤S­İ¦³µL¤ñ´d¶Ëªº¯u®ğªï­±¦V$n®u±²¦Ó¥h¡A$n¦b±¹¤â¤£¤Îªº±¡ªp¤§¤U
+¨ºªÑ¯u®ğª½±µ©R¤¤$nªº¯İµÄ¡A$n¬ğµMÅÜªº³·¥Õ¡A¦ü¥G¬O¨ü¨ì¤Q¤ÀÄY­«ªº¤º¶Ë¡I",
+            "[1;37m
+$N±N¤â¤¤ªºÃ@¤l¥æ¦Ü¥ª¤â¡A¹B°_¦Û³ĞµÛ¯«¯µµ´©Û
+		¡i[1;31mµ´±¡·À¹D[1;37m¡j¡I¡I
+¤@ªÑ¤£¥¢±j¤j¤S­İ¦³µL¤ñ´d¶Ëªº¯u®ğªï­±¦V$n®u±²¦Ó¥h¡A$n¦b±¹¤â¤£¤Îªº±¡ªp¤§¤U
+¨ºªÑ¯u®ğª½±µ©R¤¤$nªº¯İµÄ¡A$n¬ğµMÅÜªº³·¥Õ¡A¦ü¥G¬O¨ü¨ì¤Q¤ÀÄY­«ªº¤º¶Ë¡I",
+            "[1;37m
+[1;37m¤Ñ¤s³·[0m±N¤â¤¤ªºÃ@¤l¥æ¦Ü¥ª¤â¡A¹B°_¦Û³ĞµÛ¯«¯µµ´©Û
+		¡i[1;31mµ´±¡·À¹D[1;37m¡j¡I¡I
+¤@ªÑ¤£¥¢±j¤j¤S­İ¦³µL¤ñ´d¶Ëªº¯u®ğªï­±¦V$n®u±²¦Ó¥h¡A$n¦b±¹¤â¤£¤Îªº±¡ªp¤§¤U
+¨ºªÑ¯u®ğª½±µ©R¤¤$nªº¯İµÄ¡A$n¬ğµMÅÜªº³·¥Õ¡A¦ü¥G¬O¨ü¨ì¤Q¤ÀÄY­«ªº¤º¶Ë¡I"
+          }),
+        "line" : 24,
+        "function" : "message_vision",
+      ]),
+      ([ /* sizeof() == 6 */
+        "object" : adm/obj/simul_efun,
+        "arguments" : ({ /* sizeof() == 1 */
+            ({ /* sizeof() == 1 */
+              "¤k©Ê"
+            })
+          }),
+        "file" : "adm/simul_efun/gender.c",
+        "program" : "adm/obj/simul_efun.c",
+        "line" : 5,
+        "function" : "gender_self",
+      ])
+    }),
+  "program" : "adm/obj/simul_efun.c",
+  "line" : 5,
+]))
+'     do_channel' in 'adm/daemons/channeld.c' ('adm/daemons/channeld') /adm/daemons/channeld.c:262
+arguments were (adm/obj/master,"sys","adm/obj/simul_efun.c ²Ä 5 ¦æ¡Aª«¥ó¡G/adm/obj/simul_efun
+        *Bad argument 1 to switch
+Expected: string Got: ({ /* sizeof() == 1 */
+  "¤k©Ê"
+}).
+",0)
+locals were: 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heart beat in open/world1/kkeenn/love/npc/master_1#7384 turned off.
+Error in error handler: *Bad argument 1 to capitalize()
+Expected: string Got: 0.
+program: /adm/daemons/channeld.c, object: /adm/daemons/channeld, file: /adm/daemons/channeld.c:262
+'     heart_beat' in '      std/char/npc.c' ('open/world1/kkeenn/love/npc/master_1#7384') /std/char/npc.c:227
+arguments were ()
+locals were: 0,0,0,0
+'           chat' in '      std/char/npc.c' ('open/world1/kkeenn/love/npc/master_1#7384') /std/char/npc.c:148
+arguments were ()
+locals were: ({ /* sizeof() == 7 */
+  (: <code>() :),
+  (: <code>() :),
+  (: special :),
+  (: <code>() :),
+  (: <code>() :),
+  (: <code>() :),
+  (: <code>() :)
+}),40,2
+'     <function>' in '          <function>' ('open/world1/kkeenn/love/npc/master_1#7384') 
+'        special' in 'open/world1/kkeenn/love/npc/master_1.c' ('open/world1/kkeenn/love/npc/master_1#7384') /open/world1/kkeenn/love/npc/master_1.c:355
+arguments were ()
+locals were: open/world1/kkeenn/love/npc/master_1#7384 ("[1;37m¤Ñ¤s³·[0m"),({ /* sizeof() == 1 */
+  obj/user#18008 ("ÀØ±T¥¬")
+}),484
+' message_vision' in 'adm/obj/simul_efun.c' ('  adm/obj/simul_efun') /adm/simul_efun/message.c:24
+arguments were ("[1;37m
+$N±N¤â¤¤ªºÃ@¤l¥æ¦Ü¥ª¤â¡A¹B°_¦Û³ĞµÛ¯«¯µµ´©Û
+		¡i[1;31mµ´±¡·À¹D[1;37m¡j¡I¡I
+¤@ªÑ¤£¥¢±j¤j¤S­İ¦³µL¤ñ´d¶Ëªº¯u®ğªï­±¦V$n®u±²¦Ó¥h¡A$n¦b±¹¤â¤£¤Îªº±¡ªp¤§¤U
+¨ºªÑ¯u®ğª½±µ©R¤¤$nªº¯İµÄ¡A$n¬ğµMÅÜªº³·¥Õ¡A¦ü¥G¬O¨ü¨ì¤Q¤ÀÄY­«ªº¤º¶Ë¡I",open/world1/kkeenn/love/npc/master_1#7384 ("[1;37m¤Ñ¤s³·[0m"),({ /* sizeof() == 1 */
+  obj/user#18008 ("ÀØ±T¥¬")
+}))
+locals were: "¤k©Ê",({ /* sizeof() == 1 */
+  "¤k©Ê"
+}),"[1;37m¤Ñ¤s³·[0m",({ /* sizeof() == 1 */
+  "ÀØ±T¥¬"
+}),"[1;37m
+©p±N¤â¤¤ªºÃ@¤l¥æ¦Ü¥ª¤â¡A¹B°_¦Û³ĞµÛ¯«¯µµ´©Û
+		¡i[1;31mµ´±¡·À¹D[1;37m¡j¡I¡I
+¤@ªÑ¤£¥¢±j¤j¤S­İ¦³µL¤ñ´d¶Ëªº¯u®ğªï­±¦V$n®u±²¦Ó¥h¡A$n¦b±¹¤â¤£¤Îªº±¡ªp¤§¤U
+¨ºªÑ¯u®ğª½±µ©R¤¤$nªº¯İµÄ¡A$n¬ğµMÅÜªº³·¥Õ¡A¦ü¥G¬O¨ü¨ì¤Q¤ÀÄY­«ªº¤º¶Ë¡I","[1;37m
+$N±N¤â¤¤ªºÃ@¤l¥æ¦Ü¥ª¤â¡A¹B°_¦Û³ĞµÛ¯«¯µµ´©Û
+		¡i[1;31mµ´±¡·À¹D[1;37m¡j¡I¡I
+¤@ªÑ¤£¥¢±j¤j¤S­İ¦³µL¤ñ´d¶Ëªº¯u®ğªï­±¦V$n®u±²¦Ó¥h¡A$n¦b±¹¤â¤£¤Îªº±¡ªp¤§¤U
+¨ºªÑ¯u®ğª½±µ©R¤¤$nªº¯İµÄ¡A$n¬ğµMÅÜªº³·¥Õ¡A¦ü¥G¬O¨ü¨ì¤Q¤ÀÄY­«ªº¤º¶Ë¡I","[1;37m
+[1;37m¤Ñ¤s³·[0m±N¤â¤¤ªºÃ@¤l¥æ¦Ü¥ª¤â¡A¹B°_¦Û³ĞµÛ¯«¯µµ´©Û
+		¡i[1;31mµ´±¡·À¹D[1;37m¡j¡I¡I
+¤@ªÑ¤£¥¢±j¤j¤S­İ¦³µL¤ñ´d¶Ëªº¯u®ğªï­±¦V$n®u±²¦Ó¥h¡A$n¦b±¹¤â¤£¤Îªº±¡ªp¤§¤U
+¨ºªÑ¯u®ğª½±µ©R¤¤$nªº¯İµÄ¡A$n¬ğµMÅÜªº³·¥Õ¡A¦ü¥G¬O¨ü¨ì¤Q¤ÀÄY­«ªº¤º¶Ë¡I"
+'    gender_self' in 'adm/obj/simul_efun.c' ('  adm/obj/simul_efun') /adm/simul_efun/gender.c:5
+arguments were (({ /* sizeof() == 1 */
+  "¤k©Ê"
+}))
+'  error_handler' in '    adm/obj/master.c' ('      adm/obj/master') /adm/obj/master.c:293
+arguments were (([ /* sizeof() == 6 */
+  "object" : adm/obj/simul_efun,
+  "error" : "*Bad argument 1 to switch
+Expected: string Got: ({ /* sizeof() == 1 */
+  "¤k©Ê"
+}).
+",
+  "file" : "adm/simul_efun/gender.c",
+  "trace" : ({ /* sizeof() == 6 */
+      ([ /* sizeof() == 7 */
+        "arguments" : ({ }),
+        "object" : open/world1/kkeenn/love/npc/master_1#7384 ("[1;37m¤Ñ¤s³·[0m"),
+        "file" : "std/char/npc.c",
+        "program" : "std/char/npc.c",
+        "locals" : ({ /* sizeof() == 4 */
+            0,
+            0,
+            0,
+            0
+          }),
+        "line" : 227,
+        "function" : "heart_beat",
+      ]),
+      ([ /* sizeof() == 7 */
+        "arguments" : ({ }),
+        "object" : open/world1/kkeenn/love/npc/master_1#7384 ("[1;37m¤Ñ¤s³·[0m"),
+        "file" : "std/char/npc.c",
+        "program" : "std/char/npc.c",
+        "locals" : ({ /* sizeof() == 3 */
+            ({ /* sizeof() == 7 */
+              (: <code>() :),
+              (: <code>() :),
+              (: special :),
+              (: <code>() :),
+              (: <code>() :),
+              (: <code>() :),
+              (: <code>() :)
+            }),
+            40,
+            2
+          }),
+        "line" : 148,
+        "function" : "chat",
+      ]),
+      ([ /* sizeof() == 5 */
+        "object" : open/world1/kkeenn/love/npc/master_1#7384 ("[1;37m¤Ñ¤s³·[0m"),
+        "file" : "",
+        "program" : "<function>",
+        "line" : 0,
+        "function" : "<function>",
+      ]),
+      ([ /* sizeof() == 7 */
+        "arguments" : ({ }),
+        "object" : open/world1/kkeenn/love/npc/master_1#7384 ("[1;37m¤Ñ¤s³·[0m"),
+        "file" : "open/world1/kkeenn/love/npc/master_1.c",
+        "program" : "open/world1/kkeenn/love/npc/master_1.c",
+        "locals" : ({ /* sizeof() == 3 */
+            open/world1/kkeenn/love/npc/master_1#7384 ("[1;37m¤Ñ¤s³·[0m"),
+            ({ /* sizeof() == 1 */
+              obj/user#18008 ("ÀØ±T¥¬")
+            }),
+            484
+          }),
+        "line" : 355,
+        "function" : "special",
+      ]),
+      ([ /* sizeof() == 7 */
+        "arguments" : ({ /* sizeof() == 3 */
+            "[1;37m
+$N±N¤â¤¤ªºÃ@¤l¥æ¦Ü¥ª¤â¡A¹B°_¦Û³ĞµÛ¯«¯µµ´©Û
+		¡i[1;31mµ´±¡·À¹D[1;37m¡j¡I¡I
+¤@ªÑ¤£¥¢±j¤j¤S­İ¦³µL¤ñ´d¶Ëªº¯u®ğªï­±¦V$n®u±²¦Ó¥h¡A$n¦b±¹¤â¤£¤Îªº±¡ªp¤§¤U
+¨ºªÑ¯u®ğª½±µ©R¤¤$nªº¯İµÄ¡A$n¬ğµMÅÜªº³·¥Õ¡A¦ü¥G¬O¨ü¨ì¤Q¤ÀÄY­«ªº¤º¶Ë¡I",
+            open/world1/kkeenn/love/npc/master_1#7384 ("[1;37m¤Ñ¤s³·[0m"),
+            ({ /* sizeof() == 1 */
+              obj/user#18008 ("ÀØ±T¥¬")
+            })
+          }),
+        "object" : adm/obj/simul_efun,
+        "file" : "adm/simul_efun/message.c",
+        "program" : "adm/obj/simul_efun.c",
+        "locals" : ({ /* sizeof() == 7 */
+            "¤k©Ê",
+            ({ /* sizeof() == 1 */
+              "¤k©Ê"
+            }),
+            "[1;37m¤Ñ¤s³·[0m",
+            ({ /* sizeof() == 1 */
+              "ÀØ±T¥¬"
+            }),
+            "[1;37m
+©p±N¤â¤¤ªºÃ@¤l¥æ¦Ü¥ª¤â¡A¹B°_¦Û³ĞµÛ¯«¯µµ´©Û
+		¡i[1;31mµ´±¡·À¹D[1;37m¡j¡I¡I
+¤@ªÑ¤£¥¢±j¤j¤S­İ¦³µL¤ñ´d¶Ëªº¯u®ğªï­±¦V$n®u±²¦Ó¥h¡A$n¦b±¹¤â¤£¤Îªº±¡ªp¤§¤U
+¨ºªÑ¯u®ğª½±µ©R¤¤$nªº¯İµÄ¡A$n¬ğµMÅÜªº³·¥Õ¡A¦ü¥G¬O¨ü¨ì¤Q¤ÀÄY­«ªº¤º¶Ë¡I",
+            "[1;37m
+$N±N¤â¤¤ªºÃ@¤l¥æ¦Ü¥ª¤â¡A¹B°_¦Û³ĞµÛ¯«¯µµ´©Û
+		¡i[1;31mµ´±¡·À¹D[1;37m¡j¡I¡I
+¤@ªÑ¤£¥¢±j¤j¤S­İ¦³µL¤ñ´d¶Ëªº¯u®ğªï­±¦V$n®u±²¦Ó¥h¡A$n¦b±¹¤â¤£¤Îªº±¡ªp¤§¤U
+¨ºªÑ¯u®ğª½±µ©R¤¤$nªº¯İµÄ¡A$n¬ğµMÅÜªº³·¥Õ¡A¦ü¥G¬O¨ü¨ì¤Q¤ÀÄY­«ªº¤º¶Ë¡I",
+            "[1;37m
+[1;37m¤Ñ¤s³·[0m±N¤â¤¤ªºÃ@¤l¥æ¦Ü¥ª¤â¡A¹B°_¦Û³ĞµÛ¯«¯µµ´©Û
+		¡i[1;31mµ´±¡·À¹D[1;37m¡j¡I¡I
+¤@ªÑ¤£¥¢±j¤j¤S­İ¦³µL¤ñ´d¶Ëªº¯u®ğªï­±¦V$n®u±²¦Ó¥h¡A$n¦b±¹¤â¤£¤Îªº±¡ªp¤§¤U
+¨ºªÑ¯u®ğª½±µ©R¤¤$nªº¯İµÄ¡A$n¬ğµMÅÜªº³·¥Õ¡A¦ü¥G¬O¨ü¨ì¤Q¤ÀÄY­«ªº¤º¶Ë¡I"
+          }),
+        "line" : 24,
+        "function" : "message_vision",
+      ]),
+      ([ /* sizeof() == 6 */
+        "arguments" : ({ /* sizeof() == 1 */
+            ({ /* sizeof() == 1 */
+              "¤k©Ê"
+            })
+          }),
+        "object" : adm/obj/simul_efun,
+        "file" : "adm/simul_efun/gender.c",
+        "program" : "adm/obj/simul_efun.c",
+        "line" : 5,
+        "function" : "gender_self",
+      ])
+    }),
+  "program" : "adm/obj/simul_efun.c",
+  "line" : 5,
+]),0)
+'   report_error' in '    adm/obj/master.c' ('      adm/obj/master') /adm/obj/master.c:280
+arguments were (([ /* sizeof() == 6 */
+  "object" : adm/obj/simul_efun,
+  "error" : "*Bad argument 1 to switch
+Expected: string Got: ({ /* sizeof() == 1 */
+  "¤k©Ê"
+}).
+",
+  "file" : "adm/simul_efun/gender.c",
+  "trace" : ({ /* sizeof() == 6 */
+      ([ /* sizeof() == 7 */
+        "arguments" : ({ }),
+        "object" : open/world1/kkeenn/love/npc/master_1#7384 ("[1;37m¤Ñ¤s³·[0m"),
+        "file" : "std/char/npc.c",
+        "program" : "std/char/npc.c",
+        "locals" : ({ /* sizeof() == 4 */
+            0,
+            0,
+            0,
+            0
+          }),
+        "line" : 227,
+        "function" : "heart_beat",
+      ]),
+      ([ /* sizeof() == 7 */
+        "arguments" : ({ }),
+        "object" : open/world1/kkeenn/love/npc/master_1#7384 ("[1;37m¤Ñ¤s³·[0m"),
+        "file" : "std/char/npc.c",
+        "program" : "std/char/npc.c",
+        "locals" : ({ /* sizeof() == 3 */
+            ({ /* sizeof() == 7 */
+              (: <code>() :),
+              (: <code>() :),
+              (: special :),
+              (: <code>() :),
+              (: <code>() :),
+              (: <code>() :),
+              (: <code>() :)
+            }),
+            40,
+            2
+          }),
+        "line" : 148,
+        "function" : "chat",
+      ]),
+      ([ /* sizeof() == 5 */
+        "object" : open/world1/kkeenn/love/npc/master_1#7384 ("[1;37m¤Ñ¤s³·[0m"),
+        "file" : "",
+        "program" : "<function>",
+        "line" : 0,
+        "function" : "<function>",
+      ]),
+      ([ /* sizeof() == 7 */
+        "arguments" : ({ }),
+        "object" : open/world1/kkeenn/love/npc/master_1#7384 ("[1;37m¤Ñ¤s³·[0m"),
+        "file" : "open/world1/kkeenn/love/npc/master_1.c",
+        "program" : "open/world1/kkeenn/love/npc/master_1.c",
+        "locals" : ({ /* sizeof() == 3 */
+            open/world1/kkeenn/love/npc/master_1#7384 ("[1;37m¤Ñ¤s³·[0m"),
+            ({ /* sizeof() == 1 */
+              obj/user#18008 ("ÀØ±T¥¬")
+            }),
+            484
+          }),
+        "line" : 355,
+        "function" : "special",
+      ]),
+      ([ /* sizeof() == 7 */
+        "arguments" : ({ /* sizeof() == 3 */
+            "[1;37m
+$N±N¤â¤¤ªºÃ@¤l¥æ¦Ü¥ª¤â¡A¹B°_¦Û³ĞµÛ¯«¯µµ´©Û
+		¡i[1;31mµ´±¡·À¹D[1;37m¡j¡I¡I
+¤@ªÑ¤£¥¢±j¤j¤S­İ¦³µL¤ñ´d¶Ëªº¯u®ğªï­±¦V$n®u±²¦Ó¥h¡A$n¦b±¹¤â¤£¤Îªº±¡ªp¤§¤U
+¨ºªÑ¯u®ğª½±µ©R¤¤$nªº¯İµÄ¡A$n¬ğµMÅÜªº³·¥Õ¡A¦ü¥G¬O¨ü¨ì¤Q¤ÀÄY­«ªº¤º¶Ë¡I",
+            open/world1/kkeenn/love/npc/master_1#7384 ("[1;37m¤Ñ¤s³·[0m"),
+            ({ /* sizeof() == 1 */
+              obj/user#18008 ("ÀØ±T¥¬")
+            })
+          }),
+        "object" : adm/obj/simul_efun,
+        "file" : "adm/simul_efun/message.c",
+        "program" : "adm/obj/simul_efun.c",
+        "locals" : ({ /* sizeof() == 7 */
+            "¤k©Ê",
+            ({ /* sizeof() == 1 */
+              "¤k©Ê"
+            }),
+            "[1;37m¤Ñ¤s³·[0m",
+            ({ /* sizeof() == 1 */
+              "ÀØ±T¥¬"
+            }),
+            "[1;37m
+©p±N¤â¤¤ªºÃ@¤l¥æ¦Ü¥ª¤â¡A¹B°_¦Û³ĞµÛ¯«¯µµ´©Û
+		¡i[1;31mµ´±¡·À¹D[1;37m¡j¡I¡I
+¤@ªÑ¤£¥¢±j¤j¤S­İ¦³µL¤ñ´d¶Ëªº¯u®ğªï­±¦V$n®u±²¦Ó¥h¡A$n¦b±¹¤â¤£¤Îªº±¡ªp¤§¤U
+¨ºªÑ¯u®ğª½±µ©R¤¤$nªº¯İµÄ¡A$n¬ğµMÅÜªº³·¥Õ¡A¦ü¥G¬O¨ü¨ì¤Q¤ÀÄY­«ªº¤º¶Ë¡I",
+            "[1;37m
+$N±N¤â¤¤ªºÃ@¤l¥æ¦Ü¥ª¤â¡A¹B°_¦Û³ĞµÛ¯«¯µµ´©Û
+		¡i[1;31mµ´±¡·À¹D[1;37m¡j¡I¡I
+¤@ªÑ¤£¥¢±j¤j¤S­İ¦³µL¤ñ´d¶Ëªº¯u®ğªï­±¦V$n®u±²¦Ó¥h¡A$n¦b±¹¤â¤£¤Îªº±¡ªp¤§¤U
+¨ºªÑ¯u®ğª½±µ©R¤¤$nªº¯İµÄ¡A$n¬ğµMÅÜªº³·¥Õ¡A¦ü¥G¬O¨ü¨ì¤Q¤ÀÄY­«ªº¤º¶Ë¡I",
+            "[1;37m
+[1;37m¤Ñ¤s³·[0m±N¤â¤¤ªºÃ@¤l¥æ¦Ü¥ª¤â¡A¹B°_¦Û³ĞµÛ¯«¯µµ´©Û
+		¡i[1;31mµ´±¡·À¹D[1;37m¡j¡I¡I
+¤@ªÑ¤£¥¢±j¤j¤S­İ¦³µL¤ñ´d¶Ëªº¯u®ğªï­±¦V$n®u±²¦Ó¥h¡A$n¦b±¹¤â¤£¤Îªº±¡ªp¤§¤U
+¨ºªÑ¯u®ğª½±µ©R¤¤$nªº¯İµÄ¡A$n¬ğµMÅÜªº³·¥Õ¡A¦ü¥G¬O¨ü¨ì¤Q¤ÀÄY­«ªº¤º¶Ë¡I"
+          }),
+        "line" : 24,
+        "function" : "message_vision",
+      ]),
+      ([ /* sizeof() == 6 */
+        "arguments" : ({ /* sizeof() == 1 */
+            ({ /* sizeof() == 1 */
+              "¤k©Ê"
+            })
+          }),
+        "object" : adm/obj/simul_efun,
+        "file" : "adm/simul_efun/gender.c",
+        "program" : "adm/obj/simul_efun.c",
+        "line" : 5,
+        "function" : "gender_self",
+      ])
+    }),
+  "program" : "adm/obj/simul_efun.c",
+  "line" : 5,
+]))
+'     do_channel' in 'adm/daemons/channeld.c' ('adm/daemons/channeld') /adm/daemons/channeld.c:262
+arguments were (adm/obj/master,"sys","adm/obj/simul_efun.c ²Ä 5 ¦æ¡Aª«¥ó¡G/adm/obj/simul_efun
+        *Bad argument 1 to switch
+Expected: string Got: ({ /* sizeof() == 1 */
+  "¤k©Ê"
+}).
+",0)
+locals were: 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heart beat in open/world1/kkeenn/love/npc/master_1#7384 turned off.
+get_user_data: read on fd 12
+System Error: get_user_data: read:Connection reset by peer
+get_user_data: read on fd 14
+System Error: get_user_data: read:Operation timed out
+Error in error handler: *Bad argument 1 to capitalize()
+Expected: string Got: 0.
+program: /adm/daemons/channeld.c, object: /adm/daemons/channeld, file: /adm/daemons/channeld.c:262
+'     get_passwd' in 'adm/daemons/logind.c' ('  adm/daemons/logind') /adm/daemons/logind.c:272
+arguments were ("741001",obj/login#27029)
+locals were: ".FrMHpXgfOdQo",0,0,"140.123.2.2",0,obj/user#27058 ("¥O¥ì")
+'    enter_world' in 'adm/daemons/logind.c' ('  adm/daemons/logind') /adm/daemons/logind.c:802
+arguments were (obj/login#27029,obj/user#27058 ("¥O¥ì"),0)
+locals were: 0,0,"/u/a/alickyuen/workroom","[0m  [34;1mùİùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùß[0m 
+[0m  [34;1mùø                         [35m¡¸[31m [32m¹Ú¤Û¤C°ì§G§iÄæ[33m [35m¡¸[31m                           [34mùø
+[0m  [34;1mùàùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùâ
+[0m  [34;1mùø[33m¡ó[37m ·s¤â½Ğ¥ı¿é¤J help rules ¥H¤Î help newbie ¬d¾\°ò¥»ª¾ÃÑ¡C[36m              [34mùø
+[34;1m  ùø[33m¡ó [37m¹Ú¤Û¤C°ì³s½u¦ì¸m¬° [33;5mdswww.adsldns.org 7000¡C[37;0m[31;1m(2003¦~12¤ë29¤é§ó·s)      [34;1mùø
+[0m[34;1m  ùø   [37m½Ğ¤j®a§Q¥Î¤W­zºô§}³s½u¡A¥HÁ×§K©¹«á IP §ïÅÜ«á¤£¯à³s½uªºª¬ªp¡C[34m         ùø
+[0m[34;1m  ùø[33m¡ó[34m [37m§Å®v¦³Åv­×§ï±zªºÀÉ®×¬Æ¦Ü§R°£¡A±z¥²¶·¦P·N¦¹Án©ú¡A¤è¥i¶i¤J¸Õª±¡C[34m       ùø
+[0m[34;1m  ùø                                                                        ùø
+[0m[34;1m  ùø  [37;45mùİùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùß[34;40m  ùø
+[0m[34;1m  ùø  [37;45mùø                           ­«­n¤½§i                             ùø[34;40m  ùø
+[0m[34;1m  ùø  [37;45mùø                                                                ùø[34;40m  ùø
+[0m[34;1m  ùø  [37;45mùø  ½Ğ¦U¦ì©¹«á¥H [31mdsmud.adsldns.org[37m ¨Ó³s½u, ¤Å¥H IP ¨Ó³s½u,        ùø[34;40m  ùø
+[0m[34;1m  ùø  [37;45mùø  ¦]¬°³Ìªñ´N·|·h¥D¾÷, IP ¥i¯à·|ÀH®É§ó§ï ,·s¥D¾÷ªº IP            ùø[34;40m  ùø
+[0m[34;1m  ùø  [37;45mùø  ¹Ú¤Û¤C°ì±N¤£¤©¤½§G. ½Ğ¤j®aª`·N.¦Ü©ó³s½uPort±N                 ùø[34;40m  ùø
+[0m[34;1m  ùø  [37;45mùø  ¥Ñ2002¦~6¤ëXx¤é°_§ï¦Ü [31m7000[37m, ½Ğ¤j®aª`·N...                     ùø[34;40m  ùø
+[0m[34;1m  ùø  [37;45mùø  ­Y¦³¥ô¦óIP/¥D¾÷Âà´«¤Î¨ä¥L¤½§i                                 ùø[34;40m  ùø
+[0m[34;1m  ùø  [37;45mùø  ±N·|¦b DS ºô­¶ [33mhttp://fly.to/dsmud[37m ¤º¤½§G                     ùø[34;40m  ùø
+[0m[34;1m  ùø  [37;45mùø                                               Shengsan@DS      ùø[34;40m  ùø
+[0m[34;1m  ùø  [37;45mùãùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùå[34;40m  ùø
+[0m[34;1m  ùø                                                                        ùø
+  ùø[33m¡ó [37m¥H¤U¦a°Ï°â½æ¤§¸Ë³Æ§ï¦¨SaveEQ¡G¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@       [34mùø
+  ùø¡@ [37m¡Ğ[33m±¡«°¦ÀªZ¾¹©± - ªZ¾¹°Ó¤H(Weapon seller)¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@       [34mùø
+  ùø¡@ [37m¡Ğ[33mÂ´¥¬¯¼¡@¡@¡@ - ¡u¯¼Â´§{¡v¼B¹t¤å(Liu chen wen) ¡@¡@¡@¡@¡@¡@¡@       [34mùø
+  ùø¡@ [37m¡Ğ[33m¤Ñ«°¥´ÅKçE¡@ - ¥´ÅK¦K(Smith)¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@ ¡@      [34mùø
+  ùø¡@ ¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@ ¡@      ùø
+[0m  [34;1mùãùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùå[0m
+[0m
+[0m  [34;1mùİùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùß
+[0m  [34;1mùø                            [31m¡¼ [33m§Å®v§G§iÄæ [31m¡¼                            [34mùø
+[0m  [34;1mùàùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùâ
+[0m  [34;1mùø[36m¡ó [37m¹Ú¤Û¤C°ì¨ú®ø²{¥N¤Î¥¼¨Ó®ÉªÅ¡A¬G½Ğ¥ş¤Oµo®i¥j¥N®ÉªÅ¡C[34m                   ùø
+[0m  [34;1mùø                                                 [0mShengsan@DS 2001/08/16[34;1m ùø
+[0m  [34;1mùø                                                                        ùø
+[0m  [34;1mùø[36m¡ó [31m[ª`·N][0m [33;1m§Å®v(appr¥H¤U)¤Å»Pª±®a¦³¤¬°Ê¡C[37m                                [34mùø[0m 
+[0m  [34;1mùø   [37mÅ²©ó¤§«e§@¹ú±¡ªp¡A½Ğ apprentice(§t) ¥H¤Uªº§Å®vÁ×§K»Pª±®a²£[33m           [34mùø
+[0m[34;1m  ùø   [37m¥Í¤¬°Ê(¥]¬A²á¤Ñ)¡A·í appr ½Ğ±N°Ï°ìªº¼g§@·d²M·¡¡A¥i¥H°Ñ¦Ò[0m             [34;1mùø 
+[0m[34;1m  ùø   [37m/doc/wiz/ ¤U­±ªº¸ê®Æ¡Ahelp efuns ¥i¥H°Ñ¦Ò©Ò¦³ªº(¤j·§[0m)                [34;1mùø 
+[0m[34;1m  ùø   [37mexternal efuns¡A­Y¦³¹HªÌ¡A­°¯Å¤@¶g¡C[0m                                 [34;1mùø[0m 
+[0m  [34;1mùø                                                [0mCominging@DS 2001/10/10[34;1m ùø 
+[0m[34;1m  ùø                                                                        ùø[0m 
+[0m  [34;1mùø[36m¡ó [37m¤w¨ú®ø save eq ¨î, ¥ı¼È®É§ï¦s¦¨ award ­È¡C   [0mCominging@DS 2001/10/01 [34;1mùø[0m 
+[0m  [34;1mùø                                                                        ùø[0m 
+[0m  [34;1mùø[36m¡ó [37m½Ğ¨ú¦X²zªºÀÉ¦W¡C§_«h±N§R°£ÀÉ®×¡C              [0mShengsan@DS 2001/05/19 [34;1mùø[0m 
+[0m  [34;1mùø                                                                        ùø[0m 
+[0m  [34;1mùø[36m¡ó [37mFtp IP : [33m140.134.36.89 <port 7002>                                   [34mùø[0m 
+[0m  [34;1mùãùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùå[0m",0,19991107
+'          CATCH' in 'adm/daemons/logind.c' ('  adm/daemons/logind') /adm/daemons/logind.c:802
+'         create' in 'u/a/alickyuen/workroom.c' ('u/a/alickyuen/workroom') /u/a/alickyuen/workroom.c:37
+arguments were ()
+'          setup' in '          std/room.c' ('u/a/alickyuen/workroom') /std/room.c:44
+arguments were ()
+'          reset' in '          std/room.c' ('u/a/alickyuen/workroom') /std/room.c:32
+arguments were ()
+'     reset_room' in ' adm/daemons/roomd.c' ('   adm/daemons/roomd') /adm/daemons/roomd.c:320
+arguments were (u/a/alickyuen/workroom)
+locals were: ([ /* sizeof() == 2 */
+  "/u/s/shengsan/npc/bluemaster" : 1,
+  "/u/a/alickyuen/killerjob" : 1,
+]),([ /* sizeof() == 1 */
+  "/u/s/shengsan/npc/bluemaster" : 0,
+]),({ }),0,({ /* sizeof() == 2 */
+  "/u/s/shengsan/npc/bluemaster",
+  "/u/a/alickyuen/killerjob"
+}),0,0,0,0,0
+'  error_handler' in '    adm/obj/master.c' ('      adm/obj/master') /adm/obj/master.c:292
+arguments were (([ /* sizeof() == 6 */
+  "object" : adm/daemons/roomd,
+  "error" : "*/std/room.c can't load object : /u/s/shengsan/npc/bluemaster
+",
+  "file" : "adm/daemons/roomd.c",
+  "trace" : ({ /* sizeof() == 7 */
+      ([ /* sizeof() == 7 */
+        "locals" : ({ /* sizeof() == 6 */
+            ".FrMHpXgfOdQo",
+            0,
+            0,
+            "140.123.2.2",
+            0,
+            obj/user#27058 ("¥O¥ì")
+          }),
+        "object" : adm/daemons/logind,
+        "file" : "adm/daemons/logind.c",
+        "program" : "adm/daemons/logind.c",
+        "arguments" : ({ /* sizeof() == 2 */
+            "741001",
+            obj/login#27029
+          }),
+        "line" : 272,
+        "function" : "get_passwd",
+      ]),
+      ([ /* sizeof() == 7 */
+        "locals" : ({ /* sizeof() == 6 */
+            0,
+            0,
+            "/u/a/alickyuen/workroom",
+            "[0m  [34;1mùİùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùß[0m 
+[0m  [34;1mùø                         [35m¡¸[31m [32m¹Ú¤Û¤C°ì§G§iÄæ[33m [35m¡¸[31m                           [34mùø
+[0m  [34;1mùàùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùâ
+[0m  [34;1mùø[33m¡ó[37m ·s¤â½Ğ¥ı¿é¤J help rules ¥H¤Î help newbie ¬d¾\°ò¥»ª¾ÃÑ¡C[36m              [34mùø
+[34;1m  ùø[33m¡ó [37m¹Ú¤Û¤C°ì³s½u¦ì¸m¬° [33;5mdswww.adsldns.org 7000¡C[37;0m[31;1m(2003¦~12¤ë29¤é§ó·s)      [34;1mùø
+[0m[34;1m  ùø   [37m½Ğ¤j®a§Q¥Î¤W­zºô§}³s½u¡A¥HÁ×§K©¹«á IP §ïÅÜ«á¤£¯à³s½uªºª¬ªp¡C[34m         ùø
+[0m[34;1m  ùø[33m¡ó[34m [37m§Å®v¦³Åv­×§ï±zªºÀÉ®×¬Æ¦Ü§R°£¡A±z¥²¶·¦P·N¦¹Án©ú¡A¤è¥i¶i¤J¸Õª±¡C[34m       ùø
+[0m[34;1m  ùø                                                                        ùø
+[0m[34;1m  ùø  [37;45mùİùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùß[34;40m  ùø
+[0m[34;1m  ùø  [37;45mùø                           ­«­n¤½§i                             ùø[34;40m  ùø
+[0m[34;1m  ùø  [37;45mùø                                                                ùø[34;40m  ùø
+[0m[34;1m  ùø  [37;45mùø  ½Ğ¦U¦ì©¹«á¥H [31mdsmud.adsldns.org[37m ¨Ó³s½u, ¤Å¥H IP ¨Ó³s½u,        ùø[34;40m  ùø
+[0m[34;1m  ùø  [37;45mùø  ¦]¬°³Ìªñ´N·|·h¥D¾÷, IP ¥i¯à·|ÀH®É§ó§ï ,·s¥D¾÷ªº IP            ùø[34;40m  ùø
+[0m[34;1m  ùø  [37;45mùø  ¹Ú¤Û¤C°ì±N¤£¤©¤½§G. ½Ğ¤j®aª`·N.¦Ü©ó³s½uPort±N                 ùø[34;40m  ùø
+[0m[34;1m  ùø  [37;45mùø  ¥Ñ2002¦~6¤ëXx¤é°_§ï¦Ü [31m7000[37m, ½Ğ¤j®aª`·N...                     ùø[34;40m  ùø
+[0m[34;1m  ùø  [37;45mùø  ­Y¦³¥ô¦óIP/¥D¾÷Âà´«¤Î¨ä¥L¤½§i                                 ùø[34;40m  ùø
+[0m[34;1m  ùø  [37;45mùø  ±N·|¦b DS ºô­¶ [33mhttp://fly.to/dsmud[37m ¤º¤½§G                     ùø[34;40m  ùø
+[0m[34;1m  ùø  [37;45mùø                                               Shengsan@DS      ùø[34;40m  ùø
+[0m[34;1m  ùø  [37;45mùãùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùå[34;40m  ùø
+[0m[34;1m  ùø                                                                        ùø
+  ùø[33m¡ó [37m¥H¤U¦a°Ï°â½æ¤§¸Ë³Æ§ï¦¨SaveEQ¡G¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@       [34mùø
+  ùø¡@ [37m¡Ğ[33m±¡«°¦ÀªZ¾¹©± - ªZ¾¹°Ó¤H(Weapon seller)¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@       [34mùø
+  ùø¡@ [37m¡Ğ[33mÂ´¥¬¯¼¡@¡@¡@ - ¡u¯¼Â´§{¡v¼B¹t¤å(Liu chen wen) ¡@¡@¡@¡@¡@¡@¡@       [34mùø
+  ùø¡@ [37m¡Ğ[33m¤Ñ«°¥´ÅKçE¡@ - ¥´ÅK¦K(Smith)¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@ ¡@      [34mùø
+  ùø¡@ ¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@ ¡@      ùø
+[0m  [34;1mùãùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùå[0m
+[0m
+[0m  [34;1mùİùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùß
+[0m  [34;1mùø                            [31m¡¼ [33m§Å®v§G§iÄæ [31m¡¼                            [34mùø
+[0m  [34;1mùàùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùâ
+[0m  [34;1mùø[36m¡ó [37m¹Ú¤Û¤C°ì¨ú®ø²{¥N¤Î¥¼¨Ó®ÉªÅ¡A¬G½Ğ¥ş¤Oµo®i¥j¥N®ÉªÅ¡C[34m                   ùø
+[0m  [34;1mùø                                                 [0mShengsan@DS 2001/08/16[34;1m ùø
+[0m  [34;1mùø                                                                        ùø
+[0m  [34;1mùø[36m¡ó [31m[ª`·N][0m [33;1m§Å®v(appr¥H¤U)¤Å»Pª±®a¦³¤¬°Ê¡C[37m                                [34mùø[0m 
+[0m  [34;1mùø   [37mÅ²©ó¤§«e§@¹ú±¡ªp¡A½Ğ apprentice(§t) ¥H¤Uªº§Å®vÁ×§K»Pª±®a²£[33m           [34mùø
+[0m[34;1m  ùø   [37m¥Í¤¬°Ê(¥]¬A²á¤Ñ)¡A·í appr ½Ğ±N°Ï°ìªº¼g§@·d²M·¡¡A¥i¥H°Ñ¦Ò[0m             [34;1mùø 
+[0m[34;1m  ùø   [37m/doc/wiz/ ¤U­±ªº¸ê®Æ¡Ahelp efuns ¥i¥H°Ñ¦Ò©Ò¦³ªº(¤j·§[0m)                [34;1mùø 
+[0m[34;1m  ùø   [37mexternal efuns¡A­Y¦³¹HªÌ¡A­°¯Å¤@¶g¡C[0m                                 [34;1mùø[0m 
+[0m  [34;1mùø                                                [0mCominging@DS 2001/10/10[34;1m ùø 
+[0m[34;1m  ùø                                                                        ùø[0m 
+[0m  [34;1mùø[36m¡ó [37m¤w¨ú®ø save eq ¨î, ¥ı¼È®É§ï¦s¦¨ award ­È¡C   [0mCominging@DS 2001/10/01 [34;1mùø[0m 
+[0m  [34;1mùø                                                                        ùø[0m 
+[0m  [34;1mùø[36m¡ó [37m½Ğ¨ú¦X²zªºÀÉ¦W¡C§_«h±N§R°£ÀÉ®×¡C              [0mShengsan@DS 2001/05/19 [34;1mùø[0m 
+[0m  [34;1mùø                                                                        ùø[0m 
+[0m  [34;1mùø[36m¡ó [37mFtp IP : [33m140.134.36.89 <port 7002>                                   [34mùø[0m 
+[0m  [34;1mùãùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùå[0m",
+            0,
+            19991107
+          }),
+        "object" : adm/daemons/logind,
+        "file" : "adm/daemons/logind.c",
+        "program" : "adm/daemons/logind.c",
+        "arguments" : ({ /* sizeof() == 3 */
+            obj/login#27029,
+            obj/user#27058 ("¥O¥ì"),
+            0
+          }),
+        "line" : 802,
+        "function" : "enter_world",
+      ]),
+      ([ /* sizeof() == 5 */
+        "object" : adm/daemons/logind,
+        "file" : "adm/daemons/logind.c",
+        "program" : "adm/daemons/logind.c",
+        "line" : 802,
+        "function" : "CATCH",
+      ]),
+      ([ /* sizeof() == 6 */
+        "object" : u/a/alickyuen/workroom,
+        "file" : "u/a/alickyuen/workroom.c",
+        "program" : "u/a/alickyuen/workroom.c",
+        "arguments" : ({ }),
+        "line" : 37,
+        "function" : "create",
+      ]),
+      ([ /* sizeof() == 6 */
+        "object" : u/a/alickyuen/workroom,
+        "file" : "std/room.c",
+        "program" : "std/room.c",
+        "arguments" : ({ }),
+        "line" : 44,
+        "function" : "setup",
+      ]),
+      ([ /* sizeof() == 6 */
+        "object" : u/a/alickyuen/workroom,
+        "file" : "std/room.c",
+        "program" : "std/room.c",
+        "arguments" : ({ }),
+        "line" : 32,
+        "function" : "reset",
+      ]),
+      ([ /* sizeof() == 7 */
+        "locals" : ({ /* sizeof() == 10 */
+            ([ /* sizeof() == 2 */
+              "/u/s/shengsan/npc/bluemaster" : 1,
+              "/u/a/alickyuen/killerjob" : 1,
+            ]),
+            ([ /* sizeof() == 1 */
+              "/u/s/shengsan/npc/bluemaster" : 0,
+            ]),
+            ({ }),
+            0,
+            ({ /* sizeof() == 2 */
+              "/u/s/shengsan/npc/bluemaster",
+              "/u/a/alickyuen/killerjob"
+            }),
+            0,
+            0,
+            0,
+            0,
+            0
+          }),
+        "object" : adm/daemons/roomd,
+        "file" : "adm/daemons/roomd.c",
+        "program" : "adm/daemons/roomd.c",
+        "arguments" : ({ /* sizeof() == 1 */
+            u/a/alickyuen/workroom
+          }),
+        "line" : 320,
+        "function" : "reset_room",
+      ])
+    }),
+  "program" : "adm/daemons/roomd.c",
+  "line" : 320,
+]),1)
+'   report_error' in '    adm/obj/master.c' ('      adm/obj/master') /adm/obj/master.c:280
+arguments were (([ /* sizeof() == 6 */
+  "object" : adm/daemons/roomd,
+  "error" : "*/std/room.c can't load object : /u/s/shengsan/npc/bluemaster
+",
+  "file" : "adm/daemons/roomd.c",
+  "trace" : ({ /* sizeof() == 7 */
+      ([ /* sizeof() == 7 */
+        "locals" : ({ /* sizeof() == 6 */
+            ".FrMHpXgfOdQo",
+            0,
+            0,
+            "140.123.2.2",
+            0,
+            obj/user#27058 ("¥O¥ì")
+          }),
+        "object" : adm/daemons/logind,
+        "file" : "adm/daemons/logind.c",
+        "program" : "adm/daemons/logind.c",
+        "arguments" : ({ /* sizeof() == 2 */
+            "741001",
+            obj/login#27029
+          }),
+        "line" : 272,
+        "function" : "get_passwd",
+      ]),
+      ([ /* sizeof() == 7 */
+        "locals" : ({ /* sizeof() == 6 */
+            0,
+            0,
+            "/u/a/alickyuen/workroom",
+            "[0m  [34;1mùİùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùß[0m 
+[0m  [34;1mùø                         [35m¡¸[31m [32m¹Ú¤Û¤C°ì§G§iÄæ[33m [35m¡¸[31m                           [34mùø
+[0m  [34;1mùàùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùâ
+[0m  [34;1mùø[33m¡ó[37m ·s¤â½Ğ¥ı¿é¤J help rules ¥H¤Î help newbie ¬d¾\°ò¥»ª¾ÃÑ¡C[36m              [34mùø
+[34;1m  ùø[33m¡ó [37m¹Ú¤Û¤C°ì³s½u¦ì¸m¬° [33;5mdswww.adsldns.org 7000¡C[37;0m[31;1m(2003¦~12¤ë29¤é§ó·s)      [34;1mùø
+[0m[34;1m  ùø   [37m½Ğ¤j®a§Q¥Î¤W­zºô§}³s½u¡A¥HÁ×§K©¹«á IP §ïÅÜ«á¤£¯à³s½uªºª¬ªp¡C[34m         ùø
+[0m[34;1m  ùø[33m¡ó[34m [37m§Å®v¦³Åv­×§ï±zªºÀÉ®×¬Æ¦Ü§R°£¡A±z¥²¶·¦P·N¦¹Án©ú¡A¤è¥i¶i¤J¸Õª±¡C[34m       ùø
+[0m[34;1m  ùø                                                                        ùø
+[0m[34;1m  ùø  [37;45mùİùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùß[34;40m  ùø
+[0m[34;1m  ùø  [37;45mùø                           ­«­n¤½§i                             ùø[34;40m  ùø
+[0m[34;1m  ùø  [37;45mùø                                                                ùø[34;40m  ùø
+[0m[34;1m  ùø  [37;45mùø  ½Ğ¦U¦ì©¹«á¥H [31mdsmud.adsldns.org[37m ¨Ó³s½u, ¤Å¥H IP ¨Ó³s½u,        ùø[34;40m  ùø
+[0m[34;1m  ùø  [37;45mùø  ¦]¬°³Ìªñ´N·|·h¥D¾÷, IP ¥i¯à·|ÀH®É§ó§ï ,·s¥D¾÷ªº IP            ùø[34;40m  ùø
+[0m[34;1m  ùø  [37;45mùø  ¹Ú¤Û¤C°ì±N¤£¤©¤½§G. ½Ğ¤j®aª`·N.¦Ü©ó³s½uPort±N                 ùø[34;40m  ùø
+[0m[34;1m  ùø  [37;45mùø  ¥Ñ2002¦~6¤ëXx¤é°_§ï¦Ü [31m7000[37m, ½Ğ¤j®aª`·N...                     ùø[34;40m  ùø
+[0m[34;1m  ùø  [37;45mùø  ­Y¦³¥ô¦óIP/¥D¾÷Âà´«¤Î¨ä¥L¤½§i                                 ùø[34;40m  ùø
+[0m[34;1m  ùø  [37;45mùø  ±N·|¦b DS ºô­¶ [33mhttp://fly.to/dsmud[37m ¤º¤½§G                     ùø[34;40m  ùø
+[0m[34;1m  ùø  [37;45mùø                                               Shengsan@DS      ùø[34;40m  ùø
+[0m[34;1m  ùø  [37;45mùãùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùå[34;40m  ùø
+[0m[34;1m  ùø                                                                        ùø
+  ùø[33m¡ó [37m¥H¤U¦a°Ï°â½æ¤§¸Ë³Æ§ï¦¨SaveEQ¡G¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@       [34mùø
+  ùø¡@ [37m¡Ğ[33m±¡«°¦ÀªZ¾¹©± - ªZ¾¹°Ó¤H(Weapon seller)¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@       [34mùø
+  ùø¡@ [37m¡Ğ[33mÂ´¥¬¯¼¡@¡@¡@ - ¡u¯¼Â´§{¡v¼B¹t¤å(Liu chen wen) ¡@¡@¡@¡@¡@¡@¡@       [34mùø
+  ùø¡@ [37m¡Ğ[33m¤Ñ«°¥´ÅKçE¡@ - ¥´ÅK¦K(Smith)¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@ ¡@      [34mùø
+  ùø¡@ ¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@ ¡@      ùø
+[0m  [34;1mùãùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùå[0m
+[0m
+[0m  [34;1mùİùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùß
+[0m  [34;1mùø                            [31m¡¼ [33m§Å®v§G§iÄæ [31m¡¼                            [34mùø
+[0m  [34;1mùàùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùâ
+[0m  [34;1mùø[36m¡ó [37m¹Ú¤Û¤C°ì¨ú®ø²{¥N¤Î¥¼¨Ó®ÉªÅ¡A¬G½Ğ¥ş¤Oµo®i¥j¥N®ÉªÅ¡C[34m                   ùø
+[0m  [34;1mùø                                                 [0mShengsan@DS 2001/08/16[34;1m ùø
+[0m  [34;1mùø                                                                        ùø
+[0m  [34;1mùø[36m¡ó [31m[ª`·N][0m [33;1m§Å®v(appr¥H¤U)¤Å»Pª±®a¦³¤¬°Ê¡C[37m                                [34mùø[0m 
+[0m  [34;1mùø   [37mÅ²©ó¤§«e§@¹ú±¡ªp¡A½Ğ apprentice(§t) ¥H¤Uªº§Å®vÁ×§K»Pª±®a²£[33m           [34mùø
+[0m[34;1m  ùø   [37m¥Í¤¬°Ê(¥]¬A²á¤Ñ)¡A·í appr ½Ğ±N°Ï°ìªº¼g§@·d²M·¡¡A¥i¥H°Ñ¦Ò[0m             [34;1mùø 
+[0m[34;1m  ùø   [37m/doc/wiz/ ¤U­±ªº¸ê®Æ¡Ahelp efuns ¥i¥H°Ñ¦Ò©Ò¦³ªº(¤j·§[0m)                [34;1mùø 
+[0m[34;1m  ùø   [37mexternal efuns¡A­Y¦³¹HªÌ¡A­°¯Å¤@¶g¡C[0m                                 [34;1mùø[0m 
+[0m  [34;1mùø                                                [0mCominging@DS 2001/10/10[34;1m ùø 
+[0m[34;1m  ùø                                                                        ùø[0m 
+[0m  [34;1mùø[36m¡ó [37m¤w¨ú®ø save eq ¨î, ¥ı¼È®É§ï¦s¦¨ award ­È¡C   [0mCominging@DS 2001/10/01 [34;1mùø[0m 
+[0m  [34;1mùø                                                                        ùø[0m 
+[0m  [34;1mùø[36m¡ó [37m½Ğ¨ú¦X²zªºÀÉ¦W¡C§_«h±N§R°£ÀÉ®×¡C              [0mShengsan@DS 2001/05/19 [34;1mùø[0m 
+[0m  [34;1mùø                                                                        ùø[0m 
+[0m  [34;1mùø[36m¡ó [37mFtp IP : [33m140.134.36.89 <port 7002>                                   [34mùø[0m 
+[0m  [34;1mùãùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùùå[0m",
+            0,
+            19991107
+          }),
+        "object" : adm/daemons/logind,
+        "file" : "adm/daemons/logind.c",
+        "program" : "adm/daemons/logind.c",
+        "arguments" : ({ /* sizeof() == 3 */
+            obj/login#27029,
+            obj/user#27058 ("¥O¥ì"),
+            0
+          }),
+        "line" : 802,
+        "function" : "enter_world",
+      ]),
+      ([ /* sizeof() == 5 */
+        "object" : adm/daemons/logind,
+        "file" : "adm/daemons/logind.c",
+        "program" : "adm/daemons/logind.c",
+        "line" : 802,
+        "function" : "CATCH",
+      ]),
+      ([ /* sizeof() == 6 */
+        "object" : u/a/alickyuen/workroom,
+        "file" : "u/a/alickyuen/workroom.c",
+        "program" : "u/a/alickyuen/workroom.c",
+        "arguments" : ({ }),
+        "line" : 37,
+        "function" : "create",
+      ]),
+      ([ /* sizeof() == 6 */
+        "object" : u/a/alickyuen/workroom,
+        "file" : "std/room.c",
+        "program" : "std/room.c",
+        "arguments" : ({ }),
+        "line" : 44,
+        "function" : "setup",
+      ]),
+      ([ /* sizeof() == 6 */
+        "object" : u/a/alickyuen/workroom,
+        "file" : "std/room.c",
+        "program" : "std/room.c",
+        "arguments" : ({ }),
+        "line" : 32,
+        "function" : "reset",
+      ]),
+      ([ /* sizeof() == 7 */
+        "locals" : ({ /* sizeof() == 10 */
+            ([ /* sizeof() == 2 */
+              "/u/s/shengsan/npc/bluemaster" : 1,
+              "/u/a/alickyuen/killerjob" : 1,
+            ]),
+            ([ /* sizeof() == 1 */
+              "/u/s/shengsan/npc/bluemaster" : 0,
+            ]),
+            ({ }),
+            0,
+            ({ /* sizeof() == 2 */
+              "/u/s/shengsan/npc/bluemaster",
+              "/u/a/alickyuen/killerjob"
+            }),
+            0,
+            0,
+            0,
+            0,
+            0
+          }),
+        "object" : adm/daemons/roomd,
+        "file" : "adm/daemons/roomd.c",
+        "program" : "adm/daemons/roomd.c",
+        "arguments" : ({ /* sizeof() == 1 */
+            u/a/alickyuen/workroom
+          }),
+        "line" : 320,
+        "function" : "reset_room",
+      ])
+    }),
+  "program" : "adm/daemons/roomd.c",
+  "line" : 320,
+]))
+'     do_channel' in 'adm/daemons/channeld.c' ('adm/daemons/channeld') /adm/daemons/channeld.c:262
+arguments were (adm/obj/master,"sys","adm/daemons/roomd.c ²Ä 320 ¦æ¡Aª«¥ó¡G/adm/daemons/roomd
+        */std/room.c can't load object : /u/s/shengsan/npc/bluemaster
+",0)
+locals were: 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+get_user_data: read on fd 12
+System Error: get_user_data: read:Connection reset by peer

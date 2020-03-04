@@ -1,0 +1,75 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=bg2312">
+   <META NAME="Author" CONTENT="Spock">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.01 [en] (Win95; I) [Netscape]">
+   <TITLE>MudOS v21c2 把σゅン - efuns - strings - replace_string</TITLE>
+</HEAD>
+<BODY TEXT="#CCFFFF" BGCOLOR="#000000" LINK="#33FF33" VLINK="#FF0000" ALINK="#33CCFF" BACKGROUND="../../../image/ff/fftitleback.jpg" NOSAVE>
+
+<CENTER><FONT COLOR="#FF99FF"><FONT SIZE=+3>replace_string(3) MudOS v21c2
+(5 Sep 1994)</FONT></FONT></CENTER>
+
+<HR WIDTH="100%">
+<BR><FONT COLOR="#FFFFCC">嘿:</FONT>
+<UL> replace_string() - 蠢传才﹃い才兵ン.</UL>
+<FONT COLOR="#FFFFCC">粂猭:</FONT>
+<UL> string replace_string( str, pattern, replace );
+<BR> string replace_string( str, pattern, replace, max );
+<BR> string replace_string( str, pattern, replace, first, last );
+
+<P> string str, pattern replace;
+<BR> int max, first, last;
+
+<P> 才﹃ replace_string( str, pattern, replace );
+<BR> 才﹃ replace_string( str, pattern, replace, max );
+<BR> 才﹃ replace_string( str, pattern, replace, first, last );
+
+<P> 才﹃ str, pattern replace;
+<BR> 俱计 max, first, last;</UL>
+<FONT COLOR="#FFFFCC">ノ猭:</FONT>
+<UL> replace_string() 盢 str い┮Τ才兵ン pattern 蠢传Θ﹚
+replace. 狦 pattern ⊿Τず甧 (箂) , 碞ㄓ str . 狦才﹃禬筁﹚竡程才﹃,
+玥 undefindp()  1, stringp()  0 .
+
+<P> replace_string() ﹚ replace 才﹃, ノㄓ埃才﹃い疭﹚.
+羭ㄒㄓ弧: <FONT COLOR="#99FF99">replace_string(" 1 2 3 ", " ", "")</FONT>
+穦 "123". replace_string() 磅︽硉ゑノ explode() ㎝ implode() е.
+
+<P> 材㎝材き把计Τ礚 (硂琌甧玡セ). 硂ㄢ把计Τノ:
+
+<P> 材把计 first:
+
+<P> ﹚才﹃程蠢传碭Ω (眖 1 秨﹍衡). 狦硂柑﹚ 0, 碞讽琌场常传.
+┮ r<FONT COLOR="#99FF99">eplace_string("xyxx", "x", "z", 2)</FONT> 穦
+"zyzx".
+
+<P> 材き把计 last:
+
+<P> 材き把计才兵ン絛瞅:
+<BR> first &lt; 1: 眖繷秨﹍场蠢传.
+<BR> last == 0 ┪ last > 程蔼才计(max_matches): 场蠢传程.
+<BR> first > last: Чぃэ跑.
+<UL> 羭ㄒ:
+<UL><FONT COLOR="#99FF99">replace_string("xyxxy", "x", "z", 2, 3) 
+"xyzzy".</FONT></UL>
+</UL>
+</UL>
+<FONT COLOR="#FFFFCC">把σ:</FONT>
+<UL> <A HREF="sscanf.html">sscanf(3)</A>, <A HREF="explode.html">explode(3)</A>,
+<A HREF="strsrch.html">strsrch(3)</A></UL>
+<FONT COLOR="#FFFFCC">:</FONT>
+<UL> Zak@TMI-2 级糶兵ン场.</UL>
+<FONT COLOR="#FFFFCC">陆亩:</FONT>
+<UL> Spock @ FF 97.Jun.2. (printed 3/16/95)</UL>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+<CENTER><A HREF="../strings.html"></A></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+</BODY>
+</HTML>

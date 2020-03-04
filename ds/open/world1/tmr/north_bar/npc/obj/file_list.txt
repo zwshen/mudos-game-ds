@@ -1,0 +1,5 @@
+¥Ø¿ý¡R/open/world1/tmr/north_bar/npc/obj/
+dinosaur-.c         ®£Às¥Ö              dinosaur-bone.c     ®£Às°©            
+dinosaur-chine.c    ®£Às¯á°©            dinosaur-skin.c     ®£Às¥Ö            
+gold-bag.c          ª÷µ·³U              jude.c              ¥É                
+mark.c              ¦L°O                

@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions ([])
+dbase (["heart_beat_rate":6,"default_actions":,"DS_DATA_VERSION":19991107,"addition_shield":10,"actions":,"addition_damage":10,"mp":66,"board_last_read":(["boo-lin_b":1163611422,"magic-card_b":1057657067,"club_god_1":1190562979,"tmr_hotel_b":1222274632,"anoounce_b":1191065808,]),"friend":({"watermoon",}),"addition_armor":10,"guild_gifts":({5,5,5,5,}),"mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"channels":({"chat","rumor","tchat","ft","god",}),"unit":"位","max_ap":100,"newbie":1,"exp":1691,"dex":2,"int":2,"cure_count":18,"heart_modify":0,"con":2,"level":1,"last_location":"/open/world1/tmr/area/street4","combat_exp":1,"birthday":1191589488,"supply_point":60,"ap":100,"talk_point":8,"evil":20,"attitude":"peaceful","war_score":3,"age":17,"max_mp":66,"max_hp":84,"race":"evil","bank":(["past":8,]),"Merits":(["sou":0,"bio":0,"wit":0,"bar":0,"tec":0,]),"MKS":9,"id":"aokex","mud_age":316969,"startroom":"/open/world1/tmr/area/hotel","wound":(["left_arm":0,"body":0,"right_arm":0,"left_leg":0,"head":0,"right_leg":0,]),"gender":"男性","hp":84,"str":2,"volume":7,"name":"奧克",])
+skills (["parry":0,"combat":4,"unarmed":3,"strong-body":3,"dodge":1,])
+learned (["parry":1,"combat":7,"unarmed":15,"strong-body":13,"dodge":2,])
+items ({})
+autoload ({"/open/always/god_mark",})
+toDoList ([])
+solved ({})

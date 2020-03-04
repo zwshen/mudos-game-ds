@@ -1,0 +1,7 @@
+#/obj/user.c
+conditions ([])
+dbase (["board_last_read":(["sky_secret_b":1099657435,"ming_saintyue_b":1095506831,"sky_room25_b":1097357316,"sky_room05_b":1090072915,"tmr_hotel_b":1098572063,"ming_club_b":1095506717,"sky_room35_b":1099493752,"anoounce_b":1092940987,]),"max_ap":60,"mp":60,"supply_point":60,"mud_age":3112,"ap":60,"heart_modify":0,"last_location":"/open/world1/acme/area/sky/room15","talk_point":8,"DS_DATA_VERSION":19991107,"age":14,"gender":"¨k©Ê","actions":,"cure_count":8,"name":"§¾§¾","id":"rebort","race":"human","channels":({"chat","rumor","tchat","sky","sam",}),"Merits":(["sou":0,"bio":0,"bar":0,"tec":0,"wit":0,]),"level":1,"addition_shield":10,"hp":80,"birthday":1096335404,"addition_armor":10,"heart_beat_rate":6,"exp":777,"dex":2,"int":2,"startroom":"/open/world1/tmr/area/hotel","con":2,"str":2,"newbie":1,"addition_damage":10,"max_hp":80,"wound":(["body":0,"head":0,"right_arm":0,"left_arm":0,"left_leg":0,"right_leg":0,]),"attitude":"peaceful","evil":-1,"volume":7,"max_mp":60,"unit":"¦ì","default_actions":,"guild_gifts":({5,5,5,5,}),])
+skills (["combat":1,"dodge":0,])
+learned (["combat":7,"dodge":2,])
+alias (["mm":"do members","a":"do e,n,n,n,w,w,n,ne,ne,n,n,ne,ne,n,e,n,n,nw,eu,ne,n,n,n,n,n,n,n,ne,n,n,n,n,n,",])
+autoload ({"/open/always/sky_mark",})

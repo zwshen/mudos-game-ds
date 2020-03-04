@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["addition_shield":10,"addition_armor":10,"heart_beat_rate":6,"gender":"男性","addition_damage":10,"id":"redstar","name":"赤星","max_hp":80,"wound":(["left_leg":0,"right_leg":0,"body":0,"head":0,"left_arm":0,"right_arm":0,]),"attitude":"peaceful","hp":80,"max_mp":60,"volume":7,"exp":777,"dex":2,"int":2,"default_actions":,"con":2,"str":2,"evil":-1,"Merits":(["wit":0,"sou":0,"bio":0,"tec":0,"bar":0,]),"DS_DATA_VERSION":19991107,"guild_gifts":({5,5,5,5,}),"max_ap":60,"supply_point":60,"mp":60,"last_location":"/open/world1/tmr/area/hotel","heart_modify":0,"unit":"位","channels":({"chat","rumor","tchat",}),"race":"human","level":1,"talk_point":8,"birthday":1114025379,"cure_count":11,"actions":,"ap":60,"age":14,"board_last_read":(["tmr_hotel_b":1113909868,]),"mud_age":2009,"startroom":"/open/world1/tmr/area/hotel","newbie":1,])
+autoload ({})

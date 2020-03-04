@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["mp":60,"con":2,"heart_modify":0,"cure_count":19,"max_mp":60,"default_actions":,"mud_age":2999,"channels":({"chat","rumor","tchat",}),"id":"hodog","race":"human","str":2,"quest":(["not_newbie":1,]),"wound":(["head":0,"left_leg":0,"left_arm":0,"right_arm":0,"right_leg":0,"body":0,]),"DS_DATA_VERSION":19991107,"attitude":"peaceful","unit":"位","level":1,"last_location":"/open/world2/anfernee/start/bug","actions":,"ap":60,"evil":-1,"birthday":1149521929,"addition_shield":10,"max_hp":80,"age":14,"talk_point":8,"hp":80,"heart_beat_rate":6,"gender":"男性","addition_damage":10,"addition_armor":10,"max_ap":60,"volume":7,"startroom":"/open/world1/tmr/area/hotel","name":"熱狗","supply_point":60,"Merits":(["bar":0,"sou":0,"bio":0,"tec":0,"wit":0,]),"guild_gifts":({5,5,5,5,}),"exp":777,"dex":2,"board_last_read":(["anoounce_b":1048926741,"tmr_hotel_b":1149521787,]),"int":2,])
+autoload ({})

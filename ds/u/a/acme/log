@@ -1,0 +1,24 @@
+[Thu Aug  2 21:09:16 2007] u/a/acme/god.c line 18: Undefined function restore
+
+[Thu Aug  2 21:09:16 2007] u/a/acme/god.c line 19: Undefined variable 'big_ghost_mob'
+
+[Thu Aug  2 21:21:22 2007] u/a/acme/god_item.c line 148: Warning: /* found in comment.
+
+[Thu Aug  2 21:21:22 2007] u/a/acme/god_item.c line 154: "#pragma strict_types" requires type of function
+
+[Thu Aug  2 21:21:22 2007] u/a/acme/god_item.c line 155: syntax error
+
+[Thu Aug  2 21:21:54 2007] u/a/acme/god_item.c line 147: Warning: /* found in comment.
+
+[Thu Aug  2 21:21:54 2007] u/a/acme/god_item.c line 153: "#pragma strict_types" requires type of function
+
+[Thu Aug  2 21:21:54 2007] u/a/acme/god_item.c line 154: syntax error
+
+[Thu Aug  2 21:22:10 2007] u/a/acme/god_item.c line 148: Warning: /* found in comment.
+
+[Thu Aug  2 21:22:10 2007] u/a/acme/god_item.c line 154: "#pragma strict_types" requires type of function
+
+[Thu Aug  2 21:22:10 2007] u/a/acme/god_item.c line 155: syntax error
+
+[Thu Aug  2 21:22:42 2007] u/a/acme/god_item.c line 394: End of file in a comment
+

@@ -1,0 +1,26 @@
+
+	strsrch(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	ㄧ计嘿:
+		strsrch() - ﹃い碝т疭﹚﹃.
+	ㄧ计粂猭:
+		int strsrch( string str, string substr | int char,
+			int flag );
+
+		俱计 strsrch( ﹃ str, ﹃ substr ┪ 俱计 char,
+			俱计 flag );
+	ㄧ计ノ猭:
+		strsrch() ﹃ str  い碝т材瞷 substr.
+		狦 flag  -1,  玥碝т程瞷 substr. 
+		狦材把计琌俱计, 玥碝тじ (character)
+		 ( C   strchr() の strrchr() ). strsrch()
+		礚猭碝т﹃┪ (empty string) 琌 (null value)
+		.
+	肚:
+		strsrch() 肚才材┪程﹃瞷 str
+		い竚. 狦⊿Τ才﹃, 玥肚 -1,  ┪琌岿粇
+		癟 (Τ拜肈把计单单).
+	把σㄧ计:
+		explode(3), sscanf(3), replace_string(3), regexp(3)
+	も陆亩:
+		Phoebus@ZH	97.Jul.23.		(Writen 5/23/97)

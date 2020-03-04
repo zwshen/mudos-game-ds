@@ -1,0 +1,742 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0043)http://www.chinazmud.com/wz/list.asp?id=187 -->
+<HTML><HEAD><TITLE>MUD中安全谈</TITLE>
+<SCRIPT language=JavaScript>
+
+helpstat = false;
+stprompt = true;
+basic = false;
+function thelp(swtch){
+	if (swtch == 1){
+		basic = false;
+		stprompt = false;
+		helpstat = true;
+	} else if (swtch == 0) {
+		helpstat = false;
+		stprompt = false;
+		basic = true;
+	} else if (swtch == 2) {
+		helpstat = false;
+		basic = false;
+		stprompt = true;
+	}
+}
+
+function AddText(NewCode) {
+document.myform.txtcontent.value+=NewCode
+}
+
+function email() {
+	if (helpstat) {
+		alert("Email 标记\n插入 Email 超级链接\n用法1: [email]webmaster@aspsky.net[/email]\n用法2: [email=webmaster@aspsky.net]沙滩小子[/email]");
+	} else if (basic) {
+		AddTxt="[email][/email]";
+		AddText(AddTxt);
+	} else { 
+		txt2=prompt("链接显示的文字.\n如果为空，那么将只显示你的 Email 地址",""); 
+		if (txt2!=null) {
+			txt=prompt("Email 地址.","name@domain.com");      
+			if (txt!=null) {
+				if (txt2=="") {
+					AddTxt="[email]"+txt+"[/email]";
+				} else {
+					AddTxt="[email="+txt+"]"+txt2;
+					AddText(AddTxt);
+					AddTxt="[/email]";
+				} 
+				AddText(AddTxt);	        
+			}
+		}
+	}
+}
+function flash() {
+ 	if (helpstat){
+		alert("Flash 动画\n插入 Flash 动画.\n用法: [flash]Flash 文件的地址[/flash]");
+	} else if (basic) {
+		AddTxt="[flash][/flash]";
+		AddText(AddTxt);
+	} else {                  
+		txt=prompt("Flash 文件的地址","http://");
+		if (txt!=null) {             
+			AddTxt="[flash]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/flash]";
+			AddText(AddTxt);
+		}        
+	}  
+}
+
+function showsize(size) {
+	if (helpstat) {
+		alert("文字大小标记\n设置文字大小.\n可变范围 1 - 6.\n 1 为最小 6 为最大.\n用法: [size="+size+"]这是 "+size+" 文字[/size]");
+	} else if (basic) {
+		AddTxt="[size="+size+"][/size]";
+		AddText(AddTxt);
+	} else {                       
+		txt=prompt("大小 "+size,"文字"); 
+		if (txt!=null) {             
+			AddTxt="[size="+size+"]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/size]";
+			AddText(AddTxt);
+		}        
+	}
+}
+
+function bold() {
+	if (helpstat) {
+		alert("加粗标记\n使文本加粗.\n用法: [b]这是加粗的文字[/b]");
+	} else if (basic) {
+		AddTxt="[b][/b]";
+		AddText(AddTxt);
+	} else {  
+		txt=prompt("文字将被变粗.","文字");     
+		if (txt!=null) {           
+			AddTxt="[b]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/b]";
+			AddText(AddTxt);
+		}       
+	}
+}
+
+function italicize() {
+	if (helpstat) {
+		alert("斜体标记\n使文本字体变为斜体.\n用法: [i]这是斜体字[/i]");
+	} else if (basic) {
+		AddTxt="[i][/i]";
+		AddText(AddTxt);
+	} else {   
+		txt=prompt("文字将变斜体","文字");     
+		if (txt!=null) {           
+			AddTxt="[i]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/i]";
+			AddText(AddTxt);
+		}	        
+	}
+}
+
+function quote() {
+	if (helpstat){
+		alert("引用标记\n引用一些文字.\n用法: [quote]引用内容[/quote]");
+	} else if (basic) {
+		AddTxt="[quote][/quote]";
+		AddText(AddTxt);
+	} else {   
+		txt=prompt("被引用的文字","文字");     
+		if(txt!=null) {          
+			AddTxt="[quote]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/quote]";
+			AddText(AddTxt);
+		}	        
+	}
+}
+
+function showcolor(color) {
+	if (helpstat) {
+		alert("颜色标记\n设置文本颜色.  任何颜色名都可以被使用.\n用法: [color="+color+"]颜色要改变为"+color+"的文字[/color]");
+	} else if (basic) {
+		AddTxt="[color="+color+"][/color]";
+		AddText(AddTxt);
+	} else {  
+     	txt=prompt("选择的颜色是: "+color,"文字");
+		if(txt!=null) {
+			AddTxt="[color="+color+"]"+txt;
+			AddText(AddTxt);        
+			AddTxt="[/color]";
+			AddText(AddTxt);
+		} 
+	}
+}
+
+function center() {
+ 	if (helpstat) {
+		alert("对齐标记\n使用这个标记, 可以使文本左对齐、居中、右对齐.\n用法: [align=center|left|right]要对齐的文本[/align]");
+	} else if (basic) {
+		AddTxt="[align=center|left|right][/align]";
+		AddText(AddTxt);
+	} else {  
+		txt2=prompt("对齐样式\n输入 'center' 表示居中, 'left' 表示左对齐, 'right' 表示右对齐.","center");               
+		while ((txt2!="") && (txt2!="center") && (txt2!="left") && (txt2!="right") && (txt2!=null)) {
+			txt2=prompt("错误!\n类型只能输入 'center' 、 'left' 或者 'right'.","");               
+		}
+		txt=prompt("要对齐的文本","文本");     
+		if (txt!=null) {          
+			AddTxt="\r[align="+txt2+"]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/align]";
+			AddText(AddTxt);
+		}	       
+	}
+}
+
+function hyperlink() {
+	if (helpstat) {
+		alert("超级链接标记\n插入一个超级链接标记\n使用方法: [url]http://www.aspsky.net[/url]\nUSE: [url=http://www.aspsky.net]链接文字[/url]");
+	} else if (basic) {
+		AddTxt="[url][/url]";
+		AddText(AddTxt);
+	} else { 
+		txt2=prompt("链接文本显示.\n如果不想使用, 可以为空, 将只显示超级链接地址. ",""); 
+		if (txt2!=null) {
+			txt=prompt("超级链接.","http://");      
+			if (txt!=null) {
+				if (txt2=="") {
+					AddTxt="[url]"+txt;
+					AddText(AddTxt);
+					AddTxt="[/url]";
+					AddText(AddTxt);
+				} else {
+					AddTxt="[url="+txt+"]"+txt2;
+					AddText(AddTxt);
+					AddTxt="[/url]";
+					AddText(AddTxt);
+				}         
+			} 
+		}
+	}
+}
+
+function image() {
+	if (helpstat){
+		alert("图片标记\n插入图片\n用法： [img]http://www.aspsky.net/logo.gif[/img]");
+	} else if (basic) {
+		AddTxt="[img][/img]";
+		AddText(AddTxt);
+	} else {  
+		txt=prompt("图片的 URL","http://");    
+		if(txt!=null) {            
+			AddTxt="\r[img]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/img]";
+			AddText(AddTxt);
+		}	
+	}
+}
+
+function showcode() {
+	if (helpstat) {
+		alert("代码标记\n使用代码标记，可以使你的程序代码里面的 html 等标志不会被破坏.\n使用方法:\n [code]这里是代码文字[/code]");
+	} else if (basic) {
+		AddTxt="\r[code]\r[/code]";
+		AddText(AddTxt);
+	} else {   
+		txt=prompt("输入代码","");     
+		if (txt!=null) {          
+			AddTxt="\r[code]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/code]";
+			AddText(AddTxt);
+		}	       
+	}
+}
+
+function list() {
+	if (helpstat) {
+		alert("列表标记\n建造一个文字或则数字列表.\n\nUSE: [list] [*]项目一[/*] [*]项目二[/*] [*]项目三[/*] [/list]");
+	} else if (basic) {
+		AddTxt=" [list][*]  [/*][*]  [/*][*]  [/*][/list]";
+		AddText(AddTxt);
+	} else {  
+		txt=prompt("列表类型\n输入 'A' 表示有序列表, '1' 表示无序列表, 留空表示无序列表.","");               
+		while ((txt!="") && (txt!="A") && (txt!="a") && (txt!="1") && (txt!=null)) {
+			txt=prompt("错误!\n类型只能输入 'A' 、 '1' 或者留空.","");               
+		}
+		if (txt!=null) {
+			if (txt=="") {
+				AddTxt="[list]";
+			} else {
+				AddTxt="[list="+txt+"]";
+			} 
+			txt="1";
+			while ((txt!="") && (txt!=null)) {
+				txt=prompt("列表项\n空白表示结束列表",""); 
+				if (txt!="") {             
+					AddTxt+="[*]"+txt+"[/*]"; 
+				}                   
+			} 
+			AddTxt+="[/list] ";
+			AddText(AddTxt); 
+		}
+	}
+}
+
+function showfont(font) {
+ 	if (helpstat){
+		alert("字体标记\n给文字设置字体.\n用法: [face="+font+"]改变文字字体为"+font+"[/face]");
+	} else if (basic) {
+		AddTxt="[face="+font+"][/face]";
+		AddText(AddTxt);
+	} else {                  
+		txt=prompt("要设置字体的文字"+font,"文字");
+		if (txt!=null) {             
+			AddTxt="[face="+font+"]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/face]";
+			AddText(AddTxt);
+		}        
+	}  
+}
+function underline() {
+  	if (helpstat) {
+		alert("下划线标记\n给文字加下划线.\n用法: [u]要加下划线的文字[/u]");
+	} else if (basic) {
+		AddTxt="[u][/u]";
+		AddText(AddTxt);
+	} else {  
+		txt=prompt("下划线文字.","文字");     
+		if (txt!=null) {           
+			AddTxt="[u]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/u]";
+			AddText(AddTxt);
+		}	        
+	}
+}
+function setfly() {
+ 	if (helpstat){
+		alert("飞翔标记\n使文字飞行.\n用法: [fly]文字为这样文字[/fly]");
+	} else if (basic) {
+		AddTxt="[fly][/fly]";
+		AddText(AddTxt);
+	} else {                  
+		txt=prompt("飞翔文字","文字");
+		if (txt!=null) {             
+			AddTxt="[fly]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/fly]";
+			AddText(AddTxt);
+		}        
+	}  
+}
+
+function move() {
+	if (helpstat) {
+		alert("移动标记\n使文字产生移动效果.\n用法: [move]要产生移动效果的文字[/move]");
+	} else if (basic) {
+		AddTxt="[move][/move]";
+		AddText(AddTxt);
+	} else {  
+		txt=prompt("要产生移动效果的文字","文字");     
+		if (txt!=null) {           
+			AddTxt="[move]"+txt;
+			AddText(AddTxt);
+			AddTxt="[/move]";
+			AddText(AddTxt);
+		}       
+	}
+}
+
+function shadow() {
+	if (helpstat) {
+               alert("阴影标记\n使文字产生阴影效果.\n用法: [SHADOW=宽度, 颜色, 边界]要产生阴影效果的文字[/SHADOW]");
+	} else if (basic) {
+		AddTxt="[SHADOW=255,blue,1][/SHADOW]";
+		AddText(AddTxt);
+	} else { 
+		txt2=prompt("文字的长度、颜色和边界大小","255,blue,1"); 
+		if (txt2!=null) {
+			txt=prompt("要产生阴影效果的文字","文字");
+			if (txt!=null) {
+				if (txt2=="") {
+					AddTxt="[SHADOW=255, blue, 1]"+txt;
+					AddText(AddTxt);
+					AddTxt="[/SHADOW]";
+					AddText(AddTxt);
+				} else {
+					AddTxt="[SHADOW="+txt2+"]"+txt;
+					AddText(AddTxt);
+					AddTxt="[/SHADOW]";
+					AddText(AddTxt);
+				}         
+			} 
+		}
+	}
+}
+
+function glow() {
+	if (helpstat) {
+		alert("光晕标记\n使文字产生光晕效果.\n用法: [GLOW=宽度, 颜色, 边界]要产生光晕效果的文字[/GLOW]");
+	} else if (basic) {
+		AddTxt="[glow=255,red,2][/glow]";
+		AddText(AddTxt);
+	} else { 
+		txt2=prompt("文字的长度、颜色和边界大小","255,red,2"); 
+		if (txt2!=null) {
+			txt=prompt("要产生光晕效果的文字.","文字");      
+			if (txt!=null) {
+				if (txt2=="") {
+					AddTxt="[glow=255,red,2]"+txt;
+					AddText(AddTxt);
+					AddTxt="[/glow]";
+					AddText(AddTxt);
+				} else {
+					AddTxt="[glow="+txt2+"]"+txt;
+					AddText(AddTxt);
+					AddTxt="[/glow]";
+					AddText(AddTxt);
+				}         
+			} 
+		}
+	}
+}
+function openscriphtml()
+{
+if (navigator.appName!="Microsoft Internet Explorer")
+   alert("此功能 Netscape 用户不能使用！")
+else
+   {newwin=window.open('htmledit/editor.html','','width=544,height=294');
+    newwin.focus();
+   }
+}
+function runEx(){
+//alert('请注意，按下确定将生成页面，按下后请稍后....');
+var winEx = window.open("", "winEx", "width=600,height=400,status=yes,menubar=yes,scrollbars=yes,resizable=yes"); winEx.document.open("text/html", "replace"); 
+winEx.document.write(unescape(event.srcElement.parentElement.children[2].value)); 
+winEx.document.close(); 
+}
+function openScript(url, width, height) {
+        var Win = window.open(url,"openScript",'width=' + width + ',height=' + height + ',resizable=1,scrollbars=yes,menubar=yes,status=yes' );
+}
+</SCRIPT>
+
+<SCRIPT language=Javascript>
+<!-- hide
+
+function insertsmilie(smilieface){
+
+	document.frmAnnounce.body.value+=smilieface;
+}
+// -->
+</SCRIPT>
+
+<META content="MSHTML 5.50.4134.600" name=GENERATOR>
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+<META content=ASP动网先锋,http://www.aspsky.net name=keywords><LINK 
+href="MUD中安全谈.files/style.css" rel=stylesheet></HEAD>
+<BODY bgColor=#000000>
+<TABLE cellSpacing=0 cellPadding=0 width="95%" align=center border=0>
+  <TBODY>
+  <TR>
+    <TD bgColor=#0099cc>
+      <TABLE borderColor=#0000ff cellSpacing=1 cellPadding=4 width="100%" 
+      bgColor=#000000 border=1>
+        <TBODY>
+        <TR bgColor=#0000ff>
+          <TD colSpan=2><FONT color=#ff0000>|<A 
+            href="http://www.chinazmud.com/index1.asp">返回首页</A> | 
+            |&nbsp;&nbsp;<A 
+            href="http://www.chinazmud.com/wz/default.asp?classid=3"> MUD功略 
+            </A>&nbsp;&nbsp;|&nbsp;&nbsp; |&nbsp;&nbsp;<A 
+            href="http://www.chinazmud.com/wz/default.asp?classid=5"> 教程文章 
+            </A>&nbsp;&nbsp;|&nbsp;&nbsp; |&nbsp;&nbsp;<A 
+            href="http://www.chinazmud.com/wz/default.asp?classid=6"> 其他文章 
+            </A>&nbsp;&nbsp;|&nbsp;&nbsp; </FONT></TD></TR>
+        <TR bgColor=#000000>
+          <TD colSpan=2><FONT color=#009900>|&nbsp;&nbsp;<A 
+            href="http://www.chinazmud.com/wz/index.asp?classid=5"><FONT 
+            color=#009900>教程文章</FONT></A>&gt;&gt;<A 
+            href="http://www.chinazmud.com/wz/index.asp?classid=5&amp;Nclassid=6"><FONT 
+            color=#009900>巫师与编程</FONT></A>&gt;&gt;MUD中安全谈 </FONT><BR></TD></TR>
+        <TR bgColor=#000000>
+          <TD colSpan=2>
+            <CENTER><B><FONT color=#ff0000 size=3>MUD中安全谈 </FONT></B><BR><FONT 
+            color=#00ff00>&nbsp;2002-6-3&nbsp;&nbsp; </FONT></CENTER>
+            <P>
+            <BLOCKQUOTE><BR><FONT 
+              color=#009900>这篇文章主要针对提供正式开放的游戏，如果你只是在单机游戏上玩一玩，请不要费神阅读，因为这对你毫无用处。<BR>　　前一段时间经常看到什么mud被黑，某某自称“黑客”者要挟某游戏之说，由此产生感慨写下这篇文章。这里无意贬低任何人的能力，如果您真是一位高手而并非一知半解的翻翻安全公报、在网上找点所谓“黑客工具”试试的那种，鄙人愿意随时怀着敬仰的心情聆听您的教诲。<BR>　　既然是漫谈，就是想到哪说到哪，内容难免有离题之处。<BR>　　有些人采用正式开放的游戏里不设巫师，而启动另一个游戏的副本来开发以为就万事大吉了，或者我根本不给巫师提供 
+              edit，首先不说这完全抛弃了LPMUD 的优越性，还不如改动一下将 OS 
+              和LIB编译后运行，还能极大的提高效率，如果开发环境本身是一个不安全的环境，又有谁能保证从这里拿走的代码是安全的呢。可能会有人说：比如我根本不招收巫师、我们游戏的巫师一生一世都能团结一致的象一个人、用人不疑疑人不用，我们的机器是请专家配置的，你算什么，等等超过 
+              100 
+              条理由来反驳对安全措施的看法，对此我不提出任何意见，记得有人说过一句笑话：使服务器最安全的方法就是拔掉网线。对于无谓的争论我不感兴趣，如果你认为安全是一个不值得一提的话题，请立刻停止阅读本文章以免耽误宝贵的时间。 
+              <BR>　　最初接触LPC就是看的 es2的MUDLIB，还是big5码的，读完以后对于其作者 Annihilator 
+              充满敬仰之情，虽说是一个“游戏”之作，但绝对只有本着严谨的治学态度才能写到这种程度，虽说也存在着不少问题，但那都是细枝末节。es2 
+              的 mudlib 
+              由于是一个人由一个统一的思路指导创作而成，其明晰整洁的模块化结构，科学直观的继承关系，极大的简化了区域编程的难易程度和给与极大的灵活性，致使以后的文字 
+              mud 在 es2 的沃土上迅速的繁衍生息，而将<BR>es2 类的 mud 推上 LPMUD 的主流地位，里面有很大的必然性。 
+              <P></P>
+              <P>*** 先从 mudlib 内部入手 *** </P>
+              <P>　　首先要注意几个特别的文件<BR>　　第一位的就是 MASTER_OB ，一般位于 
+              /adm/obj/master.c所有限制都是由这个物件里的函数通知 mudos，当然也包括读、写的禁止与允许，一般的 
+              mudlib都把有关安全的部分集中到一个叫 SECURITY_D 模块里统一管理，一般位于 
+              /adm/daemons/securityd.c，将MASTER_OB 的读写判断用 call_other 
+              方式引用到这个物件里。这两个文件如果有机会被改写，会将 mudlib 
+              的安全机制完全打破，所以在正式运行的游戏里应当禁止对这两个文件的写，需要对这两个文件进行改写的机会是很少的，如果遇到这种需要可在 
+              shell 里进行。<BR>　　巫师列表文件，一般为 /adm/etc/wizlist 
+              ，这个文件里保存了所有巫师的列表和对应的等级，对这个文件的写应当设定成只有 SECURITY_D 
+              物件允许，其它物件一律不允许。<BR>　　提升巫师命令，一般叫 promote ，位于 
+              /cmds/arch/目录下，（这个命令里应当注意的基本原则例如传入物件应当为 
+              this_player(1)，提升的等级不可超过命令执行者的等级等基本问题你应当非常熟悉，此文章的其它部分也假设你对一些基本的问题已经有了透彻的了解，而不会再与提及，如果你未能了解，请立刻停止阅读本文章，以免造成不应有的误解而适得其反。）此文件一经写好应当不需要再更改，因此在 
+              mudlib 应当禁止对此文件的写。promote 需要呼叫 SECURITY_D 里的相应函数实现巫师等级的提升，一般为 
+              set_status() 
+              函数，这个<BR>函数里应当首先判断他的前物件previous_object(0)是否为find_object("/cmds/arch/promote") 
+              ，当然不能是 clonep 了，如果不是，立刻 return 0 
+              就是了。<BR>　　MASTER_OB里的valid_seteuid()函数很重要，要小心配置，一般call_other到SECURITY_D 
+              里处理，普通情况应当只有seteuid(getuid()) 、ROOT_UID和SIMUL_EFUN_OB 允许 
+              seteuid。如根据需要扩展须小心配置。<BR>　　玩家档案（当然包括巫师）的读和写是应当小心管理的地方，LOGIN_OB 
+              保存档案的读应当除了restore_object函数和神，其它都不能读。由于 LOGIN_OB 的 
+              query_save_file()<BR>函数的返回值是由 query("id",1) 决定的，所以对 LOGIN_OB的 set 
+              应当除了 ROOT_UID 其它都禁止，也就是在文件里写入同名函数 nomask mixed set(string prop, 
+              mixed data)<BR>作提前判断，此函数里第一行就应当是<BR>　　if( 
+              geteuid(previous_object()) != ROOT_UID )<BR>　　return 
+              0;<BR>　　关于玩家档案的写，应当以物件的文件名和它的 euid 作依据，文件名是否为 LOGIN_OB 和 USER_OB，在 
+              valid_write 里可以象这样判断：</P>
+              <P>if( func=="save_object" )<BR>{<BR>if( 
+              sscanf(file,"/obj/login/%*s")<BR>|| sscanf(file,"/obj/user/%*s") 
+              )<BR>{<BR>string id;</P>
+              <P>if(sscanf(file,sprintf("/obj/login/%c/%%s.o",euid[0]),id)<BR>&amp;&amp; 
+              (id == euid) )<BR>return 
+              1;<BR>if(sscanf(file,sprintf("/obj/user/%c/%%s.o",euid[0]),id)<BR>&amp;&amp; 
+              (id == euid) )<BR>return 1;<BR>}<BR>else<BR>......<BR>}</P>
+              <P>　　不符合就直接进入权限检查，建议除了神和 ROOT_UID，其它都过滤掉。对于 LOGIN_OB 
+              和USER_OB这两个文件的写应当经受最严格的安全检查。对于LOGIN_OB-&gt;query("password")，如果不是 
+              ROOT_UID，不用说 return 0 就是了，写一个 query 的同名函数即可。</P>
+              <P>/feature 目录应当只有 admin 才能写，尤其是 save.c 、<BR>dbase.c 和 command.c 
+              。</P>
+              <P>　　SIMUL_EFUN_OB，这个物件的 euid 绝对不能是 ROOT_UID。&amp;有一个 cat() 
+              函数写的很不好，根据基本的配置这个函数可以完全超越读权限的限制而且毫无实际用处，只是表现了编写者对 unix 
+              的钟爱，建议取消。还有一个函数 assure_file() &amp;用于越权创建原来没有而又必须的目录，在里面要执行 
+              seteuid(ROOT_UID)，但是 es2 里面却没有还原，致使执行过此函数会使 SIMUL_EFUN_OB 以后以 
+              ROOT_UID 运行，这可是不得了的事情，在此函数的末尾返回前要加上 seteuid(getuid())来还原。<BR>　　log 
+              记录是系统运行状况的晴雨表，此记录的真实性和完整性对于管理者至关重要，一般都造一个 log_file() simul_efun 
+              函数，这个函数只接受两个字符串作为参数，这就保证只能以append 方式写，而不能 
+              write_file("/log/xxx","xxx",1)这种形式覆盖写，这个目录应该只有 SIMUL_EFUN_OB 
+              和神才能写，或者连神也不能写也无所谓。<BR>　　bind() 函数在 MASTER_OB 
+              的valid_bind里限制，最起码的对于玩家物件是绝对不能的。</P>
+              <P>　　关于需要保护的一些函数：<BR>　　MASTER_OB 里的 valid_override专门就是干这个的，当这个函数返回 
+              0 时，你就不能用 efun::xxxx() 的形式使用系统函数的原型，而必须用 SIMUL_EFUN_OB 
+              里提供的同名函数。<BR>　　** move_object 和 destruct 
+              由于根据游戏情节需要进行预处理比如重量的调整，所以是需要的。<BR>　　** shutdown 
+              函数应当只有shutdown命令才能呼叫，处理方法参考提升权限命令的部分，必须保护。<BR>　　** localtime 
+              函数当传入一个 &lt;= 0 的参数时正常情况下会当机，必须保护。<BR>　　** ctime 函数同理 localtime 
+              函数，必须保护。 <BR>　　** interactive 函数当传入一个 0 
+              作为参数时正常情况下会当机，必须保护。<BR>　　** snoop 不用说了，不能允许 snoop 高于自己权限的人，比如你正在 
+              more 一个我没有读权限的文件。。。必须保护。<BR>　　** exec 要命的东西，一般只有 LOGIN_D 
+              才需要，如果你想提供update 玩家的能力，update 命令也应当允许，其它一律禁止，当然还要注意 LOGIN_D 执行 
+              exec 的部分函数必须是 private，update 玩家需要调用 enter_world 函数，这样 enter_world 
+              里必须先判断 origin()，如果是 local 可以，如果是 call_other则 previous_object(0) 
+              必须是 ROOT_UID，其它情况一律禁止。</P>
+              <P>　　MASTER_OB 里的 creator_file 函数是至关重要的，一般引导到SIMUL_EFUN_OB 
+              里的同名函数处理。它的返回值决定着物件的 uid，也就是被 Mudos 制造出来时的 
+              euid，它的返回值必须要将第一个字母转换成大写以避免和玩家的 id 发生混淆，需要 ROOT_UID 的一般只有 /adm 
+              目录，里面的 SIMUL_EFUN_OB 
+              必须设成一个特殊的ID(注意大写开头)，还有极少数的命令需要，其它的都不需要！！<BR>　　对于这些目录应当除了神以外任何其它的巫师都不能写。<BR>　　有一个特殊情况就是巫师的工作目录可不能大写开头，因为要和巫师的等级对齐，不过一定要先判断 
+              this_palyer(1)，如果存在必须优先返回 this_player(1) 的 
+              euid，否则你目录下的东西被别人clone走以后物件的 euid 还是你的 
+              euid，如果碰巧你写了一个权限测试物件或者其他什么不像话的东西忘了删掉，后果不堪设想。执行命令里需要 ROOT_UID 
+              的玩家命令是很有限的，最好将这几个命令单开一个目录赋予 ROOT_UID，小心的检查每一行代码，其它的目录都赋予一个奇怪的 
+              uid，例如："Nobody"。<BR>　　说到巫师工作目录，由于上面的理由可以知道工作目录的上一级目录的写权限是多么的重要，这应该只有神才能写，其它一律禁止。再有除了神绝对不能允许写别人的工作目录，这绝对是必要的。<BR>　　global 
+              include file 也是一个非常重要的文件，一般定义为 /include/globals.h ，一般 
+              ROOT_UID就是由这个文件定义的，如果我把 ROOT_UID 改成我自己的 ID "find"，我的 euid 就是 
+              ROOT_UID，后果不言而喻，所以在正式开放的游戏里这个文件应该定义为不可写。再有一个叫 command.h 
+              的头文件用来定义可执行命令的搜索路径，要瞪大眼睛仔细看，对于此文件的写应当只有神允许。<BR>　　对于除了巫师写自己的工作目录以外的写都应当作记录。对于/adm 
+              目录下的载入物件应当除了神和 ROOT_UID 以外不允许摧毁。<BR>　　mudos 的 OLD_ED 
+              是一般游戏都使用的编辑器，在使用者断线后保存 ed_buffer 之前不进行写检查，保存的文件名由 MASTER_OB 里的 
+              get_save_file_name 返回值决定。这绝对不是件好事请，应当在 mudos 的源代码里 ed.c 的void 
+              save_ed_buffer P1(object_t *, who) 函数中把 stmp = 
+              safe_apply_master_ob(APPLY_GET_ED_BUFFER_SAVE_FILE_NAME, 2); 一直到 
+              free_ed_buffer(who); 前一行的内容用if (getfn(1) != NULL) { } 括起来。 
+              MASTER_OB 里的 get_save_file_name 应该返回一个奇怪 而又难以重复的名字，es2 里是 
+              sprintf("%s.%d", fname , time()) 
+              就很好，如果想以后对此文件操作时少输入几个数字用<BR>uptime() 也很好。<BR>　　巫师的档案应当是不允许 purge 
+              的，purge 之前应当先降为玩家，同理，巫师也应当不允许自杀。<BR>　　区域文件的 euid 应当定义为区域名较容易管理，它的 
+              euid 应当把第一个字母置换成大写以避免和用户 id 冲突。<BR>　　在所有的读写权限安排好以后，还有一个巨大的安全隐患，就是 
+              dbase.c ，一般位于 /feature/dbase.c这一般不太会引起人的注意但又是很致命的弱点，这个物件里的主变量 
+              mapping dbase 保存所有的变量设置，这是 es2 类的 mudlib 
+              极大的优点，把所有的变量处理集中模块化，充分的利用了继承性极大的简化了编程和执行效率。但由于它极强的通用性在某些方面如果不作限制会造成安全隐患。问题在于这个物件里的query_entire_dbase()函数，由于 
+              mudos 是用 c 语言编写充分利用了指针的特性，这个函数返回的是 dbase 的指针而不是它的副本，由于通过这个函数取得了 
+              dbase 的地址指针，所以就可对它为所欲为而完全超越 mudlib 的安全限制。例如：</P>
+              <P>object user; // 是一个玩家物件。<BR>mapping my;</P>
+              <P>my = user-&gt;query_entire_dbase();<BR>my["max_force"] = 
+              1000000;<BR>my["force"] = 1000000;</P>
+              <P>哈，这个玩家的内力就变成 100 万了，有什么东西能检查出我干了这事情？<BR>更有甚者：比如我有一个密码的密文 
+              "Tn/2pfZd4HtKc"，它的明文只有我知道是 "12345"<BR>这个密文是很容易得到的，随便一个单机 mud 
+              设置好密码一 save 就得到了。</P>
+              <P>object user; // 是一个在线的天神物件<BR>object link;<BR>mapping my;</P>
+              <P>if(objectp(link = user-&gt;query_temp("link_ob"))<BR>{<BR>my = 
+              link-&gt;query_entire_dbase();<BR>my["password"] = 
+              "Tn/2pfZd4HtKc";<BR>}</P>
+              <P>　　在其毫无知觉的情况下把他的密码改掉了，等他退线，这个密码就会保存好，那位神由于不知道新密码就进不来了，这个账号的密码明文只有你知道，怎么说呢，现在你就是神！所以应当作一些小限制，在 
+              LOGIN_OB 里应当加入：<BR>// 这对系统毫无用处，return 0<BR>nomask mapping 
+              query_entire_dbase()</P>
+              <P>return 0;<BR>}</P>
+              <P>// 避免以后扩展可能带来问题<BR>nomask mapping 
+              query_entire_temp_dbase()<BR>{<BR>return 0;<BR>}</P>
+              <P>// 连接物件只允许系统设置<BR>nomask mixed set_temp(string prop, mixed 
+              data)<BR>{<BR>if(( prop == "body_ob")<BR>&amp;&amp; 
+              (!previous_object()<BR>|| (geteuid(previous_object()) != 
+              ROOT_UID)) )<BR>return 0;<BR>return ::set_temp(prop, 
+              data);<BR>}</P>
+              <P>// 除了系统不允许取得密码的密文，避免互相了解以后 <BR>// 缩小猜测范围，用猜谜码软件取得明文<BR>nomask 
+              varargs mixed query(string prop, int raw)<BR>{<BR>if(( prop == 
+              "password")<BR>&amp;&amp; (!previous_object()<BR>|| 
+              (geteuid(previous_object()) != ROOT_UID)) )<BR>return 0;</P>
+              <P>return ::query(prop,raw);<BR>}</P>
+              <P>　　对于 USER_OB 不能这么限制，首先应当写一个 
+              simul_efun用于复制变量，也就是强制产生一个变量副本而不是指针，比如这个函数叫 mixed duplicate(mixed 
+              var)<BR>在 USER_OB 里加入：</P>
+              <P>mapping query_entire_dbase() // Find.<BR>{<BR>// 非系统需要返回 dbase 
+              的副本而非指针<BR>if( previous_object()<BR>&amp;&amp; (previous_object() 
+              != this_object())<BR>&amp;&amp; (geteuid(previous_object()) != 
+              ROOT_UID) )<BR>return duplicate(dbase);<BR>else<BR>return 
+              dbase;<BR>}</P>
+              <P>mapping query_entire_temp_dbase() 同理。需要注意的还有保存武功的 skill.c</P>
+              <P>// link_ob 除了系统决不能允许别人设置<BR>nomask mixed set_temp(string prop, 
+              mixed data)<BR>{<BR>if((prop == 
+              "link_ob"))<BR>{<BR>if(!previous_object() || 
+              (geteuid(previous_object()) != ROOT_UID) )<BR>return 
+              0;<BR>else<BR>return ::set_temp(prop, 
+              data);<BR>}<BR>}<BR>再有一个忠告，对于安全至关重要的物件绝对不要用F_DBASE来管理变量！！！！！切记！！</P>
+              <P>　　关于巫师的一些特有设置：<BR>　　比如隐身或者根据某些标记察看系统的运行状态，一般为了方便巫师都集中在 set 
+              玩家命令里，这些标记应该单开一个区域存放，如果沿用 es2 
+              的处理方法，需要有几点要注意:<BR>　　在设置时进行检查，如果都是单层设置可以：<BR>　　int i = 
+              strsrch(arg,'/');<BR>　　if(!i)<BR>　　错误返回<BR>　　if(i&gt;0)<BR>　　arg = 
+              arg[0..i-1];<BR>　 再进行设置标记判断。<BR>　 如果有多层设置：<BR>　　arg = implode( 
+              (explode(arg,"/") - ({""})),"/");<BR>　　再进行设置标记判断。 
+              <BR>　　在标记的作用模块里应当进行 wizardp() 
+              的检查，这是好的作风。<BR>　　对于巫师物件和来源于巫师的物件应当在自己的系统里严格的标记出来，对于这些物件上的 action 
+              应当绝对禁止玩家执行，对于这些物件对玩家产生的任何影响都应当毫无例外的详细的记录，如果想给自己留一个方便之门最后只会使自己深受其害。对于这套系统的建立方法由于牵涉面比较广通用性也很差，说起来连篇累牍，就不详细说了，需要根据自己的系统特点小心的选择方法详细的考察。<BR>　　对于非法 
+              action 的过滤到是可以举个例子供参考，这个工作应当在玩家物件的 process_input() 
+              函数里进行，在返回之前应当通过一个过滤函数进行过滤，比如<BR>if(userp(this_object()) &amp;&amp; 
+              !wizardp(this_object()))<BR>action = 
+              control_action(action);<BR>control_action 函数的内容应该大概象下面这个样子：</P>
+              <P>private string control_action(string cmd)<BR>{<BR>mixed 
+              *cmds;<BR>int i;<BR>string str;</P>
+              <P>if(!stringp(cmd) || cmd == "")<BR>return "";</P>
+              <P>sscanf(cmd,"%s %*s",str);<BR>if(str == "")<BR>return str;</P>
+              <P>if(!str)<BR>str = cmd;<BR>cmds = 
+              this_object()-&gt;query_commands();</P>
+              <P>for(i=0;i&lt;sizeof(cmds);i++)<BR>{<BR>if( cmds[i][0] == str 
+              )<BR>{<BR>if( sscanf(file_name(cmds[i][2]),WIZ_DIR+"%*s")<BR>|| 
+              cmds[i][2]-&gt;query_wiz_flag()) // 巫师或来源于巫师的物件<BR>return 
+              "";<BR>}<BR>}</P>
+              <P>return cmd;<BR>}</P>
+              <P>　　这样的结果例如巫师 clone 一个鸡腿给玩家，玩家是没法“吃”的，或者有巫师 clone 
+              一个乱七八糟的衣服之类的东西给玩家，玩家拿着它什么也干不了。这样的行为应当根据记录受到严厉的处罚。不过在 give 
+              命令里应当作个判断来禁止这种“给”从而提醒巫师或者自己这样作是非法的！窃以为这是'仁慈'的做法，不要不教而诛。<BR>　　对于巫师的密码应当有特殊的要求，必须8位同时包含字母、数字和特殊字符，否则应当禁止登陆。巫师账号的密码过一定时间应当强制更改，一般 
+              30 天比较合适。对于巫师账号的密码输入错误应当作详细的记录，至少也应当包括时间和来源。对于连续几次输入错误应当将这个账号 
+              block 住禁止登陆来防止密码猜测，一般为 3-5 
+              次较好。当然还要设立灵活安全的恢复机制，否则游戏所有的巫师都无法进入就闹笑话了。应当将被 block 的账号记录在一个只有 
+              ROOT_UID 才能写的文件里，block 管理物件定时根据此文件的内容进行更新，一般 30 分钟为宜，这样管理者就可以在 
+              shell 里去除某个账号的封锁状态。这种保护应当监视所有的连入手段，包括 ftp。<BR>　　最好不要在 mudlib 提供 
+              http 服务，有的甚至在 mudlib 提供游戏主页的服务，主页制作的丰富多姿，这种情况应该是坚决杜绝的！ www 
+              页面上的每一个元素都要引起一个并发请求，对于复杂的页面即使浏览的人不多，瞬间的并发请求也会超出一般人的想象，mudos 
+              操作是一个大循环，大量的请求会严重影响游戏的执行速度和占用大量的带宽，如果实在难以抑制这种冲动可以只提供一些反映游戏内部状况的 
+              cgi 
+              生成一些简单的信息页面供你游戏的主页调用嵌入。<BR>　　如果想提供网际互连，应当明确的指定几个允许互连的游戏，并将其它的屏蔽掉避免过重的端口负担。由于一般网际互连的服务程序都以 
+              ROOT_UID 运行，所以要严格检查这些程序代码里是否被人留了一手，最好将此部分移出 /adm 
+              目录，但这要改变很多头文件很麻烦，简便的方法在前面提到的 creator_file函数里将此目录下的物件设定成一个特殊的 
+              ID，例如：</P>
+              <P>　　case "adm":<BR>　　if( 
+              sscanf(file,"/adm/daemons/network/services/%*s"))<BR>　　return 
+              "Netservice";</P>
+              <P>　　如果你的这些服务代码里有对 ROOT_UID 的需求，将其移至DNS_MASTER 或者方便的模块里统一处理。如果你的 
+              valid_seteuid()函数里允许了 /adm 目录，请先将这个目录抛除.<BR>　　如果 receive 
+              函数接受的字串有超过字串最大长度设定（一般为 
+              8k）的行，有可能会造成当机，应当有适当的措施处理。<BR>　　关键部分不要编制晦涩难懂的代码，这只会带来安全和 bug 
+              隐患，代码要尽量的简洁清晰。<BR>　　 
+              前一段时间听别人谈起过游戏的数据备份问题，沉重的备份（比如对整个游戏代码或者所有动态档案的备份）工作应当在 shell 里用 
+              crontab 编制 shell script 来完成。由于 mudos 
+              的工作机制做这种事情实在是哪壶不开提哪壶，如果难以避免进行这类沉重的工作（比如想提供符合实际的玩家排名就需要对所有的玩家档案进行检索），应当采用均衡负担的技巧不对游戏的运行产生可感受的影响。要注意的是，这类工作对于 
+              mud 来说有一件都嫌多。<BR>　　对于一个设置良好的 mudlib 
+              可以在安全的前提下赋予巫师最大的自由度，这对一个游戏的建设应当是必要的。 </P>
+              <P>*** 从外部来说：*** </P>
+              <P>　　首先应该能保证服务器的物理安全，没有这个前提根本谈不上安全两个字，试想一个左手拿着锤子右手拿着螺丝刀的人站在你的机器面前，你除了表现出一副什么都不在乎的样子，还能作些什么呢。<BR>　　选用操作系统，由于 
+              MUD 一般都是非盈利性的，所以应当选用一个免费的低成本操作系统，例如 linux、FreeBSD、Solaris 8 
+              等，以大家熟识的 linux 为例，其它都同理。安装系统时不需要的软件包一律不装，如果已经安装了就将其卸掉，linux 是 rpm 
+              -eFreeBSD 是 
+              pkg_delete。保证系统的所有软件都已经升级到了最新的稳定版本。<BR>　　服务器应当提供尽可能少的服务，应当做到专机专用，只提供服务，如果提供其它的服务请参考相关的说明，对于一些“臭名昭著”的服务，例如 
+              rpc netbios 等除非你对它有透彻的了解，否则一定要关闭。<BR>　　首先绝对不要以 Root 
+              运行游戏，应当单设一个用户作为 mud管理者。一般用户的主目录都是 /home/id ，而在游戏中很容易得到执行档的路径 
+              get_config(__BIN_DIR__)，这样就可以知道管理者的 
+              id，为攻击明确目标，所以管理者的home目录应当设定成一个别的目录，比如 /home/mud，使人无法从执行档路径得知游戏管理者的 
+              id，游戏管理者的 ID 不要起和游戏有关的id，例如 game games mud mudadm mudmud tianxia 
+              txia tianx 等等这类的 id 都是很不好的，甚至是自己在游戏中的 id，应该是一个另类的 ID 
+              而且毫无普遍的意义，密码的设定不要使用游戏中或电子邮件等其它地方用过的密码，专码专用，设定原则同游戏中巫师密码的设定原则。<BR>　　使用 
+              shadow 保存密码，/etc/shadow，FreeBSD 里面叫/etc/master.passwd 这个文件应当是 root 
+              root 400。去除所有不需要的账号，一些系统账号设置成不可能登陆。一般只保留 root 
+              和游戏管理者两个可能登陆账号，root除了控制台不允许登陆。将 home 目录的权限设定为 700，umask 设定为 
+              077。<BR>　　为了便于远程维护需要 telnet ftp 的服务，不要启动 inetd服务，而代之以 sshd2 
+              这种加密方式的连接，其设置有几点要注意：</P>
+              <P>　　PermitEmptyPasswords 一定要是 no<BR>　　PasswordGuesses 设成 2 
+              足以<BR>　　PermitRootLogin; 不用说 no<BR>　　Ssh1Compatibility 
+              no<BR>　　AllowedAuthentications 
+              publickey,password<BR>　　RequiredAuthentications 
+              publickey,password<BR>　　必须通过 publickey 和 password 
+              的双重验证<BR>　　其它的请查询相关的手册</P>
+              <P>　　一个干净的系统应当只提供 sshd2 
+              和游戏这两个服务。<BR>　　尽量减少此账号的使用人数，定期更换密码。<BR>　　经常用 ifconfig -a 
+              检查你的网卡是否处于混杂模式。<BR>　　经常阅读记录档，并打包下载备份。<BR>　　定期察看自己系统所使用的程序升级版本信息以确定是否要升级。定期察看安全公报看自己所使用的系统是否出现了对你产生影响的漏洞，及相关的安全补丁。<BR>　　发现了新的安全工具，拿来先搞明白原理，然后不用考虑，先照着自己的系统来一通。 
+              <BR>　　其它的一些安全问题请参考相应的文章。</P>
+              <P>　　对于一个 mud 服务器很难有条件再架一台服务器作为专门的防火墙，所以只能自己保护自己，一般采用 ipfilter 
+              类型的防火墙，对于包过滤类的防火墙的具体配置由于各系统的方法不同，所以只谈原则。<BR>　　一般是两个网络设备，lo 
+              本地环路，eth0 网卡（外部通道） <BR>　　不信任任何源地址<BR>　　禁止 forward<BR>　　禁止任何来自 eth0 
+              的包声称自己来自本地（ip 欺骗）<BR>　　对于源地址进行核对<BR>　　提供 SYN cookies 
+              保护<BR>　　禁止任何来自外部的广播包<BR>　　对于本地设备 lo 都放行,</P>
+              <P>　　对于 ICMP ：<BR>　　应当只允许 
+              destination-unreachable(网络不可到达)、echo-request(ping) 和 echo-reply 
+              (ping 回应，如果不需要尽可过滤掉)这三个进入，其它一律过滤掉。</P>
+              <P>　　对于 UDP：<BR>　　一个是需要一个外部 dns_server 帮你进行解析，比如它的 ip 地址为 a.b.c.d 
+              ，所以对于来源于 a.b.c.d 53的目的地为本地高端端口(1023-65535)的包放行，如果你提供 mud 
+              互连，对于目的地为这个端口的包也应当放行，如果你只和有限的几个 mud 
+              互相，也可以将其定义在防火墙里，对于来源于这几个互连端口目的地正确的才放行。其它一律过滤掉。</P>
+              <P>　　对于 tcp：<BR>　　对于你的 ssh 端口，如果你是固定 isp 拨号上网应当对源地址进行判断，比如你的 isp 
+              的动态 ip 分配的都是a.b.xxx.xxx，你可以设定源地址为 a.b.0.0/16 的才放行。如果你是固定 ip ，可以指定 
+              a.b.c.d/32 放行。对于提供游戏服务的端口，目的地为本地此端口的包一律放行。</P>
+              <P>　　Mudlib 一般为了巫师的工作都要提供 ftp 服务，这部分代码要注意绝对不要提供被动模式的 ftp 连接，也就是 
+              passive命令是不可执行的，只能采用主动模式。规则应当这样：对于目的地为这个 ftp 端口的包放行，ftp 
+              还要建立第二条数据连接，由于 port 方式这个连接是由 ftp server 发起的，tcp 
+              的连接过程是一个三次握手的过程，发起连接的包的控制<BR>位需要置 SYN，所以只要是包的控制位没有置 SYN 
+              ，目的地为本地高端端口的才放行。其它的包一律过滤掉。 <BR>　　要注意的是 
+              防火墙不等于安全！！！<BR>　　一个安全牢靠的系统环境是游戏成功的基本保障</P>
+              <P>　　由于安全部分是很早以前作的，难免有一些细节被遗忘疏漏，再加上本人水平有限，只是作为一个参考。而且所说的不保证100% 
+              正确，如果你按照本文设置造成系统崩溃、机器爆炸等灾难后果，本人概不负责。 
+              <BR>　　绝对不要给自己留任何后门，也许会有暂时的欣喜感和某种心理上的满足，但这是要以长期的痛苦甚至不可逆转的恶果作代价的！！<BR>　　总之，安全不是代码，安全是意识，只要你时时想着安全，你所处的环境就会越来越安全。否则原有的问题不能解决，而且还会由于你的粗疏不断产生新的问题，最后只能无奈的说：es2 
+              类的 mudlib 是全世界最不安全的 
+              mudlib。绝对的安全是不存在的！<BR>　　如果你觉得这篇文章对你有所启发，我将会感到荣幸，如果大多数人都认为毫无用处我也会很欣慰，因为游戏的安全状况比我的想象要好得多。<BR>　　如有缺失欢迎来信指正，jytong@263.net，如有人愿意以次为基础共同来维护一个 
+              MUD 安全 FAQ 之类的东西，本人愿意在精力允许的情况下积极参与。 <BR><BR><BR></FONT>
+              <P align=right><FONT color=#009900>原作者： Mudder2000 Kittt <BR>来 源： 
+              不详 <BR>共有181位读者阅读过此文 <BR></FONT><BR>【<A 
+              href="http://www.chinazmud.com/wz/sendmail.asp?id=187">告诉好友</A>】 
+              </P></BLOCKQUOTE>
+            <P>
+            <LI><FONT color=#0772b1>上篇文章：</FONT><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=186"><FONT 
+            color=#009900>MUDOS 在WINDOWS下编译过程</FONT></A> <BR>
+            <LI><FONT color=#0772b1>下篇文章：</FONT><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=188"><FONT 
+            color=#009900>我的风云一些skills的看法</FONT></A> </LI></TD></TR>
+        <TR>
+          <TD width="50%" bgColor=#0000ff>□- 本周热门文章 </TD>
+          <TD width="50%" bgColor=#0000ff>□- 相关文章 </TD></TR>
+        <TR>
+          <TD vAlign=top width="50%" bgColor=#ffffff><FONT color=#009900>1.<A 
+            title="机器人小技巧 " target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=140"> 机器人小技巧 
+            </A>[1180]<BR>2.<A title="如何在MUD中自动问候 " target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=141"> 如何在MUD中自动问候 
+            </A>[363]<BR>3.<A title=浅谈CALL命令 target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=143"> 浅谈CALL命令 
+            </A>[341]<BR>4.<A title="MUDLib攻略之F_SKILL（上） " target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=144"> 
+            MUDLib攻略之F_SKILL（上... </A>[238]<BR>5.<A 
+            title="流星雨的MUDOS-LPC讲座 BIND " target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=148"> 流星雨的MUDOS-LPC讲座 
+            BI... </A>[205]<BR>6.<A title=新MUD设想--增加变化！ target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=150"> 新MUD设想--增加变化！ 
+            </A>[204]<BR>7.<A title="象太阁立志传那样的mud怎么样？ " target=_top 
+            href="http://www.chinazmud.com/wz/list.asp?id=151"> 象太阁立志传那样的mud怎么样？ 
+            </A>[191]<BR></FONT></TD>
+          <TD vAlign=top width="50%" bgColor=#ffffff><FONT color=#009900><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=215">MUD、文化、与MUD文化 
+            </A><BR><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=210">MUD中的FTP</A><BR><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=208">MUD中的玩家类型研究</A><BR><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=203">小议MUD中的职业的发展</A><BR><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=195">泥巴的架设</A><BR><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=187">MUD中安全谈 
+            </A><BR><A 
+            href="http://www.chinazmud.com/wz/list.asp?id=151">象太阁立志传那样的mud怎么样？ 
+            </A><BR></FONT></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><BR></BODY></HTML>

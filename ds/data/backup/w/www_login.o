@@ -1,0 +1,2 @@
+#/obj/login.c
+dbase (["last_from":"telnet.hinet.net","email":"","id":"www","name":"咬我阿笨蛋","password":"GqPdK1miuTy4s","level":50,"race":"human","error_login":({"於[Sun Dec 19 01:01:12 2004]嘗試由[222-156-192-244.dynamic.hiway.net.tw]連線進入失敗。","於[Thu Dec 23 11:43:09 2004]嘗試由[222-156-200-5.dynamic.hiway.net.tw]連線進入失敗。","於[Thu Mar  3 21:46:26 2005]嘗試由[222-156-200-134.dynamic.hiway.net.tw]連線進入失敗。","於[Thu Apr 28 14:17:40 2005]嘗試由[203.64.43.137]連線進入失敗。","於[Thu Apr 28 14:20:45 2005]嘗試由[203.64.43.137]連線進入失敗。",}),"body":"/obj/user","last_on":1115143531,])

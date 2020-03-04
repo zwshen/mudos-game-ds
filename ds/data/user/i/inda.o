@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["int":2,"talk_point":8,"mp":60,"con":2,"str":2,"max_mp":60,"DS_DATA_VERSION":19991107,"cure_count":1,"gender":"¤k©Ê","guild_gifts":({5,5,5,5,}),"quest":(["not_newbie":1,]),"name":"´M§ä","attitude":"peaceful","evil":-1,"addition_shield":10,"age":14,"heart_beat_rate":6,"id":"inda","addition_damage":10,"addition_armor":10,"max_ap":60,"volume":7,"channels":({"chat","rumor","tchat",}),"race":"human","last_location":"/open/world1/tmr/area/inn_2f","supply_point":42,"actions":,"ap":60,"level":1,"default_actions":,"birthday":1143496821,"heart_modify":0,"Merits":(["bio":0,"sou":0,"wit":0,"tec":0,"bar":0,]),"hp":80,"wound":(["left_arm":0,"left_leg":0,"right_arm":0,"head":0,"right_leg":0,"body":0,]),"unit":"¦ì","startroom":"/open/world1/tmr/area/hotel","exp":777,"max_hp":80,"mud_age":326,"dex":2,])
+autoload ({})

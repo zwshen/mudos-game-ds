@@ -1,0 +1,12 @@
+¥Ø¿ý¡R/open/world1/faceoff/sky/npc/
+chen_chi.c          ³¯±T                child.c             §øµ£              
+chini.c             ©_­ÙÃ~              cw_taoist.c         ¶³­·¸t¹D          
+doctor.c            ­]Ë¢                dog.c               ¶Âª¯              
+ghost.c             ¤ðÃ~                ghost1.c            ­ß½Ã              
+ghost2.c            ÂËÃ~                ghost3.c            ¸U·ÀÆFÅÛ          
+maigu.c             ·À°©Ã~              meo_chung.c         ­]§ú¤C            
+meo_guard.c         ­]®a§ø¦u½Ã          monk.c              ¶³¹C¹¬            
+obj mountain_vegetable.c  ¥Õ¤z                sky_guard.c         ¦u½Ã              
+sky_leader.c        ­]«C                star_necklace.c     âf¬P¦ÑªÌ          
+star_old_man.c      âf¬P¦ÑªÌ            ten_waiter.c        ©±¤p¤G            
+wo.c                ÃúÃ~                

@@ -1,0 +1,8 @@
+#/obj/user.c
+dbase (["heart_beat_rate":6,"default_actions":,"DS_DATA_VERSION":19991107,"addition_shield":10,"actions":,"addition_damage":10,"mp":60,"board_last_read":(["query_b":1003465387,]),"mob_record":({"/open/world1/cominging/area/npc/dove",}),"addition_armor":10,"guild_gifts":({5,5,5,5,}),"channels":({"chat","rumor","tchat",}),"unit":"¦ì","max_ap":60,"newbie":1,"exp":855,"dex":2,"int":2,"cure_count":11,"heart_modify":0,"con":2,"level":1,"last_location":"/open/world1/tmr/area/street4","birthday":1227767641,"supply_point":60,"ap":60,"talk_point":8,"evil":2,"attitude":"peaceful","war_score":0,"age":14,"max_mp":60,"max_hp":80,"race":"human","Merits":(["bio":0,"sou":0,"wit":0,"bar":0,"tec":0,]),"MKS":1,"id":"meltzer","mud_age":25617,"startroom":"/open/world1/tmr/area/hotel","wound":(["body":0,"left_arm":0,"right_arm":0,"left_leg":0,"head":0,"right_leg":0,]),"gender":"¨k©Ê","hp":80,"str":2,"volume":7,"name":"²¢µ·µ·",])
+skills (["unarmed":1,"combat":2,"strong-body":4,])
+learned (["unarmed":5,"combat":3,"strong-body":8,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

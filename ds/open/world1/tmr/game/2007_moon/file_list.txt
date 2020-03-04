@@ -1,0 +1,10 @@
+¥Ø¿ý¡R/open/world1/tmr/game/2007_moon/
+crust.c             °_¶p¥Ö              crust2.c            ¤Wµ¥°_¶p¥Ö        
+crust3.c            ³»¯Å°_¶p¥Ö          crust4.c            ¶p¤£°_¥Ö          
+moon_doll.c         ³J¶À¶p«½«½          mooncake.c          ³J¶À¶p            
+puree.c             ´Çªd                puree2.c            ¤Wµ¥´Çªd          
+puree3.c            ³»¯Å´Çªd            puree4.c            ²`®ü´Çªd          
+toaster.c           ¯N½c                toaster2.c          ¯N½c              
+yolk.c              ÄÐ³J¶À              yolk2.c             ¤Wµ¥ÄÐ³J¶À        
+yolk3.c             ³»¯ÅÄÐ³J¶À          yolk4.c             ¥X¤ôªÜ»T          
+

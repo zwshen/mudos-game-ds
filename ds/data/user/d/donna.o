@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions ([])
+dbase (["max_mp":60,"combat_exp":0,"max_hp":90,"supply_point":141,"attitude":"peaceful","talk_point":20,"mp":60,"guild_rank":"成熟嫵媚的小姑娘","last_location":"/open/world1/tmr/gumu/xuanya","max_ap":70,"ap":70,"heart_modify":0,"mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/shan",}),"newbie":1,"exp":411301,"guild_gifts":({5,5,5,5,}),"hp":90,"dex":2,"popularity":43,"int":2,"bellicosity":0,"con":2,"str":2,"heart_beat_rate":6,"level":5,"volume":7,"id":"donna","DS_DATA_VERSION":19991107,"default_actions":,"evil":2,"addition_shield":10,"channels":({"chat","rumor","tchat",}),"unit":"位","war_score":0,"birthday":1185098748,"gender":"女性","name":"甜甜圈","race":"titan","addition_armor":10,"startroom":"/open/world1/tmr/area/hotel","addition_damage":10,"mud_age":48746,"disable_type":" <毫無呼吸>","env":([]),"wound":(["head":0,"body":0,"right_leg":0,"right_arm":0,"left_leg":0,"left_arm":0,]),"age":14,"actions":,"MKS":2,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"cure_count":11,"bank":(["past":19712,]),"war_art":50,])
+skills (["hammer":25,"staff":25,"whip":25,"parry":25,"strong-body":5,"combat":3,"block":25,"unarmed":25,"dodge":25,"fork":25,])
+learned (["combat":15,"unarmed":6,"dodge":3,"strong-body":2,])
+items ({})
+autoload ({"/obj/money/coin:5433","/open/world1/wilfred/sand/npc/eq/eq17","/open/world1/wilfred/sand/npc/eq/eq16","/open/world1/wilfred/sand/npc/eq/eq18","/open/world1/acme/area/npc/wp/blade","/open/world1/acme/area/npc/wp/blade",})
+toDoList ([])
+solved ({})

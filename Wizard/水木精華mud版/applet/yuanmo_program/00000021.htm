@@ -1,0 +1,77 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清华站∶精华区</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+<A Name="top"></a>
+发信人:&nbsp;sorceress&nbsp;(李大善人~~~以德服人),&nbsp;信区:&nbsp;Mud_Builder&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+标&nbsp;&nbsp;题:&nbsp;source&nbsp;-&nbsp;vector.h&nbsp;(转载)&nbsp;<BR>
+发信站:&nbsp;BBS&nbsp;水木清华站&nbsp;(Wed&nbsp;Jun&nbsp;14&nbsp;17:40:51&nbsp;2000)&nbsp;<BR>
+&nbsp;<BR>
+【&nbsp;以下文字转载自&nbsp;GAME_Designer&nbsp;讨论区&nbsp;】&nbsp;<BR>
+【&nbsp;原文由&nbsp;yuanmo&nbsp;所发表&nbsp;】&nbsp;<BR>
+//&nbsp;vector.h&nbsp;<BR>
+&nbsp;<BR>
+#ifndef&nbsp;__VECTOR_H&nbsp;<BR>
+&nbsp;<BR>
+#include&quot;objtypes.h&quot;&nbsp;<BR>
+&nbsp;<BR>
+void&nbsp;Normalize(Point3D&nbsp;&amp;vector);&nbsp;<BR>
+void&nbsp;CrossProduct(Point3D&nbsp;&amp;u,&nbsp;Point3D&nbsp;&amp;v,&nbsp;Point3D&nbsp;&amp;normal);&nbsp;<BR>
+long&nbsp;CalcAngle(Point3D&nbsp;&amp;n1,Point3D&nbsp;&amp;n2);&nbsp;<BR>
+void&nbsp;CalcNormal(Point3D&nbsp;&amp;p1,Point3D&nbsp;&amp;p2,Point3D&nbsp;&amp;p3,Point3D&nbsp;&amp;normal);&nbsp;<BR>
+int&nbsp;NormalToYaw(Point3D&nbsp;&amp;normal);&nbsp;<BR>
+int&nbsp;NormalToPitch(Point3D&nbsp;&amp;normal);&nbsp;<BR>
+float&nbsp;DisPointToLine(Point3D&nbsp;p,Point3D&nbsp;lp1,Point3D&nbsp;lp2);&nbsp;<BR>
+&nbsp;<BR>
+#define&nbsp;ROTATE_X&nbsp;0&nbsp;<BR>
+#define&nbsp;ROTATE_Y&nbsp;1&nbsp;<BR>
+#define&nbsp;ROTATE_Z&nbsp;2&nbsp;<BR>
+#define&nbsp;ROTATE_FREE&nbsp;3&nbsp;<BR>
+//#define&nbsp;ROTATE_FREE(angle)&nbsp;((angle)&lt;&lt;2)&nbsp;<BR>
+class&nbsp;CDirection&nbsp;<BR>
+{&nbsp;<BR>
+public:&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;yaw;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;pitch;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;rotation;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Point3D&nbsp;xNormal;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Point3D&nbsp;yNormal;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Point3D&nbsp;zNormal;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CDirection();&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;~CDirection();&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;void&nbsp;MoveDirection(int&nbsp;dyaw,int&nbsp;dpitch,int&nbsp;drotation);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;void&nbsp;SetDirection(int&nbsp;syaw,int&nbsp;spitch,int&nbsp;srotation);&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;void&nbsp;MakeVectorFromYPR();&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;void&nbsp;MakeVectorFromNormal(Point3D&nbsp;normal);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;void&nbsp;AdjustNormal();&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;void&nbsp;RotateAboutNormal(const&nbsp;Point3D&nbsp;&amp;normal,int&nbsp;angle,int&nbsp;mode=ROTATE_FREE);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//Note!&nbsp;no&nbsp;translate;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;void&nbsp;RotateAboutNormalX(int&nbsp;angle)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{RotateAboutNormal(xNormal,angle,ROTATE_X);}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;void&nbsp;RotateAboutNormalY(int&nbsp;angle)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{RotateAboutNormal(yNormal,angle,ROTATE_Y);}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;void&nbsp;RotateAboutNormalZ(int&nbsp;angle)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{RotateAboutNormal(zNormal,angle,ROTATE_Z);}&nbsp;<BR>
+};&nbsp;<BR>
+&nbsp;<BR>
+#define&nbsp;__VECTOR_H&nbsp;<BR>
+#endif&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+人是爱玩游戏的动物&nbsp;<BR>
+&nbsp;<BR>
+<A HREF="mailto:yuanmo@263.net">yuanmo@263.net</A>&nbsp;<BR>
+&nbsp;<BR>
+※&nbsp;来源:·BBS&nbsp;水木清华站&nbsp;bbs.net.tsinghua.edu.cn·[FROM:&nbsp;166.111.167.151]&nbsp;<BR>
+<A HREF="00000020.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一页</A>
+<A HREF="index.htm">回到目录</A>
+<A HREF="#top">回到页首</A>
+<A HREF="00000022.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+</BODY></HTML>

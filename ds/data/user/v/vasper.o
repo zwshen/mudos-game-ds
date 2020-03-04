@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["dex":2,"supply_point":60,"int":2,"guild_gifts":({5,5,5,5,}),"con":2,"str":2,"evil":-1,"heart_modify":0,"last_location":"/open/world1/tmr/ghost-forest/forest16","addition_damage":10,"channels":({"chat","rumor","tchat",}),"age":14,"race":"human","level":1,"max_hp":80,"ap":60,"wound":(["left_arm":0,"right_leg":0,"left_leg":0,"right_arm":0,"body":0,"head":0,]),"talk_point":8,"birthday":1113370419,"cure_count":15,"actions":,"attitude":"peaceful","mud_age":529,"board_last_read":(["tmr_hotel_b":1109319514,]),"max_mp":60,"volume":7,"startroom":"/open/world1/tmr/area/hotel","gender":"男性","id":"vasper","name":"天雨","newbie":1,"default_actions":,"DS_DATA_VERSION":19991107,"addition_shield":10,"addition_armor":10,"hp":80,"heart_beat_rate":6,"unit":"位","mp":60,"max_ap":60,"Merits":(["sou":0,"wit":0,"tec":0,"bio":0,"bar":0,]),"exp":777,])
+autoload ({})

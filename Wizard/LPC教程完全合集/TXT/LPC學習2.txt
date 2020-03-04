@@ -1,0 +1,51 @@
+    LPC裡面沒有“指針”的概念。在變量名前面加 * 的定義表示數組。如int *a
+表示a 是整數數組。一般來說我們定義數組時是未知其大小的。所以定義時不用像
+C 那樣給定大小。數組和MAPPING有些類似，所以將在下面和MAPPING一起講它們
+的操作。
+
+    object, 是OOP概念了，在LPC裡面好像有CREATE()的都可以做object 類型變量
+了。object 我們稱為“對像”，在MUD裡就是一件物品，一個房間或任何一個“具
+體”的東西，都是OBJECT。“對像”，在OOP中是一些數據與基於這些數據的函數的
+集合（好像文謅謅的？ :PP）嗯，object 中的數據一般不能直接操作（至少在LPC
+裡面不能的 :PP），所以對object的操作只有賦值（對object類型的賦直 ）和執行
+object的函數( private函數不能被外部調用 )。
+函數調用格式：
+eg.     object ob;
+        ob->test(1,2);
+
+        基本格式： object類型變量名->函數名(函數參數列);
+其中若該object 中未定義該函數名的函數則返回 0 值（呵呵，不會有出錯信息的哦，
+所以千萬別寫錯名字了）。
+
+    寫了這麼多終於寫到LPC 最有特色的兩個類型了，mapping和數組。
+mapping和數組在“外觀”上有些類似，所以在一起寫了。前面提到過：mapping是
+散列表，具體如何這裡不詳述了，只希望大家一定要記住mapping的格式！！( 實際
+上這格式只在給變量賦初值時用到 )mapping 格式如下：
+eg.     mapping a = ([ "ab" : 1 ,
+                        "cd": 2 ,
+                        ])
+標準格式：
+        mapping 變量名 = ([
+                                key1 : value1 ,
+                                key2 : value2 ,
+                                ..........
+                                ..........
+                        ]);
+其中key可以是除了int以外的任何值！！ (好像char也不行吧 :P )，包括任何數組
+甚至mapping也可以做key ,而value則可以是任意所有值。mapping的應用在於：
+可以用key來index得到相應的value值。如上面eg的，我們有：a["cd"] == 2,....
+因為要用key來index的關係，在mapping中key值不能相等，若相等則覆蓋掉原來該
+key對應的value。寫的有些亂了，SORRY :P
+
+    那麼一個mapping怎麼改變它的值呢？有兩個方法(下面設mapping map )。
+1. map[key] = value;
+2. map += ([key : value ]);
+請大家留意第二種賦值方法，它跟我們將要提到的數組的方法一樣的 。
+在mapping中“刪除”一個key （其相應value當然也沒了）方法是：
+        map_delete(map,key);
+lpc裡面的系統函數(efun)的命名一般按參數順序來取名（ map_delete的參數就是
+map在前，被delete的key在後的 ），希望大家注意。
+另外mapping的efun還有values,keys,undefinedp
+大家可以直接在MUD裡 help efunname 來看幫助，也可以參閱 /doc/lpc/types/mapping
+這一文件
+

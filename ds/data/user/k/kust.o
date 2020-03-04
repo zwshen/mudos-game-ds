@@ -1,0 +1,7 @@
+#/obj/user.c
+conditions ([])
+dbase (["board_last_read":(["tmr_hotel_b":1149972935,]),"heart_modify":0,"hp":80,"heart_beat_rate":6,"volume":7,"unit":"位","addition_shield":10,"attitude":"peaceful","help":"skill/","newbie":1,"exp":777,"addition_armor":10,"dex":2,"int":2,"con":2,"str":2,"level":1,"id":"kust","DS_DATA_VERSION":19991107,"addition_damage":10,"evil":-1,"default_actions":,"mud_age":500,"channels":({"chat","rumor","tchat",}),"birthday":1192591999,"last_location":"/open/world1/wilfred/newbie/eq_bank","gender":"男性","name":"卡斯特","wound":(["body":0,"right_arm":0,"left_leg":0,"right_leg":0,"left_arm":0,"head":0,]),"age":14,"race":"celestial","startroom":"/open/world1/tmr/area/hotel","actions":,"guild_gifts":({5,5,5,5,}),"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"cure_count":14,"max_mp":110,"max_hp":80,"supply_point":60,"max_ap":60,"ap":60,"mp":110,"talk_point":8,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

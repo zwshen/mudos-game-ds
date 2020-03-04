@@ -1,0 +1,5 @@
+¥Ø¿ý¡R/open/world1/acme/cominging/npc/wp/
+blade.c             ¬å°¨¤j¤M            blade1.c            ±°¶³¤M            
+pen.c               §P©xµ§              risword.c           ³p»»¼C            
+sword.c             Áï¼C                sword2.c            ªø¼C              
+

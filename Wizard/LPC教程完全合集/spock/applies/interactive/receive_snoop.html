@@ -1,0 +1,39 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=bg2312">
+   <META NAME="Author" CONTENT="Spock">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.01 [en] (Win95; I) [Netscape]">
+   <TITLE>MudOS v21c2 参考资料 - applies - interactive - receive_snoop</TITLE>
+</HEAD>
+<BODY TEXT="#CCFFFF" BGCOLOR="#000000" LINK="#33FF33" VLINK="#FF0000" ALINK="#33CCFF" BACKGROUND="../../../image/ff/fftitleback.jpg" NOSAVE>
+
+<CENTER><FONT COLOR="#FF99FF"><FONT SIZE=+3>receive_snoop(4) MudOS v21c2　
+(5 Sep 1994)</FONT></FONT></CENTER>
+
+<HR WIDTH="100%">
+<BR><FONT COLOR="#FFFFCC">　名称:</FONT>
+<UL>　 receive_snoop - 抓住送进来的窥视 (snoop) 文字.</UL>
+<FONT COLOR="#FFFFCC">　语法:</FONT>
+<UL>　 void receive_snoop( string message) ;
+
+<P>　 无返回值 receive_snoop( 字符串 message );</UL>
+<FONT COLOR="#FFFFCC">　用法:</FONT>
+<UL>　 如果驱动程序编译时, 在 options.h　 中定义 RECEIVE_SNOOP, 则一个使用者窥视另一个使用者时,
+所有窥视的文字会传递给玩家物件中的 receive_snoop()　 函数. 在此函数中, 您可以处理这些文字.
+receive_snoop() 程序的内容, 通常把这些文字再传递给 receive() 函数.</UL>
+<FONT COLOR="#FFFFCC">　参考:</FONT>
+<UL>　 <A HREF="catch_tell.html">catch_tell(4)</A>, <A HREF="../../efuns/interactive/receive.html">receive(3)</A>,
+<A HREF="receive_message.html">receive_message(4)</A></UL>
+<FONT COLOR="#FFFFCC">　翻译:</FONT>
+<UL>　 Spock @ FF 97.Aug.5.　 (printed 3/16/95)</UL>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+<CENTER><A HREF="../interactive.html">回到上一页</A></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+</BODY>
+</HTML>

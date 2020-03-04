@@ -1,0 +1,242 @@
+[Sun Jun  4 15:09:36 2000] u/h/hack/armor01.c line 1: parse error before the end of line
+
+[Sun Jun  4 15:10:02 2000] u/h/hack/armor01.c line 1: parse error before the end of line
+
+[Sun Jun  4 15:10:26 2000] u/h/hack/armor01.c line 1: parse error before the end of line
+
+[Sun Jun  4 15:10:56 2000] u/h/hack/armor01.c line 1: parse error before the end of line
+
+[Sun Jun  4 15:11:00 2000] u/h/hack/armor01.c line 1: parse error before the end of line
+
+[Sun Jun  4 15:11:39 2000] u/h/hack/armor01.c line 1: parse error before the end of line
+
+[Tue Jun 13 23:00:41 2000] u/h/hack/sex.c line 1: parse error before the end of line
+
+[Tue Jun 13 23:01:11 2000] u/h/hack/sex.c line 1: parse error before the end of line
+
+[Tue Jun 13 23:04:17 2000] u/h/hack/sex.c line 1: parse error before the end of line
+
+[Tue Jun 13 23:05:01 2000] u/h/hack/sex.c line 1: parse error before the end of line
+
+[Tue Jun 13 23:05:15 2000] u/h/hack/sex.c line 1: parse error before the end of line
+
+[Tue Jun 13 23:05:37 2000] u/h/hack/sex.c line 1: parse error before the end of line
+
+[Tue Jun 13 23:06:11 2000] u/h/hack/sex.c line 1: parse error before the end of line
+
+[Tue Jun 13 23:08:07 2000] u/h/hack/sex.c line 1: parse error before the end of line
+
+[Tue Jun 13 23:08:51 2000] u/h/hack/sex.c line 1: parse error before the end of line
+
+[Tue Jun 13 23:10:01 2000] u/h/hack/sex.c line 1: parse error before the end of line
+
+[Tue Jun 13 23:12:09 2000] u/h/hack/sex.c line 1: Missing leading " or < in #include before inherit SWORD;
+
+[Tue Jun 13 23:12:09 2000] u/h/hack/sex.c line 2: parse error before ;
+
+[Tue Jun 13 23:18:05 2000] u/h/hack/aaa.c line 18: End of file in text block before ED		4);
+
+[Tue Jun 13 23:18:05 2000] u/h/hack/aaa.c line 18: parse error before ED		4);
+
+[Tue Jun 13 23:22:29 2000] u/h/hack/aaa2.c line 17: Undefined function set_skill before   
+
+[Tue Jun 13 23:22:29 2000] u/h/hack/aaa2.c line 18: parse error before      
+
+[Tue Jun 13 23:40:18 2000] u/h/hack/aaa2.c line 1: Missing leading " or < in #include before inherit SWORD;
+
+[Tue Jun 13 23:40:18 2000] u/h/hack/aaa2.c line 2: parse error before ;
+
+[Tue Jun 13 23:41:52 2000] u/h/hack/aaa2.c line 1: Missing leading " or < in #include before inherit SWORD;
+
+[Tue Jun 13 23:41:52 2000] u/h/hack/aaa2.c line 2: parse error before ;
+
+[Tue Jun 13 23:44:22 2000] u/h/hack/aaa2.c line 1: Missing leading " or < in #include before inherit SWORD;
+
+[Tue Jun 13 23:44:22 2000] u/h/hack/aaa2.c line 2: parse error before ;
+
+[Tue Jun 13 23:44:48 2000] u/h/hack/aaa2.c line 1: parse error before the end of line
+
+[Tue Jun 13 23:46:54 2000] u/h/hack/aaa2.c line 2: parse error before the end of line
+
+[Tue Jun 13 23:46:54 2000] u/h/hack/aaa2.c line 2: parse error before the end of line
+
+[Tue Jun 13 23:46:58 2000] u/h/hack/aaa2.c line 2: parse error before the end of line
+
+[Tue Jun 13 23:47:02 2000] u/h/hack/aaa2.c line 2: parse error before the end of line
+
+[Tue Jun 13 23:47:04 2000] u/h/hack/aaa2.c line 2: parse error before the end of line
+
+[Thu Jul  6 01:10:06 2000] u/h/hack/room02.c line 16: parse error before open/world1/tmr/area
+
+[Thu Jul  6 01:10:06 2000] u/h/hack/room02.c line 29: End of file in string before 0,
+
+[Thu Jul  6 01:10:24 2000] u/h/hack/room02.c line 16: parse error before open/world1/tmr/area
+
+[Thu Jul  6 01:10:24 2000] u/h/hack/room02.c line 29: End of file in string before ,who,this_object());
+
+[Thu Jul  6 01:11:02 2000] u/h/hack/room02.c line 10: parse error before open/world1/tmr/area
+
+[Thu Jul  6 01:11:02 2000] u/h/hack/room02.c line 23: End of file in string before et("obje"/open/world
+
+[Thu Jul  6 01:11:34 2000] u/h/hack/room02.c line 16: parse error before open/world1/tmr/area
+
+[Thu Jul  6 01:11:34 2000] u/h/hack/room02.c line 25: End of file in string before td/room");
+
+[Thu Jul  6 01:12:58 2000] u/h/hack/room02.c line 16: parse error before open/world1/tmr/area
+
+[Thu Jul  6 01:12:58 2000] u/h/hack/room02.c line 24: End of file in string before ging/npc/""wp/sword"
+
+[Mon Jul 10 19:42:42 2000] u/h/hack/hack_b.c line 8: Warning: Unknown \ escape. before h´¹¤ù©Ò²Õ¦X¥X¨Óªº°ª¬
+
+[Mon Jul 10 20:36:32 2000] u/h/hack/coin.c line 5: parse error before  create()
+
+[Mon Jul 10 20:37:00 2000] u/h/hack/coin.c line 5: parse error before  create()
+
+[Mon Jul 10 20:37:48 2000] u/h/hack/coin.c line 2: parse error before  create()
+
+[Mon Jul 10 20:38:16 2000] u/h/hack/coin.c line 2: parse error before  create()
+
+[Mon Jul 10 20:38:36 2000] u/h/hack/coin.c line 2: parse error before  create()
+
+[Mon Jul 10 20:40:17 2000] u/h/hack/coin.c line 2: parse error before  MONEY
+
+[Wed Jul 19 22:48:28 2000] u/h/hack/test.c line 18: parse error before (); 
+
+[Mon Jul 31 23:02:46 2000] u/h/hack/test.c line 3: parse error before  create()
+
+[Mon Jul 31 23:04:18 2000] u/h/hack/test.c line 2: parse error before  create()
+
+[Mon Jul 31 23:05:06 2000] u/h/hack/test.c line 2: parse error before  create()
+
+[Mon Jul 31 23:05:42 2000] u/h/hack/test.c line 4: parse error before           
+
+[Mon Jul 31 23:06:32 2000] u/h/hack/test.c line 3: parse error before  create()
+
+[Mon Jul 31 23:06:46 2000] u/h/hack/test.c line 3: parse error before  create()
+
+[Mon Jul 31 23:08:52 2000] u/h/hack/test.c line 3: parse error before  create()
+
+[Mon Jul 31 23:10:26 2000] u/h/hack/test.c line 2: parse error before  create()
+
+[Mon Jul 31 23:11:28 2000] u/h/hack/test.c line 2: parse error before  create()
+
+[Mon Jul 31 23:11:58 2000] u/h/hack/test.c line 2: parse error before  create()
+
+[Mon Jul 31 23:15:14 2000] u/h/hack/test.c line 2: parse error before  create()
+
+[Mon Jul 31 23:16:44 2000] u/h/hack/test.c line 2: parse error before  create()
+
+[Mon Jul 31 23:18:16 2000] u/h/hack/test.c line 2: parse error before  create()
+
+[Mon Jul 31 23:18:30 2000] u/h/hack/test.c line 2: parse error before  create()
+
+[Mon Jul 31 23:18:52 2000] u/h/hack/test.c line 2: parse error before  create()
+
+[Mon Jul 31 23:19:12 2000] u/h/hack/test.c line 2: parse error before  create()
+
+[Mon Jul 31 23:19:30 2000] u/h/hack/test.c line 2: parse error before  create()
+
+[Mon Jul 31 23:20:14 2000] u/h/hack/test.c line 2: parse error before  create()
+
+[Mon Jul 31 23:20:38 2000] u/h/hack/test.c line 3: parse error before  create()
+
+[Mon Jul 31 23:23:12 2000] u/h/hack/test.c line 7: parse error before ",@LONG
+
+[Mon Jul 31 23:23:12 2000] u/h/hack/test.c line 42: End of file in string before ©Î[<¹ï¶H>]\n \n¨Ï¥Îª
+
+[Mon Jul 31 23:23:32 2000] u/h/hack/test.c line 7: parse error before ",@LONG
+
+[Mon Jul 31 23:23:32 2000] u/h/hack/test.c line 42: End of file in string before the end of line
+
+[Mon Jul 31 23:23:54 2000] u/h/hack/test.c line 7: parse error before ", "¤HÃþ");    
+
+[Mon Jul 31 23:23:54 2000] u/h/hack/test.c line 36: End of file in string before        message("worl
+
+[Mon Jul 31 23:27:42 2000] u/h/hack/test.c line 8: parse error before ", "¤HÃþ");    
+
+[Mon Jul 31 23:27:42 2000] u/h/hack/test.c line 37: End of file in string before ghstone");
+
+[Mon Jul 31 23:28:34 2000] u/h/hack/test.c line 8: parse error before ", "¤HÃþ");    
+
+[Mon Jul 31 23:28:34 2000] u/h/hack/test.c line 37: End of file in string before i¢i¢i¢i¢i¢i¢i¢i¢i¢i¢
+
+[Mon Jul 31 23:28:50 2000] u/h/hack/test.c line 8: parse error before ", "¤HÃþ");    
+
+[Mon Jul 31 23:28:50 2000] u/h/hack/test.c line 22: End of file in string before    set("no_clean_up"
+
+[Mon Jul 31 23:29:12 2000] u/h/hack/test.c line 8: parse error before ", "¤HÃþ");    
+
+[Mon Jul 31 23:29:12 2000] u/h/hack/test.c line 20: End of file in string before elp","help");
+
+[Mon Jul 31 23:29:52 2000] u/h/hack/test.c line 8: parse error before ", "¤HÃþ");    
+
+[Mon Jul 31 23:29:52 2000] u/h/hack/test.c line 18: End of file in string before            setup();
+
+[Mon Jul 31 23:30:04 2000] u/h/hack/test.c line 8: parse error before ", "¤HÃþ");    
+
+[Mon Jul 31 23:30:30 2000] u/h/hack/test.c line 8: parse error before ", "human");    
+
+[Mon Jul 31 23:30:46 2000] u/h/hack/test.c line 8: parse error before ","human");    
+
+[Mon Jul 31 23:31:30 2000] u/h/hack/test.c line 8: parse error before ","°¦");
+
+[Mon Jul 31 23:31:50 2000] u/h/hack/test.c line 9: parse error before ",50);
+
+[Mon Jul 31 23:32:08 2000] u/h/hack/test.c line 14: End of file in string before s long
+
+[Mon Jul 31 23:32:08 2000] u/h/hack/test.c line 14: parse error before s long
+
+[Mon Jul 31 23:32:46 2000] u/h/hack/test.c line 13: End of file in string before ®Ñ¬[¤W¤]¦³¨Ç´M±`¤H®a
+
+[Mon Jul 31 23:32:46 2000] u/h/hack/test.c line 13: parse error before ®Ñ¬[¤W¤]¦³¨Ç´M±`¤H®a
+
+[Mon Jul 31 23:37:00 2000] u/h/hack/test.c line 7: parse error before " ,"¡u»·¥j¬Ó«Ò °E¤×¡
+
+[Mon Jul 31 23:37:00 2000] u/h/hack/test.c line 7: Illegal terminator before »·¥j¥Íª«¡A¦­¦b½L¥j¶}
+
+[Wed Aug  2 22:39:11 2000] u/h/hack/test.c line 3: parse error before  create()
+
+[Wed Aug  2 22:39:37 2000] u/h/hack/test.c line 22: parse error before  ¥¼§¹Ä~Äò ²Ä23¦æ/¦@5
+
+[Wed Aug  2 22:39:37 2000] u/h/hack/test.c line 39: End of file in text block before mp("mob_count")>mob_
+
+[Tue Aug  8 15:55:53 2000] u/h/hack/wp/test.c line 1: parse error before the end of line
+
+[Tue Aug  8 15:56:57 2000] u/h/hack/wp/test.c line 1: parse error before the end of line
+
+[Tue Aug  8 15:58:39 2000] u/h/hack/wp/test.c line 1: parse error before the end of line
+
+[Tue Aug  8 16:01:29 2000] u/h/hack/wp/test.c line 1: "#pragma strict_types" requires type of function before "bullet_type","small
+
+[Tue Aug  8 16:01:29 2000] u/h/hack/wp/test.c line 1: parse error before ,"small")
+
+[Tue Aug  8 16:01:31 2000] u/h/hack/wp/test.c line 1: "#pragma strict_types" requires type of function before "bullet_type","small
+
+[Tue Aug  8 16:01:31 2000] u/h/hack/wp/test.c line 1: parse error before ,"small")
+
+[Tue Aug  8 16:19:48 2000] u/h/hack/wp/test.c line 1: parse error before the end of line
+
+[Tue Aug  8 16:39:49 2000] u/h/hack/³¥Ã~.c line 49: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Tue Aug  8 16:39:49 2000] u/h/hack/³¥Ã~.c line 49: Illegal to redefine 'nomask' function "query_busy" before the end of line
+
+[Tue Aug  8 16:39:49 2000] u/h/hack/³¥Ã~.c line 49: Illegal to redefine 'nomask' function "is_busy" before the end of line
+
+[Tue Aug  8 16:39:49 2000] u/h/hack/³¥Ã~.c line 49: Illegal to redefine 'nomask' function "is_block" before the end of line
+
+[Tue Aug  8 16:39:49 2000] u/h/hack/³¥Ã~.c line 49: Illegal to redefine 'nomask' function "command_hook" before the end of line
+
+[Tue Aug  8 16:39:49 2000] u/h/hack/³¥Ã~.c line 49: Illegal to redefine 'nomask' function "set_path" before the end of line
+
+[Tue Aug  8 16:39:49 2000] u/h/hack/³¥Ã~.c line 260: Warning: Non-void functions must return a value. before the end of line
+
+[Tue Aug  8 16:39:49 2000] u/h/hack/³¥Ã~.c line 272: Warning: Non-void functions must return a value. before the end of line
+
+[Tue Aug  8 16:39:49 2000] u/h/hack/³¥Ã~.c line 279: Warning: Non-void functions must return a value. before the end of line
+
+[Wed Aug 16 21:55:35 2000] u/h/hack/workroom9.c line 28: Undefined variable 'me' before ;
+
+[Wed Aug 16 21:55:35 2000] u/h/hack/workroom9.c line 30: parse error before  notify_fail("¥u¦³HA
+
+[Thu Sep 20 08:48:04 2001] u/h/hack/hack_b.c line 8: Warning: Unknown \ escape. before h´¹¤ù©Ò²Õ¦X¥X¨Óªº°ª¬
+

@@ -1,0 +1,19 @@
+
+	reload_object(3)	LP MudOSv21c7		(7 Jul 1996)
+
+	ㄧ计嘿:
+		reload_object - рン临Θ更篈.
+	ㄧ计粂猭:
+		void reload_object( object ob );
+
+		礚肚 reload_object( ン ob );
+	ㄧ计ノ猭:
+		癸 ob ㊣ reload_object() , ┮Τパ臱笆祘Α恨瞶ン
+		疭┦ (み铬 heart_beat,  场㊣ call_outs,  絬 light, 
+		潮紇 shadow 单) ㎝ず场跑计常穦穝﹍て (re-initialized),
+		礛㊣  create(). 硂ㄧΑ狦讽篟反更ン,
+		ノぃ帝合盒.
+	把σㄧ计:
+		export_uid(3), new(3), clone_object(3), destruct(3)
+	も陆亩:
+		Phoebus@ZH	97.May.26.		(Writen 5/23/97)

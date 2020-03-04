@@ -1,0 +1,7 @@
+#/obj/user.c
+ghost 1
+dbase (["disable_type":" <毫無呼吸>","exp":85330626,"talk_point":80,"dex":33,"hp":1,"int":8,"bellicosity":0,"fork":100,"bank":(["past":9974522,]),"startroom":"/open/world2/lichi_town_2/map_5_26","con":43,"str":50,"newbie":1,"age":25,"attitude":"peaceful","heart_beat_rate":6,"volume":7,"evil":-1,"MKS":1,"wound":(["right_leg":0,"left_arm":0,"body":0,"head":0,"right_arm":0,"left_leg":0,]),"addition_shield":10,"mud_age":1000575,"mob_record":({"/open/world1/tmr/area/npc/too",}),"da-fork":100,"family":(["generation":7,"family_name":"八極門","privs":-1,"title":"俠客",]),"class1":"八極門","DS_DATA_VERSION":19991107,"ap":675,"addition_armor":10,"unarmed":100,"cure_count":11,"max_hp":900,"gender":"男性","id":"justlooklook","name":"來看看而已","heart_modify":0,"mp":1,"max_mp":150,"guild_gifts":({10,7,0,3,}),"horse-steps":100,"max_ap":675,"guild_rank":"八極門之仗義江湖","adv_class":1,"last_location":"/open/world2/anfernee/start/prayroom","addition_damage":10,"dodge":100,"unit":"位","channels":({"chat","rumor","tchat",}),"supply_point":521,"actions":,"Merits":(["sou":1,"wit":0,"tec":1,"bio":2,"bar":3,]),"default_actions":,"level":25,"race":"human","combat_exp":9000000,"bagi_fist":100,"title":"八極門第七代俠客","birthday":1073038423,])
+skills (["combat":2,"unarmed":100,"dodge":99,"da-fork":99,"parry":99,"fork":100,"horse-steps":100,"bagi_fist":99,])
+learned (["combat":0,])
+alias (["p":"exert bagi_fist","1":"drink soup",])
+autoload ({})

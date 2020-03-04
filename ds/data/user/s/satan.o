@@ -1,0 +1,10 @@
+#/obj/user.c
+conditions (["ill_fashao":18,])
+dbase (["mp":210,"DS_DATA_VERSION":19991107,"cure_count":15,"Merits":(["bio":0,"bar":0,"tec":0,"wit":0,"sou":0,]),"ap":260,"attitude":"peaceful","popularity":2963,"skill":(["literate":37,"strong-body":37,]),"talk_point":20,"supply_point":140,"channels":({"chat","rumor","tchat",}),"putjail_time":(["1":1,]),"newbie":1,"exp":29484400,"dex":8,"int":8,"max_ap":260,"con":8,"addition":(["int":2,"con":2,]),"volume":7,"war_art":4444,"level":5,"unit":"¦ì","birthday":1166054670,"heart_beat_rate":6,"max_hp":260,"default_actions":,"age":34,"evil":-1,"addition_shield":10,"actions":,"board_last_read":(["jail_board":1167004206,"tmr_hotel_b":1170811545,"anoounce_b":1166067438,]),"wimpy":40,"addition_armor":10,"nickname":"[1;31m¾Ô  ¯«[0m","env":([]),"mud_age":1795858,"hp":260,"race":"evil","last_location":"/open/world1/tmr/gumu/mumen","disable_type":" <²@µL©I§l>","bank":(["past":228900,]),"wound":(["right_arm":0,"body":0,"right_leg":0,"left_leg":0,"left_arm":0,"head":0,]),"addition_damage":10,"heart_modify":0,"id":"satan","guild_rank":"¥|³B¬y®öªº«_ÀIªÌ","startroom":"/open/world1/tmr/area/hotel","guild_gifts":({5,5,5,5,}),"gender":"¨k©Ê","max_mp":210,"str":8,"name":"¨¸´c¤§¤l",])
+skills (["literate":39,"block":24,"blade":25,"whip":25,"chess":39,"dagger":25,"sword":24,"fork":24,"hammer":25,"axe":24,"unarmed":25,"parry":24,"dodge":25,"swim":39,"strong-body":39,"anti_poison":4,"staff":25,])
+learned (["literate":0,"swim":0,"chess":0,"strong-body":0,"anti_poison":12,])
+items ({})
+alias (["4":"do k frog,k frog 2,k frog 3,k frog 4","/":"recall start","p":"do eat pill,!,!,!,!,!,!,!,!,!,!,!,!,!,!","6":"do k fisher,k fisher 2,k fisher 3,k fisher 4","2":"do k farmer,k farmer 2","5":"do k villager,k villager 2,k villager 3,k villager 4,k seller","3":"do k traveler,k traveler 2","a":"get all","home":"do look off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,enter,n,n,n,n,n,n,n,n,look on,l","1":"do k dove,k dove 2,k dove 3,k dove 4,k too,k uo",])
+autoload ({})
+toDoList ([])
+solved ({})

@@ -1,0 +1,5 @@
+¥Ø¿ý¡R/open/world1/moonhide/westarea/npc/obj/
+axe.c               ¯}                  blade.c             ¹Ú                
+fist.c              ±þ                  pike.c              ­â                
+staff.c             ©ö                  sword.c             ÅQ                
+whip.c              ¬y                  

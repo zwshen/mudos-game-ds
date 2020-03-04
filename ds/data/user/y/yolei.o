@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions ([])
+dbase (["DS_DATA_VERSION":19991107,"max_mp":135,"age":14,"max_hp":120,"race":"celestial","heart_beat_rate":6,"addition_armor":10,"mob_record":({"/open/world1/tmr/area/npc/dog","/open/world1/cominging/area/npc/traveller","/open/world1/cominging/area/npc/traveller","/open/world1/cominging/area/npc/traveller","/open/world1/cominging/area/npc/traveller","/open/world1/cominging/area/npc/child","/open/world1/cominging/area/npc/traveller","/open/world1/cominging/area/npc/traveller","/open/world1/cominging/area/npc/traveller","/open/world1/cominging/area/npc/traveller","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove",}),"war_score":2,"channels":({"chat","rumor","tchat",}),"default_actions":,"bank":(["past":8,]),"mp":135,"unit":"¦ì","war_art":0,"talk_point":8,"birthday":1213080834,"wimpy":20,"hp":28,"volume":7,"id":"yolei","MKS":12,"guild_gifts":({5,5,5,5,}),"wound":(["left_leg":0,"right_leg":0,"right_arm":0,"head":0,"left_arm":0,"body":0,]),"newbie":1,"addition_damage":10,"addition_shield":10,"exp":210,"dex":2,"max_ap":90,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"gender":"¨k©Ê","int":3,"ap":83,"mud_age":1829,"name":"·n«¨","con":4,"str":2,"level":1,"last_location":"/open/world1/tmr/area/street4","cure_count":2,"evil":5,"startroom":"/open/world1/tmr/area/hotel","combat_exp":1,"popularity":0,"actions":,"attitude":"peaceful","heart_modify":0,"supply_point":60,])
+skills (["combat":5,"dodge":2,"parry":1,"unarmed":4,])
+learned (["combat":59,"dodge":14,"parry":1,"unarmed":21,])
+items ({})
+autoload ({"/obj/money/coin:1560",})
+toDoList ([])
+solved ({})

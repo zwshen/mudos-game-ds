@@ -1,0 +1,7 @@
+#/obj/user.c
+conditions ([])
+dbase (["talk_point":8,"heart_beat_rate":6,"DS_DATA_VERSION":19991107,"evil":-1,"last_location":"/open/world1/tmr/area/street4","cure_count":9,"mp":60,"unit":"位","heart_modify":0,"max_mp":60,"ap":60,"supply_point":58,"age":14,"addition_armor":10,"guild_gifts":({5,5,5,5,}),"channels":({"chat","rumor","tchat",}),"default_actions":,"mud_age":434,"addition_shield":10,"hp":80,"race":"human","actions":,"max_ap":60,"Merits":(["bar":0,"bio":0,"tec":0,"sou":0,"wit":0,]),"volume":7,"attitude":"peaceful","newbie":1,"addition_damage":10,"exp":777,"id":"sht","wound":(["left_arm":0,"body":0,"right_arm":0,"left_leg":0,"head":0,"right_leg":0,]),"dex":2,"help":"class/","int":2,"con":2,"startroom":"/open/world1/tmr/area/hotel","board_last_read":(["tmr_hotel_b":1218603803,]),"max_hp":80,"level":1,"gender":"男性","str":2,"birthday":1219246038,"name":"文泰來",])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["int":2,"DS_DATA_VERSION":19991107,"con":2,"str":2,"actions":,"max_hp":80,"Merits":(["bio":0,"sou":0,"wit":0,"bar":0,"tec":0,]),"max_mp":60,"gender":"男性","default_actions":,"name":"刀隨風","last_location":"/open/world1/tmr/area/highstone","cure_count":0,"guild_gifts":({5,5,5,5,}),"race":"human","channels":({"chat","rumor","tchat","bala",}),"mud_age":312,"attitude":"peaceful","wound":(["left_arm":0,"right_arm":0,"left_leg":0,"right_leg":0,"body":0,"head":0,]),"evil":-1,"id":"dreamcast","level":1,"addition_shield":10,"birthday":1149013812,"heart_beat_rate":6,"talk_point":8,"addition_damage":10,"addition_armor":10,"max_ap":60,"volume":7,"age":14,"supply_point":40,"startroom":"/open/world1/tmr/area/hotel","hp":80,"ap":60,"unit":"位","newbie":1,"heart_modify":0,"mp":56,"exp":777,"dex":2,])
+autoload ({"/obj/money/coin:21",})

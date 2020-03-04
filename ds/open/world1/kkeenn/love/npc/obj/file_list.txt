@@ -1,0 +1,16 @@
+¥Ø¿ý¡R/open/world1/kkeenn/love/npc/obj/
+armor.c             ¯P±¡                ash.c               ¦ÇÂu              
+blood_whip.c        ¦åÅ]Ã@              dragon_whip.c       Às¤ýÃ@            
+ghost_whip.c        ¸ÞÃÔÃ@              letter.c            §®ªkªº®a«H        
+obj.c               ±¡µKÄl              pill0.c             ÅÜ©Ê¤¦            
+pill1.c             ¯u¤¦                pill10.c            °\\­L©öµ¬¤Y       
+pill2.c             µ¶¤¦                pill3.c             ÆF¤¦              
+pill4.c             ªá¤¦                pill5.c             ªï¤¦              
+pill6.c             ªÛ¤¦                pill7.c             »T¤¦              
+pill8.c             ¤§¤¦                pill9.c             ¡i                
+ten_pearl.c         ¤Q¤è¸t¯]            well.c              ¤ô¤«              
+whip0.c             ®ðÃ@                whip1.c             ¦ËÃ@              
+whip2.c             ºë¿ûÃ@              whip3.c             ³nÃ@              
+whip4.c             ³tÃ@                whip5.c             ¹Ú±¡Ã@            
+whip6.c             ÅQ¤ÑÃ@              whip7.c             »Rµ´Ã@            
+

@@ -1,0 +1,8 @@
+¥Ø¿ý¡R/open/world1/cominging/area/npc/wp/
+axe.c               ©òÀY                book.c              ½Ò¥»              
+broadsword.c        Áï¼C                dagger.c            ¤P­º              
+halbert.c           ªø´u                longsword.c         ªø¼C              
+oldsword.c          ¡i¥j¼C¡j            sevenstar.c         ¤C¬P­Ë®p¼C        
+shangsword.c        °ÓÁô¼C              steelsword.c        ¿û¬X¼C            
+woodensword.c       ¤ì¼C                zithern.c           ¥jºå              
+

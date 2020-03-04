@@ -1,0 +1,16 @@
+
+	query_snoop(3)		LP MudOSv21c7	(7 Jul 1996)
+
+	函數名稱:
+		query_snoop() - 傳回誰正在監聽指定的互動 (interactive) 物件.
+	函數語法:
+		object query_snoop( object ob );
+
+		物件 query_snoop( 物件 ob );
+	函數用法:
+		如果互動物件 ob 正被另一個互動物件監聽, 就傳回監聽者物件.
+		如果沒有監聽者, 則傳回 0.
+	參考函數:
+		snoop(3), query_snooping(3)
+	手冊翻譯:
+		Phoebus@ZH	97.May.1.		(Writen 5/23/97)

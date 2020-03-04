@@ -1,0 +1,6 @@
+#/obj/user.c
+conditions ([])
+dbase (["dex":2,"supply_point":38,"int":2,"guild_gifts":({5,5,5,5,}),"con":2,"str":2,"evil":11,"last_location":"/open/world1/tmr/area/hotel","addition_damage":10,"channels":({"chat","rumor","tchat",}),"age":14,"race":"human","level":1,"max_hp":80,"ap":60,"talk_point":8,"birthday":1113294839,"cure_count":19,"actions":,"attitude":"peaceful","mud_age":295,"max_mp":60,"volume":7,"startroom":"/open/world1/tmr/area/hotel","gender":"男性","id":"godden","combat_exp":4,"MKS":5,"name":"神神小","newbie":1,"mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"default_actions":,"DS_DATA_VERSION":19991107,"addition_shield":10,"addition_armor":10,"hp":80,"heart_beat_rate":6,"unit":"位","mp":60,"max_ap":60,"Merits":(["sou":0,"wit":0,"tec":0,"bio":0,"bar":0,]),"exp":1389,])
+skills (["unarmed":2,"combat":4,"dodge":2,])
+learned (["unarmed":18,"combat":15,"dodge":4,])
+autoload ({})

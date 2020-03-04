@@ -1,0 +1,1429 @@
+豐富的ROOM
+ 2002-11-28   
+
+
+可以想像，一個簡單的ROOM是比較簡單的，但是MUD不可能只是擁有
+
+這種簡單的房間（以後來討論簡單房間的可行性）。
+
+所以，現在我們必須來制做複雜一點的房間。
+
+在制作前，我們先來看一個efuns函數：
+
+函數名稱:
+
+add_action() - 把區域函式 (local function) 加進
+
+玩家可用的命令動詞 (command verb).
+
+函數語法:
+
+void add_action( string ︱ function fun, string ︱ string
+
+*cmd, int flag );
+
+無回傳值 add_action( 字串 或 函數 fun, 字串 或 字串
+
+*cmd, 整數 flag );
+
+函數用法:
+
+當玩家鍵入與 <cmd> 符合的命令時, 呼叫區域函數
+
+(local function) fun. 玩家命令中所打的參數 (argument),
+
+會以字串傳入被呼叫到的函式. 如果命令錯誤, 則傳回 0,
+
+沒錯則必須傳回 1.
+
+如果第二個參數是一個陣列, 則所有在陣列中的命令會呼叫
+
+第二個函式. 你可以用 query_verb() 找出呼叫函式的命令.
+
+如果是錯誤的命令, 則會繼續搜尋其他的命令, 直到找到相
+
+符的命令、參數或傳回錯誤訊息給玩家.
+
+通常 add_action() 只會被 init() 的程序呼叫. 有定義附
+
+加命令的物件必須是玩家可以接觸到的: 玩家物件本身、被
+
+玩家攜帶、玩家所處的房間、或是與玩家處於同一個房間的
+
+物件.
+
+如果參數 <flag> 是 1 , 只要參數前面的字元 (leading
+
+characters) 符合動作命令 <cmd> 即可, 而整個動作命令
+
+的字元 (entire verb) 會由 query_verb() 傳回. 如果參
+
+數是 2 , 結果同前, 但是 query_verb() 只會傳回 <cmd>
+
+後面的字元 (characters following <cmd>).
+
+參考函數:
+
+query_verb(), remove_action()
+
+　
+
+這個函數，將幫助房間具備除了常規指令以外的功能。
+
+一般情況下，格式如下：
+
+void init()
+
+{
+
+add_action(\"do_jump\", \"jump\");
+
+}
+
+在使用add_action來豐富房間的時候，我們需要了解我們MUD所具備的指令，
+
+盡量不要使用指令來作為動作，比如go look say等等，當然，不是說不可以。
+
+這種動作一般都需要interactive的才能激活，如果玩家昏迷後進入，那麼可
+
+能無法繼承這個動作。
+
+如果我們設置了這麼一個動作，就要為這個動作添加一個函數，
+
+假設我們這裡有塊石頭，可以跳上去。OK,來做個函數，
+
+int do_jump(string arg)
+
+{
+
+object me,room;
+
+int dodge;
+
+if (!arg ︱︱ (arg!=\"石頭\" && arg!=\"stone\"))
+
+return 0;
+
+me = this_player();
+
+dodge = me->query_skill(\"dodge\",1);
+
+if (dodge < 50)
+
+return notify_fail(\"啊呀，太高了，你跳不上去。\");
+
+message_vision(\"￥N吸了口氣，輕輕一躍，跳到了大石頭上。\");
+
+room = find_object(__DIR__\"stone\");
+
+if (!room) room = load_object(__DIR__\"stone\");
+
+me->move(room);
+
+message(\"vision\",me->name() + \"從石頭下跳了上來。\", room ,me);
+
+return 1;
+
+}
+
+/* 我們解釋一下 */
+
+int do_jump(string arg)
+
+//這是動作函數的一般模式
+
+{
+
+object me,room;
+
+//一般都需要這個定義 如果不需要就去掉 別留多餘的變量存在
+
+int dodge;
+
+//我們也許需要一些條件
+
+if (!arg ︱︱ (arg!=\"石頭\" && arg!=\"stone\"))
+
+return 0;
+
+/* 這裡有很多選擇，
+
+我們可以返回 0，這樣是不會有錯的，但是玩家不太容易發覺這裡的秘密
+
+我們也可以返回 錯誤提示 比如：
+
+return notify_fail(\"你要跳到什麼地方去？\");
+
+如果指令表中有jump這個指令，又不想使用指令中的效果，那麼在這裡我們必須返回1
+
+可以這樣子寫：
+
+{
+
+write(\"你要跳到什麼地方去？\");
+
+return 1;
+
+}
+
+當然，即使沒有jump這個指令，jump這個emote也會因為return 1而無效。
+
+如果我打算讓這裡隱秘一點，我會使用return 0;
+
+*/
+
+me = this_player();
+
+dodge = me->query_skill(\"dodge\",1);
+
+//定義生效，盡量不要保留不使用的變量。只有你要用到，才去定義。
+
+if (dodge < 50)
+
+return notify_fail(\"啊呀，太高了，你跳不上去。\");
+
+//最簡單的條件判斷，玩家已經知道了秘密，當然需要適當的提示。
+
+message_vision(\"￥N吸了口氣，輕輕一躍，跳到了大石頭上。\");
+
+//顯示跳躍的動作描寫
+
+room = find_object(__DIR__\"stone\");
+
+//尋找石頭上面的那個空間
+
+if (!room) room = load_object(__DIR__\"stone\");
+
+//沒有的話載入
+
+/* 這裡我們使用了find_object()和load_object()
+
+find_object()用來在內存中尋找物件 load_object()則是載入
+
+new()這個函數一般是用來復制物件的，npc item room最常用到。
+
+　
+
+如果我們不想這麼麻煩 那麼
+
+me->move(__DIR__\"stone\"); 也是可以的
+
+　
+
+QC人員在監測的時候，一定要注意這種文件跳轉是否正確
+
+因為這種東西不會在update中被監測出來。
+
+*/
+
+me->move(room);
+
+message(\"vision\",me->name() + \"從石頭下跳了上來。\", room ,me);
+
+/*
+
+如果是我自己跳，當然不用看到這句話。
+
+message(\"vision\")有很多格式，
+
+一般都是 message(\"vision\", 描寫, 接受訊息的空間, 不接受訊息的空間);
+
+這裡的描寫要注意，￥N ￥n等等是不起作用的。
+
+　
+
+如果想使用
+
+message(\"vision\",me->name() + \"從石頭下跳了上來。\", room);
+
+那麼為了不讓自己接受到這個訊息，最好把
+
+me->move(__DIR__\"stone\");
+
+放在這句話後面，不然的話，你已經在這個room中，會收到的。
+
+*/
+
+return 1;
+
+//成功的話，別忘了返回1
+
+}
+
+動作就是這樣被做出來了。以後我們將在指令或者更深入lib內部的時候，來考慮
+
+不依賴add_action的可能性。一般情況下，巫師對於add_action以及各種形式的
+
+call_out是必須熟悉的。不然沒法理解更深刻的東西。
+
+MUD處理命令的時候，是先搜索當前玩家的command，包括可以接觸到的add_action和
+
+一般的cmds。
+
+往往是後來的add_action優先被觸發，如果成功，就結束，不然，就會繼續查找符合的
+
+動作。然後才是一般指令，最後的chat類型指令以及emote.
+
+在這裡，各個層次的cmds使用各種的notify_fail，而只有最後一個notify_fail才會
+
+被忠實的反饋給玩家。
+
+比如我優先使用了
+
+notify_fail(\"哈哈\");
+
+然後調用一個函數 do_fun()，這個函數返回了一個
+
+notify_fail(\"嘿嘿\");
+
+那麼，當我們
+
+return 0;
+
+的時候，我們會接受到 \"嘿嘿\"，而不是\"哈哈\"
+
+如果do_fun()這個函數返回了一個 0
+
+那麼，當我們
+
+return 0;
+
+的時候，我們會接受到 \"哈哈\",
+
+當然，如果我們最後不是 return 0;而是return notify_fail(\"哈哈\");
+
+接受到的，當然是\"哈哈\"。
+
+　
+
+房間的動作是豐富房間的一個方法之一，接下來，我們看看
+
+void init() 這個函數在房間中的使用。
+
+相信，這個熟悉了。呵呵
+
+//room example
+
+#include <ansi.h>
+
+inherit ROOM;
+
+void create()
+
+{
+
+set(\"short\", \"暗室\");
+
+set(\"long\", @LONG
+
+你走進了商殷寶藏的一個暗室，不知道為什麼，這裡沒有任何出路，
+
+你只能在這裡等待死亡的到來。
+
+LONG
+
+);
+
+setup();
+
+}
+
+　
+
+void init()
+
+{
+
+message_vision(HIR\"突然從牆壁上射出幾只箭刺中了￥N。\"NOR,this_player());
+
+this_player()->unconcious();
+
+}
+
+//over
+
+通常，只要是接觸，init()就會被激活，包括npc和玩家。
+
+有時候，我們常init()中加入 interactive()判斷來過濾npc，這樣可以避免一些
+
+不必要的麻煩和可能存在的bug，當然，你必須很清楚自己時候需要過濾掉npc。
+
+這個ROOM通過init()，構架了一個簡單的機關，當然，這個機關缺乏判斷性。
+
+那麼，我們再來看一個複雜判斷的機關：
+
+//room example
+
+#include <ansi.h>
+
+inherit ROOM;
+
+void create ()
+
+{
+
+set (\"short\", \"林間小路\");
+
+set (\"long\", @LONG
+
+樹林深處更靜了，四周的樹木又細又高，使林中顯得極為昏暗。一股肅殺
+
+之氣瀰漫在樹林中，令人心寒。
+
+LONG);
+
+set(\"exits\", ([
+
+\"south\" : __DIR__\"lin04\",
+
+\"north\": __DIR__\"lin06\",
+
+]));
+
+setup();
+
+}
+
+void init()
+
+{
+
+object ob,room;
+
+//如果玩家從南方進入，伏擊他！！
+
+if( interactive( ob = this_player()) && ob->query_temp(\"wangsha/wfrom\")==\"south\"){
+
+if(ob->query(\"class\") != \"assassin\" ) //非可入者！殺！！
+
+{
+
+tell_room(this_object(),HIY\"忽然一股殺氣襲來，你抬頭望去，只見一個人影挾著劍氣飛掠而下。\"NOR);
+
+　
+
+if(random(10) > ob->query_temp(\"wangsha/errorgo\") + 5 ) //不中，嘻嘻
+
+{
+
+message(\"vision\",HIB\"那人劍勢如虹，一劍直取\"+ob->name()+HIB\"，\"+ob->name()+HIB\"卻極為鎮定，居然一動不動！！\"NOR,environment(ob),ob);
+
+tell_object(ob,HIB\"你只覺一股凌厲刺骨的劍氣襲來，驚恐之下，竟四肢無力，不及迴避，眼見將被一劍擊中！！\"NOR);
+
+　
+
+message(\"vision\",HIB\"眼見那人將一劍命中，卻忽然劍勢一領，貼著\"+ob->name()+HIB\"飛掠而起，驚落一片枯葉。一襲亮光照下來，那人卻已不見了！！\"NOR,environment(ob), ob);
+
+tell_object(ob,HIB\"那人卻忽然劍勢一領，幾乎是貼著你鼻尖飛掠而起，驚落一片枯葉。一股寒氣襲來，不禁打了個冷顫，那人卻已不見了！！\"NOR);
+
+tell_object(ob,HIB\"你恍恍惚惚之間，猶覺對方一雙眼睛仍冷冷的盯著你，宛如盯著一個死人！！\"NOR);
+
+}else //sign,中獎了
+
+{
+
+message(\"vision\",HIR\"那人劍勢如虹，一劍直取\"+ob->name()+HIR\"，只聽一聲慘叫，\"+ob->name()+HIR\"已被一劍刺翻在地！！\"NOR,environment(ob), ob);
+
+　
+
+tell_object(ob,HIR\"你只覺一股凌厲刺骨的劍氣襲來，不及迴避，已被一劍擊中！！\"NOR);
+
+ob->receive_damage(\"kee\",ob->query(\"kee\"),ob);
+
+COMBAT_D->report_status(ob);
+
+tell_object(ob,HIY\"你恍恍惚惚之間，只覺對方一雙眼睛冷冷的盯著你，宛如盯著一個死人！！\"NOR);
+
+ob->unconcious();
+
+message(\"vision\",HIB\"那人一劍命中，毫不停留，一把抄起\"+ob->name()+HIB\"，飛掠而起，不驚落一片枯葉。一襲亮光照下來，那人卻已不見了！！\"NOR,environment(ob), ob);
+
+if(!( room = find_object(__DIR__\"road03\")) )
+
+room = load_object(__DIR__\"road03\");
+
+ob->move(room);
+
+ob->delete_temp(\"wangsha/errorgo\");
+
+ob->delete_temp(\"wangsha/wfrom\");
+
+message(\"vision\",HIB\"你眼前一花，似覺一個黑影如巨蝠般掠過，定睛一看，眼前竟多了一個昏迷不醒之人！！\"NOR,environment(ob),ob);
+
+}
+
+}
+
+}
+
+}
+
+　
+
+int valid_leave(object me, string dir)
+
+{
+
+me->delete_temp(\"wangsha/wfrom\");
+
+return 1;
+
+}
+
+//over
+
+在前面提到的message()函數在這裡得到了使用。
+
+這裡還用到了一個函數 tell_object()
+
+通常，message(\"vision\",訊息,room) 和 tell_object(room,訊息)效果是
+
+一樣的。問題不是很大，不過tell_object()沒法過濾訊息。
+
+如果在一個call_out中，需要發訊息給玩家，一般建議使用tell_object()
+
+而不是簡單的使用write()等等。
+
+這個文件中，出現了 valid_leave() 這個函數，這個內定的函數在玩家打算
+
+離開這個房間時被觸發。（如果你看不過去，把room.c這個繼承中的這個函數名改了）
+
+由於這裡我們沒有使用 門(door) 這種東西，所以可以簡單的return 1
+
+如果在一個有門的room中設計 valid_leave 函數，最後建議使用
+
+return ::valid_leave(me,dir);
+
+來避免bug，比如在npc身上設計死亡函數die()的時候，除非你不想處理npc死後的
+
+任何後事，大可以使用
+
+return 1;
+
+不然的話，強烈建議使用
+
+::die();
+
+return 1;
+
+::的具體含義我忘記了，意思大概就是往下一層(所繼承的文件)調用當前同名函數。
+
+如果繼承中沒有同名函數，就不能用::了。
+
+比如房間中的函數reset()
+
+void reset()
+
+{
+
+::reset();
+
+...
+
+其他處理
+
+...
+
+return 1;
+
+}
+
+人物身上的函數init()
+
+void init()
+
+{
+
+::init();
+
+...
+
+其他處理
+
+...
+
+return 1;
+
+}
+
+說到reset()，嗯，又是一個可以將房間變得豐富多彩的函數。
+
+與npc身上的init()類似，ROOM繼承中本身就還有這個函數。而且可以說
+
+是一個很重要的函數。
+
+一般情況下，reset()不管在room還是在npc，都會被按時的執行。這一點
+
+類似init()，不管room還是npc，只要接觸，都會觸發init()。
+
+由於NPC繼承中不包含reset()函數，所以不需要::reset();而大多數的
+
+情況下，room中加上定制的reset()都需要加一行::reset()，除非你非常
+
+清楚再做什麼。
+
+讓我們來看一個例子：
+
+//example
+
+void reset()
+
+{
+
+object *inv;
+
+object con, item;
+
+int i;
+
+::reset();
+
+con = present(\"book shelf\", this_object());
+
+inv = all_inventory(con);
+
+if(!sizeof(inv)) {
+
+item = new(__DIR__\"obj/force-book\");
+
+item->move(con);
+
+item = new(__DIR__\"obj/unarmed-book\");
+
+item->move(con);
+
+item = new(__DIR__\"obj/staff-book\");
+
+item->move(con);
+
+item = new(__DIR__\"obj/stick-book\");
+
+item->move(con);
+
+item = new(__DIR__\"obj/blade-book\");
+
+item->move(con);
+
+}
+
+}
+
+首先需要::reset()
+
+讓room中的無用物件消失，npc產生或者歸位，等等
+
+然後就是判斷有沒有 book shelf 存在，一般用來作為這種容器的
+
+id判斷，不要使用單一的id，使用含有空格的id或者中文名字比較
+
+保險，因為現在玩家能定制的東西越來越多，所以要考慮這一點。
+
+這是手工更新房間的方式，因為以前的ROOM繼承都沒有方法更新容器裡的。
+
+一般使用reset()來定制room的時候，主要是為了控制item在MUD中的更新
+
+速度和數量。
+
+我們接下來，再來看一個init()的應用。
+
+// init() example
+
+void init()
+
+{
+
+add_action(\"do_climb\", ({\"climb\",\"pa\"}));
+
+if( this_player() ) {
+
+tell_room(__DIR__\"shushang\", this_player()->name() + \"往樹下走了過來。\");
+
+}
+
+}
+
+int do_climb(string arg)
+
+{
+
+object me = this_player();
+
+object room;
+
+if(!arg) return 0;
+
+if(arg!=\"漢柏\" && arg!=\"tree\" ) return 0;
+
+if(random(me->query(\"kar\"))< 15 ) {
+
+write(\"你兩手攀著漢柏樹幹，費勁地往上爬，一不小心，你摔了下來！\");
+
+return 1;
+
+}
+
+room = find_object(__DIR__\"shushang\");
+
+if (!room)
+
+room = load_object(__DIR__\"shushang\");
+
+message_vision(\"￥N兩手攀著漢柏樹幹，費勁地爬了上去！\",me);
+
+message(\"vision\", \"只見\"+me->query(\"name\")+\"吃力地從下面爬上來。\",room );
+
+me->move(room);
+
+return 1;
+
+}
+
+int valid_leave(object me, string dir)
+
+{
+
+tell_room(__DIR__\"shushang\",\"樹下的\" + me->name() + \"往\" + GO_CMD->to_dir_cn(dir) + \"離開了。\");
+
+return 1;
+
+}
+
+//over
+
+這些函數都已經做了說明，就不一一講解了。
+
+這裡要注意 GO_CMD->to_dir_cn()這個函數，一般的MUD可能沒有。
+
+一般而言，go.c這個指令中都含有下面的mapping
+
+mapping default_dirs = ([
+
+\"north\": \"北\",
+
+\"south\": \"南\",
+
+\"east\": \"東\",
+
+\"west\": \"西\",
+
+\"northup\": \"北邊\",
+
+\"southup\": \"南邊\",
+
+\"eastup\": \"東邊\",
+
+\"westup\": \"西邊\",
+
+\"northdown\": \"北邊\",
+
+\"southdown\": \"南邊\",
+
+\"eastdown\": \"東邊\",
+
+\"westdown\": \"西邊\",
+
+\"northeast\": \"東北\",
+
+\"northwest\": \"西北\",
+
+\"southeast\": \"東南\",
+
+\"southwest\": \"西南\",
+
+\"up\": \"上\",
+
+\"down\": \"下\",
+
+\"out\": \"外\",
+
+\"enter\": \"內\",
+
+]);
+
+只要在 go.c 添加這個，就可以實現出口中文化。
+
+string to_dir_cn(string dir)
+
+{
+
+if (undefinedp(default_dirs[dir]))
+
+return dir;
+
+return default_dirs[dir];
+
+}
+
+　
+
+因為我打算放棄chinese.o才這麼做的，如果MUD使用to_chinese，那麼只要改成
+
+to_chinese(dir)
+
+就可以了。
+
+這裡實現的是，從一個room觀察另外一個room的功能，比如了望塔什麼的。
+
+有時候，一個空間有一種包含在另外一個空間中的場景，比如衣櫃內，花叢中，
+
+如果這些地方允許玩家進入，那麼放入這樣的效果，會讓人更清楚的感受到
+
+空間的變化。
+
+ROOM繼承有很大一部分，是關於door的設計，door的變量被拿到了dbase以外，
+
+使用一連串的函數，來完成door的處理。
+
+我們來看一個簡單的門：
+
+//room example
+
+#include <room.h>
+
+inherit ROOM;
+
+void create()
+
+{
+
+set(\"short\", \"巫師交誼廳\");
+
+set(\"long\", @LONG
+
+這裡是巫師聊天討論的地方，如果巫師們要開會的話，也多半會選在這
+
+裡舉行，往東是巫師會客室。北面是一道厚實的大鐵門。
+
+LONG
+
+);
+
+set(\"exits\", ([ /* sizeof() == 2 */
+
+\"east\" : __DIR__\"jobroom\",
+
+\"down\" : \"/d/city/ciensi\",
+
+\"north\" : __DIR__\"jail\",
+
+]));
+
+set(\"valid_startroom\", 1);
+
+set(\"no_magic\", 1);
+
+setup();
+
+call_other(\"/obj/board/wizard_b\", \"???\");
+
+create_door(\"north\", \"大鐵門\", \"south\", DOOR_CLOSED);
+
+}
+
+void init()
+
+{
+
+if(!wizardp(this_player()))
+
+this_player()->move(\"/d/city/ciensi\");
+
+}
+
+//over
+
+create_door()這個函數用來創建一個門。
+
+格式很簡單：
+
+create_door(方向，門的中文名稱，反方向，狀態);
+
+創建門的時候，這個room的路徑設置函數必須包含有門這個方向。
+
+比如這里門往北開，那麼set(\"exits\")的時候，要有north的屬性，
+
+狀態，一般而言都是DOOR_CLOSED，這個可以在 room.h中查到。
+
+所以在包含有門的設計中，一定要記住包含這個庫
+
+#include <room.h>
+
+如果你不想包含，就直接使用 1 來代替 DOOR_CLOSED
+
+不過，這不是我所想建議的。
+
+如果你在一個房間中使用了door,那麼門過去的那個房間也需要有門，
+
+我們看看上面穿過門到達的jail是什麼樣子的：
+
+//room example
+
+#include <room.h>
+
+#include <ansi.h>
+
+inherit ROOM;
+
+void create()
+
+{
+
+set(\"short\", HIR\"死囚室\"NOR);
+
+set(\"long\", @LONG
+
+這是一間專門關閉被判處死刑或終身監禁者的房間。四周
+
+牆壁皆由鋼鐵鑄成，只有南邊才有一個碗口大的小窗口。窗口上還停
+
+著一只信天翁。
+
+LONG
+
+);
+
+set(\"exits\", ([ /* sizeof() == 2 */
+
+\"south\" : __DIR__\"hall\",
+
+]));
+
+set(\"objects\",([
+
+\"/obj/xtbird\" : 1,
+
+]));
+
+set(\"no_magic\",1);
+
+setup();
+
+create_door(\"south\", \"大鐵門\", \"north\", DOOR_CLOSED);
+
+}
+
+void init()
+
+{
+
+if(!wizardp(this_player())) {
+
+add_action(\"block_cmd\", \"\", 1);
+
+}
+
+}
+
+int block_cmd(string args)
+
+{
+
+string verb;
+
+verb = query_verb();
+
+if(verb == \"quit\" ︱︱ verb == \"look\") return 0;
+
+write(\"監獄的生活真苦呀！！\");
+
+return 1;
+
+}
+
+//over
+
+OK,我們看到這裡的door設置和hall中，正好相反，門的設置總是一對一對的。
+
+不然就容易出錯。
+
+呵呵 這裡還多了一個關於動作的函數，我們順便說一下：
+
+當動作中使用 \"\" 一個空字符串來作為觸發時，將接受玩家的所有指令。
+
+query_verb()是判斷玩家輸入了什麼指令，這個非常有用，因為我們不必
+
+為每一個動作寫不同的函數。我們在以後深入lib的時候，來介紹他的一些
+
+應用。
+
+不知道到底有多少MUD保留了我概念中的ROOM繼承，不過我還是在這裡說一說：
+
+我們看一個例子：
+
+//room example
+
+#include <room.h>
+
+inherit ROOM;
+
+void create()
+
+{
+
+mapping doors;
+
+set(\"short\",\"荒蕪的大廳\");
+
+set(\"long\",@LONG
+
+地上的石板堆積了厚厚的塵土，四周空蕩蕩的，一張椅子也沒有。
+
+風吹過來，發出嗚嗚的聲音。東面有一間很小的花屋。
+
+LONG
+
+);
+
+set(\"exits\",([
+
+\"southwest\":__DIR__\"town11\",
+
+\"east\": __DIR__\"town13\",
+
+]));
+
+setup();
+
+create_door(\"east\", \"木門\", \"west\", DOOR_CLOSED︱DOOR_LOCKED);
+
+set_door(\"east\",\"lock\",\"hua_key\");
+
+}
+
+　
+
+　
+
+void reset()
+
+{
+
+::reset();
+
+close_door(\"east\");
+
+lock_door(\"east\", \"hua_key\");
+
+}
+
+//over
+
+這裡有一扇鎖上門的房間，花屋。只有玩家拿到相應的鑰匙，才能使用unlock指令
+
+打開這扇門。每次refresh，這扇門就自動關上鎖上。
+
+有時候，open door這種形式，也可以使用一種不依賴繼承中設定的door來制作，
+
+我們來看一個例子：
+
+void init()
+
+{
+
+add_action(\"do_push\",\"push\");
+
+}
+
+int do_push(string arg)
+
+{
+
+object ob;
+
+if(!arg ︱︱ (arg !=\"門杼\" && arg !=\"men\") )
+
+return notify_fail(\"你要推什麼\");
+
+if(query(\"exits/west\"))
+
+return notify_fail(\"門是開的!\");
+
+if((int)this_player()->query_skill(\"unarmed\") < 100 && (int)this_player()->query(\"force\")<100){
+
+write(\"你推了推卻紋絲沒動.\");
+
+return 1;
+
+}
+
+message_vision(\"￥N使勁一推，門抒被推到了地上.\",this_player());
+
+set(\"exits/west\",__DIR__\"street1\");
+
+　
+
+tell_room(__DIR__\"damen\",\"嘰呀一聲，大門輕輕閃開了一道縫隙.....\");
+
+ob = find_object(__DIR__\"street1\");
+
+if (!ob) ob = load_object(__DIR__\"street1\");
+
+　
+
+ob->set(\"exits/east\",__DIR__\"damen\");
+
+tell_room(ob,\"有人從裡面把大門打開了。\");
+
+return 1;
+
+}
+
+void reset()
+
+{
+
+object ob;
+
+::reset();
+
+this_object()->delete(\"exits/west\");
+
+if (ob = find_object(__DIR__\"street1\"))
+
+ob->set(\"exits/east\",__DIR__\"menwei\");
+
+}
+
+//over
+
+這個動作加上 reset()函數，實現了一道門的開關。
+
+通過push men，可以打開門通往street1，reset()以後，門自動關閉。
+
+damen street1之間的門，通過動作和場景描寫，可以讓玩家感受到，
+
+而不一定單單依靠傳統的門。
+
+顯然這樣的動作，還可以用來打開暗道的入口什麼的，如果覺得reset時間過長，
+
+我們來看下面這個例子：
+
+//room example
+
+#include <room.h>
+
+inherit ROOM;
+
+void create()
+
+{
+
+set(\"short\",\"花房\");
+
+set(\"long\",@LONG
+
+花房裡蛛網密佈，角落裡堆著些破爛的花盆、枯葉、木炭，此外就什
+
+麼也沒有了。風吹著窗戶，吱吱作響，風從破了的窗紙裡吹進來，就
+
+像是一只冰冷的鬼的爪子，在摸你的背脊。屋子裡到處都積著灰塵，
+
+像是已許久沒有人來過！
+
+LONG
+
+);
+
+set(\"exits\",([
+
+\"west\": __DIR__\"town12\",
+
+]));
+
+set(\"item_desc\" , ([
+
+\"蛛網\" : \"蛛網在風中飄搖，有些蛛網巳被風吹斷了，蜘蛛正忙著在重新繪起。但有一張蛛網，任憑風怎麼吹，卻動也不動。\",
+
+]));
+
+setup();
+
+create_door(\"west\", \"木門\", \"east\", DOOR_CLOSED︱DOOR_LOCKED);
+
+set_door(\"west\",\"lock\",\"hua_key\");
+
+}
+
+void init()
+
+{
+
+add_action(\"do_pull\",\"pull\");
+
+}
+
+int do_pull(string arg)
+
+{
+
+object me = this_player();
+
+　
+
+if (!arg ︱︱ arg!=\"蛛網\"){
+
+write(\"你不可以拉\"+ arg + \"\");
+
+return 1;
+
+}
+
+message_vision(\"￥N發現這面蛛網竟是以極細的鎢金絲做成的！￥N立刻一躍而起，將這面蛛網─拉。\",me);
+
+message_vision(\"只聽“格”的一聲，接著，又是一連串‘格格”聲響，蛛網下的一堆枯柴突然緩緩移動，露出一個洞來！\",me);
+
+　
+
+tell_object(me,\"你也曾見過許多設計巧妙的秘密機關，但卻從未見過有任何一處比這更巧妙、更秘密。\");
+
+　
+
+if( !query(\"exits/enter\") ) {
+
+set(\"exits/enter\", __DIR__\"huaroom\");
+
+if(!me->query(\"m_success/花房\"))
+
+{
+
+me->set(\"m_success/花房\",1);
+
+me->add(\"score\",3000);
+
+}
+
+call_out(\"close_path\", 1);
+
+}
+
+return 1;
+
+}
+
+void close_path()
+
+{
+
+if( !query(\"exits/enter\") ) return;
+
+message(\"vision\",\"枯柴無聲無息的合了起來﹒\", this_object() );
+
+delete(\"exits/enter\");
+
+}
+
+//over
+
+這裡可以看到一個MUD的常用函數，呵呵。
+
+call_out(\"close_path\", 1);
+
+這個函數的格式如下：
+
+函數名稱:
+
+call_out() - 延遲呼叫同一個物件中的函式.
+
+函數語法:
+
+void call_out( string ︱ function fun, int delay,
+
+mixed arg );
+
+函數用法:
+
+設定在 this_object() 中, 延遲 delay 秒呼叫函式 fun.
+
+而 arg 當作參數傳入 fun 中.
+
+請注意, 你不能在 fun 中呼叫 write() 或 say(), 因為
+
+this_player() 被設定成 0. 你可以用 tell_object()
+
+代替.
+
+如果在 driver 的 options.h 中定義
+
+THIS_PLAYER_IN_CALL_OUT, 就可以解決這個問題.
+
+參考函數:
+
+remove_call_out(), call_out_info()
+
+這裡，是延時 1 秒，呼叫 close_path這個函數。
+
+那麼，隔了一秒鐘，這個出口就被關閉了。
+
+call_out常規下，只能呼叫本文件的函數，如果要呼叫文件以外的函數，就需要
+
+用到call_other()。不過call_other沒有延時參數。
+
+函數名稱:
+
+call_other() - 呼叫在另一個物件中的函式.
+
+函數語法:
+
+unknown call_other( object ob ︱ object *obs,
+
+string func ︱ mixed *args, ... );
+
+函數用法:
+
+用可以選擇的參數 (argument) 呼叫另一個物件中的函式.
+
+傳回值要視被呼叫的函式而定, 所以使用此一函式時最好
+
+檢查傳回值. func 是物件 ob 中被呼叫的函式名稱, 而
+
+第三個、第四個... 等等的參數, 則會傳入 func 中, 當
+
+成 func 的第一個、第二個參數. 在 call_other() 中,
+
+如果第一個參數是一個物件陣列, call_other() 就會逐
+
+一呼叫它們, 而傳回值也會變成一個陣列. 如果第二個參
+
+數是一個陣列, 那陣列中的第一個元素 (element) 必須
+
+是一個字串 (即要呼叫的函式) , 而其他的元素就會被當
+
+成要傳入此函式的參數.
+
+這裡有個使用 call_other() 更好的方法:
+
+object ob 或 object *obs -> func( ... );
+
+例:
+
+call_other( ob, \"query\", \"name\" );
+
+可以寫成
+
+ob->query(\"name\");
+
+如果 call_other() 的第二的參數是一個陣列, 也可以把
+
+上例寫成:
+
+call_other( ob, ({ \"query\", \"name\" }));
+
+這裡有一個使用陣列的例子:
+
+users()->quit();
+
+以後我們深入lib的時候，會更多的接觸到這些函數。
+
+對於room中的物件，我們來看一個控制數量的方法：
+
+//room example
+
+inherit ROOM;
+
+void create()
+
+{
+
+set(\"short\", \"山洞\");
+
+set(\"long\",@LONG
+
+黑不隆冬的，什麼也看不清，潮濕且幽深。
+
+LONG
+
+);
+
+set(\"outdoors\", \"tianzhu\");
+
+set(\"exits\",([
+
+\"west\" : __DIR__\"midtree\",
+
+]));
+
+setup();
+
+}
+
+void init()
+
+{
+
+add_action(\"do_search\", \"search\");
+
+}
+
+int do_search(string arg)
+
+{
+
+int kar;
+
+object wood;
+
+if(!arg) {
+
+kar = this_player()->query(\"kar\");
+
+if(random(kar+500) < kar && query(\"research\")) {
+
+message_vision(\"在黑暗中￥N四處摸索，突然￥N觸到了石壁上的一塊什麼東西。\", this_player());
+
+message_vision(\"￥N立刻拿起納入懷中。\", this_player());
+
+wood = new(__DIR__\"obj/blackwood\");
+
+wood->move(this_player());
+
+set(\"research\",0);
+
+return 1;
+
+}
+
+}
+
+return notify_fail(\"你在黑暗中四處摸索，卻甚麼都沒發現。\");
+
+}
+
+void reset()
+
+{
+
+if(!random(25)) set(\"research\",1);
+
+}
+
+//over
+
+reset()函數在room一開始的setup()就會被呼叫一次，然後每次refresh也都
+
+會被呼叫一次。
+
+由於clean_up的存在，類似上面這種標記為主的，就要以 1 為準，不然，每次
+
+被clean掉，玩家一進入這個room， 標記又為零了。
+
+這個room中包含search這個動作，並且成功的概率，為25次refresh時間，成功
+
+一次。與reboot無關。除非你非常自信，不會經常當機，不然的話，不要太相信，
+
+好東西reboot一次一個的概念。
+
+到這裡，制作一般的room應該已經沒問題了。在制作含有動作的，含有room移動的
+
+room時，要注意前後文面名的關聯，不要做了move(XXX)，卻忘了制作對應的房間。
+
+作為動作的函數，一定要注意返回值，成功的話盡量return 1,不成功則return 0;
+
+如果制作與指令衝突的動作，一定要仔細考慮，以免鬧出笑話。如果只是在指令面前
+
+加上自定義的判斷，那麼可以return 0 以免重複編寫代碼。 
+
+
+
+原作者： darks 
+來 源： 不詳 
+

@@ -1,0 +1,10 @@
+#/obj/user.c
+conditions ([])
+dbase (["attitude":"peaceful","DS_DATA_VERSION":19991107,"heart_beat_rate":6,"ap":270,"mp":125,"talk_point":81,"adv_class":1,"channels":({"chat","rumor","tchat","god",}),"newbie":1,"unit":"¦ì","exp":153,"wound":(["right_arm":0,"body":0,"right_leg":0,"left_leg":0,"left_arm":0,"head":0,]),"dex":26,"int":15,"max_ap":920,"con":43,"default_actions":,"addition_shield":10,"level":25,"birthday":1146491332,"actions":,"max_mp":300,"volume":7,"evil":-1,"cure_count":19,"addition_armor":10,"max_hp":986,"title":"¯e­·ªù²Ä¥|¥N§Ì¤l","popularity":350,"addition_damage":10,"age":14,"supply_point":510,"mud_age":937,"Merits":(["bio":2,"bar":3,"tec":1,"wit":1,"sou":0,]),"env":(["report_action":1,]),"hp":290,"race":"evil","bank":(["past":170127,]),"class1":"¯e­·ªù","family":(["title":"§Ì¤l","family_name":"¯e­·ªù","generation":4,"privs":-1,]),"id":"ttoopp","guild_gifts":({5,7,0,8,}),"guild_rank":"[1;36m¹ñÅSÀY¨¤ªº¯e­·¤H[0m","board_last_read":(["anoounce_b":1241931489,"tmr_hotel_b":1244532831,"club_god_2":1241721003,"club_god_1":1241430517,]),"startroom":"/open/world1/tmr/area/hotel","last_location":"/open/world1/god_club/ladder-1","gender":"¨k©Ê","str":38,"name":"§Ó¯T","heart_modify":0,"war_art":0,])
+skills (["moon_force":1,"sword":75,"fogseven":75,"force":75,"unarmed":50,"parry":75,])
+learned (["moon_force":0,])
+items ({})
+alias (["t":"recall start",])
+autoload ({"/open/always/god_mark",})
+toDoList ([])
+solved ({})

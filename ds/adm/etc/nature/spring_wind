@@ -1,0 +1,64 @@
+#  Spring rainny day phase
+#  The definition of day phase
+#  Format:
+#       length          length of the phase in seconds
+#       time_msg        msg sent to outdoors user at phase starts
+#       desc_msg        desc looked during the period before next phase
+#       event_fun       the function is called in NATURE_D at the phase starts
+#
+#  Phase starts at 0:00 every day
+#
+#  Note the length of a phase is in minutes of a day.
+#
+
+# The two lines defines the data format in 2 lines as
+#
+#  field1:field2:field3....
+#  format1:format2:format3....
+#
+
+length:time_msg:desc_msg:event_fun
+%d:%s:%s:%s
+
+# The following lines are data, each non-blank line will fill in each field
+# in each record sequently.
+
+240
+[36m¾¤©ú®Éªº²M·sªÅ®ð²M²M²n²n
+[36m¤Ó¶§­è±qªF¤èªº¦a¥­½u¤É°_
+event_dawn
+
+120
+[1;32m·L­·±aµÛ¤@Á\ªd¤gªºªÚ­»§j¤F°_¨Ó¡A¤Ñ¥ú©ñ«G¤F
+[1;32m°_­·¤F¡A·sµoªÞªºªK¸­¦b­·¤¤«Õ¶®ªº·n¤|µÛ
+event_sunrise
+
+180
+[1;32m·L­·¦ü¦³¦üµL¡AÄÆ©¿¤£©w¡Cµ·µ·¬hµ¶º©º©ÄÆ¿º¡A¨S¦³¸¨³B
+[1;32m­·¨à¦b¾ð¶¡¯ó¤¤»´§ÖªºÄÆ°ÊµÛ¡A¤j¦aº¥º¥ªx°_¤F«C¦â
+event_morning
+
+180
+[1;32m¤w¸g¬O¥¿¤È¤F¡A­·º¥º¥¦a¦í¤F¡A¤j¦a¤@¤ù·sºñÁcºa
+[1;32m¥¿¤Èªº¤Ó¶§·Ó±o¤j¦a¤@¤ù«CºñµL²P
+event_noon
+
+180
+[1;37m¤Ó¶§º¥º¥¦è±×¡A¶§¥ú¦b»a»Aªº¸­­±¤W¤Ï®g¥X·ÅÄÉªº[1;32mºñ·N
+[1;37m¤Ó¶§¥¿°ª±¾¦b¦è¤èªº¤ÑªÅ¤¤
+event_afternoon
+
+180
+[1;37m³Ä±ß¤F¡A¾ð¤W­è­è[1;32mµoªÞªº·sºñ¹à¸­[1;37m¦b­·¤¤»´»´·n¤|µÛ
+[1;37m³Ä±ßªº©M­·§j©ØµÛ[1;32mµoªÞªº¹à¸­[1;37m¡A¦b­·¤¤·n¤|µÛ
+event_evening
+
+120
+[1;34m©]±ß­°Á{¤F¡A»·»·ªñªñªº¤@ÂIÂI[1;33m¿O¤õ[1;34m«G°_
+[1;34m©]¹õÅ¢¸nµÛ¤j¦a
+event_night
+
+240
+[34m¤w¸g¬O¤È©]¤F¡A¬K©]ªº¬PªÅ¦³¤@ºØ¤À¥~ªº·Å±¡¡AÅý§A·Q°_±y»·¥H«eªº¬G¨Æ
+[34m©]¹õ§C««¡Aº¡¤Ñ[1;37mÁc¬P
+event_midnight

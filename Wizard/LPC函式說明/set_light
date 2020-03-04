@@ -1,0 +1,14 @@
+
+	set_light(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		set_light() - 更改或詢問一個物件的照明程度 (light level).
+	函數語法:
+		int set_light( int light_level_adjustment );
+
+		整數 set_light( 整數 light_level_adjustment );
+	函數用法:
+		將 light_level_adjustment 指定為 0, 則詢問物件目前的
+		照明程度. 指定為正整數則增加照明的程度, 負整數降低.
+	手冊翻譯:
+		Phoebus@ZH	97.Jul.21.		(Writen 5/23/97)

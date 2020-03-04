@@ -1,0 +1,663 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清华站∶精华区</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+<A Name="top"></a>
+发信人:&nbsp;nightwatch&nbsp;(夜游神),&nbsp;信区:&nbsp;Mud_Builder&nbsp;<BR>
+标&nbsp;&nbsp;题:&nbsp;在MUD中增加HTTP和FTP服务(8)&nbsp;<BR>
+发信站:&nbsp;BBS&nbsp;水木清华站&nbsp;(Tue&nbsp;Jan&nbsp;26&nbsp;18:38:21&nbsp;1999)&nbsp;WWW-POST&nbsp;<BR>
+&nbsp;<BR>
+以下是我在MUD中编写的一些在MUDLIB中实现&nbsp;<BR>
+HTTP服务和FTP服务的程序&nbsp;<BR>
+&nbsp;<BR>
+以下部分在校园网已经测试通过。有兴趣的话请帮&nbsp;<BR>
+我查查BUG.&nbsp;<BR>
+&nbsp;<BR>
+如果你想在你的MUD中用这些程序的话，把你的&nbsp;<BR>
+Email和MUD服务器地址端口告诉我吧。&nbsp;<BR>
+&nbsp;<BR>
+<A HREF="MailTo:"></A>&nbsp;hhx_<A HREF="mailto:imu@263.net">imu@263.net</A>&nbsp;<BR>
+&nbsp;<BR>
+----------------------------------------------------------------&nbsp;<BR>
+&nbsp;<BR>
+请看FTP第二部分：&nbsp;<BR>
+&nbsp;<BR>
+void&nbsp;ftp_data_close(object&nbsp;sock)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;if&nbsp;(!sending_info[sock])&nbsp;<BR>
+	return;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;if&nbsp;((STYPE&amp;MASK_INOUT)!=IN)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(SCLIENT,&quot;226&nbsp;Abort&nbsp;successful.\n&quot;);&nbsp;<BR>
+	log_ftp(&quot;Sending&nbsp;closed&nbsp;by&nbsp;peer&quot;,sock);&nbsp;<BR>
+	delete_sending(sock);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	if&nbsp;(SAPPEND==-1)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(SCLIENT,sprintf(&quot;226&nbsp;Transfer&nbsp;complete&nbsp;(unique&nbsp;file&nbsp;&nbsp;<BR>
+name:%s).\n&quot;,SFILE[(strlen(SCLIENT[&quot;root&quot;])-1)..])&nbsp;);&nbsp;<BR>
+	else&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(SCLIENT,&quot;226&nbsp;Transfer&nbsp;complete.\n&quot;&nbsp;);&nbsp;<BR>
+	log_ftp(&quot;Receiving&nbsp;closed&nbsp;by&nbsp;peer&quot;,sock);&nbsp;<BR>
+	delete_sending(sock);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;ftp_data_connection(object&nbsp;socket,string&nbsp;data,string&nbsp;&nbsp;<BR>
+name,int&nbsp;type)&nbsp;<BR>
+{&nbsp;<BR>
+	int&nbsp;ret;&nbsp;<BR>
+	int&nbsp;len;&nbsp;<BR>
+	string&nbsp;p;&nbsp;<BR>
+	mapping&nbsp;xx;&nbsp;<BR>
+	if&nbsp;(!UPASV)&nbsp;<BR>
+	{&nbsp;<BR>
+	if&nbsp;(!UADDR||!UPORT)&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(socket,&quot;425&nbsp;Can't&nbsp;open&nbsp;data&nbsp;connection.\n&quot;&nbsp;);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;return;&nbsp;<BR>
+	}&nbsp;<BR>
+	p=sprintf(&quot;%s&nbsp;%d&quot;,UADDR,UPORT);&nbsp;<BR>
+	if&nbsp;(type==STRING||UTYPE==ASCII)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ret=catch(UDATA=new(SOCKET,SKT_STYLE_CONNECT,p,(:&nbsp;ftp_data_read&nbsp;:),(:&nbsp;&nbsp;<BR>
+ftp_data_close:)));&nbsp;<BR>
+	else&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ret=catch(UDATA=new(SOCKET,SKT_STYLE_CONNECT_B,p,(:&nbsp;ftp_data_read&nbsp;:),(:&nbsp;&nbsp;<BR>
+ftp_data_close:)));&nbsp;<BR>
+	if&nbsp;(!UDATA||ret)&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(socket,&quot;425&nbsp;Can't&nbsp;build&nbsp;data&nbsp;connection.\n&quot;&nbsp;);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;return;&nbsp;<BR>
+	}&nbsp;<BR>
+	refresh_sending(UDATA,socket);&nbsp;<BR>
+	xx=USEND;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;xx=ULISTEN;&nbsp;<BR>
+	if&nbsp;(type==STRING)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;xx[&quot;type&quot;]=STRING|ASCII;&nbsp;<BR>
+	else&nbsp;<BR>
+	if&nbsp;(UTYPE==ASCII)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;xx[&quot;type&quot;]=FILE|ASCII;&nbsp;<BR>
+	else&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;xx[&quot;type&quot;]=FILE|BINARY;&nbsp;<BR>
+	xx[&quot;type&quot;]|=OUT;&nbsp;<BR>
+	xx[&quot;data&quot;]=data;&nbsp;<BR>
+	if&nbsp;(type==STRING)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;xx[&quot;pos&quot;]=0;&nbsp;<BR>
+	else&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;xx[&quot;pos&quot;]=UREST;&nbsp;<BR>
+	UREST=0;&nbsp;<BR>
+	if&nbsp;(type==STRING)&nbsp;<BR>
+	&nbsp;&nbsp;len=strlen(data);&nbsp;<BR>
+	else&nbsp;<BR>
+	&nbsp;&nbsp;len=file_size(data)-xx[&quot;pos&quot;];&nbsp;<BR>
+	if&nbsp;(UDATA&amp;&amp;UPASV)&nbsp;<BR>
+	&nbsp;&nbsp;USEND=xx;&nbsp;<BR>
+	ftp_send(socket,sprintf(&quot;150&nbsp;Opening&nbsp;%s&nbsp;mode&nbsp;data&nbsp;connection&nbsp;for&nbsp;%s&nbsp;&quot;&nbsp;<BR>
+		&nbsp;&nbsp;&quot;(%d&nbsp;bytes).\n&quot;,xx[&quot;type&quot;]&amp;BINARY?&quot;BINARY&quot;:&quot;ASCII&quot;,&nbsp;name,len));&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(UDATA)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	log_ftp(&quot;Sending&nbsp;connected&quot;,UDATA);&nbsp;<BR>
+	UDATA-&gt;set_write_callback(&nbsp;(:ftp_data_write:)&nbsp;);&nbsp;<BR>
+	if&nbsp;((USEND[&quot;type&quot;]&amp;MASK_FILE)==FILE)&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;mixed&nbsp;x;&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;x=ftp_data_write(UDATA);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(UDATA)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;	UDATA-&gt;send(x);&nbsp;<BR>
+	}&nbsp;<BR>
+	else&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;UDATA-&gt;send(replace_string(data,&quot;\n&quot;,&quot;\r\n&quot;));&nbsp;<BR>
+	}&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;ftp_read_connection(object&nbsp;socket,string&nbsp;file,int&nbsp;&nbsp;<BR>
+append)&nbsp;<BR>
+{&nbsp;<BR>
+	int&nbsp;ret;&nbsp;<BR>
+	int&nbsp;len;&nbsp;<BR>
+	string&nbsp;p;&nbsp;<BR>
+	mapping&nbsp;xx;&nbsp;<BR>
+	if&nbsp;(!UPASV)&nbsp;<BR>
+	{&nbsp;<BR>
+	if&nbsp;(!UADDR||!UPORT)&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(socket,&quot;425&nbsp;Can't&nbsp;open&nbsp;data&nbsp;connection.\n&quot;&nbsp;);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;return;&nbsp;<BR>
+	}&nbsp;<BR>
+	p=sprintf(&quot;%s&nbsp;%d&quot;,UADDR,UPORT);&nbsp;<BR>
+	if&nbsp;(UTYPE==ASCII)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ret=catch(UDATA=new(SOCKET,SKT_STYLE_CONNECT,p,(:&nbsp;ftp_data_read&nbsp;:),(:&nbsp;&nbsp;<BR>
+ftp_data_close:)));&nbsp;<BR>
+	else&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ret=catch(UDATA=new(SOCKET,SKT_STYLE_CONNECT_B,p,(:&nbsp;ftp_data_read&nbsp;:),(:&nbsp;&nbsp;<BR>
+ftp_data_close:)));&nbsp;<BR>
+	if&nbsp;(!UDATA||ret)&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(UDATA)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;destruct(UDATA);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(socket,&quot;425&nbsp;Can't&nbsp;build&nbsp;data&nbsp;connection.\n&quot;&nbsp;);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;return;&nbsp;<BR>
+	}&nbsp;<BR>
+	refresh_sending(UDATA,socket);&nbsp;<BR>
+	xx=USEND;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;xx=ULISTEN;&nbsp;<BR>
+	xx[&quot;type&quot;]=UTYPE;&nbsp;<BR>
+	xx[&quot;data&quot;]=file;&nbsp;<BR>
+	xx[&quot;append&quot;]=append;&nbsp;<BR>
+	len=file_size(file);&nbsp;<BR>
+	if&nbsp;(append==1&amp;&amp;len&gt;=0)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;xx[&quot;pos&quot;]=len;&nbsp;<BR>
+	else&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;xx[&quot;pos&quot;]=0;&nbsp;<BR>
+	if&nbsp;(append!=1&amp;&amp;len&gt;=0)&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;catch(write_file(file,&quot;&quot;,1));&nbsp;<BR>
+	}&nbsp;<BR>
+	xx[&quot;type&quot;]|=IN;&nbsp;<BR>
+	if&nbsp;(UDATA&amp;&amp;UPASV)&nbsp;<BR>
+	&nbsp;&nbsp;USEND=xx;&nbsp;<BR>
+	log_ftp(&quot;Receiving&nbsp;connected&quot;,UDATA);&nbsp;<BR>
+	ftp_send(socket,sprintf(&quot;150&nbsp;Opening&nbsp;%s&nbsp;mode&nbsp;data&nbsp;connection&nbsp;for&nbsp;%s.\n&quot;,&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;xx[&quot;type&quot;]&amp;BINARY?&quot;BINARY&quot;:&quot;ASCII&quot;,file[(strlen(UROOT)-1)..]));&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;int&nbsp;check_valid_write(&nbsp;string&nbsp;fname,&nbsp;object&nbsp;socket)&nbsp;<BR>
+{&nbsp;<BR>
+	int&nbsp;res,&nbsp;l;&nbsp;<BR>
+&nbsp;<BR>
+	/*&nbsp;<BR>
+	&nbsp;*&nbsp;prevent&nbsp;non-admin&nbsp;users&nbsp;from&nbsp;removing&nbsp;.message&nbsp;files&nbsp;<BR>
+	&nbsp;*/&nbsp;<BR>
+#ifdef&nbsp;MESSAGE_FILES&nbsp;<BR>
+	if&nbsp;(SECURITY_D-&gt;get_status(UNAME)!=&quot;(admin)&quot;)&nbsp;<BR>
+	{&nbsp;<BR>
+		if(&nbsp;(l&nbsp;=&nbsp;strlen(fname))&nbsp;&gt;=&nbsp;strlen(MESSAGE_FILES)&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&amp;&amp;&nbsp;fname[l-strlen(MESSAGE_FILES)..l-1]&nbsp;==&nbsp;MESSAGE_FILES)&nbsp;<BR>
+			return&nbsp;0;&nbsp;<BR>
+	}&nbsp;<BR>
+#endif&nbsp;<BR>
+&nbsp;<BR>
+	seteuid(UNAME);&nbsp;<BR>
+	res&nbsp;=&nbsp;(int)&nbsp;MASTER_OB&nbsp;-&gt;&nbsp;valid_write(fname,&nbsp;this_object(),&nbsp;&quot;write_file&quot;);&nbsp;<BR>
+	seteuid(&nbsp;getuid()&nbsp;);&nbsp;<BR>
+&nbsp;<BR>
+#ifdef&nbsp;WRITE_LEVEL&nbsp;<BR>
+#if&nbsp;WRITE_LEVEL&nbsp;==&nbsp;VALID_WRITE&nbsp;<BR>
+	return&nbsp;res;&nbsp;<BR>
+#elif&nbsp;WRITE_LEVEL&nbsp;==&nbsp;RESTRICTED_WRITE&nbsp;<BR>
+	if&nbsp;(strsrch(fname,&nbsp;HOME_DIR(&nbsp;UNAME&nbsp;))&nbsp;==&nbsp;0&nbsp;<BR>
+#ifdef&nbsp;PUB_DIR&nbsp;<BR>
+		&nbsp;&nbsp;||&nbsp;strsrch(fname,&nbsp;PUB_DIR)&nbsp;==&nbsp;0&nbsp;<BR>
+#endif&nbsp;<BR>
+#ifdef&nbsp;FTP_DIR&nbsp;<BR>
+		&nbsp;&nbsp;||&nbsp;strsrch(fname,&nbsp;FTP_DIR)&nbsp;==&nbsp;0&nbsp;<BR>
+#endif&nbsp;<BR>
+		&nbsp;&nbsp;)&nbsp;<BR>
+		return&nbsp;res;&nbsp;<BR>
+	else&nbsp;<BR>
+		return&nbsp;0;&nbsp;<BR>
+#elif&nbsp;WRITE_LEVEL&nbsp;==&nbsp;READ_ONLY&nbsp;<BR>
+	return&nbsp;0;&nbsp;<BR>
+#else&nbsp;<BR>
+	//&nbsp;default&nbsp;<BR>
+	return&nbsp;res;&nbsp;<BR>
+#endif&nbsp;<BR>
+#else&nbsp;<BR>
+	//&nbsp;default&nbsp;<BR>
+	return&nbsp;res;&nbsp;<BR>
+#endif&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;int&nbsp;check_valid_read(&nbsp;string&nbsp;fname,object&nbsp;socket)&nbsp;<BR>
+{&nbsp;<BR>
+	int&nbsp;res;&nbsp;<BR>
+&nbsp;<BR>
+	seteuid(UNAME);&nbsp;<BR>
+	res&nbsp;=&nbsp;(int)&nbsp;MASTER_OB&nbsp;-&gt;&nbsp;valid_read(fname,&nbsp;this_object(),&nbsp;&quot;read_file&quot;);&nbsp;<BR>
+	seteuid(&nbsp;getuid()&nbsp;);&nbsp;<BR>
+&nbsp;<BR>
+#ifdef&nbsp;READ_LEVEL&nbsp;<BR>
+#if&nbsp;READ_LEVEL&nbsp;==&nbsp;VALID_READ&nbsp;<BR>
+	return&nbsp;res;&nbsp;<BR>
+#elif&nbsp;READ_LEVEL&nbsp;==&nbsp;RESTRICTED_READ&nbsp;<BR>
+	if&nbsp;(strsrch(fname,&nbsp;HOME_DIR(&nbsp;UNAME&nbsp;))&nbsp;==&nbsp;0&nbsp;<BR>
+#ifdef&nbsp;PUB_DIR&nbsp;<BR>
+		&nbsp;&nbsp;||&nbsp;strsrch(fname,&nbsp;PUB_DIR)&nbsp;==&nbsp;0&nbsp;<BR>
+#endif&nbsp;<BR>
+#ifdef&nbsp;FTP_DIR&nbsp;<BR>
+		&nbsp;&nbsp;||&nbsp;strsrch(fname,&nbsp;FTP_DIR)&nbsp;==&nbsp;0&nbsp;<BR>
+#endif&nbsp;<BR>
+		&nbsp;&nbsp;)&nbsp;<BR>
+		return&nbsp;res;&nbsp;<BR>
+	else&nbsp;<BR>
+		return&nbsp;0;&nbsp;<BR>
+#elif&nbsp;READ_LEVEL&nbsp;==&nbsp;WRITE_LIMIT_READ&nbsp;<BR>
+	return&nbsp;check_valid_write(&nbsp;fname,socket);&nbsp;<BR>
+#else&nbsp;<BR>
+	//&nbsp;default&nbsp;<BR>
+	return&nbsp;res;&nbsp;<BR>
+#endif&nbsp;<BR>
+#else&nbsp;<BR>
+	//&nbsp;default&nbsp;<BR>
+	return&nbsp;res;&nbsp;<BR>
+#endif&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;int&nbsp;check_access(string&nbsp;name)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;string&nbsp;file;&nbsp;<BR>
+&nbsp;<BR>
+#ifdef&nbsp;FTP_USERS&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!sizeof(FTP_USERS))&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;0;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;(member_array(name,&nbsp;FTP_USERS)&nbsp;!=&nbsp;-1)&nbsp;?&nbsp;1&nbsp;:&nbsp;0;&nbsp;<BR>
+#else&nbsp;//&nbsp;FTP_USERS&nbsp;<BR>
+&nbsp;<BR>
+#ifdef&nbsp;ANONYMOUS_FTP&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(ANONYMOUS(name))&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;1;&nbsp;<BR>
+#endif&nbsp;//&nbsp;ANONYMOUS_FTP&nbsp;<BR>
+#ifdef&nbsp;GUEST_WIZARD_FTP&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;member_array(name,SECURITY_D-&gt;get_wizlist())!=-1?1:0;&nbsp;<BR>
+#else&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;directory_exists(HOME_DIR(name));&nbsp;<BR>
+#endif&nbsp;//&nbsp;GUEST_WIZARD_FTP&nbsp;<BR>
+#endif&nbsp;//&nbsp;FTP_USERS&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;int&nbsp;check_email(string&nbsp;email)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;string&nbsp;name,site,lead;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;i;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!email)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;0;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(sscanf(email,&quot;%s@%s&quot;,name,site)!=2)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;0;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(member_array(name,({&nbsp;&quot;none&quot;,&quot;unknown&quot;,&quot;guest&quot;,&quot;anonymous&quot;,&nbsp;}))!=-1)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;0;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;i=0;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;while&nbsp;(name[i]&gt;='a'&amp;&amp;name[i]&lt;='z'&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;||name[i]&gt;='A'&amp;&amp;name[i]&lt;='Z'&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;||name[i]&gt;='0'&amp;&amp;name[i]&lt;='9'&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;||name[i]=='_'&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;||name[i]=='-'&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;||name[i]=='.')&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i++;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(i&lt;strlen(name))&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;0;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(sscanf(site,&quot;%s.&quot;,lead)!=1)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;0;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(member_array(lead,({&nbsp;&quot;none&quot;,&quot;unknown&quot;,&quot;guest&quot;,&quot;anonymous&quot;,&nbsp;}))!=-1)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;0;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;i=0;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;while&nbsp;(site[i]&gt;='a'&amp;&amp;site[i]&lt;='z'&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;||site[i]&gt;='A'&amp;&amp;site[i]&lt;='Z'&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;||site[i]&gt;='0'&amp;&amp;site[i]&lt;='9'&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;||site[i]=='_'&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;||site[i]=='-'&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;||site[i]=='.')&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i++;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(i&lt;strlen(site))&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;0;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;1;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;int&nbsp;check_password(string&nbsp;name,&nbsp;string&nbsp;plaintext)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;string&nbsp;fancytext,&nbsp;cpass;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;object&nbsp;login_ob;&nbsp;<BR>
+&nbsp;<BR>
+#ifdef&nbsp;ANONYMOUS_FTP&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(ANONYMOUS(name))&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;check_email(plaintext);&nbsp;<BR>
+#endif&nbsp;/*&nbsp;ANONYMOUS_FTP&nbsp;*/&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;login_ob&nbsp;=&nbsp;new(LOGIN_OB);&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;seteuid(ROOT_UID);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;login_ob-&gt;set(&quot;id&quot;,&nbsp;name);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;seteuid(getuid());&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;login_ob-&gt;restore();&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;fancytext&nbsp;=&nbsp;(string)login_ob-&gt;query(&quot;password&quot;);&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;destruct(login_ob);&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!fancytext&nbsp;||&nbsp;!plaintext)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;0;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;cpass&nbsp;=&nbsp;crypt(plaintext,&nbsp;fancytext);&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;(cpass&nbsp;==&nbsp;fancytext);&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;int&nbsp;*&nbsp;ip_to_num(string&nbsp;ip)&nbsp;<BR>
+{&nbsp;<BR>
+	string&nbsp;*&nbsp;k;&nbsp;<BR>
+	int&nbsp;*&nbsp;v=allocate(4);&nbsp;<BR>
+	int&nbsp;i;&nbsp;<BR>
+	k=explode(ip,&quot;.&quot;);&nbsp;<BR>
+	for(i=0;i&lt;4&amp;&amp;i&lt;sizeof(k);i++)&nbsp;<BR>
+	{&nbsp;<BR>
+		if&nbsp;(!k[i]||k[i]==&quot;*&quot;)&nbsp;<BR>
+		&nbsp;&nbsp;v[i]=-1;&nbsp;<BR>
+		else&nbsp;<BR>
+		&nbsp;&nbsp;sscanf(k[i],&quot;%d&quot;,v[i]);&nbsp;<BR>
+	}&nbsp;<BR>
+	for(;i&lt;4;i++)&nbsp;<BR>
+	{&nbsp;<BR>
+		v[i]=-1;&nbsp;<BR>
+	}&nbsp;<BR>
+	return&nbsp;v;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;string&nbsp;default_ip_mask(string&nbsp;ip)&nbsp;<BR>
+{&nbsp;<BR>
+	int&nbsp;*&nbsp;k;&nbsp;<BR>
+	int&nbsp;*&nbsp;v=allocate(4);&nbsp;<BR>
+	int&nbsp;i;&nbsp;<BR>
+	k=ip_to_num(ip);&nbsp;<BR>
+	for(i=0;i&lt;4;i++)&nbsp;<BR>
+	{&nbsp;<BR>
+		if&nbsp;(k[i]!=-1)&nbsp;<BR>
+		&nbsp;&nbsp;v[i]=255;&nbsp;<BR>
+		else&nbsp;<BR>
+		&nbsp;&nbsp;v[i]=0;&nbsp;<BR>
+	}&nbsp;<BR>
+	return&nbsp;sprintf(&quot;%d.%d.%d.%d&quot;,v[0],v[1],v[2],v[3]);&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;int&nbsp;small_ip_group(string&nbsp;x1,string&nbsp;x2)&nbsp;<BR>
+{&nbsp;<BR>
+	int&nbsp;*&nbsp;p1,*p2;&nbsp;<BR>
+	int&nbsp;i,j;&nbsp;<BR>
+	if&nbsp;(!x2)&nbsp;<BR>
+	&nbsp;&nbsp;return&nbsp;1;&nbsp;<BR>
+	p1=ip_to_num(x1);&nbsp;<BR>
+	p2=ip_to_num(x2);&nbsp;<BR>
+	for(i=0;i&lt;4;i++)&nbsp;<BR>
+	{&nbsp;<BR>
+		if&nbsp;(p1[i]==-1)&nbsp;<BR>
+		&nbsp;&nbsp;p1[i]=0;&nbsp;<BR>
+		if&nbsp;(p2[i]==-1)&nbsp;<BR>
+		&nbsp;&nbsp;p2[i]=0;&nbsp;<BR>
+		for(j=7;j&gt;=0;j--)&nbsp;<BR>
+		&nbsp;&nbsp;if&nbsp;((p1[i]&amp;bits[j])||(p2[i]&amp;bits[j]))&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;break;&nbsp;<BR>
+		if&nbsp;(j&lt;0)&nbsp;<BR>
+		&nbsp;&nbsp;continue;&nbsp;<BR>
+		if&nbsp;((p1[i]&amp;bits[j])&amp;&amp;(p2[i]&amp;bits[j]))&nbsp;<BR>
+		&nbsp;&nbsp;break;&nbsp;<BR>
+		if&nbsp;(p1[i]&amp;bits[j])&nbsp;<BR>
+		&nbsp;&nbsp;return&nbsp;1;&nbsp;<BR>
+	}&nbsp;<BR>
+	return&nbsp;0;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;int&nbsp;in_ip_group(string&nbsp;x1,string&nbsp;x2,string&nbsp;mask)&nbsp;<BR>
+{&nbsp;<BR>
+	int&nbsp;*p1,*p2,*p3;&nbsp;<BR>
+	int&nbsp;i,j;&nbsp;<BR>
+	p1=ip_to_num(x1);&nbsp;<BR>
+	p2=ip_to_num(x2);&nbsp;<BR>
+	p3=ip_to_num(mask);&nbsp;<BR>
+	for(i=0;i&lt;4;i++)&nbsp;<BR>
+	{&nbsp;<BR>
+		if&nbsp;(p1[i]==-1)&nbsp;<BR>
+		&nbsp;&nbsp;p1[i]=0;&nbsp;<BR>
+		if&nbsp;(p2[i]==-1)&nbsp;<BR>
+		&nbsp;&nbsp;p2[i]=0;&nbsp;<BR>
+		if&nbsp;(p3[i]==-1)&nbsp;<BR>
+		&nbsp;&nbsp;p3[i]=0;&nbsp;<BR>
+		if&nbsp;((p1[i]&amp;p3[i])!=p2[i])&nbsp;<BR>
+		&nbsp;&nbsp;break;&nbsp;<BR>
+	}&nbsp;<BR>
+	if&nbsp;(i&gt;=4)&nbsp;<BR>
+	&nbsp;&nbsp;return&nbsp;1;&nbsp;<BR>
+	return&nbsp;0;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;int&nbsp;check_site(object&nbsp;socket,string&nbsp;name)&nbsp;<BR>
+{&nbsp;<BR>
+#ifdef&nbsp;CHECK_SITE&nbsp;<BR>
+	string&nbsp;*&nbsp;sites,*&nbsp;kk;&nbsp;<BR>
+	mixed&nbsp;*&nbsp;us;&nbsp;<BR>
+	int&nbsp;i,v,ban;&nbsp;<BR>
+	string&nbsp;last_mask;&nbsp;<BR>
+	int&nbsp;last_stat;&nbsp;<BR>
+&nbsp;<BR>
+	if&nbsp;(file_size(FTP_SITES)&lt;=0)&nbsp;<BR>
+	&nbsp;&nbsp;return&nbsp;1;&nbsp;<BR>
+	sites=explode(read_file(FTP_SITES),&quot;\n&quot;);&nbsp;<BR>
+	sites-=({&nbsp;0,&quot;&quot;&nbsp;});&nbsp;<BR>
+	us=({&nbsp;});&nbsp;<BR>
+	for(i=0;i&lt;sizeof(sites);i++)&nbsp;<BR>
+	{&nbsp;<BR>
+		if&nbsp;(sites[i][0]=='#')&nbsp;<BR>
+		&nbsp;&nbsp;continue;&nbsp;<BR>
+		kk=explode(replace_string(sites[i],&quot;&nbsp;&quot;,&quot;&quot;),&quot;,&quot;);&nbsp;<BR>
+		if&nbsp;(sizeof(kk)&gt;=2)&nbsp;<BR>
+		{&nbsp;<BR>
+		&nbsp;&nbsp;if&nbsp;(sizeof(kk)&lt;3)&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;kk+=({&nbsp;0&nbsp;});&nbsp;<BR>
+		&nbsp;&nbsp;us+=({&nbsp;kk[0..2]&nbsp;});&nbsp;<BR>
+		}&nbsp;<BR>
+	}&nbsp;<BR>
+	v=-1;&nbsp;<BR>
+	last_mask=0;&nbsp;<BR>
+	last_stat=-1;&nbsp;<BR>
+	for(i=0;i&lt;sizeof(us);i++)&nbsp;<BR>
+	{&nbsp;<BR>
+		if&nbsp;(us[i][0]!=name)&nbsp;<BR>
+		&nbsp;&nbsp;continue;&nbsp;<BR>
+		if&nbsp;(!us[i][1])&nbsp;<BR>
+		&nbsp;&nbsp;us[i]=&quot;&quot;;&nbsp;<BR>
+		if&nbsp;(us[i][1][0]=='~')&nbsp;<BR>
+		{&nbsp;<BR>
+		&nbsp;&nbsp;ban=0;&nbsp;<BR>
+		&nbsp;&nbsp;us[i][1]=us[i][1][1..];&nbsp;<BR>
+		}&nbsp;<BR>
+		else&nbsp;<BR>
+		&nbsp;&nbsp;ban=1;&nbsp;<BR>
+		if&nbsp;(!us[i][2]||us[i][2]==&quot;&quot;)&nbsp;<BR>
+		&nbsp;&nbsp;us[i][2]=default_ip_mask(us[i][1]);&nbsp;<BR>
+		if&nbsp;(small_ip_group(us[i][2],last_mask)&nbsp;<BR>
+		&nbsp;&nbsp;&amp;&amp;in_ip_group(USITE,us[i][1],us[i][2]))&nbsp;<BR>
+		{&nbsp;<BR>
+			last_mask=us[i][2];&nbsp;<BR>
+			last_stat=ban;&nbsp;<BR>
+		}&nbsp;<BR>
+	}&nbsp;<BR>
+	if&nbsp;(last_stat==-1)&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;for(i=0;i&lt;sizeof(us);i++)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+		if&nbsp;(us[i][0]!=&quot;!&quot;)&nbsp;<BR>
+		&nbsp;&nbsp;continue;&nbsp;<BR>
+		if&nbsp;(us[i][1][0]=='~')&nbsp;<BR>
+		{&nbsp;<BR>
+		&nbsp;&nbsp;ban=0;&nbsp;<BR>
+		&nbsp;&nbsp;us[i][1]=us[i][1][1..];&nbsp;<BR>
+		}&nbsp;<BR>
+		else&nbsp;<BR>
+		&nbsp;&nbsp;ban=1;&nbsp;<BR>
+		if&nbsp;(!us[i][2]||us[i][2]==&quot;&quot;)&nbsp;<BR>
+		&nbsp;&nbsp;us[i][2]=default_ip_mask(us[i][1]);&nbsp;<BR>
+		if&nbsp;(small_ip_group(us[i][2],last_mask)&nbsp;<BR>
+		&nbsp;&nbsp;&amp;&amp;in_ip_group(USITE,us[i][1],us[i][2]))&nbsp;<BR>
+		{&nbsp;<BR>
+			last_mask=us[i][2];&nbsp;<BR>
+			last_stat=ban;&nbsp;<BR>
+		}&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+	}&nbsp;<BR>
+	if&nbsp;(last_stat==-1)&nbsp;<BR>
+	&nbsp;&nbsp;last_stat=1;&nbsp;<BR>
+	return&nbsp;last_stat;&nbsp;<BR>
+#else&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;1;&nbsp;<BR>
+#endif&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;string&nbsp;get_path(object&nbsp;socket,string&nbsp;str&nbsp;)&nbsp;<BR>
+{&nbsp;<BR>
+	string&nbsp;*&nbsp;dirlist,*&nbsp;dirlist1;&nbsp;<BR>
+	int&nbsp;i,s;&nbsp;<BR>
+	if&nbsp;(&nbsp;!str&nbsp;||&nbsp;str&nbsp;==&nbsp;&quot;&quot;&nbsp;)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;UCWD;&nbsp;<BR>
+	&nbsp;<BR>
+	if&nbsp;(str[0]!='/')&nbsp;<BR>
+	&nbsp;&nbsp;str=join_path(UCWD,str);&nbsp;<BR>
+	&nbsp;<BR>
+	dirlist&nbsp;=&nbsp;explode(&nbsp;str,&nbsp;&quot;/&quot;&nbsp;)&nbsp;-&nbsp;({&nbsp;0,&quot;&quot;,&nbsp;&quot;.&quot;&nbsp;});&nbsp;<BR>
+	s&nbsp;=&nbsp;sizeof(dirlist);&nbsp;<BR>
+	for&nbsp;(i&nbsp;=&nbsp;0;&nbsp;i&nbsp;&lt;&nbsp;s;&nbsp;i++)&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;/*&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;handle&nbsp;&quot;..&quot;&nbsp;occurrences&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;dirlist[&nbsp;i&nbsp;]&nbsp;==&nbsp;&quot;..&quot;&nbsp;)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+		if&nbsp;(&nbsp;i&nbsp;&lt;&nbsp;1&nbsp;)&nbsp;<BR>
+		{&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;/*&nbsp;handle&nbsp;&quot;..&quot;&nbsp;at&nbsp;root&nbsp;of&nbsp;filesystem&nbsp;*/&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;&quot;/&quot;;&nbsp;<BR>
+		}&nbsp;<BR>
+		/*&nbsp;<BR>
+		&nbsp;*&nbsp;get&nbsp;leading&nbsp;portion&nbsp;of&nbsp;path&nbsp;name&nbsp;<BR>
+		&nbsp;*/&nbsp;<BR>
+		if&nbsp;(&nbsp;i&nbsp;==&nbsp;1&nbsp;)&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;dirlist1&nbsp;=&nbsp;({&nbsp;});&nbsp;<BR>
+		else&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;dirlist1&nbsp;=&nbsp;dirlist[&nbsp;0..i&nbsp;-&nbsp;2&nbsp;];&nbsp;<BR>
+&nbsp;<BR>
+		/*&nbsp;<BR>
+		&nbsp;*&nbsp;get&nbsp;trailing&nbsp;portion&nbsp;of&nbsp;path&nbsp;name,&nbsp;ignoring&nbsp;the&nbsp;middle&nbsp;<BR>
+		&nbsp;*/&nbsp;<BR>
+		s&nbsp;-=&nbsp;2;&nbsp;<BR>
+	&nbsp;&nbsp;	if&nbsp;(&nbsp;i&nbsp;&lt;=&nbsp;s&nbsp;)&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;dirlist1&nbsp;+=&nbsp;dirlist[&nbsp;i&nbsp;+&nbsp;1&nbsp;..&nbsp;sizeof(dirlist)&nbsp;-&nbsp;1];&nbsp;<BR>
+		dirlist&nbsp;=&nbsp;dirlist1;&nbsp;<BR>
+		i&nbsp;-=&nbsp;2;&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+	}&nbsp;<BR>
+&nbsp;<BR>
+	if&nbsp;(&nbsp;dirlist&nbsp;)&nbsp;<BR>
+		str&nbsp;=&nbsp;&quot;/&quot;&nbsp;+&nbsp;implode(&nbsp;dirlist,&nbsp;&quot;/&quot;&nbsp;);&nbsp;<BR>
+	else&nbsp;<BR>
+		str&nbsp;=&nbsp;&quot;/&quot;;&nbsp;<BR>
+&nbsp;<BR>
+	return&nbsp;str;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;string&nbsp;ls(&nbsp;string&nbsp;path,&nbsp;int&nbsp;column,int&nbsp;all,object&nbsp;socket)&nbsp;<BR>
+{&nbsp;<BR>
+	string&nbsp;*files;&nbsp;<BR>
+	int&nbsp;i,j,s;&nbsp;<BR>
+	mixed&nbsp;*xfiles;&nbsp;<BR>
+	mixed&nbsp;*stats;&nbsp;<BR>
+	string&nbsp;tmp,&nbsp;tmp2,&nbsp;creator,&nbsp;domain;&nbsp;<BR>
+&nbsp;<BR>
+	if&nbsp;(&nbsp;directory_exists(&nbsp;path&nbsp;)&nbsp;)&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(&nbsp;path[&nbsp;strlen(&nbsp;path&nbsp;)&nbsp;-&nbsp;1&nbsp;]&nbsp;==&nbsp;'/'&nbsp;)&nbsp;<BR>
+		path&nbsp;+=&nbsp;&quot;*&quot;;&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+		path&nbsp;+=&nbsp;&quot;/*&quot;;&nbsp;<BR>
+	}&nbsp;<BR>
+&nbsp;<BR>
+	if&nbsp;(column)&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;xfiles&nbsp;=&nbsp;get_dir(&nbsp;path&nbsp;);&nbsp;<BR>
+&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!xfiles||!(s=sizeof(xfiles)))&nbsp;<BR>
+		return&nbsp;&quot;&quot;;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!all)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;files=xfiles-({&nbsp;&quot;.&quot;,&quot;..&quot;&nbsp;});&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;files=xfiles;&nbsp;<BR>
+&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;implode(&nbsp;files,&nbsp;&quot;\n&quot;&nbsp;)&nbsp;+&nbsp;&quot;\n&quot;;&nbsp;<BR>
+	}&nbsp;<BR>
+&nbsp;<BR>
+	xfiles&nbsp;=&nbsp;get_dir(&nbsp;path,&nbsp;-1&nbsp;);&nbsp;<BR>
+	if&nbsp;(!xfiles&nbsp;||&nbsp;!(s&nbsp;=&nbsp;sizeof(&nbsp;xfiles&nbsp;)))&nbsp;<BR>
+		return&nbsp;&quot;&quot;;&nbsp;<BR>
+&nbsp;<BR>
+	files&nbsp;=&nbsp;({&nbsp;});&nbsp;<BR>
+&nbsp;<BR>
+	creator&nbsp;=&nbsp;creator_file(path);&nbsp;<BR>
+	if&nbsp;(!creator)&nbsp;&nbsp;creator&nbsp;=&nbsp;ROOT_UID;&nbsp;<BR>
+	creator=creator[0..7];&nbsp;<BR>
+&nbsp;<BR>
+	domain&nbsp;=&nbsp;domain_file(path);&nbsp;<BR>
+	if&nbsp;(!domain)&nbsp;&nbsp;domain&nbsp;=&nbsp;ROOT_UID;&nbsp;<BR>
+	domain=domain[0..7];&nbsp;<BR>
+&nbsp;<BR>
+	i&nbsp;=&nbsp;strsrch(path,&nbsp;'/',&nbsp;-1);&nbsp;<BR>
+	if&nbsp;(i&nbsp;&gt;=&nbsp;0)&nbsp;<BR>
+		path&nbsp;=&nbsp;path[0..i];&nbsp;<BR>
+		&nbsp;<BR>
+	for&nbsp;(i&nbsp;=&nbsp;0;&nbsp;i&nbsp;&lt;&nbsp;s;&nbsp;i++)&nbsp;<BR>
+	{&nbsp;<BR>
+		if&nbsp;(!all&amp;&amp;((xfiles[i])[0]==&quot;.&quot;||(xfiles[i])[0]==&quot;..&quot;))&nbsp;<BR>
+		&nbsp;&nbsp;continue;&nbsp;<BR>
+&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;tmp2&nbsp;=&nbsp;ctime((xfiles[i])[2]);&nbsp;/*&nbsp;get&nbsp;last&nbsp;modified&nbsp;timestamp&nbsp;*/&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;((xfiles[i])[2]&nbsp;+&nbsp;SECS_IN_YEAR&nbsp;&lt;&nbsp;time())&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+		/*&nbsp;MMM&nbsp;DD&nbsp;&nbsp;YYYY&nbsp;*/&nbsp;<BR>
+		tmp&nbsp;=&nbsp;sprintf(&quot;%s&nbsp;&nbsp;%s&quot;,&nbsp;tmp2[4..9],&nbsp;tmp2[20..23]);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+		/*&nbsp;MMM&nbsp;DD&nbsp;hh:mm&nbsp;*/&nbsp;<BR>
+		tmp&nbsp;=&nbsp;tmp2[4..15];&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;j&nbsp;=&nbsp;(xfiles[i])[1];&nbsp;&nbsp;&nbsp;/*&nbsp;get&nbsp;filesize&nbsp;*/&nbsp;<BR>
+&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(j&nbsp;==&nbsp;-2)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+		/*&nbsp;directory&nbsp;*/&nbsp;<BR>
+&nbsp;	&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;files+=({&nbsp;sprintf(&quot;drwxrwxr-x&nbsp;%3i&nbsp;%-8s&nbsp;%-8s&nbsp;%8d&nbsp;%s&nbsp;%s&quot;,&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		1,creator,&nbsp;domain,&nbsp;0,&nbsp;tmp,&nbsp;(xfiles[i])[0])&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		});&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;else&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;{&nbsp;<BR>
+		/*&nbsp;file&nbsp;*/&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	stats&nbsp;=&nbsp;stat(path&nbsp;+&nbsp;(xfiles[i])[0]);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	files+=({&nbsp;sprintf(&quot;-rw%crw-r--&nbsp;%3i&nbsp;%-8s&nbsp;%-8s&nbsp;%8d&nbsp;%s&nbsp;%s&quot;,&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;stats[2]&nbsp;?&nbsp;'x'&nbsp;:&nbsp;'-',&nbsp;/*&nbsp;'x'&nbsp;if&nbsp;loaded,&nbsp;else&nbsp;'&nbsp;'&nbsp;*/&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;1,creator,&nbsp;domain,&nbsp;j,&nbsp;tmp,&nbsp;(xfiles[i])[0])&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;});&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;	}&nbsp;<BR>
+	return&nbsp;implode(&nbsp;files,&nbsp;&quot;\n&quot;)+&quot;\n&quot;;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+※&nbsp;来源:·BBS&nbsp;水木清华站&nbsp;bbs.net.tsinghua.edu.cn·[FROM:&nbsp;202.207.8.112]&nbsp;&nbsp;<BR>
+<A HREF="00000007.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一页</A>
+<A HREF="index.htm">回到目录</A>
+<A HREF="#top">回到页首</A>
+<A HREF="00000009.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+</BODY></HTML>

@@ -1,0 +1,215 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清华站∶精华区</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+<A Name="top"></a>
+发信人:&nbsp;nightwatch&nbsp;(夜游神),&nbsp;信区:&nbsp;Mud_Builder&nbsp;<BR>
+标&nbsp;&nbsp;题:&nbsp;在MUD中增加HTTP和FTP服务(2)&nbsp;<BR>
+发信站:&nbsp;BBS&nbsp;水木清华站&nbsp;(Tue&nbsp;Jan&nbsp;26&nbsp;18:17:47&nbsp;1999)&nbsp;WWW-POST&nbsp;<BR>
+&nbsp;<BR>
+以下是我在MUD中编写的一些在MUDLIB中实现&nbsp;<BR>
+HTTP服务和FTP服务的程序&nbsp;<BR>
+&nbsp;<BR>
+以下部分在校园网已经测试通过。有兴趣的话请帮&nbsp;<BR>
+我查查BUG.&nbsp;<BR>
+&nbsp;<BR>
+如果你想在你的MUD中用这些程序的话，把你的&nbsp;<BR>
+Email和MUD服务器地址端口告诉我吧。&nbsp;<BR>
+-----------------------------------------------------------------&nbsp;<BR>
+有些功能由于是公用的，所以我把它们放到&nbsp;<BR>
+了Simul_efun中。&nbsp;<BR>
+&nbsp;<BR>
+//&nbsp;File:&nbsp;/adm/simul_efun/time.c&nbsp;<BR>
+//&nbsp;created&nbsp;by&nbsp;wind&nbsp;<BR>
+//&nbsp;no&nbsp;use.&nbsp;<BR>
+&nbsp;<BR>
+#include&nbsp;&lt;localtime.h&gt;&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;string&nbsp;*&nbsp;month_name=({&nbsp;<BR>
+	&quot;Jan&quot;,&quot;Feb&quot;,&quot;Mar&quot;,&quot;Apr&quot;,&quot;May&quot;,&quot;Jun&quot;,&nbsp;<BR>
+	&quot;Jul&quot;,&quot;Aug&quot;,&quot;Sep&quot;,&quot;Oct&quot;,&quot;Nov&quot;,&quot;Dec&quot;,&nbsp;<BR>
+});&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;string&nbsp;*&nbsp;week_name=({&nbsp;<BR>
+	&quot;Sun&quot;,&quot;Mon&quot;,&quot;Tue&quot;,&quot;Wed&quot;,&quot;Thu&quot;,&quot;Fri&quot;,&quot;Sat&quot;,&nbsp;<BR>
+});&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;int&nbsp;*&nbsp;days_a_month=({&nbsp;<BR>
+	31,28,31,30,31,30,31,31,30,31,30,31,&nbsp;<BR>
+});&nbsp;<BR>
+&nbsp;<BR>
+int&nbsp;leap_year(int&nbsp;year)&nbsp;<BR>
+{&nbsp;<BR>
+	if&nbsp;(year%400==0)&nbsp;<BR>
+	&nbsp;&nbsp;return&nbsp;1;&nbsp;<BR>
+	if&nbsp;(year%100==0)&nbsp;<BR>
+	&nbsp;&nbsp;return&nbsp;0;&nbsp;<BR>
+	if&nbsp;(year%4==0)&nbsp;<BR>
+	&nbsp;&nbsp;return&nbsp;1;&nbsp;<BR>
+	return&nbsp;0;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+int&nbsp;days_a_year(int&nbsp;year)&nbsp;<BR>
+{&nbsp;<BR>
+	return&nbsp;365+leap_year(year);&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+int&nbsp;month_to_int(string&nbsp;x)&nbsp;<BR>
+{&nbsp;<BR>
+	int&nbsp;i;&nbsp;<BR>
+	i=member_array(x,month_name);&nbsp;<BR>
+	if&nbsp;(i&gt;=0)&nbsp;<BR>
+	&nbsp;&nbsp;return&nbsp;i+1;&nbsp;<BR>
+	return&nbsp;0;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+int&nbsp;day_of_year(int&nbsp;year,int&nbsp;month,int&nbsp;day)&nbsp;<BR>
+{&nbsp;<BR>
+	int&nbsp;i,n;&nbsp;<BR>
+	days_a_month[1]=28+leap_year(year);&nbsp;<BR>
+	n=0;&nbsp;<BR>
+	for(i=1;i&lt;month;i++)&nbsp;<BR>
+	&nbsp;&nbsp;n+=days_a_month[i-1];&nbsp;<BR>
+	n+=day-1;&nbsp;<BR>
+	return&nbsp;n;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+int&nbsp;day_of_week(int&nbsp;year,int&nbsp;day)&nbsp;<BR>
+{&nbsp;<BR>
+	int&nbsp;x,y;&nbsp;<BR>
+	y=year-1;&nbsp;<BR>
+	x=y;&nbsp;<BR>
+	x+=y/4;&nbsp;<BR>
+	x-=y/100;&nbsp;<BR>
+	x+=y/400;&nbsp;<BR>
+	x+=day;&nbsp;<BR>
+	return&nbsp;x%7;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+string&nbsp;time_string(int&nbsp;time)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;int&nbsp;day_of_week;&nbsp;<BR>
+&nbsp;&nbsp;int&nbsp;month;&nbsp;<BR>
+&nbsp;&nbsp;int&nbsp;day_of_month;&nbsp;<BR>
+&nbsp;&nbsp;int&nbsp;hour;&nbsp;<BR>
+&nbsp;&nbsp;int&nbsp;minute;&nbsp;<BR>
+&nbsp;&nbsp;int&nbsp;second;&nbsp;<BR>
+&nbsp;&nbsp;int&nbsp;year;&nbsp;<BR>
+&nbsp;&nbsp;string&nbsp;time_string;&nbsp;<BR>
+&nbsp;&nbsp;int&nbsp;i,j;&nbsp;<BR>
+&nbsp;&nbsp;if&nbsp;(time&lt;0)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;time=0;&nbsp;<BR>
+&nbsp;&nbsp;year=1970;&nbsp;<BR>
+&nbsp;&nbsp;while&nbsp;(time&gt;=(j=days_a_year(year)*86400))&nbsp;<BR>
+&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;	time-=j;&nbsp;<BR>
+&nbsp;&nbsp;	year++;&nbsp;<BR>
+&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;day_of_week=day_of_week(year,time/86400+1);&nbsp;<BR>
+&nbsp;&nbsp;days_a_month[1]=28+leap_year(year);&nbsp;<BR>
+&nbsp;&nbsp;month=1;&nbsp;<BR>
+&nbsp;&nbsp;while&nbsp;(month&lt;=12&amp;&amp;time&gt;=(j=days_a_month[month-1]*86400))&nbsp;<BR>
+&nbsp;&nbsp;{&nbsp;<BR>
+	time-=j;&nbsp;<BR>
+	month++;&nbsp;<BR>
+&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;day_of_month=time/86400+1;&nbsp;<BR>
+&nbsp;&nbsp;time%=86400;&nbsp;<BR>
+&nbsp;&nbsp;hour=time/3600;&nbsp;<BR>
+&nbsp;&nbsp;time%=3600;&nbsp;<BR>
+&nbsp;&nbsp;minute=time/60;&nbsp;<BR>
+&nbsp;&nbsp;time%=60;&nbsp;<BR>
+&nbsp;&nbsp;second=time;&nbsp;<BR>
+&nbsp;&nbsp;time_string=sprintf(&quot;%s,&nbsp;%d&nbsp;%s&nbsp;%d&nbsp;%02d:%02d:%02d&nbsp;GMT&quot;,&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;week_name[day_of_week],&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;day_of_month,&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;month_name[month-1],&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;year,&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hour,&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;minute,&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;second);&nbsp;<BR>
+&nbsp;&nbsp;return&nbsp;time_string;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+string&nbsp;localtime_string(int&nbsp;t)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;mixed*&nbsp;&nbsp;lt;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;string&nbsp;&nbsp;output;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;string&nbsp;&nbsp;hr,&nbsp;min,&nbsp;sec;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;lt&nbsp;=&nbsp;localtime(&nbsp;t&nbsp;);&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;output&nbsp;=&nbsp;sprintf(&quot;%s,&nbsp;%d&nbsp;%s&nbsp;%d&nbsp;%02d:%02d:%02d&nbsp;%s&quot;,&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;week_name[&nbsp;lt[LT_WDAY]&nbsp;],&nbsp;&nbsp;lt[LT_MDAY],month_name[&nbsp;lt[LT_MON]&nbsp;&nbsp;<BR>
+],lt[LT_YEAR],&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lt[LT_HOUR],lt[LT_MIN],lt[LT_SEC],&nbsp;lt[LT_ZONE]);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;return&nbsp;output;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+int&nbsp;string_time(string&nbsp;x)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;string&nbsp;day_of_week;&nbsp;<BR>
+&nbsp;&nbsp;string&nbsp;month;&nbsp;<BR>
+&nbsp;&nbsp;int&nbsp;day_of_month;&nbsp;<BR>
+&nbsp;&nbsp;int&nbsp;hour;&nbsp;<BR>
+&nbsp;&nbsp;int&nbsp;minute;&nbsp;<BR>
+&nbsp;&nbsp;int&nbsp;second;&nbsp;<BR>
+&nbsp;&nbsp;int&nbsp;year;&nbsp;<BR>
+&nbsp;&nbsp;int&nbsp;t,i;&nbsp;<BR>
+&nbsp;&nbsp;if&nbsp;(!x)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;0;&nbsp;<BR>
+&nbsp;&nbsp;if&nbsp;(sscanf(x,&quot;%s,&nbsp;%d&nbsp;%s&nbsp;%d&nbsp;%d:%d:%d&nbsp;GMT&quot;,&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;day_of_week,&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;day_of_month,&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;month,&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;year,&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hour,&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;minute,&nbsp;<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;second)!=7)&nbsp;<BR>
+&nbsp;&nbsp;	return&nbsp;0;&nbsp;<BR>
+&nbsp;&nbsp;t=second;&nbsp;<BR>
+&nbsp;&nbsp;t+=minute*60;&nbsp;<BR>
+&nbsp;&nbsp;t+=hour*3600;&nbsp;<BR>
+&nbsp;&nbsp;t+=day_of_year(year,month_to_int(month),day_of_month)*86400;&nbsp;<BR>
+&nbsp;&nbsp;for(i=1970;i&lt;year;i++)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;t+=days_a_year(i)*86400;&nbsp;<BR>
+&nbsp;&nbsp;return&nbsp;t;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+string&nbsp;short_time(int&nbsp;t)&nbsp;<BR>
+{&nbsp;<BR>
+	mixed&nbsp;*&nbsp;lt=localtime(t);&nbsp;<BR>
+	return&nbsp;sprintf(&quot;%02d/%02d/%02d&nbsp;%02d:%02d:%02d&quot;,&nbsp;<BR>
+		lt[LT_MON]+1,&nbsp;<BR>
+		lt[LT_MDAY],&nbsp;<BR>
+		lt[LT_YEAR],&nbsp;<BR>
+		lt[LT_HOUR],&nbsp;<BR>
+		lt[LT_MIN],&nbsp;<BR>
+		lt[LT_SEC]&nbsp;<BR>
+	);&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+int&nbsp;gametime(int&nbsp;t)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!t)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t=time();&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(t&lt;900000000)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;error(&quot;this&nbsp;system&nbsp;must&nbsp;be&nbsp;used&nbsp;after&nbsp;01/01/1999.&quot;);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;(t-900000000)*60;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+※&nbsp;来源:·BBS&nbsp;水木清华站&nbsp;bbs.net.tsinghua.edu.cn·[FROM:&nbsp;202.207.8.112]&nbsp;&nbsp;<BR>
+<A HREF="00000000.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一页</A>
+<A HREF="index.htm">回到目录</A>
+<A HREF="#top">回到页首</A>
+<A HREF="00000002.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+</BODY></HTML>

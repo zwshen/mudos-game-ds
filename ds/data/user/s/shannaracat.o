@@ -1,0 +1,8 @@
+#/obj/user.c
+conditions ([])
+dbase (["DS_DATA_VERSION":19991107,"actions":,"supply_point":60,"race":"human","max_mp":60,"max_hp":80,"guild_gifts":({5,5,5,5,}),"channels":({"chat","rumor","tchat",}),"help":"newbie/","birthday":1204052960,"last_location":"/open/world1/tmr/area/s_house","id":"shannaracat","mp":60,"attitude":"peaceful","gender":"¨k©Ê","name":"­â´çµê","bank":(["past":0,]),"addition_shield":10,"max_ap":60,"unit":"¦ì","ap":60,"startroom":"/open/world1/tmr/area/hotel","addition_armor":10,"heart_modify":1,"age":14,"heart_beat_rate":6,"addition_damage":10,"talk_point":8,"default_actions":,"newbie":1,"volume":7,"exp":777,"dex":2,"hp":80,"int":2,"con":2,"wound":(["right_arm":0,"right_leg":0,"left_leg":0,"head":0,"left_arm":0,"body":0,]),"str":2,"level":1,"mud_age":1888,"evil":-1,"Merits":(["bio":0,"tec":0,"sou":0,"wit":0,"bar":0,]),"cure_count":6,])
+skills (["unarmed":1,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

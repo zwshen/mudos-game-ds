@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions ([])
+dbase (["attitude":"peaceful","DS_DATA_VERSION":19991107,"race":"ogre","mp":66,"friend":({"jinsin","yujie",}),"channels":({"chat","rumor","tchat","ft",}),"addition_shield":10,"Merits":(["bio":0,"tec":0,"sou":0,"wit":0,"bar":0,]),"birthday":1200063640,"id":"wenzi","cure_count":10,"skill":(["literate":18,]),"gender":"男性","guild_gifts":({5,5,5,5,}),"name":"文","addition_armor":10,"supply_point":60,"unit":"位","addition":(["int":1,]),"max_ap":66,"startroom":"/open/world1/tmr/area/hotel","ap":66,"age":17,"addition_damage":10,"default_actions":,"volume":7,"wound":(["body":0,"right_arm":0,"head":0,"right_leg":0,"left_arm":0,"left_leg":0,]),"last_location":"/open/world1/tmr/area/vroad1","newbie":1,"talk_point":8,"exp":777,"dex":2,"int":2,"con":2,"heart_modify":0,"str":2,"hp":120,"heart_beat_rate":6,"level":1,"actions":,"max_mp":66,"evil":-1,"max_hp":120,"mud_age":318564,])
+skills (["literate":19,"strong-body":4,])
+learned (["literate":0,"strong-body":1,])
+items ({})
+autoload ({"/open/always/doll","/open/always/doll","/open/always/doll",})
+toDoList ([])
+solved ({})

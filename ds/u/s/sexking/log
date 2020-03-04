@@ -1,0 +1,1409 @@
+[Wed Aug  9 12:38:43 2000] u/s/sexking/obj/wdroom.c line 1: parse error before #include <ansi.h>
+
+[Wed Aug  9 13:23:46 2000] u/s/sexking/sexking/area/rock.c line 15: parse error before ));
+
+[Wed Aug  9 13:29:35 2000] u/s/sexking/sexking/area/rock.c line 15: parse error before ));
+
+[Wed Aug  9 13:29:35 2000] u/s/sexking/sexking/area/rock.c line 26: parse error before A ¬Ý ¤F ¬Ý ³o ¸Ì ªº 
+
+[Wed Aug  9 13:30:55 2000] u/s/sexking/sexking/area/rock.c line 16: parse error before ));
+
+[Wed Aug  9 13:30:55 2000] u/s/sexking/sexking/area/rock.c line 27: parse error before A ¬Ý ¤F ¬Ý ³o ¸Ì ªº 
+
+[Wed Aug  9 13:31:23 2000] u/s/sexking/sexking/area/rock.c line 16: parse error before ));
+
+[Wed Aug  9 13:31:23 2000] u/s/sexking/sexking/area/rock.c line 27: parse error before A ¬Ý ¤F ¬Ý ³o ¸Ì ªº 
+
+[Wed Aug  9 17:45:15 2000] u/s/sexking/sexking/area/rock.c line 16: parse error before ));
+
+[Wed Aug  9 17:45:15 2000] u/s/sexking/sexking/area/rock.c line 27: parse error before A ¬Ý ¤F ¬Ý ³o ¸Ì ªº 
+
+[Wed Aug  9 17:45:55 2000] u/s/sexking/sexking/area/rock.c line 16: parse error before ));
+
+[Wed Aug  9 17:45:55 2000] u/s/sexking/sexking/area/rock.c line 27: parse error before A ¬Ý ¤F ¬Ý ³o ¸Ì ªº 
+
+[Wed Aug  9 17:46:23 2000] u/s/sexking/sexking/area/rock.c line 16: parse error before ));
+
+[Wed Aug  9 17:46:23 2000] u/s/sexking/sexking/area/rock.c line 27: parse error before A ¬Ý ¤F ¬Ý ³o ¸Ì ªº 
+
+[Wed Aug  9 22:54:46 2000] u/s/sexking/sexking/area/rock.c line 53: parse error before q
+
+[Fri Aug 11 17:44:55 2000] u/s/sexking/sexking/area/npc/obj/tooth.c line 1: parse error before ansi.h>
+
+[Fri Aug 11 17:45:29 2000] u/s/sexking/sexking/area/npc/obj/tooth.c line 1: parse error before ansi.h>
+
+[Fri Aug 11 17:47:19 2000] u/s/sexking/sexking/area/npc/obj/tooth.c line 33: Undefined function white before ;
+
+[Fri Aug 11 17:47:19 2000] u/s/sexking/sexking/area/npc/obj/tooth.c line 34: Undefined variable 'return1' before the end of line
+
+[Fri Aug 11 17:47:19 2000] u/s/sexking/sexking/area/npc/obj/tooth.c line 47: Undefined variable 'return1' before the end of line
+
+[Fri Aug 11 17:47:51 2000] u/s/sexking/sexking/area/npc/obj/tooth.c line 33: Undefined function white before ;
+
+[Fri Aug 11 18:04:07 2000] u/s/sexking/sexking/area/fu_8.c line 25: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Fri Aug 11 18:04:07 2000] u/s/sexking/sexking/area/fu_8.c line 25: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Fri Aug 11 18:04:07 2000] u/s/sexking/sexking/area/fu_8.c line 25: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Fri Aug 11 18:04:07 2000] u/s/sexking/sexking/area/fu_8.c line 25: Illegal to redefine 'nomask' function "light" before the end of line
+
+[Fri Aug 11 18:04:07 2000] u/s/sexking/sexking/area/fu_8.c line 25: Illegal to redefine 'nomask' function "add_light" before the end of line
+
+[Fri Aug 11 18:04:07 2000] u/s/sexking/sexking/area/fu_8.c line 45: Redeclaration of function create. before the end of line
+
+[Fri Aug 11 18:07:41 2000] u/s/sexking/sexking/area/fu_4.c line 23: Undefined variable 'setup' before the end of file
+
+[Fri Aug 11 18:07:41 2000] u/s/sexking/sexking/area/fu_4.c line 23: parse error before the end of file
+
+[Fri Aug 11 18:07:47 2000] u/s/sexking/sexking/area/fu_4.c line 23: Undefined variable 'setup' before the end of file
+
+[Fri Aug 11 18:07:47 2000] u/s/sexking/sexking/area/fu_4.c line 23: parse error before the end of file
+
+[Fri Aug 11 20:04:58 2000] u/s/sexking/sexking/area/hole_1.c line 46: Reserved type name unexpected. before (object me)
+
+[Fri Aug 11 20:04:58 2000] u/s/sexking/sexking/area/hole_1.c line 46: parse error before (object me)
+
+[Sat Aug 12 09:30:09 2000] u/s/sexking/sexking/area/hole_1.c line 50: Reserved type name unexpected. before (string arg)
+
+[Sat Aug 12 09:30:09 2000] u/s/sexking/sexking/area/hole_1.c line 50: parse error before (string arg)
+
+[Sat Aug 12 09:30:09 2000] u/s/sexking/sexking/area/hole_1.c line 53: Illegal LHS before the end of line
+
+[Sat Aug 12 09:30:09 2000] u/s/sexking/sexking/area/hole_1.c line 54: Undefined variable 'arg' before  arg!="enter") retur
+
+[Sat Aug 12 09:30:09 2000] u/s/sexking/sexking/area/hole_1.c line 58: Undefined variable 'me' before ;
+
+[Sat Aug 12 09:30:09 2000] u/s/sexking/sexking/area/hole_1.c line 71: Reserved type name unexpected. before (object me)
+
+[Sat Aug 12 09:33:07 2000] u/s/sexking/sexking/area/hole_1.c line 27: parse error before ("do_go", "go");
+
+[Sat Aug 12 09:33:07 2000] u/s/sexking/sexking/area/hole_1.c line 49: Reserved type name unexpected. before (string arg)
+
+[Sat Aug 12 09:33:07 2000] u/s/sexking/sexking/area/hole_1.c line 49: parse error before (string arg)
+
+[Sat Aug 12 09:34:27 2000] u/s/sexking/sexking/area/hole_1.c line 27: parse error before ("do_guard", "go");
+
+[Sat Aug 12 09:34:27 2000] u/s/sexking/sexking/area/hole_1.c line 49: Reserved type name unexpected. before (string arg)
+
+[Sat Aug 12 09:34:27 2000] u/s/sexking/sexking/area/hole_1.c line 49: parse error before (string arg)
+
+[Sat Aug 12 09:35:05 2000] u/s/sexking/sexking/area/hole_1.c line 49: Reserved type name unexpected. before (string arg)
+
+[Sat Aug 12 09:35:05 2000] u/s/sexking/sexking/area/hole_1.c line 49: parse error before (string arg)
+
+[Sat Aug 12 09:39:29 2000] u/s/sexking/sexking/area/hole_1.c line 32: parse error before  !this_player()->vis
+
+[Sat Aug 12 19:45:33 2000] u/s/sexking/aman/item.c line 133: parse error before (string arg)
+
+[Sat Aug 12 19:50:45 2000] u/s/sexking/aman/item.c line 147: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Sat Aug 12 19:50:45 2000] u/s/sexking/aman/item.c line 147: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Sat Aug 12 19:50:45 2000] u/s/sexking/aman/item.c line 147: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Sat Aug 12 19:50:45 2000] u/s/sexking/aman/item.c line 147: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Sat Aug 12 19:50:45 2000] u/s/sexking/aman/item.c line 147: Illegal to redefine 'nomask' function "query_encumbrance" before the end of line
+
+[Sat Aug 12 19:50:45 2000] u/s/sexking/aman/item.c line 147: Illegal to redefine 'nomask' function "over_encumbranced" before the end of line
+
+[Sat Aug 12 19:55:27 2000] u/s/sexking/item.c line 150: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Sat Aug 12 19:55:27 2000] u/s/sexking/item.c line 150: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Sat Aug 12 19:55:27 2000] u/s/sexking/item.c line 150: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Sat Aug 12 19:55:27 2000] u/s/sexking/item.c line 150: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Sat Aug 12 19:55:27 2000] u/s/sexking/item.c line 150: Illegal to redefine 'nomask' function "query_encumbrance" before the end of line
+
+[Sat Aug 12 19:55:27 2000] u/s/sexking/item.c line 150: Illegal to redefine 'nomask' function "over_encumbranced" before the end of line
+
+[Sat Aug 12 20:12:52 2000] u/s/sexking/item.c line 152: Undefined variable 'smoke' before new("/u/s/sexking/sm
+
+[Sat Aug 12 20:13:18 2000] u/s/sexking/item.c line 158: Undefined variable 'xxx' before move(me); 
+
+[Sat Aug 12 20:29:56 2000] u/s/sexking/smoke.c line 43: Illegal lvalue before  5 )
+
+[Sat Aug 12 20:29:56 2000] u/s/sexking/smoke.c line 45: parse error before  message_vision(HIY"
+
+[Sat Aug 12 20:29:56 2000] u/s/sexking/smoke.c line 57: parse error before the end of line
+
+[Sat Aug 12 20:31:02 2000] u/s/sexking/smoke.c line 43: Illegal lvalue before  5 )
+
+[Sat Aug 12 20:31:02 2000] u/s/sexking/smoke.c line 45: parse error before  message_vision(HIY"
+
+[Sat Aug 12 20:31:02 2000] u/s/sexking/smoke.c line 57: parse error before the end of line
+
+[Sat Aug 12 20:32:22 2000] u/s/sexking/smoke.c line 43: Illegal lvalue before  5 )
+
+[Sat Aug 12 20:32:22 2000] u/s/sexking/smoke.c line 45: parse error before  message_vision(HIY"
+
+[Sat Aug 12 20:32:22 2000] u/s/sexking/smoke.c line 57: parse error before the end of line
+
+[Sat Aug 12 20:32:38 2000] u/s/sexking/smoke.c line 43: Illegal lvalue before  5 )
+
+[Sat Aug 12 20:32:38 2000] u/s/sexking/smoke.c line 45: parse error before  message_vision(HIY"
+
+[Sat Aug 12 20:33:22 2000] u/s/sexking/smoke.c line 44: Illegal lvalue before  5 )
+
+[Sat Aug 12 20:34:42 2000] u/s/sexking/smoke.c line 44: Illegal lvalue before 5)
+
+[Sat Aug 12 20:35:30 2000] u/s/sexking/smoke.c line 44: Illegal lvalue before 5)
+
+[Sun Aug 13 21:50:06 2000] u/s/sexking/toy/book.c line 6: Warning: Unknown \ escape. before ³:\nµL¼ÄÅÜºA·kÄo¥\(s
+
+[Sun Aug 13 21:50:06 2000] u/s/sexking/toy/book.c line 6: Warning: Unknown \ escape. before stratch ¬Y¤H)¡C\n"NO
+
+[Sun Aug 13 21:50:06 2000] u/s/sexking/toy/book.c line 17: Illegal to redeclare local name 'me' before ;
+
+[Sun Aug 13 21:50:06 2000] u/s/sexking/toy/book.c line 19: Reserved type name unexpected. before stratcher,callname;
+
+[Sun Aug 13 21:50:06 2000] u/s/sexking/toy/book.c line 19: parse error before stratcher,callname;
+
+[Sun Aug 13 21:50:06 2000] u/s/sexking/toy/book.c line 22: Undefined variable 'arg' before  environment(me)))
+
+[Sun Aug 13 21:50:06 2000] u/s/sexking/toy/book.c line 22: Undefined variable 'me' before ))
+
+[Sun Aug 13 21:50:06 2000] u/s/sexking/toy/book.c line 22: Illegal LHS before the end of line
+
+[Sun Aug 13 21:52:24 2000] u/s/sexking/toy/book.c line 5: Warning: Unknown \ escape. before L¼ÄÅÜºAµL¤W¤ßªk"NOR,
+
+[Sun Aug 13 21:52:24 2000] u/s/sexking/toy/book.c line 17: Illegal to redeclare local name 'me' before ;
+
+[Sun Aug 13 21:52:24 2000] u/s/sexking/toy/book.c line 19: Reserved type name unexpected. before stratcher,callname;
+
+[Sun Aug 13 21:52:24 2000] u/s/sexking/toy/book.c line 19: parse error before stratcher,callname;
+
+[Sun Aug 13 21:52:24 2000] u/s/sexking/toy/book.c line 22: Undefined variable 'arg' before  environment(me)))
+
+[Sun Aug 13 21:52:24 2000] u/s/sexking/toy/book.c line 22: Undefined variable 'me' before ))
+
+[Sun Aug 13 21:52:24 2000] u/s/sexking/toy/book.c line 22: Illegal LHS before the end of line
+
+[Sun Aug 13 21:53:02 2000] u/s/sexking/toy/book.c line 5: Warning: Unknown \ escape. before ÄÅÜºAµL¤W¤ßªk"NOR,({
+
+[Sun Aug 13 21:53:02 2000] u/s/sexking/toy/book.c line 17: Illegal to redeclare local name 'me' before ;
+
+[Sun Aug 13 21:53:02 2000] u/s/sexking/toy/book.c line 19: Reserved type name unexpected. before stratcher,callname;
+
+[Sun Aug 13 21:53:02 2000] u/s/sexking/toy/book.c line 19: parse error before stratcher,callname;
+
+[Sun Aug 13 21:53:02 2000] u/s/sexking/toy/book.c line 22: Undefined variable 'arg' before  environment(me)))
+
+[Sun Aug 13 21:53:02 2000] u/s/sexking/toy/book.c line 22: Undefined variable 'me' before ))
+
+[Sun Aug 13 21:53:02 2000] u/s/sexking/toy/book.c line 22: Illegal LHS before the end of line
+
+[Sun Aug 13 21:53:38 2000] u/s/sexking/toy/book.c line 17: Illegal to redeclare local name 'me' before ;
+
+[Sun Aug 13 21:53:38 2000] u/s/sexking/toy/book.c line 19: Reserved type name unexpected. before stratcher,callname;
+
+[Sun Aug 13 21:53:38 2000] u/s/sexking/toy/book.c line 19: parse error before stratcher,callname;
+
+[Sun Aug 13 21:53:38 2000] u/s/sexking/toy/book.c line 22: Undefined variable 'arg' before  environment(me)))
+
+[Sun Aug 13 21:53:38 2000] u/s/sexking/toy/book.c line 22: Undefined variable 'me' before ))
+
+[Sun Aug 13 21:53:38 2000] u/s/sexking/toy/book.c line 22: Illegal LHS before the end of line
+
+[Sun Aug 13 21:54:56 2000] u/s/sexking/toy/book.c line 22: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 21:54:56 2000] u/s/sexking/toy/book.c line 25: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 21:54:56 2000] u/s/sexking/toy/book.c line 27: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 21:54:56 2000] u/s/sexking/toy/book.c line 35: Bad type for argument 2 of do_stratch ( string vs object ) before ;
+
+[Sun Aug 13 21:54:56 2000] u/s/sexking/toy/book.c line 36: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 21:55:42 2000] u/s/sexking/toy/book.c line 22: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 21:55:42 2000] u/s/sexking/toy/book.c line 25: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 21:55:42 2000] u/s/sexking/toy/book.c line 27: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 21:55:42 2000] u/s/sexking/toy/book.c line 30: Invalid argument types to '+' ( string vs string * ) before  "¡T¤µ¤Ñ§A¤w¸g°k¤£¹L
+
+[Sun Aug 13 21:55:42 2000] u/s/sexking/toy/book.c line 35: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 21:56:18 2000] u/s/sexking/toy/book.c line 22: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 21:56:18 2000] u/s/sexking/toy/book.c line 25: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 21:56:18 2000] u/s/sexking/toy/book.c line 27: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 21:56:18 2000] u/s/sexking/toy/book.c line 30: Invalid argument types to '+' ( string vs string * ) before  "¡T¤µ¤Ñ§A¤w¸g°k¤£¹L
+
+[Sun Aug 13 21:56:18 2000] u/s/sexking/toy/book.c line 35: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 21:58:58 2000] u/s/sexking/toy/book.c line 21: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 21:58:58 2000] u/s/sexking/toy/book.c line 24: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 21:58:58 2000] u/s/sexking/toy/book.c line 26: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 21:58:58 2000] u/s/sexking/toy/book.c line 27: Undefined variable 'callname' before  obj->rank("rude");
+
+[Sun Aug 13 21:58:58 2000] u/s/sexking/toy/book.c line 34: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 21:59:42 2000] u/s/sexking/toy/book.c line 20: Undefined variable 'arg' before the end of line
+
+[Sun Aug 13 21:59:42 2000] u/s/sexking/toy/book.c line 21: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 21:59:42 2000] u/s/sexking/toy/book.c line 24: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 21:59:42 2000] u/s/sexking/toy/book.c line 26: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 21:59:42 2000] u/s/sexking/toy/book.c line 27: Undefined variable 'callname' before  obj->rank("rude");
+
+[Sun Aug 13 21:59:42 2000] u/s/sexking/toy/book.c line 34: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:00:08 2000] u/s/sexking/toy/book.c line 20: Undefined variable 'arg' before the end of line
+
+[Sun Aug 13 22:00:08 2000] u/s/sexking/toy/book.c line 21: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:00:08 2000] u/s/sexking/toy/book.c line 24: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:00:08 2000] u/s/sexking/toy/book.c line 26: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:00:08 2000] u/s/sexking/toy/book.c line 27: Undefined variable 'callname' before  obj->rank("rude");
+
+[Sun Aug 13 22:00:08 2000] u/s/sexking/toy/book.c line 34: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:00:26 2000] u/s/sexking/toy/book.c line 20: Undefined variable 'arg' before the end of line
+
+[Sun Aug 13 22:00:26 2000] u/s/sexking/toy/book.c line 21: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:00:26 2000] u/s/sexking/toy/book.c line 24: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:00:26 2000] u/s/sexking/toy/book.c line 26: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:00:26 2000] u/s/sexking/toy/book.c line 27: Undefined variable 'callname' before  obj->rank("rude");
+
+[Sun Aug 13 22:00:26 2000] u/s/sexking/toy/book.c line 34: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:07:27 2000] u/s/sexking/toy/book.c line 20: Undefined variable 'arg' before the end of line
+
+[Sun Aug 13 22:07:27 2000] u/s/sexking/toy/book.c line 21: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:07:27 2000] u/s/sexking/toy/book.c line 24: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:07:27 2000] u/s/sexking/toy/book.c line 26: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:07:27 2000] u/s/sexking/toy/book.c line 27: Undefined variable 'callname' before  obj->rank("rude");
+
+[Sun Aug 13 22:07:27 2000] u/s/sexking/toy/book.c line 30: Wrong number of arguments to do_stratch
+    Expected: 1  Got: 2 before ;
+
+[Sun Aug 13 22:12:31 2000] u/s/sexking/toy/book.c line 21: Undefined variable 'arg' before the end of line
+
+[Sun Aug 13 22:12:31 2000] u/s/sexking/toy/book.c line 22: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:12:31 2000] u/s/sexking/toy/book.c line 25: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:12:31 2000] u/s/sexking/toy/book.c line 27: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:12:31 2000] u/s/sexking/toy/book.c line 28: Undefined variable 'i' before ->query("id"))
+
+[Sun Aug 13 22:12:31 2000] u/s/sexking/toy/book.c line 32: Wrong number of arguments to do_stratch
+    Expected: 1  Got: 2 before ;
+
+[Sun Aug 13 22:14:35 2000] u/s/sexking/toy/book.c line 18: Illegal to redeclare local name 'me' before ,obj,*inv;
+
+[Sun Aug 13 22:14:35 2000] u/s/sexking/toy/book.c line 22: Undefined variable 'arg' before the end of line
+
+[Sun Aug 13 22:14:35 2000] u/s/sexking/toy/book.c line 23: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:14:35 2000] u/s/sexking/toy/book.c line 26: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:14:35 2000] u/s/sexking/toy/book.c line 28: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:14:35 2000] u/s/sexking/toy/book.c line 33: Wrong number of arguments to do_stratch
+    Expected: 1  Got: 2 before ;
+
+[Sun Aug 13 22:15:21 2000] u/s/sexking/toy/book.c line 17: Illegal to redeclare local name 'me' before ,obj,*inv;
+
+[Sun Aug 13 22:15:21 2000] u/s/sexking/toy/book.c line 21: Undefined variable 'arg' before the end of line
+
+[Sun Aug 13 22:15:21 2000] u/s/sexking/toy/book.c line 22: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:15:21 2000] u/s/sexking/toy/book.c line 25: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:15:21 2000] u/s/sexking/toy/book.c line 27: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:15:21 2000] u/s/sexking/toy/book.c line 32: Wrong number of arguments to do_stratch
+    Expected: 1  Got: 2 before ;
+
+[Sun Aug 13 22:24:45 2000] u/s/sexking/toy/book.c line 17: Illegal to redeclare local name 'me' before ,obj,*inv;
+
+[Sun Aug 13 22:24:45 2000] u/s/sexking/toy/book.c line 21: Undefined variable 'arg' before the end of line
+
+[Sun Aug 13 22:24:45 2000] u/s/sexking/toy/book.c line 22: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:24:45 2000] u/s/sexking/toy/book.c line 25: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:24:45 2000] u/s/sexking/toy/book.c line 27: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:24:45 2000] u/s/sexking/toy/book.c line 32: Wrong number of arguments to do_stratch
+    Expected: 1  Got: 2 before ;
+
+[Sun Aug 13 22:26:21 2000] u/s/sexking/toy/book.c line 21: Undefined variable 'arg' before the end of line
+
+[Sun Aug 13 22:26:21 2000] u/s/sexking/toy/book.c line 22: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:26:21 2000] u/s/sexking/toy/book.c line 25: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:26:21 2000] u/s/sexking/toy/book.c line 27: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:26:21 2000] u/s/sexking/toy/book.c line 32: Wrong number of arguments to do_stratch
+    Expected: 1  Got: 2 before ;
+
+[Sun Aug 13 22:26:21 2000] u/s/sexking/toy/book.c line 37: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:26:45 2000] u/s/sexking/toy/book.c line 21: Undefined variable 'arg' before the end of line
+
+[Sun Aug 13 22:26:45 2000] u/s/sexking/toy/book.c line 22: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:26:45 2000] u/s/sexking/toy/book.c line 25: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:26:45 2000] u/s/sexking/toy/book.c line 27: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:26:45 2000] u/s/sexking/toy/book.c line 32: Wrong number of arguments to do_stratch
+    Expected: 1  Got: 2 before ;
+
+[Sun Aug 13 22:26:45 2000] u/s/sexking/toy/book.c line 37: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:29:39 2000] u/s/sexking/toy/book.c line 19: Reserved type name unexpected. before ,max;        
+
+[Sun Aug 13 22:29:39 2000] u/s/sexking/toy/book.c line 19: parse error before ,max;        
+
+[Sun Aug 13 22:29:39 2000] u/s/sexking/toy/book.c line 20: Illegal LHS before the end of line
+
+[Sun Aug 13 22:29:39 2000] u/s/sexking/toy/book.c line 21: Undefined variable 'inv' before  all_inventory(envir
+
+[Sun Aug 13 22:29:39 2000] u/s/sexking/toy/book.c line 21: Undefined variable 'me' before );
+
+[Sun Aug 13 22:29:39 2000] u/s/sexking/toy/book.c line 22: Undefined variable 'arg' before the end of line
+
+[Sun Aug 13 22:30:13 2000] u/s/sexking/toy/book.c line 19: Reserved type name unexpected. before ,max;        
+
+[Sun Aug 13 22:30:13 2000] u/s/sexking/toy/book.c line 19: parse error before ,max;        
+
+[Sun Aug 13 22:30:13 2000] u/s/sexking/toy/book.c line 20: Illegal LHS before the end of line
+
+[Sun Aug 13 22:30:13 2000] u/s/sexking/toy/book.c line 21: Undefined variable 'inv' before  all_inventory(envir
+
+[Sun Aug 13 22:30:13 2000] u/s/sexking/toy/book.c line 21: Undefined variable 'me' before );
+
+[Sun Aug 13 22:30:13 2000] u/s/sexking/toy/book.c line 22: Undefined variable 'arg' before the end of line
+
+[Sun Aug 13 22:30:19 2000] u/s/sexking/toy/book.c line 19: Reserved type name unexpected. before ,max;        
+
+[Sun Aug 13 22:30:19 2000] u/s/sexking/toy/book.c line 19: parse error before ,max;        
+
+[Sun Aug 13 22:30:19 2000] u/s/sexking/toy/book.c line 20: Illegal LHS before the end of line
+
+[Sun Aug 13 22:30:19 2000] u/s/sexking/toy/book.c line 21: Undefined variable 'inv' before  all_inventory(envir
+
+[Sun Aug 13 22:30:19 2000] u/s/sexking/toy/book.c line 21: Undefined variable 'me' before );
+
+[Sun Aug 13 22:30:19 2000] u/s/sexking/toy/book.c line 22: Undefined variable 'arg' before the end of line
+
+[Sun Aug 13 22:30:39 2000] u/s/sexking/toy/book.c line 19: Reserved type name unexpected. before ,max;        
+
+[Sun Aug 13 22:30:39 2000] u/s/sexking/toy/book.c line 19: parse error before ,max;        
+
+[Sun Aug 13 22:30:39 2000] u/s/sexking/toy/book.c line 20: Illegal LHS before the end of line
+
+[Sun Aug 13 22:30:39 2000] u/s/sexking/toy/book.c line 21: Undefined variable 'inv' before  all_inventory(envir
+
+[Sun Aug 13 22:30:39 2000] u/s/sexking/toy/book.c line 21: Undefined variable 'me' before );
+
+[Sun Aug 13 22:30:39 2000] u/s/sexking/toy/book.c line 22: Undefined variable 'arg' before the end of line
+
+[Sun Aug 13 22:32:27 2000] u/s/sexking/toy/book.c line 19: Reserved type name unexpected. before ,max;        
+
+[Sun Aug 13 22:32:27 2000] u/s/sexking/toy/book.c line 19: parse error before ,max;        
+
+[Sun Aug 13 22:32:27 2000] u/s/sexking/toy/book.c line 20: Undefined variable 'me' before );
+
+[Sun Aug 13 22:32:27 2000] u/s/sexking/toy/book.c line 20: Illegal LHS before the end of line
+
+[Sun Aug 13 22:32:27 2000] u/s/sexking/toy/book.c line 21: Undefined variable 'arg' before the end of line
+
+[Sun Aug 13 22:32:27 2000] u/s/sexking/toy/book.c line 23: Undefined variable 'obj' before  present(arg, enviro
+
+[Sun Aug 13 22:33:55 2000] u/s/sexking/toy/book.c line 21: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:33:55 2000] u/s/sexking/toy/book.c line 24: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:33:55 2000] u/s/sexking/toy/book.c line 26: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:33:55 2000] u/s/sexking/toy/book.c line 27: Undefined variable 'i' before ->query("id"))
+
+[Sun Aug 13 22:33:55 2000] u/s/sexking/toy/book.c line 31: Wrong number of arguments to do_stratch
+    Expected: 1  Got: 2 before ;
+
+[Sun Aug 13 22:33:55 2000] u/s/sexking/toy/book.c line 31: Bad type for argument 1 of do_stratch ( string vs object ) before ;
+
+[Sun Aug 13 22:33:55 2000] u/s/sexking/toy/book.c line 21: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:33:55 2000] u/s/sexking/toy/book.c line 24: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:33:55 2000] u/s/sexking/toy/book.c line 26: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:33:55 2000] u/s/sexking/toy/book.c line 27: Undefined variable 'i' before ->query("id"))
+
+[Sun Aug 13 22:33:55 2000] u/s/sexking/toy/book.c line 31: Wrong number of arguments to do_stratch
+    Expected: 1  Got: 2 before ;
+
+[Sun Aug 13 22:33:55 2000] u/s/sexking/toy/book.c line 31: Bad type for argument 1 of do_stratch ( string vs object ) before ;
+
+[Sun Aug 13 22:35:13 2000] u/s/sexking/toy/book.c line 20: Reserved type name unexpected. before ,max;    
+
+[Sun Aug 13 22:35:13 2000] u/s/sexking/toy/book.c line 20: parse error before ,max;    
+
+[Sun Aug 13 22:35:13 2000] u/s/sexking/toy/book.c line 21: Undefined variable 'me' before );
+
+[Sun Aug 13 22:35:13 2000] u/s/sexking/toy/book.c line 21: Illegal LHS before the end of line
+
+[Sun Aug 13 22:35:13 2000] u/s/sexking/toy/book.c line 22: Undefined variable 'arg' before the end of line
+
+[Sun Aug 13 22:35:13 2000] u/s/sexking/toy/book.c line 24: Undefined variable 'obj' before  present(arg, enviro
+
+[Sun Aug 13 22:35:37 2000] u/s/sexking/toy/book.c line 20: Reserved type name unexpected. before ,max;    
+
+[Sun Aug 13 22:35:37 2000] u/s/sexking/toy/book.c line 20: parse error before ,max;    
+
+[Sun Aug 13 22:35:37 2000] u/s/sexking/toy/book.c line 21: Undefined variable 'me' before );
+
+[Sun Aug 13 22:35:37 2000] u/s/sexking/toy/book.c line 21: Illegal LHS before the end of line
+
+[Sun Aug 13 22:35:37 2000] u/s/sexking/toy/book.c line 22: Undefined variable 'arg' before the end of line
+
+[Sun Aug 13 22:35:37 2000] u/s/sexking/toy/book.c line 24: Undefined variable 'obj' before  present(arg, enviro
+
+[Sun Aug 13 22:36:21 2000] u/s/sexking/toy/book.c line 23: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:36:21 2000] u/s/sexking/toy/book.c line 26: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:36:21 2000] u/s/sexking/toy/book.c line 28: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:36:21 2000] u/s/sexking/toy/book.c line 33: Wrong number of arguments to do_stratch
+    Expected: 1  Got: 2 before ;
+
+[Sun Aug 13 22:36:21 2000] u/s/sexking/toy/book.c line 33: Bad type for argument 1 of do_stratch ( string vs object ) before ;
+
+[Sun Aug 13 22:36:21 2000] u/s/sexking/toy/book.c line 38: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Aug 13 22:36:33 2000] u/s/sexking/toy/book.c line 33: Wrong number of arguments to do_stratch
+    Expected: 1  Got: 2 before ;
+
+[Sun Aug 13 22:36:33 2000] u/s/sexking/toy/book.c line 33: Bad type for argument 1 of do_stratch ( string vs object ) before ;
+
+[Sun Aug 13 22:36:33 2000] u/s/sexking/toy/book.c line 62: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Sun Aug 13 22:36:33 2000] u/s/sexking/toy/book.c line 62: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Sun Aug 13 22:36:33 2000] u/s/sexking/toy/book.c line 62: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Sun Aug 13 22:36:33 2000] u/s/sexking/toy/book.c line 62: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Sun Aug 13 22:37:15 2000] u/s/sexking/toy/book.c line 62: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Sun Aug 13 22:37:15 2000] u/s/sexking/toy/book.c line 62: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Sun Aug 13 22:37:15 2000] u/s/sexking/toy/book.c line 62: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Sun Aug 13 22:37:15 2000] u/s/sexking/toy/book.c line 62: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Sun Aug 13 22:37:15 2000] u/s/sexking/toy/book.c line 62: Illegal to redefine 'nomask' function "query_encumbrance" before the end of line
+
+[Sun Aug 13 22:37:15 2000] u/s/sexking/toy/book.c line 62: Illegal to redefine 'nomask' function "over_encumbranced" before the end of line
+
+[Sun Aug 13 22:52:27 2000] u/s/sexking/toy/book.c line 34: parse error before the end of line
+
+[Sun Aug 13 22:58:31 2000] u/s/sexking/toy/book.c line 16: parse error before the end of line
+
+[Sun Aug 13 22:58:31 2000] u/s/sexking/toy/book.c line 17: Illegal LHS before the end of line
+
+[Sun Aug 13 23:34:45 2000] u/s/sexking/toy/tt.c line 1: parse error before ansi.h>
+
+[Mon Aug 14 12:49:36 2000] u/s/sexking/toy/book.c line 25: parse error before n$NÂÛÂÛ¸õ¸õªº¸õ¨ì$nª
+
+[Mon Aug 14 12:49:36 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before NÂÛÂÛ¸õ¸õªº¸õ¨ì$nªº­
+
+[Mon Aug 14 12:49:36 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before nªº­I«á:³±ÀIªº»¡¹D:¥
+
+[Mon Aug 14 12:49:36 2000] u/s/sexking/toy/book.c line 37: $var illegal outside of function pointer. before N¦ù¥X²]½âªº¤â..¦ù¨ì"
+
+[Mon Aug 14 12:49:36 2000] u/s/sexking/toy/book.c line 42: $var illegal outside of function pointer. before N¶V·k¶V°_«l..¦Ó"+ ob
+
+[Mon Aug 14 12:49:36 2000] u/s/sexking/toy/book.c line 52: $var illegal outside of function pointer. before N¤£¸T²]¯º¤F°_¨Ó..¨þ¨
+
+[Mon Aug 14 12:51:06 2000] u/s/sexking/toy/book.c line 25: parse error before n$NÂÛÂÛ¸õ¸õªº¸õ¨ì$nª
+
+[Mon Aug 14 12:51:06 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before NÂÛÂÛ¸õ¸õªº¸õ¨ì$nªº­
+
+[Mon Aug 14 12:51:06 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before nªº­I«á:³±ÀIªº»¡¹D:¥
+
+[Mon Aug 14 12:51:06 2000] u/s/sexking/toy/book.c line 37: $var illegal outside of function pointer. before N¦ù¥X²]½âªº¤â..¦ù¨ì$
+
+[Mon Aug 14 12:51:06 2000] u/s/sexking/toy/book.c line 37: $var illegal outside of function pointer. before nªº±³¤UºÆ¨gªº·kÄo..¡
+
+[Mon Aug 14 12:51:06 2000] u/s/sexking/toy/book.c line 42: $var illegal outside of function pointer. before N¶V·k¶V°_«l..¦Ó$n«o¤
+
+[Mon Aug 14 12:51:54 2000] u/s/sexking/toy/book.c line 25: parse error before n$NÂÛÂÛ¸õ¸õªº¸õ¨ì$nª
+
+[Mon Aug 14 12:51:54 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before NÂÛÂÛ¸õ¸õªº¸õ¨ì$nªº­
+
+[Mon Aug 14 12:51:54 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before nªº­I«á:³±ÀIªº»¡¹D:¹
+
+[Mon Aug 14 12:51:54 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before n»¡:¼K¼K!¤µ¤Ñ§A¤w¸g°
+
+[Mon Aug 14 12:51:54 2000] u/s/sexking/toy/book.c line 37: $var illegal outside of function pointer. before N¦ù¥X²]½âªº¤â..¦ù¨ì$
+
+[Mon Aug 14 12:51:54 2000] u/s/sexking/toy/book.c line 37: $var illegal outside of function pointer. before nªº±³¤UºÆ¨gªº·kÄo..¡
+
+[Mon Aug 14 12:54:04 2000] u/s/sexking/toy/book.c line 26: parse error before n$NÂÛÂÛ¸õ¸õªº¸õ¨ì$nª
+
+[Mon Aug 14 12:54:04 2000] u/s/sexking/toy/book.c line 26: $var illegal outside of function pointer. before NÂÛÂÛ¸õ¸õªº¸õ¨ì$nªº­
+
+[Mon Aug 14 12:54:04 2000] u/s/sexking/toy/book.c line 26: $var illegal outside of function pointer. before nªº­I«á:³±ÀIªº»¡¹D:¹
+
+[Mon Aug 14 12:54:04 2000] u/s/sexking/toy/book.c line 26: $var illegal outside of function pointer. before n»¡:¼K¼K!¤µ¤Ñ§A¤w¸g°
+
+[Mon Aug 14 12:54:04 2000] u/s/sexking/toy/book.c line 38: $var illegal outside of function pointer. before N¦ù¥X²]½âªº¤â..¦ù¨ì$
+
+[Mon Aug 14 12:54:04 2000] u/s/sexking/toy/book.c line 38: $var illegal outside of function pointer. before nªº±³¤UºÆ¨gªº·kÄo..¡
+
+[Mon Aug 14 12:54:32 2000] u/s/sexking/toy/book.c line 26: parse error before n$NÂÛÂÛ¸õ¸õªº¸õ¨ì$nª
+
+[Mon Aug 14 12:54:32 2000] u/s/sexking/toy/book.c line 26: $var illegal outside of function pointer. before NÂÛÂÛ¸õ¸õªº¸õ¨ì$nªº­
+
+[Mon Aug 14 12:54:32 2000] u/s/sexking/toy/book.c line 26: $var illegal outside of function pointer. before nªº­I«á:³±ÀIªº»¡¹D:¹
+
+[Mon Aug 14 12:54:32 2000] u/s/sexking/toy/book.c line 26: $var illegal outside of function pointer. before n»¡:¼K¼K!¤µ¤Ñ§A¤w¸g°
+
+[Mon Aug 14 12:54:32 2000] u/s/sexking/toy/book.c line 38: $var illegal outside of function pointer. before N¦ù¥X²]½âªº¤â..¦ù¨ì$
+
+[Mon Aug 14 12:54:32 2000] u/s/sexking/toy/book.c line 38: $var illegal outside of function pointer. before nªº±³¤UºÆ¨gªº·kÄo..¡
+
+[Mon Aug 14 12:55:40 2000] u/s/sexking/toy/book.c line 25: parse error before n$NÂÛÂÛ¸õ¸õªº¸õ¨ì$nª
+
+[Mon Aug 14 12:55:40 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before NÂÛÂÛ¸õ¸õªº¸õ¨ì$nªº­
+
+[Mon Aug 14 12:55:40 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before nªº­I«á:³±ÀIªº»¡¹D:¹
+
+[Mon Aug 14 12:55:40 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before n»¡:¼K¼K!¤µ¤Ñ§A¤w¸g°
+
+[Mon Aug 14 12:55:40 2000] u/s/sexking/toy/book.c line 37: $var illegal outside of function pointer. before N¦ù¥X²]½âªº¤â..¦ù¨ì$
+
+[Mon Aug 14 12:55:40 2000] u/s/sexking/toy/book.c line 37: $var illegal outside of function pointer. before nªº±³¤UºÆ¨gªº·kÄo..¡
+
+[Mon Aug 14 12:56:06 2000] u/s/sexking/toy/book.c line 25: parse error before n$NÂÛÂÛ¸õ¸õªº¸õ¨ì$nª
+
+[Mon Aug 14 12:56:06 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before NÂÛÂÛ¸õ¸õªº¸õ¨ì$nªº­
+
+[Mon Aug 14 12:56:06 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before nªº­I«á:³±ÀIªº»¡¹D:¹
+
+[Mon Aug 14 12:56:06 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before n»¡:¼K¼K!¤µ¤Ñ§A¤w¸g°
+
+[Mon Aug 14 12:56:06 2000] u/s/sexking/toy/book.c line 37: $var illegal outside of function pointer. before N¦ù¥X²]½âªº¤â..¦ù¨ì$
+
+[Mon Aug 14 12:56:06 2000] u/s/sexking/toy/book.c line 37: $var illegal outside of function pointer. before nªº±³¤UºÆ¨gªº·kÄo..¡
+
+[Mon Aug 14 12:56:12 2000] u/s/sexking/toy/book.c line 25: parse error before n$NÂÛÂÛ¸õ¸õªº¸õ¨ì$nª
+
+[Mon Aug 14 12:56:12 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before NÂÛÂÛ¸õ¸õªº¸õ¨ì$nªº­
+
+[Mon Aug 14 12:56:12 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before nªº­I«á:³±ÀIªº»¡¹D:¹
+
+[Mon Aug 14 12:56:12 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before n»¡:¼K¼K!¤µ¤Ñ§A¤w¸g°
+
+[Mon Aug 14 12:56:12 2000] u/s/sexking/toy/book.c line 37: $var illegal outside of function pointer. before N¦ù¥X²]½âªº¤â..¦ù¨ì$
+
+[Mon Aug 14 12:56:12 2000] u/s/sexking/toy/book.c line 37: $var illegal outside of function pointer. before nªº±³¤UºÆ¨gªº·kÄo..¡
+
+[Mon Aug 14 12:56:18 2000] u/s/sexking/toy/book.c line 25: parse error before n$NÂÛÂÛ¸õ¸õªº¸õ¨ì$nª
+
+[Mon Aug 14 12:56:18 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before NÂÛÂÛ¸õ¸õªº¸õ¨ì$nªº­
+
+[Mon Aug 14 12:56:18 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before nªº­I«á:³±ÀIªº»¡¹D:¹
+
+[Mon Aug 14 12:56:18 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before n»¡:¼K¼K!¤µ¤Ñ§A¤w¸g°
+
+[Mon Aug 14 12:56:18 2000] u/s/sexking/toy/book.c line 37: $var illegal outside of function pointer. before N¦ù¥X²]½âªº¤â..¦ù¨ì$
+
+[Mon Aug 14 12:56:18 2000] u/s/sexking/toy/book.c line 37: $var illegal outside of function pointer. before nªº±³¤UºÆ¨gªº·kÄo..¡
+
+[Mon Aug 14 12:57:30 2000] u/s/sexking/toy/book.c line 25: parse error before n$NÂÛÂÛ¸õ¸õªº¸õ¨ì$nª
+
+[Mon Aug 14 12:57:30 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before NÂÛÂÛ¸õ¸õªº¸õ¨ì$nªº­
+
+[Mon Aug 14 12:57:30 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before nªº­I«á:³±ÀIªº»¡¹D:¹
+
+[Mon Aug 14 12:57:30 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before n»¡:¼K¼K!¤µ¤Ñ§A¤w¸g°
+
+[Mon Aug 14 12:57:30 2000] u/s/sexking/toy/book.c line 36: $var illegal outside of function pointer. before N¦ù¥X²]½âªº¤â..¦ù¨ì$
+
+[Mon Aug 14 12:57:30 2000] u/s/sexking/toy/book.c line 36: $var illegal outside of function pointer. before nªº±³¤UºÆ¨gªº·kÄo..¡
+
+[Mon Aug 14 16:45:40 2000] u/s/sexking/toy/book.c line 25: parse error before n$NÂÛÂÛ¸õ¸õªº¸õ¨ì$nª
+
+[Mon Aug 14 16:45:40 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before NÂÛÂÛ¸õ¸õªº¸õ¨ì$nªº­
+
+[Mon Aug 14 16:45:40 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before nªº­I«á:³±ÀIªº»¡¹D:¹
+
+[Mon Aug 14 16:45:40 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before n»¡:¼K¼K!¤µ¤Ñ§A¤w¸g°
+
+[Mon Aug 14 16:45:40 2000] u/s/sexking/toy/book.c line 36: $var illegal outside of function pointer. before N¦ù¥X²]½âªº¤â..¦ù¨ì$
+
+[Mon Aug 14 16:45:40 2000] u/s/sexking/toy/book.c line 36: $var illegal outside of function pointer. before nªº±³¤UºÆ¨gªº·kÄo..¡
+
+[Mon Aug 14 16:51:04 2000] u/s/sexking/toy/book.c line 25: parse error before n$NÂÛÂÛ¸õ¸õªº¸õ¨ì$nª
+
+[Mon Aug 14 16:51:04 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before NÂÛÂÛ¸õ¸õªº¸õ¨ì$nªº­
+
+[Mon Aug 14 16:51:04 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before nªº­I«á:³±ÀIªº»¡¹D:¹
+
+[Mon Aug 14 16:51:04 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before n»¡:¼K¼K!¤µ¤Ñ§A¤w¸g°
+
+[Mon Aug 14 16:51:04 2000] u/s/sexking/toy/book.c line 36: $var illegal outside of function pointer. before N¦ù¥X²]½âªº¤â..¦ù¨ì$
+
+[Mon Aug 14 16:51:04 2000] u/s/sexking/toy/book.c line 36: $var illegal outside of function pointer. before nªº±³¤UºÆ¨gªº·kÄo..¡
+
+[Mon Aug 14 16:53:46 2000] u/s/sexking/toy/book.c line 25: parse error before n$NÂÛÂÛ¸õ¸õªº¸õ¨ì$nª
+
+[Mon Aug 14 16:53:46 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before NÂÛÂÛ¸õ¸õªº¸õ¨ì$nªº­
+
+[Mon Aug 14 16:53:46 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before nªº­I«á:³±ÀIªº»¡¹D:¹
+
+[Mon Aug 14 16:53:46 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before n»¡:¼K¼K!¤µ¤Ñ§A¤w¸g°
+
+[Mon Aug 14 16:53:46 2000] u/s/sexking/toy/book.c line 36: $var illegal outside of function pointer. before N¦ù¥X²]½âªº¤â..¦ù¨ì$
+
+[Mon Aug 14 16:53:46 2000] u/s/sexking/toy/book.c line 36: $var illegal outside of function pointer. before nªº±³¤UºÆ¨gªº·kÄo..¡
+
+[Mon Aug 14 16:56:14 2000] u/s/sexking/toy/book.c line 25: parse error before n$NÂÛÂÛ¸õ¸õªº¸õ¨ì$nª
+
+[Mon Aug 14 16:56:14 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before NÂÛÂÛ¸õ¸õªº¸õ¨ì$nªº­
+
+[Mon Aug 14 16:56:14 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before nªº­I«á:³±ÀIªº»¡¹D:¹
+
+[Mon Aug 14 16:56:14 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before n»¡:¼K¼K!¤µ¤Ñ§A¤w¸g°
+
+[Mon Aug 14 16:56:14 2000] u/s/sexking/toy/book.c line 35: $var illegal outside of function pointer. before N¦ù¥X²]½âªº¤â..¦ù¨ì$
+
+[Mon Aug 14 16:56:14 2000] u/s/sexking/toy/book.c line 35: $var illegal outside of function pointer. before nªº±³¤UºÆ¨gªº·kÄo..¡
+
+[Mon Aug 14 16:56:44 2000] u/s/sexking/toy/book.c line 25: parse error before n$NÂÛÂÛ¸õ¸õªº¸õ¨ì$nª
+
+[Mon Aug 14 16:56:44 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before NÂÛÂÛ¸õ¸õªº¸õ¨ì$nªº­
+
+[Mon Aug 14 16:56:44 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before nªº­I«á:³±ÀIªº»¡¹D:¹
+
+[Mon Aug 14 16:56:44 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before n»¡:¼K¼K!¤µ¤Ñ§A¤w¸g°
+
+[Mon Aug 14 16:56:44 2000] u/s/sexking/toy/book.c line 35: $var illegal outside of function pointer. before N¦ù¥X²]½âªº¤â..¦ù¨ì$
+
+[Mon Aug 14 16:56:44 2000] u/s/sexking/toy/book.c line 35: $var illegal outside of function pointer. before nªº±³¤UºÆ¨gªº·kÄo..¡
+
+[Mon Aug 14 16:57:45 2000] u/s/sexking/toy/book.c line 25: parse error before n$NÂÛÂÛ¸õ¸õªº¸õ¨ì$nª
+
+[Mon Aug 14 16:57:45 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before NÂÛÂÛ¸õ¸õªº¸õ¨ì$nªº­
+
+[Mon Aug 14 16:57:45 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before nªº­I«á:³±ÀIªº»¡¹D:¹
+
+[Mon Aug 14 16:57:45 2000] u/s/sexking/toy/book.c line 25: $var illegal outside of function pointer. before n»¡:¼K¼K!¤µ¤Ñ§A¤w¸g°
+
+[Mon Aug 14 16:57:45 2000] u/s/sexking/toy/book.c line 35: $var illegal outside of function pointer. before N¦ù¥X²]½âªº¤â..¦ù¨ì$
+
+[Mon Aug 14 16:57:45 2000] u/s/sexking/toy/book.c line 35: $var illegal outside of function pointer. before nªº±³¤UºÆ¨gªº·kÄo..¡
+
+[Mon Aug 14 17:52:08 2000] u/s/sexking/toy/book.c line 120: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Mon Aug 14 17:52:08 2000] u/s/sexking/toy/book.c line 125: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Mon Aug 14 17:52:08 2000] u/s/sexking/toy/book.c line 129: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Mon Aug 14 17:56:18 2000] u/s/sexking/toy/book.c line 123: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Mon Aug 14 17:56:18 2000] u/s/sexking/toy/book.c line 128: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Mon Aug 14 18:38:07 2000] u/s/sexking/toy/book2.c line 149: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Mon Aug 14 18:38:07 2000] u/s/sexking/toy/book2.c line 149: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Mon Aug 14 18:38:07 2000] u/s/sexking/toy/book2.c line 149: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Mon Aug 14 18:38:07 2000] u/s/sexking/toy/book2.c line 149: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Mon Aug 14 18:38:07 2000] u/s/sexking/toy/book2.c line 149: Illegal to redefine 'nomask' function "query_encumbrance" before the end of line
+
+[Mon Aug 14 18:38:07 2000] u/s/sexking/toy/book2.c line 149: Illegal to redefine 'nomask' function "over_encumbranced" before the end of line
+
+[Tue Aug 15 19:27:09 2000] u/s/sexking/test.c line 36: Reserved type name unexpected. before (object me,object ta
+
+[Tue Aug 15 19:27:09 2000] u/s/sexking/test.c line 36: parse error before (object me,object ta
+
+[Tue Aug 15 19:28:07 2000] u/s/sexking/test.c line 48: parse error before the end of line
+
+[Tue Aug 15 19:33:13 2000] u/s/sexking/test.c line 39: Warning: Non-void functions must return a value. before the end of line
+
+[Tue Aug 15 19:33:13 2000] u/s/sexking/test.c line 40: Warning: Non-void functions must return a value. before the end of line
+
+[Tue Aug 15 19:33:13 2000] u/s/sexking/test.c line 50: parse error before the end of line
+
+[Wed Aug 16 23:46:25 2000] u/s/sexking/test.c line 49: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Wed Aug 16 23:46:25 2000] u/s/sexking/test.c line 60: Undefined variable 'ret' before the end of line
+
+[Wed Aug 16 23:46:25 2000] u/s/sexking/test.c line 60: parse error before the end of line
+
+[Wed Aug 16 23:46:25 2000] u/s/sexking/test.c line 74: parse error before ("cold4",30,me);
+
+[Wed Aug 16 23:49:03 2000] u/s/sexking/test.c line 26: Illegal to redeclare local name 'robe' before ;
+
+[Wed Aug 16 23:49:03 2000] u/s/sexking/test.c line 37: Undefined variable 'robe' before present("Furred robe
+
+[Wed Aug 16 23:49:03 2000] u/s/sexking/test.c line 50: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Wed Aug 16 23:49:03 2000] u/s/sexking/test.c line 61: Undefined variable 'ret' before the end of line
+
+[Wed Aug 16 23:49:03 2000] u/s/sexking/test.c line 61: parse error before the end of line
+
+[Wed Aug 16 23:49:03 2000] u/s/sexking/test.c line 75: parse error before ("cold4",30,me);
+
+[Wed Aug 16 23:50:19 2000] u/s/sexking/test.c line 50: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Wed Aug 16 23:50:19 2000] u/s/sexking/test.c line 61: Undefined variable 'ret' before the end of line
+
+[Wed Aug 16 23:50:19 2000] u/s/sexking/test.c line 61: parse error before the end of line
+
+[Wed Aug 16 23:50:19 2000] u/s/sexking/test.c line 75: parse error before ("cold4",20,me);
+
+[Wed Aug 16 23:50:59 2000] u/s/sexking/test.c line 50: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Wed Aug 16 23:50:59 2000] u/s/sexking/test.c line 61: Undefined variable 'ret' before the end of line
+
+[Wed Aug 16 23:50:59 2000] u/s/sexking/test.c line 61: parse error before the end of line
+
+[Wed Aug 16 23:51:53 2000] u/s/sexking/test.c line 50: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Wed Aug 16 23:59:45 2000] u/s/sexking/test.c line 50: parse error before the end of line
+
+[Thu Aug 17 18:49:50 2000] u/s/sexking/toy/blade.c line 39: Warning: Non-void functions must return a value. before the end of line
+
+[Thu Aug 17 18:49:50 2000] u/s/sexking/toy/blade.c line 47: Warning: Non-void functions must return a value. before the end of line
+
+[Thu Aug 17 18:49:50 2000] u/s/sexking/toy/blade.c line 57: Warning: Non-void functions must return a value. before the end of line
+
+[Thu Aug 17 18:56:38 2000] u/s/sexking/toy/blade.c line 58: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Thu Aug 17 19:00:22 2000] u/s/sexking/toy/blade.c line 41: parse error before the end of line
+
+[Tue Jan  9 19:43:45 2001] u/s/sexking/item.c line 3: parse error before  ITEM;
+
+[Sun Apr 15 00:18:07 2001] u/s/sexking/sexking/area/skill/taingin-blade.c line 150: parse error before (me->query_skill_map
+
+[Sun Apr 15 00:21:38 2001] u/s/sexking/sexking/area/skill/taingin-blade.c line 150: parse error before (me->query_skill_map
+
+[Sun Apr 15 00:26:35 2001] u/s/sexking/sexking/area/skill/taingin-blade.c line 149: parse error before the end of line
+
+[Sun Apr 15 00:26:41 2001] u/s/sexking/sexking/area/skill/taingin-blade.c line 149: parse error before the end of line
+
+[Sun Apr 15 00:28:42 2001] u/s/sexking/sexking/area/skill/taingin-blade.c line 149: parse error before (me->query_skill_map
+
+[Sun Apr 15 00:30:35 2001] u/s/sexking/sexking/area/skill/taingin-blade.c line 240: Reserved type name unexpected. before (object me,int cost)
+
+[Sun Apr 15 00:30:35 2001] u/s/sexking/sexking/area/skill/taingin-blade.c line 240: parse error before (object me,int cost)
+
+[Sun Apr 15 00:30:35 2001] u/s/sexking/sexking/area/skill/taingin-blade.c line 244: Undefined variable 'me' before query_temp("weapon")
+
+[Sun Apr 15 00:30:35 2001] u/s/sexking/sexking/area/skill/taingin-blade.c line 244: Illegal LHS before the end of line
+
+[Sun Apr 15 00:30:35 2001] u/s/sexking/sexking/area/skill/taingin-blade.c line 245: Undefined variable 'weapon' before the end of line
+
+[Sun Apr 15 00:30:35 2001] u/s/sexking/sexking/area/skill/taingin-blade.c line 276: Undefined variable 'cost' before ), 10);
+
+[Sun Apr 15 00:44:53 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 13: Undefined variable 'action' before $N¹ï$n¨Ï¥X"HIM"¡u·t¼
+
+[Sun Apr 15 00:44:53 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 13: parse error before $N¹ï$n¨Ï¥X"HIM"¡u·t¼
+
+[Sun Apr 15 00:44:53 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 13: $var illegal outside of function pointer. before N¹ï$n¨Ï¥X"HIM"¡u·t¼v
+
+[Sun Apr 15 00:44:53 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 13: $var illegal outside of function pointer. before n¨Ï¥X"HIM"¡u·t¼v¤T¦¡
+
+[Sun Apr 15 00:44:53 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 27: $var illegal outside of function pointer. before N¹ï$n¨Ï¥X"HIM"¡u·t¼v
+
+[Sun Apr 15 00:44:53 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 27: $var illegal outside of function pointer. before n¨Ï¥X"HIM"¡u·t¼v¯µ¦¡
+
+[Sun Apr 15 00:47:08 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 13: Undefined variable 'action' before $N¹ï$n¨Ï¥X"HIM"¡u·t¼
+
+[Sun Apr 15 00:47:08 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 13: parse error before $N¹ï$n¨Ï¥X"HIM"¡u·t¼
+
+[Sun Apr 15 00:47:08 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 13: $var illegal outside of function pointer. before N¹ï$n¨Ï¥X"HIM"¡u·t¼v
+
+[Sun Apr 15 00:47:08 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 13: $var illegal outside of function pointer. before n¨Ï¥X"HIM"¡u·t¼v¤T¦¡
+
+[Sun Apr 15 00:47:08 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 27: $var illegal outside of function pointer. before N¹ï$n¨Ï¥X"HIM"¡u·t¼v
+
+[Sun Apr 15 00:47:08 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 27: $var illegal outside of function pointer. before n¨Ï¥X"HIM"¡u·t¼v¯µ¦¡
+
+[Sun Apr 15 00:54:52 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 13: Undefined variable 'action' before $N¹ï$n¨Ï¥X"HIM"¡u·t¼
+
+[Sun Apr 15 00:54:52 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 13: parse error before $N¹ï$n¨Ï¥X"HIM"¡u·t¼
+
+[Sun Apr 15 00:54:52 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 13: $var illegal outside of function pointer. before N¹ï$n¨Ï¥X"HIM"¡u·t¼v
+
+[Sun Apr 15 00:54:52 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 13: $var illegal outside of function pointer. before n¨Ï¥X"HIM"¡u·t¼v¤T¦¡
+
+[Sun Apr 15 00:54:52 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 13: $var illegal outside of function pointer. before n²´«e "NOR,
+
+[Sun Apr 15 00:54:52 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 27: $var illegal outside of function pointer. before N¨Ï¥X"HIM"¡u·t¼v¯µ¦¡
+
+[Sun Apr 15 00:56:25 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 13: Undefined variable 'action' before $N¹ï$n¨Ï¥X"HIM"¡u·t¼
+
+[Sun Apr 15 00:56:25 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 13: parse error before $N¹ï$n¨Ï¥X"HIM"¡u·t¼
+
+[Sun Apr 15 00:56:25 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 13: $var illegal outside of function pointer. before N¹ï$n¨Ï¥X"HIM"¡u·t¼v
+
+[Sun Apr 15 00:56:25 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 13: $var illegal outside of function pointer. before n¨Ï¥X"HIM"¡u·t¼v¤T¦¡
+
+[Sun Apr 15 00:56:25 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 13: $var illegal outside of function pointer. before n²´«e "NOR,
+
+[Sun Apr 15 00:56:25 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 27: $var illegal outside of function pointer. before N¨Ï¥X"HIM"¡u·t¼v¯µ¦¡
+
+[Sun Apr 15 00:57:55 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 65: parse error before (me->query_skill_map
+
+[Sun Apr 15 00:58:37 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 88: parse error before Àþ---¼C--->"HIM"¤]¡A
+
+[Sun Apr 15 00:58:37 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 88: $var illegal outside of function pointer. before n¡C\n";
+
+[Sun Apr 15 00:58:37 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 103: $var illegal outside of function pointer. before Nºò«ö¤â¤¤¤§¤M¬`¡A¨â¸
+
+[Sun Apr 15 00:58:37 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 108: End of file in string before )
+
+[Sun Apr 15 01:01:08 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 87: parse error before Àþ---¼C--->"HIM"¤]¡A
+
+[Sun Apr 15 01:01:08 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 87: $var illegal outside of function pointer. before n¡C\n";
+
+[Sun Apr 15 01:01:08 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 102: $var illegal outside of function pointer. before Nºò«ö¤â¤¤¤§¤M¬`¡A¨â¸
+
+[Sun Apr 15 01:01:08 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 107: End of file in string before damage("ap",10);
+
+[Sun Apr 15 01:02:21 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 88: parse error before Àþ---¼C--->"HIM"¤]¡A
+
+[Sun Apr 15 01:02:21 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 88: $var illegal outside of function pointer. before n¡C\n";
+
+[Sun Apr 15 01:02:21 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 103: $var illegal outside of function pointer. before Nºò«ö¤â¤¤¤§¤M¬`¡A¨â¸
+
+[Sun Apr 15 01:02:21 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 109: End of file in string before         {
+
+[Sun Apr 15 01:04:01 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 88: parse error before Àþ---¼C--->"HIM"¤]¡A
+
+[Sun Apr 15 01:04:01 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 88: $var illegal outside of function pointer. before n¡C\n";
+
+[Sun Apr 15 01:04:01 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 103: $var illegal outside of function pointer. before Nºò«ö¤â¤¤¤§¤M¬`¡A¨â¸
+
+[Sun Apr 15 01:04:01 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 109: End of file in string before k]) ) say(schedule[m
+
+[Sun Apr 15 01:05:02 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 91: parse error before Àþ---¼C--->"HIM"¤]¡A
+
+[Sun Apr 15 01:05:02 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 91: $var illegal outside of function pointer. before n¡C\n";
+
+[Sun Apr 15 01:05:02 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 109: End of file in string before  "\nmail_incoming:\n
+
+[Sun Apr 15 01:09:27 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 88: parse error before Àþ---¼C--->"HIM"¤]¡A
+
+[Sun Apr 15 01:09:27 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 88: $var illegal outside of function pointer. before n¡C\n";
+
+[Sun Apr 15 01:09:27 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 103: End of file in string before target->kill_ob(me);
+
+[Sun Apr 15 01:09:51 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 88: parse error before Àþ---¼C--->"HIM"¤]¡A
+
+[Sun Apr 15 01:09:51 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 88: $var illegal outside of function pointer. before n¡C\n";
+
+[Sun Apr 15 01:09:51 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 103: End of file in string before target->kill_ob(me);
+
+[Sun Apr 15 01:13:54 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 88: parse error before Àþ---¼C--->"HIM"¤]¡A
+
+[Sun Apr 15 01:13:54 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 88: $var illegal outside of function pointer. before n¡C\n NOR,me,target)
+
+[Sun Apr 15 01:14:33 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 88: Warning: Unknown \ escape. before "HIC" <---Àþ---¼C---
+
+[Sun Apr 15 01:14:33 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 89: parse error before ",1);
+
+[Sun Apr 15 01:14:33 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 102: $var illegal outside of function pointer. before Nºò«ö¤â¤¤¤§¤M¬`¡A¨â¸
+
+[Sun Apr 15 01:14:33 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 108: End of file in string before ilfred/"+"magic-card
+
+[Sun Apr 15 01:16:50 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 88: Warning: Unknown \ escape. before "HIC" <---Àþ---¼C---
+
+[Sun Apr 15 01:16:50 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 89: parse error before ",1);
+
+[Sun Apr 15 01:16:50 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 102: $var illegal outside of function pointer. before Nºò«ö¤â¤¤¤§¤M¬`¡A¨â¸
+
+[Sun Apr 15 01:16:50 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 158: End of file in string before }
+
+[Sun Apr 15 01:18:20 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 88: Warning: Unknown \ escape. before "HIC" <---Àþ---¼C---
+
+[Sun Apr 15 01:18:20 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 89: parse error before ",1);
+
+[Sun Apr 15 01:18:20 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 101: $var illegal outside of function pointer. before Nºò«ö¤â¤¤¤§¤M¬`¡A¨â¸
+
+[Sun Apr 15 01:18:20 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 106: End of file in string before ("ap",20);
+
+[Sun Apr 15 01:21:47 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 88: Warning: Unknown \ escape. before "HIC" <---Àþ---¼C---
+
+[Sun Apr 15 01:21:47 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 89: parse error before ",1);
+
+[Sun Apr 15 01:21:47 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 102: $var illegal outside of function pointer. before Nºò«ö¤â¤¤¤§¤M¬`¡A¨â¸
+
+[Sun Apr 15 01:21:47 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 107: End of file in string before "ap",20);
+
+[Sun Apr 15 01:27:41 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 79: Undefined variable 'adv_attack' before );
+
+[Sun Apr 15 01:27:41 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 99: Warning: Unknown \ escape. before "HIC" <---Àþ---¼C---
+
+[Sun Apr 15 01:27:41 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 100: parse error before ",1);
+
+[Sun Apr 15 01:27:41 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 120: $var illegal outside of function pointer. before Nºò«ö¤â¤¤¤§¤M¬`¡A¨â¸
+
+[Sun Apr 15 01:27:41 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 127: End of file in string before     }
+
+[Sun Apr 15 01:28:15 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 79: Undefined variable 'adv_attack' before );
+
+[Sun Apr 15 01:28:15 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 100: parse error before ",1);
+
+[Sun Apr 15 01:28:15 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 120: $var illegal outside of function pointer. before Nºò«ö¤â¤¤¤§¤M¬`¡A¨â¸
+
+[Sun Apr 15 01:28:15 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 125: End of file in string before       
+
+[Sun Apr 15 01:30:34 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 79: Undefined variable 'adv_attack' before );
+
+[Sun Apr 15 01:30:34 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 120: parse error before HIC"$Nºò«ö¤â¤¤¤§¤M¬`
+
+[Sun Apr 15 01:32:05 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 79: Undefined variable 'adv_attack' before );
+
+[Sun Apr 15 01:32:05 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 120: parse error before +"[1;36m"        "$N
+
+[Sun Apr 15 01:32:21 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 79: Undefined variable 'adv_attack' before );
+
+[Sun Apr 15 01:32:21 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 120: parse error before +"[1;36m"        "$N
+
+[Sun Apr 15 01:33:29 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 82: Undefined variable 'adv_attack' before );
+
+[Sun Apr 15 01:33:29 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 124: parse error before the end of line
+
+[Sun Apr 15 01:34:13 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 82: Undefined variable 'adv_attack' before );
+
+[Sun Apr 15 01:36:22 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 82: Undefined variable 'adv_attack' before );
+
+[Sun Apr 15 02:01:01 2001] u/s/sexking/sexking/area/npc/wp/left-blade.c line 86: parse error before ðµM¤@°}¤M¥ú¼C¼v...¼C
+
+[Sun Apr 15 02:01:01 2001] u/s/sexking/sexking/area/npc/wp/left-blade.c line 86: Illegal terminator before °}¤M¥ú¼C¼v...¼C®ð¤§Á
+
+[Sun Apr 15 02:01:56 2001] u/s/sexking/sexking/area/npc/wp/left-blade.c line 87: $var illegal outside of function pointer. before n¦b³o¤@«b¨º®Á¤F´X¤M¼
+
+[Sun Apr 15 02:01:56 2001] u/s/sexking/sexking/area/npc/wp/left-blade.c line 87: parse error before n¦b³o¤@«b¨º®Á¤F´X¤M¼
+
+[Sun Apr 15 02:01:56 2001] u/s/sexking/sexking/area/npc/wp/left-blade.c line 87: Illegal terminator before «b¨º®Á¤F´X¤M¼Æ¤]¼Æ¤£
+
+[Sun Apr 15 02:02:09 2001] u/s/sexking/sexking/area/npc/wp/left-blade.c line 87: $var illegal outside of function pointer. before n¦b³o¤@«b¨º®Á¤F´X¤M¼
+
+[Sun Apr 15 02:02:09 2001] u/s/sexking/sexking/area/npc/wp/left-blade.c line 87: parse error before n¦b³o¤@«b¨º®Á¤F´X¤M¼
+
+[Sun Apr 15 02:02:09 2001] u/s/sexking/sexking/area/npc/wp/left-blade.c line 87: Illegal terminator before «b¨º®Á¤F´X¤M¼Æ¤]¼Æ¤£
+
+[Sun Apr 15 02:15:50 2001] u/s/sexking/sexking/area/skill/sky-air.c line 8: parse error before I¡I¡I\n\n"NOR,
+
+[Sun Apr 15 02:15:50 2001] u/s/sexking/sexking/area/skill/sky-air.c line 9: $var illegal outside of function pointer. before N¬Ý°_¨Óµh­W¸U¤À,¨â²´
+
+[Sun Apr 15 02:15:50 2001] u/s/sexking/sexking/area/skill/sky-air.c line 10: $var illegal outside of function pointer. before N¸C¶}Âù²´,¦¹®É¨­¤W¤w
+
+[Sun Apr 15 02:15:50 2001] u/s/sexking/sexking/area/skill/sky-air.c line 22: Illegal terminator before §â¤M¤~¯à¤Þµo¥X¤Ñ¤§«ã
+
+[Sun Apr 15 02:17:56 2001] u/s/sexking/sexking/area/skill/sky-air.c line 8: parse error before I¡I¡I\n\n"NOR,
+
+[Sun Apr 15 02:17:56 2001] u/s/sexking/sexking/area/skill/sky-air.c line 9: $var illegal outside of function pointer. before N¬Ý°_¨Óµh­W¸U¤À,¨â²´
+
+[Sun Apr 15 02:17:56 2001] u/s/sexking/sexking/area/skill/sky-air.c line 10: $var illegal outside of function pointer. before N¸C¶}Âù²´,¦¹®É¨­¤W¤w
+
+[Sun Apr 15 02:17:56 2001] u/s/sexking/sexking/area/skill/sky-air.c line 22: Illegal terminator before §â¤M¤~¯à¤Þµo¥X¤Ñ¤§«ã
+
+[Sun Apr 15 18:04:48 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 158: Number of arguments disagrees with previous definition. before the end of line
+
+[Sun Apr 15 18:43:37 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 119: Reserved type name unexpected. before (object me, object w
+
+[Sun Apr 15 18:43:37 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 119: parse error before (object me, object w
+
+[Sun Apr 15 18:45:48 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 85: Undefined variable 'adv_attack' before );
+
+[Sun Apr 15 19:42:20 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 91: Undefined variable 're' before  notify_fail("§A¡u·t
+
+[Sun Apr 15 19:42:20 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 91: parse error before  notify_fail("§A¡u·t
+
+[Sun Apr 15 19:42:20 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 102: Illegal LHS before the end of line
+
+[Sun Apr 15 19:42:20 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 103: Warning: Non-void functions must return a value. before the end of line
+
+[Sun Apr 15 19:42:20 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 104: Warning: Non-void functions must return a value. before the end of line
+
+[Sun Apr 15 19:42:20 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 105: Warning: Non-void functions must return a value. before the end of line
+
+[Sun Apr 15 19:42:20 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 106: Warning: Non-void functions must return a value. before the end of line
+
+[Sun Apr 15 19:42:20 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 108: Undefined variable 'z' before me->query_skill("dar
+
+[Sun Apr 15 19:42:20 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 109: Undefined variable 'msg' before  HIC"$N§CÁn»¡¹D:"HIM
+
+[Sun Apr 15 19:42:20 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 114: parse error before ;
+
+[Sun Apr 15 19:44:00 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 90: Undefined variable 're' before  notify_fail("§A¡u·t
+
+[Sun Apr 15 19:44:00 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 90: parse error before  notify_fail("§A¡u·t
+
+[Sun Apr 15 19:44:00 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 101: Illegal LHS before the end of line
+
+[Sun Apr 15 19:44:00 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 102: Warning: Non-void functions must return a value. before the end of line
+
+[Sun Apr 15 19:44:00 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 103: Warning: Non-void functions must return a value. before the end of line
+
+[Sun Apr 15 19:44:00 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 104: Warning: Non-void functions must return a value. before the end of line
+
+[Sun Apr 15 19:44:00 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 105: Warning: Non-void functions must return a value. before the end of line
+
+[Sun Apr 15 19:44:00 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 107: Undefined variable 'z' before me->query_skill("dar
+
+[Sun Apr 15 19:44:00 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 108: Undefined variable 'msg' before  HIC"$N§CÁn»¡¹D:"HIM
+
+[Sun Apr 15 19:44:00 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 113: parse error before ;
+
+[Sun Apr 15 19:45:03 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 90: Undefined variable 're' before  notify_fail("§A¡u·t
+
+[Sun Apr 15 19:45:03 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 90: parse error before  notify_fail("§A¡u·t
+
+[Sun Apr 15 19:45:03 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 101: Illegal LHS before the end of line
+
+[Sun Apr 15 19:45:03 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 102: Warning: Non-void functions must return a value. before the end of line
+
+[Sun Apr 15 19:45:03 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 103: Warning: Non-void functions must return a value. before the end of line
+
+[Sun Apr 15 19:45:03 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 104: Warning: Non-void functions must return a value. before the end of line
+
+[Sun Apr 15 19:45:03 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 105: Warning: Non-void functions must return a value. before the end of line
+
+[Sun Apr 15 19:45:03 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 107: Undefined variable 'z' before me->query_skill("dar
+
+[Sun Apr 15 19:45:03 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 108: Undefined variable 'msg' before  HIC"$N§CÁn»¡¹D:"HIM
+
+[Sun Apr 15 19:45:03 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 113: parse error before ;
+
+[Sun Apr 15 19:59:54 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 90: Undefined variable 're' before  notify_fail("§A¡u·t
+
+[Sun Apr 15 19:59:54 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 90: parse error before  notify_fail("§A¡u·t
+
+[Sun Apr 15 19:59:54 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 101: Illegal LHS before the end of line
+
+[Sun Apr 15 19:59:54 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 102: Warning: Non-void functions must return a value. before the end of line
+
+[Sun Apr 15 19:59:54 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 103: Warning: Non-void functions must return a value. before the end of line
+
+[Sun Apr 15 19:59:54 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 104: Warning: Non-void functions must return a value. before the end of line
+
+[Sun Apr 15 19:59:54 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 105: Warning: Non-void functions must return a value. before the end of line
+
+[Sun Apr 15 19:59:54 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 107: Undefined variable 'z' before me->query_skill("dar
+
+[Sun Apr 15 19:59:54 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 108: Undefined variable 'msg' before  HIC"$N§CÁn»¡¹D:"HIM
+
+[Sun Apr 15 19:59:54 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 113: parse error before ;
+
+[Sun Apr 15 20:01:28 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 90: Undefined variable 're' before  notify_fail("§A¡u·t
+
+[Sun Apr 15 20:01:28 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 90: parse error before  notify_fail("§A¡u·t
+
+[Sun Apr 15 20:01:28 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 101: Illegal LHS before the end of line
+
+[Sun Apr 15 20:01:28 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 102: Warning: Non-void functions must return a value. before the end of line
+
+[Sun Apr 15 20:01:28 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 103: Warning: Non-void functions must return a value. before the end of line
+
+[Sun Apr 15 20:01:28 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 104: Warning: Non-void functions must return a value. before the end of line
+
+[Sun Apr 15 20:01:28 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 105: Warning: Non-void functions must return a value. before the end of line
+
+[Sun Apr 15 20:01:28 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 107: Undefined variable 'z' before me->query_skill("dar
+
+[Sun Apr 15 20:01:28 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 108: Undefined variable 'msg' before  HIC"$N§CÁn»¡¹D:"HIM
+
+[Sun Apr 15 20:01:28 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 113: parse error before ;
+
+[Sun Apr 15 20:03:07 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 90: Undefined variable 're' before  notify_fail("§A¡u·t
+
+[Sun Apr 15 20:03:07 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 90: parse error before  notify_fail("§A¡u·t
+
+[Sun Apr 15 20:03:07 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 101: Illegal LHS before the end of line
+
+[Sun Apr 15 20:03:07 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 102: Warning: Non-void functions must return a value. before the end of line
+
+[Sun Apr 15 20:03:07 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 103: Warning: Non-void functions must return a value. before the end of line
+
+[Sun Apr 15 20:03:07 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 104: Warning: Non-void functions must return a value. before the end of line
+
+[Sun Apr 15 20:03:07 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 105: Warning: Non-void functions must return a value. before the end of line
+
+[Sun Apr 15 20:03:07 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 107: Undefined variable 'z' before me->query_skill("dar
+
+[Sun Apr 15 20:03:07 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 108: Undefined variable 'msg' before  HIC"$N§CÁn»¡¹D:"HIM
+
+[Sun Apr 15 20:03:07 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 113: parse error before ;
+
+[Sun Apr 15 20:04:15 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 113: parse error before ;
+
+[Sun Apr 15 20:04:15 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 115: Illegal LHS before the end of line
+
+[Sun Apr 15 20:05:36 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 113: parse error before ;
+
+[Sun Apr 15 20:05:36 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 115: Illegal LHS before the end of line
+
+[Sun Apr 15 20:08:49 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 113: parse error before ;
+
+[Sun Apr 15 20:08:49 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 115: Illegal LHS before the end of line
+
+[Sun Apr 15 20:10:01 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 113: parse error before ;
+
+[Sun Apr 15 20:10:01 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 115: Illegal LHS before the end of line
+
+[Sun Apr 15 20:31:46 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 128: Reserved type name unexpected. before (object me,object ta
+
+[Sun Apr 15 20:31:46 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 128: parse error before (object me,object ta
+
+[Sun Apr 15 20:31:46 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 168: End of file in string before ¡C\n "NOR,me,target)
+
+[Sun Apr 15 20:33:15 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 128: Reserved type name unexpected. before (object me,object ta
+
+[Sun Apr 15 20:33:15 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 128: parse error before (object me,object ta
+
+[Sun Apr 15 20:33:15 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 168: End of file in string before OR,me,target);      
+
+[Sun Apr 15 20:36:22 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 128: Reserved type name unexpected. before (object me,object ta
+
+[Sun Apr 15 20:36:22 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 128: parse error before (object me,object ta
+
+[Sun Apr 15 20:36:22 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 168: End of file in string before OR,me,target);      
+
+[Sun Apr 15 20:37:32 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 123: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Apr 15 20:37:32 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 129: Reserved type name unexpected. before (object me,object ta
+
+[Sun Apr 15 20:37:32 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 129: parse error before (object me,object ta
+
+[Sun Apr 15 20:37:32 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 170: End of file in string before R,me,target);       
+
+[Sun Apr 15 20:40:31 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 123: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sun Apr 15 20:40:31 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 132: $var illegal outside of function pointer. before n¹y®É­¸¥X¤F¤Q¤Ø¤§¥~.
+
+[Sun Apr 15 20:40:31 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 132: parse error before ¹y®É­¸¥X¤F¤Q¤Ø¤§¥~..
+
+[Sun Apr 15 20:40:31 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 159: $var illegal outside of function pointer. before N¦R¤F´X¤fÂA¦å¡A¬Ý¼Ë¤
+
+[Sun Apr 15 20:40:31 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 171: End of file in string before R,me,target);       
+
+[Sun Apr 15 20:41:39 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 128: parse error before (!me->is_fighting(ta
+
+[Sun Apr 15 20:43:00 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 128: parse error before (!me->is_fighting(ta
+
+[Sun Apr 15 20:44:38 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 131: $var illegal outside of function pointer. before n¹y®É­¸¥X¤F¤Q¤Ø¤§¥~.
+
+[Sun Apr 15 20:44:38 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 131: parse error before ¹y®É­¸¥X¤F¤Q¤Ø¤§¥~..
+
+[Sun Apr 15 20:44:38 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 158: $var illegal outside of function pointer. before N¦R¤F´X¤fÂA¦å¡A¬Ý¼Ë¤
+
+[Sun Apr 15 20:44:38 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 170: End of file in string before R,me,target);       
+
+[Sun Apr 15 20:46:59 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 131: $var illegal outside of function pointer. before n¹y®É­¸¥X¤F¤Q¤Ø¤§¥~.
+
+[Sun Apr 15 20:46:59 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 131: parse error before ¹y®É­¸¥X¤F¤Q¤Ø¤§¥~..
+
+[Sun Apr 15 20:46:59 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 158: $var illegal outside of function pointer. before N¦R¤F´X¤fÂA¦å¡A¬Ý¼Ë¤
+
+[Sun Apr 15 20:46:59 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 170: End of file in string before R,me,target);       
+
+[Sun Apr 15 20:49:56 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 3: parse error before  SKILL;
+
+[Sun Apr 15 20:50:10 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 131: Undefined variable 'msg' before  HIG"\n$N¨£¾÷·m§ð³sµ
+
+[Sun Apr 15 20:52:17 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 132: Bad assignment ( object vs string ). before the end of line
+
+[Sun Apr 15 20:52:17 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 133: Undefined variable 'target' before ;
+
+[Sun Apr 15 20:53:21 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 133: Undefined variable 'target' before ;
+
+[Sun Apr 15 20:54:05 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 129: Missing type for argument before )
+
+[Sun Apr 15 21:09:42 2001] u/s/sexking/sexking/area/skill/darkfast-blade.c line 89: Undefined variable 'obj' before ;
+
+[Sun Apr 15 21:54:10 2001] u/s/sexking/sexking/area/npc/wp/left-blade.c line 27: parse error before \set("combat_msg", (
+
+[Sun Apr 15 21:54:33 2001] u/s/sexking/sexking/area/npc/wp/left-blade.c line 27: parse error before \ set("combat_msg", 
+
+[Sun Apr 15 21:55:03 2001] u/s/sexking/sexking/area/npc/wp/left-blade.c line 27: parse error before  );
+
+[Sun Apr 15 21:55:07 2001] u/s/sexking/sexking/area/npc/wp/left-blade.c line 27: parse error before  );
+
+[Sun Apr 15 22:16:49 2001] u/s/sexking/item.c line 262: parse error before the end of line
+
+[Sun Apr 15 22:16:49 2001] u/s/sexking/item.c line 266: Undefined variable 'str' before the end of line
+
+[Sun Apr 15 22:16:49 2001] u/s/sexking/item.c line 267: Illegal LHS before  (!ob) return notify
+
+[Sun Apr 15 22:16:49 2001] u/s/sexking/item.c line 267: parse error before  (!ob) return notify
+
+[Sun Apr 15 22:20:08 2001] u/s/sexking/item.c line 90: parse error before /s/sexking/sexking/a
+
+[Sun Apr 15 22:20:08 2001] u/s/sexking/item.c line 91: Illegal LHS before the end of line
+
+[Sun Apr 15 22:20:08 2001] u/s/sexking/item.c line 91: parse error before the end of line
+
+[Sun Apr 15 22:20:08 2001] u/s/sexking/item.c line 102: Illegal LHS before tmp="";
+
+[Sun Apr 15 22:20:08 2001] u/s/sexking/item.c line 102: Undefined variable 'tmp' before "";
+
+[Sun Apr 15 22:20:08 2001] u/s/sexking/item.c line 102: parse error before the end of line
+
+[Sun Apr 15 22:20:43 2001] u/s/sexking/item.c line 90: parse error before /s/sexking/sexking/a
+
+[Sun Apr 15 22:20:43 2001] u/s/sexking/item.c line 91: Illegal LHS before the end of line
+
+[Sun Apr 15 22:20:43 2001] u/s/sexking/item.c line 91: parse error before the end of line
+
+[Sun Apr 15 22:20:43 2001] u/s/sexking/item.c line 102: Illegal LHS before tmp="";
+
+[Sun Apr 15 22:20:43 2001] u/s/sexking/item.c line 102: Undefined variable 'tmp' before "";
+
+[Sun Apr 15 22:20:43 2001] u/s/sexking/item.c line 102: parse error before the end of line
+
+[Mon Apr 16 12:31:58 2001] u/s/sexking/bear_cloth.c line 26: End of file in text block before y/dodge") && weight(
+
+[Mon Apr 16 12:31:58 2001] u/s/sexking/bear_cloth.c line 26: parse error before y/dodge") && weight(
+
+[Mon Apr 16 18:06:37 2001] u/s/sexking/sexking/area/ship.c line 44: Bad left argument to '%' : "string " before d %8s %s %s \n",
+
+[Mon Apr 16 18:06:37 2001] u/s/sexking/sexking/area/ship.c line 44: Warning: Types in ?: do not match ( string vs int ). before  %8s %s %s \n",
+
+[Mon Apr 16 18:06:37 2001] u/s/sexking/sexking/area/ship.c line 44: parse error before  %8s %s %s \n",
+
+[Mon Apr 16 18:06:37 2001] u/s/sexking/sexking/area/ship.c line 46: Illegal terminator before ¯¸->"NOR:" ",
+
+[Mon Apr 16 18:07:08 2001] u/s/sexking/sexking/area/ship.c line 44: Bad left argument to '%' : "string " before d %8s %s %s \n",
+
+[Mon Apr 16 18:07:08 2001] u/s/sexking/sexking/area/ship.c line 44: Warning: Types in ?: do not match ( string vs int ). before  %8s %s %s \n",
+
+[Mon Apr 16 18:07:08 2001] u/s/sexking/sexking/area/ship.c line 44: parse error before  %8s %s %s \n",
+
+[Mon Apr 16 18:07:08 2001] u/s/sexking/sexking/area/ship.c line 46: Illegal terminator before ¯¸->"NOR:" ",
+
+[Mon Apr 16 18:14:42 2001] u/s/sexking/sexking/area/ship.c line 44: Bad left argument to '%' : "string " before d %8s %s %s \n",
+
+[Mon Apr 16 18:14:42 2001] u/s/sexking/sexking/area/ship.c line 44: Warning: Types in ?: do not match ( string vs int ). before  %8s %s %s \n",
+
+[Mon Apr 16 18:14:42 2001] u/s/sexking/sexking/area/ship.c line 44: parse error before  %8s %s %s \n",
+
+[Mon Apr 16 18:14:42 2001] u/s/sexking/sexking/area/ship.c line 46: Illegal terminator before ¯¸->"NOR:" ",
+
+[Mon Apr 16 18:15:18 2001] u/s/sexking/sexking/area/ship.c line 44: Bad left argument to '%' : "string " before d %8s %s %s \n",
+
+[Mon Apr 16 18:15:18 2001] u/s/sexking/sexking/area/ship.c line 44: Warning: Types in ?: do not match ( string vs int ). before  %8s %s %s \n",
+
+[Mon Apr 16 18:15:18 2001] u/s/sexking/sexking/area/ship.c line 44: parse error before  %8s %s %s \n",
+
+[Mon Apr 16 18:15:18 2001] u/s/sexking/sexking/area/ship.c line 46: Illegal terminator before ¯¸->"NOR:" ",
+
+[Mon Apr 16 18:15:46 2001] u/s/sexking/sexking/area/ship.c line 45: Bad left argument to '%' : "string " before d %8s %s %s \n",
+
+[Mon Apr 16 18:15:46 2001] u/s/sexking/sexking/area/ship.c line 45: Warning: Types in ?: do not match ( string vs int ). before  %8s %s %s \n",
+
+[Mon Apr 16 18:15:46 2001] u/s/sexking/sexking/area/ship.c line 45: parse error before  %8s %s %s \n",
+
+[Mon Apr 16 18:15:46 2001] u/s/sexking/sexking/area/ship.c line 47: Illegal terminator before ¯¸->"NOR:" ",
+
+[Mon Apr 16 18:16:24 2001] u/s/sexking/sexking/area/ship.c line 45: Bad left argument to '%' : "string " before d %8s %s %s \n",
+
+[Mon Apr 16 18:16:24 2001] u/s/sexking/sexking/area/ship.c line 45: Warning: Types in ?: do not match ( string vs int ). before  %8s %s %s \n",
+
+[Mon Apr 16 18:16:24 2001] u/s/sexking/sexking/area/ship.c line 45: parse error before  %8s %s %s \n",
+
+[Mon Apr 16 18:16:24 2001] u/s/sexking/sexking/area/ship.c line 47: Illegal terminator before ¯¸->"NOR:" ",
+
+[Mon Apr 16 21:37:57 2001] u/s/sexking/sexking/area/skill/taingin-blade.c line 168: Reserved type name unexpected. before (object me,object ta
+
+[Mon Apr 16 21:37:57 2001] u/s/sexking/sexking/area/skill/taingin-blade.c line 168: parse error before (object me,object ta
+
+[Mon Apr 16 21:37:57 2001] u/s/sexking/sexking/area/skill/taingin-blade.c line 171: Undefined variable 'me' before ;
+
+[Mon Apr 16 21:37:57 2001] u/s/sexking/sexking/area/skill/taingin-blade.c line 171: Illegal LHS before the end of line
+
+[Mon Apr 16 21:37:57 2001] u/s/sexking/sexking/area/skill/taingin-blade.c line 172: Undefined variable 'target' before  return;
+
+[Mon Apr 16 21:37:57 2001] u/s/sexking/sexking/area/skill/taingin-blade.c line 177: Undefined variable 'z' before me->query_skill("tai
+
+[Mon Apr 16 21:42:20 2001] u/s/sexking/sexking/area/skill/taingin-blade.c line 168: Reserved type name unexpected. before (object me,object ta
+
+[Mon Apr 16 21:42:20 2001] u/s/sexking/sexking/area/skill/taingin-blade.c line 168: parse error before (object me,object ta
+
+[Mon Apr 16 21:42:20 2001] u/s/sexking/sexking/area/skill/taingin-blade.c line 171: Undefined variable 'me' before ;
+
+[Mon Apr 16 21:42:20 2001] u/s/sexking/sexking/area/skill/taingin-blade.c line 171: Illegal LHS before the end of line
+
+[Mon Apr 16 21:42:20 2001] u/s/sexking/sexking/area/skill/taingin-blade.c line 172: Undefined variable 'target' before  return;
+
+[Mon Apr 16 21:42:20 2001] u/s/sexking/sexking/area/skill/taingin-blade.c line 177: Undefined variable 'z' before me->query_skill("tai
+
+[Mon Apr 16 21:46:37 2001] u/s/sexking/sexking/area/skill/taingin-blade.c line 167: Reserved type name unexpected. before (object me,object ta
+
+[Mon Apr 16 21:46:37 2001] u/s/sexking/sexking/area/skill/taingin-blade.c line 167: parse error before (object me,object ta
+
+[Mon Apr 16 21:46:37 2001] u/s/sexking/sexking/area/skill/taingin-blade.c line 171: Undefined variable 'me' before ;
+
+[Mon Apr 16 21:46:37 2001] u/s/sexking/sexking/area/skill/taingin-blade.c line 171: Illegal LHS before the end of line
+
+[Mon Apr 16 21:46:37 2001] u/s/sexking/sexking/area/skill/taingin-blade.c line 172: Undefined variable 'target' before  return;
+
+[Mon Apr 16 21:46:37 2001] u/s/sexking/sexking/area/skill/taingin-blade.c line 177: Undefined variable 'z' before me->query_skill("tai
+
+[Mon Apr 16 21:53:42 2001] u/s/sexking/sexking/area/skill/taingin-blade.c line 189: Reserved type name unexpected. before (object me,object ta
+
+[Mon Apr 16 21:53:42 2001] u/s/sexking/sexking/area/skill/taingin-blade.c line 189: parse error before (object me,object ta
+
+[Mon Apr 16 21:53:42 2001] u/s/sexking/sexking/area/skill/taingin-blade.c line 192: Undefined variable 'me' before ;
+
+[Mon Apr 16 21:53:42 2001] u/s/sexking/sexking/area/skill/taingin-blade.c line 192: Illegal LHS before the end of line
+
+[Mon Apr 16 21:53:42 2001] u/s/sexking/sexking/area/skill/taingin-blade.c line 193: Undefined variable 'target' before  return;
+
+[Mon Apr 16 21:53:42 2001] u/s/sexking/sexking/area/skill/taingin-blade.c line 198: Undefined variable 'msg' before HIG"\n$N¸É¤W¤@À»"HIR
+
+[Tue Apr 17 11:39:17 2001] u/s/sexking/sexking/area/npc/wp/left_blade.c line 1: parse error before the end of line
+
+[Tue Apr 17 11:39:23 2001] u/s/sexking/sexking/area/npc/wp/left_blade.c line 1: parse error before the end of line
+
+[Tue Apr 17 11:39:27 2001] u/s/sexking/sexking/area/npc/wp/left_blade.c line 1: parse error before the end of line
+
+[Tue Apr 17 11:39:37 2001] u/s/sexking/sexking/area/npc/wp/left_blade.c line 1: parse error before the end of line
+
+[Tue Apr 17 11:39:47 2001] u/s/sexking/sexking/area/npc/wp/left_blade.c line 1: parse error before the end of line
+
+[Tue Apr 17 17:06:54 2001] u/s/sexking/sexking/area/ship.c line 45: Bad left argument to '%' : "string " before d %8s %s %s \n",
+
+[Tue Apr 17 17:06:54 2001] u/s/sexking/sexking/area/ship.c line 45: Warning: Types in ?: do not match ( string vs int ). before  %8s %s %s \n",
+
+[Tue Apr 17 17:06:54 2001] u/s/sexking/sexking/area/ship.c line 45: parse error before  %8s %s %s \n",
+
+[Tue Apr 17 17:06:54 2001] u/s/sexking/sexking/area/ship.c line 47: Illegal terminator before ¯¸->"NOR:" ",
+

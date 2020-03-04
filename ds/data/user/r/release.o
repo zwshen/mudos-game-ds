@@ -1,0 +1,10 @@
+#/obj/user.c
+conditions ([])
+dbase (["DS_DATA_VERSION":19991107,"max_mp":60,"race":"human","max_hp":1040,"disable_type":" <毫無呼吸>","addition_armor":10,"default_actions":,"channels":({"chat","rumor","tchat","sam","wiz","bala","sys",}),"mp":60,"bank":(["now":-18372417,]),"birthday":1077843307,"id":"release","class2":"thief","MKS":1,"addition_damage":10,"addition_shield":10,"Merits":(["tec":1,"sou":1,"wit":0,"bar":3,"bio":1,]),"gender":"男性","max_ap":780,"name":"ＲeＬeＡsＥ","ap":780,"last_location":"/d/wiz/hall1","startroom":"/u/a/alickyuen/workroom","env":(["immortal":"YES",]),"attitude":"peaceful","heart_modify":0,"age":16,"heart_beat_rate":6,"cwd":"/open/world1/alickyuen/zong/","mob_record":({"/open/world1/acme/area/npc/fanny",}),"unit":"位","talk_point":156,"hp":1040,"volume":7,"guild_gifts":({5,5,5,5,}),"newbie":1,"wound":(["right_leg":0,"left_leg":0,"right_arm":0,"head":0,"left_arm":0,"body":0,]),"exp":13155,"dex":2,"int":2,"con":50,"mud_age":178066,"str":50,"level":38,"board_last_read":(["alickyuen_b":1115963702,"arch_b":1123160290,"anoounce_b":1113588224,"orzer_b":1114868809,"bug_b":1114446806,]),"cure_count":8,"cwf":"/u/r/release/box.c","evil":8,"actions":,"supply_point":1040,])
+skills (["combat":6,"dodge":2,"star-sword":100,"sorgi_sword":100,"unarmed":3,"sword":100,])
+learned (["combat":64,"dodge":0,"unarmed":0,])
+items ({})
+alias (["rn":"read new","mh":"more here","uh":"update here",])
+autoload ({})
+toDoList ([])
+solved ({})

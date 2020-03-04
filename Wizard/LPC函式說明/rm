@@ -1,0 +1,15 @@
+
+	rm(3)			LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		rm() - 刪除一個檔案.
+	函數語法:
+		int rm( string file );
+
+		整數 rm( 字串 file );
+	函數用法:
+		刪除 file 這個檔案. 如果失敗就傳回 0, 成功則傳回 1.
+	參考函數:
+		mkdir(3), rmdir(3), link(3)
+	手冊翻譯:
+		Phoebus@ZH	97.Jun.2.		(Writen 5/23/97)

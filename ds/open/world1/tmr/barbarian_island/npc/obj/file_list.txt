@@ -1,0 +1,5 @@
+¥Ø¿ý¡R/d/barbarian_island/npc/obj/
+barbarian_boots.c   ³¥ÆZµu¹u            battle-axe.c        ¾Ô©ò              
+big-blunt.c         ¤j¤ì´Î              monster-cloth.c     ³¥Ã~¥Ö¦ç          
+monster-waist.c     Ã~Ã@¸y±a            monster_pants.c     ³¥Ã~¤ò¿Ç          
+tiger-fur-armor.c   ªê¥ÖÅ@¥Ò            

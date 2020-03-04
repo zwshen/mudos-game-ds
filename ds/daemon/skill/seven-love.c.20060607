@@ -1,0 +1,212 @@
+/*****¤C¤i±¡·N(Seven-love)    Update By Kkeenn****/
+// ¡i¤C¤i±¡¶Ë¡j¡G [exert seven-love love]  ¼W¥[§ðÀ»¤O
+// ¡i¯Ó®ðÂk¤¸¡j¡G [exert seven-love reap]  ·l¦å¸É¤º¤O
+#include <ansi.h>
+inherit SKILL;
+inherit SSERVER;
+void delay(object me);
+void reap(object me, object *tar);
+void love(object me, int ar1, int ar2);
+
+int exert(object me,object target, string arg)
+{
+        int heal,reheal,sk,lv;
+        int p, ar1=0, ar2=0;
+        object weapon, *tar;
+        sk = me->query_skill("seven-love");
+        if( arg == "?" )
+        {
+                write(@SKILL_HELP
+
+        ¤C¤i±¡·N¥\¯à¦Cªí:       exert seven-love <°Ñ¼Æ>
+        °Ñ¼Æ:
+                love            ¡i¤C¤i±¡¶Ë¡j¡G¼W¥[§ðÀ»¤O
+                reap            ¡i¯Ó®ðÂk¤¸¡j¡G·l¦å¸É¤º¤Oº 
+
+SKILL_HELP      );
+                return 1;
+        }
+        if( arg=="off" )
+        {
+                if( me->query_skill_mapped("force")!="seven-love" )
+                        return notify_fail("§A¨Ã¨S¦³¦b¹B¥\\¡C\n");
+                me->delete_temp("is_busy/seven-love");
+                message_vision("$N³¬°_ªº¨â²´ºCºC¸C¶}¡A¤º®§¤S½L¦^¤¦¥Ð³B¡C\n",me);
+                me->map_skill("force");
+                return 1;
+        }
+
+        if( me->query_skill_mapped("force")=="seven-love" )
+                return notify_fail("§A²{¦bÁÙ¦b¹B¦æ¡i¤C¤i±¡·N¡j¤¤¡C\n");
+
+        if( !arg )
+        {
+                return notify_fail(@SKILL_HELP
+
+               ¤C¤i±¡·N¥\¯à¦Cªí:       exert seven-love <°Ñ¼Æ>
+        °Ñ¼Æ:
+                love            ¡i¤C¤i±¡¶Ë¡j¡G¼W¥[§ðÀ»¤O
+                reap            ¡i¯Ó®ðÂk¤¸¡j¡G·l¦å¸É¤º¤O
+
+SKILL_HELP      );
+                if( me->is_fighting() )
+                        return notify_fail("§A²{¦b¥¿¦£µÛ¥´¬[, ¨SªÅ½m¥\\¡C\n");
+                if( me->query("hp") < 20 || me->query("ap") < 20 )
+                        return notify_fail("§A¥Ø«eªºª¬ªp¤£¨Î¡AµLªk¹B¦æ¦¹¥\\¡C\n");
+                if(!me->skill_active( "moon_force",(: call_other, __FILE__, "delay", me :), 3))
+                         return notify_fail("§Aµ²§ô¹B¥\\ªº°Ê§@ÁÙ¨S§¹¦¨¡C\n");
+                message_vision("$N½L¸}§¤¤U¡A®ð¦æ¥|ªÏ¡A»E¦Ê¶×«á¯«¹C¡C\n",me);
+                me->map_skill("force","seven-love");
+                me->receive_damage("ap", 15);
+                me->receive_damage("hp", 20);
+                me->set_temp("is_busy/seven-love","§A¥¿¦b¯«¹C¤Óµê¡A¼È®É¤£¯à²¾°Ê¡C");
+                me->start_busy(2);
+                me->skill_active( "moon_force",(: call_other, __FILE__, "delay", me:), 2);
+                return 1;
+        }
+        if( arg=="reap" )    // ¡i¯Ó®ðÂk¤¸¡j        
+{
+                sk = (int)me->query_skill("seven-love");
+                sk = (sk > 50) ? 50 + (( sk-50 )/2) : sk;
+                lv = (int)me->query("level");
+                heal = (int)me->query("max_ap");
+                reheal = (heal / 15) + ((sk/5)*3) + random(9) + (lv/2);
+	if( me->query("quest/win") < 1 ) return notify_fail(HIW"§AÁÙ¨S¸g¹L±¡«°¦À¤j¦ÒÅç¡I\n"NOR);
+                if( me->query("hp") < 30 )
+                        return notify_fail("§A¥Ø«e©óÃx¦ºª¬ºA, µLªk«ì´_¦Û¨­¤º¤O¡I\n");               
+                if( me->query_skill("seven-love") < 60 )
+                        return notify_fail("§Aªº¤C¤i±¡·Nµ¥¯Å¤£°÷¡I\n");
+                if( me->query_skill("force") < 70 )  
+                        return notify_fail("§Aªº¤º¥\\¤ßªkµ¥¯Å¤£°÷¡I\n");
+                if( me->query("level") < 30 )
+                        return notify_fail("§Aªºµ¥¯Å¤£°÷¡I\n");
+                if( me->query("ap") >= heal )
+                        return notify_fail("§A¥Ø«eªº¤º¥\\ª¬ªp¤w¸g¬O³»¦y¤F¡C\n");
+                me->receive_heal("ap",reheal);
+                me->receive_damage("hp", 17 + reheal/8 + random(4));
+                me->start_busy(2);
+                message_vision("$N¤ß¤@¾î¡A±i¤f±N¦Þ¦y«r¯}¡A±Nºë¯«´£°ª¨ì¥t¤@ºØ¹Ò¬É¡C\n",me);
+
+                me->improve_skill("seven-love",me->query("int")/4 + random(4));
+                me->improve_skill("force",me->query("int")/4 + random(3));
+
+                return 1;
+        }
+        if( arg == "love" ) //  ¡i¤C¤i±¡¶Ë¡j
+        {
+		if( me->query("marry_id") )
+		return notify_fail("§A¤w¦b»e¹B¤¤¡A­þ¨Ó¶Ë±¡¡H\n");
+                if( me->query("MKS") < 150 )
+                        return notify_fail("§Aªº¦å¸{®ðÁÙ¤£¨¬¥H´£ª@¥»¨­ªº§ðÀ»¤O¡I\n");
+                if( me->query_skill("force") < 50 )
+                        return notify_fail("§Aªº¤º¥\\¤ßªk¤£°÷±j¡I\n");
+                if( me->query_skill("seven-love") < 30 )
+                        return notify_fail("§A¹ï©ó¤C¤i±¡·NÁÙµL¬Û·íªº¤F¸Ñ¡M©Ò¥HµLªk¬I©ñ¤C¤i±¡¶Ë¡I\n");
+                if( me->query("hp") < 45 )
+                        return notify_fail("§AªºÅé¤O¤£°÷³á¡I\n");
+                if( me->query("ap") < 90 )
+                        return notify_fail("§Aªº¤º¤O¤£¤ä¨¬¥H¨Ï¥X¤C¤i±¡¶Ë¡I\n");
+                if( me->query_temp("class_whip/in_love") )
+                        return notify_fail("§A¤w¸g¨Ï¥Î¹L¤C¤i±¡¶Ë¤F¡MµLªk¦AÄ~Äò¼W±j¤F¡I\n");
+    message_vision(HIR"¥u¨£$N¨­«áÁôÁô¯B²{¥X¤@°¦¯D¤õ»ñ°Äªº§ÎÅé¡A±N$Nªº§ðÀ»¤Oµ¹¤j¤j´£ª@¤F¡I¡I\n"NOR, me);
+
+        me->add_temp("apply/damage", ( ar1=(int)(sk*3/2 + random(sk/10)) ) );              
+                me->receive_damage("ap", 85);
+                me->receive_damage("hp", 25);
+                if( me->is_busy() ) me->add_busy(2);
+                else me->start_busy(1);
+                me->set_temp("class_whip/in_love", 1);
+                me->improve_skill("seven-love",me->query_int()/4 + random(3) );
+                me->improve_skill("force",me->query_int()/4 + random(3) );
+                me->skill_active("seven-love",(: call_other,__FILE__,"seven_love",me,ar1,ar2:),40+random(30));
+                return 1;
+        }
+        else return notify_fail("¤C¤i±¡·N¨S¦³³oºØ¥\\¯à¡I\n");
+
+}
+void seven_love(object me, int ar1, int ar2)
+{
+    if( me->query_temp("apply/damage") <= ar1 )
+        me->set_temp("apply/damage", 0);
+    else me->add_temp("apply/damage", -ar1);
+        me->delete_temp("class_whip/in_love");
+        message_vision("$Nªº¨­«áªº¯D¤õ»ñ°Äªº¨­§Îº¥º¥´²¥¢¤F¡I\n", me);
+        return; 
+}
+
+void delay(object me)
+{
+        int sk_level,lv,i;
+        
+        sk_level = me->query_skill("seven-love");
+        lv = me->query("level");
+        i = me->query_int();
+
+        if( !me ) return;
+
+        if( me->query_skill_mapped("force")!="seven-love" ) return;
+
+        if( me->query("ap") < 13 || me->query("hp") < 13 )
+        {
+                message_vision("$N¤ß¯«¦p¹pÅF³»¡AÂ£µM°±¤î¤F¹B¥\\¡C\n",me);
+                me->delete_temp("is_busy/seven-love");
+                me->map_skill("force");
+                return;
+        }
+        else if ( sk_level < 50 )
+        {
+                me->receive_damage("ap",20);
+                me->receive_damage("hp",10);
+        }
+        else if ( sk_level > 49 )
+        {
+                me->receive_damage("ap",22);
+                me->receive_damage("hp",12);
+        }
+        me->improve_skill("force",1 + random(5+lv/2) + (sk_level/5) + (i/3) );
+        me->improve_skill("seven-love",1 + random(5+lv/2) + (sk_level*3/8) + (i/3) );
+        me->skill_active( "seven-love",(: call_other, __FILE__, "delay", me :), 3);
+}
+
+int valid_learn(object me)
+{
+        return 1;
+}
+
+int practice_skill(object me)
+{
+        return 1;
+}       
+
+void skill_improved(object me) // ª`·N, ¤@­Óskill¯à¼W¥[ªºÄÝ©ÊÁ`©M¥H 5 ¬°¤W­­
+{
+        int b,c;
+        b = me->query_skill("seven-love",1);
+        c = me->query("skill/seven-love");
+        
+        if( b % 20==19 && b > c)
+        {
+                if(random(2))
+                {
+                  tell_object(me, HIR "§Aªº°Ê§@¥Ñ©óÅé®©¤C¤i±¡·N¦³¦¨¦Ó§ó¥[»´¬Õ¤F¡C\n" NOR);
+                        me->add("addition/dex", 1);
+                }
+                else
+                {
+                  tell_object(me, HIR "§AªºÅé½è¥Ñ©ó»â®©¤C¤i±¡·N¦³¦¨¦Ó¼W±j¤F¡C\n" NOR);
+                        me->add("addition/con", 1);
+                }
+                me->set("skill/seven-love", b);
+        }
+        me->save();
+}
+
+int improve_limite(object ob)
+{
+        int a;
+        
+        a=(ob->query("level")*3)+(ob->query_int());
+        if( a > 90 && ob->query("level") < 26 ) a=100;
+        else if( a > 100 ) a =100;
+        return a;
+}

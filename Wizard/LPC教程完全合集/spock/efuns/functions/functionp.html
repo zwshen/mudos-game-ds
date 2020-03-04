@@ -1,0 +1,75 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=bg2312">
+   <META NAME="Author" CONTENT="Spock">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.01 [en] (Win95; I) [Netscape]">
+   <TITLE>MudOS v21c2 把σゅン - efuns - functions - functionp</TITLE>
+</HEAD>
+<BODY TEXT="#CCFFFF" BGCOLOR="#000000" LINK="#33FF33" VLINK="#FF0000" ALINK="#33CCFF" BACKGROUND="../../../image/ff/fftitleback.jpg" NOSAVE>
+
+<CENTER><FONT COLOR="#FF99FF"><FONT SIZE=+3>functionp(3) MudOS v21c2
+(5 Sep 1994)</FONT></FONT></CENTER>
+
+<HR WIDTH="100%">
+<BR><FONT COLOR="#FFFFCC">嘿:</FONT>
+<UL> functionp() - 耞﹚跑秖琌ㄧ计皐 (function pointer).
+狦琌ㄧ计皐, 玥耞贺摸.</UL>
+<FONT COLOR="#FFFFCC">粂猭:</FONT>
+<UL> int functionp( mixed arg );
+
+<P> 俱计 functionp( 睼 arg );</UL>
+<FONT COLOR="#FFFFCC">ノ猭:</FONT>
+<UL> 狦 arg 琌ㄧ计皐玥獶箂 (nonzero), 狦ぃ琌玥 0.
+<BR> ㄧ计皐琌贺ㄧ计(function) 摸皐跑秖.
+<BR> 琌絛ㄒ:
+<BR>
+<UL><FONT COLOR="#99FF99"> f = (: obj, func :);</FONT></UL>
+ ボㄧ计皐摸, τ硂ㄇ砆﹚竡臱笆祘い "include/function.h"
+ゅンい.
+
+<P> function pointer type value
+<BR> ---------------------------------------------
+<BR> call_other FP_CALL_OTHER
+<BR> lfun FP_LOCAL
+<BR> efunFP_EFUN
+<BR> simul_efun FP_SIMUL
+<BR> functional FP_FUNCTIONAL
+
+<P> 琘ㄇ薄, 穦:
+
+<P> (Τ把计) FP_HAS_ARGUMENTS
+<BR> (承硑ㄧ计ン砆篟反) FP_OWNER_DESTED
+<BR> (ㄧ计礚猭硈挡) FP_NOT_BINDABLE
+
+<P> 程じ (bit value), ノじ代刚.
+<BR> FP_MASK ┛菠硂ㄇじ, 代刚膀セㄧ计皐摸
+<BR></UL>
+<FONT COLOR="#FFFFCC"> 絛ㄒ:</FONT>
+<UL> 代刚ㄧ计皐跑秖琌场ㄧ计皐:
+<BR>
+<UL><FONT COLOR="#99FF99"> if ((functionp(f) &amp; FP_MASK) == FP_EFUN)
+...</FONT></UL>
+ 代刚ㄤ琌Τ把计:
+<BR>
+<UL><FONT COLOR="#99FF99"> if (functionp(f) &amp; FP_HAS_ARGUMENTS) ...</FONT></UL>
+</UL>
+<FONT COLOR="#FFFFCC">把σ:</FONT>
+<UL> <A HREF="../mappings/mapp.html">mapp(3)</A>, <A HREF="../strings/stringp.html">stringp(3)</A>,
+<A HREF="../arrays/pointerp.html">pointerp(3)</A>, <A HREF="../objects/objectp.html">objectp(3)</A>,
+<A HREF="../numbers/intp.html">intp(3)</A>, <A HREF="../buffers/bufferp.html">bufferp(3)</A>,
+<A HREF="../floats/floatp.html">floatp(3)</A>, <A HREF="../general/nullp.html">nullp(3)</A>,
+<A HREF="../general/undefinedp.html">undefinedp(3)</A>, <A HREF="../system/errorp.html">errorp(3)</A>,
+<A HREF="bind.html">bind(3)</A>, <A HREF="../../lpc/types/function.html">lpc/types/function</A></UL>
+<FONT COLOR="#FFFFCC">陆亩:</FONT>
+<UL> Spock @ FF 97.Jul.26. (printed 3/16/95)</UL>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+<CENTER><A HREF="../functions.html"></A></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+</BODY>
+</HTML>

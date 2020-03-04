@@ -1,0 +1,60 @@
+inherit BLADE;
+void create()
+{
+ set_name(HIR"Às¯}¤b"NOR,({"dragon blade","blade"}));
+set_weight(100);
+        if( clonep() )
+                set_default_object(__FILE__);
+        else {
+                set("unit", "§â");
+set("long",HIW"§A²´«e¬Ý¨ìªº³o§â¼C¥¿¬O¶Ç»¡¤C¤j¯«¾¹¤§¤@
+               ¡AÄ£²´µL¤ñªº¥ú¤§¤b¦b¼Cªº¤M¤f¤W°{Ã{µÛ¡A
+               ¥Ñ©óÁôÂÃµÛ¯«¯µ¥B±j¤jªº¤O¶q¡A¤@¯ë¤H®Ú¥»
+               µLªk¾r¶¿¡A¦]¦¹¡A¥u¦³³Ì³»¯Åªº¾Ô¤h¤¦³¸ê
+               ­Ó¾Ö¦³¥¦!\n"NOR);   
+set("value",4500);
+                set("material", "steel");
+}
+init_blade(1000);
+set("wield_msg",HIW"$N±N$n´¤¦b¤â¤¤¡A$N¤j³Ü¤@Án¡G ¥ú°Ú¡I ¤@¹D¸t¥úÅ¢¸nµÛ$N¡I\n"NOR);
+set("unwield_msg",HIW"$N±N$n©ñ¤U¡A¨º¹D³òÂ¶¦b¥ú¤§¤bªº¥ú¨Àþ¶¡®ø¥¢µLÂÜ¡I¡C\n"NOR);  
+        setup();
+}
+void attack(object me,object victim)
+{
+int damage,str,dex;
+if( random(100)>70)
+{
+/*   COMBAT_D->do_attack(me,victim,me->query_temp("weapon"),2);*/
+if( dodge > 500 ) dodge = 490 ;
+message_vision(HIR"§A§C¹|µÛ©G¤å:\n"NOR                  
+               HIY"¤ñ¶À©üÁÙ­n¶Â·tªºªF¦è\n\n"NOR
+               HIR" ¤ñ¬yªº¦åÁÙ­n¬õªºªF¦è\n\n  "NOR
+BLU" ÀHµÛ®I¦b®ÉªÅ¤§¬y¸Ì\n\n    "NOR
+HIC" ¦b±zªº°¶¤jªº¦W¤U\n\n  "NOR
+HIB" §Ú¦b³o¸Ì¦V¶Âîî¸Ì°_»}\n\n "NOR 
+¹ï©óªý¾×¦b§Ú­Ì«e¤è\n\n
+©Ò¦³ªº·MÄø¤§ª«¡A¶°¦X§A§Ú¤§¤O\n\n
+RED" ½ç»P¥L­Ì¥­µ¥ªº·´·À§a!!\n\n  "NOR
+
+       
+HIW"      Às£»  ~   ¯} £» ~~~±Ù  ~~~~~
+
+                            
+               ,me);
+clone  if( random(500) < dodge)
+bear    {
+      message_vision("¦ý¬O$N¨­§Î¤@°{¡A¥ú¼u±q¨­®Ç²q¨­¦Ó¹L\n\n"NOR,ob);
+    }
+  else
+    {
+            ob->receive_damage("hp", damage, ob );
+message_vision("ª½ª½¯{¦V$N\n\n"
+         "       ³y¦¨¤F$N"+damage+"ÂIªº¶Ë®`\n\n"NOR,ob);
+
+    }
+
+         return;
+}
+return;
+}

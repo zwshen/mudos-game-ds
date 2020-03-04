@@ -1,0 +1,70 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=bg2312">
+   <META NAME="Author" CONTENT="Spock">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.01 [en] (Win95; I) [Netscape]">
+   <TITLE>MudOS v21c2 参考文件 - applies - master - valid_override</TITLE>
+</HEAD>
+<BODY TEXT="#CCFFFF" BGCOLOR="#000000" LINK="#33FF33" VLINK="#FF0000" ALINK="#33CCFF" BACKGROUND="../../../image/ff/fftitleback.jpg" NOSAVE>
+
+<CENTER><FONT COLOR="#FF99FF"><FONT SIZE=+3>valid_override(4) MudOS v21c2　
+(5 Sep 1994)</FONT></FONT></CENTER>
+
+<HR WIDTH="100%">
+<BR><FONT COLOR="#FFFFCC">　名称:</FONT>
+<UL>　 valid_override - 控制使用 efun:: 的情形.</UL>
+<FONT COLOR="#FFFFCC">　语法:</FONT>
+<UL>　 int valid_override( string file, string efun_name );
+
+<P>　 整数 valid_override( 字符串 file, 字符串 efun_name );</UL>
+<FONT COLOR="#FFFFCC">　用法:</FONT>
+<UL>　 在主控物件 (master.c) 中加上 valid_override() 可以控制 efun::　
+这种前置语法 (prefix) 的使用情形. 当驱动程序尝试编译前面加上 efun:: 的函数时,
+会调用主控物件的 valid_override(). 如果 valid_override() 返回 0, 则编译失败.
+如此一来, valid_override()　 可以让一些重要的外部函数不能用 efun:: 这种前置语法来修改这些外部函数的作用
+(要修改原始外部函数时, 可以用同名的模拟外部函数 (simul_efun)　 来修改.
+并使用 valid_override() 禁止这些模拟外部函数被其他函数越权修改 (overriden)
+).
+
+<P>　 如果您希望使用原来 3.1.2　 版 efun:: 的作用, 只需要在主控物件 master.c
+中加上下面这行:
+<BR>　
+<UL><FONT COLOR="#99FF99">　 int valid_override(string file, string efun)
+{ return 1; }</FONT></UL>
+　 底下是一个限制较多的 valid_override() 范例:
+<BR>　
+<UL>　 <FONT COLOR="#99FF99">int valid_override( string file, string name
+)</FONT>
+<BR><FONT COLOR="#99FF99">　 {</FONT>
+<UL><FONT COLOR="#99FF99">　　 if (file == "/adm/obj/simul_efun") {</FONT>
+<UL><FONT COLOR="#99FF99">　　　 return 1;</FONT></UL>
+<FONT COLOR="#99FF99">　　 }</FONT>
+
+<P><FONT COLOR="#99FF99">　　 if (name == "destruct")</FONT>
+<UL><FONT COLOR="#99FF99">　　　 return 0;</FONT></UL>
+<FONT COLOR="#99FF99">　　 if (name == "shutdown")</FONT>
+<UL><FONT COLOR="#99FF99">　　　 return 0;</FONT></UL>
+<FONT COLOR="#99FF99">　　 if (name == "snoop")</FONT>
+<UL><FONT COLOR="#99FF99">　　　 return 0;</FONT></UL>
+<FONT COLOR="#99FF99">　　 if (name == "exec")</FONT>
+<UL><FONT COLOR="#99FF99">　　　 return 0;</FONT></UL>
+<FONT COLOR="#99FF99">　　 return 1;</FONT></UL>
+<FONT COLOR="#99FF99">　 }</FONT></UL>
+</UL>
+<FONT COLOR="#FFFFCC">　作者:</FONT>
+<UL>　 Truilkan@Basis</UL>
+<FONT COLOR="#FFFFCC">　参考:</FONT>
+<UL>　 <A HREF="valid_object.html">valid_object(4)</A>, <A HREF="../../efuns/system/function_exits.html">function_exists(3)</A></UL>
+<FONT COLOR="#FFFFCC">　翻译:</FONT>
+<UL>　 Spock @ FF 97.Aug.7.　 (printed 3/16/95)</UL>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+<CENTER><A HREF="../master.html">回到上一页</A></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+</BODY>
+</HTML>

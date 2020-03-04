@@ -1,0 +1,19 @@
+
+	opcprof(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	ㄧ计嘿:
+		opcprof() - 厨ㄇ禬禫ㄧΑ (efuns) 砆㊣繵瞯.
+	ㄧ计粂猭:
+		void opcprof( string | void );
+
+		礚肚 opcprof( ﹃ ┪ 礚把计 );
+	ㄧ计ノ猭:
+		硂ㄧΑ–禬禫ㄧΑ (efunction)  ㎝禬禫巨
+		(eoperator) 参璸计. 狦⊿Τ﹚把计, ┮Τ
+		戈常穦渡 /OPCPROF.efun ㎝ /OPCPROF.eoper  硂ㄢ
+		郎柑. 狦﹚﹃, 玥﹃碞ノ渡郎
+		嘿.
+	把σㄧ计:
+		function_profile(3)
+	も陆亩:
+		Phoebus@ZH	97.Apr.24.		(Writen 5/23/97)

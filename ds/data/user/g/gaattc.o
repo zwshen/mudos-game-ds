@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions ([])
+dbase (["addition_armor":10,"max_mp":54,"talk_point":6,"max_hp":120,"guild_gifts":({5,5,5,5,}),"addition_damage":10,"mp":54,"max_ap":66,"ap":66,"unit":"¦ì","newbie":1,"exp":784,"dex":2,"id":"gaattc","int":2,"hp":80,"DS_DATA_VERSION":19991107,"con":2,"str":2,"cure_count":6,"level":1,"volume":7,"channels":({"chat","rumor","tchat",}),"combat_exp":1,"birthday":1179491030,"evil":-1,"gender":"¨k©Ê","supply_point":12,"name":"ªüªK","attitude":"peaceful","startroom":"/open/world1/tmr/area/hotel","race":"ogre","heart_beat_rate":6,"mud_age":84,"age":14,"last_location":"/open/world1/tmr/area/mstart","default_actions":,"addition_shield":10,"Merits":(["bar":0,"bio":0,"tec":0,"sou":0,"wit":0,]),"actions":,])
+skills (["unarmed":2,"dodge":1,"combat":3,])
+learned (["unarmed":4,"dodge":2,"combat":1,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

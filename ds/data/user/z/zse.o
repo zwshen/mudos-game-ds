@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["addition_damage":10,"max_hp":80,"attitude":"peaceful","guild_gifts":({5,5,5,5,}),"max_mp":60,"volume":7,"Merits":(["bio":0,"wit":0,"tec":0,"bar":0,"sou":0,]),"default_actions":,"gender":"¨k©Ê","id":"zse","name":"Ù²Ù²","mp":60,"ap":60,"max_ap":60,"supply_point":2,"hp":80,"evil":-1,"exp":777,"dex":2,"age":14,"last_location":"/open/world2/lichi_town_1/map_5_21","int":2,"con":2,"str":2,"unit":"¦ì","DS_DATA_VERSION":19991107,"cure_count":1,"actions":,"addition_shield":10,"channels":({"chat","rumor","tchat",}),"race":"human","level":1,"addition_armor":10,"heart_beat_rate":6,"talk_point":1,"birthday":1114784329,"mud_age":12,"startroom":"/open/world2/lichi_town_2/map_5_26","newbie":1,])
+autoload ({})

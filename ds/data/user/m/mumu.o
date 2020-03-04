@@ -1,0 +1,10 @@
+#/obj/user.c
+conditions ([])
+dbase (["cure_count":11,"talk_point":8,"volume":7,"supply_point":60,"max_ap":70,"ap":70,"attitude":"peaceful","newbie":1,"heart_modify":0,"exp":137160,"dex":2,"int":2,"hp":90,"con":2,"id":"mumu","str":2,"DS_DATA_VERSION":19991107,"level":1,"unit":"¦ì","popularity":53,"channels":({"chat","rumor","tchat","god",}),"evil":-1,"Merits":(["bio":0,"tec":0,"sou":0,"wit":0,"bar":0,]),"birthday":1182220400,"war_art":52,"gender":"¤k©Ê","name":"¤p¿ß¨à","nickname":"¤Ñ±ú[0m","env":([]),"startroom":"/open/world1/tmr/area/hotel","default_actions":,"race":"titan","age":14,"heart_beat_rate":6,"wound":(["right_leg":0,"right_arm":0,"body":0,"left_arm":0,"left_leg":0,"head":0,]),"last_location":"/open/world1/god_club/ladd-2","actions":,"guild_gifts":({5,5,5,5,}),"addition_shield":10,"mud_age":41108,"max_mp":60,"max_hp":90,"addition_armor":10,"mp":60,"addition_damage":10,])
+skills (["strong-body":8,])
+learned (["strong-body":70,])
+items ({})
+alias (["pp":"do look off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,enter,n,n,n,n,n,n,n,n,n,e,look on","rs":"do recall start","egg":"do look off,e,n,n,n,e,ne,n,ne,ne,jump ²Ê¾ðªK,search ³¾±_",])
+autoload ({"/open/always/god_mark",})
+toDoList ([])
+solved ({})

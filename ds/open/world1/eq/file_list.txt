@@ -1,0 +1,24 @@
+¥Ø¿ý¡R/open/world1/eq/
+b_pants.c           ¯}¥¬ªø¿Ç            bc_cloak.c          ¤Kª[©Ü­·          
+bh_leg.c            ¤£©M×H¥Ò            big_pan.c           «CÅK°¨±¾µ§        
+black_suit.c        ¤Ñ±úÅ@¨­²Å          bone_helmet.c       ÃT°©²¯            
+bronze_blade.c      «C»É¤M              bs_boots.c          Ã~¥Ö¹u            
+bs_hands.c          ´¶½åÅ@µÃ            bt_neck.c           µÐ´£¶µÁå          
+clam_shield.c       ¥¨°F¬Þ              cloth.c             ¥¬¦ç              
+clothes_8.c         ²Ê¥¬³Â­m            cloud_ring.c        ¦©¶³§Ù            
+crossbow.c          ¤Q¦r¤}              dex_boots.c         ¬ÂÄn¹u            
+dragon_blade.c      Às                  fk_gloves.c         ª¢±þ¤â®M          
+fur_waist.c         Ã~¥Ö¤y±a            ghost_blade.c       °­ÀY¤b            
+ghost_plate.c       °­¥Ò                gold_fur_boots.c    ª÷µ·«G¥Ö¼i        
+gr_ring.c           ¤j¦a«üÀô            gs_waist.c          ª÷Á\\¸y±a         
+iron_hammer.c       ÄÃÅKÂñ              mb_wing.c           Å]³¾Ál            
+mf_armor.c          Å]ª¢¥Ò              mica_shield.c       ¶³¥À¥¨¬Þ          
+moon_skirt.c        ¤ëµØ¸È              nine_blade.c        ¤EÀô¤b            
+sea_cloth.c         ¼e¸y¤j°¨±¾          sea_uniform.c       ¨îªA              
+shootbow.c          ©¸                  sl_mask.c           ­×Ã¹ª÷­±          
+soldier_boots.c     ¤ô®v­x¹u            steel_blade.c       ¿û¤M              
+sun_blade.c         ª÷¶§¤M              tree_ring.c         ¾ðºë§Ù            
+viper_cloth.c       Á¯ÀA¾Ô¦ç            water_boots.c       ½ò¤ô¹u            
+white_blade.c       ¥Õ¦âªø¤b            worker_cloth.c      ¤u§@ªA            
+ws_cloth.c          µL§Î¤§¦ç            ys_helmet.c         ¤ú¾å²¯            
+

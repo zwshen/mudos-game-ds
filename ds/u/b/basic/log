@@ -1,0 +1,512 @@
+[Fri Jun 30 16:21:03 2000] u/b/basic/workroom.c line 39: parse error before "/u/c/cutekelly",
+
+[Fri Jun 30 16:21:43 2000] u/b/basic/workroom.c line 39: parse error before "/u/c/cutekelly/work
+
+[Fri Jun 30 16:22:37 2000] u/b/basic/workroom.c line 39: parse error before "/u/c/cutekelly/work
+
+[Fri Jun 30 16:23:27 2000] u/b/basic/workroom.c line 39: parse error before "/u/c/cutekelly/work
+
+[Fri Jun 30 16:25:47 2000] u/b/basic/workroom.c line 40: parse error before "/u/c/cutekelly/work
+
+[Fri Jun 30 16:26:07 2000] u/b/basic/workroom.c line 39: parse error before "/u/c/cutekelly/work
+
+[Fri Jun 30 16:43:24 2000] u/b/basic/boots.c line 21: Undefined function set_lv before ;
+
+[Fri Jun 30 16:43:24 2000] u/b/basic/boots.c line 41: Wrong number of arguments to setup
+    Expected: 0  Got: 1 before ;
+
+[Fri Jun 30 16:44:06 2000] u/b/basic/boots.c line 21: Undefined function set_lv before ;
+
+[Fri Jun 30 16:44:06 2000] u/b/basic/boots.c line 41: Wrong number of arguments to setup
+    Expected: 0  Got: 1 before ;
+
+[Fri Jun 30 16:46:32 2000] u/b/basic/sword.c line 21: Undefined function set_lv before ;
+
+[Fri Jun 30 16:59:55 2000] u/b/basic/workroom.c line 91: Too few arguments to call_other before the end of line
+
+[Fri Jun 30 16:59:55 2000] u/b/basic/workroom.c line 93: parse error before ();
+
+[Fri Jun 30 18:04:03 2000] u/b/basic/sword.c line 6: Undefined variable 'BLK' before NOR"¦æñZ"NOR,({"dark
+
+[Fri Jun 30 18:04:03 2000] u/b/basic/sword.c line 6: parse error before NOR"¦æñZ"NOR,({"dark
+
+[Fri Jun 30 18:33:54 2000] u/b/basic/workroom.c line 1: parse error before ansi.h>
+
+[Fri Jun 30 19:03:50 2000] u/b/basic/sword.c line 6: Undefined variable 'BLK' before NOR"¦æñZ"NOR,({"dark
+
+[Fri Jun 30 19:03:50 2000] u/b/basic/sword.c line 6: parse error before NOR"¦æñZ"NOR,({"dark
+
+[Fri Jun 30 19:05:54 2000] u/b/basic/armor.c line 5: Undefined variable 'BLK' before NOR"¦æñZ"NOR,({"dark
+
+[Fri Jun 30 19:05:54 2000] u/b/basic/armor.c line 5: parse error before NOR"¦æñZ"NOR,({"dark
+
+[Fri Jun 30 19:20:34 2000] u/b/basic/sword.c line 12: parse error before n"
+
+[Fri Jun 30 19:30:22 2000] u/b/basic/sword.c line 21: Undefined function init_sword before ;
+
+[Fri Jun 30 19:31:02 2000] u/b/basic/sword.c line 21: Undefined function init_sword before ;
+
+[Fri Jun 30 19:50:40 2000] u/b/basic/npc/wu.c line 5: Undefined variable 'HIC' before NOR", ({ "wu rice" }
+
+[Fri Jun 30 19:50:40 2000] u/b/basic/npc/wu.c line 5: parse error before NOR", ({ "wu rice" }
+
+[Fri Jun 30 19:50:40 2000] u/b/basic/npc/wu.c line 29: End of file in string before ¨S¦³³o­ÓÀÉ®×¡C\n");
+
+[Fri Jun 30 20:02:04 2000] u/b/basic/npc/wu.c line 5: Undefined variable 'HIC' before NOR, ({ "wu rice" })
+
+[Fri Jun 30 20:02:04 2000] u/b/basic/npc/wu.c line 5: parse error before NOR, ({ "wu rice" })
+
+[Fri Jun 30 20:02:04 2000] u/b/basic/npc/wu.c line 18: Warning: Unknown \ escape. before ..ªi¡v\n",
+
+[Fri Jun 30 23:15:44 2000] u/b/basic/npc/sky.c line 26: parse error before the end of file
+
+[Fri Jun 30 23:20:01 2000] u/b/basic/test.c line 24: "#pragma strict_types" requires type of function before "/u/b/basic/sword.c"
+
+[Fri Jun 30 23:20:01 2000] u/b/basic/test.c line 24: parse error before )->wield();
+
+[Fri Jun 30 23:24:01 2000] u/b/basic/npc/test.c line 24: "#pragma strict_types" requires type of function before "/u/b/basic/sword.c"
+
+[Fri Jun 30 23:24:01 2000] u/b/basic/npc/test.c line 24: parse error before )->wield();
+
+[Fri Jun 30 23:26:35 2000] u/b/basic/npc/test.c line 24: "#pragma strict_types" requires type of function before "/u/b/basic/wp/sword
+
+[Fri Jun 30 23:26:35 2000] u/b/basic/npc/test.c line 24: parse error before )->wield();
+
+[Fri Jun 30 23:28:15 2000] u/b/basic/npc/test.c line 24: "#pragma strict_types" requires type of function before "/u/b/basic/wp/sword
+
+[Fri Jun 30 23:28:15 2000] u/b/basic/npc/test.c line 24: parse error before )->wield();
+
+[Fri Jun 30 23:30:45 2000] u/b/basic/npc/test.c line 24: "#pragma strict_types" requires type of function before "/u/b/basic/sword")-
+
+[Fri Jun 30 23:30:45 2000] u/b/basic/npc/test.c line 24: parse error before )->wield();
+
+[Fri Jun 30 23:39:11 2000] u/b/basic/wp/sword.c line 8: Undefined function setup_sword before ;
+
+[Sat Jul  1 00:44:04 2000] u/b/basic/rooms/room1.c line 5: Undefined variable 'HIR' before NOR);
+
+[Sat Jul  1 00:44:04 2000] u/b/basic/rooms/room1.c line 5: parse error before NOR);
+
+[Sat Jul  1 00:45:02 2000] u/b/basic/rooms/room1.c line 5: parse error before ¸¤lªº«ÈÆU);
+
+[Sat Jul  1 10:23:53 2000] u/b/basic/eq/cloth.c line 1: parse error before ;
+
+[Sat Jul  1 10:33:52 2000] u/b/basic/npc/hata.c line 24: parse error before ("/u/b/basic/eq/clot
+
+[Sat Jul  1 10:36:04 2000] u/b/basic/npc/hate.c line 24: parse error before ("/u/b/basic/eq/clot
+
+[Sat Jul  1 12:34:44 2000] u/b/basic/eq/cloth2.c line 28: Reserved type name unexpected. before () { return 1; }
+
+[Sat Jul  1 12:34:44 2000] u/b/basic/eq/cloth2.c line 28: parse error before () { return 1; }
+
+[Sat Jul  1 13:08:38 2000] u/b/basic/ma2.c line 22: parse error before  me,obj,*inv;
+
+[Sat Jul  1 13:08:38 2000] u/b/basic/ma2.c line 24: Missing type for global variable declaration before the end of line
+
+[Sat Jul  1 13:08:38 2000] u/b/basic/ma2.c line 25: Bad argument 1 to efun environment() before );
+
+[Sat Jul  1 13:08:38 2000] u/b/basic/ma2.c line 25: Missing type for global variable declaration before the end of line
+
+[Sat Jul  1 13:08:38 2000] u/b/basic/ma2.c line 26: parse error before (!arg) return notify
+
+[Fri Jul  7 21:51:55 2000] u/b/basic/workroom.c line 26: Reserved type name unexpected. before ()
+
+[Fri Jul  7 21:51:55 2000] u/b/basic/workroom.c line 26: parse error before ()
+
+[Fri Jul  7 21:52:31 2000] u/b/basic/workroom.c line 26: Reserved type name unexpected. before ()
+
+[Fri Jul  7 21:52:31 2000] u/b/basic/workroom.c line 26: parse error before ()
+
+[Fri Jul  7 21:55:37 2000] u/b/basic/workroom.c line 26: Reserved type name unexpected. before ()
+
+[Fri Jul  7 21:55:37 2000] u/b/basic/workroom.c line 26: parse error before ()
+
+[Fri Jul  7 21:58:37 2000] u/b/basic/workroom.c line 26: Reserved type name unexpected. before ()
+
+[Fri Jul  7 21:58:37 2000] u/b/basic/workroom.c line 26: parse error before ()
+
+[Fri Jul  7 21:59:15 2000] u/b/basic/workroom.c line 26: Reserved type name unexpected. before ()
+
+[Fri Jul  7 21:59:15 2000] u/b/basic/workroom.c line 26: parse error before ()
+
+[Fri Jul  7 22:01:15 2000] u/b/basic/workroom.c line 26: Reserved type name unexpected. before ()
+
+[Fri Jul  7 22:01:15 2000] u/b/basic/workroom.c line 26: parse error before ()
+
+[Fri Jul  7 22:01:17 2000] u/b/basic/workroom.c line 26: Reserved type name unexpected. before ()
+
+[Fri Jul  7 22:01:17 2000] u/b/basic/workroom.c line 26: parse error before ()
+
+[Fri Jul  7 22:03:21 2000] u/b/basic/workroom.c line 27: Reserved type name unexpected. before ()
+
+[Fri Jul  7 22:03:21 2000] u/b/basic/workroom.c line 27: parse error before ()
+
+[Fri Jul  7 22:03:21 2000] u/b/basic/workroom.c line 31: "#pragma strict_types" requires type of function before );
+
+[Fri Jul  7 22:03:21 2000] u/b/basic/workroom.c line 32: parse error before the end of line
+
+[Fri Jul  7 22:04:21 2000] u/b/basic/workroom.c line 15: Reserved type name unexpected. before ()
+
+[Fri Jul  7 22:04:21 2000] u/b/basic/workroom.c line 15: parse error before ()
+
+[Fri Jul  7 22:04:21 2000] u/b/basic/workroom.c line 19: "#pragma strict_types" requires type of function before "exits", ([ /* sizeo
+
+[Fri Jul  7 22:04:21 2000] u/b/basic/workroom.c line 19: parse error before , ([ /* sizeof() == 
+
+[Fri Jul  7 22:04:57 2000] u/b/basic/workroom.c line 34: parse error before Ï©R°Ú! ±Ï©R°Ú!"\n");
+
+[Sat Jul  8 15:36:43 2000] u/b/basic/workroom.c line 10: parse error before b©]¤T§óÁÙ¦bÁ¿¹q¸Ü §A
+
+[Sat Jul  8 15:36:43 2000] u/b/basic/workroom.c line 10: Illegal terminator before ­Ó»¡ªk
+
+[Sat Jul  8 15:37:27 2000] u/b/basic/workroom.c line 10: parse error before b©]¤T§óÁÙ¦bÁ¿¹q¸Ü §A
+
+[Sat Jul  8 15:37:27 2000] u/b/basic/workroom.c line 10: Illegal terminator before ­Ó»¡ªk
+
+[Sat Jul  8 15:39:51 2000] u/b/basic/workroom.c line 35: End of file in text block before e <­¶½X>	Â½¨ì¬Y¤@­¶¡
+
+[Sat Jul  8 15:39:51 2000] u/b/basic/workroom.c line 35: parse error before e <­¶½X>	Â½¨ì¬Y¤@­¶¡
+
+[Sat Jul  8 15:40:49 2000] u/b/basic/workroom.c line 35: End of file in text block before e <­¶½X>	Â½¨ì¬Y¤@­¶¡
+
+[Sat Jul  8 15:40:49 2000] u/b/basic/workroom.c line 35: parse error before e <­¶½X>	Â½¨ì¬Y¤@­¶¡
+
+[Sat Jul  8 15:41:07 2000] u/b/basic/workroom.c line 35: End of file in text block before /d/wiz/hall1");break
+
+[Sat Jul  8 15:41:07 2000] u/b/basic/workroom.c line 35: parse error before /d/wiz/hall1");break
+
+[Sat Jul  8 15:41:37 2000] u/b/basic/workroom.c line 35: End of file in text block before mob_max");
+
+[Sat Jul  8 15:41:37 2000] u/b/basic/workroom.c line 35: parse error before mob_max");
+
+[Sat Jul  8 15:41:49 2000] u/b/basic/workroom.c line 35: End of file in text block before mob_max");
+
+[Sat Jul  8 15:41:49 2000] u/b/basic/workroom.c line 35: parse error before mob_max");
+
+[Sat Jul  8 15:42:55 2000] u/b/basic/workroom.c line 35: End of file in text block before d ++)
+
+[Sat Jul  8 15:42:55 2000] u/b/basic/workroom.c line 35: parse error before d ++)
+
+[Sun Jul  9 11:16:00 2000] u/b/basic/npc/test.c line 12: parse error before  );
+
+[Sun Jul  9 22:18:27 2000] u/b/basic/npc/imm.c line 13: Undefined variable 'HERAB' before HIW"¨C¤ÑµL©Ò¨Æ¨Æ§Å®v
+
+[Sun Jul  9 22:18:27 2000] u/b/basic/npc/imm.c line 13: parse error before HIW"¨C¤ÑµL©Ò¨Æ¨Æ§Å®v
+
+[Sun Jul  9 22:26:46 2000] u/b/basic/npc/testpill.c line 13: Undefined variable 'guild_rank' before  HBCYN""HIW"¨C¤ÑµL©Ò
+
+[Sun Jul  9 22:26:46 2000] u/b/basic/npc/testpill.c line 16: Undefined variable 'rank' before ;
+
+[Sun Jul  9 22:28:04 2000] u/b/basic/npc/testpill.c line 16: Undefined variable 'rank' before ;
+
+[Sun Jul  9 22:28:40 2000] u/b/basic/npc/testpill.c line 16: Undefined variable 'guild_rank' before ;
+
+[Sun Jul  9 22:30:08 2000] u/b/basic/npc/testpill.c line 16: Undefined variable 'guild_rank' before ;
+
+[Mon Jul 10 18:59:33 2000] u/b/basic/npc/testpill.c line 16: Undefined variable 'guild_rank' before ;
+
+[Mon Jul 10 21:42:59 2000] u/b/basic/npc/testnpc.c line 4: Undefined variable 'HIY' before NOR, ({ "fly tiger",
+
+[Mon Jul 10 21:42:59 2000] u/b/basic/npc/testnpc.c line 4: parse error before NOR, ({ "fly tiger",
+
+[Mon Jul 10 21:42:59 2000] u/b/basic/npc/testnpc.c line 27: Illegal LHS before the end of line
+
+[Mon Jul 10 21:42:59 2000] u/b/basic/npc/testnpc.c line 27: Wrong number of arguments to set_name
+    Expected: 2  Got: 1 before the end of line
+
+[Mon Jul 10 21:42:59 2000] u/b/basic/npc/testnpc.c line 28: parse error before  = this_player(1);
+
+[Mon Jul 10 21:42:59 2000] u/b/basic/npc/testnpc.c line 28: Illegal LHS before the end of line
+
+[Mon Jul 10 21:43:19 2000] u/b/basic/npc/testnpc.c line 4: Undefined variable 'HIY' before NOR, ({ "fly tiger",
+
+[Mon Jul 10 21:43:19 2000] u/b/basic/npc/testnpc.c line 4: parse error before NOR, ({ "fly tiger",
+
+[Mon Jul 10 21:43:19 2000] u/b/basic/npc/testnpc.c line 27: Illegal LHS before the end of line
+
+[Mon Jul 10 21:43:19 2000] u/b/basic/npc/testnpc.c line 27: Wrong number of arguments to set_name
+    Expected: 2  Got: 1 before the end of line
+
+[Mon Jul 10 21:43:19 2000] u/b/basic/npc/testnpc.c line 28: parse error before  = this_player(1);
+
+[Mon Jul 10 21:43:19 2000] u/b/basic/npc/testnpc.c line 28: Illegal LHS before the end of line
+
+[Mon Jul 10 21:43:45 2000] u/b/basic/npc/testnpc.c line 4: Undefined variable 'HIY' before NOR, ({ "fly tiger",
+
+[Mon Jul 10 21:43:45 2000] u/b/basic/npc/testnpc.c line 4: parse error before NOR, ({ "fly tiger",
+
+[Mon Jul 10 21:43:45 2000] u/b/basic/npc/testnpc.c line 27: Illegal LHS before the end of line
+
+[Mon Jul 10 21:43:45 2000] u/b/basic/npc/testnpc.c line 27: Wrong number of arguments to set_name
+    Expected: 2  Got: 1 before the end of line
+
+[Mon Jul 10 21:43:45 2000] u/b/basic/npc/testnpc.c line 28: parse error before  = this_player(1);
+
+[Mon Jul 10 21:43:45 2000] u/b/basic/npc/testnpc.c line 28: Illegal LHS before the end of line
+
+[Mon Jul 10 22:04:30 2000] u/b/basic/npc/test.c line 26: Reserved type name unexpected. before ()
+
+[Mon Jul 10 22:04:30 2000] u/b/basic/npc/test.c line 26: parse error before ()
+
+[Mon Jul 10 22:04:30 2000] u/b/basic/npc/test.c line 29: Illegal LHS before the end of line
+
+[Mon Jul 10 22:04:30 2000] u/b/basic/npc/test.c line 29: parse error before the end of line
+
+[Mon Jul 10 22:04:30 2000] u/b/basic/npc/test.c line 30: Illegal LHS before the end of line
+
+[Mon Jul 10 22:04:30 2000] u/b/basic/npc/test.c line 31: Undefined variable 'ob' before the end of line
+
+[Tue Jul 11 22:49:40 2000] u/b/basic/npc/bo.c line 15: parse error before O¦w¤jÁn³ÛµÛ:¶¢Âø¤Hµ¥
+
+[Thu Jul 13 22:20:34 2000] u/b/basic/npc/test.c line 4: Undefined variable 'HIY' before NOR, ({ "fly tiger",
+
+[Thu Jul 13 22:20:34 2000] u/b/basic/npc/test.c line 4: parse error before NOR, ({ "fly tiger",
+
+[Thu Jul 13 22:20:34 2000] u/b/basic/npc/test.c line 28: Illegal LHS before the end of line
+
+[Thu Jul 13 22:20:34 2000] u/b/basic/npc/test.c line 28: Wrong number of arguments to set_name
+    Expected: 2  Got: 1 before the end of line
+
+[Thu Jul 13 22:20:34 2000] u/b/basic/npc/test.c line 29: parse error before  = this_player(1);
+
+[Thu Jul 13 22:20:34 2000] u/b/basic/npc/test.c line 29: Illegal LHS before the end of line
+
+[Thu Jul 13 22:29:15 2000] u/b/basic/npc/test.c line 4: Undefined variable 'HIY' before NOR, ({ "fly tiger",
+
+[Thu Jul 13 22:29:15 2000] u/b/basic/npc/test.c line 4: parse error before NOR, ({ "fly tiger",
+
+[Thu Jul 13 22:29:15 2000] u/b/basic/npc/test.c line 28: Illegal LHS before the end of line
+
+[Thu Jul 13 22:29:15 2000] u/b/basic/npc/test.c line 28: Wrong number of arguments to set_name
+    Expected: 2  Got: 1 before the end of line
+
+[Thu Jul 13 22:29:15 2000] u/b/basic/npc/test.c line 29: parse error before  = this_player(1);
+
+[Thu Jul 13 22:29:15 2000] u/b/basic/npc/test.c line 29: Illegal LHS before the end of line
+
+[Fri Jul 14 18:36:55 2000] u/b/basic/npc/test.c line 14: parse error before )
+
+[Fri Jul 14 18:36:55 2000] u/b/basic/npc/test.c line 29: Illegal LHS before the end of line
+
+[Fri Jul 14 18:36:55 2000] u/b/basic/npc/test.c line 29: Wrong number of arguments to set_skill
+    Expected: 2  Got: 1 before the end of line
+
+[Fri Jul 14 18:36:55 2000] u/b/basic/npc/test.c line 30: parse error before  = this_player(1);
+
+[Fri Jul 14 18:36:55 2000] u/b/basic/npc/test.c line 30: Illegal LHS before the end of line
+
+[Fri Jul 14 18:36:55 2000] u/b/basic/npc/test.c line 31: Undefined variable 'ob' before the end of line
+
+[Fri Jul 14 20:25:15 2000] u/b/basic/npc/man.c line 5: Warning: Unknown \ escape. before w©Ô´µ", ({ "man ", "
+
+[Fri Jul 14 20:25:15 2000] u/b/basic/npc/man.c line 7: Warning: Unknown \ escape. before ÷¡C\n");
+
+[Fri Jul 14 20:25:15 2000] u/b/basic/npc/man.c line 17: Warning: Unknown \ escape. before w©Ô´µ§CÁnÁ¿:½Ö¥iÀ°§Ú
+
+[Fri Jul 14 20:26:22 2000] u/b/basic/npc/man.c line 5: Warning: Unknown \ escape. before w©Ô´µ", ({ "man ", "
+
+[Fri Jul 14 20:26:22 2000] u/b/basic/npc/man.c line 7: Warning: Unknown \ escape. before ÷¡C\n");
+
+[Fri Jul 14 20:26:22 2000] u/b/basic/npc/man.c line 28: End of file in text block before (file)==-1 )
+
+[Fri Jul 14 20:26:22 2000] u/b/basic/npc/man.c line 28: parse error before (file)==-1 )
+
+[Fri Jul 14 20:32:04 2000] u/b/basic/npc/man.c line 5: Warning: Unknown \ escape. before w©Ô´µ" , ({ "man","m
+
+[Fri Jul 14 20:32:04 2000] u/b/basic/npc/man.c line 8: Warning: Unknown \ escape. before ÷\n"
+
+[Fri Jul 14 20:32:04 2000] u/b/basic/npc/man.c line 38: Warning: Unknown \ escape. before w©Ô´µ
+
+[Fri Jul 14 20:32:04 2000] u/b/basic/npc/man.c line 42: Warning: Unknown \ escape. before A©Ò¥H§A±o¨ì¤F 1 ÂIÁn
+
+[Fri Jul 14 20:33:14 2000] u/b/basic/npc/man.c line 5: Warning: Unknown \ escape. before w©Ô´µ" , ({ "catch m
+
+[Fri Jul 14 20:33:14 2000] u/b/basic/npc/man.c line 8: Warning: Unknown \ escape. before ÷\n"
+
+[Fri Jul 14 20:33:14 2000] u/b/basic/npc/man.c line 38: Warning: Unknown \ escape. before w©Ô´µ
+
+[Fri Jul 14 20:33:14 2000] u/b/basic/npc/man.c line 42: Warning: Unknown \ escape. before A©Ò¥H§A±o¨ì¤F 1 ÂIÁn
+
+[Sun Jul 16 21:34:46 2000] u/b/basic/npc/man.c line 5: Warning: Unknown \ escape. before w©Ô´µ" , ({ "catch m
+
+[Sun Jul 16 21:34:46 2000] u/b/basic/npc/man.c line 8: Warning: Unknown \ escape. before ÷\n"
+
+[Sun Jul 16 21:34:46 2000] u/b/basic/npc/man.c line 38: Warning: Unknown \ escape. before w©Ô´µ
+
+[Sun Jul 16 21:34:46 2000] u/b/basic/npc/man.c line 42: Warning: Unknown \ escape. before A©Ò¥H§A±o¨ì¤F 1 ÂIÁn
+
+[Sun Jul 16 21:34:50 2000] u/b/basic/workroom.c line 2: parse error before [0;1;37m#[1mi[1mn
+
+[Sun Jul 16 21:36:48 2000] u/b/basic/workroom.c line 3: parse error before [0;1;32m [0m
+
+[Sun Jul 16 21:43:47 2000] u/b/basic/npc/ching.c line 8: parse error before );
+
+[Sun Jul 16 21:44:57 2000] u/b/basic/npc/ching.c line 8: parse error before );
+
+[Sun Jul 16 21:52:31 2000] u/b/basic/npc/ching.c line 15: Warning: Unknown \ escape. before À®Ñ£¬^^..Basic¡C\n",
+
+[Sun Jul 16 21:52:31 2000] u/b/basic/npc/ching.c line 19: parse error before the end of file
+
+[Sun Jul 16 21:53:11 2000] u/b/basic/npc/ch.c line 14: Warning: Unknown \ escape. before À®Ñ£¬^^..Basic¡C\n",
+
+[Sun Jul 16 21:53:11 2000] u/b/basic/npc/ch.c line 19: parse error before the end of file
+
+[Mon Jul 17 19:02:31 2000] u/b/basic/npc/ch.c line 14: Warning: Unknown \ escape. before À®Ñ£¬^^..Basic¡C\n",
+
+[Mon Jul 17 19:02:31 2000] u/b/basic/npc/ch.c line 19: parse error before the end of file
+
+[Mon Jul 17 19:05:05 2000] u/b/basic/npc/ch.c line 15: Warning: Unknown \ escape. before ª®Ñ£¬^^¡C\n",
+
+[Wed Jul 19 19:44:41 2000] u/b/basic/npc/dog.c line 18: parse error before ("limbs", ({ "ÀY³¡",
+
+[Wed Jul 19 19:57:59 2000] u/b/basic/npc/catt.c line 11: parse error before claw°Öpoke
+
+[Wed Jul 19 20:00:29 2000] u/b/basic/npc/traveller.c line 11: parse error before ("chat_msg", ({
+
+[Wed Jul 19 20:02:11 2000] u/b/basic/npc/travelle.c line 11: parse error before ("chat_msg", ({
+
+[Thu Jul 20 19:43:39 2000] u/b/basic/npc/test2.c line 16: parse error before add("popularity", 50
+
+[Thu Jul 20 19:45:27 2000] u/b/basic/npc/test2.c line 28: Undefined variable 'HIW' before NOR);
+
+[Thu Jul 20 19:45:27 2000] u/b/basic/npc/test2.c line 28: parse error before NOR);
+
+[Thu Jul 20 19:47:59 2000] u/b/basic/npc/test2.c line 30: Undefined variable 'HIW' before NOR);
+
+[Thu Jul 20 19:47:59 2000] u/b/basic/npc/test2.c line 30: parse error before NOR);
+
+[Thu Jul 20 19:50:49 2000] u/b/basic/npc/test2.c line 14: parse error before ();
+
+[Fri Jul 21 21:02:36 2000] u/b/basic/skill/sword.c line 16: Undefined variable 'u' before $N"HIW"ªº¼C¤b³ô³ôµe¨
+
+[Fri Jul 21 21:02:36 2000] u/b/basic/skill/sword.c line 16: parse error before $N"HIW"ªº¼C¤b³ô³ôµe¨
+
+[Fri Jul 21 21:02:36 2000] u/b/basic/skill/sword.c line 16: $var illegal outside of function pointer. before N"HIW"ªº¼C¤b³ô³ôµe¨ì
+
+[Fri Jul 21 21:02:36 2000] u/b/basic/skill/sword.c line 16: $var illegal outside of function pointer. before n"HIW"ªºÂù¥Ø¤§¤W¡C"N
+
+[Fri Jul 21 21:02:36 2000] u/b/basic/skill/sword.c line 22: $var illegal outside of function pointer. before N"HIW"¨­Åé·L¦V«e¶É¡A
+
+[Fri Jul 21 21:02:36 2000] u/b/basic/skill/sword.c line 22: Illegal terminator before ¦¡¡u"+BLU"®ö¸ñ¤Ñ²P"+
+
+[Fri Jul 21 21:21:12 2000] u/b/basic/skill/sword.c line 16: Undefined variable 'u' before $N"HIW"ªº¼C¤b³ô³ôµe¨
+
+[Fri Jul 21 21:21:12 2000] u/b/basic/skill/sword.c line 16: parse error before $N"HIW"ªº¼C¤b³ô³ôµe¨
+
+[Fri Jul 21 21:21:12 2000] u/b/basic/skill/sword.c line 16: $var illegal outside of function pointer. before N"HIW"ªº¼C¤b³ô³ôµe¨ì
+
+[Fri Jul 21 21:21:12 2000] u/b/basic/skill/sword.c line 16: $var illegal outside of function pointer. before n"HIW"ªºÂù¥Ø¤§¤W¡C"N
+
+[Fri Jul 21 21:21:12 2000] u/b/basic/skill/sword.c line 22: $var illegal outside of function pointer. before N"HIW"¨­Åé·L¦V«e¶É¡A
+
+[Fri Jul 21 21:21:12 2000] u/b/basic/skill/sword.c line 22: Illegal terminator before ¦¡¡u"+BLU"®ö¸ñ¤Ñ²P"+
+
+[Sat Jul 22 13:32:43 2000] u/b/basic/npc/test4.c line 59: Undefined variable 'HIW' before NOR);
+
+[Sat Jul 22 13:32:43 2000] u/b/basic/npc/test4.c line 59: parse error before NOR);
+
+[Sat Jul 22 13:33:49 2000] u/b/basic/npc/test4.c line 59: Undefined variable 'HIW' before NOR);
+
+[Sat Jul 22 13:33:49 2000] u/b/basic/npc/test4.c line 59: parse error before NOR);
+
+[Sun Jul 23 21:16:59 2000] u/b/basic/wp/sword2.c line 2: parse error before ;
+
+[Sun Jul 23 21:17:43 2000] u/b/basic/wp/sword2.c line 2: parse error before ;
+
+[Sun Jul 23 21:22:41 2000] u/b/basic/wp/sword2.c line 3: parse error before ;
+
+[Sun Jul 23 21:35:59 2000] u/b/basic/wp/sword2.c line 30: parse error before the end of file
+
+[Sun Jul 23 21:36:58 2000] u/b/basic/wp/sword2.c line 30: parse error before the end of file
+
+[Sun Jul 23 21:38:52 2000] u/b/basic/wp/sword2.c line 30: parse error before the end of file
+
+[Sun Jul 23 21:40:35 2000] u/b/basic/wp/sword2.c line 28: Undefined function init_blade before ;
+
+[Sun Jul 23 21:40:35 2000] u/b/basic/wp/sword2.c line 30: parse error before the end of file
+
+[Sun Jul 23 21:41:25 2000] u/b/basic/wp/sword2.c line 30: parse error before the end of file
+
+[Sun Jul 23 21:48:19 2000] u/b/basic/wp/sword2.c line 30: parse error before the end of file
+
+[Mon Jul 24 22:12:54 2000] u/b/basic/item/box.c line 1: parse error before [0;1m#[1mi[1mn[1m
+
+[Mon Jul 24 22:34:50 2000] u/b/basic/area/room1.c line 20: Warning: Unknown \ escape. before A¤£³\½ñ¤J\n",
+
+[Mon Jul 24 22:34:50 2000] u/b/basic/area/room1.c line 20: Warning: Unknown \ escape. before ñ¤J\n",
+
+[Mon Jul 24 22:37:38 2000] u/b/basic/area/room1.c line 20: Warning: Unknown \ escape. before A¤£³\½ñ¤J\n",
+
+[Mon Jul 24 22:37:38 2000] u/b/basic/area/room1.c line 20: Warning: Unknown \ escape. before ñ¤J\n",
+
+[Mon Jul 24 22:37:38 2000] u/b/basic/area/room1.c line 21: Warning: Unknown \ escape. before A¤£³\½ñ¤J\n", ]));
+
+[Mon Jul 24 22:37:38 2000] u/b/basic/area/room1.c line 21: Warning: Unknown \ escape. before ñ¤J\n", ]));
+
+[Mon Jul 24 22:37:38 2000] u/b/basic/area/room1.c line 21: parse error before  ]));
+
+[Mon Jul 24 22:38:14 2000] u/b/basic/area/room1.c line 20: Warning: Unknown \ escape. before A¤£³\½ñ¤J\n",
+
+[Mon Jul 24 22:38:14 2000] u/b/basic/area/room1.c line 20: Warning: Unknown \ escape. before ñ¤J\n",
+
+[Mon Jul 24 22:38:20 2000] u/b/basic/area/room1.c line 20: Warning: Unknown \ escape. before A¤£³\½ñ¤J\n",
+
+[Mon Jul 24 22:38:20 2000] u/b/basic/area/room1.c line 20: Warning: Unknown \ escape. before ñ¤J\n",
+
+[Mon Jul 24 22:40:28 2000] u/b/basic/area/room1.c line 20: Warning: Unknown \ escape. before A¤£³\½ñ¤J\n",
+
+[Mon Jul 24 22:40:28 2000] u/b/basic/area/room1.c line 20: Warning: Unknown \ escape. before ñ¤J\n",
+
+[Mon Jul 24 22:42:30 2000] u/b/basic/area/room1.c line 20: Warning: Unknown \ escape. before \¡A¤£\³\½ñ¤J\n",
+
+[Mon Jul 24 22:42:30 2000] u/b/basic/area/room1.c line 20: Warning: Unknown \ escape. before A¤£\³\½ñ¤J\n",
+
+[Mon Jul 24 22:42:30 2000] u/b/basic/area/room1.c line 20: Warning: Unknown \ escape. before \½ñ¤J\n",
+
+[Mon Jul 24 22:42:30 2000] u/b/basic/area/room1.c line 20: Warning: Unknown \ escape. before ñ¤J\n",
+
+[Mon Jul 24 22:43:30 2000] u/b/basic/area/room1.c line 20: Warning: Unknown \ escape. before \¡A¤£\³\½ñ¤J\n",
+
+[Mon Jul 24 22:43:30 2000] u/b/basic/area/room1.c line 20: Warning: Unknown \ escape. before A¤£\³\½ñ¤J\n",
+
+[Mon Jul 24 22:43:30 2000] u/b/basic/area/room1.c line 20: Warning: Unknown \ escape. before \½ñ¤J\n",
+
+[Mon Jul 24 22:43:30 2000] u/b/basic/area/room1.c line 20: Warning: Unknown \ escape. before ñ¤J\n",
+
+[Mon Jul 24 22:44:20 2000] u/b/basic/area/room1.c line 20: Warning: Unknown \ escape. before \¡A¤£\³\½ñ¤J\n",
+
+[Mon Jul 24 22:44:20 2000] u/b/basic/area/room1.c line 20: Warning: Unknown \ escape. before A¤£\³\½ñ¤J\n",
+
+[Mon Jul 24 22:44:20 2000] u/b/basic/area/room1.c line 20: Warning: Unknown \ escape. before \½ñ¤J\n",
+
+[Mon Jul 24 22:44:20 2000] u/b/basic/area/room1.c line 20: Warning: Unknown \ escape. before ñ¤J\n",
+
+[Mon Jul 24 22:45:18 2000] u/b/basic/area/room1.c line 20: Warning: Unknown \ escape. before \½ñ¤J\n",
+
+[Mon Jul 24 22:45:18 2000] u/b/basic/area/room1.c line 20: Warning: Unknown \ escape. before ñ¤J\n",
+
+[Mon Jul 24 22:47:54 2000] u/b/basic/area/room1.c line 20: Warning: Unknown \ escape. before ñ¤J
+
+[Mon Jul 24 22:48:02 2000] u/b/basic/area/room1.c line 20: Warning: Unknown \ escape. before ñ¤J
+
+[Mon Jul 24 22:48:38 2000] u/b/basic/area/room1.c line 20: Warning: Unknown \ escape. before ñ¤J
+
+[Mon Jul 24 22:49:12 2000] u/b/basic/area/room1.c line 20: Warning: Unknown \ escape. before ñ¤J
+
+[Mon Jul 24 22:52:00 2000] u/b/basic/area/room1.c line 20: Warning: Unknown \ escape. before \½ñ¤J
+
+[Mon Jul 24 22:52:00 2000] u/b/basic/area/room1.c line 20: Warning: Unknown \ escape. before ñ¤J
+
+[Fri Jul 28 18:55:50 2000] u/b/basic/item/pill3.c line 3: Undefined function set_name before ;
+
+[Fri Jul 28 18:55:50 2000] u/b/basic/item/pill3.c line 4: Undefined function set_weight before ;
+
+[Fri Jul 28 18:55:50 2000] u/b/basic/item/pill3.c line 5: Undefined function set before ;
+
+[Fri Jul 28 18:55:50 2000] u/b/basic/item/pill3.c line 6: Undefined function setup before ; }
+
+[Fri Jul 28 18:58:00 2000] u/b/basic/item/pill.c line 16: Undefined variable 'rank' before ;
+
+[Sat Jul 29 08:25:33 2000] u/b/basic/workroom.c line 26: parse error before u/s/sexking/workroom
+
+[Sat Jul 29 08:25:33 2000] u/b/basic/workroom.c line 34: End of file in string before i¢¨¢«    ¢ª¢©\n¢¨¢« 
+

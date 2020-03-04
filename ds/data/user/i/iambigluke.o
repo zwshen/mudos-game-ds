@@ -1,0 +1,9 @@
+#/obj/user.c
+dbase (["DS_DATA_VERSION":19991107,"env":(["recall":"YES",]),"race":"evil","cure_count":11,"adv_class":1,"actions":,"addition_shield":10,"class1":"疾風門","supply_point":60,"max_mp":66,"channels":({"chat","rumor","tchat",}),"age":14,"unit":"位","heart_modify":0,"last_location":"/open/world1/cominging/area/flurry48","max_hp":84,"birthday":1203335606,"id":"iambigluke","title":"疾風門第四代弟子","heart_beat_rate":6,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"talk_point":8,"addition_armor":10,"default_actions":,"newbie":1,"exp":777,"family":(["family_name":"疾風門","generation":4,"privs":-1,"title":"弟子",]),"dex":2,"mp":66,"gender":"女性","int":2,"guild_gifts":({5,5,5,5,}),"name":"可可","con":2,"hp":84,"str":2,"volume":7,"level":1,"attitude":"peaceful","bank":(["past":0,]),"wound":(["body":0,"right_arm":0,"right_leg":0,"head":0,"left_leg":0,"left_arm":0,]),"addition_damage":10,"max_ap":100,"evil":-1,"ap":100,"mud_age":1733,"startroom":"/open/world1/tmr/area/hotel",])
+skills (["sorgi_sword":1,"dodge":1,"unarmed":1,"force":1,"strong-body":3,"fogseven":1,"parry":1,"sword":1,])
+learned (["strong-body":5,])
+items ({})
+alias (["city":"do l off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,enter,n,n,n,n,n,n,n,n,l on,l","q":"do look off ,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,w,n,w,w,w,nw,w,w,n,nw,w,n,n,nw,n,n,nd,n,n,nu,n,n,nd,n,n,nu,n,e,look on","shop":"do l off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,e,n,n,nw,eu,ne,e,e,ne,e,n,n,l on,l","sell":"do city,n,n,n,n,w,l on,l","pear":"do l off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,e,n,n,nw,eu,ne,e,e,ne,e,e,e,e,n,n,n,n,ne,n,n,n,jump 大石,push 石壁,w,search 小洞,l on",])
+autoload ({})
+toDoList ([])
+solved ({})

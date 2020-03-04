@@ -1,0 +1,53 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=bg2312">
+   <META NAME="Author" CONTENT="Spock">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.01 [en] (Win95; I) [Netscape]">
+   <TITLE>MudOS v21c2 参考资料 - applies - interactive - telnet_suboption</TITLE>
+</HEAD>
+<BODY TEXT="#CCFFFF" BGCOLOR="#000000" LINK="#33FF33" VLINK="#FF0000" ALINK="#33CCFF" BACKGROUND="../../../image/ff/fftitleback.jpg" NOSAVE>
+
+<CENTER><FONT COLOR="#FF99FF"><FONT SIZE=+3>telnet_suboption(4) MudOS v21c2　
+(5 Sep 1994)</FONT></FONT></CENTER>
+
+<HR WIDTH="100%">
+<BR><FONT COLOR="#FFFFCC">　名称:</FONT>
+<UL>　 telnet_suboption - 处理 telnet 的 suboption.</UL>
+<FONT COLOR="#FFFFCC">　语法:</FONT>
+<UL>　 void telnet_suboption( string buffer );
+
+<P>　 无返回值 telnet_suboption( 字符串 buffer );</UL>
+<FONT COLOR="#FFFFCC">　用法:</FONT>
+<UL>　 在 mudlib 定义的处理程序下, 可互动的 (interactive) 物件调用此函数,
+并将 SE telnet suboptions 作为其参数. 例如: 未来可能藉此函数支援终端机的型式.
+
+<P>　 buffer　 的第一个字节 (byte) 通常是一个类型语句值 (type descriptor),　
+即 TELOPT_TTYPE.　 第二个字节是一个 procession option, 如 TELQUAL_IS.　
+之后是与类型相关的数据. 当此终端机类型调用 (terminal type call) 之时, 这些数据将由
+terminal_type() 函数处理.
+
+<P>　 可能的 suboptions:
+
+<P>　 <FONT COLOR="#FFCC99">#define TELQUAL_IS　　　 0　　　　　　　 </FONT>//
+option 是...
+<BR>　 <FONT COLOR="#FFCC99">#define TELQUAL_SEND　 1</FONT>　　　　　　　
+// 送出 options
+<BR>　 <FONT COLOR="#FFCC99">#define TELQUAL_INFO　 2　　　　　　　 </FONT>//
+ENVIRON: informational version of IS
+<BR>　 <FONT COLOR="#FFCC99">#define TELQUAL_REPLY 3　　　　　　　 </FONT>//
+AUTHENTICATION: client version of IS
+<BR>　 <FONT COLOR="#FFCC99">#define TELQUAL_NAME　 4　　　　　　　 </FONT>//
+AUTHENTICATION: client version of IS</UL>
+<FONT COLOR="#FFFFCC">　翻译:</FONT>
+<UL>　 Spock @ FF 97.Aug.5.　 (printed 3/16/95)</UL>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+<CENTER><A HREF="../interactive.html">回到上一页</A></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+</BODY>
+</HTML>

@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["int":2,"talk_point":8,"max_mp":60,"max_hp":80,"con":2,"str":2,"default_actions":,"last_location":"/open/world1/tmr/area/school/school1","DS_DATA_VERSION":19991107,"mp":60,"wound":(["left_arm":0,"left_leg":0,"right_arm":0,"head":0,"right_leg":0,"body":0,]),"gender":"男性","cure_count":3,"name":"你的中文名字","ap":60,"actions":,"attitude":"peaceful","evil":-1,"addition_shield":10,"Merits":(["sou":0,"wit":0,"bar":0,"tec":0,"bio":0,]),"id":"avc","heart_beat_rate":6,"channels":({"chat","rumor","tchat",}),"race":"human","addition_damage":10,"addition_armor":10,"max_ap":60,"volume":7,"level":1,"age":14,"supply_point":46,"guild_gifts":({5,5,5,5,}),"unit":"位","birthday":1141747687,"hp":80,"heart_modify":0,"startroom":"/open/world1/tmr/area/hotel","exp":777,"mud_age":354,"newbie":1,"dex":2,])
+autoload ({})

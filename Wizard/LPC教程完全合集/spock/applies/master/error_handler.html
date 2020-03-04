@@ -1,0 +1,69 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=bg2312">
+   <META NAME="Author" CONTENT="Spock">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.01 [en] (Win95; I) [Netscape]">
+   <TITLE>MudOS v21c2 参考文件 - applies - master - error_handler</TITLE>
+</HEAD>
+<BODY TEXT="#CCFFFF" BGCOLOR="#000000" LINK="#33FF33" VLINK="#FF0000" ALINK="#33CCFF" BACKGROUND="../../../image/ff/fftitleback.jpg" NOSAVE>
+
+<CENTER><FONT COLOR="#FF99FF"><FONT SIZE=+3>error_handler(4) MudOS v21c2　
+(5 Sep 1994)</FONT></FONT></CENTER>
+
+<HR WIDTH="100%">
+<BR><FONT COLOR="#FFFFCC">　名称:</FONT>
+<UL>　 error_handler - 主控物件处理错误的函数.</UL>
+<FONT COLOR="#FFFFCC">　语法:</FONT>
+<UL>　 void error_handler( mapping error, int caught );
+
+<P>　 无返回值 error_handler( 映射 error, 整数 caught );</UL>
+<FONT COLOR="#FFFFCC">　用法:</FONT>
+<UL>　 此函数让 mudlib 代替驱动程序处理错误情形. 映射变量 error 的内容为:
+
+<P><FONT COLOR="#FFCC99">　 ([</FONT>
+<BR><FONT COLOR="#FFCC99">　　 "error"　　 : 字符串,　　　　　　　 </FONT>//
+错误名称
+<BR><FONT COLOR="#FFCC99">　　 "program" : 字符串,　　　　　　　 </FONT>//
+出错的程序
+<BR><FONT COLOR="#FFCC99">　　 "object"　 : 物件,　　　　　　　 </FONT>//
+目前的物件
+<BR><FONT COLOR="#FFCC99">　　 "line"　　　 : 整数,　　　　　　　 </FONT>//
+错误出现在第几行
+<BR><FONT COLOR="#FFCC99">　　 "trace"　　 : 映射*　　　　　　　 </FONT>//
+追踪回溯
+<BR><FONT COLOR="#FFCC99">　 ])</FONT>
+
+<P>　 追踪回溯的每一行都是映射, 包含以下数据:
+
+<P><FONT COLOR="#FFCC99">　 ([</FONT>
+<BR><FONT COLOR="#FFCC99">　　 "function"　 : 字符串,　　　　　　　 </FONT>//
+函数名称
+<BR><FONT COLOR="#FFCC99">　　 "program"　　 : 字符串,　　　　　　　 </FONT>//
+程序
+<BR><FONT COLOR="#FFCC99">　　 "object"　　　 : 物件,　　　　　　　 </FONT>//
+物件
+<BR><FONT COLOR="#FFCC99">　　 "file"　　　　　 : 字符串,　　　　　　　 </FONT>//
+行数所在的文件名称
+<BR><FONT COLOR="#FFCC99">　　 "line"　　　　　 : 整数　　　　　　　　
+</FONT>// 行数
+<BR><FONT COLOR="#FFCC99">　 ])</FONT>
+
+<P>　 如果错误被 catch() 函数抓到, caught 标志 (flag) 为 1.</UL>
+<FONT COLOR="#FFFFCC">　参考:</FONT>
+<UL>　 <A HREF="../../efuns/calls/catch.html">catch(3)</A>, <A HREF="../../efuns/system/error.html">error(3)</A>,
+<A HREF="../../efuns/calls/throw.html">throw(3)</A>, <A HREF="log_error.html">log_error(4)</A></UL>
+<FONT COLOR="#FFFFCC">　作者:</FONT>
+<UL>　 Beek</UL>
+<FONT COLOR="#FFFFCC">　翻译:</FONT>
+<UL>　 Spock @ FF 97.Aug.6.　 (printed 3/16/95)</UL>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+<CENTER><A HREF="../master.html">回到上一页</A></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+</BODY>
+</HTML>

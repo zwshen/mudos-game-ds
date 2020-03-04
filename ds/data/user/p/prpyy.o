@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["mp":60,"dex":2,"DS_DATA_VERSION":19991107,"ap":60,"race":"human","gender":"男性","level":1,"int":2,"id":"prpyy","con":2,"talk_point":2,"last_location":"/open/world1/wilfred/sand/room13","name":"卡特","birthday":1105886480,"str":2,"default_actions":,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"addition_damage":10,"addition_shield":10,"max_hp":80,"guild_gifts":({5,5,5,5,}),"startroom":"/open/world1/tmr/area/hotel","age":14,"cure_count":2,"actions":,"addition_armor":10,"heart_beat_rate":6,"attitude":"peaceful","mud_age":28,"newbie":1,"max_ap":60,"evil":-1,"supply_point":4,"hp":80,"max_mp":60,"volume":7,"unit":"位","channels":({"chat","rumor","tchat",}),"exp":777,])
+autoload ({})

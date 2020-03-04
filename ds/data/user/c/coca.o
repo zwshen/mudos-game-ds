@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["int":2,"con":2,"str":2,"DS_DATA_VERSION":19991107,"addition_armor":10,"heart_beat_rate":6,"max_ap":60,"supply_point":6,"evil":-1,"addition_damage":10,"max_hp":80,"channels":({"chat","rumor","tchat",}),"gender":"¤k©Ê","id":"coca","cure_count":3,"actions":,"mp":60,"attitude":"peaceful","unit":"¦ì","name":"£z£z","race":"human","level":1,"ap":60,"talk_point":3,"birthday":1115808790,"max_mp":60,"volume":7,"Merits":(["sou":0,"bar":0,"bio":0,"tec":0,"wit":0,]),"mud_age":45,"default_actions":,"startroom":"/open/world1/tmr/area/hotel","hp":80,"guild_gifts":({5,5,5,5,}),"newbie":1,"exp":777,"addition_shield":10,"age":14,"dex":2,])
+autoload ({})

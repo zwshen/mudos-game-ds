@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["hp":80,"mp":60,"cure_count":9,"actions":,"exp":777,"attitude":"peaceful","Merits":(["bio":0,"sou":0,"wit":0,"bar":0,"tec":0,]),"dex":2,"DS_DATA_VERSION":19991107,"int":2,"con":2,"str":2,"volume":7,"max_mp":60,"default_actions":,"age":14,"unit":"¦ì","ap":60,"addition_shield":10,"talk_point":8,"gender":"¤k©Ê","id":"chemo","addition_armor":10,"heart_beat_rate":6,"channels":({"chat","rumor","tchat",}),"name":"Åx¦Ì","race":"human","max_ap":60,"level":1,"supply_point":18,"evil":-1,"mud_age":133,"birthday":1116551382,"guild_gifts":({5,5,5,5,}),"addition_damage":10,"startroom":"/open/world1/tmr/area/school/school1","max_hp":80,"newbie":1,])
+autoload ({})

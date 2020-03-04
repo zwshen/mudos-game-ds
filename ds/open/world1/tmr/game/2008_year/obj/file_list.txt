@@ -1,0 +1,10 @@
+¥Ø¿ý¡R/open/world1/tmr/game/2008_year/obj/
+bad-bag.c           ¥û³U                bag1.c              ¤pºÖ³U            
+bag2.c              ºÖ³U                bag3.c              ¤jºÖ³U            
+bag4.c              ³ß®ð                bag5.c              ¹«¨ÓÄ_            
+mouse_cake.c        ¹«»æ                word1.c             ¡u¹«¡v¦r          
+word2.c             ¡u¨Ó¡v¦r            word3.c             ¡uÄ_¡v¦r          
+word4.c             ¡u¹B¡v¦r            word5.c             ¡uÂà¡v¦r          
+word6.c             ¡u·³¡v¦r            word7.c             ¡u³ß¡v¦r          
+word8.c             ¡uÁ{¡v¦r            word9.c             ¡uªù¡v¦r          
+

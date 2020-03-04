@@ -1,0 +1,6 @@
+#/obj/user.c
+conditions ([])
+dbase (["int":2,"con":2,"str":2,"DS_DATA_VERSION":19991107,"addition_armor":10,"heart_beat_rate":6,"max_ap":60,"supply_point":42,"evil":-1,"heart_modify":0,"last_location":"/open/world1/tmr/area/fc2","addition_damage":10,"max_hp":80,"wound":(["right_leg":0,"left_arm":0,"right_arm":0,"left_leg":0,"body":0,"head":0,]),"channels":({"chat","rumor","tchat",}),"gender":"男性","id":"sosoop","cure_count":1,"actions":,"mp":60,"attitude":"peaceful","unit":"位","name":"我愛羅","race":"human","level":1,"ap":60,"talk_point":8,"birthday":1115731964,"mob_record":({"/open/world1/tmr/area/npc/dog",}),"max_mp":60,"volume":7,"Merits":(["sou":0,"bar":0,"bio":0,"tec":0,"wit":0,]),"mud_age":321,"default_actions":,"startroom":"/open/world1/tmr/area/hotel","hp":80,"guild_gifts":({5,5,5,5,}),"newbie":1,"MKS":1,"exp":933,"addition_shield":10,"age":14,"dex":2,])
+skills (["unarmed":1,"combat":1,"dodge":0,])
+learned (["unarmed":0,"combat":3,"dodge":1,])
+autoload ({})

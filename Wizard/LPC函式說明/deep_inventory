@@ -1,0 +1,18 @@
+
+	deep_inventory(3)	LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		deep_inventory() - 傳回一個物件的內容物品, 如果物品中
+			 會以還含有物品, 將會以巢狀的方式繼續找下去.
+	函數語法:
+		object *deep_inventory( object ob );
+
+		物件 *deep_inventory( 物件 ob );
+	函數用法:
+		傳回 ob 含有之所有物品的陣列 (array), 深層的物品也
+		會繼續尋找下去.
+	參考函數:
+		first_inventory(3), next_inventory(3), all_inventory(3)
+	手冊翻譯:
+		Phoebus@ZH	97.Feb.04.		(Writen 5/23/97)
+

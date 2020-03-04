@@ -1,0 +1,38 @@
+[Wed May 29 23:58:57 2002] u/s/shengsan/testitem/tttt.c line 33: Undefined variable 'F_QUANTITY' before sortinv(env);
+
+[Tue Jan 29 14:32:53 2008] /u/s/shengsan/npc/beauty.c line 114: Warning: Unused local variable 'phrase' around the end of line
+
+[Tue Jan 29 14:32:53 2008] /u/s/shengsan/npc/handsome.c line 101: Warning: Unused local variable 'phrase' around the end of line
+
+[Fri Mar 28 01:22:08 2008] /u/s/shengsan/npc/handsome.c line 101: Warning: Unused local variable 'phrase' around the end of line
+
+[Fri Mar 28 01:22:08 2008] /u/s/shengsan/npc/beauty.c line 114: Warning: Unused local variable 'phrase' around the end of line
+
+[Sat Aug 23 15:04:19 2008] /u/s/shengsan/npc/beauty.c line 114: Warning: Unused local variable 'phrase' before the end of line
+
+[Sat Aug 23 15:04:19 2008] /u/s/shengsan/npc/handsome.c line 101: Warning: Unused local variable 'phrase' before the end of line
+
+[Thu Oct 16 12:06:27 2008] /u/s/shengsan/npc/handsome.c line 101: Warning: Unused local variable 'phrase' before the end of line
+
+[Thu Oct 16 12:06:27 2008] /u/s/shengsan/npc/beauty.c line 114: Warning: Unused local variable 'phrase' before the end of line
+
+[Wed Mar 11 03:09:40 2009] /u/s/shengsan/npc/beauty.c line 114: Warning: Unused local variable 'phrase' before the end of line
+
+[Wed Mar 11 03:09:40 2009] /u/s/shengsan/npc/handsome.c line 101: Warning: Unused local variable 'phrase' before the end of line
+
+[Wed Mar 11 03:16:12 2009] /u/s/shengsan/room/mj.c line 785: Warning: Unused local variable 'k' before the end of line
+
+[Wed Mar 11 03:16:12 2009] /u/s/shengsan/room/mj.c line 859: Warning: Unused local variable 'k' before the end of line
+
+[Wed Mar 11 03:16:12 2009] /u/s/shengsan/room/mj.c line 1390: Warning: Unused local variable 'b' before the end of line
+
+[Wed Mar 11 03:16:12 2009] /u/s/shengsan/room/mj.c line 1540: Warning: Unused local variable 'temp1' before the end of line
+
+[Wed Mar 11 03:16:12 2009] /u/s/shengsan/room/mj.c line 1540: Warning: Unused local variable 'j' before the end of line
+
+[Wed Mar 11 03:16:12 2009] /u/s/shengsan/room/mj.c line 1569: Warning: Unused local variable 'check' before the end of line
+
+[Wed Mar 11 03:16:12 2009] /u/s/shengsan/room/mj.c line 1589: Warning: Unused local variable 'newstr' before the end of line
+
+[Wed Mar 11 03:16:12 2009] /u/s/shengsan/room/mj.c line 1888: Warning: Unused local variable 'str' before the end of line
+

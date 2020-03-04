@@ -1,0 +1,9 @@
+¥Ø¿ý¡R/open/world1/tmr/area/npc/wp/
+dab-aqua-claw.c     ÂI²G¤ö              dab-aqua-claw2.c    ÂI²G¤ö            
+dagger.c            ¤P­º                dragon-fist.c       Às¯ÞÁu            
+fist.c              «üªê                fork.c              µuºj              
+knife.c             ¤p¤M                masterfork.c        ÅK¦å¾Ô¥Ù          
+rod.c               ³¨¬ñ                shortaxe.c          µu©ò              
+shortsword.c        µu¼C                suisword.c          ²¨¼v¼C            
+sun-snow-fist.c     ¤»¶§¿Ä³·¤ö          sword.c             ªø¼C              
+wolf-fist.c         ¯T®±                

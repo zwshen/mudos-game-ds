@@ -1,0 +1,16 @@
+
+	users(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	ㄧ计嘿:
+		users() - 肚┮Τが笆 (interactive) 產
+			  皚.
+	ㄧ计粂猭:
+		object *users( void );
+
+		ン *users( 礚把计 );
+	ㄧ计ノ猭:
+		肚ン皚, 皚珹┮Τが笆產.
+	把σㄧ计:
+		livings(3), children(3), objects(3)
+	も陆亩:
+		Phoebus@ZH	97.jul.25.		(Writen 5/23/97)

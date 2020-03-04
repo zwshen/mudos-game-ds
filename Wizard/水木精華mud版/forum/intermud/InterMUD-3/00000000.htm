@@ -1,0 +1,184 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清华站∶精华区</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+<A Name="top"></a>
+发信人:&nbsp;Qyz&nbsp;(逡巡..在夜半空旷的校园),&nbsp;信区:&nbsp;Mud_Builder&nbsp;<BR>
+标&nbsp;&nbsp;题:&nbsp;关于InterMUD-3(1)&nbsp;<BR>
+发信站:&nbsp;BBS&nbsp;水木清华站&nbsp;(Sun&nbsp;Jan&nbsp;11&nbsp;21:23:10&nbsp;1998)&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+Intermud-3:&nbsp;a&nbsp;Proposal&nbsp;for&nbsp;The&nbsp;Future&nbsp;<BR>
+&nbsp;<BR>
+Initial&nbsp;protocol&nbsp;design&nbsp;by:&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Greg&nbsp;Stein&nbsp;(<A HREF="mailto:gstein@svpal.org)">gstein@svpal.org)</A>&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;John&nbsp;Viega&nbsp;(<A HREF="mailto:rust@virginia.edu)">rust@virginia.edu)</A>&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tim&nbsp;Hollebeek&nbsp;(<A HREF="mailto:tim@handel.princeton.edu)">tim@handel.princeton.edu)</A>&nbsp;<BR>
+&nbsp;<BR>
+Please&nbsp;forward&nbsp;discussion&nbsp;to&nbsp;the&nbsp;Intermud&nbsp;mailing&nbsp;list&nbsp;at&nbsp;<BR>
+<A HREF="mailto:intermud@imaginary.com.">intermud@imaginary.com.</A>&nbsp;<BR>
+&nbsp;<BR>
+You&nbsp;may&nbsp;subscribe&nbsp;by&nbsp;mailing&nbsp;<A HREF="mailto:majordomo@imaginary.com.">majordomo@imaginary.com.</A>&nbsp;Place&nbsp;<BR>
+&quot;subscribe&nbsp;intermud&quot;&nbsp;in&nbsp;the&nbsp;body.&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+-----------------------------------------------------------&nbsp;<BR>
+This&nbsp;document&nbsp;details&nbsp;a&nbsp;proposal&nbsp;for&nbsp;a&nbsp;future&nbsp;generation&nbsp;of&nbsp;<BR>
+&nbsp;Intermud&nbsp;protocols.&nbsp;It&nbsp;is&nbsp;designed&nbsp;to&nbsp;use&nbsp;the&nbsp;high&nbsp;level&nbsp;<BR>
+communication&nbsp;facilities&nbsp;provided&nbsp;by&nbsp;the&nbsp;MudOS&nbsp;LP&nbsp;driver.&nbsp;<BR>
+Other&nbsp;drivers&nbsp;may&nbsp;be&nbsp;capable&nbsp;of&nbsp;handling&nbsp;the&nbsp;communication&nbsp;<BR>
+protocol,&nbsp;but&nbsp;this&nbsp;proposal&nbsp;does&nbsp;not&nbsp;focus&nbsp;on&nbsp;them.&nbsp;See&nbsp;<BR>
+Other&nbsp;<BR>
+Drivers&nbsp;for&nbsp;a&nbsp;possible&nbsp;scheme&nbsp;to&nbsp;include&nbsp;them&nbsp;into&nbsp;the&nbsp;<BR>
+Intermud&nbsp;<BR>
+&nbsp;as&nbsp;defined&nbsp;by&nbsp;this&nbsp;proposal.&nbsp;<BR>
+&nbsp;<BR>
+This&nbsp;document&nbsp;has&nbsp;the&nbsp;following&nbsp;sections:&nbsp;<BR>
+&nbsp;<BR>
+Contributors&nbsp;and&nbsp;Implementors&nbsp;:&nbsp;lists&nbsp;the&nbsp;contributors&nbsp;to&nbsp;<BR>
+this&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;specification&nbsp;and&nbsp;people&nbsp;who&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;have&nbsp;created&nbsp;I3&nbsp;implementations&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(for&nbsp;public&nbsp;or&nbsp;private&nbsp;release)&nbsp;<BR>
+&nbsp;<BR>
+Logical&nbsp;Network&nbsp;Layout&nbsp;:&nbsp;describes&nbsp;how&nbsp;the&nbsp;muds&nbsp;connect&nbsp;to&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;each&nbsp;other&nbsp;<BR>
+&nbsp;<BR>
+Packet&nbsp;Format&nbsp;:&nbsp;describes&nbsp;the&nbsp;basic&nbsp;format&nbsp;of&nbsp;all&nbsp;packets&nbsp;<BR>
+&nbsp;<BR>
+Services&nbsp;:&nbsp;describes&nbsp;the&nbsp;services&nbsp;available&nbsp;<BR>
+&nbsp;<BR>
+Support&nbsp;Packets&nbsp;:&nbsp;describes&nbsp;additional&nbsp;packet&nbsp;types&nbsp;for&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;maintainance&nbsp;purposes&nbsp;<BR>
+&nbsp;<BR>
+OOB&nbsp;Protocols&nbsp;:&nbsp;describes&nbsp;the&nbsp;protocols&nbsp;used&nbsp;for&nbsp;OOB&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;communications&nbsp;<BR>
+&nbsp;<BR>
+Router&nbsp;Design&nbsp;:&nbsp;describes&nbsp;the&nbsp;design&nbsp;of&nbsp;the&nbsp;routers&nbsp;<BR>
+&nbsp;<BR>
+Other&nbsp;Drivers/Mudlibs&nbsp;:&nbsp;describes&nbsp;an&nbsp;approach&nbsp;that&nbsp;could&nbsp;be&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;used&nbsp;to&nbsp;include&nbsp;non-MudOS&nbsp;drivers&nbsp;<BR>
+&nbsp;<BR>
+Error&nbsp;Summary&nbsp;:&nbsp;quick&nbsp;summary&nbsp;of&nbsp;the&nbsp;error&nbsp;codes&nbsp;used&nbsp;<BR>
+&nbsp;<BR>
+Packet&nbsp;Types&nbsp;Summary&nbsp;:&nbsp;quick&nbsp;summary&nbsp;of&nbsp;the&nbsp;packets&nbsp;that&nbsp;are&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;used&nbsp;<BR>
+&nbsp;<BR>
+Compressed&nbsp;Mode&nbsp;:&nbsp;describes&nbsp;a&nbsp;scheme&nbsp;for&nbsp;compressing&nbsp;the&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;transmitted&nbsp;data&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+-----------------------------------------------------------&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+Contributors&nbsp;and&nbsp;Implementors&nbsp;<BR>
+&nbsp;<BR>
+Many&nbsp;people&nbsp;have&nbsp;contributed&nbsp;to&nbsp;this&nbsp;specification.&nbsp;This&nbsp;is&nbsp;<BR>
+an&nbsp;attempt&nbsp;to&nbsp;list&nbsp;those&nbsp;people&nbsp;who&nbsp;have&nbsp;helped&nbsp;in&nbsp;some&nbsp;way&nbsp;<BR>
+or&nbsp;another.&nbsp;Also,&nbsp;there&nbsp;are&nbsp;a&nbsp;number&nbsp;of&nbsp;implementations&nbsp;out&nbsp;<BR>
+there&nbsp;now.&nbsp;This&nbsp;list&nbsp;should&nbsp;help&nbsp;with&nbsp;locating&nbsp;resources&nbsp;for&nbsp;<BR>
+picking&nbsp;up&nbsp;an&nbsp;implementation&nbsp;for&nbsp;for&nbsp;finding&nbsp;people&nbsp;who&nbsp;have&nbsp;<BR>
+an&nbsp;implementation&nbsp;similar&nbsp;to&nbsp;your&nbsp;needs.&nbsp;<BR>
+&nbsp;<BR>
+Contributors:&nbsp;<BR>
+&nbsp;<BR>
+As&nbsp;mentioned&nbsp;at&nbsp;the&nbsp;head&nbsp;of&nbsp;this&nbsp;page,&nbsp;the&nbsp;core&nbsp;designers&nbsp;of&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this&nbsp;protocol&nbsp;were:&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Deathblade&nbsp;(Greg&nbsp;Stein,&nbsp;<A HREF="mailto:gstein@svpal.org)">gstein@svpal.org)</A>&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rust&nbsp;(John&nbsp;Viega,&nbsp;<A HREF="mailto:rust@virginia.edu)">rust@virginia.edu)</A>&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Beek&nbsp;(Tim&nbsp;Hollebeek,&nbsp;<A HREF="mailto:tim@handel.princeton.edu)">tim@handel.princeton.edu)</A>&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Descartes&nbsp;(George&nbsp;Reese,&nbsp;<A HREF="mailto:borg@imaginary.com)">borg@imaginary.com)</A>&nbsp;<BR>
+Descartes&nbsp;contributed&nbsp;in&nbsp;a&nbsp;number&nbsp;of&nbsp;areas,&nbsp;particularly&nbsp;as&nbsp;<BR>
+one&nbsp;of&nbsp;the&nbsp;pioneer&nbsp;implementors&nbsp;after&nbsp;the&nbsp;initial&nbsp;<BR>
+development&nbsp;<BR>
+by&nbsp;the&nbsp;Lima&nbsp;Mudlib&nbsp;team.&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Deathknight&nbsp;(Jesse&nbsp;McClusky,&nbsp;<A HREF="mailto:thought@weblink.org)">thought@weblink.org)</A>&nbsp;<BR>
+Deathknight&nbsp;was&nbsp;the&nbsp;original&nbsp;contributor&nbsp;of&nbsp;the&nbsp;central&nbsp;<BR>
+router-based,&nbsp;backbone&nbsp;design&nbsp;of&nbsp;the&nbsp;current&nbsp;I3&nbsp;system.&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+There&nbsp;are,&nbsp;of&nbsp;course,&nbsp;many&nbsp;other&nbsp;contributors&nbsp;who&nbsp;offered&nbsp;<BR>
+input&nbsp;both&nbsp;at&nbsp;the&nbsp;conference&nbsp;in&nbsp;February&nbsp;'95&nbsp;and&nbsp;on&nbsp;the&nbsp;<BR>
+intermud&nbsp;mailing&nbsp;list.&nbsp;Their&nbsp;omission&nbsp;is&nbsp;not&nbsp;by&nbsp;design,&nbsp;but&nbsp;<BR>
+because&nbsp;informartion&nbsp;wasn't&nbsp;available&nbsp;at&nbsp;the&nbsp;time&nbsp;of&nbsp;this&nbsp;<BR>
+writing&nbsp;(they&nbsp;didn't&nbsp;provide&nbsp;info).&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+Implementations:&nbsp;<BR>
+&nbsp;<BR>
+The&nbsp;Lima&nbsp;Mudlib&nbsp;contains&nbsp;an&nbsp;implementation&nbsp;of&nbsp;the&nbsp;Intermud-3&nbsp;<BR>
+&nbsp;system&nbsp;(written&nbsp;by&nbsp;Deathblade).&nbsp;This&nbsp;was&nbsp;the&nbsp;first&nbsp;<BR>
+implementation&nbsp;to&nbsp;exist&nbsp;and&nbsp;is&nbsp;one&nbsp;of&nbsp;the&nbsp;few&nbsp;that&nbsp;is&nbsp;<BR>
+readily&nbsp;and&nbsp;publically&nbsp;available&nbsp;for&nbsp;use&nbsp;by&nbsp;other&nbsp;systems.&nbsp;<BR>
+It&nbsp;was&nbsp;implemented&nbsp;for&nbsp;the&nbsp;MudOS&nbsp;v22&nbsp;driver.&nbsp;<BR>
+It&nbsp;is&nbsp;publically&nbsp;available&nbsp;at:&nbsp;<BR>
+<A HREF="ftp://ftp.imaginary.com/lib/LIMA">ftp://ftp.imaginary.com/lib/LIMA</A>&nbsp;<BR>
+&nbsp;<BR>
+The&nbsp;Nightmare&nbsp;Object&nbsp;Library&nbsp;also&nbsp;contains&nbsp;an&nbsp;implementation&nbsp;<BR>
+of&nbsp;the&nbsp;Intermud-3&nbsp;system&nbsp;(written&nbsp;by&nbsp;Descartes).&nbsp;This&nbsp;<BR>
+implementation&nbsp;is&nbsp;also&nbsp;one&nbsp;of&nbsp;the&nbsp;oldest&nbsp;around,&nbsp;originating&nbsp;<BR>
+soon&nbsp;after&nbsp;the&nbsp;Lima&nbsp;version&nbsp;and&nbsp;first&nbsp;appearing&nbsp;in&nbsp;the&nbsp;<BR>
+release&nbsp;of&nbsp;Nightmare&nbsp;IV.&nbsp;<BR>
+&nbsp;<BR>
+The&nbsp;Intermud-3&nbsp;system&nbsp;for&nbsp;Nightmare&nbsp;(and&nbsp;Foundation)&nbsp;has&nbsp;<BR>
+also&nbsp;<BR>
+been&nbsp;pulled&nbsp;out&nbsp;into&nbsp;its&nbsp;own&nbsp;package,&nbsp;available&nbsp;at:&nbsp;<BR>
+<A HREF="ftp://ftp.imaginary.com/pub/LPC/etc/Intermud3.tar.gz.">ftp://ftp.imaginary.com/pub/LPC/etc/Intermud3.tar.gz.</A>&nbsp;<BR>
+&nbsp;<BR>
+Terry&nbsp;(Terry&nbsp;Penn,&nbsp;<A HREF="mailto:aurora@openix.com)">aurora@openix.com)</A>&nbsp;has&nbsp;created&nbsp;two&nbsp;<BR>
+implementations&nbsp;of&nbsp;the&nbsp;Intermud-3&nbsp;system.&nbsp;<BR>
+One&nbsp;is&nbsp;for&nbsp;Shadow's&nbsp;Edge&nbsp;running&nbsp;LPMUD&nbsp;3.2.1@122&nbsp;Another&nbsp;for&nbsp;<BR>
+MudOS&nbsp;v22a18&nbsp;<BR>
+Both&nbsp;of&nbsp;these&nbsp;are&nbsp;running&nbsp;on&nbsp;custom&nbsp;mudlibs&nbsp;and&nbsp;are&nbsp;not&nbsp;<BR>
+generally&nbsp;available.&nbsp;<BR>
+&nbsp;<BR>
+Logic&nbsp;(Edward&nbsp;Marshall,&nbsp;<A HREF="mailto:logic@common.net)">logic@common.net)</A>&nbsp;has&nbsp;written&nbsp;an&nbsp;<BR>
+implementation&nbsp;for&nbsp;LPmud&nbsp;3.2.1&nbsp;for&nbsp;the&nbsp;private&nbsp;mudlib&nbsp;<BR>
+EOTSlib.&nbsp;<BR>
+He&nbsp;has&nbsp;potential&nbsp;plans&nbsp;for&nbsp;a&nbsp;public&nbsp;release&nbsp;of&nbsp;the&nbsp;I3&nbsp;<BR>
+package.&nbsp;<BR>
+&nbsp;<BR>
+Skylight&nbsp;(Patrick&nbsp;Li,&nbsp;<A HREF="mailto:pli@shell.portal.com)">pli@shell.portal.com)</A>&nbsp;<BR>
+Hanzou&nbsp;(James&nbsp;Donald&nbsp;Jr.,&nbsp;<A HREF="mailto:hanzou@echeque.com)">hanzou@echeque.com)</A>&nbsp;<BR>
+They&nbsp;have&nbsp;written&nbsp;a&nbsp;version&nbsp;for&nbsp;LPmud&nbsp;3.2.1@98&nbsp;(or&nbsp;later).&nbsp;<BR>
+The&nbsp;package&nbsp;is&nbsp;primarily&nbsp;aimed&nbsp;for&nbsp;2.4.5&nbsp;mudlibs&nbsp;and&nbsp;is&nbsp;<BR>
+available&nbsp;at:&nbsp;<BR>
+<A HREF="ftp://ftp.netcom.com/pub/ja/jamesd/lpmud/amylaar-intermud3-l">ftp://ftp.netcom.com/pub/ja/jamesd/lpmud/amylaar-intermud3-l</A>&nbsp;<BR>
+atest.tar.gz&nbsp;<BR>
+&nbsp;<BR>
+Deathblade&nbsp;and&nbsp;Cowl&nbsp;(Hal&nbsp;Schechner,&nbsp;<A HREF="mailto:cowl@orion.tyler.net)">cowl@orion.tyler.net)</A>&nbsp;<BR>
+designed&nbsp;and&nbsp;implementated&nbsp;the&nbsp;Intermud-3&nbsp;router&nbsp;currently&nbsp;<BR>
+in&nbsp;use&nbsp;at&nbsp;athens.imaginary.com.&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+As&nbsp;always,&nbsp;there&nbsp;are&nbsp;many&nbsp;others&nbsp;out&nbsp;there,&nbsp;but&nbsp;they&nbsp;have&nbsp;<BR>
+not&nbsp;submitted&nbsp;information&nbsp;yet&nbsp;for&nbsp;inclusion&nbsp;here.&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+------------------------------------------------------------&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+蠢蠢欲动&nbsp;<BR>
+&nbsp;<BR>
+※&nbsp;来源:·BBS&nbsp;水木清华站&nbsp;bbs.net.tsinghua.edu.cn·[FROM:&nbsp;166.111.26.20]&nbsp;<BR>
+<A HREF='javascript:history.go(-1)'>返回上一页</A>
+<A HREF="index.htm">回到目录</A>
+<A HREF="#top">回到页首</A>
+<A HREF="00000001.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+</BODY></HTML>

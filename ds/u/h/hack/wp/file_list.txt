@@ -1,0 +1,11 @@
+¥Ø¿ý¡R/u/h/hack/wp/
+blade.c             ¨g¤M¡E¿B¥@          blade2.c            µL«×¤M            
+blade3.c            ¨g¤M¡E¿B¥@          coldpike.c          ´HÅK´u            
+dab-aqua-claw.c     ÂI²G¤ö              darksword.c         «Õ­ß¼C            
+dragon-fist.c       Às¯ÞÁu              evilsword.c         ¹@¨¸¼C            
+lance.c             ¶ÂÅKºj              masterfork.c        ÅK¦å¾Ô¥Ù          
+moon_tooth.c        ¤ë¤ú                oldsword.c          ¡i¥j¼C¡j          
+s_blade.c           ¹Ð­·¤M              seven-staff.c       ¤C¤CÀ¦§ú          
+sevenstar.c         ¤C¬P­Ë®p¼C          shangsword.c        °ÓÁô¼C            
+staff.c             ¯Q¤ìÁI§ú            sunsword.c          Äà¤é¼C            
+sword2.c            °­¤ý¼C              

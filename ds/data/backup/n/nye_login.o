@@ -1,0 +1,2 @@
+#/obj/login.c
+dbase (["email":"","last_on":1036695929,"id":"nye","password":"Nw7zHpxs7C/e6","last_from":"203.68.92.28","name":"ㄣ","level":50,"race":"human","error_login":({"於[Tue May 15 13:34:45 2001]嘗試由[sun.cc.ntut.edu.tw]連線進入失敗。","於[Fri May 18 01:20:28 2001]嘗試由[master.dorm.nhit.edu.tw]連線進入失敗。","於[Wed Dec 12 19:07:21 2001]嘗試由[211.75.227.73]連線進入失敗。","於[Fri Jan 25 00:08:08 2002]嘗試由[61-217-1-31.HINET-IP.hinet.net]連線進入失敗。","於[Wed May  8 15:13:46 2002]嘗試由[203.71.0.28]連線進入失敗。",}),"new_mail":1,"body":"/obj/user",])

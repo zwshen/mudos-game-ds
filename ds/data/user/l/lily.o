@@ -1,0 +1,8 @@
+#/obj/user.c
+conditions ([])
+dbase (["gender":"¤k©Ê","channels":({"chat","rumor","tchat",}),"evil":-1,"name":"²ú²ú","birthday":1178021112,"attitude":"peaceful","max_mp":60,"addition_damage":10,"max_hp":90,"heart_modify":0,"race":"titan","startroom":"/open/world1/tmr/area/hotel","guild_gifts":({5,5,5,5,}),"talk_point":7,"mp":60,"max_ap":70,"heart_beat_rate":6,"ap":70,"board_last_read":(["tmr_hotel_b":1177785113,]),"addition_shield":10,"mud_age":682,"newbie":1,"wound":(["head":0,"right_arm":0,"left_leg":0,"right_leg":0,"body":0,"left_arm":0,]),"default_actions":,"exp":777,"dex":2,"last_location":"/open/world1/tmr/area/round4","cure_count":5,"int":2,"id":"lily","hp":90,"age":14,"con":2,"volume":7,"str":2,"Merits":(["bio":0,"tec":0,"sou":0,"wit":0,"bar":0,]),"unit":"¦ì","level":1,"DS_DATA_VERSION":19991107,"actions":,"supply_point":60,"addition_armor":10,])
+items ({})
+alias (["rn":"read next",])
+autoload ({})
+toDoList ([])
+solved ({})

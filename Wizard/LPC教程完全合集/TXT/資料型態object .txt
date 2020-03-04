@@ -1,0 +1,145 @@
+                第六章  數據類型：object 
+ 
+                    第一節  序言 
+  這是 Lpc 入門的最後一節，到現在，如果前面幾章都讀過了，你應該 
+能寫出一些簡單的 object，比如 room 。而且能給 room 寫一些簡單的 
+特寫，通過添加一些函數。 
+ 
+                    第二節 作為數據類型的 object 
+2.1 數據類型 object 
+  在這一章中，你將了解更複雜一些的數據類型：object。一個 object 
+類型的變量是指向一個裝入內存的真正存在的 object 。像別的數據類 
+型一樣，你用 object 後面跟一個變量名來聲明： 
+ 
+    object oTest; 
+ 
+  它有些特殊，它幾乎沒有什麼操作符可以作用 object 這種數據類型。 
+其實，也是的，讓一個 room / npc 那是什麼東西？而且一般的 efun， 
+比如 write(), say() 也是不能操作 object 的，但是你會了解到，對於 
+object 這中數據類型，有一些很重要的 efun。 
+ 
+2.2 efun: this_object() 
+  這個 efun 返回一個 object，當前被執行的函數所在的那個 object。 
+也就是說，在一個文件中，this_object() 提交的 object 是這樣的： 
+如果這個文件寫的 object 如果自己被復制裝入內存單獨存在，那麼就 
+是這個 object，如果這個文件被繼承了，那麼就是繼承的文件進行上一 
+個過程，看它是不是單獨存在，也就是沒有再繼承的文件了。可能有些 
+難也理解，讓我們看這個例子，比如你寫了一個 object 叫 name.c，它 
+被 player.c 繼承了，那麼 this_object() 實際返回的是 player.c 那個 
+object，而不是 name.c 。我們再來看一個使用 this_object() 的實例： 
+ 
+  你想讓一個 npc 走到一朵花旁邊聞一下，但是條件是那個 npc 能自 
+由運動，比如：沒有暈倒，沒有在戰鬥。 
+  你可以這麼做： 
+ 
+void eventSmellFlower() 
+{ 
+    if( this_object()->can_act() ) 
+    { 
+        write( this_object()->query( "name" ) + "走到花的邊上聞了聞。\n" ); 
+        this_object()->add( "kee", 5 ); 
+    } 
+} 
+ 
+  can_act() 在 npc.c 裡面是沒有定義的，而且可能它繼承的任何 object 
+中也沒有定義。那麼，如果寫成這樣： if ( can_act() )，driver 沒有 
+在當前文件和繼承的所有文件裡面找到 can_act()，那就會有個編譯錯 
+誤的，但是 this_object()->can_act() 就不會出現這樣的錯誤，就算是 
+can_act() 根本不存在，那麼結果是返回 0 ，就是 if 測試的表達式的 
+結果是假的。這樣有人會問：那這個 efun 有必要存在嗎？driver 在 
+編譯是會自動搜索它繼承的所有 object，不是自然有 this_object 了 
+嗎？ 確實，但是有時，這個 object (暫時叫做 A )會被別的 object (B) 
+繼承的，別的 object (B)可能會有這個函數，而且有時候 B 可能會重載 
+A 和 A 繼承的函數，而你不想讓那些重載的函數失去作用，那麼就採用 
+ this_object()-> 的形式。 
+ 
+2.3 調用別的 Object 裡面的函數 
+  這就是我們引入 object 這種數據類型的最大好處了。它能讓我們調 
+用別的 Object 裡面的函數。在上面的例子中，我們可以知道當前的 
+Object 能不動。下面的例子，你可以增加一個 player 身上的錢。 
+調用別的 object 裡面的函數，可以用下面兩種方法： 
+ 
+object->function(parameters) 
+call_other(object, "function", parameters); 
+ 
+example: 
+this_player()->add_money( "silver", 5 ); 
+call_other( this_player(), "add_money", "silver", 5 ); 
+ 
+  在某些時候( 很不精確的說法 )，mud 是一個由玩家命令觸發的函數 
+調用的鏈式反應。當一個 player 觸發了一個函數調用鏈，那麼這個 player 
+就是 eufn this_player() 返回的那個 object。就是說，因為 this_player() 
+依賴那個觸發事件序列那個 player，那麼你應該小心的使用 this_player() 
+這個 efun，如果你把 this_player() 放在一些函數，這些函數別調用通 
+常可能是 driver 來調用的，或者不一定是 player 來觸發的，那麼使用 
+this_player() 最好不要出現在那些函數里面。比如 create(), setup()。 
+ 
+2.4 lfun: init() 
+  在任何時候，一個“活的”的 object，接近一個 object (進入一個新 
+房間，或者另一個 object 進入同一個 room )，init() 將自動被調用。 
+利用這個，你可以寫一些自動觸發的效果，比如，你進入一家客棧，小 
+二和你打招呼，看看這樣一個例子： 
+ 
+void init() { 
+    ::init(); 
+    if ( this_object()->can_act() ) 
+    { 
+        this_object()->eventGreet( this_player() ); 
+    } 
+} 
+ 
+eventGreet() 可以是下面那樣： 
+ 
+void eventGreet( object ob ) 
+{ 
+    if ( !ob || environment( ob ) != environment( this_object() ) ) 
+    { 
+        return ; 
+    } 
+    else 
+    { 
+        write( "小二說道：這位客官，您想要點什麼？\n" ); 
+    } 
+} 
+ 
+efun environment() 返回一個 object 所在的環境，比如一個 player 所 
+在的 room，一把劍所在的 player 等等。 
+ 
+2.5 在你的 room 裡面放入一個 object 
+  看下面的一個例子，你可以在一個 player 所在的房間放入一條蛇： 
+ 
+void test() 
+{ 
+    object env, snake; 
+ 
+    env = environment( this_player() ); 
+    if ( objectp( env ) ) 
+    { 
+        snake = clone_object( "/clone/monster/snake" ); 
+        if ( objectp( snake ) ) 
+        { 
+            snake->move( env ); 
+        } 
+    } 
+} 
+ 
+例子中用到了一個 efun objectp ，這個 efun 判斷傳入的參數是不是一 
+個真實的 object，如果是就返回真，否則就是假。efun clone_object() 
+則試著把一個文件調入內存，變成一個 object。最後一個函數 move， 
+這個顯然不是一個 efun，但是總的來說，一般會調用 efun move_object 
+把一個 object 放到另一個 object 的內部。 
+ 
+小結 ( 也是 lpc 入門的小結 ) 
+  在本章，我們了解作為數據類型的 object。同時也了解一些 efun： 
+this_object(), this_player() environment() clone_object() objectp() 
+的使用。還有 init() 這個特別的函數的使用。 
+  到了現在，你應該有足夠的知識編寫一些漂亮的東西了。當然，我強 
+調過一點，你必須了解你為之開發的 mud，了解它的 mudlib，它的風格， 
+多多閱讀 mud 帶的文檔和說明。當然只是了解 lpc 入門 介紹的東西， 
+對 lpc 的了解是很基礎的，如果你想更進一步，最好的方法是，多讀 
+程序，多寫程序，積累經驗。Lpc 只是 C 的很小的一個子集，有一點點 
+的特殊的東西，是很容易掌握的。 
+ 
+maht( trill ) 
+11/12/97 3:53PM 
+trill@XO (tm)

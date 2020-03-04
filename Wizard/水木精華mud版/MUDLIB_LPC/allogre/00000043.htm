@@ -1,0 +1,80 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清華站︰精華區</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+<A Name="top"></a>
+發信人:&nbsp;sorceress&nbsp;(李大善人~~~以德服人),&nbsp;信區:&nbsp;Mud_Builder&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+標&nbsp;&nbsp;題:&nbsp;Allegro&nbsp;中譯文檔(音頻流例程)&nbsp;(轉載)&nbsp;<BR>
+發信站:&nbsp;BBS&nbsp;水木清華站&nbsp;(Mon&nbsp;Jun&nbsp;12&nbsp;20:59:17&nbsp;2000)&nbsp;<BR>
+&nbsp;<BR>
+【&nbsp;以下文字轉載自&nbsp;GAME_Designer&nbsp;討論區&nbsp;】&nbsp;<BR>
+【&nbsp;原文由&nbsp;cloudwu&nbsp;所發表&nbsp;】&nbsp;<BR>
+音頻流例程&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;play_audio_stream&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;stop_audio_stream&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;get_audio_stream_buffer&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;free_audio_stream_buffer&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+音頻流函數是用來用來播放大到不能放在常規&nbsp;SAMPLE&nbsp;結構裡的數字音樂用的,&nbsp;也因為這&nbsp;<BR>
+些&nbsp;<BR>
+文件太大而你想每次載入需要數據的一部分,&nbsp;或者是你想做些聰明的活,&nbsp;比如產生飛行的&nbsp;<BR>
+波&nbsp;<BR>
+形.&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+AUDIOSTREAM&nbsp;*play_audio_stream(int&nbsp;len,&nbsp;bits,&nbsp;stereo,&nbsp;freq,&nbsp;vol,&nbsp;pan);&nbsp;<BR>
+這個函數創建一個新的音頻流然後開始播放.&nbsp;長度是每個傳輸緩衝(採樣聲音的)&nbsp;的大小&nbsp;<BR>
+,&nbsp;<BR>
+它至少要有&nbsp;2K:&nbsp;大點的緩衝更經濟些,&nbsp;需要更少的更新,&nbsp;但是在你提供數據和它實際播&nbsp;<BR>
+放&nbsp;<BR>
+之間,有更多的等待.&nbsp;bits&nbsp;參數必須是&nbsp;8&nbsp;或&nbsp;16,&nbsp;freq&nbsp;是數據的採樣頻率,&nbsp;vol&nbsp;和&nbsp;pan&nbsp;&nbsp;<BR>
+值&nbsp;<BR>
+使用和常規採樣聲音播放例程相同的&nbsp;0-255&nbsp;範圍.&nbsp;如果一但開始播放了,你想調整音調,&nbsp;&nbsp;<BR>
+音&nbsp;<BR>
+量,&nbsp;或音頻流的&nbsp;pan&nbsp;值,&nbsp;你可以使用常規的&nbsp;voice_*()&nbsp;函數,&nbsp;以&nbsp;stream-&gt;voice&nbsp;作為&nbsp;<BR>
+參&nbsp;<BR>
+數.&nbsp;採樣聲音數據永遠是無符號格式,&nbsp;立體聲波形由交替左/右採樣組成.&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+void&nbsp;stop_audio_stream(AUDIOSTREAM&nbsp;*stream);&nbsp;<BR>
+當一個音頻流不再需要時撤銷它.&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+void&nbsp;*get_audio_stream_buffer(AUDIOSTREAM&nbsp;*stream);&nbsp;<BR>
+當音頻流正在播放時,&nbsp;你必須以有規律的間隙調用這個函數&nbsp;來提供採樣聲音數據的下一&nbsp;<BR>
+個&nbsp;<BR>
+緩衝&nbsp;(緩衝區越小,&nbsp;它就必須被更頻繁的調用).&nbsp;如果返回&nbsp;NULL,&nbsp;音頻流還有許多要播放&nbsp;<BR>
+,&nbsp;<BR>
+因此你不必去做什麼.&nbsp;如果返回了值,&nbsp;它就是下一個緩衝將被播放的位置,&nbsp;你應當將合適&nbsp;<BR>
+數&nbsp;<BR>
+量的採樣聲音&nbsp;(無論你在創建流時指定了多少)&nbsp;載入到&nbsp;那個地址,&nbsp;比如你使用&nbsp;fread()&nbsp;&nbsp;<BR>
+從&nbsp;<BR>
+磁盤文件裡載入.&nbsp;在用數據填充完緩衝區後,&nbsp;調用&nbsp;free_audio_stream_buffer()&nbsp;來只是&nbsp;<BR>
+新&nbsp;<BR>
+的數據已經有效了.&nbsp;注意這個函數不能在時鐘句柄裡調用...&nbsp;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+void&nbsp;free_audio_stream_buffer(AUDIOSTREAM&nbsp;*stream);&nbsp;<BR>
+在&nbsp;get_audio_stream_buffer()&nbsp;後調用這個函數,&nbsp;返回一個非&nbsp;NULL&nbsp;地址,&nbsp;來知識你已&nbsp;<BR>
+經&nbsp;<BR>
+載入一塊新的採樣聲音到那個地址,&nbsp;數據現在準備被播放了.&nbsp;&nbsp;<BR>
+--&nbsp;<BR>
+<A HREF="http://www.cfido.net/cloud">http://www.cfido.net/cloud</A>&nbsp;<BR>
+<A HREF="http://computer.igd.edu.cn/~cloud">http://computer.igd.edu.cn/~cloud</A>&nbsp;(無本地文件下栽)&nbsp;<BR>
+<A HREF="http://linux.cqi.com.cn/~cloud">http://linux.cqi.com.cn/~cloud</A>&nbsp;&nbsp;<BR>
+<A HREF="http://www.netease.comn/~cloudwu">http://www.netease.comn/~cloudwu</A>&nbsp;<BR>
+E-mail:&nbsp;<A HREF="mailto:cloudwu@263.net">cloudwu@263.net</A>&nbsp;<BR>
+&nbsp;<BR>
+※&nbsp;來源:‧BBS&nbsp;水木清華站&nbsp;bbs.net.tsinghua.edu.cn‧[FROM:&nbsp;202.197.71.16]&nbsp;&nbsp;<BR>
+<A HREF="00000042.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一頁</A>
+<A HREF="index.htm">回到目錄</A>
+<A HREF="#top">回到頁首</A>
+<A HREF="00000044.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+</BODY></HTML>

@@ -1,0 +1,3 @@
+¥Ø¿ý¡R/open/world1/tmr/game/
+byron_doll.c        ¤«ªÅ«½«½            sword_doll.c        ÃÃ±ø§D«½«½        
+watermoon_doll.c    ¤ô¶³ÂN«½«½          

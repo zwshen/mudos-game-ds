@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["int":2,"DS_DATA_VERSION":19991107,"actions":,"con":2,"str":2,"cure_count":3,"gender":"¤k©Ê","max_mp":60,"ap":60,"name":"·Å´P","attitude":"peaceful","default_actions":,"evil":-1,"addition_shield":10,"race":"human","channels":({"chat","rumor","tchat","god",}),"heart_beat_rate":6,"id":"landy","level":1,"last_location":"/open/world1/tmr/area/square","addition_damage":10,"addition_armor":10,"max_ap":60,"volume":7,"birthday":1145897896,"mp":60,"supply_point":6,"unit":"¦ì","Merits":(["sou":0,"tec":0,"wit":0,"bio":0,"bar":0,]),"startroom":"/open/world1/tmr/area/hotel","hp":80,"guild_gifts":({5,5,5,5,}),"age":14,"mud_age":44,"newbie":1,"talk_point":3,"exp":777,"max_hp":80,"dex":2,])
+autoload ({"/open/always/god_mark",})

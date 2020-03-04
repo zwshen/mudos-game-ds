@@ -1,0 +1,37 @@
+[0;1;37m¡[1mi[1m¥[1mx[1mÆ[1mW[1m¡[1mj[1m»[1mæ[1m°[1m®[1m([1mC[1mo[1mo[1mk[1my[1ms[1m@[1mR[1mW[1m)[1m»[1m¡[1m¡[1mG[1m§[1mÚ[1m­[1mÓ[1m¤[1mH[1m»[1m{[1m¬[1m°[1m¡[1mG[1m.[1m.[1m.[1m [1mª[1m±[1m¨[1mÇ[1m¤[1mp[1mª[1má[1m¼[1mË[1m¬[1m~[1m¦[1mº[1m¥[1m¦[1m [1m.[1m.[1m.[1m¡[1mC[0m
+[0;1;37m¡[1mi[1m¥[1mx[1mÆ[1mW[1m¡[1mj[1m»[1mæ[1m°[1m®[1m([1mC[1mo[1mo[1mk[1my[1ms[1m@[1mR[1mW[1m)[1m¬[1mð[1mµ[1mM[1m©[1mñ[1mÁ[1mn[1m¤[1mj[1m¯[1mº[1m¡[1mA[1m¡[1mu[1m«[1m¢[1m«[1m¢[1m«[1m¢[1m«[1m¢[1m«[1m¢[1m«[1m¢[1m¡[1mã[1m¡[1mã[1m¡[1mã[1m¡[1mv[1m¡[1mA[1m¸[1mò[1m¥[1mÕ[1m·[1mö[1m¤[1m@[1m¼[1mË[1m¡[1mI[1m¡[1mI[0m
+[0;1;37m¡[1mi[1m¥[1mx[1mÆ[1mW[1m¡[1mj[0m¸ô¤HµL²á¦a¥Î¸}¦y¦b¦a¤WµeF_MESSAGE ªº receive_snoop ¥i¤£¬O¼g°²ªº¡C
+[0;1;37m¡[1mi[1m¥[1mx[1mÆ[1mW[1m¡[1mj[0m¸ô¤HµL²á¦a¥Î¸}¦y¦b¦a¤Wµe#define RECEIVE_SNOOP ¤]­n define ±o¦³»ù­È¡C
+[0;1;37m¡[1mi[1m¥[1mx[1mÆ[1mW[1m¡[1mj[0m¸ô¤H(Passerby@Illusory of time)¡R§A´Nºâ #undef
+[0;1;37m¡[1mi[1m¥[1mx[1mÆ[1mW[1m¡[1mj[0m¸ô¤H(Passerby@Illusory of time)¡R¤]¬O·|¦¬¨ì
+[0;1;37m¡[1mi[1m¥[1mx[1mÆ[1mW[1m¡[1mj[0m¸ô¤H(Passerby@Illusory of time)¡R«e­±¤]¬O %
+[0;1;37m¡[1mi[1m¥[1mx[1mÆ[1mW[1m¡[1mj[0m¸ô¤H(Passerby@Illusory of time)¡Rreceive_snoop ¥i¥H°Ê¨Ç¤â¸}
+[0;1;37m¡[1mi[1m¥[1mx[1mÆ[1mW[1m¡[1mj[0m¸ô¤H(Passerby@Illusory of time)¡R¤ñ¸û¬½ªº mud
+[0;1;37m¡[1mi[1m¥[1mx[1mÆ[1mW[1m¡[1mj[0m¸ô¤H(Passerby@Illusory of time)¡R³s F_DBASE ³£·|ÀË¬d
+[0;1;37m¡[1mi[1m¥[1mx[1mÆ[1mW[1m¡[1mj[0m¸ô¤H(Passerby@Illusory of time)¡Rlog
+[0;1;37m¡[1mi[1m¥[1mx[1mÆ[1mW[1m¡[1mj[0m¸ô¤H(Passerby@Illusory of time)¡Rif(query_verb() != "call")
+[0;1;37m¡[1mi[1m¥[1mx[1mÆ[1mW[1m¡[1mj[0m¸ô¤H(Passerby@Illusory of time)¡RÁÙ¦³ previous_object
+[0;1;37m¡[1mi[1m¥[1mx[1mÆ[1mW[1m¡[1mj[0m¸ô¤H(Passerby@Illusory of time)¡R¸ò call_stack ªº¼h¦¸
+[0;1;37m¡[1mi[1m¥[1mx[1mÆ[1mW[1m¡[1mj[0m¸ô¤H(Passerby@Illusory of time)¡R¤£·|§Þ³N¤£¦n´N·| log ¨ì¤@°ï¦³ªº¨Sªº
+[0;1;37m¡[1mi[1m¥[1mx[1mÆ[1mW[1m¡[1mj[1m»[1mæ[1m°[1m®[1m([1mC[1mo[1mo[1mk[1my[1ms[1m@[1mR[1mW[1m)[1m¥[1mÎ[1mÃ[1mh[1mº[1mÃ[1mª[1mº[1m²[1m´[1m¥[1mú[1mª[1mF[1m¬[1mÝ[1m¦[1mè[1m¬[1mÝ[1m¡[1mC[0m
+[0;1;37m¡[1mi[1m¥[1mx[1mÆ[1mW[1m¡[1mj[1m»[1mæ[1m°[1m®[1m([1mC[1mo[1mo[1mk[1my[1ms[1m@[1mR[1me[1mp[1mu[1ml[1ms[1mi[1mo[1mn[1m [1mW[1mo[1mr[1ml[1md[1m [1mT[1me[1ms[1mt[1m)[1m¡[1mR[0m­þ¶¡¦³¨º¼Ë¼g ?
+[0;1;37m¡[1mi[1m¥[1mx[1mÆ[1mW[1m¡[1mj[1m»[1mæ[1m°[1m®[1m([1mC[1mo[1mo[1mk[1my[1ms[1m@[1mR[1mW[1m)[1mÁ[1my[1m¤[1mW[1mÅ[1mS[1m¥[1mX[1m¨[1m¸[1m´[1mc[1mª[1mº[1m¯[1mº[1m®[1me[1m¡[1mA[1m¤[1m£[1mª[1m¾[1m¹[1mD[1m­[1mþ[1m¸[1mÌ[1m·[1mQ[1m¬[1mn[1m¤[1mF[1m¡[1mC[0m
+[0;1;37m¡[1mi[1m¥[1mx[1mÆ[1mW[1m¡[1mj[0m¸ô¤H(Passerby@Illusory of time)¡R«Ü¦hªF¦è¬O ROOM or LOGIN_D
+[0;1;37m¡[1mi[1m¥[1mx[1mÆ[1mW[1m¡[1mj[0m¸ô¤H(Passerby@Illusory of time)¡R¦b set()
+[0;1;37m¡[1mi[1m¥[1mx[1mÆ[1mW[1m¡[1mj[0m¸ô¤H(Passerby@Illusory of time)¡R¦³°Ú
+[0;1;37m¡[1mi[1m¥[1mx[1mÆ[1mW[1m¡[1mj[0m¸ô¤H¬ðµM±NÀYÂà¤F¥b°éµM«á¨¸´cªº¤jÁn¯ºµÛ¡yMuhahahaha....¡z¡C
+[0;1;37m¡[1mi[1m¥[1mx[1mÆ[1mW[1m¡[1mj[1m¾[1må[1m·[1m¬[1m®[1m³[1m¥[1mX[1m¤[1m@[1mª[1mK[1mµ[1m§[1m¡[1mA[1m¦[1mb[0m¸ô¤HªºÁy¤WµeÀ°§ÚÂ½¡C
+[0;1;37m¡[1mi[1m¥[1mx[1mÆ[1mW[1m¡[1mj[1m»[1mæ[1m°[1m®[1m([1mC[1mo[1mo[1mk[1my[1ms[1m@[1mR[1me[1mp[1mu[1ml[1ms[1mi[1mo[1mn[1m [1mW[1mo[1mr[1ml[1md[1m [1mT[1me[1ms[1mt[1m)[1m¡[1mR[0m¨º¥u¦³§A£« -.-
+[0;1;37m¡[1mi[1m¥[1mx[1mÆ[1mW[1m¡[1mj[0m¸ô¤H·n·n¥LªºÀY¡C
+[0;1;37m¡[1mi[1m¥[1mx[1mÆ[1mW[1m¡[1mj[1m£[1m\[1m´[1mú[1m¸[1mÕ[1mª[1m©[1m([1mC[1mo[1mm[1mi[1mn[1mg[1mi[1mn[1mg[1m@[1mT[1mh[1me[1m [1mD[1mr[1me[1ma[1mm[1m [1mO[1mf[1m [0m[0;1;37mS[1me[1mv[1me[1mn[1m)[1mÁ[1my[1m¤[1mW[1mÅ[1mS[1m¥[1mX[1m¨[1m¸[1m´[1mc[1mª[1mº[1m¯[1mº[1m®[1me[1m¡[1mM[1m¤[1m£[1mª[1m¾[1m¹[1mD[1m­[1mþ[1m¸[1mÌ[1m·[1mQ[1m¬[1mn[1m¤[1mF[1m¡[1mC[0m
+[0;1;37m¡[1mi[1m¥[1mx[1mÆ[1mW[1m¡[1mj[1m»[1mæ[1m°[1m®[1m([1mC[1mo[1mo[1mk[1my[1ms[1m@[1mR[1me[1mp[1mu[1ml[1ms[1mi[1mo[1mn[1m [1mW[1mo[1mr[1ml[1md[1m [1mT[1me[1ms[1mt[1m)[1m¡[1mR[0m¦¬ªº¤£¤Ó¦n -.-
+[0;1;37m¡[1mi[1m¥[1mx[1mÆ[1mW[1m¡[1mj[0m¸ô¤H(Passerby@Illusory of time)¡R¤£¹L¨º¤]¨S¤°»ò¤F¤£°_°Õ
+[0;1;37m¡[1mi[1m¥[1mx[1mÆ[1mW[1m¡[1mj[1m»[1mæ[1m°[1m®[1m([1mC[1mo[1mo[1mk[1my[1ms[1m@[1mR[1mW[1m)[1m«[1mD[1m±[1m`[1m¥[1mÍ[1m®[1mð[1m¡[1mA[1m©[1mó[1m¬[1mO[1m¤[1mj[1m½[1m|[1m¤[1mT[1m¦[1mr[1m¸[1mg[1m¡[1mG[1m [1m#[1m%[1m^[1m&[1m#[1m$[1m^[1m&[1m*[1m@[1m#[1m%[1m&[1m#[1m^[1m@[1m [1m.[1m.[1m.[0m
+[0;1;37m¡[1mi[1m¥[1mx[1mÆ[1mW[1m¡[1mj[0m¸ô¤H(Passerby@Illusory of time)¡R¥h hack F_DBASE ´N¦n¤F -.-
+[0;1;37m¡[1mi[1m¥[1mx[1mÆ[1mW[1m¡[1mj[1m»[1mæ[1m°[1m®[1m([1mC[1mo[1mo[1mk[1my[1ms[1m@[1mR[1me[1mp[1mu[1ml[1ms[1mi[1mo[1mn[1m [1mW[1mo[1mr[1ml[1md[1m [1mT[1me[1ms[1mt[1m)[1m¡[1mR[0m·| lose msg -.-
+[0;1;37m¡[1mi[1m¥[1mx[1mÆ[1mW[1m¡[1mj[0m¸ô¤H(Passerby@Illusory of time)¡R­n¤£ÁÙ¦³«Ü¦h§ó¬½ªº
+[0;1;37m¡[1mi[1m¥[1mx[1mÆ[1mW[1m¡[1mj[0m¸ô¤H(Passerby@Illusory of time)¡R§â dbase ¾ã­ÓÅÜ¼Æ¼u¥X¨Ó§ï
+[0;1;37m¡[1mi[1m¥[1mx[1mÆ[1mW[1m¡[1mj[0m¸ô¤H(Passerby@Illusory of time)¡R§ï§¹¾ã­Ó¶ë¦^¥h
+[0;1;37m¡[1mi[1m¥[1mx[1mÆ[1mW[1m¡[1mj[1m£[1m\[1m´[1mú[1m¸[1mÕ[1mª[1m©[1m([1mC[1mo[1mm[1mi[1mn[1mg[1mi[1mn[1mg[1m)[1m¡[1mR[0m¼u¥X¨Ó§ï ?
+[0;1;37m¡[1mi[1m¥[1mx[1mÆ[1mW[1m¡[1mj[1m»[1mæ[1m°[1m®[1m([1mC[1mo[1mo[1mk[1my[1ms[1m@[1mR[1me[1mp[1mu[1ml[1ms[1mi[1mo[1mn[1m [1mW[1mo[1mr[1ml[1md[1m [1mT[1me[1ms[1mt[1m)[1m¡[1mR[0mshadow + bind ±¼¤£¬O§ó§Ö :P
+

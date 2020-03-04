@@ -1,0 +1,9 @@
+#/obj/user.c
+dbase (["addition_damage":10,"talk_point":8,"hp":80,"volume":7,"cure_count":11,"supply_point":60,"newbie":1,"exp":13486,"dex":2,"heart_beat_rate":6,"int":2,"con":2,"attitude":"peaceful","str":2,"heart_modify":0,"level":1,"id":"chowchow","DS_DATA_VERSION":19991107,"evil":-1,"channels":({"chat","rumor","tchat",}),"popularity":1,"birthday":1192288692,"gender":"女性","mud_age":18504,"name":"長工","wound":(["body":0,"right_leg":0,"left_arm":0,"right_arm":0,"left_leg":0,"head":0,]),"age":14,"guild_gifts":({5,5,5,5,}),"race":"celestial","startroom":"/open/world1/tmr/area/hotel","actions":,"default_actions":,"Merits":(["sou":0,"wit":0,"bar":0,"bio":0,"tec":0,]),"war_art":1,"last_location":"/open/world1/tmr/gumu/xuanya","env":([]),"max_mp":110,"max_hp":80,"addition_shield":10,"addition_armor":10,"mp":110,"max_ap":60,"unit":"位","ap":60,])
+skills (["strong-body":7,])
+learned (["strong-body":50,])
+items ({})
+alias (["p":"hp",])
+autoload ({})
+toDoList ([])
+solved ({})

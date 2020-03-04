@@ -1,0 +1,87 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=bg2312">
+   <META NAME="Author" CONTENT="Spock">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.01 [en] (Win95; I) [Netscape]">
+   <TITLE>MudOS v21c2 参考资料 - concepts - lpc</TITLE>
+</HEAD>
+<BODY TEXT="#CCFFFF" BGCOLOR="#000000" LINK="#33FF33" VLINK="#FF0000" ALINK="#33CCFF"
+BACKGROUND="../../image/ff/fftitleback.jpg" NOSAVE>
+
+<CENTER>
+<H1>
+<FONT COLOR="#FF99FF">LPC 语言 (lpc)</FONT></H1></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+<CENTER><FONT COLOR="#FFFFCC">* LPC 是什么 ?</FONT></CENTER>
+
+<HR WIDTH="100%">
+
+<P>LPC 是撰写 MudOS (及 LPmud) 物件所使用的语言. LPC 是「Lars Pensj| C」的缩写.
+看到此名字, 您也许会猜到 LPC 是以 C 的语法 (syntax) 为基础的. LPC 提供了
+C 语言的 while 循环 (loop)、 for 循环、 if 语句 (statement)、switch 语句、改写过的
+sscanf 、整数 (integer) 数据类型 (LPC 也提供了其他 C 语言所无的数据类型,
+像是物件 (object) 和映射 (mapping) ) . LPC 使用 C 的语法定义函数与调用函数、声明变量.
+请注意, LPC 的字符串数据类型与 C 语言所提供的字符串, 有着极大的差异. 详细的资料请参考
+LPC 的语法和语言结构的教学文件.
+
+<P>以下是 LPC 与 C 之间的一些相异之处:
+
+<P>LPC 物件中, 不需要名为 main 的函数 (虽然有一个叫做 create 的函数).
+
+<P>游戏驱动程序 (gamedriver) 提供的外部函数 (efun)　 (或称为系统调用 (system
+calls) ), 与 C 函数库 (library) (即 libc.a) 中所提供的完全不同.
+
+<P>LPC 里没有 malloc(). 倒是有一个 allocate( 整数 value ) 外部函数可以为数组
+(arrays) 配置内存. 请注意, allocate 参数 (argument) 的单位不是字节
+(bytes), 而是元素 (element) 的数目.
+
+<P>内存不会明确地释放掉 (never explicitly deallocated). 游戏驱动程序会追踪一份数据被参考
+(reference) 多少次. 当参考数 (reference count) 降为零 (没有任何物件有此变量的拷贝)
+, 就会重新声明此变量使用的内存空间 (垃圾回收).
+
+<P>LPC 中的字符串数据类型比较接近 BASIC. 字符串不像 C 语言声明成字符数组 (arrays
+of character), 而如同一个基本的内部类型 (basic intrinsic type). 多个字符串可以用
++ 运算符 (operator) 连结成一个.
+
+<P>举例来说, 以下的 LPC 语句:
+<UL><FONT COLOR="#99FF99">string ack;</FONT>
+
+<P><FONT COLOR="#99FF99">ack = foo + bar;</FONT></UL>
+与下面的 C 语句相同:
+<UL><FONT COLOR="#99FF99">char *ack;</FONT>
+
+<P><FONT COLOR="#99FF99">ack = (char *)malloc(strlen(foo) + 1);</FONT>
+<BR><FONT COLOR="#99FF99">strcpy(ack,foo);</FONT>
+<BR><FONT COLOR="#99FF99">ack = (char *)realloc(strlen(ack) + strlen(bar)
++ 1);</FONT>
+<BR><FONT COLOR="#99FF99">strcat(ack,bar);</FONT></UL>
+LPC 是一个需要解释的语言 (interpreted language)［虽然 LPC 在解释之前, 会编译
+(compile) 为一个内部的简洁代用型式［internal compact tokenized form) ］.
+
+<P>LPC 没有结构数据类型 (structure) 或联合数据类型 (union). 实际上, 「<FONT COLOR="#FFCC99">-></FONT>」运算符用于指示其他物件的函数调用.
+而某些情形下, 映射 (mapping) 数据类型可以当作结构数据类型的代用品.
+
+<P>sscanf 的用法与 C 的不同. sscanf 的参数不是指针 (pointer) (因为 LPC
+没有明确的指针数据类型) . 而且, sscanf( arg, "%s %s ", str1, str2 ) 运作的结果也与
+C 的程序设计师所预期的不同. 在 C 里, 参数的第一个字 (译按: 此处的「字」,
+指的是英文的单字, 每个字之间以空白字符 (space) 隔开. ) 会复制到 str1 ,
+而参数的第二个字复制为 str2. 但是在 LPC, 第一个字同样是复制到 str1,　 不同之处是字符串剩下的内容却全部复制到
+str2.
+
+<P>
+<HR WIDTH="100%">
+<CENTER><FONT COLOR="#FFFFCC">翻译: Spock @ FF 97.Aug.8.</FONT></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+<CENTER><A HREF="../concepts_index.html">回到上一页</A></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+</BODY>
+</HTML>

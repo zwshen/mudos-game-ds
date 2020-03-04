@@ -1,0 +1,5 @@
+#/obj/user.c
+dbase (["hp":80,"volume":7,"unit":"¦ì","Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"talk_point":8,"age":14,"last_location":"/open/world1/tmr/area/inn_2f","newbie":1,"wound":(["left_leg":0,"right_arm":0,"head":0,"left_arm":0,"body":0,"right_leg":0,]),"cure_count":3,"id":"consi","exp":777,"dex":2,"int":2,"con":2,"mud_age":2161,"guild_gifts":({5,5,5,5,}),"attitude":"peaceful","str":2,"level":1,"supply_point":60,"actions":,"DS_DATA_VERSION":19991107,"gender":"¨k©Ê","evil":-1,"name":"±dº³","addition_shield":10,"max_mp":60,"channels":({"chat","rumor","tchat",}),"heart_beat_rate":6,"birthday":1166793214,"heart_modify":0,"max_hp":80,"race":"human","addition_armor":10,"startroom":"/open/world1/tmr/area/hotel","mp":60,"default_actions":,"addition_damage":10,"max_ap":60,"ap":60,])
+skills (["strong-body":4,])
+learned (["strong-body":1,])
+autoload ({})

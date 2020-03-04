@@ -1,0 +1,40 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=bg2312">
+   <META NAME="Author" CONTENT="Spock">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.01 [en] (Win95; I) [Netscape]">
+   <TITLE>MudOS v21c2 参考文件 - applies - interactive - catch_tell</TITLE>
+</HEAD>
+<BODY TEXT="#CCFFFF" BGCOLOR="#000000" LINK="#33FF33" VLINK="#FF0000" ALINK="#33CCFF" BACKGROUND="../../../image/ff/fftitleback.jpg" NOSAVE>
+
+<CENTER><FONT COLOR="#FF99FF"><FONT SIZE=+3>catch_tell(4)　 MudOS v21c2　
+(5 Sep 1994)</FONT></FONT></CENTER>
+
+<HR WIDTH="100%">
+<BR><FONT COLOR="#FFFFCC">　名称:</FONT>
+<UL>　 catch_tell - 提供一个与使用者互动的介面 (interface).</UL>
+<FONT COLOR="#FFFFCC">　语法:</FONT>
+<UL>　 void catch_tell( string message );
+
+<P>　 无返回值 catch_tell( 字符串 message );</UL>
+<FONT COLOR="#FFFFCC">　用法:</FONT>
+<UL>　 如果编译驱动程序时, 于 options.h　 中定义了 INTERACTIVE_CATCH_TELL,
+无论驱动程序对一个物件送出任何消息 ( say(), shout(), tell_object()　 等等函数)
+, 都会调用 catch_tell() 处理这些消息. 消息可以依照需要经由 catch_tell()
+显示、丢弃、修改. catch_tell() 可以当作耳罩挡住某些消息, 也可以用于消息处理程序.</UL>
+<FONT COLOR="#FFFFCC">　参考:</FONT>
+<UL>　 <A HREF="../../efuns/interactive/message.html">message(3)</A>, <A HREF="../../efuns/interactive/receive.html">receive(3)</A>,
+<A HREF="receive_message.html">receive_message(4)</A></UL>
+<FONT COLOR="#FFFFCC">　翻译:</FONT>
+<UL>　 Spock @ FF 97.Aug.5.　 (printed 3/16/95)</UL>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+<CENTER><A HREF="../interactive.html">回到上一页</A></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+</BODY>
+</HTML>

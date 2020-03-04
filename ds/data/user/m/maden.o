@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["talk_point":8,"addition_armor":10,"Merits":(["tec":0,"sou":0,"bar":0,"bio":0,"wit":0,]),"heart_beat_rate":6,"exp":777,"dex":2,"int":2,"con":2,"cure_count":9,"evil":-1,"str":2,"race":"human","channels":({"chat","rumor","tchat",}),"max_hp":80,"level":1,"age":14,"birthday":1123554009,"addition_damage":10,"gender":"¤k©Ê","max_ap":60,"guild_gifts":({5,5,5,5,}),"name":"±öµn","startroom":"/open/world1/tmr/area/school/school1","id":"maden","supply_point":58,"actions":,"volume":7,"attitude":"peaceful","newbie":1,"unit":"¦ì","mp":60,"heart_modify":0,"DS_DATA_VERSION":19991107,"max_mp":60,"mud_age":441,"wound":(["left_leg":0,"right_leg":0,"body":0,"head":0,"left_arm":0,"right_arm":0,]),"ap":60,"default_actions":,"hp":80,"addition_shield":10,])
+autoload ({})

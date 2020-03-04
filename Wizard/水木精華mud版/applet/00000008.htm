@@ -1,0 +1,44 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清华站∶精华区</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+<A Name="top"></a>
+发信人:&nbsp;wolffe&nbsp;(追风),&nbsp;信区:&nbsp;Mud_Builder&nbsp;<BR>
+标&nbsp;&nbsp;题:&nbsp;Re:&nbsp;你们有对付ctrl-M的好办法吗?&nbsp;<BR>
+发信站:&nbsp;BBS&nbsp;水木清华站&nbsp;(Fri&nbsp;Dec&nbsp;19&nbsp;12:27:13&nbsp;1997)&nbsp;<BR>
+&nbsp;<BR>
+【&nbsp;在&nbsp;sbaa&nbsp;(老猫)&nbsp;的大作中提到:&nbsp;】&nbsp;<BR>
+∶<I>&nbsp;难道非要我自己编程?&nbsp;</I><BR>
+∶<I>&nbsp;还要是一下子去掉成批的文件!&nbsp;</I><BR>
+我的理解是将以\r\n结尾的文本转换为\n结尾的文本。下面的shell程序可能对你有帮助：&nbsp;<BR>
+conv.sh:&nbsp;<BR>
+#!/bin/sh&nbsp;<BR>
+for&nbsp;file&nbsp;in&nbsp;`find&nbsp;.&nbsp;-print`&nbsp;<BR>
+do&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;test&nbsp;-d&nbsp;$file&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then&nbsp;continue&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fi&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;awk&nbsp;-f&nbsp;~/con.awk&nbsp;$file&nbsp;&gt;/tmp/con.tmp&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rm&nbsp;$file&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mv&nbsp;/tmp/con.tmp&nbsp;$file&nbsp;<BR>
+done&nbsp;<BR>
+&nbsp;<BR>
+con.awk:&nbsp;<BR>
+{gsub(/\r/,&quot;&quot;);print&nbsp;$0}&nbsp;<BR>
+&nbsp;<BR>
+将conv.sh和con.awk放在~目录下，在想转换的目录下执行~/conv.sh即可。&nbsp;<BR>
+good&nbsp;luck&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+※&nbsp;修改:·wolffe&nbsp;於&nbsp;Dec&nbsp;19&nbsp;19:01:03&nbsp;修改本文·[FROM:&nbsp;&nbsp;202.113.16.161]&nbsp;<BR>
+※&nbsp;来源:·BBS&nbsp;水木清华站&nbsp;bbs.net.tsinghua.edu.cn·[FROM:&nbsp;202.113.16.161]&nbsp;<BR>
+<A HREF="00000007.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一页</A>
+<A HREF="index.htm">回到目录</A>
+<A HREF="#top">回到页首</A>
+<A HREF="00000009.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+</BODY></HTML>

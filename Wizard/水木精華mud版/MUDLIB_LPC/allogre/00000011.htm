@@ -1,0 +1,117 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清華站︰精華區</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+<A Name="top"></a>
+發信人:&nbsp;sorceress&nbsp;(李大善人~~~以德服人),&nbsp;信區:&nbsp;Mud_Builder&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+標&nbsp;&nbsp;題:&nbsp;Allegro&nbsp;遊戲程序庫&nbsp;(真彩點格式)&nbsp;(轉載)&nbsp;<BR>
+發信站:&nbsp;BBS&nbsp;水木清華站&nbsp;(Mon&nbsp;Jun&nbsp;12&nbsp;20:43:52&nbsp;2000)&nbsp;<BR>
+&nbsp;<BR>
+【&nbsp;以下文字轉載自&nbsp;GAME_Designer&nbsp;討論區&nbsp;】&nbsp;<BR>
+【&nbsp;原文由&nbsp;cloudwu&nbsp;所發表&nbsp;】&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;______&nbsp;&nbsp;&nbsp;___&nbsp;&nbsp;&nbsp;&nbsp;___&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;/\&nbsp;&nbsp;_&nbsp;&nbsp;\&nbsp;/\_&nbsp;\&nbsp;&nbsp;/\_&nbsp;\&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;\&nbsp;\&nbsp;\L\&nbsp;\\//\&nbsp;\&nbsp;\//\&nbsp;\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__&nbsp;&nbsp;&nbsp;_&nbsp;__&nbsp;&nbsp;&nbsp;___&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\&nbsp;\&nbsp;&nbsp;__&nbsp;\&nbsp;\&nbsp;\&nbsp;\&nbsp;&nbsp;\&nbsp;\&nbsp;\&nbsp;&nbsp;&nbsp;/'__`\&nbsp;/'_&nbsp;`\/\`'__\/&nbsp;__`\&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\&nbsp;\&nbsp;\/\&nbsp;\&nbsp;\_\&nbsp;\_&nbsp;\_\&nbsp;\_/\&nbsp;&nbsp;__//\&nbsp;\L\&nbsp;\&nbsp;\&nbsp;\//\&nbsp;\L\&nbsp;\&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\&nbsp;\_\&nbsp;\_\/\____\/\____\&nbsp;\____\&nbsp;\____&nbsp;\&nbsp;\_\\&nbsp;\____/&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\/_/\/_/\/____/\/____/\/____/\/___L\&nbsp;\/_/&nbsp;\/___/&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/\____/&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\_/__/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.0&nbsp;版&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一個遊戲程序庫&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;By&nbsp;Shawn&nbsp;Hargreaves,&nbsp;1994/97&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;雲風&nbsp;譯&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A HREF="http://www.nease.net/~cloudwu">http://www.nease.net/~cloudwu</A>&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E-mail:<A HREF="mailto:cloudwu@nease.net">cloudwu@nease.net</A>&nbsp;<BR>
+=================================================&nbsp;<BR>
+================&nbsp;&nbsp;&nbsp;真彩點格式&nbsp;&nbsp;&nbsp;=================&nbsp;<BR>
+=================================================&nbsp;<BR>
+在真彩顯示模式下,紅綠藍組成了每個點並且直接連在一起成為色彩值,&nbsp;&nbsp;<BR>
+而不是使用一個調色板查找表.在&nbsp;15&nbsp;位模式每種顏色佔&nbsp;5&nbsp;位,&nbsp;在&nbsp;16&nbsp;&nbsp;<BR>
+位模式每個點紅色和藍色佔&nbsp;5&nbsp;位綠色佔&nbsp;6&nbsp;位,&nbsp;24&nbsp;和&nbsp;32&nbsp;位模式每種&nbsp;<BR>
+顏色佔&nbsp;8&nbsp;位&nbsp;(&nbsp;32&nbsp;位點簡單的增加一個額外的填充字節來調整數據).&nbsp;<BR>
+&nbsp;這些成分的佈局會因你的硬件而改變,&nbsp;但是通常是&nbsp;RGB&nbsp;或&nbsp;BGR&nbsp;之一.&nbsp;<BR>
+因為一個顯示模式在使用之前並不知道佈局,你必須在使用下面的例程&nbsp;<BR>
+之前調用&nbsp;set_gfx_mode()!&nbsp;<BR>
+&nbsp;<BR>
+int&nbsp;makecol8(int&nbsp;r,&nbsp;int&nbsp;g,&nbsp;int&nbsp;b);&nbsp;<BR>
+int&nbsp;makecol15(int&nbsp;r,&nbsp;int&nbsp;g,&nbsp;int&nbsp;b);&nbsp;<BR>
+int&nbsp;makecol16(int&nbsp;r,&nbsp;int&nbsp;g,&nbsp;int&nbsp;b);&nbsp;<BR>
+int&nbsp;makecol24(int&nbsp;r,&nbsp;int&nbsp;g,&nbsp;int&nbsp;b);&nbsp;<BR>
+int&nbsp;makecol32(int&nbsp;r,&nbsp;int&nbsp;g,&nbsp;int&nbsp;b);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;這些函數將顏色從獨立於硬件的形式&nbsp;(紅綠藍,範圍&nbsp;0-255)&nbsp;轉換到&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;依賴於點格式顯示值.轉換到&nbsp;15,&nbsp;16,&nbsp;24&nbsp;或&nbsp;32&nbsp;位格式只需要做幾&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;個移位,&nbsp;因此相當的有效.&nbsp;轉換到&nbsp;8&nbsp;位顏色則需要搜索調色板以尋&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;找最佳匹配,&nbsp;如果你不設置一個&nbsp;RGB&nbsp;映射表(見後)&nbsp;這相當的慢.&nbsp;<BR>
+&nbsp;<BR>
+int&nbsp;makecol(int&nbsp;r,&nbsp;int&nbsp;g,&nbsp;int&nbsp;b);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;將顏色從獨立於硬件的格式&nbsp;(紅綠藍,範圍&nbsp;0-255)&nbsp;轉換到當前顯示&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;模式決定的點格式,它調用前面&nbsp;8,&nbsp;15,&nbsp;16,&nbsp;24,&nbsp;或&nbsp;32&nbsp;位&nbsp;makecol&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;函數中合適的一個.&nbsp;<BR>
+&nbsp;<BR>
+int&nbsp;makecol_depth(int&nbsp;color_depth,&nbsp;int&nbsp;r,&nbsp;int&nbsp;g,&nbsp;int&nbsp;b);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;將顏色從於硬件獨立的格式&nbsp;(紅綠藍,&nbsp;範圍&nbsp;0-255)轉換到指定顏色&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;深度的點格式.&nbsp;<BR>
+&nbsp;<BR>
+int&nbsp;getr8(int&nbsp;c);&nbsp;<BR>
+int&nbsp;getg8(int&nbsp;c);&nbsp;<BR>
+int&nbsp;getb8(int&nbsp;c);&nbsp;<BR>
+int&nbsp;getr15(int&nbsp;c);&nbsp;<BR>
+int&nbsp;getg15(int&nbsp;c);&nbsp;<BR>
+int&nbsp;getb15(int&nbsp;c);&nbsp;<BR>
+int&nbsp;getr16(int&nbsp;c);&nbsp;<BR>
+int&nbsp;getg16(int&nbsp;c);&nbsp;<BR>
+int&nbsp;getb16(int&nbsp;c);&nbsp;<BR>
+int&nbsp;getr24(int&nbsp;c);&nbsp;<BR>
+int&nbsp;getg24(int&nbsp;c);&nbsp;<BR>
+int&nbsp;getb24(int&nbsp;c);&nbsp;<BR>
+int&nbsp;getr32(int&nbsp;c);&nbsp;<BR>
+int&nbsp;getg32(int&nbsp;c);&nbsp;<BR>
+int&nbsp;getb32(int&nbsp;c);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;給出在顯示模式的點格式下的一個顏色,&nbsp;這些函數將截取紅綠藍組&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;合中的一個&nbsp;(範圍&nbsp;0-255).&nbsp;<BR>
+&nbsp;<BR>
+int&nbsp;getr(int&nbsp;c);&nbsp;<BR>
+int&nbsp;getg(int&nbsp;c);&nbsp;<BR>
+int&nbsp;getb(int&nbsp;c);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;給出現在正在使用的顯示模式下使用的點格式的一個顏色,&nbsp;這些函數&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;將截取紅綠藍組合中的一個(範圍0-255),&nbsp;它調用前面的&nbsp;8,&nbsp;15,&nbsp;16,&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;24&nbsp;或&nbsp;32&nbsp;位&nbsp;get&nbsp;函數中合適的一個.&nbsp;<BR>
+&nbsp;<BR>
+int&nbsp;getr_depth(int&nbsp;color_depth,&nbsp;int&nbsp;c);&nbsp;<BR>
+int&nbsp;getg_depth(int&nbsp;color_depth,&nbsp;int&nbsp;c);&nbsp;<BR>
+int&nbsp;getb_depth(int&nbsp;color_depth,&nbsp;int&nbsp;c);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;給出指定顏色深度的點格式中的一個顏色,&nbsp;這些函數將截取紅綠藍組&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;合中的一個&nbsp;(範圍&nbsp;0-255).&nbsp;<BR>
+&nbsp;<BR>
+extern&nbsp;int&nbsp;palette_color[256];&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;由當前的顯示模式使用的映射調色板序列&nbsp;(0-255)&nbsp;到其它任何點格&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;式的一張表.在&nbsp;256&nbsp;色模式下,它恰好映射序列數組.&nbsp;在真彩模式下,&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;它在當前的調色板裡查找指定的顏色號,&nbsp;然後將&nbsp;RGB&nbsp;值轉換到合適&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;的點格式.&nbsp;<BR>
+&nbsp;<BR>
+#define&nbsp;MASK_COLOR_8&nbsp;0&nbsp;<BR>
+#define&nbsp;MASK_COLOR_15&nbsp;(5.5.5&nbsp;點)&nbsp;<BR>
+#define&nbsp;MASK_COLOR_16&nbsp;(5.6.5&nbsp;點)&nbsp;<BR>
+#define&nbsp;MASK_COLOR_24&nbsp;(8.8.8&nbsp;點)&nbsp;<BR>
+#define&nbsp;MASK_COLOR_32&nbsp;(8.8.8&nbsp;點)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;定義每個顏色深度下的透明精靈的掩點.&nbsp;在&nbsp;256&nbsp;色的分辨率下為&nbsp;0,&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;在真彩模式下是亮點&nbsp;(bright&nbsp;pink).&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+<A HREF="http://www.nease.net/~cloudwu">http://www.nease.net/~cloudwu</A>&nbsp;<BR>
+<A HREF="http://computer.igd.edu.cn/~cloud">http://computer.igd.edu.cn/~cloud</A>&nbsp;<BR>
+E-mail:&nbsp;<A HREF="mailto:cloudwu@163.net">cloudwu@163.net</A>&nbsp;<BR>
+&nbsp;<BR>
+※&nbsp;來源:‧BBS&nbsp;水木清華站&nbsp;bbs.net.tsinghua.edu.cn‧[FROM:&nbsp;202.197.71.13]&nbsp;<BR>
+<A HREF="00000010.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一頁</A>
+<A HREF="index.htm">回到目錄</A>
+<A HREF="#top">回到頁首</A>
+<A HREF="00000012.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+</BODY></HTML>

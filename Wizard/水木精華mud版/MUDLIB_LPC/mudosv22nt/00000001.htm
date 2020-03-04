@@ -1,0 +1,49 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清華站︰精華區</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+<A Name="top"></a>
+發信人:&nbsp;wwj&nbsp;(星~~畢設中),&nbsp;信區:&nbsp;Mud_Builder&nbsp;<BR>
+標&nbsp;&nbsp;題:&nbsp;第一節&nbsp;&nbsp;&nbsp;&nbsp;系統簡介及部分改正的錯誤&nbsp;<BR>
+發信站:&nbsp;BBS&nbsp;水木清華站&nbsp;(Sat&nbsp;May&nbsp;16&nbsp;19:05:51&nbsp;1998)&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mudos&nbsp;V22pre11&nbsp;for&nbsp;WIN95/NT&nbsp;with&nbsp;COM&nbsp;extension&nbsp;(&nbsp;以下簡&nbsp;<BR>
+稱pre11&nbsp;with&nbsp;Com)由清華大學&nbsp;wwj&nbsp;KCN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在Mudos&nbsp;V22pre11&nbsp;<BR>
+的基礎上開發而成。比較原版本的Mudos&nbsp;V22pre11來說，這個版本的Mudos&nbsp;<BR>
+改正了一些錯誤，增加了對COM對像的支持。&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;COM(&nbsp;Component&nbsp;Object&nbsp;Model&nbsp;)是Microsoft公司提出的一個開放&nbsp;<BR>
+的面向對像技術。在Mudos中加入COM的支持，主要是為了能運用一些已有的&nbsp;<BR>
+成熟技術和資源，彌補Mudos本身的功能不足。關於COM的具體說明請參看OLE&nbsp;<BR>
+編程的資料。&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mudos&nbsp;V22pre11已經改正了V11版的不少錯誤，如get_host_by_addr的&nbsp;<BR>
+返回值，對select函數的調用參數等等。但是作者將pre11移植到WIN32平台&nbsp;<BR>
+後，在實際運行中發現還是有不少問題的。&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;一個比較明顯的問題是random函數的問題，WIN32平台的random本身是16&nbsp;<BR>
+位的，運用到這個系統上時就會有範圍不夠的情況。在pre11&nbsp;with&nbsp;com中已對&nbsp;<BR>
+這個函數有改進，使得在LPC中的random是32位的。&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;另一個是explode_string函數的bug,它在某些情況下會出現輸出的array_t&nbsp;<BR>
+部分元素沒有符值的情況，在UNIX系統下也許不會有什麼問題，但WIN32環境下&nbsp;<BR>
+會導致Mudos當掉。作者對這個問題進行了圓滿解決。&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;另外有一些在中文處理，filesize中明顯的bug等問題上都做了修改。&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;當你在運行這個版本的mudos發現有什麼問題時，請與下面的地址聯繫，我們&nbsp;<BR>
+會盡力給你解答的。&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;酒井BBS:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;wwj&nbsp;&nbsp;quake&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;SMTH&nbsp;BBS:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;wwj&nbsp;&nbsp;KCN&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;Internet&nbsp;EMAIL:&nbsp;&nbsp;&nbsp;<A HREF="mailto:wwj@telekbird.com.cn">wwj@telekbird.com.cn</A>&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+※&nbsp;修改:‧wwj&nbsp;於&nbsp;May&nbsp;16&nbsp;19:52:51&nbsp;修改本文‧[FROM:&nbsp;&nbsp;166.111.10.143]&nbsp;<BR>
+※&nbsp;來源:‧BBS&nbsp;水木清華站&nbsp;bbs.net.tsinghua.edu.cn‧[FROM:&nbsp;166.111.10.143]&nbsp;<BR>
+<A HREF="00000000.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一頁</A>
+<A HREF="index.htm">回到目錄</A>
+<A HREF="#top">回到頁首</A>
+<A HREF="00000002.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清華站︰精華區</H1></CENTER>
+</BODY></HTML>

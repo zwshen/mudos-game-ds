@@ -1,0 +1,2 @@
+#/obj/login.c
+dbase (["id":"kenshin","name":"劍心","email":"","last_on":1054525087,"password":"cEpSTbsKoxCvc","last_from":"203.160.240.251","race":"human","level":25,"error_login":({"於[Wed Apr 16 04:07:08 2003]嘗試由[203.69.143.20]連線進入失敗。","於[Fri Apr 25 13:25:44 2003]嘗試由[61-228-100-35.HINET-IP.hinet.net]連線進入失敗。","於[Fri Apr 25 14:49:53 2003]嘗試由[61-228-100-35.HINET-IP.hinet.net]連線進入失敗。","於[Wed May 21 17:50:26 2003]嘗試由[NK210-200-182-6.fx.apol.com.tw]連線進入失敗。","於[Thu May 29 09:28:59 2003]嘗試由[203.71.64.243]連線進入失敗。",}),"body":"/obj/user",])

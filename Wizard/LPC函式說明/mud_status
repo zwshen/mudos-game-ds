@@ -1,0 +1,19 @@
+
+	mud_status(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	ㄧ计嘿:
+		mud_status() -  厨ㄇ臱笆祘Α (driver) の mud ㄧΑ畐
+				(mudlib)  参璸计.
+	ㄧ计粂猭:
+		void mud_status( int extra );
+
+		礚肚 mud_status( 俱计 extra );
+	ㄧ计ノ猭:
+		硂ㄧΑрㄇ臱笆祘Αの mud  ㄧΑ畐参璸计陪ボ
+		㊣硂ㄧΑ棵辊. 狦把计 extra  獶箂, 
+		玥穦陪ボ戈. 硂ㄧΑ vanilla 3.1.2
+		セい status の status tables .
+	把σㄧ计:
+		debug_info(3), dumpallobj(3), memory_info(3), uptime(3)
+	も陆亩:
+		Phoebus@ZH	97.Apr.15.		(Writen 5/23/97)

@@ -1,0 +1,569 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清华站∶精华区</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+<A Name="top"></a>
+发信人:&nbsp;nightwatch&nbsp;(夜游神),&nbsp;信区:&nbsp;Mud_Builder&nbsp;<BR>
+标&nbsp;&nbsp;题:&nbsp;在MUD中增加HTTP和FTP服务(3)&nbsp;<BR>
+发信站:&nbsp;BBS&nbsp;水木清华站&nbsp;(Tue&nbsp;Jan&nbsp;26&nbsp;18:27:00&nbsp;1999)&nbsp;WWW-POST&nbsp;<BR>
+&nbsp;<BR>
+以下是我在MUD中编写的一些在MUDLIB中实现&nbsp;<BR>
+HTTP服务和FTP服务的程序&nbsp;<BR>
+&nbsp;<BR>
+以下部分在校园网已经测试通过。有兴趣的话请帮&nbsp;<BR>
+我查查BUG.&nbsp;<BR>
+&nbsp;<BR>
+如果你想在你的MUD中用这些程序的话，把你的&nbsp;<BR>
+Email和MUD服务器地址端口告诉我吧。&nbsp;<BR>
+&nbsp;<BR>
+<A HREF="MailTo:"></A>&nbsp;hhx_<A HREF="mailto:imu@263.net">imu@263.net</A>&nbsp;<BR>
+&nbsp;<BR>
+----------------------------------------------------------------&nbsp;<BR>
+好了，现在看看HTTP服务是怎么实现的。&nbsp;<BR>
+这个程序也源于LIMA,功能有很大增强，&nbsp;<BR>
+象一个真正的HTTP服务器了。&nbsp;<BR>
+&nbsp;<BR>
+请看第一部分：&nbsp;<BR>
+//&nbsp;Daemon:&nbsp;/adm/daemons/http_d.c&nbsp;<BR>
+//&nbsp;modified&nbsp;by&nbsp;wind&nbsp;98/12/16&nbsp;<BR>
+&nbsp;<BR>
+//&nbsp;support:&nbsp;<BR>
+//&nbsp;&nbsp;&nbsp;post&nbsp;method&nbsp;<BR>
+//&nbsp;&nbsp;&nbsp;connection:&nbsp;keepalive&nbsp;<BR>
+//&nbsp;&nbsp;&nbsp;if&nbsp;modified&nbsp;since&nbsp;<BR>
+//&nbsp;&nbsp;&nbsp;range&nbsp;<BR>
+&nbsp;<BR>
+#pragma&nbsp;save_binary&nbsp;<BR>
+&nbsp;<BR>
+/*&nbsp;Do&nbsp;not&nbsp;remove&nbsp;the&nbsp;headers&nbsp;from&nbsp;this&nbsp;file!&nbsp;see&nbsp;/USAGE&nbsp;for&nbsp;more&nbsp;info.&nbsp;*/&nbsp;<BR>
+&nbsp;<BR>
+/*&nbsp;<BR>
+&nbsp;*&nbsp;Originally&nbsp;the&nbsp;utility&nbsp;port&nbsp;handler&nbsp;for&nbsp;the&nbsp;i3&nbsp;router&nbsp;&nbsp;<BR>
+&nbsp;*&nbsp;Cowl@Orion&nbsp;<BR>
+&nbsp;*&nbsp;<BR>
+&nbsp;*&nbsp;11-19-95&nbsp;Cowl:&nbsp;Added&nbsp;args&nbsp;for&nbsp;gateways&nbsp;<BR>
+&nbsp;*&nbsp;12-27-95&nbsp;Cowl:&nbsp;added&nbsp;home&nbsp;dirs&nbsp;for&nbsp;wizards&nbsp;and&nbsp;converted&nbsp;<BR>
+&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;to&nbsp;a&nbsp;web&nbsp;server&nbsp;(&nbsp;almost&nbsp;)&nbsp;<BR>
+&nbsp;*&nbsp;01-05-96&nbsp;Cowl:&nbsp;Converted&nbsp;socket&nbsp;to&nbsp;a&nbsp;binary,&nbsp;for&nbsp;graphics&nbsp;<BR>
+&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;save&nbsp;for&nbsp;a&nbsp;minor&nbsp;bug,&nbsp;convert_to_actual_path()&nbsp;works.&nbsp;<BR>
+&nbsp;*&nbsp;01-07-96&nbsp;Cowl:&nbsp;fixed&nbsp;convert_to_actual_path()&nbsp;<BR>
+&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;added&nbsp;gateway&nbsp;security&nbsp;&nbsp;<BR>
+&nbsp;*&nbsp;<BR>
+&nbsp;*&nbsp;Jan&nbsp;20,&nbsp;1997&nbsp;Myth@Icon&nbsp;of&nbsp;Sin&nbsp;<BR>
+&nbsp;*&nbsp;&nbsp;o&nbsp;Added&nbsp;a&nbsp;write&nbsp;callback&nbsp;function&nbsp;for&nbsp;large&nbsp;files.&nbsp;<BR>
+&nbsp;*&nbsp;<BR>
+&nbsp;*&nbsp;Jan&nbsp;26,&nbsp;1997&nbsp;Rust&nbsp;<BR>
+&nbsp;*&nbsp;&nbsp;o&nbsp;removed&nbsp;CGI&nbsp;security&nbsp;for&nbsp;a&nbsp;bit.&nbsp;Fixed&nbsp;up&nbsp;a&nbsp;bunch&nbsp;of&nbsp;stuff,&nbsp;<BR>
+&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;and&nbsp;added&nbsp;POST&nbsp;support.&nbsp;<BR>
+&nbsp;*&nbsp;<BR>
+&nbsp;*&nbsp;Jan&nbsp;18,&nbsp;1988&nbsp;Tigran&nbsp;<BR>
+&nbsp;*&nbsp;&nbsp;o&nbsp;Fixed&nbsp;CGI&nbsp;stuff&nbsp;so&nbsp;that&nbsp;Content-type:&nbsp;is&nbsp;sent&nbsp;<BR>
+&nbsp;*&nbsp;&nbsp;o&nbsp;Made&nbsp;more&nbsp;errors&nbsp;pass&nbsp;properly&nbsp;<BR>
+&nbsp;*&nbsp;&nbsp;o&nbsp;\n&nbsp;is&nbsp;translated&nbsp;to&nbsp;\r\n&nbsp;<BR>
+&nbsp;*&nbsp;&nbsp;o&nbsp;other&nbsp;miscellaneous&nbsp;changes.&nbsp;<BR>
+&nbsp;*&nbsp;&nbsp;<BR>
+&nbsp;*&nbsp;TODO:&nbsp;&nbsp;<BR>
+&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;Hit&nbsp;logging&nbsp;and&nbsp;related&nbsp;stats&nbsp;<BR>
+&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;Support&nbsp;for&nbsp;multiple&nbsp;arguments&nbsp;to&nbsp;cgis&nbsp;<BR>
+&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;Better&nbsp;Error&nbsp;handling&nbsp;(only&nbsp;404&nbsp;so&nbsp;far&nbsp;;)&nbsp;)&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;*&nbsp;<BR>
+&nbsp;*/&nbsp;<BR>
+&nbsp;<BR>
+#include&nbsp;&lt;net/socket.h&gt;&nbsp;<BR>
+#include&nbsp;&lt;net/http_d.h&gt;&nbsp;<BR>
+#include&nbsp;&lt;mudlib.h&gt;&nbsp;<BR>
+#include&nbsp;&lt;ansi.h&gt;&nbsp;<BR>
+&nbsp;<BR>
+#undef&nbsp;DEBUG&nbsp;<BR>
+&nbsp;<BR>
+#ifdef&nbsp;DEBUG&nbsp;<BR>
+#define&nbsp;tell_wind(x)&nbsp;tell_object(find_player(&quot;wind&quot;),x+&quot;\n&quot;)&nbsp;<BR>
+#define&nbsp;LOG_RECEIVE&nbsp;<BR>
+#define&nbsp;LOG_RESPOND&nbsp;<BR>
+#else&nbsp;<BR>
+#define&nbsp;tell_wind(x)&nbsp;<BR>
+#undef&nbsp;LOG_RECEIVE&nbsp;<BR>
+#undef&nbsp;LOG_RESPOND&nbsp;<BR>
+#endif&nbsp;<BR>
+&nbsp;<BR>
+#define&nbsp;KEEPALIVE&nbsp;30&nbsp;<BR>
+#define&nbsp;KICKOUT&nbsp;120&nbsp;<BR>
+&nbsp;<BR>
+class&nbsp;client_request&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;any_input_yet_p;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;end_of_input;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;keepalive;&nbsp;&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;remaining_content_length;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reached_end_of_headers;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;mapping&nbsp;headers;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;string&nbsp;&nbsp;content;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;string&nbsp;&nbsp;http_version;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;string&nbsp;&nbsp;method;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;string&nbsp;&nbsp;request;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;&nbsp;modified_since;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;rangefrom;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;rangeto;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;mapping&nbsp;ext_types=([&nbsp;<BR>
+	&quot;html&quot;:	&quot;text/html&quot;,&nbsp;<BR>
+	&quot;htm&quot;:	&quot;text/html&quot;,&nbsp;<BR>
+	&quot;txt&quot;:	&quot;text/plain&quot;,&nbsp;<BR>
+	&quot;text&quot;:	&quot;text/plain&quot;,&nbsp;<BR>
+	&quot;gif&quot;:	&quot;image/gif&quot;,&nbsp;<BR>
+	&quot;jpe&quot;:	&quot;image/jpeg&quot;,&nbsp;<BR>
+	&quot;jpeg&quot;:	&quot;image/jpeg&quot;,&nbsp;<BR>
+	&quot;jpg&quot;:	&quot;image/jpeg&quot;,&nbsp;<BR>
+	&quot;bmp&quot;:	&quot;image/bmp&quot;,&nbsp;<BR>
+	&quot;tiff&quot;:	&quot;image/tiff&quot;,&nbsp;<BR>
+	&quot;tif&quot;:	&quot;image/tiff&quot;,&nbsp;<BR>
+	&quot;mid&quot;:	&quot;audio/mid&quot;,&nbsp;<BR>
+	&quot;rmi&quot;:	&quot;audio/mid&quot;,&nbsp;<BR>
+	&quot;au&quot;:	&quot;audio/basic&quot;,&nbsp;<BR>
+	&quot;snd&quot;:	&quot;audio/basic&quot;,&nbsp;<BR>
+	&quot;wav&quot;:	&quot;audio/wav&quot;,&nbsp;<BR>
+	&quot;ra&quot;:&nbsp;&nbsp;&nbsp;&quot;audio/x-pn-realaudio&quot;,&nbsp;<BR>
+	&quot;ram&quot;:&nbsp;&nbsp;&quot;audio/x-pn-realaudio&quot;,&nbsp;<BR>
+	&quot;mpe&quot;:	&quot;video/mpeg&quot;,&nbsp;<BR>
+	&quot;mpeg&quot;:	&quot;video/mpeg&quot;,&nbsp;<BR>
+	&quot;mpg&quot;:	&quot;video/mpeg&quot;,&nbsp;<BR>
+	&quot;mpv&quot;:	&quot;video/mpeg&quot;,&nbsp;<BR>
+	&quot;vdo&quot;:&nbsp;&nbsp;&quot;video/vdo&quot;,&nbsp;<BR>
+	&quot;avi&quot;:&nbsp;&nbsp;&quot;video/x-msvideo&quot;,&nbsp;<BR>
+	&quot;qt&quot;:&nbsp;&nbsp;&nbsp;&quot;video/quicktime&quot;,&nbsp;<BR>
+	&quot;mov&quot;:&nbsp;&nbsp;&quot;video/quicktime&quot;,&nbsp;<BR>
+	&quot;ps&quot;:&nbsp;&nbsp;&nbsp;&quot;application/postscript&quot;,&nbsp;<BR>
+	&quot;eps&quot;:&nbsp;&nbsp;&quot;application/postscript&quot;,&nbsp;<BR>
+	&quot;tar&quot;:&nbsp;&nbsp;&quot;application/x-tar&quot;,&nbsp;<BR>
+	&quot;gz&quot;:&nbsp;&nbsp;&nbsp;&quot;application/x-gzip&quot;,&nbsp;<BR>
+	&quot;z&quot;:&nbsp;&nbsp;&nbsp;&nbsp;&quot;application/x-compress&quot;,&nbsp;<BR>
+	&quot;tz&quot;:&nbsp;&nbsp;&nbsp;&quot;application/x-gzip&quot;,&nbsp;<BR>
+	&quot;tgz&quot;:	&quot;application/x-compressed&quot;,&nbsp;<BR>
+	&quot;zip&quot;:&nbsp;&nbsp;&quot;application/x-zip-compressed&quot;,&nbsp;<BR>
+	&quot;dot&quot;:&nbsp;&nbsp;&quot;application/msword&quot;,&nbsp;<BR>
+	&quot;doc&quot;:&nbsp;&nbsp;&quot;application/msword&quot;,&nbsp;<BR>
+	&quot;rtf&quot;:&nbsp;&nbsp;&quot;application/rtf&quot;,&nbsp;<BR>
+	&quot;exe&quot;:&nbsp;&nbsp;&quot;application/x-msdownload&quot;,&nbsp;<BR>
+	&quot;dat&quot;:&nbsp;&nbsp;&quot;application/octet-stream&quot;,&nbsp;<BR>
+]);&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;mapping&nbsp;alive_socket=([&nbsp;]);&nbsp;<BR>
+private&nbsp;mapping&nbsp;active_socket=([&nbsp;]);&nbsp;<BR>
+private&nbsp;mapping&nbsp;sending=([]);&nbsp;<BR>
+private&nbsp;object&nbsp;http_sock;&nbsp;<BR>
+private&nbsp;mapping&nbsp;requests&nbsp;=&nbsp;([]);&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;string&nbsp;whitespace&nbsp;=&nbsp;&quot;&nbsp;\t\n\r&quot;;&nbsp;<BR>
+&nbsp;<BR>
+string&nbsp;mud_name()&nbsp;<BR>
+{&nbsp;<BR>
+	return&nbsp;INTERMUD_NAME;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+string&nbsp;std_head(string&nbsp;title)&nbsp;<BR>
+{&nbsp;<BR>
+	return&nbsp;sprintf(&quot;&lt;html&gt;&lt;head&gt;&lt;title&gt;%s-%s&lt;/title&gt;&lt;/head&gt;&lt;body&nbsp;background=\&quot;/im&nbsp;<BR>
+age/background.gif\&quot;&gt;\n&quot;,mud_name(),title);&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+string&nbsp;std_refresh_head(string&nbsp;title,int&nbsp;i,string&nbsp;file)&nbsp;<BR>
+{&nbsp;<BR>
+	return&nbsp;sprintf(&quot;&lt;html&gt;&lt;head&gt;&lt;title&gt;%s-%s&lt;/title&gt;&nbsp;<BR>
+&lt;meta&nbsp;http-equiv=Refresh&nbsp;content=\&quot;&quot;+i+&quot;;&nbsp;url=&quot;+file+&quot;\&quot;&gt;&nbsp;<BR>
+&lt;/head&gt;&lt;body&nbsp;background=\&quot;/image/background.gif\&quot;&gt;\n&quot;,mud_name(),title,i,file)&nbsp;<BR>
+;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+string&nbsp;std_end()&nbsp;<BR>
+{&nbsp;<BR>
+	return&nbsp;&quot;&lt;/body&gt;&lt;/html&gt;\n&quot;;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+string&nbsp;ext_type(string&nbsp;x)&nbsp;<BR>
+{&nbsp;<BR>
+	string&nbsp;p;&nbsp;<BR>
+	if&nbsp;(x&amp;&amp;!undefinedp(ext_types[x]))&nbsp;<BR>
+	&nbsp;&nbsp;p=ext_types[x];&nbsp;<BR>
+	else&nbsp;<BR>
+	&nbsp;&nbsp;p=ext_types[&quot;dat&quot;];&nbsp;<BR>
+	return&nbsp;&quot;Content-Type:&nbsp;&quot;+p+&quot;\r\n\r\n&quot;;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+string&nbsp;trim_spaces(&nbsp;string&nbsp;s&nbsp;){&nbsp;<BR>
+&nbsp;&nbsp;int&nbsp;i,&nbsp;j;&nbsp;<BR>
+&nbsp;&nbsp;if&nbsp;(!stringp(s))&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;&quot;&quot;;&nbsp;<BR>
+&nbsp;&nbsp;j&nbsp;=&nbsp;strlen(s)&nbsp;-&nbsp;1;&nbsp;<BR>
+&nbsp;&nbsp;if&nbsp;(&nbsp;j&nbsp;&lt;&nbsp;0&nbsp;)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;&quot;&quot;;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;while(&nbsp;i&nbsp;&lt;=&nbsp;j&nbsp;&amp;&amp;&nbsp;member_array(s[i],&nbsp;whitespace)&nbsp;!=&nbsp;-1&nbsp;)&nbsp;i++;&nbsp;<BR>
+&nbsp;&nbsp;while(&nbsp;i&nbsp;&lt;=&nbsp;j&nbsp;&amp;&amp;&nbsp;member_array(s[j],&nbsp;whitespace)&nbsp;!=&nbsp;-1&nbsp;)&nbsp;j--;&nbsp;<BR>
+&nbsp;&nbsp;return&nbsp;s[i..j];&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+string&nbsp;join_path(&nbsp;string&nbsp;dir,&nbsp;string&nbsp;file&nbsp;){&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if(dir[&lt;1]&nbsp;!=&nbsp;'/')&nbsp;return&nbsp;dir+&quot;/&quot;+file;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;dir+file;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+//&nbsp;This&nbsp;only&nbsp;operates&nbsp;on&nbsp;the&nbsp;first&nbsp;2&nbsp;chars.&nbsp;<BR>
+int&nbsp;hex_str_to_int(string&nbsp;str)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;result;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;switch(str[0])&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;case&nbsp;'a':&nbsp;case&nbsp;'b':&nbsp;case&nbsp;'c':&nbsp;case&nbsp;'d':&nbsp;case&nbsp;'e':&nbsp;case&nbsp;'f':&nbsp;<BR>
+	result&nbsp;=&nbsp;(str[0]&nbsp;-&nbsp;'a'&nbsp;+&nbsp;10)&nbsp;*&nbsp;16;&nbsp;<BR>
+	break;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;case&nbsp;'A':&nbsp;case&nbsp;'B':&nbsp;case&nbsp;'C':&nbsp;case&nbsp;'D':&nbsp;case&nbsp;'E':&nbsp;case&nbsp;'F':&nbsp;<BR>
+	result&nbsp;=&nbsp;(str[0]&nbsp;-&nbsp;'A'&nbsp;+&nbsp;10)&nbsp;*&nbsp;16;&nbsp;<BR>
+	break;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;default:&nbsp;<BR>
+	result&nbsp;=&nbsp;(str[0]&nbsp;-&nbsp;'0')&nbsp;*&nbsp;16;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;switch(str[1])&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;case&nbsp;'a':&nbsp;case&nbsp;'b':&nbsp;case&nbsp;'c':&nbsp;case&nbsp;'d':&nbsp;case&nbsp;'e':&nbsp;case&nbsp;'f':&nbsp;<BR>
+	return&nbsp;result&nbsp;+&nbsp;(str[1]&nbsp;-&nbsp;'a'&nbsp;+&nbsp;10);&nbsp;<BR>
+	break;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;case&nbsp;'A':&nbsp;case&nbsp;'B':&nbsp;case&nbsp;'C':&nbsp;case&nbsp;'D':&nbsp;case&nbsp;'E':&nbsp;case&nbsp;'F':&nbsp;<BR>
+	return&nbsp;result&nbsp;+&nbsp;(str[1]&nbsp;-&nbsp;'A'&nbsp;+&nbsp;10);&nbsp;<BR>
+	break;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;default:&nbsp;<BR>
+	return&nbsp;result&nbsp;+&nbsp;(str[1]&nbsp;-&nbsp;'0');&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+string&nbsp;html_decode(string&nbsp;str)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;string&nbsp;outstr&nbsp;=&nbsp;&quot;&quot;;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;i&nbsp;=&nbsp;0;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;for(i=0;i&lt;strlen(str);i++)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	switch(str[i])&nbsp;<BR>
+	{&nbsp;<BR>
+	case&nbsp;'+':&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;outstr&nbsp;=&nbsp;outstr&nbsp;+&nbsp;&quot;&nbsp;&quot;;&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;break;&nbsp;<BR>
+	case&nbsp;'%':&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;outstr&nbsp;=&nbsp;sprintf(&quot;%s%c&quot;,&nbsp;outstr,&nbsp;hex_str_to_int(str[i+1..]));&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;i+=2;&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;break;&nbsp;<BR>
+	default:&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;outstr&nbsp;=&nbsp;sprintf(&quot;%s%c&quot;,&nbsp;outstr,&nbsp;str[i]);&nbsp;<BR>
+	}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;outstr;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+mapping&nbsp;form_parse(string&nbsp;s)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;mapping&nbsp;result&nbsp;=&nbsp;([]);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;string&nbsp;*&nbsp;entries;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;string&nbsp;*&nbsp;halves;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!s)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;result;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;entries=explode(s,&nbsp;&quot;&amp;&quot;);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;foreach(string&nbsp;entry&nbsp;in&nbsp;entries)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;	if&nbsp;(entry&amp;&amp;entry!=&quot;&quot;)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;	{&nbsp;<BR>
+	halves&nbsp;=&nbsp;explode(entry,&nbsp;&quot;=&quot;);&nbsp;<BR>
+	if(sizeof(halves)&nbsp;==&nbsp;1)&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;Tmp&nbsp;hack,&nbsp;because&nbsp;explode()&nbsp;is&nbsp;currently&nbsp;not&nbsp;sane.&nbsp;&quot;foo=&quot;&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;is&nbsp;only&nbsp;returning&nbsp;({&quot;foo&quot;})&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;if(entry[&lt;1]&nbsp;==&nbsp;'=')&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+		result[html_decode(halves[0])]&nbsp;=&nbsp;0;&nbsp;<BR>
+		continue;&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;result[html_decode(entry)]&nbsp;=&nbsp;0;&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;continue;&nbsp;<BR>
+	}&nbsp;<BR>
+	result[html_decode(halves[0])]&nbsp;=&nbsp;html_decode(halves[1]);&nbsp;<BR>
+	}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;result;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+string&nbsp;parse_color(string&nbsp;msg)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;msg&nbsp;=&nbsp;replace_string(msg,&nbsp;BLK,&quot;&lt;font&nbsp;color=\&quot;#000000\&quot;&gt;&quot;);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;msg&nbsp;=&nbsp;replace_string(msg,&nbsp;RED,&quot;&lt;font&nbsp;color=\&quot;#7f0000\&quot;&gt;&quot;);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;msg&nbsp;=&nbsp;replace_string(msg,&nbsp;GRN,&quot;&lt;font&nbsp;color=\&quot;#007f00\&quot;&gt;&quot;);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;msg&nbsp;=&nbsp;replace_string(msg,&nbsp;YEL,&quot;&lt;font&nbsp;color=\&quot;#7f7f00\&quot;&gt;&quot;);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;msg&nbsp;=&nbsp;replace_string(msg,&nbsp;BLU,&quot;&lt;font&nbsp;color=\&quot;#00007f\&quot;&gt;&quot;);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;msg&nbsp;=&nbsp;replace_string(msg,&nbsp;MAG,&quot;&lt;font&nbsp;color=\&quot;#7f007f\&quot;&gt;&quot;);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;msg&nbsp;=&nbsp;replace_string(msg,&nbsp;CYN,&quot;&lt;font&nbsp;color=\&quot;#007f7f\&quot;&gt;&quot;);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;msg&nbsp;=&nbsp;replace_string(msg,&nbsp;WHT,&quot;&lt;font&nbsp;color=\&quot;#7f7f7f\&quot;&gt;&quot;);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;msg&nbsp;=&nbsp;replace_string(msg,&nbsp;HIR,&quot;&lt;font&nbsp;color=\&quot;#ff0000\&quot;&gt;&quot;);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;msg&nbsp;=&nbsp;replace_string(msg,&nbsp;HIG,&quot;&lt;font&nbsp;color=\&quot;#00ff00\&quot;&gt;&quot;);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;msg&nbsp;=&nbsp;replace_string(msg,&nbsp;HIY,&quot;&lt;font&nbsp;color=\&quot;#ffff00\&quot;&gt;&quot;);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;msg&nbsp;=&nbsp;replace_string(msg,&nbsp;HIB,&quot;&lt;font&nbsp;color=\&quot;#0000ff\&quot;&gt;&quot;);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;msg&nbsp;=&nbsp;replace_string(msg,&nbsp;HIM,&quot;&lt;font&nbsp;color=\&quot;#ff00ff\&quot;&gt;&quot;);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;msg&nbsp;=&nbsp;replace_string(msg,&nbsp;HIC,&quot;&lt;font&nbsp;color=\&quot;#00ffff\&quot;&gt;&quot;);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;msg&nbsp;=&nbsp;replace_string(msg,&nbsp;HIW,&quot;&lt;font&nbsp;color=\&quot;#ffffff\&quot;&gt;&quot;);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;msg&nbsp;=&nbsp;replace_string(msg,&nbsp;NOR,&quot;&lt;font&nbsp;color=\&quot;#000000\&quot;&gt;&quot;);&nbsp;<BR>
+	return&nbsp;msg;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;void&nbsp;log_http(string&nbsp;x,object&nbsp;s)&nbsp;<BR>
+{&nbsp;<BR>
+	int&nbsp;no;&nbsp;<BR>
+	if&nbsp;(s)&nbsp;<BR>
+	&nbsp;&nbsp;sscanf(file_name(s),&quot;%*s#%d&quot;,no);&nbsp;<BR>
+	else&nbsp;<BR>
+	&nbsp;&nbsp;no=-1;&nbsp;<BR>
+	log_file(LOG_FILE,&quot;[&quot;+short_time(time())+&quot;]&quot;+s-&gt;address()[0]+&quot;:&quot;+x+&quot;(&quot;+no+&quot;).&nbsp;<BR>
+\n&quot;);&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;string&nbsp;expand_user(string&nbsp;path)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;string&nbsp;part;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;i&nbsp;=&nbsp;strsrch(path,&nbsp;'/');&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(i==-1)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	part&nbsp;=&nbsp;&quot;&quot;;&nbsp;<BR>
+	i&nbsp;=&nbsp;strlen(path);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	part&nbsp;=&nbsp;path[i+1..];&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;&nbsp;join_path(user_path(path[1..i]),join_path(HTTP_USER_HOME,part));&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+//&nbsp;Rewritten&nbsp;by&nbsp;Rust.&nbsp;<BR>
+private&nbsp;string&nbsp;convert_to_actual_path(string&nbsp;path)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if(path[0]&nbsp;==&nbsp;'/')&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	path&nbsp;=&nbsp;path[1..];&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if(path[0]&nbsp;==&nbsp;'~')&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	path&nbsp;=&nbsp;expand_user(path);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(path[0..3]==&quot;cgi/&quot;)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;	path=&nbsp;CGI_DIR+path[3..];&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(path[0..4]==&quot;scgi/&quot;)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;	path=&nbsp;SCGI_DIR+path[4..];&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	path&nbsp;=&nbsp;join_path(HTTP_ROOT,path);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(path[&lt;1]&nbsp;==&nbsp;'/')&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	return&nbsp;join_path(path,DEFAULT_PAGE);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	return&nbsp;path;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;remove_alive()&nbsp;<BR>
+{&nbsp;<BR>
+	int&nbsp;i;&nbsp;<BR>
+	object&nbsp;*&nbsp;s;&nbsp;<BR>
+	s=keys(alive_socket);&nbsp;<BR>
+	for(i=0;i&lt;sizeof(s);i++)&nbsp;<BR>
+	{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;log_http(&quot;Abend&nbsp;by&nbsp;system(Keepaliving)&quot;,s[i]);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;destruct(s[i]);&nbsp;<BR>
+	}&nbsp;<BR>
+	alive_socket=([&nbsp;]);&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;remove_active()&nbsp;<BR>
+{&nbsp;<BR>
+	int&nbsp;i;&nbsp;<BR>
+	object&nbsp;*&nbsp;s;&nbsp;<BR>
+	s=keys(active_socket);&nbsp;<BR>
+	for(i=0;i&lt;sizeof(s);i++)&nbsp;<BR>
+	{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;log_http(&quot;Abend&nbsp;by&nbsp;system(Keepaliving)&quot;,s[i]);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;destruct(s[i]);&nbsp;<BR>
+	}&nbsp;<BR>
+	active_socket=([&nbsp;]);&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;refresh_alive(object&nbsp;socket)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;i;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;class&nbsp;client_request&nbsp;req=requests[socket];&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;map_delete(active_socket,socket);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!req||!req-&gt;keepalive)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;log_http(&quot;Send&nbsp;complete,&nbsp;connection&nbsp;closed&quot;,socket);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;destruct(socket);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;alive_socket[socket]=&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;	([&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;	&quot;time&quot;:time()&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;	]);&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;refresh_active(object&nbsp;socket)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;i;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;map_delete(alive_socket,socket);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;active_socket[socket]=&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;	([&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;	&quot;time&quot;:time()&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;	]);&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+buffer&nbsp;write_callback(object&nbsp;socket)&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;string&nbsp;file;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;class&nbsp;client_request&nbsp;req=requests[socket];&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;i1,i2,i3,i4;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;reset_eval_cost();&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;refresh_active(socket);&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!sending[socket])&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;refresh_alive(socket);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;0;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;file=sending[socket][0];&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;i1=sending[socket][1];&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;i2=HTTP_BLOCK_SIZE;&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;i3=sending[socket][2];&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;i4=file_size(file);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(i3&lt;0||i3&gt;=i4)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i3=i4-1;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sending[socket][2]=i3;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;req-&gt;rangeto=i3;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;In&nbsp;case&nbsp;the&nbsp;file&nbsp;gets&nbsp;deleted&nbsp;in&nbsp;the&nbsp;middle&nbsp;of&nbsp;a&nbsp;transfer.&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(i3&lt;0)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;	map_delete(sending,socket);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;	refresh_alive(socket);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;0;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(i1+i2&gt;i3+1)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;i2=i3-i1+1;&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;map_delete(sending,socket);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;sending[socket]=({file,i1+i2,i3});&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;read_buffer(file,i1,i2);&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;http_send(mixed&nbsp;text,object&nbsp;socket,string&nbsp;ext,int&nbsp;t,int&nbsp;&nbsp;<BR>
+part,string&nbsp;file)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;buffer&nbsp;send;&nbsp;<BR>
+&nbsp;&nbsp;string&nbsp;head;&nbsp;<BR>
+&nbsp;&nbsp;int&nbsp;hsize;&nbsp;<BR>
+&nbsp;&nbsp;string&nbsp;vv,type;&nbsp;<BR>
+&nbsp;&nbsp;class&nbsp;client_request&nbsp;req=requests[socket];&nbsp;<BR>
+&nbsp;&nbsp;refresh_active(socket);&nbsp;<BR>
+&nbsp;&nbsp;hsize=0;&nbsp;<BR>
+&nbsp;&nbsp;if&nbsp;(!ext)&nbsp;<BR>
+&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(!stringp(text))&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;vv=read_buffer(text,0,sizeof(&quot;Content-Type:&quot;));&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;vv=text[0..sizeof(&quot;Content-Type:&quot;)-1];&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(lower_case(vv)==&quot;content-type:&quot;)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;	hsize=sizeof(vv);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;	while&nbsp;(hsize&lt;sizeof(text)&amp;&amp;text[hsize]!='\n')&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;hsize++;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hsize+=3;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(hsize&gt;sizeof(text))&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hsize=0;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type=ext_type(&quot;html&quot;);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type=&quot;&quot;;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type=ext_type(&quot;html&quot;);&nbsp;<BR>
+&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;else&nbsp;<BR>
+&nbsp;&nbsp;{&nbsp;<BR>
+	ext=lower_case(ext);&nbsp;<BR>
+	type=ext_type(ext);&nbsp;<BR>
+&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;if&nbsp;(part)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;head=&quot;HTTP/1.1&nbsp;206&nbsp;Partial&nbsp;content\r\n&quot;;&nbsp;<BR>
+&nbsp;&nbsp;else&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;head=&quot;HTTP/1.1&nbsp;200&nbsp;OK\r\n&quot;;&nbsp;<BR>
+&nbsp;&nbsp;head+=sprintf(&quot;Date:&nbsp;%s\r\n&quot;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;Server:&nbsp;XYJ/4.51\r\n&quot;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;Last-Modified:&nbsp;&quot;+time_string(t)+&quot;\r\n&quot;+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(req-&gt;keepalive?&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;Keep-Alive:&nbsp;timeout=&quot;+KEEPALIVE+&quot;,&nbsp;max=99\r\n&quot;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;Connection:&nbsp;Keep-Alive\r\n&quot;:&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;Connection:&nbsp;close\r\n&quot;)+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;Content-Length:&nbsp;&quot;+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;((sending[socket]&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;?sending[socket][2]-sending[socket][1]+sizeof(text)+1&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:sizeof(text))-hsize)+&quot;\r\n&quot;,&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;time_string(time()));&nbsp;<BR>
+&nbsp;&nbsp;if&nbsp;(part)&nbsp;<BR>
+&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;head+=&quot;Content-Range:&nbsp;bytes&nbsp;&quot;+req-&gt;rangefrom+&quot;-&quot;+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;req-&gt;rangeto+&quot;/&quot;+&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(file&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;?file_size(file)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:sizeof(text)-hsize)+&quot;\r\n&quot;;&nbsp;<BR>
+&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;head+=type;&nbsp;<BR>
+#ifdef&nbsp;LOG_RESPOND&nbsp;<BR>
+&nbsp;&nbsp;log_http(head,socket);&nbsp;<BR>
+#endif&nbsp;<BR>
+&nbsp;&nbsp;send=allocate_buffer(sizeof(head)+sizeof(text));&nbsp;<BR>
+&nbsp;&nbsp;write_buffer(send,0,head);&nbsp;<BR>
+&nbsp;&nbsp;write_buffer(send,sizeof(head),text);&nbsp;<BR>
+&nbsp;&nbsp;socket-&gt;send(send);&nbsp;<BR>
+&nbsp;&nbsp;return;&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+※&nbsp;来源:·BBS&nbsp;水木清华站&nbsp;bbs.net.tsinghua.edu.cn·[FROM:&nbsp;202.207.8.112]&nbsp;&nbsp;<BR>
+<A HREF="00000001.htm">上一篇</A>
+<A HREF='javascript:history.go(-1)'>返回上一页</A>
+<A HREF="index.htm">回到目录</A>
+<A HREF="#top">回到页首</A>
+<A HREF="00000003.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+</BODY></HTML>

@@ -1,0 +1,41 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=bg2312">
+   <META NAME="Author" CONTENT="Spock">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.01 [en] (Win95; I) [Netscape]">
+   <TITLE>MudOS v21c2 參考文件 - efuns - objects - save_object</TITLE>
+</HEAD>
+<BODY TEXT="#CCFFFF" BGCOLOR="#000000" LINK="#33FF33" VLINK="#FF0000" ALINK="#33CCFF" BACKGROUND="../../../image/ff/fftitleback.jpg" NOSAVE>
+
+<CENTER><FONT COLOR="#FF99FF"><FONT SIZE=+3>save_object(3)　 MudOS v21c2　
+(5 Sep 1994)</FONT></FONT></CENTER>
+
+<HR WIDTH="100%">
+<BR><FONT COLOR="#FFFFCC">　名稱:</FONT>
+<UL>　 save_object() - 將一個物件的變量值儲存到一個文件中.</UL>
+<FONT COLOR="#FFFFCC">　語法:</FONT>
+<UL>　 int save_object( string name, int flag );
+
+<P>　 整數 save_object( 字符串 name, 整數 flag );</UL>
+<FONT COLOR="#FFFFCC">　用法:</FONT>
+<UL>　 把這個物件所有的非靜態變量 (non-static variables) 儲存到名叫 name
+的文件中. 這個儲存的動作由主控物件 (master object) 中的 valid_write() 函數檢查是否允許這個物件寫入.
+如果第二個參數指定為 1, 則變量值為零的的變量也會儲存進去 (一般說來不會是零).
+而物件類型的變量則會儲存為 0.</UL>
+<FONT COLOR="#FFFFCC">　返回值:</FONT>
+<UL>　 save_object() 成功會返回 1, 失敗就返回 0.</UL>
+<FONT COLOR="#FFFFCC">　參考:</FONT>
+<UL>　 <A HREF="restore_object.html">restore_object(3)</A></UL>
+<FONT COLOR="#FFFFCC">　翻譯:</FONT>
+<UL>　 Spock @ FF 97.Jul.4.　 (printed 3/16/95)</UL>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+<CENTER><A HREF="../objects.html">回到上一頁</A></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+</BODY>
+</HTML>

@@ -1,0 +1,10 @@
+#/obj/user.c
+conditions (["ill_zhongshu":9,])
+dbase (["env":([]),"war_art":11,"DS_DATA_VERSION":19991107,"addition_armor":10,"addition_damage":10,"ap":264,"disable_type":" <毫無呼吸>","age":14,"mud_age":5216,"channels":({"chat","rumor","tchat",}),"bellicosity":0,"hp":450,"mp":54,"attitude":"peaceful","supply_point":100,"newbie":1,"exp":952,"MKS":2,"dex":2,"last_location":"/open/world1/acme/area/rock","int":2,"con":13,"level":3,"war_score":4,"birthday":1220887077,"bank":(["past":802,]),"talk_point":14,"cure_count":6,"Merits":(["tec":0,"bio":0,"sou":0,"wit":0,"bar":0,]),"evil":-1,"guild_rank":"無家可歸的流浪漢","combat_exp":2,"max_mp":54,"popularity":12,"heart_modify":0,"guild_gifts":({5,5,5,5,}),"unit":"位","mob_record":({"/open/world1/tmr/area/npc/dog","/open/world1/tmr/area/npc/dog",}),"default_actions":,"actions":,"wound":(["left_arm":0,"body":0,"right_arm":0,"left_leg":0,"head":0,"right_leg":0,]),"race":"ogre","addition_shield":10,"max_ap":264,"id":"nodbad","startroom":"/open/world1/tmr/area/hotel","gender":"男性","heart_beat_rate":6,"str":5,"name":"我狠乖","volume":7,"max_hp":450,])
+skills (["parry":0,"combat":5,"unarmed":4,"dagger":2,"strong-body":8,"dodge":2,])
+learned (["dagger":0,"strong-body":16,])
+items ({})
+alias (["sell2":"do city,n,n,n,n,w,l on,l","master":"do l off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,e,n,n,nw,eu,ne,e,e,ne,e,e,e,e,s,s,s,sd,sd,sw,se,e,s,s,s,l on,l","t":"sac all","pear":"do l off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,e,n,n,nw,eu,ne,e,e,ne,e,e,e,e,n,n,n,n,ne,n,n,n,jump 大石,push 石壁,w,search 小洞,l on","travelbag":"do l off,e,n,e,se,eu,se,se,se,se,e,l on,l","city":"do l off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,enter,n,n,n,n,n,n,n,n,l on,l","r":"recall","rs":"recall start","sell1":"do l off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,e,n,n,nw,eu,ne,e,e,ne,e,n,n,l on,l","wind":"do l off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,w,n,w,w,w,nw,w,w,n,nw,w,n,n,nw,n,n,nd,n,n,nu,l on,l","g":"get all",])
+autoload ({"/obj/money/coin:50",})
+toDoList ([])
+solved ({})

@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions ([])
+dbase (["env":([]),"nickname":"¾Ô¯«[0m","default_actions":,"heart_beat_rate":6,"DS_DATA_VERSION":19991107,"addition_shield":10,"actions":,"addition_damage":10,"board_last_read":(["tmr_hotel_b":1194326740,]),"mp":60,"addition_armor":10,"guild_gifts":({5,5,5,5,}),"channels":({"chat","rumor","tchat",}),"unit":"¦ì","max_ap":60,"newbie":1,"exp":700,"dex":2,"cure_count":12,"heart_modify":0,"int":2,"con":2,"last_location":"/open/world1/tmr/area/hotel","level":1,"combat_exp":0,"supply_point":60,"birthday":1194124607,"ap":60,"bellicosity":0,"talk_point":8,"evil":-1,"attitude":"peaceful","age":14,"disable_type":" <²@µL©I§l>","max_mp":60,"max_hp":80,"race":"human","Merits":(["bio":0,"sou":0,"wit":0,"bar":0,"tec":0,]),"id":"asathor","mud_age":7366,"startroom":"/open/world1/tmr/area/hotel","wound":(["body":0,"left_arm":0,"right_arm":0,"left_leg":0,"head":0,"right_leg":0,]),"hp":80,"gender":"¤k©Ê","str":2,"volume":7,"name":"¹p¯«",])
+skills (["unarmed":0,"combat":1,"dodge":0,])
+learned (["dodge":0,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

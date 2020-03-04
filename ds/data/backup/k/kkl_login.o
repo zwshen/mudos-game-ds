@@ -1,0 +1,2 @@
+#/obj/login.c
+dbase (["body":"/obj/user","id":"kkl","name":"慢慢走","email":"h","password":"hujM1aiMOFobM","last_on":1084777865,"race":"human","level":30,"last_from":"163.32.78.221","error_login":({"於[Thu Jan 29 22:55:08 2004]嘗試由[210-58-63-59.cm.apol.com.tw]連線進入失敗。","於[Tue Apr 13 14:16:22 2004]嘗試由[163.32.78.221]連線進入失敗。","於[Fri Apr 16 21:12:44 2004]嘗試由[210-58-63-226.cm.dynamic.apol.com.tw]連線進入失敗。","於[Fri Apr 16 21:14:56 2004]嘗試由[210-58-63-226.cm.dynamic.apol.com.tw]連線進入失敗。","於[Mon May  3 19:35:52 2004]嘗試由[V880.isu.edu.tw]連線進入失敗。",}),])

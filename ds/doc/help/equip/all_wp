@@ -1,0 +1,148 @@
+sword
+¤ì¼C(Wooden sword)               §ð+1
+¤ì¼C(Sword)                      §ð+5
+µu¼C(Short sword)                §ð+6
+µu¼C(Short sword)                §ð+8
+ªø¼C(Longsword)                  §ð+12
+ª÷¿ú¼C(Coin sword)               §ð+12
+ªø¼C(Long sword)                 §ð+15
+¹@¨¸¼C(Ward off evils sword)     §ð+15
+¤Ñ®v®ç¤ì¼C(Peach sword)          §ð+20 int+2
+¶À¨F¼C(Sand sword)               §ð+23
+¬h¸­¼C(Lau yip sword)            §ð+23
+Â¶«ü¬X¼C(Around fingers sword)   §ð+24
+©þÝrªø¼C(Hao chi sword)          §ð+25
+Áï¼C(Broad sword)                §ð+25
+¤ìªk¼C(Wood magic sword)         §ð+27
+©ú°Ê¼C(Ming-dung long sword)     §ð+28
+¶Àª¯(Dog)                        §ð+28
+Áï¼C(Big sword)                  §ð+30
+°­ÀYªø¼C(Ghost-head sword)       §ð+30 str+1
+¿û¬X¼C(Steel soft sword)         §ð+33 dex+1
+¾Ô¤Ñ¯«¼C(Zhan tian sword)        §ð+35
+²¨¼v¼C(Shu-yiing sword)          §ð+35
+ÀA¦ç¼C(Gin yi sword)             §ð+36 str+1
+¬õ¹Ð¼C(Hung chan sword)          §ð+40
+°­¤ý¼C(Ghost king sword)         §ð+45
+³p»»¼C(Loiter sword)             §ð+45
+¿Ã´¹¤b(Light sword)              §ð+45
+­«¼C(Heavy sword)                §ð+45
+¹p¯«¼C(Thunder-god sword)        §ð+50 ¯S¥\
+¡i¥j¼C¡j(Old sword)              §ð+50 con+2 dex-2 ¯S¥\ Âù¤â only
+¯«ªZ¼C(God sword)                §ð+55 §Ü+1 str+1 int+1
+¥É¤k¼C(Girl sword)               §ð+58 str-2 dex+2 ¯S§ð only
+«Õ­ß¼C(You ming sword)           §ð+60 BIO+1 BAR+1 TEC-2
+¥ÈÅK¼C(Xian-tia sword)           §ð+65 str+3 dex-2 ¯S¥\ only
+°ÓÁô¼C(Shang-ing sword)          §ð+65 con+2 dex+2 only
+Äà¤é¼C(Se ri sword)              §ð+67 con+1 Âù¤â
+¤C¬P­Ë®p¼C(Sevenstar barb sword) §ð+70 ¯S¥\ only
+fist
+«üªê(Tiger fist)                 §ð+10
+¯T®±(Wolf fist)                  §ð+15 ¨¾+5
+°­¤ö(Ghost claw)                 §ð+30
+¥Û¤ö(Stone claw)                 §ð+36
+ÀA¦ç¤ö(Gin yi fist)              §ð+36 str+1
+¤»¶§¿Ä³·¤ö(Sun-snow-fist)        §ð+38
+ª¢ªê¤ö(Flame claw)               §ð+40 str+1
+Às¯ÞÁu(Dragon fist)              §ð+45 ¯S§ð
+³æªê(Single fist)                §ð+50 ³æ¤â
+Âê©RÏe´x(Ghost fist)             §ð+55
+Àþª¢(Soon flame)                 §ð+55 str+1
+ÂI²G¤ö(Dab-aqua-claw)            §ð+58 int+2 onlyªº·|auto add ap
+¶ÂÀs¤ö(Dragon claw)              §ð+63 str+2 dex-2
+pike
+µuºj(Short pike)                 §ð+12
+¶À¨Fºj(Sand pike)                §ð+29
+¶ÂÅKºj(Black iron lance)         §ð+30
+­¸¾_ºj(Fei zhen pike)            §ð+32 str+2
+²¦¨½´µ¥Ù(Belis spear)            §ð+35 con+1
+ÀA¦çºj(Gin yi pike)              §ð+36 str+1
+°­¤e(Ghost fork)                 §ð+40 str+1
+°­´cºj(Ghost woo pike)           §ð+55
+´HÅK´u(Cold iron halbert)        §ð+55 dex+1 ¯S§ð Âù¤â
+²ö¤z¨¸±N(Mo gan she jung)        §ð+65 con+1 ¯S§ð Âù¤â only
+ÅK¦å¾Ô¥Ù(Blood pike)             §ð+77 str+2 dex-3 Âù¤â only
+dagger
+¤P­º(Dagger)                     §ð+3
+¤P­º(Dagger)                     §ð+4
+¤P­º(Dagger)                     §ð+8
+§P©xµ§(Ruling pen-holder)        §ð+18
+­·»î(Wind soul)                  §ð+20 §ðÀ»¤OÀH§l»î¼W¥[ ¥u¤p°½¸Ë³Æ
+ªê¬`´Õ(Tiger dagger)             §ð+23
+¬r¤P­º(Poison dagger)            §ð+28 ±a¬r ¥u¤p°½¸Ë³Æ
+ÅK¤Ø(Iron ruler)                 §ð+30
+¤ë¤ú(Moon tooth)                 §ð+43 BIO+1 SOU-1
+Às¤ú(Dragon tooth)               §ð+45
+blade
+¤p¤M(Knife)                      §ð+5
+¬å¤M(Blade)                      §ð+12
+µu¤M(Kris)                       §ð+13
+¿û¤M(Steel blade)                §ð+17 dex-1
+«C»É¤M(Bronze blade)             §ð+19 con+1
+¥Õ¦âªø¤b(Blade)                  §ð+20 str+1
+¤EÀô¤b(Blade)                    §ð+20 str+2
+ª÷¶§¤M(Sun blade)                §ð+22 str+1 con+2
+¶À¨F¤M(Sand blade)               §ð+25
+Ås¤M(Cutless)                    §ð+25
+¤j¤M(Big blade)                  §ð+27
+¬å°¨¤j¤M(Big blade)              §ð+30
+µ´¦a¨¸¤M(Jue dei blade)          §ð+32
+µL«×¤M(Wu do blade)              §ð+33
+ºÑ®ü¾lÃý(Sea blade)              §ð+35 str+1 dex+1
+Àsªù¼S¤ë(Dragon blade)           §ð+40 ¯S¥\
+ÀsÀY¤M(Dragon blade)             §ð+40 Âù¤â
+¤M(Blade)                        §ð+50 ¤£·|·lÃa
+ª¢°©¤M(Flame blade)              §ð+55 str+1
+¹Ð­·¤M(Wind blade)               §ð+55
+Âù¤b¤M(Double blade)             §ð+55
+¨g¤M¡E¿B¥@(The crazy blade)      §ð+62 str+2 ¯S¥\ only
+staff
+¤â§ú(Staff)                      §ð+8
+¦ËÏ^§ú(Bamboo stick)             §ð+8
+ªø´Ò(Long stick)                 §ð+12
+«C¿û§ú(Green steel staff)        §ð+30
+ÅK±½©ª(Iron broom)               §ð+35
+¤Q¤èªø§ú(Ten long staff)         §ð+36 str+1
+ÁI§ú(Monk's staff)               §ð+40
+¤C¤CÀ¦§ú(Seven staff)            §ð+40
+¶À»É´Ò(Copper cane)              §ð+50
+ª÷­è§ú(Steel staff)              §ð+52 int+2
+¯Q¤ìÁI§ú(Black wood staff)       §ð+60 Âù¤â
+ªø¤M§ú(Bladed staff)             §ð+65 con+1 dex-1
+bow
+ªø¤}(Long bow)                   §ð+10
+¥¨¤ì¤}(Large bow)                §ð+16
+¬ï¤s©¸(Put kop bow)              §ð+30
+­«©¸(Heavy cross bow)            §ð+60 str+2 dex-1
+hammer
+ÄÃÅKÂñ(Iron hammer)              §ð+11 str+1
+¾SÀY(Hoe)                        §ð+15
+¤jÅKÂñ(Big hammer)               §ð+16
+¥´ÅKÂñ(Hammer)                   §ð+20
+«CÅK°¨±¾µ§(Big pen)              §ð+23 dex-1
+¥jºå(Old zithern)                §ð+27 Âù¤â
+µµª¢Âñ(Purple flame hammer)      §ð+57 str+2 dex-2
+whip
+³¨¬ñ(Fish rod)                   §ð+8
+³¨¬ñ(Fishing rod)                §ð+15
+¯¯±ì(Beam)                       §ð+30
+»ÈÃ@(Silver whip)                §ð+35 ¯S§ð
+¨g­µÃ@(Crazy voice whip)         §ð+47
+axe
+µu©ò(Short axe)                  §ð+10
+¤p¤â©ò(Small axe)                §ð+11
+©òÀY(Middle axe)                 §ð+15
+ªø¬`¥Û©ò(Stone axe)              §ð+30
+°­µI©ò(Ghost fire axe)           §ð+35
+³q¤Ñ©ò(Tung tian axe)            §ð+40
+µL·À¥¨©ò(Hug axe)                §ð+60 str+1 dex-2
+gun
+©¸(Shootbow)                     §ð+12
+¤Q¦r¤}(Crossbow)                 §ð+16
+staff  ·tª÷­è¾¹(Dark-steel staff)§ð+55 con+2
+sword  ªê§q(Tiger roar)          §ð+60 int-1 dex+2
+dagger Às«r(Dragon bite)         §ð+40 str+2 dex-1
+fist   °\¤ö(Leopard claw)        §ð+55 str+2 int-1
+pike   Åb°Ö(Crane peck)          §ð+60 con+2 dex-1
+whip   ³D¤ú(Snake tooth)         §ð+40 con-1 dex+2
+

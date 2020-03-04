@@ -1,0 +1,5 @@
+#/obj/user.c
+conditions ([])
+dbase (["int":2,"addition_shield":10,"con":2,"newbie":1,"Merits":(["sou":0,"bar":0,"bio":0,"tec":0,"wit":0,]),"env":([]),"str":2,"addition_armor":10,"heart_beat_rate":6,"DS_DATA_VERSION":19991107,"max_ap":60,"supply_point":60,"heart_modify":0,"last_location":"/open/world1/moonhide/area/hotel","class2":"thief","addition_damage":10,"max_hp":80,"gender":"¤k©Ê","id":"norton","wound":(["right_arm":0,"left_leg":0,"right_leg":0,"body":0,"head":0,"left_arm":0,]),"mp":60,"unit":"¦ì","name":"¢Ü¢Ï","ap":60,"cure_count":14,"actions":,"attitude":"peaceful","channels":({"chat","rumor","tchat","sys","wiz","sky","sam","god","twiz","gwiz","bala",}),"race":"human","level":1,"cwd":"/u/n/norton/","talk_point":8,"max_mp":60,"volume":7,"guild_gifts":({5,5,5,5,}),"birthday":1115296403,"hp":80,"default_actions":,"mud_age":5984,"exp":777,"board_last_read":(["wizard_b":1115179557,]),"evil":-1,"age":14,"dex":2,"startroom":"/d/wiz/hall1",])
+alias (["ip":"222-156-193-94",])
+autoload ({})

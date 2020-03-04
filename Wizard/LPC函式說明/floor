@@ -1,0 +1,18 @@
+
+	floor(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	ㄧ计嘿:
+		floor() - т程綼疊翴计, τ┪单
+			  疊翴计俱计, 種р疊翴计计
+			  .
+	ㄧ计粂猭:
+		float floor( float f );
+
+		疊翴计 floor( 疊翴计 f );
+	ㄧ计ノ猭:
+		肚程綼疊翴计 f, τ单┪ f  俱计.
+	把σㄧ计:
+		ceil(3), to_int(3), to_float(3)
+	も陆亩:
+		Phoebus@ZH	97.Feb.12.		(Writen 5/23/97)
+

@@ -1,0 +1,12 @@
+#/obj/user.c
+conditions ([])
+dbase (["addition_shield":10,"actions":,"heart_beat_rate":6,"DS_DATA_VERSION":19991107,"race":"celestial","war_art":0,"max_mp":135,"max_hp":80,"title":"神武教第三代教徒","channels":({"chat","rumor","tchat",}),"help":"newbie/","attitude":"peaceful","birthday":1196075860,"id":"sunrain","family":(["privs":-1,"title":"教徒","family_name":"神武教","generation":3,]),"last_location":"/open/world1/tmr/area/hotel","mp":135,"gender":"男性","name":"邪煞","bank":(["past":1657,]),"adv_class":1,"cure_count":18,"unit":"位","max_ap":60,"class1":"神武教","startroom":"/open/world1/tmr/area/hotel","ap":60,"addition_armor":10,"guild_rank":"神武教第三代教徒","MKS":7,"supply_point":81,"guild_gifts":({2,4,9,5,}),"default_actions":,"age":14,"env":([]),"addition_damage":10,"Merits":(["bar":0,"bio":0,"tec":0,"sou":0,"wit":0,]),"talk_point":11,"newbie":1,"war_score":2,"volume":7,"exp":215,"dex":2,"mob_record":({"/open/world1/tmr/area/npc/dog","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/smith","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"int":3,"wound":(["body":0,"right_arm":0,"right_leg":0,"head":0,"left_leg":0,"left_arm":0,]),"con":2,"hp":80,"str":2,"level":2,"evil":11,"heart_modify":0,"mud_age":4186,"popularity":0,])
+skills (["dodge":3,"unarmed":1,"blade":1,"strong-body":2,"combat":5,"axe":1,"parry":2,"meditate":3,"hammer":1,"whip":1,"dagger":1,"staff":1,"mirage-steps":3,"godsword":2,"block":1,"fork":1,"sword":3,])
+learned (["meditate":12,"strong-body":17,"dodge":17,"combat":28,"unarmed":4,"sword":26,])
+spells (["summon_ghost":2,"god-fire":5,])
+spell_learned (["god-fire":31,])
+items ({})
+alias (["re":"recall","3":"exert godsword","pear":"do l off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,e,n,n,nw,eu,ne,e,e,ne,e,e,e,e,n,n,n,n,ne,n,n,n,jump 大石,push 石壁,w,search 小洞,l on","1":"cast god-fire on $1","2":"exert meditate","g1":"get all from corpse","liu":"do 1 off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,e,n,n,nw,eu,ne,e,e,ne,e,e,e,e,s,s,s,sd,sd,sw,se,e,s,s,s,s,1 on",])
+autoload ({"/obj/money/coin:300",})
+toDoList ([])
+solved ({})

@@ -1,0 +1,49 @@
+<HTML>
+<HEAD>
+<TITLE>BBS水木清华站∶精华区</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+<A Name="top"></a>
+发信人:&nbsp;yeung&nbsp;(流星雨),&nbsp;信区:&nbsp;Mud_Builder&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+标&nbsp;&nbsp;题:&nbsp;server-side&nbsp;alias&nbsp;<BR>
+发信站:&nbsp;BBS&nbsp;水木清华站&nbsp;(Mon&nbsp;Jul&nbsp;26&nbsp;06:50:32&nbsp;1999)&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+&nbsp;<BR>
+正在做server端的alias,虽然原来就有,但是只能定义一个verb定义一个&nbsp;<BR>
+命令,实在是起不到什么用处.现在做的alias支持用';'来分割命令,这样,&nbsp;<BR>
+只要一个玩家把路径做成存放在server端的alias,他就可以用任意的telnet&nbsp;<BR>
+终端玩mud了,呵呵.&nbsp;<BR>
+&nbsp;<BR>
+主要改动在/feature/alias.c&nbsp;<BR>
+&nbsp;<BR>
+实际效果:&nbsp;<BR>
+&nbsp;<BR>
+你目前设定的&nbsp;alias&nbsp;有：&nbsp;<BR>
+dwd&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=&nbsp;s;sd;sd;sd;sd;ed;ed;se;se;e;n;n;ne;nw;n&nbsp;<BR>
+&nbsp;<BR>
+当你输入dwd的时候,就会依次执行上面这些命令(纵横的从武当山三清殿跑到洛阳).&nbsp;<BR>
+&nbsp;<BR>
+确省情况下,不论&quot;;&quot;出现在什么地方,都被作为命令的分割符来对待,&nbsp;<BR>
+考虑到有可能需要用到;的地方,对&nbsp;alias&nbsp;的解析有以下规则:&nbsp;<BR>
+&nbsp;<BR>
+1.&nbsp;所有以alias开头的命令不解析&quot;;&quot;,方便定义.&nbsp;<BR>
+2.&nbsp;用$p-来指示不解析这一行的&quot;;&quot;,不管$p-出现在该行的什么地方&nbsp;<BR>
+3.&nbsp;使用者可以set&nbsp;parse_cmd&nbsp;off来强制关闭所有的对&quot;;&quot;的解析&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+梦后楼台高锁，酒醒帘幕低垂&nbsp;<BR>
+去年春恨却来时，落花人独立，微雨燕双飞&nbsp;<BR>
+&nbsp;<BR>
+记得小苹初见，两重心字罗衣&nbsp;<BR>
+琵琶弦上说相思，当时明月在，曾照彩云归&nbsp;<BR>
+&nbsp;<BR>
+※&nbsp;来源:·BBS&nbsp;水木清华站&nbsp;bbs.net.tsinghua.edu.cn·[FROM:&nbsp;162.105.138.49]&nbsp;<BR>
+<A HREF='javascript:history.go(-1)'>返回上一页</A>
+<A HREF="index.htm">回到目录</A>
+<A HREF="#top">回到页首</A>
+<A HREF="00000001.htm">下一篇</A>
+</H1></CENTER>
+<CENTER><H1>BBS水木清华站∶精华区</H1></CENTER>
+</BODY></HTML>

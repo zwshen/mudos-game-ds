@@ -1,0 +1,2648 @@
+[Sat Dec 14 12:33:03 2002] u/j/jangshow/testt/p.c line 96: Undefined variable 'me' before  ) ) 
+
+[Sat Dec 14 12:33:03 2002] u/j/jangshow/testt/p.c line 98: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Sat Dec 14 12:34:26 2002] u/j/jangshow/testt/p.c line 95: parse error before the end of line
+
+[Sat Dec 14 12:34:26 2002] u/j/jangshow/testt/p.c line 96: Illegal LHS before  ) 
+
+[Sat Dec 14 12:34:26 2002] u/j/jangshow/testt/p.c line 96: parse error before  ) 
+
+[Sat Dec 14 12:34:26 2002] u/j/jangshow/testt/p.c line 99: Number of arguments disagrees with previous definition. before the end of line
+
+[Sat Dec 14 12:34:26 2002] u/j/jangshow/testt/p.c line 99: Warning: Return type doesn't match prototype ( int vs void ) before the end of line
+
+[Sat Dec 14 12:34:48 2002] u/j/jangshow/testt/p.c line 95: parse error before the end of line
+
+[Sat Dec 14 12:34:48 2002] u/j/jangshow/testt/p.c line 96: Illegal LHS before  ) 
+
+[Sat Dec 14 12:34:48 2002] u/j/jangshow/testt/p.c line 96: parse error before  ) 
+
+[Sat Dec 14 12:34:48 2002] u/j/jangshow/testt/p.c line 99: Number of arguments disagrees with previous definition. before the end of line
+
+[Sat Dec 14 12:34:48 2002] u/j/jangshow/testt/p.c line 99: Warning: Return type doesn't match prototype ( int vs void ) before the end of line
+
+[Sat Dec 14 12:35:16 2002] u/j/jangshow/testt/p.c line 99: Number of arguments disagrees with previous definition. before the end of line
+
+[Sat Dec 14 12:35:16 2002] u/j/jangshow/testt/p.c line 99: Warning: Return type doesn't match prototype ( int vs void ) before the end of line
+
+[Sat Dec 14 12:36:08 2002] u/j/jangshow/testt/p.c line 98: Number of arguments disagrees with previous definition. before the end of line
+
+[Sat Dec 14 12:36:08 2002] u/j/jangshow/testt/p.c line 98: Warning: Return type doesn't match prototype ( int vs void ) before the end of line
+
+[Sat Dec 14 12:38:13 2002] u/j/jangshow/testt/p.c line 97: parse error before :);
+
+[Sat Dec 14 12:38:13 2002] u/j/jangshow/testt/p.c line 141: Illegal LHS before the end of line
+
+[Sat Dec 14 12:38:13 2002] u/j/jangshow/testt/p.c line 142: Undefined variable 'inv' before  return;
+
+[Sat Dec 14 12:38:13 2002] u/j/jangshow/testt/p.c line 145: Undefined variable 'i' before 0;i<sizeof(inv);i++)
+
+[Sat Dec 14 12:38:13 2002] u/j/jangshow/testt/p.c line 150: Undefined variable 'damage' before  random(350)+400;
+
+[Sat Dec 14 12:38:13 2002] u/j/jangshow/testt/p.c line 164: Number of arguments disagrees with previous definition. before   
+
+[Sat Dec 14 16:25:34 2002] u/j/jangshow/pql.c line 11: Left argument of -> is not a class before skill("force") > 120
+
+[Sat Dec 14 16:25:34 2002] u/j/jangshow/pql.c line 11: Warning: Unknown \ escape. before ßªk¡z¥¼¨ì 120 ¡A¬G¤£
+
+[Sat Dec 14 16:25:34 2002] u/j/jangshow/pql.c line 14: Left argument of -> is not a class before 2; 
+
+[Sat Dec 14 16:25:34 2002] u/j/jangshow/pql.c line 25: Left argument of -> is not a class before 2;
+
+[Sat Dec 14 16:26:03 2002] u/j/jangshow/pql.c line 11: Left argument of -> is not a class before skill("force") > 120
+
+[Sat Dec 14 16:26:03 2002] u/j/jangshow/pql.c line 11: Warning: Unknown \ escape. before ßªk¡z¥¼¨ì 120 ¡A¬G¤£
+
+[Sat Dec 14 16:26:03 2002] u/j/jangshow/pql.c line 14: Left argument of -> is not a class before 2; 
+
+[Sat Dec 14 16:26:03 2002] u/j/jangshow/pql.c line 25: Left argument of -> is not a class before 2;
+
+[Sat Dec 14 16:26:27 2002] u/j/jangshow/pplk.c line 11: Left argument of -> is not a class before skill("force") > 120
+
+[Sat Dec 14 16:26:27 2002] u/j/jangshow/pplk.c line 11: Warning: Unknown \ escape. before ß\ªk¡z¥¼¨ì 120 ¡A¬G¤
+
+[Sat Dec 14 16:26:27 2002] u/j/jangshow/pplk.c line 11: Warning: Unknown \ escape. before k¡z¥¼¨ì 120 ¡A¬G¤£¯à
+
+[Sat Dec 14 16:26:27 2002] u/j/jangshow/pplk.c line 14: Left argument of -> is not a class before 2; 
+
+[Sat Dec 14 16:26:27 2002] u/j/jangshow/pplk.c line 25: Left argument of -> is not a class before 2;
+
+[Sat Dec 14 16:26:43 2002] u/j/jangshow/pll.c line 11: Left argument of -> is not a class before skill("force") > 120
+
+[Sat Dec 14 16:26:43 2002] u/j/jangshow/pll.c line 14: Left argument of -> is not a class before 2; 
+
+[Sat Dec 14 16:26:43 2002] u/j/jangshow/pll.c line 25: Left argument of -> is not a class before 2;
+
+[Sat Dec 14 16:27:41 2002] u/j/jangshow/pll.c line 11: Left argument of -> is not a class before skill("force") > 120
+
+[Sat Dec 14 16:27:41 2002] u/j/jangshow/pll.c line 14: Left argument of -> is not a class before 2; 
+
+[Sat Dec 14 16:27:41 2002] u/j/jangshow/pll.c line 25: Left argument of -> is not a class before 2;
+
+[Sat Dec 14 16:28:05 2002] u/j/jangshow/pll.c line 11: Left argument of -> is not a class before skill("force") > 120
+
+[Sat Dec 14 16:28:05 2002] u/j/jangshow/pll.c line 14: Left argument of -> is not a class before 2; 
+
+[Sat Dec 14 16:28:05 2002] u/j/jangshow/pll.c line 25: Left argument of -> is not a class before 2;
+
+[Sat Dec 14 16:30:56 2002] u/j/jangshow/pll.c line 11: Left argument of -> is not a class before skill("force") > 120
+
+[Sat Dec 14 16:30:56 2002] u/j/jangshow/pll.c line 14: Left argument of -> is not a class before 2; 
+
+[Sat Dec 14 16:30:56 2002] u/j/jangshow/pll.c line 25: Left argument of -> is not a class before 2; 
+
+[Sat Dec 14 16:30:56 2002] u/j/jangshow/pll.c line 26: parse error before º¨­Åé¬ðµM©ñ¥X¤@ªÑ¯à¶
+
+[Sat Dec 14 16:30:56 2002] u/j/jangshow/pll.c line 26: Illegal terminator before ªÑ¯à¶q¡Aº¥º¥´²¥h¡E¡E
+
+[Sat Dec 14 16:31:36 2002] u/j/jangshow/pll.c line 11: Left argument of -> is not a class before skill("force") > 120
+
+[Sat Dec 14 16:31:36 2002] u/j/jangshow/pll.c line 14: Left argument of -> is not a class before 2; 
+
+[Sat Dec 14 16:31:36 2002] u/j/jangshow/pll.c line 26: Left argument of -> is not a class before 2; 
+
+[Sat Dec 14 16:31:36 2002] u/j/jangshow/pll.c line 27: parse error before º¨­Åé¬ðµM©ñ¥X¤@ªÑ¯à¶
+
+[Sat Dec 14 16:31:36 2002] u/j/jangshow/pll.c line 27: Illegal terminator before ªÑ¯à¶q¡Aº¥º¥´²¥h¡E¡E
+
+[Sun Dec 15 10:11:34 2002] u/j/jangshow/high-level/test.c line 135: == always false because of incompatible types ( int vs string ). before  return 0;
+
+[Sun Dec 15 10:11:34 2002] u/j/jangshow/high-level/test.c line 165: Left argument of -> is not a class before  armor:);
+
+[Sun Dec 15 10:11:34 2002] u/j/jangshow/high-level/test.c line 165: parse error before  armor:);
+
+[Sun Dec 15 10:11:34 2002] u/j/jangshow/high-level/test.c line 166: Illegal LHS before the end of line
+
+[Sun Dec 15 10:11:34 2002] u/j/jangshow/high-level/test.c line 242: Type of returned value doesn't match function return type ( int vs void ) before  
+
+[Sun Dec 15 10:11:34 2002] u/j/jangshow/high-level/test.c line 244: == always false because of incompatible types ( int vs string ). before   
+
+[Sun Dec 15 10:11:40 2002] u/j/jangshow/high-level/sky-wind.c line 109: parse error before (me->query("level") 
+
+[Sun Dec 15 10:11:40 2002] u/j/jangshow/high-level/sky-wind.c line 129: Illegal LHS before the end of line
+
+[Sun Dec 15 10:11:40 2002] u/j/jangshow/high-level/sky-wind.c line 131: Undefined variable 'lv' before  lv/10;     // ±N ra
+
+[Sun Dec 15 10:11:40 2002] u/j/jangshow/high-level/sky-wind.c line 137: Undefined variable 'rank' before  HIC"¤Ñ¯eªù¤§ªù¤U§Ì¤
+
+[Wed Dec 18 19:27:21 2002] u/j/jangshow/skarea/room13.c line 21: End of file in text block before set("no_clean_up", 0
+
+[Wed Dec 18 19:27:21 2002] u/j/jangshow/skarea/room13.c line 21: parse error before set("no_clean_up", 0
+
+[Wed Dec 18 19:31:30 2002] u/j/jangshow/skarea/room4.c line 17: parse error before the end of line
+
+[Wed Dec 18 19:39:36 2002] u/j/jangshow/skarea/room13.c line 16: Undefined variable '__DIR__room6' before outdoors","land");
+
+[Wed Dec 18 19:39:36 2002] u/j/jangshow/skarea/room13.c line 16: parse error before outdoors","land");
+
+[Wed Dec 18 19:39:36 2002] u/j/jangshow/skarea/room13.c line 22: End of file in string before set("no_clean_up", 0
+
+[Mon Dec 23 08:41:49 2002] u/j/jangshow/pp.c line 2: parse error before  WRISTS
+
+[Fri Feb  7 17:12:02 2003] u/j/jangshow/pll.c line 11: Left argument of -> is not a class before skill("force") > 120
+
+[Fri Feb  7 17:12:02 2003] u/j/jangshow/pll.c line 14: Left argument of -> is not a class before 2; 
+
+[Fri Feb  7 17:12:02 2003] u/j/jangshow/pll.c line 26: Left argument of -> is not a class before 2; 
+
+[Fri Feb  7 17:12:02 2003] u/j/jangshow/pll.c line 27: parse error before º¨­Åé¬ðµM©ñ¥X¤@ªÑ¯à¶
+
+[Fri Feb  7 17:12:02 2003] u/j/jangshow/pll.c line 27: Illegal terminator before ªÑ¯à¶q¡Aº¥º¥´²¥h¡E¡E
+
+[Sat Mar  1 02:27:16 2003] u/j/jangshow/high-level/test.c line 135: == always false because of incompatible types ( int vs string ). before  return 0;
+
+[Sat Mar  1 02:27:16 2003] u/j/jangshow/high-level/test.c line 165: Left argument of -> is not a class before  armor:);
+
+[Sat Mar  1 02:27:16 2003] u/j/jangshow/high-level/test.c line 165: parse error before  armor:);
+
+[Sat Mar  1 02:27:16 2003] u/j/jangshow/high-level/test.c line 166: Illegal LHS before the end of line
+
+[Sat Mar  1 02:27:16 2003] u/j/jangshow/high-level/test.c line 242: Type of returned value doesn't match function return type ( int vs void ) before  
+
+[Sat Mar  1 02:27:16 2003] u/j/jangshow/high-level/test.c line 244: == always false because of incompatible types ( int vs string ). before   
+
+[Sat Mar  1 02:27:43 2003] u/j/jangshow/high-level/sky-wind.c line 109: parse error before (me->query("level") 
+
+[Sat Mar  1 02:27:43 2003] u/j/jangshow/high-level/sky-wind.c line 129: Illegal LHS before the end of line
+
+[Sat Mar  1 02:27:43 2003] u/j/jangshow/high-level/sky-wind.c line 131: Undefined variable 'lv' before  lv/10;     // ±N ra
+
+[Sat Mar  1 02:27:43 2003] u/j/jangshow/high-level/sky-wind.c line 137: Undefined variable 'rank' before  HIC"¤Ñ¯eªù¤§ªù¤U§Ì¤
+
+[Sat Mar  1 02:28:07 2003] u/j/jangshow/high-level/golden-man.c line 30: == always false because of incompatible types ( int vs string ). before return; 
+
+[Mon Mar 10 14:31:25 2003] u/j/jangshow/high-level/sky-wind.c line 109: parse error before (me->query("level") 
+
+[Mon Mar 10 14:31:25 2003] u/j/jangshow/high-level/sky-wind.c line 129: Illegal LHS before the end of line
+
+[Mon Mar 10 14:31:25 2003] u/j/jangshow/high-level/sky-wind.c line 131: Undefined variable 'lv' before  lv/10;     // ±N ra
+
+[Mon Mar 10 14:31:25 2003] u/j/jangshow/high-level/sky-wind.c line 137: Undefined variable 'rank' before  HIC"¤Ñ¯eªù¤§ªù¤U§Ì¤
+
+[Mon Mar 10 14:31:31 2003] u/j/jangshow/high-level/sky-wind.c line 109: parse error before (me->query("level") 
+
+[Mon Mar 10 14:31:31 2003] u/j/jangshow/high-level/sky-wind.c line 129: Illegal LHS before the end of line
+
+[Mon Mar 10 14:31:31 2003] u/j/jangshow/high-level/sky-wind.c line 131: Undefined variable 'lv' before  lv/10;     // ±N ra
+
+[Mon Mar 10 14:31:31 2003] u/j/jangshow/high-level/sky-wind.c line 137: Undefined variable 'rank' before  HIC"¤Ñ¯eªù¤§ªù¤U§Ì¤
+
+[Mon Mar 10 14:37:47 2003] u/j/jangshow/sk/p.c line 32: Warning: Value of conditional expression is unused before the end of line
+
+[Mon Mar 10 14:37:47 2003] u/j/jangshow/sk/p.c line 36: parse error before {
+
+[Mon Mar 10 14:37:47 2003] u/j/jangshow/sk/p.c line 37: Illegal LHS before the end of line
+
+[Mon Mar 10 14:37:47 2003] u/j/jangshow/sk/p.c line 55: parse error before  1; 
+
+[Sat Mar 15 13:46:38 2003] u/j/jangshow/poop.c line 2: parse error before ;
+
+[Sat Mar 15 14:10:46 2003] u/j/jangshow/testt/fox-claw.c line 15: parse error before ("material", "gold")
+
+[Sat Mar 15 14:10:46 2003] u/j/jangshow/testt/fox-claw.c line 40: Undefined variable 'me' before query_skill("unarmed
+
+[Sat Mar 15 14:10:46 2003] u/j/jangshow/testt/fox-claw.c line 40: Illegal LHS before the end of line
+
+[Sat Mar 15 14:10:46 2003] u/j/jangshow/testt/fox-claw.c line 40: parse error before the end of line
+
+[Sat Mar 15 14:10:46 2003] u/j/jangshow/testt/fox-claw.c line 41: Undefined variable 'victim' before query_skill("dodge")
+
+[Sat Mar 15 14:10:46 2003] u/j/jangshow/testt/fox-claw.c line 41: Illegal LHS before the end of line
+
+[Sat Mar 15 14:46:18 2003] u/j/jangshow/testt/fox-claw.c line 56: Illegal to redefine 'nomask' function "violate_unique" before the end of line
+
+[Sat Mar 15 14:46:18 2003] u/j/jangshow/testt/fox-claw.c line 57: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Sat Mar 15 14:46:18 2003] u/j/jangshow/testt/fox-claw.c line 57: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Sat Mar 15 14:46:18 2003] u/j/jangshow/testt/fox-claw.c line 57: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Sat Mar 15 14:46:18 2003] u/j/jangshow/testt/fox-claw.c line 57: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Sat Mar 15 14:46:18 2003] u/j/jangshow/testt/fox-claw.c line 57: Illegal to redefine 'nomask' function "query_encumbrance" before the end of line
+
+[Sat Mar 22 01:13:13 2003] u/j/jangshow/sk/p.c line 32: Warning: Value of conditional expression is unused before the end of line
+
+[Sat Mar 22 01:13:13 2003] u/j/jangshow/sk/p.c line 36: parse error before {
+
+[Sat Mar 22 01:13:13 2003] u/j/jangshow/sk/p.c line 37: Illegal LHS before the end of line
+
+[Sat Mar 22 01:13:13 2003] u/j/jangshow/sk/p.c line 55: parse error before  1; 
+
+[Sat Mar 22 01:14:06 2003] u/j/jangshow/sk/uangoo-steps.c line 118: Redeclaration of function valid_learn. before the end of line
+
+[Sat Mar 22 01:22:40 2003] u/j/jangshow/sk/p.c line 32: Warning: Value of conditional expression is unused before the end of line
+
+[Sat Mar 22 01:22:40 2003] u/j/jangshow/sk/p.c line 36: parse error before {
+
+[Sat Mar 22 01:22:40 2003] u/j/jangshow/sk/p.c line 37: Illegal LHS before the end of line
+
+[Sat Mar 22 01:22:40 2003] u/j/jangshow/sk/p.c line 55: parse error before  1; 
+
+[Sat Mar 22 01:25:05 2003] u/j/jangshow/sk/wuty-blade.c line 51: parse error before K
+
+[Sat Mar 22 01:25:05 2003] u/j/jangshow/sk/wuty-blade.c line 55: Illegal LHS before the end of line
+
+[Sat Mar 22 01:25:05 2003] u/j/jangshow/sk/wuty-blade.c line 56: Undefined variable 'weapon' before me->query_temp("weap
+
+[Sat Mar 22 01:25:05 2003] u/j/jangshow/sk/wuty-blade.c line 71: Warning: Unknown \ escape. before O¡AÁÙ¤£¯à¬I®i¡uµL¼Ä¤
+
+[Sat Mar 22 01:25:05 2003] u/j/jangshow/sk/wuty-blade.c line 92: Undefined variable 'damage' before ;
+
+[Sat Mar 22 01:25:05 2003] u/j/jangshow/sk/wuty-blade.c line 99: parse error before uµL¼Ä¤Mªk¡v¡C\n"NOR,
+
+[Sat Mar 22 01:25:05 2003] u/j/jangshow/sk/wuty-blade.c line 117: $var illegal outside of function pointer. before N¥H¤@¬í¤£¨ìªº®É¶¡¡A±
+
+[Sat Mar 22 01:41:50 2003] u/j/jangshow/sk/p.c line 32: Warning: Value of conditional expression is unused before the end of line
+
+[Sat Mar 22 01:41:50 2003] u/j/jangshow/sk/p.c line 36: parse error before {
+
+[Sat Mar 22 01:41:50 2003] u/j/jangshow/sk/p.c line 37: Illegal LHS before the end of line
+
+[Sat Mar 22 01:41:50 2003] u/j/jangshow/sk/p.c line 55: parse error before  1; 
+
+[Sat Mar 22 01:42:20 2003] u/j/jangshow/sk/p.c line 32: Warning: Value of conditional expression is unused before the end of line
+
+[Sat Mar 22 01:42:20 2003] u/j/jangshow/sk/p.c line 34: Warning: Non-void functions must return a value. before the end of line
+
+[Sat Mar 22 01:42:20 2003] u/j/jangshow/sk/p.c line 36: parse error before {
+
+[Sat Mar 22 01:42:20 2003] u/j/jangshow/sk/p.c line 37: Illegal LHS before the end of line
+
+[Sat Mar 22 01:42:20 2003] u/j/jangshow/sk/p.c line 55: parse error before  1; 
+
+[Sat Mar 22 01:42:36 2003] u/j/jangshow/sk/p.c line 32: Warning: Value of conditional expression is unused before the end of line
+
+[Sat Mar 22 01:42:36 2003] u/j/jangshow/sk/p.c line 36: parse error before {
+
+[Sat Mar 22 01:42:36 2003] u/j/jangshow/sk/p.c line 37: Illegal LHS before the end of line
+
+[Sat Mar 22 01:42:36 2003] u/j/jangshow/sk/p.c line 55: parse error before  1; 
+
+[Sat Mar 22 15:49:54 2003] u/j/jangshow/sk/p.c line 32: Warning: Value of conditional expression is unused before the end of line
+
+[Sat Mar 22 15:49:54 2003] u/j/jangshow/sk/p.c line 36: parse error before {
+
+[Sat Mar 22 15:49:54 2003] u/j/jangshow/sk/p.c line 37: Illegal LHS before the end of line
+
+[Sat Mar 22 15:49:54 2003] u/j/jangshow/sk/p.c line 55: parse error before  1; 
+
+[Sat Mar 22 18:26:45 2003] u/j/jangshow/flame_area/mirror.c line 15: Undefined function set_amount before ;
+
+[Sat Mar 22 19:15:08 2003] u/j/jangshow/flame_area/npc/dragon.c line 19: Undefined variable 'follow' before id")+" :),
+
+[Sat Mar 22 19:15:08 2003] u/j/jangshow/flame_area/npc/dragon.c line 19: parse error before id")+" :),
+
+[Sat Mar 22 19:15:08 2003] u/j/jangshow/flame_area/npc/dragon.c line 29: Undefined variable 'target' before query_dex();
+
+[Sat Mar 22 19:15:08 2003] u/j/jangshow/flame_area/npc/dragon.c line 29: Illegal LHS before the end of line
+
+[Sat Mar 22 19:15:08 2003] u/j/jangshow/flame_area/npc/dragon.c line 29: parse error before the end of line
+
+[Sat Mar 22 19:15:08 2003] u/j/jangshow/flame_area/npc/dragon.c line 30: Illegal LHS before the end of line
+
+[Sat Mar 22 19:15:34 2003] u/j/jangshow/flame_area/npc/dragon.c line 19: Undefined variable 'yawn' before ),
+
+[Sat Mar 22 19:15:34 2003] u/j/jangshow/flame_area/npc/dragon.c line 19: parse error before ),
+
+[Sat Mar 22 19:15:34 2003] u/j/jangshow/flame_area/npc/dragon.c line 29: Undefined variable 'target' before query_dex();
+
+[Sat Mar 22 19:15:34 2003] u/j/jangshow/flame_area/npc/dragon.c line 29: Illegal LHS before the end of line
+
+[Sat Mar 22 19:15:34 2003] u/j/jangshow/flame_area/npc/dragon.c line 29: parse error before the end of line
+
+[Sat Mar 22 19:15:34 2003] u/j/jangshow/flame_area/npc/dragon.c line 30: Illegal LHS before the end of line
+
+[Sat Mar 22 19:16:02 2003] u/j/jangshow/flame_area/npc/dragon.c line 44: Warning: Value of conditional expression is unused before (2)
+
+[Sat Mar 22 19:16:02 2003] u/j/jangshow/flame_area/npc/dragon.c line 67: parse error before àÀs"+HIW"³Q"+ob->nam
+
+[Sat Mar 22 19:16:02 2003] u/j/jangshow/flame_area/npc/dragon.c line 79: End of file in string before );
+
+[Sat Mar 22 19:16:55 2003] u/j/jangshow/flame_area/npc/dragon.c line 44: Warning: Value of conditional expression is unused before (random(2))
+
+[Sat Mar 22 19:16:55 2003] u/j/jangshow/flame_area/npc/dragon.c line 67: parse error before àÀs"+HIW"³Q"+ob->nam
+
+[Sat Mar 22 19:16:55 2003] u/j/jangshow/flame_area/npc/dragon.c line 79: End of file in string before n=me->query_temp("we
+
+[Sat Mar 22 19:17:41 2003] u/j/jangshow/flame_area/npc/dragon.c line 44: Warning: Value of conditional expression is unused before (random(2))
+
+[Sat Mar 22 19:17:41 2003] u/j/jangshow/flame_area/npc/dragon.c line 67: parse error before àÀs"+HIW"³Q"+ob->nam
+
+[Sat Mar 22 19:17:41 2003] u/j/jangshow/flame_area/npc/dragon.c line 79: End of file in string before _temp("weapon");
+
+[Sat Mar 22 19:18:11 2003] u/j/jangshow/flame_area/npc/dragon.c line 67: parse error before àÀs"+HIW"³Q"+ob->nam
+
+[Sat Mar 22 19:18:11 2003] u/j/jangshow/flame_area/npc/dragon.c line 79: End of file in string before the end of file
+
+[Sat Mar 22 19:53:18 2003] u/j/jangshow/flame_area/npc/dragon.c line 64: Warning: Non-void functions must return a value. before the end of line
+
+[Sat Mar 22 19:53:48 2003] u/j/jangshow/flame_area/npc/dragon.c line 64: Warning: Non-void functions must return a value. before the end of line
+
+[Sat Mar 22 19:54:50 2003] u/j/jangshow/flame_area/npc/dragon.c line 64: Warning: Non-void functions must return a value. before the end of line
+
+[Sat Mar 22 19:54:50 2003] u/j/jangshow/flame_area/npc/dragon.c line 65: Illegal lvalue before "¯e­·ªù") 
+
+[Sat Mar 22 19:55:28 2003] u/j/jangshow/flame_area/npc/dragon.c line 64: Warning: Non-void functions must return a value. before the end of line
+
+[Sat Mar 22 19:55:28 2003] u/j/jangshow/flame_area/npc/dragon.c line 65: == always false because of incompatible types ( int vs string ). before  return;
+
+[Sat Mar 22 19:55:28 2003] u/j/jangshow/flame_area/npc/dragon.c line 65: Warning: Non-void functions must return a value. before the end of line
+
+[Sat Mar 22 19:55:56 2003] u/j/jangshow/flame_area/npc/dragon.c line 64: Warning: Non-void functions must return a value. before the end of line
+
+[Sat Mar 22 19:55:56 2003] u/j/jangshow/flame_area/npc/dragon.c line 65: Illegal lvalue before "¯e­·ªù") return;
+
+[Sat Mar 22 19:55:56 2003] u/j/jangshow/flame_area/npc/dragon.c line 65: Warning: Non-void functions must return a value. before the end of line
+
+[Sat Mar 22 19:56:53 2003] u/j/jangshow/flame_area/npc/dragon.c line 64: Warning: Non-void functions must return a value. before the end of line
+
+[Sat Mar 22 19:56:53 2003] u/j/jangshow/flame_area/npc/dragon.c line 65: == always false because of incompatible types ( int vs string ). before   
+
+[Sat Mar 22 20:11:13 2003] u/j/jangshow/flame_area/npc/dragon.c line 64: Warning: Non-void functions must return a value. before the end of line
+
+[Sat Mar 22 20:11:13 2003] u/j/jangshow/flame_area/npc/dragon.c line 65: == always false because of incompatible types ( int vs string ). before   
+
+[Sat Mar 22 21:07:04 2003] u/j/jangshow/flame_area/npc/dragon.c line 64: Warning: Non-void functions must return a value. before the end of line
+
+[Sat Mar 22 21:07:04 2003] u/j/jangshow/flame_area/npc/dragon.c line 65: == always false because of incompatible types ( int vs string ). before   
+
+[Sat Mar 22 21:08:21 2003] u/j/jangshow/flame_area/npc/dragon.c line 64: Warning: Non-void functions must return a value. before the end of line
+
+[Sat Mar 22 21:08:21 2003] u/j/jangshow/flame_area/npc/dragon.c line 65: == always false because of incompatible types ( int vs string ). before   
+
+[Sat Mar 22 22:43:35 2003] u/j/jangshow/flame_area/room.c line 12: parse error before i¢i¢i¢i¢i¢i\n"
+
+[Sat Mar 22 22:43:35 2003] u/j/jangshow/flame_area/room.c line 24: Illegal terminator before ¥Î¡A¦n¹³¥i¥HÂàªº¼Ë¤l
+
+[Sat Mar 22 22:45:02 2003] u/j/jangshow/flame_area/room.c line 41: parse error before [0;1m [0m        me
+
+[Sat Mar 22 22:45:02 2003] u/j/jangshow/flame_area/room.c line 41: Illegal LHS before the end of line
+
+[Sat Mar 22 22:45:02 2003] u/j/jangshow/flame_area/room.c line 57: parse error before ðµM¤@¨ì"HIG"«C¥úÃz®g
+
+[Sat Mar 22 22:45:02 2003] u/j/jangshow/flame_area/room.c line 57: Illegal terminator before ¨ì"HIG"«C¥úÃz®g"HIW"
+
+[Sat Mar 22 22:45:24 2003] u/j/jangshow/flame_area/room.c line 57: parse error before ðµM¤@¨ì"HIG"«C¥úÃz®g
+
+[Sat Mar 22 22:45:24 2003] u/j/jangshow/flame_area/room.c line 57: Illegal terminator before ¨ì"HIG"«C¥úÃz®g"HIW"
+
+[Sun Mar 23 15:40:22 2003] u/j/jangshow/flame_area/npc/red-ball.c line 31: parse error before ;
+
+[Sun Mar 23 15:40:22 2003] u/j/jangshow/flame_area/npc/red-ball.c line 34: Warning: Value of conditional expression is unused before    
+
+[Sun Mar 23 16:28:51 2003] u/j/jangshow/flame_area/npc/dragon.c line 130: End of file in a comment before the end of file
+
+[Fri Mar 28 14:51:02 2003] u/j/jangshow/sk/new_pick.c line 23: parse error before  : return 
+
+[Fri Mar 28 14:51:02 2003] u/j/jangshow/sk/new_pick.c line 35: Illegal LHS before the end of line
+
+[Fri Mar 28 14:51:02 2003] u/j/jangshow/sk/new_pick.c line 35: parse error before the end of line
+
+[Fri Mar 28 14:51:02 2003] u/j/jangshow/sk/new_pick.c line 36: Illegal LHS before the end of line
+
+[Fri Mar 28 14:51:02 2003] u/j/jangshow/sk/new_pick.c line 36: parse error before the end of line
+
+[Fri Mar 28 14:51:02 2003] u/j/jangshow/sk/new_pick.c line 37: Illegal LHS before the end of line
+
+[Fri Mar 28 14:51:58 2003] u/j/jangshow/sk/new_pick.c line 23: parse error before  : return
+
+[Fri Mar 28 14:51:58 2003] u/j/jangshow/sk/new_pick.c line 35: Illegal LHS before the end of line
+
+[Fri Mar 28 14:51:58 2003] u/j/jangshow/sk/new_pick.c line 35: parse error before the end of line
+
+[Fri Mar 28 14:51:58 2003] u/j/jangshow/sk/new_pick.c line 36: Illegal LHS before the end of line
+
+[Fri Mar 28 14:51:58 2003] u/j/jangshow/sk/new_pick.c line 36: parse error before the end of line
+
+[Fri Mar 28 14:51:58 2003] u/j/jangshow/sk/new_pick.c line 37: Illegal LHS before the end of line
+
+[Fri Mar 28 14:53:23 2003] u/j/jangshow/sk/new_pick.c line 23: parse error before  : return notify_fai
+
+[Fri Mar 28 14:53:23 2003] u/j/jangshow/sk/new_pick.c line 34: Illegal LHS before the end of line
+
+[Fri Mar 28 14:53:23 2003] u/j/jangshow/sk/new_pick.c line 34: parse error before the end of line
+
+[Fri Mar 28 14:53:23 2003] u/j/jangshow/sk/new_pick.c line 35: Illegal LHS before the end of line
+
+[Fri Mar 28 14:53:23 2003] u/j/jangshow/sk/new_pick.c line 35: parse error before the end of line
+
+[Fri Mar 28 14:53:23 2003] u/j/jangshow/sk/new_pick.c line 36: Illegal LHS before the end of line
+
+[Fri Mar 28 14:54:05 2003] u/j/jangshow/sk/p.c line 32: Warning: Value of conditional expression is unused before the end of line
+
+[Fri Mar 28 14:54:05 2003] u/j/jangshow/sk/p.c line 36: parse error before {
+
+[Fri Mar 28 14:54:05 2003] u/j/jangshow/sk/p.c line 37: Illegal LHS before the end of line
+
+[Fri Mar 28 14:54:05 2003] u/j/jangshow/sk/p.c line 55: parse error before  1; 
+
+[Fri Mar 28 14:55:46 2003] u/j/jangshow/sk/p.c line 32: Warning: Value of conditional expression is unused before the end of line
+
+[Fri Mar 28 14:55:46 2003] u/j/jangshow/sk/p.c line 36: parse error before {
+
+[Fri Mar 28 14:55:46 2003] u/j/jangshow/sk/p.c line 37: Illegal LHS before the end of line
+
+[Fri Mar 28 14:55:46 2003] u/j/jangshow/sk/p.c line 55: parse error before  1; 
+
+[Mon Apr  7 22:24:24 2003] u/j/jangshow/sk/practice_bone.c line 17: Undefined function elseif before the end of line
+
+[Mon Apr  7 22:24:24 2003] u/j/jangshow/sk/practice_bone.c line 18: parse error before ->add("max_hp",200);
+
+[Mon Apr  7 22:28:09 2003] u/j/jangshow/sk/practice_bone.c line 22: parse error before  if(me->query_skill(
+
+[Mon Apr  7 22:35:24 2003] u/j/jangshow/sk/practice_bone.c line 22: parse error before  if(me->query_skill(
+
+[Mon Apr  7 22:39:15 2003] u/j/jangshow/sk/practice_bone.c line 24: parse error before  if(me->query_skill(
+
+[Mon Apr  7 22:40:51 2003] u/j/jangshow/sk/practice_bone.c line 25: parse error before  if(me->query_skill(
+
+[Mon Apr  7 22:42:46 2003] u/j/jangshow/sk/practice_bone.c line 25: Undefined function elseif before the end of line
+
+[Mon Apr  7 22:42:46 2003] u/j/jangshow/sk/practice_bone.c line 26: parse error before ->add("max_hp",200);
+
+[Mon Apr  7 22:44:06 2003] u/j/jangshow/sk/practice_bone.c line 25: parse error before  if(me->query_skill(
+
+[Fri Apr 25 12:00:50 2003] u/j/jangshow/sk/new_pick.c line 23: parse error before  : return notify_fai
+
+[Fri Apr 25 12:00:50 2003] u/j/jangshow/sk/new_pick.c line 34: Illegal LHS before the end of line
+
+[Fri Apr 25 12:00:50 2003] u/j/jangshow/sk/new_pick.c line 34: parse error before the end of line
+
+[Fri Apr 25 12:00:50 2003] u/j/jangshow/sk/new_pick.c line 35: Illegal LHS before the end of line
+
+[Fri Apr 25 12:00:50 2003] u/j/jangshow/sk/new_pick.c line 35: parse error before the end of line
+
+[Fri Apr 25 12:00:50 2003] u/j/jangshow/sk/new_pick.c line 36: Illegal LHS before the end of line
+
+[Mon Apr 28 15:47:58 2003] u/j/jangshow/pll.c line 11: Left argument of -> is not a class before skill("force") > 120
+
+[Mon Apr 28 15:47:58 2003] u/j/jangshow/pll.c line 14: Left argument of -> is not a class before 2; 
+
+[Mon Apr 28 15:47:58 2003] u/j/jangshow/pll.c line 26: Left argument of -> is not a class before 2; 
+
+[Mon Apr 28 15:47:58 2003] u/j/jangshow/pll.c line 27: parse error before º¨­Åé¬ðµM©ñ¥X¤@ªÑ¯à¶
+
+[Mon Apr 28 15:47:58 2003] u/j/jangshow/pll.c line 27: Illegal terminator before ªÑ¯à¶q¡Aº¥º¥´²¥h¡E¡E
+
+[Wed May 21 22:52:12 2003] u/j/jangshow/sk/fix_star-sword.c line 159: parse error before the end of line
+
+[Wed May 21 22:52:12 2003] u/j/jangshow/sk/fix_star-sword.c line 163: Illegal LHS before the end of line
+
+[Wed May 21 22:52:12 2003] u/j/jangshow/sk/fix_star-sword.c line 179: parse error before (HIW"¨Ï±o$N¤£¯à°Ê¼u!
+
+[Wed May 21 22:52:12 2003] u/j/jangshow/sk/fix_star-sword.c line 188: Illegal LHS before ( me->query_temp("ap
+
+[Wed May 21 22:52:12 2003] u/j/jangshow/sk/fix_star-sword.c line 210: Illegal LHS before  
+
+[Wed May 21 22:52:12 2003] u/j/jangshow/sk/fix_star-sword.c line 212: parse error before ( me->query_temp("cl
+
+[Wed May 21 22:52:12 2003] u/j/jangshow/sk/fix_star-sword.c line 217: Warning: Value of conditional expression is unused before g++
+
+[Thu May 22 23:52:25 2003] u/j/jangshow/sk/fix_star.c line 158: parse error before the end of line
+
+[Thu May 22 23:52:25 2003] u/j/jangshow/sk/fix_star.c line 162: Illegal LHS before the end of line
+
+[Thu May 22 23:52:25 2003] u/j/jangshow/sk/fix_star.c line 263: Reserved type name unexpected. before (object me)
+
+[Thu May 22 23:52:25 2003] u/j/jangshow/sk/fix_star.c line 263: parse error before (object me)
+
+[Thu May 22 23:52:25 2003] u/j/jangshow/sk/fix_star.c line 266: Undefined variable 'me' before query_skill("star-sw
+
+[Thu May 22 23:52:25 2003] u/j/jangshow/sk/fix_star.c line 266: Illegal LHS before the end of line
+
+[Thu May 22 23:52:25 2003] u/j/jangshow/sk/fix_star.c line 299: Warning: Value of conditional expression is unused before  valid_learn(object 
+
+[Thu May 22 23:54:11 2003] u/j/jangshow/sk/new_pick.c line 23: parse error before  : return notify_fai
+
+[Thu May 22 23:54:11 2003] u/j/jangshow/sk/new_pick.c line 34: Illegal LHS before the end of line
+
+[Thu May 22 23:54:11 2003] u/j/jangshow/sk/new_pick.c line 34: parse error before the end of line
+
+[Thu May 22 23:54:11 2003] u/j/jangshow/sk/new_pick.c line 35: Illegal LHS before the end of line
+
+[Thu May 22 23:54:11 2003] u/j/jangshow/sk/new_pick.c line 35: parse error before the end of line
+
+[Thu May 22 23:54:11 2003] u/j/jangshow/sk/new_pick.c line 36: Illegal LHS before the end of line
+
+[Thu May 22 23:54:57 2003] u/j/jangshow/sk/practice_bone.c line 25: parse error before  if(me->query_skill(
+
+[Fri May 23 00:02:56 2003] u/j/jangshow/sk/practice_bone.c line 25: parse error before  if(me->query_skill(
+
+[Fri May 23 00:05:45 2003] u/j/jangshow/sk/practice_bone.c line 23: parse error before  if(me->query_skill(
+
+[Fri May 23 00:06:19 2003] u/j/jangshow/sk/practice_bone.c line 23: Undefined function elseif before  
+
+[Fri May 23 00:06:19 2003] u/j/jangshow/sk/practice_bone.c line 24: parse error before ->add("max_hp",200);
+
+[Fri May 23 00:08:50 2003] u/j/jangshow/sk/practice_bone.c line 24: parse error before  if(me->query_skill(
+
+[Fri May 23 00:08:50 2003] u/j/jangshow/sk/practice_bone.c line 36: Warning: Value of conditional expression is unused before ->improve_skill("pra
+
+[Fri May 23 00:08:50 2003] u/j/jangshow/sk/practice_bone.c line 39: Reserved type name unexpected. before (object me)
+
+[Fri May 23 00:08:50 2003] u/j/jangshow/sk/practice_bone.c line 39: parse error before (object me)
+
+[Sun May 25 00:35:53 2003] u/j/jangshow/sk/sorsin_force.c line 65: parse error before ")+"¨ü¨ì¤F"+HIR("+da
+
+[Sun May 25 20:34:38 2003] u/j/jangshow/sk/weapon-master.c line 16: Undefined variable 'weapon' before me->query_temp("weap
+
+[Sun May 25 20:34:38 2003] u/j/jangshow/sk/weapon-master.c line 17: Left argument of -> is not a class before (1+0.03*sk_lv); //³o
+
+[Sun May 25 20:34:38 2003] u/j/jangshow/sk/weapon-master.c line 24: parse error before Ë³ÆªZ¾¹®É,´£¤É¤§§ðÀ»
+
+[Sun May 25 20:50:31 2003] u/j/jangshow/sk/uangoo-steps.c line 118: Redeclaration of function valid_learn. before the end of line
+
+[Sun May 25 21:21:04 2003] u/j/jangshow/sk/sorsin_force2.c line 16: Reserved type name unexpected. before ,wp;
+
+[Sun May 25 21:21:04 2003] u/j/jangshow/sk/sorsin_force2.c line 16: parse error before ,wp;
+
+[Sun May 25 21:21:04 2003] u/j/jangshow/sk/sorsin_force2.c line 19: Undefined variable 'me' before ;
+
+[Sun May 25 21:21:04 2003] u/j/jangshow/sk/sorsin_force2.c line 19: Illegal LHS before the end of line
+
+[Sun May 25 21:21:04 2003] u/j/jangshow/sk/sorsin_force2.c line 20: Undefined variable 'target' before  return notify_fail(
+
+[Sun May 25 21:21:04 2003] u/j/jangshow/sk/sorsin_force2.c line 23: Undefined variable 'weapon' before me->query_temp("weap
+
+[Sun May 25 21:21:04 2003] u/j/jangshow/sk/sorsin_force2.c line 87: Warning: Unknown \ escape. before I\n"
+
+[Sun May 25 21:21:47 2003] u/j/jangshow/sk/sorsin_force2.c line 86: parse error before (target_hp;target_hp
+
+[Sun May 25 21:21:47 2003] u/j/jangshow/sk/sorsin_force2.c line 87: Warning: Unknown \ escape. before I\n"
+
+[Sun May 25 21:21:47 2003] u/j/jangshow/sk/sorsin_force2.c line 95: Illegal LHS before  ) wp->attack();
+
+[Sun May 25 21:21:47 2003] u/j/jangshow/sk/sorsin_force2.c line 95: parse error before  ) wp->attack();
+
+[Sun May 25 21:23:45 2003] u/j/jangshow/sk/sorsin_force2.c line 86: parse error before (target_hp;target_hp
+
+[Sun May 25 21:23:45 2003] u/j/jangshow/sk/sorsin_force2.c line 87: Warning: Unknown \ escape. before I\n"
+
+[Sun May 25 21:23:45 2003] u/j/jangshow/sk/sorsin_force2.c line 94: Illegal LHS before  ) wp->attack();
+
+[Sun May 25 21:23:45 2003] u/j/jangshow/sk/sorsin_force2.c line 94: parse error before  ) wp->attack();
+
+[Sun May 25 21:32:58 2003] u/j/jangshow/sk/sorsin_force2.c line 88: Warning: Unknown \ escape. before I\n"
+
+[Sun May 25 21:44:50 2003] u/j/jangshow/sk/sorsin_force2.c line 89: Warning: Unknown \ escape. before I\n"
+
+[Sun May 25 21:46:38 2003] u/j/jangshow/sk/sorsin_force2.c line 89: Warning: Unknown \ escape. before I\n"
+
+[Sun May 25 21:47:39 2003] u/j/jangshow/sk/sorsin_force2.c line 89: Warning: Unknown \ escape. before \¡I\n"
+
+[Sun May 25 21:47:39 2003] u/j/jangshow/sk/sorsin_force2.c line 89: Warning: Unknown \ escape. before I\n"
+
+[Sun May 25 22:21:11 2003] u/j/jangshow/sk/sorsin_force.c line 135: parse error before ->report_status(targ
+
+[Sun May 25 22:21:11 2003] u/j/jangshow/sk/sorsin_force.c line 137: Illegal LHS before  ) wp->attack()
+
+[Sun May 25 22:21:11 2003] u/j/jangshow/sk/sorsin_force.c line 137: parse error before  ) wp->attack()
+
+[Sun May 25 22:22:13 2003] u/j/jangshow/sk/sorsin_force.c line 135: parse error before ->report_status(targ
+
+[Sun May 25 22:22:13 2003] u/j/jangshow/sk/sorsin_force.c line 137: Illegal LHS before  ) wp->attack()
+
+[Sun May 25 22:22:13 2003] u/j/jangshow/sk/sorsin_force.c line 137: parse error before  ) wp->attack()
+
+[Sun May 25 22:26:10 2003] u/j/jangshow/sk/sorsin_force.c line 138: parse error before ->receive_damage("ap
+
+[Sun May 25 22:26:10 2003] u/j/jangshow/sk/sorsin_force.c line 143: Illegal LHS before  ) wp->attack()
+
+[Sun May 25 22:26:10 2003] u/j/jangshow/sk/sorsin_force.c line 143: parse error before  ) wp->attack()
+
+[Sun May 25 22:32:02 2003] u/j/jangshow/sk/sorsin_force.c line 144: parse error before t\t³º¾É¥X¤FÂù­«"HIC"
+
+[Sun May 25 22:32:02 2003] u/j/jangshow/sk/sorsin_force.c line 155: Illegal LHS before  ) wp->attack()
+
+[Sun May 25 22:32:02 2003] u/j/jangshow/sk/sorsin_force.c line 155: parse error before  wp->attack()
+
+[Sun May 25 22:33:18 2003] u/j/jangshow/sk/sorsin_force.c line 144: parse error before t\t³º¾É¥X¤FÂù­«"HIC"
+
+[Sun May 25 22:33:18 2003] u/j/jangshow/sk/sorsin_force.c line 155: Illegal LHS before  ) wp->attack()
+
+[Sun May 25 22:33:18 2003] u/j/jangshow/sk/sorsin_force.c line 155: parse error before  wp->attack()
+
+[Sun May 25 22:34:31 2003] u/j/jangshow/sk/sorsin_force.c line 144: parse error before t\t³º¾É¥X¤FÂù­«"HIC"
+
+[Sun May 25 22:34:31 2003] u/j/jangshow/sk/sorsin_force.c line 156: Illegal LHS before  ) wp->attack()
+
+[Sun May 25 22:34:31 2003] u/j/jangshow/sk/sorsin_force.c line 156: parse error before  wp->attack()
+
+[Sun May 25 22:36:31 2003] u/j/jangshow/sk/sorsin_force.c line 142: parse error before t\t¡y"HIC"´Ý¤ë¤§¯¦¡E
+
+[Sun May 25 22:36:31 2003] u/j/jangshow/sk/sorsin_force.c line 143: Illegal terminator before ªÑ¼C®ð±½¿º¦b"+target
+
+[Sun May 25 22:41:05 2003] u/j/jangshow/sk/sorsin_force.c line 144: parse error before ->receive_damage("ap
+
+[Sun May 25 22:41:05 2003] u/j/jangshow/sk/sorsin_force.c line 150: Illegal LHS before  ) wp->attack()
+
+[Sun May 25 22:41:05 2003] u/j/jangshow/sk/sorsin_force.c line 150: parse error before  ) wp->attack()
+
+[Sun May 25 22:41:27 2003] u/j/jangshow/sk/sorsin_force.c line 140: parse error before ->receive_damave("mp
+
+[Sun May 25 22:41:27 2003] u/j/jangshow/sk/sorsin_force.c line 144: Illegal LHS before  ) wp->attack()
+
+[Sun May 25 22:41:27 2003] u/j/jangshow/sk/sorsin_force.c line 144: parse error before  ) wp->attack()
+
+[Sun May 25 22:41:53 2003] u/j/jangshow/sk/sorsin_force.c line 142: parse error before the end of line
+
+[Sun May 25 22:42:59 2003] u/j/jangshow/sk/sorsin_force.c line 142: parse error before ( !me ) return
+
+[Sun May 25 22:54:15 2003] u/j/jangshow/sk/sorsin_force.c line 117: Undefined variable 'target_hp' before target_hp<11;target_
+
+[Sun May 25 23:21:33 2003] u/j/jangshow/sk/sorsin_force.c line 112: parse error before the end of line
+
+[Sun May 25 23:21:33 2003] u/j/jangshow/sk/sorsin_force.c line 128: Illegal LHS before  ) wp->attack();
+
+[Sun May 25 23:21:33 2003] u/j/jangshow/sk/sorsin_force.c line 128: parse error before  ) wp->attack();
+
+[Sun May 25 23:21:33 2003] u/j/jangshow/sk/sorsin_force.c line 137: Reserved type name unexpected. before (object me)
+
+[Sun May 25 23:21:33 2003] u/j/jangshow/sk/sorsin_force.c line 137: parse error before (object me)
+
+[Sun May 25 23:23:13 2003] u/j/jangshow/sk/sorsin_force.c line 147: parse error before the end of file
+
+[Sun May 25 23:25:22 2003] u/j/jangshow/sk/q.c line 145: parse error before  100
+
+[Sun May 25 23:27:19 2003] u/j/jangshow/sk/q.c line 145: parse error before  100
+
+[Mon May 26 15:27:58 2003] u/j/jangshow/sk/p.c line 32: Warning: Value of conditional expression is unused before the end of line
+
+[Mon May 26 15:27:58 2003] u/j/jangshow/sk/p.c line 36: parse error before {
+
+[Mon May 26 15:27:58 2003] u/j/jangshow/sk/p.c line 37: Illegal LHS before the end of line
+
+[Mon May 26 15:27:58 2003] u/j/jangshow/sk/p.c line 55: parse error before  1; 
+
+[Mon May 26 15:33:11 2003] u/j/jangshow/sk/p.c line 32: Warning: Value of conditional expression is unused before the end of line
+
+[Mon May 26 15:33:11 2003] u/j/jangshow/sk/p.c line 36: parse error before {
+
+[Mon May 26 15:33:11 2003] u/j/jangshow/sk/p.c line 37: Illegal LHS before the end of line
+
+[Mon May 26 15:33:11 2003] u/j/jangshow/sk/p.c line 55: parse error before  1; 
+
+[Mon May 26 15:33:28 2003] u/j/jangshow/sk/p.c line 32: Warning: Value of conditional expression is unused before the end of line
+
+[Mon May 26 15:33:28 2003] u/j/jangshow/sk/p.c line 36: parse error before {
+
+[Mon May 26 15:33:28 2003] u/j/jangshow/sk/p.c line 37: Illegal LHS before the end of line
+
+[Mon May 26 15:33:28 2003] u/j/jangshow/sk/p.c line 55: parse error before  1; 
+
+[Mon May 26 20:44:58 2003] u/j/jangshow/sk/sorsin_force.c line 50: parse error before   
+
+[Mon May 26 20:44:58 2003] u/j/jangshow/sk/sorsin_force.c line 58: Illegal LHS before the end of line
+
+[Mon May 26 20:44:58 2003] u/j/jangshow/sk/sorsin_force.c line 58: parse error before the end of line
+
+[Mon May 26 20:44:58 2003] u/j/jangshow/sk/sorsin_force.c line 59: Illegal LHS before              message
+
+[Mon May 26 20:44:58 2003] u/j/jangshow/sk/sorsin_force.c line 59: parse error before              message
+
+[Mon May 26 20:44:58 2003] u/j/jangshow/sk/sorsin_force.c line 64: Illegal LHS before  ) wp->attack(); 
+
+[Mon May 26 20:49:23 2003] u/j/jangshow/sk/sorsin_force.c line 145: parse error before  100
+
+[Mon May 26 20:51:02 2003] u/j/jangshow/sk/sorsin_force.c line 144: Reserved type name unexpected. before (object ob
+
+[Mon May 26 20:51:02 2003] u/j/jangshow/sk/sorsin_force.c line 144: parse error before (object ob
+
+[Mon May 26 21:14:45 2003] u/j/jangshow/sk/sorsin_force.c line 48: parse error before the end of line
+
+[Mon May 26 21:14:45 2003] u/j/jangshow/sk/sorsin_force.c line 58: Illegal LHS before the end of line
+
+[Mon May 26 21:14:45 2003] u/j/jangshow/sk/sorsin_force.c line 58: parse error before the end of line
+
+[Mon May 26 21:14:45 2003] u/j/jangshow/sk/sorsin_force.c line 59: Illegal LHS before              message
+
+[Mon May 26 21:14:45 2003] u/j/jangshow/sk/sorsin_force.c line 59: parse error before              message
+
+[Mon May 26 21:14:45 2003] u/j/jangshow/sk/sorsin_force.c line 65: Illegal LHS before  ) wp->attack(); 
+
+[Mon May 26 21:15:57 2003] u/j/jangshow/sk/sorsin_force.c line 48: parse error before the end of line
+
+[Mon May 26 21:15:57 2003] u/j/jangshow/sk/sorsin_force.c line 58: Illegal LHS before the end of line
+
+[Mon May 26 21:15:57 2003] u/j/jangshow/sk/sorsin_force.c line 58: parse error before the end of line
+
+[Mon May 26 21:15:57 2003] u/j/jangshow/sk/sorsin_force.c line 59: Illegal LHS before              message
+
+[Mon May 26 21:15:57 2003] u/j/jangshow/sk/sorsin_force.c line 59: parse error before              message
+
+[Mon May 26 21:15:57 2003] u/j/jangshow/sk/sorsin_force.c line 65: Illegal LHS before  ) wp->attack(); 
+
+[Tue May 27 18:56:52 2003] u/j/jangshow/sk/sorsin_force_fix.c line 12: parse error before (
+
+[Tue May 27 18:56:52 2003] u/j/jangshow/sk/sorsin_force_fix.c line 30: Undefined variable 'me' before query_skill("sorsin_
+
+[Tue May 27 18:56:52 2003] u/j/jangshow/sk/sorsin_force_fix.c line 30: Illegal LHS before  
+
+[Tue May 27 18:56:52 2003] u/j/jangshow/sk/sorsin_force_fix.c line 31: Missing type for global variable declaration before the end of line
+
+[Tue May 27 18:56:52 2003] u/j/jangshow/sk/sorsin_force_fix.c line 32: Undefined variable 'target' before query_armor();
+
+[Tue May 27 18:56:52 2003] u/j/jangshow/sk/sorsin_force_fix.c line 32: Missing type for global variable declaration before the end of line
+
+[Tue May 27 18:57:58 2003] u/j/jangshow/sk/sorsin_force_fix.c line 12: parse error before (
+
+[Tue May 27 18:57:58 2003] u/j/jangshow/sk/sorsin_force_fix.c line 32: Undefined variable 'me' before ;
+
+[Tue May 27 18:57:58 2003] u/j/jangshow/sk/sorsin_force_fix.c line 32: Illegal LHS before the end of line
+
+[Tue May 27 18:57:58 2003] u/j/jangshow/sk/sorsin_force_fix.c line 33: parse error before ( !target ) return n
+
+[Tue May 27 18:58:52 2003] u/j/jangshow/sk/sorsin_force_fix.c line 12: parse error before (
+
+[Tue May 27 18:58:52 2003] u/j/jangshow/sk/sorsin_force_fix.c line 30: Illegal LHS before the end of line
+
+[Tue May 27 18:58:52 2003] u/j/jangshow/sk/sorsin_force_fix.c line 31: parse error before (!me) return 0;
+
+[Tue May 27 19:01:05 2003] u/j/jangshow/sk/sorsin_force_fix.c line 12: parse error before                "\n"H
+
+[Tue May 27 19:01:05 2003] u/j/jangshow/sk/sorsin_force_fix.c line 29: Illegal LHS before the end of line
+
+[Tue May 27 19:01:05 2003] u/j/jangshow/sk/sorsin_force_fix.c line 30: parse error before (!me) return 0;
+
+[Tue May 27 19:01:35 2003] u/j/jangshow/sk/ss.c line 12: parse error before {              "\n"H
+
+[Tue May 27 19:01:35 2003] u/j/jangshow/sk/ss.c line 29: Illegal LHS before the end of line
+
+[Tue May 27 19:01:35 2003] u/j/jangshow/sk/ss.c line 30: parse error before (!me) return 0;
+
+[Tue May 27 19:02:09 2003] u/j/jangshow/sk/ss.c line 12: parse error before {              "\n"H
+
+[Tue May 27 19:02:09 2003] u/j/jangshow/sk/ss.c line 29: Illegal LHS before the end of line
+
+[Tue May 27 19:02:09 2003] u/j/jangshow/sk/ss.c line 30: parse error before (!me) return 0;
+
+[Tue May 27 20:59:23 2003] u/j/jangshow/sk/sorsin_force.c line 18: Undefined variable 'return1' before the end of line
+
+[Tue May 27 20:59:23 2003] u/j/jangshow/sk/sorsin_force.c line 147: parse error before  100
+
+[Tue May 27 20:59:39 2003] u/j/jangshow/sk/sorsin_force.c line 147: parse error before  100
+
+[Tue May 27 21:01:44 2003] u/j/jangshow/sk/sorsin_force.c line 146: parse error before  100
+
+[Tue May 27 21:05:41 2003] u/j/jangshow/sk/sorsin_force.c line 148: parse error before the end of file
+
+[Tue May 27 21:06:13 2003] u/j/jangshow/sk/sorsin_force.c line 149: End of file in a comment before the end of file
+
+[Tue May 27 21:06:45 2003] u/j/jangshow/sk/sorsin_force.c line 149: End of file in a comment before the end of file
+
+[Tue May 27 21:06:45 2003] u/j/jangshow/sk/sorsin_force.c line 149: parse error before the end of file
+
+[Tue May 27 21:10:34 2003] u/j/jangshow/sk/sorsin_force.c line 16: Undefined variable 'wizardp' before  return notify_fail(
+
+[Tue May 27 21:10:34 2003] u/j/jangshow/sk/sorsin_force.c line 145: parse error before  improve_limite(obje
+
+[Tue May 27 21:11:14 2003] u/j/jangshow/sk/sorsin_force.c line 145: parse error before  improve_limite(obje
+
+[Tue May 27 21:11:47 2003] u/j/jangshow/sk/sorsin_force.c line 145: parse error before  
+
+[Tue May 27 21:11:47 2003] u/j/jangshow/sk/sorsin_force.c line 149: End of file in a comment before the end of file
+
+[Tue May 27 21:12:37 2003] u/j/jangshow/sk/sorsin_force.c line 146: parse error before  100
+
+[Tue May 27 21:14:09 2003] u/j/jangshow/sk/sorsin_force.c line 148: parse error before  100
+
+[Tue May 27 21:14:54 2003] u/j/jangshow/sk/sorsin_force.c line 150: parse error before  100
+
+[Tue May 27 21:17:16 2003] u/j/jangshow/sk/sorsin_force.c line 146: parse error before  100
+
+[Wed May 28 22:18:50 2003] u/j/jangshow/sk/ss.c line 12: parse error before {              "\n"H
+
+[Wed May 28 22:18:50 2003] u/j/jangshow/sk/ss.c line 29: Illegal LHS before the end of line
+
+[Wed May 28 22:18:50 2003] u/j/jangshow/sk/ss.c line 30: parse error before (!me) return 0;
+
+[Wed May 28 22:19:34 2003] u/j/jangshow/sk/ss.c line 12: parse error before {              "\n"H
+
+[Wed May 28 22:19:34 2003] u/j/jangshow/sk/ss.c line 29: Illegal LHS before the end of line
+
+[Wed May 28 22:19:34 2003] u/j/jangshow/sk/ss.c line 30: parse error before (!me) return 0;
+
+[Wed May 28 22:43:07 2003] u/j/jangshow/sk/ss.c line 46: parse error before the end of line
+
+[Wed May 28 22:43:07 2003] u/j/jangshow/sk/ss.c line 59: Illegal LHS before the end of line
+
+[Wed May 28 22:43:07 2003] u/j/jangshow/sk/ss.c line 59: parse error before the end of line
+
+[Wed May 28 22:43:07 2003] u/j/jangshow/sk/ss.c line 62: Undefined variable 'me' before ;
+
+[Wed May 28 22:43:07 2003] u/j/jangshow/sk/ss.c line 62: Illegal LHS before the end of line
+
+[Wed May 28 22:43:07 2003] u/j/jangshow/sk/ss.c line 62: parse error before the end of line
+
+[Wed May 28 22:43:57 2003] u/j/jangshow/sk/ss.c line 91: Undefined variable 'arg' before  one) return notify_
+
+[Wed May 28 22:43:57 2003] u/j/jangshow/sk/ss.c line 91: Undefined variable 'one' before  return notify_fail(
+
+[Wed May 28 22:43:57 2003] u/j/jangshow/sk/ss.c line 112: Undefined variable 'two' before  return notify_fail(
+
+[Wed May 28 22:43:57 2003] u/j/jangshow/sk/ss.c line 119: parse error before {
+
+[Wed May 28 22:43:57 2003] u/j/jangshow/sk/ss.c line 120: Illegal LHS before the end of line
+
+[Wed May 28 22:43:57 2003] u/j/jangshow/sk/ss.c line 136: parse error before (arg != three) retur
+
+[Wed May 28 22:45:44 2003] u/j/jangshow/sk/ss.c line 91: Undefined variable 'arg' before  "one") return notif
+
+[Wed May 28 22:45:44 2003] u/j/jangshow/sk/ss.c line 119: parse error before {
+
+[Wed May 28 22:45:44 2003] u/j/jangshow/sk/ss.c line 120: Illegal LHS before the end of line
+
+[Wed May 28 22:45:44 2003] u/j/jangshow/sk/ss.c line 136: parse error before (arg != "three") ret
+
+[Wed May 28 22:46:06 2003] u/j/jangshow/sk/ss.c line 119: parse error before {
+
+[Wed May 28 22:46:06 2003] u/j/jangshow/sk/ss.c line 120: Illegal LHS before the end of line
+
+[Wed May 28 22:46:06 2003] u/j/jangshow/sk/ss.c line 136: parse error before (arg != "three") ret
+
+[Wed May 28 22:51:14 2003] u/j/jangshow/sk/ss.c line 119: parse error before {
+
+[Wed May 28 22:51:14 2003] u/j/jangshow/sk/ss.c line 120: Illegal LHS before the end of line
+
+[Wed May 28 22:51:14 2003] u/j/jangshow/sk/ss.c line 136: parse error before (arg != "three") ret
+
+[Wed May 28 22:56:03 2003] u/j/jangshow/sk/ss.c line 119: parse error before {
+
+[Wed May 28 22:56:03 2003] u/j/jangshow/sk/ss.c line 120: Illegal LHS before the end of line
+
+[Wed May 28 22:56:03 2003] u/j/jangshow/sk/ss.c line 136: parse error before (arg != "three") ret
+
+[Wed May 28 23:00:27 2003] u/j/jangshow/sk/ss.c line 119: parse error before {
+
+[Wed May 28 23:00:27 2003] u/j/jangshow/sk/ss.c line 120: Illegal LHS before the end of line
+
+[Wed May 28 23:00:27 2003] u/j/jangshow/sk/ss.c line 136: parse error before (arg != "three") ret
+
+[Wed May 28 23:04:36 2003] u/j/jangshow/sk/ss.c line 122: parse error before {
+
+[Wed May 28 23:04:36 2003] u/j/jangshow/sk/ss.c line 123: Illegal LHS before the end of line
+
+[Wed May 28 23:04:36 2003] u/j/jangshow/sk/ss.c line 140: parse error before (arg != "three") ret
+
+[Wed May 28 23:20:41 2003] u/j/jangshow/sk/ss.c line 122: parse error before {
+
+[Wed May 28 23:20:41 2003] u/j/jangshow/sk/ss.c line 123: Illegal LHS before the end of line
+
+[Wed May 28 23:20:41 2003] u/j/jangshow/sk/ss.c line 140: parse error before (arg != "three") ret
+
+[Wed May 28 23:32:30 2003] u/j/jangshow/sk/ss.c line 46: parse error before the end of line
+
+[Wed May 28 23:32:30 2003] u/j/jangshow/sk/ss.c line 59: Illegal LHS before the end of line
+
+[Wed May 28 23:32:30 2003] u/j/jangshow/sk/ss.c line 59: parse error before the end of line
+
+[Wed May 28 23:32:30 2003] u/j/jangshow/sk/ss.c line 62: Undefined variable 'me' before ;
+
+[Wed May 28 23:32:30 2003] u/j/jangshow/sk/ss.c line 62: Illegal LHS before the end of line
+
+[Wed May 28 23:32:30 2003] u/j/jangshow/sk/ss.c line 62: parse error before the end of line
+
+[Wed May 28 23:35:23 2003] u/j/jangshow/sk/ss.c line 46: parse error before the end of line
+
+[Wed May 28 23:35:23 2003] u/j/jangshow/sk/ss.c line 59: Illegal LHS before the end of line
+
+[Wed May 28 23:35:23 2003] u/j/jangshow/sk/ss.c line 59: parse error before the end of line
+
+[Wed May 28 23:35:23 2003] u/j/jangshow/sk/ss.c line 62: Undefined variable 'me' before ;
+
+[Wed May 28 23:35:23 2003] u/j/jangshow/sk/ss.c line 62: Illegal LHS before the end of line
+
+[Wed May 28 23:35:23 2003] u/j/jangshow/sk/ss.c line 62: parse error before the end of line
+
+[Wed May 28 23:35:57 2003] u/j/jangshow/sk/ss.c line 123: parse error before {
+
+[Wed May 28 23:35:57 2003] u/j/jangshow/sk/ss.c line 124: Illegal LHS before the end of line
+
+[Wed May 28 23:35:57 2003] u/j/jangshow/sk/ss.c line 141: parse error before (arg != "three") ret
+
+[Wed May 28 23:38:38 2003] u/j/jangshow/sk/ss.c line 123: parse error before {
+
+[Wed May 28 23:38:38 2003] u/j/jangshow/sk/ss.c line 124: Illegal LHS before the end of line
+
+[Wed May 28 23:38:38 2003] u/j/jangshow/sk/ss.c line 141: parse error before (arg != "three") ret
+
+[Wed May 28 23:43:46 2003] u/j/jangshow/sk/ss.c line 162: parse error before ->start_busy(te/2);
+
+[Wed May 28 23:43:46 2003] u/j/jangshow/sk/ss.c line 174: parse error before msg += "\n"HIW""+tar
+
+[Wed May 28 23:43:46 2003] u/j/jangshow/sk/ss.c line 174: Illegal LHS before the end of line
+
+[Wed May 28 23:43:46 2003] u/j/jangshow/sk/ss.c line 174: parse error before the end of line
+
+[Wed May 28 23:43:46 2003] u/j/jangshow/sk/ss.c line 181: Illegal LHS before ("\n"HIC"$N¤@ªÑ§@®ð¡
+
+[Wed May 28 23:43:46 2003] u/j/jangshow/sk/ss.c line 181: parse error before ("\n"HIC"$N¤@ªÑ§@®ð¡
+
+[Thu May 29 18:44:18 2003] u/j/jangshow/sk/sorsin_force2.c line 192: parse error before (i=0;sizeof(sor_str)
+
+[Thu May 29 18:44:18 2003] u/j/jangshow/sk/sorsin_force2.c line 192: Illegal LHS before sizeof(sor_str);i++
+
+[Thu May 29 18:44:18 2003] u/j/jangshow/sk/sorsin_force2.c line 194: parse error before =sor_str[random(size
+
+[Thu May 29 18:44:18 2003] u/j/jangshow/sk/sorsin_force2.c line 195: Illegal LHS before (msg,me,target)
+
+[Thu May 29 18:44:18 2003] u/j/jangshow/sk/sorsin_force2.c line 195: parse error before (msg,me,target)
+
+[Thu May 29 18:51:28 2003] u/j/jangshow/sk/sorsin_force2.c line 101: Warning: Unknown \ escape. before à¡C\n");
+
+[Thu May 29 18:51:28 2003] u/j/jangshow/sk/sorsin_force2.c line 192: parse error before ("\n"HIC"$N¤@ªÑ§@®ð¡
+
+[Thu May 29 18:51:28 2003] u/j/jangshow/sk/sorsin_force2.c line 193: Illegal LHS before sizeof(sor_str);i++
+
+[Thu May 29 18:51:28 2003] u/j/jangshow/sk/sorsin_force2.c line 195: parse error before =sor_str[random(size
+
+[Thu May 29 18:51:28 2003] u/j/jangshow/sk/sorsin_force2.c line 196: Illegal LHS before (msg,me,target)
+
+[Thu May 29 18:51:28 2003] u/j/jangshow/sk/sorsin_force2.c line 196: parse error before (msg,me,target)
+
+[Thu May 29 18:52:13 2003] u/j/jangshow/sk/sorsin_force2.c line 192: parse error before ("\n"HIC"$N¤@ªÑ§@®ð¡
+
+[Thu May 29 18:52:13 2003] u/j/jangshow/sk/sorsin_force2.c line 193: Illegal LHS before sizeof(sor_str);i++
+
+[Thu May 29 18:52:13 2003] u/j/jangshow/sk/sorsin_force2.c line 195: parse error before =sor_str[random(size
+
+[Thu May 29 18:52:13 2003] u/j/jangshow/sk/sorsin_force2.c line 196: Illegal LHS before (msg,me,target)
+
+[Thu May 29 18:52:13 2003] u/j/jangshow/sk/sorsin_force2.c line 196: parse error before (msg,me,target)
+
+[Thu May 29 18:56:54 2003] u/j/jangshow/sk/ss.c line 192: parse error before (i=0;sizeof(sor_str)
+
+[Thu May 29 18:56:54 2003] u/j/jangshow/sk/ss.c line 192: Illegal LHS before sizeof(sor_str);i++
+
+[Thu May 29 18:56:54 2003] u/j/jangshow/sk/ss.c line 194: parse error before =sor_str[random(size
+
+[Thu May 29 18:56:54 2003] u/j/jangshow/sk/ss.c line 195: Illegal LHS before (msg,me,target)
+
+[Thu May 29 18:56:54 2003] u/j/jangshow/sk/ss.c line 195: parse error before (msg,me,target)
+
+[Sat May 31 23:29:44 2003] u/j/jangshow/sk/q.c line 140: Undefined function temp before ;
+
+[Sat May 31 23:33:45 2003] u/j/jangshow/sk/q.c line 65: Warning: Non-void functions must return a value. before the end of line
+
+[Sat May 31 23:33:45 2003] u/j/jangshow/sk/q.c line 80: Warning: Non-void functions must return a value. before the end of line
+
+[Sat May 31 23:33:45 2003] u/j/jangshow/sk/q.c line 92: Warning: Non-void functions must return a value. before the end of line
+
+[Sat May 31 23:33:45 2003] u/j/jangshow/sk/q.c line 111: Warning: Non-void functions must return a value. before the end of line
+
+[Sat May 31 23:33:45 2003] u/j/jangshow/sk/q.c line 123: Warning: Non-void functions must return a value. before the end of line
+
+[Sat May 31 23:33:45 2003] u/j/jangshow/sk/q.c line 142: Warning: Non-void functions must return a value. before the end of line
+
+[Sat May 31 23:33:45 2003] u/j/jangshow/sk/q.c line 154: Warning: Non-void functions must return a value. before the end of line
+
+[Sat May 31 23:33:45 2003] u/j/jangshow/sk/q.c line 173: Warning: Non-void functions must return a value. before the end of line
+
+[Sat May 31 23:34:35 2003] u/j/jangshow/sk/q.c line 90: Warning: Non-void functions must return a value. before the end of line
+
+[Sun Jun  1 11:44:34 2003] u/j/jangshow/sk/sorsin_force3.c line 71: parse error before ü¨ì("+damage+")ÂIªº¶
+
+[Sun Jun  1 11:44:34 2003] u/j/jangshow/sk/sorsin_force3.c line 86: Illegal LHS before  
+
+[Sun Jun  1 11:44:34 2003] u/j/jangshow/sk/sorsin_force3.c line 86: parse error before  
+
+[Sun Jun  1 11:44:34 2003] u/j/jangshow/sk/sorsin_force3.c line 93: Illegal LHS before the end of line
+
+[Sun Jun  1 11:44:34 2003] u/j/jangshow/sk/sorsin_force3.c line 93: parse error before the end of line
+
+[Sun Jun  1 11:44:34 2003] u/j/jangshow/sk/sorsin_force3.c line 99: Illegal LHS before  
+
+[Sun Jun  1 11:46:39 2003] u/j/jangshow/sk/sorsin_force3.c line 71: parse error before +damage+")ÂIªº¶Ë®`]\
+
+[Sun Jun  1 11:46:39 2003] u/j/jangshow/sk/sorsin_force3.c line 86: Illegal LHS before  
+
+[Sun Jun  1 11:46:39 2003] u/j/jangshow/sk/sorsin_force3.c line 86: parse error before  
+
+[Sun Jun  1 11:46:39 2003] u/j/jangshow/sk/sorsin_force3.c line 93: Illegal LHS before the end of line
+
+[Sun Jun  1 11:46:39 2003] u/j/jangshow/sk/sorsin_force3.c line 93: parse error before the end of line
+
+[Sun Jun  1 11:46:39 2003] u/j/jangshow/sk/sorsin_force3.c line 99: Illegal LHS before  
+
+[Wed Jun  4 22:59:43 2003] u/j/jangshow/sk/sorsin_force3.c line 60: Undefined variable 'msg' before  "\n"HIW""+target->n
+
+[Wed Jun  4 23:14:08 2003] u/j/jangshow/sk/sorsin_force3.c line 80: Warning: Non-void functions must return a value. before the end of line
+
+[Fri Jun  6 23:36:45 2003] u/j/jangshow/sk/sorsin_force3.c line 73: Undefined function msg before ,me,target);
+
+[Sat Jun  7 12:34:46 2003] u/j/jangshow/sk/sorsin_force3.c line 56: Warning: Unknown \ escape. before \¯à¡A¸Ô¨£ help sorsi
+
+[Sat Jun  7 12:34:46 2003] u/j/jangshow/sk/sorsin_force3.c line 56: Warning: Unknown \ escape. before à¡A¸Ô¨£ help sorsin_
+
+[Sat Jun  7 12:55:12 2003] u/j/jangshow/sk/sorsin_force3.c line 141: parse error before o¦b"HIW"¥Õ¥ú"HIR"°{§
+
+[Sat Jun  7 12:55:12 2003] u/j/jangshow/sk/sorsin_force3.c line 142: $var illegal outside of function pointer. before N±N¤º¤O³eª`©ó¤â¤¤¤§¼
+
+[Sat Jun  7 12:55:12 2003] u/j/jangshow/sk/sorsin_force3.c line 162: $var illegal outside of function pointer. before Nªº©Û¦¡¡C\n"NOR;
+
+[Sat Jun  7 12:55:12 2003] u/j/jangshow/sk/sorsin_force3.c line 172: $var illegal outside of function pointer. before N¤@ªÑ§@®ð¡I±N"HIB"¤º
+
+[Sat Jun  7 12:55:12 2003] u/j/jangshow/sk/sorsin_force3.c line 172: Illegal terminator before ªÑ§@®ð¡I±N"HIB"¤º«l"
+
+[Sat Jun  7 13:18:29 2003] u/j/jangshow/sk/sorsin_force3.c line 190: parse error before the end of line
+
+[Sat Jun  7 13:20:42 2003] u/j/jangshow/sk/sorsin_force3.c line 190: parse error before the end of line
+
+[Sat Jun  7 13:20:44 2003] u/j/jangshow/sk/sorsin_force3.c line 190: parse error before the end of line
+
+[Sat Jun  7 13:20:44 2003] u/j/jangshow/sk/sorsin_force3.c line 190: parse error before the end of line
+
+[Sat Jun  7 13:20:50 2003] u/j/jangshow/sk/sorsin_force3.c line 190: parse error before the end of line
+
+[Sat Jun  7 13:32:06 2003] u/j/jangshow/sk/sorsin_force3.c line 198: parse error before  100
+
+[Sun Jun  8 18:00:38 2003] u/j/jangshow/high-level/wind-child.c line 20: Undefined function set_Merits before ;
+
+[Sun Jun  8 18:01:16 2003] u/j/jangshow/high-level/wind-child.c line 47: Undefined function set_Merits before ;
+
+[Mon Jun  9 18:09:44 2003] u/j/jangshow/sk/test.c line 197: parse error before  100
+
+[Mon Jun  9 18:13:07 2003] u/j/jangshow/sk/test.c line 188: parse error before the end of line
+
+[Sun Jun 15 20:38:00 2003] u/j/jangshow/sk/sorsin_force_yet.c line 13: Undefined function wrute before ;
+
+[Tue Jun 24 17:04:58 2003] u/j/jangshow/bug-char-jail.c line 12: Undefined variable 'HIM' before NOR);
+
+[Tue Jun 24 17:04:58 2003] u/j/jangshow/bug-char-jail.c line 12: parse error before NOR);
+
+[Tue Jun 24 17:04:58 2003] u/j/jangshow/bug-char-jail.c line 30: Illegal LHS before the end of line
+
+[Tue Jun 24 17:04:58 2003] u/j/jangshow/bug-char-jail.c line 30: parse error before the end of line
+
+[Tue Jun 24 17:04:58 2003] u/j/jangshow/bug-char-jail.c line 65: Illegal LHS before the end of line
+
+[Tue Jun 24 17:04:58 2003] u/j/jangshow/bug-char-jail.c line 65: parse error before the end of line
+
+[Tue Jun 24 17:05:44 2003] u/j/jangshow/jail.c line 9: Undefined variable 'HIM' before NOR);
+
+[Tue Jun 24 17:05:44 2003] u/j/jangshow/jail.c line 9: parse error before NOR);
+
+[Tue Jun 24 17:05:44 2003] u/j/jangshow/jail.c line 26: Illegal LHS before the end of line
+
+[Tue Jun 24 17:05:44 2003] u/j/jangshow/jail.c line 26: parse error before the end of line
+
+[Tue Jun 24 17:05:44 2003] u/j/jangshow/jail.c line 61: Illegal LHS before the end of line
+
+[Tue Jun 24 17:05:44 2003] u/j/jangshow/jail.c line 61: parse error before the end of line
+
+[Tue Jun 24 17:06:48 2003] u/j/jangshow/jail.c line 9: Undefined variable 'HIM' before NOR);
+
+[Tue Jun 24 17:06:48 2003] u/j/jangshow/jail.c line 9: parse error before NOR);
+
+[Tue Jun 24 17:06:48 2003] u/j/jangshow/jail.c line 26: Illegal LHS before the end of line
+
+[Tue Jun 24 17:06:48 2003] u/j/jangshow/jail.c line 26: parse error before the end of line
+
+[Tue Jun 24 17:06:48 2003] u/j/jangshow/jail.c line 61: Illegal LHS before the end of line
+
+[Tue Jun 24 17:06:48 2003] u/j/jangshow/jail.c line 61: parse error before the end of line
+
+[Sun Jun 29 22:50:58 2003] u/j/jangshow/plk.c line 44: Bad assignment ( int vs object ). before the end of line
+
+[Sun Jun 29 22:50:58 2003] u/j/jangshow/plk.c line 54: Bad assignment ( int vs object ). before the end of line
+
+[Sun Jun 29 22:50:58 2003] u/j/jangshow/plk.c line 61: Warning: Non-void functions must return a value. before the end of line
+
+[Sun Jun 29 22:50:58 2003] u/j/jangshow/plk.c line 67: == always false because of incompatible types ( string vs int ). before  return notify_fail(
+
+[Sun Jun 29 22:50:58 2003] u/j/jangshow/plk.c line 70: Bad assignment ( int vs object ). before the end of line
+
+[Sun Jun 29 22:50:58 2003] u/j/jangshow/plk.c line 78: Bad assignment ( int vs object ). before the end of line
+
+[Sun Jun 29 22:50:58 2003] u/j/jangshow/plk.c line 86: Bad assignment ( int vs object ). before the end of line
+
+[Sun Jul 13 02:18:28 2003] u/j/jangshow/sk/lan_pu.c line 11: parse error before ;
+
+[Sun Jul 13 02:19:34 2003] u/j/jangshow/sk/lan_pu.c line 11: parse error before ;
+
+[Sun Jul 13 02:21:43 2003] u/j/jangshow/sk/lan_pu.c line 11: parse error before ;
+
+[Sun Jul 13 02:23:25 2003] u/j/jangshow/sk/lan_pu.c line 54: Undefined variable 'sor_str' before random(sizeof(au_axe
+
+[Sun Jul 13 02:23:25 2003] u/j/jangshow/sk/lan_pu.c line 66: Reserved type name unexpected. before (object ob)
+
+[Sun Jul 13 02:23:25 2003] u/j/jangshow/sk/lan_pu.c line 66: parse error before (object ob)
+
+[Sun Jul 13 02:24:00 2003] u/j/jangshow/sk/lan_pu.c line 66: Reserved type name unexpected. before (object ob)
+
+[Sun Jul 13 02:24:00 2003] u/j/jangshow/sk/lan_pu.c line 66: parse error before (object ob)
+
+[Sat Jul 26 22:28:51 2003] u/j/jangshow/sk/qww.c line 50: parse error before C);  sk=me->query_sk
+
+[Sat Jul 26 22:28:51 2003] u/j/jangshow/sk/qww.c line 50: Illegal LHS before  
+
+[Sat Jul 26 22:28:51 2003] u/j/jangshow/sk/qww.c line 50: parse error before  
+
+[Sat Jul 26 22:28:51 2003] u/j/jangshow/sk/qww.c line 51: Illegal LHS before the end of line
+
+[Sat Jul 26 22:28:51 2003] u/j/jangshow/sk/qww.c line 51: parse error before the end of line
+
+[Sat Jul 26 22:28:51 2003] u/j/jangshow/sk/qww.c line 52: Illegal LHS before the end of line
+
+[Sat Jul 26 22:29:56 2003] u/j/jangshow/sk/qww.c line 200: parse error before  100
+
+[Sat Jul 26 22:31:08 2003] u/j/jangshow/sk/qww.c line 200: parse error before  100
+
+[Sat Jul 26 22:31:22 2003] u/j/jangshow/sk/qww.c line 49: Illegal lvalue before 0)
+
+[Sat Jul 26 22:31:22 2003] u/j/jangshow/sk/qww.c line 200: parse error before  100
+
+[Sat Jul 26 22:32:18 2003] u/j/jangshow/sk/q.c line 200: parse error before  100
+
+[Sat Jul 26 22:44:40 2003] u/j/jangshow/sk/q.c line 199: parse error before  100
+
+[Sat Jul 26 22:45:10 2003] u/j/jangshow/sk/q.c line 199: parse error before  100
+
+[Fri Aug  1 18:43:25 2003] u/j/jangshow/pill.c line 29: parse error before ,dex;
+
+[Fri Aug  1 18:43:25 2003] u/j/jangshow/pill.c line 30: Illegal LHS before the end of line
+
+[Fri Aug  1 18:43:25 2003] u/j/jangshow/pill.c line 32: Reserved type name unexpected. before me->query_int();
+
+[Fri Aug  1 18:43:25 2003] u/j/jangshow/pill.c line 32: parse error before me->query_int();
+
+[Fri Aug  1 18:43:25 2003] u/j/jangshow/pill.c line 32: Undefined variable 'me' before query_int();
+
+[Fri Aug  1 18:43:25 2003] u/j/jangshow/pill.c line 32: Illegal LHS before the end of line
+
+[Fri Aug  1 18:43:25 2003] u/j/jangshow/pill.c line 60: Warning: Value of conditional expression is unused before (arg=="dex") 
+
+[Fri Aug  1 18:43:59 2003] u/j/jangshow/pill.c line 38: Left argument of -> is not a class before 2;
+
+[Fri Aug  1 18:43:59 2003] u/j/jangshow/pill.c line 46: Left argument of -> is not a class before 2;
+
+[Fri Aug  1 18:43:59 2003] u/j/jangshow/pill.c line 54: Left argument of -> is not a class before 2;
+
+[Fri Aug  1 18:43:59 2003] u/j/jangshow/pill.c line 62: Left argument of -> is not a class before 2;
+
+[Fri Aug  1 18:55:12 2003] u/j/jangshow/pill.c line 2: Cannot #include math.h before inherit ITEM;
+
+[Fri Aug  1 18:58:35 2003] u/j/jangshow/pill.c line 62: Warning: Non-void functions must return a value. before  
+
+[Sat Aug  2 17:23:46 2003] u/j/jangshow/test.c line 135: parse error before  15:
+
+[Sat Aug  2 17:23:46 2003] u/j/jangshow/test.c line 141: Illegal LHS before the end of line
+
+[Sat Aug  2 17:23:46 2003] u/j/jangshow/test.c line 146: break statement outside loop before the end of line
+
+[Sat Aug  2 17:23:46 2003] u/j/jangshow/test.c line 147: parse error before  19..22:
+
+[Sat Aug  2 17:27:27 2003] u/j/jangshow/test.c line 134: Undefined function swtich before {                cas
+
+[Sat Aug  2 17:27:27 2003] u/j/jangshow/test.c line 134: parse error before                 case
+
+[Sat Aug  2 17:27:27 2003] u/j/jangshow/test.c line 140: Illegal LHS before the end of line
+
+[Sat Aug  2 17:27:27 2003] u/j/jangshow/test.c line 145: break statement outside loop before the end of line
+
+[Sat Aug  2 17:27:27 2003] u/j/jangshow/test.c line 146: parse error before  19..22:
+
+[Sat Aug  2 17:27:27 2003] u/j/jangshow/test.c line 178: parse error before the end of line
+
+[Sat Aug  2 22:54:20 2003] u/j/jangshow/sk/six_open.c line 20: Warning: Non-void functions must return a value. before the end of line
+
+[Sat Aug  2 22:54:20 2003] u/j/jangshow/sk/six_open.c line 21: Warning: Non-void functions must return a value. before the end of line
+
+[Sat Aug  2 22:54:20 2003] u/j/jangshow/sk/six_open.c line 22: Warning: Non-void functions must return a value. before the end of line
+
+[Sat Aug  2 22:54:20 2003] u/j/jangshow/sk/six_open.c line 23: Warning: Non-void functions must return a value. before  
+
+[Sat Aug  2 22:54:20 2003] u/j/jangshow/sk/six_open.c line 26: Arguments to < do not have compatible types : ( string vs int ) before the end of line
+
+[Sat Aug  2 22:54:20 2003] u/j/jangshow/sk/six_open.c line 27: parse error before  notify_fail("¨Ï¥Î"+
+
+[Sat Aug  2 22:54:20 2003] u/j/jangshow/sk/six_open.c line 63: Illegal LHS before  
+
+[Sat Aug  2 22:54:20 2003] u/j/jangshow/sk/six_open.c line 63: parse error before  
+
+[Sat Aug  2 22:54:20 2003] u/j/jangshow/sk/six_open.c line 64: Illegal LHS before  
+
+[Sat Aug  2 22:54:20 2003] u/j/jangshow/sk/six_open.c line 64: parse error before  
+
+[Sat Aug  2 22:55:21 2003] u/j/jangshow/sk/six_open.c line 20: Warning: Non-void functions must return a value. before the end of line
+
+[Sat Aug  2 22:55:21 2003] u/j/jangshow/sk/six_open.c line 21: Warning: Non-void functions must return a value. before the end of line
+
+[Sat Aug  2 22:55:21 2003] u/j/jangshow/sk/six_open.c line 22: Warning: Non-void functions must return a value. before the end of line
+
+[Sat Aug  2 22:55:21 2003] u/j/jangshow/sk/six_open.c line 23: Warning: Non-void functions must return a value. before  
+
+[Sat Aug  2 22:55:21 2003] u/j/jangshow/sk/six_open.c line 26: Arguments to < do not have compatible types : ( string vs int ) before the end of line
+
+[Sat Aug  2 22:55:21 2003] u/j/jangshow/sk/six_open.c line 27: parse error before  notify_fail("¨Ï¥Î"+
+
+[Sat Aug  2 22:55:21 2003] u/j/jangshow/sk/six_open.c line 64: Illegal LHS before  
+
+[Sat Aug  2 22:55:21 2003] u/j/jangshow/sk/six_open.c line 64: parse error before  
+
+[Sat Aug  2 22:55:21 2003] u/j/jangshow/sk/six_open.c line 65: Illegal LHS before  
+
+[Sat Aug  2 22:55:21 2003] u/j/jangshow/sk/six_open.c line 65: parse error before  
+
+[Sat Aug  2 22:56:07 2003] u/j/jangshow/sk/six_open.c line 20: Warning: Non-void functions must return a value. before the end of line
+
+[Sat Aug  2 22:56:07 2003] u/j/jangshow/sk/six_open.c line 21: Warning: Non-void functions must return a value. before the end of line
+
+[Sat Aug  2 22:56:07 2003] u/j/jangshow/sk/six_open.c line 22: Warning: Non-void functions must return a value. before the end of line
+
+[Sat Aug  2 22:56:07 2003] u/j/jangshow/sk/six_open.c line 23: Warning: Non-void functions must return a value. before  
+
+[Sat Aug  2 22:56:07 2003] u/j/jangshow/sk/six_open.c line 26: Arguments to < do not have compatible types : ( string vs int ) before the end of line
+
+[Sat Aug  2 22:56:07 2003] u/j/jangshow/sk/six_open.c line 27: parse error before  notify_fail("¨Ï¥Î"+
+
+[Sat Aug  2 22:56:07 2003] u/j/jangshow/sk/six_open.c line 64: Illegal LHS before  
+
+[Sat Aug  2 22:56:07 2003] u/j/jangshow/sk/six_open.c line 64: parse error before  
+
+[Sat Aug  2 22:56:07 2003] u/j/jangshow/sk/six_open.c line 65: Illegal LHS before  
+
+[Sat Aug  2 22:56:07 2003] u/j/jangshow/sk/six_open.c line 65: parse error before  
+
+[Sat Aug  2 22:58:36 2003] u/j/jangshow/sk/six.c line 26: Arguments to < do not have compatible types : ( string vs int ) before the end of line
+
+[Sat Aug  2 22:58:36 2003] u/j/jangshow/sk/six.c line 27: parse error before  notify_fail("¨Ï¥Î"+
+
+[Sat Aug  2 22:58:36 2003] u/j/jangshow/sk/six.c line 64: Illegal LHS before  
+
+[Sat Aug  2 22:58:36 2003] u/j/jangshow/sk/six.c line 64: parse error before  
+
+[Sat Aug  2 22:58:36 2003] u/j/jangshow/sk/six.c line 65: Illegal LHS before  
+
+[Sat Aug  2 22:58:36 2003] u/j/jangshow/sk/six.c line 65: parse error before  
+
+[Sat Aug  2 22:59:28 2003] u/j/jangshow/sk/six.c line 44: Undefined variable 'sk' before 8));   
+
+[Sat Aug  2 22:59:28 2003] u/j/jangshow/sk/six.c line 66: Warning: Non-void functions must return a value. before   
+
+[Sat Aug  2 23:01:00 2003] u/j/jangshow/sk/six.c line 67: Warning: Non-void functions must return a value. before   
+
+[Sat Aug  2 23:01:37 2003] u/j/jangshow/sk/six.c line 66: Warning: Non-void functions must return a value. before   
+
+[Sat Aug  2 23:25:08 2003] u/j/jangshow/sk/six.c line 68: Reserved type name unexpected. before =me->query_skill("si
+
+[Sat Aug  2 23:25:08 2003] u/j/jangshow/sk/six.c line 68: parse error before =me->query_skill("si
+
+[Sat Aug  2 23:25:08 2003] u/j/jangshow/sk/six.c line 68: Undefined variable 'me' before query_skill("six_ope
+
+[Sat Aug  2 23:25:08 2003] u/j/jangshow/sk/six.c line 68: Illegal LHS before the end of line
+
+[Sat Aug  2 23:25:08 2003] u/j/jangshow/sk/six.c line 71: Undefined variable 'damage' before  me->query_damage()+
+
+[Sat Aug  2 23:25:08 2003] u/j/jangshow/sk/six.c line 71: Undefined variable 'sk' before 4+me->query_str()*4;
+
+[Sat Aug  2 23:28:43 2003] u/j/jangshow/sk/six.c line 69: Reserved type name unexpected. before =me->query_skill("si
+
+[Sat Aug  2 23:28:43 2003] u/j/jangshow/sk/six.c line 69: parse error before =me->query_skill("si
+
+[Sat Aug  2 23:28:43 2003] u/j/jangshow/sk/six.c line 69: Undefined variable 'me' before query_skill("six_ope
+
+[Sat Aug  2 23:28:43 2003] u/j/jangshow/sk/six.c line 69: Illegal LHS before the end of line
+
+[Sat Aug  2 23:28:43 2003] u/j/jangshow/sk/six.c line 72: Undefined variable 'damage' before  me->query_damage()+
+
+[Sat Aug  2 23:28:43 2003] u/j/jangshow/sk/six.c line 72: Undefined variable 'sk' before 4+me->query_str()*4;
+
+[Sat Aug  2 23:32:58 2003] u/j/jangshow/sk/six.c line 72: Undefined variable 'damage' before  me->query_damage()*
+
+[Sat Aug  2 23:33:29 2003] u/j/jangshow/sk/six.c line 69: Reserved type name unexpected. before ;
+
+[Sat Aug  2 23:33:29 2003] u/j/jangshow/sk/six.c line 69: parse error before ;
+
+[Sat Aug  2 23:33:29 2003] u/j/jangshow/sk/six.c line 73: Undefined variable 'me' before query_damage()*3+me-
+
+[Sat Aug  2 23:33:29 2003] u/j/jangshow/sk/six.c line 73: Illegal LHS before the end of line
+
+[Sat Aug  2 23:33:29 2003] u/j/jangshow/sk/six.c line 74: Undefined variable 'damage' before  COMBAT_D->Merits_da
+
+[Sat Aug  2 23:33:29 2003] u/j/jangshow/sk/six.c line 74: Undefined variable 'target' before damage,"bar"); 
+
+[Sat Aug  2 23:49:08 2003] u/j/jangshow/bagi_scroll.c line 11: Warning: Unknown \ escape. before ø¯µªº±²¶b¡A§A¥i¥H¥´¶
+
+[Sat Aug  2 23:49:08 2003] u/j/jangshow/bagi_scroll.c line 26: Warning: Unknown \ escape. before Û¦¡±²¶b¥X²{¡A§A¨c¨cª
+
+[Sat Aug  2 23:50:10 2003] u/j/jangshow/bagi_scroll.c line 11: Warning: Unknown \ escape. before ø¯µªº±²¶b¡A§A¥i¥H\¥´
+
+[Sat Aug  2 23:50:10 2003] u/j/jangshow/bagi_scroll.c line 11: Warning: Unknown \ escape. before ´¶}¨Ó¬Ý¬Ý(open)¡C\n"
+
+[Sat Aug  2 23:50:10 2003] u/j/jangshow/bagi_scroll.c line 26: Warning: Unknown \ escape. before Û¦¡±²¶b¥X²{\¡A§A¨c¨c
+
+[Sat Aug  2 23:50:10 2003] u/j/jangshow/bagi_scroll.c line 26: Warning: Unknown \ escape. before A§A¨c¨cªº°O¦í¤F³o¨Ç©
+
+[Sat Aug  2 23:50:34 2003] u/j/jangshow/sc.c line 11: Warning: Unknown \ escape. before ø¯µªº±²¶b¡A§A¥i¥H\¥´
+
+[Sat Aug  2 23:50:34 2003] u/j/jangshow/sc.c line 11: Warning: Unknown \ escape. before ´¶}¨Ó¬Ý¬Ý(open)¡C\n"
+
+[Sat Aug  2 23:50:34 2003] u/j/jangshow/sc.c line 26: Warning: Unknown \ escape. before Û¦¡±²¶b¥X\²{¡A§A¨c¨c
+
+[Sat Aug  2 23:50:34 2003] u/j/jangshow/sc.c line 26: Warning: Unknown \ escape. before {¡A§A¨c¨cªº°O¦í¤F³o¨
+
+[Sat Aug  2 23:51:14 2003] u/j/jangshow/sc.c line 11: Warning: Unknown \ escape. before ø¯µ\ªº±²¶b¡A§A¥i¥H¥´
+
+[Sat Aug  2 23:51:14 2003] u/j/jangshow/sc.c line 11: Warning: Unknown \ escape. before º±²¶b¡A§A¥i¥H¥´¶}¨Ó¬
+
+[Sat Aug  2 23:51:14 2003] u/j/jangshow/sc.c line 26: Warning: Unknown \ escape. before Û¦¡±²¶b¥X²{¡A§A¨c¨cª
+
+[Sat Aug  2 23:51:30 2003] u/j/jangshow/sc.c line 11: Warning: Unknown \ escape. before ø¯µªº\±²¶b¡A§A¥i¥H¥´
+
+[Sat Aug  2 23:51:30 2003] u/j/jangshow/sc.c line 11: Warning: Unknown \ escape. before ²¶b¡A§A¥i¥H¥´¶}¨Ó¬Ý¬
+
+[Sat Aug  2 23:51:30 2003] u/j/jangshow/sc.c line 26: Warning: Unknown \ escape. before Û¦¡±²¶b¥X²{¡A§A¨c¨cª
+
+[Sat Aug  2 23:51:46 2003] u/j/jangshow/sc.c line 11: Warning: Unknown \ escape. before ø¯µªº±²¶b¡A§A\¥i¥H¥´
+
+[Sat Aug  2 23:51:46 2003] u/j/jangshow/sc.c line 11: Warning: Unknown \ escape. before i¥H¥´¶}¨Ó¬Ý¬Ý(open)¡
+
+[Sat Aug  2 23:51:46 2003] u/j/jangshow/sc.c line 26: Warning: Unknown \ escape. before Û¦¡±²¶b¥X²{¡A§A¨c¨cª
+
+[Sun Aug  3 20:47:33 2003] u/j/jangshow/sk/q.c line 196: parse error before  improve_limite(obje
+
+[Sun Aug  3 22:20:01 2003] u/j/jangshow/sk/q.c line 193: parse error before          
+
+[Sun Aug  3 22:20:01 2003] u/j/jangshow/sk/q.c line 199: Illegal LHS before target
+
+[Sun Aug  3 22:20:01 2003] u/j/jangshow/sk/q.c line 200: parse error before  = offensive_target(
+
+[Sun Aug  3 22:20:01 2003] u/j/jangshow/sk/q.c line 200: Illegal LHS before  
+
+[Sun Aug  3 22:20:01 2003] u/j/jangshow/sk/q.c line 205: parse error before =sor_str[random(size
+
+[Sun Aug  3 22:20:01 2003] u/j/jangshow/sk/q.c line 206: Illegal LHS before (msg,me,target)
+
+[Sun Aug  3 22:21:46 2003] u/j/jangshow/sk/q.c line 193: parse error before          
+
+[Sun Aug  3 22:21:46 2003] u/j/jangshow/sk/q.c line 201: Illegal LHS before the end of line
+
+[Sun Aug  3 22:21:46 2003] u/j/jangshow/sk/q.c line 205: parse error before =sor_str[random(size
+
+[Sun Aug  3 22:21:46 2003] u/j/jangshow/sk/q.c line 206: Illegal LHS before (msg,me,target)
+
+[Sun Aug  3 22:21:46 2003] u/j/jangshow/sk/q.c line 206: parse error before (msg,me,target)
+
+[Sun Aug  3 22:23:46 2003] u/j/jangshow/sk/q.c line 193: parse error before          
+
+[Sun Aug  3 22:23:46 2003] u/j/jangshow/sk/q.c line 203: Illegal LHS before =me->query_skill("so
+
+[Sun Aug  3 22:23:46 2003] u/j/jangshow/sk/q.c line 203: parse error before =me->query_skill("so
+
+[Sun Aug  3 22:23:46 2003] u/j/jangshow/sk/q.c line 204: Illegal LHS before =->target->query_arm
+
+[Sun Aug  3 22:23:46 2003] u/j/jangshow/sk/q.c line 204: parse error before =->target->query_arm
+
+[Sun Aug  3 22:23:46 2003] u/j/jangshow/sk/q.c line 205: Illegal LHS before the end of line
+
+[Sun Aug  3 22:26:25 2003] u/j/jangshow/sk/q.c line 193: parse error before          
+
+[Sun Aug  3 22:26:25 2003] u/j/jangshow/sk/q.c line 200: Illegal LHS before  me=this_player(),ta
+
+[Sun Aug  3 22:26:25 2003] u/j/jangshow/sk/q.c line 200: Illegal LHS before target;
+
+[Sun Aug  3 22:26:25 2003] u/j/jangshow/sk/q.c line 202: parse error before  sk,c,i,te;
+
+[Sun Aug  3 22:26:25 2003] u/j/jangshow/sk/q.c line 204: Illegal LHS before =me->query_skill("so
+
+[Sun Aug  3 22:26:25 2003] u/j/jangshow/sk/q.c line 204: parse error before =me->query_skill("so
+
+[Sun Aug  3 22:27:09 2003] u/j/jangshow/sk/q.c line 193: parse error before          
+
+[Sun Aug  3 22:27:09 2003] u/j/jangshow/sk/q.c line 200: Illegal LHS before  me=this_player(),ta
+
+[Sun Aug  3 22:27:09 2003] u/j/jangshow/sk/q.c line 200: Illegal LHS before target;
+
+[Sun Aug  3 22:27:09 2003] u/j/jangshow/sk/q.c line 202: parse error before  sk,c,i,te;
+
+[Sun Aug  3 22:27:09 2003] u/j/jangshow/sk/q.c line 204: Illegal LHS before =me->query_skill("so
+
+[Sun Aug  3 22:27:09 2003] u/j/jangshow/sk/q.c line 204: parse error before =me->query_skill("so
+
+[Sun Aug  3 22:28:04 2003] u/j/jangshow/sk/q.c line 193: parse error before          
+
+[Sun Aug  3 22:28:04 2003] u/j/jangshow/sk/q.c line 200: Illegal LHS before  me=this_player(),ta
+
+[Sun Aug  3 22:28:04 2003] u/j/jangshow/sk/q.c line 200: Illegal LHS before target;
+
+[Sun Aug  3 22:28:04 2003] u/j/jangshow/sk/q.c line 202: parse error before  sk,c,i,te,damage;
+
+[Sun Aug  3 22:28:04 2003] u/j/jangshow/sk/q.c line 204: Illegal LHS before =me->query_skill("so
+
+[Sun Aug  3 22:28:04 2003] u/j/jangshow/sk/q.c line 204: parse error before =me->query_skill("so
+
+[Sun Aug  3 22:28:50 2003] u/j/jangshow/sk/q.c line 193: parse error before          
+
+[Sun Aug  3 22:28:50 2003] u/j/jangshow/sk/q.c line 200: Illegal LHS before  me=this_player(),ta
+
+[Sun Aug  3 22:28:50 2003] u/j/jangshow/sk/q.c line 200: Illegal LHS before target;
+
+[Sun Aug  3 22:28:50 2003] u/j/jangshow/sk/q.c line 202: Reserved type name unexpected. before ,c,i,te,damage;
+
+[Sun Aug  3 22:28:50 2003] u/j/jangshow/sk/q.c line 202: parse error before ,c,i,te,damage;
+
+[Sun Aug  3 22:28:50 2003] u/j/jangshow/sk/q.c line 203: Undefined variable 'me' before query_Merits("tec")
+
+[Tue Aug  5 01:07:57 2003] u/j/jangshow/sk/six.c line 18: Reserved type name unexpected. before =me->query_skill("si
+
+[Tue Aug  5 01:07:57 2003] u/j/jangshow/sk/six.c line 18: parse error before =me->query_skill("si
+
+[Tue Aug  5 01:07:57 2003] u/j/jangshow/sk/six.c line 18: Undefined variable 'me' before query_skill("six_ope
+
+[Tue Aug  5 01:07:57 2003] u/j/jangshow/sk/six.c line 18: Illegal LHS before damage,c;
+
+[Tue Aug  5 01:07:57 2003] u/j/jangshow/sk/six.c line 18: Undefined variable 'damage' before c;
+
+[Tue Aug  5 01:07:57 2003] u/j/jangshow/sk/six.c line 18: Undefined variable 'c' before the end of line
+
+[Tue Aug  5 01:10:00 2003] u/j/jangshow/sk/six.c line 18: Reserved type name unexpected. before =me->query_skill("si
+
+[Tue Aug  5 01:10:00 2003] u/j/jangshow/sk/six.c line 18: parse error before =me->query_skill("si
+
+[Tue Aug  5 01:10:00 2003] u/j/jangshow/sk/six.c line 18: Undefined variable 'me' before query_skill("six_ope
+
+[Tue Aug  5 01:10:00 2003] u/j/jangshow/sk/six.c line 18: Illegal LHS before damage,c;
+
+[Tue Aug  5 01:10:00 2003] u/j/jangshow/sk/six.c line 18: Undefined variable 'damage' before c;
+
+[Tue Aug  5 01:10:00 2003] u/j/jangshow/sk/six.c line 18: Undefined variable 'c' before the end of line
+
+[Sat Aug  9 04:41:03 2003] u/j/jangshow/sk/q.c line 193: parse error before          
+
+[Sat Aug  9 04:41:03 2003] u/j/jangshow/sk/q.c line 200: Illegal LHS before  me=this_player(),ta
+
+[Sat Aug  9 04:41:03 2003] u/j/jangshow/sk/q.c line 200: Illegal LHS before target;
+
+[Sat Aug  9 04:41:03 2003] u/j/jangshow/sk/q.c line 202: Reserved type name unexpected. before ,c,i,te,damage;
+
+[Sat Aug  9 04:41:03 2003] u/j/jangshow/sk/q.c line 202: parse error before ,c,i,te,damage;
+
+[Sat Aug  9 04:41:03 2003] u/j/jangshow/sk/q.c line 203: Undefined variable 'me' before query_Merits("tec")
+
+[Sat Aug  9 04:59:42 2003] u/j/jangshow/sk/q.c line 193: parse error before ->start_busy(2);
+
+[Sat Aug  9 04:59:42 2003] u/j/jangshow/sk/q.c line 203: Illegal LHS before  me=this_player(),ta
+
+[Sat Aug  9 04:59:42 2003] u/j/jangshow/sk/q.c line 203: Illegal LHS before target
+
+[Sat Aug  9 04:59:42 2003] u/j/jangshow/sk/q.c line 205: parse error before  sk,c,i,te,damage;
+
+[Sat Aug  9 04:59:42 2003] u/j/jangshow/sk/q.c line 207: Illegal LHS before =me->query_skill("so
+
+[Sat Aug  9 04:59:42 2003] u/j/jangshow/sk/q.c line 207: parse error before =me->query_skill("so
+
+[Sat Aug  9 05:00:44 2003] u/j/jangshow/sk/q.c line 193: parse error before ->start_busy(2);
+
+[Sat Aug  9 05:00:44 2003] u/j/jangshow/sk/q.c line 203: Illegal LHS before  me=this_player(),ta
+
+[Sat Aug  9 05:00:44 2003] u/j/jangshow/sk/q.c line 203: Illegal LHS before target
+
+[Sat Aug  9 05:00:44 2003] u/j/jangshow/sk/q.c line 205: parse error before  sk,c,i,te,damage;
+
+[Sat Aug  9 05:00:44 2003] u/j/jangshow/sk/q.c line 207: Illegal LHS before =me->query_skill("so
+
+[Sat Aug  9 05:00:44 2003] u/j/jangshow/sk/q.c line 207: parse error before =me->query_skill("so
+
+[Sat Aug  9 05:01:41 2003] u/j/jangshow/sk/q.c line 193: parse error before ->start_busy(2);
+
+[Sat Aug  9 05:01:41 2003] u/j/jangshow/sk/q.c line 203: Illegal LHS before  me=this_player(),ta
+
+[Sat Aug  9 05:01:41 2003] u/j/jangshow/sk/q.c line 203: Illegal LHS before target
+
+[Sat Aug  9 05:01:41 2003] u/j/jangshow/sk/q.c line 205: parse error before  sk,c,i,te,damage;
+
+[Sat Aug  9 05:01:41 2003] u/j/jangshow/sk/q.c line 207: Illegal LHS before =me->query_skill("so
+
+[Sat Aug  9 05:01:41 2003] u/j/jangshow/sk/q.c line 207: parse error before =me->query_skill("so
+
+[Sat Aug  9 05:11:56 2003] u/j/jangshow/sk/q.c line 193: parse error before ->start_busy(2);
+
+[Sat Aug  9 05:11:56 2003] u/j/jangshow/sk/q.c line 200: Reserved type name unexpected. before (string arg
+
+[Sat Aug  9 05:11:56 2003] u/j/jangshow/sk/q.c line 200: parse error before (string arg
+
+[Sat Aug  9 05:11:56 2003] u/j/jangshow/sk/q.c line 203: Illegal LHS before  me=this_player(),ta
+
+[Sat Aug  9 05:11:56 2003] u/j/jangshow/sk/q.c line 203: Illegal LHS before target
+
+[Sat Aug  9 05:11:56 2003] u/j/jangshow/sk/q.c line 205: Undefined variable 'target' before  sk,c,i,te,damage;
+
+[Sat Aug  9 13:44:23 2003] u/j/jangshow/sk/qqq.c line 193: parse error before ->start_busy(2);
+
+[Sat Aug  9 13:44:23 2003] u/j/jangshow/sk/qqq.c line 200: Reserved type name unexpected. before (string arg
+
+[Sat Aug  9 13:44:23 2003] u/j/jangshow/sk/qqq.c line 200: parse error before (string arg
+
+[Sat Aug  9 13:44:23 2003] u/j/jangshow/sk/qqq.c line 203: Illegal LHS before  me=this_player(),ta
+
+[Sat Aug  9 13:44:23 2003] u/j/jangshow/sk/qqq.c line 203: Illegal LHS before target
+
+[Sat Aug  9 13:44:23 2003] u/j/jangshow/sk/qqq.c line 205: Undefined variable 'target' before  sk,c,i,te,damage;
+
+[Sat Aug  9 13:47:04 2003] u/j/jangshow/sk/poop.c line 193: parse error before ->start_busy(2);
+
+[Sat Aug  9 13:47:04 2003] u/j/jangshow/sk/poop.c line 200: Reserved type name unexpected. before (string arg
+
+[Sat Aug  9 13:47:04 2003] u/j/jangshow/sk/poop.c line 200: parse error before (string arg
+
+[Sat Aug  9 13:47:04 2003] u/j/jangshow/sk/poop.c line 203: Illegal LHS before  me=this_player(),ta
+
+[Sat Aug  9 13:47:04 2003] u/j/jangshow/sk/poop.c line 203: Illegal LHS before target
+
+[Sat Aug  9 13:47:04 2003] u/j/jangshow/sk/poop.c line 205: Undefined variable 'target' before  sk,c,i,te,damage;
+
+[Sat Aug 16 16:31:32 2003] u/j/jangshow/sk/test.c line 193: parse error before ( !me ) return
+
+[Sat Aug 16 17:46:27 2003] u/j/jangshow/min/magma.c line 52: Illegal to redefine 'nomask' function "query_weight" before the end of line
+
+[Sat Aug 16 17:46:27 2003] u/j/jangshow/min/magma.c line 52: Illegal to redefine 'nomask' function "query_busy" before the end of line
+
+[Sat Aug 16 17:46:27 2003] u/j/jangshow/min/magma.c line 52: Illegal to redefine 'nomask' function "is_busy" before the end of line
+
+[Sat Aug 16 17:46:27 2003] u/j/jangshow/min/magma.c line 52: Illegal to redefine 'nomask' function "is_block" before the end of line
+
+[Sat Aug 16 17:46:27 2003] u/j/jangshow/min/magma.c line 52: Illegal to redefine 'nomask' function "command_hook" before the end of line
+
+[Sat Aug 16 17:46:27 2003] u/j/jangshow/min/magma.c line 52: Illegal to redefine 'nomask' function "set_path" before the end of line
+
+[Sat Aug 16 18:30:58 2003] u/j/jangshow/min/ball.c line 54: parse error before the end of line
+
+[Sat Aug 16 19:20:09 2003] u/j/jangshow/min/green.c line 5: Undefined variable 'green' before stone"}) ); 
+
+[Sat Aug 16 19:20:09 2003] u/j/jangshow/min/green.c line 5: parse error before stone"}) ); 
+
+[Sat Aug 16 19:20:09 2003] u/j/jangshow/min/green.c line 14: End of file in string before           set("value
+
+[Sat Aug 16 21:50:24 2003] u/j/jangshow/min/sword.c line 39: parse error before  return notify_fail(
+
+[Sat Aug 16 21:50:24 2003] u/j/jangshow/min/sword.c line 43: Illegal LHS before  ) 
+
+[Sat Aug 16 21:50:24 2003] u/j/jangshow/min/sword.c line 43: parse error before  
+
+[Sat Aug 16 21:50:24 2003] u/j/jangshow/min/sword.c line 45: Illegal terminator before §âÆ^¤F¤@Áû"HIR"¬õÄ_"
+
+[Sat Aug 16 21:50:54 2003] u/j/jangshow/min/sword.c line 44: parse error before n"NOR,me); 
+
+[Sat Aug 16 21:50:54 2003] u/j/jangshow/min/sword.c line 45: Illegal terminator before §âÆ^¤F¤@Áû"HIR"¬õÄ_"
+
+[Sat Aug 16 21:52:59 2003] u/j/jangshow/min/sword.c line 44: parse error before n",me); 
+
+[Sat Aug 16 21:52:59 2003] u/j/jangshow/min/sword.c line 45: Illegal terminator before §âÆ^¤F¤@Áû"HIR"¬õÄ_"
+
+[Sat Aug 16 21:53:25 2003] u/j/jangshow/min/sword.c line 53: parse error before n"NOR,me);     
+
+[Sat Aug 16 21:53:25 2003] u/j/jangshow/min/sword.c line 54: Illegal terminator before §âÆ^¤F¤@Áû"BLU"ÂÅÄ_"
+
+[Sat Aug 16 22:14:19 2003] u/j/jangshow/min/sword.c line 103: parse error before the end of file
+
+[Sat Aug 16 22:43:30 2003] u/j/jangshow/min/sword.c line 44: parse error before arg =="red stone") 
+
+[Sat Aug 16 22:43:30 2003] u/j/jangshow/min/sword.c line 44: Illegal LHS before  
+
+[Sat Aug 16 23:21:48 2003] u/j/jangshow/min/sword.c line 115: Type of returned value doesn't match function return type ( int vs void ) before  
+
+[Sat Aug 16 23:21:48 2003] u/j/jangshow/min/sword.c line 124: End of file in a comment before the end of file
+
+[Sat Aug 16 23:22:20 2003] u/j/jangshow/min/sword.c line 115: Type of returned value doesn't match function return type ( int vs void ) before  
+
+[Sat Aug 16 23:22:20 2003] u/j/jangshow/min/sword.c line 124: End of file in a comment before the end of file
+
+[Sat Aug 16 23:22:50 2003] u/j/jangshow/min/sword.c line 124: End of file in a comment before the end of file
+
+[Sat Aug 16 23:36:22 2003] u/j/jangshow/min/sword.c line 111: parse error before Iªº¶Ë®`¡I\n"NOR);
+
+[Sat Aug 16 23:36:52 2003] u/j/jangshow/min/sword.c line 126: parse error before º¨­¤W«_¥X¿@¿@ªºµJ¨ý.
+
+[Sat Aug 16 23:36:52 2003] u/j/jangshow/min/sword.c line 126: Illegal terminator before ¿@ªºµJ¨ý..\n"NOR,vic
+
+[Sat Aug 16 23:39:13 2003] u/j/jangshow/min/sword.c line 124: Illegal lvalue before > 0)
+
+[Sat Aug 16 23:39:13 2003] u/j/jangshow/min/sword.c line 124: parse error before  0)
+
+[Sat Aug 16 23:54:20 2003] u/j/jangshow/min/sword.c line 124: parse error before I\n"NOR; 
+
+[Sat Aug 16 23:54:20 2003] u/j/jangshow/min/sword.c line 139: Illegal terminator before ¿@ªºµJ¨ý..\n"NOR,vic
+
+[Sat Aug 16 23:54:52 2003] u/j/jangshow/min/sword.c line 124: parse error before I\n"NOR; 
+
+[Sat Aug 16 23:54:52 2003] u/j/jangshow/min/sword.c line 140: Illegal terminator before ¿@ªºµJ¨ý..\n"NOR,vic
+
+[Sat Aug 16 23:55:34 2003] u/j/jangshow/min/sword.c line 124: parse error before I\n"NOR; 
+
+[Sat Aug 16 23:55:34 2003] u/j/jangshow/min/sword.c line 141: Illegal terminator before ¿@ªºµJ¨ý..\n"NOR,vic
+
+[Sun Aug 17 14:29:36 2003] u/j/jangshow/min/sword.c line 120: parse error before  if(!this_object()->
+
+[Sun Aug 17 14:29:36 2003] u/j/jangshow/min/sword.c line 122: Illegal LHS before   
+
+[Sun Aug 17 14:29:36 2003] u/j/jangshow/min/sword.c line 130: parse error before  if(!this_object()->
+
+[Sun Aug 17 14:30:48 2003] u/j/jangshow/min/sword.c line 143: parse error before A¨Ã¥©§®ªº¦b"+victim-
+
+[Sun Aug 17 14:30:48 2003] u/j/jangshow/min/sword.c line 143: Illegal terminator before ¹D¶Ë¤f¡I\n"
+
+[Sun Aug 17 14:31:19 2003] u/j/jangshow/min/sword.c line 149: Warning: Non-void functions must return a value. before the end of line
+
+[Sun Aug 17 14:31:19 2003] u/j/jangshow/min/sword.c line 150: parse error before   
+
+[Sun Aug 17 14:34:52 2003] u/j/jangshow/min/sword.c line 151: Warning: Non-void functions must return a value. before the end of line
+
+[Sun Aug 17 14:34:52 2003] u/j/jangshow/min/sword.c line 152: parse error before   
+
+[Sun Aug 17 14:50:32 2003] u/j/jangshow/min/sword.c line 149: parse error before poison", victim->que
+
+[Sun Aug 17 14:50:32 2003] u/j/jangshow/min/sword.c line 163: Illegal terminator before ¿@ªºµJ¨ý..\n"NOR,vic
+
+[Sun Aug 17 15:16:52 2003] u/j/jangshow/min/sword.c line 14: Undefined variable 'HIY' before NOR , ({ "inlay swor
+
+[Sun Aug 17 15:16:52 2003] u/j/jangshow/min/sword.c line 14: parse error before NOR , ({ "inlay swor
+
+[Sun Aug 17 15:16:52 2003] u/j/jangshow/min/sword.c line 39: Illegal LHS before obj;  
+
+[Sun Aug 17 15:16:52 2003] u/j/jangshow/min/sword.c line 39: Undefined variable 'obj' before   
+
+[Sun Aug 17 15:16:52 2003] u/j/jangshow/min/sword.c line 39: parse error before   
+
+[Sun Aug 17 15:16:52 2003] u/j/jangshow/min/sword.c line 47: Undefined variable 'me' before ) ) return notify_fa
+
+[Tue Aug 19 04:59:29 2003] u/j/jangshow/nobusy.c line 12: parse error before  do_pksec(string str
+
+[Fri Sep  5 15:39:55 2003] u/j/jangshow/yourself.c line 1: parse error before ansi.h>
+
+[Sun Dec 28 00:09:32 2003] u/j/jangshow/high-level/sky-wind.c line 109: parse error before (me->query("level") 
+
+[Sun Dec 28 00:09:32 2003] u/j/jangshow/high-level/sky-wind.c line 129: Illegal LHS before the end of line
+
+[Sun Dec 28 00:09:32 2003] u/j/jangshow/high-level/sky-wind.c line 131: Undefined variable 'lv' before  lv/10;     // ±N ra
+
+[Sun Dec 28 00:09:32 2003] u/j/jangshow/high-level/sky-wind.c line 137: Undefined variable 'rank' before  HIC"¤Ñ¯eªù¤§ªù¤U§Ì¤
+
+[Sat Jan 10 00:44:19 2004] u/j/jangshow/sword2.c line 5: Undefined variable 'HIW' before NOR, ({ "Tai-er swor
+
+[Sat Jan 10 00:44:19 2004] u/j/jangshow/sword2.c line 5: parse error before NOR, ({ "Tai-er swor
+
+[Tue May  4 14:36:48 2004] u/j/jangshow/force_item.c line 47: End of file in text block before "+"[0m"      ,this_
+
+[Tue May  4 14:36:48 2004] u/j/jangshow/force_item.c line 47: parse error before "+"[0m"      ,this_
+
+[Tue May 18 22:21:25 2004] u/j/jangshow/kickroom.c line 9: Undefined function set before ; 
+
+[Tue May 18 22:21:25 2004] u/j/jangshow/kickroom.c line 21: Undefined function setup before ;
+
+[Tue May 18 22:58:50 2004] u/j/jangshow/kickroom.c line 7: Illegal to redefine 'nomask' function "_query" before the end of line
+
+[Tue May 18 22:58:50 2004] u/j/jangshow/kickroom.c line 7: Illegal to redefine 'nomask' function "_delete" before the end of line
+
+[Tue May 18 22:58:50 2004] u/j/jangshow/kickroom.c line 7: Illegal to redefine 'nomask' function "_set" before the end of line
+
+[Tue May 18 23:09:25 2004] u/j/jangshow/kickroom.c line 31: parse error before arg) return notify_f
+
+[Tue May 18 23:09:25 2004] u/j/jangshow/kickroom.c line 32: Illegal LHS before the end of line
+
+[Tue May 18 23:09:25 2004] u/j/jangshow/kickroom.c line 32: parse error before the end of line
+
+[Tue May 25 15:15:56 2004] u/j/jangshow/sk/lan_pu.c line 23: Undefined function weapon before ->query("skill_type"
+
+[Tue May 25 15:16:20 2004] u/j/jangshow/sk/lan_pu.c line 23: Undefined variable 'weapon' before query("skill_type")!
+
+[Tue May 25 15:16:20 2004] u/j/jangshow/sk/lan_pu.c line 23: != always true because of incompatible types ( object vs string ). before  
+
+[Tue May 25 16:09:26 2004] u/j/jangshow/oldbox.c line 21: parse error before     {
+
+[Tue May 25 16:09:26 2004] u/j/jangshow/oldbox.c line 40: Illegal LHS before the end of line
+
+[Tue May 25 16:16:48 2004] u/j/jangshow/oldbox.c line 21: parse error before the end of line
+
+[Tue May 25 16:16:48 2004] u/j/jangshow/oldbox.c line 40: Illegal LHS before the end of line
+
+[Tue May 25 16:18:17 2004] u/j/jangshow/oldbox.c line 44: $var illegal outside of function pointer. before N¨â²´­~­~¦³¯«ªº¬ÝµÛ²
+
+[Tue May 25 16:18:17 2004] u/j/jangshow/oldbox.c line 44: parse error before N¨â²´­~­~¦³¯«ªº¬ÝµÛ²
+
+[Tue May 25 16:18:17 2004] u/j/jangshow/oldbox.c line 46: $var illegal outside of function pointer. before Nªº¤â¤£ª¾¹D¦b°Ê­Ó¤°»
+
+[Tue May 25 16:18:17 2004] u/j/jangshow/oldbox.c line 48: $var illegal outside of function pointer. before NªºÀY¬ðµM©ü¤F¤@¤U...
+
+[Tue May 25 16:18:17 2004] u/j/jangshow/oldbox.c line 48: Illegal terminator before ¤U...\n",me);
+
+[Tue May 25 16:18:41 2004] u/j/jangshow/oldbox.c line 44: $var illegal outside of function pointer. before N¨â²´­~­~¦³¯«ªº¬ÝµÛ²
+
+[Tue May 25 16:18:41 2004] u/j/jangshow/oldbox.c line 44: parse error before N¨â²´­~­~¦³¯«ªº¬ÝµÛ²
+
+[Tue May 25 16:18:41 2004] u/j/jangshow/oldbox.c line 46: $var illegal outside of function pointer. before Nªº¤â¤£ª¾¹D¦b°Ê­Ó¤°»
+
+[Tue May 25 16:18:41 2004] u/j/jangshow/oldbox.c line 48: $var illegal outside of function pointer. before NªºÀY¬ðµM©ü¤F¤@¤U...
+
+[Tue May 25 16:18:41 2004] u/j/jangshow/oldbox.c line 48: Illegal terminator before ¤U...\n",me);
+
+[Tue May 25 16:23:10 2004] u/j/jangshow/oldbox.c line 44: $var illegal outside of function pointer. before N¨â²´­~­~¦³¯«ªº¬ÝµÛ²
+
+[Tue May 25 16:23:10 2004] u/j/jangshow/oldbox.c line 44: parse error before N¨â²´­~­~¦³¯«ªº¬ÝµÛ²
+
+[Tue May 25 16:23:10 2004] u/j/jangshow/oldbox.c line 46: $var illegal outside of function pointer. before Nªº¤â¤£ª¾¹D¦b°Ê­Ó¤°»
+
+[Tue May 25 16:23:10 2004] u/j/jangshow/oldbox.c line 48: $var illegal outside of function pointer. before NªºÀY¬ðµM©ü¤F¤@¤U...
+
+[Tue May 25 16:23:10 2004] u/j/jangshow/oldbox.c line 48: Illegal terminator before ¤U...\n",me);
+
+[Tue May 25 16:24:43 2004] u/j/jangshow/oldbox.c line 46: $var illegal outside of function pointer. before N¨â²´­~­~¦³¯«ªº¬ÝµÛ²
+
+[Tue May 25 16:24:43 2004] u/j/jangshow/oldbox.c line 46: parse error before N¨â²´­~­~¦³¯«ªº¬ÝµÛ²
+
+[Tue May 25 16:24:43 2004] u/j/jangshow/oldbox.c line 48: $var illegal outside of function pointer. before Nªº¤â¤£ª¾¹D¦b°Ê­Ó¤°»
+
+[Tue May 25 16:24:43 2004] u/j/jangshow/oldbox.c line 50: $var illegal outside of function pointer. before NªºÀY¬ðµM©ü¤F¤@¤U...
+
+[Tue May 25 16:24:43 2004] u/j/jangshow/oldbox.c line 50: Illegal terminator before ¤U...\n",me);
+
+[Tue May 25 19:21:08 2004] u/j/jangshow/sk/lan_pu.c line 51: Undefined variable 'type' before "hp" && type!="mp" &
+
+[Wed May 26 22:37:30 2004] u/j/jangshow/sk/lan_pu.c line 51: Undefined variable 'type' before "hp" && type!="mp" &
+
+[Wed May 26 22:39:39 2004] u/j/jangshow/sk/lan_pu.c line 54: Undefined variable 'type' before "hp" && type!="mp" &
+
+[Wed May 26 23:00:45 2004] u/j/jangshow/sk/p.c line 32: Warning: Value of conditional expression is unused before the end of line
+
+[Wed May 26 23:00:45 2004] u/j/jangshow/sk/p.c line 36: parse error before {
+
+[Wed May 26 23:00:45 2004] u/j/jangshow/sk/p.c line 37: Illegal LHS before the end of line
+
+[Wed May 26 23:00:45 2004] u/j/jangshow/sk/p.c line 55: parse error before  1; 
+
+[Wed May 26 23:26:41 2004] u/j/jangshow/sk/p.c line 32: Warning: Value of conditional expression is unused before the end of line
+
+[Wed May 26 23:26:41 2004] u/j/jangshow/sk/p.c line 36: parse error before {
+
+[Wed May 26 23:26:41 2004] u/j/jangshow/sk/p.c line 37: Illegal LHS before the end of line
+
+[Wed May 26 23:26:41 2004] u/j/jangshow/sk/p.c line 55: parse error before  1; 
+
+[Wed May 26 23:29:04 2004] u/j/jangshow/sk/p.c line 32: Warning: Value of conditional expression is unused before the end of line
+
+[Wed May 26 23:29:04 2004] u/j/jangshow/sk/p.c line 36: parse error before {
+
+[Wed May 26 23:29:04 2004] u/j/jangshow/sk/p.c line 37: Illegal LHS before the end of line
+
+[Wed May 26 23:29:04 2004] u/j/jangshow/sk/p.c line 55: parse error before  1; 
+
+[Thu May 27 10:14:48 2004] u/j/jangshow/sk/lan_pu.c line 54: Undefined variable 'type' before "hp" && type!="mp" &
+
+[Thu May 27 10:15:54 2004] u/j/jangshow/sk/lan_pu.c line 54: Undefined variable 'type' before "hp" && type!="mp" &
+
+[Thu May 27 10:19:07 2004] u/j/jangshow/sk/lan_pu.c line 54: Undefined variable 'type' before "hp" && type!="mp" &
+
+[Thu May 27 10:51:11 2004] u/j/jangshow/sk/lan_pu.c line 85: Reserved type name unexpected. before (object ob)
+
+[Thu May 27 10:51:11 2004] u/j/jangshow/sk/lan_pu.c line 85: parse error before (object ob)
+
+[Thu May 27 10:51:57 2004] u/j/jangshow/sk/lan_pu.c line 86: Reserved type name unexpected. before (object ob)
+
+[Thu May 27 10:51:57 2004] u/j/jangshow/sk/lan_pu.c line 86: parse error before (object ob)
+
+[Thu May 27 11:07:32 2004] u/j/jangshow/sk/lan_pu.c line 85: parse error before ;
+
+[Thu May 27 11:07:50 2004] u/j/jangshow/sk/lan_pu.c line 85: Warning: Non-void functions must return a value. before the end of line
+
+[Thu May 27 11:08:00 2004] u/j/jangshow/sk/lan_pu.c line 85: Warning: Non-void functions must return a value. before the end of line
+
+[Thu May 27 13:23:10 2004] u/j/jangshow/sk/lan_pu.c line 20: parse error before (!me) return 0;
+
+[Thu May 27 13:23:10 2004] u/j/jangshow/sk/lan_pu.c line 22: Illegal LHS before the end of line
+
+[Thu May 27 13:23:10 2004] u/j/jangshow/sk/lan_pu.c line 22: parse error before the end of line
+
+[Thu May 27 13:23:10 2004] u/j/jangshow/sk/lan_pu.c line 33: Illegal LHS before   
+
+[Thu May 27 13:23:10 2004] u/j/jangshow/sk/lan_pu.c line 33: parse error before   
+
+[Thu May 27 13:23:10 2004] u/j/jangshow/sk/lan_pu.c line 34: Illegal LHS before  
+
+[Thu May 27 13:23:45 2004] u/j/jangshow/sk/lan_pu.c line 20: Warning: Non-void functions must return a value. before     if(!me) return 0
+
+[Fri May 28 01:54:42 2004] u/j/jangshow/river/npc/obj/gold-head.c line 10: Undefined variable 'head' before long","¤K§Á¤j³D¤§"HI
+
+[Fri May 28 01:54:42 2004] u/j/jangshow/river/npc/obj/gold-head.c line 10: parse error before long","¤K§Á¤j³D¤§"HI
+
+[Fri May 28 01:54:42 2004] u/j/jangshow/river/npc/obj/gold-head.c line 16: End of file in string before t("exits", ([ /* siz
+
+[Fri May 28 01:56:45 2004] u/j/jangshow/river/npc/obj/gold-head.c line 10: Undefined variable 'head' before long",GRN"¤K§Á¤j³D"R
+
+[Fri May 28 01:56:45 2004] u/j/jangshow/river/npc/obj/gold-head.c line 10: parse error before long",GRN"¤K§Á¤j³D"R
+
+[Fri May 28 01:56:45 2004] u/j/jangshow/river/npc/obj/gold-head.c line 18: End of file in string before set("long", "³o¬O¤@­
+
+[Fri May 28 01:57:23 2004] u/j/jangshow/river/npc/obj/gold-head.c line 10: Undefined variable 'head' before long",GRN"¤K§Á¤j³D"R
+
+[Fri May 28 01:57:23 2004] u/j/jangshow/river/npc/obj/gold-head.c line 10: parse error before long",GRN"¤K§Á¤j³D"R
+
+[Fri May 28 01:57:23 2004] u/j/jangshow/river/npc/obj/gold-head.c line 18: End of file in string before set("long", "³o¬O¤@­
+
+[Sat May 29 10:00:37 2004] u/j/jangshow/river/climb_room.c line 1: Cannot #include ansi. before the end of line
+
+[Sat May 29 10:00:37 2004] u/j/jangshow/river/climb_room.c line 35: Undefined variable 'HIW' before NOR,me); return 1; m
+
+[Sat May 29 10:00:37 2004] u/j/jangshow/river/climb_room.c line 35: parse error before NOR,me); return 1; m
+
+[Sat May 29 10:01:01 2004] u/j/jangshow/river/climb_room.c line 38: Reserved type name unexpected. before (object me)
+
+[Sat May 29 10:01:01 2004] u/j/jangshow/river/climb_room.c line 38: parse error before (object me)
+
+[Sat May 29 10:02:36 2004] u/j/jangshow/river/climb_room.c line 38: Reserved type name unexpected. before ()
+
+[Sat May 29 10:02:36 2004] u/j/jangshow/river/climb_room.c line 38: parse error before ()
+
+[Sat May 29 10:02:36 2004] u/j/jangshow/river/climb_room.c line 40: Illegal LHS before the end of line
+
+[Sat May 29 10:02:36 2004] u/j/jangshow/river/climb_room.c line 41: Undefined variable 'me' before "§A§V¤OªººCºC©¹¤Wª¦¡
+
+[Sat May 29 10:24:24 2004] u/j/jangshow/river/room1.c line 25: Bad argument 3 to efun add_action() before ;
+
+[Sun Jun  6 13:06:19 2004] u/j/jangshow/river/npc/guard.c line 34: Undefined variable 'HIW' before +HIR"+ob->query("nam
+
+[Sun Jun  6 13:06:19 2004] u/j/jangshow/river/npc/guard.c line 34: parse error before +HIR"+ob->query("nam
+
+[Sun Jun  6 13:06:49 2004] u/j/jangshow/river/npc/guard.c line 36: parse error before ")+"+HIW"³QºØ¤U±þ¤Hº
+
+[Sun Jun  6 13:07:37 2004] u/j/jangshow/river/npc/guard.c line 36: parse error before ")+"³QºØ¤U±þ¤HºØ¤l¤F
+
+[Sun Jun  6 13:07:37 2004] u/j/jangshow/river/npc/guard.c line 41: End of file in string before the end of line
+
+[Sun Jun  6 13:19:13 2004] u/j/jangshow/river/npc/guard.c line 31: Illegal to use local variable in functional. before ;         }
+
+[Sun Jun  6 13:19:13 2004] u/j/jangshow/river/npc/guard.c line 31: Warning: Value of conditional expression is unused before the end of line
+
+[Sun Jun  6 13:19:13 2004] u/j/jangshow/river/npc/guard.c line 32: parse error before ;
+
+[Sun Jun  6 13:19:55 2004] u/j/jangshow/river/npc/guard.c line 33: parse error before ;
+
+[Mon Jun 28 05:32:09 2004] u/j/jangshow/high-level/sky-wind.c line 109: parse error before (me->query("level") 
+
+[Mon Jun 28 05:32:09 2004] u/j/jangshow/high-level/sky-wind.c line 129: Illegal LHS before the end of line
+
+[Mon Jun 28 05:32:09 2004] u/j/jangshow/high-level/sky-wind.c line 131: Undefined variable 'lv' before  lv/10;     // ±N ra
+
+[Mon Jun 28 05:32:09 2004] u/j/jangshow/high-level/sky-wind.c line 137: Undefined variable 'rank' before  HIC"¤Ñ¯eªù¤§ªù¤U§Ì¤
+
+[Mon Jun 28 05:39:57 2004] u/j/jangshow/high-level/test.c line 135: == always false because of incompatible types ( int vs string ). before  return 0;
+
+[Mon Jun 28 05:39:57 2004] u/j/jangshow/high-level/test.c line 165: Left argument of -> is not a class before  armor:);
+
+[Mon Jun 28 05:39:57 2004] u/j/jangshow/high-level/test.c line 165: parse error before  armor:);
+
+[Mon Jun 28 05:39:57 2004] u/j/jangshow/high-level/test.c line 166: Illegal LHS before the end of line
+
+[Mon Jun 28 05:39:57 2004] u/j/jangshow/high-level/test.c line 242: Type of returned value doesn't match function return type ( int vs void ) before  
+
+[Mon Jun 28 05:39:57 2004] u/j/jangshow/high-level/test.c line 244: == always false because of incompatible types ( int vs string ). before   
+
+[Mon Jun 28 17:48:00 2004] u/j/jangshow/high-level/sword.c line 8: parse error before µL)"NOR,({"sorsin sw
+
+[Mon Jun 28 17:48:00 2004] u/j/jangshow/high-level/sword.c line 10: Illegal terminator before ªÑ±j¤jªº®ð«l©Ò§Î¦¨ªº
+
+[Mon Jun 28 17:48:24 2004] u/j/jangshow/high-level/sword.c line 34: Warning: Non-void functions must return a value. before  
+
+[Mon Jun 28 17:59:45 2004] u/j/jangshow/high-level/sword.c line 37: Warning: Unknown \ escape. before A±N"+ob->name(1)+"¤Û
+
+[Mon Jun 28 17:59:45 2004] u/j/jangshow/high-level/sword.c line 44: Warning: Unknown \ escape. before A±N"+ob->name(1)+"¤Û
+
+[Mon Jun 28 18:00:17 2004] u/j/jangshow/high-level/sword.c line 37: Warning: Unknown \ escape. before \¡A±N"+ob->name(1)+"
+
+[Mon Jun 28 18:00:17 2004] u/j/jangshow/high-level/sword.c line 37: Warning: Unknown \ escape. before A±N"+ob->name(1)+"¤Û
+
+[Mon Jun 28 18:00:17 2004] u/j/jangshow/high-level/sword.c line 44: Warning: Unknown \ escape. before A±N"+ob->name(1)+"¤Û
+
+[Mon Jun 28 18:00:29 2004] u/j/jangshow/high-level/sword.c line 44: Warning: Unknown \ escape. before A±N"+ob->name(1)+"¤Û
+
+[Tue Jun 29 08:16:48 2004] u/j/jangshow/high-level/test.c line 135: == always false because of incompatible types ( int vs string ). before  return 0;
+
+[Tue Jun 29 08:16:48 2004] u/j/jangshow/high-level/test.c line 165: Left argument of -> is not a class before  armor:);
+
+[Tue Jun 29 08:16:48 2004] u/j/jangshow/high-level/test.c line 165: parse error before  armor:);
+
+[Tue Jun 29 08:16:48 2004] u/j/jangshow/high-level/test.c line 166: Illegal LHS before the end of line
+
+[Tue Jun 29 08:16:48 2004] u/j/jangshow/high-level/test.c line 242: Type of returned value doesn't match function return type ( int vs void ) before  
+
+[Tue Jun 29 08:16:48 2004] u/j/jangshow/high-level/test.c line 244: == always false because of incompatible types ( int vs string ). before   
+
+[Tue Jun 29 09:25:59 2004] u/j/jangshow/high-level/mage.c line 34: parse error before  
+
+[Tue Jun 29 09:25:59 2004] u/j/jangshow/high-level/mage.c line 43: Undefined variable 'target' before query_dex();
+
+[Tue Jun 29 09:25:59 2004] u/j/jangshow/high-level/mage.c line 43: Illegal LHS before the end of line
+
+[Tue Jun 29 09:25:59 2004] u/j/jangshow/high-level/mage.c line 43: parse error before the end of line
+
+[Tue Jun 29 09:25:59 2004] u/j/jangshow/high-level/mage.c line 44: Illegal LHS before the end of line
+
+[Tue Jun 29 09:25:59 2004] u/j/jangshow/high-level/mage.c line 44: parse error before the end of line
+
+[Tue Jun 29 09:26:21 2004] u/j/jangshow/high-level/mage.c line 34: parse error before   
+
+[Tue Jun 29 09:26:21 2004] u/j/jangshow/high-level/mage.c line 44: Undefined variable 'target' before query_dex();
+
+[Tue Jun 29 09:26:21 2004] u/j/jangshow/high-level/mage.c line 44: Illegal LHS before the end of line
+
+[Tue Jun 29 09:26:21 2004] u/j/jangshow/high-level/mage.c line 44: parse error before the end of line
+
+[Tue Jun 29 09:26:21 2004] u/j/jangshow/high-level/mage.c line 45: Illegal LHS before the end of line
+
+[Tue Jun 29 09:26:21 2004] u/j/jangshow/high-level/mage.c line 45: parse error before the end of line
+
+[Tue Jun 29 09:26:45 2004] u/j/jangshow/high-level/mage.c line 34: parse error before   
+
+[Tue Jun 29 09:26:45 2004] u/j/jangshow/high-level/mage.c line 44: Undefined variable 'target' before query_dex();
+
+[Tue Jun 29 09:26:45 2004] u/j/jangshow/high-level/mage.c line 44: Illegal LHS before the end of line
+
+[Tue Jun 29 09:26:45 2004] u/j/jangshow/high-level/mage.c line 44: parse error before the end of line
+
+[Tue Jun 29 09:26:45 2004] u/j/jangshow/high-level/mage.c line 45: Illegal LHS before the end of line
+
+[Tue Jun 29 09:26:45 2004] u/j/jangshow/high-level/mage.c line 45: parse error before the end of line
+
+[Tue Jun 29 09:27:17 2004] u/j/jangshow/high-level/mage.c line 41: Undefined variable 'me' before  !target) return 0;
+
+[Tue Jun 29 09:27:17 2004] u/j/jangshow/high-level/mage.c line 41: Undefined variable 'target' before  return 0;
+
+[Tue Jun 29 09:27:17 2004] u/j/jangshow/high-level/mage.c line 45: Undefined variable 'hitchance' before 20) > tdex+tcon)
+
+[Tue Jun 29 09:27:17 2004] u/j/jangshow/high-level/mage.c line 48: parse error before n",me,target);
+
+[Tue Jun 29 09:27:17 2004] u/j/jangshow/high-level/mage.c line 62: $var illegal outside of function pointer. before N»´Án¹D¡G¶â...³o¦¸´N
+
+[Tue Jun 29 09:27:17 2004] u/j/jangshow/high-level/mage.c line 63: $var illegal outside of function pointer. before N¥Î¤â«üµÛ$n¡C\n\n" ,
+
+[Tue Jun 29 09:30:02 2004] u/j/jangshow/high-level/mage.c line 45: Undefined variable 'hitchance' before 20) > tdex+tcon)
+
+[Tue Jun 29 09:30:02 2004] u/j/jangshow/high-level/mage.c line 48: parse error before n",me,target);
+
+[Tue Jun 29 09:30:02 2004] u/j/jangshow/high-level/mage.c line 62: $var illegal outside of function pointer. before N»´Án¹D¡G¶â...³o¦¸´N
+
+[Tue Jun 29 09:30:02 2004] u/j/jangshow/high-level/mage.c line 63: $var illegal outside of function pointer. before N¥Î¤â«üµÛ$n¡C\n\n" ,
+
+[Tue Jun 29 09:30:02 2004] u/j/jangshow/high-level/mage.c line 63: $var illegal outside of function pointer. before n¡C\n\n" ,me,target)
+
+[Tue Jun 29 09:30:02 2004] u/j/jangshow/high-level/mage.c line 69: $var illegal outside of function pointer. before N»´Án¹D¡GÅý§A­ÌÀ|À|®
+
+[Tue Jun 29 09:30:32 2004] u/j/jangshow/high-level/mage.c line 48: parse error before n",me,target);
+
+[Tue Jun 29 09:30:32 2004] u/j/jangshow/high-level/mage.c line 62: $var illegal outside of function pointer. before N»´Án¹D¡G¶â...³o¦¸´N
+
+[Tue Jun 29 09:30:32 2004] u/j/jangshow/high-level/mage.c line 63: $var illegal outside of function pointer. before N¥Î¤â«üµÛ$n¡C\n\n" ,
+
+[Tue Jun 29 09:30:32 2004] u/j/jangshow/high-level/mage.c line 63: $var illegal outside of function pointer. before n¡C\n\n" ,me,target)
+
+[Tue Jun 29 09:30:32 2004] u/j/jangshow/high-level/mage.c line 69: $var illegal outside of function pointer. before N»´Án¹D¡GÅý§A­ÌÀ|À|®
+
+[Tue Jun 29 09:30:32 2004] u/j/jangshow/high-level/mage.c line 105: $var illegal outside of function pointer. before N³Q±j¤jªºÀ£¤O©Ò¤À¸Ñ¡
+
+[Tue Jun 29 09:30:56 2004] u/j/jangshow/high-level/mage.c line 50: Type of returned value doesn't match function return type ( int vs void ) before  
+
+[Tue Jun 29 09:30:56 2004] u/j/jangshow/high-level/mage.c line 52: Number of arguments disagrees with previous definition. before the end of line
+
+[Tue Jun 29 09:31:46 2004] u/j/jangshow/high-level/mage.c line 52: Number of arguments disagrees with previous definition. before the end of line
+
+[Tue Jun 29 09:33:21 2004] u/j/jangshow/high-level/mage.c line 52: Number of arguments disagrees with previous definition. before the end of line
+
+[Tue Jun 29 09:39:27 2004] u/j/jangshow/high-level/mage-hat.c line 3: parse error before ;
+
+[Tue Jun 29 09:39:49 2004] u/j/jangshow/high-level/mage-hat.c line 3: parse error before ;
+
+[Tue Jun 29 09:40:39 2004] u/j/jangshow/high-level/mage-hat.c line 12: parse error before ;        {
+
+[Tue Jun 29 09:40:39 2004] u/j/jangshow/high-level/mage-hat.c line 22: parse error before  
+
+[Tue Jun 29 09:44:28 2004] u/j/jangshow/high-level/mage-gloves.c line 3: parse error before ;
+
+[Tue Jun 29 09:45:12 2004] u/j/jangshow/high-level/mage-gloves.c line 3: parse error before ;
+
+[Tue Jun 29 09:55:48 2004] u/j/jangshow/high-level/room.c line 16: Warning: Non-void functions must return a value. before the end of line
+
+[Tue Jun 29 13:11:24 2004] u/j/jangshow/high-level/mage.c line 54: Number of arguments disagrees with previous definition. before   
+
+[Tue Jun 29 13:11:24 2004] u/j/jangshow/high-level/mage.c line 55: parse error before the end of line
+
+[Tue Jun 29 13:11:44 2004] u/j/jangshow/high-level/mage.c line 54: Number of arguments disagrees with previous definition. before   
+
+[Tue Jun 29 13:12:51 2004] u/j/jangshow/high-level/mage.c line 54: Number of arguments disagrees with previous definition. before   
+
+[Tue Jun 29 14:25:37 2004] u/j/jangshow/high-level/mage.c line 288: parse error before ( inv[i]->is_corpse(
+
+[Tue Jun 29 14:25:37 2004] u/j/jangshow/high-level/mage.c line 291: Illegal LHS before (HIW"¡y³Ø°Õ¡z¦ü¥G¬O°
+
+[Tue Jun 29 14:25:37 2004] u/j/jangshow/high-level/mage.c line 291: parse error before (HIW"¡y³Ø°Õ¡z¦ü¥G¬O°
+
+[Tue Jun 29 14:25:37 2004] u/j/jangshow/high-level/mage.c line 312: Illegal LHS before  
+
+[Tue Jun 29 14:25:37 2004] u/j/jangshow/high-level/mage.c line 312: parse error before  
+
+[Tue Jun 29 14:25:37 2004] u/j/jangshow/high-level/mage.c line 323: Illegal LHS before  = this_player()
+
+[Tue Jun 29 14:25:51 2004] u/j/jangshow/high-level/mage.c line 288: parse error before ( inv[i]->is_corpse(
+
+[Tue Jun 29 14:25:51 2004] u/j/jangshow/high-level/mage.c line 291: Illegal LHS before (HIW"¡y³Ø°Õ¡z¦ü¥G¬O°
+
+[Tue Jun 29 14:25:51 2004] u/j/jangshow/high-level/mage.c line 291: parse error before (HIW"¡y³Ø°Õ¡z¦ü¥G¬O°
+
+[Tue Jun 29 14:25:51 2004] u/j/jangshow/high-level/mage.c line 312: Illegal LHS before  
+
+[Tue Jun 29 14:25:51 2004] u/j/jangshow/high-level/mage.c line 312: parse error before  
+
+[Tue Jun 29 14:25:51 2004] u/j/jangshow/high-level/mage.c line 323: Illegal LHS before  = this_player()
+
+[Tue Jun 29 14:27:17 2004] u/j/jangshow/high-level/mage.c line 346: parse error before the end of line
+
+[Tue Jun 29 14:29:00 2004] u/j/jangshow/high-level/mage.c line 345: parse error before the end of line
+
+[Tue Jun 29 14:30:44 2004] u/j/jangshow/high-level/mage.c line 345: parse error before the end of line
+
+[Tue Jun 29 14:32:49 2004] u/j/jangshow/high-level/mage.c line 345: parse error before the end of line
+
+[Wed Jun 30 00:27:12 2004] u/j/jangshow/high-level/mage.c line 345: parse error before the end of line
+
+[Thu Jul  1 09:15:16 2004] u/j/jangshow/high-level/mage.c line 6: Undefined variable 'HIC' before NOR, ({ "mage" }) );
+
+[Thu Jul  1 09:15:16 2004] u/j/jangshow/high-level/mage.c line 6: parse error before NOR, ({ "mage" }) );
+
+[Thu Jul  1 09:15:16 2004] u/j/jangshow/high-level/mage.c line 29: Function pointers nested too deep. before heal_hp():),
+
+[Thu Jul  1 09:15:16 2004] u/j/jangshow/high-level/mage.c line 30: Function pointers nested too deep. before random_move() :), 
+
+[Thu Jul  1 09:15:16 2004] u/j/jangshow/high-level/mage.c line 31: Function pointers nested too deep. before super_attack() :), 
+
+[Thu Jul  1 09:15:16 2004] u/j/jangshow/high-level/mage.c line 32: Function pointers nested too deep. before heal_hp():),
+
+[Thu Jul  1 09:20:52 2004] u/j/jangshow/high-level/mage.c line 219: Illegal to redefine 'nomask' function "query_weight" before  
+
+[Thu Jul  1 09:20:52 2004] u/j/jangshow/high-level/mage.c line 219: Illegal to redefine 'nomask' function "query_busy" before  
+
+[Thu Jul  1 09:20:52 2004] u/j/jangshow/high-level/mage.c line 219: Illegal to redefine 'nomask' function "is_busy" before  
+
+[Thu Jul  1 09:20:52 2004] u/j/jangshow/high-level/mage.c line 219: Illegal to redefine 'nomask' function "is_block" before  
+
+[Thu Jul  1 09:20:52 2004] u/j/jangshow/high-level/mage.c line 219: Illegal to redefine 'nomask' function "command_hook" before  
+
+[Thu Jul  1 09:20:52 2004] u/j/jangshow/high-level/mage.c line 219: Illegal to redefine 'nomask' function "set_path" before  
+
+[Thu Jul  1 09:36:49 2004] u/j/jangshow/high-level/mage.c line 270: parse error before  do_super(object me
+
+[Thu Jul  1 09:36:49 2004] u/j/jangshow/high-level/mage.c line 274: Illegal LHS before (!inv) return
+
+[Thu Jul  1 09:36:49 2004] u/j/jangshow/high-level/mage.c line 274: parse error before (!inv) return
+
+[Thu Jul  1 09:36:49 2004] u/j/jangshow/high-level/mage.c line 278: Illegal LHS before i<sizeof(inv);i++
+
+[Thu Jul  1 09:36:49 2004] u/j/jangshow/high-level/mage.c line 278: Undefined variable 'i' before sizeof(inv);i++
+
+[Thu Jul  1 09:36:49 2004] u/j/jangshow/high-level/mage.c line 278: Undefined variable 'inv' before ;i++
+
+[Thu Jul  1 09:36:49 2004] u/j/jangshow/high-level/mage.c line 278: Warning: Value of conditional expression is unused before i++
+
+[Thu Jul  1 09:37:23 2004] u/j/jangshow/high-level/mage.c line 264: parse error before  if( inv[i]->query_c
+
+[Thu Jul  1 09:37:37 2004] u/j/jangshow/high-level/mage.c line 265: Undefined variable 'inv' before i]);
+
+[Thu Jul  1 09:37:37 2004] u/j/jangshow/high-level/mage.c line 265: Undefined variable 'i' before );
+
+[Thu Jul  1 09:37:37 2004] u/j/jangshow/high-level/mage.c line 268: parse error before start_busy(2);
+
+[Thu Jul  1 09:38:23 2004] u/j/jangshow/high-level/mage.c line 1: parse error before .c
+
+[Thu Jul  1 09:38:47 2004] u/j/jangshow/high-level/mage.c line 323: parse error before  i
+
+[Thu Jul  1 09:49:02 2004] u/j/jangshow/high-level/mage.c line 86: Reserved type name unexpected. before ,tcon;   
+
+[Thu Jul  1 09:49:02 2004] u/j/jangshow/high-level/mage.c line 86: parse error before ,tcon;   
+
+[Thu Jul  1 09:49:02 2004] u/j/jangshow/high-level/mage.c line 95: Illegal LHS before i<sizeof(inv);i++)
+
+[Thu Jul  1 09:49:02 2004] u/j/jangshow/high-level/mage.c line 95: Undefined variable 'i' before sizeof(inv);i++)
+
+[Thu Jul  1 09:49:02 2004] u/j/jangshow/high-level/mage.c line 95: Undefined variable 'inv' before ;i++)
+
+[Thu Jul  1 09:49:02 2004] u/j/jangshow/high-level/mage.c line 95: Warning: Value of conditional expression is unused before i++)
+
+[Thu Jul  1 09:49:02 2004] u/j/jangshow/high-level/mage.c line 95: parse error before the end of line
+
+[Thu Jul  1 09:50:01 2004] u/j/jangshow/high-level/mage.c line 92: parse error before  
+
+[Thu Jul  1 09:50:01 2004] u/j/jangshow/high-level/mage.c line 94: Illegal LHS before i<sizeof(inv);i++)
+
+[Thu Jul  1 09:50:01 2004] u/j/jangshow/high-level/mage.c line 126: Illegal LHS before the end of line
+
+[Thu Jul  1 09:50:01 2004] u/j/jangshow/high-level/mage.c line 126: parse error before the end of line
+
+[Thu Jul  1 09:50:01 2004] u/j/jangshow/high-level/mage.c line 127: Illegal LHS before the end of line
+
+[Thu Jul  1 09:50:01 2004] u/j/jangshow/high-level/mage.c line 127: parse error before the end of line
+
+[Thu Jul  1 09:51:41 2004] u/j/jangshow/high-level/mage.c line 92: parse error before  
+
+[Thu Jul  1 09:51:41 2004] u/j/jangshow/high-level/mage.c line 94: Illegal LHS before i<sizeof(inv);i++)
+
+[Thu Jul  1 09:51:41 2004] u/j/jangshow/high-level/mage.c line 126: Illegal LHS before the end of line
+
+[Thu Jul  1 09:51:41 2004] u/j/jangshow/high-level/mage.c line 126: parse error before the end of line
+
+[Thu Jul  1 09:51:41 2004] u/j/jangshow/high-level/mage.c line 127: Illegal LHS before the end of line
+
+[Thu Jul  1 09:51:41 2004] u/j/jangshow/high-level/mage.c line 127: parse error before the end of line
+
+[Thu Jul  1 09:52:15 2004] u/j/jangshow/high-level/mage.c line 121: Reserved type name unexpected. before (object me,object ta
+
+[Thu Jul  1 09:52:15 2004] u/j/jangshow/high-level/mage.c line 121: parse error before (object me,object ta
+
+[Thu Jul  1 09:52:15 2004] u/j/jangshow/high-level/mage.c line 126: Undefined variable 'target' before query_dex();
+
+[Thu Jul  1 09:52:15 2004] u/j/jangshow/high-level/mage.c line 126: Illegal LHS before the end of line
+
+[Thu Jul  1 09:52:15 2004] u/j/jangshow/high-level/mage.c line 127: Undefined variable 'tcon' before target->query_con();
+
+[Thu Jul  1 09:52:15 2004] u/j/jangshow/high-level/mage.c line 128: Undefined variable 'hitchance' before 20) > tdex+tcon)
+
+[Thu Jul  1 09:55:18 2004] u/j/jangshow/high-level/mage.c line 121: Reserved type name unexpected. before (object me,object ta
+
+[Thu Jul  1 09:55:18 2004] u/j/jangshow/high-level/mage.c line 121: parse error before (object me,object ta
+
+[Thu Jul  1 09:55:18 2004] u/j/jangshow/high-level/mage.c line 126: Undefined variable 'target' before query_dex();
+
+[Thu Jul  1 09:55:18 2004] u/j/jangshow/high-level/mage.c line 126: Illegal LHS before the end of line
+
+[Thu Jul  1 09:55:18 2004] u/j/jangshow/high-level/mage.c line 127: Undefined variable 'tcon' before target->query_con();
+
+[Thu Jul  1 09:55:18 2004] u/j/jangshow/high-level/mage.c line 128: Undefined variable 'hitchance' before 20) > tdex+tcon)
+
+[Thu Jul  1 10:07:14 2004] u/j/jangshow/high-level/mage.c line 134: parse error before ðµM¨â²´ª½µø«e¤è...¤f
+
+[Thu Jul  1 10:07:14 2004] u/j/jangshow/high-level/mage.c line 159: $var illegal outside of function pointer. before N³Q±j¤jªºÀ£¤O©Ò¤À¸Ñ¡
+
+[Thu Jul  1 10:07:14 2004] u/j/jangshow/high-level/mage.c line 171: Illegal terminator before ­Ó§á¦±ªºªÅ¶¡µ¹¦Y¤F¶i
+
+[Thu Jul  1 11:02:00 2004] u/j/jangshow/high-level/mage.c line 79: Warning: Non-void functions must return a value. before }
+
+[Thu Jul  1 11:06:04 2004] u/j/jangshow/high-level/mage.c line 39: Number of arguments disagrees with previous definition. before the end of line
+
+[Thu Jul  1 11:06:56 2004] u/j/jangshow/high-level/mage.c line 38: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Thu Jul  1 11:06:56 2004] u/j/jangshow/high-level/mage.c line 39: Number of arguments disagrees with previous definition. before the end of line
+
+[Thu Jul  1 11:07:16 2004] u/j/jangshow/high-level/mage.c line 39: Number of arguments disagrees with previous definition. before the end of line
+
+[Sat Jul  3 05:26:39 2004] u/j/jangshow/high-level/mage.c line 64: parse error before the end of line
+
+[Sat Jul  3 05:26:39 2004] u/j/jangshow/high-level/mage.c line 69: Illegal LHS before the end of line
+
+[Tue Jul 13 02:10:53 2004] u/j/jangshow/workroom.c line 50: Undefined variable 'victims' before  != -1)
+
+[Tue Jul 13 02:10:53 2004] u/j/jangshow/workroom.c line 75: Undefined variable 'ROBOT_CHECK' before test_me(ob);
+
+[Tue Jul 13 02:10:53 2004] u/j/jangshow/workroom.c line 98: Undefined variable 'victims' before  ({});
+
+[Tue Jul 13 02:10:53 2004] u/j/jangshow/workroom.c line 148: Redeclaration of function init. before the end of line
+
+[Tue Jul 13 02:12:18 2004] u/j/jangshow/workroom.c line 5: parse error before  string *victims = (
+
+[Tue Jul 13 02:12:18 2004] u/j/jangshow/workroom.c line 6: parse error before  
+
+[Tue Jul 13 02:12:50 2004] u/j/jangshow/workroom.c line 76: Undefined variable 'ROBOT_CHECK' before test_me(ob);
+
+[Tue Jul 13 02:12:50 2004] u/j/jangshow/workroom.c line 149: Redeclaration of function init. before the end of line
+
+[Tue Jul 13 02:14:34 2004] u/j/jangshow/workroom.c line 76: Undefined variable 'ROBOT_CHECK' before test_me(ob);
+
+[Tue Jul 13 02:14:34 2004] u/j/jangshow/workroom.c line 149: Redeclaration of function init. before the end of line
+
+[Tue Jul 13 02:15:19 2004] u/j/jangshow/workroom.c line 76: Undefined variable 'ROBOT_CHECK' before test_me(ob);
+
+[Tue Jul 13 02:15:19 2004] u/j/jangshow/workroom.c line 149: Redeclaration of function init. before the end of line
+
+[Tue Jul 13 02:16:03 2004] u/j/jangshow/workroom.c line 150: Redeclaration of function init. before the end of line
+
+[Tue Jul 13 02:16:23 2004] u/j/jangshow/workroom.c line 150: Redeclaration of function init. before the end of line
+
+[Tue Jul 13 02:16:29 2004] u/j/jangshow/workroom.c line 150: Redeclaration of function init. before the end of line
+
+[Tue Jul 13 02:16:31 2004] u/j/jangshow/workroom.c line 150: Redeclaration of function init. before the end of line
+
+[Tue Jul 13 02:17:19 2004] u/j/jangshow/workroom.c line 28: parse error before the end of line
+
+[Tue Jul 13 02:29:29 2004] u/j/jangshow/workroom_pe.c line 6: parse error before n\n\t¬°¥jªF©Ò¶}ªº°Q½
+
+[Tue Jul 13 02:29:29 2004] u/j/jangshow/workroom_pe.c line 14: End of file in string before ¡xxx()®É½Ð®³±¼¦¹¦æ
+
+[Thu Aug  5 02:42:29 2004] u/j/jangshow/workroom.c line 105: parse error before the end of file
+
+[Thu Aug  5 02:42:55 2004] u/j/jangshow/workroom.c line 98: parse error before  {     
+
+[Thu Aug  5 02:43:25 2004] u/j/jangshow/workroom.c line 98: parse error before  {     
+
+[Thu Aug  5 02:43:25 2004] u/j/jangshow/workroom.c line 104: parse error before the end of line
+
+[Fri Aug  6 09:37:28 2004] u/j/jangshow/pll.c line 11: Left argument of -> is not a class before skill("force") > 120
+
+[Fri Aug  6 09:37:28 2004] u/j/jangshow/pll.c line 14: Left argument of -> is not a class before 2; 
+
+[Fri Aug  6 09:37:28 2004] u/j/jangshow/pll.c line 26: Left argument of -> is not a class before 2; 
+
+[Fri Aug  6 09:37:28 2004] u/j/jangshow/pll.c line 27: parse error before º¨­Åé¬ðµM©ñ¥X¤@ªÑ¯à¶
+
+[Fri Aug  6 09:37:28 2004] u/j/jangshow/pll.c line 27: Illegal terminator before ªÑ¯à¶q¡Aº¥º¥´²¥h¡E¡E
+
+[Tue Aug 10 15:23:35 2004] u/j/jangshow/sk/new_pick.c line 23: parse error before  : return notify_fai
+
+[Tue Aug 10 15:23:35 2004] u/j/jangshow/sk/new_pick.c line 34: Illegal LHS before the end of line
+
+[Tue Aug 10 15:23:35 2004] u/j/jangshow/sk/new_pick.c line 34: parse error before the end of line
+
+[Tue Aug 10 15:23:35 2004] u/j/jangshow/sk/new_pick.c line 35: Illegal LHS before the end of line
+
+[Tue Aug 10 15:23:35 2004] u/j/jangshow/sk/new_pick.c line 35: parse error before the end of line
+
+[Tue Aug 10 15:23:35 2004] u/j/jangshow/sk/new_pick.c line 36: Illegal LHS before the end of line
+
+[Tue Aug 10 15:24:31 2004] u/j/jangshow/sk/practice_bone.c line 24: parse error before  if(me->query_skill(
+
+[Tue Aug 10 15:24:31 2004] u/j/jangshow/sk/practice_bone.c line 36: Warning: Value of conditional expression is unused before ->improve_skill("pra
+
+[Tue Aug 10 15:24:31 2004] u/j/jangshow/sk/practice_bone.c line 39: Reserved type name unexpected. before (object me)
+
+[Tue Aug 10 15:24:31 2004] u/j/jangshow/sk/practice_bone.c line 39: parse error before (object me)
+
+[Tue Aug 10 16:27:26 2004] u/j/jangshow/sk/p.c line 32: Warning: Value of conditional expression is unused before the end of line
+
+[Tue Aug 10 16:27:26 2004] u/j/jangshow/sk/p.c line 36: parse error before {
+
+[Tue Aug 10 16:27:26 2004] u/j/jangshow/sk/p.c line 37: Illegal LHS before the end of line
+
+[Tue Aug 10 16:27:26 2004] u/j/jangshow/sk/p.c line 55: parse error before  1; 
+
+[Fri Aug 13 22:40:59 2004] u/j/jangshow/pll.c line 11: Left argument of -> is not a class before skill("force") > 120
+
+[Fri Aug 13 22:40:59 2004] u/j/jangshow/pll.c line 14: Left argument of -> is not a class before 2; 
+
+[Fri Aug 13 22:40:59 2004] u/j/jangshow/pll.c line 26: Left argument of -> is not a class before 2; 
+
+[Fri Aug 13 22:40:59 2004] u/j/jangshow/pll.c line 27: parse error before º¨­Åé¬ðµM©ñ¥X¤@ªÑ¯à¶
+
+[Fri Aug 13 22:40:59 2004] u/j/jangshow/pll.c line 27: Illegal terminator before ªÑ¯à¶q¡Aº¥º¥´²¥h¡E¡E
+
+[Sat Sep 18 13:21:24 2004] u/j/jangshow/gy.c line 15: parse error before string arg)
+
+[Sat Sep 18 13:21:24 2004] u/j/jangshow/gy.c line 18: Undefined variable 'arg' before  )
+
+[Sat Sep 18 13:21:24 2004] u/j/jangshow/gy.c line 18: Illegal LHS before the end of line
+
+[Sat Sep 18 13:21:24 2004] u/j/jangshow/gy.c line 18: parse error before the end of line
+
+[Sat Sep 18 13:23:40 2004] u/j/jangshow/gy.c line 14: parse error before ("do_sn1","sn1");
+
+[Sun May 22 01:38:59 2005] u/j/jangshow/sk/new_pick.c line 23: parse error before  : return notify_fai
+
+[Sun May 22 01:38:59 2005] u/j/jangshow/sk/new_pick.c line 34: Illegal LHS before the end of line
+
+[Sun May 22 01:38:59 2005] u/j/jangshow/sk/new_pick.c line 34: parse error before the end of line
+
+[Sun May 22 01:38:59 2005] u/j/jangshow/sk/new_pick.c line 35: Illegal LHS before the end of line
+
+[Sun May 22 01:38:59 2005] u/j/jangshow/sk/new_pick.c line 35: parse error before the end of line
+
+[Sun May 22 01:38:59 2005] u/j/jangshow/sk/new_pick.c line 36: Illegal LHS before the end of line
+
+[Sun Mar 12 17:43:04 2006] u/j/jangshow/ttt/sword.c line 30: Undefined variable 'ob' before  this_object();
+
+[Sun Mar 12 17:43:04 2006] u/j/jangshow/ttt/sword.c line 33: Undefined variable 'me' before  return;
+
+[Sun Mar 12 17:43:04 2006] u/j/jangshow/ttt/sword.c line 38: Undefined variable 'sex' before  "¨k©Ê" ) {        
+
+[Sun Mar 12 17:44:23 2006] u/j/jangshow/ttt/sword.c line 38: Undefined variable 'sex' before  "¨k©Ê" ) {        
+
+[Sun Mar 12 17:46:21 2006] u/j/jangshow/ttt/sword.c line 38: == always false because of incompatible types ( object vs string ). before  {        
+
+[Sun Mar 12 17:46:21 2006] u/j/jangshow/ttt/sword.c line 38: Bad assignment ( object vs int ). before  {        
+
+[Sun Mar 12 17:46:51 2006] u/j/jangshow/ttt/sword.c line 38: == always false because of incompatible types ( object vs string ). before  {        
+
+[Fri Mar 24 15:40:10 2006] u/j/jangshow/iron_class/npc/wp/axe.c line 6: Undefined variable 'HIY' before NOR,({"iron axe","ax
+
+[Fri Mar 24 15:40:10 2006] u/j/jangshow/iron_class/npc/wp/axe.c line 6: parse error before NOR,({"iron axe","ax
+
+[Fri Mar 24 15:41:03 2006] u/j/jangshow/iron_class/npc/wp/axe.c line 25: Undefined function init_fist before ;
+
+[Fri Mar 24 15:53:19 2006] u/j/jangshow/iron_class/npc/wp/axe.c line 22: Undefined variable 'limit_con' before replica_ob",__DIR__"
+
+[Fri Mar 24 15:53:19 2006] u/j/jangshow/iron_class/npc/wp/axe.c line 22: parse error before replica_ob",__DIR__"
+
+[Fri Mar 24 15:53:19 2006] u/j/jangshow/iron_class/npc/wp/axe.c line 39: $var illegal outside of function pointer. before N¨Ï«lªº±N¤â¤Wªº¥¨©ò¤
+
+[Fri Mar 24 15:53:19 2006] u/j/jangshow/iron_class/npc/wp/axe.c line 39: Illegal terminator before ¼A¡I\n"NOR
+
+[Fri Mar 24 15:54:48 2006] u/j/jangshow/iron_class/npc/wp/axe.c line 22: Undefined variable 'limit_con' before replica_ob",__DIR__"
+
+[Fri Mar 24 15:54:48 2006] u/j/jangshow/iron_class/npc/wp/axe.c line 22: parse error before replica_ob",__DIR__"
+
+[Fri Mar 24 15:54:48 2006] u/j/jangshow/iron_class/npc/wp/axe.c line 39: $var illegal outside of function pointer. before N¨Ï«lªº±N¤â¤Wªº¥¨©ò¤
+
+[Fri Mar 24 15:54:48 2006] u/j/jangshow/iron_class/npc/wp/axe.c line 39: Illegal terminator before ¼A¡I\n"NOR
+
+[Fri Mar 24 15:55:57 2006] u/j/jangshow/iron_class/npc/wp/axe.c line 22: Undefined variable 'limit_con' before replica_ob",__DIR__"
+
+[Fri Mar 24 15:55:57 2006] u/j/jangshow/iron_class/npc/wp/axe.c line 22: parse error before replica_ob",__DIR__"
+
+[Fri Mar 24 15:55:57 2006] u/j/jangshow/iron_class/npc/wp/axe.c line 39: $var illegal outside of function pointer. before N¨Ï«lªº±N¤â¤Wªº¥¨©ò¤
+
+[Fri Mar 24 15:55:57 2006] u/j/jangshow/iron_class/npc/wp/axe.c line 39: Illegal terminator before ¼A¡I\n"NOR
+
+[Fri Mar 24 15:56:09 2006] u/j/jangshow/iron_class/npc/wp/axe.c line 22: Undefined variable 'limit_con' before replica_ob",__DIR__"
+
+[Fri Mar 24 15:56:09 2006] u/j/jangshow/iron_class/npc/wp/axe.c line 22: parse error before replica_ob",__DIR__"
+
+[Fri Mar 24 15:56:09 2006] u/j/jangshow/iron_class/npc/wp/axe.c line 39: $var illegal outside of function pointer. before N¨Ï«lªº±N¤â¤Wªº¥¨©ò¤
+
+[Fri Mar 24 15:56:09 2006] u/j/jangshow/iron_class/npc/wp/axe.c line 39: Illegal terminator before ¼A¡I\n"NOR
+
+[Fri Mar 24 15:56:15 2006] u/j/jangshow/iron_class/npc/wp/axe.c line 22: Undefined variable 'limit_con' before replica_ob",__DIR__"
+
+[Fri Mar 24 15:56:15 2006] u/j/jangshow/iron_class/npc/wp/axe.c line 22: parse error before replica_ob",__DIR__"
+
+[Fri Mar 24 15:56:15 2006] u/j/jangshow/iron_class/npc/wp/axe.c line 39: $var illegal outside of function pointer. before N¨Ï«lªº±N¤â¤Wªº¥¨©ò¤
+
+[Fri Mar 24 15:56:15 2006] u/j/jangshow/iron_class/npc/wp/axe.c line 39: Illegal terminator before ¼A¡I\n"NOR
+
+[Fri Mar 24 16:05:29 2006] u/j/jangshow/iron_class/npc/master.c line 185: parse error before t"HIW"´xªù¤H¡iÅK²ÐÂE
+
+[Fri Mar 24 16:05:29 2006] u/j/jangshow/iron_class/npc/master.c line 191: End of file in string before              switch(
+
+[Fri Mar 24 16:07:24 2006] u/j/jangshow/iron_class/npc/master.c line 185: parse error before tHIC"¡»ÅK¬Þªù¡»\t"HI
+
+[Fri Mar 24 16:22:36 2006] u/j/jangshow/iron_class/npc/master.c line 210: parse error before ;
+
+[Fri Apr  7 17:08:48 2006] u/j/jangshow/killall.c line 26: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Fri Apr  7 17:08:48 2006] u/j/jangshow/killall.c line 27: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+
+[Fri Apr  7 17:29:25 2006] u/j/jangshow/killall.c line 26: Warning: Non-void functions must return a value. before the end of line
+
+[Fri Apr  7 17:29:25 2006] u/j/jangshow/killall.c line 27: Warning: Non-void functions must return a value. before the end of line
+
+[Fri Apr  7 17:29:35 2006] u/j/jangshow/killall.c line 26: Warning: Non-void functions must return a value. before the end of line
+
+[Fri Apr  7 17:29:35 2006] u/j/jangshow/killall.c line 27: Warning: Non-void functions must return a value. before the end of line
+
+[Fri Apr  7 17:31:18 2006] u/j/jangshow/killall.c line 26: Warning: Non-void functions must return a value. before the end of line
+
+[Fri Apr  7 17:31:18 2006] u/j/jangshow/killall.c line 27: Warning: Non-void functions must return a value. before the end of line
+
+[Wed Apr 19 16:38:45 2006] u/j/jangshow/chh.c line 46: Undefined function save before ;
+
+[Wed Apr 19 16:38:45 2006] u/j/jangshow/chh.c line 46: Invalid types to '-' ( object vs unknown ) before the end of line
+
+[Wed Jun  7 13:46:54 2006] u/j/jangshow/test/dragon-boots.c line 5: Undefined function set_name before ;
+
+[Wed Jun  7 13:46:54 2006] u/j/jangshow/test/dragon-boots.c line 9: Undefined function set before ;
+
+[Wed Jun  7 13:46:54 2006] u/j/jangshow/test/dragon-boots.c line 10: Undefined function set_weight before ;
+
+[Wed Jun  7 13:46:54 2006] u/j/jangshow/test/dragon-boots.c line 12: Undefined function set_default_object before ;
+
+[Wed Jun  7 13:46:54 2006] u/j/jangshow/test/dragon-boots.c line 23: Undefined function setup before ;
+
+[Wed Jun  7 13:47:32 2006] u/j/jangshow/test/dragon-boots.c line 5: Undefined function set_name before ;
+
+[Wed Jun  7 13:47:32 2006] u/j/jangshow/test/dragon-boots.c line 9: Undefined function set before ;
+
+[Wed Jun  7 13:47:32 2006] u/j/jangshow/test/dragon-boots.c line 10: Undefined function set_weight before ;
+
+[Wed Jun  7 13:47:32 2006] u/j/jangshow/test/dragon-boots.c line 12: Undefined function set_default_object before ;
+
+[Wed Jun  7 13:47:32 2006] u/j/jangshow/test/dragon-boots.c line 24: Undefined function setup before ;
+
+[Wed Jun  7 13:48:48 2006] u/j/jangshow/test/dragon-boots.c line 5: Undefined function set_name before ;
+
+[Wed Jun  7 13:48:48 2006] u/j/jangshow/test/dragon-boots.c line 6: Undefined function set before ;
+
+[Wed Jun  7 13:48:48 2006] u/j/jangshow/test/dragon-boots.c line 7: Undefined function set_weight before ;
+
+[Wed Jun  7 13:48:48 2006] u/j/jangshow/test/dragon-boots.c line 9: Undefined function set_default_object before ;
+
+[Wed Jun  7 13:48:48 2006] u/j/jangshow/test/dragon-boots.c line 21: Undefined function setup before ;
+
+[Wed Jun  7 23:58:53 2006] u/j/jangshow/sk/masen_whip.c line 164: parse error before  5
+
+[Wed Jun  7 23:59:51 2006] u/j/jangshow/sk/masen_whip.c line 164: parse error before  5
+
+[Thu Jun  8 00:01:12 2006] u/j/jangshow/sk/masen_whip.c line 164: parse error before  5
+
+[Thu Jun  8 00:02:30 2006] u/j/jangshow/sk/masen_whip.c line 163: parse error before  5
+
+[Thu Jun  8 00:04:13 2006] u/j/jangshow/sk/masen_whip.c line 164: Undefined variable 'brea' before  
+
+[Thu Jun  8 00:04:13 2006] u/j/jangshow/sk/masen_whip.c line 164: parse error before  
+
+[Thu Jun  8 00:06:30 2006] u/j/jangshow/sk/masen_whip.c line 164: Undefined variable 'brea' before  
+
+[Thu Jun  8 00:06:30 2006] u/j/jangshow/sk/masen_whip.c line 164: parse error before  
+
+[Thu Jun  8 00:07:00 2006] u/j/jangshow/sk/masen_whip.c line 164: Undefined variable 'brea' before  
+
+[Thu Jun  8 00:07:00 2006] u/j/jangshow/sk/masen_whip.c line 164: parse error before  
+
+[Thu Jun  8 00:07:31 2006] u/j/jangshow/sk/masen_whip.c line 164: Undefined variable 'brea' before  
+
+[Thu Jun  8 00:07:31 2006] u/j/jangshow/sk/masen_whip.c line 164: parse error before  
+
+[Thu Jun  8 00:09:15 2006] u/j/jangshow/sk/masen_whip.c line 108: Illegal to redeclare local name 'i' before ;
+
+[Thu Jun  8 00:09:15 2006] u/j/jangshow/sk/masen_whip.c line 165: Undefined variable 'brea' before  
+
+[Thu Jun  8 00:09:15 2006] u/j/jangshow/sk/masen_whip.c line 165: parse error before  
+
+[Thu Jun  8 00:12:01 2006] u/j/jangshow/sk/masen_whip.c line 163: Undefined variable 'brea' before  
+
+[Thu Jun  8 00:12:01 2006] u/j/jangshow/sk/masen_whip.c line 163: parse error before  
+
+[Thu Jun  8 00:13:32 2006] u/j/jangshow/sk/masen_whip.c line 162: parse error before  5
+
+[Sat Nov 18 22:40:24 2006] u/j/jangshow/pll.c line 11: Left argument of -> is not a class
+
+[Sat Nov 18 22:40:24 2006] u/j/jangshow/pll.c line 14: Left argument of -> is not a class
+
+[Sat Nov 18 22:40:24 2006] u/j/jangshow/pll.c line 26: Left argument of -> is not a class
+
+[Sat Nov 18 22:40:24 2006] u/j/jangshow/pll.c line 27: syntax error
+
+[Sat Nov 18 22:40:24 2006] u/j/jangshow/pll.c line 27: Illegal terminator
+
+[Sat Nov 18 22:41:08 2006] u/j/jangshow/sk/p.c line 32: Warning: Value of conditional expression is unused
+
+[Sat Nov 18 22:41:08 2006] u/j/jangshow/sk/p.c line 36: syntax error
+
+[Sat Nov 18 22:41:08 2006] u/j/jangshow/sk/p.c line 37: Illegal LHS
+
+[Sat Nov 18 22:41:08 2006] u/j/jangshow/sk/p.c line 55: syntax error
+
+[Sat Nov 18 22:53:42 2006] u/j/jangshow/pll.c line 11: Left argument of -> is not a class
+
+[Sat Nov 18 22:53:42 2006] u/j/jangshow/pll.c line 14: Left argument of -> is not a class
+
+[Sat Nov 18 22:53:42 2006] u/j/jangshow/pll.c line 26: Left argument of -> is not a class
+
+[Sat Nov 18 22:53:42 2006] u/j/jangshow/pll.c line 27: syntax error
+
+[Sat Nov 18 22:53:42 2006] u/j/jangshow/pll.c line 27: Illegal terminator
+
+[Sat Nov 18 23:03:16 2006] u/j/jangshow/sk/add_force.c line 7: Illegal to redeclare local name 'me'
+
+[Sat Nov 18 23:03:16 2006] u/j/jangshow/sk/add_force.c line 11: Left argument of -> is not a class
+
+[Sat Nov 18 23:03:16 2006] u/j/jangshow/sk/add_force.c line 15: Left argument of -> is not a class
+
+[Sat Nov 18 23:03:16 2006] u/j/jangshow/sk/add_force.c line 25: Undefined variable 'me'
+
+[Sat Nov 18 23:03:16 2006] u/j/jangshow/sk/add_force.c line 26: Undefined variable 'me'
+
+[Sat Nov 18 23:03:16 2006] u/j/jangshow/sk/add_force.c line 27: Undefined variable 'me'
+
+[Sat Nov 18 23:04:00 2006] u/j/jangshow/sk/add_force.c line 10: Left argument of -> is not a class
+
+[Sat Nov 18 23:04:00 2006] u/j/jangshow/sk/add_force.c line 14: Left argument of -> is not a class
+
+[Sat Nov 18 23:04:00 2006] u/j/jangshow/sk/add_force.c line 26: Left argument of -> is not a class
+
+[Sat Nov 18 23:05:23 2006] u/j/jangshow/sk/add_force.c line 10: Left argument of -> is not a class
+
+[Sat Nov 18 23:05:23 2006] u/j/jangshow/sk/add_force.c line 14: Left argument of -> is not a class
+
+[Sat Nov 18 23:05:23 2006] u/j/jangshow/sk/add_force.c line 26: Left argument of -> is not a class
+
+[Sat Nov 18 23:08:13 2006] u/j/jangshow/sk/add_force.c line 10: Left argument of -> is not a class
+
+[Sat Nov 18 23:08:13 2006] u/j/jangshow/sk/add_force.c line 14: Left argument of -> is not a class
+
+[Sat Nov 18 23:08:13 2006] u/j/jangshow/sk/add_force.c line 26: Left argument of -> is not a class
+
+[Sat Nov 18 23:09:05 2006] u/j/jangshow/sk/add_force.c line 10: Left argument of -> is not a class
+
+[Sat Nov 18 23:09:05 2006] u/j/jangshow/sk/add_force.c line 13: Left argument of -> is not a class
+
+[Sat Nov 18 23:09:05 2006] u/j/jangshow/sk/add_force.c line 25: Left argument of -> is not a class
+
+[Sat Nov 18 23:10:37 2006] u/j/jangshow/sk/add_force.c line 13: Left argument of -> is not a class
+
+[Sat Nov 18 23:10:37 2006] u/j/jangshow/sk/add_force.c line 25: Left argument of -> is not a class
+
+[Sat Nov 18 23:12:25 2006] u/j/jangshow/sk/add_force.c line 13: Left argument of -> is not a class
+
+[Sat Nov 18 23:12:25 2006] u/j/jangshow/sk/add_force.c line 26: Left argument of -> is not a class
+
+[Sat Nov 18 23:15:37 2006] u/j/jangshow/sk/add_force.c line 13: Left argument of -> is not a class
+
+[Sat Nov 18 23:15:37 2006] u/j/jangshow/sk/add_force.c line 26: Left argument of -> is not a class
+
+[Sun Dec 17 16:39:55 2006] u/j/jangshow/capsule.c line 52: syntax error
+
+[Sun Dec 17 17:04:46 2006] u/j/jangshow/capsule.c line 48: syntax error
+
+[Wed Jan 10 14:43:10 2007] u/j/jangshow/high-level/qq.c line 10: syntax error
+
+[Wed Jan 10 14:43:10 2007] u/j/jangshow/high-level/qq.c line 48: Function pointers nested too deep.
+
+[Wed Jan 10 14:43:10 2007] u/j/jangshow/high-level/qq.c line 88: Undefined variable 'me'
+
+[Wed Jan 10 14:43:10 2007] u/j/jangshow/high-level/qq.c line 88: Illegal LHS
+
+[Wed Jan 10 14:43:10 2007] u/j/jangshow/high-level/qq.c line 88: syntax error
+
+[Wed Jan 10 14:43:10 2007] u/j/jangshow/high-level/qq.c line 94: Illegal LHS
+
+[Wed Jan 10 14:45:14 2007] u/j/jangshow/high-level/qq.c line 10: syntax error
+
+[Wed Jan 10 14:45:14 2007] u/j/jangshow/high-level/qq.c line 48: Function pointers nested too deep.
+
+[Wed Jan 10 14:45:14 2007] u/j/jangshow/high-level/qq.c line 88: Undefined variable 'me'
+
+[Wed Jan 10 14:45:14 2007] u/j/jangshow/high-level/qq.c line 88: Illegal LHS
+
+[Wed Jan 10 14:45:14 2007] u/j/jangshow/high-level/qq.c line 88: syntax error
+
+[Wed Jan 10 14:45:14 2007] u/j/jangshow/high-level/qq.c line 94: Illegal LHS
+
+[Wed Jan 10 14:45:50 2007] u/j/jangshow/high-level/qq.c line 10: syntax error
+
+[Wed Jan 10 14:45:50 2007] u/j/jangshow/high-level/qq.c line 48: Function pointers nested too deep.
+
+[Wed Jan 10 14:45:50 2007] u/j/jangshow/high-level/qq.c line 88: Undefined variable 'me'
+
+[Wed Jan 10 14:45:50 2007] u/j/jangshow/high-level/qq.c line 88: Illegal LHS
+
+[Wed Jan 10 14:45:50 2007] u/j/jangshow/high-level/qq.c line 88: syntax error
+
+[Wed Jan 10 14:45:50 2007] u/j/jangshow/high-level/qq.c line 94: Illegal LHS
+
+[Wed Jan 10 14:47:58 2007] u/j/jangshow/high-level/test.c line 135: == always false because of incompatible types ( int vs string ).
+
+[Wed Jan 10 14:47:58 2007] u/j/jangshow/high-level/test.c line 165: syntax error
+
+[Wed Jan 10 14:47:58 2007] u/j/jangshow/high-level/test.c line 166: Illegal LHS
+
+[Wed Jan 10 14:47:58 2007] u/j/jangshow/high-level/test.c line 242: Type of returned value doesn't match function return type ( int vs void )
+
+[Wed Jan 10 14:47:58 2007] u/j/jangshow/high-level/test.c line 244: == always false because of incompatible types ( int vs string ).
+
+[Wed Jan 10 14:47:58 2007] u/j/jangshow/high-level/test.c line 246: syntax error
+
+[Wed Jan 10 14:48:36 2007] u/j/jangshow/high-level/sky-wind.c line 109: syntax error
+
+[Wed Jan 10 14:48:36 2007] u/j/jangshow/high-level/sky-wind.c line 129: Illegal LHS
+
+[Wed Jan 10 14:48:36 2007] u/j/jangshow/high-level/sky-wind.c line 131: Undefined variable 'lv'
+
+[Wed Jan 10 14:48:36 2007] u/j/jangshow/high-level/sky-wind.c line 137: Undefined variable 'rank'
+
+[Sun Oct 28 11:28:01 2007] /u/j/jsh/workroom.c line 4: Warning: Number of arguments disagrees with previous definition. around ;
+
+[Sun Oct 28 11:28:01 2007] /u/j/jsh/workroom.c line 5: syntax error before  *victims = ({});
+
+[Sun Nov 25 03:09:16 2007] /u/j/jsh/workroom.c line 4: Warning: Number of arguments disagrees with previous definition. around ;
+
+[Sun Nov 25 03:09:16 2007] /u/j/jsh/workroom.c line 5: syntax error before  *victims = ({});
+
+[Sun Nov 25 03:35:31 2007] /u/j/jsh/workroom.c line 4: Warning: Number of arguments disagrees with previous definition. around ;
+
+[Sun Nov 25 03:35:31 2007] /u/j/jsh/workroom.c line 5: syntax error before  *victims = ({});
+
+[Mon Jan 14 04:50:09 2008] /u/j/jsh/workroom.c line 4: Warning: Number of arguments disagrees with previous definition. around ;
+
+[Mon Jan 14 04:50:09 2008] /u/j/jsh/workroom.c line 5: syntax error before  *victims = ({});
+
+[Mon Jan 14 04:51:31 2008] /u/j/jsh/workroom.c line 4: Warning: Number of arguments disagrees with previous definition. around ;
+
+[Mon Jan 14 04:51:31 2008] /u/j/jsh/workroom.c line 5: syntax error before  *victims = ({});
+
+[Fri Feb  8 18:46:14 2008] /u/j/jsh/workroom.c line 4: Warning: Number of arguments disagrees with previous definition. around ;
+
+[Fri Feb  8 18:46:14 2008] /u/j/jsh/workroom.c line 5: syntax error before  *victims = ({});
+
+[Sun May 18 15:36:52 2008] /u/j/jsh/workroom.c line 4: Warning: Number of arguments disagrees with previous definition. around ;
+
+[Sun May 18 15:36:52 2008] /u/j/jsh/workroom.c line 5: syntax error before  *victims = ({});
+
+[Thu Jun 26 15:26:17 2008] /u/j/jsh/workroom.c line 4: Warning: Number of arguments disagrees with previous definition. around ;
+
+[Thu Jun 26 15:26:17 2008] /u/j/jsh/workroom.c line 5: syntax error before  *victims = ({});
+
+[Sat Aug 23 15:04:51 2008] /u/j/jsh/workroom.c line 4: Warning: Number of arguments disagrees with previous definition. before ;
+
+[Sat Aug 23 15:04:51 2008] /u/j/jsh/workroom.c line 5: syntax error before  *victims = ({});
+
+[Mon Oct 27 00:33:10 2008] /u/j/jsh/workroom.c line 4: Warning: Number of arguments disagrees with previous definition. before ;
+
+[Mon Oct 27 00:33:10 2008] /u/j/jsh/workroom.c line 5: syntax error before  *victims = ({});
+
+[Fri Jun 26 22:16:16 2009] /u/j/jsh/workroom.c line 4: Warning: Number of arguments disagrees with previous definition. before ;
+
+[Fri Jun 26 22:16:16 2009] /u/j/jsh/workroom.c line 5: syntax error before  *victims = ({});
+

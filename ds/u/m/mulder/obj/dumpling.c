@@ -1,0 +1,21 @@
+// dumpling.c
+
+inherit ITEM;
+inherit F_FOOD;
+
+void create()
+{
+	set_name("縉", ({ "dump" }) );
+	set_weight(80);
+	if( clonep() )
+		set_default_object(__FILE__);
+	else {
+		set("long", "糛糛荐乃乃縉\n");
+		set("unit", "");
+		set("value", 40);	//把σ基確翴计羆㎝埃5
+		set("heal_hp",10);	//琌"heal_hp"┪琌"heal_mp",常Τ.
+		set("heal_mp",10);
+		set("food_remaining", 3);
+	}
+	setup();
+}

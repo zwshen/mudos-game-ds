@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["supply_point":60,"mud_age":1196,"last_location":"/open/world1/tmr/area/post_office","heart_modify":0,"talk_point":8,"ap":60,"DS_DATA_VERSION":19991107,"evil":-1,"gender":"女性","actions":,"cure_count":19,"name":"月狐","id":"starbell","race":"human","channels":({"chat","rumor","tchat",}),"level":1,"addition_shield":10,"birthday":1126423742,"hp":80,"unit":"位","heart_beat_rate":6,"guild_gifts":({5,5,5,5,}),"addition_armor":10,"exp":777,"dex":2,"int":2,"startroom":"/open/world1/tmr/area/hotel","con":2,"str":2,"newbie":1,"Merits":(["bar":0,"tec":0,"bio":0,"sou":0,"wit":0,]),"age":14,"addition_damage":10,"max_hp":80,"wound":(["head":0,"body":0,"right_arm":0,"left_arm":0,"right_leg":0,"left_leg":0,]),"attitude":"peaceful","volume":7,"max_mp":60,"default_actions":,"mp":60,"max_ap":60,])
+autoload ({"/obj/money/coin:50",})

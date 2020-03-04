@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions (["ill_fashao":7,])
+dbase (["age":14,"DS_DATA_VERSION":19991107,"max_hp":80,"last_location":"/open/world1/tmr/area/vroad4","ap":60,"volume":7,"guild_gifts":({5,5,5,5,}),"MKS":4,"channels":({"chat","rumor","tchat",}),"mud_age":3086,"dssystem":(["prompt":(["form":"Mura     HP%h/%H MP%m/%M SP%a/%A %~",]),]),"addition_shield":10,"hp":71,"newbie":1,"exp":1932,"war_score":11,"dex":2,"mp":60,"int":2,"attitude":"peaceful","con":2,"supply_point":60,"level":1,"birthday":1218224602,"addition_armor":10,"talk_point":8,"bank":(["past":154,]),"evil":0,"mob_record":({"/open/world1/tmr/area/npc/mvillager","/open/world1/tmr/area/npc/mvillager","/open/world1/acme/bonze/npc/dog","/open/world1/acme/bonze/npc/dog",}),"cure_count":7,"addition_damage":10,"combat_exp":3,"max_mp":60,"heart_modify":0,"Merits":(["bar":0,"bio":0,"tec":0,"sou":0,"wit":0,]),"race":"human","default_actions":,"max_ap":60,"id":"mura","wound":(["body":0,"left_arm":0,"right_arm":0,"left_leg":0,"head":0,"right_leg":0,]),"actions":,"unit":"¦ì","startroom":"/open/world1/tmr/area/hotel","gender":"¤k©Ê","str":2,"name":"¿p©Ô","heart_beat_rate":6,])
+skills (["parry":5,"combat":6,"unarmed":4,"dagger":5,"strong-body":2,"dodge":5,"block":5,"sword":5,])
+learned (["parry":5,"combat":60,"unarmed":25,"strong-body":14,"dodge":27,"sword":38,])
+items ({})
+autoload ({"/obj/money/coin:300",})
+toDoList ([])
+solved ({})

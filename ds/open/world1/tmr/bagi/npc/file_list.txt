@@ -1,0 +1,5 @@
+Ω웡좷/open/world1/tmr/bagi/npc/
+advmaster.c         쬭컨                cmoon1.c            쬛ㅻ              
+cmoon2.c            쬛ㅻ                furnace.c           ㄶ훜              
+master.c            쬭컨                monkey.c            Φㆂ쨓료          
+

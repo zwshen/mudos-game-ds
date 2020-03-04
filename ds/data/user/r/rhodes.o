@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["age":14,"mud_age":42,"unit":"位","addition_damage":10,"default_actions":,"actions":,"max_mp":110,"max_hp":80,"newbie":1,"heart_beat_rate":6,"exp":777,"id":"rhodes","dex":2,"int":2,"max_ap":60,"con":2,"mp":110,"ap":60,"str":2,"level":1,"Merits":(["wit":0,"bar":0,"bio":0,"tec":0,"sou":0,]),"hp":80,"gender":"男性","DS_DATA_VERSION":19991107,"name":"浮雲花魚","evil":-1,"channels":({"chat","rumor","tchat",}),"birthday":1169898488,"volume":7,"race":"celestial","cure_count":3,"startroom":"/open/world1/tmr/area/hotel","guild_gifts":({5,5,5,5,}),"talk_point":3,"addition_shield":10,"supply_point":6,"attitude":"peaceful","addition_armor":10,])
+autoload ({})

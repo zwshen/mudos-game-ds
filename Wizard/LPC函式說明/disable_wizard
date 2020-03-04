@@ -1,0 +1,17 @@
+
+	disable_wizard(3)	LP MudOSv21c7		(7 Jul 1996)
+
+	ㄧ计嘿:
+		disable_wizard() - ン畍疭舦.
+	ㄧ计粂猭:
+		void disable_wizard( void );
+
+		礚肚 disable_wizard( 礚把计 );
+	ㄧ计ノ猭:
+		硂ㄧΑ籔 enable_wizard() ㄧΑノは. рヘ玡
+		ン畍疭舦奔.
+	把σㄧ计:
+		enable_wizard(3), wizardp(3)
+
+	も陆亩:
+		Phoebus@ZH	97.Feb.04.		(Writen 5/23/97)

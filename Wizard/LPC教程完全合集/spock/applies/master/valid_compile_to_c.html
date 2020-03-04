@@ -1,0 +1,38 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=bg2312">
+   <META NAME="Author" CONTENT="Spock">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.01 [en] (Win95; I) [Netscape]">
+   <TITLE>MudOS v21c2 参考文件 - applies - master - valid_compile_to_c</TITLE>
+</HEAD>
+<BODY TEXT="#CCFFFF" BGCOLOR="#000000" LINK="#33FF33" VLINK="#FF0000" ALINK="#33CCFF" BACKGROUND="../../../image/ff/fftitleback.jpg" NOSAVE>
+
+<CENTER><FONT COLOR="#FF99FF"><FONT SIZE=+3>valid_compile_to_c(4) MudOS
+v21c2　 (5 Sep 1994)</FONT></FONT></CENTER>
+
+<HR WIDTH="100%">
+<BR><FONT COLOR="#FFFFCC">　名称:</FONT>
+<UL>　 valid_compile_to_c - 控制一个物件在执行时段 (runtime) 中, 是否可以由
+LPC->C 的方式编译 (compile).</UL>
+<FONT COLOR="#FFFFCC">　语法:</FONT>
+<UL>　 int valid_compile_to_c( string file );
+
+<P>　 整数 valid_compile_to_c( 字符串 file );</UL>
+<FONT COLOR="#FFFFCC">　用法:</FONT>
+<UL>　 当驱动程序编译时, 如果定义了 LPC_TO_C 和 RUNTIME_LOADING,　 则载入以「.C」结尾的程序
+(不是「.c」) 时, 将调用主控物件 (master object)　 的 valid_compile_to_c()
+函数. 如果此函数返回 1, 此程序就编译为 C　 程序. 如果返回 0 , 则编译为普通的
+LPC　 物件. 参数中的文件名称包括结尾的「.C」.</UL>
+<FONT COLOR="#FFFFCC">　翻译:</FONT>
+<UL>　 Spock @ FF 97.Aug.7.　 (printed 3/16/95)</UL>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+<CENTER><A HREF="../master.html">回到上一页</A></CENTER>
+
+<CENTER>
+<HR WIDTH="100%"></CENTER>
+
+</BODY>
+</HTML>

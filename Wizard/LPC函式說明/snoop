@@ -1,0 +1,19 @@
+
+	snoop(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	ㄧ计嘿:
+		snoop() - 縮跌が笆ㄏノ (interactive user).
+	ㄧ计粂猭:
+		varargs object snoop( object snooper, object snoopee );
+
+		ぃ﹚把计 ン snoop( ン snooper, ン snoopee );
+	ㄧ计ノ猭:
+		Τㄢ把计, 玥 snooper 秨﹍縮跌 snoopee. 狦ぃ﹚
+		材把计, 玥氨ゎ snooper ┮Τ縮跌篈. 硄盽穦ㄏノ
+		simul_efun  北 snoop() 惫琁. Τㄢ把计
+		, snoop() Θ穦肚 snoopee. Τ把计, 玥肚 
+		snooper. 肚 0  ボア毖. 
+	把σㄧ计:
+		query_snoop(3), query_snooping(3)
+	も陆亩:
+		Phoebus@ZH	97.Jul.23.		(Writen 5/23/97)

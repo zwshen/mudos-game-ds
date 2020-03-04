@@ -1,0 +1,2 @@
+#/obj/login.c
+dbase (["id":"tim","name":"小魚兒","last_on":1059289924,"last_from":"NK218-187-15-22.2-4.pl.apol.com.tw","email":"tim@acer.net","password":"tZ/fSejaTVh1g","race":"human","level":46,"new_mail":1,"error_login":({"於[Sun May 18 08:42:07 2003]嘗試由[203.69.143.50]連線進入失敗。","於[Thu May 22 08:30:57 2003]嘗試由[203.71.64.243]連線進入失敗。","於[Thu Jun  5 22:19:09 2003]嘗試由[218-174-79-216.HINET-IP.hinet.net]連線進入失敗。","於[Sun Jul 20 19:57:14 2003]嘗試由[telnet.hinet.net]連線進入失敗。","於[Thu Jul 24 15:38:46 2003]嘗試由[telnet.hinet.net]連線進入失敗。",}),"body":"/obj/user",])

@@ -1,0 +1,16 @@
+
+	traceprefix(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		traceprefix() - 決定該追蹤哪一個物件.
+	函數語法:
+		string traceprefix( string prefix );
+
+		字串 traceprefix( 字串 prefix );
+	函數用法:
+		如果設定追蹤前置 (traceprefix) (不能為 0), 只有在遇到
+		追蹤前置所指名的物件才進行追蹤.
+	參考函數:
+		trace(3)
+	手冊翻譯:
+		Phoebus@ZH	97.Jul.25.		(Writen 5/23/97)

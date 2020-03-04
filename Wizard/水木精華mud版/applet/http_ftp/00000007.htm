@@ -1,0 +1,154 @@
+<HTML>
+<HEAD>
+<TITLE>BBSË®Ä¾Çå»ªÕ¾¡Ã¾«»ªÇø</TITLE>
+</HEAD>
+<BODY>
+<CENTER><H1>BBSË®Ä¾Çå»ªÕ¾¡Ã¾«»ªÇø</H1></CENTER>
+<A Name="top"></a>
+·¢ÐÅÈË:&nbsp;nightwatch&nbsp;(Ò¹ÓÎÉñ),&nbsp;ÐÅÇø:&nbsp;Mud_Builder&nbsp;<BR>
+±ê&nbsp;&nbsp;Ìâ:&nbsp;ÔÚMUDÖÐÔö¼ÓHTTPºÍFTP·þÎñ(8)&nbsp;<BR>
+·¢ÐÅÕ¾:&nbsp;BBS&nbsp;Ë®Ä¾Çå»ªÕ¾&nbsp;(Tue&nbsp;Jan&nbsp;26&nbsp;18:37:50&nbsp;1999)&nbsp;WWW-POST&nbsp;<BR>
+&nbsp;<BR>
+ÒÔÏÂÊÇÎÒÔÚMUDÖÐ±àÐ´µÄÒ»Ð©ÔÚMUDLIBÖÐÊµÏÖ&nbsp;<BR>
+HTTP·þÎñºÍFTP·þÎñµÄ³ÌÐò&nbsp;<BR>
+&nbsp;<BR>
+ÒÔÏÂ²¿·ÖÔÚÐ£Ô°ÍøÒÑ¾­²âÊÔÍ¨¹ý¡£ÓÐÐËÈ¤µÄ»°Çë°ï&nbsp;<BR>
+ÎÒ²é²éBUG.&nbsp;<BR>
+&nbsp;<BR>
+Èç¹ûÄãÏëÔÚÄãµÄMUDÖÐÓÃÕâÐ©³ÌÐòµÄ»°£¬°ÑÄãµÄ&nbsp;<BR>
+EmailºÍMUD·þÎñÆ÷µØÖ·¶Ë¿Ú¸æËßÎÒ°É¡£&nbsp;<BR>
+&nbsp;<BR>
+<A HREF="MailTo:"></A>&nbsp;hhx_<A HREF="mailto:imu@263.net">imu@263.net</A>&nbsp;<BR>
+&nbsp;<BR>
+----------------------------------------------------------------&nbsp;<BR>
+&nbsp;<BR>
+Çë¿´FTPµÚ¶þ²¿·Ö£º&nbsp;<BR>
+&nbsp;<BR>
+void&nbsp;ftp_data_close(object&nbsp;sock)&nbsp;<BR>
+{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;if&nbsp;(!sending_info[sock])&nbsp;<BR>
+	return;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;if&nbsp;((STYPE&amp;MASK_INOUT)!=IN)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(SCLIENT,&quot;226&nbsp;Abort&nbsp;successful.\n&quot;);&nbsp;<BR>
+	log_ftp(&quot;Sending&nbsp;closed&nbsp;by&nbsp;peer&quot;,sock);&nbsp;<BR>
+	delete_sending(sock);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	if&nbsp;(SAPPEND==-1)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(SCLIENT,sprintf(&quot;226&nbsp;Transfer&nbsp;complete&nbsp;(unique&nbsp;file&nbsp;&nbsp;<BR>
+name:%s).\n&quot;,SFILE[(strlen(SCLIENT[&quot;root&quot;])-1)..])&nbsp;);&nbsp;<BR>
+	else&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(SCLIENT,&quot;226&nbsp;Transfer&nbsp;complete.\n&quot;&nbsp;);&nbsp;<BR>
+	log_ftp(&quot;Receiving&nbsp;closed&nbsp;by&nbsp;peer&quot;,sock);&nbsp;<BR>
+	delete_sending(sock);&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;ftp_data_connection(object&nbsp;socket,string&nbsp;data,string&nbsp;&nbsp;<BR>
+name,int&nbsp;type)&nbsp;<BR>
+{&nbsp;<BR>
+	int&nbsp;ret;&nbsp;<BR>
+	int&nbsp;len;&nbsp;<BR>
+	string&nbsp;p;&nbsp;<BR>
+	mapping&nbsp;xx;&nbsp;<BR>
+	if&nbsp;(!UPASV)&nbsp;<BR>
+	{&nbsp;<BR>
+	if&nbsp;(!UADDR||!UPORT)&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(socket,&quot;425&nbsp;Can't&nbsp;open&nbsp;data&nbsp;connection.\n&quot;&nbsp;);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;return;&nbsp;<BR>
+	}&nbsp;<BR>
+	p=sprintf(&quot;%s&nbsp;%d&quot;,UADDR,UPORT);&nbsp;<BR>
+	if&nbsp;(type==STRING||UTYPE==ASCII)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ret=catch(UDATA=new(SOCKET,SKT_STYLE_CONNECT,p,(:&nbsp;ftp_data_read&nbsp;:),(:&nbsp;&nbsp;<BR>
+ftp_data_close:)));&nbsp;<BR>
+	else&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ret=catch(UDATA=new(SOCKET,SKT_STYLE_CONNECT_B,p,(:&nbsp;ftp_data_read&nbsp;:),(:&nbsp;&nbsp;<BR>
+ftp_data_close:)));&nbsp;<BR>
+	if&nbsp;(!UDATA||ret)&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(socket,&quot;425&nbsp;Can't&nbsp;build&nbsp;data&nbsp;connection.\n&quot;&nbsp;);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;return;&nbsp;<BR>
+	}&nbsp;<BR>
+	refresh_sending(UDATA,socket);&nbsp;<BR>
+	xx=USEND;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;xx=ULISTEN;&nbsp;<BR>
+	if&nbsp;(type==STRING)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;xx[&quot;type&quot;]=STRING|ASCII;&nbsp;<BR>
+	else&nbsp;<BR>
+	if&nbsp;(UTYPE==ASCII)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;xx[&quot;type&quot;]=FILE|ASCII;&nbsp;<BR>
+	else&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;xx[&quot;type&quot;]=FILE|BINARY;&nbsp;<BR>
+	xx[&quot;type&quot;]|=OUT;&nbsp;<BR>
+	xx[&quot;data&quot;]=data;&nbsp;<BR>
+	if&nbsp;(type==STRING)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;xx[&quot;pos&quot;]=0;&nbsp;<BR>
+	else&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;xx[&quot;pos&quot;]=UREST;&nbsp;<BR>
+	UREST=0;&nbsp;<BR>
+	if&nbsp;(type==STRING)&nbsp;<BR>
+	&nbsp;&nbsp;len=strlen(data);&nbsp;<BR>
+	else&nbsp;<BR>
+	&nbsp;&nbsp;len=file_size(data)-xx[&quot;pos&quot;];&nbsp;<BR>
+	if&nbsp;(UDATA&amp;&amp;UPASV)&nbsp;<BR>
+	&nbsp;&nbsp;USEND=xx;&nbsp;<BR>
+	ftp_send(socket,sprintf(&quot;150&nbsp;Opening&nbsp;%s&nbsp;mode&nbsp;data&nbsp;connection&nbsp;for&nbsp;%s&nbsp;&quot;&nbsp;<BR>
+		&nbsp;&nbsp;&quot;(%d&nbsp;bytes).\n&quot;,xx[&quot;type&quot;]&amp;BINARY?&quot;BINARY&quot;:&quot;ASCII&quot;,&nbsp;name,len));&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(UDATA)&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<BR>
+	log_ftp(&quot;Sending&nbsp;connected&quot;,UDATA);&nbsp;<BR>
+	UDATA-&gt;set_write_callback(&nbsp;(:ftp_data_write:)&nbsp;);&nbsp;<BR>
+	if&nbsp;((USEND[&quot;type&quot;]&amp;MASK_FILE)==FILE)&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;mixed&nbsp;x;&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;x=ftp_data_write(UDATA);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(UDATA)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;	UDATA-&gt;send(x);&nbsp;<BR>
+	}&nbsp;<BR>
+	else&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;UDATA-&gt;send(replace_string(data,&quot;\n&quot;,&quot;\r\n&quot;));&nbsp;<BR>
+	}&nbsp;<BR>
+}&nbsp;<BR>
+&nbsp;<BR>
+private&nbsp;nomask&nbsp;void&nbsp;ftp_read_connection(object&nbsp;socket,string&nbsp;file,int&nbsp;&nbsp;<BR>
+append)&nbsp;<BR>
+{&nbsp;<BR>
+	int&nbsp;ret;&nbsp;<BR>
+	int&nbsp;len;&nbsp;<BR>
+	string&nbsp;p;&nbsp;<BR>
+	mapping&nbsp;xx;&nbsp;<BR>
+	if&nbsp;(!UPASV)&nbsp;<BR>
+	{&nbsp;<BR>
+	if&nbsp;(!UADDR||!UPORT)&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(socket,&quot;425&nbsp;Can't&nbsp;open&nbsp;data&nbsp;connection.\n&quot;&nbsp;);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;return;&nbsp;<BR>
+	}&nbsp;<BR>
+	p=sprintf(&quot;%s&nbsp;%d&quot;,UADDR,UPORT);&nbsp;<BR>
+	if&nbsp;(UTYPE==ASCII)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ret=catch(UDATA=new(SOCKET,SKT_STYLE_CONNECT,p,(:&nbsp;ftp_data_read&nbsp;:),(:&nbsp;&nbsp;<BR>
+ftp_data_close:)));&nbsp;<BR>
+	else&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ret=catch(UDATA=new(SOCKET,SKT_STYLE_CONNECT_B,p,(:&nbsp;ftp_data_read&nbsp;:),(:&nbsp;&nbsp;<BR>
+ftp_data_close:)));&nbsp;<BR>
+	if&nbsp;(!UDATA||ret)&nbsp;<BR>
+	{&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(UDATA)&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;destruct(UDATA);&nbsp;<BR>
+	&nbsp;&nbsp;&nbsp;&nbsp;ftp_send(socket,&quot;425&nbsp;Can't&nbsp;build&nbsp;data&nbsp;connection.\nð&nbsp;<BR>
+&nbsp;<BR>
+--&nbsp;<BR>
+¡ù&nbsp;À´Ô´:¡¤BBS&nbsp;Ë®Ä¾Çå»ªÕ¾&nbsp;bbs.net.tsinghua.edu.cn¡¤[FROM:&nbsp;202.207.8.112]&nbsp;&nbsp;<BR>
+<A HREF="00000006.htm">ÉÏÒ»Æª</A>
+<A HREF='javascript:history.go(-1)'>·µ»ØÉÏÒ»Ò³</A>
+<A HREF="index.htm">»Øµ½Ä¿Â¼</A>
+<A HREF="#top">»Øµ½Ò³Ê×</A>
+<A HREF="00000008.htm">ÏÂÒ»Æª</A>
+</H1></CENTER>
+<CENTER><H1>BBSË®Ä¾Çå»ªÕ¾¡Ã¾«»ªÇø</H1></CENTER>
+</BODY></HTML>

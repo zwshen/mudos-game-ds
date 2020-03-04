@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions ([])
+dbase (["default_actions":,"heart_beat_rate":6,"DS_DATA_VERSION":19991107,"addition_shield":10,"actions":,"help":"newbie/","addition_damage":10,"mp":64,"war_art":1,"mob_record":({"/open/world1/tmr/area/npc/dog",}),"guild_gifts":({5,5,5,5,}),"addition_armor":10,"channels":({"chat","rumor","tchat",}),"unit":"¦ì","max_ap":64,"newbie":1,"exp":17984,"dex":2,"cure_count":10,"int":2,"con":2,"level":1,"last_location":"/open/world1/tmr/area/square","supply_point":20,"birthday":1223560175,"ap":64,"talk_point":8,"evil":-1,"attitude":"peaceful","war_score":2,"age":14,"max_mp":64,"max_hp":110,"bank":(["past":1,]),"race":"tiger","Merits":(["sou":0,"bio":0,"wit":0,"bar":0,"tec":0,]),"MKS":1,"id":"notice","mud_age":146,"startroom":"/open/world1/tmr/area/hotel","hp":110,"gender":"¨k©Ê","volume":7,"str":2,"name":"¶â",])
+skills (["unarmed":0,"combat":1,"dodge":0,])
+learned (["unarmed":2,"combat":2,"dodge":2,])
+items ({})
+autoload ({})
+toDoList ([])
+solved ({})

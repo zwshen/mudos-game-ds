@@ -1,0 +1,18 @@
+
+	find_player(3)		LP MudOSv21c7		(7 Jul 1996)
+
+	函數名稱:
+		find_player() - 用名字尋找一個玩家
+	函數語法:
+		object find_player( string str );
+
+		物件 find_player( 字串 str );
+	函數用法:
+		與 find_living()  相似, 但是只尋找可互動的 (interactive)
+		或是曾經為可互動的物件.
+	參考函數:
+		lower_case(3), find_living(3), livings(3), users(3),
+		set_living_name(3)
+	手冊翻譯:
+		Phoebus@ZH	97.Feb.12.		(Writen 5/23/97)
+

@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions (["ill_zhongshu":30,])
+dbase (["heart_beat_rate":6,"DS_DATA_VERSION":19991107,"MKS":10,"heart_modify":0,"war_score":10,"ap":60,"wimpy":50,"age":14,"channels":({"chat","rumor","tchat",}),"addition_armor":10,"mud_age":2122,"hp":80,"addition_shield":10,"attitude":"peaceful","volume":7,"newbie":1,"exp":2247,"addition_damage":10,"dex":2,"help":"newbie/","int":2,"con":2,"level":1,"max_hp":80,"birthday":1219143683,"talk_point":8,"evil":2,"last_location":"/open/world1/wilfred/sand/room26","cure_count":0,"unit":"¦ì","mp":110,"bank":(["past":5,]),"max_mp":110,"mob_record":({"/open/world1/wilfred/sand/npc/npc4","/open/world1/wilfred/sand/npc/npc4","/open/world1/wilfred/sand/npc/npc4","/open/world1/wilfred/sand/npc/npc4","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog","/open/world1/wilfred/sand/npc/npc4","/open/world1/wilfred/sand/npc/npc4","/open/world1/wilfred/sand/npc/npc4","/open/world1/wilfred/sand/npc/npc4",}),"supply_point":60,"guild_gifts":({5,5,5,5,}),"default_actions":,"race":"celestial","Merits":(["bar":0,"bio":0,"tec":0,"sou":0,"wit":0,]),"max_ap":60,"actions":,"id":"hwaching","wound":(["left_arm":0,"body":0,"right_arm":0,"left_leg":0,"head":0,"right_leg":0,]),"startroom":"/open/world1/tmr/area/hotel","gender":"¤k©Ê","str":2,"name":"îîªµ",])
+skills (["parry":2,"staff":1,"axe":1,"unarmed":6,"dagger":1,"strong-body":4,"fork":1,"hammer":1,"blade":1,"combat":6,"block":5,"dodge":5,"sword":1,"whip":1,])
+learned (["parry":2,"unarmed":9,"combat":29,"strong-body":6,"dodge":23,])
+items ({})
+autoload ({"/obj/money/coin:80",})
+toDoList ([])
+solved ({})

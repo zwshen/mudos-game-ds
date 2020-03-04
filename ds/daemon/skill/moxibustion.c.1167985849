@@ -1,0 +1,426 @@
+#include <ansi2.h>
+inherit SKILL;
+inherit SSERVER;
+
+
+void ShowMessage(object me, object target, string msg)
+{
+    message_vision( msg, me, target);
+}
+
+void MoxibustionFail(object me, object target, string msg)
+{
+    if( target != me )
+        msg += HIB "$N"HIB"¤@­Ó¤À¤ß¡A°w´N´¡¿ù¤F¥Þ¦ì¡AÅý$n"HIB"·P¨ì¤@°}©ü³Ö¡E\n" NOR;
+    else
+        msg += HIB "$N"HIB"¤@­Ó¤À¤ß¡A°w´N´¡¿ù¤F¥Þ¦ì¡A¦Û¤v·P¨ì¤@°}©ü³Ö¡E\n" NOR;
+
+    ShowMessage(me, target, msg);
+        me->start_busy(2);
+}
+
+void ShowDamage(object me, object target,int damage)
+{
+    if(me->query_temp("apply/show_damage") || me->query_temp("show_damage") )
+        tell_object(me,HIY"("+damage+")"NOR);
+    if(target->query_temp("apply/show_damage") || target->query_temp("show_damage") )
+        tell_object(target,HIR"("+damage+")"NOR+" ("+target->query("hp")+"/"+target->query("max_hp")+")");
+    if(wizardp(me) && me->query("env/debug"))
+        tell_object(me, HIR"  ("+damage+")\n"NOR);
+}
+
+void SkillImporving(object me, int Bonus)
+{
+    me -> improve_skill("moxibustion", 1+Bonus);
+    me -> improve_skill("acupuncture-cognition", random(Bonus));
+}
+
+void rekee(object me, object target, int effect, string msg)
+{
+    tell_object(target, CYN"§AÁy¥Ñ»a¥Õ²@µL¦å¦â¡A¦ÓÅÜ¦¨«ì´_¤F¤£¤Ö¦å®ð¡C\n" NOR);
+    ShowMessage(me, target, msg);
+    me -> receive_damage("ap", effect*4/5);
+    target -> receive_heal("hp", effect);
+}
+
+void regin(object me, object target, int effect, string msg)
+{
+    tell_object(target, HIC"§A¯¿¶Ãªº¤º®§¦ü¥G¦³©Ò±±¨î¡A³vº¥Ã­©w¤F¤U¨Ó¡C\n"NOR );
+    ShowMessage(me, target, msg);
+    me -> receive_damage("mp", effect*4/5);
+    target -> receive_heal("ap", effect);
+}
+
+void resen(object me, object target, int effect, string msg)
+{
+    tell_object(target, HIM"§A­ì¥»ºë¯«µäÃû¤£®¶¡A¦p¤µ¹y®É®e¥ú·Øµo¡Aºë¯««³«³¡C\n"NOR );
+    ShowMessage(me, target, msg);
+    me -> receive_damage("hp", effect*4/5);
+    target -> receive_heal("mp", effect);
+}
+
+void advkee(object me, object target, int effect, string msg)
+{
+    tell_object(target, "§A»a¥ÕªºÁy¦â¡A¦]¬°¦å®ðªº¹B¦æ¡Aº¥º¥¬õ¼í¤F°_¨Ó¡C\n"NOR) ;
+    me -> receive_damage("mp", effect*4);
+    me -> receive_damage("ap", effect*4);
+
+    target -> apply_condition("advkee", effect*me->query_tec());
+    target -> set_temp("advkee", effect);
+}
+
+void sky(object me, object target, int effect, string msg)
+{
+        int ppl_cnt = 0;
+    object *s_target = all_inventory(environment(me));
+    int x,y = sizeof(s_target);
+
+        // ³Ì¦h8­Óª±®a
+    for(x=0;x<y && ppl_cnt < 8 ;x++)
+    {
+        if( !userp(s_target[x]) || !living(s_target[x]))
+            continue;
+        if( s_target[x] == me )
+            continue;
+        if( s_target[x]->is_fighting() )
+            continue;   //  ¾Ô°«¤¤ªºª±®a¤£¯àªvÀø
+
+                ppl_cnt += 1;   // ¹ê»Ú±µ¨ü¨ìªvÀøªºª±®a¼Æ
+        if( random(me->query_skill("acupuncture-cognition")) > 40 )
+        {
+            message_vision("$N·PÄ±¨ì¤@ªÑ®ð±q¡u©Rªù¥Þ¡v¤Î¡u³Ò®c¥Þ¡v½Ä¥X¡A¹y®É¦å®ðªº¹B¦æ¤Î¤º®§³£Ã­©w¤F¤£¤Ö¡C\n", s_target[x]);
+            s_target[x] -> receive_heal("hp", effect );
+            s_target[x] -> receive_heal("ap", effect );
+        }
+        else
+        {
+            message_vision(HIB"$N"HIB"¤@­Ó¤À¤ß¡A°w´N´¡¿ù¤F¥Þ¦ì¡AÅý$n·P¨ì¤@°}©ü³Ö¡E\n"NOR, me, s_target[x]);
+            s_target[x] -> receive_damage("mp", 10 + random(20));
+            s_target[x] -> receive_damage("ap", 10 + random(20));
+        }
+    }
+        // ¤@¦¸ºâ­nªá¶Omp
+    me -> receive_damage("hp", effect*ppl_cnt);
+    me -> receive_damage("ap", effect*ppl_cnt);
+    me -> receive_damage("mp", effect*ppl_cnt);
+    SkillImporving(me, x*(me->query_int()/8));
+}
+
+void heal(object me, object target, int effect, string msg)
+{
+    tell_object(target, HIC"§A¶Ë¤f¤Wªº¦åº¥º¥¤î¦í¤F¡A¶Ë¤fºCºC¦aºÇ¦X°_¨Ó¡C\n"NOR) ;
+    ShowMessage(me, target, msg);
+    me -> receive_damage("mp", effect*5);
+    me -> receive_damage("hp", effect*5);
+    target -> receive_curing("all", effect);
+}
+
+void addAttribute(object me, object target, int effect, string msg, int x)
+{
+    string Attr;
+    switch( x )
+    {
+    case 0:
+        msg += HIY"$n"HIY"ªº¨­ÅéÅÜ±o°ª¤j±j§§¡A¦Ù¦×ªÈµ²¦Ê¾w¥æ¿ù¡I¡I\n"NOR ;
+        Attr = "str";
+        break;
+    case 1:
+        msg += HIG"$n"HIG"ªºÅé½è¦³¤FÅãµÛªº§ïµ½¡A¾ã­Ó¤H±j°·¤£¤Ö¡C\n"NOR ;
+        Attr = "con";
+        break;
+    case 2:
+        msg += HIC"$n"HIC"¸£¤¤ªº«äºü­¸§Ö¦a¹BÂà¡AÆF·P´é¬u¤£·²¡C\n"NOR ;
+        Attr = "int";
+        break;
+    default:
+        msg += HIW"$n"HIW"Ä±±o¸}¨BÅÜªº«D±`»´§Ö¡A¨«°_¸ô¨Ó¦³»´ÄÆÄÆªº·PÄ±¡A«D±`ÆF±Ó¡C\n"NOR ;
+        Attr = "dex";
+        break;
+    }
+    ShowMessage(me, target, msg);
+    me -> receive_damage("ap", effect*15);
+    me -> receive_damage("mp", effect*15);
+
+    target -> start_busy(effect/5);
+    target -> set_temp("add"+Attr, effect);
+
+    target -> add_temp("apply/"+Attr, effect);
+    target -> apply_condition("add"+Attr, effect*me->query_tec() );
+}
+
+void ghost(object me, object target, int effect, string msg)
+{
+        tell_object(target, CYN"$N"CYN"¤£¶È¤â«l¼W±j³\\¦h¡A¹ï¥~¬Éªº§ðÀ»¤]¦h¤F¤£¤Ö©è§Ü¯à¤O¡C\n"NOR );
+    ShowMessage(me, target, msg);
+    me -> receive_damage("ap", effect*10);
+    me -> receive_damage("mp", effect*10);
+    me -> receive_damage("hp", effect*10);
+
+    target -> start_busy(effect/5);
+    target -> set_temp("ghost", effect);
+    target -> apply_condition("ghost", effect*me->query_tec());
+
+        // effect ³Ì¦h¬°100/4 = 25ÂI
+    target -> add_temp("apply/damage", effect);
+    target -> add_temp("apply/armor", effect);
+}
+
+int exert(object me, object target, string arg)
+{
+    object weapon = me->query_temp("weapon");
+    string msg = "";
+    int effect, sk1, sk2, Bonus;
+
+    if( !target ) return notify_fail("½Ð¿ï©w¤@­Ó¥Ø¼Ð¡C\n");
+
+    sk1 = me->query_skill("acupuncture-cognition");
+    sk2 = me->query_skill("moxibustion");
+
+    if( arg == "?" || arg == "help" )
+        return notify_fail("½Ð°Ñ¦Òhelp moxibustion §Þ¯à»¡©ú¤å¥ó¡C");
+
+    if( !weapon )
+        return notify_fail("§A¤â¤W¨S°w¬O¤£¯à¬I®iª¥¥Þ°w¨bªº¡C\n");
+    if( weapon->query("skill_type") != "needle" )
+        return notify_fail("§A¤â¤W¨S°w¬O¤£¯à¬I®iª¥¥Þ°w¨bªº¡C\n");
+    if( !target )
+        return notify_fail("§A¨S¦³¥i¥H¬I®iªº¥Ø¼Ð¡C\n");
+/*
+    if( me->query("class2") )
+    {
+        if( target != me && me->query("class2") != "skyowl_med" )
+            return notify_fail("§A¹ï§O¤H¨­¤Wªº¥Þ¹D¦ì¸mªº´x±±ÁÙ¤£¼ô½m¡A¤£¯à¹ï¥L¤H¬I®i¦¹©Û¡C\n");
+    }
+*/
+    if( me->is_busy() )
+        return notify_fail("§A²{¦b¥¿¦b¦£¡AµLªk¨Ï¥Îª¥¥Þ°w¨b¡I\n");
+
+    switch( arg )
+    {
+        ///////////////////////////////////////////////////////////////////////////////////
+    case "rekee":
+    case "regin":
+    case "resen":
+        if( me->is_fighting() )
+            return notify_fail("¥´°«¤¤§A¨S¦³®É¶¡´À"+target->query("name")+"°w¨b¡C\n");
+        if( me->query("level") < 5 )
+            return notify_fail("§Aªº¸gÅç¤£¨¬¡A¤£¯à¾Õ¦Û´À¥L¤H°wª¥¡E\n");
+        if( sk2 < 5 )
+            return notify_fail("§A¹ïª¥¥Þ°w¨b¤£°÷¼ô½m¡AµLªk¨Ï¥Î³o­Ó¥\\¯à¡E\n");
+
+        effect = sk2;
+
+                if(arg == "rekee") {
+                        if( me->query("ap") < effect )
+                                return notify_fail("§Aªº¤º«l¤£¨¬¡C\n");
+                if( target->query("hp") >= target->query("max_hp") )
+                    return notify_fail(target->query("name")+"¨Ã¨S¦³¨ü¶Ë¡A¦ü¥G¤£»Ý°w¨b¡E\n");
+                
+                  message_vision(HIW"$N"HIW"»´»´ªº§u°ÛµÛ¥j¦ÑªºÁ~¶Ç¸Öºq-"HIC"Àø®ð³Z"HIW"¡A¤â¤¤"+weapon->name()+HIW"¤Æ¦¨ÂIÂI´H¨~¨ë¤J$n"HIW"¨­Åé¤W·þ¯ßªº¡u©Rªù¥Þ¡v¡C\n"NOR, me, target);
+                }
+
+                if(arg == "regin") {
+                        if( me->query("mp") < effect )
+                                return notify_fail("§AªºÅ]¤O¤£¨¬¡C\n");
+                if( target->query("ap") >= target->query("max_ap") )
+                    return notify_fail(target->query("name")+"ªº¤º«l¥R¨K¡A¦ü¥G¤£»Ý°w¨b¡E\n");
+                         message_vision(HIW"$N"HIW"»´»´ªº§u°ÛµÛ¥j¦ÑªºÁ~¶Ç¸Öºq-"HIG"Àøºë³Z"HIW"¡A¤â¤¤"+weapon->name()+HIW"¤]¤Æ¬°ÂIÂI´H¨~¨ë¤J$n"HIW"¤â´x¤W¡u³Ò®c¥Þ¡v¡C\n"NOR , me, target);
+                }
+
+                if(arg == "resen") {
+                        if( me->query("hp") < effect )
+                                return notify_fail("§Aªº¥Í©R¤£¨¬¡C\n");
+
+                if( target->query("mp") >= target->query("max_mp") )
+                    return notify_fail(target->query("name")+"¤´ºë¯«¥ç¥ç¡A¦ü¥G¤£»Ý°w¨b¡E\n");
+                         message_vision(HIW"$N"HIW"»´»´ªº§u°ÛµÛ¥j¦ÑªºÁ~¶Ç¸Öºq-"NOR+MAG"Àø¯«³Z"HIW"¡A¤â¤¤"+weapon->name()+HIW"¤]¤Æ¬°ÂIÂI´H¨~¨ë¤J$n"HIW"¨­Åé¤W¥ô¯ßªº¡u¯«Âö¥Þ¡v¡C\n"NOR, me, target);
+                }
+
+        if( random(sk1) > 15 ) {
+            me -> start_busy(1);
+            Bonus = me->query_int()/8;
+                        if(arg=="rekee")
+                    rekee(me, target, effect, msg);
+                else if(arg=="regin")
+                    regin(me, target, effect, msg);
+                else if(arg=="resen")
+                    resen(me, target, effect, msg);
+            SkillImporving(me, Bonus);
+        }
+        else    // ¥¢±Ñ
+            MoxibustionFail(me, target, msg);
+        break;
+
+        ///////////////////////////////////////////////////////////////////////////////////
+    case "advkee":
+        if( me->is_fighting() )
+            return notify_fail("¥´°«¤¤§A¨S¦³®É¶¡´À"+target->query("name")+"°w¨b¡C\n");
+        if( me->query("level") < 10 )
+            return notify_fail("§A¨¤¦âªºµ¥¯Å¤£°÷10¯Å¡A¤£¯à¾Õ¦Û´À¥L¤H°wª¥¡E\n");
+        if( sk2 < 15 )
+            return notify_fail("§A¹ïª¥¥Þ°w¨b¤£°÷¼ô½m¡AµLªk¨Ï¥X¡m"HIC"µ½¥@³Z"NOR"¡n¡E\n");
+
+                // ¨Ï¥Îcondition ¨Ó§PÂ_
+        if( target->query_condition("advkee") )
+            return notify_fail(target->query("name")+"¨­Åé¤º¤w¸g¦³¤@ªÑ·x·x®ð¬y¥¿¦b½w½wªº¬y°ÊµÛ¡C\n");
+
+        effect = sk2/2;
+                if(me->query("ap") < effect*4 )
+                        return notify_fail("§Aªº¤º«l¤£°÷¡AµLªk¨Ï¥Î³o­Ó¥\\¯à¡C\n");
+                if(me->query("mp") < effect*4 )
+                        return notify_fail("§AªºÅ]¤O¤£°÷¡AµLªk¨Ï¥Î³o­Ó¥\\¯à¡C\n");
+
+        message_vision( HIW"$N"HIW"»´»´ªº§u°ÛµÛ¥j¦ÑªºÁ~¶Ç¸Öºq-"HIC"µ½¥@³Z"HIW"¡A¤â¤¤"+weapon->name()+HIW"¤]¤Æ¬°ÂIÂI´H¨~¨ë¤J$n"HIW"¯ÝµÄ³Bªº¡u¯«¹D¥Þ¡v¡C\n"NOR, me, target);
+        if( random(sk1) > 35 )
+        {
+            me -> start_busy(2);
+            Bonus = me->query_int()/4;
+            advkee(me, target, effect, msg);
+            SkillImporving(me, Bonus);
+        }
+        else
+            MoxibustionFail(me, target, msg);
+
+        break;
+
+        ///////////////////////////////////////////////////////////////////////////////////
+    case "sky":
+        if( me->is_fighting() )
+            return notify_fail("¥´°«¤¤§A¨S¦³®É¶¡´À"+target->query("name")+"°w¨b¡C\n");
+        if( me->query("level") < 15 )
+            return notify_fail("§Aªº¸gÅç¤£¨¬¡A¤£¯à¾Õ¦Û´À¥L¤H°wª¥¡E\n");
+        if( sk2 < 30 )
+            return notify_fail("§A¹ïª¥¥Þ°w¨b¤£°÷¼ô½m¡AµLªk¨Ï¥X¡m"HIR"¶}¤Ñ³Z"NOR"¡n¡E\n")
+        effect = sk2
+                if(me->query("hp") < effect*8 
+                        return notify_fail("§Aªº¥Í©R¤£°÷¡AµLªk¨Ï¥Î³o­Ó¥\\¯à¡C\n")
+                if(me->query("ap") < effect*8 
+                        return notify_fail("§Aªº¤º«l¤£°÷¡AµLªk¨Ï¥Î³o­Ó¥\\¯à¡C\n")
+                if(me->query("mp") < effect*8 
+                        return notify_fail("§AªºÅ]¤O¤£°÷¡AµLªk¨Ï¥Î³o­Ó¥\\¯à¡C\n")
+               
+        message_vision(HIW"$N"HIW"»´»´ªº§u°ÛµÛ¥j¦ÑªºÁ~¶Ç¸Öºq-"HIR"¶}¤Ñ³Z"HIW"¡A¤â¤¤"+weapon->name()+HIW"¤Æ¦¨ÂIÂI´H¨~¡A¤@¤@¨ë¤J¨­®Ç©Ò¦³¤Hªº¡u©Rªù¥Þ¡v¤Î¡u³Ò®c¥Þ¡v¡C\n"NOR, me)
+        if( random(sk1) > 45 
+        
+            me -> start_busy(2)
+            sky(me, target, effect, msg)
+        
+        else    // ¥¢±
+            MoxibustionFail(me, target, msg)
+        break
+        //////////////////////////////////////////////////////////////////////////////////
+    case "heal"
+        if( me->is_fighting() 
+            return notify_fail("¥´°«¤¤§A¨S¦³®É¶¡´À"+target->query("name")+"°w¨b¡C\n")
+        if( me->query("level") < 20 
+            return notify_fail("§Aªº¸gÅç¤£¨¬¡A¤£¯à¾Õ¦Û´À¥L¤H°wª¥¡E\n")
+        if( sk2 < 40 
+            return notify_fail("§A¹ïª¥¥Þ°w¨b¤£°÷¼ô½m¡AµLªk¨Ï¥X¡m"HIC"Â¡¥Á³Z"NOR"¡n¡E\n")
+        effect = sk2/5
+                if(me->query("mp") < effect*5 
+                        return notify_fail("§AªºÅ]¤O¤£°÷¡AµLªk¨Ï¥Î³o­Ó¥\\¯à¡C\n")
+                if(me->query("hp") < effect*5 
+                        return notify_fail("§Aªº¥Í©R¤£°÷¡AµLªk¨Ï¥Î³o­Ó¥\\¯à¡C\n")
+        msg+= HIW"$N"HIW"»´»´ªº§u°ÛµÛ¥j¦ÑªºÁ~¶Ç¸Öºq-"HIC"Â¡¥Á³Z"HIW"¡A¤â¤¤"+weapon->name()+HIW"¤Æ¦¨ÂIÂI´H¨~¨ë¤J$n"HIW"¨­¤Wªº¶Ë¤f¥|©P¡C\n"NOR 
+        if( random(sk1) > 45 
+        
+            me -> start_busy(2)
+            Bonus = me->query_int()/4
+            heal(me, target, effect, msg)
+            SkillImporving(me, Bonus)
+        
+        els
+            MoxibustionFail(me, target, msg)
+        break
+        //////////////////////////////////////////////////////////////////////////////////
+    case "addstr"
+    case "addcon"
+    case "addint"
+    case "adddex"
+                // ¥²¶·¨Ï¥Î condition ¨Ó§PÂ
+        if( target->query_condition("addcon")
+                        || target->query_condition("addint"
+                        || target->query_condition("addstr"
+                        || target->query_condition("adddex") 
+            return notify_fail(target->query("name")+"ªº¨­Åé¼È®ÉµLªk¦A±µ¨ü¦×Åé¤Wªº±j¤Æ¤F¡C\n")
+        if( me->is_fighting() 
+            return notify_fail("§A¥¿¦£µÛ¾Ô°«¡A¨S¦³ªÅ°wª¥¡C\n")
+        if( me->query("level") < 30 
+            return notify_fail("§Aªº¸gÅç¤£¨¬¡A¤£¯à¾Õ¦Û´À¥L¤H°wª¥¡E\n")
+        if( sk2 < 50 
+                return notify_fail("§A¹ïª¥¥Þ°w¨b¤£°÷¼ô½m¡AµLªk¨Ï¥Î³o­Ó¥\\¯à¡E\n")
+        effect = sk2/10;        // ¨C¤Q¯Å¤@Â
+                if(me->query("hp") < effect*15 
+                        return notify_fail("§Aªº¥Í©R¤£°÷¡AµLªk¨Ï¥Î³o­Ó¥\\¯à¡C\n")
+                if(me->query("ap") < effect*15 
+                        return notify_fail("§Aªº¤º«l¤£°÷¡AµLªk¨Ï¥Î³o­Ó¥\\¯à¡C\n")
+                if(me->query("mp") < effect*15 
+                        return notify_fail("§AªºÅ]¤O¤£°÷¡AµLªk¨Ï¥Î³o­Ó¥\\¯à¡C\n")
+                if( arg == "addstr"
+                msg = HIW"$N"HIW"»´»´ªº§u°ÛµÛ¥j¦ÑªºÁ~¶Ç¸Öºq-"HIY"¤Ó¶§³Z"HIW"¡A¤â¤¤"+weapon->name()+HIW"¤Æ¦¨ÂIÂI´H¨~¨ë¤J$n"HIW"­I³¡ªº¡uªø±j¥Þ¡v¡C\n"NOR 
+                else if( arg == "addint"
+                msg = HIW"$N"HIW"»´»´ªº§u°ÛµÛ¥j¦ÑªºÁ~¶Ç¸Öºq-"HBK"³±¤ß³Z"HIW"¡A¤â¤¤"+weapon->name()+HIW"¤Æ¦¨ÂIÂI´H¨~¨ë¤J$n"HIW"ÀY³»ªº¡u¦Ê·|¥Þ¡v¡C\n"NOR 
+                else if( arg == "addcon"
+                msg = HIW"$N"HIW"»´»´ªº§u°ÛµÛ¥j¦ÑªºÁ~¶Ç¸Öºq-"HIG"¤TµJ³Z"HIW"¡A¤â¤¤"+weapon->name()+HIW"¤Æ¦¨ÂIÂI´H¨~¨ë¤J$n"HIW"¨­Åé¤W¤¤¤UµJ¤T³B¡C\n"NOR 
+                else if( arg == "adddex"
+                msg = HIW"$N"HIW"»´»´ªº§u°ÛµÛ¥j¦ÑªºÁ~¶Ç¸Öºq-"HIC"¶hÄÆ³Z¡A¤â¤¤"+weapon->name()+HIW"¤Æ¦¨ÂIÂI´H¨~¨ë¤J$n"HIW"»L¤Wªº¡u­·¥«¥Þ¡v¡C\n"NOR 
+        if( random(sk1) > 55 ) 
+            me -> start_busy(2)
+            Bonus = me->query_int()
+            addAttribute(me, target, effect, msg, 2)
+            SkillImporving(me, Bonus)
+        }  else // ¥¢±
+            MoxibustionFail(me, target, msg)
+        break
+        //////////////////////////////////////////////////////////////////////////////////
+    case "ghost"
+                // ¥Hcondition ¨Ó§PÂ
+        if( target->query_condition("ghost") 
+            return notify_fail(target->query("name")+"ªº¨­Åé¤w¸gµLªk¦A±µ¨ü¦×Åé¤Wªº±j¤Æ¤F¡C\n")
+        if( me->is_fighting() 
+            return notify_fail("¥´°«¤¤§A¨S¦³®É¶¡´À"+target->query("name")+"°w¨b¡C\n")
+                // ³Ì¦h100/4 = 25ÂI§ðÀ»¤O¤Î¨¾¿m¤
+        effect = sk2/4;
+                if(me->query("hp") < effect*10 
+                        return notify_fail("§Aªº¥Í©R¤£°÷¡AµLªk¨Ï¥Î³o­Ó¥\\¯à¡C\n")
+                if(me->query("mp") < effect*10 
+                        return notify_fail("§AªºÅ]¤O¤£°÷¡AµLªk¨Ï¥Î³o­Ó¥\\¯à¡C\n")
+                if(me->query("ap") < effect*10 
+                        return notify_fail("§Aªº¤º«l¤£°÷¡AµLªk¨Ï¥Î³o­Ó¥\\¯à¡C\n")
+//        if( me->query("level") < 30 
+//            retur` notify_fail("§Aªº¸gÅç¤£¨¬¡A¤£¯à¾Õ¦Û´À¥L¤H°wª¥¡E\n")
+        if( sk2 < 55 )
+            return notify_fail("§A¹ïª¥¥Þ°w¨b¤£°÷¼ô½m¡AµLªk¨Ï¥X¡m"HBWHT+BLK"°­³±¥@ºë³Z"NOR"¡n¡E\n");
+        msg+= HIW"$N"HIW"»´»´ªº§u°ÛµÛ¥j¦ÑªºÁ~¶Ç¸Öºq-"HBWHT+BLK"°­³±¥@ºë³Z"NOR"¡A¤â¤¤"+weapon->name()+HIW"¤]¤Æ¬°ÂIÂI´H¨~¨ë¤J$n"HIW"¤¦¥Ð¤U¡u¤¤·¥¥Þ¡v¡BÀV¤U¡u¤Ñ¬ð¥Þ¡v¡BªÓÀY¡uªÓ¤«¥Þ¡vµ¥¤Q¤G³B¥Þ¹D¤W¡C\n"NOR ;
+        if( random(sk1) > 65 )
+        {
+            me -> start_busy(2);
+            Bonus = me->query_int();
+            ghost(me, target, effect, msg);
+            SkillImporving(me, Bonus);
+        }
+        else
+        {
+            MoxibustionFail(me, target, msg);
+        }
+        break;
+        ///////////////////////////////////////////////////////////////////////////////////
+        // skyowl ¨S¦³ª½±µ§ðÀ»ªº§Þ¯à 
+        // tmr 2007/01/05
+        /*
+    case "attack":
+        if( target == me )
+            return notify_fail("¥Î suicide «ü¥O·|¤ñ¸û§Ö:P¡C\n");
+        if( sk2 < 70 )
+            return notify_fail("§A¹ïª¥¥Þ°w¨b¤£°÷¼ô½m¡AµLªk¨Ï¥X¡m"HIR"¯«´d°­ª_³Z"NOR"¡n¡E\n");
+        if(!me->can_fight(target))
+            return 0;
+
+        if(!me->is_fighting(target))
+            me->kill_ob(target);
+        if(!target->is_fighting(me))
+            target->kill_ob(me);
+
+        msg+= HIC"$N"HIC"®©¥X»a¥Í¸Uª«¦º¶Ë½ü°jªº¤Ñ¦a´`Àô¯u²z¡A¯«¦â´d²Y¡C" ;
+        msg+=    "\n    ÀH§Y¤@°}¨g²rªº´H®ð¦Û$N"HIC"¤â¤¤ªº°w¾WÂ«¥X¡A¦V$n"HIC"¤Q¤G©Rªùª½öt¦Ó¥h¡I¡I\n" ;
+        Bonus = me->query_int()/2;

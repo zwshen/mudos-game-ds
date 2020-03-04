@@ -1,0 +1,5 @@
+#/obj/user.c
+dbase (["popularity":1,"DS_DATA_VERSION":19991107,"combat_exp":1,"default_actions":,"Merits":(["bio":0,"sou":0,"bar":0,"tec":0,"wit":0,]),"MKS":3,"unit":"位","guild_gifts":({5,5,5,5,}),"bellicosity":0,"max_ap":60,"channels":({"chat","rumor","tchat",}),"supply_point":40,"disable_type":" <毫無呼吸>","level":5,"gender":"男性","race":"human","id":"dssd","heart_modify":0,"birthday":1101036980,"name":"ㄑㄎ","last_location":"/open/world2/anfernee/start/prayroom","talk_point":12,"startroom":"/open/world2/lichi_town_2/map_5_26","newbie":1,"actions":,"cure_count":18,"exp":723,"evil":-1,"hp":80,"dex":2,"mud_age":262,"int":2,"con":2,"str":2,"addition_shield":10,"heart_beat_rate":6,"addition_armor":10,"mob_record":({"/open/world2/npc/beast_cat_4","/open/world2/npc/beast_fish_3","/open/world2/npc/beast_fish_3",}),"guild_rank":"四處流浪的冒險者","mp":60,"addition_damage":10,"max_hp":80,"attitude":"peaceful","age":14,"ap":60,"volume":7,"max_mp":60,])
+skills (["combat":4,"unarmed":2,"dodge":1,])
+learned (["combat":4,"unarmed":6,])
+autoload ({})

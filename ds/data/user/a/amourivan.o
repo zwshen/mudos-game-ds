@@ -1,0 +1,4 @@
+#/obj/user.c
+conditions ([])
+dbase (["heart_beat_rate":6,"talk_point":8,"unit":"位","volume":7,"addition_armor":10,"addition_damage":10,"DS_DATA_VERSION":19991107,"gender":"女性","name":"就是愛項羽","max_hp":80,"id":"amourivan","ap":60,"actions":,"race":"human","channels":({"chat","rumor","tchat","god",}),"level":1,"age":14,"birthday":1143309179,"cure_count":10,"hp":80,"attitude":"peaceful","startroom":"/open/world1/tmr/area/hotel","exp":777,"dex":2,"newbie":1,"int":2,"max_mp":60,"con":2,"str":2,"max_ap":60,"supply_point":20,"heart_modify":0,"default_actions":,"guild_gifts":({5,5,5,5,}),"mp":60,"Merits":(["bar":0,"tec":0,"wit":0,"sou":0,"bio":0,]),"evil":-1,"mud_age":148,"addition_shield":10,])
+autoload ({"/open/always/god_mark",})

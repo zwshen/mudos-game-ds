@@ -1,0 +1,9 @@
+#/obj/user.c
+conditions ([])
+dbase (["supply_point":544,"actions":,"age":17,"unit":"¦ì","heart_modify":0,"skill":(["strong-body":18,]),"bank":(["past":70,]),"war_art":1101,"putjail_time":(["2":1,]),"max_mp":60,"adv_class":1,"class1":"¤Ö«Ó­x","guild_gifts":({5,5,5,5,}),"max_hp":100,"popularity":1097,"env":([]),"default_actions":,"Merits":(["bio":0,"tec":0,"sou":0,"wit":0,"bar":0,]),"max_ap":75,"talk_point":80,"ap":75,"addition":(["con":1,]),"mp":60,"addition_shield":10,"last_location":"/open/world1/tmr/area/smithy","newbie":1,"exp":7468660,"dex":2,"guild_rank":"¤Ö«Ó­x¤§¦å¾Ô¨F´ö","heart_beat_rate":6,"int":2,"id":"army","hp":100,"con":2,"str":2,"level":25,"DS_DATA_VERSION":19991107,"addition_armor":10,"evil":-1,"gender":"¨k©Ê","volume":7,"channels":({"chat","rumor","tchat",}),"name":"¤Ö«Ó­x","birthday":1165527564,"addition_damage":10,"race":"human","startroom":"/open/world1/tmr/area/hotel","nickname":"¤Ö«Ó­x[0m","mud_age":314334,"cure_count":18,"title":"¤Ö«Ó­x²Ä¤G¥N­x¤H","attitude":"peaceful","family":(["family_name":"¤Ö«Ó­x","privs":-1,"title":"­x¤H","generation":2,]),"wound":(["right_leg":0,"left_arm":0,"left_leg":0,"right_arm":0,"body":0,"head":0,]),])
+skills (["strong-body":19,"block":25,"blade":5,"literate":0,])
+learned (["strong-body":722,"literate":1,])
+alias (["/":"recall start","gobagi2":"do l off,e,n,w,w,w,w,w,w,s,s,sw,enter house,w,enter ¤sÁ_,climb ÃÃ½¯,w,n,w,l on,l",])
+autoload ({})
+toDoList ([])
+solved ({})

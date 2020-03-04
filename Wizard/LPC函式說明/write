@@ -1,0 +1,16 @@
+
+	write(3)		MusOS v21c2		(7 Jul 1996)
+
+	ㄧ计嘿:
+		write() - 癸ヘ玡產癳癟.
+	ㄧ计粂猭:
+		void write( mixed str );
+
+		礚肚 write( 睼 str );
+	ㄧ计ノ猭:
+		癳癟 str  倒ヘ玡產. str 琌计, τ计
+		盢锣传Θ﹃癳.
+	把σㄧ计:
+		message(3), tell_object(3), tell_room(3), shout(3), say(3)
+	も陆亩:
+		Phoebus@ZH	97.jul.25.		(Writen 5/23/97)
