@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["unit":"¦ì","ap":60,"mp":60,"age":14,"newbie":1,"exp":777,"volume":7,"dex":2,"int":2,"con":2,"str":2,"level":1,"cure_count":5,"evil":-1,"DS_DATA_VERSION":19991107,"id":"oaking","mud_age":64889,"channels":({"chat","rumor","tchat","es",}),"supply_point":60,"race":"human","default_actions":,"birthday":1125035585,"talk_point":8,"gender":"¨k©Ê","startroom":"/open/world1/tmr/area/hotel","name":"¬_","heart_modify":0,"wound":(["right_leg":0,"left_leg":0,"left_arm":0,"right_arm":0,"body":0,"head":0,]),"addition_shield":10,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"actions":,"cwd":"/u/o/oaking/","addition_armor":10,"guild_gifts":({5,5,5,5,}),"max_mp":60,"last_location":"/open/world1/wilfred/sand/room18","max_ap":60,"attitude":"peaceful","max_hp":80,"heart_beat_rate":6,"addition_damage":10,"hp":80,])
-skills (["chess":2,])
-learned (["chess":14,])
-autoload ({"/obj/money/coin:215",})

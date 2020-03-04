@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["talk_point":8,"heart_beat_rate":6,"DS_DATA_VERSION":19991107,"evil":-1,"cure_count":19,"mp":110,"unit":"位","max_mp":110,"ap":60,"supply_point":38,"age":14,"addition_armor":10,"guild_gifts":({5,5,5,5,}),"channels":({"chat","rumor","tchat",}),"default_actions":,"mud_age":537,"addition_shield":10,"hp":80,"race":"celestial","actions":,"max_ap":60,"Merits":(["bar":0,"bio":0,"tec":0,"sou":0,"wit":0,]),"volume":7,"attitude":"peaceful","newbie":1,"addition_damage":10,"exp":777,"id":"ctrlalt","dex":2,"help":"skill/","int":2,"con":2,"startroom":"/open/world1/tmr/area/hotel","max_hp":80,"level":1,"gender":"男性","str":2,"birthday":1219675661,"name":"亂步晴空",])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

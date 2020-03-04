@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["DS_DATA_VERSION":19991107,"actions":,"supply_point":10,"race":"tiger","max_mp":64,"age":14,"max_hp":110,"guild_gifts":({5,5,5,5,}),"heart_beat_rate":6,"addition_damage":10,"channels":({"chat","rumor","tchat",}),"talk_point":5,"birthday":1204086991,"default_actions":,"id":"tarrega","mp":64,"newbie":1,"volume":7,"exp":777,"dex":2,"hp":110,"attitude":"peaceful","gender":"男性","int":2,"name":"強","con":2,"addition_shield":10,"str":2,"level":1,"max_ap":64,"unit":"位","ap":64,"mud_age":74,"evil":-1,"startroom":"/open/world1/tmr/area/hotel","Merits":(["bio":0,"tec":0,"sou":0,"wit":0,"bar":0,]),"cure_count":5,"addition_armor":10,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

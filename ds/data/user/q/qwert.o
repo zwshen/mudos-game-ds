@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["max_mp":60,"max_hp":80,"evil":-1,"gender":"女性","unit":"位","cure_count":5,"addition_shield":10,"name":"打廣告","channels":({"chat","rumor","tchat",}),"attitude":"peaceful","birthday":1176634443,"supply_point":10,"mp":60,"race":"human","addition_armor":10,"startroom":"/open/world1/tmr/area/hotel","board_last_read":(["tmr_hotel_b":1176634487,]),"addition_damage":10,"max_ap":60,"ap":60,"age":14,"volume":7,"default_actions":,"mud_age":70,"newbie":1,"actions":,"exp":777,"talk_point":3,"dex":2,"int":2,"id":"qwert","hp":80,"guild_gifts":({5,5,5,5,}),"con":2,"str":2,"level":1,"Merits":(["sou":0,"wit":0,"bar":0,"bio":0,"tec":0,]),"DS_DATA_VERSION":19991107,"heart_beat_rate":6,])
-autoload ({})
-toDoList ([])
-solved ({})

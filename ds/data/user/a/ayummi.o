@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["heart_beat_rate":6,"addition_armor":10,"bellicosity":0,"disable_type":" <毫無呼吸>","mud_age":2765,"MKS":3,"addition_damage":10,"talk_point":8,"gender":"男性","evil":8,"max_hp":100,"DS_DATA_VERSION":19991107,"wound":(["left_arm":0,"right_arm":0,"left_leg":0,"right_leg":0,"body":0,"head":0,]),"name":"冰淇布","attitude":"peaceful","id":"ayummi","mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove",}),"volume":7,"max_mp":60,"combat_exp":1,"default_actions":,"guild_gifts":({5,5,5,5,}),"race":"human","channels":({"chat","rumor","tchat",}),"hp":100,"level":1,"birthday":1124958472,"exp":348,"dex":2,"int":2,"con":3,"str":2,"Merits":(["wit":0,"tec":0,"bar":0,"bio":0,"sou":0,]),"max_ap":75,"startroom":"/open/world1/tmr/area/hotel","supply_point":60,"newbie":1,"last_location":"/open/world1/wilfred/newbie/eq_bank","heart_modify":0,"age":14,"unit":"位","actions":,"cure_count":16,"ap":75,"mp":60,"addition_shield":10,"board_last_read":(["sex_board":1123669292,"tmr_hotel_b":1124907845,]),])
-skills (["dodge":2,"unarmed":3,"combat":4,])
-learned (["dodge":2,"unarmed":14,"combat":22,])
-autoload ({"/obj/money/coin:3813",})

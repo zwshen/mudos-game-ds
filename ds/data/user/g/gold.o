@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["actions":,"addition_armor":10,"Merits":(["sou":0,"wit":0,"bar":0,"bio":0,"tec":0,]),"talk_point":5,"max_mp":60,"addition_damage":10,"max_hp":80,"max_ap":60,"ap":60,"mp":60,"newbie":1,"exp":777,"dex":2,"hp":80,"id":"gold","int":2,"cure_count":5,"DS_DATA_VERSION":19991107,"con":2,"str":2,"level":1,"unit":"位","channels":({"chat","rumor","tchat",}),"volume":7,"supply_point":10,"birthday":1145357656,"last_location":"/open/world1/tmr/area/hotel","evil":-1,"gender":"女性","name":"歡喜天","attitude":"peaceful","startroom":"/open/world1/tmr/area/hotel","guild_gifts":({5,5,5,5,}),"race":"human","heart_beat_rate":6,"mud_age":74,"default_actions":,"addition_shield":10,"age":14,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

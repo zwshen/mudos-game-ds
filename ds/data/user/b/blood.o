@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["addition_shield":10,"DS_DATA_VERSION":19991107,"heart_beat_rate":6,"volume":7,"addition_armor":10,"addition_damage":10,"unit":"位","gender":"男性","name":"黃祺元","race":"human","channels":({"chat","rumor","tchat",}),"ap":60,"level":1,"id":"blood","max_hp":80,"birthday":1139679805,"startroom":"/open/world1/tmr/area/hotel","hp":80,"newbie":1,"cure_count":18,"attitude":"peaceful","mp":60,"exp":1431,"dex":2,"int":2,"con":2,"str":2,"default_actions":,"max_ap":60,"supply_point":60,"mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"heart_modify":0,"actions":,"env":([]),"age":14,"guild_gifts":({5,5,5,5,}),"last_location":"/open/world1/cominging/area/dragon/dragon_door","Merits":(["wit":0,"bio":0,"tec":0,"bar":0,"sou":0,]),"wound":(["right_arm":0,"body":0,"right_leg":0,"left_leg":0,"head":0,"left_arm":0,]),"mud_age":1277,"MKS":5,"talk_point":8,"max_mp":60,"evil":11,])
-skills (["combat":3,"dodge":1,"unarmed":2,])
-learned (["combat":24,"dodge":1,"unarmed":15,])
-alias (["2":"do look off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,w,n,w,w,w,nw,w,w,n,nw,w,n,n,nw,n,","1":"recall star",])
-autoload ({"/obj/money/coin:4",})

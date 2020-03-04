@@ -1,9 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"volume":7,"DS_DATA_VERSION":19991107,"race":"titan","wound":(["body":0,"right_arm":0,"head":0,"right_leg":0,"left_arm":0,"left_leg":0,]),"channels":({"chat","rumor","tchat",}),"birthday":1199490995,"id":"qwwq","heart_modify":0,"actions":,"max_mp":60,"gender":"男性","name":"逍遙子","max_hp":90,"attitude":"peaceful","heart_beat_rate":6,"unit":"位","max_ap":70,"ap":70,"mp":60,"guild_gifts":({5,5,5,5,}),"startroom":"/open/world1/tmr/area/hotel","last_location":"/open/world1/tmr/area/street4","Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"addition_shield":10,"cure_count":5,"MKS":5,"supply_point":60,"newbie":1,"default_actions":,"addition_armor":10,"talk_point":8,"war_score":4,"exp":1368,"dex":2,"int":2,"con":2,"str":2,"age":14,"hp":90,"level":1,"addition_damage":10,"evil":11,"mud_age":662,])
-skills (["dodge":1,"combat":3,"unarmed":2,"parry":0,])
-learned (["dodge":1,"combat":7,"unarmed":12,"parry":2,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

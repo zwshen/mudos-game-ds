@@ -1,2 +1,0 @@
-#/obj/login.c
-dbase (["error_login":({"於[Mon Jun 24 07:42:01 2002]嘗試由[203.69.143.45]連線進入失敗。","於[Sun Jun 30 15:42:58 2002]嘗試由[sw59-150-165.adsl.seed.net.tw]連線進入失敗。","於[Wed Jul  3 17:15:18 2002]嘗試由[211.21.25.213]連線進入失敗。","於[Tue Jul 30 23:56:13 2002]嘗試由[u129-138.u61-70.giga.net.tw]連線進入失敗。","於[Wed Jul 31 00:48:49 2002]嘗試由[u129-138.u61-70.giga.net.tw]連線進入失敗。",}),"id":"moon","name":"小豪","body":"/obj/user","last_on":1028209722,"email":"","new_mail":1,"password":"TLkhSFG0gjv9M","last_from":"u129-138.u61-70.giga.net.tw","race":"human","level":1,])

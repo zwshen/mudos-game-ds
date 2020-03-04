@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["max_ap":66,"mp":54,"ap":66,"talk_point":8,"hp":120,"default_actions":,"newbie":1,"exp":777,"dex":2,"volume":7,"int":2,"con":2,"str":2,"level":1,"id":"joba","DS_DATA_VERSION":19991107,"help":"newbie/","evil":-1,"channels":({"chat","rumor","tchat",}),"heart_beat_rate":6,"birthday":1191293759,"gender":"¨k©Ê","name":"³ì¤Ú","race":"ogre","startroom":"/open/world1/tmr/area/hotel","guild_gifts":({5,5,5,5,}),"cure_count":5,"mud_age":672,"unit":"¦ì","wound":(["right_leg":0,"right_arm":0,"body":0,"head":0,"left_leg":0,"left_arm":0,]),"age":14,"supply_point":60,"addition_shield":10,"attitude":"peaceful","actions":,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"addition_armor":10,"max_mp":54,"heart_modify":0,"max_hp":120,"addition_damage":10,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["max_ap":66,"addition_shield":10,"ap":66,"heart_modify":0,"hp":120,"unit":"位","default_actions":,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"addition_armor":10,"popularity":114,"volume":7,"war_art":110,"addition_damage":10,"last_location":"/open/world1/cominging/area/sidestreet3","board_last_read":(["tmr_hotel_b":1164811147,]),"talk_point":8,"heart_beat_rate":6,"newbie":1,"exp":915427,"id":"naruto","dex":2,"int":2,"guild_gifts":({5,5,5,5,}),"age":14,"con":2,"mud_age":66115,"str":2,"level":1,"gender":"男性","wound":(["right_arm":0,"body":0,"head":0,"right_leg":0,"left_leg":0,"left_arm":0,]),"name":"漩渦鳴人","evil":-1,"DS_DATA_VERSION":19991107,"channels":({"chat","rumor","tchat",}),"actions":,"birthday":1164805780,"race":"ogre","max_mp":54,"cure_count":5,"startroom":"/open/world1/tmr/area/hotel","attitude":"peaceful","max_hp":120,"supply_point":60,"env":([]),"mp":54,])
-skills (["strong-body":11,"literate":16,])
-learned (["strong-body":261,"literate":467,])
-autoload ({})

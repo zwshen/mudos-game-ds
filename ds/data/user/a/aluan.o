@@ -1,9 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["volume":7,"DS_DATA_VERSION":19991107,"ap":64,"wound":(["right_arm":0,"body":0,"left_leg":0,"right_leg":0,"left_arm":0,"head":0,]),"talk_point":8,"attitude":"peaceful","max_mp":64,"addition_shield":10,"channels":({"chat","rumor","tchat",}),"MKS":1,"cure_count":5,"unit":"¦ì","addition_armor":10,"newbie":1,"addition_damage":10,"exp":975,"dex":2,"int":2,"con":2,"max_ap":64,"last_location":"/open/world1/tmr/area/hotel","level":1,"supply_point":50,"birthday":1248169656,"guild_gifts":({5,5,5,5,}),"evil":-1,"mp":64,"default_actions":,"actions":,"max_hp":110,"mud_age":371,"hp":110,"Merits":(["bar":0,"bio":0,"tec":0,"sou":0,"wit":0,]),"race":"tiger","id":"aluan","heart_beat_rate":6,"age":14,"heart_modify":0,"mob_record":({"/open/world1/tmr/area/npc/dog",}),"help":"newbie/","startroom":"/open/world1/tmr/area/hotel","gender":"¨k©Ê","war_score":1,"str":2,"name":"¶Ã",])
-skills (["unarmed":0,"combat":0,])
-learned (["unarmed":1,"combat":2,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["dex":2,"max_ap":60,"startroom":"/open/world1/tmr/area/hotel","int":2,"mp":60,"id":"vic","con":2,"supply_point":10,"max_mp":60,"evil":-1,"volume":7,"newbie":1,"str":2,"mud_age":74,"talk_point":5,"last_location":"/open/world1/tmr/area/street4","ap":60,"default_actions":,"channels":({"chat","rumor","tchat",}),"race":"human","DS_DATA_VERSION":19991107,"addition_damage":10,"guild_gifts":({5,5,5,5,}),"level":1,"addition_shield":10,"hp":80,"max_hp":80,"Merits":(["sou":0,"bar":0,"bio":0,"tec":0,"wit":0,]),"unit":"位","birthday":1125414304,"age":14,"gender":"男性","cure_count":5,"actions":,"addition_armor":10,"heart_beat_rate":6,"attitude":"peaceful","exp":777,"name":"劍心",])
-autoload ({})

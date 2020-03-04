@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["exp":777,"dex":2,"volume":7,"max_mp":60,"int":2,"startroom":"/open/world1/tmr/area/hotel","con":2,"str":2,"newbie":1,"default_actions":,"mp":60,"age":14,"addition_shield":10,"DS_DATA_VERSION":19991107,"mud_age":163,"ap":60,"addition_armor":10,"gender":"男性","heart_beat_rate":6,"Merits":(["bar":0,"wit":0,"bio":0,"sou":0,"tec":0,]),"name":"雷克斯","guild_gifts":({5,5,5,5,}),"max_ap":60,"supply_point":22,"talk_point":2,"id":"lex","addition_damage":10,"max_hp":80,"channels":({"chat","rumor","tchat",}),"race":"human","hp":80,"level":1,"cure_count":11,"actions":,"evil":-1,"attitude":"peaceful","unit":"位","birthday":1123603720,])
-autoload ({})

@@ -1,9 +1,0 @@
-#/obj/user.c
-conditions (["ill_fashao":16,])
-dbase (["skill":(["strong-body":18,"literate":37,]),"actions":,"age":33,"war_art":3411,"last_location":"/open/world1/cominging/area/boo-lin","addition_damage":10,"bank":(["past":65035,]),"max_mp":160,"max_hp":100,"max_ap":75,"mp":160,"attitude":"peaceful","cure_count":8,"ap":75,"newbie":1,"exp":20888034,"combat_exp":3,"talk_point":20,"dex":2,"id":"lovarek","int":2,"supply_point":141,"hp":100,"con":2,"board_last_read":(["tmr_hotel_b":1173195920,]),"str":2,"level":5,"guild_gifts":({5,5,5,5,}),"DS_DATA_VERSION":19991107,"volume":7,"gender":"¤k©Ê","evil":-1,"heart_modify":0,"channels":({"chat","rumor","tchat","god",}),"name":"¤é¯«ªªªÌ","bellicosity":0,"birthday":1171492291,"addition":(["int":2,"con":1,]),"friend":({"watermoon",}),"default_actions":,"race":"celestial","startroom":"/open/world1/tmr/area/hotel","popularity":3366,"heart_beat_rate":6,"addition_shield":10,"guild_rank":"¦¨¼ô¼a´Aªº¤p©h®Q","mud_age":1685278,"nickname":"[1;32m¡i¥Ü¥Ó¡j[1;37mÆF[1;33m¥ú[1;37m¤Û[30m¼v[0m[0m","env":(["report":1,"report_action":1,]),"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"wound":(["head":0,"left_leg":0,"right_arm":0,"left_arm":0,"right_leg":0,"body":0,]),"addition_armor":10,"disable_type":" <²@µL©I§l>","unit":"¦ì",])
-skills (["combat":0,"blade":25,"literate":39,"strong-body":32,"unarmed":0,"block":25,"sword":25,"dodge":25,"parry":25,])
-learned (["strong-body":759,"combat":2,"unarmed":2,"literate":0,])
-alias (["goclan":"do look off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,enter,n,n,n,n,n,n,n,n,u,miracle crown,look on,l","rs":"recall start","sa":"sac all","ss":"sac corpse","de":"deposit $*","gg":"get all from corpse","ga":"get all","sl":"sell all","mc":"miracle crown",])
-autoload ({"/obj/money/coin:3335","/open/always/god_mark",})
-toDoList ([])
-solved ({})

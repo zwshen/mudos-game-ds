@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["int":2,"DS_DATA_VERSION":19991107,"con":2,"str":2,"max_hp":80,"mp":60,"default_actions":,"guild_gifts":({5,5,5,5,}),"age":14,"gender":"¨k©Ê","name":"¿p","max_mp":60,"cure_count":1,"race":"human","channels":({"chat","rumor","tchat",}),"attitude":"peaceful","evil":-1,"id":"mosie","level":1,"actions":,"addition_shield":10,"birthday":1146142253,"heart_beat_rate":6,"addition_damage":10,"addition_armor":10,"ap":60,"max_ap":60,"volume":7,"supply_point":2,"startroom":"/open/world1/tmr/area/hotel","hp":80,"mud_age":12,"newbie":1,"talk_point":1,"Merits":(["sou":0,"wit":0,"bar":0,"tec":0,"bio":0,]),"unit":"¦ì","exp":777,"dex":2,])
-autoload ({})

@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["DS_DATA_VERSION":19991107,"actions":,"addition_damage":10,"attitude":"peaceful","evil":-1,"volume":7,"guild_gifts":({5,5,5,5,}),"last_location":"/open/world1/tmr/area/street4","unit":"¦ì","talk_point":2,"Merits":(["bar":0,"tec":0,"sou":0,"bio":0,"wit":0,]),"ap":60,"cure_count":2,"addition_shield":10,"max_mp":110,"channels":({"chat","rumor","tchat",}),"mp":110,"race":"celestial","mud_age":26,"age":14,"newbie":1,"exp":777,"id":"omomo","hp":80,"dex":2,"supply_point":4,"addition_armor":10,"int":2,"con":2,"startroom":"/open/world1/tmr/area/hotel","level":1,"gender":"¤k©Ê","max_ap":60,"default_actions":,"str":2,"birthday":1238251574,"max_hp":80,"heart_beat_rate":6,"name":"¤ò¤ò",])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

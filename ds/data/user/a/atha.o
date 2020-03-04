@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["max_mp":64,"DS_DATA_VERSION":19991107,"evil":-1,"gender":"男性","unit":"位","name":"七星半糖","max_hp":110,"guild_gifts":({5,5,5,5,}),"channels":({"chat","rumor","tchat",}),"last_location":"/open/world1/tmr/area/inn_2f","talk_point":8,"birthday":1173191001,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"race":"tiger","default_actions":,"addition_shield":10,"mp":64,"startroom":"/open/world1/tmr/area/hotel","cure_count":17,"heart_beat_rate":6,"addition_armor":10,"supply_point":34,"attitude":"peaceful","newbie":1,"exp":777,"age":14,"dex":2,"max_ap":64,"volume":7,"int":2,"ap":64,"con":2,"id":"atha","actions":,"addition_damage":10,"mud_age":258,"str":2,"level":1,"hp":110,])
-autoload ({})
-toDoList ([])
-solved ({})

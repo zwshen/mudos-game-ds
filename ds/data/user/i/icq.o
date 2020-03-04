@@ -1,9 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["actions":,"addition_armor":10,"Merits":(["sou":0,"wit":0,"bar":0,"bio":0,"tec":0,]),"talk_point":8,"max_mp":60,"addition_damage":10,"max_hp":80,"max_ap":60,"ap":60,"mp":60,"newbie":1,"exp":777,"dex":2,"int":2,"hp":80,"id":"icq","cure_count":19,"con":2,"DS_DATA_VERSION":19991107,"str":2,"unit":"位","level":1,"channels":({"chat","rumor","tchat",}),"volume":7,"supply_point":60,"last_location":"/open/world1/cominging/area/sidestreet1","birthday":1147314430,"evil":-1,"gender":"男性","name":"笑蒼天","attitude":"peaceful","startroom":"/open/world1/tmr/area/hotel","guild_gifts":({5,5,5,5,}),"race":"human","long":"一暮西沉夕陽晚，風光逝去不復還，江湖崢嶸再璀璨，當世更勝神梟三。","heart_modify":0,"heart_beat_rate":6,"mud_age":3007,"default_actions":,"age":14,"addition_shield":10,"wound":(["right_leg":0,"right_arm":0,"left_arm":0,"body":0,"left_leg":0,"head":0,]),"env":(["brief":1,]),])
-skills (["literate":1,])
-learned (["literate":8,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

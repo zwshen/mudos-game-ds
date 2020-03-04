@@ -1,6 +1,0 @@
-#/obj/user.c
-dbase (["max_ap":60,"int":2,"heart_modify":0,"addition_shield":10,"ap":60,"con":2,"age":14,"guild_gifts":({5,5,5,5,}),"str":2,"mud_age":666,"bellicosity":0,"hp":80,"level":1,"unit":"位","wound":(["right_arm":0,"body":0,"left_leg":0,"right_leg":0,"head":0,"left_arm":0,]),"gender":"男性","mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"DS_DATA_VERSION":19991107,"evil":11,"name":"豬腳","default_actions":,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"MKS":5,"addition_armor":10,"volume":7,"channels":({"chat","rumor","tchat",}),"actions":,"birthday":1165516057,"race":"celestial","last_location":"/open/world1/tmr/area/city-door","cure_count":2,"addition_damage":10,"max_mp":110,"attitude":"peaceful","startroom":"/open/world1/tmr/area/hotel","combat_exp":0,"max_hp":80,"supply_point":60,"talk_point":8,"heart_beat_rate":6,"mp":110,"newbie":1,"exp":1172,"id":"chujeau","disable_type":" <毫無呼吸>","war_score":2,"dex":2,])
-skills (["dodge":2,"unarmed":3,"combat":5,])
-learned ([])
-alias (["h":"get all","g":"get all from corpse $*",])
-autoload ({})

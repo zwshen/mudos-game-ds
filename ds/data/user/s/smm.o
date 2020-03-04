@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["hp":110,"name":"亞力","cure_count":7,"board_last_read":(["anoounce_b":1192725766,"tmr_hotel_b":1193194348,]),"race":"tiger","default_actions":,"volume":7,"actions":,"startroom":"/open/world1/tmr/area/hotel","supply_point":14,"addition_shield":10,"max_mp":64,"max_hp":110,"attitude":"peaceful","heart_beat_rate":6,"newbie":1,"exp":777,"dex":2,"addition_armor":10,"guild_gifts":({5,5,5,5,}),"int":2,"con":2,"str":2,"mp":64,"level":1,"id":"smm","max_ap":64,"DS_DATA_VERSION":19991107,"ap":64,"Merits":(["bio":0,"tec":0,"sou":0,"wit":0,"bar":0,]),"addition_damage":10,"evil":-1,"mud_age":108,"talk_point":7,"unit":"位","channels":({"chat","rumor","tchat",}),"last_location":"/open/world1/wilfred/newbie/eq_bank","age":14,"birthday":1193247235,"gender":"男性",])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

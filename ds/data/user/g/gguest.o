@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["int":2,"talk_point":8,"con":2,"age":14,"str":2,"DS_DATA_VERSION":19991107,"mp":60,"default_actions":,"cure_count":9,"gender":"女性","name":"羽之語","attitude":"peaceful","evil":-1,"addition_shield":10,"heart_beat_rate":6,"id":"gguest","last_location":"/open/world1/tmr/area/street4","addition_damage":10,"addition_armor":10,"max_ap":60,"max_mp":60,"volume":7,"channels":({"chat","rumor","tchat",}),"race":"human","supply_point":18,"guild_gifts":({5,5,5,5,}),"level":1,"birthday":1143048108,"ap":60,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"hp":80,"actions":,"startroom":"/open/world1/tmr/area/hotel","exp":777,"max_hp":80,"unit":"位","mud_age":133,"newbie":1,"dex":2,])
-autoload ({})

@@ -1,5 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["int":2,"age":14,"con":2,"str":2,"cure_count":10,"actions":,"attitude":"peaceful","guild_gifts":({5,5,5,5,}),"volume":7,"Merits":(["sou":0,"tec":0,"bar":0,"bio":0,"wit":0,]),"max_mp":60,"quest":(["not_newbie":1,]),"default_actions":,"channels":({"chat","rumor","tchat",}),"addition_shield":10,"race":"human","level":1,"evil":-1,"bank":(["now":0,]),"talk_point":8,"gender":"¨k©Ê","birthday":1113109806,"id":"mmx","addition_armor":10,"heart_beat_rate":6,"name":"«C¶³","mp":60,"max_ap":60,"supply_point":20,"mud_age":147,"startroom":"/open/world1/tmr/area/hotel","ap":60,"heart_modify":1,"last_location":"/open/world1/tmr/area/street4","hp":80,"addition_damage":10,"unit":"¦ì","exp":777,"DS_DATA_VERSION":19991107,"max_hp":80,"dex":2,])
-skills (["unarmed":1,])
-autoload ({})

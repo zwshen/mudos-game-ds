@@ -1,9 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["max_hp":90,"gender":"¨k©Ê","war_score":2,"name":"­w­w","addition_shield":10,"mob_record":({"/open/world1/tmr/area/npc/dog",}),"addition_armor":10,"startroom":"/open/world1/tmr/area/hotel","race":"titan","talk_point":6,"mp":60,"addition_damage":10,"default_actions":,"max_ap":70,"cure_count":7,"last_location":"/open/world1/tmr/area/street4","ap":70,"age":14,"mud_age":100,"unit":"¦ì","newbie":1,"volume":7,"exp":981,"supply_point":14,"dex":2,"actions":,"hp":90,"int":2,"con":2,"str":2,"id":"ksj","DS_DATA_VERSION":19991107,"attitude":"peaceful","level":1,"MKS":1,"Merits":(["bar":0,"bio":0,"tec":0,"sou":0,"wit":0,]),"channels":({"chat","rumor","tchat",}),"max_mp":60,"evil":-1,"guild_gifts":({5,5,5,5,}),"heart_beat_rate":6,"birthday":1184352912,])
-skills (["dodge":1,"combat":1,"unarmed":1,])
-learned (["dodge":0,"combat":5,"unarmed":1,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["talk_point":8,"max_mp":60,"evil":-1,"addition_shield":10,"DS_DATA_VERSION":19991107,"heart_beat_rate":6,"volume":7,"addition_damage":10,"addition_armor":10,"gender":"男性","name":"堂本光一","guild_gifts":({5,5,5,5,}),"ap":60,"id":"kinki","race":"human","channels":({"chat","rumor","tchat",}),"max_hp":80,"level":1,"birthday":1128449443,"hp":80,"Merits":(["wit":0,"bio":0,"tec":0,"bar":0,"sou":0,]),"startroom":"/open/world1/tmr/area/hotel","mp":60,"exp":777,"newbie":1,"dex":2,"cure_count":13,"int":2,"attitude":"peaceful","con":2,"str":2,"default_actions":,"max_ap":60,"supply_point":26,"unit":"位","age":14,"actions":,"last_location":"/open/world1/tmr/area/hotel","mud_age":192,])
-autoload ({})

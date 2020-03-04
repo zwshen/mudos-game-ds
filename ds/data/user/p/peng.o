@@ -1,5 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["addition_shield":10,"DS_DATA_VERSION":19991107,"heart_beat_rate":6,"volume":7,"addition_armor":10,"addition_damage":10,"unit":"位","board_last_read":(["anoounce_b":1051611286,]),"gender":"男性","class1":"八極門","name":"極地企鵝","channels":({"chat","rumor","tchat",}),"race":"human","ap":60,"level":1,"id":"peng","max_hp":80,"birthday":1145554521,"startroom":"/open/world1/tmr/area/hotel","hp":80,"newbie":1,"cure_count":10,"title":"八極門第七代俠客","attitude":"peaceful","mp":60,"adv_class":1,"exp":777,"dex":2,"int":2,"con":2,"bank":(["past":0,]),"str":2,"default_actions":,"max_ap":60,"supply_point":60,"heart_modify":0,"actions":,"family":(["family_name":"八極門","title":"俠客","privs":-1,"generation":7,]),"age":14,"guild_gifts":({10,7,0,3,}),"Merits":(["wit":0,"bio":0,"tec":0,"bar":0,"sou":0,]),"last_location":"/open/world1/tmr/area/ms1","wound":(["right_arm":0,"body":0,"right_leg":0,"left_leg":0,"head":0,"left_arm":0,]),"mud_age":7747,"talk_point":8,"evil":-1,"max_mp":60,])
-skills (["unarmed":1,"bagi_fist":1,])
-autoload ({})

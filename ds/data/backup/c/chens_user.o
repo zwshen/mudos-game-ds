@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["hp":80,"age":14,"exp":777,"gender":"¤k©Ê","dex":2,"id":"chens","heart_modify":0,"wound":(["left_leg":0,"right_leg":0,"body":0,"head":0,"left_arm":0,"right_arm":0,]),"talk_point":5,"last_location":"/open/world1/ground_temple/room-14","evil":-1,"guild_gifts":({5,5,5,5,}),"default_actions":,"int":2,"name":"¾a­I","con":2,"addition_damage":10,"ap":60,"startroom":"/open/world1/tmr/area/hotel","str":2,"addition_shield":10,"max_hp":80,"newbie":1,"env":([]),"mud_age":390,"cure_count":6,"actions":,"addition_armor":10,"heart_beat_rate":6,"attitude":"peaceful","channels":({"chat","rumor","tchat","bala",}),"board_last_read":(["tmr_hotel_b":1084540941,"anoounce_b":1084781847,]),"DS_DATA_VERSION":19991107,"max_ap":60,"unit":"¦ì","level":1,"race":"human","supply_point":52,"mp":60,"max_mp":60,"Merits":(["bar":0,"sou":0,"bio":0,"tec":0,"wit":0,]),"volume":7,"birthday":1084887608,])
-autoload ({})

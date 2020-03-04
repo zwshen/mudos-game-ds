@@ -1,9 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["DS_DATA_VERSION":19991107,"max_mp":285,"disable_type":" <毫無呼吸>","max_hp":600,"race":"celestial","addition_armor":10,"guild_rank":"八極門之仗義江湖","title":"八極門第七代俠客","channels":({"chat","rumor","tchat",}),"default_actions":,"family":(["family_name":"八極門","generation":7,"privs":-1,"title":"俠客",]),"bank":(["past":4854,]),"mp":285,"birthday":1212694131,"id":"playooo","MKS":5,"addition_damage":10,"addition_shield":10,"max_ap":450,"Merits":(["tec":1,"sou":2,"wit":0,"bar":2,"bio":1,]),"gender":"男性","ap":450,"name":"小鬼大人","adv_class":1,"last_location":"/open/world1/tmr/area/inn_2f","startroom":"/open/world1/tmr/area/hotel","env":([]),"attitude":"peaceful","popularity":430,"heart_modify":0,"age":14,"class1":"八極門","bellicosity":0,"heart_beat_rate":6,"mob_record":({"/open/world1/tmr/area/npc/dog","/open/world1/tmr/area/npc/dog","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/vag",}),"war_score":4,"unit":"位","talk_point":81,"war_art":0,"hp":600,"volume":7,"guild_gifts":({10,7,0,3,}),"newbie":1,"wound":(["right_arm":0,"right_leg":0,"left_leg":0,"head":0,"left_arm":0,"body":0,]),"exp":113832,"dex":10,"int":9,"mud_age":17368,"con":28,"str":48,"level":25,"cure_count":6,"evil":-8,"combat_exp":0,"actions":,"supply_point":112,])
-skills (["block":25,"unarmed":5,"combat":6,"dodge":3,"parry":0,"strong-body":7,])
-learned (["combat":14,"dodge":0,"unarmed":0,"strong-body":0,])
-items ({})
-autoload ({"/obj/money/coin:74000",})
-toDoList ([])
-solved ({})

@@ -1,8 +1,0 @@
-#/obj/user.c
-dbase (["env":([]),"supply_point":159,"family":(["generation":2,"privs":-1,"family_name":"少帥軍","title":"軍人",]),"wound":(["left_arm":0,"head":0,"right_arm":0,"left_leg":0,"body":0,"right_leg":0,]),"guild_gifts":({5,5,5,5,}),"unit":"位","war_art":129,"actions":,"age":14,"Merits":(["sou":0,"wit":0,"bar":1,"bio":1,"tec":0,]),"bank":(["past":433290,]),"heart_modify":0,"max_mp":54,"guild_rank":"少帥軍之用刀新手","popularity":130,"max_hp":510,"default_actions":,"newbie":1,"exp":621,"dex":11,"addition_shield":10,"mp":54,"max_ap":300,"int":2,"ap":106,"con":15,"id":"ken","str":20,"last_location":"/open/world1/tmr/dragoncity/north1","level":8,"heart_beat_rate":6,"DS_DATA_VERSION":19991107,"hp":160,"addition_armor":10,"evil":-1,"class1":"少帥軍","gender":"男性","channels":({"chat","rumor","tchat",}),"name":"凱恩","talk_point":25,"birthday":1171526940,"volume":7,"race":"ogre","addition_damage":10,"startroom":"/open/world1/tmr/area/hotel","adv_class":1,"cure_count":14,"mud_age":6633,"title":"少帥軍第二代軍人","attitude":"peaceful",])
-skills (["axe":25,"hammer":25,"unarmed":25,"fork":25,"parry":25,"sword":25,"dodge":25,"flybird-steps":15,"whip":25,"bloodwar-blade":15,"nine-mystery":15,"dragon-fist":10,"strong-body":5,"block":25,"force":15,"dagger":25,"staff":25,"blade":25,"literate":1,])
-learned (["strong-body":0,"literate":4,])
-alias (["t":"sac all","pear":"do look off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,e,n,n,nw,eu,ne,n,n,n,n,n,n,n,ne,n,n,jump 大石,push 石壁,w,search 小洞,l on","r":"recall","rs":"recall start","lieh":"do e,n,n,n,w,w,n,ne,ne,n,n,ne,n,e,n,n,nw,eu,ne,n,n,n,n,n,n,n,ne,n,n,nu,n,nw,nw,ne,ne,n,nw,n,n,nw","master":"do l off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,e,n,n,nw,eu,ne,e,s,s,se,sw,se,e,s,s,s,l on,l","g":"get all",])
-autoload ({})
-toDoList ([])
-solved ({})

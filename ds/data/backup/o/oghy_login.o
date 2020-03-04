@@ -1,2 +1,0 @@
-#/obj/login.c
-dbase (["level":2,"race":"human","error_login":({"於[Tue Aug 28 14:53:50 2001]嘗試由[h135.s100.ts30.hinet.net]連線進入失敗。","於[Thu Aug 30 23:47:08 2001]嘗試由[h5.s112.ts30.hinet.net]連線進入失敗。","於[Fri Aug 31 00:06:50 2001]嘗試由[h5.s112.ts30.hinet.net]連線進入失敗。","於[Sat Sep  8 00:37:34 2001]嘗試由[61-216-35-196.HINET-IP.hinet.net]連線進入失敗。","於[Sun Sep 16 21:55:21 2001]嘗試由[61-216-35-235.HINET-IP.hinet.net]連線進入失敗。",}),"body":"/obj/user","id":"oghy","name":"大海嘯","email":"","last_on":1000649792,"password":"IN3VMbpT4DENA","last_from":"61-216-35-235.HINET-IP.hinet.net",])

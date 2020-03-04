@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["max_mp":64,"max_hp":110,"default_actions":,"mp":64,"heart_beat_rate":6,"newbie":1,"exp":777,"dex":2,"volume":7,"max_ap":64,"int":2,"ap":64,"con":2,"id":"oeel","str":2,"level":1,"hp":110,"evil":-1,"DS_DATA_VERSION":19991107,"gender":"¨k©Ê","unit":"¦ì","name":"¹Ð·Ï","guild_gifts":({5,5,5,5,}),"channels":({"chat","rumor","tchat",}),"talk_point":8,"birthday":1169086472,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"race":"tiger","addition_shield":10,"startroom":"/open/world1/tmr/area/hotel","cure_count":9,"addition_armor":10,"attitude":"peaceful","supply_point":60,"wound":(["left_leg":0,"head":0,"right_leg":0,"body":0,"left_arm":0,"right_arm":0,]),"age":14,"actions":,"addition_damage":10,"mud_age":722,"heart_modify":0,])
-autoload ({})
-toDoList ([])
-solved ({})

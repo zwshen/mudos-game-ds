@@ -1,9 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["DS_DATA_VERSION":19991107,"race":"ogre","actions":,"popularity":18,"channels":({"chat","rumor","tchat",}),"max_mp":54,"nickname":"¾Ô  ¯« (warlord)[0m","war_art":18,"birthday":1203508768,"max_hp":120,"heart_modify":0,"id":"omg","heart_beat_rate":6,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"gender":"¨k©Ê","mp":54,"name":"¤Ñªü","guild_gifts":({5,5,5,5,}),"attitude":"peaceful","max_ap":66,"startroom":"/open/world1/tmr/area/hotel","ap":66,"env":([]),"cure_count":3,"addition_shield":10,"unit":"¦ì","age":14,"supply_point":60,"last_location":"/open/world1/acme/area/pass1","newbie":1,"default_actions":,"addition_armor":10,"talk_point":8,"exp":53440,"dex":2,"int":2,"con":2,"str":2,"hp":120,"level":1,"volume":7,"wound":(["body":0,"right_arm":0,"head":0,"right_leg":0,"left_arm":0,"left_leg":0,]),"addition_damage":10,"evil":-1,"mud_age":2784,])
-skills (["strong-body":3,])
-learned (["strong-body":21,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

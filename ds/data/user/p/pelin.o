@@ -1,9 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["volume":7,"DS_DATA_VERSION":19991107,"board_last_read":(["boo-lin_b":1163611422,"flurry_b":1218865079,"tmr_hotel_b":1246739115,]),"ap":75,"heart_beat_rate":6,"Merits":(["bio":0,"bar":0,"tec":0,"wit":0,"sou":0,]),"wound":(["right_arm":0,"body":0,"right_leg":0,"left_leg":0,"left_arm":0,"head":0,]),"talk_point":8,"unit":"¦ì","addition":(["con":1,]),"channels":({"chat","rumor","tchat",}),"max_mp":60,"newbie":1,"exp":5818924,"attitude":"peaceful","cure_count":6,"dex":2,"last_location":"/open/world1/tmr/area/street1","int":2,"max_ap":75,"con":2,"level":1,"birthday":1235096751,"age":124,"supply_point":60,"evil":-1,"heart_modify":0,"skill":(["strong-body":18,]),"addition_shield":10,"mud_age":9522953,"hp":100,"default_actions":,"mp":60,"race":"human","max_hp":100,"guild_gifts":({5,5,5,5,}),"addition_armor":10,"actions":,"id":"pelin","war_art":786,"startroom":"/open/world1/tmr/area/hotel","help":"newbie/","gender":"¤k©Ê","str":2,"name":"¨Ø¬Â","addition_damage":10,])
-skills (["strong-body":19,])
-learned (["strong-body":0,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

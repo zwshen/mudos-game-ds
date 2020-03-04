@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["last_location":"/open/world1/tmr/area/street4","volume":7,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"DS_DATA_VERSION":19991107,"race":"human","addition_shield":10,"help":"newbie/","cure_count":8,"channels":({"chat","rumor","tchat",}),"birthday":1197094277,"id":"lice","supply_point":16,"actions":,"talk_point":8,"addition_armor":10,"default_actions":,"newbie":1,"exp":777,"dex":2,"max_mp":60,"gender":"女性","int":2,"name":"小與","con":2,"hp":80,"max_hp":80,"age":14,"str":2,"level":1,"attitude":"peaceful","addition_damage":10,"heart_beat_rate":6,"unit":"位","max_ap":60,"evil":-1,"ap":60,"mp":60,"guild_gifts":({5,5,5,5,}),"mud_age":108,"startroom":"/open/world1/tmr/area/hotel",])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

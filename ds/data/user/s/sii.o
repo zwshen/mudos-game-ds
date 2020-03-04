@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["supply_point":44,"evil":-1,"gender":"¨k©Ê","name":"¤i","channels":({"chat","rumor","tchat",}),"volume":7,"actions":,"birthday":1177778537,"age":14,"addition_damage":10,"unit":"¦ì","heart_modify":0,"race":"celestial","startroom":"/open/world1/tmr/area/hotel","max_mp":110,"max_hp":80,"guild_gifts":({5,5,5,5,}),"default_actions":,"max_ap":60,"Merits":(["bio":0,"tec":0,"sou":0,"wit":0,"bar":0,]),"talk_point":8,"ap":60,"mp":110,"addition_shield":10,"mud_age":328,"newbie":1,"exp":777,"heart_beat_rate":6,"dex":2,"int":2,"id":"sii","cure_count":2,"hp":80,"con":2,"str":2,"level":1,"wound":(["right_leg":0,"left_leg":0,"left_arm":0,"right_arm":0,"body":0,"head":0,]),"DS_DATA_VERSION":19991107,"addition_armor":10,"attitude":"peaceful",])
-autoload ({})
-toDoList ([])
-solved ({})

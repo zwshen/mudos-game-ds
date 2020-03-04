@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["help":"newbie/","cure_count":6,"actions":,"addition_damage":10,"mp":64,"max_mp":64,"volume":7,"age":14,"exp":777,"str":2,"race":"tiger","id":"taeja","name":"太甲","DS_DATA_VERSION":19991107,"max_hp":110,"Merits":(["sou":0,"bar":0,"tec":0,"wit":0,"bio":0,]),"heart_beat_rate":6,"mud_age":86,"dex":2,"level":1,"supply_point":12,"talk_point":6,"addition_shield":10,"max_ap":64,"attitude":"peaceful","unit":"位","default_actions":,"channels":({"chat","rumor","tchat",}),"int":2,"birthday":1472468801,"startroom":"/open/world1/tmr/area/hotel","addition_armor":10,"ap":64,"hp":110,"evil":-1,"guild_gifts":({5,5,5,5,}),"newbie":1,"con":2,"gender":"男性",])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

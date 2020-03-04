@@ -1,9 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["DS_DATA_VERSION":19991107,"class1":"情城池","adv_class":1,"cure_count":8,"actions":,"race":"evil","env":([]),"guild_rank":"情城池之入門學徒","addition_damage":10,"max_mp":66,"attitude":"peaceful","age":14,"Merits":(["wit":0,"bar":0,"bio":0,"tec":0,"sou":0,]),"supply_point":56,"max_hp":84,"channels":({"chat","rumor","tchat",}),"title":"情城池第三代弟子","heart_modify":0,"talk_point":8,"birthday":1207062246,"heart_beat_rate":6,"id":"cureyy","family":(["generation":3,"privs":-1,"title":"弟子","family_name":"情城池",]),"mp":66,"newbie":1,"exp":777,"dex":2,"addition_shield":10,"hp":84,"volume":7,"default_actions":,"gender":"女性","int":2,"name":"法如雪","con":2,"unit":"位","str":2,"wound":(["left_leg":0,"right_leg":0,"right_arm":0,"head":0,"left_arm":0,"body":0,]),"level":1,"max_ap":100,"guild_gifts":({4,6,3,7,}),"ap":100,"mud_age":423,"evil":-1,"startroom":"/open/world1/tmr/area/hotel","addition_armor":10,"bank":(["past":0,]),"last_location":"/open/world1/tmr/area/square",])
-skills (["dodge":1,"force":1,"parry":1,"unarmed":1,"whip":1,])
-items ({})
-alias (["cy1":"do l off,e,n,w,w,w,w,w,w,w,w,w,n,w,w,s,s,s,s,s,s,s,s,s,l on,l",])
-autoload ({})
-toDoList ([])
-solved ({})

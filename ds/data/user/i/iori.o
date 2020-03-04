@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["ap":60,"max_hp":80,"wound":(["right_leg":0,"left_arm":0,"right_arm":0,"head":0,"left_leg":0,"body":0,]),"exp":777,"dex":2,"cure_count":11,"DS_DATA_VERSION":19991107,"actions":,"int":2,"attitude":"peaceful","con":2,"str":2,"volume":7,"evil":-1,"max_mp":60,"age":14,"talk_point":8,"default_actions":,"guild_gifts":({5,5,5,5,}),"addition_shield":10,"unit":"¦ì","gender":"¨k©Ê","id":"iori","mud_age":474,"channels":({"chat","rumor","tchat",}),"name":"»¯¶³","race":"human","addition_armor":10,"heart_beat_rate":6,"level":1,"max_ap":60,"birthday":1119286990,"supply_point":60,"Merits":(["tec":0,"bio":0,"sou":0,"bar":0,"wit":0,]),"heart_modify":0,"last_location":"/open/world2/anfernee/start/bug","mp":60,"startroom":"/open/world2/anfernee/start/login","hp":80,"addition_damage":10,"newbie":1,])
-autoload ({})

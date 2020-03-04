@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["default_actions":,"age":14,"max_ap":60,"channels":({"chat","rumor","tchat",}),"supply_point":60,"free_time":22419,"level":1,"race":"human","birthday":1108794523,"gender":"男性","unit":"位","talk_point":8,"last_location":"/d/wiz/courthouse","heart_modify":0,"id":"zcbm","name":"這不是肯德基","startroom":"/d/wiz/courthouse.c","mud_age":30729,"newbie":1,"guild_gifts":({5,5,5,5,}),"actions":,"cure_count":4,"hp":80,"exp":777,"dex":2,"int":2,"mp":60,"con":2,"str":2,"addition_shield":10,"out_of_power":1,"heart_beat_rate":6,"addition_armor":10,"putjail_position":"/d/wiz/courthouse","accuse_position":"/open/world2/lichi_town_2/map_5_26","putjail_time":(["2":1,]),"ap":60,"addition_damage":10,"max_hp":80,"wound":(["head":0,"body":0,"left_leg":0,"right_arm":0,"right_leg":0,"left_arm":0,]),"attitude":"peaceful","evil":-1,"volume":7,"max_mp":60,"Merits":(["tec":0,"bio":0,"bar":0,"sou":0,"wit":0,]),"DS_DATA_VERSION":19991107,])
-autoload ({})

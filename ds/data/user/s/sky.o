@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["max_ap":60,"board_last_read":(["tmr_hotel_b":1079123396,]),"mp":60,"supply_point":60,"mud_age":975,"ap":60,"heart_modify":0,"last_location":"/open/world1/acme/area/pool","talk_point":2,"mob_record":({"/open/world1/tmr/area/npc/dog",}),"DS_DATA_VERSION":19991107,"age":14,"gender":"男性","cure_count":6,"actions":,"name":"天","id":"sky","env":([]),"race":"human","channels":({"chat","rumor","tchat","sam","sky",}),"level":1,"Merits":(["sou":0,"bar":0,"bio":0,"tec":0,"wit":0,]),"addition_shield":10,"hp":80,"birthday":1078560472,"addition_armor":10,"heart_beat_rate":6,"exp":986,"dex":2,"int":2,"startroom":"/open/world1/tmr/area/hotel","con":2,"str":2,"newbie":1,"addition_damage":10,"max_hp":80,"wound":(["body":0,"head":0,"right_arm":0,"left_arm":0,"left_leg":0,"right_leg":0,]),"attitude":"peaceful","evil":-1,"volume":7,"max_mp":60,"MKS":1,"unit":"位","default_actions":,"guild_gifts":({5,5,5,5,}),])
-skills (["combat":1,"unarmed":1,])
-learned (["combat":7,"unarmed":3,])
-alias (["mm":"do members",])
-autoload ({"/open/always/sky_mark",})

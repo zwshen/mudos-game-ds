@@ -1,9 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["DS_DATA_VERSION":19991107,"attitude":"peaceful","race":"titan","mp":60,"addition_shield":10,"channels":({"chat","rumor","tchat",}),"Merits":(["bio":0,"tec":0,"sou":0,"wit":0,"bar":0,]),"help":"newbie/","birthday":1200975417,"id":"kids","cure_count":14,"gender":"¨k©Ê","addition_armor":10,"guild_gifts":({5,5,5,5,}),"name":"µ£ªê","supply_point":60,"unit":"¦ì","max_ap":70,"ap":70,"age":14,"startroom":"/open/world1/tmr/area/hotel","addition_damage":10,"default_actions":,"volume":7,"wound":(["body":0,"right_arm":0,"head":0,"right_leg":0,"left_arm":0,"left_leg":0,]),"last_location":"/open/world1/tmr/area/menghouse","talk_point":8,"newbie":1,"exp":777,"dex":2,"int":2,"con":2,"heart_modify":0,"hp":90,"str":2,"heart_beat_rate":6,"level":1,"actions":,"max_mp":60,"max_hp":90,"evil":-1,"mud_age":2005,"board_last_read":(["sex_board":1191813231,]),])
-skills (["literate":1,])
-learned (["literate":2,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

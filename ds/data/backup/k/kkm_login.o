@@ -1,2 +1,0 @@
-#/obj/login.c
-dbase (["body":"/obj/user","id":"kkm","name":"刺頭","email":"11111","password":"TKsuhdeWL4mmw","last_on":1084779546,"race":"human","level":35,"last_from":"telnet.hinet.net","error_login":({"於[Sat Sep 13 22:50:47 2003]嘗試由[61-216-150-27.HINET-IP.hinet.net]連線進入失敗。","於[Fri Oct  3 11:22:08 2003]嘗試由[gateway.kshs.kh.edu.tw]連線進入失敗。","於[Thu Oct 30 12:41:35 2003]嘗試由[gateway.kshs.kh.edu.tw]連線進入失敗。","於[Fri Oct 31 23:00:13 2003]嘗試由[61-216-202-34.HINET-IP.hinet.net]連線進入失敗。","於[Sun Jan 11 18:52:08 2004]嘗試由[218-172-181-89.HINET-IP.hinet.net]連線進入失敗。",}),])

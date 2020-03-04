@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["hp":80,"default_actions":,"board_last_read":(["tmr_hotel_b":1116133512,]),"exp":901,"dex":2,"DS_DATA_VERSION":19991107,"addition_shield":10,"int":2,"con":2,"evil":2,"str":2,"addition_armor":10,"ap":60,"mp":60,"heart_beat_rate":6,"max_ap":60,"Merits":(["bar":0,"sou":0,"wit":0,"bio":0,"tec":0,]),"supply_point":42,"heart_modify":0,"last_location":"/open/world1/tmr/area/wbridge","talk_point":8,"gender":"¨k©Ê","id":"partner","addition_damage":10,"channels":({"chat","rumor","tchat",}),"name":"·¬»ã","race":"human","mob_record":({"/open/world1/cominging/area/npc/dove",}),"max_hp":80,"level":1,"wound":(["right_leg":0,"left_arm":0,"right_arm":0,"left_leg":0,"body":0,"head":0,]),"mud_age":334,"birthday":1116847920,"cure_count":1,"actions":,"attitude":"peaceful","age":14,"MKS":1,"max_mp":60,"volume":7,"guild_gifts":({5,5,5,5,}),"unit":"¦ì","startroom":"/open/world1/tmr/area/school/school1","newbie":1,])
-skills (["dodge":0,"unarmed":1,"combat":1,])
-learned (["dodge":1,"unarmed":0,"combat":3,])
-autoload ({"/obj/money/coin:1",})

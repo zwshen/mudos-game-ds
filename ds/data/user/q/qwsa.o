@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["MKS":2,"talk_point":8,"Merits":(["bar":0,"wit":0,"sou":0,"bio":0,"tec":0,]),"mp":60,"DS_DATA_VERSION":19991107,"age":14,"gender":"男性","name":"小路","actions":,"id":"qwsa","race":"human","channels":({"chat","rumor","tchat",}),"evil":2,"level":1,"addition_shield":10,"birthday":1139912483,"heart_beat_rate":6,"ap":60,"volume":7,"addition_armor":10,"addition_damage":10,"hp":80,"bank":(["past":0,]),"max_mp":60,"startroom":"/open/world1/tmr/area/hotel","exp":1106,"dex":2,"newbie":1,"guild_gifts":({5,5,5,5,}),"last_location":"/open/world1/tmr/area/street4","int":2,"con":2,"str":2,"max_hp":80,"cure_count":16,"mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"wound":(["left_arm":0,"left_leg":0,"right_arm":0,"head":0,"right_leg":0,"body":0,]),"attitude":"peaceful","unit":"位","board_last_read":(["anoounce_b":1123161798,]),"max_ap":60,"supply_point":60,"heart_modify":0,"mud_age":1129,"default_actions":,])
-skills (["dodge":1,"combat":2,"block":1,"unarmed":1,])
-learned (["dodge":0,"combat":7,"unarmed":6,])
-autoload ({})

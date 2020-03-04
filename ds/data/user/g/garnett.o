@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["max_ap":90,"supply_point":52,"guild_gifts":({5,5,5,5,}),"last_location":"/open/world2/lichi_town_1/map_5_24","heart_modify":0,"channels":({"chat","rumor","tchat",}),"ap":72,"race":"human","level":2,"cure_count":6,"talk_point":11,"gender":"女性","birthday":1108801218,"actions":,"id":"garnett","name":"冰川孤辰","mud_age":380,"startroom":"/open/world2/lichi_town_2/map_5_26","evil":-1,"newbie":1,"hp":69,"addition_shield":10,"exp":328,"dex":4,"int":2,"addition_armor":10,"con":4,"heart_beat_rate":6,"str":2,"mob_record":({"/open/world2/npc/beast_ladybug_2","/open/world2/npc/beast_butterfly_1","/open/world2/npc/beast_cat_2","/open/world2/npc/beast_fish_3","/open/world2/npc/beast_fish_3","/open/world2/npc/beast_fish_1","/open/world2/npc/beast_fish_3","/open/world2/npc/beast_fish_1","/open/world2/npc/beast_fish_1","/open/world2/npc/beast_fish_1","/open/world2/npc/beast_fish_3","/open/world2/npc/beast_fish_3","/open/world2/npc/beast_fish_1","/open/world2/npc/beast_fish_1",}),"age":14,"guild_rank":"楚楚可憐的小ㄚ頭","addition_damage":10,"Merits":(["wit":0,"bar":0,"bio":0,"sou":0,"tec":0,]),"max_hp":120,"wound":(["left_leg":0,"body":0,"head":0,"right_leg":0,"right_arm":0,"left_arm":0,]),"attitude":"peaceful","max_mp":60,"volume":7,"combat_exp":1,"MKS":14,"default_actions":,"unit":"位","mp":60,"DS_DATA_VERSION":19991107,])
-skills (["unarmed":4,"combat":6,"dodge":3,])
-learned (["unarmed":32,"combat":29,"dodge":6,])
-alias (["g":"get all","0":"do eat meat,!","sa":"sac all",])
-autoload ({"/obj/money/dollar:460",})

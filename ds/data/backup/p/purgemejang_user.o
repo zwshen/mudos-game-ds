@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["level":25,"race":"human","Merits":(["bio":0,"wit":0,"tec":0,"sou":0,"bar":0,]),"exp":98917296,"birthday":1059810802,"dex":2,"default_actions":,"int":2,"title":"八極門第七代俠客","popularity":100000000,"con":2,"str":2,"mud_age":95,"age":14,"hp":80,"class1":"八極門","startroom":"/open/world1/tmr/area/hotel","attitude":"peaceful","heart_beat_rate":6,"volume":7,"talk_point":10,"addition_shield":10,"newbie":1,"evil":-1,"max_mp":60,"addition_armor":10,"mp":60,"DS_DATA_VERSION":19991107,"max_hp":80,"unit":"位","gender":"男性","id":"purgemejang","actions":,"name":"砍我啊","heart_modify":0,"guild_gifts":({10,7,0,3,}),"max_ap":60,"family":(["generation":7,"family_name":"八極門","title":"俠客","privs":-1,]),"adv_class":1,"last_location":"/open/world1/tmr/area/glade","addition_damage":10,"guild_rank":"八極門之仗義江湖","cure_count":9,"supply_point":27,"ap":60,"channels":({"chat","rumor","tchat",}),])
-autoload ({})

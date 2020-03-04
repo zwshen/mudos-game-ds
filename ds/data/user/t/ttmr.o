@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["max_mp":60,"DS_DATA_VERSION":19991107,"max_hp":80,"race":"human","addition_armor":10,"channels":({"chat","rumor","tchat","bala",}),"default_actions":,"bank":(["past":1000000000,]),"mp":60,"birthday":1177914324,"id":"ttmr","addition_shield":10,"addition_damage":10,"max_ap":60,"gender":"男性","Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"ap":60,"name":"買家","last_location":"/open/world1/tmr/area/big2room","startroom":"/open/world1/tmr/area/hotel","attitude":"peaceful","age":14,"heart_beat_rate":6,"unit":"位","talk_point":8,"volume":7,"hp":80,"guild_gifts":({5,5,5,5,}),"newbie":1,"exp":777,"dex":2,"int":2,"mud_age":124,"con":2,"str":2,"level":1,"cure_count":9,"evil":-1,"actions":,"supply_point":18,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

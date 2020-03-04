@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["DS_DATA_VERSION":19991107,"race":"celestial","actions":,"channels":({"chat","rumor","tchat",}),"max_mp":110,"birthday":1202178806,"max_hp":80,"id":"zerg","heart_beat_rate":6,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"gender":"男性","mp":110,"name":"星海","guild_gifts":({5,5,5,5,}),"attitude":"peaceful","max_ap":60,"startroom":"/open/world1/tmr/area/hotel","ap":60,"cure_count":11,"addition_shield":10,"unit":"位","age":14,"supply_point":22,"newbie":1,"default_actions":,"addition_armor":10,"talk_point":8,"exp":777,"dex":2,"int":2,"con":2,"str":2,"hp":80,"level":1,"volume":7,"addition_damage":10,"evil":-1,"mud_age":154,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

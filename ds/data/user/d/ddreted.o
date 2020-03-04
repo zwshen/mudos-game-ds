@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["ap":60,"evil":-1,"Merits":(["sou":0,"bio":0,"bar":0,"wit":0,"tec":0,]),"gender":"¤k©Ê","id":"ddreted","cure_count":5,"actions":,"addition_armor":10,"heart_beat_rate":6,"attitude":"peaceful","mud_age":74,"channels":({"chat","rumor","tchat",}),"exp":777,"name":"³·©Ç","race":"human","age":14,"dex":2,"DS_DATA_VERSION":19991107,"max_ap":60,"unit":"¦ì","int":2,"level":1,"con":2,"supply_point":10,"max_mp":60,"volume":7,"birthday":1117541070,"str":2,"default_actions":,"talk_point":5,"addition_damage":10,"mp":60,"startroom":"/open/world1/tmr/area/hotel","hp":80,"addition_shield":10,"max_hp":80,"guild_gifts":({5,5,5,5,}),"newbie":1,])
-autoload ({})

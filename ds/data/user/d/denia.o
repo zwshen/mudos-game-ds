@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["int":2,"talk_point":3,"addition_damage":10,"addition_armor":10,"con":2,"volume":7,"max_ap":60,"mp":60,"str":2,"supply_point":6,"ap":60,"DS_DATA_VERSION":19991107,"unit":"位","actions":,"gender":"男性","name":"飛天鳥","Merits":(["tec":0,"sou":0,"bar":0,"bio":0,"wit":0,]),"max_hp":80,"age":14,"default_actions":,"id":"denia","channels":({"chat","rumor","tchat",}),"race":"human","level":1,"cure_count":3,"max_mp":60,"birthday":1144993172,"attitude":"peaceful","hp":80,"evil":-1,"addition_shield":10,"guild_gifts":({5,5,5,5,}),"startroom":"/open/world1/tmr/area/hotel","exp":777,"heart_beat_rate":6,"mud_age":43,"newbie":1,"dex":2,])
-autoload ({})

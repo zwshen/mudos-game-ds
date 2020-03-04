@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["DS_DATA_VERSION":19991107,"race":"human","popularity":0,"actions":,"war_art":0,"channels":({"chat","rumor","tchat",}),"max_mp":60,"birthday":1203072985,"max_hp":80,"heart_modify":0,"id":"kira","heart_beat_rate":6,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"gender":"男性","mp":60,"name":"奇樂","guild_gifts":({5,5,5,5,}),"attitude":"peaceful","max_ap":60,"startroom":"/open/world1/tmr/area/hotel","ap":60,"env":([]),"cure_count":2,"addition_shield":10,"unit":"位","age":15,"supply_point":60,"last_location":"/open/world1/cominging/purple_sun/4f_secret","newbie":1,"default_actions":,"addition_armor":10,"talk_point":8,"exp":336,"dex":2,"int":2,"con":2,"str":3,"hp":80,"level":1,"volume":7,"wound":(["body":0,"right_arm":0,"head":0,"right_leg":0,"left_arm":0,"left_leg":0,]),"addition_damage":10,"evil":-1,"mud_age":110934,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

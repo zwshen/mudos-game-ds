@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["find_butter":1,"DS_DATA_VERSION":19991107,"Merits":(["bio":0,"bar":0,"wit":0,"sou":0,"tec":0,]),"max_hp":80,"gender":"男性","name":"哇哇大叫","cure_count":17,"attitude":"peaceful","channels":({"chat","rumor","tchat",}),"race":"human","level":1,"id":"evilan","birthday":1149052467,"max_ap":60,"age":14,"startroom":"/open/world1/tmr/area/hotel","supply_point":60,"hp":80,"newbie":1,"unit":"位","ap":60,"mob_record":({"/open/world1/tmr/area/school/npc/butterfly",}),"heart_modify":0,"exp":901,"dex":2,"int":2,"con":2,"str":2,"actions":,"max_mp":60,"default_actions":,"guild_gifts":({5,5,5,5,}),"last_location":"/open/world1/tmr/area/big2room","MKS":1,"mud_age":1456,"evil":-1,"wound":(["right_arm":0,"left_arm":0,"body":0,"right_leg":0,"left_leg":0,"head":0,]),"addition_shield":10,"heart_beat_rate":6,"volume":7,"addition_armor":10,"addition_damage":10,"talk_point":8,"mp":60,])
-skills (["combat":0,"unarmed":0,])
-learned (["combat":2,"unarmed":2,])
-autoload ({"/obj/money/coin:1",})

@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["newbie":1,"addition_shield":10,"board_last_read":(["anoounce_b":1113665352,"tmr_hotel_b":1112603643,]),"heart_beat_rate":6,"addition_armor":10,"addition_damage":10,"gender":"¨k©Ê","guild_gifts":({5,5,5,5,}),"id":"coffee","max_hp":80,"unit":"¦ì","name":"©@°Ø","wound":(["right_arm":0,"head":0,"body":0,"left_leg":0,"right_leg":0,"left_arm":0,]),"attitude":"peaceful","max_mp":60,"volume":7,"hp":80,"exp":777,"age":14,"ap":60,"dex":2,"default_actions":,"int":2,"Merits":(["sou":0,"tec":0,"bio":0,"bar":0,"wit":0,]),"con":2,"str":2,"DS_DATA_VERSION":19991107,"max_ap":60,"evil":-1,"supply_point":60,"last_location":"/open/world1/tmr/area/hotel","heart_modify":0,"mp":60,"channels":({"chat","rumor","tchat",}),"level":1,"race":"human","actions":,"cure_count":1,"birthday":1110378457,"talk_point":8,"mud_age":3603,"startroom":"/open/world1/tmr/area/hotel",])
-autoload ({})

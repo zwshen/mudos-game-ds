@@ -1,9 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["volume":7,"mob_record":({"/open/world1/tmr/area/npc/dog",}),"DS_DATA_VERSION":19991107,"race":"human","wound":(["body":0,"right_arm":0,"right_leg":0,"head":0,"left_leg":0,"left_arm":0,]),"board_last_read":(["tmr_hotel_b":1199435470,]),"channels":({"chat","rumor","tchat",}),"birthday":1199455408,"id":"dorf","heart_modify":0,"actions":,"gender":"¨k©Ê","max_mp":60,"name":"¨§»G","max_hp":80,"attitude":"peaceful","unit":"¦ì","heart_beat_rate":6,"max_ap":60,"startroom":"/open/world1/tmr/area/hotel","guild_gifts":({5,5,5,5,}),"mp":60,"ap":60,"last_location":"/open/world1/tmr/area/inn_2f","Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"addition_shield":10,"cure_count":10,"MKS":1,"combat_exp":1,"supply_point":60,"war_score":1,"talk_point":8,"addition_armor":10,"default_actions":,"newbie":1,"exp":949,"dex":2,"int":2,"con":2,"hp":80,"age":14,"str":2,"level":1,"addition_damage":10,"evil":-1,"mud_age":752,])
-skills (["dodge":1,"unarmed":3,"combat":4,])
-learned (["dodge":7,"unarmed":5,"combat":1,])
-items ({})
-autoload ({"/obj/money/coin:700",})
-toDoList ([])
-solved ({})

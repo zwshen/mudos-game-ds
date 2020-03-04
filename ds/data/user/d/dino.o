@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["con":2,"addition_damage":10,"str":2,"unit":"¦ì","max_hp":80,"DS_DATA_VERSION":19991107,"cure_count":8,"actions":,"attitude":"peaceful","guild_gifts":({5,5,5,5,}),"volume":7,"max_mp":60,"default_actions":,"Merits":(["bio":0,"wit":0,"tec":0,"sou":0,"bar":0,]),"gender":"¨k©Ê","id":"dino","addition_shield":10,"channels":({"chat","rumor","tchat",}),"name":"­â¶³","mp":60,"race":"human","level":1,"ap":60,"talk_point":8,"addition_armor":10,"heart_beat_rate":6,"birthday":1114824832,"max_ap":60,"supply_point":16,"hp":80,"mud_age":113,"evil":-1,"exp":777,"startroom":"/open/world1/tmr/area/hotel","dex":2,"age":14,"newbie":1,"int":2,])
-autoload ({})

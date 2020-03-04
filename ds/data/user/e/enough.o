@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["age":14,"max_ap":60,"supply_point":36,"last_location":"/open/world1/wilfred/sand/room35","evil":-1,"gender":"男性","DS_DATA_VERSION":19991107,"name":"夠囉","mud_age":327,"cure_count":18,"actions":,"id":"enough","talk_point":8,"channels":({"chat","rumor","tchat",}),"race":"human","hp":80,"addition_shield":10,"level":1,"exp":777,"birthday":1123386392,"dex":2,"heart_beat_rate":6,"addition_armor":10,"int":2,"con":2,"Merits":(["sou":0,"bar":0,"bio":0,"tec":0,"wit":0,]),"str":2,"ap":60,"startroom":"/open/world1/tmr/area/hotel","newbie":1,"addition_damage":10,"unit":"位","max_hp":80,"guild_gifts":({5,5,5,5,}),"attitude":"peaceful","mp":60,"volume":7,"max_mp":60,"default_actions":,"disable_type":" <毫無呼吸>",])
-autoload ({})

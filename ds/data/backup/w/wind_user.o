@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["int":3,"mob_record":({"/open/world1/tmr/area/npc/dog",}),"con":3,"str":3,"cure_count":9,"DS_DATA_VERSION":19991107,"actions":,"attitude":"peaceful","volume":7,"guild_gifts":({5,5,5,5,}),"max_mp":75,"default_actions":,"ap":75,"MKS":1,"addition_shield":10,"gender":"¨k©Ê","Merits":(["sou":0,"bio":0,"wit":0,"tec":0,"bar":0,]),"evil":-1,"id":"wind","age":14,"addition_armor":10,"name":"Þ³","race":"human","heart_beat_rate":6,"level":2,"talk_point":9,"max_ap":75,"supply_point":18,"exp_point":0,"unit":"¦ì","last_location":"/open/world1/tmr/area/hotel","startroom":"/open/world1/tmr/area/hotel","mp":75,"mud_age":132,"hp":100,"addition_damage":10,"exp":356,"max_hp":100,"dex":3,])
-skills (["combat":1,"dodge":0,"unarmed":1,])
-learned (["combat":4,"dodge":1,"unarmed":0,])
-autoload ({})

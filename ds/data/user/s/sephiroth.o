@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["DS_DATA_VERSION":19991107,"addition_armor":10,"attitude":"peaceful","max_hp":80,"talk_point":4,"channels":({"chat","rumor","tchat",}),"mud_age":56,"newbie":1,"supply_point":8,"exp":777,"dex":2,"hp":80,"int":2,"con":2,"level":1,"mp":60,"birthday":1245167166,"max_ap":60,"guild_gifts":({5,5,5,5,}),"Merits":(["bar":0,"tec":0,"sou":0,"bio":0,"wit":0,]),"evil":-1,"volume":7,"heart_beat_rate":6,"default_actions":,"actions":,"unit":"位","ap":60,"addition_damage":10,"cure_count":4,"age":14,"race":"human","max_mp":60,"id":"sephiroth","addition_shield":10,"startroom":"/open/world1/tmr/area/hotel","gender":"男性","str":2,"name":"賽菲羅斯",])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

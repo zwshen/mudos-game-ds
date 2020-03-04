@@ -1,9 +1,0 @@
-#/obj/user.c
-conditions (["ill_zhongshu":2,])
-dbase (["DS_DATA_VERSION":19991107,"race":"celestial","actions":,"popularity":0,"attitude":"peaceful","max_mp":110,"addition_damage":10,"help":"newbie/","channels":({"chat","rumor","tchat",}),"max_hp":80,"heart_modify":0,"birthday":1205134662,"id":"kims","mp":110,"war_art":0,"gender":"男性","name":"真奇怪","unit":"位","guild_gifts":({5,5,5,5,}),"max_ap":60,"ap":60,"startroom":"/open/world1/tmr/area/hotel","last_location":"/open/world1/cominging/area/survey","bank":(["past":0,]),"cure_count":3,"age":14,"Merits":(["wit":0,"bar":0,"bio":0,"tec":0,"sou":0,]),"supply_point":60,"talk_point":8,"heart_beat_rate":6,"newbie":1,"exp":336,"dex":2,"int":2,"default_actions":,"volume":7,"hp":80,"addition_shield":10,"con":2,"str":3,"wound":(["left_leg":0,"right_leg":0,"right_arm":0,"head":0,"left_arm":0,"body":0,]),"level":1,"mud_age":3719,"evil":-1,"addition_armor":10,])
-skills (["blade":1,"block":1,"dagger":1,"hammer":1,"staff":1,"unarmed":1,"whip":1,"dodge":1,"fork":1,"parry":1,"axe":1,"sword":1,"strong-body":5,])
-learned (["strong-body":0,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

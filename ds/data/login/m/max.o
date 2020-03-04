@@ -1,2 +1,0 @@
-#/obj/login.c
-dbase (["password":"QMW3IoxT8UP3Q","name":"王凰伊","race":"human","error_login":({"於[Sat Jan 14 00:50:47 2006]嘗試由[adsl-61-66-57-210.KH.sparqnet.net]連線進入失敗。","於[Mon Jan 16 14:18:28 2006]嘗試由[adsl-61-66-57-210.KH.sparqnet.net]連線進入失敗。","於[Mon Jan 16 14:18:38 2006]嘗試由[adsl-61-66-57-210.KH.sparqnet.net]連線進入失敗。","於[Sun Oct  7 17:42:39 2007]嘗試由[123.194.5.107]連線進入失敗。",}),"level":1,"body":"/obj/user","last_from":"adsl-61-66-57-210.KH.sparqnet.net","id":"max","email":"","last_on":1137392380,])

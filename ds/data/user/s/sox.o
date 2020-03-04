@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["race":"titan","heart_modify":1,"DS_DATA_VERSION":19991107,"addition_damage":10,"supply_point":60,"actions":,"default_actions":,"max_mp":60,"age":14,"channels":({"chat","rumor","tchat",}),"max_hp":90,"board_last_read":(["anoounce_b":1048679690,]),"id":"sox","birthday":1193755141,"attitude":"peaceful","newbie":1,"addition_shield":10,"exp":777,"unit":"位","dex":2,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"int":2,"gender":"男性","con":2,"bank":(["past":20000,]),"talk_point":8,"mp":60,"name":"亂世","str":2,"hp":90,"level":1,"last_location":"/open/world1/tmr/area/s_house","volume":7,"wound":(["head":0,"left_leg":0,"right_leg":0,"left_arm":0,"body":0,"right_arm":0,]),"addition_armor":10,"evil":-1,"heart_beat_rate":6,"max_ap":70,"cure_count":18,"ap":70,"mud_age":1172,"guild_gifts":({5,5,5,5,}),"startroom":"/open/world1/tmr/area/hotel",])
-items ({})
-autoload ({"/obj/money/coin:13000",})
-toDoList ([])
-solved ({})

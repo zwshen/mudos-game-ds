@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["int":2,"talk_point":8,"con":2,"str":2,"volume":7,"attitude":"peaceful","combat_exp":1,"DS_DATA_VERSION":19991107,"evil":-1,"heart_beat_rate":6,"max_hp":80,"unit":"位","gender":"女性","ap":60,"last_location":"/open/world1/tmr/area/street4","name":"進化危機","mp":60,"addition_shield":10,"wound":(["left_arm":0,"left_leg":0,"right_arm":0,"head":0,"right_leg":0,"body":0,]),"id":"hawk","addition_damage":10,"addition_armor":10,"Merits":(["wit":0,"sou":0,"bar":0,"bio":0,"tec":0,]),"channels":({"chat","rumor","tchat",}),"race":"human","max_ap":60,"level":1,"birthday":1144195590,"cure_count":14,"max_mp":60,"hp":80,"age":14,"heart_modify":0,"supply_point":60,"actions":,"default_actions":,"guild_gifts":({5,5,5,5,}),"startroom":"/open/world1/tmr/area/hotel","exp":785,"mud_age":4236,"newbie":1,"dex":2,])
-skills (["dodge":1,"combat":4,"unarmed":2,])
-learned (["dodge":4,"combat":0,"unarmed":16,])
-autoload ({})

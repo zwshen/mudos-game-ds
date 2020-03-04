@@ -1,9 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["max_mp":75,"popularity":0,"max_hp":80,"last_location":"/open/world1/tmr/area/hotel","default_actions":,"mp":64,"heart_beat_rate":6,"MKS":2,"newbie":1,"exp":842,"dex":2,"int":3,"volume":7,"max_ap":60,"id":"planet","con":2,"ap":60,"war_art":0,"str":2,"level":1,"hp":78,"evil":-1,"DS_DATA_VERSION":19991107,"unit":"位","gender":"男性","name":"張正行","war_score":4,"long":"總是不輕易向我們透露他的喜好或者厭惡，也很難猜測此時此刻的正行，是否真的如同他顯露的表情一般真實，他是個沉默規律的人，永遠循著別人的期許\和為善的原則做事，他很少時候是真的為了自己而發聲，通常他的聲音都代表著別人的心意。他就像行星一般永遠走在固定的軌道，你永遠不會知道他何時出錯或是什麼可能他會出錯。 在朋友的笑談間我依稀能想起他的笑聲， 但都是隱藏在很多人的笑聲之後， 把自己的聲音壓得很低很低;","channels":({"chat","rumor","tchat","god",}),"guild_gifts":({5,5,5,5,}),"birthday":1173881148,"talk_point":8,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"race":"human","addition_shield":10,"startroom":"/open/world1/tmr/area/hotel","cure_count":3,"mob_record":({"/open/world1/tmr/area/npc/dog","/open/world1/tmr/area/npc/dog",}),"addition_armor":10,"attitude":"peaceful","supply_point":46,"wound":(["left_leg":0,"head":0,"right_leg":0,"body":0,"left_arm":0,"right_arm":0,]),"age":14,"mud_age":339,"addition_damage":10,"actions":,"heart_modify":0,])
-skills (["unarmed":2,"combat":2,"dodge":1,])
-learned (["unarmed":3,"combat":16,"dodge":2,])
-alias (["rs":"recall start","r":"recall","t":"sac all","g":"get all",])
-autoload ({"/obj/money/coin:2","/open/always/god_mark",})
-toDoList ([])
-solved ({})

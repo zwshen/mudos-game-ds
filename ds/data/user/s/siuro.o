@@ -1,9 +1,0 @@
-#/obj/user.c
-dbase (["title":"八極門第七代俠客","DS_DATA_VERSION":19991107,"attitude":"peaceful","race":"ogre","family":(["privs":-1,"title":"俠客","family_name":"八極門","generation":7,]),"mp":54,"MKS":2,"addition_shield":10,"channels":({"chat","rumor","tchat",}),"Merits":(["bio":0,"tec":0,"sou":0,"wit":0,"bar":0,]),"help":"newbie/","birthday":1201235443,"id":"siuro","env":([]),"cure_count":6,"gender":"男性","addition_armor":10,"guild_gifts":({10,7,0,3,}),"name":"克里斯","class1":"八極門","supply_point":61,"mob_record":({"/open/world1/tmr/area/npc/vag","/open/world1/tmr/area/npc/dog",}),"unit":"位","max_ap":66,"war_score":3,"ap":66,"age":14,"startroom":"/open/world1/tmr/area/hotel","addition_damage":10,"bank":(["past":0,]),"default_actions":,"volume":7,"wound":(["body":0,"right_arm":0,"head":0,"right_leg":0,"left_arm":0,"left_leg":0,]),"last_location":"/open/world1/tmr/bagi/rift","talk_point":8,"newbie":1,"exp":1066,"dex":2,"int":2,"con":2,"heart_modify":1,"hp":120,"str":2,"heart_beat_rate":6,"level":1,"actions":,"max_mp":54,"max_hp":120,"evil":-14,"adv_class":1,"mud_age":3442,"board_last_read":(["tmr_hotel_b":1149533796,]),])
-skills (["strong-body":1,"bagi_fist":3,"da-fork":3,"dodge":2,"unarmed":3,"combat":5,"horse-steps":4,"fork":2,"parry":3,])
-learned (["strong-body":8,"dodge":3,"unarmed":27,"combat":0,"parry":0,])
-items ({})
-alias (["master":"do e,n,w,w,w,w,w,w,s,s,sw,enter house,l",])
-autoload ({"/obj/money/coin:40",})
-toDoList ([])
-solved ({})

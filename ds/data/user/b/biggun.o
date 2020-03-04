@@ -1,8 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["DS_DATA_VERSION":19991107,"race":"celestial","adv_class":1,"actions":,"channels":({"chat","rumor","tchat",}),"max_mp":110,"heart_modify":0,"birthday":1201651360,"max_hp":80,"id":"biggun","title":"神武教第三代教徒","heart_beat_rate":6,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"family":(["family_name":"神武教","generation":3,"privs":-1,"title":"教徒",]),"gender":"女性","mp":110,"name":"大隻佬","guild_gifts":({2,4,9,5,}),"attitude":"peaceful","max_ap":60,"startroom":"/open/world1/tmr/area/hotel","ap":60,"env":([]),"cure_count":12,"addition_shield":10,"class1":"神武教","unit":"位","age":14,"supply_point":60,"last_location":"/open/world1/acme/area/corridor","addition_armor":10,"newbie":1,"talk_point":8,"default_actions":,"exp":777,"dex":2,"int":2,"con":2,"str":2,"hp":80,"guild_rank":"神武教第三代教徒","level":1,"volume":7,"wound":(["body":0,"right_arm":0,"right_leg":0,"head":0,"left_leg":0,"left_arm":0,]),"addition_damage":10,"evil":-1,"mud_age":494,])
-items ({})
-alias (["re":"recall start",])
-autoload ({})
-toDoList ([])
-solved ({})

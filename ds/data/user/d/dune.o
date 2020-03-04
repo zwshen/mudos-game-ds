@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["evil":-1,"guild_gifts":({5,5,5,5,}),"gender":"男性","cure_count":5,"name":"大","channels":({"chat","rumor","tchat",}),"wound":(["left_arm":0,"head":0,"right_arm":0,"left_leg":0,"body":0,"right_leg":0,]),"talk_point":3,"addition_armor":10,"birthday":1172028726,"unit":"位","supply_point":60,"volume":7,"race":"human","actions":,"startroom":"/open/world1/tmr/area/hotel","age":14,"attitude":"peaceful","heart_beat_rate":6,"addition_damage":10,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"max_mp":60,"heart_modify":0,"last_location":"/open/world1/tmr/area/street4","max_hp":80,"newbie":1,"exp":777,"dex":2,"addition_shield":10,"max_ap":60,"int":2,"ap":60,"con":2,"id":"dune","mud_age":1589,"str":2,"mp":60,"level":1,"DS_DATA_VERSION":19991107,"hp":80,"default_actions":,])
-autoload ({})
-toDoList ([])
-solved ({})

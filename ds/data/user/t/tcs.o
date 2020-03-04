@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["volume":7,"addition_damage":10,"hp":80,"cure_count":18,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"supply_point":60,"talk_point":8,"last_location":"/open/world2/lichi_town_1/map_5_24","heart_beat_rate":6,"age":14,"wound":(["right_arm":0,"left_leg":0,"head":0,"left_arm":0,"body":0,"right_leg":0,]),"newbie":1,"exp":777,"id":"tcs","dex":2,"int":2,"con":2,"unit":"位","mud_age":885,"str":2,"board_last_read":(["bug_b":1112675651,]),"level":1,"actions":,"DS_DATA_VERSION":19991107,"default_actions":,"gender":"女性","evil":-1,"max_mp":60,"name":"真情","channels":({"chat","rumor","tchat",}),"max_hp":80,"guild_gifts":({5,5,5,5,}),"birthday":1112872606,"race":"human","startroom":"/open/world1/tmr/area/hotel","addition_shield":10,"mp":60,"attitude":"peaceful","addition_armor":10,"max_ap":60,"ap":60,"heart_modify":0,])
-autoload ({})

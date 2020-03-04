@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["DS_DATA_VERSION":19991107,"race":"human","cure_count":13,"board_last_read":(["tmr_hotel_b":1203420980,]),"actions":,"addition_shield":10,"supply_point":60,"max_mp":60,"channels":({"chat","rumor","tchat",}),"age":14,"unit":"¦ì","heart_modify":0,"max_hp":80,"birthday":1203602591,"id":"clode","heart_beat_rate":6,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"talk_point":8,"addition_armor":10,"default_actions":,"newbie":1,"exp":777,"dex":2,"mp":60,"gender":"¨k©Ê","int":2,"guild_gifts":({5,5,5,5,}),"name":"º©¶³ºÝ","con":2,"hp":80,"str":2,"volume":7,"level":1,"attitude":"peaceful","wound":(["body":0,"right_arm":0,"right_leg":0,"head":0,"left_leg":0,"left_arm":0,]),"addition_damage":10,"max_ap":60,"evil":-1,"ap":60,"mud_age":1405,"startroom":"/open/world1/tmr/area/hotel",])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

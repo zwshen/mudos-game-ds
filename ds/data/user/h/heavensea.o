@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["dex":2,"int":2,"startroom":"/open/world1/tmr/area/hotel","con":2,"str":2,"newbie":1,"default_actions":,"mud_age":1278,"talk_point":8,"addition_shield":10,"DS_DATA_VERSION":19991107,"addition_armor":10,"heart_beat_rate":6,"ap":60,"gender":"男性","unit":"位","max_ap":60,"supply_point":60,"name":"天鳥","evil":-1,"id":"heavensea","heart_modify":0,"guild_gifts":({5,5,5,5,}),"age":14,"addition_damage":10,"mp":60,"max_hp":80,"channels":({"chat","rumor","tchat",}),"race":"human","wound":(["body":0,"head":0,"left_arm":0,"right_arm":0,"left_leg":0,"right_leg":0,]),"level":1,"cure_count":5,"actions":,"hp":80,"attitude":"peaceful","birthday":1136624798,"max_mp":60,"Merits":(["sou":0,"bar":0,"bio":0,"wit":0,"tec":0,]),"volume":7,"exp":777,])
-autoload ({})

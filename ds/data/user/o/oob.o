@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["supply_point":12,"evil":-1,"gender":"女性","name":"近乎苛求","channels":({"chat","rumor","tchat",}),"volume":7,"actions":,"birthday":1177252869,"age":14,"addition_damage":10,"unit":"位","race":"celestial","startroom":"/open/world1/tmr/area/hotel","max_mp":110,"max_hp":80,"guild_gifts":({5,5,5,5,}),"default_actions":,"max_ap":60,"Merits":(["bio":0,"tec":0,"sou":0,"wit":0,"bar":0,]),"talk_point":6,"ap":60,"mp":110,"addition_shield":10,"mud_age":86,"newbie":1,"exp":777,"heart_beat_rate":6,"dex":2,"int":2,"id":"oob","cure_count":6,"hp":80,"con":2,"str":2,"level":1,"DS_DATA_VERSION":19991107,"addition_armor":10,"attitude":"peaceful",])
-autoload ({})
-toDoList ([])
-solved ({})

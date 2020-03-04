@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["max_mp":110,"max_hp":80,"supply_point":60,"attitude":"peaceful","talk_point":8,"mp":110,"last_location":"/open/world1/tmr/area/street4","guild_gifts":({5,5,5,5,}),"max_ap":60,"ap":60,"heart_modify":0,"newbie":1,"exp":777,"hp":80,"dex":2,"int":2,"con":2,"str":2,"level":1,"volume":7,"heart_beat_rate":6,"id":"lks","DS_DATA_VERSION":19991107,"default_actions":,"evil":-1,"addition_shield":10,"channels":({"chat","rumor","tchat",}),"birthday":1188061639,"gender":"¨k©Ê","name":"´Ý¤ëÂêº¬","race":"celestial","startroom":"/open/world1/tmr/area/hotel","addition_armor":10,"unit":"¦ì","addition_damage":10,"mud_age":949,"age":14,"wound":(["head":0,"body":0,"right_leg":0,"right_arm":0,"left_arm":0,"left_leg":0,]),"dssystem":(["prompt":(["form":"[1;31m¥Í©R[0m %h",]),]),"actions":,"cure_count":3,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

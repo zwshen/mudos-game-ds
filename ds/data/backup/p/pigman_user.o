@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["board_last_read":(["tmr_hotel_b":1058964972,]),"channels":({"chat","rumor","tchat",}),"attitude":"peaceful","age":14,"level":1,"race":"human","actions":,"max_mp":60,"birthday":1059233505,"heart_modify":0,"max_ap":60,"wound":(["right_leg":0,"left_arm":0,"left_leg":0,"body":0,"head":0,"right_arm":0,]),"mud_age":2563,"gender":"男性","startroom":"/open/world1/tmr/area/hotel","id":"pigman","name":"湖文千","newbie":1,"talk_point":5,"cure_count":14,"Merits":(["sou":0,"tec":0,"bio":0,"wit":0,"bar":0,]),"mp":60,"default_actions":,"heart_beat_rate":6,"volume":7,"evil":-1,"addition_shield":10,"exp":777,"dex":2,"int":2,"con":2,"addition_armor":10,"str":2,"max_hp":80,"hp":80,"ap":60,"addition_damage":10,"unit":"位","supply_point":60,"DS_DATA_VERSION":19991107,"guild_gifts":({5,5,5,5,}),])
-autoload ({})

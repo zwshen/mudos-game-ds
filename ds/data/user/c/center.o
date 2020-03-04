@@ -1,9 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["unit":"¦ì","last_location":"/open/world1/acme/area2/p5","DS_DATA_VERSION":19991107,"addition_damage":10,"supply_point":60,"talk_point":8,"cure_count":8,"max_hp":150,"skill":(["strong-body":18,]),"channels":({"chat","rumor","tchat",}),"age":17,"attitude":"peaceful","mud_age":298711,"newbie":1,"exp":777,"hp":150,"dex":2,"volume":7,"int":2,"con":2,"level":1,"max_ap":84,"birthday":1238776298,"guild_gifts":({5,5,5,5,}),"addition":(["con":1,]),"wound":(["body":0,"left_arm":0,"head":0,"left_leg":0,"right_leg":0,"right_arm":0,]),"evil":-1,"mp":54,"addition_shield":10,"heart_beat_rate":6,"Merits":(["bar":0,"sou":0,"tec":0,"bio":0,"wit":0,]),"ap":84,"default_actions":,"actions":,"race":"ogre","max_mp":54,"heart_modify":0,"id":"center","startroom":"/open/world1/tmr/area/hotel","gender":"¨k©Ê","addition_armor":10,"str":2,"name":"ºµ",])
-skills (["strong-body":19,])
-learned (["strong-body":0,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

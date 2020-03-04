@@ -1,9 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["DS_DATA_VERSION":19991107,"cure_count":2,"actions":,"race":"ogre","war_score":3,"mob_record":({"/open/world1/acme/bonze/npc/dog","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog","/open/world1/tmr/area/npc/dog",}),"combat_exp":2,"addition_damage":10,"max_mp":54,"attitude":"peaceful","age":14,"Merits":(["wit":0,"bar":0,"bio":0,"tec":0,"sou":0,]),"supply_point":60,"max_hp":120,"channels":({"chat","rumor","tchat",}),"heart_modify":0,"talk_point":8,"birthday":1207355512,"heart_beat_rate":6,"id":"bob","mp":54,"newbie":1,"exp":1615,"dex":2,"addition_shield":10,"hp":114,"volume":7,"default_actions":,"gender":"男性","int":2,"name":"包柏","con":2,"unit":"位","str":2,"wound":(["left_leg":0,"right_leg":0,"right_arm":0,"head":0,"left_arm":0,"body":0,]),"level":1,"MKS":7,"max_ap":66,"guild_gifts":({5,5,5,5,}),"ap":66,"mud_age":626,"evil":11,"startroom":"/open/world1/tmr/area/hotel","addition_armor":10,"last_location":"/open/world1/tmr/area/round2",])
-skills (["combat":5,"dodge":2,"parry":0,"unarmed":3,])
-learned (["combat":1,"dodge":2,"parry":2,"unarmed":21,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

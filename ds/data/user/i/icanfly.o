@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["ap":60,"unit":"位","mud_age":4292,"MKS":2,"addition_shield":10,"mp":60,"hp":80,"default_actions":,"startroom":"/open/world1/tmr/area/hotel","age":14,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"last_location":"/open/world1/tmr/area/ms2","gender":"男性","cure_count":5,"name":"小飛雞","mob_record":({"/open/world1/tmr/area/npc/dog","/open/world1/tmr/area/npc/dog",}),"wound":(["right_arm":0,"body":0,"left_leg":0,"right_leg":0,"left_arm":0,"head":0,]),"addition_armor":10,"exp":1182,"dex":2,"heart_beat_rate":6,"int":2,"con":2,"attitude":"peaceful","str":2,"level":1,"supply_point":60,"volume":7,"newbie":1,"actions":,"addition_damage":10,"guild_gifts":({5,5,5,5,}),"max_mp":60,"DS_DATA_VERSION":19991107,"max_ap":60,"heart_modify":0,"max_hp":80,"evil":-1,"channels":({"chat","rumor","tchat","god",}),"birthday":1163085694,"talk_point":8,"id":"icanfly","race":"human",])
-skills (["dodge":0,"unarmed":1,"combat":1,])
-learned (["dodge":1,"unarmed":3,"combat":7,])
-autoload ({"/open/always/god_mark","/obj/money/coin:52",})

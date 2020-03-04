@@ -1,5 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["dex":2,"ap":60,"startroom":"/open/world1/tmr/area/hotel","int":2,"id":"yam","con":2,"heart_modify":0,"quest":(["not_newbie":1,]),"last_location":"/open/world1/tmr/area/street3","mp":60,"default_actions":,"unit":"位","str":2,"addition_damage":10,"evil":-1,"guild_gifts":({5,5,5,5,}),"mud_age":298,"talk_point":8,"addition_shield":10,"max_hp":80,"channels":({"chat","rumor","tchat",}),"race":"human","wound":(["body":0,"head":0,"left_arm":0,"right_arm":0,"left_leg":0,"right_leg":0,]),"DS_DATA_VERSION":19991107,"age":14,"level":1,"cure_count":0,"actions":,"addition_armor":10,"hp":80,"Merits":(["sou":0,"tec":0,"bio":0,"wit":0,"bar":0,]),"heart_beat_rate":6,"attitude":"peaceful","birthday":1131272578,"bank":(["past":0,]),"max_ap":60,"gender":"男性","supply_point":40,"max_mp":60,"volume":7,"exp":777,"name":"月影",])
-skills (["axe":1,"whip":1,"blade":1,"fork":1,"staff":1,"parry":1,"hammer":1,"block":1,"dagger":1,"unarmed":1,"sword":1,"dodge":1,])
-autoload ({})

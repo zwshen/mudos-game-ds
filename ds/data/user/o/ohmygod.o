@@ -1,8 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["con":2,"str":2,"mob_record":({"/open/world1/acme/area/npc/rabbit","/open/world1/acme/area/npc/rabbit","/open/world1/acme/area/npc/rabbit","/open/world1/acme/area/npc/rabbit","/open/world1/acme/area/npc/rabbit","/open/world1/acme/area/npc/rabbit","/open/world1/acme/area/npc/traveler3","/open/world1/acme/area/npc/traveler3","/open/world1/cominging/area/npc/dove",}),"Merits":(["wit":0,"sou":0,"bio":0,"tec":0,"bar":0,]),"evil":2,"addition_shield":10,"DS_DATA_VERSION":19991107,"adv_class":1,"heart_beat_rate":6,"addition_armor":10,"guild_gifts":({10,7,0,3,}),"max_ap":60,"class1":"八極門","supply_point":56,"MKS":9,"mp":75,"bank":(["past":0,]),"last_location":"/open/world1/tmr/area/street4","heart_modify":1,"wimpy":30,"addition_damage":10,"unit":"位","gender":"男性","id":"ohmygod","max_hp":80,"channels":({"chat","rumor","tchat",}),"name":"歐買嘎","wound":(["left_leg":0,"right_leg":0,"body":0,"head":0,"left_arm":0,"right_arm":0,]),"race":"human","level":1,"cure_count":8,"talk_point":8,"actions":,"ap":14,"attitude":"peaceful","birthday":1114448806,"age":14,"env":(["brief":1,]),"hp":77,"max_mp":60,"volume":7,"mud_age":643,"title":"八極門第七代俠客","combat_exp":6,"exp":3002,"startroom":"/open/world1/tmr/area/hotel","dex":2,"family":(["title":"俠客","generation":7,"family_name":"八極門","privs":-1,]),"default_actions":,"newbie":1,"int":2,])
-skills (["combat":8,"dodge":4,"bagi_fist":6,"unarmed":6,])
-learned (["combat":38,"dodge":5,"bagi_fist":26,"unarmed":59,])
-skill_map (["unarmed":"bagi_fist",])
-alias (["dr":"do drink pot,!,!,!,!","1":"exert bagi_fist",])
-autoload ({"/obj/money/coin:6",})

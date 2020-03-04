@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["help":"race/","unit":"位","DS_DATA_VERSION":19991107,"supply_point":30,"addition_damage":10,"talk_point":5,"cure_count":15,"max_hp":110,"channels":({"chat","rumor","tchat",}),"age":14,"attitude":"peaceful","mud_age":1072,"newbie":1,"exp":777,"dex":2,"hp":110,"int":2,"volume":7,"con":2,"level":1,"birthday":1239249840,"max_ap":64,"guild_gifts":({5,5,5,5,}),"evil":-1,"mp":64,"addition_shield":10,"Merits":(["bar":0,"tec":0,"sou":0,"bio":0,"wit":0,]),"heart_beat_rate":6,"ap":64,"default_actions":,"actions":,"race":"tiger","max_mp":64,"id":"helldog","startroom":"/open/world1/tmr/area/hotel","addition_armor":10,"gender":"男性","str":2,"name":"地獄腐犬",])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

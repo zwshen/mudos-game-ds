@@ -1,5 +1,0 @@
-#/obj/user.c
-dbase (["dex":2,"addition_armor":10,"int":2,"heart_beat_rate":6,"con":2,"age":14,"str":2,"Merits":(["sou":0,"bar":0,"bio":0,"tec":0,"wit":0,]),"max_ap":60,"ap":60,"supply_point":60,"startroom":"/open/world1/tmr/area/hotel","newbie":1,"last_location":"/open/world2/anfernee/start/prayroom","heart_modify":0,"addition_damage":10,"unit":"位","DS_DATA_VERSION":19991107,"gender":"男性","evil":-1,"max_hp":80,"wound":(["left_leg":0,"right_leg":0,"left_arm":0,"right_arm":0,"body":0,"head":0,]),"name":"趕羚羊","mud_age":987,"cure_count":4,"actions":,"guild_gifts":({5,5,5,5,}),"attitude":"peaceful","id":"common","talk_point":1,"mp":60,"max_mp":60,"volume":7,"combat_exp":0,"default_actions":,"bellicosity":0,"channels":({"chat","rumor","tchat","bala",}),"race":"human","hp":80,"addition_shield":10,"level":1,"disable_type":" <毫無呼吸>","exp":702,"birthday":1124308562,])
-skills (["dodge":0,"combat":2,"unarmed":1,])
-learned (["combat":4,"unarmed":2,])
-autoload ({})

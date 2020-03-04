@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["actions":,"DS_DATA_VERSION":19991107,"Merits":(["tec":0,"sou":0,"wit":0,"bio":0,"bar":0,]),"age":14,"volume":7,"mp":60,"channels":({"chat","rumor","tchat",}),"wound":(["body":0,"left_arm":0,"right_arm":0,"left_leg":0,"head":0,"right_leg":0,]),"max_ap":70,"addition_shield":10,"heart_beat_rate":6,"newbie":1,"exp":17157,"board_last_read":(["magic-card_b":1057657067,"anoounce_b":1218773485,]),"dex":2,"int":2,"con":2,"level":1,"guild_gifts":({5,5,5,5,}),"birthday":1217093509,"addition_armor":10,"ap":70,"talk_point":8,"attitude":"peaceful","evil":-1,"supply_point":60,"war_art":3,"max_mp":60,"heart_modify":0,"last_location":"/open/world1/tmr/area/inn_2f","addition_damage":10,"race":"titan","id":"field","max_hp":90,"mud_age":37221,"startroom":"/open/world1/tmr/area/hotel","gender":"男性","default_actions":,"unit":"位","hp":90,"str":2,"cure_count":2,"name":"菲爾德",])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

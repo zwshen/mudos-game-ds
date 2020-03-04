@@ -1,9 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["cure_count":0,"unit":"位","max_mp":60,"talk_point":8,"max_hp":90,"combat_exp":1,"attitude":"peaceful","supply_point":60,"max_ap":70,"ap":70,"mp":60,"newbie":1,"exp":1279,"dex":2,"hp":90,"int":2,"con":2,"str":2,"heart_modify":0,"level":1,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"id":"mastera","DS_DATA_VERSION":19991107,"volume":7,"evil":11,"channels":({"chat","rumor","tchat",}),"default_actions":,"heart_beat_rate":6,"birthday":1187583301,"addition_shield":10,"gender":"男性","guild_gifts":({5,5,5,5,}),"name":"雷亞斯","help":"class/","race":"titan","last_location":"/open/world1/tmr/area/street4","startroom":"/open/world1/tmr/area/hotel","mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"addition_armor":10,"addition_damage":10,"mud_age":604,"age":14,"wound":(["body":0,"head":0,"right_leg":0,"right_arm":0,"left_leg":0,"left_arm":0,]),"war_score":2,"MKS":5,"actions":,])
-skills (["combat":3,"parry":0,"unarmed":2,"dodge":1,])
-learned (["combat":28,"parry":2,"unarmed":14,"dodge":5,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

@@ -1,9 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["DS_DATA_VERSION":19991107,"adv_class":1,"race":"ogre","actions":,"popularity":184,"attitude":"peaceful","max_mp":258,"addition_damage":10,"guild_rank":"少帥軍之血戰沙場","channels":({"chat","rumor","tchat",}),"max_hp":1410,"title":"少帥軍第二代軍人","birthday":1209006181,"heart_modify":0,"id":"sasaya","family":(["generation":2,"privs":-1,"title":"軍人","family_name":"少帥軍",]),"mp":60,"gender":"男性","war_art":0,"name":"莎莎亞","unit":"位","guild_gifts":({8,8,0,4,}),"max_ap":840,"ap":273,"startroom":"/open/world1/tmr/area/hotel","last_location":"/open/world1/tmr/dragoncity/hotel","bank":(["past":480400,]),"class1":"少帥軍","cure_count":18,"age":14,"Merits":(["wit":1,"bar":3,"bio":2,"tec":1,"sou":1,]),"supply_point":330,"talk_point":67,"heart_beat_rate":6,"newbie":1,"exp":165388,"dex":25,"int":19,"default_actions":,"volume":7,"hp":113,"addition_shield":10,"con":45,"str":45,"level":25,"wound":(["right_arm":0,"right_leg":0,"left_leg":0,"head":0,"left_arm":0,"body":0,]),"mud_age":887,"evil":-1,"addition_armor":10,])
-skills (["blade":25,"dodge":25,"block":25,"parry":25,])
-items ({})
-alias (["s":"south",])
-autoload ({})
-toDoList ([])
-solved ({})

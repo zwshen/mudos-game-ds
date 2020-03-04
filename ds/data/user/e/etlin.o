@@ -1,9 +1,0 @@
-#/obj/user.c
-dbase (["nickname":"[1;31mµo§b¤~¬O¤ý¹D[0m","env":(["immortal":1,]),"heart_beat_rate":6,"default_actions":,"DS_DATA_VERSION":19991107,"addition_shield":10,"actions":,"addition_damage":10,"board_last_read":(["acme_h1_b":1022857882,"query_b":1058200262,"uchimaha_board":1042365198,"boo-lin_b":1031398148,"wizard_j":1022077582,"login_b":1053967036,"sdo_b":1025970171,"guild_b":960615557,"tmr_b":1030371090,"bug_b":1023280582,"alickyuen_b":1039935995,"wizard_b":1058108324,"moon_workroom_b":1027868977,"formation_b":1022684076,"shengsan_b":1028208988,"tmr_hotel_b":1058273809,"club_god_2":1028874900,"jangshow_workroom_b":1059973507,"c++_b":1030510035,"frank_b":1031237132,"jail_board":1020513877,"acme_b":1043634259,"future_b":1002552432,"guitar_b":1056550544,"WD_board":1021912536,"sky_room25_b":1032867888,"moonhide_workroom_b":1019747378,]),"mp":60,"cwd":"/","addition_armor":10,"guild_gifts":({5,5,5,5,}),"channels":({"sys","chat","tchat","wiz","rumor",}),"unit":"¦ì","max_ap":60,"newbie":1,"exp":777,"dex":2,"int":2,"cure_count":3,"heart_modify":0,"con":2,"level":1,"last_location":"/u/m/manto/workroom","supply_point":60,"birthday":1006181667,"ap":60,"talk_point":8,"evil":-1,"attitude":"peaceful","age":22,"disable_type":" <²@µL©I§l>","max_mp":60,"max_hp":80,"race":"human","Merits":(["bio":0,"sou":0,"wit":0,"bar":0,"tec":0,]),"id":"etlin","mud_age":757543,"wound":(["body":0,"left_arm":0,"right_arm":0,"left_leg":0,"head":0,"right_leg":0,]),"startroom":"/u/j/jangshow/workroom","hp":80,"gender":"¤k©Ê","str":2,"volume":7,"name":"¿v¹Ú",])
-skills (["unarmed":1,"combat":5,"strong-body":3,])
-learned (["unarmed":0,"combat":49,"strong-body":0,])
-items ({})
-alias (["sleep":"zzz $*","zzz":"zzz $*","qwiz":"wizs",])
-autoload ({})
-toDoList ([])
-solved ({})

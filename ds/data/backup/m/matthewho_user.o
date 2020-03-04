@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["max_ap":60,"MKS":2,"supply_point":60,"evil":-1,"heart_modify":0,"last_location":"/open/world2/anfernee/start/hall","DS_DATA_VERSION":19991107,"gender":"男性","mud_age":52589,"actions":,"cure_count":1,"name":"夢幻","ap":60,"talk_point":8,"id":"matthewho","unit":"位","mob_record":({"/u/m/matthewho/npc/dog","/u/m/matthewho/npc/dog",}),"age":14,"race":"human","channels":({"chat","rumor","tchat","wiz",}),"Merits":(["sou":0,"bar":0,"tec":0,"bio":0,"wit":0,]),"level":1,"addition_shield":10,"birthday":1117689908,"hp":80,"heart_beat_rate":6,"addition_armor":10,"exp":1130,"dex":2,"int":2,"startroom":"/open/world2/anfernee/start/hall","con":2,"str":2,"newbie":1,"guild_gifts":({5,5,5,5,}),"addition_damage":10,"max_hp":80,"wound":(["left_leg":0,"left_arm":0,"right_arm":0,"head":0,"body":0,"right_leg":0,]),"attitude":"peaceful","env":(["immortal;":"YES","immortal":1,]),"max_mp":60,"volume":7,"default_actions":,"cwd":"/u/m/matthewho/","mp":60,"cwf":"/u/m/matthewho/workroom.c","disable_type":" <毫無呼吸>",])
-skills (["combat":5,"unarmed":3,"sword":1,"dodge":2,])
-learned (["combat":29,"unarmed":24,"sword":8,"dodge":8,])
-autoload ({"/obj/money/coin:38",})

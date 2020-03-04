@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["race":"human","unit":"位","birthday":1163445845,"default_actions":,"ap":60,"talk_point":2,"mp":60,"age":14,"gender":"男性","startroom":"/open/world1/tmr/area/hotel","name":"一","addition_shield":10,"newbie":1,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"exp":777,"volume":7,"dex":2,"int":2,"actions":,"con":2,"str":2,"cure_count":2,"addition_armor":10,"guild_gifts":({5,5,5,5,}),"level":1,"max_mp":60,"max_ap":60,"evil":-1,"attitude":"peaceful","DS_DATA_VERSION":19991107,"max_hp":80,"heart_beat_rate":6,"addition_damage":10,"mud_age":28,"id":"uahu","supply_point":4,"hp":80,"channels":({"chat","rumor","tchat",}),])
-autoload ({})

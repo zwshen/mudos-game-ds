@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["int":2,"MKS":2,"con":2,"str":2,"mob_record":({"/open/world1/tmr/area/npc/smith","/open/world1/cominging/area/npc/dove",}),"env":([]),"DS_DATA_VERSION":19991107,"volume":7,"max_mp":60,"guild_gifts":({5,5,5,5,}),"age":14,"default_actions":,"addition_shield":10,"ap":60,"addition_armor":10,"heart_beat_rate":6,"max_ap":60,"Merits":(["wit":0,"bar":0,"bio":0,"tec":0,"sou":0,]),"channels":({"chat","rumor","tchat",}),"gender":"女性","id":"love","supply_point":28,"name":"愛","race":"human","level":1,"talk_point":8,"evil":2,"birthday":1115389372,"last_location":"/open/world1/faceoff/sky/ten17","addition_damage":10,"mud_age":223,"max_hp":80,"startroom":"/open/world1/tmr/area/hotel","hp":80,"mp":60,"unit":"位","newbie":1,"exp":1000,"cure_count":14,"actions":,"attitude":"peaceful","dex":2,])
-skills (["unarmed":3,"combat":5,"dodge":3,])
-learned (["unarmed":13,"combat":50,"dodge":1,])
-autoload ({})

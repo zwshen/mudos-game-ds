@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions (["ill_fashao":14,])
-dbase (["volume":7,"con":2,"mud_age":544,"unit":"位","addition_damage":10,"hp":110,"str":2,"actions":,"level":1,"DS_DATA_VERSION":19991107,"gender":"男性","default_actions":,"max_mp":64,"evil":-1,"name":"貼絲特","channels":({"chat","rumor","tchat",}),"max_hp":110,"guild_gifts":({5,5,5,5,}),"birthday":1168399467,"cure_count":17,"race":"tiger","addition_shield":10,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"startroom":"/open/world1/tmr/area/hotel","mp":64,"supply_point":60,"talk_point":8,"last_location":"/open/world1/tmr/area/mstart","heart_beat_rate":6,"age":14,"attitude":"peaceful","addition_armor":10,"wound":(["left_leg":0,"right_arm":0,"head":0,"left_arm":0,"body":0,"right_leg":0,]),"max_ap":64,"ap":64,"newbie":1,"exp":781,"id":"testqqq","dex":2,"heart_modify":0,"int":2,])
-skills (["unarmed":2,"combat":2,"dodge":0,"strong-body":2,])
-learned (["unarmed":7,"combat":18,"dodge":2,"strong-body":17,])
-autoload ({})

@@ -1,2 +1,0 @@
-#/obj/login.c
-dbase (["id":"formation","name":"小祖","email":"1@2.7","password":"wlaHwv3HTtshw","race":"human","level":50,"last_on":1043414962,"error_login":({"於[Fri Jun 14 15:55:35 2002]嘗試由[203185010192.ctinets.com]連線進入失敗。","於[Tue Jun 25 13:56:40 2002]嘗試由[telnet.hinet.net]連線進入失敗。",}),"last_from":"telnet.hinet.net","body":"/obj/user",])

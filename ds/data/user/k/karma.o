@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["int":2,"supply_point":36,"con":2,"str":2,"DS_DATA_VERSION":19991107,"evil":-1,"last_location":"/open/world1/tmr/area/school/school1","addition_damage":10,"guild_gifts":({5,5,5,5,}),"max_hp":80,"cure_count":18,"actions":,"attitude":"peaceful","max_mp":60,"volume":7,"channels":({"chat","rumor","tchat",}),"gender":"¨k©Ê","id":"karma","mp":60,"name":"¾ð","race":"human","level":1,"ap":60,"talk_point":8,"default_actions":,"unit":"¦ì","birthday":1110761458,"addition_shield":10,"Merits":(["sou":0,"bio":0,"bar":0,"tec":0,"wit":0,]),"mud_age":271,"startroom":"/open/world1/tmr/area/school/school1","hp":80,"addition_armor":10,"heart_beat_rate":6,"newbie":1,"exp":777,"max_ap":60,"age":14,"dex":2,])
-autoload ({})

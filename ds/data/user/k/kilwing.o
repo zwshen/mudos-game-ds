@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["addition_damage":10,"unit":"位","DS_DATA_VERSION":19991107,"supply_point":60,"Merits":(["wit":0,"bar":0,"tec":0,"bio":0,"sou":0,]),"heart_modify":0,"help":"class/","cure_count":6,"channels":({"chat","rumor","tchat",}),"max_mp":54,"mud_age":970,"newbie":1,"exp":777,"dex":2,"default_actions":,"int":2,"hp":120,"con":2,"actions":,"level":1,"birthday":1196497664,"wound":(["body":0,"right_leg":0,"left_arm":0,"right_arm":0,"head":0,"left_leg":0,]),"age":14,"guild_gifts":({5,5,5,5,}),"evil":-1,"talk_point":8,"max_ap":66,"addition_shield":10,"max_hp":120,"ap":66,"heart_beat_rate":6,"race":"ogre","volume":7,"addition_armor":10,"mp":54,"id":"kilwing","startroom":"/open/world1/tmr/area/hotel","gender":"男性","attitude":"peaceful","str":2,"name":"卡薩奧斯",])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

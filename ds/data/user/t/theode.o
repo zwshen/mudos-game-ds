@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["hp":80,"heart_modify":1,"last_location":"/open/world1/tmr/area/lake-road1","addition_damage":10,"exp":1392,"guild_gifts":({5,5,5,5,}),"dex":3,"DS_DATA_VERSION":19991107,"int":2,"max_hp":80,"con":2,"find_butter":1,"wound":(["right_leg":0,"left_arm":0,"right_arm":0,"left_leg":0,"body":0,"head":0,]),"str":2,"MKS":7,"ap":60,"cure_count":0,"actions":,"attitude":"peaceful","board_last_read":(["tmr_hotel_b":1114524702,]),"volume":7,"max_mp":60,"mp":60,"combat_exp":2,"Merits":(["wit":0,"bar":0,"tec":0,"bio":0,"sou":0,]),"default_actions":,"gender":"男性","id":"theode","channels":({"chat","rumor","tchat",}),"name":"中子","race":"human","addition_shield":10,"evil":11,"level":1,"talk_point":8,"age":14,"birthday":1115945890,"addition_armor":10,"heart_beat_rate":6,"mob_record":({"/open/world1/tmr/area/npc/traveler","/open/world1/tmr/area/npc/traveler","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/school/npc/butterfly",}),"max_ap":60,"unit":"位","mud_age":2156,"supply_point":60,"startroom":"/open/world1/tmr/area/school/school1","newbie":1,])
-skills (["dodge":2,"unarmed":3,"combat":5,])
-learned (["dodge":6,"unarmed":29,"combat":6,])
-alias (["rr":"recall start",])
-autoload ({})

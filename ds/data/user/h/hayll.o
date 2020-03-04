@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["mp":60,"addition_shield":10,"talk_point":1,"ap":60,"exp":777,"dex":2,"addition_armor":10,"int":2,"unit":"¦ì","heart_beat_rate":6,"Merits":(["sou":0,"wit":0,"tec":0,"bar":0,"bio":0,]),"con":2,"str":2,"max_ap":60,"supply_point":2,"race":"human","channels":({"chat","rumor","tchat",}),"mud_age":12,"age":14,"level":1,"birthday":1119520439,"evil":-1,"addition_damage":10,"max_hp":80,"gender":"¨k©Ê","id":"hayll","name":"¾¥ªÞ","startroom":"/open/world1/tmr/area/hotel","cure_count":1,"actions":,"guild_gifts":({5,5,5,5,}),"attitude":"peaceful","newbie":1,"max_mp":60,"volume":7,"DS_DATA_VERSION":19991107,"default_actions":,"hp":80,])
-autoload ({})

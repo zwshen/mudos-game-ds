@@ -1,3 +1,0 @@
-#/obj/mailbox.c
-dbase (["owner_id":"roy","no_put":1,"unit":"­Ó","id":"mailbox","long":"		³o¬O¤@­Ó¥Î¨Ó±H«H¡B¦¬«Hªº«H½c¡M§A¥i¥H¥Î¥H¤U«ü¥O¨Ó³B²z§Aªº¶l¥ó¡R						mail <¬Y¤H>               ±H«Hµ¹§O¤H¡C		replymail <«H¥ó½s¸¹>      ¦^«Hµ¹µo«HªÌ¡C		forward <«H¥ó½s¸¹> <¬Y¤H> ±N¬Y«Ê«HÂà±Hµ¹§O¤H¡C		from                      ¬d¬Ý«H½c¤¤ªº«H¥ó¡C		read <«H¥ó½s¸¹>           ¾\\Åª¤@«Ê«H¥ó¡C		discard <«H¥ó½s¸¹>        ¥á±ó¤@«Ê«H¥ó¡C","name":"«H½c","no_drop":1,"no_insert":1,])
-mails ({(["time":1104595258,"title":"hello  ¤","from":"»a¤Ñ¤§¤ë(mket)","text":"¬¤j¬wªñ¨Ó¦n¶Ü¡H½Ð¦^µ¹§Ú¢	¢	µ¥§­ò!.[0m","to":"roy",]),})

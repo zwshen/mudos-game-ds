@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["DS_DATA_VERSION":19991107,"age":14,"nickname":" [1;37m¢Ý¢Ö¡IDoggy..¦^¨ì§Ú¨­Ãä§a[1;37m[0m","gender":"¨k©Ê","name":"§Ú¬O§Ú","evil":11,"mp":60,"addition_shield":10,"heart_beat_rate":6,"last_location":"/open/world1/wilfred/newbie/eq_bank","race":"human","id":"doggg","channels":({"chat","rumor","tchat",}),"board_last_read":(["tmr_hotel_b":1149441328,]),"volume":7,"addition_armor":10,"addition_damage":10,"level":1,"MKS":4,"birthday":1149424013,"hp":80,"startroom":"/open/world1/tmr/area/hotel","exp":1165,"newbie":1,"dex":2,"max_hp":80,"int":2,"con":2,"default_actions":,"str":2,"actions":,"cure_count":6,"wound":(["head":0,"left_leg":0,"body":0,"right_leg":0,"right_arm":0,"left_arm":0,]),"attitude":"peaceful","ap":60,"mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove",}),"mud_age":1549,"unit":"¦ì","max_ap":60,"supply_point":60,"talk_point":8,"max_mp":60,"Merits":(["bio":0,"sou":0,"bar":0,"wit":0,"tec":0,]),"guild_gifts":({5,5,5,5,}),"heart_modify":0,])
-skills (["dodge":1,"combat":3,"unarmed":2,])
-learned (["dodge":1,"combat":9,"unarmed":6,])
-autoload ({"/obj/money/coin:4",})

@@ -1,2 +1,0 @@
-#/obj/login.c
-dbase (["password":"amm3DdYtHdng6","id":"jeffsai","name":"火冰劍","race":"human","error_login":({"於[Mon Aug  4 12:42:04 2003]嘗試由[218-164-77-183.HINET-IP.hinet.net]連線進入失敗。","於[Mon Aug 25 22:54:26 2003]嘗試由[218-164-94-89.HINET-IP.hinet.net]連線進入失敗。","於[Sun Sep  7 19:32:25 2003]嘗試由[218-164-93-124.HINET-IP.hinet.net]連線進入失敗。","於[Thu Aug 26 23:24:59 2004]嘗試由[61.58.116.62]連線進入失敗。","於[Sun Sep 19 00:29:16 2004]嘗試由[61.58.122.49]連線進入失敗。",}),"level":12,"last_on":1116678396,"body":"/obj/user","last_from":"61.58.122.202","email":"look",])

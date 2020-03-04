@@ -1,9 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["DS_DATA_VERSION":19991107,"max_hp":80,"heart_modify":0,"addition_shield":10,"attitude":"peaceful","Merits":(["bar":0,"sou":0,"tec":0,"bio":0,"wit":0,]),"cure_count":13,"last_location":"/open/world1/cominging/area/flurry23","talk_point":8,"heart_beat_rate":6,"channels":({"chat","rumor","tchat",}),"addition_armor":10,"mp":60,"mud_age":1100,"newbie":1,"exp":1457,"hp":80,"dex":2,"int":2,"board_last_read":(["boo-lin_b":1053267840,]),"con":2,"help":"newbie/","level":1,"supply_point":60,"max_ap":60,"birthday":1231714367,"wound":(["body":0,"left_arm":0,"head":0,"left_leg":0,"right_leg":0,"right_arm":0,]),"unit":"位","evil":11,"default_actions":,"guild_gifts":({5,5,5,5,}),"actions":,"war_score":5,"age":14,"max_mp":60,"ap":60,"volume":7,"mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"race":"human","MKS":5,"id":"loyola","startroom":"/open/world1/tmr/area/hotel","addition_damage":10,"gender":"男性","str":2,"name":"金石為開","bank":(["past":5,]),])
-skills (["combat":3,"dodge":1,"unarmed":2,])
-learned (["combat":10,"unarmed":11,"dodge":5,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

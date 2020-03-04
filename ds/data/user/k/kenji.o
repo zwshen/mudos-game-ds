@@ -1,9 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["race":"ogre","DS_DATA_VERSION":19991107,"addition_damage":10,"supply_point":60,"actions":,"default_actions":,"max_mp":54,"channels":({"chat","rumor","tchat",}),"max_hp":120,"id":"kenji","birthday":1194086341,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"gender":"男性","mp":54,"name":"砍人王","heart_beat_rate":6,"max_ap":66,"ap":66,"startroom":"/open/world1/tmr/area/hotel","heart_modify":0,"MKS":1,"age":14,"attitude":"peaceful","newbie":1,"addition_shield":10,"exp":902,"unit":"位","dex":2,"int":2,"con":2,"talk_point":8,"str":2,"hp":120,"level":1,"last_location":"/open/world1/tmr/area/hotel","mob_record":({"/open/world1/tmr/area/npc/dog",}),"volume":7,"war_score":1,"addition_armor":10,"evil":-1,"wound":(["head":0,"left_arm":0,"right_leg":0,"left_leg":0,"body":0,"right_arm":0,]),"cure_count":19,"mud_age":1182,"guild_gifts":({5,5,5,5,}),])
-skills (["unarmed":1,"combat":2,"dodge":0,])
-learned (["unarmed":3,"combat":2,"dodge":1,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

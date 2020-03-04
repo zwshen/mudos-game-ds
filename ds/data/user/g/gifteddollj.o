@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["cure_count":1,"actions":,"addition_damage":10,"mp":60,"max_mp":60,"volume":7,"age":14,"exp":777,"str":2,"race":"human","id":"gifteddollj","name":"暫存","DS_DATA_VERSION":19991107,"max_hp":80,"Merits":(["sou":0,"bar":0,"tec":0,"wit":0,"bio":0,]),"heart_beat_rate":6,"mud_age":10,"dex":2,"level":1,"supply_point":2,"talk_point":1,"addition_shield":10,"max_ap":60,"default_actions":,"attitude":"peaceful","unit":"位","channels":({"chat","rumor","tchat",}),"int":2,"birthday":1484584450,"startroom":"/open/world1/tmr/area/hotel","addition_armor":10,"ap":60,"hp":80,"evil":-1,"guild_gifts":({5,5,5,5,}),"newbie":1,"con":2,"gender":"男性",])
-items ({})
-autoload ({"/open/always/doll","/open/always/doll","/open/always/doll","/open/always/doll","/open/always/doll","/open/always/doll","/open/always/doll","/open/always/doll","/open/always/doll","/open/always/doll","/open/always/doll","/open/always/doll","/open/always/doll","/open/always/doll","/open/always/doll","/open/always/doll","/open/always/doll","/open/always/doll","/open/always/doll","/open/always/doll","/open/always/doll","/open/always/doll",})
-toDoList ([])
-solved ({})

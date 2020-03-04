@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["int":2,"accuse_position":"/open/world1/tmr/area/hotel","last_location":"/open/world1/wilfred/newbie/eq_fixroom","ap":60,"volume":7,"heart_beat_rate":6,"startroom":"/open/world1/tmr/area/hotel","gender":"女性","con":2,"id":"newpeople","str":2,"max_mp":60,"newbie":1,"name":"你老爸","cure_count":10,"mp":60,"hp":80,"guild_gifts":({5,5,5,5,}),"mud_age":150,"actions":,"addition_damage":10,"attitude":"peaceful","unit":"位","channels":({"chat","rumor","tchat",}),"talk_point":8,"DS_DATA_VERSION":19991107,"addition_armor":10,"max_hp":80,"Merits":(["sou":0,"bar":0,"bio":0,"wit":0,"tec":0,]),"level":1,"race":"human","addition_shield":10,"evil":-1,"age":14,"birthday":1047364568,"supply_point":20,"max_ap":60,"exp":777,"default_actions":,"dex":2,])
-autoload ({})

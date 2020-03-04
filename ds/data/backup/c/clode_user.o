@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["DS_DATA_VERSION":19991107,"default_actions":,"ap":60,"max_ap":60,"supply_point":60,"evil":-1,"channels":({"chat","rumor","tchat","wiz",}),"race":"human","level":1,"gender":"¨k©Ê","id":"clode","talk_point":8,"birthday":1086286726,"name":"º©¶³ºÝ","heart_modify":0,"last_location":"/open/world2/anfernee/start/bug","age":14,"startroom":"/open/world2/anfernee/start/hall","mud_age":4969,"newbie":1,"cure_count":12,"actions":,"hp":80,"exp":777,"dex":2,"int":2,"con":2,"str":2,"addition_shield":10,"Merits":(["wit":0,"sou":0,"bar":0,"tec":0,"bio":0,]),"heart_beat_rate":6,"addition_armor":10,"guild_gifts":({5,5,5,5,}),"unit":"¦ì","mp":60,"board_last_read":(["jangshow_workroom_b":1086186606,"bug_b":1084682172,"login_b":1061384567,]),"addition_damage":10,"max_hp":80,"cwd":"/u/c/clode/","wound":(["left_arm":0,"right_leg":0,"right_arm":0,"head":0,"body":0,"left_leg":0,]),"attitude":"peaceful","volume":7,"max_mp":60,])
-autoload ({})

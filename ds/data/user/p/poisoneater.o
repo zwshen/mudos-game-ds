@@ -1,5 +1,0 @@
-#/obj/user.c
-dbase (["max_mp":110,"DS_DATA_VERSION":19991107,"evil":-1,"gender":"女性","unit":"位","disable_type":" <毫無呼吸>","name":"飲毒者","max_hp":80,"guild_gifts":({5,5,5,5,}),"channels":({"chat","rumor","tchat",}),"talk_point":8,"last_location":"/open/world2/anfernee/start/prayroom","birthday":1173047328,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"race":"celestial","default_actions":,"env":([]),"addition_shield":10,"mp":110,"startroom":"/open/world1/tmr/area/hotel","cure_count":18,"heart_beat_rate":6,"addition_armor":10,"supply_point":36,"attitude":"peaceful","newbie":1,"exp":777,"age":14,"dex":2,"max_ap":60,"volume":7,"int":2,"ap":60,"con":2,"id":"poisoneater","actions":,"addition_damage":10,"mud_age":288,"str":2,"level":1,"heart_modify":0,"hp":80,])
-autoload ({})
-toDoList ([])
-solved ({})

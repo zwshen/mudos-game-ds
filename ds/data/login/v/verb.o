@@ -1,2 +1,0 @@
-#/obj/login.c
-dbase (["id":"verb","email":"john999rse@yahoo.com.tw","password":"eH65KMBgX0txY","race":"human","level":16,"error_login":({"於[Wed Mar 31 07:53:32 2004]嘗試由[163.32.142.157]連線進入失敗。","於[Thu May 13 13:30:02 2004]嘗試由[218-164-156-244.dynamic.hinet.net]連線進入失敗。","於[Sun Aug 21 19:39:37 2005]嘗試由[220-143-161-158.dynamic.hinet.net]連線進入失敗。",}),"last_on":1125990974,"body":"/obj/user","last_from":"163.32.78.6","name":"移",])

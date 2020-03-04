@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["age":14,"dex":2,"supply_point":2,"max_mp":60,"volume":7,"startroom":"/open/world1/tmr/area/hotel","int":2,"id":"myob","con":2,"guild_gifts":({5,5,5,5,}),"newbie":1,"str":2,"default_actions":,"unit":"位","mud_age":12,"talk_point":1,"addition_damage":10,"evil":-1,"channels":({"chat","rumor","tchat",}),"race":"human","DS_DATA_VERSION":19991107,"addition_shield":10,"ap":60,"max_hp":80,"Merits":(["wit":0,"tec":0,"bar":0,"sou":0,"bio":0,]),"level":1,"mp":60,"hp":80,"birthday":1126991976,"cure_count":1,"actions":,"addition_armor":10,"heart_beat_rate":6,"attitude":"peaceful","gender":"女性","max_ap":60,"exp":777,"name":"瘋狂小處女",])
-autoload ({})

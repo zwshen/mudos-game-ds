@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["Merits":(["bio":0,"bar":0,"tec":0,"wit":0,"sou":0,]),"max_hp":80,"actions":,"last_location":"/open/world3/tmr/basic/hotel","age":14,"cure_count":9,"cwf":"/u/c/comtest/gold_beast.c","DS_DATA_VERSION":19991107,"volume":7,"mp":60,"gender":"男性","evil":-1,"addition_damage":10,"name":"卡測試","mud_age":431,"default_actions":,"channels":({"chat","rumor","tchat",}),"race":"human","level":1,"exp":777,"ap":60,"birthday":1002208943,"dex":2,"int":2,"con":2,"supply_point":58,"str":2,"max_ap":60,"attitude":"peaceful","id":"comtest","startroom":"/open/world3/tmr/basic/hotel","newbie":1,"addition_armor":10,"addition_shield":10,"hp":80,"heart_modify":0,"talk_point":8,"unit":"位","wound":(["right_leg":0,"head":0,"left_arm":0,"body":0,"left_leg":0,"right_arm":0,]),"heart_beat_rate":6,"max_mp":60,"cwd":"/u/c/comtest/","guild_gifts":({5,5,5,5,}),])
-autoload ({})

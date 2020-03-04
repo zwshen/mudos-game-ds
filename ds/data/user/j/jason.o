@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["wound":(["head":0,"body":0,"right_arm":0,"left_arm":0,"right_leg":0,"left_leg":0,]),"Merits":(["bar":0,"wit":0,"bio":0,"sou":0,"tec":0,]),"mud_age":5556,"unit":"位","talk_point":8,"DS_DATA_VERSION":19991107,"gender":"男性","ap":60,"name":"杜信諭","id":"jason","actions":,"guild_gifts":({5,5,5,5,}),"max_mp":60,"race":"human","channels":({"chat","rumor","tchat","bala",}),"level":1,"birthday":1125373957,"hp":80,"supply_point":60,"default_actions":,"exp":1997,"attitude":"peaceful","heart_beat_rate":6,"dex":2,"startroom":"/open/world1/tmr/area/hotel","int":2,"con":2,"cure_count":7,"newbie":1,"str":2,"addition_shield":10,"addition_damage":10,"addition_armor":10,"last_location":"/open/world1/tmr/area/street4","MKS":7,"mp":60,"max_hp":80,"age":14,"max_ap":60,"evil":11,"volume":7,"heart_modify":0,"mob_record":({"/open/world1/tmr/area/npc/frog","/open/world1/tmr/area/npc/dog","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),])
-skills (["combat":3,"unarmed":3,"dodge":1,])
-learned (["combat":31,"unarmed":10,"dodge":5,])
-autoload ({})

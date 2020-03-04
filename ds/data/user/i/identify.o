@@ -1,8 +1,0 @@
-#/obj/user.c
-dbase (["default_actions":,"heart_beat_rate":6,"DS_DATA_VERSION":19991107,"addition_shield":10,"actions":,"addition_damage":10,"mp":60,"mob_record":({"/open/world1/tmr/area/npc/dog",}),"guild_gifts":({5,5,5,5,}),"addition_armor":10,"channels":({"chat","rumor","tchat",}),"unit":"位","max_ap":60,"newbie":1,"exp":965,"dex":2,"heart_modify":1,"cure_count":18,"int":2,"con":2,"last_location":"/open/world1/tmr/area/wynd","level":1,"supply_point":60,"birthday":1225568555,"ap":60,"talk_point":8,"evil":-1,"attitude":"peaceful","war_score":1,"age":14,"max_mp":60,"max_hp":80,"bank":(["past":1,]),"race":"human","Merits":(["sou":0,"bio":0,"wit":0,"bar":0,"tec":0,]),"MKS":1,"id":"identify","mud_age":2390,"wound":(["left_arm":0,"body":0,"right_arm":0,"left_leg":0,"head":0,"right_leg":0,]),"startroom":"/open/world1/tmr/area/hotel","hp":80,"gender":"男性","volume":7,"str":2,"name":"失業皇帝",])
-skills (["parry":1,"combat":0,"unarmed":1,"dagger":1,"strong-body":3,"dodge":1,"block":1,"blade":1,"sword":1,])
-learned (["combat":2,"strong-body":0,"sword":1,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

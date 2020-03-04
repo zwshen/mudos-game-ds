@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["addition_damage":10,"supply_point":28,"max_mp":60,"talk_point":8,"max_hp":80,"attitude":"peaceful","max_ap":60,"ap":60,"mp":60,"newbie":1,"exp":777,"dex":2,"int":2,"con":2,"hp":80,"str":2,"level":1,"id":"sonymusic","DS_DATA_VERSION":19991107,"Merits":(["bio":0,"tec":0,"sou":0,"wit":0,"bar":0,]),"default_actions":,"volume":7,"evil":-1,"channels":({"chat","rumor","tchat",}),"birthday":1181579378,"gender":"女性","name":"可兒","guild_gifts":({5,5,5,5,}),"race":"human","startroom":"/open/world1/tmr/area/hotel","heart_beat_rate":6,"mud_age":208,"board_last_read":(["tmr_hotel_b":1149972935,]),"addition_shield":10,"unit":"位","age":14,"addition_armor":10,"actions":,"cure_count":14,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

@@ -1,6 +1,0 @@
-#/obj/user.c
-dbase (["default_actions":,"age":14,"mob_record":({"/open/world1/tmr/area/npc/dog","/open/world1/tmr/area/npc/dog","/open/world1/tmr/area/npc/dog",}),"adv_class":1,"max_ap":60,"family":(["privs":-1,"generation":7,"family_name":"八極門","title":"俠客",]),"supply_point":60,"channels":({"chat","rumor","tchat","dragon",}),"race":"human","level":1,"unit":"位","class1":"八極門","heart_modify":0,"last_location":"/open/world1/cominging/area/dragon/crazy_dragon","talk_point":8,"birthday":1105718151,"gender":"男性","id":"devon","name":"小賴","mud_age":820,"startroom":"/open/world1/tmr/area/hotel","cure_count":12,"actions":,"newbie":1,"guild_gifts":({10,7,0,3,}),"hp":80,"exp":1284,"dex":2,"int":2,"mp":60,"con":2,"str":2,"addition_shield":10,"addition_armor":10,"heart_beat_rate":6,"board_last_read":(["dragon_club_b":1089568127,]),"MKS":3,"addition_damage":10,"ap":60,"bank":(["past":0,]),"bellicosity":0,"max_hp":80,"disable_type":" <毫無呼吸>","attitude":"peaceful","evil":-1,"max_mp":60,"volume":7,"combat_exp":0,"Merits":(["tec":0,"bar":0,"bio":0,"sou":0,"wit":0,]),"title":"八極門第七代俠客","DS_DATA_VERSION":19991107,])
-skills (["combat":3,"unarmed":2,"parry":0,"fork":1,"bagi_fist":0,"dodge":1,"da-fork":0,"horse-steps":1,])
-learned ([])
-alias (["xe":"exert bagi_fist on $*",])
-autoload ({"/open/always/dragon_mark",})

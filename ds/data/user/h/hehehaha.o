@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["int":2,"con":2,"newbie":1,"volume":7,"max_mp":60,"str":2,"default_actions":,"evil":-1,"DS_DATA_VERSION":19991107,"ap":60,"Merits":(["wit":0,"tec":0,"sou":0,"bar":0,"bio":0,]),"addition_shield":10,"unit":"位","age":14,"addition_armor":10,"heart_beat_rate":6,"guild_gifts":({5,5,5,5,}),"max_ap":60,"supply_point":4,"gender":"男性","id":"hehehaha","name":"強","last_location":"/open/world2/lichi_town_1/map_6_19","channels":({"chat","rumor","tchat",}),"addition_damage":10,"race":"human","level":1,"talk_point":2,"max_hp":80,"birthday":1113996731,"mp":60,"hp":80,"cure_count":2,"actions":,"attitude":"peaceful","mud_age":26,"exp":777,"dex":2,"startroom":"/open/world2/lichi_town_2/map_5_26",])
-autoload ({})

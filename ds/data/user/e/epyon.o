@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["int":2,"con":2,"supply_point":10,"str":2,"actions":,"volume":7,"unit":"位","heart_beat_rate":6,"max_hp":80,"age":14,"max_mp":60,"channels":({"chat","rumor","tchat",}),"default_actions":,"ap":60,"race":"human","level":1,"evil":-1,"addition_shield":10,"talk_point":5,"gender":"男性","birthday":1109326041,"id":"epyon","addition_armor":10,"name":"次代高達","max_ap":60,"mud_age":68,"startroom":"/open/world1/tmr/area/hotel","guild_gifts":({5,5,5,5,}),"newbie":1,"cure_count":5,"hp":80,"addition_damage":10,"Merits":(["wit":0,"bar":0,"bio":0,"tec":0,"sou":0,]),"exp":777,"DS_DATA_VERSION":19991107,"mp":60,"attitude":"peaceful","dex":2,])
-autoload ({})

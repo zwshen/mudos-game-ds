@@ -1,9 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["default_actions":,"heart_beat_rate":6,"DS_DATA_VERSION":19991107,"addition_shield":10,"actions":,"addition_damage":10,"mp":110,"mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"guild_gifts":({5,5,5,5,}),"addition_armor":10,"channels":({"chat","rumor","tchat",}),"unit":"位","max_ap":60,"newbie":1,"exp":1003,"dex":2,"cure_count":6,"int":2,"con":2,"last_location":"/open/world1/tmr/area/street4","level":1,"supply_point":12,"birthday":1227187620,"ap":60,"talk_point":6,"evil":2,"attitude":"peaceful","war_score":1,"age":14,"max_mp":110,"max_hp":80,"race":"celestial","Merits":(["sou":0,"bio":0,"wit":0,"bar":0,"tec":0,]),"MKS":2,"id":"maxorz","mud_age":82,"startroom":"/open/world1/tmr/area/hotel","hp":74,"gender":"男性","volume":7,"str":2,"name":"無歡",])
-skills (["unarmed":1,"combat":2,"dodge":0,])
-learned (["unarmed":7,"combat":10,"dodge":1,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

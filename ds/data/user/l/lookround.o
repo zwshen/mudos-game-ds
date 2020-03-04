@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["DS_DATA_VERSION":19991107,"attitude":"peaceful","race":"human","default_actions":,"mp":60,"volume":7,"addition_shield":10,"channels":({"chat","rumor","tchat",}),"Merits":(["bio":0,"tec":0,"sou":0,"wit":0,"bar":0,]),"help":"skill/","wound":(["body":0,"right_arm":0,"right_leg":0,"head":0,"left_leg":0,"left_arm":0,]),"birthday":1200744295,"id":"lookround","last_location":"/open/world1/tmr/area/hotel","cure_count":2,"talk_point":8,"newbie":1,"exp":777,"dex":2,"gender":"男性","int":2,"heart_modify":0,"addition_armor":10,"guild_gifts":({5,5,5,5,}),"name":"迷路","con":2,"hp":80,"str":2,"supply_point":60,"heart_beat_rate":6,"level":1,"actions":,"max_mp":60,"unit":"位","max_ap":60,"max_hp":80,"evil":-1,"ap":60,"age":14,"mud_age":2127,"startroom":"/open/world1/tmr/area/hotel","addition_damage":10,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

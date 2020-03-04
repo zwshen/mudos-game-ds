@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["dex":2,"addition_damage":10,"int":2,"startroom":"/open/world1/tmr/area/hotel","MKS":5,"con":2,"str":2,"newbie":1,"Merits":(["tec":0,"sou":0,"bio":0,"wit":0,"bar":0,]),"max_hp":80,"mud_age":167,"cure_count":11,"talk_point":8,"actions":,"attitude":"peaceful","DS_DATA_VERSION":19991107,"volume":7,"max_mp":60,"ap":60,"gender":"男性","name":"陳秉奇","default_actions":,"guild_gifts":({5,5,5,5,}),"id":"edward","addition_shield":10,"age":14,"mp":60,"mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"addition_armor":10,"heart_beat_rate":6,"unit":"位","channels":({"chat","rumor","tchat",}),"race":"human","max_ap":60,"level":1,"supply_point":22,"hp":80,"birthday":1126166113,"last_location":"/open/world1/tmr/area/street5","evil":11,"exp":1364,])
-skills (["combat":3,"unarmed":2,"dodge":1,])
-learned (["combat":18,"unarmed":15,"dodge":6,])
-autoload ({})

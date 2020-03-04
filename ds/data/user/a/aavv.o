@@ -1,8 +1,0 @@
-#/obj/user.c
-dbase (["actions":,"addition_armor":10,"Merits":(["sou":0,"wit":0,"bar":0,"bio":0,"tec":0,]),"talk_point":4,"max_mp":54,"addition_damage":10,"max_hp":120,"disable_type":" <毫無呼吸>","bellicosity":0,"max_ap":66,"mp":54,"ap":66,"newbie":1,"exp":632,"dex":2,"id":"aavv","int":2,"hp":120,"con":2,"DS_DATA_VERSION":19991107,"cure_count":0,"str":2,"level":1,"unit":"位","combat_exp":0,"channels":({"chat","rumor","tchat",}),"volume":7,"last_location":"/open/world1/wilfred/sand/room26","birthday":1181299727,"supply_point":40,"gender":"男性","evil":-1,"name":"慎重","attitude":"peaceful","startroom":"/open/world1/tmr/area/hotel","guild_gifts":({5,5,5,5,}),"race":"ogre","heart_modify":0,"heart_beat_rate":6,"mud_age":344,"default_actions":,"age":14,"addition_shield":10,"wound":(["right_leg":0,"right_arm":0,"left_arm":0,"body":0,"left_leg":0,"head":0,]),])
-skills (["unarmed":1,"dodge":0,"combat":2,])
-learned (["unarmed":0,"combat":5,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

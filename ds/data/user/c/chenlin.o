@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["int":2,"supply_point":20,"con":2,"str":2,"DS_DATA_VERSION":19991107,"evil":-1,"last_location":"/open/world2/shengsan/aovandis/room112","MKS":1,"addition_damage":10,"guild_gifts":({5,5,5,5,}),"max_hp":80,"cure_count":10,"actions":,"attitude":"peaceful","max_mp":60,"volume":7,"channels":({"chat","rumor","tchat",}),"gender":"男性","id":"chenlin","mp":60,"name":"陳沉林","race":"human","level":1,"ap":60,"talk_point":8,"default_actions":,"unit":"位","birthday":1110784065,"mob_record":({"/open/world2/shengsan/aovandis/npc/bug0",}),"addition_shield":10,"Merits":(["sou":0,"bio":0,"bar":0,"tec":0,"wit":0,]),"mud_age":144,"startroom":"/open/world2/lichi_town_2/map_5_26","hp":80,"addition_armor":10,"heart_beat_rate":6,"newbie":1,"exp":869,"max_ap":60,"age":14,"dex":2,])
-skills (["combat":2,"dodge":1,"unarmed":1,])
-learned (["combat":10,"dodge":0,"unarmed":7,])
-autoload ({})

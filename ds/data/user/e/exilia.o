@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["volume":7,"DS_DATA_VERSION":19991107,"race":"titan","nickname":"¦ÑÀY[0m","wound":(["body":0,"right_arm":0,"right_leg":0,"head":0,"left_leg":0,"left_arm":0,]),"channels":({"chat","rumor","tchat",}),"birthday":1198401411,"id":"exilia","heart_modify":0,"actions":,"gender":"¨k©Ê","max_mp":60,"name":"¦º¤`ÃM¤h","max_hp":90,"attitude":"peaceful","unit":"¦ì","heart_beat_rate":6,"max_ap":70,"startroom":"/open/world1/tmr/area/hotel","guild_gifts":({5,5,5,5,}),"mp":60,"ap":70,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"addition_shield":10,"help":"setup/","cure_count":18,"supply_point":60,"talk_point":8,"addition_armor":10,"default_actions":,"newbie":1,"exp":777,"dex":2,"int":2,"con":2,"hp":90,"age":14,"str":2,"level":1,"addition_damage":10,"evil":-1,"mud_age":568,])
-items ({})
-autoload ({"/obj/money/coin:600",})
-toDoList ([])
-solved ({})

@@ -1,9 +1,0 @@
-#/obj/user.c
-dbase (["help":"cmds/","DS_DATA_VERSION":19991107,"supply_point":60,"addition_armor":10,"class1":"八極門","attitude":"peaceful","addition_damage":10,"MKS":10,"talk_point":8,"cure_count":18,"combat_exp":1,"channels":({"chat","rumor","tchat",}),"max_hp":100,"board_last_read":(["tmr_hotel_b":1233943019,]),"mud_age":1790,"newbie":1,"exp":408,"dex":2,"hp":84,"int":2,"heart_beat_rate":6,"con":3,"age":14,"level":1,"birthday":1233942351,"guild_gifts":({10,7,0,3,}),"max_ap":75,"wound":(["left_arm":0,"body":0,"left_leg":0,"head":0,"right_leg":0,"right_arm":0,]),"bank":(["past":50,]),"evil":11,"unit":"位","default_actions":,"mob_record":({"/open/world1/tmr/area/npc/frog","/open/world1/tmr/area/npc/frog","/open/world1/tmr/area/npc/frog","/open/world1/tmr/area/npc/frog","/open/world1/acme/bonze/npc/dog","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"mp":60,"adv_class":1,"actions":,"war_score":9,"ap":64,"title":"八極門第七代俠客","volume":7,"race":"human","family":(["title":"俠客","family_name":"八極門","generation":7,"privs":-1,]),"heart_modify":1,"id":"frogbxr","max_mp":60,"Merits":(["bar":0,"tec":0,"sou":0,"bio":0,"wit":0,]),"addition_shield":10,"popularity":0,"startroom":"/open/world1/tmr/area/hotel","last_location":"/open/world1/tmr/area/glade","gender":"男性","war_art":0,"str":4,"name":"趴趴走",])
-skills (["parry":1,"horse-steps":1,"unarmed":4,"fork":1,"dodge":2,"da-fork":1,"bagi_fist":1,"combat":5,"strong-body":3,])
-learned (["parry":2,"combat":63,"dodge":13,"unarmed":25,"strong-body":0,])
-items ({})
-alias (["a":"sac corpse",])
-autoload ({})
-toDoList ([])
-solved ({})

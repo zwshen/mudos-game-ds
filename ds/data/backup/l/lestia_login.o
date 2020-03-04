@@ -1,2 +1,0 @@
-#/obj/login.c
-dbase (["email":"","id":"lestia","password":"lSpeZPQLpGXUI","level":100,"race":"human","error_login":({"於[Sun Sep 17 02:27:29 2000]嘗試由[u22-66.user.giga.net.tw]連線進入失敗。","於[Mon Sep 18 14:43:58 2000]嘗試由[u23-110.user.giga.net.tw]連線進入失敗。","於[Tue Sep 19 20:44:05 2000]嘗試由[u23-92.user.giga.net.tw]連線進入失敗。","於[Thu Nov 30 13:11:06 2000]嘗試由[210.65.245.133]連線進入失敗。","於[Thu Nov 30 13:11:44 2000]嘗試由[210.65.245.133]連線進入失敗。",}),"name":"ｌｅｓｔｉａ","body":"/obj/user","last_on":1010769791,"new_mail":1,"last_from":"61-224-8-204.HINET-IP.hinet.net",])

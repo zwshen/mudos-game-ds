@@ -1,8 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["gender":"男性","name":"路人甲","max_mp":110,"help":"class/frost","supply_point":26,"addition_damage":10,"guild_gifts":({5,5,5,5,}),"startroom":"/open/world1/tmr/area/hotel","max_hp":80,"race":"celestial","talk_point":8,"guild_rank":"寒澈派第三代道僮","mp":110,"max_ap":60,"ap":60,"default_actions":,"title":"寒澈派第三代道僮","mud_age":196,"newbie":1,"bank":(["past":13992,]),"exp":765,"addition_shield":10,"age":14,"dex":2,"family":(["privs":-1,"generation":3,"title":"道僮","family_name":"寒澈派",]),"hp":80,"int":2,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"heart_beat_rate":6,"con":2,"str":2,"id":"ren","DS_DATA_VERSION":19991107,"level":1,"volume":7,"attitude":"peaceful","actions":,"class1":"寒澈派","addition_armor":10,"unit":"位","channels":({"chat","rumor","tchat",}),"evil":-1,"adv_class":1,"cure_count":13,"last_location":"/open/world1/tmr/frost/court3","birthday":1185565398,])
-skills (["swallow-flying":3,])
-items ({})
-autoload ({"/obj/money/coin:500",})
-toDoList ([])
-solved ({})

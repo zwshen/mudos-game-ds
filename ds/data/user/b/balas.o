@@ -1,5 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["hp":120,"cure_count":10,"adv_class":0,"supply_point":60,"volume":7,"attitude":"peaceful","unit":"位","newbie":1,"exp":777,"dex":2,"int":2,"Merits":(["bio":0,"tec":0,"sou":0,"wit":0,"bar":0,]),"heart_modify":0,"con":2,"str":2,"level":1,"evil":-1,"DS_DATA_VERSION":19991107,"id":"balas","last_location":"/open/world1/ksj/thief/room1","channels":({"chat","rumor","tchat",}),"default_actions":,"race":"ogre","birthday":1163253363,"mud_age":462,"talk_point":8,"wound":(["right_leg":0,"left_leg":0,"left_arm":0,"right_arm":0,"body":0,"head":0,]),"heart_beat_rate":6,"gender":"男性","startroom":"/open/world1/tmr/area/hotel","name":"芭樂籽","actions":,"env":([]),"addition_shield":10,"max_mp":54,"max_ap":66,"max_hp":120,"addition_armor":10,"guild_gifts":({5,5,5,5,}),"ap":66,"mp":54,"age":14,"addition_damage":10,])
-alias (["city":"do look off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,enter,n,n,n,n,n,n,n,n,look on,l","/":"recall start",])
-autoload ({})

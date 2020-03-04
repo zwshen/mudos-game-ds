@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["ap":60,"unit":"位","mud_age":166,"addition_shield":10,"mp":60,"hp":80,"default_actions":,"startroom":"/open/world1/tmr/area/hotel","age":14,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"last_location":"/open/world1/tmr/area/street4","gender":"男性","cure_count":11,"name":"回天","addition_armor":10,"exp":777,"dex":2,"heart_beat_rate":6,"int":2,"con":2,"attitude":"peaceful","str":2,"level":1,"supply_point":22,"volume":7,"newbie":1,"actions":,"addition_damage":10,"guild_gifts":({5,5,5,5,}),"max_mp":60,"board_last_read":(["tmr_hotel_b":1163040361,]),"DS_DATA_VERSION":19991107,"max_ap":60,"max_hp":80,"evil":-1,"channels":({"chat","rumor","tchat",}),"birthday":1163050729,"talk_point":8,"id":"guest","race":"human",])
-autoload ({})

@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["DS_DATA_VERSION":19991107,"default_actions":,"ap":60,"max_ap":60,"supply_point":36,"channels":({"chat","rumor","tchat",}),"evil":-1,"race":"human","level":1,"gender":"男性","id":"cawana","birthday":1088360862,"talk_point":8,"name":"曉情","age":14,"startroom":"/open/world1/tmr/area/hotel","actions":,"cure_count":18,"newbie":1,"mud_age":255,"exp":777,"hp":80,"dex":2,"int":2,"con":2,"str":2,"addition_shield":10,"Merits":(["sou":0,"wit":0,"bar":0,"tec":0,"bio":0,]),"heart_beat_rate":6,"addition_armor":10,"guild_gifts":({5,5,5,5,}),"unit":"位","mp":60,"board_last_read":(["tmr_hotel_b":1097431480,]),"addition_damage":10,"max_hp":80,"attitude":"peaceful","max_mp":60,"volume":7,])
-autoload ({})

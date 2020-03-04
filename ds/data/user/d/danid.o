@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["Merits":(["bar":0,"wit":0,"bio":0,"sou":0,"tec":0,]),"wound":(["head":0,"body":0,"right_arm":0,"left_arm":0,"right_leg":0,"left_leg":0,]),"mud_age":1577,"unit":"位","talk_point":8,"DS_DATA_VERSION":19991107,"gender":"男性","name":"杜育維杜育維","ap":60,"id":"danid","actions":,"guild_gifts":({5,5,5,5,}),"max_mp":60,"race":"human","channels":({"chat","rumor","tchat",}),"level":1,"birthday":1125664803,"hp":80,"default_actions":,"supply_point":60,"exp":949,"attitude":"peaceful","heart_beat_rate":6,"dex":2,"int":2,"startroom":"/open/world1/tmr/area/hotel","con":2,"str":2,"newbie":1,"cure_count":5,"addition_shield":10,"addition_armor":10,"addition_damage":10,"last_location":"/open/world1/wilfred/sand/room28","MKS":1,"mp":60,"age":14,"max_hp":80,"max_ap":60,"volume":7,"evil":-1,"mob_record":({"/open/world1/tmr/area/npc/dog",}),"heart_modify":0,])
-skills (["combat":1,"unarmed":1,])
-learned (["combat":6,"unarmed":2,])
-autoload ({})

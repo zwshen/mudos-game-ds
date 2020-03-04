@@ -1,9 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["DS_DATA_VERSION":19991107,"race":"human","actions":,"board_last_read":(["tmr_hotel_b":1161437401,]),"max_mp":60,"channels":({"chat","rumor","tchat",}),"heart_modify":0,"birthday":1160807158,"max_hp":80,"id":"fook","MKS":2,"heart_beat_rate":6,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"gender":"¨k©Ê","mp":60,"name":"¶Æ¥b¥P","guild_gifts":({5,5,5,5,}),"attitude":"peaceful","max_ap":60,"startroom":"/open/world1/tmr/area/hotel","ap":60,"env":([]),"cure_count":7,"addition_shield":10,"mob_record":({"/open/world1/acme/area/npc/sciurine","/open/world1/cominging/area/npc/dove",}),"supply_point":61,"age":25,"unit":"¦ì","last_location":"/open/world1/acme/area/lea12","default_actions":,"talk_point":8,"addition_armor":10,"exp":1128,"dex":2,"int":2,"con":2,"str":2,"hp":80,"volume":7,"level":1,"wound":(["body":0,"right_arm":0,"right_leg":0,"head":0,"left_arm":0,"left_leg":0,]),"addition_damage":10,"quest":(["not_newbie":1,]),"evil":2,"mud_age":1033673,])
-skills (["literate":7,"swim":19,"dagger":2,"dodge":1,"combat":3,"unarmed":0,"parry":0,])
-learned (["literate":7,"swim":0,"dagger":11,"dodge":4,"combat":15,"unarmed":1,"parry":2,])
-items ({})
-autoload ({"/obj/money/coin:141",})
-toDoList ([])
-solved ({})

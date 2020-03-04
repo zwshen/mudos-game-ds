@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["supply_point":60,"heart_modify":0,"last_location":"/open/world1/cominging/guitar","mud_age":3773,"talk_point":8,"disable_type":" <²@µL©I§l>","ap":60,"DS_DATA_VERSION":19991107,"evil":-1,"gender":"¨k©Ê","cure_count":7,"actions":,"name":"·R¤O§J·á","id":"alickyuem","board_last_read":(["anoounce_b":1126242209,"tmr_hotel_b":1126238975,]),"bellicosity":0,"channels":({"chat","rumor","tchat",}),"race":"human","level":1,"addition_shield":10,"hp":80,"birthday":1126230008,"guild_gifts":({5,5,5,5,}),"addition_armor":10,"heart_beat_rate":6,"unit":"¦ì","exp":700,"dex":2,"int":2,"startroom":"/open/world1/tmr/area/hotel","con":2,"str":2,"newbie":1,"Merits":(["bar":0,"tec":0,"bio":0,"sou":0,"wit":0,]),"addition_damage":10,"age":14,"max_hp":80,"wound":(["body":0,"head":0,"left_arm":0,"right_arm":0,"left_leg":0,"right_leg":0,]),"attitude":"peaceful","volume":7,"max_mp":60,"combat_exp":0,"default_actions":,"mp":60,"max_ap":60,])
-skills (["combat":1,"dodge":0,"unarmed":0,])
-learned (["dodge":0,])
-autoload ({})

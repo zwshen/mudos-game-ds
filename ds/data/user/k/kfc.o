@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["MKS":16,"guild_rank":"四處流浪的冒險者","guild_gifts":({5,5,5,5,}),"unit":"位","DS_DATA_VERSION":19991107,"wimpy":20,"addition_damage":10,"age":14,"max_hp":200,"wound":(["left_leg":0,"body":0,"head":0,"right_leg":0,"left_arm":0,"right_arm":0,]),"attitude":"peaceful","gender":"男性","id":"kfc","name":"打我阿笨蛋","channels":({"chat","rumor","tchat",}),"volume":7,"max_mp":105,"popularity":9,"combat_exp":102,"level":5,"race":"human","bank":(["past":10000,]),"mob_record":({"/open/world1/tmr/area/npc/frog","/open/world1/tmr/area/npc/frog","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove",}),"birthday":1098328295,"default_actions":,"talk_point":20,"startroom":"/open/world1/tmr/area/hotel","exp":131572,"newbie":1,"dex":12,"int":5,"max_ap":150,"hp":179,"con":8,"str":8,"supply_point":100,"evil":21,"mp":105,"heart_modify":0,"mud_age":867,"last_location":"/open/world1/tmr/area/ms2","actions":,"cure_count":0,"ap":150,"addition_shield":10,"heart_beat_rate":6,"addition_armor":10,"Merits":(["bio":0,"sou":0,"tec":0,"wit":0,"bar":0,]),])
-skills (["hungchen-sword":11,"combat":6,"literate":1,"unarmed":3,"dodge":2,])
-learned (["combat":26,"literate":2,"unarmed":18,"dodge":15,])
-alias (["rr":"recall start","g":"get all","t":"sac all",])
-autoload ({"/obj/money/coin:3032",})

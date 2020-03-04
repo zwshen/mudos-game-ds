@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["last_location":"/open/world1/tmr/area/school/school1","heart_modify":0,"guild_gifts":({5,5,5,5,}),"ap":60,"actions":,"cure_count":8,"mp":60,"gender":"¨k©Ê","id":"subjekt","name":"¤ý°Ä¥ì","evil":-1,"addition_shield":10,"age":14,"heart_beat_rate":6,"addition_armor":10,"hp":80,"exp":887,"addition_damage":10,"dex":2,"max_hp":80,"int":2,"DS_DATA_VERSION":19991107,"con":2,"str":2,"wound":(["left_arm":0,"right_leg":0,"right_arm":0,"head":0,"body":0,"left_leg":0,]),"find_butter":1,"MKS":1,"attitude":"peaceful","max_mp":60,"volume":7,"Merits":(["wit":0,"bar":0,"tec":0,"bio":0,"sou":0,]),"default_actions":,"race":"human","channels":({"chat","rumor","tchat",}),"level":1,"birthday":1115879692,"talk_point":8,"mud_age":430,"unit":"¦ì","max_ap":60,"mob_record":({"/open/world1/tmr/area/school/npc/butterfly",}),"startroom":"/open/world1/tmr/area/school/school1","supply_point":56,"newbie":1,])
-skills (["combat":0,"unarmed":0,])
-learned (["combat":1,"unarmed":1,])
-autoload ({})

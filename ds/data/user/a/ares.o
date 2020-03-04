@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["DS_DATA_VERSION":19991107,"race":"ogre","actions":,"popularity":190,"guild_rank":"¥|³B¬y®öªº«_ÀIªÌ","attitude":"peaceful","max_mp":126,"addition_damage":10,"channels":({"chat","rumor","tchat",}),"max_hp":300,"heart_modify":0,"birthday":1209002075,"id":"ares","mp":62,"war_art":0,"gender":"¨k©Ê","name":"ªü§Q´µ","unit":"¦ì","guild_gifts":({5,5,5,5,}),"max_ap":174,"ap":78,"startroom":"/open/world1/tmr/area/hotel","last_location":"/open/world1/tmr/area/street4","cure_count":11,"age":14,"Merits":(["wit":0,"bar":0,"bio":0,"tec":0,"sou":0,]),"supply_point":29,"nickname":"¾Ô¯«[0m","talk_point":11,"heart_beat_rate":6,"newbie":1,"exp":5365489,"dex":8,"int":8,"default_actions":,"volume":7,"hp":132,"addition_shield":10,"con":8,"str":8,"level":5,"mud_age":98,"evil":-1,"addition_armor":10,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

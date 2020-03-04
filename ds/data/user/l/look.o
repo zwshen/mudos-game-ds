@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["actions":,"DS_DATA_VERSION":19991107,"last_location":"/open/world2/lichi_town_2/map_5_26","max_hp":80,"ap":60,"evil":-1,"volume":7,"addition_damage":10,"combat_exp":2,"wound":(["head":0,"left_arm":0,"right_arm":0,"left_leg":0,"right_leg":0,"body":0,]),"addition_armor":10,"channels":({"chat","rumor","tchat",}),"level":2,"race":"human","gender":"男性","birthday":998713693,"name":"慎重","age":14,"mp":60,"heart_modify":0,"startroom":"/open/world2/lichi_town_2/map_5_25","talk_point":9,"newbie":1,"exp":372,"max_mp":60,"dex":2,"int":2,"con":2,"str":2,"id":"look","max_ap":60,"disable_type":" <毫無呼吸>","Merits":(["sou":0,"bio":0,"tec":0,"wit":0,"bar":0,]),"unit":"位","hp":80,"addition_shield":10,"default_actions":,"supply_point":62,"mob_record":({"/open/world2/npc/beast_fish_3","/open/world1/tmr/area/npc/dog",}),"MKS":2,"heart_beat_rate":6,"attitude":"peaceful","guild_rank":"無家可歸的流浪漢","cure_count":9,"bellicosity":0,"guild_gifts":({5,5,5,5,}),"mud_age":2857,])
-skills (["dodge":1,"unarmed":2,"combat":2,])
-learned (["dodge":2,"unarmed":0,"combat":14,])
-autoload ({})

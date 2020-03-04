@@ -1,8 +1,0 @@
-#/obj/user.c
-dbase (["max_mp":60,"supply_point":60,"max_hp":90,"talk_point":8,"attitude":"peaceful","guild_gifts":({5,5,5,5,}),"mp":60,"max_ap":70,"last_location":"/open/world1/cominging/area/dragon/dragon_door","ap":70,"heart_modify":0,"newbie":1,"exp":777,"dex":2,"hp":90,"int":2,"con":2,"str":2,"volume":7,"level":1,"heart_beat_rate":6,"id":"laries","default_actions":,"DS_DATA_VERSION":19991107,"evil":-1,"channels":({"chat","rumor","tchat",}),"addition_shield":10,"birthday":1186727519,"gender":"¤k©Ê","name":"¸¦¼}½º","race":"titan","startroom":"/open/world1/tmr/area/hotel","addition_armor":10,"addition_damage":10,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"mud_age":40231,"age":14,"wound":(["head":0,"body":0,"right_leg":0,"right_arm":0,"left_arm":0,"left_leg":0,]),"actions":,"unit":"¦ì","cure_count":4,])
-skills (["strong-body":8,])
-learned (["strong-body":122,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

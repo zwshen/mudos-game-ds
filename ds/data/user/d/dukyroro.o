@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["addition_damage":10,"unit":"位","DS_DATA_VERSION":19991107,"supply_point":6,"Merits":(["wit":0,"bar":0,"bio":0,"tec":0,"sou":0,]),"cure_count":3,"channels":({"chat","rumor","tchat",}),"last_location":"/open/world2/lichi_town_2/map_4_26","max_mp":60,"mud_age":39,"newbie":1,"exp":777,"dex":2,"default_actions":,"int":2,"hp":80,"con":2,"actions":,"level":1,"birthday":1101074141,"age":14,"guild_gifts":({5,5,5,5,}),"evil":-1,"talk_point":3,"max_ap":60,"addition_shield":10,"max_hp":80,"ap":60,"heart_beat_rate":6,"race":"human","addition_armor":10,"mp":60,"id":"dukyroro","volume":7,"startroom":"/open/world1/tmr/area/hotel","attitude":"peaceful","gender":"女性","str":2,"name":"雙兒",])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

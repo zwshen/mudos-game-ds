@@ -1,8 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["mp":110,"mud_age":3504,"wound":(["body":0,"left_leg":0,"head":0,"right_arm":0,"left_arm":0,"right_leg":0,]),"env":([]),"default_actions":,"max_mp":110,"actions":,"channels":({"chat","rumor","tchat","god",}),"newbie":1,"exp":5777,"dex":2,"max_hp":80,"int":2,"max_ap":60,"addition_shield":10,"con":2,"ap":60,"str":2,"last_location":"/open/world1/god_club/ladd-2","level":1,"birthday":1471634694,"hp":80,"addition_armor":10,"age":14,"volume":7,"unit":"¦ì","attitude":"peaceful","gender":"¤k©Ê","guild_gifts":({5,5,5,5,}),"name":"À¹¶ø¨¯¬rÀn","addition_damage":10,"cure_count":7,"Merits":(["bar":0,"sou":0,"bio":0,"wit":0,"tec":0,]),"startroom":"/open/world1/tmr/area/hotel","heart_modify":0,"race":"celestial","talk_point":8,"supply_point":60,"id":"saryn","heart_beat_rate":6,"DS_DATA_VERSION":19991107,"evil":-1,])
-items ({})
-alias (["gors":"do l off,sw,d,n,miracle crown,d,s,s,s,s,s,s,s,s,out,s,sw,s,s,sw,sw,s,e,e,s,s,s,w,l on,l","gogod":"do look off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,enter,n,n,n,n,n,n,n,n,up,miracle crown,s,up,ne,look on,l",])
-autoload ({"/open/always/god_mark",})
-toDoList ([])
-solved ({})

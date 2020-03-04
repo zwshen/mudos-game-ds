@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["int":2,"con":2,"str":2,"cure_count":8,"DS_DATA_VERSION":19991107,"actions":,"attitude":"peaceful","guild_gifts":({5,5,5,5,}),"volume":7,"max_mp":60,"ap":60,"default_actions":,"addition_shield":10,"evil":-1,"Merits":(["sou":0,"bio":0,"wit":0,"tec":0,"bar":0,]),"channels":({"chat","rumor","tchat",}),"gender":"男性","age":14,"id":"redhhh","addition_armor":10,"heart_beat_rate":6,"name":"龍在江湖","race":"human","level":1,"talk_point":8,"max_ap":60,"birthday":1110020157,"supply_point":16,"unit":"位","last_location":"/open/world1/tmr/area/school/wood2","mp":60,"mud_age":125,"startroom":"/open/world1/tmr/area/school/school1","hp":80,"addition_damage":10,"newbie":1,"exp":777,"max_hp":80,"dex":2,])
-autoload ({})

@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["volume":7,"hp":110,"addition_damage":10,"cure_count":10,"MKS":2,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"talk_point":8,"supply_point":60,"last_location":"/open/world1/tmr/area/street4","heart_beat_rate":6,"age":14,"wound":(["head":0,"right_arm":0,"left_leg":0,"body":0,"left_arm":0,"right_leg":0,]),"newbie":1,"id":"markchen","exp":983,"dex":2,"int":2,"unit":"位","mud_age":444,"con":2,"str":2,"level":1,"actions":,"default_actions":,"gender":"男性","DS_DATA_VERSION":19991107,"name":"麻克","evil":2,"max_mp":64,"mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"channels":({"chat","rumor","tchat",}),"birthday":1168262683,"guild_gifts":({5,5,5,5,}),"max_hp":110,"war_score":1,"race":"tiger","startroom":"/open/world1/tmr/area/hotel","addition_shield":10,"mp":64,"attitude":"peaceful","addition_armor":10,"max_ap":64,"ap":64,"heart_modify":0,])
-skills (["unarmed":1,"combat":2,"dodge":1,])
-learned (["unarmed":7,"combat":8,"dodge":0,])
-autoload ({})

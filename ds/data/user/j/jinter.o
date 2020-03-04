@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["attitude":"peaceful","DS_DATA_VERSION":19991107,"race":"evil","mp":66,"Merits":(["bio":0,"tec":0,"sou":0,"wit":0,"bar":0,]),"channels":({"chat","rumor","tchat",}),"addition_shield":10,"help":"newbie/","birthday":1200314301,"id":"jinter","cure_count":14,"gender":"男性","name":"莫為","guild_gifts":({5,5,5,5,}),"addition_armor":10,"supply_point":28,"unit":"位","max_ap":100,"startroom":"/open/world1/tmr/area/hotel","age":14,"ap":100,"addition_damage":10,"war_art":0,"default_actions":,"volume":7,"last_location":"/open/world1/cominging/area/forest5","talk_point":8,"newbie":1,"exp":336,"dex":2,"int":2,"heart_modify":0,"popularity":0,"con":2,"hp":84,"str":3,"heart_beat_rate":6,"level":1,"actions":,"max_mp":66,"max_hp":84,"evil":-1,"mud_age":200,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

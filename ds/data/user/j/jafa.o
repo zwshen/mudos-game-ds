@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["max_mp":110,"max_hp":80,"supply_point":38,"attitude":"peaceful","talk_point":8,"mp":110,"last_location":"/open/world1/tmr/area/hotel","guild_gifts":({5,5,5,5,}),"max_ap":60,"ap":60,"newbie":1,"exp":777,"dex":2,"hp":80,"int":2,"con":2,"str":2,"level":1,"volume":7,"heart_beat_rate":6,"id":"jafa","DS_DATA_VERSION":19991107,"default_actions":,"evil":-1,"addition_shield":10,"channels":({"chat","rumor","tchat",}),"birthday":1185609425,"gender":"女性","name":"神谷勳","race":"celestial","startroom":"/open/world1/tmr/area/hotel","addition_armor":10,"unit":"位","addition_damage":10,"mud_age":285,"age":14,"actions":,"cure_count":19,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

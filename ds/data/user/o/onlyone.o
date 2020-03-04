@@ -1,8 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["gender":"男性","max_mp":54,"name":"只是唯一","supply_point":60,"max_hp":120,"race":"ogre","talk_point":8,"addition_armor":10,"guild_gifts":({5,5,5,5,}),"attitude":"peaceful","startroom":"/open/world1/tmr/area/hotel","mp":54,"last_location":"/open/world1/god_club/entrance","max_ap":66,"ap":66,"addition_damage":10,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"heart_modify":0,"mud_age":961,"newbie":1,"exp":777,"wound":(["body":0,"head":0,"right_leg":0,"right_arm":0,"left_leg":0,"left_arm":0,]),"hp":120,"age":14,"dex":2,"int":2,"con":2,"str":2,"volume":7,"heart_beat_rate":6,"level":1,"id":"onlyone","env":([]),"DS_DATA_VERSION":19991107,"actions":,"default_actions":,"cure_count":4,"unit":"位","evil":-1,"addition_shield":10,"channels":({"chat","rumor","tchat","god",}),"birthday":1188919279,])
-items ({})
-alias (["clbu":"do l off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,enter,n,n,n,n,n,n,n,n,u,miracle crown,s,l on,l",])
-autoload ({"/open/always/god_mark",})
-toDoList ([])
-solved ({})

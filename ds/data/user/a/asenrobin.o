@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["mp":60,"talk_point":8,"DS_DATA_VERSION":19991107,"guild_gifts":({5,5,5,5,}),"env":([]),"cure_count":14,"gender":"男性","attitude":"peaceful","name":"亞森．羅蘋","id":"asenrobin","channels":({"chat","rumor","tchat",}),"race":"human","max_ap":60,"level":1,"supply_point":61,"default_actions":,"bank":([]),"birthday":1125060498,"Merits":(["bio":0,"sou":0,"wit":0,"tec":0,"bar":0,]),"heart_modify":0,"hp":79,"unit":"位","startroom":"/open/world1/tmr/area/hotel","exp":1019,"newbie":1,"dex":2,"int":2,"mob_record":({"/open/world1/tmr/area/npc/dog",}),"con":2,"str":2,"max_mp":60,"MKS":1,"evil":-1,"addition_shield":10,"age":14,"heart_beat_rate":6,"volume":7,"addition_damage":10,"addition_armor":10,"actions":,"ap":60,"last_location":"/open/world1/tmr/area/square","wound":(["left_arm":0,"left_leg":0,"right_arm":0,"head":0,"right_leg":0,"body":0,]),"max_hp":80,"mud_age":1407,])
-skills (["chess":2,"literate":3,"dodge":0,"combat":1,"unarmed":1,])
-learned (["chess":5,"literate":31,"dodge":1,"combat":5,"unarmed":1,])
-alias (["dpr":"drink pot",])
-autoload ({"/obj/money/coin:840",})

@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["ap":60,"unit":"¦ì","mud_age":42,"addition_shield":10,"mp":110,"hp":80,"default_actions":,"startroom":"/open/world1/tmr/area/hotel","age":14,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"last_location":"/open/world1/ground_temple/room-50","gender":"¨k©Ê","cure_count":3,"name":"ÅT°­","addition_armor":10,"exp":777,"dex":2,"heart_beat_rate":6,"int":2,"con":2,"attitude":"peaceful","str":2,"level":1,"supply_point":6,"volume":7,"newbie":1,"actions":,"addition_damage":10,"guild_gifts":({5,5,5,5,}),"max_mp":110,"board_last_read":(["anoounce_b":1163146505,]),"DS_DATA_VERSION":19991107,"max_ap":60,"max_hp":80,"evil":-1,"channels":({"chat","rumor","tchat",}),"birthday":1163147059,"talk_point":0,"id":"hibiki","race":"celestial",])
-autoload ({})

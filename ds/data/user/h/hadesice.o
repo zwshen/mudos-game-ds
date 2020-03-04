@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["ap":60,"unit":"位","volume":7,"Merits":(["sou":0,"bio":0,"wit":0,"bar":0,"tec":0,]),"max_mp":60,"talk_point":11,"exp":251,"guild_gifts":({5,5,5,5,}),"dex":2,"int":2,"default_actions":,"con":2,"str":2,"evil":-1,"MKS":1,"addition_shield":10,"race":"human","channels":({"chat","rumor","tchat",}),"mud_age":1003,"level":2,"addition_armor":10,"birthday":1119851873,"heart_beat_rate":6,"max_ap":60,"bank":(["past":0,]),"supply_point":80,"gender":"男性","id":"hadesice","mob_record":({"/open/world1/tmr/area/npc/dog",}),"name":"小風","startroom":"/open/world1/tmr/area/hotel","age":14,"heart_modify":0,"guild_rank":"無家可歸的流浪漢","last_location":"/open/world1/tmr/ghost-forest/forest2","newbie":1,"addition_damage":10,"max_hp":80,"wound":(["left_leg":0,"body":0,"right_leg":0,"left_arm":0,"right_arm":0,"head":0,]),"DS_DATA_VERSION":19991107,"cure_count":7,"actions":,"mp":60,"attitude":"peaceful","hp":80,])
-skills (["fork":1,"dodge":0,"combat":1,"unarmed":1,])
-learned (["dodge":1,"combat":3,"unarmed":0,])
-autoload ({})

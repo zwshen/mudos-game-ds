@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["age":14,"actions":,"addition_damage":10,"max_mp":60,"max_hp":80,"max_ap":60,"mp":60,"attitude":"peaceful","ap":60,"cure_count":5,"newbie":1,"exp":777,"dex":2,"talk_point":5,"id":"lupin","int":2,"con":2,"hp":80,"supply_point":10,"str":2,"level":1,"guild_gifts":({5,5,5,5,}),"DS_DATA_VERSION":19991107,"volume":7,"gender":"男性","evil":-1,"channels":({"chat","rumor","tchat",}),"name":"天刀","birthday":1174532953,"default_actions":,"race":"human","startroom":"/open/world1/tmr/area/hotel","help":"topic","heart_beat_rate":6,"addition_shield":10,"mud_age":70,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"addition_armor":10,"unit":"位",])
-autoload ({})
-toDoList ([])
-solved ({})

@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["talk_point":5,"heart_beat_rate":6,"DS_DATA_VERSION":19991107,"evil":-1,"last_location":"/open/world1/tmr/area/inn_2f","cure_count":5,"mp":60,"unit":"¦ì","max_mp":60,"ap":60,"supply_point":10,"age":14,"addition_armor":10,"guild_gifts":({5,5,5,5,}),"channels":({"chat","rumor","tchat",}),"default_actions":,"mud_age":68,"addition_shield":10,"hp":80,"race":"human","actions":,"max_ap":60,"Merits":(["bar":0,"bio":0,"tec":0,"sou":0,"wit":0,]),"volume":7,"attitude":"peaceful","newbie":1,"addition_damage":10,"exp":777,"id":"yawn","dex":2,"int":2,"con":2,"startroom":"/open/world1/tmr/area/hotel","board_last_read":(["anoounce_b":1218773485,"tmr_hotel_b":1220188364,]),"max_hp":80,"level":1,"gender":"¨k©Ê","str":2,"birthday":1220194801,"name":"«¢¤í",])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

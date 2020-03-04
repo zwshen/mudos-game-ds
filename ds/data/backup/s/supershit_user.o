@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["MKS":3,"int":2,"con":2,"startroom":"/open/world2/lichi_town_2/map_5_26","str":2,"supply_point":60,"addition_armor":10,"newbie":1,"mud_age":1051,"guild_gifts":({5,5,5,5,}),"hp":80,"max_hp":80,"talk_point":8,"DS_DATA_VERSION":19991107,"max_ap":60,"heart_modify":0,"addition_shield":10,"unit":"¦ì","mob_record":({"/open/world2/npc/beast_fish_3","/open/world2/npc/beast_fish_3","/open/world2/npc/beast_fish_3",}),"last_location":"/open/world2/lichi_town_1/map_5_20","max_mp":60,"evil":-1,"gender":"¨k©Ê","id":"supershit","cure_count":4,"mp":60,"Merits":(["tec":0,"sou":0,"bio":0,"bar":0,"wit":0,]),"name":"±O«°","actions":,"addition_damage":10,"attitude":"peaceful","channels":({"chat","rumor","tchat",}),"ap":60,"wound":(["right_leg":0,"head":0,"right_arm":0,"body":0,"left_leg":0,"left_arm":0,]),"age":14,"level":1,"race":"human","birthday":1045666058,"friend":({"swordwin",}),"default_actions":,"exp":1707,"volume":7,"heart_beat_rate":6,"dex":2,])
-skills (["unarmed":2,"combat":3,"dodge":1,])
-learned (["unarmed":16,"combat":30,"dodge":7,])
-autoload ({"/obj/money/dollar:26",})

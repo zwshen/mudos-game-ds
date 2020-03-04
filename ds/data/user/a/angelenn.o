@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["hp":80,"heart_modify":0,"last_location":"/open/world1/tmr/area/street4","addition_damage":10,"exp":777,"guild_gifts":({5,5,5,5,}),"dex":2,"DS_DATA_VERSION":19991107,"int":2,"max_hp":80,"con":2,"wound":(["right_leg":0,"left_arm":0,"right_arm":0,"left_leg":0,"body":0,"head":0,]),"str":2,"ap":60,"cure_count":6,"actions":,"attitude":"peaceful","board_last_read":(["tmr_hotel_b":1115822245,]),"volume":7,"max_mp":60,"mp":60,"Merits":(["wit":0,"bar":0,"tec":0,"bio":0,"sou":0,]),"default_actions":,"gender":"男性","id":"angelenn","channels":({"chat","rumor","tchat",}),"name":"玉書","race":"human","addition_shield":10,"evil":-1,"level":1,"talk_point":8,"age":14,"birthday":1115987018,"addition_armor":10,"heart_beat_rate":6,"max_ap":60,"unit":"位","mud_age":700,"supply_point":60,"startroom":"/open/world1/tmr/area/hotel","newbie":1,])
-autoload ({})

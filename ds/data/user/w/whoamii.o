@@ -1,5 +1,0 @@
-#/obj/user.c
-dbase (["MKS":1,"dex":2,"board_last_read":(["guitar_b":1113754186,"tmr_hotel_b":1124732726,]),"addition_damage":10,"Merits":(["tec":0,"bar":0,"sou":0,"wit":0,"bio":0,]),"unit":"¦ì","int":2,"id":"whoamii","con":2,"addition_shield":10,"max_hp":80,"guild_gifts":({5,5,5,5,}),"age":14,"str":2,"startroom":"/open/world1/tmr/area/hotel","mob_record":({"/open/world1/tmr/area/npc/dog",}),"cure_count":9,"actions":,"addition_armor":10,"mp":60,"heart_beat_rate":6,"attitude":"peaceful","mud_age":155,"newbie":1,"max_ap":60,"supply_point":18,"talk_point":6,"max_mp":60,"volume":7,"channels":({"chat","rumor","tchat",}),"race":"human","ap":60,"hp":80,"disable_type":" <²@µL©I§l>","combat_exp":0,"bellicosity":0,"DS_DATA_VERSION":19991107,"evil":-1,"level":1,"gender":"¨k©Ê","last_location":"/open/world1/tmr/area/street4","default_actions":,"exp":919,"birthday":1124733822,"name":"«§ÂP«§ÂP«§³á",])
-skills (["unarmed":1,"combat":2,])
-learned ([])
-autoload ({})

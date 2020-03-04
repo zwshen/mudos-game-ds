@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["int":2,"MKS":9,"talk_point":8,"con":4,"str":4,"age":14,"wound":(["left_arm":0,"left_leg":0,"right_arm":0,"head":0,"right_leg":0,"body":0,]),"last_location":"/open/world1/tmr/area/street4","DS_DATA_VERSION":19991107,"max_hp":120,"guild_gifts":({5,5,5,5,}),"gender":"女性","Merits":(["tec":0,"bio":0,"wit":0,"bar":0,"sou":0,]),"name":"想星兒","cure_count":9,"attitude":"peaceful","id":"dreamer","evil":12,"channels":({"chat","rumor","tchat",}),"race":"human","addition_shield":10,"default_actions":,"level":1,"heart_beat_rate":6,"birthday":1142259286,"ap":90,"mob_record":({"/open/world1/tmr/area/npc/traveler","/open/world1/tmr/area/npc/uo","/open/world1/tmr/area/npc/too","/open/world1/tmr/area/npc/dog","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"actions":,"addition_damage":10,"addition_armor":10,"max_ap":90,"volume":7,"hp":120,"combat_exp":6,"supply_point":60,"max_mp":60,"unit":"位","startroom":"/open/world1/tmr/area/hotel","mp":60,"exp":292,"heart_modify":1,"mud_age":2261,"newbie":1,"dex":3,])
-skills (["dodge":5,"combat":9,"unarmed":7,])
-learned (["dodge":21,"combat":177,"unarmed":19,])
-autoload ({"/obj/money/coin:300",})

@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["MKS":1,"Merits":(["tec":0,"wit":0,"bio":0,"sou":0,"bar":0,]),"addition_damage":10,"max_hp":80,"wound":(["left_arm":0,"right_leg":0,"right_arm":0,"head":0,"body":0,"left_leg":0,]),"age":14,"attitude":"peaceful","gender":"男性","id":"lukys","volume":7,"max_mp":60,"board_last_read":(["anoounce_b":1115996578,"tmr_hotel_b":1116422620,]),"name":"龍蝦光","default_actions":,"mob_record":({"/open/world1/tmr/area/npc/dog",}),"hp":80,"max_ap":60,"exp":991,"supply_point":60,"dex":2,"DS_DATA_VERSION":19991107,"int":2,"con":2,"ap":60,"heart_modify":0,"last_location":"/open/world1/wilfred/magic-card/room2","str":2,"evil":-1,"actions":,"cure_count":3,"guild_gifts":({5,5,5,5,}),"talk_point":8,"unit":"位","race":"human","channels":({"chat","rumor","tchat",}),"level":1,"mud_age":2739,"birthday":1115701558,"addition_shield":10,"startroom":"/open/world1/tmr/area/hotel","newbie":1,"mp":60,"heart_beat_rate":6,"addition_armor":10,])
-skills (["unarmed":0,"combat":0,])
-learned (["unarmed":1,"combat":2,])
-autoload ({})

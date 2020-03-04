@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["volume":7,"con":2,"mud_age":42,"unit":"位","addition_damage":10,"hp":80,"str":2,"actions":,"level":1,"DS_DATA_VERSION":19991107,"gender":"男性","default_actions":,"max_mp":110,"evil":-1,"name":"夢境之風","channels":({"chat","rumor","tchat",}),"max_hp":80,"guild_gifts":({5,5,5,5,}),"birthday":1168265661,"cure_count":3,"race":"celestial","addition_shield":10,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"startroom":"/open/world1/tmr/area/hotel","mp":110,"supply_point":6,"talk_point":3,"heart_beat_rate":6,"age":14,"attitude":"peaceful","addition_armor":10,"max_ap":60,"ap":60,"newbie":1,"exp":777,"id":"dmc","dex":2,"int":2,])
-autoload ({})

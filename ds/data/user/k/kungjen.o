@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["max_mp":110,"max_hp":80,"supply_point":60,"attitude":"peaceful","talk_point":8,"mp":110,"last_location":"/open/world1/cominging/area/flurry48","guild_gifts":({5,5,5,5,}),"max_ap":60,"ap":60,"heart_modify":0,"newbie":1,"exp":777,"dex":2,"hp":80,"int":2,"con":2,"str":2,"level":1,"heart_beat_rate":6,"volume":7,"id":"kungjen","default_actions":,"DS_DATA_VERSION":19991107,"evil":-1,"channels":({"chat","rumor","tchat",}),"addition_shield":10,"birthday":1188312115,"gender":"男性","name":"風","help":"newbie/","race":"celestial","addition_armor":10,"startroom":"/open/world1/tmr/area/hotel","unit":"位","addition_damage":10,"mud_age":1107,"wound":(["body":0,"head":0,"right_leg":0,"right_arm":0,"left_leg":0,"left_arm":0,]),"age":14,"actions":,"cure_count":13,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

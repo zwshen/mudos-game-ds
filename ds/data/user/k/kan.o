@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["int":2,"DS_DATA_VERSION":19991107,"actions":,"con":2,"age":14,"default_actions":,"str":2,"title":"八極門第七代俠客","class1":"八極門","cure_count":12,"mp":60,"unit":"位","attitude":"peaceful","last_location":"/open/world1/tmr/area/glade","gender":"男性","evil":-1,"addition_shield":10,"name":"星堂武","heart_beat_rate":6,"addition_damage":10,"addition_armor":10,"race":"human","channels":({"chat","rumor","tchat",}),"volume":7,"max_mp":60,"max_ap":60,"supply_point":24,"id":"kan","level":1,"guild_gifts":({10,7,0,3,}),"birthday":1146937355,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"family":(["family_name":"八極門","privs":-1,"title":"俠客","generation":7,]),"ap":60,"startroom":"/open/world1/tmr/area/hotel","hp":80,"bank":(["past":0,]),"max_hp":80,"mud_age":179,"newbie":1,"adv_class":1,"talk_point":8,"exp":777,"dex":2,])
-skills (["dodge":1,"parry":1,"horse-steps":1,"unarmed":1,"da-fork":1,"fork":1,"bagi_fist":1,])
-alias (["r":"recall","g":"get all",])
-autoload ({})

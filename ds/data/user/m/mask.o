@@ -1,8 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["war_art":0,"DS_DATA_VERSION":19991107,"addition_armor":10,"addition_damage":10,"ap":150,"mud_age":1844,"channels":({"chat","rumor","tchat",}),"age":14,"hp":200,"attitude":"peaceful","mp":150,"supply_point":141,"newbie":1,"exp":12307289,"dex":8,"int":8,"last_location":"/open/world1/tmr/area/inn_2f","con":8,"level":5,"birthday":1215164122,"talk_point":20,"cure_count":8,"Merits":(["tec":0,"sou":0,"bio":0,"wit":0,"bar":0,]),"evil":-1,"guild_rank":"成熟嫵媚的小姑娘","max_mp":150,"popularity":1088,"heart_modify":0,"guild_gifts":({5,5,5,5,}),"unit":"位","default_actions":,"actions":,"wound":(["left_arm":0,"body":0,"right_arm":0,"left_leg":0,"head":0,"right_leg":0,]),"race":"human","addition_shield":10,"max_ap":150,"id":"mask","board_last_read":(["tmr_hotel_b":1221200721,]),"startroom":"/open/world1/tmr/area/hotel","heart_beat_rate":6,"gender":"女性","str":8,"name":"面具","volume":7,"max_hp":200,])
-items ({})
-alias (["uu":"do uptime,date",])
-autoload ({})
-toDoList ([])
-solved ({})

@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["max_mp":60,"bank":(["past":865380144,]),"max_hp":80,"addition_damage":10,"talk_point":8,"mp":60,"max_ap":60,"ap":60,"newbie":1,"exp":777,"dex":2,"id":"pattern","int":2,"cure_count":9,"con":2,"hp":80,"str":2,"volume":7,"level":1,"unit":"位","DS_DATA_VERSION":19991107,"supply_point":60,"evil":-1,"channels":({"chat","rumor","tchat","bala",}),"gender":"男性","name":"模式","attitude":"peaceful","birthday":1177914434,"guild_gifts":({5,5,5,5,}),"startroom":"/open/world1/tmr/area/hotel","race":"human","heart_modify":0,"heart_beat_rate":6,"addition_shield":10,"mud_age":1755,"default_actions":,"wound":(["head":0,"right_arm":0,"right_leg":0,"left_leg":0,"body":0,"left_arm":0,]),"last_location":"/open/world1/tmr/area/big2room","age":14,"Merits":(["bio":0,"tec":0,"sou":0,"wit":0,"bar":0,]),"actions":,"addition_armor":10,])
-items ({})
-autoload ({"/open/enhance/30_atk","/open/enhance/10_tec","/open/enhance/10_sou",})
-toDoList ([])
-solved ({})

@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["exp":1184,"default_actions":,"dex":2,"mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"DS_DATA_VERSION":19991107,"int":2,"con":2,"addition_shield":10,"str":2,"unit":"位","addition_armor":10,"heart_beat_rate":6,"mp":60,"talk_point":8,"guild_gifts":({5,5,5,5,}),"max_ap":60,"supply_point":36,"gender":"男性","ap":60,"id":"harvard","heart_modify":1,"last_location":"/open/world1/tmr/area/street4","mud_age":273,"channels":({"chat","rumor","tchat",}),"name":"魯西歐","race":"human","addition_damage":10,"Merits":(["bio":0,"bar":0,"tec":0,"sou":0,"wit":0,]),"age":14,"level":1,"max_hp":80,"birthday":1118355220,"cure_count":18,"actions":,"attitude":"peaceful","startroom":"/open/world1/tmr/area/hotel","MKS":3,"hp":79,"max_mp":60,"evil":5,"volume":7,"newbie":1,])
-skills (["dodge":0,"unarmed":1,"dagger":1,"parry":0,"combat":2,])
-learned (["dodge":2,"unarmed":3,"dagger":6,"parry":1,"combat":12,])
-autoload ({"/obj/money/coin:2",})

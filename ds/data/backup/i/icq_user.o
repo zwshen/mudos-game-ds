@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["supply_point":60,"max_ap":60,"board_last_read":(["tmr_hotel_b":1002355702,]),"addition_armor":10,"addition_shield":10,"DS_DATA_VERSION":19991107,"heart_modify":0,"skill":(["literate":18,]),"mud_age":121248,"env":(["brief":1,]),"wound":(["right_leg":0,"left_arm":0,"head":0,"left_leg":0,"body":0,"right_arm":0,]),"Merits":(["tec":0,"sou":0,"wit":0,"bio":0,"bar":0,]),"gender":"男性","heart_beat_rate":6,"max_mp":75,"name":"我愛妳","channels":({"chat","rumor","tchat",}),"race":"human","level":1,"guild_gifts":({5,5,5,5,}),"birthday":1002195364,"max_hp":80,"actions":,"exp":777,"dex":2,"int":2,"con":2,"startroom":"/open/world1/tmr/area/hotel","last_location":"/open/world1/wilfred/sand/room16","mp":75,"ap":60,"str":2,"newbie":1,"id":"icq","cure_count":2,"hp":80,"talk_point":8,"unit":"位","attitude":"peaceful","evil":-1,"addition_damage":10,"default_actions":,"addition":(["int":1,]),"age":15,"volume":7,])
-skills (["literate":19,"swim":19,"chess":13,])
-learned (["literate":0,"swim":0,"chess":307,])
-alias (["sell2":"do city,n,n,n,n,w,l on,l","sell1":"do l off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,e,n,n,nw,eu,ne,e,e,ne,e,n,n,l on,l","lake":"do l off,e,n,e,ne,n,w,s,northup,n,n,enter,use 竹竿,l on,l","pear":"do l off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,e,n,n,nw,eu,ne,e,e,ne,e,e,e,e,n,n,n,n,ne,n,n,n,jump 大石,push 石壁,w,search 小洞,l on","city":"do l off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,enter,n,n,n,n,n,n,n,n,l on,l","travelbag":"do l off,e,n,e,se,eu,se,se,se,se,e,l on,l",])
-autoload ({})

@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["int":2,"mob_record":({"/open/world1/cominging/area/npc/sparrow",}),"wound":(["left_arm":0,"right_leg":0,"left_leg":0,"right_arm":0,"body":0,"head":0,]),"con":2,"str":2,"cure_count":11,"DS_DATA_VERSION":19991107,"actions":,"attitude":"peaceful","guild_gifts":({5,5,5,5,}),"volume":7,"max_mp":60,"combat_exp":1,"ap":60,"default_actions":,"MKS":1,"addition_shield":10,"evil":-1,"Merits":(["sou":0,"bio":0,"wit":0,"tec":0,"bar":0,]),"channels":({"chat","rumor","tchat",}),"gender":"男性","age":14,"id":"hon","addition_armor":10,"heart_beat_rate":6,"name":"阿達","race":"human","level":1,"talk_point":8,"max_ap":60,"birthday":1110006931,"supply_point":60,"unit":"位","heart_modify":0,"last_location":"/open/world1/cominging/area/bsouth2","mp":60,"mud_age":477,"startroom":"/open/world1/tmr/area/hotel","hp":74,"addition_damage":10,"newbie":1,"exp":1143,"max_hp":80,"dex":2,])
-skills (["combat":2,"dodge":1,"unarmed":2,])
-learned (["combat":13,"dodge":2,"unarmed":2,])
-autoload ({})

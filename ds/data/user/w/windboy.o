@@ -1,7 +1,0 @@
-#/obj/user.c
-dbase (["hp":49,"bank":(["past":0,]),"volume":7,"disable_type":" <毫無呼吸>","env":([]),"unit":"位","Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"MKS":7,"war_art":1,"talk_point":8,"guild_rank":"凌雲寺第五代弟子","age":14,"title":"凌雲寺第五代弟子","last_location":"/open/world1/tmr/area/street4","newbie":1,"wound":(["left_leg":0,"right_arm":0,"head":0,"left_arm":0,"body":0,"right_leg":0,]),"adv_class":1,"cure_count":14,"id":"windboy","exp":15240,"family":(["privs":-1,"family_name":"凌雲寺","title":"弟子","generation":5,]),"dex":2,"war_score":52,"int":2,"class1":"凌雲寺","con":2,"mud_age":915,"combat_exp":1,"guild_gifts":({5,5,5,5,}),"attitude":"peaceful","str":2,"level":1,"supply_point":60,"actions":,"DS_DATA_VERSION":19991107,"gender":"男性","evil":5,"name":"虛不","mob_record":({"/open/world1/tmr/area/npc/farmer","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog","/open/world1/acme/bonze/npc/dog",}),"addition_shield":10,"max_mp":60,"channels":({"chat","rumor","tchat",}),"heart_beat_rate":6,"birthday":1166596548,"heart_modify":0,"max_hp":80,"race":"human","bellicosity":0,"addition_armor":10,"gain_bonze_exp":2,"startroom":"/open/world1/tmr/area/hotel","popularity":1,"mp":41,"default_actions":,"addition_damage":10,"wimpy":50,"max_ap":60,"ap":46,])
-skills (["unarmed":5,"combat":6,"dodge":3,])
-learned (["combat":87,"unarmed":30,"dodge":7,])
-spells (["recite-sutra":2,])
-spell_learned (["recite-sutra":7,])
-autoload ({})

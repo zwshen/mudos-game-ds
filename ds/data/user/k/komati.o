@@ -1,8 +1,0 @@
-#/obj/user.c
-dbase (["DS_DATA_VERSION":19991107,"actions":,"heart_modify":0,"supply_point":60,"race":"human","max_mp":60,"age":14,"max_hp":80,"guild_gifts":({5,5,5,5,}),"heart_beat_rate":6,"help":"robot","addition_damage":10,"channels":({"chat","rumor","tchat",}),"talk_point":8,"birthday":1204044412,"default_actions":,"last_location":"/open/world1/tmr/area/ms1","id":"komati","mp":60,"newbie":1,"volume":7,"exp":777,"dex":2,"hp":80,"attitude":"peaceful","gender":"男性","int":2,"wound":(["left_leg":0,"right_leg":0,"right_arm":0,"head":0,"left_arm":0,"body":0,]),"name":"佐佐木小次郎","con":2,"addition_shield":10,"str":2,"level":1,"max_ap":60,"unit":"位","ap":60,"mud_age":32458,"evil":-1,"startroom":"/open/world1/tmr/area/hotel","Merits":(["bio":0,"tec":0,"sou":0,"wit":0,"bar":0,]),"cure_count":5,"addition_armor":10,])
-skills (["strong-body":3,])
-learned (["strong-body":30,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

@@ -1,8 +1,0 @@
-#/obj/user.c
-dbase (["war_score":5,"volume":7,"evil":11,"gender":"男性","bellicosity":0,"heart_modify":0,"last_location":"/open/world1/tmr/area/hotel","actions":,"name":"御影","channels":({"chat","rumor","tchat",}),"age":14,"addition_damage":10,"birthday":1174124996,"bank":(["past":0,]),"default_actions":,"race":"celestial","max_mp":110,"startroom":"/open/world1/tmr/area/hotel","max_hp":80,"heart_beat_rate":6,"mp":110,"max_ap":60,"cure_count":15,"addition_shield":10,"ap":60,"attitude":"peaceful","mob_record":({"/open/world1/tmr/area/npc/dog","/open/world1/wilfred/sand/npc/npc4","/open/world1/cominging/area/npc/traveller","/open/world1/cominging/area/npc/traveller","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog","/open/world1/acme/bonze/npc/dog",}),"mud_age":1184,"newbie":1,"exp":1841,"combat_exp":1,"talk_point":8,"dex":2,"int":2,"id":"len","supply_point":60,"hp":80,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"con":2,"str":2,"wound":(["head":0,"left_leg":0,"right_leg":0,"left_arm":0,"right_arm":0,"body":0,]),"disable_type":" <毫無呼吸>","addition_armor":10,"level":1,"MKS":10,"unit":"位","DS_DATA_VERSION":19991107,"guild_gifts":({5,5,5,5,}),])
-skills (["combat":5,"dagger":2,"unarmed":4,"blade":1,"sword":0,"block":0,"parry":1,"dodge":1,])
-learned (["combat":13,"dagger":0,"unarmed":15,"parry":1,"dodge":8,])
-alias (["/":"recall","q":"get all from corpse","qq":"sac corpse",])
-autoload ({"/obj/money/coin:334",})
-toDoList ([])
-solved ({})

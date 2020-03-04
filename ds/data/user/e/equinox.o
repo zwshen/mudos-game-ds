@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions (["ill_fashao":25,])
-dbase (["age":14,"DS_DATA_VERSION":19991107,"max_hp":80,"last_location":"/open/world1/tmr/area/hotel","ap":60,"volume":7,"guild_gifts":({5,5,5,5,}),"board_last_read":(["tmr_hotel_b":1218515010,]),"channels":({"chat","rumor","tchat",}),"mud_age":1706,"hp":80,"addition_shield":10,"newbie":1,"exp":777,"dex":2,"int":2,"mp":60,"attitude":"peaceful","con":2,"supply_point":60,"level":1,"birthday":1149603780,"addition_armor":10,"talk_point":8,"evil":-1,"cure_count":14,"addition_damage":10,"max_mp":60,"heart_modify":0,"Merits":(["bar":0,"bio":0,"tec":0,"sou":0,"wit":0,]),"race":"human","max_ap":60,"default_actions":,"id":"equinox","wound":(["left_arm":0,"body":0,"right_arm":0,"left_leg":0,"head":0,"right_leg":0,]),"actions":,"unit":"位","startroom":"/open/world1/tmr/area/hotel","gender":"男性","str":2,"name":"藍星","heart_beat_rate":6,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

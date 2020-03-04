@@ -1,8 +1,0 @@
-#/obj/user.c
-dbase (["DS_DATA_VERSION":19991107,"env":([]),"race":"celestial","cure_count":16,"popularity":21,"actions":,"addition_shield":10,"war_art":24,"supply_point":60,"max_mp":110,"channels":({"chat","rumor","tchat",}),"age":14,"unit":"位","last_location":"/open/world1/wilfred/sand/room36_3w","heart_modify":0,"max_hp":80,"birthday":1201921925,"id":"cuteboy","heart_beat_rate":6,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"talk_point":8,"addition_armor":10,"default_actions":,"newbie":1,"exp":145593,"dex":2,"mp":110,"gender":"女性","int":2,"guild_gifts":({5,5,5,5,}),"name":"超口愛","con":2,"hp":80,"str":2,"volume":7,"level":1,"attitude":"peaceful","wound":(["body":0,"right_arm":0,"right_leg":0,"head":0,"left_leg":0,"left_arm":0,]),"addition_damage":10,"max_ap":60,"evil":-1,"ap":60,"mud_age":17704,"startroom":"/open/world1/tmr/area/hotel",])
-skills (["strong-body":8,])
-learned (["strong-body":17,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

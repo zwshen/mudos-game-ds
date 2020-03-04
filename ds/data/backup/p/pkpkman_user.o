@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["board_last_read":(["tmr_hotel_b":1058964972,"anoounce_b":1058199082,]),"family":(["title":"教徒","privs":-1,"family_name":"神武教","generation":3,]),"channels":({"chat","rumor","tchat","god","god",}),"attitude":"peaceful","level":25,"race":"human","actions":,"age":61,"birthday":1058706256,"max_mp":750,"heart_modify":0,"wound":(["right_leg":0,"left_arm":0,"left_leg":0,"body":0,"head":0,"right_arm":0,]),"max_ap":555,"mud_age":4114270,"last_location":"/open/world1/acme/area/stone","gender":"男性","startroom":"/open/world1/tmr/area/hotel","id":"pkpkman","name":"無奇","talk_point":80,"newbie":1,"combat_exp":766754,"cure_count":3,"mp":750,"Merits":(["sou":1,"tec":2,"bio":2,"wit":1,"bar":1,]),"heart_beat_rate":6,"volume":7,"default_actions":,"addition_shield":10,"evil":-1,"exp":463142291,"dex":38,"int":48,"addition_armor":10,"con":35,"str":13,"max_hp":740,"hp":740,"env":([]),"bank":(["past":6420593,]),"ap":555,"addition_damage":10,"unit":"位","supply_point":547,"adv_class":1,"class1":"神武教","MKS":56943,"DS_DATA_VERSION":19991107,"guild_rank":"神武教之烈焰破空","popularity":5856,"title":"神武教第三代教徒","guild_gifts":({5,5,5,5,}),])
-skills (["mirage-steps":75,"meditate":75,"parry":50,"godsword":50,"sword":70,"dodge":70,])
-spells (["god-fire":75,"summon_ghost":75,])
-autoload ({"/obj/money/coin:5",})

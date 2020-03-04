@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["max_hp":80,"addition_damage":10,"talk_point":5,"guild_gifts":({5,5,5,5,}),"mp":60,"max_ap":60,"ap":60,"default_actions":,"newbie":1,"exp":777,"hp":80,"dex":2,"int":2,"volume":7,"con":2,"str":2,"level":1,"id":"ice","last_location":"/open/world1/tmr/area/hotel","DS_DATA_VERSION":19991107,"evil":-1,"channels":({"chat","rumor","tchat",}),"birthday":1145357817,"gender":"¤k©Ê","name":"§N­YÁ÷","race":"human","startroom":"/open/world1/tmr/area/hotel","heart_beat_rate":6,"mud_age":70,"cure_count":5,"age":14,"addition_shield":10,"unit":"¦ì","supply_point":10,"actions":,"attitude":"peaceful","addition_armor":10,"Merits":(["wit":0,"bar":0,"bio":0,"tec":0,"sou":0,]),"max_mp":60,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

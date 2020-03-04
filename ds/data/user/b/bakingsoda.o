@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["volume":7,"con":2,"mud_age":1185,"unit":"位","board_last_read":(["tmr_hotel_b":1167390845,]),"addition_damage":10,"hp":84,"str":2,"actions":,"level":1,"DS_DATA_VERSION":19991107,"gender":"男性","default_actions":,"max_mp":66,"evil":-1,"name":"小強牌工奴","channels":({"chat","rumor","tchat",}),"max_hp":84,"guild_gifts":({5,5,5,5,}),"birthday":1167635183,"cure_count":19,"race":"evil","addition_shield":10,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"startroom":"/open/world1/tmr/area/hotel","mp":66,"supply_point":60,"talk_point":8,"heart_beat_rate":6,"age":14,"attitude":"peaceful","addition_armor":10,"wound":(["left_leg":0,"right_arm":0,"head":0,"left_arm":0,"body":0,"right_leg":0,]),"max_ap":100,"ap":100,"newbie":1,"exp":777,"id":"bakingsoda","dex":2,"heart_modify":0,"int":2,])
-autoload ({})

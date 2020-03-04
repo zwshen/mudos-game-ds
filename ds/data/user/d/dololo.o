@@ -1,8 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["race":"human","DS_DATA_VERSION":19991107,"addition_damage":10,"supply_point":28,"actions":,"class1":"少帥軍","default_actions":,"max_mp":60,"age":14,"guild_rank":"少帥軍之用刀新手","channels":({"chat","rumor","tchat",}),"max_hp":80,"id":"dololo","birthday":1194182155,"attitude":"peaceful","title":"少帥軍第二代軍人","newbie":1,"adv_class":1,"addition_shield":10,"exp":737,"unit":"位","dex":2,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"int":2,"family":(["family_name":"少帥軍","privs":-1,"generation":2,"title":"軍人",]),"gender":"男性","con":2,"bank":(["past":1970,]),"talk_point":8,"env":([]),"mp":60,"name":"兜羅","str":2,"hp":80,"level":1,"last_location":"/open/world1/tmr/dragoncity/hotel","volume":7,"addition_armor":10,"evil":-1,"heart_beat_rate":6,"max_ap":60,"cure_count":14,"ap":60,"mud_age":208,"guild_gifts":({8,8,0,4,}),"startroom":"/open/world1/tmr/area/hotel",])
-skills (["blade":5,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

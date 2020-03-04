@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["hp":80,"cure_count":3,"supply_point":6,"volume":7,"attitude":"peaceful","unit":"¦ì","newbie":1,"exp":777,"dex":2,"int":2,"Merits":(["bio":0,"tec":0,"sou":0,"wit":0,"bar":0,]),"con":2,"str":2,"level":1,"evil":-1,"DS_DATA_VERSION":19991107,"id":"tetetete","channels":({"chat","rumor","tchat",}),"default_actions":,"last_location":"/open/world1/acme/area/corridor","race":"celestial","birthday":1163252553,"mud_age":44,"talk_point":3,"heart_beat_rate":6,"gender":"¨k©Ê","startroom":"/open/world1/tmr/area/hotel","name":"°Õ","actions":,"env":([]),"addition_shield":10,"max_mp":110,"max_ap":60,"max_hp":80,"addition_armor":10,"guild_gifts":({5,5,5,5,}),"ap":60,"mp":110,"age":14,"addition_damage":10,])
-autoload ({})

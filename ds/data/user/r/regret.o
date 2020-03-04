@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["default_actions":,"addition_shield":10,"DS_DATA_VERSION":19991107,"heart_beat_rate":6,"volume":7,"addition_armor":10,"addition_damage":10,"gender":"¨k©Ê","unit":"¦ì","actions":,"name":"¿ò¾Ñ","ap":60,"race":"human","channels":({"chat","rumor","tchat",}),"max_hp":80,"guild_gifts":({5,5,5,5,}),"id":"regret","level":1,"birthday":1148799042,"startroom":"/open/world1/tmr/area/hotel","hp":80,"cure_count":18,"newbie":1,"attitude":"peaceful","exp":777,"Merits":(["bio":0,"tec":0,"wit":0,"bar":0,"sou":0,]),"dex":2,"int":2,"con":2,"str":2,"max_ap":60,"supply_point":60,"heart_modify":0,"wound":(["left_arm":0,"right_arm":0,"left_leg":0,"right_leg":0,"body":0,"head":0,]),"max_mp":60,"age":14,"mud_age":1763,"talk_point":7,"mp":60,"last_location":"/open/world1/wilfred/newbie/eq_bank","evil":-1,])
-autoload ({})

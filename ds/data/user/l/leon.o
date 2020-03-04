@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["max_mp":110,"max_hp":80,"board_last_read":(["tmr_hotel_b":1172596283,]),"last_location":"/open/world1/tmr/area/river_road","default_actions":,"mp":110,"heart_beat_rate":6,"newbie":1,"exp":777,"dex":2,"int":2,"volume":7,"max_ap":60,"id":"leon","con":2,"ap":60,"str":2,"level":1,"hp":80,"evil":-1,"DS_DATA_VERSION":19991107,"unit":"位","gender":"男性","name":"雪飛雲","channels":({"chat","rumor","tchat",}),"guild_gifts":({5,5,5,5,}),"birthday":1172581145,"talk_point":8,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"race":"celestial","addition_shield":10,"startroom":"/open/world1/tmr/area/hotel","cure_count":5,"addition_armor":10,"attitude":"peaceful","supply_point":60,"wound":(["left_leg":0,"head":0,"right_leg":0,"body":0,"left_arm":0,"right_arm":0,]),"age":14,"mud_age":673,"addition_damage":10,"actions":,"heart_modify":0,])
-autoload ({})
-toDoList ([])
-solved ({})

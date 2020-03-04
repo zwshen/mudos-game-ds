@@ -1,9 +1,0 @@
-#/obj/user.c
-dbase (["addition_shield":10,"actions":,"heart_beat_rate":6,"DS_DATA_VERSION":19991107,"race":"evil","max_mp":66,"max_hp":84,"channels":({"chat","rumor","tchat",}),"help":"class/wind","attitude":"peaceful","birthday":1196247536,"id":"riri","last_location":"/open/world1/cominging/area/fgo3","mp":50,"gender":"¨k©Ê","name":"®¦®¦","bank":(["past":2,]),"cure_count":6,"unit":"¦ì","max_ap":100,"MKS":2,"startroom":"/open/world1/tmr/area/hotel","ap":100,"addition_armor":10,"supply_point":60,"guild_gifts":({5,5,5,5,}),"default_actions":,"age":14,"env":([]),"addition_damage":10,"Merits":(["bar":0,"bio":0,"tec":0,"sou":0,"wit":0,]),"war_score":3,"talk_point":8,"newbie":1,"volume":7,"exp":1182,"mob_record":({"/open/world1/wilfred/sand/npc/npc4","/open/world1/wilfred/sand/npc/npc4",}),"dex":2,"int":2,"wound":(["body":0,"right_arm":0,"right_leg":0,"head":0,"left_leg":0,"left_arm":0,]),"con":2,"hp":12,"str":2,"level":1,"evil":-1,"heart_modify":1,"mud_age":1053,])
-skills (["strong-body":3,"dodge":2,"combat":4,"sword":3,])
-learned (["strong-body":12,"dodge":0,"combat":30,"sword":19,])
-items ({})
-alias (["-":"sac corpse","v":"get all from corpse",])
-autoload ({"/obj/money/coin:20",})
-toDoList ([])
-solved ({})

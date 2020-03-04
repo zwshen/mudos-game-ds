@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["board_last_read":(["tmr_hotel_b":1175829415,]),"actions":,"age":14,"evil":-1,"gender":"男性","addition_damage":10,"name":"路過","channels":({"chat","rumor","tchat",}),"unit":"位","birthday":1175829375,"default_actions":,"max_mp":60,"race":"human","max_hp":80,"startroom":"/open/world1/tmr/area/hotel","heart_beat_rate":6,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"mp":60,"cure_count":10,"addition_shield":10,"attitude":"peaceful","max_ap":60,"ap":60,"mud_age":146,"newbie":1,"exp":777,"supply_point":20,"talk_point":8,"dex":2,"int":2,"id":"police","addition_armor":10,"hp":80,"guild_gifts":({5,5,5,5,}),"con":2,"str":2,"level":1,"DS_DATA_VERSION":19991107,"volume":7,])
-autoload ({})
-toDoList ([])
-solved ({})

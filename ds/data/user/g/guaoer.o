@@ -1,9 +1,0 @@
-#/obj/user.c
-conditions (["ill_dongshang":16,])
-dbase (["DS_DATA_VERSION":19991107,"cure_count":3,"actions":,"race":"human","addition_damage":10,"max_mp":60,"attitude":"peaceful","age":14,"Merits":(["wit":0,"bar":0,"bio":0,"tec":0,"sou":0,]),"supply_point":6,"max_hp":80,"channels":({"chat","rumor","tchat",}),"talk_point":3,"birthday":1204592589,"heart_beat_rate":6,"id":"guaoer","mp":60,"newbie":1,"exp":777,"dex":2,"addition_shield":10,"hp":80,"volume":7,"default_actions":,"gender":"男性","int":2,"name":"楊過","con":2,"unit":"位","str":2,"level":1,"max_ap":60,"guild_gifts":({5,5,5,5,}),"ap":60,"mud_age":38,"evil":-1,"startroom":"/open/world1/tmr/area/hotel","addition_armor":10,"last_location":"/open/world1/tmr/gumu/mumen",])
-skills (["strong-body":1,])
-learned (["strong-body":0,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

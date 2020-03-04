@@ -1,2 +1,0 @@
-#/obj/login.c
-dbase (["email":"","name":"琪琪","last_from":"h161-210-68-59.seed.net.tw","last_on":1118987203,"race":"human","password":"vgLsVJ9k3bnnY","id":"gigi","error_login":({"於[Sun Jun 30 08:26:33 2002]嘗試由[u107-76.u203-204.giga.net.tw]連線進入失敗。","於[Fri Jul 12 20:05:47 2002]嘗試由[61-217-5-69.HINET-IP.hinet.net]連線進入失敗。","於[Sun Dec  1 12:10:40 2002]嘗試由[61-217-4-27.HINET-IP.hinet.net]連線進入失敗。","於[Mon Feb  3 22:58:24 2003]嘗試由[61-229-199-247.HINET-IP.hinet.net]連線進入失敗。","於[Tue Feb 27 17:04:53 2007]嘗試由[122.127.33.104]連線進入失敗。",}),"new_mail":1,"level":28,"body":"/obj/user",])

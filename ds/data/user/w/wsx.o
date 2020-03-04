@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["max_ap":60,"heart_modify":0,"addition_shield":10,"ap":60,"hp":80,"unit":"¦ì","default_actions":,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"addition_armor":10,"volume":7,"addition_damage":10,"last_location":"/open/world1/wilfred/sand/room16","talk_point":8,"heart_beat_rate":6,"newbie":1,"exp":777,"id":"wsx","dex":2,"int":2,"guild_gifts":({5,5,5,5,}),"age":14,"con":2,"mud_age":312,"str":2,"level":1,"wound":(["right_arm":0,"body":0,"left_leg":0,"right_leg":0,"head":0,"left_arm":0,]),"gender":"¤k©Ê","name":"´Hº«¬£","evil":-1,"DS_DATA_VERSION":19991107,"channels":({"chat","rumor","tchat",}),"actions":,"birthday":1165133322,"race":"human","max_mp":60,"cure_count":1,"startroom":"/open/world1/tmr/area/hotel","attitude":"peaceful","max_hp":80,"supply_point":42,"env":([]),"mp":60,])
-skills (["chess":2,])
-learned (["chess":13,])
-alias (["studychess":"do look off,e,n,w,w,w,w,w,w,w,w,w,n,w,w,s,s,s,s,s,w,s,sit,look on,l",])
-autoload ({})

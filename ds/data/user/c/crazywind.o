@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions (["ill_shanghan":24,])
-dbase (["evil":-1,"gender":"女性","cure_count":10,"default_actions":,"name":"瘋狂心情","Merits":(["bio":0,"tec":0,"sou":0,"wit":0,"bar":0,]),"startroom":"/open/world1/tmr/area/hotel","age":14,"help":"wiz/","supply_point":20,"talk_point":8,"guild_gifts":({5,5,5,5,}),"race":"evil","volume":7,"actions":,"addition_shield":10,"attitude":"peaceful","max_ap":100,"last_location":"/open/world1/cominging/area/dragon/dragon_door","ap":100,"heart_beat_rate":6,"mud_age":144,"addition_armor":10,"max_mp":66,"unit":"位","newbie":1,"exp":777,"max_hp":84,"dex":2,"hp":84,"int":2,"id":"crazywind","DS_DATA_VERSION":19991107,"con":2,"str":2,"level":1,"addition_damage":10,"channels":({"chat","rumor","tchat",}),"mp":66,"birthday":1178825107,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

@@ -1,9 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["DS_DATA_VERSION":19991107,"race":"ogre","actions":,"popularity":3,"max_mp":54,"war_art":3,"channels":({"chat","rumor","tchat",}),"max_hp":120,"heart_modify":0,"birthday":1200828256,"id":"yellowmoon","heart_beat_rate":6,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"gender":"女性","mp":54,"name":"黃月","guild_gifts":({5,5,5,5,}),"attitude":"peaceful","max_ap":66,"startroom":"/open/world1/tmr/area/hotel","ap":66,"env":([]),"cure_count":13,"addition_shield":10,"age":14,"unit":"位","supply_point":60,"last_location":"/open/world1/acme/area/pass1","newbie":1,"talk_point":8,"default_actions":,"addition_armor":10,"exp":41866,"dex":2,"int":2,"con":2,"str":2,"hp":120,"level":1,"volume":7,"wound":(["body":0,"right_arm":0,"head":0,"right_leg":0,"left_arm":0,"left_leg":0,]),"addition_damage":10,"evil":-1,"mud_age":9144,])
-skills (["strong-body":7,])
-learned (["strong-body":65,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

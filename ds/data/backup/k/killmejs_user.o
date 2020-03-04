@@ -1,6 +1,0 @@
-#/obj/user.c
-ghost 1
-dbase (["exp":957,"guild_gifts":({5,5,5,5,}),"dex":2,"DS_DATA_VERSION":19991107,"ap":60,"int":2,"age":14,"con":2,"str":2,"mp":1,"default_actions":,"max_mp":60,"hp":1,"heart_beat_rate":6,"volume":7,"cure_count":3,"addition_shield":10,"Merits":(["wit":0,"tec":0,"bar":0,"bio":0,"sou":0,]),"evil":-1,"addition_armor":10,"max_ap":60,"max_hp":80,"gender":"男性","channels":({"chat","rumor","tchat",}),"id":"killmejs","name":"爽","race":"human","level":1,"unit":"位","disable_type":" <毫無呼吸>","mob_record":({"/open/world1/tmr/area/npc/dog",}),"birthday":1056215068,"supply_point":6,"last_location":"/open/world2/anfernee/start/prayroom","addition_damage":10,"mud_age":94,"startroom":"/open/world2/lichi_town_2/map_5_26","MKS":1,"newbie":1,"talk_point":3,"actions":,"attitude":"peaceful",])
-skills ([])
-learned ([])
-autoload ({})

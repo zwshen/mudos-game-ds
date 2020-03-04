@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["addition_damage":10,"talk_point":8,"mp":110,"max_ap":60,"ap":60,"default_actions":,"unit":"位","newbie":1,"exp":777,"dex":2,"volume":7,"hp":80,"int":2,"con":2,"str":2,"level":1,"id":"obo","DS_DATA_VERSION":19991107,"evil":-1,"channels":({"chat","rumor","tchat",}),"birthday":1187319682,"gender":"男性","name":"呆呆向前衝","help":"class/advanced_thief","race":"celestial","heart_beat_rate":6,"startroom":"/open/world1/tmr/area/hotel","age":14,"cure_count":15,"mud_age":218,"addition_shield":10,"supply_point":30,"actions":,"addition_armor":10,"Merits":(["bio":0,"tec":0,"sou":0,"wit":0,"bar":0,]),"attitude":"peaceful","max_mp":110,"max_hp":80,"guild_gifts":({5,5,5,5,}),])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

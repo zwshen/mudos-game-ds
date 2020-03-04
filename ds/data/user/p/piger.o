@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["hp":80,"volume":7,"cure_count":5,"supply_point":10,"addition_shield":10,"heart_beat_rate":6,"attitude":"peaceful","newbie":1,"exp":777,"dex":2,"int":2,"addition_armor":10,"con":2,"str":2,"level":1,"id":"piger","DS_DATA_VERSION":19991107,"evil":-1,"addition_damage":10,"mud_age":70,"channels":({"chat","rumor","tchat",}),"unit":"位","gender":"男性","birthday":1193019046,"age":14,"name":"豬人","default_actions":,"race":"human","startroom":"/open/world1/tmr/area/hotel","actions":,"max_mp":60,"max_hp":80,"guild_gifts":({5,5,5,5,}),"mp":60,"max_ap":60,"Merits":(["bio":0,"tec":0,"sou":0,"wit":0,"bar":0,]),"ap":60,"talk_point":5,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

@@ -1,5 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["int":2,"talk_point":20,"addition_damage":10,"addition_armor":10,"con":2,"volume":7,"max_ap":60,"mp":60,"str":2,"supply_point":141,"ap":60,"DS_DATA_VERSION":19991107,"unit":"位","heart_modify":0,"actions":,"gender":"男性","name":"小肉包","Merits":(["tec":0,"sou":0,"bar":0,"bio":0,"wit":0,]),"max_hp":80,"age":14,"default_actions":,"id":"porkbun","wound":(["left_arm":0,"left_leg":0,"right_arm":0,"head":0,"right_leg":0,"body":0,]),"channels":({"chat","rumor","tchat",}),"race":"human","popularity":9,"level":5,"cure_count":18,"max_mp":60,"birthday":1144919629,"guild_rank":"四處流浪的冒險者","attitude":"peaceful","hp":74,"evil":-1,"addition_shield":10,"guild_gifts":({5,5,5,5,}),"startroom":"/open/world1/tmr/area/hotel","exp":80480,"last_location":"/open/world1/tmr/area/street4","heart_beat_rate":6,"mud_age":1195,"newbie":1,"dex":2,])
-skills (["hungchen-sword":11,])
-autoload ({})

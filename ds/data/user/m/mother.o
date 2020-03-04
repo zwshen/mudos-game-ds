@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["mp":60,"mud_age":14329,"wound":(["body":0,"left_leg":0,"head":0,"left_arm":0,"right_arm":0,"right_leg":0,]),"default_actions":,"actions":,"max_mp":60,"channels":({"chat","rumor","tchat",}),"newbie":1,"board_last_read":(["tmr_hotel_b":1482538400,]),"exp":777,"max_hp":80,"dex":2,"int":2,"max_ap":60,"addition_shield":10,"con":2,"ap":60,"last_location":"/open/world1/tmr/area/street4","str":2,"level":1,"birthday":1148308234,"addition_armor":10,"hp":80,"age":14,"volume":7,"attitude":"peaceful","unit":"¦ì","nickname":"[1;35mÅÚ²ú¤k¤ý[0m","guild_gifts":({5,5,5,5,}),"gender":"¤k©Ê","addition_damage":10,"cure_count":17,"name":"¤ñ¥q¦N","Merits":(["bar":0,"sou":0,"tec":0,"bio":0,"wit":0,]),"startroom":"/open/world1/tmr/area/hotel","heart_modify":0,"race":"human","supply_point":60,"talk_point":8,"id":"mother","DS_DATA_VERSION":19991107,"heart_beat_rate":6,"evil":-1,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

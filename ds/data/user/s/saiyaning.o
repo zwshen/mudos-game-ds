@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["hp":80,"volume":7,"unit":"位","Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"talk_point":3,"age":14,"newbie":1,"cure_count":3,"id":"saiyaning","exp":777,"dex":2,"int":2,"con":2,"mud_age":42,"guild_gifts":({5,5,5,5,}),"attitude":"peaceful","str":2,"level":1,"supply_point":6,"actions":,"DS_DATA_VERSION":19991107,"gender":"男性","evil":-1,"name":"折翼天使","addition_shield":10,"max_mp":60,"channels":({"chat","rumor","tchat",}),"heart_beat_rate":6,"birthday":1166887543,"max_hp":80,"race":"human","addition_armor":10,"startroom":"/open/world1/tmr/area/hotel","mp":60,"default_actions":,"addition_damage":10,"max_ap":60,"ap":60,])
-autoload ({})

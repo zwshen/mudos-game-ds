@@ -1,9 +1,0 @@
-#/obj/user.c
-dbase (["popularity":0,"max_ap":100,"mp":66,"ap":100,"talk_point":8,"hp":50,"default_actions":,"newbie":1,"exp":647,"dex":2,"volume":7,"int":2,"con":2,"str":3,"level":1,"war_score":1,"id":"kaoh","DS_DATA_VERSION":19991107,"evil":11,"mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove",}),"channels":({"chat","rumor","tchat",}),"heart_beat_rate":6,"birthday":1190897219,"gender":"男性","name":"高義","race":"evil","last_location":"/open/world1/tmr/area/street3","startroom":"/open/world1/tmr/area/hotel","guild_gifts":({5,5,5,5,}),"cure_count":0,"mud_age":1495,"unit":"位","wound":(["right_leg":0,"right_arm":0,"body":0,"head":0,"left_leg":0,"left_arm":0,]),"bank":(["past":4,]),"age":14,"supply_point":60,"addition_shield":10,"attitude":"peaceful","war_art":0,"actions":,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"MKS":4,"addition_armor":10,"max_mp":66,"heart_modify":0,"max_hp":84,"addition_damage":10,])
-skills (["parry":1,"combat":4,"strong-body":2,"blade":1,"unarmed":3,"block":1,"dodge":2,])
-learned (["parry":1,"unarmed":15,"dodge":6,"combat":19,"strong-body":18,])
-items ({})
-alias (["g":"get all from corpse","sa":"sac corpse",])
-autoload ({})
-toDoList ([])
-solved ({})

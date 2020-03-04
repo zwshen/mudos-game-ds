@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["talk_point":5,"heart_beat_rate":6,"DS_DATA_VERSION":19991107,"evil":-1,"last_location":"/open/world1/tmr/area/hotel","cure_count":5,"mp":54,"unit":"位","max_mp":54,"ap":66,"supply_point":10,"age":14,"addition_armor":10,"guild_gifts":({5,5,5,5,}),"channels":({"chat","rumor","tchat",}),"default_actions":,"mud_age":70,"addition_shield":10,"hp":120,"race":"ogre","actions":,"max_ap":66,"Merits":(["bar":0,"bio":0,"tec":0,"sou":0,"wit":0,]),"volume":7,"attitude":"peaceful","newbie":1,"addition_damage":10,"exp":777,"id":"gren","dex":2,"help":"class/","int":2,"con":2,"startroom":"/open/world1/tmr/area/hotel","board_last_read":(["tmr_hotel_b":1218898667,]),"max_hp":120,"level":1,"gender":"男性","str":2,"birthday":1219064012,"name":"小八",])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

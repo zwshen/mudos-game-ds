@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["max_ap":70,"mp":60,"ap":70,"talk_point":3,"hp":90,"default_actions":,"newbie":1,"exp":777,"dex":2,"volume":7,"int":2,"con":2,"str":2,"level":1,"id":"colacola","DS_DATA_VERSION":19991107,"evil":-1,"channels":({"chat","rumor","tchat",}),"heart_beat_rate":6,"birthday":1191249823,"gender":"男性","name":"可樂","race":"titan","startroom":"/open/world1/tmr/area/hotel","guild_gifts":({5,5,5,5,}),"cure_count":3,"mud_age":42,"unit":"位","age":14,"supply_point":6,"addition_shield":10,"attitude":"peaceful","actions":,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"addition_armor":10,"max_mp":60,"max_hp":90,"addition_damage":10,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

@@ -1,2 +1,0 @@
-#/obj/login.c
-dbase (["last_from":"140.127.114.110","id":"siamese","name":"賽恩斯","email":"s","password":"pGSaTio9jKTag","level":1,"race":"human","error_login":({"於[Wed Apr 24 10:51:51 2002]嘗試由[140.127.114.110]連線進入失敗。","於[Wed Apr 24 23:42:44 2002]嘗試由[140.127.114.110]連線進入失敗。",}),"last_on":1019616506,"body":"/obj/user",])

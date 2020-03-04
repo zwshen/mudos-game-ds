@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["cure_count":7,"class1":"八極門","volume":7,"unit":"位","addition_shield":10,"supply_point":42,"newbie":1,"heart_modify":0,"exp":777,"dex":2,"adv_class":1,"addition_armor":10,"int":2,"con":2,"default_actions":,"str":2,"level":30,"guild_gifts":({10,7,0,3,}),"evil":-1,"leve":30,"addition_damage":10,"Merits":(["wit":0,"bar":0,"bio":0,"tec":0,"sou":0,]),"mud_age":98,"age":14,"title":"八極門第七代俠客","DS_DATA_VERSION":19991107,"id":"tmrtest","talk_point":12,"race":"human","family":(["family_name":"八極門","generation":7,"privs":-1,"title":"俠客",]),"channels":({"chat","rumor","tchat",}),"heart_beat_rate":6,"birthday":1163506551,"gender":"男性","actions":,"name":"測試奇","startroom":"/open/world1/tmr/area/hotel","max_mp":60,"max_hp":80,"last_location":"/open/world1/tmr/area/hotel","max_ap":60,"ap":60,"mp":60,"hp":80,"attitude":"peaceful",])
-skills (["combat":3,"unarmed":2,])
-learned (["combat":0,"unarmed":0,])
-autoload ({})

@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["int":2,"max_ap":60,"con":2,"str":2,"supply_point":12,"last_location":"/open/world1/tmr/area/street4","addition_damage":10,"max_hp":80,"age":14,"channels":({"chat","rumor","tchat",}),"ap":60,"cure_count":6,"actions":,"race":"human","level":1,"attitude":"peaceful","talk_point":6,"gender":"¨k©Ê","birthday":1112338261,"id":"howard","max_mp":60,"volume":7,"unit":"¦ì","name":"«Ó","MKS":2,"evil":5,"guild_gifts":({5,5,5,5,}),"default_actions":,"mud_age":88,"startroom":"/open/world1/tmr/area/hotel","newbie":1,"mp":60,"addition_shield":10,"hp":76,"Merits":(["wit":0,"bar":0,"tec":0,"sou":0,"bio":0,]),"exp":1011,"mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove",}),"DS_DATA_VERSION":19991107,"addition_armor":10,"heart_beat_rate":6,"dex":2,])
-skills (["unarmed":2,"combat":2,"dodge":0,])
-learned (["unarmed":3,"combat":13,"dodge":2,])
-alias (["r":"recall start",])
-autoload ({})

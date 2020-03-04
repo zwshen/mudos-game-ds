@@ -1,2 +1,0 @@
-#/obj/login.c
-dbase (["email":"","name":"戀","last_from":"219-68-236-119.adsl.dynamic.giga.net.tw","last_on":1109560238,"race":"human","password":"A/LX6nRI1oexU","id":"leo","error_login":({"於[Sun Jun 19 14:52:28 2005]嘗試由[218-164-114-80.dynamic.hinet.net]連線進入失敗。","於[Sun Jun 19 14:52:50 2005]嘗試由[218-164-114-80.dynamic.hinet.net]連線進入失敗。","於[Mon Aug 22 18:04:13 2005]嘗試由[218-164-116-114.dynamic.hinet.net]連線進入失敗。","於[Mon Aug 22 18:04:42 2005]嘗試由[218-164-116-114.dynamic.hinet.net]連線進入失敗。","於[Sat Mar 10 13:32:18 2007]嘗試由[220.143.160.39]連線進入失敗。",}),"level":3,"body":"/obj/user",])

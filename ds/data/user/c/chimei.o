@@ -1,9 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["default_actions":,"heart_beat_rate":6,"DS_DATA_VERSION":19991107,"addition_shield":10,"actions":,"addition_damage":10,"mp":66,"mob_record":({"/open/world1/tmr/area/npc/dog",}),"guild_gifts":({5,5,5,5,}),"addition_armor":10,"channels":({"chat","rumor","tchat",}),"unit":"位","max_ap":100,"newbie":1,"exp":964,"dex":2,"cure_count":12,"int":2,"con":2,"combat_exp":1,"last_location":"/open/world1/tmr/area/round1","level":1,"supply_point":24,"birthday":1223053958,"ap":100,"talk_point":8,"evil":-1,"attitude":"peaceful","war_score":1,"age":14,"max_mp":66,"max_hp":84,"race":"evil","Merits":(["sou":0,"bio":0,"wit":0,"bar":0,"tec":0,]),"MKS":1,"id":"chimei","mud_age":188,"startroom":"/open/world1/tmr/area/hotel","hp":29,"gender":"男性","volume":7,"str":2,"name":"奇美",])
-skills (["parry":0,"unarmed":2,"combat":3,"dodge":1,])
-learned (["parry":1,"unarmed":5,"combat":4,"dodge":1,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

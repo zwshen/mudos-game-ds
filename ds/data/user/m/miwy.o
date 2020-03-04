@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["supply_point":22,"addition_damage":10,"max_mp":60,"talk_point":8,"max_hp":80,"attitude":"peaceful","max_ap":60,"mp":60,"ap":60,"newbie":1,"exp":777,"dex":2,"int":2,"con":2,"hp":80,"str":2,"level":1,"id":"miwy","DS_DATA_VERSION":19991107,"Merits":(["bio":0,"tec":0,"sou":0,"wit":0,"bar":0,]),"default_actions":,"volume":7,"evil":-1,"channels":({"chat","rumor","tchat",}),"birthday":1172372125,"gender":"¤k©Ê","name":"©t¿WÄõ¯Ç","guild_gifts":({5,5,5,5,}),"race":"human","startroom":"/open/world1/tmr/area/hotel","heart_beat_rate":6,"last_location":"/open/world1/tmr/area/street4","mud_age":159,"addition_shield":10,"unit":"¦ì","age":14,"addition_armor":10,"cure_count":11,"actions":,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

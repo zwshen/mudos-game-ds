@@ -1,9 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["age":14,"DS_DATA_VERSION":19991107,"max_hp":80,"last_location":"/open/world1/tmr/bagi/rift","ap":60,"guild_gifts":({5,5,5,5,}),"volume":7,"channels":({"chat","rumor","tchat","moon",}),"mud_age":82,"addition_shield":10,"hp":80,"newbie":1,"exp":777,"dex":2,"mp":60,"int":2,"attitude":"peaceful","con":2,"supply_point":14,"level":1,"birthday":1160709443,"addition_armor":10,"talk_point":6,"evil":-1,"cure_count":7,"addition_damage":10,"max_mp":60,"heart_modify":0,"Merits":(["bar":0,"bio":0,"tec":0,"sou":0,"wit":0,]),"race":"human","max_ap":60,"default_actions":,"id":"windwalk","env":([]),"actions":,"unit":"位","startroom":"/open/world1/tmr/area/hotel","gender":"男性","str":2,"heart_beat_rate":6,"name":"風隨行",])
-skills (["chess":1,])
-learned (["chess":0,])
-items ({})
-autoload ({"/open/always/doll","/open/always/moon_mark","/open/world1/jangshow/min/sword",})
-toDoList ([])
-solved ({})

@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["supply_point":44,"max_mp":110,"evil":-1,"gender":"男性","max_hp":80,"name":"小金","channels":({"chat","rumor","tchat",}),"attitude":"peaceful","Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"addition_damage":10,"birthday":1174707652,"heart_beat_rate":6,"mp":110,"race":"celestial","startroom":"/open/world1/tmr/area/hotel","heart_modify":0,"board_last_read":(["tmr_hotel_b":1174691756,]),"wound":(["head":0,"left_leg":0,"right_leg":0,"left_arm":0,"right_arm":0,"body":0,]),"max_ap":60,"addition_shield":10,"ap":60,"age":14,"volume":7,"default_actions":,"mud_age":330,"newbie":1,"exp":777,"talk_point":8,"actions":,"dex":2,"int":2,"id":"hokin","cure_count":2,"hp":80,"con":2,"str":2,"addition_armor":10,"guild_gifts":({5,5,5,5,}),"unit":"位","level":1,"DS_DATA_VERSION":19991107,])
-autoload ({})
-toDoList ([])
-solved ({})

@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["DS_DATA_VERSION":19991107,"cure_count":6,"actions":,"race":"titan","addition_damage":10,"max_mp":60,"attitude":"peaceful","age":14,"Merits":(["wit":0,"bar":0,"bio":0,"tec":0,"sou":0,]),"supply_point":12,"max_hp":90,"channels":({"chat","rumor","tchat",}),"talk_point":6,"birthday":1207629422,"heart_beat_rate":6,"id":"kaka","mp":60,"newbie":1,"exp":777,"dex":2,"addition_shield":10,"hp":90,"volume":7,"default_actions":,"gender":"男性","int":2,"name":"卡卡","con":2,"unit":"位","str":2,"level":1,"max_ap":70,"guild_gifts":({5,5,5,5,}),"ap":70,"mud_age":86,"evil":-1,"startroom":"/open/world1/tmr/area/hotel","addition_armor":10,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

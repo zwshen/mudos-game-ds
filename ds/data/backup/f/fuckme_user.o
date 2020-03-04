@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["heart_beat_rate":6,"volume":7,"DS_DATA_VERSION":19991107,"gender":"男性","bank":(["past":4000,]),"id":"fuckme","name":"邱毅","addition_shield":10,"channels":({"chat","rumor","tchat","bala",}),"attitude":"peaceful","addition_damage":10,"race":"human","level":1,"ap":60,"birthday":1054565541,"MKS":4,"age":14,"exp":1224,"dex":2,"default_actions":,"Merits":(["bio":0,"bar":0,"tec":0,"sou":0,"wit":0,]),"int":2,"unit":"位","mud_age":1266,"startroom":"/open/world1/tmr/area/hotel","con":2,"str":2,"newbie":1,"last_location":"/open/world1/ground_temple/room-14","hp":80,"talk_point":8,"cure_count":2,"mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove",}),"heart_modify":0,"supply_point":60,"env":([]),"max_hp":80,"actions":,"guild_gifts":({5,5,5,5,}),"evil":11,"addition_armor":10,"wound":(["head":0,"left_leg":0,"body":0,"right_arm":0,"right_leg":0,"left_arm":0,]),"mp":60,"max_ap":60,"max_mp":60,])
-skills (["unarmed":2,"combat":3,"dodge":1,])
-learned (["unarmed":10,"combat":4,"dodge":1,])
-alias (["re":"recall start","11":"do look off,w,w,w,w,w,w,w,out,w,w,w,nw,w,w,n,nw,w,n,n,nw,n,n,nd,n,n,nu,n,n,nd,n,n,nu,n,e,look on,l","san":"do l off,e,n,e,se,eu,se,se,se,se,e,n,ne,enter 瀑布,,s,s,e,s,move 工具,s,d,n,n,n,w,n,w,nw,l on,l","22":"do look off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,enter,n,n,n,n,n,n,n,n,look on,l",])
-autoload ({"/obj/money/coin:4084",})

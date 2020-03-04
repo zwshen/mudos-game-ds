@@ -1,5 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["mp":60,"addition_armor":10,"heart_beat_rate":6,"bank":(["past":0,]),"talk_point":8,"exp":777,"max_ap":60,"dex":2,"supply_point":60,"int":2,"con":2,"str":2,"heart_modify":0,"last_location":"/open/world1/tmr/area/inn_2f","race":"human","channels":({"chat","rumor","tchat",}),"mud_age":3734,"age":14,"addition_damage":10,"level":1,"ap":60,"birthday":1120231739,"max_hp":80,"wound":(["left_leg":0,"body":0,"right_leg":0,"left_arm":0,"right_arm":0,"head":0,]),"cure_count":2,"actions":,"attitude":"peaceful","unit":"位","gender":"女性","id":"end","name":"夜深人靜","startroom":"/open/world1/tmr/area/hotel","max_mp":60,"volume":7,"newbie":1,"Merits":(["sou":0,"wit":0,"bar":0,"tec":0,"bio":0,]),"default_actions":,"DS_DATA_VERSION":19991107,"addition_shield":10,"evil":-1,"guild_gifts":({5,5,5,5,}),"hp":80,])
-skills (["dodge":1,"parry":1,"unarmed":1,"sword":1,])
-autoload ({})

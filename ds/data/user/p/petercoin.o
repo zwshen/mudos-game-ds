@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["max_ap":60,"supply_point":42,"heart_modify":0,"last_location":"/open/world1/wilfred/magic-card/room2","age":14,"channels":({"chat","rumor","tchat",}),"ap":60,"level":1,"race":"human","actions":,"cure_count":1,"birthday":1112446464,"gender":"¨k©Ê","talk_point":8,"id":"petercoin","name":"´P","unit":"¦ì","evil":-1,"startroom":"/open/world1/tmr/area/hotel","mud_age":314,"newbie":1,"mp":60,"addition_shield":10,"hp":80,"Merits":(["bar":0,"wit":0,"sou":0,"tec":0,"bio":0,]),"exp":777,"dex":2,"heart_beat_rate":6,"addition_armor":10,"int":2,"con":2,"str":2,"addition_damage":10,"max_hp":80,"wound":(["left_leg":0,"body":0,"head":0,"right_leg":0,"right_arm":0,"left_arm":0,]),"attitude":"peaceful","volume":7,"max_mp":60,"default_actions":,"guild_gifts":({5,5,5,5,}),"DS_DATA_VERSION":19991107,])
-autoload ({})

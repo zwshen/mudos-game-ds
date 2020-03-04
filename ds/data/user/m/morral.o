@@ -1,9 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["attitude":"peaceful","DS_DATA_VERSION":19991107,"race":"human","mp":60,"MKS":1,"Merits":(["bio":0,"tec":0,"sou":0,"wit":0,"bar":0,]),"channels":({"chat","rumor","tchat",}),"addition_shield":10,"help":"cmds/","birthday":1200385693,"id":"morral","cure_count":1,"gender":"¨k©Ê","name":"¨H®x¼e","guild_gifts":({5,5,5,5,}),"addition_armor":10,"combat_exp":1,"supply_point":60,"unit":"¦ì","mob_record":({"/open/world1/tmr/area/npc/smith",}),"max_ap":60,"startroom":"/open/world1/tmr/area/hotel","age":14,"ap":60,"war_score":1,"addition_damage":10,"bank":(["past":1,]),"default_actions":,"volume":7,"wound":(["body":0,"right_arm":0,"right_leg":0,"head":0,"left_leg":0,"left_arm":0,]),"last_location":"/open/world1/wilfred/newbie/eq_fixroom","talk_point":8,"newbie":1,"exp":882,"dex":2,"int":2,"heart_modify":0,"con":2,"hp":80,"str":2,"heart_beat_rate":6,"level":1,"actions":,"max_mp":60,"max_hp":80,"evil":-1,"mud_age":620,"board_last_read":(["query_b":1002739776,]),])
-skills (["unarmed":1,"combat":1,])
-learned (["unarmed":1,"combat":8,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

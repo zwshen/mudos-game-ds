@@ -1,6 +1,0 @@
-#/obj/user.c
-ghost 1
-dbase (["hp":3,"volume":7,"disable_type":" <毫無呼吸>","unit":"位","Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"talk_point":8,"age":14,"last_location":"/open/world2/anfernee/start/prayroom","newbie":1,"cure_count":10,"id":"glenfiddich","exp":713,"dex":2,"int":2,"con":2,"mud_age":172,"combat_exp":2,"guild_gifts":({5,5,5,5,}),"attitude":"peaceful","str":2,"level":1,"supply_point":20,"actions":,"DS_DATA_VERSION":19991107,"gender":"男性","evil":-1,"name":"無名","addition_shield":10,"max_mp":110,"channels":({"chat","rumor","tchat",}),"heart_beat_rate":6,"birthday":1166287901,"max_hp":80,"race":"celestial","bellicosity":0,"addition_armor":10,"startroom":"/open/world1/tmr/area/hotel","mp":3,"default_actions":,"addition_damage":10,"max_ap":60,"ap":60,])
-skills (["unarmed":2,"combat":4,"dodge":1,])
-learned (["unarmed":2,"combat":2,"dodge":1,])
-autoload ({})

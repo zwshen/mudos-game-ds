@@ -1,9 +1,0 @@
-#/obj/user.c
-conditions (["ill_dongshang":40,])
-dbase (["addition_damage":10,"talk_point":8,"cure_count":1,"volume":7,"unit":"¦ì","max_ap":60,"ap":60,"supply_point":60,"newbie":1,"attitude":"peaceful","exp":777,"dex":2,"guild_gifts":({5,5,5,5,}),"id":"needle","int":2,"hp":80,"heart_modify":0,"con":2,"DS_DATA_VERSION":19991107,"str":2,"level":1,"channels":({"chat","rumor","tchat",}),"Merits":(["bar":0,"bio":0,"tec":0,"sou":0,"wit":0,]),"birthday":1178587042,"env":([]),"evil":-1,"gender":"¨k©Ê","name":"¤p¤úÅÒ","nickname":"skyowl[0m","startroom":"/open/world1/tmr/area/hotel","age":14,"wound":(["right_leg":0,"right_arm":0,"left_arm":0,"body":0,"left_leg":0,"head":0,]),"race":"human","default_actions":,"last_location":"/open/world1/faceoff/sky/ten12","actions":,"addition_shield":10,"mud_age":830,"heart_beat_rate":6,"max_mp":60,"max_hp":80,"addition_armor":10,"mp":52,])
-skills (["strong-body":1,])
-learned (["strong-body":0,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

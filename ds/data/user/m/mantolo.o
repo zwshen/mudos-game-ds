@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["DS_DATA_VERSION":19991107,"cure_count":5,"race":"human","actions":,"addition_shield":10,"max_mp":60,"channels":({"chat","rumor","tchat",}),"max_hp":80,"birthday":1213446999,"heart_modify":0,"id":"mantolo","supply_point":60,"addition_armor":10,"mp":60,"max_ap":60,"Merits":(["sou":0,"wit":0,"bar":0,"bio":0,"tec":0,]),"default_actions":,"gender":"¨k©Ê","ap":60,"name":"°ÒªûÃ¹","guild_gifts":({5,5,5,5,}),"addition_damage":10,"startroom":"/open/world1/tmr/area/hotel","attitude":"peaceful","age":14,"heart_beat_rate":6,"talk_point":8,"hp":80,"newbie":1,"exp":777,"dex":2,"int":2,"volume":7,"mud_age":667,"con":2,"str":2,"level":1,"wound":(["right_arm":0,"right_leg":0,"left_leg":0,"head":0,"left_arm":0,"body":0,]),"evil":-1,"unit":"¦ì","last_location":"/open/world1/tmr/area/street4",])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

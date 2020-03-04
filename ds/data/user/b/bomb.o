@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["dex":2,"DS_DATA_VERSION":19991107,"race":"human","gender":"男性","level":1,"int":2,"mud_age":356,"id":"bomb","con":2,"heart_modify":0,"last_location":"/open/world2/anfernee/start/bug","talk_point":8,"name":"新的人物","birthday":1103217270,"str":2,"default_actions":,"guild_gifts":({5,5,5,5,}),"addition_damage":10,"addition_shield":10,"Merits":(["bar":0,"tec":0,"sou":0,"bio":0,"wit":0,]),"max_hp":80,"wound":(["left_arm":0,"right_leg":0,"left_leg":0,"right_arm":0,"body":0,"head":0,]),"ap":60,"mp":60,"age":14,"startroom":"/open/world1/tmr/area/hotel","cure_count":4,"actions":,"addition_armor":10,"heart_beat_rate":6,"attitude":"peaceful","newbie":1,"board_last_read":(["query_b":1073821162,"tmr_hotel_b":1102943573,"bug_b":1102931577,"login_b":1061384567,]),"max_ap":60,"supply_point":48,"hp":80,"max_mp":60,"evil":-1,"volume":7,"unit":"位","channels":({"chat","rumor","tchat",}),"exp":777,])
-autoload ({})

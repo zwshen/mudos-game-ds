@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["MKS":5,"DS_DATA_VERSION":19991107,"addition_damage":10,"age":14,"max_hp":80,"wound":(["head":0,"body":0,"left_leg":0,"right_arm":0,"left_arm":0,"right_leg":0,]),"attitude":"peaceful","gender":"¤k©Ê","id":"jimmy","unit":"¦ì","max_mp":60,"volume":7,"channels":({"chat","rumor","tchat",}),"name":"¢ò¢ñ¢õ¢õ£B","combat_exp":1,"race":"human","level":1,"talk_point":8,"default_actions":,"birthday":1097390420,"guild_gifts":({5,5,5,5,}),"Merits":(["bio":0,"bar":0,"sou":0,"wit":0,"tec":0,]),"startroom":"/open/world1/tmr/area/hotel","newbie":1,"exp":1425,"dex":2,"hp":62,"max_ap":60,"int":2,"adv_class":0,"con":2,"supply_point":60,"str":2,"evil":11,"mp":60,"mud_age":442,"heart_modify":0,"last_location":"/open/world1/tmr/area/street4","cure_count":6,"actions":,"ap":60,"mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"addition_shield":10,"addition_armor":10,"heart_beat_rate":6,])
-skills (["combat":6,"dodge":2,"unarmed":4,])
-learned (["combat":11,"dodge":18,"unarmed":22,])
-alias (["rs":"recall start","7":"get all","qq":"do e,n,n,n,w,w,n,ne,ne,n,n,ne,n,w,w,w,w,w,w,w,bespeak for qk,enter,qk","8":"sac all",])
-autoload ({"/obj/money/coin:5",})

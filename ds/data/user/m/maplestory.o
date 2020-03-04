@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["int":2,"con":2,"default_actions":,"addition_shield":10,"DS_DATA_VERSION":19991107,"str":2,"heart_beat_rate":6,"volume":7,"max_ap":60,"addition_armor":10,"addition_damage":10,"supply_point":38,"gender":"男性","unit":"位","actions":,"mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove",}),"name":"閃亮楓之谷","ap":60,"MKS":4,"race":"human","channels":({"chat","rumor","tchat",}),"max_mp":60,"max_hp":80,"guild_gifts":({5,5,5,5,}),"id":"maplestory","level":1,"age":14,"birthday":1148978574,"mud_age":299,"talk_point":8,"startroom":"/open/world1/tmr/area/hotel","mp":60,"hp":28,"last_location":"/open/world1/tmr/area/day_lake","cure_count":19,"newbie":1,"attitude":"peaceful","exp":1206,"evil":11,"Merits":(["bio":0,"tec":0,"wit":0,"bar":0,"sou":0,]),"dex":2,])
-skills (["dodge":2,"combat":4,"unarmed":3,])
-learned (["dodge":1,"combat":46,"unarmed":24,])
-autoload ({"/obj/money/coin:4",})

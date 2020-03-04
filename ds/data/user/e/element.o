@@ -1,8 +1,0 @@
-#/obj/user.c
-conditions ([])
-ghost 1
-dbase (["combat_exp":0,"DS_DATA_VERSION":19991107,"default_actions":,"mob_record":({"/open/world1/wilfred/meadow/npc/npc1","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/acme/bonze/npc/dog","/open/world1/tmr/area/npc/too","/open/world1/tmr/area/npc/dog","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"ap":60,"bank":(["now":0,]),"max_ap":60,"guild_rank":"無家可歸的流浪漢","supply_point":101,"channels":({"chat","rumor","tchat",}),"evil":23,"level":3,"gender":"男性","race":"human","id":"element","last_location":"/open/world2/anfernee/start/prayroom","birthday":1102995185,"name":"元素","talk_point":14,"heart_modify":0,"MKS":13,"age":14,"startroom":"/open/world2/anfernee/start/hall","newbie":1,"actions":,"cure_count":14,"mud_age":2345,"exp":611,"hp":3,"disable_type":" <毫無呼吸>","dex":2,"int":2,"con":2,"str":2,"addition_shield":10,"heart_beat_rate":6,"addition_armor":10,"Merits":(["sou":0,"wit":0,"bar":0,"tec":0,"bio":0,]),"guild_gifts":({5,5,5,5,}),"unit":"位","mp":3,"board_last_read":(["sex_board":1040753822,"tmr_hotel_b":1102943573,"boo-lin_b":1095911818,]),"addition_damage":10,"max_hp":80,"wound":(["left_arm":0,"right_leg":0,"head":0,"body":0,"right_arm":0,"left_leg":0,]),"attitude":"peaceful","max_mp":60,"volume":7,"bellicosity":0,])
-skills (["parry":0,"sword":3,"combat":6,"dodge":2,])
-learned (["combat":14,"sword":10,])
-alias (["gc":"get all from corpse","ss":"sac corpse",])
-autoload ({})

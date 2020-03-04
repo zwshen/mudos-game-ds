@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["attitude":"peaceful","channels":({"chat","rumor","tchat",}),"race":"human","level":1,"volume":7,"heart_beat_rate":6,"birthday":1058706033,"addition_shield":10,"evil":-1,"mud_age":6330208,"addition_armor":10,"default_actions":,"gender":"¨k©Ê","startroom":"/open/world1/tmr/area/hotel","id":"daidai","max_hp":80,"name":"§b§b","newbie":1,"talk_point":8,"board_last_read":(["tmr_hotel_b":1058964972,]),"actions":,"MKS":52947,"addition_damage":10,"unit":"¦ì","age":87,"guild_gifts":({5,5,5,5,}),"mp":60,"supply_point":20,"exp":480000777,"dex":2,"int":2,"con":2,"str":2,"bank":(["past":495000,]),"popularity":8296,"hp":80,"cure_count":15,"ap":60,"max_mp":60,"DS_DATA_VERSION":19991107,"max_ap":60,"last_location":"/open/world1/tmr/area/street3","Merits":(["bio":0,"sou":0,"tec":0,"bar":0,"wit":0,]),])
-autoload ({"/obj/money/coin:4985",})

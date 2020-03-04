@@ -1,8 +1,0 @@
-#/obj/user.c
-dbase (["addition_shield":10,"actions":,"heart_beat_rate":6,"DS_DATA_VERSION":19991107,"war_art":0,"race":"human","max_mp":75,"max_hp":80,"channels":({"chat","rumor","tchat",}),"help":"newbie/","attitude":"peaceful","birthday":1195633693,"id":"xraistlin","mp":75,"last_location":"/open/world1/tmr/area/square","gender":"男性","name":"神蝶","bank":(["past":5,]),"cure_count":12,"unit":"位","max_ap":60,"combat_exp":0,"MKS":5,"startroom":"/open/world1/tmr/area/hotel","ap":60,"addition_armor":10,"supply_point":60,"guild_gifts":({5,5,5,5,}),"default_actions":,"age":14,"bellicosity":0,"addition_damage":10,"Merits":(["bar":0,"bio":0,"tec":0,"sou":0,"wit":0,]),"war_score":4,"talk_point":8,"newbie":1,"volume":7,"exp":829,"mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"dex":2,"int":3,"con":2,"hp":80,"str":2,"level":1,"disable_type":" <毫無呼吸>","evil":11,"heart_modify":0,"popularity":0,"mud_age":525,])
-skills (["dodge":1,"combat":4,"unarmed":3,"parry":1,"blade":0,])
-learned (["dodge":0,"combat":10,"parry":1,])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

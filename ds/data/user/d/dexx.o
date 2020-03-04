@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["unit":"位","DS_DATA_VERSION":19991107,"max_hp":80,"evil":-1,"default_actions":,"actions":,"guild_gifts":({5,5,5,5,}),"addition_shield":10,"attitude":"peaceful","Merits":(["bar":0,"tec":0,"sou":0,"bio":0,"wit":0,]),"cure_count":3,"age":14,"talk_point":3,"max_mp":110,"heart_beat_rate":6,"ap":60,"channels":({"chat","rumor","tchat",}),"addition_armor":10,"volume":7,"race":"celestial","mp":110,"mud_age":38,"newbie":1,"exp":777,"id":"dexx","hp":80,"dex":2,"int":2,"con":2,"addition_damage":10,"startroom":"/open/world1/tmr/area/hotel","level":1,"gender":"男性","supply_point":6,"max_ap":60,"str":2,"birthday":1231871394,"name":"老頭",])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

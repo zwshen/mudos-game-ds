@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["heart_beat_rate":6,"attitude":"peaceful","DS_DATA_VERSION":19991107,"addition_shield":10,"ap":60,"mp":60,"volume":7,"talk_point":8,"addition_armor":10,"channels":({"chat","rumor","tchat",}),"addition_damage":10,"newbie":1,"exp":777,"wound":(["right_arm":0,"body":0,"right_leg":0,"left_leg":0,"left_arm":0,"head":0,]),"dex":2,"int":2,"max_ap":60,"con":2,"max_mp":60,"level":1,"default_actions":,"birthday":1244587465,"evil":-1,"last_location":"/open/world1/wilfred/newbie/eq_bank","cure_count":14,"max_hp":80,"age":14,"supply_point":60,"mud_age":2170,"board_last_read":(["anoounce_b":1242129431,"tmr_hotel_b":1244532831,]),"guild_gifts":({5,5,5,5,}),"hp":80,"race":"human","Merits":(["bio":0,"bar":0,"tec":0,"wit":0,"sou":0,]),"id":"eddies","actions":,"startroom":"/open/world1/tmr/area/hotel","heart_modify":0,"gender":"男性","str":2,"unit":"位","name":"艾地斯",])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

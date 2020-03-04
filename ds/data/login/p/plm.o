@@ -1,2 +1,0 @@
-#/obj/login.c
-dbase (["new_mail":1,"error_login":({"於[Sun Aug 10 19:27:25 2003]嘗試由[218-164-91-201.HINET-IP.hinet.net]連線進入失敗。","於[Thu Jan  1 17:03:01 2004]嘗試由[218-164-211-100.HINET-IP.hinet.net]連線進入失敗。","於[Fri Jun 11 21:09:55 2004]嘗試由[61.58.115.127]連線進入失敗。","於[Tue Dec  4 18:00:55 2007]嘗試由[140.113.91.13]連線進入失敗。","於[Mon Apr 14 12:16:52 2008]嘗試由[140.113.91.13]連線進入失敗。",}),"race":"human","name":"魯夫","level":31,"body":"/obj/user","last_on":1208287998,"last_from":"140.113.91.13","email":"","id":"plm","password":"YCnntSU8Bb01g",])

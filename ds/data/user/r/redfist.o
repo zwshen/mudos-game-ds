@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["addition_damage":10,"max_hp":80,"attitude":"peaceful","guild_gifts":({5,5,5,5,}),"volume":7,"max_mp":60,"default_actions":,"Merits":(["bio":0,"wit":0,"tec":0,"sou":0,"bar":0,]),"gender":"男性","id":"redfist","name":"紅炎連拳","mp":60,"ap":60,"max_ap":60,"hp":80,"supply_point":16,"exp":777,"evil":-1,"dex":2,"age":14,"int":2,"con":2,"unit":"位","str":2,"DS_DATA_VERSION":19991107,"actions":,"cure_count":8,"board_last_read":(["tmr_hotel_b":1112603643,]),"channels":({"chat","rumor","tchat",}),"addition_shield":10,"level":1,"race":"human","birthday":1113496553,"talk_point":8,"heart_beat_rate":6,"addition_armor":10,"mud_age":112,"startroom":"/open/world1/tmr/area/hotel","newbie":1,])
-autoload ({})

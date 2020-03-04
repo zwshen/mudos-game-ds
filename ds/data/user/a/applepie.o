@@ -1,5 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["heart_modify":0,"max_hp":80,"Merits":(["bio":0,"tec":0,"sou":0,"wit":0,"bar":0,]),"evil":-1,"exp":777,"mud_age":8245,"hp":80,"gender":"女性","dex":2,"name":"蘋果批","int":2,"addition_shield":10,"con":2,"ap":60,"str":2,"mp":60,"level":1,"unit":"位","heart_beat_rate":6,"newbie":1,"age":14,"default_actions":,"cure_count":12,"addition_armor":10,"wound":(["body":0,"left_leg":0,"right_arm":0,"head":0,"right_leg":0,"left_arm":0,]),"DS_DATA_VERSION":19991107,"board_last_read":(["club_god_1":1159800242,]),"supply_point":60,"channels":({"chat","rumor","tchat","god",}),"last_location":"/open/world1/god_club/ladder-1","addition_damage":10,"volume":7,"guild_gifts":({5,5,5,5,}),"attitude":"peaceful","birthday":1159798131,"env":([]),"actions":,"race":"human","talk_point":8,"max_mp":60,"max_ap":60,"startroom":"/open/world1/tmr/area/hotel","id":"applepie",])
-alias (["clan":" do look off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,enter,n,n,n,n,n,n,n,n,u,miracle crown,look on,l $*",])
-autoload ({"/open/always/god_mark",})

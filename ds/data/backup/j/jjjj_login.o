@@ -1,2 +1,0 @@
-#/obj/login.c
-dbase (["body":"/obj/user","id":"jjjj","name":"阿安","email":"j","last_on":1024563142,"new_mail":1,"password":"ek6T3u0a29W5M","last_from":"61-223-175-107.HINET-IP.hinet.net","level":11,"race":"human","error_login":({"於[Thu May 16 17:01:55 2002]嘗試由[61-216-209-156.HINET-IP.hinet.net]連線進入失敗。","於[Sat May 18 13:21:18 2002]嘗試由[61-223-174-205.HINET-IP.hinet.net]連線進入失敗。","於[Tue May 28 08:18:03 2002]嘗試由[163.18.170.4]連線進入失敗。","於[Tue May 28 16:50:39 2002]嘗試由[61-223-172-125.HINET-IP.hinet.net]連線進入失敗。",}),])

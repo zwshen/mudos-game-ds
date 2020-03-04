@@ -1,2 +1,0 @@
-#/obj/login.c
-dbase (["last_on":1034136421,"id":"ballball","name":"球球","last_from":"140.134.4.20","email":"bluechia@","password":"dKp012dhezA5E","level":1,"race":"human","error_login":({"於[Tue Dec  3 02:24:03 2002]嘗試由[pc1.f9.ntu.edu.tw]連線進入失敗。","於[Tue Dec  3 02:24:21 2002]嘗試由[pc1.f9.ntu.edu.tw]連線進入失敗。","於[Tue Dec  3 02:25:43 2002]嘗試由[140.134.4.20]連線進入失敗。","於[Tue Dec  3 02:26:29 2002]嘗試由[140.134.4.20]連線進入失敗。","於[Tue Dec  3 02:38:55 2002]嘗試由[telnet.hinet.net]連線進入失敗。",}),"body":"/obj/user",])

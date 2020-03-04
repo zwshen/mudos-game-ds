@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["int":2,"DS_DATA_VERSION":19991107,"actions":,"con":2,"age":14,"default_actions":,"str":2,"cure_count":2,"mp":60,"unit":"位","attitude":"peaceful","wound":(["right_arm":0,"left_leg":0,"right_leg":0,"body":0,"left_arm":0,"head":0,]),"gender":"男性","evil":-1,"addition_shield":10,"name":"熱狗","heart_beat_rate":6,"addition_damage":10,"addition_armor":10,"race":"human","channels":({"chat","rumor","tchat",}),"volume":7,"max_mp":60,"max_ap":60,"supply_point":60,"id":"mcdog","level":1,"guild_gifts":({5,5,5,5,}),"birthday":1146899414,"heart_modify":0,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"ap":60,"startroom":"/open/world1/tmr/area/hotel","hp":80,"max_hp":80,"mud_age":1228,"newbie":1,"talk_point":8,"exp":777,"dex":2,])
-autoload ({})

@@ -1,7 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["default_actions":,"heart_beat_rate":6,"DS_DATA_VERSION":19991107,"addition_shield":10,"actions":,"help":"class/god","addition_damage":10,"mp":54,"guild_gifts":({5,5,5,5,}),"addition_armor":10,"channels":({"chat","rumor","tchat",}),"unit":"位","max_ap":66,"newbie":1,"exp":777,"dex":2,"heart_modify":0,"cure_count":4,"int":2,"con":2,"last_location":"/open/world1/tmr/area/hotel","level":1,"supply_point":48,"birthday":1224326669,"ap":66,"talk_point":8,"evil":-1,"attitude":"peaceful","age":14,"max_mp":54,"max_hp":120,"race":"ogre","Merits":(["sou":0,"bio":0,"wit":0,"bar":0,"tec":0,]),"id":"marlboromoo","mud_age":362,"wound":(["left_arm":0,"body":0,"right_arm":0,"left_leg":0,"head":0,"right_leg":0,]),"startroom":"/open/world1/tmr/area/hotel","hp":120,"gender":"男性","volume":7,"str":2,"name":"萬保毛",])
-items ({})
-autoload ({})
-toDoList ([])
-solved ({})

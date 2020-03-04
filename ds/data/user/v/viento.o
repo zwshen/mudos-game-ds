@@ -1,8 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["mp":60,"age":14,"addition_shield":10,"adv_class":1,"DS_DATA_VERSION":19991107,"mud_age":8104,"ap":60,"heart_beat_rate":6,"addition_armor":10,"gender":"男性","name":"雷索那","talk_point":8,"id":"viento","disable_type":" <毫無呼吸>","bellicosity":0,"addition_damage":10,"class1":"神武教","channels":({"chat","rumor","tchat",}),"race":"human","max_hp":80,"level":1,"hp":80,"wound":(["left_leg":0,"right_arm":0,"left_arm":0,"body":0,"head":0,"right_leg":0,]),"attitude":"peaceful","birthday":1123012326,"exp":1777,"dex":2,"max_mp":60,"bank":(["past":0,]),"volume":7,"int":2,"title":"神武教第三代教徒","startroom":"/open/world1/tmr/area/hotel","con":2,"combat_exp":0,"str":2,"default_actions":,"newbie":1,"MKS":10,"Merits":(["bar":0,"wit":0,"bio":0,"sou":0,"tec":0,]),"guild_gifts":({5,5,5,5,}),"max_ap":60,"mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog","/open/world1/tmr/area/npc/frog","/open/world1/tmr/area/npc/frog","/open/world1/tmr/area/npc/frog","/open/world1/tmr/area/npc/frog",}),"supply_point":60,"heart_modify":0,"guild_rank":"神武教第三代教徒","family":(["family_name":"神武教","title":"教徒","generation":3,"privs":-1,]),"last_location":"/open/world1/tmr/area/hotel","env":([]),"unit":"位","actions":,"evil":14,"cure_count":9,])
-skills (["dagger":3,"combat":6,"sword":1,"unarmed":4,"parry":1,"mirage-steps":1,"meditate":1,"godsword":1,"dodge":2,])
-learned (["dagger":5,"combat":18,"unarmed":13,"dodge":15,])
-spells (["summon_ghost":1,"god-fire":2,])
-spell_learned (["god-fire":7,])
-autoload ({"/obj/money/coin:161","/obj/money/dollar:6",})

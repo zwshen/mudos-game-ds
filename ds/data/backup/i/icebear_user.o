@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["startroom":"/open/world1/tmr/area/hotel","mud_age":189,"exp":777,"ap":60,"dex":2,"newbie":1,"max_mp":60,"int":2,"talk_point":1,"con":2,"str":2,"default_actions":,"DS_DATA_VERSION":19991107,"heart_beat_rate":6,"volume":7,"hp":80,"addition_shield":10,"Merits":(["tec":0,"bio":0,"wit":0,"bar":0,"sou":0,]),"mp":60,"evil":-1,"max_ap":60,"max_hp":80,"gender":"男性","id":"icebear","name":"北極熊","cure_count":13,"supply_point":26,"age":14,"channels":({"chat","rumor","tchat",}),"addition_damage":10,"guild_gifts":({5,5,5,5,}),"level":1,"race":"human","addition_armor":10,"birthday":1057117671,"board_last_read":(["tmr_hotel_b":1055860346,]),"actions":,"attitude":"peaceful","unit":"位",])
-autoload ({})

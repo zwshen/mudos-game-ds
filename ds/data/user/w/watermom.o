@@ -1,6 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["unit":"位","ap":75,"mp":60,"age":14,"newbie":1,"exp":61,"volume":7,"dex":2,"int":2,"con":3,"str":2,"guild_rank":"楚楚可憐的小ㄚ頭","level":2,"cure_count":13,"evil":5,"DS_DATA_VERSION":19991107,"id":"watermom","mud_age":1071,"mob_record":({"/open/world1/cominging/area/npc/dove","/open/world1/cominging/area/npc/dove","/open/world1/tmr/area/npc/dog",}),"channels":({"chat","rumor","tchat",}),"supply_point":80,"race":"human","default_actions":,"birthday":1142739776,"talk_point":11,"gender":"女性","name":"水媽媽","startroom":"/open/world1/tmr/area/hotel","heart_modify":0,"wound":(["right_leg":0,"left_arm":0,"left_leg":0,"right_arm":0,"body":0,"head":0,]),"war_score":4,"addition_shield":10,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"MKS":3,"actions":,"addition_armor":10,"guild_gifts":({5,5,5,5,}),"max_mp":60,"last_location":"/open/world1/tmr/area/street4","max_ap":75,"attitude":"peaceful","heart_beat_rate":6,"max_hp":100,"addition_damage":10,"hp":95,])
-skills (["dodge":0,"unarmed":2,"combat":3,])
-learned (["dodge":2,"unarmed":2,"combat":0,])
-autoload ({"/obj/money/coin:3",})

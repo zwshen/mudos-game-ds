@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["birthday":1058641088,"mud_age":280,"startroom":"/open/world1/tmr/area/hotel","talk_point":8,"newbie":1,"max_mp":60,"actions":,"gender":"男性","id":"tvtv","name":"楊過","max_ap":60,"unit":"位","last_location":"/open/world1/tmr/area/hotel","cure_count":19,"guild_gifts":({5,5,5,5,}),"exp":777,"dex":2,"age":14,"int":2,"evil":-1,"con":2,"str":2,"heart_beat_rate":6,"volume":7,"addition_shield":10,"hp":80,"mp":60,"default_actions":,"ap":60,"addition_armor":10,"DS_DATA_VERSION":19991107,"max_hp":80,"Merits":(["sou":0,"wit":0,"bar":0,"bio":0,"tec":0,]),"attitude":"peaceful","addition_damage":10,"supply_point":38,"channels":({"chat","rumor","tchat",}),"level":1,"race":"human",])
-autoload ({})

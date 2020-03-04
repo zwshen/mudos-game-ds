@@ -1,7 +1,0 @@
-#/obj/user.c
-ghost 1
-dbase (["max_ap":60,"int":2,"addition_shield":10,"ap":60,"con":2,"age":14,"guild_gifts":({5,5,5,5,}),"str":2,"mud_age":26,"bellicosity":0,"hp":1,"level":1,"unit":"位","gender":"男性","DS_DATA_VERSION":19991107,"evil":-1,"name":"哩哩啦啦","default_actions":,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"addition_armor":10,"volume":7,"channels":({"chat","rumor","tchat",}),"actions":,"birthday":1166069473,"race":"human","cure_count":4,"last_location":"/open/world2/anfernee/start/prayroom","addition_damage":10,"max_mp":60,"attitude":"peaceful","startroom":"/open/world1/tmr/area/hotel","combat_exp":0,"max_hp":80,"supply_point":8,"talk_point":4,"heart_beat_rate":6,"mp":1,"newbie":1,"exp":708,"id":"lililala","disable_type":" <毫無呼吸>","dex":2,])
-skills (["dodge":0,"unarmed":1,"combat":2,])
-learned (["unarmed":0,])
-alias (["rs":"recall start","g":"get all","t":"sac all","r":"recall",])
-autoload ({})

@@ -1,4 +1,0 @@
-#/obj/user.c
-conditions ([])
-dbase (["mp":60,"dex":2,"DS_DATA_VERSION":19991107,"ap":60,"race":"human","gender":"¨k©Ê","level":1,"int":2,"id":"winter","con":2,"talk_point":1,"name":"´H¥VÁ÷³·","birthday":1106805574,"str":2,"default_actions":,"Merits":(["tec":0,"sou":0,"wit":0,"bar":0,"bio":0,]),"addition_damage":10,"addition_shield":10,"max_hp":80,"guild_gifts":({5,5,5,5,}),"startroom":"/open/world1/tmr/area/hotel","age":14,"cure_count":1,"actions":,"addition_armor":10,"heart_beat_rate":6,"attitude":"peaceful","mud_age":13,"newbie":1,"max_ap":60,"evil":-1,"supply_point":2,"hp":80,"max_mp":60,"volume":7,"unit":"¦ì","channels":({"chat","rumor","tchat",}),"exp":777,])
-autoload ({})
