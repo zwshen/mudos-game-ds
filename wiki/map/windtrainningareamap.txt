@@ -1,0 +1,15 @@
+====疾風門練武場====
+        □－03－□                    
+        ｜  ｜  ｜                    
+        04－□－02                    
+        ｜  ｜  ｜                    
+        □－01－□                    
+
+
+01 southup 可至[[dreamseven:map:windfronttunnelmap |前走廊]]
+
+02 eastup 可至土冀小舍
+
+03 northup [[dreamseven:map:windmainareamap |主走廊]]
+
+04 westup 可至風恙小舍

@@ -1,0 +1,22 @@
+====遺世島千古石林====
+
+                 □                    
+               ╱  ╲                  
+             □      04                
+           ｜╲  ╱  ╲              
+        03－□－02    05            
+           ｜╱  ╲  ╱              
+             □      □                
+               ╲  ╱                  
+                 01                    
+
+
+01 jump up 可至[[dreamseven:map:lostislandstonefrostmap |遺世島石林上]]
+
+02 深洞(Hole), 此處可[[dreamseven:info:quest:lostisland_call_dragon |解迷]]
+
+03 enter 後可[[dreamseven:info:quest:lostisland_call_de |解迷]]
+
+04 此處可[[dreamseven:info:quest:lostisland_treasure_quest |解迷]]
+
+05 太陽神石碑(Apollo stele), 此處可[[dreamseven:info:quest:lostisland_treasure_quest |解迷]]

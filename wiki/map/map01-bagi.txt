@@ -1,0 +1,10 @@
+====== 八極門 ======
+
+{{dreamseven:map:map01-bagiv2.png|}}
+
+^地圖標示^
+|01|石屋內，八極門第六代掌門人「神槍李」李書文(Lee shu wen master)在此，out可回[[dreamseven:map:map01|朝天樓地圖]]。|
+|02|山壁前，enter 山縫可進入03處。|
+|03|山縫間，lv 25以上可直接climb 藤蔓到達[[dreamseven:map:map03|冰湖]]。|
+|04|山谷空地，lv 25以下需[[dreamseven:info:quest:sun_snow_fist_quest|六陽融雪爪]]，並put fist in 爪形印痕，即可到達[[dreamseven:map:map03|冰湖]]；。|
+|05|明教吊車乘車處，通往明教幫內。|

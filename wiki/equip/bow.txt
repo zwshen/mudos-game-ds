@@ -1,0 +1,5 @@
+^名稱^攻擊力^增加屬性^物品價值^裝備條件^地點：出處^
+|長弓(Long bow) 				|+10	|無						|200		|str：4，int：6，dex：6|天城東邊木屋：獵戶(Hunter)|
+|穿山弩(Put kop bow)			|+30	|無						|1500		|str：4，int：6，dex：6|地窖地下二層：勤軼(Chin yi)|
+|重弩(Heavy cross bow)			|+60	|str+2，dex-1					|1500		|bow sk：60，str：30，int：30，dex：30|皇城東郊：許彪(Hsu biaw)|
+|紫煌定風弓(Purple-bow) 			|+70	|無						|20000		|str：35，int：30，dex：40|白光門前：英雄 竭達羅(Gua da-lou)|

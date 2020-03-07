@@ -1,0 +1,12 @@
+====== 萬龍古墓 ======
+
+{{dreamseven:map:map02-tomb.png|}}
+
+^地圖標示^
+|01|由八卦陣中「陽」所進入的位置。|
+|02|由八卦陣中「陰」所進入的位置。|
+|03|down可進入石室，search 石壁可得金鑰匙；touch 石壁會回到[[dreamseven:map:map02-dragonwater|磐龍險峻]]01處。|
+|04|down可進入石室，search 石壁可得銀鑰匙；up可離開石室。|
+|05|朱漆石門。|
+|06|真紅眼黑龍在此地。|
+|07|青眼白龍(Blue-eye white dragon)在此地。|

@@ -1,0 +1,36 @@
+^名稱^攻擊力^增加屬性^物品價值^裝備條件^地點：出處^
+|木製指虎(Wood finger)				|+13	|無						|280		|str：1|寒澈道觀：寒澈道 道人(Taoist)|
+|狼拳(Wolf fist)				|+15	|無						|1000		|str：1|孟村草房：「灌園叟」秋先(Chiou-shian)|
+|手甲鉤(Climb claw)				|+15	|無						|1000		|unarmed sk：20，str：1|東方島鬼之森：山崽(Ferity apeman)|
+|獸骨之爪牙(Black-dog bone)			|+25	|WIT-1，SOU-1，特攻				|一文不值		|level：40，str：3|遺世島：謎之獸  影犬(Black dog)|
+|鬼爪(Ghost claw)				|+30	|無						|2000		|str：6，con：8，int：4，dex：5|地窖地下三層：鬼出神沒 鬼拳無恨(Ghost fister)|
+|羊角爪(Bariour-horn claw)			|+30	|int+1						|1000		|無|羊男的迷宮:蒼綠半羊人(Green bariour|
+|鷹爪(Eagle claw)				|+35	|無						|1600		|str：4|東北澤林-絕世峭壁-老鷹洞:老鷹(Eagle)|
+|虎形爪(Tiger claw)				|+35	|無						|5500		|str：1|寒澈道觀：寒澈派第三代以心契道 黃飛虎(Huang fei-hu)|
+|魎拳(Ghost fist)				|+36	|無						|800		|str：25|十萬大山：War|
+|六陽融雪爪(Sun-snow-fist)			|+38	|無						|3000		|str：10|湖心小屋：Quest|
+|殺君爪(Sha fist)				|+39	|無						|3900		|str：5|雲端：九天雲魂 殺魂(Sha soul)|
+|不動無壽爪(Bu-down wu-shou fist)（白色）	|+40	|con+2，命中+10，BAR+1，SOU-1			|12000		|str：40|凌雲峰頂：護法尊者 不動金剛(Bu down jingang)|
+|炎虎爪(Flame claw)				|+40	|str+1						|500		|str：10|地底神殿遺跡：虎人(Tiger man)|
+|紫山鳶(Perple fist)				|+40	|無						|10000		|str：2|地下墓穴：天 魔(Devil)|
+|離元爆爪(Liyuan claw)				|+40	|con+1，int+1						|3000		|str：10|受業無間：三途判 業途靈(Yeroad spirit)|
+|追魂(Following-soul[claw])			|+44	|str+1，int-1					|6000		|str：2|水寒星洞：名匠 子黃丹(Master dan)|
+|不動無壽爪(Bu-down wu-shou fist)（藍綠色）	|+45	|int+1，命中+10，WIT+1，BAR-1			|12000		|str：1，int：20|凌雲峰頂：護法尊者 不動金剛(Bu down jingang)|
+|不動無壽爪(Bu-down wu-shou fist)（灰色）	|+50	|con+2，命中+10，BAR+1，SOU-1			|12000		|str：50|凌雲峰頂：護法尊者 不動金剛(Bu down jingang)|
+|青羊爪(Qing-yang claw)			|+50	|int+1						|5500		|str：10|寒澈道觀：寒澈派第三代以心契道 莫月柔(Mo yue-rou)|
+|單虎(Single fist)（單手）			|+50	|str+1						|3000		|str：1，int：15|黃沙鎮：武痴(Military)|
+|破獄三界爪(Break-hell claw)（daily）			|+50	|str+1，int+2，命中+5，BIO-1，WIT+1	|16000		|str：2，int：40|大高玄殿：寒澈派開山祖師 雲中子(Yun zhong-zi master)|
+|瞬炎(Soon flame)				|+55	|str+1						|2000		|str：50|地底神殿遺跡：聖炎龍使 烈昇(Lieh shen)|
+|龍胳臂(Dragon fist)				|+55	|命中+10						|5000		|str：20|孟村石屋：八極門第六代掌門人「神槍李」李書文(Lee shu wen master)|
+|鎖命殂掌(Ghost fist)				|+55	|str+1，con-2，dex+1				|2500		|str：40|鬼斷森林：鬼眾 殂鬼(Zu ghost)|
+|點液爪(Dab-aqua-claw) （daily）		|+55	|int+2，命中+5，特攻				|16000		|str：30|孟村湖底深處：狡龍 點液(Dab aqua dragon)|
+|豹爪(Leopard claw)（daily）			|+55	|str+2，int-1					|1000		|str：15，con：15，int：15，dex：15|地底神殿遺跡：聖炎龜使 煦倥(Xu kong)|
+|點液爪(Dab-aqua-claw)			|+58	|int+2，命中+5					|2500		|str：30|孟村湖底深處：狡龍 點液(Dab aqua dragon)|
+|銀翼龍爪(Silver dragon claw)			|+59	|str+2，dex+1					|12000		|level：30，unarmed sk：60，str：3|遺世島：魔獸 銀翼龍(Silver dragon)|
+|九狐爪(Nine-fox claw) 			|+60	|str+3，dex+4					|20000		|str：4|狐穴：九尾(Killer fox)|
+|天圓地方爪(Taoism claw)			|+60	|con-1，int+2，命中+10				|8500		|str：10|寒澈道觀：寒澈派第二代道長 莫月鼎(Mo yue-ding master)|
+|天圓地方爪(Taoism claw)（daily）		|+60	|int+2，命中+10，WIT+1，BAR-1			|8500		|str：10|寒澈道觀：寒澈派第二代道長 莫月鼎(Mo yue-ding master)|
+|黑龍爪(Dragon claw)			|+61	|str+2，dex-2，命中+10				|12000		|unarmed sk：70，str：2|萬龍古墓：真紅眼黑龍（Red eye black dragon）|
+|禁地六陽爪(Six-sun-fist)			|+65	|str+1，con+1，dex-1，命中+11			|5000		|str：50|竹屋： 八極門開山祖師 吳鐘(Wu chung master)|
+|追魂(Following-soul claw) （daily）		|+67	|str+3，int-1，dex-2，BAR+1，WIT-1，特攻		|10000		|str：5|水寒星洞：名匠 子黃丹(Master dan)|
+|九狐爪(Nine-fox claw)（daily）		|+70	|str+3，int-2，dex+2，命中+10，BAR+1，WIT-1		|50000		|level：45，str：70，擊殺生物：15000 |狐穴：九尾(Killer fox)|

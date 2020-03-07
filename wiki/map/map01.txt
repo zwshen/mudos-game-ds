@@ -1,0 +1,21 @@
+====== 朝天樓 ======
+
+{{dreamseven:map:map01.png|}}
+
+^地圖標示^
+|◆|朝天樓，因「朝天湖」而興起的客棧，往上走可到[[dreamseven:map:map01-rs2f|朝天樓二樓]]。|
+|銀|歲寒錢莊，本地最大的錢莊，提供玩家存錢、提錢的服務。|
+|郵|孟村郵局，可以在此收信或是寄信。|
+|01|狂龍之門，可通往狂龍幫。|
+|02|湖邊小路，eastup通往[[dreamseven:map:map01-ghat|白色石階]]。|
+|03|百花叢，通過迷宮後可至[[dreamseven:map:map01-bridge1|鶴子橋]]。|
+|04|草原小路，enter可進入[[dreamseven:map:map01-cow|牯牛草原]]。|
+|05|小木屋，這裡是王媒婆(Mrs. wang)往的房子，她專門幫人處理結婚喜事。|
+|06|村長家，可坐下聽講(sit)向村長孟秋農(Meng chiou nong)學習讀書識字(literate）。|
+|07|空地，enter house可到[[dreamseven:map:map01-bagi|八極門]]。|
+|08|河邊小路，enter 黑洞可進入[[dreamseven:map:map01-water|水寒星洞]]。|
+|09|關口，可通往[[dreamseven:map:map02|黃沙道]]。|
+|10|打鐵鋪，可購買初級的武器。|
+|11|工作檯旁，修理大師 打鐵老師博(EQ master)能幫忙玩家修理損壞的武器。|
+|12|通往[[dreamseven:map:map01-forest|鬼斷森林]]。|
+|13|通往步靈城[[dreamseven:map:map04|南邊護城河]]。|

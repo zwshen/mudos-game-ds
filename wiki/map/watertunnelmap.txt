@@ -1,0 +1,10 @@
+====水道====
+
+                      □－□－02        
+                      ｜                
+  01－□－□－□－□－□                
+                                        
+
+01 up 可至[[dreamseven:map:littleriver |小溪]]
+
+02 climb 石崖, 可找方印大師(Fung ying bonze)聊天, [[dreamseven:info:quest:white_wrists_quest |解迷]]

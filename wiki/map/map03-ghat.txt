@@ -1,0 +1,7 @@
+====== 上山小路 ======
+
+{{dreamseven:map:map03-ghat.png|}}
+
+^地圖標示^
+|01|上山小路，northdown可回[[dreamseven:map:map01-ghat|白色石階]]。|
+|02|上山小路，eastup可到通往寒澈道觀的[[dreamseven:map:map03-ghat2|上山小路]]。|

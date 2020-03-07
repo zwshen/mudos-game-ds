@@ -1,0 +1,9 @@
+^名稱^攻擊力^增加屬性^物品價值^裝備條件^地點：出處^
+|短斧(Short axe)				|+10	|無						|1000		|str：2|孟村：鐵匠(Smith)|
+|小手斧(Small axe)（save）			|+11	|無						|400		|str：1|天城：打鐵匠(Smith)|
+|伐木鐵斧(Wood axe)			|+20	|con+1，dex-1，迴避-3				|1000		|axe sk：10，str：20|東北澤林：樵夫(Woodcutter)|
+|長柄石斧(Stone axe)			|+30	|無						|200		|str：8|地底神殿遺跡：守衛石像(Stone guard)|
+|鬼焚斧(Ghost fire axe)			|+35	|無						|2500		|str：6|天城施府：【鬼焚斧】 施迅(Shi shen)|
+|通天斧(Tung tian axe) 			|+40	|無						|3000		|str：10|地窖地下二層：【人王】 通天徹(Tian che tung)|
+|巨斧(Huge axe) 			|+45	|無						|3500		|str：6|碎骨寨：碎骨寨 半獸人百夫長(Orc hundred leader)|
+|無滅巨斧(Hug axe)				|+60	|str+1，dex-2					|2500		|str：40|鬼斷森林：鬼眾 影鬼(Shadow ghost)|

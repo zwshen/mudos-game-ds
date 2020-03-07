@@ -1,0 +1,44 @@
+====凌雲寺與寒澈派====
+
+                                       08  07            
+                                         ╲｜            
+                                           □            
+                                           ｜            
+                                           □－06        
+                                           ｜            
+           04                  05－□      □            
+           ｜                ╱            ｜            
+           □－□－□－□－□－□－□－□－□－□        
+           ｜                      ｜                    
+   03      □                      □－□－□            
+     ╲  ╱                        ｜  ｜                
+       □      02                  □－□                
+       ｜      ｜                  ｜                    
+       □  □－□－□              09                    
+       ｜      ｜
+       □      □
+       ｜      ｜
+       □      □
+         ╲  ╱
+       □－□
+           ｜
+           □－01
+
+
+01 southdown 一路往下走可至[[dreamseven:map:mountaintunnelmap |山道]]
+
+02 [[dreamseven:class:bonze |凌雲寺第四代住持 虛雲和尚(Master bonze)]]
+
+03 [[dreamseven:class:bonze |凌雲寺高僧 妙見(Miao-jian bonze)]], 此處可解迷 ([[dreamseven:wars:rulaifo_war |凌雲峰頂 如來佛祖苦難驗]])
+
+04 northup 一路往上走可至[[dreamseven:map:linyuantopmap |凌雲峰頂]]  ([[dreamseven:wars:rulaifo_war |凌雲峰頂 如來佛祖苦難驗]])
+
+05 倚霄派弟子 畢松柏(Bi songbo), 此處可[[dreamseven:info:quest:frost_quest_01 |解迷]]
+
+06 藏經閣, 古墓派第四代弟子 洪凌波(Hong lingbo) 此處可[[dreamseven:info:quest:gumu_betrayer |解迷]]. up 可至藏經閣二樓, 總共七樓
+
+07 [[dreamseven:class:frost |寒澈派第二代道長 莫月鼎(Mo yue-ding master)]]
+
+08 寒澈派第三代以心契道 莫月柔(Mo yue-rou), 此處可[[dreamseven:info:quest:frost_quest_01 |解迷]]
+
+09 此處可[[dreamseven:info:quest:demon_quest |解迷]]

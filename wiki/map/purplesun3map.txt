@@ -1,0 +1,10 @@
+====紫陽山小坡====
+
+        02                           
+          ╲                         
+            □－01                   
+
+
+01 down 可至[[dreamseven:map:purplesun2map |紫陽山二層]]
+
+02 up 可至[[dreamseven:map:purplesuntopmap |紫陽山山頂]]

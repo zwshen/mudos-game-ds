@@ -1,0 +1,33 @@
+^名稱 ^素質 ^來源/出處 ^
+|玉佩(Jade)                      |防+1                                     |朝天湖  旅客(Traveler)|
+|腐毒束帶(Poison-snake waist)    |防+1 抗+1 str-1 con-2 int-3 dex-1 BAR+1  |腐毒盲蛇(Poison snake)|
+|黑色束腰(Blackre waist)         |防+2                                     |顧知天  官兵(Garrison)|  
+|獸皮巾帶(Fur waist)             |防+2                                     |黑沙鎮  鎮民(Man)王霸(Wang bar)|
+|兌澤腰帶(Marsh waist)           |防+2 con+2                               |兌澤將(Marsh general)|
+|金鱗蟒帶(Golden-snake waist)    |防+3 str+1 con+2 int-2 dex+2             |赤眼金鱗(Golden snake)|
+|紅錦腰帶(Red waist)             |防+3                                     |錦衣衛(Gin yi guard)|  
+|腰纏布(Woman waist)             |防+3                                     |小河邊  婦女(Woman)|
+|金縷腰帶(Gold-silk waist)       |防+3 con+2                               |歲氿(Swe gui)|
+|人皮腰帶(Human skin waist)      |防+3 抗+2 int+2                          |通天徹(Tian che tung)|
+|千年龍鬚(Dragon beard)          |防+4 dex+3                               |千年龍(Thousand dragon)|
+|半獸人腰帶(Orc belt)|防+4|半獸人嘍囉(Orc follower) 半獸人(Orc)半獸人百夫長(Orc hundred leader)半獸人千夫長(Orc thousand leader)半獸人皇帝(Orc emperor)半獸人特使(Orc special envoy)半獸人使者(Orc herald)|
+|神武護腰(God waist)             |防+4                                     |流無形(Invisible liu)|
+|霄佑符(Mist jade)               |防+4                                     |倚霄派弟子 畢松柏(Bi songbo)|
+|銀鱗束帶(Silver-snake waist)    |防+4 抗+3 con+1 dex+2                    |鰭背銀蟒(Silver snake)|
+|霧氣之纏(Wo waist)              |防+5 dex+1                               |霧獸(Wo)|
+|鳥象腰帶(Bird-elephant belt)(普通版)|防+5 抗+5 int+1                   |南方七宿 鳥象(Bird elephant)|
+|鳥象腰帶(Bird-elephant belt)(特別版)|防+5 抗+5 int+2                   |南方七宿 鳥象(Bird elephant)|
+|七貓尾(Cat tail waist)          |防+5 抗+10 con+2 int+1 BIO-1 BAR-1 WIT+1 |貓婆婆(Cat oldwoman)|
+|十方聖珠(Ten holy pearl)        |防+6 閃+10 dex+2                         |天山雪(Master tain)|
+|祕 褲腰(Mi waist)               |防+8                                     |秘 秘密客(Mimi guard)|
+|血蛟軔帶(Blood-snake waist)     |防+8 str+1 con+1                         |血蛟(Blood snake)|
+|銀甲腰帶(Silver waist)          |防+10                                    |柳生．星明(Yagyuu hoshiakari)|
+|狐尾帶(Fox belt)                |防+10 抗+8 con+1 dex+1                   |獵狐村 村民(Villager)|
+|隴天靈珠(Sky pearl)             |防+10 抗+10 str+2 int+1 SOU+1 TEC-1      |南宮無雙(Master nan)| 
+|冷月獸皮帶(Cold moon belt)      |防+10 攻+5 抗+10 con+2                   |吳鐘(Wu chung master)|
+|八歧鱗帶(S)(Orochi waist)       |防+10 抗+10                              |八岐大蛇．白首(Orochi white head)|
+|八歧鱗帶(Orochi waist)          |防+10 抗+10 str+1 con+2 int+1            |八岐大蛇．白首(Orochi white head)|
+|龍紋腰帶(Dragon marking waist)  |防+10 抗+10 con+2 BIO+1 TEC-1            |秋川．旭(Akikawa asahi)|
+|血蛟軔帶(Blood-snake waist)     |防+11 str+2 con+2 daily                   |血蛟(Blood snake)|
+
+

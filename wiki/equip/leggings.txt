@@ -1,0 +1,27 @@
+^名稱 ^素質 ^來源/出處 ^
+|生鏽的脛甲(Rusty leggings)      |防+1                    |風之守護獸(Wind beast)|
+|滅骨皮脛(Maigu leggings)        |防+1 con-1              |滅骨獸(Maigu)|
+|邪桫脛(Baal leggings)           |防+3 int-3 dex+1        |quest十萬大山|
+|黑武脛甲(Black leggings)        |防+3 con+1              |吳鐘(Wu chung master)李書文(Lee shu wen master)|
+|魔鳥翼(Magic bird wing)         |防+3 dex+2              |石魔鳥(Stone bird)|
+|英雄脛甲(Hero leggings)         |防+3 dex+3              |無名英雄英靈(None hero)|         
+|脛甲(Leggings)                  |防+4                    |杜絕(Do jur)|
+|不和脛甲(Bo-ho leggings)        |防+4 抗-1 int-1 dex+1   |閍(Beng)|
+|神武護腿(God legging)           |防+5                    |流無形(Invisible liu)|
+|寒澈護腿(Frost legging)         |防+5                    |莫月鼎(Mo yue-ding master)|
+|塵風脛(Wind leggings)           |防+5 int+1 dex+1        |「詠頌者」 雲風聖道(Cloudwind taoist)|
+|蟾蜍脛甲(Toad leggings)         |防+5 抗+5 int+1           |蟾蜍王(Toad king)|
+|龜象護膝(Turtle-elephant leggings)(普通版)|防+5 抗+5 dex+1 |北方七宿 龜象(Turtle elephant)|
+|龜象護膝(Turtle-elephant leggings)(特別版)|防+5 抗+5 dex+2 |北方七宿 龜象(Turtle elephant)|
+|綁腿(Leggings)                  |防+6                    |黃沙賊(Desert robber)|
+|玄天脛甲(Sky leggings)          |防+7 dex+2 daily         |杜絕(Do jur)|
+|蟾蜍脛甲(Toad leggings)(紅)        |防+8 抗+8 int+2           |蟾蜍王(Toad king)|
+|黃金脛甲(Gold leggings)         |防+9                    |遺世島挖掘|
+|祕 紫繃(Mi leggings)            |防+10                   |秘 秘密客(Mimi guard)|
+|銀鱗脛甲(Dragon leggings)       |防+12 con+2             |青眼白龍(Blue-eye white dragon)|
+|狐骨脛甲(Fox leggings)          |防+12 抗+2 int-2 dex+1  |獵狐村 村民(Villager)|
+|八岐鱗脛(S)(Orochi leggings)    |防+18 抗+18             |八岐大蛇．綠首(Orochi green head)|
+|八岐鱗脛(Orochi leggings)       |防+18 抗+18 con+1 dex+3 |八岐大蛇．綠首(Orochi green head)|
+
+  last update 2007/10/24
+  By Belle

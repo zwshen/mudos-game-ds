@@ -1,0 +1,18 @@
+====== 裝備：褲裝 (Pants) ======
+
+^名稱 ^素質 ^來源/出處 ^
+|破布長褲(Broken pants)          |防+2 save                   |黑暗僵屍(Dark zombie)|
+|粗布長褲(Pants)                 |防+2                        |大盜們|
+|天狗褲(Tengu pants)             |防+2 抗+3 dex+1             |天狗(Tengu)小天狗(Small tengu)大天狗(Big tengu)|
+|月華裙(Moon skirt)              |防+3 限girl                 |小倩(Beauty ghost)|
+|青色長褲(Green pants)           |防+4                        |倚霄派弟子 畢松柏(Bi songbo)|
+|祕 鑫褲(Mi pants)               |防+5                        |秘 秘密客(Mimi guard)|
+|暗矛巨魔毛褲(Anmao-troll pants) |防+5 抗+5 con+1 int+1 命中+25 |苗大嬸(Meo aunt)quest|
+|暗矛巨魔毛裙(Anmao-troll skirts) |防+5 抗+5 con+1 int+1 命中+25 |苗大嬸(Meo aunt)quest|
+|火狼毛褲(Fire-wolf pants)       |防+6 抗+3 dex+2             |火狼(Fire wolf)|
+|寒日獸毛褲(Freeze-sun pants)    |防+8 con+1 int+1            |吳鐘(Wu chung master)|
+|虎紋長褲(Tiger-strip pants)     |防+8 抗+4 con+1 int+1 dex+1 |索貝克(Suoo bey keh)|
+|渾天褲(Chaos pants)             |防+9 str+1                  |天魔(Devil)|
+|獸毛皮褲(Beast pants)           |防+10                       |張獵戶(Hunter chung)|
+|神武寬褲(God pants)             |防+10                       |流無形(Invisible liu)|
+|狐皮褲(Fox pants)               |防+12 抗+11 int-2 dex+1     |獵狐村 村民(Villager)|

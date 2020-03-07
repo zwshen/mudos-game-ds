@@ -1,0 +1,25 @@
+===千年古洞第一層===
+                  01
+                  ｜                    
+                  □                    
+                ╱  ╲                  
+              □      □                
+                ╲  ╱                  
+                  □                    
+                ╱  ╲                  
+              □      □                
+            ╱  ╲  ╱  ╲              
+      □－□－□－□－□－□－□        
+            ╲    ｜    ╱              
+              □  □  □                
+                ╲｜╱                  
+                  □                    
+                ╱  ╲                  
+              □      □                
+                ╲  ╱                  
+                  02
+
+
+01 out 可至 [[dreamseven:map:northbrutalvillage |北蠻村]]
+
+02 down 可至 [[dreamseven:map:millennialcave2 |千年古洞第二層]]   

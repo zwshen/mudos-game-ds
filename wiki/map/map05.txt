@@ -1,0 +1,16 @@
+====== 寒澈道觀和凌雲寺 ======
+
+{{dreamseven:map:map05v2.png|}}
+
+^地圖標示^
+|01|山道，southdown可回[[dreamseven:map:map03-ghat2|上山小路]]。|
+|02|大雄寶殿，凌雲寺第四代住持 虛雲和尚(Master bonze)在此地。|
+|03|破陋小廟，凌雲寺高僧 妙見(Miao-jian bonze)在此地。可參加[[dreamseven:wars:rulaifo_war|凌雲峰頂 如來佛祖苦難驗]]。|
+|04|凌雲峰-上天梯路口，northup可通往[[dreamseven:map:map05-cloud1|凌雲峰-上天梯]]。|
+|05|寒澈道觀-觀景台，倚霄派弟子 畢松柏(Bi songbo)在此地。可解[[dreamseven:info:quest:frost_quest_01|天妖骨粉]]。|
+|06|無極塔，enter可至無極之外，天下式 無極導師(Endless master)在無極之外。|
+|07|寒澈道觀-禪室，可喚醒[[dreamseven:info:quest:demon_quest|天妖]]。|
+|08|藏經閣，古墓派第四代弟子 洪凌波(Hong lingbo)在此地。可解[[dreamseven:info:quest:gumu_betrayer|古墓叛徒]]之謎。up可至藏經閣二樓，一共七樓。|
+|09|寒澈道觀-中庭，寒澈派第三代以心契道 莫月柔(Mo yue-rou)在此地。可解[[dreamseven:info:quest:frost_quest_01|天妖骨粉]]。|
+|10|大高玄殿，寒澈派開山祖師 雲中子(Yun zhong-zi master)在此地。|
+|11|三元殿，寒澈派第二代道長 莫月鼎(Mo yue-ding master)在此地。|

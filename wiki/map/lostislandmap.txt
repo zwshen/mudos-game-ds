@@ -1,0 +1,30 @@
+====遺世島獸原====
+
+              05                        
+            ╱｜                        
+          04  03－06                    
+        ╱  ╲｜  ｜                    
+      □－02－□－□－□                
+      ｜  ｜  ｜  ｜  ｜                
+  01－□－□－□－□－□                
+      ｜  ｜  ｜  ｜  ｜                
+      □－□－07－□－□                
+      ｜  ｜  ｜  ｜  ｜                
+      □－□－□－□－□                
+          ｜  ｜  ｜                    
+          □－□－□                    
+
+
+01 hit 冰壁, enter 後可[[dreamseven:info:quest:lostisland_call_tiger |解迷]]
+
+02 碎石片(Broken stone), 此處可[[dreamseven:info:quest:lostisland_treasure_quest |解迷]]
+
+03 此處可[[dreamseven:info:quest:lostisland_treasure_quest |解迷]]
+
+04 jump 石林, 可至[[dreamseven:map:lostislandstonefrostmap |遺世島石林上]]
+
+05 enter 可至遺世島－洞窟, 可[[dreamseven:info:quest:lostisland_treasure_quest |解迷]]
+
+06 奇獸  紗牙羅獸(Huge horn monster), 此處可[[dreamseven:info:quest:lostisland_call_de |解迷]]
+
+07 碎石片(Broken stone)

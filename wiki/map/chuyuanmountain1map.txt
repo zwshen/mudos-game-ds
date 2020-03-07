@@ -1,0 +1,22 @@
+====出雲山第一層====
+
+      □－□－□                        
+    ╱    ｜    ╲                      
+  04      03      □                    
+                  ｜                    
+              02－□                    
+                  ｜                    
+                  □                    
+                ╱                      
+      □－□－□                        
+    ╱                                  
+  01                                    
+
+
+01 westdown 可至[[dreamseven:map:eastislandmap |東方島]](鬼之森)
+
+02 雪男(Umaro)
+
+03 武人冰像(Warrior ice statue), 此處可[[dreamseven:info:quest:icewarrior |解迷]]
+
+04 up 可至[[dreamseven:map:chuyuanmountain2map |出雲山第二層]]

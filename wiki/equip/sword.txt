@@ -1,0 +1,56 @@
+^名稱^攻擊力^增加屬性^物品價值^裝備條件^地點：出處^
+|木劍(Wooden sword) 			|+1	|無						|10		|無			|步靈城：路人(Traveller)|
+|木劍(Sword)				|+5	|無						|600		|無			|步靈城：小孩子(Child)|
+|短劍(Short sword)				|+6	|無						|600		|str：1			|孟村：鐵匠(Smith)|
+|短劍(Short sword)（save）			|+8	|無						|800		|str：1			|天城：打鐵匠(Smith)|
+|金錢劍(Coin sword)				|+12	|無						|1200		|str：1			|神武教：神武第三代弟子(Apprentice)|
+|長劍(Long sword)				|+15	|無						|400		|str：2			|神武教：神武護衛(Guard)|
+|長劍(Long sword)				|+15	|無						|800		|str：2			|疾風門：疾風門第四代弟子 小弟子(Second apprentice)|
+|鋼劍(Short sword)				|+16	|無						|1200		|str：1			|十萬大山：「天壇」守衛(Guard)|
+|天師桃木劍(Peach sword)			|+20	|int+2，命中+5					|2000		|str：3			|天城：Quest|
+|柳葉劍(Lau yip sword)			|+23	|無						|1500		|str：2			|天城：【傲梅派】第四代第子 傲無痕(Aw wu hen)|
+|天青劍(Sky sword)				|+23	|str+2，con+1					|1000		|sword sk：20，str：20	|十萬大山：「天壇-守衛長」苗青(Meo chen)|
+|繞指柔劍(Around fingers sword) 		|+24	|無						|1200		|str：1，int：5		|地窖地下二層：劍無名(The sword less name)|
+|闊劍(Broad sword)				|+25	|無						|1000		|str：8			|疾風門：疾風守衛(Flurry guard)|
+|昊戠長劍(Hao chi sword)			|+25	|無						|1500		|str：10			|天城：守城官兵(Garrison)|
+|木法劍(Wood magic sword)			|+27	|無						|1100		|str：2			|步靈城郊外：路人(Passerby)|
+|黃狗(Dog) 				|+28	|無						|500		|str：6，int：10		|地窖地下一層：【獸王】 伍霸剛(Ba gun wu) |
+|明動劍(Ming-dung long sword)		|+28	|無						|1750		|str：10			|天城：ξ神武教ξ 八神將 乾天將(Sky general)|
+|闊劍(Big sword)				|+30	|無						|1500		|str：15			|天城：禁軍 牙將(Ya general) |
+|白鋼長劍(Steel sword)				|+30	|無						|1000		|str：1			|寒澈道觀：古墓派第四代弟子 洪凌波(Hong lingbo)|
+|鋼柔劍(Steel soft sword)			|+33	|dex+1						|2222		|sword sk：30，str：4，dex：20|疾風門：疾風門光明左使「如雲幻境」游機子(Left-escort you)|
+|疏影劍(Shu-yiing sword) 			|+35	|無						|2880		|str：10			|朝天樓二樓：【傲梅派】第四代弟子 傲過(Aw-kore)|
+|戰天神劍(Zhan tian sword)			|+35	|無						|2000		|str：12，dex：14		|森林：劍癡 歐陽合(Hap ou yang)|
+|紅塵劍(Hung chan sword)			|+40	|無						|4000		|str：26			|天香客棧：Quest|
+|陰陽長劍(Yin-yang longsword)		|+40	|int+2，dex-2，命中+15，WIT+1，BIO-1，BAR-1（可吸ap）|10000		|str：40，dex：60，int：40	|東北澤林：Quest|
+|雷劍(Thunder sword)				|+43	|無						|4300		|str：5			|雲端：雷神 艾聶爾|
+|逍遙劍(Loiter sword)			|+45	|con+1						|6000		|str：23			|天城：禁軍大元帥 林沖(Lin chung)|
+|鬼王劍(Ghost king sword)			|+45	|無						|3500		|str：15，dex：10		|地窖地下三層【鬼王】 侮天(Wu tan)|
+|十方俱滅(Ten-destruct sword) 		|+45	|str+1，con+1，dex+1，WIT+1，BAR-1			|30000		|str：4			|水寒星洞：掘寶地精(Dig-treasure earth_elf)|
+|重劍(Heavy sword)				|+45	|無						|2000		|無			|古墓：古墓 楊過(Yang goo)|
+|螢晶刃(Light sword)				|+45	|無						|2000		|無			|古墓：古墓 小龍女(Dragon girl)|
+|紫煌定風劍(Perple-light sword)		|+45	|str+2，int-1，命中+5				|6000		|str：28，dex：30		|水寒星洞：碧眼巨鵰(Blue-eyes roc)|
+|鑲嵌之劍(Inlay sword)（save）		|+50	|迴避+10						|30000		|str：3			|聖炎殿：透明人偶(Doll)|
+|雷神劍(Thunder-god sword)			|+50	|特攻						|1000		|sword sk：30，str：5，dex：20|地底神殿遺跡：聖炎化使 蕾(Lei)|
+|【古劍】(Old sword) （daily，雙手）		|+50	|con+2，dex-2，命中+20				|10000		|sword sk：40，str：35，con：35|疾風門：疾風門光明左使「如雲幻境」游機子(Left-escort you)|
+|太古神器(Primeval sword)			|+50	|str+3，con+4，int+3，dex+3，BIO+2，WIT+2，TEC+2，BAR+1，命中+10（random）	|30000		|sword sk：60，str：40，dex：30|遺世島：魔獸 魑背蛛蠍(Ghost spider)|
+|桃風惑劍(Peach-wind sword) 			|+52	|str-2，特攻					|8000		|level：35，sword sk：30，str：1|東方島櫻花林：天狗首領 黑天狗(Black tengu)|
+|靈隱劍(Ling yan sword)			|+55	|TEC+1，BAR-1					|10000		|str：6			|疾風門：疾風門大弟子「劍氣神童」萬鮮靈(Wan xian ling)|
+|大力無量劍(Da-li wu-liang sword)		|+55	|無						|10000		|str：50			|凌雲峰頂：護法尊者 大力金剛(Da li jingang)|
+|九尾之牙《劍》(Nine tail tooth) 		|+55	|str-1，int+3，dex-2，BAR-1，WIT+1		|6500		|str：30			|獵狐村：獵狐村 英雄「獵狐高手」索貝克(Suoo bey keh)|
+|神武劍(God sword)				|+55	|str+1，int+1，命中+8				|5000		|str：20，dex：15		|神武教：ξ神武教ξ第二代教主「孤獨一方」流無形(Invisible liu) |
+|丙子觀林劍(Shi-ganrin sword)			|+58	|int+1						|10500		|level：30，sword sk：50，str：1|東方島鬼之森：貓婆婆(Cat oldwoman)|
+|虎吼(Tiger roar)（daily）			|+60	|int-1，dex+2					|1000		|str：15，con：15，int：15，dex：15|地底神殿遺跡：聖炎龜使 煦倥(Xu kong)|
+|幽冥劍(You ming sword) 			|+60	|迴避+7，BIO+1，BAR+1，TEC-2			|8000		|sword sk：70，str：20，con：30，int：10，dex：5|地窖地下四層：【幽冥惡王】 天殘邪佬(Tan chan xie)|
+|玉女劍(Girl sword)（daily）			|+60	|str-2，dex+2，命中+12，特攻			|34000		|str：13			|古墓：古墓 小龍女(Dragon girl)|
+|紫煌定風劍(Purple-light sword)（daily）		|+63	|str+3，con+2，dex+1，迴避+10，BAR+1，WIT-1，TEC-1，特攻|10000		|str：35，dex：15	|水寒星洞：碧眼巨鵰(Blue-eyes roc)|
+|玄鐵劍(Xian-tia sword)（daily）		|+65	|str+3，dex-2，命中+10，特攻			|10000		|str：13			|古墓：古墓 楊過(Yang goo)|
+|商隱劍(Shang-ing sword)（daily）		|+65	|con+2，dex+2					|10000		|level：15，sword sk：50，str：8，int：25，dex：25|疾風門：《疾風門》光明右使「幻鎖內防」楊雙亟(Master yang)|
+|懾日劍(Se ri sword)（daily，雙手）		|+67	|int+3，dex+1，命中+10，WIT+1，BAR-1，god-fire+10，特攻|8000		|str：20，int：25		|神武教高台：神武教掌教師兄「在水一方」蕭日山(Sau zi san master)|
+|神武劍(God sword) （daily）			|+69	|str+1，con+1，int+2，命中+10			|5000		|str：20，dex：15		|神武教：ξ神武教ξ第二代教主「孤獨一方」流無形(Invisible liu) |
+|靈隱劍(Ling yan sword)（daily）		|+70	|dex+3，TEC+1，BAR-1				|15000		|str：6			|疾風門：疾風門大弟子「劍氣神童」萬鮮靈(Wan xian ling)|
+|天叢雲劍(Kusanagi sword)			|+70	|con+3，特攻					|30000		|level：45，sword sk：60	|出雲山頂：八岐大蛇．金首(Orochi gold head)|
+|懾日劍(Se ri sword)（雙手）			|+70	|int+3，dex+1					|4000		|str：20，int：25		|神武教高台：神武教掌教師兄「在水一方」蕭日山(Sau zi san master)|
+|七星倒峰劍(Sevenstar barb sword)（daily）	|+70	|特攻						|12500		|level：25，sword sk：60，str：30，dex：35|步靈城中央廣場：疾風門創人「武神」軒轅烈(Shiuan yuan lieh)|
+|九尾之牙《劍》(Nine tail tooth)（daily）		|+73	|str-2，con+2，int-1，dex+1，BIO+1，BAR+1，WIT-2，特攻	|11000	|str：20			|獵狐村：獵狐村 英雄「獵狐高手」索貝克(Suoo bey keh)|
+|聖炎轉龍劍(Flame turn-dragon sword)|+79|str+3，dex-2，命中+10，BAR+1，TEC+1|30000|str：13|聖炎殿：地 轉龍(Turn dragon)|

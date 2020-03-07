@@ -1,0 +1,6 @@
+====== 哈薩克針葉林 ======
+
+{{dreamseven:map:map02-forest2.png|}}
+
+^地圖標示^
+|01|可回[[dreamseven:map:map02-grassland|哈薩克草原]]。|

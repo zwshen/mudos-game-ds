@@ -1,0 +1,11 @@
+====== 哈薩克草原 ======
+
+{{dreamseven:map:map02-forest.png|}}
+
+^地圖標示^
+|商|哈薩克小店，可買賣物品(buy、sell)。|
+|01|小屋，計老人(Ji oldman)在此地。|
+|02|車爾庫的家，阿曼(Aman girl)在此地。|
+|03|蘇魯克的家，哈薩克勇士 蘇魯克(Su luke)在此地。|
+|04|通往[[dreamseven:map:map02-dragon2|磐龍城]]。|
+|05|通往[[dreamseven:map:map02-forest|哈薩克針葉林]]。|

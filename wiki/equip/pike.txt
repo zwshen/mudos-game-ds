@@ -1,0 +1,29 @@
+^名稱^攻擊力^增加屬性^物品價值^裝備條件^地點：出處^
+|短槍(Short pike)				|+12	|無						|500		|str：3|孟村：鐵匠(Smith)|
+|刺叉(Fork)				|+20	|無						|800		|str：2|東方島櫻花林： 烏鴉天狗(Karasu tengu)|
+|長槍(Long pike)				|+25	|無						|1000		|str：4|步靈城英雄之屋：無名英雄英靈(None hero)|
+|黃沙槍(Sand pike)				|+29	|無						|1500		|str：1|黃沙嶺：黃沙賊嘍囉(Desert robber)|
+|黑鐵槍(Black iron lance)			|+30	|無						|2000		|str：10|地窖地下三層：鬼出神沒 妖槍地祇(Ghost lancer)|
+|片鐮(Halbert)				|+30	|無						|1200		|str：2|東方島櫻花林：大天狗(Big tengu)|
+|菊池槍(Kikuchi pike)			|+30	|無						|1500		|level：10，fork sk：15，str：20|東方島鬼之森：虛無僧(Komusou)|
+|飛震槍(Fei zhen pike) 			|+32	|str+2，命中+8					|2600		|str：6|天城：Quest|
+|畢里斯矛(Belis spear)			|+35	|con+1						|600		|str：3|地底洞穴：石頭士兵(Stone soldier)|
+|凌君槍(Lin pike)				|+40	|無						|4000		|str：5|雲端：九天雲魂 凌魂(Lin soul)|
+|燄舞(Flame halbert)				|+45	|命中+5						|3000		|level：20，fork sk：50，str：30|東方島櫻花林：三色天狗 赤天狗(Red tengu)|
+|霜洬(Ice halbert)				|+45	|命中+5						|3000		|level：20，fork sk：50，str：30|東方島櫻花林：三色天狗 青天狗(Blue tengu)|
+|雲靄(Cloud halbert)				|+50	|無						|3000		|level：20，fork sk：50，str：30|東方島櫻花林：三色天狗 白天狗(White tengu)|
+|黃銅棍(Copper cane)			|+50	|dex-2						|5000		|str：16|鬼斷森林：鬼王 無妄(Ghost wu-won)|
+|鬼惡槍(Ghost woo pike) 			|+55	|str+1，int-2					|2500		|str：40|鬼斷森林：鬼眾 形鬼(Sing ghost)|
+|九尾之牙《槍》(Nine tail tooth) 		|+55	|str+3，BAR+1，TEC-1		|6500		|str：30|獵狐村：獵狐村 英雄「獵狐高手」索貝克(Suoo bey keh)|
+|寒鐵戟(Cold iron halbert)			|+55	|dex+1，命中-5，迴避-5				|3000		|level：15，fork sk：25，str：30|地窖地下四層：【冥王】 觴炯(Sun jiong) |
+|丈二紅槍(Red pike) 		|+55	|str+1，int+1		|16000		|str：5|磐龍客棧-三樓：邪靈 厲若海(Li ruo-hai master) |
+|大槍(Greatly pike)				|+58	|BAR+1，WIT-1					|17000		|str：16|竹屋： 八極門開山祖師 吳鐘(Wu chung master)|
+|蜻蛉切(Dragonfly-cut pike)（daily）		|+60	|命中+5						|10000		|level：30，fork sk：25，str：30|東方島鬼之森： 修驗道 宗光(Discipline monk)|
+|鶴啄(Crane peck)（daily）			|+60	|con+2，dex-1					|1000		|str：15，con：15，int：15，dex：15|地底神殿遺跡：聖炎龜使 煦倥(Xu kong)|
+|悲嚎槍(Sadness howl pike)			|+60	|BAR-1，SOU+1					|8000		|fork sk：70，str：2|受業無間：三途判 鬼王棺(Coffin ghost-king)|
+|英雄長槍(Hero pike)（daily）			|+62	|BAR+1，BIO-1，特攻				|17000		|str：16|步靈城英雄之屋：無名英雄英靈(None hero)|
+|丈二紅槍(Red pike)（daily） 		|+65	|str+1，int+1，BIO-1，SOU+1		|16000		|fork sk：80，str：5|磐龍客棧-三樓：邪靈 厲若海(Li ruo-hai master) |
+|莫干邪將(Mo gan she jung)（daily）		|+65	|con+1，命中-15，迴避-20				|10000		|level：20，fork sk：40，str：30|地窖地下四層：【冥王】 觴炯(Sun jiong) |
+|混沌風矛(Chaos spear)（daily）		|+65	|特攻：回血						|30000		|str：2|地下墓穴：天 魔(Devil)|
+|九尾之牙《槍》(Nine tail tooth)（daily）		|+73	|str+3，con+1，int-2，dex-1，命中+15，BAR+1，TEC-1，特攻	|11000		|str：20|獵狐村：獵狐村 英雄「獵狐高手」索貝克(Suoo bey keh)|
+|鐵血戰矛(Blood pike)（daily）		|+77	|str+2，dex-3，命中+5				|30000		|str：12|孟村石屋：八極門第六代掌門人「神槍李」李書文(Lee shu wen master)|

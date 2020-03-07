@@ -1,0 +1,53 @@
+====東北澤林第二段====
+
+        
+        10－09
+            ｜
+            08
+            ｜
+        06－07
+        ｜
+        05      13－14－15
+        ｜      ｜      ｜
+        04－11－12      16
+        ｜              ｜
+        03              17
+        ｜              
+        02              
+        ｜
+        01
+
+
+01 move west 可至[[dreamseven:map:northeastswamp1map |東北澤林第一段]], 或是 move north 可至 02
+
+02 move north 可至 03
+
+03 move north 可至 04
+
+04 move north 可至 05, 或是 move east 可至 11
+
+05 move north 可至 06
+
+06 move east 可至 07
+
+07 move north 可至 08
+
+08 move north 可至 09
+
+09 move west 可至 10
+
+10 move north 可至[[dreamseven:map:northeastswamp3map |東北澤林第三段]]
+
+11 move east 可至 12
+
+12 move north 可至 13
+
+13 move east 可至 14
+
+14 move east 可至 15
+
+15 move south 可至 16
+
+16 move south 可至 17
+
+17 move south 可至 [[dreamseven:map:huntfoxvillagemap |獵狐村]]

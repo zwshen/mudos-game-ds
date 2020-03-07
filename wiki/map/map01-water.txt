@@ -1,0 +1,8 @@
+====== 水寒星洞 ======
+
+{{dreamseven:map:map01-water.png|}}
+
+|地圖標示|
+|01|leave可回[[dreamseven:map:map01|朝天樓主要地圖]]。|
+|02|小魚(Small fish)在此地，可[[dreamseven:info:quest:fishboss|召喚魚老大]]或[[dreamseven:info:quest:gua_da-lou_quest|召喚英雄竭達羅]]。|
+|03|此處可[[dreamseven:info:quest:fishhole_with_fruit|召喚數種怪物]]。|

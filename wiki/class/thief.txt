@@ -1,0 +1,90 @@
+
+====== 盜賊(Thief)  ======
+
+  * 屬性分配比重建議為：力量(STR)：3 體質(CON)：7  智慧(INT)：0  敏捷(DEX)： 10
+  * 重點素質：生物(BIO)：對小偷的攻擊強度加乘
+  * 入門方式 路徑( alias do look off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,enter,n,n,n,n,n,n,n,n,e,e,e,n,e,look on,l)
+
+  神手 李貓(Lee mou) 正站在這裡
+  join mou
+  入門條件： 個性態度：有點惡劣  
+  註：多殺幾隻白鴿便可以了
+
+  * 基礎技能
+    * 埋伏躲藏(hide)                    hide          在站立當格隱藏行蹤，成功後敵人會看不到你。 註：於戰鬥時不能使用                                                                                                                      
+    * 無聲潛行(sneak)               sneak <方向>      向某個方向潛行，成功後敵人會看不到你。註：於戰鬥時不能使用功能：與hide 不同之處是sneak 可選擇不同方向sneak，以便發生戰鬥後進行backstab，由背後偷襲玩家/mob，先決條件是在hide 或 sneak 的狀態      
+    * 敵背突刺(backstab)            backstab <id>     註： backstab 失敗會delay 2 回合                                                          
+    * 團體合作(organization)     team_backstab <id>    聯合其他同隊伍的小偷進行背刺，這個指令只能由領隊下達，同伴必須在可以背刺敵人的條件下才能進行。聯合背刺是趁敵人被前一隊員刺中時的破綻下進行，故只要前一位背刺成功，後面的隊員將可以很輕易的下手，敵人也將會因為連續受創而無法立即反擊。                                           
+    * 窺形辨物(peep)                 peep <id>        偷窺怪物或玩家,獲得道具資訊以便進行偷竊。                       
+    * 妙手空空(stealing)       steal <item> from <id> 偷取玩家/mob 身上的道具
+    * 高感度平衡(free_action) 註：技能24、49、74、99級會提升dex 1點                      
+    * 觀察力(perception) 有助觀察正在sneak 或 hide 的玩家/mob
+  * 進階技能
+    * 背刺專精(stillhunt)：加強backstab的功能
+    * 匕法技能：飄渺化法(aerial-dagger)
+    * 暗器技能：九瀑連環(nine-waterfall)
+    * 輕功技能：凌雲步法(reachcloud-steps)
+    * 進階盜賊只要偷盜技倆高超(>70)，將可忽視法律規定，無前科限制。
+
+€Rsw DS @ 月族
+
+ 
+
+
+
+====== 練盜賊的心得  ======
+
+呼~ 終於練到lv 50 ，來總結一下練tf 的心得
+
+
+Q: attr 的max是怎樣算?
+A: attr max 有分2 種，一種是lv attr max，另一種是職業性的max
+   lv 的算法 lv*5+9
+   以tf lv 25為例，25*5+9
+   最多可以點134 點attr
+   
+   職業的分配可help class
+   盜  賊 (thief)      - backstab, throwing ║ BIO  ║  3   7    0   10    
+Q: 3 7 0 10 這表示 ?
+A: 那些叫gift，別是  力量 體質 智慧 敏捷
+   職業的公式是 lv + (gift/10)*lv
+   以Lv 25 的tf 為例力量，25 + (3/10)*25
+   大約可以點到33點str
+
+   Example:
+   力量:lv + (str/10)*lv  ----> 25+(3/10)*25
+   體質:lv + (con/10)*lv  ----> 25+(7/10)*25
+   智慧:lv + (int/10)*lv  ----> 25+(0/10)*25
+   敏捷:lv + (dex/10)*lv  ----> 25+(10/10)*25
+
+   Max Point When Lv 25: 力量33 體質43 智慧25 敏捷50
+
+Q: 還記得lv max 的attr 有多少嗎?
+A: 134 所以沒辦法全部都點到滿，這就是差距
+
+Q:再來我們看help class
+   盜  賊 (thief)      - backstab, throwing ║ BIO  ║  3   7    0   10    
+   tf 的重點是bio
+   
+   help race，evil ║ 生物(BIO)：(體質+敏捷)/25    
+   你可以看到你的race 那一項attr 能加到bio
+   所以con 跟dex 一定要滿
+   str 跟int 便要自己配了
+
+Q: lv 25 時 con dex str 都滿 其餘點 int ?
+A: 對了‧解釋一下tf 的int
+   進階前int 對tf 的戰鬥，是沒用的
+   但進階後有一個技能  九瀑連環 (nine-waterfall)，這個的回復是看tec，所以int 也不可以太低
+   tf 的技能縱多，而ds 的系統是，你越多sk 便會練得越慢
+   例如：你學了20 個sk，但你int 只有10，你每一次獲得技能的exp 有機會只會得1 點
+   所以int 是關乎練sk 的快慢
+   建議在lv 25 前，學backstab , hide,dagger  技能便好了
+   在lv 25 進階後，練滿九瀑連環 (nine-waterfall) 才學其他skills
+   這樣便會練得較為輕鬆
+Q: 開鎖技能呢
+A: 可以不用學，因為技能高低根本沒關係，加上會浪費技能的列席
+   門鎖打不開 多開幾次就好 ?
+
+
+
+€Rsw DS @ 月族 (Revised at 2/6/2007)

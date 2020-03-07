@@ -1,0 +1,12 @@
+====磐龍險峻====
+
+      □             
+      ｜             
+      □             
+        ╲           
+         □          
+         ｜          
+         01 
+
+01 [[dreamseven:info:quest:8_gwua_mirror_quest |解迷]]可通往[[dreamseven:map:eightmirrormap |八卦陣]](開啟[[dreamseven:map:dragonwartombmap |萬龍古墓]]戰爭必經之路的隨機地圖), 此處可以 recall start
+

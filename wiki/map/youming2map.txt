@@ -1,0 +1,23 @@
+====幽冥地窖[地下二層]====
+
+          06－05                    
+            ╱                      
+          □－04                    
+              ｜                    
+              □－03－□－02        
+                            ╲      
+                              □    
+                                ╲  
+                                  01
+
+01 崇椎(Chong jui), westup 可至[[dreamseven:map:youming1map |幽冥地窖地下一層]]
+
+02 刀疵(Blade chi)
+
+03 勤軼(Chin yi)
+
+04 劍無名(The sword less name)
+
+05 【人王】 通天徹(Tian che tung)
+
+06 kick 墓碑, 可開啟通往 westdown 之路, westdown 可至[[dreamseven:map:youming3map |幽冥地窖地下三層]]

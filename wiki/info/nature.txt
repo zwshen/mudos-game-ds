@@ -1,0 +1,62 @@
+====== 自然奇觀 ======
+
+自然奇觀自古以來，就是一種"美"的呈現，人類在接觸到各種奇觀時，
+常能觸發心靈最深處的記憶，激發出創作的火花及靈感。尤其是練武之
+人，要知武學之道無窮無盡，以一人之力想要登上武學的頂峰，無異是
+痴人說夢，所以大都會多多去接觸自然奇觀，領悟天地造化之妙，進而
+激發身體潛能，使得武學修為更上一層樓。
+
+實質獎勵：只要站在那一格的玩家，就有可能因為觀賞到奇觀，而獲得經驗值、聲望及戰鬥藝術。
+
+以下路徑均從recall start出發 
+===== 凌雲峰頂日出 =====
+
+    發生條件：在打完buddha war後60~90秒之間。
+    發生地點：凌雲峰頂-平台中央
+ do l off,e,n,e,se,eu,se,se,se,se,e,su,e,eu,e,nu,w,n,nw,n,n,n,ne,n,n,nu,nu,nu,ne,n,nu,nu,nu,jump 缺口,n,l on,l
+
+===== 冰湖流星雨 ===== 
+
+    發生條件：殺死吳鐘60~90秒之間。
+    發生地點：冰湖 (冷月獸附近)
+
+(LV 25以上適用)
+do l off,e,n,w,w,w,w,w,w,s,s,sw,enter house,w,enter 山縫,climb 藤蔓,w,n,n,ne,ne,l on,l
+
+(LV 25以下適用)
+首先取得六陽融雪爪
+do l off,e,n,w,w,w,w,w,w,s,s,sw,enter house,w,enter 山縫,w,put fist into 爪形印痕,w,n,n,ne,ne,l on,l
+
+===== 天池瀑布 ===== 
+    發生條件：殺死蕭日山後60~90秒之間。
+    發生地點：天池
+do l off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,e,n,n,nw,eu,ne,n,n,n,n,n,n,n,ne,n,n,n,l on,l
+
+===== 仙人劍舞 ===== 
+    發生條件：同一人殺死楊過及小龍女(順序無關)後60~90秒之間。
+    發生地點：活死人墓旁的懸崖
+do l off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,w,w,w,s,w,sw,sw,s,s,e,l on,l
+
+===== 龍井明月 ===== 
+    發生條件：殺死軒轅烈之後90~120秒之間。 
+    發生地點：龍井棧道-斷口處
+do l off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,e,n,n,nw,eu,ne,n,n,n,n,n,n,n,ne,n,n,nu,n,nw,nw,ne,ne,n,nw,n,n,nw,l on,l
+
+===== 牛郎織女 ===== 
+    發生條件：殺死情城池 香香之後90~120秒之間。 
+    發生地點：紫陽山頂
+do l off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,w,w,w,w,w,n,ne,u,ne,n,nw,sw,u,se,ne,u,w,nw,u,s,l on,l
+
+===== 險灘潮信 ===== 
+do l off,e,n,w,w,w,w,w,w,w,w,w,n,w,w,wu,n,w,give robber 600 coin,s,w,wd,w,w,l on,l
+
+===== 鳳飛九天 ===== 
+(暫無)
+
+===== 祥龍獻瑞  ===== 
+(暫無)
+
+===== 女媧補天  ===== 
+(暫無)
+
+

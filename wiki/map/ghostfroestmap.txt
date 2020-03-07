@@ -1,0 +1,32 @@
+====鬼斷森林====
+
+                  06                    
+                ╱  ╲                  
+              □      □                
+            ╱          ╲              
+          05              □－04        
+            ╲          ╱              
+              □      □                
+                ╲  ╱                  
+                  □                    
+                ╱  ╲                  
+              □      □                
+            ╱          ╲              
+          03              02            
+            ╲          ╱              
+              □      □                
+                ╲  ╱                  
+                  01                    
+
+
+01 south 可出鬼斷森林, 可至[[dreamseven:map:recallstart |主要地圖]](滄縣城以東)
+
+02 jump 粗樹枝, 可[[dreamseven:info:quest:egg_quest |解迷]]
+
+03 pass 草叢, 可[[dreamseven:info:quest:gotoseal_quest |解迷]]
+
+04 邪鬼  無妄像(Ghost statue), kneel statue 才可離開鬼斷森林, 此處可[[dreamseven:wars:ghost_forest_war |解迷]](鬼斷森林戰爭)
+
+05 search 澤邊可得紅色鑰匙(Red key)
+
+06 north 可出鬼斷森林, 可至[[dreamseven:map:secondarymap |次要地圖]](天城以東)

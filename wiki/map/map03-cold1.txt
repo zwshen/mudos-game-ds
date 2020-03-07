@@ -1,0 +1,8 @@
+====== 寒日洞一層 ======
+
+{{dreamseven:map:map03-cold1v2.png|}}
+
+|地圖標示|
+|01|萬斧莊第十三代弟子 周人傑(Zhou ren jie)在此地。|
+|02|down可至[[dreamseven:map:map03-cold2|寒日洞二層]]。|
+|03|萬斧莊第十三代弟子 周英傑(Zhou ying jie)在此地。|

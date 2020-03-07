@@ -1,0 +1,24 @@
+====黃沙陵====
+
+      01
+    ╱                                  
+  □                                    
+    ╲                                  
+      □－□－02                        
+          ｜  ｜╲                      
+          □－□  □－□                
+          ｜          ｜                
+          □          03                
+          ｜                            
+      □－□－□                        
+          ｜                            
+          04                            
+
+
+01 northwest 或是 2 northup 可至[[dreamseven:map:secondarymap |次要地圖]](天城南端)
+
+02 jump up 才可通過
+
+03 climb 高台, 可找[[dreamseven:class:god |神武教掌教師兄「在水一方」蕭日山(Sau zi san master)]]聊天, 可[[dreamseven:info:quest:godadv |解迷]]
+
+04 [[dreamseven:class:god |ξ神武教ξ第二代教主「孤獨一方」流無形(Invisible liu)]]

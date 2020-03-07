@@ -1,0 +1,22 @@
+====冰湖====
+
+  04－□－□              □－□－□        
+            ╲              ╲  ╱          
+              □              03            
+                ╲          ╱              
+                  □      □                
+                    ╲  ╱                  
+                      □                    
+                      ｜                    
+                  02－□                    
+                      ｜                    
+                      01                    
+
+
+01 down 可回[[dreamseven:map:bagimap1 |八極門]] 05
+
+02 [[dreamseven:class:bagi |八極門開山祖師 吳鐘(Wu chung master)]]
+
+03 [[dreamseven:info:nature |冰湖流星雨奇景]]觀賞處
+
+04 解迷可往[[dreamseven:map:coldsuncavemap |寒日洞一層]]

@@ -1,0 +1,9 @@
+====== 磐龍城 ======
+
+{{dreamseven:map:map02-dragon1.png|}}
+
+|地圖標示|
+|01|舊磐龍遺址，eastup可回[[dreamseven:map:map02-peak|黃沙嶺]]。|
+|02|水裡，通往[[dreamseven:map:map02-dragonwater|磐龍險峻]]。|
+|03|朱雀外門。|
+|04|朱雀內門，通往[[dreamseven:map:map02-dragon2|磐龍城]]。|

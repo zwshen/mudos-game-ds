@@ -1,0 +1,20 @@
+====天梟派====
+
+              □－□－□－02            
+              ｜  ｜  ｜                
+              □－□－□                
+                  ｜                    
+                  □  □      04        
+                  ｜  ｜      ｜        
+      01－□－□－□－□－□－03        
+                      ｜                
+                      □                
+
+
+01 southdown 一路下去, 然後 jump down, 可至[[dreamseven:map:northeastswamp3map |東北澤林第三段]]
+
+02 小販(Seller)
+
+03 天梟三聖 邢獨風(Shin-do-fon)
+
+04 [[dreamseven:class:skyowl |天梟三聖 邢幽風(Shin-you-fon master)]]

@@ -1,0 +1,16 @@
+====海政司====
+
+            □－03－□                
+                ｜                    
+                □  02                
+                ｜  ｜                
+        05－04－01－□                
+
+
+01 out 可至[[dreamseven:map:recallstart |主要地圖]](無砂鎮)
+
+02 「東戶政官」謝基(Shi gi), 此處可[[dreamseven:info:quest:wangbar_quest |解迷]]
+
+03 「海政長官」辛嚭(Sin pai), 此處可[[dreamseven:info:quest:wusacity_quest01 |解迷]]
+
+04 push 牆壁, 可開啟往 05 之路

@@ -1,0 +1,30 @@
+====英雄屋====
+
+                  01                    
+                  ｜                    
+                  02                    
+                  ｜                    
+              04－03－05                
+                  ｜                    
+                  09                    
+                  ｜                    
+              07－06－08                
+
+
+01 say 驅除韃虜, 可開啟至 02 之路, up 可回[[dreamseven:map:bulincitymap |步靈城]]
+
+02 turn 石碑, 可開啟至 03 之路
+
+03 kick 牆壁, 可開啟至 04 05 之路
+
+04 get armor, 可[[dreamseven:info:quest:meet_with_hero |解迷]]
+
+05 get leggings, 可[[dreamseven:info:quest:meet_with_hero |解迷]]
+
+06 hit 牆壁, 可開啟至 07 08 之路
+
+07 金箱子(Gold box), open box 可[[dreamseven:info:quest:meet_with_hero |解迷]]
+
+08 鐵箱子(Iron box), open box 可[[dreamseven:info:quest:meet_with_hero |解迷]]
+
+09 棺木(Coffin), 可[[dreamseven:info:quest:meet_with_hero |解迷]]

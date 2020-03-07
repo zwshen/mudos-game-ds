@@ -1,0 +1,15 @@
+====疾風門小花園====
+        □－03－□                    
+        ｜  ｜  ｜                    
+        04－□－02                    
+        ｜  ｜  ｜                    
+        □－01－□                    
+
+
+01 southup 可至[[dreamseven:map:windfrontdoormap |疾風門入口大門]]
+
+02 eastup 可至樺葉小舍
+
+03 northup [[dreamseven:map:windfronttunnelmap |前走廊]]
+
+04 westup 可至龍風小舍

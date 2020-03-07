@@ -1,0 +1,2 @@
+do look off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,e,n,n,nw,eu,ne,,e,e,ne,e,e,e,e,n,n,n,enter 小路,se,e,e,s,uncover 棺木,d,push 棺材板,w,search 骸骨,get sword
+   你撿起一把天師桃木劍。

@@ -1,0 +1,11 @@
+====== 情城池廣場 ======
+
+{{dreamseven:map:map02-love1.png|}}
+
+|地圖標示|
+|銀|情城池銀行，可存領錢(deposit，withdraw)。|
+|01|情城池走道，out可離開情城池。|
+|02|情城池當鋪，可買賣物品（buy，sell)。|
+|03|情城池武器店，販賣(buy)各種鞭子類(whip)武器。|
+|04|情城池藥舖，可購買(buy)各種藥物，亦可給「一代名醫」司馬迎月(Si-ma doctor)錢要求治療(heal+coin)。|
+|05|情城池大門，enter可進入[[dreamseven:map:map02-love2|情城池]]。|

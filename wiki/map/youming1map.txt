@@ -1,0 +1,18 @@
+====幽冥地窖[地下一層]====
+
+      □－03－□  05－□                
+      ｜      ｜  ｜    ╲              
+  01－02      04－□      06            
+
+
+01 up 可至[[dreamseven:map:shihousemap |施府]], 二隻吸血蝠(Bloodsuck bat)
+
+02 二隻瘋狗(Crazy dog)
+
+03 二隻潑猴(Ruffian monkey)
+
+04 二隻巨熊(Big bear)
+
+05 三隻妖獸(Monster beasts)
+
+06 【獸王】 伍霸剛(Ba gun wu), eastdown 可至[[dreamseven:map:youming2map |幽冥地窖地下二層]]

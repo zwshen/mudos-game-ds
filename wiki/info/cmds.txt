@@ -1,0 +1,45 @@
+==============================動作類指令============================================
+^**【動作類指令】**^  
+|觀看(l) look          |移動   go               |跟蹤    follow         |
+|開門     open           |關門      close         |鎖門     lock            |
+|開鎖     unlock        |給予    give            |放置      put             | 
+|丟棄     drop           |拿取   get              |裝備防具  wear           | 
+|卸除防具 remove(rem)   |裝備武器(wi)wield       |卸除武器unwield  (uwi)  |
+|使用物品 use            |清除物品  sac           |搜查     *search          |
+|組隊(協力模式) *team   |命令非玩家角色 hest      |拍賣物品   *auc            | 
+|申請入幫   joinclub    | 
+================================檢視類指令==========================================
+^**【檢視類指令】**^
+|物品(i)  inventory      |狀態(sc) score         |簡略狀態hp        |
+|升級需求  level          |英文代號   id             |線上玩家who       |
+|調查玩家  finger         |技能列表skills   (sk)    |法術列表spells    |
+|怪物列表  moblist        |巫師列表  wizlist         |評估對手consider  (con)|
+|查詢存款  balance       |附近地圖*map      | 
+===============================戰鬥用指令===========================================
+^**【戰鬥用指令】**^
+|開戰(k)  kill            |施法(c) cast              |使用技能exert     (ex)|
+|自動逃亡 wimpy           |射擊shoot    (ss)         |玩家較量fight     |
+|停止追擊  surrender      |保護他人defend   |
+====================溝通用指令======================================================
+^**【溝通用指令】**^
+|詢問     ask             |說話 say  (')         |告訴tell      |
+|回答    reply           |打探消息talk  (可獲得NPC初步提示)|
+|吶喊   shout             |悄悄話 whisper            |動作列表 semote      |       
+|動作    emote            |時代頻道   chat          |公開動作chat      |
+|跨時空閒聊 tchat        |好友公開頻道 ft           |頻道設定tune      |
+=============其他=============================================================
+^**【其他】**^
+|自訂熱鍵 alias           |線上求助 help             |更改密碼passwd    |
+|離線   quit              |儲存   save               |自殺suicide   |
+|遊戲時間  time           |設定     set              |取消設定unset     |
+|長串輸入 to              |系統執行時間  uptime      |作業版本version   |
+|頭銜檢視 title           |自訂外號  nick            |回到出發點recall    |
+|連續執行  do             |保存物品(sec) secure     |回報bug|
+|張貼文章  post           |外貌敘述  describe        |回應文章followup  |
+|設定簽名檔 signature     |放棄技能   abandon        |現在時間date      |
+|萬年曆    cal            |設定閒置模式 inactive     |設定命令提示字元prompt    |
+
+**★ 如果你是巫師的話﹐請用 help wizcmds 查詢巫師專用指令。**
+
+**★ 請用 help <指令> 來查看詳細指令說明。**
+

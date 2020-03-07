@@ -1,0 +1,10 @@
+====== 黃沙嶺 ======
+
+{{dreamseven:map:map02-peak.png|}}
+
+|地圖標示|
+|01|黃沙嶺，eastdown可回[[dreamseven:map:map02|黃沙鎮]]。|
+|02|黃沙嶺，黃沙賊(Desert robber)在此地。|
+|03|黃沙嶺，紅山豬(Red pig)在此地。|
+|04|黃沙嶺，westdown可通往[[dreamseven:map:map02-dragon|磐龍城]]。|
+|05|山寨，有金銀財寶(Gold)。|

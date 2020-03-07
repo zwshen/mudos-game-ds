@@ -1,0 +1,24 @@
+====牯牛草原====
+
+                □                        
+                ｜                        
+        □－□－□－□  04                
+        ｜  ｜  ｜  ｜  ｜                
+        □－□－□－□－□  02            
+        ｜  ｜  ｜  ｜  ｜  ｜            
+    □－□－□－□－□－□－□－□        
+        ｜  ｜  ｜  ｜  ｜  ｜  ｜        
+        □－□－□－□－□－□－□        
+        ｜  ｜  ｜  ｜  ｜  ｜  ｜        
+        □－□－□  01  □－□－□        
+        ｜                                
+        03                                
+
+
+01 out 可通往[[dreamseven:map:recallstart |主要地圖]](孟村田邊小路)
+
+02 牛皮蒙古包, 牛博士(Cow master), [[dreamseven:piece:cow_war |牛群戰爭]]由此開始
+
+03 此處可[[dreamseven:wars:soul_war |解迷]], 通往[[dreamseven:map:cloudwarmap |雲端]]
+
+04 此處可[[dreamseven:piece:cow_war |解迷]], 引發[[dreamseven:piece:cow_war |牛群戰爭]]

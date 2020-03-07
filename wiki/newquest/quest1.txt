@@ -1,0 +1,24 @@
+任務名稱:
+        剿滅幽冥
+
+任務等級:
+        lv35-50
+
+接受任務的npc:
+             流無形
+
+完成任務的npc:
+             流無形
+
+接受任務時npc要說的話:
+                    流無形說:前些日子有消息回報在天城之中看見幽冥之人出沒，不知俠士(女)是否願意前往查探並剿滅。
+
+完成任務時npc要說的話:
+                    流無形說:多謝俠士(女)的幫忙才剿滅了幽冥地窖。
+
+完成條件:
+        斬殺的怪物:伍霸剛(Ba gun wu)通天徹(Tian che tung)侮天(Wu tan)觴炯(Sun jiong)天殘邪佬(Tan chan xie)
+        取得的物品:蛇皮手套(Snake gloves)人皮腰帶(Human skin waists)鬼頭盾(Ghost head shield)冥王鬼面(Ghost mask)幽冥劍(You ming sword)
+
+獎勵:
+    exp 20000 聲望10 戰藝10

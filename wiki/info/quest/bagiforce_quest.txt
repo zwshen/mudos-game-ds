@@ -1,0 +1,15 @@
+條件限制:lv25成為吳鐘弟子後
+
+先拿到六陽融雪爪(Sun-snow-fist)
+
+do l off,e,n,w,w,w,w,w,w,s,s,sw,enter house,open door,w,enter 山縫,w,put fist into 爪形印痕,jump 山洞,l on,l
+
+  山洞 - 
+      你正在一處約可容納二、三人的小山洞，你一眼發現山洞盡處躺著一
+  具骸骨，看其身上腐爛不堪的衣服，可知此人已死亡多年了。
+      這裡唯一的出口是 out。
+search 骸骨  
+  妳仔細地搜了搜骸骨...
+  你似乎搜到了一本書？
+
+再把書拿回去給吳鐘

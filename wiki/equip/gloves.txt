@@ -1,0 +1,28 @@
+^名稱 ^素質 ^來源/出處 ^
+|黑玉手鐲(Black jade bangle)     |防+1 抗+1                                |顧知天(Gou zhi tian)|
+|布套手(Cloth gloves)            |防+2 抗+1                                |步靈  防具店|
+|蛇皮手套(Snake gloves)          |防+3 str+2 int-1                         |伍霸剛(Ba gun wu)|
+|荒革手袋(Leather gloves)        |防+4                                     |鹽民(Salt maker)|
+|炎殺手套(Flame kill gloves)     |防+4 str+1 BIO-1 WIT-1                   |剎楠(Cha na)|
+|鹿皮手套(Deerskin gloves)       |防+4 抗+4 str+1                          |水手(Sailorman)|
+|鐮刀手套(Hook gloves)           |防+5                                     |軒轅烈(Shiuan yuan lieh)|
+|畢家護手(Bi gloves)             |防+5                                     |倚霄派弟子 畢松柏(Bi songbo)|
+|滅骨皮掌(Maigu gloves)          |防+5 con+1                               |滅骨獸(Maigu)|
+|吉祥蓮華(Lucky gloves)          |防+5 抗+10 int+3                         |如來佛祖(Rulaifo bonze)|
+|熊掌(Bear gloves)               |防+7                                     |熊(Bear)|
+|祕 星掌(Mi gloves)              |防+8                                     |秘 秘密客(Mimi guard)|
+|神武護手(God hands)             |防+8                                     |流無形(Invisible liu)|
+|日月護星手(Sun-moon gloves)     |防+8 dex+1                               |吳鐘(Wu chung master)|
+|日月護星手(Sun-moon gloves)     |防+8 dex+1 con+1 daily 特殊               |吳鐘(Wu chung master)|
+|矢射手甲(Ya-sha hands)          |防+8 攻+3                                |quest備前剛(Bizen gou)|
+|闇鱷手甲(Crocodile hands)       |防+8 閃-5 str+3 con+3 BAR+1 WIT-1 TEC+1  |quest秋錦(Chiu gin)|
+|魔術師手套(Mage gloves)         |防+10 str+3                              |時空魔術師(Mage)|
+|白銀籠手(Silver gloves)         |防+12                                    |柳生．奧太郎(Yagyuu autarou)|
+|禰影璧(Uchimaha gloves)         |防+13                                    |quest十萬大山|
+|八歧鱗手(S)(Orochi gloves)      |防+13 抗+13                              |八岐大蛇．赤首(Orochi red head)|
+|八歧鱗手(Orochi gloves)         |防+13 抗+13 攻+5 str+1 con+1 dex+1       |八岐大蛇．赤首(Orochi red head)|
+|蠶絲手套(Silk gloves)           |防+14 抗+10 dex+1                        |天山雪(Master tain)香香(Master sen)|
+|狐皮手套(Fox gloves)            |防+18 抗+10 攻+3 str+1 con+2 dex-2       |獵狐村 村民(Villager)|
+
+
+

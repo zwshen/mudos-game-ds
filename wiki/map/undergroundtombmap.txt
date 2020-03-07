@@ -1,0 +1,20 @@
+====地下墓穴====
+
+                  03                    
+                ╱｜╲                  
+              02  □  □                
+                ╱｜╲                  
+              □  □  □                
+                ╱｜╲                  
+              □  □  □                
+                ╱｜╲                  
+              □  □  □                
+                ╱｜╲                  
+              □  01  □                
+
+
+01 持有白光之鑰(White-light key)可開門, up 回到[[dreamseven:map:oldtombmap |古墓]]
+
+02 可拾得[[dreamseven:info:quest:fishhole_with_fruit |火紅果(fruit)]]
+
+03 wakeup devil, 可喚醒天魔

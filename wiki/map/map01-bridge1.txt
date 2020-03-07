@@ -1,0 +1,6 @@
+====== 鶴子橋口 ======
+
+{{dreamseven:map:map01-bridge1.png|}}
+
+^地圖標示^
+|01|鶴子橋口，east回到[[dreamseven:map:map01|百花叢]]，northup可至[[dreamseven:map:map01-bridge2|鶴子橋上]]。|

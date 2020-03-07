@@ -1,0 +1,7 @@
+====== 雲端 ======
+
+{{dreamseven:map:map01-cloud.png|}}
+
+^地圖標示^
+|01|雲端-中央通道，do d,d,jump down可回[[dreamseven:map:map01-cow|牯牛草原]]。|
+|02|神堂，fire touch可開啟雲端戰爭。|

@@ -1,0 +1,32 @@
+====== 練功/升級心得 ======
+   * [[dreamseven:info:paths | 路徑總整理 ]]
+   * (歡迎投稿)
+
+====== 各職業心得 ======
+
+  - [[dreamseven:class:bagi | 八極門 (bagi) ]]
+    * (歡迎投稿)
+  - [[dreamseven:class:army   | 少帥軍 (army) ]]
+    * (歡迎投稿)
+  - [[dreamseven:class:warlord  | 戰  神 (warlord) ]]
+    * (歡迎投稿)
+  - [[dreamseven:class:wind   |疾風門 (wind) ]]  
+    * (歡迎投稿)
+  - [[dreamseven:class:bonze   |凌雲寺 (bonze) ]]
+    * (歡迎投稿)
+  - [[dreamseven:class:love   |情城池 (love) ]]  
+    * (歡迎投稿)
+  - [[dreamseven:class:thief   |盜  賊 (thief)]] 
+    * (歡迎投稿)
+  - [[dreamseven:class:god | 神武教 (god) ]]
+    * (歡迎投稿)
+  - [[dreamseven:class:frost | 寒澈派 (frost) ]]
+    * (歡迎投稿)
+  - [[dreamseven:class:ancestor | 邪極宗 (ancestor) ]]
+    * (歡迎投稿)
+  - [[dreamseven:class:illusion   |靈幻宗 (illusion) ]]
+    * (歡迎投稿)
+  - [[dreamseven:class:skyowl |天梟派 (skyowl) ]] 
+    * (歡迎投稿)
+  - [[dreamseven:class:guardian |守護者 (guardian) ]]
+    * (歡迎投稿)

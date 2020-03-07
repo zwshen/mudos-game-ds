@@ -1,0 +1,5 @@
+五行迷魂陣迷宮走法 n,n,n,w,ne,n,n
+
+或是從 recall start, do look off,e,n,e,se,eu,se,se,se,se,e,n,ne,enter 瀑布,e,s,move 工具,s,down,n,n,n,n,w,ne,n,n,down,down,look on,l
+
+可直達[[dreamseven:map:godplacemap |地底神殿遺跡]]

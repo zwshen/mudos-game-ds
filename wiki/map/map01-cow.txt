@@ -1,0 +1,10 @@
+====== 牯牛草原 ======
+
+{{dreamseven:map:map01-cow.png|}}
+
+^地圖標示^
+|01|牯牛草原南方，out可回[[dreamseven:map:map01|朝天樓地圖]]。|
+|02|牛皮蒙古包，牛博士(Cow master)在此地。|
+|03|牛皮蒙古包-內屋，使用北蠻村取得的川普之腳(place leg on tombstone)可進入闇牯牛草原。|
+|04|柵欄，能開啟[[dreamseven:piece:cow_war|牛群戰爭]]。|
+|05|木柱前，hold 勾子能通往[[dreamseven:map:map01-cloud|雲端]]。|

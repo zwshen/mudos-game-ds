@@ -1,0 +1,42 @@
+====地底神殿遺跡====
+
+                  □                    
+                  ｜                    
+          □      □      □            
+            ╲  ╱｜╲  ╱              
+              06  09  07                
+            ╱    ｜    ╲              
+      □－□  □－10－□  □－08        
+            ╲          ╱              
+              □  05  □                
+                ╲｜╱                  
+                  04                    
+                ╱  ╲                  
+              03－□－□                
+              ｜  ｜  ｜                
+          □－□  □  □－□            
+              ｜      ｜                
+              □－□－02                
+                ╲｜╱                  
+                  □                    
+                  ｜                    
+                  01                    
+
+
+01 2 up 可至[[dreamseven:map:5shinmaze |五行迷魂陣]]
+
+02 隨機出現天貓(Sky cat)
+
+03 隨機出現聖狼(Saint wolf), 聖狼為主動攻擊
+
+04 turning up 可開啟通往 05 之路
+
+06 隨機出現神豹(God leopard), 神豹為主動攻擊
+
+07 隨機出現狂象(Crazy elephant), 狂象為主動攻擊
+
+08 聖炎蛇使 剎楠(Cha na), 主動攻擊
+
+09 隨機出現祥獅(Mascot lion)
+
+10 此處可以 recall start, 此處可[[dreamseven:info:quest:godplace_dragon |解迷]], enter 可至[[dreamseven:map:saintfireplacemap |聖炎殿]]

@@ -1,0 +1,36 @@
+====獵狐村====
+
+                  09                    
+                  ｜                    
+              07－08－□                
+                  ｜                    
+              06－□－05                
+                  ｜                    
+                  □                    
+                  ｜                    
+      01－□－□－□                    
+                  ｜                    
+                  □－02                
+                  ｜                    
+              03－□                    
+                  ｜                    
+                  □－04                
+
+
+01 north 可至[[dreamseven:map:northeastswamp2map |東北澤林第二段]]
+
+02 獵狐村－當鋪
+
+03 獵狐村─小棧亭
+
+04 獵狐村「織皮高手」王轑(Wang-lou), 可[[dreamseven:info:quest:foxmask_quest |解迷]]
+
+05 獵狐村村長 陳寶(Chen biaw), 可[[dreamseven:info:quest:godwind_bag_quest |解迷]]
+
+06 獵狐村 英雄「獵狐高手」索貝克(Suoo bey keh), 可[[dreamseven:info:quest:crocodile_necklace_quest |解迷]]
+
+07 獵狐村「織布少女」秋錦(Chiu gin), 可[[dreamseven:info:quest:crocodilehands_quest |解迷]]
+
+08 jump 東方屋頂, 可找飛天女賊 紫俠(Purpler)泡茶聊天, 可[[dreamseven:info:quest:callcrocodile_quest |解迷]]
+
+09 enter 可至富宅找獵狐村首富 富翁(Rich man), 可[[dreamseven:info:quest:callcrocodile_quest |解迷]]

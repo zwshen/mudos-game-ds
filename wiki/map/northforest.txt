@@ -1,0 +1,47 @@
+====北方大森林=====                      
+
+
+
+
+
+                                      03
+                                    ╲
+                                           □
+                                           ∣
+                                           □
+                                           ∣
+                                           □
+                                           ∣
+                                       □—□—□
+                                       ∣  ∣  ∣
+                                       □  02  □
+                                       ∣      ∣
+                                       □      □
+                                       ∣      ∣
+                                       □      □
+                                       ∣      ∣
+                                       □—□—□
+                                           ∣
+                                           □ 
+                                           ∣
+                                           □          □—□
+                                           ∣          ∣    ╲
+                                           □          □      01
+                                      ∣          ∣
+                                           □—□—□—□
+
+
+
+
+
+
+
+
+01 往[[dreamseven:map:10onemountainmap |十萬大山]]
+
+02 進[[dreamseven:map:undergroundcave |地底洞穴]]
+
+03 往[[dreamseven:map:panslabyrinth |羊男的迷宮]]
+
+  last update 2008/09/04
+  BY Belle

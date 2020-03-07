@@ -1,0 +1,18 @@
+====黃沙嶺====
+
+        □                
+        ｜                
+        02－□            
+        ｜  ｜            
+    03－□  01            
+    ｜                    
+    04                    
+
+
+01 eastdown 可回[[dreamseven:map:recallstart |主要地圖]](黃沙鎮)
+
+02 黃沙賊(Desert robber)
+
+03 westdown 可通往[[dreamseven:map:dragonbeachmap |磐龍險峻]], 或是[[dreamseven:map:armymap |少帥軍]]
+
+04 紅山豬(Red pig), 可[[dreamseven:info:quest:8_gwua_mirror_quest |解迷]]

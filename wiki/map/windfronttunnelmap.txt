@@ -1,0 +1,11 @@
+====前走廊====
+                02                    
+                ｜                    
+    □－□－□－□－□－□－□        
+                ｜                    
+                01                    
+
+
+01 southdown 可至[[dreamseven:map:windfrontyardmap |疾風門小花園]]
+
+02 northdown 可至[[dreamseven:map:windtrainningareamap |疾風門練武場]]

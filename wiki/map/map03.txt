@@ -1,0 +1,10 @@
+====== 冰湖 ======
+
+{{dreamseven:map:map03-icelake.png|}}
+
+|地圖標示|
+|01|懸崖前，down可回[[dreamseven:map:map01-bagi|八極門]]。|
+|02|竹屋內，八極門開山祖師 吳鐘(Wu chung master)在此地。|
+|03|冰湖前，[[dreamseven:info:nature|冰湖流星雨]]觀景處。|
+|04|冷月池前，「魔獸」 冷月(Cold moon monster)在此地。|
+|05|崖壁前，pass 雜物後push 西面石壁可進入[[dreamseven:map:map03-cold1|寒日洞一層]]。|

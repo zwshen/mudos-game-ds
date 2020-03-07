@@ -1,0 +1,4 @@
+  *  [[ dreamseven:info:temp:magic_card_01| Alpha Magic Card]]
+  *  [[ dreamseven:info:temp:magic_card_02| 孟村傳奇 Magic Card]]
+  *  [[ dreamseven:info:temp:magic_card_03| 武神 Magic Card]]
+  *  [[ dreamseven:info:temp:magic_card_04| 龍槍 Magic Card]]

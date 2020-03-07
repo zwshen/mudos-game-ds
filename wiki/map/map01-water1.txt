@@ -1,0 +1,7 @@
+====== 朝天湖水裡 ======
+
+{{dreamseven:map:map01-water1.png|}}
+
+^地圖標示^
+|01|朝天湖－水裡，up到[[dreamseven:map:map01-house1|湖心小屋]]，down到[[dreamseven:map:map01-water2|朝天湖水裡]]。|
+|02|朝天湖－水裡，up回[[dreamseven:map:map01|朝天樓地圖]]。|

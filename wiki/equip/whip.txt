@@ -1,0 +1,24 @@
+^名稱^攻擊力^增加屬性^物品價值^裝備條件^地點：出處^
+|氣鞭(Kee whip)(save)|+10|dex+1|1000|str：1|情城池武器店|
+|竹鞭(Bamboo whip)|+12|dex+1|1700|str：1|情城池：《情城池》 城民(Dwller)|
+|釣竿(Fishing rod)|+15|無|300|str：1|孟村河邊小路：釣客(Fisher)|
+|精鋼鞭(Gin whip)|+18|con+1|2300	|str：1|情城池：《情城池》 守衛(Love guard)|
+|速鞭(Fast whip)|+20|dex+2|3000|str：1|情城池：《情城池》 記名弟子(Apprentice)|
+|軟鞭(Soft whip)|+22|dex+1|2700|str：1|情城池：《情城池》 入門弟子(Apprentice)|
+|霸天鞭(Ba tan whip|+25	|str+1，dex+1|4000|str：1|情城池：情城池第三代傳人「八仙子之一」如絮(Ru she)|
+|舞絕鞭(Ru chu whip)|+30	|con+1，dex+2|4500|str：1|情城池：情城池秘密殺手「斷滅七情」黑衣女子(Black killer)|
+|銀索(Yin-suo whip)|+30|無|2000|str：1|古墓：孫婆婆(Sun popo)|
+|夢情鞭(Dream love whip)|+30|str+1|4700|str：1|情城池：《情城池》第二代城主「滅情絕道」天山雪(Master tain)|
+|秤桿(Beam)|+30|無|1500|str：1，int：10|地窖地下四層：群魔亂舞 秤命客(Balance fate herald)|
+|流君線(Liu whip)|+34|無|3400|str：5|雲端：九天雲魂 流魂(Liu soul)|
+|逐日者軟鞭(Sun-follow whip)|+35|無|1500|無|雲端：逐日者守衛(Sun-follow guard)|
+|魎脊(Ghost bone)|+36|無|800|str：3，dex：25|十萬大山：War|
+|蛇牙(Snake tooth)（daily）|+40|con-1，dex+2|1000|str：15，con：15，int：15，dex：15|地底神殿遺跡：聖炎龜使 煦倥(Xu kong)|
+|霄遨韌鞭(Mist tough whip)|+40|dex+2|4000|str：2，dex：20|寒澈道觀觀景台：倚霄派弟子 畢松柏(Bi songbo)|
+|狂音鞭(Crazy voice whip)|+47|無|800|str：3，dex：25|地底神殿遺跡：聖炎虎使 閍(Beng)|
+|金銀雙索(Gold-siler whip)|+55|無	|3500|str：1|古墓：Quest|
+|拂塵(Brush dust whip)			|+60	|無						|30		|無|古墓：古墓派第三代弟子「赤練仙子」李莫愁(Lee mochou)|
+|血魔鞭(Blood dream whip)（daily）		|+65	|str+2，dex+2，全體特攻				|1700		|str：1|情城池：《情城池》第二代城主「滅情絕道」天山雪(Master tain)|
+|龍王鞭(Dragon king whip)（daily）		|+70	|str+2，con+1，dex+1				|1900		|str：1|情城池：《情城池》開城祖師「蓮池仙尊」香香(Master sen)|
+|詭譎鞭(Strange whip)（daily）		|+75	|str+2，con+2，int+3，dex+2，特攻			|20000		|whip sk：60，str：3|情城池：情城池方外長老「詭譎鞭」妙法仙尊(Mu fu ron)|
+|三千煩惱絲(Thousand-hair whip)		|技能每10級可增加武器5%的傷害力，共50%。|每20級可增加武器一點敏捷、體質，共5點。|三千煩惱絲可以put/get，但由於沒有價值，所以drop時會消失。|

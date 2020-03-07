@@ -1,0 +1,28 @@
+====情城池====
+
+              □－08－□                
+                  ｜                    
+              05  06  07                
+                ╲｜╱                  
+              03－02－04                
+                  ｜                    
+          □－□－□－□－□            
+                  ｜                    
+          □－□－01－□－□      
+
+
+01 out 可回[[dreamseven:map:lovesquaremap |情城池廣場]]
+
+02 情城池第三代傳人「八仙子之一」天誠真(Tan san jan), up 可遇情城池第三代傳人「八仙子之一」湘玉之(Sun ru ju), down 可遇情城池第三代傳人「八仙子之一」白靈(White lin)
+
+03 情城池第三代傳人「八仙子之一」如絮(Ru she)
+
+04 情城池第三代傳人「八仙子之一」沈蓉(Sen run)
+
+05 情城池第三代傳人「八仙子之一」蓮花真(Lan hu jin)
+
+06 情城池第三代傳人「八仙子之一」目子迎(Mu ju win), push button 可遇情城池方外長老「詭譎鞭」妙法仙尊(Mu fu ron)
+
+07 情城池第三代傳人「八仙子之一」靈芝(Lin jun)
+
+08 [[dreamseven:class:love |《情城池》第二代城主「滅情絕道」天山雪(Master tain)]], up 可遇[[dreamseven:class:love |《情城池》開城祖師「蓮池仙尊」香香(Master sen)]], 此處可解迷

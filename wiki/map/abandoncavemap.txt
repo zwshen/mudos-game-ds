@@ -1,0 +1,13 @@
+====廢棄礦坑====
+
+           01－□                   
+           ｜  ｜                   
+           □－02                   
+               ｜
+               03
+
+01 out 可至[[dreamseven:map:mountaintunnelmap |山道]]
+
+02 老礦工(Old worker), move 工具, 可開啟往 03 之路
+
+03 down 可通往[[dreamseven:map:5shinmaze |五行迷魂陣]](迷宮), 通過迷宮, 可達[[dreamseven:map:godplacemap |地底神殿遺跡]]

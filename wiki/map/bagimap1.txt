@@ -1,0 +1,16 @@
+====八極門====
+
+          03                        
+          ｜                        
+  05－04－02－01
+
+
+01 [[dreamseven:class:bagi |八極門第六代掌門人「神槍李」李書文(Lee shu wen master)]], out 可回[[dreamseven:map:recallstart |主要地圖]](孟村街道)
+
+02 enter 山縫, 可通往 04
+
+03 通往[[dreamseven:info:club:ming |明教]](幫會)
+
+04 (Lv 25 以上) climb 藤蔓, 可通往[[dreamseven:map:bagimap2 |冰湖]]
+
+05 (Lv 25 以下) [[dreamseven:info:quest:sun_snow_fist_quest |解迷]]可通往[[dreamseven:map:bagimap2 |冰湖]]

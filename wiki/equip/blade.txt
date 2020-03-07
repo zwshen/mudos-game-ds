@@ -1,0 +1,44 @@
+^名稱^攻擊力^增加屬性^物品價值^裝備條件^地點：出處^
+|袋竹刀(Bamboo blade)|+3	|無|100|無|東方島新陰流道場：新陰流 門生(Shinin-ryuu apprentice)|
+|小刀(Knife)|+5|無|500|無|孟村小巷子：流氓(Vag)|
+|砍刀(Blade)（save）|+12|無|800|str：3|天城：打鐵匠(Smith)|
+|鋼刀(Steel blade)|+17|dex-1|1400|str：10|無砂鎮：海政司守衛(Guard)|
+|水手彎刀(Sailorman blade)|+17|無	|1400|str：10|南無砂港泊口：水手(Sailorman)|
+|鬼頭刃(Ghost blade)|+18|int+1|2000|str：10|無砂鎮海政司：「海政司」帶刀護衛(Advance guard)|
+|青銅刀(Bronze blade)|+19|con+1|1700|str：13|無砂鎮海政司：「海政司」帶刀護衛(Advance guard)|
+|九環刃(Blade)|+20|str+2|2000|str：10|無砂鎮海政司：「海政司」帶刀護衛(Advance guard)|
+|白色長刃(Blade)|+20|str+1|1700|str：10|無砂鎮海政司：「海政司」帶刀護衛(Advance guard)|
+|大刀(Broad blade)|+20|無|500|str：1|東城頭：少帥軍 牙將(Gate guard)|
+|金陽刀(Sun blade)|+22|str+1，con+2|7000|str：17|無砂鎮海政司：「海政司」帶刀護衛(Advance guard)|
+|黃沙刀(Sand blade)|+25|無|1200|str：1|孟村關口：邊界守衛(Boundary guard)|
+|馬刀(Horse blade)|+25|無|1500|str：1|哈薩克草原：哈薩克牧民(Hasake herdsman)|
+|阿拉伯彎刀(Arabia blade)|+25|無|1500|str：4|哈薩克草原：哈薩克勇士 蘇魯克(Su luke)|
+|精鋼砍刀(Steel blade)|+30|無|1500|str：1|磐龍客棧-二樓：少帥軍第二代將軍 宣永(Xuan yong master)|
+|絕地邪刀(Jue dei blade)|+32|無|2000|str：13，dex：11|天城：刀狂 上官聚(Jui shang guan)|
+|無度刀(Wu do blade)|+33|無|2250|str：10|地窖地下四層：群魔亂舞 度途士(Do tu si)|
+|碧海餘韻(Sea blade)|+35|str+1，dex+1|10000|str：3|無砂鎮：Quest|
+|魎脛(Ghost blade)|+36|無|800|str：25|十萬大山：War|
+|野太刀(Ya katana)|+40|無|4500|blade sk：40，str：3|東方島：新陰流 柳生．奧太郎(Yagyuu autarou)|
+|龍頭刀(Dragon blade)（雙手）|+40|無|2000|str：5，dex：5|地窖地下二層：刀疵(Blade chi)|
+|龍門嘯月(Dragon blade)|+40|特攻|10000|str：2|無砂鎮石屋：鹽俠 余滄(Yu chen)|
+|魔　刀(Evil-blade)|+50|無|10000|level：25，blade sk：50，str：30，dex：30|水寒星洞：南宮世家「世家心刀傳人」南宮無雙(Master nan)|
+|逐日者之刀(Sun-follow blade)|+42|無|2000|str：5|雲端：逐日者守衛(Sun-follow guard)|
+|刀(Blade)|+50|命中+20（不會損壞）|2000|blade sk：40，str：8，con：25，dex：30|皇城東郊：張麟(Chang lin)|
+|魂元邪刀(Soul-evil blade|+50|str+1，con+1|8000|blade sk：40，str：4|千年古洞：影爪邪魂(Umbra-claw soul)|
+|雷切(Raikiri katana)|+51|str+2|5500|blade sk：60，str：2|東方島鬼之森：浪人(Rounin)|
+|獸王巨刀(Animal huge blade)|+55|str+1，con+1|80000|str：3|紫陽山頂：邪惡領主 獸王之王(Animal king)|
+|獸王巨刀(Animal huge blade)（紅色）|+55|str+2，con+2，int-1，dex-1，BAR+1，WIT-1|80000|str：3|紫陽山頂：邪惡領主 獸王之王(Animal king)|
+|九尾之牙《刀》(Nine tail tooth)|+55|str+1，con-2，BIO+1，BAR+1，WIT-1，SOU-1|6500|str：30|獵狐村：獵狐村 英雄「獵狐高手」索貝克(Suoo bey keh)|
+|炎骨刀(Flame blade)|+55|str+1|1000|blade sk：30，str：25|地底神殿遺跡：聖炎刃使 歲氿(Swe gui)|
+|斬蛇丸(Viper-killed katana)|+60|str+2，BIO+1，WIT-1|12000|level：25，blade sk：40|東方島出雲山頂：  八岐大蛇．金首(Orochi gold head)|
+|狂刀‧濁世(The crazy blade)（daily）|+60|str+2|7500|blade sk：50，str：6，dex：25|皇城東郊：濁世之人 杜絕(Do jur)|
+|備前長船(Bizen-chousen katana)（daily）|+60|str+2，con+2|9000|level：25，str：2|東方島：新陰流 柳生．奧太郎(Yagyuu autarou)|
+|魂元邪刀(Soul-evil blade)（daily）|+60|str+1，con+1，BAR+1，WIT-1|8000|blade sk：40，str：4|千年古洞：影爪邪魂(Umbra-claw soul)|
+|童子切‧安綱(Douzikiri katana)|+62|無|10000|level：35，blade sk：40，str：2|東方島出雲山頂：  刀法無雙 柳生．筧(Yagyuu ken)|
+|櫻亂舞(Sakura-ranbu katana)（daily）|+63|con+1，int+2，BIO-1|30000|level：33，blade sk：60，str：1|東方島：鬼人 秋川．旭(Akikawa asahi)|
+|菊一文字(Kiku-ichimonji katana)（daily|+64|命中+10，BAR+1，WIT-1，SOU-1，TEC+1|30000|level：40，blade sk：60，str：1|東方島：出神流 日向．朝霞(Hyuuga asaka)|
+|惡鬼刀‧骨葬(Hide-bone katana)（daily）|+67|str+3，int-3，BIO+1，BAR-1|30000|level：42，blade sk：60，str：1|東方島櫻花林：天狗首領 黑天狗(Black tengu)|
+|傳天國作‧小烏丸太刀(Shouugan katana)（daily）|+68|str+1，con+2，dex+2|30000|level：40，blade sk：60|東方島新陰流道場：新陰流 柳生．星明(Yagyuu hoshiakari)|
+|九尾之牙《刀》(Nine tail tooth)（daily）|+73|str+2，con+4，int-1，dex-2，命中+10，BAR+1，SOU-1，特攻|11000|str：20|獵狐村：獵狐村 英雄「獵狐高手」索貝克(Suoo bey keh)|
+|滅語魔神兵(Evil-god blade)（daily）|+77|無|20000|level：35，blade sk：70，str：50，dex：50|水寒星洞：南宮世家「世家心刀傳人」南宮無雙(Master nan)|
+|井中月(Well-moon blade)（daily）|+85|str+2，con+2，BAR+1，WIT-1|15000|str：40，con：40|磐龍城-少帥府：天刀身意 寇仲(Kou-zhong master)|

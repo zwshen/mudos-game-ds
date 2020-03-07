@@ -1,0 +1,18 @@
+=====地底洞穴=====
+
+
+
+                       □  01  □
+                       │  │  │
+                       □─□─□
+                        ╱ │ ╲
+                       □  □  □
+                      ＊　 ＊　 ＊
+
+
+＊ 這三格若身上有獸肉(Animal meat)或肉乾(Beef meat)可以在這grill meat叫出冰霜巨魔
+
+01 回到[[dreamseven:map:northforest|北方大森林]]
+
+  last update & adjust 2007/11/03
+  By Belle

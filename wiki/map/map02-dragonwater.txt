@@ -1,0 +1,6 @@
+====== 磐龍險峻 ======
+
+{{dreamseven:map:map02-dragonwater.png|}}
+
+^地圖標示^
+|01|石室，[[dreamseven:info:quest:8_gwua_mirror_quest|使用八卦鏡]]能通往[[dreamseven:map:map02-eight|八卦陣]]。|

@@ -1,0 +1,20 @@
+^名稱 ^素質 ^來源/出處 ^
+|破爛的盾(Broken shield)         |防+1                         |木之守護獸(Wood beast)|
+|鋼鐵護盾(Steel shield)          |防+3                         |步靈  防具店|
+|木盾(Wooden shield)             |防+10                        |黃沙賊(Desert robber)|
+|石片盾(Stone shield)            |防+10                        |河童(Garatsupa)|
+|水鏡之盾(Water-mirror shield)   |防+10 抗+45                  |掘寶地精(Dig-treasure earth_elf)|
+|牛角藤盾(Cow shield)            |防+14 攻+6 con+1             |牛博士(Cow master)|
+|鬼頭盾(Ghost head shield)       |防+15 con+2                  |【鬼王】 侮天(Wu tan)|
+|蟲甲盾(Iron-beetle shield)      |防+15 dex+2                  |鐵甲蟲(Iron beetle)|
+|祕 阻盾(Mi shield)              |防+18                        |秘 秘密客(Mimi guard)|
+|雲母巨盾(Mica shield)           |防+20 抗+14                  |守衛石像(Stone guard)|
+|千骨盾(Thousand-bonze shield)   |防+20 抗+10 +con1            |萬惡之首 天妖(Tian demon)|
+|坎水銀盾(Water shield)          |防+20                        |坎水將(Water general)|
+|巨蚌盾(Clam shield)             |防+20 con+1 quest            |步六弧(Bu liu hu)|
+|四海游龍盾(Sea-dragon shield)   |防+20 抗+5 con+1 dex+1       |賊帥(Zei shuai master)|
+|流光銀盾(Silver shield)         |防+21 抗+15 con+1 int+1      |柳生．奧太郎(Yagyuu autarou)|
+|英雄之盾(Hero shield)           |防+25                        |無名英雄英靈(None hero)|
+|八歧鱗盾(S)(Orochi shield)      |防+27 抗+19                  |八岐大蛇．黑首(Orochi black head)|
+|八歧鱗盾(Orochi shield)         |防+27 抗+19 閃+8 str+2 con+1 |八岐大蛇．黑首(Orochi black head)|
+|巨鼇甲盾(Huge-turtle shield)    |防+29 str-1 dex-3            |魔獸  錘尾巨鼇(Huge turtle)|

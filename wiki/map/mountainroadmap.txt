@@ -1,0 +1,12 @@
+====山路====
+
+         02      
+         ｜      
+         □      
+         ｜      
+         01      
+
+
+01 southwest 可至[[dreamseven:map:secondarymap |次要地圖]](大草原北端), south 可至[[dreamseven:map:secondarymap |次要地圖]](天城北武門)
+
+02 此處可解迷, north 可至[[dreamseven:info:club:sky |天地會]], northup 可至[[dreamseven:map:10onemountainmap |十萬大山]], 此處為[[dreamseven:info:nature |天池瀑布奇景]]觀賞處

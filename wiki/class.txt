@@ -1,0 +1,16 @@
+^ 門派                ^ 專精技能         ^ 素質  ^建議種族^力量^體質^智慧^敏捷^
+| [[dreamseven:class:bagi |八極門 (bagi) ]]      | unarmed, pike       |BAR| 獸人(ogre) |10|7 |0|3 |
+| [[dreamseven:class:army | 少帥軍 (army) ]]   | blade, force          |BAR| 獸人(ogre) |8 |8 |0|4 |
+| [[dreamseven:class:warlord | 戰  神 (warlord) ]]  | bow, trap        |BAR| 獸人(ogre) |9 |9 |0|2 |
+| [[dreamseven:class:wind | 疾風門 (wind) ]]    | sword, dodge         |BIO| 妖魔(evil) |5 |7 |0|8 | 
+| [[dreamseven:class:bonze | 凌雲寺 (bonze) ]]   | staff, defence      |BIO| 虎人(tiger) |3 |7 |3|7 |
+| [[dreamseven:class:love | 情城池 (love) ]]   | whip, condition       |BIO| 妖魔(evil) |4 |6 |3|7 |
+| [[dreamseven:class:thief | 盜  賊 (thief)]]     | backstab, throwing |BIO| 妖魔(evil) |3 |7 |0|10|
+| [[dreamseven:class:god |神武教 (god) ]]   | fire, ghost              |WIT| 仙派(celestial) |2 |4 |9|5 |
+| [[dreamseven:class:frost |寒澈派 (frost) ]]  | freeze, thunder       |WIT| 仙派(celestial)  |0 |5 |9|6 |
+| [[dreamseven:class:ancestor |邪極宗 (ancestor) ]] | pike, magic      |SOU| 虎人(tiger) |7 |4 |7|2 | 
+| [[dreamseven:class:illusion | 靈幻宗 (illusion) ]]  | charm, pet     |SOU| 虎人(tiger) |8 |3 |8|3 |
+| [[dreamseven:class:skyowl |天梟派 (skyowl) ]]  | heal, poison        |TEC| 泰坦(titan) |2 |7 |8|3 |
+| [[dreamseven:class:guardian |守護者 (guardian) ]]  | shield, axe     |TEC| 泰坦(titan) |4 |10|8|-2|
+| [[dreamseven:class:tomb    |摸金派 (tomb) ]]        | alchemy, corpse  |   TEC  |泰坦(titan) | 1 |  9  |  9  |  1     |
+

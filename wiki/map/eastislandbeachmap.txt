@@ -1,0 +1,16 @@
+====東方島海灘與漁村====
+
+                           01    
+                         ╱      
+                       02        
+                     ╱｜        
+               □－□  □        
+             ╱                  
+           03                    
+
+
+01 使用天翔珠到達的地點, 此處可以 practice swim 練習游泳技能 (swim)
+
+02 search 貝殼, 可[[dreamseven:info:quest:eastisland_yonagoshell_quest |解迷]]
+
+03 enter 可至[[dreamseven:map:eastislandmap |東方島]]

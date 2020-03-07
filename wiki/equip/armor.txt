@@ -1,0 +1,59 @@
+^名稱 ^素質 ^來源/出處 ^
+|生鏽的盔甲(Rusty armor)|防+1 閃-5|火之守護獸(Fire beast)|
+|綠彩盔甲(Green armor)  |防+2  閃-1 可save|步靈城  防具店|
+|硬皮甲(Incrystate armor)|防+6  閃-1|軒轅烈(Shiuan yuan lieh)|
+|皮鎧甲(Leathery armor)|防+9  閃-1 con+1|守衛塔衛兵(Tower janitor)|
+|盔甲(Armor)|防+10 閃-1 dex-2|滄縣  守城官兵(Garrison) |
+|碎骨皇袍(Crush bone armor)|防+10 str+2 con+2|半獸人皇帝(Orc emperor)|
+|護心鏡(Heart armor)|防+12|黃沙賊(Desert robber)|
+|骨甲(Bone armor)|防+15 str+1 int-1|山崽王(Apeman king)|
+|石板胸甲(Stone corslet)|防+15 閃-2|山崽(Ferity apeman)|
+|黃金鎧甲(Gold armor)|防+15|遺世島挖掘|
+|龜殼甲(Turtle-shell armor)|防+17 閃-4|河童(Garatsupa)|
+|昊戠戰甲(Hao chi armor)|防+20 閃-2|天池城  守城官兵(Garrison)|
+|艮山黃金戰甲(Kop armor)            |防+20 閃-4 con+3 dex-2                                        |八神將 艮山將(Kop general)|
+|左極胄甲(Joh ji armor)             |防+22 閃-2 抗+10                                              |禁軍大將軍 成陸(Cheng lu)|
+|羅漢護甲(Luo-han armor)            |防+24 閃-3 srt+2 con+2                                        |護法使者 妙見金身(Miao-jian bonze)|
+|鬼甲(Ghost plate)                  |防+25 閃-1 con+1                                              |牛頭鬼(Cow head ghost)|
+|鏡幻胸當(Illusive-mirror corslet)  |防+25 閃+10                                                   |quest備前剛(Bizen gou)|
+|魂元戰甲(Soul armor)|防+25 str+1 con+1 dex-2|影爪邪魂(umbra-claw soul)|
+|刺牛皮甲(Cow-skin armor)           |防+27 攻+4 con+2 dex-1                                        |刺牛(Prick cow)|
+|赤繫威大鎧(Red armor)              |防+28 dex-1 BAR+1 TEC-1                                       |柳生．筧(Yagyuu ken)|
+|神武戰鎧(God armor)                |防+30 閃-7 str+1                                              |流無形(Invisible liu)|
+|祕 胄甲(Mi armor)                  |防+30                                                         |秘 秘密客(Mimi guard)|
+|青銅獸甲(Copper armor)             |防+30 閃-4 con+1 dex-2                                        |邪惡領主 獸王之王(Animal king)|
+|寒澈戰鎧(Frost armor)              |防+30 閃-7 str+1                                              |莫月鼎(Mo yue-ding master)|
+|英雄戰甲(Hero armor)               |防+30 閃-5 con+2                                              |無名英雄英靈(None hero)| 
+|無極戰甲(Wu ji armor)              |防+30 閃-3 抗+10                                              |禁軍大元帥 林沖(Lin chung)|
+|白銀戰甲(Silver armor)             |防+30 閃-4 con+2 dex-4                                        |無妄(Ghost wu-won)|   
+|魔炎甲(Magic flame armor)          |防+30 抗+17 con+2 int-1                                       |魔炎鬥氣(Magic flame)|     
+|阿波羅黃金鎧甲(S)(Apollo armor)    |防+30 抗+30 閃-10 con+4                                       |quest遺世島|
+|點液背鱗(Dab-aqua-armor)           |防+31 閃-2 dex-1                                              |狡龍 點液(Dab aqua dragon)|
+|野槌軟皮甲(Yeah chuay armor)       |防+36 抗+8 con+2 dex-3                                        |野槌(yeah chuay)|
+|烈情※寒冰(Frame ice armor)        |防+36 抗+8 閃-1 con+2 dex+3 特 daily                          |quest情城池|
+|狐皮鎖鏈甲(Fox armor)              |防+38 抗+10 str+3 dex-1                                       |獵狐村 村民(Villager)|
+|天魔鎧甲(Evil armor)               |防+40 閃-10                                                   |天 魔(Devil)|
+|天魔鎧甲(Evil armor)亮              |防+40 閃-10 BAR-1 TEC+1 daily                                 |天 魔(Devil)|
+|點液背鱗(Dab-aqua-armor)           |防+40 閃-3 dex-4 daily 可suck                                 |狡龍 點液(Dab aqua dragon)|
+|勁爆黃金鱗甲(Bomb-golden armor)    |防+40 str-1 con+4 int-1 dex-1                                 |麒麟魚(Chi lin-fish)|
+|龍虎通天盔甲(Dragon-tiger armor)【白】   |防+40 int+1                                                   |神真異獸 龍虎(Dragon tiger)|
+|龍虎通天盔甲(Dragon-tiger armor)【灰】   |防+40 str-1 int+3                                             |神真異獸 龍虎(Dragon tiger)|
+|血眼龍甲(S)(Blood-eye-dragon armor)|防+40 閃-5 str+1 con+2 dex-2                                  |魔獸  血眼逆角龍(Blood-eye dragon)|
+|銀鱗皮甲(Dragon armor)             |防+41 閃-5 con+3 dex-1 BAR+1 WIT-1 SOU-1                      |青眼白龍(Blue-eye white dragon)|
+|紫雲鍊甲(Purple-cloud chain armor) |防+42 閃-8 抗+31 con+2 int+2 dex-3                            |索貝克(Suoo bey keh)|
+|鐵龍刺甲(Shell-dragon armor)       |防+43 閃-15 攻+3 str+1 con+3 dex-3                            |角脊鐵龍(Shell dragon)|
+|銀鱗皮甲(Dragon armor)亮            |防+44 閃-15 con+3 dex-1 BAR+1 WIT-1 daily                     |青眼白龍(Blue-eye white dragon)|
+|玄之武甲(Shang-woo armor)          |防+45 閃-2 str+2 con+2 dex-1                                  |玄武神龜(Shang-woo god turtle)|
+|鼇殼甲冑(Huge-turtle armor)        |防+45 str+2 con+3 int-2 dex-4                                 |錘尾巨鼇(Huge turtle)|
+|玄之武甲(Shang-woo armor)彩         |防+45 閃-2 str+2 con+2 dex-1 WIT+1 daily                      |玄武神龜(Shang-woo god turtle)|
+|乃窮冰甲(Illimitable armor)|防+45 抗+45 con+1 int+1|(待補)|
+|八歧鱗甲(S)(Orochi armor)【黃】        |防+60 抗+40 閃-5 dex-1 BIO-1 BAR-1 WIT+1                      |八岐大蛇．金首(Orochi gold head)|
+|八歧鱗甲(S)(Orochi armor)【灰】          |防+60 抗+40 BAR+1 TEC-1 SOU-1                                 |八岐大蛇．灰首(Orochi grey head)|
+|八歧鱗甲(Orochi armor)【黃】           |防+60 抗+40 攻+3 閃-5 con+3 dex-1 BIO-1 BAR-1 WIT+1 SOU+1     |八岐大蛇．金首(Orochi gold head)|
+|八歧鱗甲(Orochi armor)【灰】             |防+60 抗+40 攻+3 閃-5 con+3 dex-1 BIO+1 BAR+1 WIT-1 SOU-1     |八岐大蛇．灰首(Orochi grey head)|
+
+
+  BYRON  DS@SKY
+
+  Adjusted 2008/09/04
+  By belle

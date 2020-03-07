@@ -1,0 +1,20 @@
+====施府====
+
+                  □      □            
+                  ｜      ｜            
+          □－□－□－□－□            
+          ｜      ｜                    
+          □  □  □          03        
+              ｜  ｜          ｜        
+              □－□－□－□－□        
+              ｜  ｜      ｜            
+              □  □      02            
+                  ｜                    
+                  01                    
+
+
+01 out 可至[[dreamseven:map:secondarymap |次要地圖]](天城東面)
+
+02 down 可至[[dreamseven:map:youming1map |幽冥地窖地下一層]]
+
+03 jump 梅花樁, 可上梅花樁([[dreamseven:map:mayflowermaze |迷宮]])

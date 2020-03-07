@@ -1,0 +1,7 @@
+====百花叢迷宮走法及其相關任務====
+
+百花叢迷宮走法 n,w,s
+
+或是從 recall start, do look off,e,n,e,ne,n,w,s,nu,n,n,enter,use 竹竿,look on
+
+可至[[dreamseven:map:faceskylakemap |朝天湖水裡]]拿[[dreamseven:info:quest:sun_snow_fist_quest |六陽融雪爪]]或是找點液聊天

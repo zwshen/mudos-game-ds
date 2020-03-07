@@ -1,0 +1,48 @@
+====東北澤林第三段====
+
+                                         07
+                                     ｜
+                                      □－06
+                                     ｜
+                                          □
+                                        ╱
+                                      □              04
+                                  ｜              ｜
+                                      05            □
+                                      ｜              ｜
+                                      □      03－□－□
+                                    ╱  ╲  ╱
+                                  □      02
+                            ╱           ╲
+                          □－□              □
+                        ╱                      ╲
+                  □－□                          01
+                ｜                              
+              □－□－□                          
+            ╱  ╲  ╱  ╲              
+          □－□－08－□－□            
+          ｜      ｜      ｜            
+          □  □  □  □  □            
+          ｜╱  ╲｜╱  ╲｜            
+          □  □－□－□  □            
+          ｜╱          ╲｜            
+          10            09            
+
+
+01 south 可至 [[dreamseven:map:northeastswamp2map |東北澤林第二段]]
+
+02 cut 雜草(需 wield sword), 可開啟至 03 之路
+
+04 jump 絕世峭壁幾次, 可至 [[dreamseven:map:skyowlmap |天梟派]]
+
+05 run 泥沼, 可 [[dreamseven:info:quest:yinyang_longsword_quest |解迷]]
+
+06 石像(Statue), 可 [[dreamseven:info:quest:yinyang_longsword_quest |解迷]]
+
+07 north 可至 [[dreamseven:map:northbrutalvillage |北蠻村]]
+
+08 此處可 [[dreamseven:info:quest:callcrocodile_quest |解迷]]
+
+09 push 大石, 可 [[dreamseven:info:quest:yinyang_longsword_quest |解迷]]
+
+10 climb 神木, 可找傳說之鳥 神梟(God bird)泡茶聊天, 可 [[dreamseven:info:quest:godwind_bag_quest |解迷]]

@@ -1,0 +1,106 @@
+====== 復歸無極(三階, 51~100級) 任務列表 ======
+===== LV 50~60 =====
+  - [[ dreamseven:info:quest_endless:apprentice | 復歸無極]] 轉職任務 LV 50
+
+===== LV 61~70 =====
+===== LV 71~80 =====
+===== LV 81~90 =====
+===== LV 91~100 =====
+
+====== 任務(Quests)列表 ======
+
+===== 物品任務 =====
+  - [[ dreamseven:info:quest:frost_quest_01| 寒澈小迷(天妖骨粉)]]
+  - [[ dreamseven:info:quest:godwind_bag_quest| 神風袋解法]]
+  - [[ dreamseven:info:quest:wusacity_quest01| 無砂鎮西副師官印]]
+  - [[ dreamseven:info:quest:eastisland_quest01| 東方島鐵鎖斗蓬]]
+  - [[ dreamseven:info:quest:windseal_quest| 驅風符解法]]
+  - [[ dreamseven:info:quest:white_wrists_quest| 清風、清玉腕解法]]
+  - [[ dreamseven:info:quest:hungchen_sword_quest| 紅塵劍法解法]]
+  - [[ dreamseven:info:quest:chilin_boots_quest| 麒麟步雲靴拿法]]
+  - [[ dreamseven:info:quest:egg_quest| 偷取鬼鵰蛋]]
+  - [[ dreamseven:info:quest:foxmask_quest| 如何換取埜狐面罩]]
+  - [[ dreamseven:info:quest:deathdoll_quest| 如何組成替死娃娃]]
+  - [[ dreamseven:info:quest:crocodilehands_quest| 闇鱷手甲拿法]]
+  - [[ dreamseven:info:quest:goldpill_quest| 培元金丹拿法]]
+  - [[ dreamseven:info:quest:sun_snow_fist_quest| 六陽融雪爪拿法]]
+  - [[ dreamseven:info:quest:intsword_quest| 天師桃木劍拿法]]
+  - [[ dreamseven:info:quest:feipike_quest| 飛震槍拿法]]
+  - [[ dreamseven:info:quest:callcrocodile_quest| 生生造化丹+五彩石+召喚符+闇夜巨鱷]]
+  - [[ dreamseven:info:quest:buliuhu_quest| 巧手玲瓏仙 步六弧]]
+  - [[ dreamseven:info:quest:saveinlaysword_quest| 鑲嵌之劍]]
+  - [[ dreamseven:info:quest:8_gwua_mirror_quest| 八卦鏡之謎]]
+  - [[ dreamseven:info:quest:gotoseal_quest| 神行符拿法]]
+  - [[ dreamseven:info:quest:eastisland_yonagoshell_quest| 米子的扇貝頸飾]]
+  - [[ dreamseven:info:quest:lostisland_treasure_quest| 遺世島挖寶任務]]
+  - [[ dreamseven:info:quest:yinyang_longsword_quest| 陰陽長劍解法]]
+  - [[ dreamseven:info:quest:crocodile_necklace_quest| 闇鱷牙鏈拿法]]
+  - [[ dreamseven:info:quest:willow_ring_quest| 柳戒拿法]]
+  - [[ dreamseven:info:quest:horse_quest| 烈風黃/銀星拿法]]
+  - [[ dreamseven:info:quest:final_book_quest| 究極奧義拿法]]
+
+===== 門派任務 =====
+  - [[ dreamseven:info:quest:moonforce_quest| 疾風門殘月心法 (moon_force)]]
+  - [[ dreamseven:info:quest:bagiforce_quest| 八極門八極內功 (bagi_force)]]
+  - [[ dreamseven:info:quest:windadv| 疾風門進階]]
+  - [[ dreamseven:info:quest:bagiadv| 八極門進階]]
+  - [[ dreamseven:info:quest:godadv| 神武教進階]]
+
+===== NPC任務 =====
+  - [[ dreamseven:info:quest:four_bandits_quest| 皇城東郊四大盜]]
+  - [[ dreamseven:info:quest:phoenix_quest| 呼叫古神獸火鳳凰]]
+  - [[ dreamseven:info:quest:gua_da-lou_quest| 召喚英雄 竭達羅]]
+  - [[ dreamseven:info:quest:wangbar_quest| 王八狗官]]
+  - [[ dreamseven:info:quest:catoldwoman_quest| 消滅山崽主腦]]
+  - [[ dreamseven:info:quest:demon_quest| 天妖叫法]]
+  - [[ dreamseven:info:quest:lostisland_call_de| 呼叫利貝亞森]]
+  - [[ dreamseven:info:quest:lostisland_call_dragon| 呼叫血眼逆角龍]]
+  - [[ dreamseven:info:quest:lostisland_call_tiger| 呼叫劍牙巨虎]]
+  - [[ dreamseven:info:quest:gumu_betrayer| 古墓叛徒]]
+  - [[ dreamseven:info:quest:fishboss| 召喚魚老大]]
+  - [[ dreamseven:info:quest:fishhole_with_fruit| 水寒星洞，萬眾爭果]]
+  - [[ dreamseven:info:quest:meet_with_hero| 英雄靈魂]]
+  - [[ dreamseven:info:quest:huitan| 召喚迴天]]
+  - [[ dreamseven:info:quest:icewarrior| 召喚武士，消滅八歧]]
+  - [[ dreamseven:info:quest:godplace_dragon| 喚醒轉龍]]
+
+
+
+
+
+
+
+
+
+
+
+===== 經驗值/聲望/戰藝任務 =====
+  - [[ dreamseven:info:quest:newquest_bellicose_shan| 好戰的形天]]
+  - [[ dreamseven:info:quest:newquest_buddha_heart| 妙見的請託]]
+  - [[ dreamseven:info:quest:newquest_paperbox| 硬牛皮紙匣]]
+  - [[ dreamseven:info:quest:newquest_helpying| 義助萬斧莊]]
+  - [[ dreamseven:info:quest:newquest_eliminate_robbers| 清除黃沙賊]]
+  - [[ dreamseven:info:quest:newquest_the_request_by_yue| 辛若羽的委託]]
+
+  * [[dreamseven:map:northbrutalvillage| 北蠻村]]
+    - [[ dreamseven:info:quest:newquest_explore_millennialcave| 初探千年古洞]]
+    - [[ dreamseven:info:quest:newquest_deep_millennialcave| 千年古洞深層]]
+    - [[ dreamseven:info:quest:newquest_kill_umbra_claw_soul| 誅殺影爪邪魂]]
+    - [[ dreamseven:info:quest:newquest_dragon_tent| 龍皮帳篷的材料]]
+
+  * [[dreamseven:map:crush_bone| 碎骨寨]]
+    - [[ dreamseven:info:quest:newquest_bone_blood| 碎骨血塊]]
+    - [[ dreamseven:info:quest:newquest_get_orcplan| 取得作戰計畫]]
+    - [[ dreamseven:info:quest:newquest_kill_orcs| 削弱碎骨寨]]
+    - [[ dreamseven:info:quest:newquest_kill_orcking| 暗殺碎骨皇帝]]
+    - [[ dreamseven:info:quest:newquest_collect_dust| 半獸人遺骸]]
+
+  * [[dreamseven:map:northforest| 北方大森林]]
+    - [[ dreamseven:info:quest:newquest_kill_troll| 清除巨魔]]
+    - [[ dreamseven:info:quest:newquest_kill_troll2| 清除黑暗及恐怖巨魔]]
+    - [[ dreamseven:info:quest:newquest_kill_troll3| 清除銀霜巨魔]]
+    - [[ dreamseven:info:quest:newquest_rewardofguard| 苗青守衛長的獎勵]]
+    - [[ dreamseven:info:quest:newquest_material| 暗矛部落的裝備材料]]
+    - [[ dreamseven:info:quest:newquest_symbol| 巨魔之力符文]]
+
+===== 其它/未歸類 任務 =====

@@ -1,0 +1,12 @@
+  *  [[ dreamseven:equip:sword       | 劍 (sword) ]]   
+  *  [[ dreamseven:equip:blade       | 刀 (blade) ]]   
+  *  [[ dreamseven:equip:pike        | 槍 (pike) ]]   
+  *  [[ dreamseven:equip:claw        | 爪 (claw) ]]   
+  *  [[ dreamseven:equip:whip        | 鞭 (whip) ]]   
+  *  [[ dreamseven:equip:staff       | 杖 (staff) ]]   
+  *  [[ dreamseven:equip:dagger      | 匕 (dagger) ]]   
+  *  [[ dreamseven:equip:needle      | 針 (needle) ]]   
+  *  [[ dreamseven:equip:axe         | 斧 (axe) ]]   
+  *  [[ dreamseven:equip:bow         | 弓 (bow) ]]   
+
+{{http://www.hindunet.org/saraswati/assyrianweapons.jpg }}

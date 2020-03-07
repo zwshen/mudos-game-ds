@@ -1,0 +1,27 @@
+====東北澤林第一段====
+
+                  02                    
+                  ╲                  
+                      □                
+                      ｜                
+                      □                
+                      ｜                
+                      □－□－□－□－□－03
+                  ╱                  
+              01－□                    
+              ｜  ｜                    
+              □－□                    
+            ╱                          
+          □                            
+        ╱                              
+      □                                
+
+
+01 小販(Seller)
+
+02 狐穴洞口, 需解迷才可以 enter 洞, 進入後為一隨機迷宮, 通過後可[[dreamseven:info:quest:foxmask_quest |解迷]]
+
+03 [[dreamseven:map:northeastswamp2map |東北澤林第二段]]
+
+  adjusted 20080208
+  By Belle

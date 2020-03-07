@@ -1,0 +1,12 @@
+====== 磐龍城 ======
+
+{{dreamseven:map:map02-dragon2.png|}}
+
+^地圖標示^
+|銀|磐龍錢莊，能存領古幣(deposit、withdraw)。|
+|商|當舖，可買賣物品(buy、sell)。|
+|01|少帥府－大門，enter可進入[[dreamseven:map:map02-army|少帥府]]。|
+|02|磐龍客棧，圖龍丹派 桃盛(Tao sheng)在此；up至二樓有少帥軍第二代將軍 宣永(Xuan yong master)及少帥軍 馬若(Ma-ruo general)；再up至三樓有邪靈 厲若海(Li ruo-hai master)。|
+|03|通往[[dreamseven:map:map02-dragon|朱雀外門]]。|
+|04|通往[[dreamseven:map:map02-grassland|哈薩克草原]]。|
+|05|通往[[dreamseven:map:map02-grassland2|奧特蘭克草原]]。|

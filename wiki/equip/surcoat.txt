@@ -1,0 +1,34 @@
+^名稱 ^素質 ^來源/出處 ^
+|繡布披風(Surcoat)               |防+2                                     |步靈  防具店|
+|絨羽披風(Feather surcoat)       |防+3 抗+13 dex+1                         |水手(Sailorman)|
+|神武披風(God surcoat)           |防+5 int+1                               |神武護衛(Guard)|
+|霧氣之璧(Wo cloak)              |防+5 con+1                               |霧獸(Wo)|
+|乾天披風(Sky surcoat)           |防+5 str+2                               |乾天將(Sky general)| 
+|鹿皮披風(Deerskin surcoat)      |防+5 抗+5 閃+8 dex+2                     |水紋鹿(Water deer)|
+|逐日者披風(Sun-follow surcoat)|防+5 dex+1 |逐日者侍衛(Sun-follow guard)|
+|迴疾披天(Hua-surcoat)【藍】          |防+7 dex+2                               |迴天(Hua tan)|
+|羽毛披風(Feather surcoat)       |防+7 dex+1                               |天梟教大徒弟(Fighter)|
+|銀狼皮(Silver-wolf skin)        |防+8 dex+1                               |銀狼(Silver-wolf)|
+|左極大衣(Joh ji surcoat)        |防+9                                     |禁軍副將 成谷(Cheng gu)|
+|天妖披風(Devil surcoat)         |防+10 str+2                              |丈運使(Estimate)|
+|四頭蛇披風(Four snakes surcoat) |防+10 抗+8 str+1 con+1 int+1 dex+1 SOU-1 |四頭巨蛇(Four head snake)|
+|硬皮甲斗蓬(Sky cloak)           |防+11                                    |觴炯(Sun jiong)|
+|祕 浮風(Mi cloak)               |防+12                                    |秘 秘密客(Mimi guard)|
+|五頭蛇披風(Five snakes surcoat) |防+12 抗+13 con+1 BIO-1 WIT+1            |五頭巨蛇(Five head snake)|
+|迴疾披天(Hua-surcoat)【白】          |防+13 con-2 BAR+1 WIT-1                  |迴天(Hua tan)|
+|迴疾披地(Hua-di surcoat)【白】       |防+13 str-1 BIO-1 SOU+1                   |迴地(Hua di)|
+|龍翼(Dragon wing)               |防+13 閃+10 con+1                        |翼守龍(Wing dragon)|
+|火狼裘衣(Fire-wolf surcoat)     |防+14 抗+15 str+1 int+1 dex+2            |火狼(Fire wolf)|
+|八歧披風(Ba-chi cloak)          |防+15 str+2                              |烈昇(Lieh shen)| 
+|薄雲披風(Cloud surcoat)         |防+15 閃-3 con+1                         |流無形(Invisible liu)|
+|天妖斗蓬(Tian-demon cloak)      |防+15 str+1 +3%命中                      |天妖(Tian demon)|
+|天妖斗蓬(Tian-demon cloak)【灰】    |防+15 BIO+1 SOU-1                        |天妖(Tian demon)|  
+|狐皮披風(Fox surcoat)           |防+18 抗+10 dex+2                        |獵狐村 村民(Villager)|
+|冥王天斗(Sky cloak)             |防+18 閃+15 str+2 daily                   |觴炯(Sun jiong)|
+|渾天骷(Chaos cloak)             |防+20                                    |天 魔(Devil)|
+|鐵鎖斗蓬(Chain surcoat)         |防+20 閃-5 dex-2                         |quest備前剛(Bizen gou)|
+|八歧鱗披(Orochi cloak)          |防+20 抗+20 閃+10 con+2 int+1 dex+1      |八岐大蛇．紫首(Orochi purple head)|
+|八歧鱗披(S)(Orochi cloak)       |防+20 抗+20                              |八岐大蛇．紫首(Orochi purple head)|
+
+  last update 2008/09/05
+  BY Belle

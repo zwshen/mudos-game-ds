@@ -1,0 +1,14 @@
+====水寒星洞====
+
+        □－□－□      □－□－□        
+        ｜  ｜  ｜      ｜  ｜  ｜        
+    03－□－□－□－02－□－□－□－01    
+        ｜  ｜  ｜      ｜  ｜  ｜        
+        □－□－□      □－□－□        
+
+
+01 leave 可回[[dreamseven:map:recallstart |主要地圖]](孟村河邊小路)
+
+02 小魚(Small fish), [[dreamseven:info:quest:fishboss |解迷可招喚魚老大]], 或是[[dreamseven:info:quest:gua_da-lou_quest |解迷可找竭達羅]]
+
+03 此處可[[dreamseven:info:quest:fishhole_with_fruit |解迷]]

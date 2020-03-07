@@ -1,0 +1,36 @@
+do l off,e,n,w,w,w,w,w,w,s,s,sw,enter house,w,enter 山縫,climb 藤蔓,w,n,n,nw,nw,nw,w,w,pass 雜物,push 西面石壁,l on,l 
+
+到達寒日洞第一層
+   萬斧莊第十三代弟子 周人傑(Zhou ren jie)
+打死第一層兩個 jie，皆可得
+   不知名的右臂(Unknown right-arm) 
+往下走到寒日洞第二層
+   行屍走肉(Walking corpse)
+   瘋漢(Madman)
+   瘋婆子(Madwoman)
+打死這些怪物，可得
+   不知名的左臂(Unknown left-arm)
+   不知名的右腳(Unknown right-leg)
+   不知名的左腳(Unknown left-leg)
+往下走到石室
+   魔獸 寒日(Freeze sun monster)
+打死寒日，隨機可得
+   不知名的身體(Unknown body)
+do l off,e,n,w,w,w,w,w,w,s,s,sw,enter house,w,enter 山縫,climb 藤蔓,l on,l 
+   八極門開山祖師 吳鐘(Wu chung master)
+打死吳鐘可得
+   不知名的頭(Unknown head) -- Daily
+
+六個部位皆取得以後，身上不可有替死娃娃(或替代品，例如：如來佛心，火鳳凰娃娃，聖誕娃娃等等)
+
+然後 compose head, compose arm, compose arm, compose leg, compose leg
+    妳輕輕地將不知名的人頭不偏不移的裝置到假身軀的脖子上，成功地接上假人頭了。
+    妳輕巧巧把不知名的右臂往假身軀的右肩膀下一擠一推，成功地接上右臂了。
+    妳輕巧巧把不知名的左臂往假身軀的左肩膀下一擠一推，成功地接上左臂了。
+    妳試著把不知名的右腳往假身軀的下半身銜接，經過一番努力，成功地接上右腳了。
+    妳試著把不知名的左腳往假身軀的下半身銜接，經過一番努力，成功地接上左腳了。
+
+    當妳成功拼湊完整具假人娃娃時........
+    娃娃的雙眼忽然調皮的眨了數下，深情款款的注視著妳，嘴裡說道：「從此就讓我跟隨著你，保護著你吧..........」
+
+即可換取一只替死娃娃(Death doll)

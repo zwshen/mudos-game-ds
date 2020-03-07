@@ -1,0 +1,24 @@
+====疾風門入口大門====
+              03                        
+              ｜                        
+  □－□－□－□－□－□－□            
+              ｜                        
+              02                        
+                ╲                      
+                  □                    
+                  ｜                    
+                  □                    
+                  ｜                    
+                  □－□                
+                        ╲              
+                          □            
+                          ｜            
+                          □－□－01    
+                                    
+
+
+01 southeast 可回到[[dreamseven:map:recallstart |主要地圖]](步靈城以西)
+
+02 疾風門入口大門
+
+03 northdown 可至[[dreamseven:map:windfrontyardmap |疾風門小花園]]

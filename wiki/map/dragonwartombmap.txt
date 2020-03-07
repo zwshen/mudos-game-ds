@@ -1,0 +1,26 @@
+====萬龍古墓====
+
+          06－05 －□           
+              ｜
+              04
+              ｜
+              03              
+            ╱  ╲            
+  02－□－□      □－□－01  
+            ╲  ╱              
+              □              
+              ｜              
+              □              
+
+
+01 down 可往石室, 然後 search 石壁, 可得銀色鑰匙(Silver key)
+
+02 down 可往石室, 然後 search 石壁, 可得金色鑰匙(Gold key), 或是 touch 石壁可出古墓至[[dreamseven:map:dragonbeachmap |磐龍險峻]]
+
+03 朱漆石門, 合兩鑰匙之力可開啟[[dreamseven:wars:dragon_tomb |萬龍古墓戰爭]]
+
+04 真紅眼黑龍
+
+05 青眼白龍
+
+06 此處可[[dreamseven:wars:dragon_tomb |解迷]]

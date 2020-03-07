@@ -1,0 +1,79 @@
+^名稱 ^素質 ^來源/出處 ^
+|銀絲衣(Argentine cloth)          |隨付工錢的高低                      |步靈城  織布紡|
+|烏蠶寶衣(Gray silkworm dress)    |隨付工錢的高低                      |步靈城  織布紡| 
+|藍色寶衣(Blue cloth)             |隨付工錢的高低                      |步靈城  織布紡|
+|粗蠶布衣(Coarseness bombyx cloth)|隨付工錢的高低                      |步靈城  織布紡|
+|絲絨衫(Villosity dress)          |隨付工錢的高低                      |步靈城  織布紡|
+|布衣(Cloth)                      |防+1                                |李書文(Master lee shu wen)|
+|薄絲衣衫(Thinly dress)           |防+1 dex+1                          |青樓女子(Wandering geisha)|     
+|布衣(Cloth)                      |防+2                                |王霸(Wang bar)|
+|黑袍(Black cloth)                |防+2                                |丈運使(Estimate destiny herald)|
+|制服(Uniform)                    |防+2                                |海政司守衛(Guard)|
+|粉紅素衣(Cloth)                  |防+2                                |辛若羽(Xin reu yue)|
+|布衣(Cloth)                      |防+2 抗+2                           |林繁榮(Lin fen lon)鎮民(Man)外國商人(Salesman)漁商(Fisher)賣藝人(Acrobat)|
+|夜行衣(Black suit)               |防+3                                |小偷(Thief)|
+|工作服(Cloth)                    |防+3                                |工人(Worker)|
+|寬腰大馬掛(Cloth)                |防+3                                |辛嚭(Sin pai)東副師(Secretary)|
+|皮衣(Furrier)                    |防+3                                |流氓(Vag)|
+|淨白長袍(White robe)             |防+3 int+1                          |老師 宋文公(Song wen gon)|
+|道服(Taoist cloth)               |防+4                                |路人(Passerby)寒冰客棧2e|
+|粗布麻衫(Grass clothes)          |防+4 save                           |李長風(Lee charn fan)  壯漢(Strong man)|
+|無形之衣(Wu-sin cloth)           |防+4 抗+2 int+2 dex+1               |蕾(Lei)| 
+|黑色長袍(Black-magic robe)       |防+4 抗+13 str-1 int+3              |妖獸  奪心魔(Mind flayer)|  
+|羽鵰皮(Leather cloth)            |防+5                                |神鵰(God prey)| 
+|天壇道衣(Sky cloth)              |防+5 抗+4                           |「天壇」守衛(Guard)|
+|白色布衣(White cloth)            |防+5 int+2                          |老人(Old-man)|
+|冰雪絲衣(Ice-silk cloth)         |防+5 抗+20 int+3                    |雪女(Yukionna)|
+|羽翼藍衫(Plume cloth)            |防+5                                |天城  布莊|
+|和服(Kimono)                     |防+5                                |本因坊 秀策(Oniska)| 
+|觀意裳(Heart cloth)              |防+5 int+2 dex+2 lv25以下用         |阿雅(Aya)|
+|九尾的皮(Fox fur)                |防+5 抗+1 int+2 BAR-1 WIT+1         |九尾(Killer fox)|
+|袈裟(Buddha's cloth)             |防+6                                |方印大師(Fung ying bonze)|
+|戶政官官服(Ossifer's cloth)      |防+6                                |王盛復(Shan-fu wang)|
+|烈戰袍(Fight cloth)              |防+7                                |兵部尚書 劉躍德(Ua-da liu)|
+|天狗裝束(Tengu cloth)            |防+7 抗+5                           |天狗(Tengu)小天狗(Small tengu)烏鴉天狗(Karasu tengu)|
+|官服(Ossifer's cloth)            |防+8                                |顧知天(Gou zhi tian)|   
+|白袍(White robe)                 |防+8 抗+5 int-1 dex+1               |李莫愁(Lee mochou)|
+|天狗裝束(Black tengu cloth)      |防+10 抗+10 int+1                   |黑天狗(Black tengu)|
+|祕 嵐衫(Mi cloth)                |防+10                               |秘 秘密客(Mimi guard)|
+|冰霜皮衣(Frost-troll cloth)|防+10 抗+5 int+1 dex+1|冰霜巨魔(Frost troll)|
+|灰色勁裝(Grey cloth)             |防+10                               |顧知天  官兵(Garrison)|
+|阿羅漢袍(A-luo-han cloth)        |防+10                               |護法使者 妙見金身(Miao-jian bonze)|
+|羽翼之衫(Leather cloth)白        |防+10                               |神鵰(God prey)|
+|羽衣(Feather robe)               |防+10 dex+1                         |天梟守衛(Guard)|
+|淡月疏星(Moon-star cloth)        |防+10 抗+10 int+1 dex+2 限girl      |香香(Master sen)|
+|相柳鱗衣(Xiangliu cloth)         |防+10 抗+15 str-2 con+1 dex+2       |妖獸  相柳(Xiangliu)|
+|羽翼之衫(Leather cloth)藍        |防+10 str-2 BIO-1 BAR+1 WIT-1 TEC+1 |神鵰(God prey)|
+|天蠶絲衣(Silk cloth)             |防+12 抗+2 dex+2                    |「天壇-守衛長」苗青(Meo chen)|  
+|淡月疏星(Moon-star cloth)藍      |防+15 BIO+1 WIT-1 限girl            |香香(Master sen)|
+|狐皮衣(Fox cloth)                |防+17 抗+7 dex+2                    |獵狐村 村民(Villager)|
+|黑鷹皮衣(Eagle clothes)          |防+18 抗+7 int-1 dex+1              |神手 李貓(Lee mou)|
+|白鼠皮衣(White fur cloth)        |防+19 閃-1 抗+8 int-1 dex+2         |魔獸 鼠神(Huge rat)|
+|寒澈束身(Frost cloth)            |防+20 dex+1                         |莫月鼎(Mo yue-ding master)|
+|神武束身(God cloth)              |防+20 dex+1                         |流無形(Invisible liu)|
+|薄雲藍衫(Cloud cloth)            |防+20 抗+10 dex+2                   |邢獨風(Shin-do-fon)|
+|冰霜皮衣(Frost-troll cloth)(亮)    |防+20 str+1 int+2 dex+2             |冰霜巨魔(Frost troll)|
+|虎紋皮衣(Huge tiger cloth)       |防+20 抗+10 str+2 con+2 dex+1       |劍牙巨虎(Sword tiger)|
+|蟒錦戰衣(Viper cloth)            |防+25 抗+2 con+2                    |余滄(Yu chen)|
+|紫羅袈裟(Purple kasaya)          |防+27 int+1 dex+1                   |南宮無雙(Master nan)|
+|鳳凰羽衣(Phoenix leather)        |根據羽毛多寡而定                    |解迷"火鳳凰"|
+
+□ 鳳凰羽衣(phoenix leather) 的羽毛需求
+
+* 防禦力即為羽毛數，但最高為25點
+
+* 羽毛35根加 int 一點
+* 羽毛45根加 dex 一點
+* 羽毛55根加 str 一點
+* 羽毛65根加 con 一點
+* 羽毛65根加 con 一點
+* 羽毛100根加 sou 一點
+* 羽毛150根加 tec 一點
+* 羽毛250根加 bio 一點
+* 羽毛400根加 wit 一點
+* 羽毛600根加 bar 一點
+* 羽毛1024根：int, dex, str, con 各二點, sou, tec, bio , wit, bar 各二點，防禦力為-25點
+
+  last update & adjust 2007/10/18
+  BY Belle
+  update Fox fur 2008/05/15

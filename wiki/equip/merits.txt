@@ -1,0 +1,75 @@
+====== 生物 BIO ======
+^名稱 ^素質 ^來源/出處 ^地點 ^
+|霞紫念珠(Perple beads)  |防+3 BIO+1 BAR-1 |宗光(Discipline monk) 2/100 機率 |東方島鬼之森|
+|天妖斗蓬(Tian-demon cloak)灰  |防+15 BIO+1 SOU-1|天妖(Tian demon) 50/100 機率|寒澈派|
+|龍紋腰帶(dragon marking waist)  |防+10 抗+10 con+2 BIO+1 TEC-1|鬼人 秋川．旭(Akikawa asahi)|東方島櫻花林|
+|淡月疏星(Moon-star cloth)藍  |防+15 BIO+1 WIT-1 限girl|香香(Master sen) 2/10 機率|情城池|
+|蛟龍具足(Dragon boots)  |防+9 str-1 BIO+1 |狡龍 點液(Dab aqua dragon) 隨機|潮天湖|
+|五雷經籙之戒(Five-thunder ring)  |防+5 con+1 dex+1 BIO+1 WIT-1  |護法使者 妙見金身(Miao-jian bonze) 5/100 機率|凌雲寺|
+|守護者之戒(Ring of guard)  |防+4 BIO+1 WIT-1 |護法使者 妙見金身(Miao-jian bonze) 10/100 機率|凌雲寺|
+|八歧鱗甲(Orochi armor)  |防+60 抗+40 攻+3 閃-5 con+3 dex-1 BIO+1 BAR+1 WIT-1 SOU-1|八岐大蛇．灰首(Orochi grey head)|東方島出雲山|
+|鳳凰羽衣(Phoenix leather) |512根毛 str+2 con+2 int+2 dex+2 BIO+2 BAR+2 WIT+2 SOU+2 TEC+2 |解迷”火鳳凰” |步靈城 |
+
+
+
+
+
+====== 獸性 BAR ======
+^名稱 ^素質 ^來源/出處 ^地點 ^
+|鬼怒面具(Angry mask)  |防+5 str+1 con+1 int-1 BAR+1 WIT-1|天狗首領 黑天狗(Black tengu) |東方島櫻花林 |
+|猛虎面罩(Tiger mask)  |防+7 con+1 int+1 BAR+1|南宮世家 南宮無雙(Master nan) |水寒星洞 |
+|埜狐面罩(Fox mask)  |防+12 str+3 con+2 BAR+1 WIT-2 TEC+1|解迷"九尾" |獵狐村 |
+|闇鱷牙鍊(Crocodile teeth-necklace)  |防+15 抗+8 str-2 con+2 dex-2 BAR+1 SOU-1|解迷"闇夜巨鱷" |東北澤林 |
+|羽翼之衫(Leather cloth)藍  |防+10 str-2 BIO-1 BAR+1 WIT-1 TEC+1|神鵰(God prey) 隨機|古墓 |
+|銀鱗皮甲(Dragon armor)  |防+41 閃-5 con+3 dex-1 BAR+1 WIT-1 SOU-1|青眼白龍(Blue-eye white dragon) |萬龍古墓 |
+|銀鱗皮甲(Dragon armor)亮  |防+44 閃-15 con+3 dex-1 BAR+1 WIT-1 daily |青眼白龍(Blue-eye white dragon) |萬龍古墓 |
+|八歧鱗甲(S)(Orochi armor)  |防+60 抗+40 BAR+1 TEC-1 SOU-1 |八岐大蛇．灰首(Orochi grey head) |東方島出雲山 |
+|八歧鱗甲(Orochi armor)  |防+60 抗+40 攻+3 閃-5 con+3 dex-1 BIO+1 BAR+1 WIT-1 SOU-1 |八岐大蛇．灰首(Orochi grey head) |東方島出雲山 |
+|迴疾披天(Hua-surcoat)白  |防+13 con-2 BAR+1 WIT-1 |迴天(Hua tan) |步靈城西梧桐林 |
+|闇鱷手甲(Crocodile hands)  |防+8 閃-5 str+3 con+3 BAR+1 WIT-1 TEC+1 |解迷"闇夜巨鱷" |東北澤林 |
+|腐毒束帶(Poison-snake waist)  |防+1 抗+1 str-1 con-2 int-3 dex-1 BAR+1|腐毒盲蛇(Poison snake) |遺世島 |
+|鳳凰羽衣(Phoenix leather) |512根毛 str+2 con+2 int+2 dex+2 BIO+2 BAR+2 WIT+2 SOU+2 TEC+2 |解迷”火鳳凰” |步靈城 |
+|赤繫威大鎧(Red armor)|防+28 dex-1 BAR+1 TEC-1|柳生．筧(Yagyuu ken)|東方島出雲山|
+
+
+====== 魔法 WIT ======
+^名稱 ^素質 ^來源/出處 ^地點 ^
+|玄之武甲(Shang-woo armor)        |防+45 閃-2 str+2 con+2 dex-1 WIT+1 daily|玄武神龜(Shang-woo god turtle) |水寒星洞 |
+|八歧鱗甲(S)(Orochi armor)黃       |防+60 抗+40 閃-5 dex-1 BIO-1 BAR-1 WIT+1|八岐大蛇．金首(Orochi gold head) |東方島出雲山 |
+|八歧鱗甲(Orochi armor)黃          |防+60 抗+40 攻+3 閃-5 con+3 dex-1 BIO-1 BAR-1 WIT+1 SOU+1 |八岐大蛇．金首(Orochi gold head) |東方島出雲山 |
+|五頭蛇披風(Five snakes surcoat)  |防+12 抗+13 con+1 BIO-1 WIT+1    |五頭巨蛇(Five head snake) |東方島出雲山 |
+|九尾的皮(Fox fur)               |防+5 抗+1 int+3 BAR-1 WIT+1 |殺人狐 九尾(Killer fox) |東北澤林九尾洞穴 |
+|荊棘頭冠(Brambly crown)         |防+1 抗+1 int+2 dex-2 BIO-1 WIT+1|妖獸 奪心魔(Mind flayer) |遺世島 | 
+|冥王鬼面(Ghost mask)            |防+2 抗+1 int+2 BIO-1 WIT+1 daily|冥王 觴炯(Sun jiong) |幽冥地窖 |
+|妖貓面(S)(Devil cat mask)       |防+3 str-1 con-1 int+3 BAR-1 WIT+1|貓婆婆(Cat oldwoman) 1/5000 機率|東方島鬼之森 |
+|祝融面具(Zhu-rong mask)         |防+8 抗+2 int+2 BIO-1 BAR-1 WIT+1|蕭日山(Sau zi san master) |神武教 |
+|神木護符(Divine-tree necklace)  |防+5 抗+29 con-2 int+4 BAR-1 WIT+1 |石神(Stone statue) |黃沙平原 |
+|七貓尾(Cat tail waist)          |防+5 抗+10 con+2 int+1 BIO-1 BAR-1 WIT+1|貓婆婆(Cat oldwoman) |東方島鬼之森 | 
+|清風腕(White wrists)            |防+7 str+2 dex+2 BAR-1 WIT+1 Daily|解迷 | |
+|鳳凰羽衣(Phoenix leather) |512根毛 str+2 con+2 int+2 dex+2 BIO+2 BAR+2 WIT+2 SOU+2 TEC+2|解迷”火鳳凰” |步靈城 |
+
+
+
+
+====== 心靈 SOU ======
+^名稱 ^素質 ^來源/出處 ^地點 ^
+|八歧鱗面(Orochi mask) |防+10 抗+10 con+1 int+3 BIO-1 SOU+1|八岐大蛇．青首(Orochi blue head) |東方島出雲山 |
+|八歧鱗甲(Orochi armor) 黃色 |防+60 抗+40 攻+3 閃-5 con+3 dex-1 BIO-1 BAR-1 WIT+1 SOU+1|八岐大蛇．金首(Orochi gold head) |東方島出雲山 |
+|清靈之戒(Soul finger) |防+1 抗+10 BAR-1 SOU+1|解迷 |遺世島 |
+|隴天靈珠(Sky pearl) |防+10 抗+10 con+2 dex+1 SOU+1|南宮世家 南宮無雙(Master nan) |水寒星洞 |
+|鳳凰羽衣(Phoenix leather) |512根毛 str+2 con+2 int+2 dex+2 BIO+2 BAR+2 WIT+2 SOU+2 TEC+2|解迷”火鳳凰” |步靈城 |
+|迴疾披地(Hua-surcoat)白|sou+1|迴天|洞|
+
+
+
+
+
+====== 科技 TEC ======
+^名稱 ^素質 ^來源/出處 ^地點 ^
+|埜狐面罩(Fox mask) |防+12 str+3 con+2 BAR+1 WIT-2 TEC+1|解迷”九尾” |獵狐村 |
+|海神護面(Leviathan mask) |防+4 抗+10 命+5 閃+5 int+2 dex+2 BAR-1 TEC+1|魔獸 利貝亞森(Leviathan) |遺世島 |
+|羽翼之衫(Leather cloth) |防+10 str-2 BIO-1 BAR+1 WIT-1 TEC+1|神鵰(God prey) |古墓 |
+|天魔鎧甲(Evil armor)亮 |防+40 閃-10 BAR-1 TEC+1 daily|天 魔(Devil) |古墓 |
+|萬靈護腕(Wan ling wrists) |防+10 TEC+1 BAR-1|疾風門大弟子「劍氣神童」萬鮮靈(Wan xian ling) |疾風門 |
+|闇鱷手甲(Crocodile hands) |防+8 閃-5 str+3 con+3 BAR+1 WIT-1 TEC+1|解迷”闇夜巨鱷” |東北澤林 |
+|鳳凰羽衣(Phoenix leather) |512根毛 str+2 con+2 int+2 dex+2 BIO+2 BAR+2 WIT+2 SOU+2 TEC+2|解迷”火鳳凰” |步靈城 |

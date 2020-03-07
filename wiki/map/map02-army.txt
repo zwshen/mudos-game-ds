@@ -1,0 +1,8 @@
+====== 少帥府 ======
+
+{{dreamseven:map:map02-army.png|}}
+
+^地圖標示^
+|01|少帥府－大院，out可回[[dreamseven:map:map02-dragon2|磐龍城]]。|
+|02|少帥府－客廳，天刀身意 寇仲(Kou-zhong master)在此地。|
+|03|少帥府－客房，邪王 石之軒(Shi zhi-xuan master)在此地。|

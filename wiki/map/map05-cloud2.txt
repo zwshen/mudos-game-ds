@@ -1,0 +1,6 @@
+====== 凌雲峰-上天梯 ======
+
+{{dreamseven:map:map05-cloud1.png|}}
+
+^地圖標示^
+|01|凌雲峰-上天梯，northup[[dreamseven:map:map05-cloud3|往上]]，southdown回到[[dreamseven:map:map05-cloud1|凌雲峰上天梯]]。|

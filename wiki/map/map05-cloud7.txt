@@ -1,0 +1,7 @@
+====== 凌雲峰頂 ======
+
+{{dreamseven:map:map05-cloud7.png|}}
+
+^地圖標示^
+|01|凌雲峰頂-缺口處，jump缺口可回[[dreamseven:map:map05-cloud6|凌雲峰上天梯]]。|
+|02|凌雲峰頂-平台中央，[[dreamseven:info:nature|凌雲峰頂日出奇景]]觀景處。|

@@ -1,0 +1,51 @@
+====十萬大山====
+
+               　　              10                          
+                  　　           ╲                        
+                            　　     09                       
+                          　　    ｜                       
+                             　　     □                       
+                             　　     ｜                       
+                             　　     □                        
+                              　　      ╲                      
+                               　　      □                    
+                             　　        ｜                    
+  　　  11                           □                    
+    　　  ╲                           ╱  ╲                  
+     　　   □－07  04            □      08                
+      　　    ╲   ｜            ╱           ╲              
+        　　    05－□－□－□－□－□－03－□－02            
+       　　    │  ｜           ╲            ╱              
+        　　    12  06            □       □                
+           　　                       ╲   ╱                  
+            　　                        □                    
+            　　                        ｜                    
+             　　                       01                    
+
+
+01 southdown 可至[[dreamseven:map:mountainroadmap |山路]]北端
+
+02 do eastdown,eastup,e 可至禰影神廟, 可解迷([[dreamseven:wars:tenone |十萬大山 奇倪獸]],「天壇-守衛長」苗青(Meo chen)，[[dreamseven:info:quest:newquest_rewardofguard|可解謎]]
+
+03 此處可解迷([[dreamseven:wars:tenone |十萬大山 奇倪獸]])
+
+04 enter 可找「採藥蝶」苗芃(Meo pun) 聊天, 可[[dreamseven:info:quest:white_wrists_quest |解迷]]
+
+05 此處可[[dreamseven:info:quest:white_wrists_quest |解迷]]
+
+06 一江客棧, up 可找「山野村夫」陳崎(Chen chi) 聊天, 可[[dreamseven:info:quest:goldpill_quest |解迷]]
+
+07 「宗族長」苗杖七(Meo chung chi), 可[[dreamseven:wars:tenone |解迷]]和接巨魔任務
+
+08 do northdown,northup,n , 可解迷([[dreamseven:wars:tenone |十萬大山 奇倪獸]])
+
+09 climb 山壁, 可至[[dreamseven:map:dragoncurvehillmap |龍脊峰]]
+
+10 [[dreamseven:info:nature |龍井明月奇景]]觀賞處
+
+11 往[[dreamseven:map:northforest |北方大森林]]
+
+12 苗大嬸(Meo aunt)，可接任務[[dreamseven:info:quest:newquest_meteril|暗矛部落的裝備材料]]
+
+  last update & adjust 2008/02/08
+  BY Belle

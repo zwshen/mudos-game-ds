@@ -1,0 +1,21 @@
+^名稱 ^素質 ^來源/出處 ^
+|魔術師眼鏡(Mage glasses)        |防+1 int+1                                    |時空魔術師(Mage)|
+|爍千面(Faceoff mask)            |防+1 int+1                                    |quest十萬大山|
+|紙面具(Paper mask)              |防+2                                          |黃沙  小孩(Child)|
+|般若鬼面(Banlo mask)            |防+2 命+3 con+1                               |天狗(Tengu)小天狗(Small tengu)大天狗(Big tengu)|
+|冥王鬼面(Ghost mask)            |防+2 抗+1 int+2 BIO-1 WIT+1 daily              |觴炯(Sun jiong)|
+|天狗面具(Tengu mask)            |防+3 int+1                                    |天狗(Tengu)小天狗(Small tengu)大天狗(Big tengu)|
+|冥王鬼面(Ghost mask)            |防+3 抗+1 int+1                               |觴炯(Sun jiong)|
+|修羅金面(Shu-lou gold mask)     |防+3 抗+2 int+2                               |薨(Hong)|
+|妖貓面(S)(Devil cat mask)       |防+3 str-1 con-1 int+3 BAR-1 WIT+1            |貓婆婆(Cat oldwoman)|
+|黃金面具(Gold mask)             |防+4                                          |遺世島挖掘|
+|海神護面(Leviathan mask)        |防+4 抗+10 命+5 閃+5 int+2 dex+2 BAR-1 TEC+1  |魔獸  利貝亞森(Leviathan)|
+|祕 護面(Mi mask)                |防+5                                          |秘 秘密客(Mimi guard)|
+|寒日面具(Freeze-sun mask)       |防+5 con+1                                    |寒日(Freeze sun monster)|
+|鬼怒面具(Angry mask)            |防+5 str+1 con+1 int-1 BAR+1 WIT-1            |黑天狗(Black tengu)|
+|猛虎面罩(Tiger mask)            |防+7 con+1 int+1 BAR+1                        |南宮無雙(Master nan)|
+|祝融面具(Zhu-rong mask)         |防+8 抗+2 int+2 BIO-1 BAR-1 WIT+1             |蕭日山(Sau zi san master)|
+|寒澈鐵面(Frost mask)            |防+10                                         |莫月鼎(Mo yue-ding master)|
+|八歧鱗面(S)(Orochi mask)        |防+10 抗+10                                   |八岐大蛇．青首(Orochi blue head)|
+|八歧鱗面(Orochi mask)           |防+10 抗+10 con+1 int+3 BIO-1 SOU+1           |八岐大蛇．青首(Orochi blue head)|
+|埜狐面罩(Fox mask)              |防+12 str+3 con+2 BAR+1 WIT-2 TEC+1           |quest王轑(Wang-lou)|

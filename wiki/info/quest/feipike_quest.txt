@@ -1,0 +1,3 @@
+do look off,e,n,n,n,w,w,n,ne,ne,n,n,ne,n,e,n,n,nw,eu,ne,,e,e,ne,e,e,e,e,n,n,n,enter 小路,se,e,e,s,uncover 棺木,d,push 棺材板,w,search 骸骨,get sword,take 紙,e,u,n,w,n,n,give taoist sword,give taoist paper
+
+taoist 就會給你飛震槍

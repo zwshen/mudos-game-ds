@@ -1,0 +1,5 @@
+^名稱^攻擊力^增加屬性^物品價值^裝備條件^地點：出處^
+|短針(Needle)				|+8	|無						|100		|無|天梟教：小弟(Waiter)|
+|月針(Moon needle)				|+14	|無						|1000		|無|天梟教：大徒弟(Fighter)|
+|放血針(Blood needle)			|+40	|str+3，con+1，dex-2				|1200		|無|天梟教：天梟守衛(Guard)|
+|十方靈動(Viper needle) （daily）		|+40	|str-4，int+3，TEC+1				|40000		|str：1|天梟教內堂：天梟三聖 邢幽風(Shin-you-fon master)|

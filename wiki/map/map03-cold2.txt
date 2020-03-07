@@ -1,0 +1,9 @@
+====== 寒日洞二層 ======
+
+{{dreamseven:map:map03-cold2.png|}}
+
+|地圖標示|
+|01|瘋漢(Madman)在此地。|
+|02|瘋婆子(Madwoman)在此地。|
+|03|擒獸將軍 石百斤(Shi bai-jin)在此地，可取得石匙(Rock key)。|
+|04|用石匙(Rock key)可打開門，down能通往[[dreamseven:map:map03-cold3|石室]]。|

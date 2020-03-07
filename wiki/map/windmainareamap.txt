@@ -1,0 +1,15 @@
+====疾風門主走廊====
+                04                    
+                ｜                    
+            03－□－02                
+                ｜                    
+                01                    
+
+
+01 southdown 可至[[dreamseven:map:windtrainningareamap |疾風門練武場]]
+
+02 [[dreamseven:class:wind |《疾風門》光明右使「幻鎖內防」楊雙亟(Master yang)]]
+
+03 [[dreamseven:class:wind |疾風門光明左使「如雲幻境」游機子(Left-escort you)]]
+
+04 疾風門大弟子「劍氣神童」萬鮮靈(Wan xian ling)

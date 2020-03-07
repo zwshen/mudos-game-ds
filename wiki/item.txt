@@ -1,0 +1,2 @@
+  *  [[ dreamseven:item:addhp       | 補品  ]]   
+  *  [[ dreamseven:item:bag       | 袋類 (bag) ]]   

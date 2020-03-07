@@ -1,0 +1,14 @@
+====朝天湖水裡====
+
+                □                    
+                ｜                    
+                01                    
+                ｜                    
+                □－□                
+                ｜                    
+                02                    
+
+
+01 up 可至解[[dreamseven:info:quest:sun_snow_fist_quest |六陽融雪爪]]之處, 或是 2 down 可找點液聊天(點液屍體可[[dreamseven:info:quest:8_gwua_mirror_quest |解迷]])
+
+02 up 可回[[dreamseven:map:recallstart |主要地圖]](朝天湖)

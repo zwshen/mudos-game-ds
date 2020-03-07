@@ -1,0 +1,86 @@
+====投稿格式====
+  為了測試新任務系統與增加遊戲可玩性，強力徵求任務
+  
+  目前任務支援類型：
+  1. 殺死某些數量的怪物
+  2. 取得某些數量的物品
+  3. 造訪性任務  (意指某A要你去找某B，即可完成任務)
+  
+  徵求的任務希望比較有故事性的，或是連貫性任務(意指
+  要完成某個任務才能接後續)
+  任務投稿要點：
+  1. 任務名稱
+  2. 任務說明
+  3. 任務等級
+  4. 取得任務的條件
+  5. 接受任務的npc  (請註明地理位置，這樣才好查檔名)
+  6. 完成任務的npc  (請註明地理位置，這樣才好查檔名)
+  7. 接受任務時npc要說的話
+  8. 完成任務時npc要說的話
+  9. 該任務完成條件：
+     i. 斬殺的怪物有哪些，數量多少 (註明地理位置)
+    ii. 取得的物品有哪些，數量多少 (註明取得方式)
+  
+   註：造訪性任務，可以不需要 i. ii.
+  10. 完成任務獎勵
+====投稿獎勵辦法====
+  投稿任務評分項目(單一個)：
+  1. 故事性 1-5 分, 任務的執行背景故事
+  2. 趣味性 1-5 分, 惡搞至上
+  3. 完整度 1-5 分, 連貫性任務較吃香
+  
+  任務一經啟用後，會依得分給玩家投稿任務點數獎勵
+  
+  這個投稿任務點數可以換取獎品有：
+  1. 5點, 替身娃娃一隻
+  2. 10點, save eq, 屬性+1
+  3. 25點, save eq, 屬性+2
+  4. 40點, save eq, 屬性+3
+  5. 65點, save eq, 屬性+4
+  6. 100點, save eq, 素質+1
+  7. 220點, save eq, 素質+2
+  8. 350點, save eq, 素質+3
+  save eq 皆自訂
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+====投稿文件====
+  *  [[ dreamseven:flying| fallenangel又來瞎攪嘍 ]]  
+  *  [[ dreameven:info:zelda | 天梟派的現況及末來]] by zelda
+  *  [[ dreamseven:newquest:dragon_doctor_trouble| 龍宮食醫的煩惱]] by Bluerex
+  *  [[ dreamseven:newquest:astronomy_master_regretful| 天機老人的遺憾 ]] by Bluerex
+  *  [[ dreamseven:newquest:eqmaster_requirement| 打鐵老師博的需求 ]] by Bluerex
+  *  [[ dreamseven:newquest:quest1| 剿滅幽冥 ]] by Lag
+  *  [[ dreamseven:newquest:quest2| 頑童的好奇心 ]] by Lag
+  *  [[ dreamseven:newquest:quest3| 吳鍾的煩惱 ]] by Lag
+  *  [[ dreamseven:newquest:quest4| 好心的獵戶 ]] by Lag
+  *  [[ dreamseven:newquest:emperor_arrest| 官府通緝令 ]] by Bluerex
+  *  [[ dreamseven:newquest:whip_fighting| 一山不容二虎 ]] by Bluerex
+  *  [[ dreamseven:newquest:quest5| 神棍的請求 ]] by Lag
+  *  [[ dreamseven:flying:quest1| 〔任務〕颬颮客棧新菜色 ]] by fallenangel
+  *  [[ dreamseven:flying:quest2| 〔任務〕解酒液 ]] by fallenangel
+  *  [[ dreamseven:newquest:rat_war1| 〔任務〕滅鼠大戰 ]] by fallenangel
+  *  [[ dreamseven:newquest:eat_ghost| 〔任務〕食屍鬼 ]] by fallenangel
+  *  [[ dreamseven:newquest:fire_war| 〔任務〕步靈守城炮戰 ]] by fallenangel
+  *  [[ dreamseven:newquest:sky_war2| 〔任務〕劫獄 ]] by fallenangel
+  *  [[ dreamseven:newquest:frog| 〔任務〕蛙王 ]] by fallenangel
+  *  [[ dreamseven:newquest:kill_master| 〔任務〕刺殺 ]] by fallenangel
+  *  [[ dreamseven:newquest:fight!| 〔任務〕挑戰 ]] by fallenangel
+  *  [[ dreamseven:newquest:ghostking_war| 〔區域〕地獄咆嘯之萬魔霸主 ]] by fallenangel
+  *  [[ dreamseven:newquest:monster|魔物懸賞 ]] by stevenchou
+  *  [[ dreamseven:newquest:Liu_chen_wen|裁縫材料 ]] by rob
+  *  [[ dreamseven:newquest:adv_orochi_armor| 改造龍眠 ]] by Byron
+
+

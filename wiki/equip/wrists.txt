@@ -1,0 +1,26 @@
+^名稱 ^素質 ^來源/出處 ^
+|奇倪骨鐲(Chini wrists)          |防+1 dex-1                   |奇倪獸(Chini)|
+|神武護腕(God wrists)            |防+1 抗+2 int+1              |神武護衛(Guard)|
+|珊瑚手環(Coral bracelet)        |防+1 con+1 int+1             |海女(Woman fisher)|
+|白銀護脕(Silver wrists)         |防+1 daily 特殊功能          |時空旅行者(Time space traveler)|
+|玉蟾護腕(Jade-toad wrists)      |防+2 抗+2 int+2              |碧玉蟾(Jade toad)|
+|纏布護腕(Wrists)                |防+2                         |步靈  防具店|
+|雪玉鐲(Ice bracelet)            |防+2 抗+5 int+2              |雪女(Yukionna)|
+|銀鐲(Silver wrists)             |防+3 save                    |商隊老闆(Caravan boss)|
+|星雲護腕(Sing yun hands)        |防+3 抗-1 int-1 dex+2        |妖槍地祇(Ghost lancer)|
+|普賢護腕(Bu-sian hands)         |防+3 str+2 TEC-1             |黿(Yuan)|
+|祕 武固(Mi hands)               |防+4                         |秘 秘密客(Mimi guard)|
+|羽毛護腕(Feather wrists)        |防+4 dex+1                   |天梟教大徒弟(Fighter)|
+|龍蝦護手(Lobster wrists)        |防+4 dex+1                   |海女(Woman fisher)|
+|軍團護腕(Army wristlet)|防+5|半獸人軍團長(Orc regimental commander)半獸人使者(Orc herald)|
+|龍象護腕(Dragon-elephant wrists)(特別版)|防+5 抗+5 str+2              |東方七宿 龍象(Dragon elephant)|
+|龍象護腕(Dragon-elephant wrists)(普通版)|防+5 抗+5 str+1              |東方七宿 龍象(Dragon elephant)|
+|清玉手鐲(Jade bracelet)         |防+5 con+2 dex+1             |李莫愁(Lee mochou)|
+|清玉腕(White wrists)            |防+6 dex+2                   |quest苗杖七(Meo chung chi)|
+|黃金護腕(Gold wrists)           |防+7                         |遺世島挖掘|
+|清風腕(White wrists)            |防+7 str+2 dex+2 BAR-1 WIT+1 daily |quest苗杖七(Meo chung chi)|
+|寒澈護手(Frost hands)           |防+8                         |莫月鼎(Mo yue-ding master)|
+|狐骨腕輪(Fox wrists)            |防+8 抗+7 攻+6 str+1 dex-2   |獵狐村 村民(Villager)|
+|百刃腕輪(Blade wrists)          |防+8 攻+5                    |quest備前．剛(Bizen gou)|
+|羅漢護手(Luo-han wrists)        |防+10 dex+1                  |護法使者 妙見金身(Miao-jian bonze)|
+|萬靈護腕(Wan ling wrists)       |防+10 TEC+1 BAR-1                  |萬鮮靈(Wan xian ling) |

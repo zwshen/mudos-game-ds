@@ -1,0 +1,68 @@
+====步靈城====
+
+                              01
+                              ｜               
+                              □                 
+                              ｜
+                          □－□
+                              ｜                
+                          10－□－11          
+                              ｜      
+                          09－□      
+                              ｜      
+                              □      
+                              ｜      
+                              □      08
+                              ｜    ╱
+                      14      □－07      □－12
+                      ｜      ｜          ｜
+  01－□－□－□－□－□－□－06－□－□－□－□－□－□－01
+              ｜              ｜              ｜
+              □      16      □              13
+              ｜      ｜      ｜        
+              15－□－□－□  □－05  
+                              ｜        
+                          04－□      
+                              ｜      
+                              □－03  
+                              ｜      
+                              □
+                              ｜
+                              □－02
+                              ｜
+                              □
+                              ｜
+                              01
+
+
+01 out 可回[[dreamseven:map:recallstart |主要地圖]](滄縣城以北)
+
+02 步靈城附屬競技之場
+
+03 連詳馬廄
+
+04 防具店
+
+05 武器舖
+
+06 [[dreamseven:class:wind |疾風門創人「武神」軒轅烈(Shiuan yuan lieh)]], 寶藏家(Rich man), 此處可[[dreamseven:info:quest:phoenix_quest |解迷]], up 可至[[dreamseven:info:club:god |神族]]
+
+07 颬颮客棧
+
+08 enter 可至廚房內倉庫
+
+09 正字當舖
+
+10 織布紡
+
+11 布店
+
+12 盜賊工會, [[dreamseven:class:thief |神手 李貓(Lee mou)]]
+
+13 英雄之屋外, enter 可進[[dreamseven:map:herohousemap |英雄屋]]
+
+14 清香藥舖
+
+15 enter 可至一間房舍
+
+16 小私塾, sit 可學習讀書識字 (literate)

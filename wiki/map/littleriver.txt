@@ -1,0 +1,17 @@
+====小溪====
+
+       04                    
+       ｜                    
+       03                    
+       ｜                    
+       02                    
+       ｜                    
+       01                    
+
+01 climb 木橋, 可至[[dreamseven:map:secondarymap |次要地圖]](天城以東)
+
+02 此處可以 practice swim, 練習游泳技能 (swim)
+
+03 此處可以 practice swim, 練習游泳技能 (swim)
+
+04 down 可至[[dreamseven:map:watertunnelmap |水道]]

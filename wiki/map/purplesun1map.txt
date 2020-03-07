@@ -1,0 +1,13 @@
+====紫陽山一層====
+                □                    
+              ╱  ╲                  
+            02      □                
+                    ｜                
+                    □                
+                  ╱                  
+                01                    
+
+
+01 down 可至[[dreamseven:map:recallstart |主要地圖]](步靈城以西)
+
+02 up 可至[[dreamseven:map:purplesun2map |紫陽山二層]]

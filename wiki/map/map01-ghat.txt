@@ -1,0 +1,10 @@
+====== 山道 ======
+
+{{dreamseven:map:map01-ghat.png|}}
+
+^地圖標示^
+|01|白色石階，westdown可回[[dreamseven:map:map01|朝天樓地圖]]。|
+|02|小涼亭，climb 山壁後可解[[dreamseven:info:quest:callcrocodile_quest|「生生造化丹」之謎]]。|
+|03|竹林小徑，enter後可見到「灌園叟」秋先(Chiou-shian)，給他在百花叢裡找到的葉落金錢能獲得百花釀。|
+|04|上山小路，老叫化子(Old beggar)在此，southup可通往[[dreamseven:map:map03-ghat|凌雲寺及寒澈道觀]]。|
+|05|鑄劍谷，葉樺(Yip hua)在此。|

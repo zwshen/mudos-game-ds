@@ -1,0 +1,34 @@
+====天城官府====
+
+                     03                
+                     ｜                
+             □－□－□－□－□        
+                 ｜  ｜  ｜            
+             □－□－□－□－02        
+                 ｜  ｜  ｜            
+             □－□－□－□            
+                     ｜                
+             □－□  □                
+             ｜  ｜  ｜                
+             04  □  □                
+             ｜  ｜  ｜                
+             05  □－□                
+                     ｜                
+                     □                
+                     ｜                
+                     □                
+                     ｜                
+             □－□－□－□－□        
+                 ｜      ｜            
+                 □－01－□            
+
+
+01 out 可至[[dreamseven:map:secondarymap |次要地圖]](天城北面)
+
+02 滄縣戶政官 王盛復(Shan-fu wang), 此處可[[dreamseven:info:quest:hungchen_sword_quest |解迷]]
+
+03 縣老爺 顧知天(Gou zhi tian), 此處可開啟[[dreamseven:wars:sky_war |天城戰爭]], 此處可得大牢鑰匙
+
+04 持有大牢鑰匙, 此處可開鎖, 開啟至 05 之路
+
+05 此處可[[dreamseven:info:quest:hungchen_sword_quest |解迷]]

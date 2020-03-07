@@ -1,0 +1,6 @@
+====== 湖底深處 ======
+
+{{dreamseven:map:map01-water3.png|}}
+
+^地圖標示^
+|01|湖底深處，狡龍 點液(Dab aqua dragon)在此，可解[[dreamseven:info:quest:8_gwua_mirror_quest|八卦鏡碎片之謎]]，up回[[dreamseven:map:map01-water2|朝天湖水裡]]。|

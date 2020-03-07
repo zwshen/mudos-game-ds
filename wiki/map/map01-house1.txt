@@ -1,0 +1,6 @@
+====== 湖心小屋 ======
+
+{{dreamseven:map:map01-house1.png|}}
+
+^地圖標示^
+|01|湖心小屋，可拿[[dreamseven:info:quest:sun_snow_fist_quest|六陽融雪爪]]，down可至[[dreamseven:map:map01-water1|朝天湖水裡]]。|

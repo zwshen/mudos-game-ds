@@ -1,0 +1,18 @@
+====出雲山第二層====
+
+                      □－□            
+                    ╱      ╲          
+                  01          02        
+                              ｜        
+                              □        
+                            ╱          
+                      04－03            
+
+
+01 down 可至[[dreamseven:map:chuyuanmountain1map |出雲山第一層]]
+
+02 break 冰壁, 可找雪女(Yukionna)聊天泡茶, 此處可[[dreamseven:info:quest:icewarrior |解迷]]
+
+03 northup 可至[[dreamseven:map:chuyuanmountaintopmap |出雲山頂]]
+
+04 northup 可至[[dreamseven:map:chuyuanmountaintopmap |出雲山頂]]

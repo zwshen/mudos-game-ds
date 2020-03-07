@@ -1,0 +1,7 @@
+====== 鶴子橋上 ======
+
+{{dreamseven:map:map01-bridge2.png|}}
+
+^地圖標示^
+|01|鶴子橋上，southdown可回[[dreamseven:map:map01-bridge1|鶴子橋口]]。|
+|02|鶴子橋端，enter可至船上，use 竹竿可划船至[[dreamseven:map:map01-house1|湖心小屋]]。|

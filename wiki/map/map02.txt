@@ -1,0 +1,16 @@
+====== 黃沙鎮 ======
+
+{{dreamseven:map:map02v2.png|}}
+
+^地圖標示^
+|01|靜心亭，天機老人(Astronomy master)有時候會在此出現。|
+|02|黃沙道，通往孟村的[[dreamseven:map:map01|關口]]。|
+|03|分岐小路，westup可通往[[dreamseven:map:map02-peak|黃沙嶺]]。|
+|04|吃到飽客棧，可在此買補品來食用，張獵戶(Hunter chung)在此地。|
+|05|馬槽，可購買黃馬。|
+|06|民宅，武痴(Military)在此地。|
+|07|民宅，窮書生(Student)在此地。|
+|08|民宅，書僮(Servant)在此地。|
+|09|民宅，『神乎其技』 本因坊 秀策(Oniska)在此傳授定石基礎(chess)，可坐下聽講(sit)。有時天機老人(Astronomy master)亦會出現在此地。|
+|10|民宅，陽婆婆(Grandmother yan)在此地。|
+|11|通往黃沙平原do s,s,s,w,n,e,eu,e，解決守護石獸後，south即為石神(Stone statue)所在；do s,s後可進入[[dreamseven:map:map02-love|情城池]]。|

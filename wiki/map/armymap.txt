@@ -1,0 +1,60 @@
+====== 磐龍城 (Dragon City) ======
+
+
+                          05
+                        ╱                      
+                  □－□                        
+                  ｜                            
+                  □                            
+                  ｜
+              □－□－□                
+              ｜  ｜  ｜                
+              □－□－□                
+                  ｜                    
+                  □                    
+                  ｜                    
+              01－□  02  06            
+                  ｜  ｜  ｜            
+          □－□－□－□－□            
+          ｜              ｜            
+          □              □            
+          ｜              ｜            
+  □－□－□              □－□－□    
+          ｜              ｜            
+          □              □            
+          ｜              ｜            
+          □－□－□－□－□            
+                  ｜                    
+                  □                    
+                  ｜                    
+                  □                    
+                  ｜                    
+                  □                    
+                  ｜                    
+                  □                    
+                  ｜                    
+                  □                    
+                  ｜                    
+                  □                    
+                  ｜                    
+                  □                    
+                  ｜                    
+                  □                    
+                  ｜                    
+              □－□－04                
+              ｜                        
+              03      
+
+
+  * 01 磐龍客棧 圖龍丹派 桃盛(Tao sheng) 可接 [[dreamseven:info:quest:newquest_bone_blood| 碎骨血塊]] 任務
+  * 01 up 磐龍客棧-2樓 
+    * [[dreamseven:class:army |少帥軍第二代將軍 宣永(Xuan yong master)]] 拜入army 
+    * 少帥軍 馬若(Ma-ruo general) 取得碎骨寨相關任務
+      *  [[dreamseven:info:quest:newquest_get_orcplan| 取得作戰計畫]] 
+      *  [[dreamseven:info:quest:newquest_kill_orcs| 削弱碎骨寨]] 
+      *  [[dreamseven:info:quest:newquest_kill_orcking| 暗殺碎骨皇帝]]
+  * 02 磐龍錢莊 
+  * 03 可通往 [[dreamseven:map:dragonbeachmap |磐龍險灘]]
+  * 04 eastup 可回 [[dreamseven:map:yellowsandcruvemap |黃沙嶺]]
+  * 05 northeast 可至 [[dreamseven:map:crush_bone| 奧特蘭克 - 碎骨寨 (Crush Bone)]]
+  * 06 當鋪 胡買(Hu mai keeper) 可接 [[dreamseven:info:quest:newquest_collect_dust| 半獸人遺骸]] 任務

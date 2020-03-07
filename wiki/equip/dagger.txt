@@ -1,0 +1,23 @@
+^名稱^攻擊力^增加屬性^物品價值^裝備條件^地點：出處^
+|萬能匕首(Mulit-function dagger) （save）	|+7	|無						|一文不值		|str：1，con：1，int：1，dex：1|加入Thief|
+|盜賊的極致(Advanced thief dagger)（save）	|+7	|無						|一文不值		|str：1，con：1，int：1，dex：1|加入Thief|
+|匕首(Dagger) （save）			|+8	|無						|400		|str：1|孟村：鐵匠(Smith)|
+|鋼鐵匕首(Steel dagger)		|+15	|無						|500		|無|哈薩克草原：計老人(Ji oldman)|
+|風魂(Wind soul)				|+20	|BAR-1						|1000		|str：1，int：25，dex：40|地底神殿遺跡：聖炎夢使 薨(Hong)|
+|虎柄椎(Tiger dagger) 			|+23	|無						|1000		|str：2|地窖地下二層：崇椎(Chong jui)|
+|毒匕首(Poison dagger)			|+28	|無						|600		|level：15，dagger sk：30|黃沙鎮：小賊(Young thief)|
+|鐵尺(Iron ruler) 				|+30	|無						|500		|str：2，int：10|地窖地下四層：群魔亂舞 丈運使(Estimate destiny herald)|
+|無相拈花長錐(Wu-xiang flower dagger)		|+35	|dex+2，SOU+1					|5000		|str：1，dex：30|凌雲峰頂：護法尊者 拈花金剛(Flower jingang)|
+|金匕首(Golden dagger)			|+35	|無						|3500		|str：2|哈薩克草原：鏢師「青蟒劍」陳達海(Chen dahai)|
+|邪靈匕首(Devil dagger) 			|+38	|dex+1，BIO+1，SOU+1				|5000		|str：1，dex：50|寒澈道觀：天妖(Tian demon)|
+|骨藏之短刃(Hide-bone dagger)		|+40	|dex+2，命中+5					|3700		|str：1|東方島櫻花林：天狗(Tengu)|
+|古紋匕首(Primeval dagger)			|+40	|str+1，dex+2，命中+5，迴避+5			|10000		|dagger sk：60，str：1|遺世島：魔獸 魑背蛛蠍(Ghost spider)|
+|鐵碎牙(Iron-cut dagger)			|+40	|無						|6000		|dagger sk：25|東方島櫻花林：烏鴉天狗(Karasu tengu)|
+|龍咬(Dragon bite)				|+40	|str+2，dex-1					|1000		|str：15，con：15，int：15，dex：15|地底神殿遺跡：聖炎龜使 煦倥(Xu kong)|
+|血刺(Blood sting)				|+41	|命中+11，迴避+5，BIO+1，WIT-1			|4380		|str：4|盜賊工會：神手 李貓(Lee mou)|
+|月牙(Moon tooth)				|+43	|命中+12，迴避+7，BIO+1，SOU-1			|2380		|str：5|冷月池前：「魔獸」 冷月(Cold moon monster)|
+|天缺匕(Tian-que dagger)			|+45	|str+1，dex+1					|5000		|str：1，dex：50|寒冰客棧二樓：飄渺九千里 賊帥(Zei shuai master)|
+|龍牙(Dragon tooth)（daily）			|+45	|無						|20000		|str：1|萬龍古墓：青眼白龍(Blue eye white dragon)|
+|八方雲集(Cloud-together dagger)（daily）	|+45	|str-2，dex+2，BIO+1，WIT-1，特攻			|40000		|str：1|寒冰客棧二樓：飄渺九千里 賊帥(Zei shuai master)|
+|九尾之牙《匕》(Nine tail tooth)		|+55	|str+3，dex-2，BAR+1，TEC-1				|6500		|str：30|獵狐村：獵狐村 英雄「獵狐高手」索貝克(Suoo bey keh)|
+|九尾之牙《匕》(Nine tail tooth)（daily）		|+73	|str+3，con-2，int-2，dex+3，命中+11，BIO+1，BAR+1，TEC-2，特攻	|11000	|str：20|獵狐村：獵狐村 英雄「獵狐高手」索貝克(Suoo bey keh)|

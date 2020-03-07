@@ -1,0 +1,26 @@
+====幽冥地窖[地下四層]====
+
+              05－06  07                
+              ｜  ｜╱｜                
+              □  □  08              
+              ｜                        
+          01  □                        
+        ╱    ｜                        
+      02－03－04                        
+
+
+01 northup 可至[[dreamseven:map:youming3map |幽冥地窖地下三層]]
+
+02 群魔亂舞 秤命客(Balance fate herald)
+
+03 群魔亂舞 丈運使(Estimate destiny herald)
+
+04 群魔亂舞 度途士(Do tu si)
+
+05 群魔亂舞 勾魂使(To bewitch man)
+
+06 群魔亂舞 攝魄使(To fascinate man)
+
+07 【冥王】 觴炯(Sun jiong), 持有紅色鑰匙可開啟此處之鎖, 往 08
+
+08 east 至[[dreamseven:map:youmingmaze |迷宮]]

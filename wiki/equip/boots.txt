@@ -1,0 +1,44 @@
+^名稱^素質^來源/出處^
+| 碎骨寨銅靴(Crush bone boots)                  |無                   |半獸人嘍囉(Orc follower)半獸人(Orc)半獸人百夫長(Orc hundred leader)半獸人千夫長(Orc thousand leader)半獸人皇帝(Orc emperor)半獸人特使(Orc special envoy)半獸人使者(Orc herald)|
+|草鞋(Shoe)                      |防+1                       |無名道人(Taoist)寒澈道 小道僮(Taoist child)寒澈道 道士(Taoist)寒澈道 伙食道人(Cook taoist)|
+|麻鞋(Straw boots)                  |防+1                       |楊大媽(Yung da ma)|
+|布鞋(Shoes)                        |防+1                       |彪形大漢(Big bandit)旅人(Traveler)|
+|木鞋(Wood boots)                   |防+2                       |天城  布莊|
+|纏布鞋(Swathe shoe)                |防+2                       |步靈城  路人(Traveller)冒險者(Adventurer)|
+|草鞋(Sandal)                       |防+2 抗+1                  |楊雙亟(Master yang)小孩群(Children)|
+|輕步靴(Hight boots)                |防+2 dex+1                 |疾風門mob|
+|僧鞋(Bonze's boots)                |防+3                       |方印大師(Fung ying bonze)|
+|虎皮靴(tiger boots)                |防+3                       |杜絕(Do jur)|
+|獸皮靴(beast boots)                |防+3 dex+1                 |豬面魔(Pigface demon)|
+|道靴(taoist sandal)                |防+3 dex+1                 |路人(Passerby)寒冰客棧2e|
+|飄雪靴(Snow boots)                 |防+3 dex+2 quest           |施無受(Shi wu shou)|
+|皮靴(Boots)                        |防+3                       |滄縣  守城官兵(Garrison)| 
+|昊戠長靴(Hao chi boots)            |防+3                       |天池城  守城官兵(Garrison)|
+|天狗木屐(Tengu clog)               |防+3 con+1                 |天狗(Tengu)|
+|重厚皮靴 (big boots)               |防+4                       |步靈城  守門守衛(Gate guard)|
+|金絲亮皮覆(Gold fur boots)         |防+5                       |辛嚭(Sin pai) 東副師(Secretary) 謝基(Shi gi)|
+|木屐 (Clogs)                    |防+5                       |本因坊 秀策(Oniska)|
+|奇倪骨履(Chini boots)           |防+5 dex+1                 |奇倪獸(Chini)|
+|血不沾(Blood-no-touch boots)    |防+5 str+1 con+1 閃+10     |三途判 鬼王棺(Coffin ghost-king)|
+|霧隱足具(Mu-in boots)           |防+6 dex+1                 |quest備前．剛(Bizen gou)|
+|過膝長靴 (Boots)                |防+6 dex-1                 |守衛塔衛兵(Tower janitor)|
+|鹿皮靴(Boots)                   |防+6 抗+1 dex+2            |水手(Sailorman)| 
+|左極馬靴(Joh ji boots)          |防+7                       |禁軍副將 成谷(Cheng gu)|
+|羽鞋(Feather boots)             |防+7 dex+1                 |天梟守衛(Guard)|
+|神武長靴(God boots)             |防+8                       |流無形(Invisible liu)|
+|寒澈長靴(Frost boots)           |防+8 閃-2                  |莫月鼎(Mo yue-ding master)|
+|水師軍靴(Boots)                 |防+8 con+1 dex-1           |無砂鎮  帶刀護衛(Advance guard)王霸(Wang bar)|
+|獅爪靴(Chimera boots)           |防+8 抗+3 攻+5 con+1 dex+1 |魔獸  奇美拉(Chimera)|
+|黃金長靴(Gold boots)            |防+9                       |遺世島挖掘|
+|趐子屐(Shea-gei boots)          |防+9 抗+6                  |兵部尚書 劉躍德(Ua-da liu)|
+|蛟龍具足(Dragon boots)          |防+9 str-1 BIO+1           |狡龍 點液(Dab aqua dragon)  隨機掉落|
+|阿羅漢靴(A-luo-han boots)       |防+10 dex+2                |護法使者 妙見金身(Miao-jian bonze)|
+|奔雲(Cloud boots)               |防+10 int+2 dex+3          |索貝克(Suoo bey keh)|
+|祕 步足(Mi boots)               |防+12                      |秘 秘密客(Mimi guard)|
+|薄雲藍靴(Cloud boots)           |防+12 dex+2                |邢獨風(Shin-do-fon)|
+|閃電靴(Flash boots)             |防+12 閃+10 dex+2          |神手 李貓(Lee mou)|
+|踩水靴(boots)                   |防+14 抗+1 dex+2           |余滄(Yu chen)|
+|狐皮靴(Fox boots)               |防+14 抗+9 int-1 dex+2     |獵狐村 村民(Villager)|
+|麒麟步雲靴(Kilin boots)         |防+15 con+1 int+1 dex+2    |quest秋川．旭(Akikawa asahi)|
+|玲瓏靴(boots)                   |防+16 con+1 dex+2          |quest步六弧(Bu liu hu)|
+|龍騰靴(Dragon boots)            |防+20 str+1 dex+1          |南宮無雙(Master nan)|

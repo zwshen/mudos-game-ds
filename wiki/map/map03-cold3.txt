@@ -1,0 +1,7 @@
+====== 石室 ======
+
+{{dreamseven:map:map03-cold3.png|}}
+
+|地圖標示|
+|01|石室，up可回[[dreamseven:map:map03-cold2|寒日洞二層]]。|
+|02|石門前，魔獸 寒日(Freeze sun monster)在此地。|

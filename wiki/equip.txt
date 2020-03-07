@@ -1,0 +1,18 @@
+  *  [[ dreamseven:equip:helmet       | 頭盔 ]]   
+  *  [[ dreamseven:equip:mask         | 面具 ]]
+  *  [[ dreamseven:equip:necklace     | 項鍊 ]]
+  *  [[ dreamseven:equip:cloth        | 衣服 ]]
+  *  [[ dreamseven:equip:armor        | 盔甲 ]]
+  *  [[ dreamseven:equip:surcoat      | 披肩 ]]
+  *  [[ dreamseven:equip:wrists       | 護腕 ]]
+  *  [[ dreamseven:equip:gloves       | 手套 ]]
+  *  [[ dreamseven:equip:finger       | 戒指 ]]
+  *  [[ dreamseven:equip:waist        | 腰帶 ]]
+  *  [[ dreamseven:equip:pants        | 褲子 ]]
+  *  [[ dreamseven:equip:leggings     | 護腿 ]]
+  *  [[ dreamseven:equip:boots        | 靴子 ]]
+  *  [[ dreamseven:equip:shield       | 盾 ]]
+  *  [[ dreamseven:equip:ankle        | 足鍊 ]]
+  *  [[ dreamseven:equip:merits | 素質裝備整理 ]]
+
+{{http://www.cais-soas.com/CAIS/Images2/Military/Achaemenid_Armored_Cavalry.gif?x=400 }}

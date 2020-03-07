@@ -1,0 +1,14 @@
+====遺世島石林上====
+
+                02            
+              ╱              
+            01                
+          ╱                  
+        03                    
+  
+
+01 jump down 可至[[dreamseven:map:lostislandmap |遺世島獸原]]
+
+02 魔獸  銀翼龍(Silver dragon), 此處可[[dreamseven:info:quest:lostisland_call_dragon |解迷]]
+
+03 jump down 可至[[dreamseven:map:lostisland1000yrstonefroestmap |遺世島千古石林]]

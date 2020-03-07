@@ -1,0 +1,22 @@
+====== 世界地圖 ======
+
+目前世界地圖：
+
+{{dreamseven:past_map.rob.png|}}
+
+舊世界地圖設定：
+
+{{dreamseven:ds_map.jpg|}}
+
+
+
+====== 區域設定 ======
+  * [[dreamseven:map:recallstart | 朝天樓]]
+
+
+====== 新版地圖 ======
+  * [[dreamseven:map:map01|朝天樓]]
+  * [[dreamseven:map:map05|寒澈道觀與凌雲寺]]
+  * [[dreamseven:map:map01-cow|牯牛草原]]
+  * [[dreamseven:map:map02|黃沙鎮]]
+

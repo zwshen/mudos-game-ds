@@ -1,0 +1,23 @@
+====山道====
+
+                               
+   01                          
+   ｜╲                        
+   02  03                      
+         ╲                   
+           □              05 
+             ╲          ╱      
+               □      □       
+                 ╲    ｜       
+                   □－04        
+
+
+01 westdown 可至[[dreamseven:map:recallstart |主要地圖]](朝天湖)
+
+02 climb 山壁, 此處可[[dreamseven:info:quest:callcrocodile_quest |解迷]]
+
+03 enter 可找「灌園叟」秋先(Chiou-shian), 此處可[[dreamseven:info:quest:windseal_quest |解迷]]
+
+04 老叫化子(Old beggar), southup 可一路至[[dreamseven:map:bonzeandfrostmap |凌雲寺與寒澈派]]
+
+05 葉樺(Yip hua), 此處可[[dreamseven:info:quest:hungchen_sword_quest |解迷]]. 或是 enter 瀑布, 可進入[[dreamseven:map:abandoncavemap |廢棄礦坑]]

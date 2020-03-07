@@ -1,0 +1,119 @@
+====主要地圖====
+                                                                                      25                    
+                                                                             ∣                    
+                                                          30              □—□—24 □            
+                                                            ╲                ∣     ∣            
+                                                      □－18－□               □     □  □        
+                                                      ｜      ｜                ∣     ∣ ｜       
+                                     22  23－□－□－18     18－□－             □—□—□—□—□—□—□    
+                                      ｜              ｜      ｜                 ｜     ｜    ｜    
+                                  19－□－□－□－□－□－18－□                        □     □－□ □－28
+                                       ╲｜    ╱    ｜                           ｜      ∣  ∣    ｜
+                                          □－□  □      □                         □      □－□    29
+                                   ╱      ╱      ╱                          ｜                    
+                                      □      □      □                         □－□－□                
+                                    ╱      ╱        ｜                       ｜    ｜                
+                                  20      □         □                         □－27－□－26            
+                                    ╱           ｜                                            
+                              21  □－□             □                                            
+                              ｜╱                  ╱                                              
+                              □                  □          17                                    
+                                           ╱            ｜                                    
+                  36                       □      15－16  □                                    
+                   ｜                         ｜      ｜    ╱                                      
+               □－□                         □－□－□－□                                        
+              ｜                                      ｜                                            
+          11－□－□     □              07     06  □      05                                     
+         ｜      ｜     ｜               ｜      ｜  ｜    ╱                                      
+          □      □－□－□－□－□－□－□－□－□－□－□                                        
+          ｜            ╱    ｜  ｜    ╱    ｜      ｜    ╲                                      
+          □          □      □  08  □      □  01－□－02  04                                     
+         ｜                ╱｜                       ｜                                            
+          □－12         09 □                       □－03                                        
+         ｜                 ╱                                                                  
+      31－□      32      10                                                                    
+          ｜      ｜                                                                            
+  33－□－□－□－□－34                                                                        
+      ｜  ｜      ｜                                                                            
+      13  □      35                                                                            
+         ｜                                                                                    
+          □                                                                                    
+          ｜                                                                                    
+          14                                                                                    
+
+
+01 朝天樓 (Recall start), up 可至[[dreamseven:map:recallstart2fmap |二樓]]
+
+02 銀行
+
+03 [[dreamseven:info:club:dragon |狂龍幫]]
+
+04 eastup 可通往[[dreamseven:map:mountaintunnelmap |山道]]
+
+05 [[dreamseven:map:hundredflowermaze |百花叢]](迷宮)
+
+06 孟村郵局
+
+07 enter 可通往[[dreamseven:map:cowplant |牯牛草原]]
+
+08 村長家, 在此可以 sit 學習讀書識字 (literate)
+
+09 enter 黑洞, 可通往[[dreamseven:map:fishholemap |水寒星洞]]
+
+10 enter house 可通往[[dreamseven:map:bagimap1 |八極門]]
+
+11 westup 可通往[[dreamseven:map:yellowsandcruvemap |黃沙嶺]]
+
+12 吃到飽客棧, 張獵戶(Hunter chung), 可[[dreamseven:info:quest:8_gwua_mirror_quest |解迷]]
+
+13 『神乎其技』 本因坊 秀策(Oniska), 在此可以 sit 學習定石基礎 (chess), 此處可[[dreamseven:info:quest:8_gwua_mirror_quest |解迷]]
+
+14 south 可通往黃沙平原(迷宮)與[[dreamseven:map:lovesquaremap |情城池廣場]]
+
+15 打鐵鋪
+
+16 修理大師 打鐵老師博(EQ master), 在此可以修理武器
+
+17 north 可通往[[dreamseven:map:ghostfroestmap |鬼斷森林]]南端
+
+18 enter 可通往[[dreamseven:map:bulincitymap |步靈城]]
+
+19 寒冰客棧, up 可找[[dreamseven:class:thief |飄渺九千里 賊帥(Zei shuai master)]]聊天泡茶
+
+20 通往[[dreamseven:map:oldtombmap |古墓]]
+
+21 密林入口(squeeze 小空隙, 可至[[dreamseven:map:secretforestmap |密林中]])
+
+22 northeast, 然後up 可通往[[dreamseven:map:purplesun1map |紫陽山一層]]
+
+23 northwest 可通往[[dreamseven:map:windfrontdoormap |疾風門入口大門]], 或是 enter 霧洞, 可[[dreamseven:info:quest:huitan |解迷]]
+
+24 老記當鋪
+
+25 海政司大門, enter 可通往[[dreamseven:map:wusaofficemap |海政司]]
+
+26 玲瓏工坊, 此處可解迷([[dreamseven:wars:orochi_war |八歧。龍眠]], 或[[dreamseven:info:quest:buliuhu_quest |玲瓏靴(Boots)]])
+
+27 enter 石屋, 可以找鹽俠 余滄(Yu chen)泡茶聊天, 可[[dreamseven:info:quest:wangbar_quest |解迷]]
+
+28 南無砂港泊口, enter 可通往焦岩釣魚台
+
+29 蓬頭垢面 水手(Sailorman),可[[dreamseven:info:quest:lostisland_treasure_quest |解迷]], 可購買天翔珠(Sky bead)通往[[dreamseven:map:eastislandbeachmap |東方島海灘]], 或是取得碧海石之後, enter, 然後 use stone, 即可通往[[dreamseven:map:lostislandmap |遺世島獸原]]
+
+30 eastup 可至[[dreamseven:map:secondarymap |次要地圖]]
+
+31 馬商(Horse trader), 可買馬, 可解 [[dreamseven:info:quest:horse_quest |烈風黃/銀星]] 之謎, 亦可解 [[dreamseven:info:quest:8_gwua_mirror_quest| 八卦鏡]] 之謎
+
+32 武痴(Military), 可解 [[dreamseven:info:quest:8_gwua_mirror_quest| 八卦鏡]] 之謎
+
+33 窮書生(Student), 可解 [[dreamseven:info:quest:8_gwua_mirror_quest| 八卦鏡]] 之謎
+
+34 書僮(Servant), 可解 [[dreamseven:info:quest:8_gwua_mirror_quest| 八卦鏡]] 之謎
+
+35 陽婆婆(Grandmother yan), 可解 [[dreamseven:info:quest:8_gwua_mirror_quest| 八卦鏡]] 之謎
+
+36 天機老人(Astronomy master), 可解 [[dreamseven:info:quest:8_gwua_mirror_quest| 八卦鏡]] 之謎
+
+
+  last adjust 2007/10/17
+  BY Belle

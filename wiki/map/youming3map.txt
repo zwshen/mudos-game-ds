@@ -1,0 +1,28 @@
+====幽冥地窖[地下三層]====
+
+       04－05  07                    
+       ｜  ｜╱｜                    
+   □－□  06  08                    
+   ｜                                
+   03                                
+   ｜                                
+   02                                
+   ｜                                
+   01                                
+
+
+01 二位鬼出神沒 無頭鬼(Lesshead ghost), eastup 可至[[dreamseven:map:youming2map |幽冥地窖地下二層]]
+
+02 鬼出神沒 鬼拳無恨(Ghost fister)
+
+03 二位鬼出神沒 厲鬼(Warrigal ghost)
+
+04 鬼出神沒 妖槍地祇(Ghost lancer)
+
+05 鬼出神沒 鬼面魔種(Ghost face)
+
+06 鬼出神沒 鬼杖客(Ghost staffer)
+
+07 【鬼王】 侮天(Wu tan)
+
+08 aruba 雕像, 可開啟 southdown 之路, southdown 可至[[dreamseven:map:youming4map |幽冥地窖地下四層]]

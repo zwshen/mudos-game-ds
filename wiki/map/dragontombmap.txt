@@ -1,0 +1,35 @@
+====萬龍古墓====
+
+              08－07－09               
+                  ｜                   
+                  06                   
+                  ｜                   
+                  05                   
+                ╱  ╲                 
+      03－□－□      □－□－04       
+                ╲  ╱                 
+                  □                   
+                  ｜                   
+              □－□－□      
+              ｜      ｜             
+              01      02       
+
+01 由 [[dreamseven:map:eightmirrormap |八卦陣]] 中 [陽] 所進入的位置
+
+02 由 [[dreamseven:map:eightmirrormap |八卦陣]] 中 [陰] 所進入的位置
+
+03 由此處down, 可進入石室, 可 [search 石壁] 得到 [金鑰匙] , 需 [touch 石壁] , 回到  [[dreamseven:map:dragonbeachmap |磐龍險峻]] 01 處才可離開此石室
+
+04 由此處down, 可進入石室, 可 [search 石壁] 得到 [銀鑰匙] , up可離開此石室
+
+05 朱漆石門
+
+06 真紅眼黑龍
+
+07 青眼白龍(Blue-eye white dragon)
+
+08 左磐龍殿
+
+09 右磐龍殿 - 青龍紋丹爐(Dragon furnace)
+
+此地圖為 [[dreamseven:wars:dragon_tomb| 磐龍城 萬龍古墓]] 戰爭地圖

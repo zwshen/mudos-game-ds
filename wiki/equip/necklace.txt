@@ -1,0 +1,34 @@
+^名稱 ^素質 ^來源/出處 ^
+|佛珠(Buddha's bead)                |防+1                                     |方印大師(Fung ying bonze)|
+|平安護符(Protect amulet)           |防+1                                     |地藏王菩薩像(Bodhisattva statue)|
+|扇貝頸飾(Seashell necklace)        |防+1                                     |東方島沙灘|
+|觀物之鏈(Observe necklace)         |防+1 int+1                               |柳生．奧太郎(Yagyuu autarou)|
+|邪鬼玉(Ghost necklace)             |防+1 dex+1                               |邪鬼(Ghost)|
+|神武守令(God neck)                 |防+1 抗+1 int+1                          |流無形(Invisible liu)|
+|寒澈護身符(Frost neck)             |防+1 int+1                               |莫月鼎(Mo yue-ding master)|
+|河童玉(Garatsupa necklace)         |防+1 str+1 con+1 int+3 dex+2             |河童(Garatsupa)|
+|碧玉項鍊(Jade neck)                |防+2 str+1                               |秤命客(Balance fate herald)|
+|人魚項鏈(Ningyo necklace)          |防+2 con+3                               |人魚(Ningyo)|
+|疾風項鍊(Flurry necklace)          |防+3                                     |軒轅烈(Shiuan yuan lieh)|
+|鑽石龍鱗(Dragon scale)             |防+3 dex+3                               |鑽石龍(Diamond dragon)|
+|銀鍊(Silver necklace)              |防+3 save                                |商隊老闆(Caravan boss)|
+|菩提項鍊(Bu-tie neck)              |防+3 con+2                               |黿(Yuan)|
+|殞星鏈(Star necklace)              |防+3 str+1 int+3 dex+1 daily             |殞星老者(Star old man)|
+|霞紫念珠(Perple beads)             |防+3 BIO+1 BAR-1                         |宗光(Discipline monk)|
+|日月法鍊(Sun-moon necklace)        |防+3 抗+15 str-3 con-1 dex-2 BAR-1 WIT+1 TEC-1|quest索貝克(Suoo bey keh)|
+|祕 頸鏡(Mi neck)	            |防+5                                     |秘 秘密客(Mimi guard)|
+|碎骨寨項鍊(Crush bone necklace)|防+5|半獸人皇帝(Orc emperor)半獸人特使(Orc special envoy)半獸人使者(Orc herald)|
+|柏木護符(Cypress necklace)         |防+5 抗+2 int+2                          |石神(Stone statue)|
+|神木護符(Divine-tree necklace)     |防+5 抗+29 con-2 int+4 BAR-1 WIT+1       |石神(Stone statue)|
+|鋼鍊(Steel necklace)               |防+5                                     |殞星老者(Star old man)|
+|虎象項鏈(Tiger-elephant necklace)(普通版)|防+5 抗+5 con+1 |西方七宿 虎象(Tiger elephant)|
+|虎象項鏈(Tiger-elephant necklace)(特別版)|防+5 抗+5 con+2 |西方七宿 虎象(Tiger elephant)|
+|如來佛長項鍊(Rulaifo necklace)     |防+8 抗+10 int+1 dex+1                   |如來佛祖(Rulaifo bonze)|
+|牧神玉墜(Pan necklace)|防+8 抗+8 con+1 int+2|牧神潘恩(Bariour pan)|
+|狐牙鏈(Fox necklace)               |防+9 抗+8 str+2 con+2 dex-2              |獵狐村 村民(Villager)|
+|鐵衣護頸(Iron-cloth neck)          |防+10                                    |quest備前．剛(Bizen gou)|
+|百鬼項鏈(Hundred-bogle necklace)   |防+10 str+2 con+2 int+2 dex+2            |人面犬(Human-face bogle)長頸妖怪(Long-neck bogle)無臉妖怪(No-face bogle)雨傘妖怪(Umbrella bogle)隨機掉落|  
+|闇鱷牙鍊(Crocodile teeth-necklace) |防+15 抗+8 str-2 con+2 dex-2 BAR+1 SOU-1 |quest索貝克(Suoo bey keh)|
+
+  last update 2007/10/24
+  By Belle

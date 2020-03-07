@@ -1,0 +1,30 @@
+^名稱 ^素質 ^來源/出處 ^
+|遮陽帽(Sun cap)                 |防+1                              |釣客(Fisher)|
+|黃金耳環(Gold earring)          |防+1                              |遺世島挖掘|
+|珍珠耳飾(Pearl earring)         |防+1                              |海女(Woman fisher)|
+|鑽石耳環(Diamond earring)       |防+1 con+1                        |遺世島挖掘|
+|綠玉髓耳墜(Chrysoprase earring) |防+1 con+2 限girl                 |日向．朝霞(Hyuuga asaka)|
+|荊棘頭冠(Brambly crown)         |防+1 抗+1 int+2 dex-2 BIO-1 WIT+1 |妖獸  奪心魔(Mind flayer)|
+|海神耳環(S)(Leviathan earring)  |防+1 str+1 con+2 int+2 dex+1      |魔獸  利貝亞森(Leviathan)|
+|儒帽(Student hat)               |防+2                              |書僮(Servant)|
+|戶政官烏沙帽(Ossifer's hat)     |防+2                              |滄縣戶政官 王盛復(Shan-fu wang)|
+|羊皮帽(Wool hat)                |防+2                              |天城  布莊|
+|鐵頭盔(Steel head)              |防+2 抗+1 dex-1                   |步靈城  防具店|
+|昊戠頭盔(Hao chi hat)           |防+6                              |天池城  守城官兵(Garrison)|
+|牙曉盔(Ya-shou helmet)          |防+7 str+1                        |剎楠(Cha na)|
+|鋼盔(Helmet)                    |防+8                              |顧知天  官兵(Garrison)|
+|刺牛皮盔(Cow-skin hat)          |防+8 攻+3                         |水手(Sailorman)|
+|軍團頭盔(Army helmet)           |防+8 con+2 dex-1                  |半獸人軍團長(Orc regimental commander)|
+|軹瓏頭盔(Zhi lung helmet)       |防+9 int+3 dex-1                  |劍無名(The sword less name)|
+|狐皮帽(Fox hat)                 |防+7 抗+7 con+1                   |獵狐村 村民(Villager)|
+|羅漢頭盔(Luo-han helmet)        |防+10 str+2 dex-1                 |護法使者 妙見金身(Miao-jian bonze)|
+|寒澈頭巾(Frost kerchief)        |防+10 int+1                       |莫月鼎(Mo yue-ding master)|
+|魔術師帽(Mage hat)              |防+10 int+5                       |時空魔術師(Mage)|
+|鯊骨盔(Bone helmet)             |防+11 抗+1                        |步六弧(Bu liu hu)Quest|
+|祕 反盅(Mi helmet)              |防+12                             |秘 秘密客(Mimi guard)|
+|乃窮冰盔(Illimitable helmet)|防+12 抗+12 con+1 int+1|(待補)|
+|金黃羽盔(Gold helmet)           |防+15 str+1 dex-1                 |無妄(Ghost wu-won)|
+|逆角龍盔(Inverse-horn helmet)   |防+15 抗+10 str+2 con+2 dex-1     |魔獸  血眼逆角龍(Blood-eye dragon)|
+
+  Adjusted 2008/02/13
+  By Belle

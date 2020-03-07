@@ -1,0 +1,57 @@
+====古墓====
+
+          02－□－01                    
+        ╱        ｜                    
+  03－□          □－□                
+                  ｜    ╲              
+              □－□－04  □            
+                  ｜                    
+          05      □                                  □
+            ╲    ｜                                  ｜
+          □－□－□                                  □
+            ╱｜  ｜                                  ｜
+          06  □－□                          □－□－10－11      □
+            ╱    ｜                                  ｜          ｜
+          □      □                                  □－□－□－□－12
+                  ｜                                  ｜          ｜
+          □－□－□－□                              □          □
+                  ｜    ╲                                        ｜
+                  □      □                                      □
+                            ╲                                    ｜
+                              □                                  □
+                                ╲                                ｜
+                                  □                              □
+                                    ╲                            ｜
+                                      □－□－□－□－□－□－07－□－□
+                                                              ｜      ｜
+                                                              08      □－□
+                                                              ｜
+                                                      09－□－□－□－□
+                                                              ｜
+                                                              □
+                                                              ｜
+                                                              □
+
+
+
+01 northeast 可回[[dreamseven:map:recallstart |主要地圖]](步靈城以西)
+
+02 紫砂雕像(Statue), move statue 可招喚神雕(God prey)
+
+03 持有白光之鑰(White-light key), 可開鎖, down 可往[[dreamseven:map:undergroundtombmap |地下墓穴]]
+
+04 [[dreamseven:info:nature |仙人劍舞奇景]]觀賞處
+
+05 古墓 楊過(Yang goo)
+
+06 古墓 小龍女(Dragon girl)
+
+07 press button 可開啟至 08 之路
+
+09 lie bed, 然後 twist stone, 可至古墓石室(迷宮)
+
+10 jump board 可拿銀鑰匙(Silver key), 然後 enter 可至古墓密室(迷宮)
+
+11 press button 可開啟至[[dreamseven:map:insideoldtombmap |古墓內室]]之路
+
+12 可[[dreamseven:info:quest:gumu_betrayer |解迷]]

@@ -1,0 +1,14 @@
+====龍脊峰====
+
+    03－02
+    ｜  ｜
+    04－01
+
+
+01 down 可至[[dreamseven:map:10onemountainmap |十萬大山]], climb north 可至 02
+
+02 climb west 可至 03
+
+03 climb south 可至 04, 或是 jump down 可至[[dreamseven:map:northeastswamp1map |東北澤林第一段]]
+
+04 climb east 可至 01, 或是 take on 鋼索, 可至[[dreamseven:map:skyironcable |懸空鋼橋(迷宮)]]

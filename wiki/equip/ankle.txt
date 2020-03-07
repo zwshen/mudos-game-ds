@@ -1,0 +1,12 @@
+^名稱 ^素質 ^來源/出處 ^
+|銀足鍊(Silver ankle)         |防+2                         |李莫愁(Lee mochou)|
+|一公升的眼淚 (litre-tear ankle)|防+3 抗+3 str+1 con+1 int+1 dex+1|夢幻彩卷(Lottery ticket)特別組合獎 2A2B|  
+|如來佛足鍊(Rulaifo ankle)         |防+5                         |如來佛祖(Rulaifo bonze)|
+|太陽之歌 (sun-song ankle)    |防+5 抗+5 str+3 con+3 int+3 dex+3|夢幻彩卷(Lottery ticket)特獎|
+|牧神之力鍊(Pan ankle)|防+5 str+2|牧神潘恩(Bariour pan)|
+|牧神之體鍊(Pan ankle)|防+5 con+2|牧神潘恩(Bariour pan)|
+|牧神之智鍊(Pan ankle)|防+5 int+2|牧神潘恩(Bariour pan)|
+|牧神之敏鍊(Pan ankle)|防+5 dex+2|牧神潘恩(Bariour pan)|
+
+  last update 2008/09/05
+  By Belle

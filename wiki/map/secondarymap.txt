@@ -1,0 +1,80 @@
+====次要地圖====
+
+
+                  10－09                
+                  ｜                    
+                    □                              17
+                ╱｜╲                          ╱
+                □－□－□                  16  □
+              ╱｜  ｜  ｜╲                  ╲｜
+            08－07－05－06－□                 □
+              ╲｜  ｜  ｜╱                    ｜
+    03         □－□－□         13     15－□
+    ｜            ╲｜╱            ｜          ｜
+    02－□          04            □          □     20
+          ╲        ｜             ｜          ｜      ｜
+            □      □          12－□－□－□－□－□－□－21－□－23－□－□     26－25
+           ｜      ｜        ╱        ｜      ｜              ｜            ╲       ｜
+            □      □－□－□          14      □－18        22           24－□－□
+              ╲  ╱    ｜                       ｜                                     ｜
+                01     □                       □                                     28－27
+                    ╱｜                      ｜
+                    □－11－□                  19
+
+
+01 westdown 可至[[dreamseven:map:recallstart |主要地圖]] (步靈城以北)
+
+02 綠林大盜 金過涯(Gin kore ya), 此處可[[dreamseven:info:quest:godadv |解迷]]
+
+03 仇天錚(Tan gen), 此處可[[dreamseven:info:quest:godadv |解迷]]
+
+04 隨機出現花鹿(Deer)
+
+05 [[dreamseven:info:club:moon |月族]]入口
+
+06 隨機出現小蟲(Little bug)
+
+07 隨機出現蚊子(Mosquito)
+
+08 隨機出現黑猩猩(Black orangutan)
+
+09 二隻獅子(Lion), 主動攻擊
+
+10 northeast 可至[[dreamseven:map:mountainroadmap |山路]]
+
+11 southeast 可至[[dreamseven:map:yellowsandhillmap |黃沙陵]]
+
+12 西華門
+
+13 當舖
+
+14 天香客棧, 此處可[[dreamseven:info:quest:hungchen_sword_quest |解迷]]
+
+15 清心藥舖
+
+16 enter 可至[[dreamseven:map:skycityofficemap |天城官府]]
+
+17 北武門, north 可至[[dreamseven:map:mountainroadmap |山路]]
+
+18 打鐵舖
+
+19 南午門, southdown 一路往下可至[[dreamseven:map:yellowsandhillmap |黃沙陵]]
+
+20 布莊，可接任務[[dreamseven:info:quest:newquest_the_request_by_yue|辛若羽的委託]]
+
+21 enter 可至[[dreamseven:map:shihousemap |施府]]
+
+22 萬金錢莊
+
+23 東華門
+
+24 jump down 可至[[dreamseven:map:littleriver |小溪]]
+
+25 open door 可開啟往 26 之路
+
+27 三隻小灰熊(Bear), 為主動攻擊
+
+28 south 可至[[dreamseven:map:ghostfroestmap |鬼斷森林]]北端
+
+  last adjust 2007/10/31
+  By Belle
