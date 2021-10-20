@@ -3,7 +3,7 @@ write by Acme- 2007.02.04
  */
 
 #define QUEST_SIZE 40
-#pragma save_binary
+// #pragma save_binary
 #include <ansi.h>
 
 inherit F_CLEAN_UP;

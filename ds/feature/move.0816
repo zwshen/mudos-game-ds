@@ -1,7 +1,7 @@
 // move.c
 
 //#pragma optimize
-#pragma save_binary
+// #pragma save_binary
 
 #include <dbase.h>
 

@@ -1,5 +1,5 @@
 // aliasd.c
-//#pragma save_binary
+// #pragma save_binary
 mapping global_alias = ([
         "l":    "look",
         "n":    "go north",

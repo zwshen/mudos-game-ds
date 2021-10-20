@@ -1,6 +1,6 @@
 // securityd.c
 
-#pragma save_binary
+// #pragma save_binary
 
 #include <login.h>
 

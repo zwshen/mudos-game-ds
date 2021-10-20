@@ -1,6 +1,6 @@
 // move.c
 //#pragma optimize
-//#pragma save_binary
+// #pragma save_binary
 #include <dbase.h>
 nosave int weight = 0;
 nosave int encumb = 0, max_encumb = 0;

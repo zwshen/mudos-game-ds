@@ -1,7 +1,7 @@
 // message.c
-//#pragma save_binary
-// 最後修改人: Shengsan@DS
-// 最後修改日期: 2000/05/17
+// #pragma save_binary
+// 最?嵾蚹鴾H: Shengsan@DS
+// 最?嵾蚹鴾暾?: 2000/05/17
 #include <ansi.h>
 #include <dbase.h>
 
@@ -74,7 +74,7 @@ void receive_message(string msgclass, string msg)
 			case "outdoor":
 				if( !environment() || !environment()->query("outdoors") )
 					return;
-				// add by shengsan for 地形氣候訊息
+				// add by shengsan for ?a?峸藄埶T??
 				if( msgclass && msgclass!="vision"
 				&& msgclass!=environment()->query("outdoors") )
 					return;
@@ -107,7 +107,7 @@ void write_prompt()
 	if( sizeof(msg_buffer) )
 	{
 		if(query_temp("halt_msg_in_edit")) this_object()->delete_temp("halt_msg_in_edit");
-		receive(BOLD "[輸入時暫存訊息]\n" NOR);
+		receive(BOLD "[輸?J?冱?存訊??]\n" NOR);
 		for(int i=0; i<sizeof(msg_buffer); i++)
 			receive(msg_buffer[i]);
 		msg_buffer = ({});
@@ -125,9 +125,9 @@ void write_prompt()
 	if(!stringp(arg))
 	{
 		if (wiz_level(this_object())>1)
-			arg = "%L> ";	// 巫師預設值
+			arg = "%L> ";	// ?躓v預設??
 		else
-			arg = "> ";	// 玩家預設值
+			arg = "> ";	// ?戛a預設??
 	}
 	ex = explode(arg,"");
 	prtout = "";
@@ -139,46 +139,46 @@ void write_prompt()
 			if( i < sizeof(ex)-1 )
 			switch(ex[++i])
 			{
-				// 非內定參數時顯示 ?_? 符號
+				// 非內定參數?吇膆? ?_? 符號
 				default : tmp = "?_?"; break;
 				// 顯示 % 符號
 				case "%": tmp = "%"; break;
 				// 目前生命點數
 				case "h": tmp = this_object()->query("hp"); break;
-				// 最大生命點數
+				// 最?j生命點數
 				case "H": tmp = this_object()->query("max_hp"); break;
 				// 目前魔法點數
 				case "m": tmp = this_object()->query("mp"); break;
-				// 最大魔法點數
+				// 最?j魔法點數
 				case "M": tmp = this_object()->query("max_mp"); break;
 				// 目前內勁點數
 				case "a": tmp = this_object()->query("ap"); break;
-				// 最大內勁點數
+				// 最?j內勁點數
 				case "A": tmp = this_object()->query("max_ap"); break;
-				// 目前所處時空
+				// 目前所處?阞?
 				case "T": env = environment(this_object());
 					  if(!env)
 					  	tmp = "虛無";
 					  else switch(NATURE_D->which_world(env))
 					  {
-					  	case 1: tmp = "古代"; break;
-					  	case 2: tmp = "現代"; break;
+					  	case 1: tmp = "?j?N"; break;
+					  	case 2: tmp = "現?N"; break;
 					  	case 3: tmp = "未來"; break;
 					  	case 4: tmp = "妖魔"; break;
 					  	default: tmp = "夢幻";
 					  }
 					  break;
-				// 目前的戰鬥經驗值
+				// 目前?瑣埶?經驗??
 				case "c": tmp = this_object()->query("combat_exp"); break;
-				// 目前的經驗值
+				// 目前?爾g驗??
 				case "x": tmp = this_object()->query("exp"); break;
 				// 目前陣營
 				case "l": tmp = "/cmds/usr/score"->attitude_report(this_object()->query("evil"));
 					  tmp = replace_string(tmp, " ", "");
 					  break;
-				// 插入換行字元
+				// 插?J換行?r元
 				case "~": tmp = "\n"; break;
-				// 目前的工作目錄(限巫師使用)
+				// 目前?漱u?@目錄(???躓v使用)
 				case "L":
 					if (wiz_level(this_object())>1)
 					{
@@ -189,7 +189,7 @@ void write_prompt()
 				        else
 				        	tmp = "?_?";
 				        break;
-				// 目前的工作檔案(限巫師使用)
+				// 目前?漱u?@檔??(???躓v使用)
 				case "F":
 					if (wiz_level(this_object())>1)
 					{

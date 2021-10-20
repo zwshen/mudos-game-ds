@@ -3,7 +3,7 @@
 // 上次修改日期: 1999.11.7 0:51
 // 上次修改者: Luky
 // 修改內容: 修改使用者資料版本的確認和login錯誤紀錄
-//#pragma save_binary
+// #pragma save_binary
 #include <ansi.h>
 #include <command.h>
 #include <login.h>

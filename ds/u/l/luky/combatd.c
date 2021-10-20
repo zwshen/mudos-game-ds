@@ -1,7 +1,7 @@
 // combatd.c
 
 //#pragma optimize all
-#pragma save_binary
+// #pragma save_binary
 #include <ansi.h>
 #include <skill.h>
 #include <weapon.h>

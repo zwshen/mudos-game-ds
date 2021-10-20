@@ -1,5 +1,5 @@
 // command.c
-//#pragma save_binary
+// #pragma save_binary
 
 #include <command.h>
 #include <dbase.h>

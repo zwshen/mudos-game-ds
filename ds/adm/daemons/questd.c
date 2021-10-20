@@ -1,5 +1,5 @@
 // natured.c
-//#pragma save_binary
+// #pragma save_binary
 #include <ansi.h>
 #define BASIC_PAGES 3
 #define QUEST_LIST 3

@@ -8,7 +8,7 @@
 
 
 //#include <dbase.h>
-//#pragma save_binary
+// #pragma save_binary
 #include <ansi.h>
 
 inherit F_TREEMAP;

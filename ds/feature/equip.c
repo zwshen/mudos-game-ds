@@ -11,7 +11,7 @@
   * 加上新種族及對裝備的限制
   */
 
-//#pragma save_binary
+// #pragma save_binary
 #include <dbase.h>
 #include <weapon.h>
 

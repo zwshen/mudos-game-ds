@@ -1,5 +1,5 @@
 // alias.c
-//#pragma save_binary
+// #pragma save_binary
 #define MAX_REPEAT 60
 #define MAX_ALIASES 100
 #define HISTORY_BUFFER_SIZE 10

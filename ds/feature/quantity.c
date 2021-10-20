@@ -1,5 +1,5 @@
 // /feature/quantiy.c		by shengsan@DS
-//#pragma save_binary
+// #pragma save_binary
 #include <dbase.h>
 
 

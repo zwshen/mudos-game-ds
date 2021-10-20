@@ -4,7 +4,7 @@
 
 // update by tmr 2008/02/11
 
-#pragma save_binary
+// #pragma save_binary
 
 #include <ansi.h>
 

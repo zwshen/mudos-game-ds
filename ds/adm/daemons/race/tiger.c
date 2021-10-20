@@ -1,6 +1,6 @@
 // tiger.c ªê¤H
 // Tmr 2006/11/10
-#pragma save_binary
+// #pragma save_binary
 #include <race.h>
 
 inherit F_DBASE;

@@ -1,4 +1,4 @@
-//#pragma save_binary
+// #pragma save_binary
 
 //      File    :  /adm/daemons/userid.c
 //	Creator	:  Watcher@TMI-2  (5/93)

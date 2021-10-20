@@ -23,7 +23,7 @@
 //	int     LT_YDAY         一年中的第幾天 (0..365)
 //	int     LT_GMTOFF       格林威治時間相差的秒數 (UTC)
 //	string  LT_ZONE         本地時區的名稱
-//#pragma save_binary
+// #pragma save_binary
 #include <localtime.h>
 #include <ansi.h>
 #include <login.h>

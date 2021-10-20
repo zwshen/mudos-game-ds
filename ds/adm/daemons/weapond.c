@@ -1,5 +1,5 @@
 // weapond.c
-//#pragma save_binary
+// #pragma save_binary
 #include <ansi.h>
 #include <combat.h>
 

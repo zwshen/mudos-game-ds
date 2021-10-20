@@ -1,5 +1,5 @@
 //¬ö¿ýºëÆF. by Luky 1999/8/10
-//#pragma save_binary
+// #pragma save_binary
 #include <ansi.h>
 #define INIT_JACK_POT 100
 #define MAX_TICKET 3000

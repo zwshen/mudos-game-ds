@@ -2,7 +2,7 @@
 // A minor chinese-english or english-chinese converter.
 // by Annihilator@Eastern.Stories 09-27-93
 // adapted for ES2-lib 01-18-95
-//#pragma save_binary
+// #pragma save_binary
 #include <localtime.h>
 
 #define DICTIONARY DATA_DIR + "chinese"

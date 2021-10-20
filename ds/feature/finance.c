@@ -13,7 +13,7 @@
 //
 //
 //
-//#pragma save_binary
+// #pragma save_binary
 
 int money_type()
 {

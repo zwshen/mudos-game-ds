@@ -2,7 +2,7 @@
 //
 // 	This is the standard skill daemon object. All objects defining a skill
 //	should inherit this as its skeleton.
-#pragma save_binary
+// #pragma save_binary
 inherit F_CLEAN_UP;
 
 void create()

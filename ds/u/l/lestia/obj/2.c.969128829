@@ -1,6 +1,6 @@
 // logind.c by kyoe
 
-#pragma save_binary
+// #pragma save_binary
 #include <ansi.h>
 #include <command.h>
 #include <login.h>

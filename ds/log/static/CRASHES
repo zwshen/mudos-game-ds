@@ -7,3 +7,6 @@ MUD Crashed on: Fri Aug 19 00:47:14 2016, error: Process interrupted
 MUD Crashed on: Fri Aug 19 00:51:22 2016, error: Process interrupted
 MUD Crashed on: Fri Aug 19 01:04:39 2016, error: Process terminated
 MUD Crashed on: Fri Aug 19 01:06:08 2016, error: Process interrupted
+MUD Crashed on: Tue Oct 19 17:49:49 2021, error: SIGINT: Process interrupted
+MUD Crashed on: Wed Oct 20 12:45:48 2021, error: SIGINT: Process interrupted
+MUD Crashed on: Wed Oct 20 13:19:16 2021, error: SIGINT: Process interrupted

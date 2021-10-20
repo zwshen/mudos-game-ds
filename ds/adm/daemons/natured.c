@@ -1,5 +1,5 @@
 // natured.c
-//#pragma save_binary
+// #pragma save_binary
 #include <localtime.h>
 #include <ansi.h>
 #define TIME_TICK ((time()%(60*24*3600))*365)//mud中60年一輪=現實中60天
@@ -71,12 +71,12 @@ void trigger_condition() {
                         msg = HIG"突然你胸臆之間一陣翻騰，你中暑了。\n"NOR;
                         break;
                 case "九":
-                case "十":
-                case "十一":
+                case "十":
+                case "十一":
                         ill = "ill_shanghan";
                          msg = HIG"你打了個冷顫，頭昏沉沉的，得到傷寒病了。\n"NOR;
                         break;
-                case "十二":
+                case "十二":
                 case "一":
                 case "二":
                         ill = "ill_dongshang";
@@ -338,8 +338,8 @@ void event_midnight()
                         break;
                 //autumn weather
                 case "九":
-                case "十":
-                case "十一":
+                case "十":
+                case "十一":
                         switch(random(3))
                         {
                         case 0:
@@ -351,7 +351,7 @@ void event_midnight()
                         }
                         break;
                 //winter weather
-                case "十二":
+                case "十二":
                 case "一":
                 case "二":
                         switch(random(3))
