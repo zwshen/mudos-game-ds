@@ -4,7 +4,7 @@
 
 ## IP 210.59.236.38 7000
 
-## 玩家手冊 (User Manual)：https://github.com/zwshen/mudos-game-ds/tree/master/wiki
+## 玩家手冊 (User Manual)：https://github.com/zwshen/mudos-game-ds/tree/master/player-manual
 
 ## Recommended telnet tools
 - zmud (windwos)
