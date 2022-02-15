@@ -3,7 +3,7 @@ Title: ¦a¹Ï½s¿è¾¹ v1.0
 Coder: Luky 03/11/2000
 MUD: ds.muds.net 7000
 */
-#pragma save_binary
+// #pragma save_binary
 #define HAVE_OBLIQUE_LINK 0
 inherit ITEM;
 mixed *maps;

@@ -1,7 +1,7 @@
 // door.c
 // 將門與房間分離, 以節省記憶體
 // 往後要使用門時, 必須加上 inherit DOOR;
-#pragma save_binary
+// #pragma save_binary
 #include <dbase.h>
 #include <door.h>
 #define LOOK_CMD		"/cmds/std/look"

@@ -1,5 +1,5 @@
 // beast.c
-#pragma save_binary
+// #pragma save_binary
 #include <race.h>
 inherit F_DBASE;
 mapping combat_action =

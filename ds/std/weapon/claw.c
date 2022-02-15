@@ -1,5 +1,5 @@
 // claw.c
-//#pragma save_binary
+// #pragma save_binary
 #include <weapon.h>
 
 #ifdef AS_FEATURE

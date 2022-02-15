@@ -1,5 +1,5 @@
 // damage.c
-//#pragma save_binary
+// #pragma save_binary
 #include <ansi.h>
 
 varargs int receive_damage(string type, int damage, object who, string elem)

@@ -1,4 +1,4 @@
-#pragma save_binary
+// #pragma save_binary
 #define MUD_PORT __PORT__
 #include <net/socket.h>
 inherit F_CLEAN_UP;

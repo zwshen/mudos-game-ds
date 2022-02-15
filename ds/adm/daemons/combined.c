@@ -1,5 +1,5 @@
 // combined.c <luky>
-//#pragma save_binary
+// #pragma save_binary
 #include <ansi.h>
 inherit F_DBASE;
 

@@ -1,5 +1,5 @@
 // /feature/material.c		by Shengsan@DS
-//#pragma save_binary
+// #pragma save_binary
 #include <dbase.h>
 #include <material.h>
 #include <weapon.h>

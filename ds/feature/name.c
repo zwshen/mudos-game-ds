@@ -1,5 +1,5 @@
 // name.c
-//#pragma save_binary
+// #pragma save_binary
 #include <ansi.h>
 #include <dbase.h>
 #include <weapon.h>

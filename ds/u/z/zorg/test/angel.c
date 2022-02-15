@@ -1,5 +1,5 @@
 // angel.c       ¤Ñ¨Ï by Zorg@DS
-#pragma save_binary
+// #pragma save_binary
 // A normal human is at least 30 kg weight
 #define BASE_WEIGHT 40000
 inherit F_DBASE;

@@ -1,5 +1,5 @@
 // vendor.c
-//#pragma save_binary
+// #pragma save_binary
 #include <dbase.h>
 
 int buy_object(object me, string what)

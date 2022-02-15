@@ -1,6 +1,6 @@
 // char.c
 
-//#pragma save_binary
+// #pragma save_binary
 #include <race.h>
 #include <action.h>
 #include <ansi.h>

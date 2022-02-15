@@ -1,5 +1,5 @@
 // natured.c
-#pragma save_binary
+// #pragma save_binary
 #define TIME_TICK (time()*60)
 
 static int current_day_phase;

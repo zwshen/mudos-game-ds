@@ -1,5 +1,5 @@
 // emoted.c
-//#pragma save_binary
+// #pragma save_binary
 #include <net/dns.h>
 #include <net/emote.h>
 #include <ansi.h>

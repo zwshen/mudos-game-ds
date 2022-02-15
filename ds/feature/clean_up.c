@@ -1,6 +1,6 @@
 // clean_up.c
 // by Annihilator@ES2
-//#pragma save_binary
+// #pragma save_binary
 int clean_up()
 {
 	object *inv;

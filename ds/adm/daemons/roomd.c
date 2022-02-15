@@ -3,7 +3,7 @@
 //
 // Write By Luky (03/01/2000) : auto_complete
 // 加入249行 -alick@ds 8/1/2003
-//#pragma save_binary
+// #pragma save_binary
 //顯示大小為1+2*MAP_LENGTH
 #define MAP_LENGTH 8
 //顯示大小為1+2*MAP_HEIGHT

@@ -16346,3 +16346,69 @@
 
 [Sun Jan 22 17:20:33 2017] /open/world1/tmr/area/npc/obj/dragon-blood.c line 57: Warning: Unused local variable 'msg' before the end of line
 
+[Tue Oct 19 17:03:08 2021] /adm/daemons/channeld.c line 510: Warning: Unused local variable 'i' before the end of line
+
+[Tue Oct 19 17:04:55 2021] /feature/damage.c line 10: Warning: Unknown #pragma, ignored. before #include <ansi2.h>
+
+[Tue Oct 19 17:05:02 2021] /adm/daemons/race/titan.c line 3: Warning: Unknown #pragma, ignored. before #include <race.h>
+
+[Tue Oct 19 17:05:02 2021] /std/skill.c line 5: Warning: Unknown #pragma, ignored. before inherit F_CLEAN_UP;
+
+[Tue Oct 19 17:05:02 2021] /std/room.c line 3: Warning: Unknown #pragma, ignored. before the end of line
+
+[Tue Oct 19 17:05:02 2021] /adm/daemons/race/human.c line 2: Warning: Unknown #pragma, ignored. before #include <race.h>
+
+[Tue Oct 19 17:05:02 2021] /adm/daemons/newquestd.c line 6: Warning: Unknown #pragma, ignored. before #include <ansi.h>
+
+[Tue Oct 19 17:06:06 2021] /adm/daemons/race/beast.c line 2: Warning: Unknown #pragma, ignored. before #include <race.h>
+
+[Tue Oct 19 17:06:13 2021] /feature/equip.c line 239: Warning: Unused local variable 'type' before the end of line
+
+[Tue Oct 19 17:12:39 2021] /feature/water.c line 102: Warning: Unused local variable 'type' before the end of line
+
+[Tue Oct 19 17:15:00 2021] /adm/daemons/matchd.c line 144: Warning: Unused local variable 'group' before the end of line
+
+[Tue Oct 19 17:15:00 2021] /adm/daemons/matchd.c line 144: Warning: Unused local variable 'no' before the end of line
+
+[Tue Oct 19 17:15:00 2021] /adm/daemons/matchd.c line 351: Warning: Unused local variable 'list' before the end of line
+
+[Wed Oct 20 10:38:31 2021] /adm/daemons/channeld.c line 510: Warning: Unused local variable 'i' before the end of line
+
+[Wed Oct 20 12:44:02 2021] /adm/daemons/channeld.c line 510: Warning: Unused local variable 'i' before the end of line
+
+[Wed Oct 20 12:45:02 2021] /adm/daemons/matchd.c line 144: Warning: Unused local variable 'group' before the end of line
+
+[Wed Oct 20 12:45:02 2021] /adm/daemons/matchd.c line 144: Warning: Unused local variable 'no' before the end of line
+
+[Wed Oct 20 12:45:02 2021] /adm/daemons/matchd.c line 351: Warning: Unused local variable 'list' before the end of line
+
+[Wed Oct 20 12:45:50 2021] /adm/daemons/channeld.c line 510: Warning: Unused local variable 'i' before the end of line
+
+[Wed Oct 20 13:16:42 2021] /adm/daemons/channeld.c line 510: Warning: Unused local variable 'i' before the end of line
+
+[Wed Oct 20 13:17:45 2021] /feature/damage.c line 10: Warning: Unknown #pragma, ignored. before #include <ansi2.h>
+
+[Wed Oct 20 13:17:45 2021] /adm/daemons/race/titan.c line 3: Warning: Unknown #pragma, ignored. before #include <race.h>
+
+[Wed Oct 20 13:17:45 2021] /std/skill.c line 5: Warning: Unknown #pragma, ignored. before inherit F_CLEAN_UP;
+
+[Wed Oct 20 13:17:45 2021] /std/room.c line 3: Warning: Unknown #pragma, ignored. before the end of line
+
+[Wed Oct 20 13:17:45 2021] /adm/daemons/race/human.c line 2: Warning: Unknown #pragma, ignored. before #include <race.h>
+
+[Wed Oct 20 13:17:45 2021] /adm/daemons/newquestd.c line 6: Warning: Unknown #pragma, ignored. before #include <ansi.h>
+
+[Wed Oct 20 13:19:26 2021] /adm/daemons/channeld.c line 510: Warning: Unused local variable 'i' before the end of line
+
+[Wed Oct 20 13:19:32 2021] /feature/damage.c line 10: Warning: Unknown #pragma, ignored. before #include <ansi2.h>
+
+[Wed Oct 20 13:19:36 2021] /adm/daemons/race/titan.c line 3: Warning: Unknown #pragma, ignored. before #include <race.h>
+
+[Wed Oct 20 13:19:36 2021] /std/skill.c line 5: Warning: Unknown #pragma, ignored. before inherit F_CLEAN_UP;
+
+[Wed Oct 20 13:19:36 2021] /std/room.c line 3: Warning: Unknown #pragma, ignored. before the end of line
+
+[Wed Oct 20 13:19:36 2021] /adm/daemons/race/human.c line 2: Warning: Unknown #pragma, ignored. before #include <race.h>
+
+[Wed Oct 20 13:19:36 2021] /adm/daemons/newquestd.c line 6: Warning: Unknown #pragma, ignored. before #include <ansi.h>
+

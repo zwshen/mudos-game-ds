@@ -7,7 +7,7 @@
 // alickyuen@ds 2001-11-10
 // Change : 更改die()中的替死物品部份
 
-#pragma save_binary
+// #pragma save_binary
 #include <ansi2.h>
 #include <dbase.h>
 #include <login.h>

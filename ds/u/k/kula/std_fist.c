@@ -1,5 +1,5 @@
 // 單手 fist.c  <修改 TWOHANDS 的部分而己>
-//#pragma save_binary
+// #pragma save_binary
 #include <weapon.h>
 
 #ifdef AS_FEATURE

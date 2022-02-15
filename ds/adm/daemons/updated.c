@@ -1,5 +1,5 @@
 // updated.c
-//#pragma save_binary
+// #pragma save_binary
 void create() { seteuid(getuid()); }
 
 void check_user(object ob)

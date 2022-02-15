@@ -2,7 +2,7 @@
 // room_d.c
 //
 // Write By Luky (03/01/2000) : auto_complete
-//#pragma save_binary
+// #pragma save_binary
 //顯示大小為1+2*MAP_LENGTH
 #define MAP_LENGTH 8
 //顯示大小為1+2*MAP_HEIGHT

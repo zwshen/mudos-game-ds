@@ -1,5 +1,5 @@
 // condition.c
-//#pragma save_binary
+// #pragma save_binary
 #include <condition.h>
 
 mapping conditions=([]);

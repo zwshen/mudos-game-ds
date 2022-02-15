@@ -1,5 +1,5 @@
 // more.c
-//#pragma save_binary
+// #pragma save_binary
 #include <ansi.h>
 
 void more(string cmd, string *text, int line)

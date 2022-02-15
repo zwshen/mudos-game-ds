@@ -1,5 +1,5 @@
 // monster.c
-//#pragma save_binary
+// #pragma save_binary
 #include <race.h>
 mapping combat_action =
 ([

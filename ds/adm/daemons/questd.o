@@ -1,5 +1,5 @@
 // natured.c
-#pragma save_binary
+// #pragma save_binary
 #include <localtime.h>
 #include <ansi.h>
 #define REAL_TIME_TICK (time())

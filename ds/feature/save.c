@@ -1,5 +1,5 @@
 // save.c
-//#pragma save_binary
+// #pragma save_binary
 
 int save()
 {

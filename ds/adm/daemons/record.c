@@ -1,5 +1,5 @@
 //¬ö¿ıºëÆF. by Luky 1999/8/10
-//#pragma save_binary
+// #pragma save_binary
 #include <localtime.h>
 #include <ansi2.h>
 #include <command.h>

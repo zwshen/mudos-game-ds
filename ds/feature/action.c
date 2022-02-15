@@ -1,5 +1,5 @@
 // action.c
-//#pragma save_binary
+// #pragma save_binary
 nosave mixed busy, interrupt;
 nosave int block;
 varargs void start_busy(mixed new_busy, mixed new_interrupt)

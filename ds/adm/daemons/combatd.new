@@ -2,7 +2,7 @@
 // 更新日期: 1999.10.6
 // 修改人: Luky
 // #pragma optimize all
-//#pragma save_binary
+// #pragma save_binary
 #include <ansi.h>
 #include <skill.h>
 #include <weapon.h>

@@ -3,7 +3,7 @@
 //
 // By Annihilator (11/07/94)
 // Re-write By Luky (03/01/2000) : auto_complete
-#pragma save_binary
+// #pragma save_binary
 mapping search = ([]);
 
 void rehash(string dir)
